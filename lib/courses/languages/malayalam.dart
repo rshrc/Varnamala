@@ -14,54 +14,692 @@ List<List<dynamic>> getMalayalamData(String firstName) {
             "questions": [
               {
                 "type": "multiple_choice",
-                "prompt": "Choose an appropriate response",
-                "sentence": "Ninte peru entha?",
-                "options": [
-                  "Ente peru $firstName.",
-                  "Njan padikkunnu.",
-                  "Enikku ariyilla."
-                ],
-                "correctAnswer": "Ente peru $firstName.",
-                "translatedSentence": "My name is $firstName."
+                "prompt": "Choose the word for Yes",
+                "sentence": "Yes",
+                "options": ["Athe", "Alla", "Illa"],
+                "correctAnswer": "Athe",
+                "translatedSentence": "Yes",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for No",
+                "sentence": "No",
+                "options": ["Alla", "Athe", "Sheri"],
+                "correctAnswer": "Alla",
+                "translatedSentence": "No",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Njan vidyarthi.",
-                "options": [
-                  "I am a student.",
-                  "You are a student.",
-                  "They are students."
-                ],
-                "correctAnswer": "I am a student."
+                "sentence": "Nandi",
+                "options": ["Thank you", "Sorry", "Please"],
+                "correctAnswer": "Thank you",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Water",
+                "sentence": "Water",
+                "options": ["Vellam", "Choru", "Paal"],
+                "correctAnswer": "Vellam",
+                "translatedSentence": "Water",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Njan bhakshanam kazhikkukayanu.",
-                "options": ["I am eating.", "I am walking.", "I am sitting."],
-                "correctAnswer": "I am eating."
+                "sentence": "Sheri",
+                "options": ["Okay", "No", "Maybe"],
+                "correctAnswer": "Okay",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Food",
+                "sentence": "Food",
+                "options": ["Bhakshanam", "Vellam", "Veedu"],
+                "correctAnswer": "Bhakshanam",
+                "translatedSentence": "Food",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Nale varam.",
-                "options": [
-                  "I will come tomorrow.",
-                  "I am going now.",
-                  "I will not come."
-                ],
-                "correctAnswer": "I will come tomorrow."
+                "sentence": "Veedu",
+                "options": ["House", "Car", "Road"],
+                "correctAnswer": "House",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Rice",
+                "sentence": "Rice",
+                "options": ["Choru", "Paal", "Chaaya"],
+                "correctAnswer": "Choru",
+                "translatedSentence": "Rice",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Paal",
+                "options": ["Milk", "Water", "Tea"],
+                "correctAnswer": "Milk",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Tea",
+                "sentence": "Tea",
+                "options": ["Chaaya", "Vellam", "Choru"],
+                "correctAnswer": "Chaaya",
+                "translatedSentence": "Tea",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nalla",
+                "options": ["Good", "Bad", "Big"],
+                "correctAnswer": "Good",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Big",
+                "sentence": "Big",
+                "options": ["Valuthu", "Cheruthu", "Nalla"],
+                "correctAnswer": "Valuthu",
+                "translatedSentence": "Big",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Cheruthu",
+                "options": ["Small", "Big", "Long"],
+                "correctAnswer": "Small",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Book",
+                "sentence": "Book",
+                "options": ["Pusthakam", "Pena", "Kaseera"],
+                "correctAnswer": "Pusthakam",
+                "translatedSentence": "Book",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pena",
+                "options": ["Pen", "Book", "Chair"],
+                "correctAnswer": "Pen",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vishakkunnu.",
+                "options": ["I am hungry.", "I am tired.", "I am happy."],
+                "correctAnswer": "I am hungry.",
               },
               {
                 "type": "multiple_choice",
                 "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku vellam veno?",
+                "options": ["Athe, venam.", "Njan urangi.", "Athu veedu."],
+                "correctAnswer": "Athe, venam.",
+                "translatedSentence": "Yes, I want it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan choru kazhichu.",
+                "options": ["I ate rice.", "I drank water.", "I saw a book."],
+                "correctAnswer": "I ate rice.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Now",
+                "sentence": "Now",
+                "options": ["Ippol", "Innale", "Naale"],
+                "correctAnswer": "Ippol",
+                "translatedSentence": "Now",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku chaaya venam.",
+                "options": ["I want tea.", "I want water.", "I want rice."],
+                "correctAnswer": "I want tea.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu ente veedu.",
+                "options": [
+                  "This is my house.",
+                  "That is my car.",
+                  "This is my book.",
+                ],
+                "correctAnswer": "This is my house.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku sughamano?",
+                "options": [
+                  "Athe, enikku sugham.",
+                  "Athu vellam.",
+                  "Njan pena.",
+                ],
+                "correctAnswer": "Athe, enikku sugham.",
+                "translatedSentence": "Yes, I am well.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan paal kudichu.",
+                "options": ["I drank milk.", "I ate food.", "I read a book."],
+                "correctAnswer": "I drank milk.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Today",
+                "sentence": "Today",
+                "options": ["Innu", "Naale", "Innale"],
+                "correctAnswer": "Innu",
+                "translatedSentence": "Today",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu nalla bhakshanam.",
+                "options": [
+                  "This is good food.",
+                  "This is a big house.",
+                  "That is my pen.",
+                ],
+                "correctAnswer": "This is good food.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku oru pusthakam venam.",
+                "options": ["I want a book.", "I want a pen.", "I want water."],
+                "correctAnswer": "I want a book.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veedu evide?",
+                "options": [
+                  "Ente veedu avide.",
+                  "Enikku vishakkunnu.",
+                  "Njan choru kazhichu.",
+                ],
+                "correctAnswer": "Ente veedu avide.",
+                "translatedSentence": "My house is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu valuthu.",
+                "options": ["This is big.", "This is small.", "This is good."],
+                "correctAnswer": "This is big.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Tomorrow",
+                "sentence": "Tomorrow",
+                "options": ["Naale", "Innu", "Ippol"],
+                "correctAnswer": "Naale",
+                "translatedSentence": "Tomorrow",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pusthakam vaayichu.",
+                "options": ["I read a book.", "I drank tea.", "I saw a house."],
+                "correctAnswer": "I read a book.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ini choru venda.",
+                "options": [
+                  "I don't want rice now.",
+                  "I want more rice.",
+                  "I like rice.",
+                ],
+                "correctAnswer": "I don't want rice now.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthenkilum venamo?",
+                "options": [
+                  "Venda, nandi.",
+                  "Athu ente veedu.",
+                  "Njan urangunnu.",
+                ],
+                "correctAnswer": "Venda, nandi.",
+                "translatedSentence": "No, thank you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu nalla divasam.",
+                "options": [
+                  "Today is a good day.",
+                  "Tomorrow is a big day.",
+                  "This is a small book.",
+                ],
+                "correctAnswer": "Today is a good day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Yesterday",
+                "sentence": "Yesterday",
+                "options": ["Innale", "Naale", "Innu"],
+                "correctAnswer": "Innale",
+                "translatedSentence": "Yesterday",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan veetil aanu.",
+                "options": [
+                  "I am at home.",
+                  "I am at school.",
+                  "I am at work.",
+                ],
+                "correctAnswer": "I am at home.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ithu manassilaayilla.",
+                "options": [
+                  "I did not understand this.",
+                  "I know this well.",
+                  "I like this a lot.",
+                ],
+                "correctAnswer": "I did not understand this.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ariyamo?",
+                "options": [
+                  "Illa, enikku ariyilla.",
+                  "Athu nalla choru.",
+                  "Njan chaaya kudichu.",
+                ],
+                "correctAnswer": "Illa, enikku ariyilla.",
+                "translatedSentence": "No, I don't know.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu veetil undu.",
+                "options": [
+                  "I am at home today.",
+                  "I was at home yesterday.",
+                  "I will be at home tomorrow.",
+                ],
+                "correctAnswer": "I am at home today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bhakshanam nallathaano?",
+                "options": [
+                  "Athe, valare nallathu.",
+                  "Ippol vishakkunnu.",
+                  "Athu ente pena.",
+                ],
+                "correctAnswer": "Athe, valare nallathu.",
+                "translatedSentence": "Yes, it is very good.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vellam thanna.",
+                "options": ["Give me water.", "I drank water.", "I want tea."],
+                "correctAnswer": "Give me water.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu rathriyil choru undaakkum.",
+                "options": [
+                  "I will make rice tonight.",
+                  "I made rice yesterday.",
+                  "I am eating rice now.",
+                ],
+                "correctAnswer": "I will make rice tonight.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ente veedu kaananamo?",
+                "options": [
+                  "Athe, enikku kaananam.",
+                  "Illa, njan urangi.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer": "Athe, enikku kaananam.",
+                "translatedSentence": "Yes, I want to see it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veedu ivide ninnu adhikam dooram alla.",
+                "options": [
+                  "My house is not far from here.",
+                  "My house is very far from here.",
+                  "My house is next to yours.",
+                ],
+                "correctAnswer": "My house is not far from here.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee pusthakam ninakku ishtamaayo?",
+                "options": [
+                  "Athe, valare ishtaayi.",
+                  "Illa, enikku vellam venam.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer": "Athe, valare ishtaayi.",
+                "translatedSentence": "Yes, I liked it a lot.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku innu othiri joli undu.",
+                "options": [
+                  "I have a lot of work today.",
+                  "I have no work today.",
+                  "I finished my work yesterday.",
+                ],
+                "correctAnswer": "I have a lot of work today.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile chaaya kudichitt joliyk pokum.",
+                "options": [
+                  "I drink tea in the morning and go to work.",
+                  "I ate rice at night and slept.",
+                  "I read a book and went home.",
+                ],
+                "correctAnswer": "I drink tea in the morning and go to work.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil aarokke undu?",
+                "options": [
+                  "Ente amma-yum achan-um undu.",
+                  "Enikku vellam venda.",
+                  "Athu valiya pusthakam.",
+                ],
+                "correctAnswer": "Ente amma-yum achan-um undu.",
+                "translatedSentence": "My mother and father are there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee bhakshanam valare ishtapetu.",
+                "options": [
+                  "I liked this food very much.",
+                  "I did not like this food.",
+                  "I want more of this food.",
+                ],
+                "correctAnswer": "I liked this food very much.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Naale ninakku samayam undo?",
+                "options": [
+                  "Athe, naale enikku samayam undu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu ente pena aanu.",
+                ],
+                "correctAnswer": "Athe, naale enikku samayam undu.",
+                "translatedSentence": "Yes, I have time tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innale ee pusthakam muzhuvan vaayichu.",
+                "options": [
+                  "I read this whole book yesterday.",
+                  "I will read this book tomorrow.",
+                  "I am reading this book now.",
+                ],
+                "correctAnswer": "I read this whole book yesterday.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku innu veetil irunnu joli cheyyanam.",
+                "options": [
+                  "I want to work from home today.",
+                  "I want to go out today.",
+                  "I finished my work at home.",
+                ],
+                "correctAnswer": "I want to work from home today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthaanu venam, chaaya-yo paalo?",
+                "options": [
+                  "Enikku chaaya mathi.",
+                  "Njan veetil illa.",
+                  "Athu valare dooram.",
+                ],
+                "correctAnswer": "Enikku chaaya mathi.",
+                "translatedSentence": "Tea is enough for me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan naale rathri veetilekk thirichu varum.",
+                "options": [
+                  "I will return home tomorrow night.",
+                  "I came home last night.",
+                  "I am going home now.",
+                ],
+                "correctAnswer": "I will return home tomorrow night.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee veedu ninte swantham aano?",
+                "options": [
+                  "Athe, ithu ente swantham veedu.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu oru cheriya pena.",
+                ],
+                "correctAnswer": "Athe, ithu ente swantham veedu.",
+                "translatedSentence": "Yes, this is my own house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ithrayum bhakshanam venda, kurach mathi.",
+                "options": [
+                  "I don't want this much food, a little is enough.",
+                  "I want a lot more food.",
+                  "This food is not good at all.",
+                ],
+                "correctAnswer":
+                    "I don't want this much food, a little is enough.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan innu raavile neratte ezhunnettu chaaya undaakki.",
+                "options": [
+                  "I woke up early this morning and made tea.",
+                  "I slept late last night after tea.",
+                  "I will make tea tomorrow morning.",
+                ],
+                "correctAnswer": "I woke up early this morning and made tea.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Naam naale onnichu bhakshanam kazhikkam alle?",
+                "options": [
+                  "Athe, athu nallathaayirikkum.",
+                  "Illa, enikku ariyilla.",
+                  "Athu ente pusthakam alla.",
+                ],
+                "correctAnswer": "Athe, athu nallathaayirikkum.",
+                "translatedSentence": "Yes, that would be nice.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ini kurach vellam koodi thannaal mathi.",
+                "options": [
+                  "Just give me a little more water.",
+                  "I don't want any water now.",
+                  "I already drank all the water.",
+                ],
+                "correctAnswer": "Just give me a little more water.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetilekk enthu vazhiyaanu pokendathu?",
+                "options": [
+                  "Ee vazhiye neere pokuka.",
+                  "Athe, njan choru kazhichu.",
+                  "Illa, enikku samayam illa.",
+                ],
+                "correctAnswer": "Ee vazhiye neere pokuka.",
+                "translatedSentence": "Go straight this way.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan innale muzhuvan divasavum veetil thanne undaayirunnu.",
+                "options": [
+                  "I was at home the whole day yesterday.",
+                  "I will stay home the whole day tomorrow.",
+                  "I go to work every day.",
+                ],
+                "correctAnswer": "I was at home the whole day yesterday.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "greetings",
+        "image": Assets.images.hand.path,
+        "color": 0xffFFD700,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Namaskaram",
+                "options": ["Hello", "Goodbye", "Sorry"],
+                "correctAnswer": "Hello",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Thank you",
+                "sentence": "Thank you",
+                "options": ["Nandi", "Namaskaram", "Kshamikkuka"],
+                "correctAnswer": "Nandi",
+                "translatedSentence": "Thank you",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
                 "sentence": "Sughamano?",
-                "options": ["Sugham.", "Enikku ariyilla.", "Ente peru Vidya."],
-                "correctAnswer": "Sugham.",
-                "translatedSentence": "I am fine."
-              }
-            ]
+                "options": [
+                  "Are you well?",
+                  "What is your name?",
+                  "Where are you?",
+                ],
+                "correctAnswer": "Are you well?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Sorry",
+                "sentence": "Sorry",
+                "options": ["Kshamikkuka", "Nandi", "Athe"],
+                "correctAnswer": "Kshamikkuka",
+                "translatedSentence": "Sorry",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Poyi varatte",
+                "options": ["Goodbye", "Hello", "Please"],
+                "correctAnswer": "Goodbye",
+              },
+            ],
           },
           {
             "level": 2,
@@ -69,101 +707,2198 @@ List<List<dynamic>> getMalayalamData(String firstName) {
               {
                 "type": "multiple_choice",
                 "prompt": "Choose an appropriate response",
-                "sentence": "Ninte ooru evide?",
-                "options": [
-                  "Ente ooru Kochi.",
-                  "Enikku ariyilla.",
-                  "Nale varam."
-                ],
-                "correctAnswer": "Ente ooru Kochi."
+                "sentence": "Sughamano?",
+                "options": ["Sugham, nandi.", "Ente peru.", "Vellam venam."],
+                "correctAnswer": "Sugham, nandi.",
+                "translatedSentence": "Fine, thank you.",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Avaan ente anujan.",
-                "options": [
-                  "He is my friend.",
-                  "He is my younger brother.",
-                  "He is my cousin."
-                ],
-                "correctAnswer": "He is my younger brother."
+                "sentence": "Suprabhaatham",
+                "options": ["Good morning", "Good night", "Good evening"],
+                "correctAnswer": "Good morning",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Good night",
+                "sentence": "Good night",
+                "options": ["Shubharaathri", "Suprabhaatham", "Namaskaram"],
+                "correctAnswer": "Shubharaathri",
+                "translatedSentence": "Good night",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Avaan ente jyeshtan.",
-                "options": [
-                  "He is my friend.",
-                  "He is my elder brother.",
-                  "He is my cousin."
-                ],
-                "correctAnswer": "He is my elder brother."
+                "sentence": "Please",
+                "options": ["Dayavaayi", "Nandi", "Athe"],
+                "correctAnswer": "Dayavaayi",
               },
               {
                 "type": "multiple_choice",
                 "prompt": "Choose an appropriate response",
-                "sentence": "Ningal evide pokunnu?",
-                "options": [
-                  "Njan veettil pokukayanu.",
-                  "Ente veedu ita.",
-                  "Nale varam."
-                ],
-                "correctAnswer": "Njan veettil pokukayanu."
+                "sentence": "Namaskaram!",
+                "options": ["Namaskaram!", "Illa.", "Vellam."],
+                "correctAnswer": "Namaskaram!",
+                "translatedSentence": "Hello!",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kandathil santhosham",
+                "options": ["Nice to meet you", "See you later", "Take care"],
+                "correctAnswer": "Nice to meet you",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nandi!",
+                "options": ["Sandoshame.", "Illa.", "Choru venam."],
+                "correctAnswer": "Sandoshame.",
+                "translatedSentence": "You're welcome.",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Enikku Malayalam ariyam.",
+                "sentence": "Pinne kaanam",
+                "options": ["See you later", "Good morning", "Sorry"],
+                "correctAnswer": "See you later",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Welcome",
+                "sentence": "Welcome",
+                "options": ["Swaagatham", "Shubharaathri", "Kshamikkuka"],
+                "correctAnswer": "Swaagatham",
+                "translatedSentence": "Welcome",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sradhikkanam",
+                "options": ["Take care", "Come again", "Thank you"],
+                "correctAnswer": "Take care",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku innu enthundu vishesham?",
+                "options": [
+                  "Onnumilla, sugham.",
+                  "Athu ente veedu.",
+                  "Illa, pusthakam.",
+                ],
+                "correctAnswer": "Onnumilla, sugham.",
+                "translatedSentence": "Nothing much, I'm fine.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninne kandathil valare santhosham.",
+                "options": [
+                  "I am very happy to see you.",
+                  "I do not know you.",
+                  "Please come tomorrow.",
+                ],
+                "correctAnswer": "I am very happy to see you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Suprabhaatham!",
+                "options": [
+                  "Suprabhaatham! Sughamano?",
+                  "Illa, venda.",
+                  "Athu valuthu.",
+                ],
+                "correctAnswer": "Suprabhaatham! Sughamano?",
+                "translatedSentence": "Good morning! Are you well?",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellaavarkkum namaskaram.",
+                "options": [
+                  "Greetings to everyone.",
+                  "Goodbye to all.",
+                  "Thank you all.",
+                ],
+                "correctAnswer": "Greetings to everyone.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Poyi varatte.",
+                "options": [
+                  "Sheri, sradhikkanam.",
+                  "Enikku vishakkunnu.",
+                  "Athu ente pena.",
+                ],
+                "correctAnswer": "Sheri, sradhikkanam.",
+                "translatedSentence": "Okay, take care.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaikitt kandathil santhosham.",
+                "options": [
+                  "Good to see you in the evening.",
+                  "Sorry for coming late.",
+                  "Thank you for the food.",
+                ],
+                "correctAnswer": "Good to see you in the evening.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veettukaarkku sugham thanne?",
+                "options": [
+                  "Athe, ellaavarkkum sugham.",
+                  "Illa, njan urangi.",
+                  "Athu valiya veedu.",
+                ],
+                "correctAnswer": "Athe, ellaavarkkum sugham.",
+                "translatedSentence": "Yes, everyone is fine.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellaam nanmakalum nerunnu.",
+                "options": [
+                  "Wishing you all the best.",
+                  "Please come inside.",
+                  "See you tomorrow.",
+                ],
+                "correctAnswer": "Wishing you all the best.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthaayirunnu ninte divasam?",
+                "options": [
+                  "Nannaayirunnu, nandi.",
+                  "Athu ente pusthakam.",
+                  "Illa, venda.",
+                ],
+                "correctAnswer": "Nannaayirunnu, nandi.",
+                "translatedSentence": "It was good, thank you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Veendum kaanam.",
+                "options": [
+                  "See you again.",
+                  "Goodbye forever.",
+                  "Sorry to leave.",
+                ],
+                "correctAnswer": "See you again.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte sahaayathinu valare nandi.",
+                "options": [
+                  "Thank you very much for your help.",
+                  "Sorry for the trouble.",
+                  "Please help me now.",
+                ],
+                "correctAnswer": "Thank you very much for your help.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Kshamikkanam, njan vaikippoyi.",
+                "options": [
+                  "S4aramilla, kuzhappamilla.",
+                  "Athu valare cheruthu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "S4aramilla, kuzhappamilla.",
+                "translatedSentence": "It's alright, no problem.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ningalkku shubhadinam nerunnu.",
+                "options": [
+                  "Wishing you a good day.",
+                  "Wishing you good night.",
+                  "Thank you for coming.",
+                ],
+                "correctAnswer": "Wishing you a good day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Namukku pinne samsaarikkaam.",
+                "options": [
+                  "Sheri, pinne kaanam.",
+                  "Illa, choru venda.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer": "Sheri, pinne kaanam.",
+                "translatedSentence": "Okay, see you later.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellaam nannaayi varatte.",
+                "options": [
+                  "May everything go well.",
+                  "Please sit down here.",
+                  "I am very tired now.",
+                ],
+                "correctAnswer": "May everything go well.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninne kando ere naalaayi.",
+                "options": [
+                  "It has been long since I saw you.",
+                  "I saw you yesterday.",
+                  "I will see you soon.",
+                ],
+                "correctAnswer": "It has been long since I saw you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Sukhamaayirikkunno, valare naalaayi?",
+                "options": [
+                  "Athe, sughamaayi irikkunnu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu ente pena.",
+                ],
+                "correctAnswer": "Athe, sughamaayi irikkunnu.",
+                "translatedSentence": "Yes, I have been doing well.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte kudumbathinu ente namaskaram parayanam.",
+                "options": [
+                  "Please give my greetings to your family.",
+                  "Please come to my house.",
+                  "Thank you for the food.",
+                ],
+                "correctAnswer": "Please give my greetings to your family.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Pokunnathinu munpu chaaya kudikkunno?",
+                "options": [
+                  "Venda, nandi, njan pokatte.",
+                  "Athu valuthaanu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "Venda, nandi, njan pokatte.",
+                "translatedSentence": "No thanks, let me leave.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nammal veendum kaanumenn urapp.",
+                "options": [
+                  "I am sure we will meet again.",
+                  "We may not meet again.",
+                  "We met a long time ago.",
+                ],
+                "correctAnswer": "I am sure we will meet again.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte janmadinam aashamsikkunnu.",
+                "options": [
+                  "I wish you a happy birthday.",
+                  "Thank you for the gift.",
+                  "Please come to the party.",
+                ],
+                "correctAnswer": "I wish you a happy birthday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte sahaayam illaayirunnenkil enthu cheyyumaayirunnu?",
+                "options": [
+                  "Sahaayikkaan kazhinjathil santhosham.",
+                  "Illa, njan urangi.",
+                  "Athu ente veedu.",
+                ],
+                "correctAnswer": "Sahaayikkaan kazhinjathil santhosham.",
+                "translatedSentence": "I am glad I could help.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ella vijayavum ninakku nerunnu.",
+                "options": [
+                  "I wish you every success.",
+                  "I saw you last week.",
+                  "Please help me with this.",
+                ],
+                "correctAnswer": "I wish you every success.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Namukku next week onnichu kandaalo?",
+                "options": [
+                  "Sheri, njan vilikkam.",
+                  "Illa, choru venda.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer": "Sheri, njan vilikkam.",
+                "translatedSentence": "Okay, I will call you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte visesha divasathinu aashamsakal.",
+                "options": [
+                  "Congratulations on your special day.",
+                  "Sorry I missed your call.",
+                  "Thank you for the invitation.",
+                ],
+                "correctAnswer": "Congratulations on your special day.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninne kaanaan njan valare aagrahichirunnu.",
+                "options": [
+                  "I had really wanted to see you.",
+                  "I did not want to see you.",
+                  "I will see you next month.",
+                ],
+                "correctAnswer": "I had really wanted to see you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithra naal engane poyi, enthokke undaayirunnu?",
+                "options": [
+                  "Ellaam nannaayi poyi, nandi.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu ente pusthakam.",
+                ],
+                "correctAnswer": "Ellaam nannaayi poyi, nandi.",
+                "translatedSentence": "Everything went well, thank you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ninte kudumbathinaayi enteyum aashamsakal ariyikkuka.",
+                "options": [
+                  "Please convey my wishes to your family too.",
+                  "Please come home for dinner.",
+                  "I am sorry for the delay.",
+                ],
+                "correctAnswer": "Please convey my wishes to your family too.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu enne kaanaan vannathinu nandi.",
+                "options": [
+                  "Athil santhosham, veendum kaanam.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu valiya veedu.",
+                ],
+                "correctAnswer": "Athil santhosham, veendum kaanam.",
+                "translatedSentence": "My pleasure, see you again.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Yathrayil ellaam sukhamaayirikkatte.",
+                "options": [
+                  "May your journey be safe and pleasant.",
+                  "Please stay a little longer.",
+                  "Thank you for the lovely gift.",
+                ],
+                "correctAnswer": "May your journey be safe and pleasant.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ninte sahaayam illaayirunnenkil ithu cheyyaan pattillaayirunnu.",
+                "options": [
+                  "Without your help I could not have done this.",
+                  "I did this all by myself.",
+                  "You did not help me at all.",
+                ],
+                "correctAnswer":
+                    "Without your help I could not have done this.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Namukku aduthaazhcha oru chaayak kandaalo?",
+                "options": [
+                  "Teerchayaayum, njan kaathirikkam.",
+                  "Illa, enikku ariyilla.",
+                  "Athu ente pena aanu.",
+                ],
+                "correctAnswer": "Teerchayaayum, njan kaathirikkam.",
+                "translatedSentence": "Certainly, I will look forward to it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ninte puthiya joliyil ella bhaavukangalum nerunnu.",
+                "options": [
+                  "I wish you all the best in your new job.",
+                  "I am sorry you lost your job.",
+                  "Please help me find a job.",
+                ],
+                "correctAnswer": "I wish you all the best in your new job.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithra doorathu ninnu vannathinu valare nandi.",
+                "options": [
+                  "Athin nandiyonnum venda, veruthe vannathaanu.",
+                  "Illa, choru venda.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer":
+                    "Athin nandiyonnum venda, veruthe vannathaanu.",
+                "translatedSentence": "No need to thank me, I just came.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte sahaayam njan orikkalum marakkilla.",
+                "options": [
+                  "I will never forget your help.",
+                  "I already forgot your help.",
+                  "You never helped me before.",
+                ],
+                "correctAnswer": "I will never forget your help.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ithra naalum ninne kaanaathirunnathil enikku valare vishamam undaayirunnu.",
+                "options": [
+                  "I felt very sad not seeing you all this time.",
+                  "I was happy that you never came.",
+                  "I will meet you again next week.",
+                ],
+                "correctAnswer":
+                    "I felt very sad not seeing you all this time.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte varavu njangalkku valare santhosham thannu.",
+                "options": [
+                  "Ningalkkoppam undaayathil enikkum santhosham.",
+                  "Illa, njan urangi.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer":
+                    "Ningalkkoppam undaayathil enikkum santhosham.",
+                "translatedSentence": "I am also happy to be with you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ella prayaasangalilum ninte koode njan undaakum.",
+                "options": [
+                  "I will be with you through all difficulties.",
+                  "I cannot help you anymore.",
+                  "Please do not call me again.",
+                ],
+                "correctAnswer": "I will be with you through all difficulties.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu ellaam nannaayi natannathil ente nandi.",
+                "options": [
+                  "Athil enikkum valare santhosham undu.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu valiya pusthakam.",
+                ],
+                "correctAnswer": "Athil enikkum valare santhosham undu.",
+                "translatedSentence": "I am also very happy about it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ninte snehavum sahaayavum enikku orikkalum marakkaan pattilla.",
+                "options": [
+                  "I can never forget your love and help.",
+                  "I do not remember you at all.",
+                  "You should forget about me.",
+                ],
+                "correctAnswer": "I can never forget your love and help.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ee puthuvalsarathil ninakkum kudumbathinum ella nanmakalum nerunnu.",
+                "options": [
+                  "I wish you and your family all the best this new year.",
+                  "Sorry I could not attend the new year party.",
+                  "Please invite me to your celebration.",
+                ],
+                "correctAnswer":
+                    "I wish you and your family all the best this new year.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ithra doorathu ninnum enne kaanaan vannathil ente hridayam niranja nandi.",
+                "options": [
+                  "Ninne kaanaan enikkum valare aagrahamundaayirunnu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu ente cheriya pena.",
+                ],
+                "correctAnswer":
+                    "Ninne kaanaan enikkum valare aagrahamundaayirunnu.",
+                "translatedSentence": "I too really wanted to see you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ningalude sneham nirannja aathitheyam njan orikkalum marakkilla.",
+                "options": [
+                  "I will never forget your warm and loving hospitality.",
+                  "I did not enjoy my stay at all.",
+                  "Please do not welcome me next time.",
+                ],
+                "correctAnswer":
+                    "I will never forget your warm and loving hospitality.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Namukku ini idakkidakku kaanaanum samsaarikkaanum kazhiyatte.",
+                "options": [
+                  "Teerchayaayum, njan idakkidakku vilikkam.",
+                  "Illa, enikku samayam illa.",
+                  "Athu valare dooram aanu.",
+                ],
+                "correctAnswer": "Teerchayaayum, njan idakkidakku vilikkam.",
+                "translatedSentence": "Certainly, I will call you often.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ninte varum divasangal santhoshavum samaadhaanavum niranjathaakatte.",
+                "options": [
+                  "May your coming days be filled with joy and peace.",
+                  "I am sorry for all the trouble I caused.",
+                  "Please stay away from me from now on.",
+                ],
+                "correctAnswer":
+                    "May your coming days be filled with joy and peace.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "introductions",
+        "image": Assets.images.pen.path,
+        "color": 0xffCE82FF,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte peru entha?",
+                "options": [
+                  "Ente peru $firstName.",
+                  "Enikku vishakkunnu.",
+                  "Athu ente veedu.",
+                ],
+                "correctAnswer": "Ente peru $firstName.",
+                "translatedSentence": "My name is $firstName.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vidyarthi.",
+                "options": [
+                  "I am a student.",
+                  "You are a teacher.",
+                  "They are friends.",
+                ],
+                "correctAnswer": "I am a student.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Name",
+                "sentence": "Name",
+                "options": ["Peru", "Naadu", "Veedu"],
+                "correctAnswer": "Peru",
+                "translatedSentence": "Name",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan Indiakkaaran.",
+                "options": [
+                  "I am an Indian.",
+                  "I am a student.",
+                  "I am a teacher.",
+                ],
+                "correctAnswer": "I am an Indian.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte peru entha?",
+                "options": [
+                  "Ente peru $firstName aanu.",
+                  "Athe, venam.",
+                  "Illa, venda.",
+                ],
+                "correctAnswer": "Ente peru $firstName aanu.",
+                "translatedSentence": "My name is $firstName.",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethra vayassaayi?",
+                "options": [
+                  "Enikku irupathu vayassu.",
+                  "Athu ente peru.",
+                  "Njan veetil undu.",
+                ],
+                "correctAnswer": "Enikku irupathu vayassu.",
+                "translatedSentence": "I am twenty years old.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan adhyaapakan.",
+                "options": [
+                  "I am a teacher.",
+                  "I am a student.",
+                  "I am a doctor.",
+                ],
+                "correctAnswer": "I am a teacher.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Country",
+                "sentence": "Country",
+                "options": ["Raajyam", "Peru", "Veedu"],
+                "correctAnswer": "Raajyam",
+                "translatedSentence": "Country",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan doctor aanu.",
+                "options": [
+                  "I am a doctor.",
+                  "I am a teacher.",
+                  "I am a driver.",
+                ],
+                "correctAnswer": "I am a doctor.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee evideninnu?",
+                "options": [
+                  "Njan Keralathil ninnu.",
+                  "Athu valuthu.",
+                  "Illa, venda.",
+                ],
+                "correctAnswer": "Njan Keralathil ninnu.",
+                "translatedSentence": "I am from Kerala.",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan Keralathil ninnaanu.",
+                "options": [
+                  "I am from Kerala.",
+                  "I live in the city.",
+                  "I am a student.",
+                ],
+                "correctAnswer": "I am from Kerala.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte joli entha?",
+                "options": [
+                  "Njan oru engineer aanu.",
+                  "Athu ente veedu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "Njan oru engineer aanu.",
+                "translatedSentence": "I am an engineer.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku Malayalam ariyaam.",
                 "options": [
                   "I know Malayalam.",
-                  "I speak Malayalam fluently.",
-                  "I am learning Malayalam."
+                  "I do not know Malayalam.",
+                  "I am learning Tamil.",
                 ],
-                "correctAnswer": "I know Malayalam."
+                "correctAnswer": "I know Malayalam.",
               },
               {
                 "type": "multiple_choice",
-                "prompt": "Choose an appropriate response",
-                "sentence": "Coffee veno?",
-                "options": [
-                  "Athe, coffee venam.",
-                  "Illa, njan coffee kudikkilla.",
-                  "Tea venam."
-                ],
-                "correctAnswer": "Athe, coffee venam."
+                "prompt": "Choose the word for Work",
+                "sentence": "Work",
+                "options": ["Joli", "Peru", "Vayassu"],
+                "correctAnswer": "Joli",
+                "translatedSentence": "Work",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Enne ente makal innu vannu.",
+                "sentence": "Ithu ente kootukaaran.",
                 "options": [
-                  "My daughter came today.",
-                  "My wife came today.",
-                  "My sister came today."
+                  "This is my friend.",
+                  "This is my brother.",
+                  "This is my teacher.",
                 ],
-                "correctAnswer": "My daughter came today."
+                "correctAnswer": "This is my friend.",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte peru enthaanu, evideyaanu veedu?",
+                "options": [
+                  "Ente peru $firstName, veedu Kochiyil.",
+                  "Athu valare cheruthu.",
+                  "Illa, njan urangi.",
+                ],
+                "correctAnswer": "Ente peru $firstName, veedu Kochiyil.",
+                "translatedSentence":
+                    "My name is $firstName, my house is in Kochi.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan Bangalore-il joli cheyyunnu.",
+                "options": [
+                  "I work in Bangalore.",
+                  "I study in Chennai.",
+                  "I live in Kerala.",
+                ],
+                "correctAnswer": "I work in Bangalore.",
               },
               {
                 "type": "multiple_choice",
                 "prompt": "Choose an appropriate response",
-                "sentence": "Ningal English samsarikkumo?",
+                "sentence": "Ninakku ethra sahodarangal undu?",
                 "options": [
-                  "Athe, njan English samsarikkum.",
-                  "Enikku manasilakunnilla.",
-                  "Enikku ariyilla."
+                  "Enikku randu sahodarangal undu.",
+                  "Athu ente pena.",
+                  "Illa, choru venda.",
                 ],
-                "correctAnswer": "Athe, njan English samsarikkum."
-              }
-            ]
+                "correctAnswer": "Enikku randu sahodarangal undu.",
+                "translatedSentence": "I have two siblings.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan English-um Malayalavum samsaarikkum.",
+                "options": [
+                  "I speak English and Malayalam.",
+                  "I only speak Tamil.",
+                  "I am learning Hindi.",
+                ],
+                "correctAnswer": "I speak English and Malayalam.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veedu evideyaanu?",
+                "options": [
+                  "Ente veedu Thrissuril aanu.",
+                  "Athe, venam.",
+                  "Njan pusthakam vaayichu.",
+                ],
+                "correctAnswer": "Ente veedu Thrissuril aanu.",
+                "translatedSentence": "My house is in Thrissur.",
+              },
+            ],
           },
-          // Additional levels would be formatted similarly.
-        ]
-      }
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan oru company-yil joli cheyyunnu.",
+                "options": [
+                  "I work in a company.",
+                  "I own a company.",
+                  "I am looking for a job.",
+                ],
+                "correctAnswer": "I work in a company.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee naadu ishtamaano?",
+                "options": [
+                  "Athe, enikku ee naadu valare ishtaanu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu valiya veedu.",
+                ],
+                "correctAnswer": "Athe, enikku ee naadu valare ishtaanu.",
+                "translatedSentence": "Yes, I like this place very much.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente achan oru kaarshakan aanu.",
+                "options": [
+                  "My father is a farmer.",
+                  "My father is a teacher.",
+                  "My brother is a farmer.",
+                ],
+                "correctAnswer": "My father is a farmer.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte hobby entha?",
+                "options": [
+                  "Enikku pusthakam vaayikkaan ishtaanu.",
+                  "Athu ente pena.",
+                  "Illa, venda.",
+                ],
+                "correctAnswer": "Enikku pusthakam vaayikkaan ishtaanu.",
+                "translatedSentence": "I like to read books.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ee naattil puthiyaanu.",
+                "options": [
+                  "I am new to this place.",
+                  "I have lived here for years.",
+                  "I am leaving this place.",
+                ],
+                "correctAnswer": "I am new to this place.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku puthiya aalukale parichayapedaan ishtaanu.",
+                "options": [
+                  "I like to meet new people.",
+                  "I do not like crowds.",
+                  "I want to go home now.",
+                ],
+                "correctAnswer": "I like to meet new people.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte kudumbathil aarokke undu?",
+                "options": [
+                  "Achanum ammayum randu sahodarangalum undu.",
+                  "Athu valare cheruthu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "Achanum ammayum randu sahodarangalum undu.",
+                "translatedSentence":
+                    "There are my father, mother and two siblings.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ivide padikkaan vannathaanu.",
+                "options": [
+                  "I came here to study.",
+                  "I came here to work.",
+                  "I was born here.",
+                ],
+                "correctAnswer": "I came here to study.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee joli ishtamaano?",
+                "options": [
+                  "Athe, enikku ente joli valare ishtaanu.",
+                  "Illa, njan urangi.",
+                  "Athu ente veedu.",
+                ],
+                "correctAnswer": "Athe, enikku ente joli valare ishtaanu.",
+                "translatedSentence": "Yes, I like my job very much.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pala bhaashakalum ariyaam.",
+                "options": [
+                  "I know several languages.",
+                  "I know only one language.",
+                  "I am learning a new language.",
+                ],
+                "correctAnswer": "I know several languages.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pathu varshamaayi ee naattil thaamasikkunnu.",
+                "options": [
+                  "I have been living in this place for ten years.",
+                  "I just moved to this place.",
+                  "I am about to leave this place.",
+                ],
+                "correctAnswer":
+                    "I have been living in this place for ten years.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte swapnam enthaanu?",
+                "options": [
+                  "Enikku oru doctor aakanam.",
+                  "Athu ente cheriya pena.",
+                  "Illa, choru venda.",
+                ],
+                "correctAnswer": "Enikku oru doctor aakanam.",
+                "translatedSentence": "I want to become a doctor.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente jeevithathil kudumbam aanu ellaam.",
+                "options": [
+                  "Family is everything in my life.",
+                  "Work is everything to me.",
+                  "I have no family here.",
+                ],
+                "correctAnswer": "Family is everything in my life.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ozhivu samayathu enthu cheyyaan ishtaanu?",
+                "options": [
+                  "Enikku paattu kelkkaan ishtaanu.",
+                  "Illa, enikku ariyilla.",
+                  "Athu valiya veedu.",
+                ],
+                "correctAnswer": "Enikku paattu kelkkaan ishtaanu.",
+                "translatedSentence": "I like to listen to music.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan sadhaaranam veetil ninnaanu joli cheyyaaru.",
+                "options": [
+                  "I usually work from home.",
+                  "I always work in the office.",
+                  "I never work on weekends.",
+                ],
+                "correctAnswer": "I usually work from home.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbam oru cheriya graamathilaanu thaamasikkunnathu.",
+                "options": [
+                  "My family lives in a small village.",
+                  "My family lives in a big city.",
+                  "My family moved abroad recently.",
+                ],
+                "correctAnswer": "My family lives in a small village.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee city-yil evideyokke poyittundu?",
+                "options": [
+                  "Njan mikka sthalangalilum poyittundu.",
+                  "Illa, njan urangi.",
+                  "Athu ente pena.",
+                ],
+                "correctAnswer": "Njan mikka sthalangalilum poyittundu.",
+                "translatedSentence": "I have been to most places.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan patta padippu kazhinjittanu joli thudangiyathu.",
+                "options": [
+                  "I started working after finishing my degree.",
+                  "I started working before my studies.",
+                  "I stopped working to study more.",
+                ],
+                "correctAnswer": "I started working after finishing my degree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte naattil enthaanu prasidhham?",
+                "options": [
+                  "Njangalude naadu keralathinte bhakshanaththinu prasidhham.",
+                  "Illa, choru venda.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer":
+                    "Njangalude naadu keralathinte bhakshanaththinu prasidhham.",
+                "translatedSentence": "Our place is famous for Kerala food.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Enikku puthiya kaaryangal padikkaan valare ishtaanu.",
+                "options": [
+                  "I really like to learn new things.",
+                  "I do not like studying at all.",
+                  "I already know everything.",
+                ],
+                "correctAnswer": "I really like to learn new things.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ente kutti kaalam muzhuvan graamathilaanu chelavazhichathu.",
+                "options": [
+                  "I spent my whole childhood in the village.",
+                  "I grew up in a big city.",
+                  "I moved abroad as a child.",
+                ],
+                "correctAnswer": "I spent my whole childhood in the village.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte joliyil ninakku enthaanu ettavum ishtam?",
+                "options": [
+                  "Puthiya aalukale kaanunnathaanu enikku ettavum ishtam.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer":
+                    "Puthiya aalukale kaanunnathaanu enikku ettavum ishtam.",
+                "translatedSentence": "What I like most is meeting new people.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbam enne ellaa kaaryathilum pinthunaykkaaru.",
+                "options": [
+                  "My family supports me in everything.",
+                  "My family never helps me.",
+                  "I live far away from my family.",
+                ],
+                "correctAnswer": "My family supports me in everything.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninakku ee bhaasha padikkaan enthukondaanu ishtam thonniyathu?",
+                "options": [
+                  "Ente snehithanmaar ee bhaasha samsaarikkunnathukondu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu valiya pusthakam.",
+                ],
+                "correctAnswer":
+                    "Ente snehithanmaar ee bhaasha samsaarikkunnathukondu.",
+                "translatedSentence": "Because my friends speak this language.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pala naadukalilum sancharichittundu.",
+                "options": [
+                  "I have traveled to many countries.",
+                  "I have never left my home town.",
+                  "I plan to travel next year.",
+                ],
+                "correctAnswer": "I have traveled to many countries.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Enikku puthiya sthalangal kaanaanum aa naattile bhaksanam kazhikkaanum valare ishtaanu.",
+                "options": [
+                  "I really like to see new places and eat their local food.",
+                  "I never travel outside my city.",
+                  "I dislike trying new food.",
+                ],
+                "correctAnswer":
+                    "I really like to see new places and eat their local food.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte joliyile ettavum valiya velluvili enthaanu?",
+                "options": [
+                  "Samayam kshamikkuka ennathaanu ettavum valiya velluvili.",
+                  "Illa, njan urangi.",
+                  "Athu ente cheriya pena.",
+                ],
+                "correctAnswer":
+                    "Samayam kshamikkuka ennathaanu ettavum valiya velluvili.",
+                "translatedSentence": "Managing time is the biggest challenge.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ente kudumbaththodoppam samayam chelavazhikkaan aagrahikkunnu.",
+                "options": [
+                  "I wish to spend time with my family.",
+                  "I prefer to be alone always.",
+                  "I rarely see my family.",
+                ],
+                "correctAnswer": "I wish to spend time with my family.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte bhaaviyekkurichu enthaanu plan cheyyunnathu?",
+                "options": [
+                  "Enikku swantham business thudangaanaanu aagraham.",
+                  "Illa, choru venda.",
+                  "Athu valare dooram aanu.",
+                ],
+                "correctAnswer":
+                    "Enikku swantham business thudangaanaanu aagraham.",
+                "translatedSentence": "I wish to start my own business.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente jeevithathil njan ettavum vila kalpikkunnathu satyasandhathayk aanu.",
+                "options": [
+                  "What I value most in life is honesty.",
+                  "I do not care about honesty at all.",
+                  "Money is the only thing I value.",
+                ],
+                "correctAnswer": "What I value most in life is honesty.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan cheruppam muthal thanne cheruthu cheruthu bhaashakal padikkaan thaalparyam kaanichirunnu.",
+                "options": [
+                  "Since I was young I have been interested in learning different languages.",
+                  "I never liked studying languages.",
+                  "I only learned one language in school.",
+                ],
+                "correctAnswer":
+                    "Since I was young I have been interested in learning different languages.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninne swadheenichha vyakthi aaraanu?",
+                "options": [
+                  "Ente achhanaanu enne ettavum swadheenichathu.",
+                  "Illa, enikku ariyilla.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer":
+                    "Ente achhanaanu enne ettavum swadheenichathu.",
+                "translatedSentence":
+                    "My father is the one who influenced me the most.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Puthiya aalukalodu samsaarikkumbol enikku enteta oru vidhathil santhosham thonnaaru.",
+                "options": [
+                  "I feel a certain kind of joy when I talk to new people.",
+                  "I feel nervous around every new person.",
+                  "I avoid talking to strangers.",
+                ],
+                "correctAnswer":
+                    "I feel a certain kind of joy when I talk to new people.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte jeevithathile ettavum santhoshakaramaaya nimisham enthaayirunnu?",
+                "options": [
+                  "Ente aadya joli kittiyathaanu ettavum santhosham thanna nimisham.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer":
+                    "Ente aadya joli kittiyathaanu ettavum santhosham thanna nimisham.",
+                "translatedSentence":
+                    "Getting my first job was my happiest moment.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ella divasavum puthiyathaayi enthenkilum padikkaan sramikkaaru.",
+                "options": [
+                  "I try to learn something new every day.",
+                  "I stopped studying long ago.",
+                  "I only study before exams.",
+                ],
+                "correctAnswer": "I try to learn something new every day.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente jeevithathil njan cheythittulla ella nettangalkkum pinnil ente kudumbathinte pinthuna undu.",
+                "options": [
+                  "Behind all the achievements in my life is my family's support.",
+                  "I achieved everything entirely on my own.",
+                  "My family never believed in me.",
+                ],
+                "correctAnswer":
+                    "Behind all the achievements in my life is my family's support.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte swapnajeevitham engane aayirikkanam enthaanu ninte aagraham?",
+                "options": [
+                  "Enikku kudumbaththodoppam samaadhaanamaayi jeevikkaanaanu aagraham.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu ente cheriya pena.",
+                ],
+                "correctAnswer":
+                    "Enikku kudumbaththodoppam samaadhaanamaayi jeevikkaanaanu aagraham.",
+                "translatedSentence":
+                    "My wish is to live peacefully with my family.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Puthiya bhaashakal padikkunnathu enne pala samskaarangalilekkum adukkunnu.",
+                "options": [
+                  "Learning new languages brings me closer to many cultures.",
+                  "Learning languages is a waste of time for me.",
+                  "I only care about my own culture.",
+                ],
+                "correctAnswer":
+                    "Learning new languages brings me closer to many cultures.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Pathu varsham kazhinju ninne ninakku engane kaanaan aagrahamundu?",
+                "options": [
+                  "Enikke oru nalla manushyanaayi enne kaananamennaanu aagraham.",
+                  "Illa, choru venda.",
+                  "Athu valare dooram aanu.",
+                ],
+                "correctAnswer":
+                    "Enikke oru nalla manushyanaayi enne kaananamennaanu aagraham.",
+                "translatedSentence": "I wish to see myself as a good person.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente anubhavangal ellaam enne innu njaanaaya vyakthiyaakki maatti.",
+                "options": [
+                  "All my experiences have made me the person I am today.",
+                  "My experiences have taught me nothing.",
+                  "I do not remember my past at all.",
+                ],
+                "correctAnswer":
+                    "All my experiences have made me the person I am today.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "family",
+        "image": Assets.images.family.path,
+        "color": 0xffFF69B4,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Mother",
+                "sentence": "Mother",
+                "options": ["Amma", "Achan", "Chettan"],
+                "correctAnswer": "Amma",
+                "translatedSentence": "Mother",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Achan",
+                "options": ["Father", "Mother", "Brother"],
+                "correctAnswer": "Father",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Elder brother",
+                "sentence": "Elder brother",
+                "options": ["Chettan", "Chechi", "Amma"],
+                "correctAnswer": "Chettan",
+                "translatedSentence": "Elder brother",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Chechi",
+                "options": ["Elder sister", "Younger sister", "Mother"],
+                "correctAnswer": "Elder sister",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Family",
+                "sentence": "Family",
+                "options": ["Kudumbam", "Veedu", "Peru"],
+                "correctAnswer": "Kudumbam",
+                "translatedSentence": "Family",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Anujan",
+                "options": ["Younger brother", "Elder brother", "Father"],
+                "correctAnswer": "Younger brother",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Younger sister",
+                "sentence": "Younger sister",
+                "options": ["Anujathi", "Chechi", "Amma"],
+                "correctAnswer": "Anujathi",
+                "translatedSentence": "Younger sister",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Muthashan",
+                "options": ["Grandfather", "Grandmother", "Uncle"],
+                "correctAnswer": "Grandfather",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Grandmother",
+                "sentence": "Grandmother",
+                "options": ["Muthashi", "Muthashan", "Amma"],
+                "correctAnswer": "Muthashi",
+                "translatedSentence": "Grandmother",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Makan",
+                "options": ["Son", "Daughter", "Brother"],
+                "correctAnswer": "Son",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Makal",
+                "options": ["Daughter", "Son", "Sister"],
+                "correctAnswer": "Daughter",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Wife",
+                "sentence": "Wife",
+                "options": ["Bhaarya", "Bharthaavu", "Amma"],
+                "correctAnswer": "Bhaarya",
+                "translatedSentence": "Wife",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Bharthaavu",
+                "options": ["Husband", "Wife", "Son"],
+                "correctAnswer": "Husband",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Uncle",
+                "sentence": "Uncle",
+                "options": ["Ammaavan", "Ammaayi", "Chettan"],
+                "correctAnswer": "Ammaavan",
+                "translatedSentence": "Uncle",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ammaayi",
+                "options": ["Aunt", "Uncle", "Grandmother"],
+                "correctAnswer": "Aunt",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu ente amma.",
+                "options": [
+                  "This is my mother.",
+                  "This is my sister.",
+                  "This is my aunt.",
+                ],
+                "correctAnswer": "This is my mother.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte achan evide?",
+                "options": [
+                  "Ente achan veetil undu.",
+                  "Athu valare cheruthu.",
+                  "Illa, choru venda.",
+                ],
+                "correctAnswer": "Ente achan veetil undu.",
+                "translatedSentence": "My father is at home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku oru chettan undu.",
+                "options": [
+                  "I have an elder brother.",
+                  "I have an elder sister.",
+                  "I have a younger brother.",
+                ],
+                "correctAnswer": "I have an elder brother.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethra sahodarangal undu?",
+                "options": [
+                  "Enikku moonnu sahodarangal undu.",
+                  "Athu ente pena.",
+                  "Illa, njan urangi.",
+                ],
+                "correctAnswer": "Enikku moonnu sahodarangal undu.",
+                "translatedSentence": "I have three siblings.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente chechi adhyaapika aanu.",
+                "options": [
+                  "My elder sister is a teacher.",
+                  "My mother is a teacher.",
+                  "My aunt is a teacher.",
+                ],
+                "correctAnswer": "My elder sister is a teacher.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente kudumbam valuthaanu.",
+                "options": [
+                  "My family is big.",
+                  "My family is small.",
+                  "My house is big.",
+                ],
+                "correctAnswer": "My family is big.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte muthashan evideyaanu thaamasikkunnathu?",
+                "options": [
+                  "Ente muthashan graamathil thaamasikkunnu.",
+                  "Athu ente veedu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "Ente muthashan graamathil thaamasikkunnu.",
+                "translatedSentence": "My grandfather lives in the village.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente anujan school-il padikkunnu.",
+                "options": [
+                  "My younger brother studies in school.",
+                  "My son studies in college.",
+                  "My father works in school.",
+                ],
+                "correctAnswer": "My younger brother studies in school.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte amma enthu joli cheyyunnu?",
+                "options": [
+                  "Ente amma veetammayaanu.",
+                  "Athu valiya veedu.",
+                  "Illa, choru venda.",
+                ],
+                "correctAnswer": "Ente amma veetammayaanu.",
+                "translatedSentence": "My mother is a homemaker.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal ellaavarum onnichaanu thaamasikkunnathu.",
+                "options": [
+                  "We all live together.",
+                  "We live in different cities.",
+                  "I live alone here.",
+                ],
+                "correctAnswer": "We all live together.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente achanu randu sahodaranmaar undu.",
+                "options": [
+                  "My father has two brothers.",
+                  "My father has two sisters.",
+                  "I have two brothers.",
+                ],
+                "correctAnswer": "My father has two brothers.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte chechikku kuttikal undo?",
+                "options": [
+                  "Athe, avalkku randu kuttikal undu.",
+                  "Illa, njan urangi.",
+                  "Athu ente pena.",
+                ],
+                "correctAnswer": "Athe, avalkku randu kuttikal undu.",
+                "translatedSentence": "Yes, she has two children.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude kudumbam vaikunneram onnichu bhakshanam kazhikkum.",
+                "options": [
+                  "Our family eats together in the evening.",
+                  "Our family never eats together.",
+                  "I eat alone every night.",
+                ],
+                "correctAnswer": "Our family eats together in the evening.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte muthashi engane undu?",
+                "options": [
+                  "Avarkku ippol sugham thanne.",
+                  "Athu valare cheruthu.",
+                  "Illa, enikku ariyilla.",
+                ],
+                "correctAnswer": "Avarkku ippol sugham thanne.",
+                "translatedSentence": "She is doing well now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente ammaavan doorathulla naattilaanu joli cheyyunnathu.",
+                "options": [
+                  "My uncle works in a faraway place.",
+                  "My uncle lives next door.",
+                  "My uncle does not work.",
+                ],
+                "correctAnswer": "My uncle works in a faraway place.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente achanum ammayum enne valare snehikkunnu.",
+                "options": [
+                  "My father and mother love me very much.",
+                  "My parents live far from me.",
+                  "My family is very small.",
+                ],
+                "correctAnswer": "My father and mother love me very much.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte kudumbam avadhikku evideyekkaanu pokaaru?",
+                "options": [
+                  "Njangal muthashante veettilekkaanu pokaaru.",
+                  "Illa, choru venda.",
+                  "Athu valiya pusthakam.",
+                ],
+                "correctAnswer": "Njangal muthashante veettilekkaanu pokaaru.",
+                "translatedSentence":
+                    "We usually go to my grandfather's house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente chettan ippol vere naattil joli cheyyunnu.",
+                "options": [
+                  "My elder brother now works in another place.",
+                  "My elder brother lives with us.",
+                  "My brother has no job.",
+                ],
+                "correctAnswer": "My elder brother now works in another place.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbathil aaraanu bhakshanam undaakkunnathu?",
+                "options": [
+                  "Sadhaaranam ente ammayaanu undaakkaaru.",
+                  "Illa, njan urangi.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer": "Sadhaaranam ente ammayaanu undaakkaaru.",
+                "translatedSentence": "Usually my mother makes it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude veettil ella aazhchayum bandhukkal varaaru.",
+                "options": [
+                  "Relatives come to our house every week.",
+                  "Nobody visits our house.",
+                  "We visit relatives once a year.",
+                ],
+                "correctAnswer": "Relatives come to our house every week.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente muthashi enikku nalla kadhakal paranju tharaaru.",
+                "options": [
+                  "My grandmother tells me good stories.",
+                  "My grandmother lives far away.",
+                  "My grandmother cannot speak now.",
+                ],
+                "correctAnswer": "My grandmother tells me good stories.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbathil aaraanu ninakku ettavum aduthathu?",
+                "options": [
+                  "Ente ammayaanu enikku ettavum aduthathu.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu ente cheriya pena.",
+                ],
+                "correctAnswer": "Ente ammayaanu enikku ettavum aduthathu.",
+                "translatedSentence": "My mother is the closest to me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude kudumbam ella aaghoshavum onnichaanu nadathaaru.",
+                "options": [
+                  "Our family celebrates every festival together.",
+                  "Our family never celebrates anything.",
+                  "I celebrate festivals alone.",
+                ],
+                "correctAnswer":
+                    "Our family celebrates every festival together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte achan ninakku enthaanu upadeshichu tharaaru?",
+                "options": [
+                  "Sathyasandhanaayirikkanam ennaanu achan parayaaru.",
+                  "Illa, choru venda.",
+                  "Athu valare dooram aanu.",
+                ],
+                "correctAnswer":
+                    "Sathyasandhanaayirikkanam ennaanu achan parayaaru.",
+                "translatedSentence": "My father says I should be honest.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente anujathi enne ella kaaryathilum sahaayikkaaru.",
+                "options": [
+                  "My younger sister helps me in everything.",
+                  "My younger sister never helps me.",
+                  "I help my sister with her studies.",
+                ],
+                "correctAnswer": "My younger sister helps me in everything.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbam thammilulla snehamaanu ente ettavum valiya shakthi.",
+                "options": [
+                  "The love within my family is my greatest strength.",
+                  "My family always fights with each other.",
+                  "I do not have any family here.",
+                ],
+                "correctAnswer":
+                    "The love within my family is my greatest strength.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte muthashan ninne kutti kaalathu engane aayirunnu valarthiyathu?",
+                "options": [
+                  "Addeham enne valare snehathodeyaanu valarthiyathu.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer":
+                    "Addeham enne valare snehathodeyaanu valarthiyathu.",
+                "translatedSentence": "He raised me with a lot of love.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude veettil ella theerumaanavum onnichaanu edukkaaru.",
+                "options": [
+                  "In our house all decisions are taken together.",
+                  "In our house one person decides everything.",
+                  "We never discuss anything at home.",
+                ],
+                "correctAnswer":
+                    "In our house all decisions are taken together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbam doorathaayirikkumbol ninakku engane thonnaaru?",
+                "options": [
+                  "Avare kaanaan enikku valare aagraham thonnaaru.",
+                  "Illa, enikku ariyilla.",
+                  "Athu valiya pusthakam.",
+                ],
+                "correctAnswer":
+                    "Avare kaanaan enikku valare aagraham thonnaaru.",
+                "translatedSentence": "I really long to see them.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente achan cheruppathil othiri kashtappettittundu.",
+                "options": [
+                  "My father struggled a lot in his youth.",
+                  "My father had an easy life.",
+                  "My father never worked hard.",
+                ],
+                "correctAnswer": "My father struggled a lot in his youth.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbathinu vendi enthu thyaagam cheyyaanum njan thayyaaraanu.",
+                "options": [
+                  "I am ready to make any sacrifice for my family.",
+                  "I never think about my family.",
+                  "My family means nothing to me.",
+                ],
+                "correctAnswer":
+                    "I am ready to make any sacrifice for my family.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbathil ninnu nee padicha ettavum valiya paadam enthaanu?",
+                "options": [
+                  "Kshama-yum snehavum aanu njan padichathu.",
+                  "Illa, choru venda.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer": "Kshama-yum snehavum aanu njan padichathu.",
+                "translatedSentence": "I learned patience and love.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ammayude kayyile bhakshanam pole ruchi vere onninumilla.",
+                "options": [
+                  "No other food tastes as good as my mother's cooking.",
+                  "My mother cannot cook at all.",
+                  "I prefer eating at restaurants.",
+                ],
+                "correctAnswer":
+                    "No other food tastes as good as my mother's cooking.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kuttikale nee engane valarthaan aagrahikkunnu?",
+                "options": [
+                  "Nalla mulyabodhathode valarthaanaanu enikku aagraham.",
+                  "Illa, njan urangi.",
+                  "Athu ente veedu.",
+                ],
+                "correctAnswer":
+                    "Nalla mulyabodhathode valarthaanaanu enikku aagraham.",
+                "translatedSentence": "I wish to raise them with good values.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude kudumbam etra prayaasam vannaalum orumichu nilkkum.",
+                "options": [
+                  "Our family stands together no matter what hardship comes.",
+                  "Our family splits up at the first problem.",
+                  "We never support each other.",
+                ],
+                "correctAnswer":
+                    "Our family stands together no matter what hardship comes.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente muthashan parannja kadhakalaanu enne innum nalla kaaryangal cheyyaan preripikkunnathu.",
+                "options": [
+                  "The stories my grandfather told still inspire me to do good things.",
+                  "I never listened to my grandfather's stories.",
+                  "My grandfather never spoke to me.",
+                ],
+                "correctAnswer":
+                    "The stories my grandfather told still inspire me to do good things.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbathodulla ninte uttaravaadithvam enthaanu?",
+                "options": [
+                  "Avare nokkukayum snehikkukayum cheyyuka ennathaanu ente uttaravaadithvam.",
+                  "Illa, enikku vishakkunnu.",
+                  "Athu ente cheriya pena.",
+                ],
+                "correctAnswer":
+                    "Avare nokkukayum snehikkukayum cheyyuka ennathaanu ente uttaravaadithvam.",
+                "translatedSentence":
+                    "My responsibility is to care for and love them.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Enthu prashnam vannaalum ente kudumbam ennum ente koode undaakum ennenikku ariyaam.",
+                "options": [
+                  "I know my family will always be with me no matter what problem arises.",
+                  "My family leaves me during hard times.",
+                  "I do not trust my family at all.",
+                ],
+                "correctAnswer":
+                    "I know my family will always be with me no matter what problem arises.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbam onnichu kootunna samayam engane aanu chelavazhikkaaru?",
+                "options": [
+                  "Njangal onnichu bhakshanam kazhichu kadhakal parayaaru.",
+                  "Illa, choru venda.",
+                  "Athu valare dooram aanu.",
+                ],
+                "correctAnswer":
+                    "Njangal onnichu bhakshanam kazhichu kadhakal parayaaru.",
+                "translatedSentence": "We eat together and share stories.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbathinte pinthuna illaayirunnenkil njan innu ivide ethumaayirunnilla.",
+                "options": [
+                  "Without my family's support I would not have reached where I am today.",
+                  "My family never supported my dreams.",
+                  "I achieved everything without anyone's help.",
+                ],
+                "correctAnswer":
+                    "Without my family's support I would not have reached where I am today.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente jeevithathile ettavum vilamathikkaanaakaatha sampatthu ente kudumbam thanneyaanu.",
+                "options": [
+                  "The most priceless treasure in my life is my family itself.",
+                  "Money is the only treasure in my life.",
+                  "I do not value my family much.",
+                ],
+                "correctAnswer":
+                    "The most priceless treasure in my life is my family itself.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kudumbaththinu vendi bhaviyil enthu cheyyaanaanu ninte aagraham?",
+                "options": [
+                  "Avarkku santhoshamaaya oru jeevitham nalkaanaanu ente aagraham.",
+                  "Illa, njan choru kazhichu.",
+                  "Athu ente veedu alla.",
+                ],
+                "correctAnswer":
+                    "Avarkku santhoshamaaya oru jeevitham nalkaanaanu ente aagraham.",
+                "translatedSentence": "My wish is to give them a happy life.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Thalamurakal maarumbozhum ente kudumbaththinte mulyangal njan ella kaalathum kaathu sookshikkum.",
+                "options": [
+                  "Even as generations change, I will always preserve my family's values.",
+                  "I have forgotten all my family's values.",
+                  "My family has no values worth keeping.",
+                ],
+                "correctAnswer":
+                    "Even as generations change, I will always preserve my family's values.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Ninte kuttikalodu ninte kudumbaththinte katha nee engane parayum?",
+                "options": [
+                  "Njangalude poorvikar ethra kashtappettu ennu njan avarodu parayum.",
+                  "Illa, enikku ariyilla.",
+                  "Athu valare cheruthu.",
+                ],
+                "correctAnswer":
+                    "Njangalude poorvikar ethra kashtappettu ennu njan avarodu parayum.",
+                "translatedSentence":
+                    "I will tell them how much our ancestors struggled.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente kudumbaththodoppam chelavazhikkunna oro nimishavum enikku vilamathikkaanaakatha ormakalaanu.",
+                "options": [
+                  "Every moment I spend with my family is a priceless memory to me.",
+                  "I rarely spend time with my family.",
+                  "I do not enjoy being with my family.",
+                ],
+                "correctAnswer":
+                    "Every moment I spend with my family is a priceless memory to me.",
+              },
+            ],
+          },
+        ],
+      },
     ],
     [
       {
         "courseName": "food",
-        "image": Assets.images.egg.path,
+        "image": Assets.images.food.path,
         "color": 0xffFFA500,
         "levels": [
           {
@@ -175,27 +2910,12344 @@ List<List<dynamic>> getMalayalamData(String firstName) {
                 "sentence": "Water",
                 "options": ["Vellam", "Paal", "Choru"],
                 "correctAnswer": "Vellam",
-                "translatedSentence": "Water"
+                "translatedSentence": "Water",
               },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Rice",
+                "sentence": "Rice",
+                "options": ["Choru", "Meen", "Muttai"],
+                "correctAnswer": "Choru",
+                "translatedSentence": "Rice",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vellam",
+                "options": ["Water", "Milk", "Rice"],
+                "correctAnswer": "Water",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Milk",
+                "sentence": "Milk",
+                "options": ["Paal", "Vellam", "Chaaya"],
+                "correctAnswer": "Paal",
+                "translatedSentence": "Milk",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Choru",
+                "options": ["Rice", "Water", "Bread"],
+                "correctAnswer": "Rice",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Fish",
+                "sentence": "Fish",
+                "options": ["Meen", "Kozhi", "Muttai"],
+                "correctAnswer": "Meen",
+                "translatedSentence": "Fish",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Egg",
+                "sentence": "Egg",
+                "options": ["Muttai", "Paal", "Choru"],
+                "correctAnswer": "Muttai",
+                "translatedSentence": "Egg",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meen",
+                "options": ["Fish", "Chicken", "Egg"],
+                "correctAnswer": "Fish",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Chicken",
+                "sentence": "Chicken",
+                "options": ["Kozhi", "Meen", "Muttai"],
+                "correctAnswer": "Kozhi",
+                "translatedSentence": "Chicken",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Muttai",
+                "options": ["Egg", "Fish", "Milk"],
+                "correctAnswer": "Egg",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Tea",
+                "sentence": "Tea",
+                "options": ["Chaaya", "Kaappi", "Vellam"],
+                "correctAnswer": "Chaaya",
+                "translatedSentence": "Tea",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Coffee",
+                "sentence": "Coffee",
+                "options": ["Kaappi", "Chaaya", "Paal"],
+                "correctAnswer": "Kaappi",
+                "translatedSentence": "Coffee",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Chaaya",
+                "options": ["Tea", "Coffee", "Water"],
+                "correctAnswer": "Tea",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Bread",
+                "sentence": "Bread",
+                "options": ["Bread", "Choru", "Kozhi"],
+                "correctAnswer": "Bread",
+                "translatedSentence": "Bread",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaappi",
+                "options": ["Coffee", "Tea", "Milk"],
+                "correctAnswer": "Coffee",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vellam venam.",
+                "options": ["I want water.", "I want milk.", "I want tea."],
+                "correctAnswer": "I want water.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku chaaya veno?",
+                "options": ["Venam", "Illa venda", "Ariyilla"],
+                "correctAnswer": "Venam",
+                "translatedSentence": "Yes, I want it",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku paal venam.",
+                "options": ["I want milk.", "I want water.", "I want rice."],
+                "correctAnswer": "I want milk.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Hungry",
+                "sentence": "Hungry",
+                "options": ["Vishakunnu", "Daahikunnu", "Ksheenam"],
+                "correctAnswer": "Vishakunnu",
+                "translatedSentence": "Hungry",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku choru venam.",
+                "options": ["I want rice.", "I want fish.", "I want bread."],
+                "correctAnswer": "I want rice.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
                 "sentence": "Enikku vishakunnu.",
                 "options": ["I am hungry.", "I am thirsty.", "I am tired."],
-                "correctAnswer": "I am hungry."
+                "correctAnswer": "I am hungry.",
               },
               {
                 "type": "translate",
                 "prompt": "Translate the sentence",
-                "sentence": "Bhakshanam ruchikaramanu.",
-                "options": ["The food is tasty.", "The food is hot.", "The food is bad."],
-                "correctAnswer": "The food is tasty."
-              }
-            ]
-          }
-        ]
-      }
-    ]
+                "sentence": "Enikku daahikunnu.",
+                "options": ["I am thirsty.", "I am hungry.", "I am happy."],
+                "correctAnswer": "I am thirsty.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku vishakkunnundo?",
+                "options": ["Undu, vishakkunnu", "Vellam", "Kozhi"],
+                "correctAnswer": "Undu, vishakkunnu",
+                "translatedSentence": "Yes, I am hungry",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meen nallathaanu.",
+                "options": [
+                  "The fish is good.",
+                  "The rice is good.",
+                  "The milk is good.",
+                ],
+                "correctAnswer": "The fish is good.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Thirsty",
+                "sentence": "Thirsty",
+                "options": ["Daahikunnu", "Vishakunnu", "Ksheenam"],
+                "correctAnswer": "Daahikunnu",
+                "translatedSentence": "Thirsty",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Choru nallathaanu.",
+                "options": [
+                  "The rice is good.",
+                  "The fish is good.",
+                  "The tea is good.",
+                ],
+                "correctAnswer": "The rice is good.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku chaaya ishtamaanu.",
+                "options": ["I like tea.", "I like coffee.", "I like milk."],
+                "correctAnswer": "I like tea.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthu venam?",
+                "options": ["Enikku choru venam", "Nanni", "Namaskaram"],
+                "correctAnswer": "Enikku choru venam",
+                "translatedSentence": "I want rice",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku kaappi ishtamaanu.",
+                "options": ["I like coffee.", "I like tea.", "I like water."],
+                "correctAnswer": "I like coffee.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Sweet",
+                "sentence": "Sweet",
+                "options": ["Madhuram", "Uppu", "Kaipu"],
+                "correctAnswer": "Madhuram",
+                "translatedSentence": "Sweet",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee choru madhuram aanu.",
+                "options": [
+                  "This rice is sweet.",
+                  "This rice is salty.",
+                  "This rice is hot.",
+                ],
+                "correctAnswer": "This rice is sweet.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Salt",
+                "sentence": "Salt",
+                "options": ["Uppu", "Madhuram", "Vellam"],
+                "correctAnswer": "Uppu",
+                "translatedSentence": "Salt",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku kurachu vellam tharuo?",
+                "options": [
+                  "Can you give me some water?",
+                  "Can you give me some rice?",
+                  "Can you give me some tea?",
+                ],
+                "correctAnswer": "Can you give me some water?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Meen ishtamaano?",
+                "options": ["Athe, ishtamaanu", "Vellam", "Uppu"],
+                "correctAnswer": "Athe, ishtamaanu",
+                "translatedSentence": "Yes, I like it",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Paal madhuram aanu.",
+                "options": [
+                  "The milk is sweet.",
+                  "The milk is hot.",
+                  "The milk is cold.",
+                ],
+                "correctAnswer": "The milk is sweet.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan choru kazhikkunnu.",
+                "options": [
+                  "I am eating rice.",
+                  "I am drinking water.",
+                  "I am eating fish.",
+                ],
+                "correctAnswer": "I am eating rice.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan chaaya kudikkunnu.",
+                "options": [
+                  "I am drinking tea.",
+                  "I am drinking milk.",
+                  "I am eating rice.",
+                ],
+                "correctAnswer": "I am drinking tea.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee enthu kazhikkunnu?",
+                "options": ["Njan meen kazhikkunnu", "Nanni", "Sradhikoo"],
+                "correctAnswer": "Njan meen kazhikkunnu",
+                "translatedSentence": "I am eating fish",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan paal kudikkunnu.",
+                "options": [
+                  "I am drinking milk.",
+                  "I am drinking tea.",
+                  "I am drinking coffee.",
+                ],
+                "correctAnswer": "I am drinking milk.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Hot",
+                "sentence": "Hot",
+                "options": ["Chood", "Thanuppu", "Madhuram"],
+                "correctAnswer": "Chood",
+                "translatedSentence": "Hot",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee chaaya valare choodaanu.",
+                "options": [
+                  "This tea is very hot.",
+                  "This tea is very cold.",
+                  "This tea is very sweet.",
+                ],
+                "correctAnswer": "This tea is very hot.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku innu meen kazhikkanam.",
+                "options": [
+                  "I want to eat fish today.",
+                  "I want to eat rice today.",
+                  "I want to drink tea today.",
+                ],
+                "correctAnswer": "I want to eat fish today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bhakshanam nannaayirunno?",
+                "options": [
+                  "Athe, valare nannaayirunnu",
+                  "Vellam venam",
+                  "Illa daaham",
+                ],
+                "correctAnswer": "Athe, valare nannaayirunnu",
+                "translatedSentence": "Yes, it was very good",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile kaappi kudikkum.",
+                "options": [
+                  "I drink coffee in the morning.",
+                  "I drink tea in the morning.",
+                  "I eat rice in the morning.",
+                ],
+                "correctAnswer": "I drink coffee in the morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee bhakshanam ishtamaanu.",
+                "options": [
+                  "I like this food.",
+                  "I like this water.",
+                  "I want this food.",
+                ],
+                "correctAnswer": "I like this food.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal onnichu bhakshanam kazhikkunnu.",
+                "options": [
+                  "We are eating food together.",
+                  "We are drinking tea together.",
+                  "They are eating food.",
+                ],
+                "correctAnswer": "We are eating food together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku kooduthal choru veno?",
+                "options": ["Venda, mathi", "Namaskaram", "Sradhikoo"],
+                "correctAnswer": "Venda, mathi",
+                "translatedSentence": "No, that is enough",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Amma nalla bhakshanam undaakki.",
+                "options": [
+                  "Mother made good food.",
+                  "Mother drank tea.",
+                  "Mother ate fish.",
+                ],
+                "correctAnswer": "Mother made good food.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vishakkunnilla.",
+                "options": [
+                  "I am not hungry.",
+                  "I am not thirsty.",
+                  "I am hungry.",
+                ],
+                "correctAnswer": "I am not hungry.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Vegetables",
+                "sentence": "Vegetables",
+                "options": ["Pachakkari", "Meen", "Kozhi"],
+                "correctAnswer": "Pachakkari",
+                "translatedSentence": "Vegetables",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pachakkari ishtamaanu.",
+                "options": [
+                  "I like vegetables.",
+                  "I like fish.",
+                  "I like rice.",
+                ],
+                "correctAnswer": "I like vegetables.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Naam bhakshanam kazhikkan pokunnu.",
+                "options": [
+                  "We are going to eat food.",
+                  "We are going home.",
+                  "They are eating food.",
+                ],
+                "correctAnswer": "We are going to eat food.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthu kudikkanam?",
+                "options": [
+                  "Enikku chaaya kudikkanam",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Enikku chaaya kudikkanam",
+                "translatedSentence": "I want to drink tea",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee meen valare rusiyaanu.",
+                "options": [
+                  "This fish is very tasty.",
+                  "This fish is very hot.",
+                  "This rice is very tasty.",
+                ],
+                "correctAnswer": "This fish is very tasty.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vellam kudikkanam.",
+                "options": [
+                  "I need to drink water.",
+                  "I need to eat rice.",
+                  "I need to drink tea.",
+                ],
+                "correctAnswer": "I need to drink water.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu njan veetil bhakshanam undaakki.",
+                "options": [
+                  "Today I made food at home.",
+                  "Today I ate food outside.",
+                  "Today I bought food.",
+                ],
+                "correctAnswer": "Today I made food at home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": " Nammal raavile onnichu chaaya kudichu.",
+                "options": [
+                  "We drank tea together in the morning.",
+                  "We ate rice together at night.",
+                  "They drank coffee in the morning.",
+                ],
+                "correctAnswer": "We drank tea together in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bhakshanathinu nanni parayaan enthu parayum?",
+                "options": [
+                  "Bhakshanathinu nanni",
+                  "Enikku vishakkunnu",
+                  "Vellam venam",
+                ],
+                "correctAnswer": "Bhakshanathinu nanni",
+                "translatedSentence": "Thank you for the food",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku kooduthal uppu venda.",
+                "options": [
+                  "I do not want more salt.",
+                  "I want more salt.",
+                  "I do not want more rice.",
+                ],
+                "correctAnswer": "I do not want more salt.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee bhakshanam valare rusikaramaayirunnu.",
+                "options": [
+                  "This food was very delicious.",
+                  "This food was very hot.",
+                  "This food was very cold.",
+                ],
+                "correctAnswer": "This food was very delicious.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "numbers",
+        "image": Assets.images.hammer.path,
+        "color": 0xff808080,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for One",
+                "sentence": "One",
+                "options": ["Onnu", "Randu", "Moonu"],
+                "correctAnswer": "Onnu",
+                "translatedSentence": "One",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Two",
+                "sentence": "Two",
+                "options": ["Randu", "Onnu", "Naalu"],
+                "correctAnswer": "Randu",
+                "translatedSentence": "Two",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Onnu",
+                "options": ["One", "Two", "Three"],
+                "correctAnswer": "One",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Three",
+                "sentence": "Three",
+                "options": ["Moonu", "Randu", "Anchu"],
+                "correctAnswer": "Moonu",
+                "translatedSentence": "Three",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Randu",
+                "options": ["Two", "One", "Four"],
+                "correctAnswer": "Two",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Four",
+                "sentence": "Four",
+                "options": ["Naalu", "Anchu", "Moonu"],
+                "correctAnswer": "Naalu",
+                "translatedSentence": "Four",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Five",
+                "sentence": "Five",
+                "options": ["Anchu", "Naalu", "Aaru"],
+                "correctAnswer": "Anchu",
+                "translatedSentence": "Five",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Moonu",
+                "options": ["Three", "Four", "Five"],
+                "correctAnswer": "Three",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Naalu",
+                "options": ["Four", "Five", "Six"],
+                "correctAnswer": "Four",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Six",
+                "sentence": "Six",
+                "options": ["Aaru", "Anchu", "Ezhu"],
+                "correctAnswer": "Aaru",
+                "translatedSentence": "Six",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Seven",
+                "sentence": "Seven",
+                "options": ["Ezhu", "Ettu", "Aaru"],
+                "correctAnswer": "Ezhu",
+                "translatedSentence": "Seven",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Eight",
+                "sentence": "Eight",
+                "options": ["Ettu", "Ezhu", "Onpathu"],
+                "correctAnswer": "Ettu",
+                "translatedSentence": "Eight",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Nine",
+                "sentence": "Nine",
+                "options": ["Onpathu", "Patthu", "Ettu"],
+                "correctAnswer": "Onpathu",
+                "translatedSentence": "Nine",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Ten",
+                "sentence": "Ten",
+                "options": ["Patthu", "Onpathu", "Ezhu"],
+                "correctAnswer": "Patthu",
+                "translatedSentence": "Ten",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Anchu",
+                "options": ["Five", "Six", "Seven"],
+                "correctAnswer": "Five",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aaru",
+                "options": ["Six", "Seven", "Eight"],
+                "correctAnswer": "Six",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ezhu",
+                "options": ["Seven", "Eight", "Nine"],
+                "correctAnswer": "Seven",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ettu",
+                "options": ["Eight", "Nine", "Ten"],
+                "correctAnswer": "Eight",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Patthu",
+                "options": ["Ten", "Nine", "Eight"],
+                "correctAnswer": "Ten",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Onpathu ethaanu?",
+                "options": ["Nine", "Eight", "Ten"],
+                "correctAnswer": "Nine",
+                "translatedSentence": "Nine",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu meen venam.",
+                "options": [
+                  "I want two fish.",
+                  "I want three fish.",
+                  "I want two eggs.",
+                ],
+                "correctAnswer": "I want two fish.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku onnu venam.",
+                "options": ["I want one.", "I want two.", "I want three."],
+                "correctAnswer": "I want one.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethra venam?",
+                "options": ["Enikku moonu venam", "Nanni", "Vellam"],
+                "correctAnswer": "Enikku moonu venam",
+                "translatedSentence": "I want three",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avanu anchu vayassu.",
+                "options": [
+                  "He is five years old.",
+                  "He is four years old.",
+                  "She is five years old.",
+                ],
+                "correctAnswer": "He is five years old.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for How many",
+                "sentence": "How many",
+                "options": ["Ethra", "Evide", "Eppol"],
+                "correctAnswer": "Ethra",
+                "translatedSentence": "How many",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku naalu muttai venam.",
+                "options": [
+                  "I want four eggs.",
+                  "I want five eggs.",
+                  "I want four fish.",
+                ],
+                "correctAnswer": "I want four eggs.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethra vayassu?",
+                "options": [
+                  "Enikku patthu vayassu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Enikku patthu vayassu",
+                "translatedSentence": "I am ten years old",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aviide anchu kutti undu.",
+                "options": [
+                  "There are five children there.",
+                  "There are four children there.",
+                  "There are five dogs there.",
+                ],
+                "correctAnswer": "There are five children there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu chaaya venam.",
+                "options": [
+                  "I want two teas.",
+                  "I want three teas.",
+                  "I want two coffees.",
+                ],
+                "correctAnswer": "I want two teas.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for First",
+                "sentence": "First",
+                "options": ["Onnaamathu", "Randaamathu", "Moonaamathu"],
+                "correctAnswer": "Onnaamathu",
+                "translatedSentence": "First",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veetil moonu muri undu.",
+                "options": [
+                  "There are three rooms in my house.",
+                  "There are two rooms in my house.",
+                  "There are three houses.",
+                ],
+                "correctAnswer": "There are three rooms in my house.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kadayil ethra aalukal undu?",
+                "options": ["Ettu aalukal undu", "Vellam undu", "Nanni"],
+                "correctAnswer": "Ettu aalukal undu",
+                "translatedSentence": "There are eight people",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku aaru pazham venam.",
+                "options": [
+                  "I want six bananas.",
+                  "I want seven bananas.",
+                  "I want six apples.",
+                ],
+                "correctAnswer": "I want six bananas.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku ezhu pusthakam undu.",
+                "options": [
+                  "She has seven books.",
+                  "He has seven books.",
+                  "She has eight books.",
+                ],
+                "correctAnswer": "She has seven books.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Second",
+                "sentence": "Second",
+                "options": ["Randaamathu", "Onnaamathu", "Naalaamathu"],
+                "correctAnswer": "Randaamathu",
+                "translatedSentence": "Second",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku patthu roopa venam.",
+                "options": [
+                  "I want ten rupees.",
+                  "I want nine rupees.",
+                  "I want ten fish.",
+                ],
+                "correctAnswer": "I want ten rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avide onpathu maram undu.",
+                "options": [
+                  "There are nine trees there.",
+                  "There are eight trees there.",
+                  "There are nine flowers there.",
+                ],
+                "correctAnswer": "There are nine trees there.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil ethra aalukal undu?",
+                "options": ["Naalu aalukal undu", "Nanni", "Vellam venam"],
+                "correctAnswer": "Naalu aalukal undu",
+                "translatedSentence": "There are four people",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu sahodaranmaar undu.",
+                "options": [
+                  "I have two brothers.",
+                  "I have three brothers.",
+                  "I have two sisters.",
+                ],
+                "correctAnswer": "I have two brothers.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Half",
+                "sentence": "Half",
+                "options": ["Pakuthi", "Muzhuvan", "Ethra"],
+                "correctAnswer": "Pakuthi",
+                "translatedSentence": "Half",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku moonu manikkoor jolli undu.",
+                "options": [
+                  "I have three hours of work.",
+                  "I have two hours of work.",
+                  "I have three hours of sleep.",
+                ],
+                "correctAnswer": "I have three hours of work.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile aaru manikku ezhunnettu.",
+                "options": [
+                  "I woke up at six in the morning.",
+                  "I woke up at seven in the morning.",
+                  "I slept at six in the morning.",
+                ],
+                "correctAnswer": "I woke up at six in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ippol samayam ethra aayi?",
+                "options": [
+                  "Patthu manikkoor aayi",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Patthu manikkoor aayi",
+                "translatedSentence": "It is ten o clock",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avarkku anchu makkal undu.",
+                "options": [
+                  "They have five children.",
+                  "They have four children.",
+                  "They have five houses.",
+                ],
+                "correctAnswer": "They have five children.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee pusthakathinu randu bhaagam undu.",
+                "options": [
+                  "This book has two parts.",
+                  "This book has three parts.",
+                  "This book has two pages.",
+                ],
+                "correctAnswer": "This book has two parts.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ettu manikku skoolil pokum.",
+                "options": [
+                  "I go to school at eight o clock.",
+                  "I go to school at nine o clock.",
+                  "I come from school at eight o clock.",
+                ],
+                "correctAnswer": "I go to school at eight o clock.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethra pusthakam venam?",
+                "options": [
+                  "Enikku moonu pusthakam venam",
+                  "Nanni",
+                  "Vellam venam",
+                ],
+                "correctAnswer": "Enikku moonu pusthakam venam",
+                "translatedSentence": "I want three books",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente kayyil patthu roopa mathrame ullu.",
+                "options": [
+                  "I only have ten rupees.",
+                  "I only have nine rupees.",
+                  "I have twenty rupees.",
+                ],
+                "correctAnswer": "I only have ten rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan naalu bhaashakal ariyaam.",
+                "options": [
+                  "He knows four languages.",
+                  "He knows five languages.",
+                  "She knows four languages.",
+                ],
+                "correctAnswer": "He knows four languages.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Twenty",
+                "sentence": "Twenty",
+                "options": ["Irupathu", "Patthu", "Muppathu"],
+                "correctAnswer": "Irupathu",
+                "translatedSentence": "Twenty",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku irupathu vayassu aayi.",
+                "options": [
+                  "I have turned twenty years old.",
+                  "I have turned ten years old.",
+                  "I have turned thirty years old.",
+                ],
+                "correctAnswer": "I have turned twenty years old.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee muriyil patthu kutti undu.",
+                "options": [
+                  "There are ten children in this room.",
+                  "There are nine children in this room.",
+                  "There are ten adults in this room.",
+                ],
+                "correctAnswer": "There are ten children in this room.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte klaassil ethra kuttikal undu?",
+                "options": [
+                  "Muppathu kuttikal undu",
+                  "Nanni",
+                  "Enikku ariyilla",
+                ],
+                "correctAnswer": "Muppathu kuttikal undu",
+                "translatedSentence": "There are thirty children",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan randaamathu klaassil aanu.",
+                "options": [
+                  "I am in the second class.",
+                  "I am in the first class.",
+                  "I am in the third class.",
+                ],
+                "correctAnswer": "I am in the second class.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku pakuthi paisa mathrame kittiyullu.",
+                "options": [
+                  "She only got half the money.",
+                  "She got all the money.",
+                  "He only got half the money.",
+                ],
+                "correctAnswer": "She only got half the money.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente jenmadinam onpatham theeyathi aanu.",
+                "options": [
+                  "My birthday is on the ninth.",
+                  "My birthday is on the tenth.",
+                  "My birthday is on the eighth.",
+                ],
+                "correctAnswer": "My birthday is on the ninth.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan divasavum ezhu manikkoor urangum.",
+                "options": [
+                  "I sleep seven hours every day.",
+                  "I sleep eight hours every day.",
+                  "I work seven hours every day.",
+                ],
+                "correctAnswer": "I sleep seven hours every day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee saadhanathinu ethra vila aanu?",
+                "options": [
+                  "Muppathu roopa aanu",
+                  "Nanni",
+                  "Enikku vishakkunnu",
+                ],
+                "correctAnswer": "Muppathu roopa aanu",
+                "translatedSentence": "It costs thirty rupees",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangalude teamil patthu peru undu.",
+                "options": [
+                  "There are ten people in our team.",
+                  "There are nine people in our team.",
+                  "There are eleven people in our team.",
+                ],
+                "correctAnswer": "There are ten people in our team.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu doshayum oru chaayayum venam.",
+                "options": [
+                  "I want two dosas and one tea.",
+                  "I want three dosas and one tea.",
+                  "I want two dosas and two teas.",
+                ],
+                "correctAnswer": "I want two dosas and one tea.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "colors",
+        "image": Assets.images.bucket.path,
+        "color": 0xffFF0000,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Red",
+                "sentence": "Red",
+                "options": ["Chuvappu", "Pacha", "Neela"],
+                "correctAnswer": "Chuvappu",
+                "translatedSentence": "Red",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Green",
+                "sentence": "Green",
+                "options": ["Pacha", "Chuvappu", "Manja"],
+                "correctAnswer": "Pacha",
+                "translatedSentence": "Green",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Chuvappu",
+                "options": ["Red", "Green", "Blue"],
+                "correctAnswer": "Red",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Blue",
+                "sentence": "Blue",
+                "options": ["Neela", "Pacha", "Vella"],
+                "correctAnswer": "Neela",
+                "translatedSentence": "Blue",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pacha",
+                "options": ["Green", "Red", "Yellow"],
+                "correctAnswer": "Green",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Yellow",
+                "sentence": "Yellow",
+                "options": ["Manja", "Vella", "Karuppu"],
+                "correctAnswer": "Manja",
+                "translatedSentence": "Yellow",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for White",
+                "sentence": "White",
+                "options": ["Vella", "Karuppu", "Neela"],
+                "correctAnswer": "Vella",
+                "translatedSentence": "White",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Neela",
+                "options": ["Blue", "Green", "Black"],
+                "correctAnswer": "Blue",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Black",
+                "sentence": "Black",
+                "options": ["Karuppu", "Vella", "Manja"],
+                "correctAnswer": "Karuppu",
+                "translatedSentence": "Black",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Manja",
+                "options": ["Yellow", "White", "Red"],
+                "correctAnswer": "Yellow",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vella",
+                "options": ["White", "Black", "Blue"],
+                "correctAnswer": "White",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Karuppu",
+                "options": ["Black", "White", "Green"],
+                "correctAnswer": "Black",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Orange",
+                "sentence": "Orange",
+                "options": ["Orenju", "Manja", "Chuvappu"],
+                "correctAnswer": "Orenju",
+                "translatedSentence": "Orange",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Pink",
+                "sentence": "Pink",
+                "options": ["Rosaa", "Neela", "Pacha"],
+                "correctAnswer": "Rosaa",
+                "translatedSentence": "Pink",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Brown",
+                "sentence": "Brown",
+                "options": ["Thavittu niram", "Karuppu", "Vella"],
+                "correctAnswer": "Thavittu niram",
+                "translatedSentence": "Brown",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithu ethu niram aanu?",
+                "options": ["Chuvappu aanu", "Nanni", "Vellam"],
+                "correctAnswer": "Chuvappu aanu",
+                "translatedSentence": "It is red",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente shirt neela aanu.",
+                "options": [
+                  "My shirt is blue.",
+                  "My shirt is red.",
+                  "My shirt is green.",
+                ],
+                "correctAnswer": "My shirt is blue.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aakaasham neela aanu.",
+                "options": [
+                  "The sky is blue.",
+                  "The sky is white.",
+                  "The sky is grey.",
+                ],
+                "correctAnswer": "The sky is blue.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Colour",
+                "sentence": "Colour",
+                "options": ["Niram", "Chuvappu", "Pacha"],
+                "correctAnswer": "Niram",
+                "translatedSentence": "Colour",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ila pacha aanu.",
+                "options": [
+                  "The leaf is green.",
+                  "The leaf is yellow.",
+                  "The flower is green.",
+                ],
+                "correctAnswer": "The leaf is green.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku chuvappu ishtamaanu.",
+                "options": ["I like red.", "I like blue.", "I like green."],
+                "correctAnswer": "I like red.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethu niramaanu ishtam?",
+                "options": ["Enikku neela ishtamaanu", "Nanni", "Vishakkunnu"],
+                "correctAnswer": "Enikku neela ishtamaanu",
+                "translatedSentence": "I like blue",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pazham manja aanu.",
+                "options": [
+                  "The banana is yellow.",
+                  "The banana is green.",
+                  "The apple is yellow.",
+                ],
+                "correctAnswer": "The banana is yellow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente car vella aanu.",
+                "options": [
+                  "My car is white.",
+                  "My car is black.",
+                  "My car is red.",
+                ],
+                "correctAnswer": "My car is white.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Bright",
+                "sentence": "Bright",
+                "options": ["Prakaashamulla", "Irulmulla", "Cheriya"],
+                "correctAnswer": "Prakaashamulla",
+                "translatedSentence": "Bright",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee pookkal chuvappaanu.",
+                "options": [
+                  "These flowers are red.",
+                  "These flowers are yellow.",
+                  "These leaves are red.",
+                ],
+                "correctAnswer": "These flowers are red.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte cheruppu ethu niramaanu?",
+                "options": [
+                  "Ente cheruppu karuppaanu",
+                  "Nanni",
+                  "Vellam venam",
+                ],
+                "correctAnswer": "Ente cheruppu karuppaanu",
+                "translatedSentence": "My slippers are black",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalude vasthram rosaa aanu.",
+                "options": [
+                  "Her dress is pink.",
+                  "Her dress is red.",
+                  "His dress is pink.",
+                ],
+                "correctAnswer": "Her dress is pink.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku manja niram ishtamalla.",
+                "options": [
+                  "I do not like the colour yellow.",
+                  "I like the colour yellow.",
+                  "I do not like the colour red.",
+                ],
+                "correctAnswer": "I do not like the colour yellow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Dark",
+                "sentence": "Dark",
+                "options": ["Irulmulla", "Prakaashamulla", "Valiya"],
+                "correctAnswer": "Irulmulla",
+                "translatedSentence": "Dark",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee muri neela niramil aanu.",
+                "options": [
+                  "This room is in blue colour.",
+                  "This room is in green colour.",
+                  "This house is in blue colour.",
+                ],
+                "correctAnswer": "This room is in blue colour.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee chuvappu shirt ishtamaano?",
+                "options": [
+                  "Athe, valare ishtamaanu",
+                  "Vellam venam",
+                  "Enikku vishakkunnu",
+                ],
+                "correctAnswer": "Athe, valare ishtamaanu",
+                "translatedSentence": "Yes, I like it very much",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente ammaykku pacha niram ishtamaanu.",
+                "options": [
+                  "My mother likes the colour green.",
+                  "My mother likes the colour blue.",
+                  "My father likes the colour green.",
+                ],
+                "correctAnswer": "My mother likes the colour green.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee chithram valare niramulla aanu.",
+                "options": [
+                  "This picture is very colourful.",
+                  "This picture is very dark.",
+                  "This picture is very bright.",
+                ],
+                "correctAnswer": "This picture is very colourful.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Grey",
+                "sentence": "Grey",
+                "options": ["Chaara niram", "Vella", "Karuppu"],
+                "correctAnswer": "Chaara niram",
+                "translatedSentence": "Grey",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku oru neela pena venam.",
+                "options": [
+                  "I want a blue pen.",
+                  "I want a red pen.",
+                  "I want a blue book.",
+                ],
+                "correctAnswer": "I want a blue pen.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avante vandi chuvappu niramil aanu.",
+                "options": [
+                  "His vehicle is red in colour.",
+                  "His vehicle is blue in colour.",
+                  "Her vehicle is red in colour.",
+                ],
+                "correctAnswer": "His vehicle is red in colour.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee randil ninnu ethu niram venam?",
+                "options": [
+                  "Enikku pacha venam",
+                  "Nanni",
+                  "Enikku vishakkunnu",
+                ],
+                "correctAnswer": "Enikku pacha venam",
+                "translatedSentence": "I want green",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Manja pookkal manoharam aanu.",
+                "options": [
+                  "The yellow flowers are beautiful.",
+                  "The red flowers are beautiful.",
+                  "The yellow leaves are beautiful.",
+                ],
+                "correctAnswer": "The yellow flowers are beautiful.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Purple",
+                "sentence": "Purple",
+                "options": ["Vayalet", "Neela", "Rosaa"],
+                "correctAnswer": "Vayalet",
+                "translatedSentence": "Purple",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu oru chuvappu udupp aanu itathu.",
+                "options": [
+                  "Today I am wearing a red dress.",
+                  "Today I am wearing a blue dress.",
+                  "Today I wore a red shirt yesterday.",
+                ],
+                "correctAnswer": "Today I am wearing a red dress.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetinu ethu niramaanu?",
+                "options": [
+                  "Ente veedu vella niramaanu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Ente veedu vella niramaanu",
+                "translatedSentence": "My house is white in colour",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Karuppu udupp enikku ishtamaanu.",
+                "options": [
+                  "I like black clothes.",
+                  "I like white clothes.",
+                  "I like blue clothes.",
+                ],
+                "correctAnswer": "I like black clothes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee pacha maram valare valuthaanu.",
+                "options": [
+                  "This green tree is very big.",
+                  "This green tree is very small.",
+                  "This green leaf is very big.",
+                ],
+                "correctAnswer": "This green tree is very big.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku manja pooveku ishtamaanu.",
+                "options": [
+                  "I like yellow flowers.",
+                  "I like red flowers.",
+                  "I like yellow fruits.",
+                ],
+                "correctAnswer": "I like yellow flowers.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente kootukaaranu neela niram valare ishtamaanu.",
+                "options": [
+                  "My friend likes the colour blue very much.",
+                  "My friend likes the colour red very much.",
+                  "My brother likes the colour blue very much.",
+                ],
+                "correctAnswer": "My friend likes the colour blue very much.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee cheruppinu vere niram undo?",
+                "options": [
+                  "Athe, karuppum vellayum undu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Athe, karuppum vellayum undu",
+                "translatedSentence": "Yes, there is black and white",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aakaashathil pala nirangalum undu.",
+                "options": [
+                  "There are many colours in the sky.",
+                  "There is only one colour in the sky.",
+                  "There are many stars in the sky.",
+                ],
+                "correctAnswer": "There are many colours in the sky.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente puthiya bag chuvappum karuppum aanu.",
+                "options": [
+                  "My new bag is red and black.",
+                  "My new bag is blue and black.",
+                  "My old bag is red and black.",
+                ],
+                "correctAnswer": "My new bag is red and black.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Rainbow",
+                "sentence": "Rainbow",
+                "options": ["Mazhavillu", "Aakaasham", "Nakshathram"],
+                "correctAnswer": "Mazhavillu",
+                "translatedSentence": "Rainbow",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazhavillinu ezhu nirangal undu.",
+                "options": [
+                  "The rainbow has seven colours.",
+                  "The rainbow has five colours.",
+                  "The sky has seven colours.",
+                ],
+                "correctAnswer": "The rainbow has seven colours.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethu niram venda?",
+                "options": ["Enikku manja venda", "Nanni", "Vishakkunnu"],
+                "correctAnswer": "Enikku manja venda",
+                "translatedSentence": "I do not want yellow",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee chuvappu udupp ente sahodarikku ishtamaanu.",
+                "options": [
+                  "My sister likes this red dress.",
+                  "My brother likes this red dress.",
+                  "My sister likes this blue dress.",
+                ],
+                "correctAnswer": "My sister likes this red dress.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pacha ilakal maramil ninnu veenu.",
+                "options": [
+                  "The green leaves fell from the tree.",
+                  "The yellow leaves fell from the tree.",
+                  "The green leaves grew on the tree.",
+                ],
+                "correctAnswer": "The green leaves fell from the tree.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee neela niramulla udupp venam.",
+                "options": [
+                  "I want this blue coloured dress.",
+                  "I want this red coloured dress.",
+                  "I like this blue coloured dress.",
+                ],
+                "correctAnswer": "I want this blue coloured dress.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente muriyude bhitthikal vella niramaanu.",
+                "options": [
+                  "The walls of my room are white.",
+                  "The walls of my room are blue.",
+                  "The doors of my room are white.",
+                ],
+                "correctAnswer": "The walls of my room are white.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee chithrathil ethokke nirangal undu?",
+                "options": [
+                  "Chuvappum neelayum pachayum undu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Chuvappum neelayum pachayum undu",
+                "translatedSentence": "There is red, blue and green",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazha peythu kazhinjappol mazhavillu vannu.",
+                "options": [
+                  "After the rain stopped, a rainbow came.",
+                  "Before the rain, a rainbow came.",
+                  "After the rain stopped, the sun came.",
+                ],
+                "correctAnswer": "After the rain stopped, a rainbow came.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan chuvappum vellayum kalarnna oru shirt vaangi.",
+                "options": [
+                  "I bought a red and white mixed shirt.",
+                  "I bought a blue and white mixed shirt.",
+                  "I sold a red and white mixed shirt.",
+                ],
+                "correctAnswer": "I bought a red and white mixed shirt.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellaa nirangalum enikku ishtamaanu.",
+                "options": [
+                  "I like all the colours.",
+                  "I do not like all the colours.",
+                  "I like only one colour.",
+                ],
+                "correctAnswer": "I like all the colours.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "animals",
+        "image": Assets.images.fish.path,
+        "color": 0xff27AE60,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Dog",
+                "sentence": "Dog",
+                "options": ["Patti", "Poocha", "Pashu"],
+                "correctAnswer": "Patti",
+                "translatedSentence": "Dog",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Cat",
+                "sentence": "Cat",
+                "options": ["Poocha", "Patti", "Kili"],
+                "correctAnswer": "Poocha",
+                "translatedSentence": "Cat",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Patti",
+                "options": ["Dog", "Cat", "Cow"],
+                "correctAnswer": "Dog",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Cow",
+                "sentence": "Cow",
+                "options": ["Pashu", "Patti", "Kuthira"],
+                "correctAnswer": "Pashu",
+                "translatedSentence": "Cow",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Poocha",
+                "options": ["Cat", "Dog", "Bird"],
+                "correctAnswer": "Cat",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Elephant",
+                "sentence": "Elephant",
+                "options": ["Aana", "Kuthira", "Pashu"],
+                "correctAnswer": "Aana",
+                "translatedSentence": "Elephant",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Horse",
+                "sentence": "Horse",
+                "options": ["Kuthira", "Aana", "Patti"],
+                "correctAnswer": "Kuthira",
+                "translatedSentence": "Horse",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pashu",
+                "options": ["Cow", "Horse", "Dog"],
+                "correctAnswer": "Cow",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Fish",
+                "sentence": "Fish",
+                "options": ["Meen", "Kili", "Poocha"],
+                "correctAnswer": "Meen",
+                "translatedSentence": "Fish",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aana",
+                "options": ["Elephant", "Horse", "Cow"],
+                "correctAnswer": "Elephant",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Bird",
+                "sentence": "Bird",
+                "options": ["Kili", "Meen", "Poocha"],
+                "correctAnswer": "Kili",
+                "translatedSentence": "Bird",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kuthira",
+                "options": ["Horse", "Elephant", "Cow"],
+                "correctAnswer": "Horse",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meen",
+                "options": ["Fish", "Bird", "Cat"],
+                "correctAnswer": "Fish",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Goat",
+                "sentence": "Goat",
+                "options": ["Aadu", "Pashu", "Patti"],
+                "correctAnswer": "Aadu",
+                "translatedSentence": "Goat",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kili",
+                "options": ["Bird", "Fish", "Dog"],
+                "correctAnswer": "Bird",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Athu oru patti aanu.",
+                "options": [
+                  "That is a dog.",
+                  "That is a cat.",
+                  "That is a cow.",
+                ],
+                "correctAnswer": "That is a dog.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithu ethu mrigam aanu?",
+                "options": ["Ithu oru poocha aanu", "Nanni", "Vellam"],
+                "correctAnswer": "Ithu oru poocha aanu",
+                "translatedSentence": "This is a cat",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aana valuthaanu.",
+                "options": [
+                  "The elephant is big.",
+                  "The elephant is small.",
+                  "The horse is big.",
+                ],
+                "correctAnswer": "The elephant is big.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Animal",
+                "sentence": "Animal",
+                "options": ["Mrigam", "Kili", "Meen"],
+                "correctAnswer": "Mrigam",
+                "translatedSentence": "Animal",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Poocha cheruthaanu.",
+                "options": [
+                  "The cat is small.",
+                  "The cat is big.",
+                  "The dog is small.",
+                ],
+                "correctAnswer": "The cat is small.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pattiye ishtamaanu.",
+                "options": ["I like dogs.", "I like cats.", "I like cows."],
+                "correctAnswer": "I like dogs.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ethu mrigam ishtamaanu?",
+                "options": ["Enikku aanaye ishtamaanu", "Nanni", "Vishakkunnu"],
+                "correctAnswer": "Enikku aanaye ishtamaanu",
+                "translatedSentence": "I like elephants",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pashu paal tharunnu.",
+                "options": [
+                  "The cow gives milk.",
+                  "The cow gives water.",
+                  "The goat gives milk.",
+                ],
+                "correctAnswer": "The cow gives milk.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kili paadunnu.",
+                "options": [
+                  "The bird is singing.",
+                  "The bird is flying.",
+                  "The bird is eating.",
+                ],
+                "correctAnswer": "The bird is singing.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Lion",
+                "sentence": "Lion",
+                "options": ["Simham", "Puli", "Aana"],
+                "correctAnswer": "Simham",
+                "translatedSentence": "Lion",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Patti kurakkunnu.",
+                "options": [
+                  "The dog is barking.",
+                  "The dog is running.",
+                  "The cat is barking.",
+                ],
+                "correctAnswer": "The dog is barking.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil mrigangal undo?",
+                "options": ["Undu, oru patti undu", "Nanni", "Vellam venam"],
+                "correctAnswer": "Undu, oru patti undu",
+                "translatedSentence": "Yes, there is a dog",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kuthira vegam odunnu.",
+                "options": [
+                  "The horse runs fast.",
+                  "The horse runs slow.",
+                  "The dog runs fast.",
+                ],
+                "correctAnswer": "The horse runs fast.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meen vellathil neenthunnu.",
+                "options": [
+                  "The fish swims in the water.",
+                  "The fish flies in the sky.",
+                  "The bird swims in the water.",
+                ],
+                "correctAnswer": "The fish swims in the water.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Tiger",
+                "sentence": "Tiger",
+                "options": ["Puli", "Simham", "Aana"],
+                "correctAnswer": "Puli",
+                "translatedSentence": "Tiger",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaattil pala mrigangalum undu.",
+                "options": [
+                  "There are many animals in the forest.",
+                  "There are few animals in the forest.",
+                  "There are many birds in the forest.",
+                ],
+                "correctAnswer": "There are many animals in the forest.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Simham evide jeevikkunnu?",
+                "options": [
+                  "Simham kaattil jeevikkunnu",
+                  "Nanni",
+                  "Vishakkunnu",
+                ],
+                "correctAnswer": "Simham kaattil jeevikkunnu",
+                "translatedSentence": "The lion lives in the forest",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aana valare valiya mrigam aanu.",
+                "options": [
+                  "The elephant is a very big animal.",
+                  "The elephant is a very small animal.",
+                  "The horse is a very big animal.",
+                ],
+                "correctAnswer": "The elephant is a very big animal.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Poocha eliye pidikkunnu.",
+                "options": [
+                  "The cat catches the mouse.",
+                  "The cat catches the bird.",
+                  "The dog catches the mouse.",
+                ],
+                "correctAnswer": "The cat catches the mouse.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Snake",
+                "sentence": "Snake",
+                "options": ["Paambu", "Eli", "Kili"],
+                "correctAnswer": "Paambu",
+                "translatedSentence": "Snake",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veetil oru poocha undu.",
+                "options": [
+                  "There is a cat in my house.",
+                  "There is a dog in my house.",
+                  "There is a cat in your house.",
+                ],
+                "correctAnswer": "There is a cat in my house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kilikal maramil undu.",
+                "options": [
+                  "The birds are on the tree.",
+                  "The birds are on the ground.",
+                  "The cats are on the tree.",
+                ],
+                "correctAnswer": "The birds are on the tree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku paambine pediyaano?",
+                "options": ["Athe, enikku pediyaanu", "Nanni", "Vellam venam"],
+                "correctAnswer": "Athe, enikku pediyaanu",
+                "translatedSentence": "Yes, I am afraid",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aadu pullu thinnunnu.",
+                "options": [
+                  "The goat is eating grass.",
+                  "The cow is eating grass.",
+                  "The goat is drinking water.",
+                ],
+                "correctAnswer": "The goat is eating grass.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Monkey",
+                "sentence": "Monkey",
+                "options": ["Kurangu", "Paambu", "Eli"],
+                "correctAnswer": "Kurangu",
+                "translatedSentence": "Monkey",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kurangu maramil chaadunnu.",
+                "options": [
+                  "The monkey jumps on the tree.",
+                  "The monkey sleeps on the tree.",
+                  "The bird jumps on the tree.",
+                ],
+                "correctAnswer": "The monkey jumps on the tree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil ethra mrigangal undu?",
+                "options": [
+                  "Randu pattiyum oru poochayum undu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Randu pattiyum oru poochayum undu",
+                "translatedSentence": "There are two dogs and one cat",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente patti divasavum ennodoppam nadakkum.",
+                "options": [
+                  "My dog walks with me every day.",
+                  "My dog sleeps with me every day.",
+                  "My cat walks with me every day.",
+                ],
+                "correctAnswer": "My dog walks with me every day.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pashu pullu thinnu paal tharunnu.",
+                "options": [
+                  "The cow eats grass and gives milk.",
+                  "The goat eats grass and gives milk.",
+                  "The cow drinks water and gives milk.",
+                ],
+                "correctAnswer": "The cow eats grass and gives milk.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku mrigangale valare ishtamaanu.",
+                "options": [
+                  "I like animals very much.",
+                  "I do not like animals.",
+                  "I like birds very much.",
+                ],
+                "correctAnswer": "I like animals very much.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal innu mrigashaalayil poyi.",
+                "options": [
+                  "We went to the zoo today.",
+                  "We went to the forest today.",
+                  "We will go to the zoo today.",
+                ],
+                "correctAnswer": "We went to the zoo today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Mrigashaalayil enthokke kandu?",
+                "options": [
+                  "Aanayeyum simhatteyum kandu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Aanayeyum simhatteyum kandu",
+                "translatedSentence": "We saw an elephant and a lion",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Puli kaattile shakthiyulla mrigam aanu.",
+                "options": [
+                  "The tiger is a strong animal of the forest.",
+                  "The tiger is a weak animal of the forest.",
+                  "The lion is a strong animal of the forest.",
+                ],
+                "correctAnswer": "The tiger is a strong animal of the forest.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kilikal aakaashathil parakkunnu.",
+                "options": [
+                  "The birds are flying in the sky.",
+                  "The birds are sitting on the ground.",
+                  "The fish are flying in the sky.",
+                ],
+                "correctAnswer": "The birds are flying in the sky.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Rabbit",
+                "sentence": "Rabbit",
+                "options": ["Muyal", "Eli", "Kurangu"],
+                "correctAnswer": "Muyal",
+                "translatedSentence": "Rabbit",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Muyal vegam odum, pakshe pathukke nadakkum.",
+                "options": [
+                  "The rabbit runs fast, but walks slowly.",
+                  "The rabbit walks fast, but runs slowly.",
+                  "The dog runs fast, but walks slowly.",
+                ],
+                "correctAnswer": "The rabbit runs fast, but walks slowly.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee patti evide ninnu kitti?",
+                "options": [
+                  "Ente kootukaaran thannu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Ente kootukaaran thannu",
+                "translatedSentence": "My friend gave it to me",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaattile mrigangale nammal samrakshikkanam.",
+                "options": [
+                  "We must protect the animals of the forest.",
+                  "We must hunt the animals of the forest.",
+                  "We must protect the birds of the forest.",
+                ],
+                "correctAnswer": "We must protect the animals of the forest.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente poocha ellaa divasavum paal kudikkum.",
+                "options": [
+                  "My cat drinks milk every day.",
+                  "My cat drinks water every day.",
+                  "My dog drinks milk every day.",
+                ],
+                "correctAnswer": "My cat drinks milk every day.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aana thumbikkaiyaal vellam kudikkunnu.",
+                "options": [
+                  "The elephant drinks water with its trunk.",
+                  "The elephant eats grass with its trunk.",
+                  "The horse drinks water with its trunk.",
+                ],
+                "correctAnswer": "The elephant drinks water with its trunk.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente veetile patti kuttikale valare ishtappedunnu.",
+                "options": [
+                  "The dog in my house loves the children very much.",
+                  "The dog in my house fears the children.",
+                  "The cat in my house loves the children very much.",
+                ],
+                "correctAnswer":
+                    "The dog in my house loves the children very much.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte ishtappetta mrigam ethaanu?",
+                "options": [
+                  "Ente ishtappetta mrigam kuthira aanu",
+                  "Enikku vishakkunnu",
+                  "Nanni",
+                ],
+                "correctAnswer": "Ente ishtappetta mrigam kuthira aanu",
+                "translatedSentence": "My favourite animal is the horse",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Chila mrigangal kaattilum chilava veetilum jeevikkunnu.",
+                "options": [
+                  "Some animals live in the forest and some live at home.",
+                  "All animals live in the forest.",
+                  "Some birds live in the forest and some at home.",
+                ],
+                "correctAnswer":
+                    "Some animals live in the forest and some live at home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innale nadiyil valiya oru meen kandu.",
+                "options": [
+                  "Yesterday I saw a big fish in the river.",
+                  "Today I saw a big fish in the river.",
+                  "Yesterday I saw a big bird in the river.",
+                ],
+                "correctAnswer": "Yesterday I saw a big fish in the river.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mrigangalodu nammal daya kaanikkanam.",
+                "options": [
+                  "We must show kindness to animals.",
+                  "We must show fear to animals.",
+                  "We must show kindness to people.",
+                ],
+                "correctAnswer": "We must show kindness to animals.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "travel",
+        "image": Assets.images.airplane.path,
+        "color": 0xff00BCD4,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for bus",
+                "sentence": "bus",
+                "options": ["bus", "vandi", "vimanam"],
+                "correctAnswer": "bus",
+                "translatedSentence": "bus",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for train",
+                "sentence": "train",
+                "options": ["train", "kappal", "car"],
+                "correctAnswer": "train",
+                "translatedSentence": "train",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "vimanam",
+                "options": ["airplane", "boat", "road"],
+                "correctAnswer": "airplane",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for road",
+                "sentence": "road",
+                "options": ["vazhi", "veedu", "kada"],
+                "correctAnswer": "vazhi",
+                "translatedSentence": "road",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kappal",
+                "options": ["ship", "car", "train"],
+                "correctAnswer": "ship",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for car",
+                "sentence": "car",
+                "options": ["car", "bus", "train"],
+                "correctAnswer": "car",
+                "translatedSentence": "car",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "vandi",
+                "options": ["vehicle", "airplane", "ship"],
+                "correctAnswer": "vehicle",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for ticket",
+                "sentence": "ticket",
+                "options": ["ticket", "vazhi", "samayam"],
+                "correctAnswer": "ticket",
+                "translatedSentence": "ticket",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "bus stop",
+                "options": ["bus stop", "airport", "station"],
+                "correctAnswer": "bus stop",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for airport",
+                "sentence": "airport",
+                "options": ["vimana thaavalam", "railway", "kada"],
+                "correctAnswer": "vimana thaavalam",
+                "translatedSentence": "airport",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for station",
+                "sentence": "station",
+                "options": ["station", "vazhi", "veedu"],
+                "correctAnswer": "station",
+                "translatedSentence": "station",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "yaathra",
+                "options": ["journey", "ticket", "road"],
+                "correctAnswer": "journey",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for map",
+                "sentence": "map",
+                "options": ["map", "ticket", "bus"],
+                "correctAnswer": "map",
+                "translatedSentence": "map",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "auto",
+                "options": ["auto rickshaw", "airplane", "ship"],
+                "correctAnswer": "auto rickshaw",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for luggage",
+                "sentence": "luggage",
+                "options": ["saamaanam", "samayam", "veedu"],
+                "correctAnswer": "saamaanam",
+                "translatedSentence": "luggage",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan bus-il pokunnu.",
+                "options": [
+                  "I am going by bus.",
+                  "I am going by train.",
+                  "I am walking.",
+                ],
+                "correctAnswer": "I am going by bus.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bus stop evide?",
+                "options": [
+                  "Bus stop ivide anu.",
+                  "Enikku ariyilla.",
+                  "Nale varam.",
+                ],
+                "correctAnswer": "Bus stop ivide anu.",
+                "translatedSentence": "The bus stop is here.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan train-il pokunnu.",
+                "options": [
+                  "I am going by train.",
+                  "I am going by bus.",
+                  "I am walking.",
+                ],
+                "correctAnswer": "I am going by train.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ticket evide?",
+                "options": [
+                  "Ticket ivide undu.",
+                  "Njan urangunnu.",
+                  "Choodu aanu.",
+                ],
+                "correctAnswer": "Ticket ivide undu.",
+                "translatedSentence": "The ticket is here.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku oru ticket venam.",
+                "options": [
+                  "I need one ticket.",
+                  "I need two tickets.",
+                  "I have a ticket.",
+                ],
+                "correctAnswer": "I need one ticket.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Station evide anu?",
+                "options": [
+                  "Where is the station?",
+                  "Where is the road?",
+                  "Where is the shop?",
+                ],
+                "correctAnswer": "Where is the station?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Airport evide anu?",
+                "options": [
+                  "Airport avide anu.",
+                  "Enikku vishakkunnu.",
+                  "Njan varunnu.",
+                ],
+                "correctAnswer": "Airport avide anu.",
+                "translatedSentence": "The airport is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan car-il pokunnu.",
+                "options": [
+                  "I am going by car.",
+                  "I am going by ship.",
+                  "I am going by train.",
+                ],
+                "correctAnswer": "I am going by car.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhi evideykku pokunnu?",
+                "options": [
+                  "Ee vazhi townileykku pokunnu.",
+                  "Enikku ariyilla samayam.",
+                  "Mazha undu.",
+                ],
+                "correctAnswer": "Ee vazhi townileykku pokunnu.",
+                "translatedSentence": "This road goes to town.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Bus eppol varum?",
+                "options": [
+                  "When will the bus come?",
+                  "When will the train come?",
+                  "Where is the bus?",
+                ],
+                "correctAnswer": "When will the bus come?",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Train eppol varum?",
+                "options": [
+                  "When will the train come?",
+                  "When will the bus come?",
+                  "Where is the train?",
+                ],
+                "correctAnswer": "When will the train come?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte ticket evide?",
+                "options": [
+                  "Ente ticket ivide undu.",
+                  "Enikku pani undu.",
+                  "Innu njaayar aanu.",
+                ],
+                "correctAnswer": "Ente ticket ivide undu.",
+                "translatedSentence": "My ticket is here.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan yaathra cheyyunnu.",
+                "options": [
+                  "I am traveling.",
+                  "I am sleeping.",
+                  "I am eating.",
+                ],
+                "correctAnswer": "I am traveling.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Auto evide kittum?",
+                "options": [
+                  "Auto avide kittum.",
+                  "Enikku urakkam varunnu.",
+                  "Veyil undu.",
+                ],
+                "correctAnswer": "Auto avide kittum.",
+                "translatedSentence": "You can get an auto there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente saamaanam evide?",
+                "options": [
+                  "Where is my luggage?",
+                  "Where is my ticket?",
+                  "Where is my car?",
+                ],
+                "correctAnswer": "Where is my luggage?",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vimanathil pokunnu.",
+                "options": [
+                  "I am going by airplane.",
+                  "I am going by car.",
+                  "I am going by ship.",
+                ],
+                "correctAnswer": "I am going by airplane.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee bus townileykku pokumo?",
+                "options": [
+                  "Athey, athu townileykku pokum.",
+                  "Enikku pani undu.",
+                  "Innale mazha undayirunnu.",
+                ],
+                "correctAnswer": "Athey, athu townileykku pokum.",
+                "translatedSentence": "Yes, it goes to town.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vazhi ariyilla.",
+                "options": [
+                  "I don't know the way.",
+                  "I know the way.",
+                  "I need a ticket.",
+                ],
+                "correctAnswer": "I don't know the way.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ticket ethra rupa aanu?",
+                "options": [
+                  "Ticket nooru rupa aanu.",
+                  "Njan veetil undu.",
+                  "Choodu kaappi venam.",
+                ],
+                "correctAnswer": "Ticket nooru rupa aanu.",
+                "translatedSentence": "The ticket is one hundred rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee train evideykku pokunnu?",
+                "options": [
+                  "Where does this train go?",
+                  "Where does this bus go?",
+                  "Where is the station?",
+                ],
+                "correctAnswer": "Where does this train go?",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan airport-il ethi.",
+                "options": [
+                  "I reached the airport.",
+                  "I reached the station.",
+                  "I left the airport.",
+                ],
+                "correctAnswer": "I reached the airport.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Station-ileykku ethra dooram undu?",
+                "options": [
+                  "Randu kilometer undu.",
+                  "Enikku vishakkunnu.",
+                  "Innu velli aanu.",
+                ],
+                "correctAnswer": "Randu kilometer undu.",
+                "translatedSentence": "It is two kilometers.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku oru map venam.",
+                "options": [
+                  "I need a map.",
+                  "I need a ticket.",
+                  "I need a car.",
+                ],
+                "correctAnswer": "I need a map.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal eppol purappedum?",
+                "options": [
+                  "Nammal ippol purappedum.",
+                  "Enikku thala vedana undu.",
+                  "Mazha peyyunnu.",
+                ],
+                "correctAnswer": "Nammal ippol purappedum.",
+                "translatedSentence": "We will leave now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente bus poyi.",
+                "options": ["My bus left.", "My bus came.", "My train left."],
+                "correctAnswer": "My bus left.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan naale train-il yaathra cheyyum.",
+                "options": [
+                  "I will travel by train tomorrow.",
+                  "I traveled by train yesterday.",
+                  "I am traveling by bus today.",
+                ],
+                "correctAnswer": "I will travel by train tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhiyilude poyaal station kittumo?",
+                "options": [
+                  "Athey, ee vazhiyilude station kittum.",
+                  "Enikku pani kooduthal aanu.",
+                  "Innale choodu aayirunnu.",
+                ],
+                "correctAnswer": "Athey, ee vazhiyilude station kittum.",
+                "translatedSentence": "Yes, this way leads to the station.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente ticket nashttappettu.",
+                "options": [
+                  "I lost my ticket.",
+                  "I found my ticket.",
+                  "I bought my ticket.",
+                ],
+                "correctAnswer": "I lost my ticket.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vimanam eppol purappedum?",
+                "options": [
+                  "Vimanam onnu manikku purappedum.",
+                  "Enikku marunnu venam.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Vimanam onnu manikku purappedum.",
+                "translatedSentence": "The airplane leaves at one o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan saamaanam bus-il vachu.",
+                "options": [
+                  "I put the luggage in the bus.",
+                  "I took the luggage from the bus.",
+                  "I lost the luggage in the bus.",
+                ],
+                "correctAnswer": "I put the luggage in the bus.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Dayavayi enne station-il irakku.",
+                "options": [
+                  "Please drop me at the station.",
+                  "Please pick me up at the station.",
+                  "Please wait at the station.",
+                ],
+                "correctAnswer": "Please drop me at the station.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee auto-il ethra per keraam?",
+                "options": [
+                  "Moonnu per keraam.",
+                  "Enikku uranganam.",
+                  "Innu vyazham aanu.",
+                ],
+                "correctAnswer": "Moonnu per keraam.",
+                "translatedSentence": "Three people can get in.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innale kappalil yaathra cheythu.",
+                "options": [
+                  "I traveled by ship yesterday.",
+                  "I will travel by ship tomorrow.",
+                  "I am traveling by ship now.",
+                ],
+                "correctAnswer": "I traveled by ship yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aduthe bus eppol undu?",
+                "options": [
+                  "Aduthe bus pathu minutil undu.",
+                  "Enikku thanuppu undu.",
+                  "Veyil kooduthal aanu.",
+                ],
+                "correctAnswer": "Aduthe bus pathu minutil undu.",
+                "translatedSentence": "The next bus is in ten minutes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente yaathra nannayi.",
+                "options": [
+                  "My journey was good.",
+                  "My journey was long.",
+                  "My journey was bad.",
+                ],
+                "correctAnswer": "My journey was good.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku airport-ileykkulla vazhi parayaamo?",
+                "options": [
+                  "Can you tell me the way to the airport?",
+                  "Can you take me to the airport?",
+                  "Where is the airport ticket?",
+                ],
+                "correctAnswer": "Can you tell me the way to the airport?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee train nerathe purappeetto?",
+                "options": [
+                  "Illa, athu vaikiyaanu purappettathu.",
+                  "Enikku pani undu.",
+                  "Mazha peythu kondirikkunnu.",
+                ],
+                "correctAnswer": "Illa, athu vaikiyaanu purappettathu.",
+                "translatedSentence": "No, it left late.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ticket online-il bookk cheythu.",
+                "options": [
+                  "I booked the ticket online.",
+                  "I lost the ticket online.",
+                  "I cancelled the ticket online.",
+                ],
+                "correctAnswer": "I booked the ticket online.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte bus ethra manikku undu?",
+                "options": [
+                  "Ente bus aaru manikku undu.",
+                  "Enikku thala vedana undu.",
+                  "Innu shani aanu.",
+                ],
+                "correctAnswer": "Ente bus aaru manikku undu.",
+                "translatedSentence": "My bus is at six o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nammal thettaya vazhiyilude poyi.",
+                "options": [
+                  "We went the wrong way.",
+                  "We went the right way.",
+                  "We took the same way.",
+                ],
+                "correctAnswer": "We went the wrong way.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vimanam vaikiyathinaal njan train pidichu.",
+                "options": [
+                  "Since the flight was late, I took the train.",
+                  "Since the flight was early, I took the bus.",
+                  "Since the train was late, I took the flight.",
+                ],
+                "correctAnswer": "Since the flight was late, I took the train.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhi railway station-ileykk aano?",
+                "options": [
+                  "Athey, nere pokku, station avide undu.",
+                  "Enikku marunnu kazhikkanam.",
+                  "Innale kaattu undayirunnu.",
+                ],
+                "correctAnswer": "Athey, nere pokku, station avide undu.",
+                "translatedSentence": "Yes, go straight, the station is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku janalinte arikil oru seat venam.",
+                "options": [
+                  "I want a seat near the window.",
+                  "I want a seat near the door.",
+                  "I want a ticket for the window.",
+                ],
+                "correctAnswer": "I want a seat near the window.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal etra manikku ethum?",
+                "options": [
+                  "Nammal raathri ettu manikku ethum.",
+                  "Enikku pani vannu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Nammal raathri ettu manikku ethum.",
+                "translatedSentence": "We will arrive at eight in the night.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Yaathrakku munpe saamaanam ellaam edukku.",
+                "options": [
+                  "Take all the luggage before the journey.",
+                  "Take all the tickets before the journey.",
+                  "Leave all the luggage after the journey.",
+                ],
+                "correctAnswer": "Take all the luggage before the journey.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "time & days",
+        "image": Assets.images.calendar.path,
+        "color": 0xff9B59B6,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for today",
+                "sentence": "today",
+                "options": ["innu", "nale", "innale"],
+                "correctAnswer": "innu",
+                "translatedSentence": "today",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for tomorrow",
+                "sentence": "tomorrow",
+                "options": ["nale", "innu", "ippol"],
+                "correctAnswer": "nale",
+                "translatedSentence": "tomorrow",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "innale",
+                "options": ["yesterday", "today", "now"],
+                "correctAnswer": "yesterday",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for now",
+                "sentence": "now",
+                "options": ["ippol", "nale", "samayam"],
+                "correctAnswer": "ippol",
+                "translatedSentence": "now",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "samayam",
+                "options": ["time", "day", "week"],
+                "correctAnswer": "time",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Sunday",
+                "sentence": "Sunday",
+                "options": ["njaayar", "thinkal", "chovva"],
+                "correctAnswer": "njaayar",
+                "translatedSentence": "Sunday",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Monday",
+                "sentence": "Monday",
+                "options": ["thinkal", "budhan", "velli"],
+                "correctAnswer": "thinkal",
+                "translatedSentence": "Monday",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "chovva",
+                "options": ["Tuesday", "Wednesday", "Thursday"],
+                "correctAnswer": "Tuesday",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Wednesday",
+                "sentence": "Wednesday",
+                "options": ["budhan", "vyazham", "shani"],
+                "correctAnswer": "budhan",
+                "translatedSentence": "Wednesday",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "vyazham",
+                "options": ["Thursday", "Friday", "Saturday"],
+                "correctAnswer": "Thursday",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Friday",
+                "sentence": "Friday",
+                "options": ["velli", "shani", "njaayar"],
+                "correctAnswer": "velli",
+                "translatedSentence": "Friday",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "shani",
+                "options": ["Saturday", "Sunday", "Monday"],
+                "correctAnswer": "Saturday",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for week",
+                "sentence": "week",
+                "options": ["aazhcha", "maasam", "varsham"],
+                "correctAnswer": "aazhcha",
+                "translatedSentence": "week",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "maasam",
+                "options": ["month", "week", "year"],
+                "correctAnswer": "month",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for year",
+                "sentence": "year",
+                "options": ["varsham", "divasam", "manikkoor"],
+                "correctAnswer": "varsham",
+                "translatedSentence": "year",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu njaayar aanu.",
+                "options": [
+                  "Today is Sunday.",
+                  "Today is Monday.",
+                  "Tomorrow is Sunday.",
+                ],
+                "correctAnswer": "Today is Sunday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu ethu divasam aanu?",
+                "options": [
+                  "Innu thinkal aanu.",
+                  "Enikku ariyilla vazhi.",
+                  "Mazha undu.",
+                ],
+                "correctAnswer": "Innu thinkal aanu.",
+                "translatedSentence": "Today is Monday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nale chovva aanu.",
+                "options": [
+                  "Tomorrow is Tuesday.",
+                  "Yesterday was Tuesday.",
+                  "Today is Tuesday.",
+                ],
+                "correctAnswer": "Tomorrow is Tuesday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ippol samayam ethra?",
+                "options": [
+                  "Ippol pathu mani aanu.",
+                  "Njan bus-il pokunnu.",
+                  "Enikku pani undu.",
+                ],
+                "correctAnswer": "Ippol pathu mani aanu.",
+                "translatedSentence": "It is ten o'clock now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innale velli aayirunnu.",
+                "options": [
+                  "Yesterday was Friday.",
+                  "Tomorrow is Friday.",
+                  "Today is Friday.",
+                ],
+                "correctAnswer": "Yesterday was Friday.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ippol samayam ethra aanu?",
+                "options": [
+                  "What time is it now?",
+                  "What day is it today?",
+                  "What month is it?",
+                ],
+                "correctAnswer": "What time is it now?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nale ethu divasam aanu?",
+                "options": [
+                  "Nale budhan aanu.",
+                  "Enikku vishakkunnu.",
+                  "Veyil undu.",
+                ],
+                "correctAnswer": "Nale budhan aanu.",
+                "translatedSentence": "Tomorrow is Wednesday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu varunnu.",
+                "options": [
+                  "I am coming today.",
+                  "I am coming tomorrow.",
+                  "I came yesterday.",
+                ],
+                "correctAnswer": "I am coming today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innale ethu divasam aayirunnu?",
+                "options": [
+                  "Innale shani aayirunnu.",
+                  "Njan urangunnu.",
+                  "Choodu aanu.",
+                ],
+                "correctAnswer": "Innale shani aayirunnu.",
+                "translatedSentence": "Yesterday was Saturday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente birthday nale aanu.",
+                "options": [
+                  "My birthday is tomorrow.",
+                  "My birthday is today.",
+                  "My birthday was yesterday.",
+                ],
+                "correctAnswer": "My birthday is tomorrow.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan nale varum.",
+                "options": [
+                  "I will come tomorrow.",
+                  "I came yesterday.",
+                  "I am coming now.",
+                ],
+                "correctAnswer": "I will come tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee aazhcha ninakku eppol samayam undu?",
+                "options": [
+                  "Vyazhaazhcha enikku samayam undu.",
+                  "Enikku pani undu ippol.",
+                  "Mazha peyyunnu.",
+                ],
+                "correctAnswer": "Vyazhaazhcha enikku samayam undu.",
+                "translatedSentence": "I am free on Thursday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innale vannu.",
+                "options": [
+                  "I came yesterday.",
+                  "I will come tomorrow.",
+                  "I am coming today.",
+                ],
+                "correctAnswer": "I came yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Class eppol thudangum?",
+                "options": [
+                  "Class onpathu manikku thudangum.",
+                  "Enikku thala vedana undu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Class onpathu manikku thudangum.",
+                "translatedSentence": "The class starts at nine o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu enikku jolikku pokanam.",
+                "options": [
+                  "I have to go to work today.",
+                  "I have to go to work tomorrow.",
+                  "I went to work yesterday.",
+                ],
+                "correctAnswer": "I have to go to work today.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee aazhcha njan busy aanu.",
+                "options": [
+                  "I am busy this week.",
+                  "I am free this week.",
+                  "I was busy last week.",
+                ],
+                "correctAnswer": "I am busy this week.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte meeting ethu divasam aanu?",
+                "options": [
+                  "Ente meeting velliyaazhcha aanu.",
+                  "Enikku vishakkunnu.",
+                  "Innale mazha undayirunnu.",
+                ],
+                "correctAnswer": "Ente meeting velliyaazhcha aanu.",
+                "translatedSentence": "My meeting is on Friday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile ezhu manikku ezhunnettu.",
+                "options": [
+                  "I woke up at seven in the morning.",
+                  "I slept at seven in the morning.",
+                  "I woke up at nine in the morning.",
+                ],
+                "correctAnswer": "I woke up at seven in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee maasam evideykkaanu pokunnathu?",
+                "options": [
+                  "Njan ee maasam nattileykku pokunnu.",
+                  "Enikku pani undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Njan ee maasam nattileykku pokunnu.",
+                "translatedSentence": "I am going to my hometown this month.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Namukk innu vaikunneram kaanaam.",
+                "options": [
+                  "Let's meet this evening.",
+                  "Let's meet tomorrow evening.",
+                  "Let's meet this morning.",
+                ],
+                "correctAnswer": "Let's meet this evening.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raathri pathu manikku urangum.",
+                "options": [
+                  "I sleep at ten in the night.",
+                  "I wake up at ten in the night.",
+                  "I sleep at ten in the morning.",
+                ],
+                "correctAnswer": "I sleep at ten in the night.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte avadhi eppol aanu?",
+                "options": [
+                  "Ente avadhi aduttha maasam aanu.",
+                  "Enikku thanuppu undu.",
+                  "Veyil kooduthal aanu.",
+                ],
+                "correctAnswer": "Ente avadhi aduttha maasam aanu.",
+                "translatedSentence": "My holiday is next month.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente perentsu innale ethi.",
+                "options": [
+                  "My parents arrived yesterday.",
+                  "My parents will arrive tomorrow.",
+                  "My parents are arriving today.",
+                ],
+                "correctAnswer": "My parents arrived yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee varsham ninte pariksha eppol aanu?",
+                "options": [
+                  "Ente pariksha marchil aanu.",
+                  "Enikku thala vedana undu.",
+                  "Mazha peythu.",
+                ],
+                "correctAnswer": "Ente pariksha marchil aanu.",
+                "translatedSentence": "My exam is in March.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ella divasavum vyaayaamam cheyyum.",
+                "options": [
+                  "I exercise every day.",
+                  "I exercise every week.",
+                  "I exercised yesterday.",
+                ],
+                "correctAnswer": "I exercise every day.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ella thinkalaazhchayum yogam cheyyum.",
+                "options": [
+                  "I do yoga every Monday.",
+                  "I do yoga every Sunday.",
+                  "I did yoga last Monday.",
+                ],
+                "correctAnswer": "I do yoga every Monday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte flight ethu samayathu aanu?",
+                "options": [
+                  "Ente flight raavile aaru manikku aanu.",
+                  "Enikku pani undu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Ente flight raavile aaru manikku aanu.",
+                "translatedSentence": "My flight is at six in the morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raandu divasam munpu vannu.",
+                "options": [
+                  "I came two days ago.",
+                  "I came two weeks ago.",
+                  "I will come in two days.",
+                ],
+                "correctAnswer": "I came two days ago.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte office eppol adaykkum?",
+                "options": [
+                  "Office vaikunneram anchu manikku adaykkum.",
+                  "Enikku vishakkunnu.",
+                  "Choodu aanu.",
+                ],
+                "correctAnswer": "Office vaikunneram anchu manikku adaykkum.",
+                "translatedSentence":
+                    "The office closes at five in the evening.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aduttha aazhcha njan vaikum.",
+                "options": [
+                  "Next week I will be late.",
+                  "Last week I was late.",
+                  "This week I am late.",
+                ],
+                "correctAnswer": "Next week I will be late.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ella velliyaazhchayum ammaye vilikkum.",
+                "options": [
+                  "I call my mother every Friday.",
+                  "I call my mother every Sunday.",
+                  "I called my mother last Friday.",
+                ],
+                "correctAnswer": "I call my mother every Friday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammude yaathra eppol aanu?",
+                "options": [
+                  "Nammude yaathra aduttha shaniyaazhcha aanu.",
+                  "Enikku thanuppu undu.",
+                  "Veyil undu.",
+                ],
+                "correctAnswer": "Nammude yaathra aduttha shaniyaazhcha aanu.",
+                "translatedSentence": "Our journey is next Saturday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee maasam muppathu divasam undu.",
+                "options": [
+                  "This month has thirty days.",
+                  "This month has thirty weeks.",
+                  "This year has thirty days.",
+                ],
+                "correctAnswer": "This month has thirty days.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku eppol urakkam varum?",
+                "options": [
+                  "Enikku raathri pathu manikku urakkam varum.",
+                  "Enikku pani undu.",
+                  "Mazha peyyunnu.",
+                ],
+                "correctAnswer": "Enikku raathri pathu manikku urakkam varum.",
+                "translatedSentence": "I get sleepy at ten in the night.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu vaikiyaanu ezhunnettathu.",
+                "options": [
+                  "I woke up late today.",
+                  "I woke up early today.",
+                  "I will wake up late tomorrow.",
+                ],
+                "correctAnswer": "I woke up late today.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan chovvaazhcha muthal jolikku pokum.",
+                "options": [
+                  "I will go to work from Tuesday.",
+                  "I went to work on Tuesday.",
+                  "I will go to work until Tuesday.",
+                ],
+                "correctAnswer": "I will go to work from Tuesday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee varsham ninte plans enthaanu?",
+                "options": [
+                  "Ee varsham njan puthiya joli thudangum.",
+                  "Enikku thala vedana undu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Ee varsham njan puthiya joli thudangum.",
+                "translatedSentence": "This year I will start a new job.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Namukku vaikunneram moonnu manikku kaanaam.",
+                "options": [
+                  "Let's meet at three in the afternoon.",
+                  "Let's meet at three in the morning.",
+                  "Let's meet at three tomorrow.",
+                ],
+                "correctAnswer": "Let's meet at three in the afternoon.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte train ethu samayathu purappedum?",
+                "options": [
+                  "Ente train raavile ettu manikku purappedum.",
+                  "Enikku vishakkunnu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Ente train raavile ettu manikku purappedum.",
+                "translatedSentence":
+                    "My train leaves at eight in the morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan oro divasavum puthiya vaakku padikkum.",
+                "options": [
+                  "I learn a new word every day.",
+                  "I learn a new word every week.",
+                  "I learned a new word yesterday.",
+                ],
+                "correctAnswer": "I learn a new word every day.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee aazhcha muzhuvan njan veetil undaakum.",
+                "options": [
+                  "I will be at home the whole week.",
+                  "I was at home the whole week.",
+                  "I will be out the whole week.",
+                ],
+                "correctAnswer": "I will be at home the whole week.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pariksha kazhinjo?",
+                "options": [
+                  "Athey, athu innale kazhinju.",
+                  "Enikku pani undu.",
+                  "Mazha peythu kondirikkunnu.",
+                ],
+                "correctAnswer": "Athey, athu innale kazhinju.",
+                "translatedSentence": "Yes, it finished yesterday.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan randu maasam munpu ivideykku vannu.",
+                "options": [
+                  "I came here two months ago.",
+                  "I will come here in two months.",
+                  "I came here two weeks ago.",
+                ],
+                "correctAnswer": "I came here two months ago.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal ethu divasam yaathra purappedum?",
+                "options": [
+                  "Nammal velliyaazhcha raavile purappedum.",
+                  "Enikku thala vedana undu.",
+                  "Veyil kooduthal aanu.",
+                ],
+                "correctAnswer": "Nammal velliyaazhcha raavile purappedum.",
+                "translatedSentence": "We will leave on Friday morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Samayam kittumbol njan ninne vilikkam.",
+                "options": [
+                  "I will call you when I get time.",
+                  "I will call you tomorrow.",
+                  "I called you when I got time.",
+                ],
+                "correctAnswer": "I will call you when I get time.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "weather",
+        "image": Assets.images.cyan.path,
+        "color": 0xff3498DB,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for rain",
+                "sentence": "rain",
+                "options": ["mazha", "veyil", "kaattu"],
+                "correctAnswer": "mazha",
+                "translatedSentence": "rain",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for sunshine",
+                "sentence": "sunshine",
+                "options": ["veyil", "mazha", "thanuppu"],
+                "correctAnswer": "veyil",
+                "translatedSentence": "sunshine",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "thanuppu",
+                "options": ["cold", "hot", "wind"],
+                "correctAnswer": "cold",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for hot",
+                "sentence": "hot",
+                "options": ["choodu", "thanuppu", "mazha"],
+                "correctAnswer": "choodu",
+                "translatedSentence": "hot",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kaattu",
+                "options": ["wind", "rain", "cloud"],
+                "correctAnswer": "wind",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for cloud",
+                "sentence": "cloud",
+                "options": ["megham", "mazha", "veyil"],
+                "correctAnswer": "megham",
+                "translatedSentence": "cloud",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sooryan",
+                "options": ["sun", "moon", "sky"],
+                "correctAnswer": "sun",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for sky",
+                "sentence": "sky",
+                "options": ["aakaasham", "bhoomi", "kaattu"],
+                "correctAnswer": "aakaasham",
+                "translatedSentence": "sky",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "thanuppu",
+                "options": ["cold", "hot", "wind"],
+                "correctAnswer": "cold",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for storm",
+                "sentence": "storm",
+                "options": ["kodunkaattu", "megham", "veyil"],
+                "correctAnswer": "kodunkaattu",
+                "translatedSentence": "storm",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for fog",
+                "sentence": "fog",
+                "options": ["manju", "mazha", "veyil"],
+                "correctAnswer": "manju",
+                "translatedSentence": "fog",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "idi",
+                "options": ["thunder", "wind", "rain"],
+                "correctAnswer": "thunder",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for lightning",
+                "sentence": "lightning",
+                "options": ["minnal", "megham", "choodu"],
+                "correctAnswer": "minnal",
+                "translatedSentence": "lightning",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "choodu",
+                "options": ["heat", "cold", "wind"],
+                "correctAnswer": "heat",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for weather",
+                "sentence": "weather",
+                "options": ["kaalaavastha", "samayam", "divasam"],
+                "correctAnswer": "kaalaavastha",
+                "translatedSentence": "weather",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu mazha undu.",
+                "options": [
+                  "It is raining today.",
+                  "It is sunny today.",
+                  "It is cold today.",
+                ],
+                "correctAnswer": "It is raining today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu kaalaavastha engane undu?",
+                "options": [
+                  "Innu veyil undu.",
+                  "Enikku ariyilla vazhi.",
+                  "Bus poyi.",
+                ],
+                "correctAnswer": "Innu veyil undu.",
+                "translatedSentence": "It is sunny today.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu thanuppu undu.",
+                "options": [
+                  "It is cold today.",
+                  "It is hot today.",
+                  "It is windy today.",
+                ],
+                "correctAnswer": "It is cold today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Puratt mazha undo?",
+                "options": [
+                  "Athey, mazha undu.",
+                  "Enikku vishakkunnu.",
+                  "Njan urangunnu.",
+                ],
+                "correctAnswer": "Athey, mazha undu.",
+                "translatedSentence": "Yes, it is raining.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu choodu aanu.",
+                "options": [
+                  "Today is hot.",
+                  "Today is cold.",
+                  "Today is rainy.",
+                ],
+                "correctAnswer": "Today is hot.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu kaattu veeshunnu.",
+                "options": [
+                  "The wind is blowing today.",
+                  "It is raining today.",
+                  "It is sunny today.",
+                ],
+                "correctAnswer": "The wind is blowing today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nale mazha varumo?",
+                "options": [
+                  "Athey, nale mazha varum.",
+                  "Enikku pani undu.",
+                  "Njan bus-il pokunnu.",
+                ],
+                "correctAnswer": "Athey, nale mazha varum.",
+                "translatedSentence": "Yes, it will rain tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aakaasham nallonam undu.",
+                "options": [
+                  "The sky is clear.",
+                  "The sky is cloudy.",
+                  "The sky is dark.",
+                ],
+                "correctAnswer": "The sky is clear.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu veyil undo?",
+                "options": [
+                  "Illa, innu megham undu.",
+                  "Enikku uranganam.",
+                  "Ticket ivide undu.",
+                ],
+                "correctAnswer": "Illa, innu megham undu.",
+                "translatedSentence": "No, it is cloudy today.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku thanuppu aanu.",
+                "options": ["I feel cold.", "I feel hot.", "I feel tired."],
+                "correctAnswer": "I feel cold.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innale valare mazha undayirunnu.",
+                "options": [
+                  "It rained a lot yesterday.",
+                  "It will rain a lot tomorrow.",
+                  "It is raining a lot today.",
+                ],
+                "correctAnswer": "It rained a lot yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku choodu thonnunnundo?",
+                "options": [
+                  "Athey, enikku choodu thonnunnu.",
+                  "Enikku ariyilla samayam.",
+                  "Train poyi.",
+                ],
+                "correctAnswer": "Athey, enikku choodu thonnunnu.",
+                "translatedSentence": "Yes, I feel hot.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Puratt kaattu kooduthal undu.",
+                "options": [
+                  "There is a lot of wind outside.",
+                  "There is a lot of rain outside.",
+                  "There is a lot of sun outside.",
+                ],
+                "correctAnswer": "There is a lot of wind outside.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu chatta venamo?",
+                "options": [
+                  "Athey, mazha undu, chatta edukku.",
+                  "Enikku thala vedana undu.",
+                  "Njan urangunnu.",
+                ],
+                "correctAnswer": "Athey, mazha undu, chatta edukku.",
+                "translatedSentence": "Yes, it is raining, take an umbrella.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ippol veyil undu.",
+                "options": [
+                  "It is sunny now.",
+                  "It is raining now.",
+                  "It is cold now.",
+                ],
+                "correctAnswer": "It is sunny now.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee maasam kooduthal mazha undu.",
+                "options": [
+                  "There is more rain this month.",
+                  "There is more sun this month.",
+                  "There was more rain last month.",
+                ],
+                "correctAnswer": "There is more rain this month.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nale yaathrakku kaalaavastha nallathaano?",
+                "options": [
+                  "Athey, nale veyil undaakum.",
+                  "Enikku pani undu.",
+                  "Njan veetil undu.",
+                ],
+                "correctAnswer": "Athey, nale veyil undaakum.",
+                "translatedSentence": "Yes, it will be sunny tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Manju karanam vazhi kaanunnilla.",
+                "options": [
+                  "I can't see the road because of the fog.",
+                  "I can't see the road because of the rain.",
+                  "I can see the road clearly.",
+                ],
+                "correctAnswer": "I can't see the road because of the fog.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Idiyum minnalum undo?",
+                "options": [
+                  "Athey, idiyum minnalum undu.",
+                  "Enikku vishakkunnu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Athey, idiyum minnalum undu.",
+                "translatedSentence": "Yes, there is thunder and lightning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu aakaasham iruttaayirikkunnu.",
+                "options": [
+                  "The sky has become dark today.",
+                  "The sky has become clear today.",
+                  "The sky has become bright today.",
+                ],
+                "correctAnswer": "The sky has become dark today.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazha peyyumbol njan veetil irikkum.",
+                "options": [
+                  "I stay home when it rains.",
+                  "I go out when it rains.",
+                  "I walk when it rains.",
+                ],
+                "correctAnswer": "I stay home when it rains.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kaalaavasthayil enthu cheyyaanu ishttam?",
+                "options": [
+                  "Mazhathu njan chaaya kudikkaanu ishttam.",
+                  "Enikku thala vedana undu.",
+                  "Bus stop ivide anu.",
+                ],
+                "correctAnswer": "Mazhathu njan chaaya kudikkaanu ishttam.",
+                "translatedSentence": "I like drinking tea when it rains.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Innu velicham valare kooduthal aanu.",
+                "options": [
+                  "Today the light is very strong.",
+                  "Today the wind is very strong.",
+                  "Today the rain is very strong.",
+                ],
+                "correctAnswer": "Today the light is very strong.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal puratt pokendaayo?",
+                "options": [
+                  "Venda, puratt mazha undu.",
+                  "Enikku pani undu.",
+                  "Njan urangunnu.",
+                ],
+                "correctAnswer": "Venda, puratt mazha undu.",
+                "translatedSentence": "No, it is raining outside.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Thanuppu karanam njan swetter ittu.",
+                "options": [
+                  "I wore a sweater because of the cold.",
+                  "I wore a sweater because of the rain.",
+                  "I removed the sweater because of the heat.",
+                ],
+                "correctAnswer": "I wore a sweater because of the cold.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nale mazha undaakumennu njan karuthunnu.",
+                "options": [
+                  "I think it will rain tomorrow.",
+                  "I think it was raining yesterday.",
+                  "I think it is sunny today.",
+                ],
+                "correctAnswer": "I think it will rain tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee choodil engane undu?",
+                "options": [
+                  "Valare buddhimuttaanu, vellam kudikku.",
+                  "Enikku vishakkunnu.",
+                  "Innu njaayar aanu.",
+                ],
+                "correctAnswer": "Valare buddhimuttaanu, vellam kudikku.",
+                "translatedSentence": "It is very difficult, drink water.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kodunkaattu karanam maram veenu.",
+                "options": [
+                  "A tree fell because of the storm.",
+                  "A tree fell because of the rain.",
+                  "A tree grew because of the storm.",
+                ],
+                "correctAnswer": "A tree fell because of the storm.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu chatta konduvarano?",
+                "options": [
+                  "Athey, mazha varaan saadhyathayundu.",
+                  "Enikku thanuppu undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Athey, mazha varaan saadhyathayundu.",
+                "translatedSentence": "Yes, there is a chance of rain.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Manjukaalathu ivide valare thanuppaanu.",
+                "options": [
+                  "It is very cold here in winter.",
+                  "It is very hot here in winter.",
+                  "It is very rainy here in winter.",
+                ],
+                "correctAnswer": "It is very cold here in winter.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazha karanam njan office-il vaikichu.",
+                "options": [
+                  "I was late to the office because of the rain.",
+                  "I was early to the office because of the rain.",
+                  "I stayed home because of the rain.",
+                ],
+                "correctAnswer":
+                    "I was late to the office because of the rain.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee aazhcha kaalaavastha engane aayirikkum?",
+                "options": [
+                  "Ee aazhcha kooduthalum mazha undaakum.",
+                  "Enikku pani undu.",
+                  "Njan veetil undu.",
+                ],
+                "correctAnswer": "Ee aazhcha kooduthalum mazha undaakum.",
+                "translatedSentence": "There will be mostly rain this week.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Veyil karanam njan kannada vachu.",
+                "options": [
+                  "I wore sunglasses because of the sun.",
+                  "I wore a jacket because of the sun.",
+                  "I wore sunglasses because of the rain.",
+                ],
+                "correctAnswer": "I wore sunglasses because of the sun.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nale beach-il pokaamo?",
+                "options": [
+                  "Athey, nale veyil undaakum.",
+                  "Enikku thala vedana undu.",
+                  "Marunnu kazhikku.",
+                ],
+                "correctAnswer": "Athey, nale veyil undaakum.",
+                "translatedSentence": "Yes, it will be sunny tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Idi kettappol kutti pedichu.",
+                "options": [
+                  "The child got scared when it heard the thunder.",
+                  "The child slept when it heard the thunder.",
+                  "The child laughed when it heard the thunder.",
+                ],
+                "correctAnswer":
+                    "The child got scared when it heard the thunder.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaalaavastha maaruka aanu, chatta kayyil vaykku.",
+                "options": [
+                  "The weather is changing, keep an umbrella with you.",
+                  "The weather is nice, leave the umbrella.",
+                  "The weather is hot, keep water with you.",
+                ],
+                "correctAnswer":
+                    "The weather is changing, keep an umbrella with you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innathe choodil purathirangaano?",
+                "options": [
+                  "Venda, choodu kooduthal aanu, veetil irikku.",
+                  "Enikku vishakkunnu.",
+                  "Bus poyi.",
+                ],
+                "correctAnswer": "Venda, choodu kooduthal aanu, veetil irikku.",
+                "translatedSentence": "No, it is too hot, stay home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Manju moodiyathinaal vandi pathukke odichu.",
+                "options": [
+                  "I drove the car slowly because of the fog.",
+                  "I drove the car fast because of the fog.",
+                  "I stopped the car because of the fog.",
+                ],
+                "correctAnswer": "I drove the car slowly because of the fog.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee thanuppil enthu kudikkaanu ishttam?",
+                "options": [
+                  "Choodulla kaappi kudikkaanu ishttam.",
+                  "Enikku thala vedana undu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Choodulla kaappi kudikkaanu ishttam.",
+                "translatedSentence": "I like drinking hot coffee.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazhakkaalathu ivide ella sthalavum pacha aakum.",
+                "options": [
+                  "Everywhere here turns green in the rainy season.",
+                  "Everywhere here turns dry in the rainy season.",
+                  "Everywhere here turns cold in the rainy season.",
+                ],
+                "correctAnswer":
+                    "Everywhere here turns green in the rainy season.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazha nichaal namukku purathu pokaam.",
+                "options": [
+                  "If the rain stops, we can go out.",
+                  "If the rain starts, we can go out.",
+                  "If it is sunny, we must stay home.",
+                ],
+                "correctAnswer": "If the rain stops, we can go out.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Naale kaalaavastha engane aayirikkum ennu ariyaamo?",
+                "options": [
+                  "Naale veyilum kaattum undaakum ennu thonnunnu.",
+                  "Enikku pani undu.",
+                  "Njan veetil undu.",
+                ],
+                "correctAnswer":
+                    "Naale veyilum kaattum undaakum ennu thonnunnu.",
+                "translatedSentence":
+                    "I think tomorrow will be sunny and windy.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee varsham valare koduthal mazha peythu.",
+                "options": [
+                  "This year it rained a lot.",
+                  "This year it was very dry.",
+                  "This year it was very hot.",
+                ],
+                "correctAnswer": "This year it rained a lot.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kodunkaattil purathirangaruthu, alle?",
+                "options": [
+                  "Shariyaanu, veetil thanne irikkuka.",
+                  "Enikku thanuppu undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Shariyaanu, veetil thanne irikkuka.",
+                "translatedSentence": "That's right, stay inside the house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Veyil kooduthal ulla divasangalil vellam kudikkanam.",
+                "options": [
+                  "On very sunny days you must drink water.",
+                  "On very rainy days you must drink water.",
+                  "On very cold days you must drink water.",
+                ],
+                "correctAnswer": "On very sunny days you must drink water.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "health",
+        "image": Assets.images.bandages.path,
+        "color": 0xffE74C3C,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for doctor",
+                "sentence": "doctor",
+                "options": ["doctor", "marunnu", "pani"],
+                "correctAnswer": "doctor",
+                "translatedSentence": "doctor",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for hospital",
+                "sentence": "hospital",
+                "options": ["aashupatri", "marunnu", "veedu"],
+                "correctAnswer": "aashupatri",
+                "translatedSentence": "hospital",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "marunnu",
+                "options": ["medicine", "fever", "doctor"],
+                "correctAnswer": "medicine",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for fever",
+                "sentence": "fever",
+                "options": ["pani", "marunnu", "aashupatri"],
+                "correctAnswer": "pani",
+                "translatedSentence": "fever",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "thala vedana",
+                "options": ["headache", "stomach ache", "fever"],
+                "correctAnswer": "headache",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for pain",
+                "sentence": "pain",
+                "options": ["vedana", "pani", "marunnu"],
+                "correctAnswer": "vedana",
+                "translatedSentence": "pain",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "chuma",
+                "options": ["cough", "cold", "fever"],
+                "correctAnswer": "cough",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for cold",
+                "sentence": "cold",
+                "options": ["jalado sham", "pani", "vedana"],
+                "correctAnswer": "jalado sham",
+                "translatedSentence": "cold",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "vayaru vedana",
+                "options": ["stomach ache", "headache", "toothache"],
+                "correctAnswer": "stomach ache",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for nurse",
+                "sentence": "nurse",
+                "options": ["nurse", "doctor", "marunnu"],
+                "correctAnswer": "nurse",
+                "translatedSentence": "nurse",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for tooth",
+                "sentence": "tooth",
+                "options": ["pallu", "kannu", "kai"],
+                "correctAnswer": "pallu",
+                "translatedSentence": "tooth",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kannu",
+                "options": ["eye", "ear", "nose"],
+                "correctAnswer": "eye",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for hand",
+                "sentence": "hand",
+                "options": ["kai", "kaal", "thala"],
+                "correctAnswer": "kai",
+                "translatedSentence": "hand",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kaal",
+                "options": ["leg", "hand", "head"],
+                "correctAnswer": "leg",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for injury",
+                "sentence": "injury",
+                "options": ["muriv", "pani", "vedana"],
+                "correctAnswer": "muriv",
+                "translatedSentence": "injury",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pani undu.",
+                "options": [
+                  "I have a fever.",
+                  "I have a headache.",
+                  "I have a cough.",
+                ],
+                "correctAnswer": "I have a fever.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthu pattiya?",
+                "options": [
+                  "Enikku thala vedana undu.",
+                  "Njan bus-il pokunnu.",
+                  "Innu njaayar aanu.",
+                ],
+                "correctAnswer": "Enikku thala vedana undu.",
+                "translatedSentence": "I have a headache.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku marunnu venam.",
+                "options": [
+                  "I need medicine.",
+                  "I need a doctor.",
+                  "I need water.",
+                ],
+                "correctAnswer": "I need medicine.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Doctor evide undu?",
+                "options": [
+                  "Doctor aashupatriyil undu.",
+                  "Enikku vishakkunnu.",
+                  "Mazha undu.",
+                ],
+                "correctAnswer": "Doctor aashupatriyil undu.",
+                "translatedSentence": "The doctor is at the hospital.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku chuma undu.",
+                "options": [
+                  "I have a cough.",
+                  "I have a fever.",
+                  "I have a cold.",
+                ],
+                "correctAnswer": "I have a cough.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vayaru vedana undu.",
+                "options": [
+                  "I have a stomach ache.",
+                  "I have a headache.",
+                  "I have a fever.",
+                ],
+                "correctAnswer": "I have a stomach ache.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aashupatri evide anu?",
+                "options": [
+                  "Aashupatri avide anu.",
+                  "Njan urangunnu.",
+                  "Choodu aanu.",
+                ],
+                "correctAnswer": "Aashupatri avide anu.",
+                "translatedSentence": "The hospital is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enne doctorinte aduthu kondu pokoo.",
+                "options": [
+                  "Take me to the doctor.",
+                  "Take me to the hospital.",
+                  "Take me home.",
+                ],
+                "correctAnswer": "Take me to the doctor.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku sukhamundo?",
+                "options": [
+                  "Illa, enikku pani undu.",
+                  "Njan veetil undu.",
+                  "Ticket ivide undu.",
+                ],
+                "correctAnswer": "Illa, enikku pani undu.",
+                "translatedSentence": "No, I have a fever.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marunnu kazhikku.",
+                "options": [
+                  "Take the medicine.",
+                  "Drink the water.",
+                  "See the doctor.",
+                ],
+                "correctAnswer": "Take the medicine.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku sukhamilla.",
+                "options": ["I am not well.", "I am well.", "I am tired."],
+                "correctAnswer": "I am not well.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pani maariyo?",
+                "options": [
+                  "Athey, ente pani maari.",
+                  "Enikku vishakkunnu.",
+                  "Bus poyi.",
+                ],
+                "correctAnswer": "Athey, ente pani maari.",
+                "translatedSentence": "Yes, my fever is gone.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Doctor enne parishodhichu.",
+                "options": [
+                  "The doctor examined me.",
+                  "The doctor called me.",
+                  "The doctor left me.",
+                ],
+                "correctAnswer": "The doctor examined me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee marunnu eppol kazhikkanam?",
+                "options": [
+                  "Ee marunnu bhakshanathinu shesham kazhikkanam.",
+                  "Enikku thala vedana undu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer":
+                    "Ee marunnu bhakshanathinu shesham kazhikkanam.",
+                "translatedSentence": "Take this medicine after food.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku vishramam venam.",
+                "options": [
+                  "I need rest.",
+                  "I need medicine.",
+                  "I need a doctor.",
+                ],
+                "correctAnswer": "I need rest.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu doctor-e kaananam.",
+                "options": [
+                  "I have to see the doctor today.",
+                  "I saw the doctor yesterday.",
+                  "I will see the doctor tomorrow.",
+                ],
+                "correctAnswer": "I have to see the doctor today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku engane thonnunnu?",
+                "options": [
+                  "Ippol enikku ittiri bhedam undu.",
+                  "Enikku vishakkunnu.",
+                  "Innale mazha undayirunnu.",
+                ],
+                "correctAnswer": "Ippol enikku ittiri bhedam undu.",
+                "translatedSentence": "I feel a little better now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu divasamaayi pani undu.",
+                "options": [
+                  "I have had a fever for two days.",
+                  "I had a fever two days ago.",
+                  "I will have a fever in two days.",
+                ],
+                "correctAnswer": "I have had a fever for two days.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Marunnu kazhinjo?",
+                "options": [
+                  "Illa, marunnu vaangaan pokunnu.",
+                  "Enikku pani undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Illa, marunnu vaangaan pokunnu.",
+                "translatedSentence": "No, I am going to buy medicine.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente kaalinu vedana undu.",
+                "options": [
+                  "My leg hurts.",
+                  "My hand hurts.",
+                  "My head hurts.",
+                ],
+                "correctAnswer": "My leg hurts.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Dayavayi doctor-e vilikkoo.",
+                "options": [
+                  "Please call the doctor.",
+                  "Please call the nurse.",
+                  "Please call the taxi.",
+                ],
+                "correctAnswer": "Please call the doctor.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pani ethra undu?",
+                "options": [
+                  "Enikku nooru degree pani undu.",
+                  "Enikku thanuppu undu.",
+                  "Veyil undu.",
+                ],
+                "correctAnswer": "Enikku nooru degree pani undu.",
+                "translatedSentence": "I have a hundred degree fever.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Divasam moonnu thavana marunnu kazhikkanam.",
+                "options": [
+                  "You must take the medicine three times a day.",
+                  "You must take the medicine once a day.",
+                  "You must take the medicine three days a week.",
+                ],
+                "correctAnswer":
+                    "You must take the medicine three times a day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte thala vedana maariyo?",
+                "options": [
+                  "Illa, ippozhum thala vedana undu.",
+                  "Enikku pani undu.",
+                  "Mazha peythu.",
+                ],
+                "correctAnswer": "Illa, ippozhum thala vedana undu.",
+                "translatedSentence": "No, I still have a headache.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan kooduthal vellam kudikkanam.",
+                "options": [
+                  "I must drink more water.",
+                  "I must take more medicine.",
+                  "I must eat more food.",
+                ],
+                "correctAnswer": "I must drink more water.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku sukhamillathathinaal njan jolikku poyilla.",
+                "options": [
+                  "I did not go to work because I was unwell.",
+                  "I went to work even though I was unwell.",
+                  "I did not go to work because it was raining.",
+                ],
+                "correctAnswer": "I did not go to work because I was unwell.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Doctor enthu paranju?",
+                "options": [
+                  "Doctor vishramikkaan paranju.",
+                  "Enikku vishakkunnu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Doctor vishramikkaan paranju.",
+                "translatedSentence": "The doctor told me to rest.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee marunnu kazhichaal urakkam varum.",
+                "options": [
+                  "This medicine will make you sleepy.",
+                  "This medicine will make you hungry.",
+                  "This medicine will make you strong.",
+                ],
+                "correctAnswer": "This medicine will make you sleepy.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte kaayikam engane undu?",
+                "options": [
+                  "Ippol valare bhedapettu, nandi.",
+                  "Enikku pani undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Ippol valare bhedapettu, nandi.",
+                "translatedSentence": "It is much better now, thank you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innale aashupatriyil poyi.",
+                "options": [
+                  "I went to the hospital yesterday.",
+                  "I will go to the hospital tomorrow.",
+                  "I am going to the hospital today.",
+                ],
+                "correctAnswer": "I went to the hospital yesterday.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marunnu kazhikkaan marakkaruthu.",
+                "options": [
+                  "Don't forget to take the medicine.",
+                  "Don't forget to see the doctor.",
+                  "Don't forget to drink water.",
+                ],
+                "correctAnswer": "Don't forget to take the medicine.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pani ippol engane undu?",
+                "options": [
+                  "Marunnu kazhichathil pani kuranju.",
+                  "Enikku thanuppu undu.",
+                  "Veyil kooduthal aanu.",
+                ],
+                "correctAnswer": "Marunnu kazhichathil pani kuranju.",
+                "translatedSentence":
+                    "The fever reduced after taking the medicine.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan doctorinte appointment eduthu.",
+                "options": [
+                  "I took a doctor's appointment.",
+                  "I cancelled the doctor's appointment.",
+                  "I missed the doctor's appointment.",
+                ],
+                "correctAnswer": "I took a doctor's appointment.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pallu vedana maariyo?",
+                "options": [
+                  "Illa, enikku pallu doctor-e kaananam.",
+                  "Enikku pani undu.",
+                  "Mazha peyyunnu.",
+                ],
+                "correctAnswer": "Illa, enikku pallu doctor-e kaananam.",
+                "translatedSentence": "No, I need to see the dentist.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nallavannam urangiyaal sukhamaakum.",
+                "options": [
+                  "You will get better if you sleep well.",
+                  "You will get better if you eat well.",
+                  "You will get worse if you sleep well.",
+                ],
+                "correctAnswer": "You will get better if you sleep well.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pani koodiyaal veendum doctor-e kaananam.",
+                "options": [
+                  "If the fever increases, you must see the doctor again.",
+                  "If the fever reduces, you must see the doctor again.",
+                  "If the fever increases, you must take rest at home.",
+                ],
+                "correctAnswer":
+                    "If the fever increases, you must see the doctor again.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee marunninu allergy undo?",
+                "options": [
+                  "Illa, enikku allergy onnum illa.",
+                  "Enikku vishakkunnu.",
+                  "Kaattu veeshunnu.",
+                ],
+                "correctAnswer": "Illa, enikku allergy onnum illa.",
+                "translatedSentence": "No, I don't have any allergies.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vedana rathriyil koodum.",
+                "options": [
+                  "This pain gets worse at night.",
+                  "This pain gets better at night.",
+                  "This pain goes away at night.",
+                ],
+                "correctAnswer": "This pain gets worse at night.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aashupatriyilekku pokendathundo?",
+                "options": [
+                  "Athey, ippol thanne pokunnathaanu nallathu.",
+                  "Enikku thanuppu undu.",
+                  "Choodu vellam venam.",
+                ],
+                "correctAnswer": "Athey, ippol thanne pokunnathaanu nallathu.",
+                "translatedSentence": "Yes, it is better to go right now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aarogyathinu paccakkarikal nallathaanu.",
+                "options": [
+                  "Vegetables are good for health.",
+                  "Vegetables are bad for health.",
+                  "Sweets are good for health.",
+                ],
+                "correctAnswer": "Vegetables are good for health.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marunnu shariyaayi kazhichaal veenum sukhamaakum.",
+                "options": [
+                  "You will recover soon if you take the medicine properly.",
+                  "You will fall sick if you take the medicine properly.",
+                  "You will recover soon if you skip the medicine.",
+                ],
+                "correctAnswer":
+                    "You will recover soon if you take the medicine properly.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithra neram kazhinjittum vedana maariyille?",
+                "options": [
+                  "Illa, athukondu njan doctor-e veendum kaanum.",
+                  "Enikku pani undu.",
+                  "Njan veetil undu.",
+                ],
+                "correctAnswer":
+                    "Illa, athukondu njan doctor-e veendum kaanum.",
+                "translatedSentence": "No, so I will see the doctor again.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Dinavum vyaayaamam cheytaal aarogyam nannaakum.",
+                "options": [
+                  "Your health will improve if you exercise daily.",
+                  "Your health will worsen if you exercise daily.",
+                  "Your health will improve if you rest daily.",
+                ],
+                "correctAnswer":
+                    "Your health will improve if you exercise daily.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Doctor ini enthu cheyyanaanu paranjathu?",
+                "options": [
+                  "Randu divasam koodi vishramikkaan paranju.",
+                  "Enikku thala vedana undu.",
+                  "Mazha peythu kondirikkunnu.",
+                ],
+                "correctAnswer": "Randu divasam koodi vishramikkaan paranju.",
+                "translatedSentence": "He told me to rest for two more days.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Samayathinu marunnu kazhichaal pani pettennu maarum.",
+                "options": [
+                  "If you take medicine on time, the fever will go quickly.",
+                  "If you take medicine late, the fever will go quickly.",
+                  "If you take medicine on time, the fever will stay long.",
+                ],
+                "correctAnswer":
+                    "If you take medicine on time, the fever will go quickly.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "shopping",
+        "image": Assets.images.chest.path,
+        "color": 0xffF39C12,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Shop",
+                "options": ["Kada", "Veedu", "Muri"],
+                "correctAnswer": "Kada",
+                "translatedSentence": "Shop",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Money",
+                "options": ["Vila", "Panam", "Rupa"],
+                "correctAnswer": "Panam",
+                "translatedSentence": "Money",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vila",
+                "options": ["Price", "Money", "Shop"],
+                "correctAnswer": "Price",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Rupees",
+                "options": ["Rupa", "Kada", "Panam"],
+                "correctAnswer": "Rupa",
+                "translatedSentence": "Rupees",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kada",
+                "options": ["Shop", "Price", "Bought"],
+                "correctAnswer": "Shop",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaangi",
+                "options": ["Bought", "Sold", "Wanted"],
+                "correctAnswer": "Bought",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Bought",
+                "options": ["Vaangi", "Vila", "Panam"],
+                "correctAnswer": "Vaangi",
+                "translatedSentence": "Bought",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Panam",
+                "options": ["Money", "Shop", "Price"],
+                "correctAnswer": "Money",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Price",
+                "options": ["Vila", "Rupa", "Kada"],
+                "correctAnswer": "Vila",
+                "translatedSentence": "Price",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Rupa",
+                "options": ["Rupees", "Money", "Bought"],
+                "correctAnswer": "Rupees",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Expensive",
+                "options": ["Vila kooduthal", "Vila kuravu", "Nallathu"],
+                "correctAnswer": "Vila kooduthal",
+                "translatedSentence": "Expensive",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vila kuravu",
+                "options": ["Cheap", "Expensive", "Good"],
+                "correctAnswer": "Cheap",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Market",
+                "options": ["Chantha", "Kada", "Veedu"],
+                "correctAnswer": "Chantha",
+                "translatedSentence": "Market",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Bill",
+                "options": ["Bill", "Money", "Change"],
+                "correctAnswer": "Bill",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Change",
+                "options": ["Baaki", "Panam", "Vila"],
+                "correctAnswer": "Baaki",
+                "translatedSentence": "Change",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithinu enthu vila?",
+                "options": ["Nooru rupa.", "Enikku ariyilla.", "Nale varam."],
+                "correctAnswer": "Nooru rupa.",
+                "translatedSentence": "One hundred rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ithu venam.",
+                "options": [
+                  "I want this.",
+                  "I don't want this.",
+                  "This is mine.",
+                ],
+                "correctAnswer": "I want this.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithinu vila kooduthal aanu.",
+                "options": [
+                  "This is expensive.",
+                  "This is cheap.",
+                  "This is good.",
+                ],
+                "correctAnswer": "This is expensive.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Panam undo?",
+                "options": ["Undu.", "Vila.", "Kada."],
+                "correctAnswer": "Undu.",
+                "translatedSentence": "Yes, there is.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ithu vaangi.",
+                "options": ["I bought this.", "I want this.", "I sold this."],
+                "correctAnswer": "I bought this.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kada evideyaanu?",
+                "options": [
+                  "Where is the shop?",
+                  "What is the price?",
+                  "How much money?",
+                ],
+                "correctAnswer": "Where is the shop?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Kada evideyaanu?",
+                "options": ["Avide aanu.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Avide aanu.",
+                "translatedSentence": "It is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku panam venam.",
+                "options": [
+                  "I need money.",
+                  "I have money.",
+                  "I want the shop.",
+                ],
+                "correctAnswer": "I need money.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vila kuraykkamo?",
+                "options": ["Pattilla.", "Nandi.", "Namaskaram."],
+                "correctAnswer": "Pattilla.",
+                "translatedSentence": "It is not possible.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Baaki tharoo.",
+                "options": [
+                  "Give the change.",
+                  "Give the money.",
+                  "Give the bill.",
+                ],
+                "correctAnswer": "Give the change.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu ente aanu.",
+                "options": [
+                  "This is mine.",
+                  "This is yours.",
+                  "This is theirs.",
+                ],
+                "correctAnswer": "This is mine.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthu venam ninakku?",
+                "options": [
+                  "Enikku pusthakam venam.",
+                  "Nooru rupa.",
+                  "Avide aanu.",
+                ],
+                "correctAnswer": "Enikku pusthakam venam.",
+                "translatedSentence": "I want a book.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu chantayil vaangi.",
+                "options": [
+                  "I bought this at the market.",
+                  "I sold this at the shop.",
+                  "I want this from the market.",
+                ],
+                "correctAnswer": "I bought this at the market.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vila ethra aayi?",
+                "options": ["Anpathu rupa.", "Enikku venam.", "Kada avide."],
+                "correctAnswer": "Anpathu rupa.",
+                "translatedSentence": "Fifty rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Panam illa.",
+                "options": [
+                  "There is no money.",
+                  "There is money.",
+                  "The shop is closed.",
+                ],
+                "correctAnswer": "There is no money.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu valare vila kooduthal aanu.",
+                "options": [
+                  "This is very expensive.",
+                  "This is very cheap.",
+                  "This is very good.",
+                ],
+                "correctAnswer": "This is very expensive.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vere enthenkilum venam?",
+                "options": ["Venda, nandi.", "Nooru rupa.", "Kada avide."],
+                "correctAnswer": "Venda, nandi.",
+                "translatedSentence": "No, thank you.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan panam tharam.",
+                "options": [
+                  "I will give the money.",
+                  "I want the money.",
+                  "I need the change.",
+                ],
+                "correctAnswer": "I will give the money.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kada eppol thurakkum?",
+                "options": ["Raavile.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Raavile.",
+                "translatedSentence": "In the morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku baaki venam.",
+                "options": [
+                  "I want the change.",
+                  "I want the bill.",
+                  "I want the shop.",
+                ],
+                "correctAnswer": "I want the change.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee kadayil ellam vila kuravu aanu.",
+                "options": [
+                  "Everything is cheap in this shop.",
+                  "Everything is expensive in this shop.",
+                  "This shop is closed today.",
+                ],
+                "correctAnswer": "Everything is cheap in this shop.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Card edukkumo?",
+                "options": [
+                  "Illa, panam mathram.",
+                  "Nooru rupa.",
+                  "Kada avide.",
+                ],
+                "correctAnswer": "Illa, panam mathram.",
+                "translatedSentence": "No, only cash.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan naale vaangaam.",
+                "options": [
+                  "I will buy it tomorrow.",
+                  "I bought it yesterday.",
+                  "I want it now.",
+                ],
+                "correctAnswer": "I will buy it tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithu enthu vila aanu?",
+                "options": [
+                  "Anpathu rupa.",
+                  "Enikku ariyilla shop.",
+                  "Naale varam.",
+                ],
+                "correctAnswer": "Anpathu rupa.",
+                "translatedSentence": "Fifty rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku randu venam.",
+                "options": ["I want two.", "I want this.", "I bought two."],
+                "correctAnswer": "I want two.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu chantayil pokum.",
+                "options": [
+                  "I will go to the market today.",
+                  "I went to the shop today.",
+                  "I want to go to the market.",
+                ],
+                "correctAnswer": "I will go to the market today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthu vaanganam?",
+                "options": [
+                  "Enikku pazham vaanganam.",
+                  "Nooru rupa.",
+                  "Kada avide aanu.",
+                ],
+                "correctAnswer": "Enikku pazham vaanganam.",
+                "translatedSentence": "I want to buy fruit.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vila kaanikkumbol adhikam aanu.",
+                "options": [
+                  "This price seems too high.",
+                  "This price is very cheap.",
+                  "This shop is far away.",
+                ],
+                "correctAnswer": "This price seems too high.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Panam eppol tharum?",
+                "options": ["Ippol tharam.", "Kada avide.", "Enikku ariyilla."],
+                "correctAnswer": "Ippol tharam.",
+                "translatedSentence": "I will give it now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Baaki panam ente kayyil undu.",
+                "options": [
+                  "I have the change money.",
+                  "I need the change money.",
+                  "I lost the change money.",
+                ],
+                "correctAnswer": "I have the change money.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee saadhanam vila kuravulla kadayil undu.",
+                "options": [
+                  "This item is available in a cheaper shop.",
+                  "This item is very expensive here.",
+                  "This shop sells only fruit.",
+                ],
+                "correctAnswer": "This item is available in a cheaper shop.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Njan ithu innale vaangi.",
+                "options": [
+                  "Nalla vila aayirunno?",
+                  "Kada avide aanu.",
+                  "Enikku venam.",
+                ],
+                "correctAnswer": "Nalla vila aayirunno?",
+                "translatedSentence": "Was it a good price?",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku kooduthal panam illa.",
+                "options": [
+                  "I don't have more money.",
+                  "I have more money.",
+                  "I need more shops.",
+                ],
+                "correctAnswer": "I don't have more money.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kada nammude veetinu aduthaano?",
+                "options": [
+                  "Athe, valare aduthu aanu.",
+                  "Nooru rupa.",
+                  "Enikku venam.",
+                ],
+                "correctAnswer": "Athe, valare aduthu aanu.",
+                "translatedSentence": "Yes, it is very close.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vila kuraykkan pattumo ennu chodikkam.",
+                "options": [
+                  "Let us ask if the price can be reduced.",
+                  "Let us buy it at this price.",
+                  "Let us go to another shop.",
+                ],
+                "correctAnswer": "Let us ask if the price can be reduced.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pothuvaayi ee kadayil ninnu vaangum.",
+                "options": [
+                  "I usually buy from this shop.",
+                  "I never buy from this shop.",
+                  "I sold this at the shop.",
+                ],
+                "correctAnswer": "I usually buy from this shop.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee saadhanathinu warranty undo?",
+                "options": [
+                  "Athe, oru varsham undu.",
+                  "Nooru rupa.",
+                  "Kada avide aanu.",
+                ],
+                "correctAnswer": "Athe, oru varsham undu.",
+                "translatedSentence": "Yes, there is one year.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Panam illathathinaal njan vaangiyilla.",
+                "options": [
+                  "I did not buy because I had no money.",
+                  "I bought because I had money.",
+                  "I want to buy this now.",
+                ],
+                "correctAnswer": "I did not buy because I had no money.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithinu discount undo?",
+                "options": [
+                  "Undu, pathu shathamaanam.",
+                  "Kada avide.",
+                  "Enikku ariyilla money.",
+                ],
+                "correctAnswer": "Undu, pathu shathamaanam.",
+                "translatedSentence": "Yes, ten percent.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Bill tharumbol baaki ozhivaakkoo.",
+                "options": [
+                  "Give the change when you give the bill.",
+                  "Give the bill when you buy this.",
+                  "Give the money for the shop.",
+                ],
+                "correctAnswer": "Give the change when you give the bill.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ella maasavum njan chantayil ninnu saadhanangal vaangum.",
+                "options": [
+                  "Every month I buy things from the market.",
+                  "I never go to the market.",
+                  "I sold everything at the shop.",
+                ],
+                "correctAnswer": "Every month I buy things from the market.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vila nyaayamaano ennu thonnunnundo?",
+                "options": [
+                  "Illa, ithu valare kooduthal aanu.",
+                  "Nooru rupa mathram.",
+                  "Kada avide aanu.",
+                ],
+                "correctAnswer": "Illa, ithu valare kooduthal aanu.",
+                "translatedSentence": "No, this is too much.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vaangiya saadhanam thiriche tharaan pattumo?",
+                "options": [
+                  "Can I return the item I bought?",
+                  "Can I buy this item now?",
+                  "Can I keep the shop money?",
+                ],
+                "correctAnswer": "Can I return the item I bought?",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Panam online ayakkamo?",
+                "options": [
+                  "Athe, QR code undu.",
+                  "Kada avide aanu.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Athe, QR code undu.",
+                "translatedSentence": "Yes, there is a QR code.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Baaki panam ennodu prathyekam paranju tharoo.",
+                "options": [
+                  "Please tell me the change money separately.",
+                  "Please give me the money quickly.",
+                  "Please close the shop now.",
+                ],
+                "correctAnswer": "Please tell me the change money separately.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "home",
+        "image": Assets.images.book.path,
+        "color": 0xff795548,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "House",
+                "options": ["Veedu", "Muri", "Vaathil"],
+                "correctAnswer": "Veedu",
+                "translatedSentence": "House",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Room",
+                "options": ["Muri", "Veedu", "Jalakam"],
+                "correctAnswer": "Muri",
+                "translatedSentence": "Room",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaathil",
+                "options": ["Door", "Window", "Chair"],
+                "correctAnswer": "Door",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Window",
+                "options": ["Jalakam", "Vaathil", "Muri"],
+                "correctAnswer": "Jalakam",
+                "translatedSentence": "Window",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Veedu",
+                "options": ["House", "Room", "Kitchen"],
+                "correctAnswer": "House",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkala",
+                "options": ["Kitchen", "Room", "Door"],
+                "correctAnswer": "Kitchen",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Chair",
+                "options": ["Kasera", "Mesha", "Muri"],
+                "correctAnswer": "Kasera",
+                "translatedSentence": "Chair",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mesha",
+                "options": ["Table", "Chair", "Window"],
+                "correctAnswer": "Table",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Kitchen",
+                "options": ["Adukkala", "Muri", "Veedu"],
+                "correctAnswer": "Adukkala",
+                "translatedSentence": "Kitchen",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kasera",
+                "options": ["Chair", "Table", "Door"],
+                "correctAnswer": "Chair",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Bed",
+                "options": ["Kattil", "Kasera", "Mesha"],
+                "correctAnswer": "Kattil",
+                "translatedSentence": "Bed",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Bathroom",
+                "options": ["Bathroom", "Kitchen", "Room"],
+                "correctAnswer": "Bathroom",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Wall",
+                "options": ["Bhithi", "Vaathil", "Jalakam"],
+                "correctAnswer": "Bhithi",
+                "translatedSentence": "Wall",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nilam",
+                "options": ["Floor", "Roof", "Wall"],
+                "correctAnswer": "Floor",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Roof",
+                "options": ["Mel koora", "Nilam", "Bhithi"],
+                "correctAnswer": "Mel koora",
+                "translatedSentence": "Roof",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veedu evideyaanu?",
+                "options": ["Avide aanu.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Avide aanu.",
+                "translatedSentence": "It is there.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ithu ente veedu aanu.",
+                "options": [
+                  "This is my house.",
+                  "This is my room.",
+                  "This is my door.",
+                ],
+                "correctAnswer": "This is my house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaathil thurakkoo.",
+                "options": [
+                  "Open the door.",
+                  "Close the door.",
+                  "Open the window.",
+                ],
+                "correctAnswer": "Open the door.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Adukkala evideyaanu?",
+                "options": [
+                  "Avide, valathu vasham.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Avide, valathu vasham.",
+                "translatedSentence": "There, on the right side.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Jalakam adaykkoo.",
+                "options": [
+                  "Close the window.",
+                  "Open the window.",
+                  "Close the door.",
+                ],
+                "correctAnswer": "Close the window.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente muri valuthaanu.",
+                "options": [
+                  "My room is big.",
+                  "My room is small.",
+                  "My house is big.",
+                ],
+                "correctAnswer": "My room is big.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee veetil undo?",
+                "options": ["Undu.", "Nooru rupa.", "Vaathil."],
+                "correctAnswer": "Undu.",
+                "translatedSentence": "Yes, I am.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kasera adukkalayil undu.",
+                "options": [
+                  "The chair is in the kitchen.",
+                  "The chair is in the room.",
+                  "The table is in the kitchen.",
+                ],
+                "correctAnswer": "The chair is in the kitchen.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Mesha evideyaanu?",
+                "options": ["Muriyil aanu.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Muriyil aanu.",
+                "translatedSentence": "It is in the room.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan veetil pokunnu.",
+                "options": [
+                  "I am going home.",
+                  "I am going to the shop.",
+                  "I am in the room.",
+                ],
+                "correctAnswer": "I am going home.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkalayil ammal undu.",
+                "options": [
+                  "Mother is in the kitchen.",
+                  "Mother is in the room.",
+                  "Father is in the kitchen.",
+                ],
+                "correctAnswer": "Mother is in the kitchen.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veedu evideyaanu?",
+                "options": [
+                  "Ente veedu nagarathil aanu.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Ente veedu nagarathil aanu.",
+                "translatedSentence": "My house is in the city.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee muriyil rendu jalakam undu.",
+                "options": [
+                  "There are two windows in this room.",
+                  "There are two doors in this room.",
+                  "There is one window in this house.",
+                ],
+                "correctAnswer": "There are two windows in this room.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Kasera evide vaykkanam?",
+                "options": [
+                  "Meshayude aduthu.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Meshayude aduthu.",
+                "translatedSentence": "Near the table.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaathil adachittundo?",
+                "options": [
+                  "Is the door closed?",
+                  "Is the window open?",
+                  "Is the room clean?",
+                ],
+                "correctAnswer": "Is the door closed?",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan muri vrithiyaakki.",
+                "options": [
+                  "I cleaned the room.",
+                  "I cleaned the house.",
+                  "I closed the room.",
+                ],
+                "correctAnswer": "I cleaned the room.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee eppol veetil ethum?",
+                "options": ["Vaikunneram.", "Nooru rupa.", "Vaathil thurannu."],
+                "correctAnswer": "Vaikunneram.",
+                "translatedSentence": "In the evening.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkalayil vellam illa.",
+                "options": [
+                  "There is no water in the kitchen.",
+                  "There is water in the kitchen.",
+                  "There is no room in the house.",
+                ],
+                "correctAnswer": "There is no water in the kitchen.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ente veetilekku varunno?",
+                "options": [
+                  "Athe, njan varam.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Athe, njan varam.",
+                "translatedSentence": "Yes, I will come.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Jalakam thurannaal nalla kaattu varum.",
+                "options": [
+                  "If you open the window, good air comes.",
+                  "If you close the window, air comes.",
+                  "If you open the door, the room is clean.",
+                ],
+                "correctAnswer": "If you open the window, good air comes.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veetil moonnu muri undu.",
+                "options": [
+                  "There are three rooms in my house.",
+                  "There are three doors in my house.",
+                  "There is one room in my house.",
+                ],
+                "correctAnswer": "There are three rooms in my house.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee veetil onnichu thaamasikkunnundo?",
+                "options": [
+                  "Athe, kudumbathodoppam.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Athe, kudumbathodoppam.",
+                "translatedSentence": "Yes, with my family.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kasera meshayude cheruthu vaykkoo.",
+                "options": [
+                  "Place the chair beside the table.",
+                  "Place the table beside the chair.",
+                  "Place the door beside the wall.",
+                ],
+                "correctAnswer": "Place the chair beside the table.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Adukkala vrithiyaayittundo?",
+                "options": [
+                  "Athe, njan vrithiyaakki.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Athe, njan vrithiyaakki.",
+                "translatedSentence": "Yes, I cleaned it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee veedu nammude puthiya veedu aanu.",
+                "options": [
+                  "This house is our new house.",
+                  "This house is our old house.",
+                  "This room is our new room.",
+                ],
+                "correctAnswer": "This house is our new house.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile muri vrithiyaakkum.",
+                "options": [
+                  "I clean the room in the morning.",
+                  "I clean the room in the evening.",
+                  "I close the room at night.",
+                ],
+                "correctAnswer": "I clean the room in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil aarokke undu?",
+                "options": [
+                  "Achanum ammayum njanum.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Achanum ammayum njanum.",
+                "translatedSentence": "Father, mother, and me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkalayil ninnu nalla manam varunnu.",
+                "options": [
+                  "A good smell is coming from the kitchen.",
+                  "A bad smell is coming from the room.",
+                  "No smell is coming from the kitchen.",
+                ],
+                "correctAnswer": "A good smell is coming from the kitchen.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee muriyil AC undo?",
+                "options": [
+                  "Illa, fan mathram undu.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Illa, fan mathram undu.",
+                "translatedSentence": "No, only a fan.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vaathil pootti veedu poottoo.",
+                "options": [
+                  "Lock the door and lock the house.",
+                  "Open the door and open the house.",
+                  "Clean the door and clean the house.",
+                ],
+                "correctAnswer": "Lock the door and lock the house.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njangalude veetinu munnil oru cheriya thottam undu.",
+                "options": [
+                  "There is a small garden in front of our house.",
+                  "There is a big room inside our house.",
+                  "There is a small kitchen behind our house.",
+                ],
+                "correctAnswer":
+                    "There is a small garden in front of our house.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte muri ethra valuthaanu?",
+                "options": [
+                  "Athu valare valuthaanu.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Athu valare valuthaanu.",
+                "translatedSentence": "It is very big.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkalayile mesha njan innale vaangi.",
+                "options": [
+                  "I bought the kitchen table yesterday.",
+                  "I cleaned the kitchen table yesterday.",
+                  "I want a new kitchen table.",
+                ],
+                "correctAnswer": "I bought the kitchen table yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Jalakathinu curtain undo?",
+                "options": [
+                  "Athe, neela niram curtain undu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Athe, neela niram curtain undu.",
+                "translatedSentence": "Yes, there is a blue curtain.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ella muriyilum nalla velicham undu.",
+                "options": [
+                  "There is good light in every room.",
+                  "There is no light in any room.",
+                  "There is good air in every room.",
+                ],
+                "correctAnswer": "There is good light in every room.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ellaa divasavum veedu vrithiyaakkaan sremikkum.",
+                "options": [
+                  "I try to clean the house every day.",
+                  "I never clean the house.",
+                  "I clean the house once a month.",
+                ],
+                "correctAnswer": "I try to clean the house every day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veedu vaadakaykku aano?",
+                "options": [
+                  "Alla, athu njangalude swantham aanu.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Alla, athu njangalude swantham aanu.",
+                "translatedSentence": "No, it is our own.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Muriyil velicham illathathinaal njan jalakam thurannu.",
+                "options": [
+                  "Since there was no light in the room, I opened the window.",
+                  "Since the room was clean, I opened the door.",
+                  "Since it was cold, I closed the window.",
+                ],
+                "correctAnswer":
+                    "Since there was no light in the room, I opened the window.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Adukkalayil enthaanu undakkunnathu?",
+                "options": [
+                  "Amma choru undakkunnu.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Amma choru undakkunnu.",
+                "translatedSentence": "Mother is making rice.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ee kasera pazhayathaanu, pakshe ippozhum nannaayi undu.",
+                "options": [
+                  "This chair is old, but it is still good.",
+                  "This chair is new, but it is broken.",
+                  "This table is old and broken.",
+                ],
+                "correctAnswer": "This chair is old, but it is still good.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal puthiya veetilekku aduthaazhcha maarum.",
+                "options": [
+                  "We will move to the new house next week.",
+                  "We moved to the old house last week.",
+                  "We will clean the new house next week.",
+                ],
+                "correctAnswer": "We will move to the new house next week.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil ethra muri venamennu thonnunnu?",
+                "options": [
+                  "Kuranjathu naalu muri venam.",
+                  "Nooru rupa.",
+                  "Vaathil thurannu.",
+                ],
+                "correctAnswer": "Kuranjathu naalu muri venam.",
+                "translatedSentence": "At least four rooms are needed.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adukkalayum kuli muriyum thammil aduthaanu.",
+                "options": [
+                  "The kitchen and the bathroom are close to each other.",
+                  "The kitchen and the room are far apart.",
+                  "The door and the window are close together.",
+                ],
+                "correctAnswer":
+                    "The kitchen and the bathroom are close to each other.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee veedinu ethra varsham paranju?",
+                "options": [
+                  "Ethaandu irupathu varsham aayi.",
+                  "Nooru rupa mathram.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Ethaandu irupathu varsham aayi.",
+                "translatedSentence": "It is about twenty years old.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Veetile ella jalakavum thurannaal kaattu nannaayi kittum.",
+                "options": [
+                  "If you open all the windows in the house, you get good air.",
+                  "If you close all the doors, the house is warm.",
+                  "If you clean all the rooms, the house looks new.",
+                ],
+                "correctAnswer":
+                    "If you open all the windows in the house, you get good air.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "school",
+        "image": Assets.images.student.path,
+        "color": 0xff2b70c9,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "School",
+                "options": ["Pallikkoodam", "Veedu", "Kada"],
+                "correctAnswer": "Pallikkoodam",
+                "translatedSentence": "School",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Book",
+                "options": ["Pusthakam", "Pena", "Muri"],
+                "correctAnswer": "Pusthakam",
+                "translatedSentence": "Book",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pena",
+                "options": ["Pen", "Book", "Teacher"],
+                "correctAnswer": "Pen",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Teacher",
+                "options": ["Adhyapakan", "Vidyarthi", "Pusthakam"],
+                "correctAnswer": "Adhyapakan",
+                "translatedSentence": "Teacher",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vidyarthi",
+                "options": ["Student", "Teacher", "Book"],
+                "correctAnswer": "Student",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pusthakam",
+                "options": ["Book", "Pen", "School"],
+                "correctAnswer": "Book",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Student",
+                "options": ["Vidyarthi", "Adhyapakan", "Pena"],
+                "correctAnswer": "Vidyarthi",
+                "translatedSentence": "Student",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Padikkuka",
+                "options": ["To study", "To write", "To read"],
+                "correctAnswer": "To study",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Pen",
+                "options": ["Pena", "Pusthakam", "Pallikkoodam"],
+                "correctAnswer": "Pena",
+                "translatedSentence": "Pen",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adhyapakan",
+                "options": ["Teacher", "Student", "School"],
+                "correctAnswer": "Teacher",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Class",
+                "options": ["Class muri", "Pallikkoodam", "Pena"],
+                "correctAnswer": "Class muri",
+                "translatedSentence": "Class",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ezhuthuka",
+                "options": ["To write", "To study", "To read"],
+                "correctAnswer": "To write",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "To read",
+                "options": ["Vaayikkuka", "Ezhuthuka", "Padikkuka"],
+                "correctAnswer": "Vaayikkuka",
+                "translatedSentence": "To read",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Paadam",
+                "options": ["Lesson", "Book", "Pen"],
+                "correctAnswer": "Lesson",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Homework",
+                "options": ["Vittu paadam", "Class muri", "Pareeksha"],
+                "correctAnswer": "Vittu paadam",
+                "translatedSentence": "Homework",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee pallikkoodathil pokunno?",
+                "options": ["Athe, pokunnu.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Athe, pokunnu.",
+                "translatedSentence": "Yes, I go.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pusthakam venam.",
+                "options": [
+                  "I want a book.",
+                  "I want a pen.",
+                  "I have a book.",
+                ],
+                "correctAnswer": "I want a book.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adhyapakan class edukkunnu.",
+                "options": [
+                  "The teacher is taking the class.",
+                  "The student is taking the class.",
+                  "The teacher is reading a book.",
+                ],
+                "correctAnswer": "The teacher is taking the class.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pena evideyaanu?",
+                "options": [
+                  "Baagil undu.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla school.",
+                ],
+                "correctAnswer": "Baagil undu.",
+                "translatedSentence": "It is in the bag.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan padikkunnu.",
+                "options": ["I am studying.", "I am writing.", "I am reading."],
+                "correctAnswer": "I am studying.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pusthakam vaayikkunnu.",
+                "options": [
+                  "I am reading a book.",
+                  "I am writing a book.",
+                  "I want a book.",
+                ],
+                "correctAnswer": "I am reading a book.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte adhyapakan aaraanu?",
+                "options": ["Ramesh sir aanu.", "Nooru rupa.", "Baagil undu."],
+                "correctAnswer": "Ramesh sir aanu.",
+                "translatedSentence": "It is Ramesh sir.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vidyarthikal class muriyil undu.",
+                "options": [
+                  "The students are in the classroom.",
+                  "The teacher is in the classroom.",
+                  "The students are at home.",
+                ],
+                "correctAnswer": "The students are in the classroom.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee enthu padikkunnu?",
+                "options": [
+                  "Njan Malayalam padikkunnu.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Njan Malayalam padikkunnu.",
+                "translatedSentence": "I am studying Malayalam.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ezhuthaan pena venam.",
+                "options": [
+                  "I need a pen to write.",
+                  "I need a book to read.",
+                  "I want to study now.",
+                ],
+                "correctAnswer": "I need a pen to write.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee paadam manassilaayilla.",
+                "options": [
+                  "I did not understand this lesson.",
+                  "I understood this lesson.",
+                  "I read this lesson.",
+                ],
+                "correctAnswer": "I did not understand this lesson.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vittu paadam cheythuvo?",
+                "options": ["Athe, cheythu.", "Nooru rupa.", "Baagil undu."],
+                "correctAnswer": "Athe, cheythu.",
+                "translatedSentence": "Yes, I did it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pallikkoodam ettu manikku thudangum.",
+                "options": [
+                  "School starts at eight o'clock.",
+                  "School ends at eight o'clock.",
+                  "The class starts at nine o'clock.",
+                ],
+                "correctAnswer": "School starts at eight o'clock.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte class muri evideyaanu?",
+                "options": [
+                  "Randaam nilayil aanu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Randaam nilayil aanu.",
+                "translatedSentence": "It is on the second floor.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adhyapakan enne prashamsichu.",
+                "options": [
+                  "The teacher praised me.",
+                  "The teacher scolded me.",
+                  "The student praised me.",
+                ],
+                "correctAnswer": "The teacher praised me.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu pallikkoodathil poyilla.",
+                "options": [
+                  "I did not go to school today.",
+                  "I went to school today.",
+                  "I want to go to school.",
+                ],
+                "correctAnswer": "I did not go to school today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee vishayam ishtamaano?",
+                "options": [
+                  "Athe, valare ishtamaanu.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Athe, valare ishtamaanu.",
+                "translatedSentence": "Yes, I like it very much.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Naale pareeksha undu.",
+                "options": [
+                  "There is an exam tomorrow.",
+                  "There was an exam yesterday.",
+                  "There is a lesson today.",
+                ],
+                "correctAnswer": "There is an exam tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte pusthakam evide?",
+                "options": [
+                  "Njan veetil vittu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Njan veetil vittu.",
+                "translatedSentence": "I left it at home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vidyarthikal nannaayi padikkanam.",
+                "options": [
+                  "Students should study well.",
+                  "Students should not study.",
+                  "Teachers should study well.",
+                ],
+                "correctAnswer": "Students should study well.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile pusthakam vaayikkum.",
+                "options": [
+                  "I read books in the morning.",
+                  "I read books at night.",
+                  "I write books in the morning.",
+                ],
+                "correctAnswer": "I read books in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Pareekshakku nannaayi padichuvo?",
+                "options": [
+                  "Athe, ellam padichu.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Athe, ellam padichu.",
+                "translatedSentence": "Yes, I studied everything.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adhyapakan paadam vishadeekarichu.",
+                "options": [
+                  "The teacher explained the lesson.",
+                  "The teacher read the lesson.",
+                  "The student explained the lesson.",
+                ],
+                "correctAnswer": "The teacher explained the lesson.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte prasakthamaya vishayam ethaanu?",
+                "options": ["Ganitham aanu.", "Nooru rupa.", "Enikku venda."],
+                "correctAnswer": "Ganitham aanu.",
+                "translatedSentence": "It is mathematics.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vittu paadam samayathinu cheyyanam.",
+                "options": [
+                  "Homework should be done on time.",
+                  "Homework should not be done.",
+                  "The exam should be done on time.",
+                ],
+                "correctAnswer": "Homework should be done on time.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ellaa divasavum pallikkoodathil pokum.",
+                "options": [
+                  "I go to school every day.",
+                  "I never go to school.",
+                  "I go to school once a week.",
+                ],
+                "correctAnswer": "I go to school every day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte class muriyil ethra vidyarthikal undu?",
+                "options": [
+                  "Muppathu vidyarthikal undu.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Muppathu vidyarthikal undu.",
+                "translatedSentence": "There are thirty students.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee paadam enikku valare bhandhi aanu.",
+                "options": [
+                  "This lesson is very difficult for me.",
+                  "This lesson is very easy for me.",
+                  "This lesson is very interesting for me.",
+                ],
+                "correctAnswer": "This lesson is very difficult for me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Adhyapakan innu vannuvo?",
+                "options": [
+                  "Illa, avar avadhiyil aanu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Illa, avar avadhiyil aanu.",
+                "translatedSentence": "No, they are on leave.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nammal onnichu padikkam.",
+                "options": [
+                  "Let us study together.",
+                  "Let us play together.",
+                  "Let us go to school together.",
+                ],
+                "correctAnswer": "Let us study together.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Pareekshayil nalla marku vaanganam ennu njan aagrahikkunnu.",
+                "options": [
+                  "I wish to get good marks in the exam.",
+                  "I do not want to write the exam.",
+                  "I got good marks in the exam.",
+                ],
+                "correctAnswer": "I wish to get good marks in the exam.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee pusthakam aaru thannu?",
+                "options": [
+                  "Adhyapakan thannu.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Adhyapakan thannu.",
+                "translatedSentence": "The teacher gave it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Class kazhinjaal njan library il pokum.",
+                "options": [
+                  "After class, I go to the library.",
+                  "Before class, I go to the library.",
+                  "After class, I go home.",
+                ],
+                "correctAnswer": "After class, I go to the library.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte priyappetta adhyapakan aaraanu?",
+                "options": [
+                  "Ganitham padippikkunna sir.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Ganitham padippikkunna sir.",
+                "translatedSentence": "The sir who teaches mathematics.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vittu paadam cheyyaan marannu.",
+                "options": [
+                  "I forgot to do the homework.",
+                  "I remembered to do the homework.",
+                  "I finished the homework.",
+                ],
+                "correctAnswer": "I forgot to do the homework.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ellaa vishayavum nannaayi padikkaan sremikkum.",
+                "options": [
+                  "I try to study every subject well.",
+                  "I do not study any subject.",
+                  "I only study one subject.",
+                ],
+                "correctAnswer": "I try to study every subject well.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Paadam manassilayillenkil enthu cheyyum?",
+                "options": [
+                  "Njan adhyapakanodu chodikkum.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Njan adhyapakanodu chodikkum.",
+                "translatedSentence": "I will ask the teacher.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pareeksha kazhinjappol enikku santhosham thonni.",
+                "options": [
+                  "I felt happy when the exam was over.",
+                  "I felt sad when the exam started.",
+                  "I felt tired when the class was over.",
+                ],
+                "correctAnswer": "I felt happy when the exam was over.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee eppol pallikkoodathil ninnu varum?",
+                "options": [
+                  "Vaikittu naalu manikku.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Vaikittu naalu manikku.",
+                "translatedSentence": "At four in the afternoon.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Nalla vidyarthi ennaal kramamaayi padikkunna aal aanu.",
+                "options": [
+                  "A good student is one who studies regularly.",
+                  "A good student is one who never studies.",
+                  "A good teacher is one who studies regularly.",
+                ],
+                "correctAnswer": "A good student is one who studies regularly.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Aduthaazhcha njangalude pallikkoodathil oru vaarshikam undu.",
+                "options": [
+                  "Next week there is an annual event at our school.",
+                  "Last week there was an exam at our school.",
+                  "Next week our school is closed.",
+                ],
+                "correctAnswer":
+                    "Next week there is an annual event at our school.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Valuthaayaal nee enthaakaan aagrahikkunnu?",
+                "options": [
+                  "Enikku oru adhyapakan aakanam.",
+                  "Nooru rupa.",
+                  "Baagil undu.",
+                ],
+                "correctAnswer": "Enikku oru adhyapakan aakanam.",
+                "translatedSentence": "I want to become a teacher.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Adhyapakar nammale nalla vazhi kaanikkunnu.",
+                "options": [
+                  "Teachers show us the right path.",
+                  "Students show us the right path.",
+                  "Teachers hide the right path from us.",
+                ],
+                "correctAnswer": "Teachers show us the right path.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Pareekshaykku engane thayyaaredukkum?",
+                "options": [
+                  "Dinam thorum kurachu neram padikkum.",
+                  "Nooru rupa mathram.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Dinam thorum kurachu neram padikkum.",
+                "translatedSentence": "I study for a while every day.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Vidyabhyasam nammude jeevithathinu valare pradhanam aanu.",
+                "options": [
+                  "Education is very important for our life.",
+                  "Education is not important for our life.",
+                  "School is very far from our life.",
+                ],
+                "correctAnswer": "Education is very important for our life.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "office",
+        "image": Assets.images.heel.path,
+        "color": 0xffFFD700,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Office",
+                "options": ["Ophees", "Veedu", "Kada"],
+                "correctAnswer": "Ophees",
+                "translatedSentence": "Office",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Work",
+                "options": ["Joli", "Ophees", "Boss"],
+                "correctAnswer": "Joli",
+                "translatedSentence": "Work",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Joli",
+                "options": ["Work", "Office", "Meeting"],
+                "correctAnswer": "Work",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Boss",
+                "options": ["Boss", "Joli", "Ophees"],
+                "correctAnswer": "Boss",
+                "translatedSentence": "Boss",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ophees",
+                "options": ["Office", "Work", "Meeting"],
+                "correctAnswer": "Office",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meeting",
+                "options": ["Meeting", "Work", "Office"],
+                "correctAnswer": "Meeting",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Computer",
+                "options": ["Computer", "Ophees", "Joli"],
+                "correctAnswer": "Computer",
+                "translatedSentence": "Computer",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss",
+                "options": ["Boss", "Work", "Meeting"],
+                "correctAnswer": "Boss",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Colleague",
+                "options": ["Sahapravarthakan", "Boss", "Ophees"],
+                "correctAnswer": "Sahapravarthakan",
+                "translatedSentence": "Colleague",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Computer",
+                "options": ["Computer", "Office", "Work"],
+                "correctAnswer": "Computer",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Salary",
+                "options": ["Shambalam", "Joli", "Ophees"],
+                "correctAnswer": "Shambalam",
+                "translatedSentence": "Salary",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Phone",
+                "options": ["Phone", "Computer", "Work"],
+                "correctAnswer": "Phone",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Email",
+                "options": ["Email", "Meeting", "Joli"],
+                "correctAnswer": "Email",
+                "translatedSentence": "Email",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Shambalam",
+                "options": ["Salary", "Work", "Office"],
+                "correctAnswer": "Salary",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for X",
+                "sentence": "Leave",
+                "options": ["Avadhi", "Joli", "Meeting"],
+                "correctAnswer": "Avadhi",
+                "translatedSentence": "Leave",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee ophees il pokunno?",
+                "options": ["Athe, pokunnu.", "Nooru rupa.", "Enikku venam."],
+                "correctAnswer": "Athe, pokunnu.",
+                "translatedSentence": "Yes, I go.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku joli undu.",
+                "options": ["I have work.", "I have no work.", "I want work."],
+                "correctAnswer": "I have work.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss ippol meeting il aanu.",
+                "options": [
+                  "The boss is in a meeting now.",
+                  "The boss is in the office now.",
+                  "The colleague is in a meeting now.",
+                ],
+                "correctAnswer": "The boss is in a meeting now.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte ophees evideyaanu?",
+                "options": [
+                  "Nagarathil aanu.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla work.",
+                ],
+                "correctAnswer": "Nagarathil aanu.",
+                "translatedSentence": "It is in the city.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan computer upayogikkunnu.",
+                "options": [
+                  "I am using the computer.",
+                  "I am buying a computer.",
+                  "I want a computer.",
+                ],
+                "correctAnswer": "I am using the computer.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku innu joli kooduthal undu.",
+                "options": [
+                  "I have more work today.",
+                  "I have less work today.",
+                  "I have no work today.",
+                ],
+                "correctAnswer": "I have more work today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Meeting eppol aanu?",
+                "options": ["Pathu manikku.", "Nooru rupa.", "Enikku venda."],
+                "correctAnswer": "Pathu manikku.",
+                "translatedSentence": "At ten o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss enne vili chennu.",
+                "options": [
+                  "The boss called me.",
+                  "The boss praised me.",
+                  "The colleague called me.",
+                ],
+                "correctAnswer": "The boss called me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte joli enthaanu?",
+                "options": [
+                  "Njan oru engineer aanu.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Njan oru engineer aanu.",
+                "translatedSentence": "I am an engineer.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan email ayakkunnu.",
+                "options": [
+                  "I am sending an email.",
+                  "I am reading an email.",
+                  "I want to send an email.",
+                ],
+                "correctAnswer": "I am sending an email.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku naale avadhi venam.",
+                "options": [
+                  "I need leave tomorrow.",
+                  "I need work tomorrow.",
+                  "I have leave tomorrow.",
+                ],
+                "correctAnswer": "I need leave tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee eppol ophees il ethum?",
+                "options": ["Ompathu manikku.", "Nooru rupa.", "Enikku venda."],
+                "correctAnswer": "Ompathu manikku.",
+                "translatedSentence": "At nine o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee joli innu theerkkanam.",
+                "options": [
+                  "This work must be finished today.",
+                  "This work must be started tomorrow.",
+                  "This meeting must be finished today.",
+                ],
+                "correctAnswer": "This work must be finished today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Boss ophees il undo?",
+                "options": [
+                  "Illa, avar poyi.",
+                  "Nooru rupa.",
+                  "Enikku ariyilla.",
+                ],
+                "correctAnswer": "Illa, avar poyi.",
+                "translatedSentence": "No, they left.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sahapravarthakan enne sahaayichu.",
+                "options": [
+                  "The colleague helped me.",
+                  "The boss helped me.",
+                  "The colleague called me.",
+                ],
+                "correctAnswer": "The colleague helped me.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu ophees il poyilla.",
+                "options": [
+                  "I did not go to office today.",
+                  "I went to office today.",
+                  "I want to go to office.",
+                ],
+                "correctAnswer": "I did not go to office today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Shambalam eppol kittum?",
+                "options": ["Maasa avasaanam.", "Nooru rupa.", "Enikku venda."],
+                "correctAnswer": "Maasa avasaanam.",
+                "translatedSentence": "At the end of the month.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meeting kazhinju njan veetil pokum.",
+                "options": [
+                  "After the meeting I will go home.",
+                  "Before the meeting I will go home.",
+                  "After the meeting I will start work.",
+                ],
+                "correctAnswer": "After the meeting I will go home.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee joli ninakku ishtamaano?",
+                "options": [
+                  "Athe, valare ishtamaanu.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Athe, valare ishtamaanu.",
+                "translatedSentence": "Yes, I like it very much.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Computer pravarthikkunnilla.",
+                "options": [
+                  "The computer is not working.",
+                  "The computer is working.",
+                  "The phone is not working.",
+                ],
+                "correctAnswer": "The computer is not working.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan raavile ophees il pokum.",
+                "options": [
+                  "I go to office in the morning.",
+                  "I go to office at night.",
+                  "I go home in the morning.",
+                ],
+                "correctAnswer": "I go to office in the morning.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee report theernnuvo?",
+                "options": [
+                  "Athe, njan theerthu.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Athe, njan theerthu.",
+                "translatedSentence": "Yes, I finished it.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss enikku puthiya joli thannu.",
+                "options": [
+                  "The boss gave me a new task.",
+                  "The boss gave me a leave.",
+                  "The colleague gave me a new task.",
+                ],
+                "correctAnswer": "The boss gave me a new task.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte ophees il ethra per undu?",
+                "options": [
+                  "Ethaandu anpathu per.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Ethaandu anpathu per.",
+                "translatedSentence": "About fifty people.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee email marupadi ayakkanam.",
+                "options": [
+                  "I need to reply to this email.",
+                  "I need to delete this email.",
+                  "I need to read this email.",
+                ],
+                "correctAnswer": "I need to reply to this email.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ellaa divasavum ophees il pokum.",
+                "options": [
+                  "I go to office every day.",
+                  "I never go to office.",
+                  "I go to office once a week.",
+                ],
+                "correctAnswer": "I go to office every day.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innathe meeting engane und?",
+                "options": [
+                  "Valare nannaayirunnu.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Valare nannaayirunnu.",
+                "translatedSentence": "It was very good.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee joli samayathinu theerkkanam.",
+                "options": [
+                  "This work must be finished on time.",
+                  "This work should never be finished.",
+                  "This meeting must be finished on time.",
+                ],
+                "correctAnswer": "This work must be finished on time.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte shambalam engane?",
+                "options": [
+                  "Nallathaanu, mathi aanu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Nallathaanu, mathi aanu.",
+                "translatedSentence": "It is good, it is enough.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss avadhi anuvadichu.",
+                "options": [
+                  "The boss granted the leave.",
+                  "The boss cancelled the leave.",
+                  "The colleague granted the leave.",
+                ],
+                "correctAnswer": "The boss granted the leave.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan innu vaikittu vare joli cheyyendi varum.",
+                "options": [
+                  "I will have to work until late today.",
+                  "I will finish work early today.",
+                  "I will not work at all today.",
+                ],
+                "correctAnswer": "I will have to work until late today.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee project aaru kaikaaryam cheyyunnu?",
+                "options": [
+                  "Njanum ente team-um.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Njanum ente team-um.",
+                "translatedSentence": "Me and my team.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meeting rendu manikkur neelam.",
+                "options": [
+                  "The meeting lasted two hours.",
+                  "The meeting lasted two minutes.",
+                  "The work lasted two hours.",
+                ],
+                "correctAnswer": "The meeting lasted two hours.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte boss engane aanu?",
+                "options": [
+                  "Valare nalla aal aanu.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Valare nalla aal aanu.",
+                "translatedSentence": "He is a very good person.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee joli maattanam ennu thonnunnu.",
+                "options": [
+                  "I feel like I should change this job.",
+                  "I feel like I should keep this job.",
+                  "I feel like I should start this job.",
+                ],
+                "correctAnswer": "I feel like I should change this job.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Njan ellaa joliyum samayathinu theerkkaan sremikkum.",
+                "options": [
+                  "I try to finish all work on time.",
+                  "I never finish work on time.",
+                  "I finish only some work on time.",
+                ],
+                "correctAnswer": "I try to finish all work on time.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee joliyil pramukhamaya velluvili enthaanu?",
+                "options": [
+                  "Samayakramam paalikkukayaanu.",
+                  "Nooru rupa.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Samayakramam paalikkukayaanu.",
+                "translatedSentence": "It is keeping to the schedule.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sahapravarthakaromayi nannaayi idapaadanam.",
+                "options": [
+                  "One should interact well with colleagues.",
+                  "One should not talk to colleagues.",
+                  "One should interact well with the boss only.",
+                ],
+                "correctAnswer": "One should interact well with colleagues.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee eppozhaanu joli theerkkuka?",
+                "options": [
+                  "Sadhaaranayaayi ancha manikku.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Sadhaaranayaayi ancha manikku.",
+                "translatedSentence": "Usually at five o'clock.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Meeting il njan ente abhipraayam paranju.",
+                "options": [
+                  "I gave my opinion in the meeting.",
+                  "I did not speak in the meeting.",
+                  "I asked a question in the meeting.",
+                ],
+                "correctAnswer": "I gave my opinion in the meeting.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Aduthaazhcha njangalude ophees il oru valiya meeting undu.",
+                "options": [
+                  "Next week there is a big meeting at our office.",
+                  "Last week there was a big meeting at our office.",
+                  "Next week our office is closed.",
+                ],
+                "correctAnswer":
+                    "Next week there is a big meeting at our office.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte joliyil ninnu ninakku enthu pathikkunnu?",
+                "options": [
+                  "Pallathum puthiya karyangal padikkunnu.",
+                  "Nooru rupa mathram.",
+                  "Ophees il undu.",
+                ],
+                "correctAnswer": "Pallathum puthiya karyangal padikkunnu.",
+                "translatedSentence": "I learn many new things.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Boss ente joliyil santhrupthan aanu ennu paranju.",
+                "options": [
+                  "The boss said he is satisfied with my work.",
+                  "The boss said he is unhappy with my work.",
+                  "The colleague said he is satisfied with my work.",
+                ],
+                "correctAnswer": "The boss said he is satisfied with my work.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bhaaviyil nee enthu aakaan aagrahikkunnu?",
+                "options": [
+                  "Enikku oru manager aakanam.",
+                  "Nooru rupa.",
+                  "Enikku venda.",
+                ],
+                "correctAnswer": "Enikku oru manager aakanam.",
+                "translatedSentence": "I want to become a manager.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Nalla joli ennaal namukku thrupthi tharunna joli aanu.",
+                "options": [
+                  "A good job is one that gives us satisfaction.",
+                  "A good job is one that gives us no satisfaction.",
+                  "A good office is one that is close to home.",
+                ],
+                "correctAnswer":
+                    "A good job is one that gives us satisfaction.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "emotions",
+        "image": Assets.images.emotion.path,
+        "color": 0xff0000FF,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for happiness",
+                "sentence": "happiness",
+                "options": ["santhosham", "sankadam", "deshyam"],
+                "correctAnswer": "santhosham",
+                "translatedSentence": "happiness",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for sadness",
+                "sentence": "sadness",
+                "options": ["sneham", "sankadam", "pedi"],
+                "correctAnswer": "sankadam",
+                "translatedSentence": "sadness",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "deshyam",
+                "options": ["anger", "love", "fear"],
+                "correctAnswer": "anger",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sneham",
+                "options": ["love", "anger", "sadness"],
+                "correctAnswer": "love",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for fear",
+                "sentence": "fear",
+                "options": ["pedi", "santhosham", "sneham"],
+                "correctAnswer": "pedi",
+                "translatedSentence": "fear",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "santhosham",
+                "options": ["happiness", "sadness", "fear"],
+                "correctAnswer": "happiness",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for love",
+                "sentence": "love",
+                "options": ["sneham", "deshyam", "pedi"],
+                "correctAnswer": "sneham",
+                "translatedSentence": "love",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for anger",
+                "sentence": "anger",
+                "options": ["deshyam", "sankadam", "santhosham"],
+                "correctAnswer": "deshyam",
+                "translatedSentence": "anger",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "pedi",
+                "options": ["fear", "love", "happiness"],
+                "correctAnswer": "fear",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sankadam",
+                "options": ["sadness", "anger", "love"],
+                "correctAnswer": "sadness",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for tired",
+                "sentence": "tired",
+                "options": ["ksheenam", "santhosham", "sneham"],
+                "correctAnswer": "ksheenam",
+                "translatedSentence": "tired",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for surprise",
+                "sentence": "surprise",
+                "options": ["athbhutham", "deshyam", "pedi"],
+                "correctAnswer": "athbhutham",
+                "translatedSentence": "surprise",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "santhosham",
+                "options": ["happiness", "sadness", "anger"],
+                "correctAnswer": "happiness",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sneham",
+                "options": ["love", "fear", "sadness"],
+                "correctAnswer": "love",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for worry",
+                "sentence": "worry",
+                "options": ["vishamam", "santhosham", "sneham"],
+                "correctAnswer": "vishamam",
+                "translatedSentence": "worry",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku santhoshamundo?",
+                "options": [
+                  "Athe, enikku santhoshamundu.",
+                  "Enikku ariyilla.",
+                  "Nale varam.",
+                ],
+                "correctAnswer": "Athe, enikku santhoshamundu.",
+                "translatedSentence": "Yes, I am happy.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan sankadathil aanu.",
+                "options": ["I am sad.", "I am happy.", "I am angry."],
+                "correctAnswer": "I am sad.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku pediyundu.",
+                "options": ["I am afraid.", "I am happy.", "I love you."],
+                "correctAnswer": "I am afraid.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku deshyamundo?",
+                "options": [
+                  "Illa, enikku deshyamilla.",
+                  "Njan poyi.",
+                  "Ee maram valuthanu.",
+                ],
+                "correctAnswer": "Illa, enikku deshyamilla.",
+                "translatedSentence": "No, I am not angry.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ninnodu sneham undu.",
+                "options": ["I love you.", "I am sad.", "I am tired."],
+                "correctAnswer": "I love you.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan santhoshavan aanu.",
+                "options": ["He is happy.", "She is sad.", "He is angry."],
+                "correctAnswer": "He is happy.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthukondu ninakku sankadam?",
+                "options": [
+                  "Enikku oru friend illa.",
+                  "Njan santhoshavan aanu.",
+                  "Chandran valuthanu.",
+                ],
+                "correctAnswer": "Enikku oru friend illa.",
+                "translatedSentence": "I don't have a friend.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aval ksheenithayanu.",
+                "options": ["She is tired.", "She is happy.", "She is afraid."],
+                "correctAnswer": "She is tired.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan vishamathil aanu.",
+                "options": ["I am worried.", "I am happy.", "I am surprised."],
+                "correctAnswer": "I am worried.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku pediyundo?",
+                "options": [
+                  "Illa, enikku pediyilla.",
+                  "Athe, enikku sneham undu.",
+                  "Nale kanam.",
+                ],
+                "correctAnswer": "Illa, enikku pediyilla.",
+                "translatedSentence": "No, I am not afraid.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku valare santhoshamundu.",
+                "options": [
+                  "I am very happy.",
+                  "I am a little sad.",
+                  "I am very angry.",
+                ],
+                "correctAnswer": "I am very happy.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte amma santhoshathil aano?",
+                "options": [
+                  "Athe, amma santhoshathil aanu.",
+                  "Njan sankadathil aanu.",
+                  "Kadal valuthanu.",
+                ],
+                "correctAnswer": "Athe, amma santhoshathil aanu.",
+                "translatedSentence": "Yes, mother is happy.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avanu enne istamanu.",
+                "options": [
+                  "He likes me.",
+                  "He is angry with me.",
+                  "He is afraid of me.",
+                ],
+                "correctAnswer": "He likes me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ninte koode santhoshavan aanu.",
+                "options": [
+                  "I am happy with you.",
+                  "I am sad without you.",
+                  "I am afraid of you.",
+                ],
+                "correctAnswer": "I am happy with you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthu patti, ninakku sankadamundo?",
+                "options": [
+                  "Athe, enikku alpam sankadamundu.",
+                  "Njan maram kanunnu.",
+                  "Sooryan uditchu.",
+                ],
+                "correctAnswer": "Athe, enikku alpam sankadamundu.",
+                "translatedSentence": "Yes, I am a little sad.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vaartha kettu enikku santhoshamayi.",
+                "options": [
+                  "I was happy to hear this news.",
+                  "I was sad to hear this news.",
+                  "I was afraid of this news.",
+                ],
+                "correctAnswer": "I was happy to hear this news.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enthina deshyam?",
+                "options": [
+                  "Avan enne cheytha kondu.",
+                  "Enikku santhoshamundu.",
+                  "Njan urangunnu.",
+                ],
+                "correctAnswer": "Avan enne cheytha kondu.",
+                "translatedSentence": "Because of what he did to me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku enne kanaan pediyanu.",
+                "options": [
+                  "She is afraid to see me.",
+                  "She is happy to see me.",
+                  "She likes to see me.",
+                ],
+                "correctAnswer": "She is afraid to see me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangalkku ellavarkkum sneham undu.",
+                "options": [
+                  "We all have love.",
+                  "We are all angry.",
+                  "We are all afraid.",
+                ],
+                "correctAnswer": "We all have love.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ippol enthu thonnunnu?",
+                "options": [
+                  "Enikku santhosham thonnunnu.",
+                  "Ee poo manam ullathanu.",
+                  "Puzha ozhukunnu.",
+                ],
+                "correctAnswer": "Enikku santhosham thonnunnu.",
+                "translatedSentence": "I feel happy.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninne kandappol enikku santhoshamayi.",
+                "options": [
+                  "I was happy when I saw you.",
+                  "I was sad when I saw you.",
+                  "I was afraid when I saw you.",
+                ],
+                "correctAnswer": "I was happy when I saw you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthukondu ninte kannu niranju?",
+                "options": [
+                  "Enikku valare sankadamundu.",
+                  "Enikku vishakkunnu.",
+                  "Njan nadakkunnu.",
+                ],
+                "correctAnswer": "Enikku valare sankadamundu.",
+                "translatedSentence": "I am very sad.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan ente meethe deshyapettu.",
+                "options": [
+                  "He got angry at me.",
+                  "He was happy with me.",
+                  "He was afraid of me.",
+                ],
+                "correctAnswer": "He got angry at me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ninte koode aayirikkaan istamanu.",
+                "options": [
+                  "I like to be with you.",
+                  "I am afraid to be with you.",
+                  "I am angry to be with you.",
+                ],
+                "correctAnswer": "I like to be with you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku enne istamano?",
+                "options": [
+                  "Athe, enikku ninne valare istamanu.",
+                  "Illa, enikku pediyilla.",
+                  "Njan veetil aanu.",
+                ],
+                "correctAnswer": "Athe, enikku ninne valare istamanu.",
+                "translatedSentence": "Yes, I like you a lot.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente kuttiyude santhosham ente santhoshamanu.",
+                "options": [
+                  "My child's happiness is my happiness.",
+                  "My child's sadness is my sadness.",
+                  "My child's fear is my fear.",
+                ],
+                "correctAnswer": "My child's happiness is my happiness.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee joli ishtamundo?",
+                "options": [
+                  "Illa, enikku ee joli valare mushkilanu.",
+                  "Athe, kadal valuthanu.",
+                  "Njan nakshatram kanunnu.",
+                ],
+                "correctAnswer": "Illa, enikku ee joli valare mushkilanu.",
+                "translatedSentence": "No, this job is very difficult for me.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ee divasam valare santhoshathil aanu.",
+                "options": [
+                  "I am very happy today.",
+                  "I am very sad today.",
+                  "I am very tired today.",
+                ],
+                "correctAnswer": "I am very happy today.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avarkku ente meethe valare sneham undu.",
+                "options": [
+                  "They have a lot of love for me.",
+                  "They are very angry at me.",
+                  "They are very afraid of me.",
+                ],
+                "correctAnswer": "They have a lot of love for me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku entha thonnunnathu?",
+                "options": [
+                  "Enikku alpam vishamamundu.",
+                  "Ee maram pachayanu.",
+                  "Chandran mukalil undu.",
+                ],
+                "correctAnswer": "Enikku alpam vishamamundu.",
+                "translatedSentence": "I feel a little worried.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninne kaanaathe enikku sankadamundu.",
+                "options": [
+                  "I am sad without seeing you.",
+                  "I am happy without seeing you.",
+                  "I am angry without seeing you.",
+                ],
+                "correctAnswer": "I am sad without seeing you.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthukondu ninakku ithra deshyam?",
+                "options": [
+                  "Avar ente vaakku kettilla.",
+                  "Enikku santhoshamundu.",
+                  "Puzha ozhukunnu.",
+                ],
+                "correctAnswer": "Avar ente vaakku kettilla.",
+                "translatedSentence": "They did not listen to my words.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellavarum santhoshathode veetilekku poyi.",
+                "options": [
+                  "Everyone went home happily.",
+                  "Everyone went home sadly.",
+                  "Everyone went home afraid.",
+                ],
+                "correctAnswer": "Everyone went home happily.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ninte sneham venam.",
+                "options": [
+                  "I want your love.",
+                  "I want your anger.",
+                  "I want your fear.",
+                ],
+                "correctAnswer": "I want your love.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ippozhum pediyundo?",
+                "options": [
+                  "Illa, ippol enikku pediyilla.",
+                  "Athe, njan maram kaanunnu.",
+                  "Sooryan asthamichu.",
+                ],
+                "correctAnswer": "Illa, ippol enikku pediyilla.",
+                "translatedSentence": "No, I am not afraid now.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ninte punchiri enikku santhosham tharunnu.",
+                "options": [
+                  "Your smile gives me happiness.",
+                  "Your smile gives me sadness.",
+                  "Your smile gives me fear.",
+                ],
+                "correctAnswer": "Your smile gives me happiness.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte manassil enthanu?",
+                "options": [
+                  "Ente manassil valare santhoshamundu.",
+                  "Kadalil vellam undu.",
+                  "Malayil manju undu.",
+                ],
+                "correctAnswer": "Ente manassil valare santhoshamundu.",
+                "translatedSentence":
+                    "There is a lot of happiness in my heart.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avante sankadam njan manasilaakkunnu.",
+                "options": [
+                  "I understand his sadness.",
+                  "I understand his happiness.",
+                  "I understand his anger.",
+                ],
+                "correctAnswer": "I understand his sadness.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Deshyam nalla karyam alla.",
+                "options": [
+                  "Anger is not a good thing.",
+                  "Love is not a good thing.",
+                  "Happiness is not a good thing.",
+                ],
+                "correctAnswer": "Anger is not a good thing.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku deshyam vannaal enthu cheyyum?",
+                "options": [
+                  "Njan alpam samayam moungiyirikkum.",
+                  "Njan kadal kaanaan pokum.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Njan alpam samayam moungiyirikkum.",
+                "translatedSentence": "I will stay silent for a while.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Jeevithathil santhosham aanu ella athilum pradhanam.",
+                "options": [
+                  "Happiness is the most important thing in life.",
+                  "Sadness is the most important thing in life.",
+                  "Anger is the most important thing in life.",
+                ],
+                "correctAnswer":
+                    "Happiness is the most important thing in life.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte kudumbam santhoshathil aano?",
+                "options": [
+                  "Athe, njangal ellavarum santhoshathil aanu.",
+                  "Illa, maram valuthanu.",
+                  "Puzha thanuthathanu.",
+                ],
+                "correctAnswer": "Athe, njangal ellavarum santhoshathil aanu.",
+                "translatedSentence": "Yes, we are all happy.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Snehathil ninnu ella santhoshavum varunnu.",
+                "options": [
+                  "All happiness comes from love.",
+                  "All sadness comes from love.",
+                  "All fear comes from love.",
+                ],
+                "correctAnswer": "All happiness comes from love.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente sankadam njan aarodum parayilla.",
+                "options": [
+                  "I will not tell my sadness to anyone.",
+                  "I will not tell my happiness to anyone.",
+                  "I will not tell my fear to anyone.",
+                ],
+                "correctAnswer": "I will not tell my sadness to anyone.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku pedi thonnumbol enthu cheyyum?",
+                "options": [
+                  "Njan ente ammaye villikkum.",
+                  "Njan poovu vaangum.",
+                  "Njan chandrane kaanum.",
+                ],
+                "correctAnswer": "Njan ente ammaye villikkum.",
+                "translatedSentence": "I will call my mother.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "nature",
+        "image": Assets.images.tree.path,
+        "color": 0xff2ECC71,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for tree",
+                "sentence": "tree",
+                "options": ["maram", "poo", "puzha"],
+                "correctAnswer": "maram",
+                "translatedSentence": "tree",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for flower",
+                "sentence": "flower",
+                "options": ["poo", "kadal", "mala"],
+                "correctAnswer": "poo",
+                "translatedSentence": "flower",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "puzha",
+                "options": ["river", "sea", "mountain"],
+                "correctAnswer": "river",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kadal",
+                "options": ["sea", "river", "tree"],
+                "correctAnswer": "sea",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for mountain",
+                "sentence": "mountain",
+                "options": ["mala", "poo", "maram"],
+                "correctAnswer": "mala",
+                "translatedSentence": "mountain",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "nakshatram",
+                "options": ["star", "moon", "sun"],
+                "correctAnswer": "star",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for moon",
+                "sentence": "moon",
+                "options": ["chandran", "sooryan", "nakshatram"],
+                "correctAnswer": "chandran",
+                "translatedSentence": "moon",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for sun",
+                "sentence": "sun",
+                "options": ["sooryan", "chandran", "kadal"],
+                "correctAnswer": "sooryan",
+                "translatedSentence": "sun",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "maram",
+                "options": ["tree", "flower", "river"],
+                "correctAnswer": "tree",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "poo",
+                "options": ["flower", "sea", "mountain"],
+                "correctAnswer": "flower",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for sky",
+                "sentence": "sky",
+                "options": ["aakaasham", "maram", "kadal"],
+                "correctAnswer": "aakaasham",
+                "translatedSentence": "sky",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for rain",
+                "sentence": "rain",
+                "options": ["mazha", "poo", "mala"],
+                "correctAnswer": "mazha",
+                "translatedSentence": "rain",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "puzha",
+                "options": ["river", "star", "sun"],
+                "correctAnswer": "river",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "kaattu",
+                "options": ["forest", "sea", "sky"],
+                "correctAnswer": "forest",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for wind",
+                "sentence": "wind",
+                "options": ["kaattu vishunnu", "mala", "nakshatram"],
+                "correctAnswer": "kaattu vishunnu",
+                "translatedSentence": "wind",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithu enthanu?",
+                "options": [
+                  "Ithu oru maram aanu.",
+                  "Enikku ariyilla ippol.",
+                  "Njan veetil aanu.",
+                ],
+                "correctAnswer": "Ithu oru maram aanu.",
+                "translatedSentence": "This is a tree.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kadal valuthanu.",
+                "options": [
+                  "The sea is big.",
+                  "The tree is small.",
+                  "The flower is red.",
+                ],
+                "correctAnswer": "The sea is big.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Poo manam ullathanu.",
+                "options": [
+                  "The flower is fragrant.",
+                  "The river is long.",
+                  "The mountain is high.",
+                ],
+                "correctAnswer": "The flower is fragrant.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aakaashathil enthundu?",
+                "options": [
+                  "Aakaashathil chandran undu.",
+                  "Kadalil maram undu.",
+                  "Malayil puzha undu.",
+                ],
+                "correctAnswer": "Aakaashathil chandran undu.",
+                "translatedSentence": "There is a moon in the sky.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mala valare uyaram aanu.",
+                "options": [
+                  "The mountain is very high.",
+                  "The sea is very big.",
+                  "The tree is very green.",
+                ],
+                "correctAnswer": "The mountain is very high.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Puzha samthanam ozhukunnu.",
+                "options": [
+                  "The river flows slowly.",
+                  "The sea is big.",
+                  "The tree is tall.",
+                ],
+                "correctAnswer": "The river flows slowly.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee maram pachayano?",
+                "options": [
+                  "Athe, ee maram pachayanu.",
+                  "Illa, kadal valuthanu.",
+                  "Njan nakshatram kaanunnu.",
+                ],
+                "correctAnswer": "Athe, ee maram pachayanu.",
+                "translatedSentence": "Yes, this tree is green.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sooryan udichu.",
+                "options": ["The sun rose.", "The moon set.", "The star fell."],
+                "correctAnswer": "The sun rose.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aakaashathil nakshatrangal undu.",
+                "options": [
+                  "There are stars in the sky.",
+                  "There are trees in the sea.",
+                  "There are flowers in the river.",
+                ],
+                "correctAnswer": "There are stars in the sky.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ippol mazha undo?",
+                "options": [
+                  "Athe, ippol mazha undu.",
+                  "Illa, kadal chuvannathanu.",
+                  "Sooryan valuthanu.",
+                ],
+                "correctAnswer": "Athe, ippol mazha undu.",
+                "translatedSentence": "Yes, it is raining now.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Chandran raathriyil prakaashikkunnu.",
+                "options": [
+                  "The moon shines at night.",
+                  "The sun shines at night.",
+                  "The star shines in the day.",
+                ],
+                "correctAnswer": "The moon shines at night.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku kadal kaananam?",
+                "options": [
+                  "Athe, enikku kadal kaananam.",
+                  "Illa, njan poo pariyum.",
+                  "Maram valuthanu.",
+                ],
+                "correctAnswer": "Athe, enikku kadal kaananam.",
+                "translatedSentence": "Yes, I want to see the sea.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee poo chuvannathanu.",
+                "options": [
+                  "This flower is red.",
+                  "This tree is green.",
+                  "This sea is blue.",
+                ],
+                "correctAnswer": "This flower is red.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marathil oru pakshi undu.",
+                "options": [
+                  "There is a bird on the tree.",
+                  "There is a fish in the sea.",
+                  "There is a star in the sky.",
+                ],
+                "correctAnswer": "There is a bird on the tree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Puzhayil vellam undo?",
+                "options": [
+                  "Athe, puzhayil vellam undu.",
+                  "Illa, chandran valuthanu.",
+                  "Njan mala kayarunnu.",
+                ],
+                "correctAnswer": "Athe, puzhayil vellam undu.",
+                "translatedSentence": "Yes, there is water in the river.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan marathin chuvattil irunnu.",
+                "options": [
+                  "I sat under the tree.",
+                  "I stood on the mountain.",
+                  "I swam in the sea.",
+                ],
+                "correctAnswer": "I sat under the tree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Kadalil enthundu?",
+                "options": [
+                  "Kadalil ottanavadhi meenukal undu.",
+                  "Aakaashathil maram undu.",
+                  "Malayil puzha ozhukunnu.",
+                ],
+                "correctAnswer": "Kadalil ottanavadhi meenukal undu.",
+                "translatedSentence": "There are many fish in the sea.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sooryan asthamichu.",
+                "options": ["The sun set.", "The sun rose.", "The moon rose."],
+                "correctAnswer": "The sun set.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee kaattil valiya marangal undu.",
+                "options": [
+                  "There are big trees in this forest.",
+                  "There are big waves in this sea.",
+                  "There are bright stars in this sky.",
+                ],
+                "correctAnswer": "There are big trees in this forest.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Mazha peyyumbol ninakku enthu istamanu?",
+                "options": [
+                  "Enikku veetil irikkaan istamanu.",
+                  "Enikku kadal kayaraan istamanu.",
+                  "Enikku sooryane kaananam.",
+                ],
+                "correctAnswer": "Enikku veetil irikkaan istamanu.",
+                "translatedSentence": "I like to stay at home.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Malayil ninnu puzha ozhukunnu.",
+                "options": [
+                  "The river flows from the mountain.",
+                  "The sea flows from the mountain.",
+                  "The tree grows on the mountain.",
+                ],
+                "correctAnswer": "The river flows from the mountain.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veettil marangal undo?",
+                "options": [
+                  "Athe, ente veettil rendu marangal undu.",
+                  "Illa, kadal chuvannathanu.",
+                  "Njan nakshatram enni.",
+                ],
+                "correctAnswer": "Athe, ente veettil rendu marangal undu.",
+                "translatedSentence": "Yes, there are two trees in my house.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Raathriyil aakaasham nakshatrangal kondu niranju.",
+                "options": [
+                  "At night the sky was full of stars.",
+                  "At night the sea was full of fish.",
+                  "At night the tree was full of flowers.",
+                ],
+                "correctAnswer": "At night the sky was full of stars.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee pooccha chundu ente istamanu.",
+                "options": [
+                  "I like this beautiful flower.",
+                  "I like this tall tree.",
+                  "I like this big sea.",
+                ],
+                "correctAnswer": "I like this beautiful flower.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal nale evideykku pokum?",
+                "options": [
+                  "Nammal nale kadalilekku pokum.",
+                  "Nammal nale maram vaangum.",
+                  "Njan chandrane parayum.",
+                ],
+                "correctAnswer": "Nammal nale kadalilekku pokum.",
+                "translatedSentence": "We will go to the sea tomorrow.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaalathe sooryan puzhaykku mele udikkunnu.",
+                "options": [
+                  "In the morning the sun rises over the river.",
+                  "In the morning the moon rises over the sea.",
+                  "At night the sun sets over the mountain.",
+                ],
+                "correctAnswer": "In the morning the sun rises over the river.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee sthalam istamayo?",
+                "options": [
+                  "Athe, ivide marangalum puzhayum undu.",
+                  "Illa, njan udupu vaangi.",
+                  "Ente chappal chuvannathanu.",
+                ],
+                "correctAnswer": "Athe, ivide marangalum puzhayum undu.",
+                "translatedSentence": "Yes, there are trees and a river here.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee malayude mukalil manju undu.",
+                "options": [
+                  "There is snow on top of this mountain.",
+                  "There is water in this river.",
+                  "There are flowers on this tree.",
+                ],
+                "correctAnswer": "There is snow on top of this mountain.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kaattil pala tharam marangal undu.",
+                "options": [
+                  "There are many kinds of trees in the forest.",
+                  "There are many fish in the sea.",
+                  "There are many stars in the sky.",
+                ],
+                "correctAnswer": "There are many kinds of trees in the forest.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee puzha evideykku pokunnu?",
+                "options": [
+                  "Ee puzha kadalilekku pokunnu.",
+                  "Ee maram malayilekku pokunnu.",
+                  "Ee poo aakaashathilekku pokunnu.",
+                ],
+                "correctAnswer": "Ee puzha kadalilekku pokunnu.",
+                "translatedSentence": "This river goes to the sea.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nammal prakruthiye samrakshikkanam.",
+                "options": [
+                  "We must protect nature.",
+                  "We must climb the mountain.",
+                  "We must swim in the sea.",
+                ],
+                "correctAnswer": "We must protect nature.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthukondu nammal marangal veykkanam?",
+                "options": [
+                  "Marangal nalla vaayu tharunnu.",
+                  "Kadal valuthanu.",
+                  "Nakshatram prakaashikkunnu.",
+                ],
+                "correctAnswer": "Marangal nalla vaayu tharunnu.",
+                "translatedSentence": "Trees give good air.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Mazha kaalathu puzha niranju ozhukum.",
+                "options": [
+                  "In the rainy season the river flows full.",
+                  "In the summer the sea dries up.",
+                  "In the winter the mountain is warm.",
+                ],
+                "correctAnswer": "In the rainy season the river flows full.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee poovil oru theniirakki undu.",
+                "options": [
+                  "There is a bee on this flower.",
+                  "There is a bird on this tree.",
+                  "There is a fish in this sea.",
+                ],
+                "correctAnswer": "There is a bee on this flower.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku etha koodutal istam, kadalo malayo?",
+                "options": [
+                  "Enikku kadal koodutal istamanu.",
+                  "Enikku udupu koodutal istamanu.",
+                  "Njan chappal vaangi.",
+                ],
+                "correctAnswer": "Enikku kadal koodutal istamanu.",
+                "translatedSentence": "I like the sea more.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sooryodayam kaanaan njan neratte ezhunnettu.",
+                "options": [
+                  "I woke up early to see the sunrise.",
+                  "I slept late to see the sunset.",
+                  "I ran fast to see the sea.",
+                ],
+                "correctAnswer": "I woke up early to see the sunrise.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Malayude mukalil ninnu enthu kaanam?",
+                "options": [
+                  "Avide ninnu muzhuvan naadum kaanam.",
+                  "Avide ninnu kadal kudikkam.",
+                  "Avide ninnu udupu vaangam.",
+                ],
+                "correctAnswer": "Avide ninnu muzhuvan naadum kaanam.",
+                "translatedSentence": "From there you can see the whole town.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee marathinu nooru varsham praayamundu.",
+                "options": [
+                  "This tree is a hundred years old.",
+                  "This sea is a hundred miles wide.",
+                  "This mountain is a hundred feet high.",
+                ],
+                "correctAnswer": "This tree is a hundred years old.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kadalinte theerathu njangal irunnu.",
+                "options": [
+                  "We sat on the shore of the sea.",
+                  "We climbed to the top of the mountain.",
+                  "We walked along the river.",
+                ],
+                "correctAnswer": "We sat on the shore of the sea.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence":
+                    "Raathriyil aakaashathekku nokkumbol enthu thonnunnu?",
+                "options": [
+                  "Nakshatrangal kaanumbol enikku santhosham thonnunnu.",
+                  "Kadal kaanumbol enikku pedi thonnunnu.",
+                  "Njan udupu vaangunnu.",
+                ],
+                "correctAnswer":
+                    "Nakshatrangal kaanumbol enikku santhosham thonnunnu.",
+                "translatedSentence": "I feel happy when I see the stars.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Prakruthiyanu namukku ella nalkunnathu.",
+                "options": [
+                  "It is nature that gives us everything.",
+                  "It is the sea that gives us everything.",
+                  "It is the sun that takes everything.",
+                ],
+                "correctAnswer": "It is nature that gives us everything.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte istappetta sthalam evideyanu?",
+                "options": [
+                  "Malayude adukku ulla puzhayanu ente istam.",
+                  "Kadalile udupu aanu ente istam.",
+                  "Njan chappal veekki.",
+                ],
+                "correctAnswer": "Malayude adukku ulla puzhayanu ente istam.",
+                "translatedSentence":
+                    "The river near the mountain is my favorite.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marangal illa engil mazha kurayum.",
+                "options": [
+                  "If there are no trees, rain will decrease.",
+                  "If there is no sea, the sun will rise.",
+                  "If there is no mountain, the river will stop.",
+                ],
+                "correctAnswer": "If there are no trees, rain will decrease.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Chandranum nakshatrangalum raathriye chundakkunnu.",
+                "options": [
+                  "The moon and stars make the night beautiful.",
+                  "The sun and clouds make the day dark.",
+                  "The sea and river make the town wet.",
+                ],
+                "correctAnswer": "The moon and stars make the night beautiful.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammalkku prakruthiye engane samrakshikkam?",
+                "options": [
+                  "Koodutal marangal veykkam, malineekaranam kurakkam.",
+                  "Koodutal kadal kudikkam.",
+                  "Koodutal udupu vaangam.",
+                ],
+                "correctAnswer":
+                    "Koodutal marangal veykkam, malineekaranam kurakkam.",
+                "translatedSentence":
+                    "We can plant more trees and reduce pollution.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "clothing",
+        "image": Assets.images.clothes.path,
+        "color": 0xff8E44AD,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for clothes",
+                "sentence": "clothes",
+                "options": ["udupu", "chappal", "sari"],
+                "correctAnswer": "udupu",
+                "translatedSentence": "clothes",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for slippers",
+                "sentence": "slippers",
+                "options": ["chappal", "mundu", "shirt"],
+                "correctAnswer": "chappal",
+                "translatedSentence": "slippers",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sari",
+                "options": ["sari", "shirt", "slippers"],
+                "correctAnswer": "sari",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "shirt",
+                "options": ["shirt", "clothes", "sari"],
+                "correctAnswer": "shirt",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for mundu",
+                "sentence": "mundu",
+                "options": ["mundu", "chappal", "udupu"],
+                "correctAnswer": "mundu",
+                "translatedSentence": "mundu",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "udupu",
+                "options": ["clothes", "slippers", "sari"],
+                "correctAnswer": "clothes",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for cap",
+                "sentence": "cap",
+                "options": ["thoppi", "chappal", "mundu"],
+                "correctAnswer": "thoppi",
+                "translatedSentence": "cap",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for shoe",
+                "sentence": "shoe",
+                "options": ["shoo", "sari", "thoppi"],
+                "correctAnswer": "shoo",
+                "translatedSentence": "shoe",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "chappal",
+                "options": ["slippers", "cap", "sari"],
+                "correctAnswer": "slippers",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "mundu",
+                "options": ["mundu", "shirt", "shoe"],
+                "correctAnswer": "mundu",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for bangle",
+                "sentence": "bangle",
+                "options": ["vala", "thoppi", "chappal"],
+                "correctAnswer": "vala",
+                "translatedSentence": "bangle",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for towel",
+                "sentence": "towel",
+                "options": ["thorthu", "sari", "shoo"],
+                "correctAnswer": "thorthu",
+                "translatedSentence": "towel",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "sari",
+                "options": ["sari", "cap", "shoe"],
+                "correctAnswer": "sari",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "thoppi",
+                "options": ["cap", "bangle", "towel"],
+                "correctAnswer": "cap",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for ring",
+                "sentence": "ring",
+                "options": ["mothiram", "vala", "thorthu"],
+                "correctAnswer": "mothiram",
+                "translatedSentence": "ring",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ithu enthanu?",
+                "options": [
+                  "Ithu oru sari aanu.",
+                  "Enikku ariyilla ippol.",
+                  "Njan maram kaanunnu.",
+                ],
+                "correctAnswer": "Ithu oru sari aanu.",
+                "translatedSentence": "This is a sari.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente shirt neelayanu.",
+                "options": [
+                  "My shirt is blue.",
+                  "My cap is red.",
+                  "My slippers are old.",
+                ],
+                "correctAnswer": "My shirt is blue.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee udupu puthiyathanu.",
+                "options": [
+                  "These clothes are new.",
+                  "These clothes are old.",
+                  "These clothes are dirty.",
+                ],
+                "correctAnswer": "These clothes are new.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte chappal evideyanu?",
+                "options": [
+                  "Ente chappal purathu undu.",
+                  "Ente sari chuvannathanu.",
+                  "Njan maram kayarunnu.",
+                ],
+                "correctAnswer": "Ente chappal purathu undu.",
+                "translatedSentence": "My slippers are outside.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Achan mundu udukkunnu.",
+                "options": [
+                  "Father wears a mundu.",
+                  "Mother wears a sari.",
+                  "The child wears a cap.",
+                ],
+                "correctAnswer": "Father wears a mundu.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Amma oru puthiya sari vaangi.",
+                "options": [
+                  "Mother bought a new sari.",
+                  "Father sold an old mundu.",
+                  "The child lost a cap.",
+                ],
+                "correctAnswer": "Mother bought a new sari.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte shirt ethu niramanu?",
+                "options": [
+                  "Ente shirt pachayanu.",
+                  "Njan kadal kaanunnu.",
+                  "Puzha ozhukunnu.",
+                ],
+                "correctAnswer": "Ente shirt pachayanu.",
+                "translatedSentence": "My shirt is green.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee thoppi istamanu.",
+                "options": [
+                  "I like this cap.",
+                  "I hate this shirt.",
+                  "I lost this slipper.",
+                ],
+                "correctAnswer": "I like this cap.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee chappal valare paranathanu.",
+                "options": [
+                  "These slippers are very old.",
+                  "These slippers are very new.",
+                  "This shirt is very small.",
+                ],
+                "correctAnswer": "These slippers are very old.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku puthiya udupu venamo?",
+                "options": [
+                  "Athe, enikku puthiya udupu venam.",
+                  "Illa, chandran valuthanu.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Athe, enikku puthiya udupu venam.",
+                "translatedSentence": "Yes, I want new clothes.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ee shirt kada yil ninnu vaangi.",
+                "options": [
+                  "I bought this shirt from the shop.",
+                  "I sold this shirt at the shop.",
+                  "I lost this shirt at home.",
+                ],
+                "correctAnswer": "I bought this shirt from the shop.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee sariy ethra roopa aanu?",
+                "options": [
+                  "Ee sari ayaayiram roopa aanu.",
+                  "Ee sari kadalil undu.",
+                  "Njan mala kayari.",
+                ],
+                "correctAnswer": "Ee sari ayaayiram roopa aanu.",
+                "translatedSentence": "This sari is a thousand rupees.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente chettan shoo idunnu.",
+                "options": [
+                  "My brother wears shoes.",
+                  "My sister wears a sari.",
+                  "My father wears a cap.",
+                ],
+                "correctAnswer": "My brother wears shoes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee udupu enikku cheriyathanu.",
+                "options": [
+                  "These clothes are small for me.",
+                  "These clothes are big for me.",
+                  "These clothes are new for me.",
+                ],
+                "correctAnswer": "These clothes are small for me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte thoppi evide?",
+                "options": [
+                  "Ente thoppi mesha mukalil undu.",
+                  "Ente sari kadalil undu.",
+                  "Njan maram veykki.",
+                ],
+                "correctAnswer": "Ente thoppi mesha mukalil undu.",
+                "translatedSentence": "My cap is on the table.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee udupu ente sahodariykku aanu.",
+                "options": [
+                  "These clothes are for my sister.",
+                  "These clothes are for my brother.",
+                  "These clothes are for my father.",
+                ],
+                "correctAnswer": "These clothes are for my sister.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Kalyaanathinu ninakku entha udukkuka?",
+                "options": [
+                  "Njan oru puthiya sari udukkum.",
+                  "Njan chappal kazhikkum.",
+                  "Njan kadalil urangum.",
+                ],
+                "correctAnswer": "Njan oru puthiya sari udukkum.",
+                "translatedSentence": "I will wear a new sari.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente shirt azhukkilaayi.",
+                "options": [
+                  "My shirt got dirty.",
+                  "My shirt got new.",
+                  "My shirt got lost.",
+                ],
+                "correctAnswer": "My shirt got dirty.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee mothiram ente ammayude aanu.",
+                "options": [
+                  "This ring is my mother's.",
+                  "This bangle is my sister's.",
+                  "This cap is my brother's.",
+                ],
+                "correctAnswer": "This ring is my mother's.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte chappal evideyum kaanunnilla, alle?",
+                "options": [
+                  "Athe, njan ente chappal thiranju.",
+                  "Illa, kadal valuthanu.",
+                  "Sooryan udichu.",
+                ],
+                "correctAnswer": "Athe, njan ente chappal thiranju.",
+                "translatedSentence": "Yes, I looked for my slippers.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan ee udupu alakki unangi.",
+                "options": [
+                  "I washed and dried these clothes.",
+                  "I bought and sold these clothes.",
+                  "I lost and found these clothes.",
+                ],
+                "correctAnswer": "I washed and dried these clothes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ee shirt idano?",
+                "options": [
+                  "Athe, enikku ee shirt idano venam.",
+                  "Illa, njan maram vaangi.",
+                  "Chandran mukalil undu.",
+                ],
+                "correctAnswer": "Athe, enikku ee shirt idano venam.",
+                "translatedSentence": "Yes, I want to wear this shirt.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee sari valare chundu undu.",
+                "options": [
+                  "This sari is very beautiful.",
+                  "This sari is very old.",
+                  "This sari is very small.",
+                ],
+                "correctAnswer": "This sari is very beautiful.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente puthiya shoo enikku istamayi.",
+                "options": [
+                  "I liked my new shoes.",
+                  "I lost my new shoes.",
+                  "I sold my new shoes.",
+                ],
+                "correctAnswer": "I liked my new shoes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee udupu ethra vila aanu?",
+                "options": [
+                  "Ithu anooru roopa aanu.",
+                  "Ithu kadalil undu.",
+                  "Njan mala kayari.",
+                ],
+                "correctAnswer": "Ithu anooru roopa aanu.",
+                "translatedSentence": "This is five hundred rupees.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Thanuppu kaalathu njan valiya udupu idunnu.",
+                "options": [
+                  "In the cold season I wear thick clothes.",
+                  "In the hot season I wear thin clothes.",
+                  "In the rain I wear no clothes.",
+                ],
+                "correctAnswer": "In the cold season I wear thick clothes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku etha udupu istam, sariyo churidaaro?",
+                "options": [
+                  "Enikku sari koodutal istamanu.",
+                  "Enikku kadal koodutal istamanu.",
+                  "Njan chappal kazhichu.",
+                ],
+                "correctAnswer": "Enikku sari koodutal istamanu.",
+                "translatedSentence": "I like sari more.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee shirtinte niram enikku istamalla.",
+                "options": [
+                  "I don't like the color of this shirt.",
+                  "I like the color of this shirt.",
+                  "I bought the color of this shirt.",
+                ],
+                "correctAnswer": "I don't like the color of this shirt.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Amma ente udupukal alamaarayil vechu.",
+                "options": [
+                  "Mother kept my clothes in the cupboard.",
+                  "Mother washed my clothes in the river.",
+                  "Mother sold my clothes at the shop.",
+                ],
+                "correctAnswer": "Mother kept my clothes in the cupboard.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nale ninte perunnalku enthu udukkum?",
+                "options": [
+                  "Njan puthiya mundu udukkum.",
+                  "Njan kadal kudikkum.",
+                  "Njan maram veykkum.",
+                ],
+                "correctAnswer": "Njan puthiya mundu udukkum.",
+                "translatedSentence": "I will wear a new mundu.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Enikku ee saride vila kooduthalanu.",
+                "options": [
+                  "The price of this sari is too high for me.",
+                  "The color of this sari is too dark for me.",
+                  "The size of this sari is too small for me.",
+                ],
+                "correctAnswer": "The price of this sari is too high for me.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee shirt vere niramil undo?",
+                "options": [
+                  "Athe, neelayilum chuvappilum undu.",
+                  "Illa, kadalil undu.",
+                  "Njan maram vaangi.",
+                ],
+                "correctAnswer": "Athe, neelayilum chuvappilum undu.",
+                "translatedSentence": "Yes, it comes in blue and red too.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente chettan enikku oru shirt sammaanamayi tannu.",
+                "options": [
+                  "My brother gave me a shirt as a gift.",
+                  "My sister gave me a sari as a gift.",
+                  "My father gave me shoes as a gift.",
+                ],
+                "correctAnswer": "My brother gave me a shirt as a gift.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee mundu udukkaan enikku ariyilla.",
+                "options": [
+                  "I don't know how to wear this mundu.",
+                  "I know how to wear this mundu.",
+                  "I want to wear this mundu.",
+                ],
+                "correctAnswer": "I don't know how to wear this mundu.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee chappal ninte alavil undo?",
+                "options": [
+                  "Illa, ithu enikku cheriyathanu.",
+                  "Athe, kadal valuthanu.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Illa, ithu enikku cheriyathanu.",
+                "translatedSentence": "No, this is small for me.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan udupu maattiyittu purathekku poyi.",
+                "options": [
+                  "I changed clothes and went outside.",
+                  "I washed clothes and went to sleep.",
+                  "I sold clothes and went home.",
+                ],
+                "correctAnswer": "I changed clothes and went outside.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte sari enthukondu ithra chundu?",
+                "options": [
+                  "Ithu ente ammayude paranja sari aanu.",
+                  "Ithu kadalil ninnu vannathanu.",
+                  "Njan maram kayari.",
+                ],
+                "correctAnswer": "Ithu ente ammayude paranja sari aanu.",
+                "translatedSentence": "This is my mother's old sari.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee udupu njan swantham kayyaal thaithu.",
+                "options": [
+                  "I stitched these clothes with my own hands.",
+                  "I bought these clothes with my own money.",
+                  "I washed these clothes with my own hands.",
+                ],
+                "correctAnswer": "I stitched these clothes with my own hands.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Perunnalku ellavarum puthiya udupu idunnu.",
+                "options": [
+                  "Everyone wears new clothes for the festival.",
+                  "Everyone sells old clothes at the festival.",
+                  "Everyone washes clothes for the festival.",
+                ],
+                "correctAnswer": "Everyone wears new clothes for the festival.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte istappetta udupu ethanu?",
+                "options": [
+                  "Ente istappetta udupu ee neela sari aanu.",
+                  "Ente istappetta udupu kadalil undu.",
+                  "Njan chappal veekki.",
+                ],
+                "correctAnswer": "Ente istappetta udupu ee neela sari aanu.",
+                "translatedSentence": "My favorite outfit is this blue sari.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Nalla udupu idunnathinekkal nalla manasanu pradhanam.",
+                "options": [
+                  "A good heart is more important than wearing good clothes.",
+                  "Good clothes are more important than a good heart.",
+                  "A good sari is more important than a good friend.",
+                ],
+                "correctAnswer":
+                    "A good heart is more important than wearing good clothes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee paranja udupukal nammalku enthu cheyyam?",
+                "options": [
+                  "Namukku athu pavangalku nalkaam.",
+                  "Namukku athu kadalil erinjkalayam.",
+                  "Njan maram veykkum.",
+                ],
+                "correctAnswer": "Namukku athu pavangalku nalkaam.",
+                "translatedSentence": "We can give them to the poor.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ente muthashi ippozhum kaithariyil sari nesikunnu.",
+                "options": [
+                  "My grandmother still weaves saris on the handloom.",
+                  "My grandmother still buys saris at the shop.",
+                  "My grandmother still washes saris in the river.",
+                ],
+                "correctAnswer":
+                    "My grandmother still weaves saris on the handloom.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kalathinu chernna udupu idunnathanu nallathu.",
+                "options": [
+                  "It is good to wear clothes suited to the weather.",
+                  "It is good to wear clothes suited to the shop.",
+                  "It is good to wear clothes suited to the sea.",
+                ],
+                "correctAnswer":
+                    "It is good to wear clothes suited to the weather.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku puthiya udupu edukkaan sahaayam venamo?",
+                "options": [
+                  "Athe, ninte abhipraayam enikku venam.",
+                  "Illa, kadal valuthanu.",
+                  "Njan chandrane kaanum.",
+                ],
+                "correctAnswer": "Athe, ninte abhipraayam enikku venam.",
+                "translatedSentence": "Yes, I want your opinion.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "directions",
+        "image": Assets.images.message.path,
+        "color": 0xff16A085,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for right",
+                "sentence": "right",
+                "options": ["valathu", "idathu", "munnil"],
+                "correctAnswer": "valathu",
+                "translatedSentence": "right",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for left",
+                "sentence": "left",
+                "options": ["idathu", "valathu", "thaazhe"],
+                "correctAnswer": "idathu",
+                "translatedSentence": "left",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "munnil",
+                "options": ["ahead", "behind", "up"],
+                "correctAnswer": "ahead",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "pinnil",
+                "options": ["behind", "ahead", "down"],
+                "correctAnswer": "behind",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for up",
+                "sentence": "up",
+                "options": ["mukalil", "thaazhe", "nere"],
+                "correctAnswer": "mukalil",
+                "translatedSentence": "up",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "thaazhe",
+                "options": ["down", "up", "left"],
+                "correctAnswer": "down",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for straight",
+                "sentence": "straight",
+                "options": ["nere", "valathu", "idathu"],
+                "correctAnswer": "nere",
+                "translatedSentence": "straight",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for right",
+                "sentence": "right",
+                "options": ["valathu", "pinnil", "mukalil"],
+                "correctAnswer": "valathu",
+                "translatedSentence": "right",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "munnil",
+                "options": ["ahead", "down", "straight"],
+                "correctAnswer": "ahead",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "idathu",
+                "options": ["left", "right", "up"],
+                "correctAnswer": "left",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for near",
+                "sentence": "near",
+                "options": ["aduthu", "akale", "nere"],
+                "correctAnswer": "aduthu",
+                "translatedSentence": "near",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for far",
+                "sentence": "far",
+                "options": ["akale", "aduthu", "munnil"],
+                "correctAnswer": "akale",
+                "translatedSentence": "far",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "nere",
+                "options": ["straight", "behind", "down"],
+                "correctAnswer": "straight",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "mukalil",
+                "options": ["up", "down", "near"],
+                "correctAnswer": "up",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for here",
+                "sentence": "here",
+                "options": ["ivide", "avide", "akale"],
+                "correctAnswer": "ivide",
+                "translatedSentence": "here",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bank evideyanu?",
+                "options": [
+                  "Bank valathu vashathu aanu.",
+                  "Enikku ariyilla ippol.",
+                  "Njan maram kaanunnu.",
+                ],
+                "correctAnswer": "Bank valathu vashathu aanu.",
+                "translatedSentence": "The bank is on the right side.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nere pokuka.",
+                "options": ["Go straight.", "Go left.", "Go back."],
+                "correctAnswer": "Go straight.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Idathekku thiriyuka.",
+                "options": [
+                  "Turn to the left.",
+                  "Turn to the right.",
+                  "Go up.",
+                ],
+                "correctAnswer": "Turn to the left.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Veedu akaleyaano?",
+                "options": [
+                  "Illa, veedu aduthu thanne aanu.",
+                  "Athe, kadal valuthanu.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Illa, veedu aduthu thanne aanu.",
+                "translatedSentence": "No, the house is quite near.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kada munnil undu.",
+                "options": [
+                  "The shop is ahead.",
+                  "The shop is behind.",
+                  "The shop is up.",
+                ],
+                "correctAnswer": "The shop is ahead.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Valathekku thiriyuka.",
+                "options": [
+                  "Turn to the right.",
+                  "Turn to the left.",
+                  "Go straight.",
+                ],
+                "correctAnswer": "Turn to the right.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Station evideyanu?",
+                "options": [
+                  "Station idathu vashathu aanu.",
+                  "Njan kadal kaanunnu.",
+                  "Puzha ozhukunnu.",
+                ],
+                "correctAnswer": "Station idathu vashathu aanu.",
+                "translatedSentence": "The station is on the left side.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aashupathri ivide aduthanu.",
+                "options": [
+                  "The hospital is near here.",
+                  "The hospital is far away.",
+                  "The hospital is behind.",
+                ],
+                "correctAnswer": "The hospital is near here.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veedu pinnil aanu.",
+                "options": [
+                  "My house is behind.",
+                  "My house is ahead.",
+                  "My house is up.",
+                ],
+                "correctAnswer": "My house is behind.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "School evideyanu?",
+                "options": [
+                  "School nere munnil undu.",
+                  "School kadalil undu.",
+                  "Njan mala kayari.",
+                ],
+                "correctAnswer": "School nere munnil undu.",
+                "translatedSentence": "The school is straight ahead.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Randaam thiruvil valathekku thiriyuka.",
+                "options": [
+                  "Turn right at the second turn.",
+                  "Turn left at the first turn.",
+                  "Go straight at the third turn.",
+                ],
+                "correctAnswer": "Turn right at the second turn.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Post office ethra akaleyaanu?",
+                "options": [
+                  "Athu venum adi akaleyaanu.",
+                  "Athu kadalil undu.",
+                  "Njan maram kayari.",
+                ],
+                "correctAnswer": "Athu venum adi akaleyaanu.",
+                "translatedSentence": "It is about a hundred feet away.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vazhi nere angadiyilekku pokum.",
+                "options": [
+                  "This road goes straight to the market.",
+                  "This road turns left to the sea.",
+                  "This road goes back to the house.",
+                ],
+                "correctAnswer": "This road goes straight to the market.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Marathinte pinnil oru veedu undu.",
+                "options": [
+                  "There is a house behind the tree.",
+                  "There is a house in front of the tree.",
+                  "There is a tree behind the house.",
+                ],
+                "correctAnswer": "There is a house behind the tree.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Njan valathekko idathekko thiriyanam?",
+                "options": [
+                  "Ni valathekku thiriyuka.",
+                  "Ni kadal kudikkuka.",
+                  "Ni maram veykkuka.",
+                ],
+                "correctAnswer": "Ni valathekku thiriyuka.",
+                "translatedSentence": "You turn to the right.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aashupathri poyi valathekku thiriyuka.",
+                "options": [
+                  "Go to the hospital and turn right.",
+                  "Go to the shop and turn left.",
+                  "Go to the sea and go straight.",
+                ],
+                "correctAnswer": "Go to the hospital and turn right.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhi railway station il ethumo?",
+                "options": [
+                  "Athe, nere pokumbol station kaanam.",
+                  "Illa, kadal valuthanu.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Athe, nere pokumbol station kaanam.",
+                "translatedSentence":
+                    "Yes, if you go straight you will see the station.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pallikku munnil oru valiya maram undu.",
+                "options": [
+                  "There is a big tree in front of the school.",
+                  "There is a big tree behind the shop.",
+                  "There is a small tree near the house.",
+                ],
+                "correctAnswer": "There is a big tree in front of the school.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee kettidam bankinu adutthanu.",
+                "options": [
+                  "This building is next to the bank.",
+                  "This building is far from the bank.",
+                  "This building is behind the shop.",
+                ],
+                "correctAnswer": "This building is next to the bank.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enikku vazhi ariyilla, sahaayikkumo?",
+                "options": [
+                  "Theerchayaayum, ni nere pokuka.",
+                  "Illa, njan urangunnu.",
+                  "Kadal chuvannathanu.",
+                ],
+                "correctAnswer": "Theerchayaayum, ni nere pokuka.",
+                "translatedSentence": "Of course, you go straight.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Naalaam kettidathinte mukalilanu ente office.",
+                "options": [
+                  "My office is on top of the fourth building.",
+                  "My office is behind the fourth building.",
+                  "My office is in front of the first building.",
+                ],
+                "correctAnswer": "My office is on top of the fourth building.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bus stop evideyaanu ennu parayaamo?",
+                "options": [
+                  "Athe, athu idathu vashathu munnil undu.",
+                  "Illa, chandran valuthanu.",
+                  "Njan mala kayari.",
+                ],
+                "correctAnswer": "Athe, athu idathu vashathu munnil undu.",
+                "translatedSentence": "Yes, it is ahead on the left side.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vazhiyil pokaruthu, athu thettaanu.",
+                "options": [
+                  "Don't go on this road, it is wrong.",
+                  "Go on this road, it is right.",
+                  "Turn on this road, it is near.",
+                ],
+                "correctAnswer": "Don't go on this road, it is wrong.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Puzhaykku aduthaayi njangalude veedu undu.",
+                "options": [
+                  "Our house is near the river.",
+                  "Our house is far from the river.",
+                  "Our house is behind the sea.",
+                ],
+                "correctAnswer": "Our house is near the river.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhi ethra dooram undu?",
+                "options": [
+                  "Ivide ninnu oru kilometer undu.",
+                  "Ivide ninnu kadal undu.",
+                  "Njan maram veykki.",
+                ],
+                "correctAnswer": "Ivide ninnu oru kilometer undu.",
+                "translatedSentence": "It is one kilometer from here.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Signalil ninnu idathekku thiriyuka, ennittu nere pokuka.",
+                "options": [
+                  "Turn left at the signal and then go straight.",
+                  "Turn right at the shop and then go back.",
+                  "Go up at the bank and then turn left.",
+                ],
+                "correctAnswer":
+                    "Turn left at the signal and then go straight.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku market ethum vare vazhi ariyamo?",
+                "options": [
+                  "Athe, njan pala thavana avide poyittundu.",
+                  "Illa, kadal valuthanu.",
+                  "Njan chandrane kaanunnu.",
+                ],
+                "correctAnswer": "Athe, njan pala thavana avide poyittundu.",
+                "translatedSentence": "Yes, I have gone there many times.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pettikkadaykku pinnilaanu ente veedu.",
+                "options": [
+                  "My house is behind the small shop.",
+                  "My house is in front of the big shop.",
+                  "My house is next to the school.",
+                ],
+                "correctAnswer": "My house is behind the small shop.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vazhi valare nerrathaanu, sradhikkuka.",
+                "options": [
+                  "This road is very narrow, be careful.",
+                  "This road is very wide, don't worry.",
+                  "This road is very long, be quick.",
+                ],
+                "correctAnswer": "This road is very narrow, be careful.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aashupathriyilekku ethra neram edukkum?",
+                "options": [
+                  "Nadannu paththu minutte edukkum.",
+                  "Kadal kudichu poyaal mathi.",
+                  "Njan maram vaangi.",
+                ],
+                "correctAnswer": "Nadannu paththu minutte edukkum.",
+                "translatedSentence": "It takes ten minutes on foot.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ee kavalayil ninnu valathekku thiriyaal palli kaanaam.",
+                "options": [
+                  "If you turn right at this junction you will see the church.",
+                  "If you turn left at this junction you will see the shop.",
+                  "If you go straight at this junction you will see the sea.",
+                ],
+                "correctAnswer":
+                    "If you turn right at this junction you will see the church.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Njan vazhi thettiyo enna enikku samshayamundu.",
+                "options": [
+                  "Vishamikkanda, njan koode varam.",
+                  "Kadal valuthanu, vishamikkanda.",
+                  "Njan maram kayarum.",
+                ],
+                "correctAnswer": "Vishamikkanda, njan koode varam.",
+                "translatedSentence": "Don't worry, I will come along.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Paalathinte akkare aanu njangalude gramam.",
+                "options": [
+                  "Our village is across the bridge.",
+                  "Our village is behind the mountain.",
+                  "Our village is near the sea.",
+                ],
+                "correctAnswer": "Our village is across the bridge.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nere pokaruthu, ivide ninnu idathekku thiriyuka.",
+                "options": [
+                  "Don't go straight, turn left from here.",
+                  "Go straight, don't turn left from here.",
+                  "Turn right, then go straight from here.",
+                ],
+                "correctAnswer": "Don't go straight, turn left from here.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Bus stand evideyaanu ennu enikku parayaamo?",
+                "options": [
+                  "Athe, munnottu poyi valathekku thiriyuka.",
+                  "Illa, kadal chuvannathanu.",
+                  "Njan udupu vaangi.",
+                ],
+                "correctAnswer": "Athe, munnottu poyi valathekku thiriyuka.",
+                "translatedSentence": "Yes, go ahead and turn right.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Randu vazhikalil valathe vazhi edukkuka, athanu eluppam.",
+                "options": [
+                  "Of the two roads take the right one, it is easier.",
+                  "Of the two roads take the left one, it is harder.",
+                  "Of the two roads take the straight one, it is longer.",
+                ],
+                "correctAnswer":
+                    "Of the two roads take the right one, it is easier.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee vazhiyil traffic kooduthalaano?",
+                "options": [
+                  "Athe, atukondu vere vazhi edukkuka.",
+                  "Illa, kadal valuthanu.",
+                  "Njan poo pariyum.",
+                ],
+                "correctAnswer": "Athe, atukondu vere vazhi edukkuka.",
+                "translatedSentence": "Yes, so take a different road.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente veedu ettumvarum ente koode nadakku.",
+                "options": [
+                  "Walk with me until my house comes.",
+                  "Run to my house before me.",
+                  "Wait at my house for me.",
+                ],
+                "correctAnswer": "Walk with me until my house comes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aa valiya kettidathinte pinnilaanu parking.",
+                "options": [
+                  "The parking is behind that big building.",
+                  "The parking is in front of that big building.",
+                  "The parking is on top of that big building.",
+                ],
+                "correctAnswer": "The parking is behind that big building.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ivide ninnu kadalilekku engane pokum?",
+                "options": [
+                  "Nere poyi randaam turnil idathekku thiriyuka.",
+                  "Marathin mukalilekku kayaruka.",
+                  "Njan udupu vaangi.",
+                ],
+                "correctAnswer":
+                    "Nere poyi randaam turnil idathekku thiriyuka.",
+                "translatedSentence":
+                    "Go straight and turn left at the second turn.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Vazhi ariyilla enkil aarodenkilum chodikkunnathanu nallathu.",
+                "options": [
+                  "If you don't know the way, it is better to ask someone.",
+                  "If you know the way, it is better to walk alone.",
+                  "If you lose the way, it is better to go back home.",
+                ],
+                "correctAnswer":
+                    "If you don't know the way, it is better to ask someone.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Puthiya sthalathekku engane ethum enn ariyamo?",
+                "options": [
+                  "Enikku vazhi ariyilla, njan map nokkam.",
+                  "Enikku kadal ariyam, njan neenthum.",
+                  "Njan maram veykkum.",
+                ],
+                "correctAnswer": "Enikku vazhi ariyilla, njan map nokkam.",
+                "translatedSentence":
+                    "I don't know the way, I will look at the map.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee vazhi neelavum pakshe sundaravum aanu.",
+                "options": [
+                  "This road is long but beautiful.",
+                  "This road is short but ugly.",
+                  "This road is narrow but fast.",
+                ],
+                "correctAnswer": "This road is long but beautiful.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Signal maari kazhinjaal munnottu pokaam.",
+                "options": [
+                  "Once the signal changes you can go ahead.",
+                  "Once the shop closes you can go back.",
+                  "Once the sea rises you can turn left.",
+                ],
+                "correctAnswer": "Once the signal changes you can go ahead.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ente veetilekku ninne engane etthikkam?",
+                "options": [
+                  "Njan ninne station il ninnu koottikondu varam.",
+                  "Njan ninne kadalil ittu varam.",
+                  "Njan udupu vaangi varam.",
+                ],
+                "correctAnswer":
+                    "Njan ninne station il ninnu koottikondu varam.",
+                "translatedSentence": "I will pick you up from the station.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    [
+      {
+        "courseName": "sports",
+        "image": Assets.images.ball.path,
+        "color": 0xffE67E22,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Ball",
+                "sentence": "Ball",
+                "options": ["Pantu", "Kali", "Otta"],
+                "correctAnswer": "Pantu",
+                "translatedSentence": "Ball",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Game",
+                "sentence": "Game",
+                "options": ["Kali", "Pantu", "Neenthal"],
+                "correctAnswer": "Kali",
+                "translatedSentence": "Game",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pantu",
+                "options": ["Ball", "Game", "Run"],
+                "correctAnswer": "Ball",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Run",
+                "sentence": "Run",
+                "options": ["Otta", "Kali", "Pantu"],
+                "correctAnswer": "Otta",
+                "translatedSentence": "Run",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kali",
+                "options": ["Game", "Ball", "Swimming"],
+                "correctAnswer": "Game",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Swimming",
+                "sentence": "Swimming",
+                "options": ["Neenthal", "Otta", "Kali"],
+                "correctAnswer": "Neenthal",
+                "translatedSentence": "Swimming",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Otta",
+                "options": ["Run", "Ball", "Game"],
+                "correctAnswer": "Run",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Won",
+                "sentence": "Won",
+                "options": ["Jayichu", "Thottu", "Kali"],
+                "correctAnswer": "Jayichu",
+                "translatedSentence": "Won",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Neenthal",
+                "options": ["Swimming", "Running", "Playing"],
+                "correctAnswer": "Swimming",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for To play",
+                "sentence": "To play",
+                "options": ["Kalikkuka", "Ottuka", "Neenthuka"],
+                "correctAnswer": "Kalikkuka",
+                "translatedSentence": "To play",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Team",
+                "sentence": "Team",
+                "options": ["Team", "Kali", "Jayam"],
+                "correctAnswer": "Team",
+                "translatedSentence": "Team",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Jayichu",
+                "options": ["Won", "Lost", "Played"],
+                "correctAnswer": "Won",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Cricket",
+                "sentence": "Cricket",
+                "options": ["Cricket", "Football", "Neenthal"],
+                "correctAnswer": "Cricket",
+                "translatedSentence": "Cricket",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kalikkuka",
+                "options": ["To play", "To run", "To swim"],
+                "correctAnswer": "To play",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Victory",
+                "sentence": "Victory",
+                "options": ["Jayam", "Otta", "Pantu"],
+                "correctAnswer": "Jayam",
+                "translatedSentence": "Victory",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ishtamulla kali enthu?",
+                "options": [
+                  "Enikku cricket ishtamanu.",
+                  "Enikku ariyilla.",
+                  "Nale varam.",
+                ],
+                "correctAnswer": "Enikku cricket ishtamanu.",
+                "translatedSentence": "I like cricket.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pantu kalikkunnu.",
+                "options": [
+                  "I am playing ball.",
+                  "I am running.",
+                  "I am swimming.",
+                ],
+                "correctAnswer": "I am playing ball.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan nannayi ottunnu.",
+                "options": [
+                  "He runs well.",
+                  "He plays well.",
+                  "He swims well.",
+                ],
+                "correctAnswer": "He runs well.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal jayicho?",
+                "options": [
+                  "Athe, nammal jayichu.",
+                  "Njan urangi.",
+                  "Pantu vazhi.",
+                ],
+                "correctAnswer": "Athe, nammal jayichu.",
+                "translatedSentence": "Yes, we won.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan neenthan padikkunnu.",
+                "options": [
+                  "I am learning to swim.",
+                  "I am learning to run.",
+                  "I am learning to play.",
+                ],
+                "correctAnswer": "I am learning to swim.",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avar football kalikkunnu.",
+                "options": [
+                  "They are playing football.",
+                  "They are watching football.",
+                  "They are running fast.",
+                ],
+                "correctAnswer": "They are playing football.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee kalikkumo?",
+                "options": [
+                  "Athe, njan kalikkum.",
+                  "Illa, ath adukkala.",
+                  "Pathiye pokuka.",
+                ],
+                "correctAnswer": "Athe, njan kalikkum.",
+                "translatedSentence": "Yes, I will play.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee kali valare rasakaramanu.",
+                "options": [
+                  "This game is very fun.",
+                  "This ball is very big.",
+                  "This team is very good.",
+                ],
+                "correctAnswer": "This game is very fun.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee ottumo?",
+                "options": [
+                  "Athe, njan vegam ottum.",
+                  "Illa, njan urangunnu.",
+                  "Ath mesha aanu.",
+                ],
+                "correctAnswer": "Athe, njan vegam ottum.",
+                "translatedSentence": "Yes, I will run fast.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku neenthal ariyam.",
+                "options": [
+                  "She knows how to swim.",
+                  "She knows how to run.",
+                  "She knows how to play.",
+                ],
+                "correctAnswer": "She knows how to swim.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangalude team jayichu.",
+                "options": [
+                  "Our team won.",
+                  "Our team lost.",
+                  "Our team played.",
+                ],
+                "correctAnswer": "Our team won.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aara ee match jayichathu?",
+                "options": [
+                  "Njangalude team jayichu.",
+                  "Enikku pashi undu.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Njangalude team jayichu.",
+                "translatedSentence": "Our team won.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan pantu erinju.",
+                "options": [
+                  "He threw the ball.",
+                  "He caught the ball.",
+                  "He kicked the ball.",
+                ],
+                "correctAnswer": "He threw the ball.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Innu kali undo?",
+                "options": [
+                  "Athe, innu vaikitt kali undu.",
+                  "Illa, njan pattukelkkunnu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Athe, innu vaikitt kali undu.",
+                "translatedSentence": "Yes, there is a game this evening.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan dinam raviley ottunnu.",
+                "options": [
+                  "I run every morning.",
+                  "I swim every morning.",
+                  "I play every evening.",
+                ],
+                "correctAnswer": "I run every morning.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avar chennu match kandu.",
+                "options": [
+                  "They went and watched the match.",
+                  "They went and played the match.",
+                  "They went and won the match.",
+                ],
+                "correctAnswer": "They went and watched the match.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte priya kalikaaran aaraanu?",
+                "options": [
+                  "Enikku Sachin ishtamanu.",
+                  "Enikku vishakkunnu.",
+                  "Ath maramanu.",
+                ],
+                "correctAnswer": "Enikku Sachin ishtamanu.",
+                "translatedSentence": "I like Sachin.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal cricket kalikkan pokunnu.",
+                "options": [
+                  "We are going to play cricket.",
+                  "We are going to watch cricket.",
+                  "We are going to buy a ball.",
+                ],
+                "correctAnswer": "We are going to play cricket.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku ottamathil jayam kitti.",
+                "options": [
+                  "She won in the race.",
+                  "She lost in the race.",
+                  "She swam in the race.",
+                ],
+                "correctAnswer": "She won in the race.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Neenthal padichaayo?",
+                "options": [
+                  "Athe, njan neenthal padichu.",
+                  "Illa, njan pattu paadi.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Athe, njan neenthal padichu.",
+                "translatedSentence": "Yes, I learned to swim.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee team ella match-um jayichu.",
+                "options": [
+                  "This team won every match.",
+                  "This team lost every match.",
+                  "This team played one match.",
+                ],
+                "correctAnswer": "This team won every match.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ella divasavum kalikkano?",
+                "options": [
+                  "Athe, enikku dinam kalikkanam.",
+                  "Illa, njan kazhichu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Athe, enikku dinam kalikkanam.",
+                "translatedSentence": "Yes, I want to play every day.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan ipol vegam ottunnilla.",
+                "options": [
+                  "He is not running fast now.",
+                  "He is not playing now.",
+                  "He is not swimming now.",
+                ],
+                "correctAnswer": "He is not running fast now.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangalude team innale thottu.",
+                "options": [
+                  "Our team lost yesterday.",
+                  "Our team won yesterday.",
+                  "Our team played today.",
+                ],
+                "correctAnswer": "Our team lost yesterday.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal veendum kalikkano?",
+                "options": [
+                  "Athe, nammal veendum kalikkam.",
+                  "Illa, ath pusthakam aanu.",
+                  "Njan urangi.",
+                ],
+                "correctAnswer": "Athe, nammal veendum kalikkam.",
+                "translatedSentence": "Yes, let us play again.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Naale njangalku oru valiya match undu.",
+                "options": [
+                  "We have a big match tomorrow.",
+                  "We had a big match yesterday.",
+                  "We have a small game today.",
+                ],
+                "correctAnswer": "We have a big match tomorrow.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee enthukondu kalichilla?",
+                "options": [
+                  "Enikku sukhamillayirunnu.",
+                  "Enikku cricket ishtamanu.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Enikku sukhamillayirunnu.",
+                "translatedSentence": "I was not well.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan ella divasavum poyi neenthunnu.",
+                "options": [
+                  "He goes and swims every day.",
+                  "He goes and runs every day.",
+                  "He goes and plays every week.",
+                ],
+                "correctAnswer": "He goes and swims every day.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pantu enikku venam ennu paranju.",
+                "options": [
+                  "I said I want the ball.",
+                  "I said I want the game.",
+                  "I said I want to run.",
+                ],
+                "correctAnswer": "I said I want the ball.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Match evideyaanu nadakkunathu?",
+                "options": [
+                  "Ath maidanathil nadakkum.",
+                  "Enikku pashi undu.",
+                  "Njan pattu kelkkunnu.",
+                ],
+                "correctAnswer": "Ath maidanathil nadakkum.",
+                "translatedSentence": "It will be held at the ground.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal jayicha shesham ellavarum santhoshichu.",
+                "options": [
+                  "After we won, everyone was happy.",
+                  "After we lost, everyone was sad.",
+                  "Before we played, everyone was tired.",
+                ],
+                "correctAnswer": "After we won, everyone was happy.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee ini kalikkumo?",
+                "options": [
+                  "Athe, nale njan veendum kalikkum.",
+                  "Illa, ath adukkala aanu.",
+                  "Njan vellam kudichu.",
+                ],
+                "correctAnswer": "Athe, nale njan veendum kalikkum.",
+                "translatedSentence": "Yes, I will play again tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avalkku ee kali nannayi ariyilla.",
+                "options": [
+                  "She does not know this game well.",
+                  "She knows this game well.",
+                  "She does not like this game.",
+                ],
+                "correctAnswer": "She does not know this game well.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal onnichu ottan pokunnu.",
+                "options": [
+                  "We are going to run together.",
+                  "We are going to play together.",
+                  "We are going to swim together.",
+                ],
+                "correctAnswer": "We are going to run together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee match aara jayichathu?",
+                "options": [
+                  "Ella match-um njangal jayichu.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Ella match-um njangal jayichu.",
+                "translatedSentence": "We won all the matches.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ente sahodaran nannayi cricket kalikkunnu.",
+                "options": [
+                  "My brother plays cricket well.",
+                  "My brother watches cricket well.",
+                  "My brother buys cricket balls.",
+                ],
+                "correctAnswer": "My brother plays cricket well.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nammal ethu team-ne pinthunakkunnu?",
+                "options": [
+                  "Nammal India-ye pinthunakkunnu.",
+                  "Njan pattu kelkkunnu.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Nammal India-ye pinthunakkunnu.",
+                "translatedSentence": "We support India.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan match kaanan tv-yude munnil irunnu.",
+                "options": [
+                  "He sat in front of the TV to watch the match.",
+                  "He went to the ground to play the match.",
+                  "He slept before the match ended.",
+                ],
+                "correctAnswer":
+                    "He sat in front of the TV to watch the match.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kali kazhinjapol njangal kshanicchu poyi.",
+                "options": [
+                  "After the game we got tired and left.",
+                  "Before the game we were happy.",
+                  "During the game we ate food.",
+                ],
+                "correctAnswer": "After the game we got tired and left.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee ottamathil paribhavichoo?",
+                "options": [
+                  "Athe, pakshe njan jayichu.",
+                  "Illa, ath pusthakam aanu.",
+                  "Njan vellam kudichu.",
+                ],
+                "correctAnswer": "Athe, pakshe njan jayichu.",
+                "translatedSentence": "Yes, but I won.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Nallavannam parishilikkumbol matram nammal jayikkum.",
+                "options": [
+                  "We will win only when we practise well.",
+                  "We will lose even if we practise well.",
+                  "We will play only in the evening.",
+                ],
+                "correctAnswer": "We will win only when we practise well.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte team enthukondaanu thottathu?",
+                "options": [
+                  "Njangal nannayi kalichilla.",
+                  "Enikku pashi undu.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Njangal nannayi kalichilla.",
+                "translatedSentence": "We did not play well.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Avan orikkalum kali nirthiyilla.",
+                "options": [
+                  "He never stopped playing.",
+                  "He always stopped playing.",
+                  "He never started playing.",
+                ],
+                "correctAnswer": "He never stopped playing.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal ee varsham cup nedan agrahikkunnu.",
+                "options": [
+                  "We hope to win the cup this year.",
+                  "We lost the cup last year.",
+                  "We watched the cup this year.",
+                ],
+                "correctAnswer": "We hope to win the cup this year.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee etra neram parishilikkarundu?",
+                "options": [
+                  "Njan divasavum randu manikkoor parishilikkunnu.",
+                  "Ath adukkala aanu.",
+                  "Njan urangi.",
+                ],
+                "correctAnswer":
+                    "Njan divasavum randu manikkoor parishilikkunnu.",
+                "translatedSentence": "I practise for two hours every day.",
+              },
+            ],
+          },
+          {
+            "level": 13,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Jayicharum thottalum nammal onnichu nilkkanam.",
+                "options": [
+                  "Win or lose, we must stand together.",
+                  "Win or lose, we must play alone.",
+                  "Only if we win, we stay together.",
+                ],
+                "correctAnswer": "Win or lose, we must stand together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee kali ninte jeevithathil enthu maattamundakki?",
+                "options": [
+                  "Ith enne kooduthal sradhayullavan aakki.",
+                  "Enikku pashi undu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Ith enne kooduthal sradhayullavan aakki.",
+                "translatedSentence": "It made me more focused.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Match jayikkan njangal ella shramavum nadathi.",
+                "options": [
+                  "We made every effort to win the match.",
+                  "We made no effort to win the match.",
+                  "We watched the match without effort.",
+                ],
+                "correctAnswer": "We made every effort to win the match.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Nalla kalikaran aakan samayavum ksamayum venam.",
+                "options": [
+                  "To become a good player one needs time and patience.",
+                  "To become a good player one needs only money.",
+                  "To watch a game one needs time and patience.",
+                ],
+                "correctAnswer":
+                    "To become a good player one needs time and patience.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Adutha varsham ninte lakshyam enthaanu?",
+                "options": [
+                  "Rajya team-il kalikkuka ennathaanu ente lakshyam.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer":
+                    "Rajya team-il kalikkuka ennathaanu ente lakshyam.",
+                "translatedSentence":
+                    "My goal is to play in the national team.",
+              },
+            ],
+          },
+        ],
+      },
+      {
+        "courseName": "festivals",
+        "image": Assets.images.celebrate.path,
+        "color": 0xffC0392B,
+        "levels": [
+          {
+            "level": 1,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Celebration",
+                "sentence": "Celebration",
+                "options": ["Aghosham", "Sadhya", "Onam"],
+                "correctAnswer": "Aghosham",
+                "translatedSentence": "Celebration",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Feast",
+                "sentence": "Feast",
+                "options": ["Sadhya", "Pookkalam", "Vishu"],
+                "correctAnswer": "Sadhya",
+                "translatedSentence": "Feast",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aghosham",
+                "options": ["Celebration", "Feast", "Greeting"],
+                "correctAnswer": "Celebration",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Greetings",
+                "sentence": "Greetings",
+                "options": ["Aashamsakal", "Sadhya", "Onam"],
+                "correctAnswer": "Aashamsakal",
+                "translatedSentence": "Greetings",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Sadhya",
+                "options": ["Feast", "Celebration", "Flower rangoli"],
+                "correctAnswer": "Feast",
+              },
+            ],
+          },
+          {
+            "level": 2,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Flower rangoli",
+                "sentence": "Flower rangoli",
+                "options": ["Pookkalam", "Sadhya", "Aghosham"],
+                "correctAnswer": "Pookkalam",
+                "translatedSentence": "Flower rangoli",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aashamsakal",
+                "options": ["Greetings", "Feast", "Celebration"],
+                "correctAnswer": "Greetings",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Festival",
+                "sentence": "Festival",
+                "options": ["Ulsavam", "Sadhya", "Otta"],
+                "correctAnswer": "Ulsavam",
+                "translatedSentence": "Festival",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Pookkalam",
+                "options": ["Flower rangoli", "Feast", "Greeting"],
+                "correctAnswer": "Flower rangoli",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Gift",
+                "sentence": "Gift",
+                "options": ["Samanam", "Sadhya", "Pookkalam"],
+                "correctAnswer": "Samanam",
+                "translatedSentence": "Gift",
+              },
+            ],
+          },
+          {
+            "level": 3,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for Lamp",
+                "sentence": "Lamp",
+                "options": ["Vilakku", "Pookkalam", "Sadhya"],
+                "correctAnswer": "Vilakku",
+                "translatedSentence": "Lamp",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ulsavam",
+                "options": ["Festival", "Feast", "Gift"],
+                "correctAnswer": "Festival",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose the word for New clothes",
+                "sentence": "New clothes",
+                "options": ["Puthiya vasthram", "Sadhya", "Vilakku"],
+                "correctAnswer": "Puthiya vasthram",
+                "translatedSentence": "New clothes",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Samanam",
+                "options": ["Gift", "Lamp", "Feast"],
+                "correctAnswer": "Gift",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vilakku",
+                "options": ["Lamp", "Gift", "Greeting"],
+                "correctAnswer": "Lamp",
+              },
+            ],
+          },
+          {
+            "level": 4,
+            "questions": [
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninakku ishtamulla aghosham enthu?",
+                "options": [
+                  "Enikku Onam ishtamanu.",
+                  "Enikku ariyilla.",
+                  "Nale varam.",
+                ],
+                "correctAnswer": "Enikku Onam ishtamanu.",
+                "translatedSentence": "I like Onam.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal Onam aghoshikkunnu.",
+                "options": [
+                  "We are celebrating Onam.",
+                  "We are eating a feast.",
+                  "We are making a pookkalam.",
+                ],
+                "correctAnswer": "We are celebrating Onam.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njan pookkalam undakkunnu.",
+                "options": [
+                  "I am making a flower rangoli.",
+                  "I am making a feast.",
+                  "I am lighting a lamp.",
+                ],
+                "correctAnswer": "I am making a flower rangoli.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Sadhya undayirunno?",
+                "options": [
+                  "Athe, nalla sadhya undayirunnu.",
+                  "Illa, njan otti.",
+                  "Ath maramanu.",
+                ],
+                "correctAnswer": "Athe, nalla sadhya undayirunnu.",
+                "translatedSentence": "Yes, there was a good feast.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Onam aashamsakal!",
+                "options": [
+                  "Happy Onam greetings!",
+                  "Happy birthday!",
+                  "Good morning!",
+                ],
+                "correctAnswer": "Happy Onam greetings!",
+              },
+            ],
+          },
+          {
+            "level": 5,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Vishu divasam njangal vilakku kathikkum.",
+                "options": [
+                  "On Vishu day we light lamps.",
+                  "On Onam day we make a feast.",
+                  "On Vishu day we buy clothes.",
+                ],
+                "correctAnswer": "On Vishu day we light lamps.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee puthiya vasthram vaangiyo?",
+                "options": [
+                  "Athe, njan puthiya vasthram vaangi.",
+                  "Illa, ath adukkala aanu.",
+                  "Njan urangi.",
+                ],
+                "correctAnswer": "Athe, njan puthiya vasthram vaangi.",
+                "translatedSentence": "Yes, I bought new clothes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kutikal samanam vaangi santhoshichu.",
+                "options": [
+                  "The children got gifts and were happy.",
+                  "The children ate the feast and slept.",
+                  "The children lit the lamps and left.",
+                ],
+                "correctAnswer": "The children got gifts and were happy.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee aghosham eppol aanu?",
+                "options": [
+                  "Ee aghosham nale aanu.",
+                  "Enikku pashi undu.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Ee aghosham nale aanu.",
+                "translatedSentence": "This celebration is tomorrow.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal ellavarum onnichu sadhya kazhichu.",
+                "options": [
+                  "We all ate the feast together.",
+                  "We all made a pookkalam together.",
+                  "We all lit lamps together.",
+                ],
+                "correctAnswer": "We all ate the feast together.",
+              },
+            ],
+          },
+          {
+            "level": 6,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Amma sadhya undakki.",
+                "options": [
+                  "Mother made the feast.",
+                  "Mother lit the lamp.",
+                  "Mother bought new clothes.",
+                ],
+                "correctAnswer": "Mother made the feast.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Onam evideyaanu aghoshichathu?",
+                "options": [
+                  "Njangal veetil aghoshichu.",
+                  "Enikku vishakkunnu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Njangal veetil aghoshichu.",
+                "translatedSentence": "We celebrated at home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Munnathe pookkalam valare bhamgiyayirunnu.",
+                "options": [
+                  "The pookkalam in front was very beautiful.",
+                  "The feast at home was very tasty.",
+                  "The lamp near the door was very bright.",
+                ],
+                "correctAnswer": "The pookkalam in front was very beautiful.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee aarkkaanu samanam koduthathu?",
+                "options": [
+                  "Njan ente anujathikku samanam koduthu.",
+                  "Njan pattu kelkkunnu.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Njan ente anujathikku samanam koduthu.",
+                "translatedSentence": "I gave a gift to my younger sister.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Aghosha divasam ellavarum santhoshavaanmaraayirunnu.",
+                "options": [
+                  "On the celebration day everyone was happy.",
+                  "On the celebration day everyone was tired.",
+                  "On the working day everyone was busy.",
+                ],
+                "correctAnswer": "On the celebration day everyone was happy.",
+              },
+            ],
+          },
+          {
+            "level": 7,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal purappettu kshethrathil poyi.",
+                "options": [
+                  "We set out and went to the temple.",
+                  "We stayed home and slept.",
+                  "We cooked and ate the feast.",
+                ],
+                "correctAnswer": "We set out and went to the temple.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vishukkani kandayo?",
+                "options": [
+                  "Athe, njan raviley Vishukkani kandu.",
+                  "Illa, njan otti.",
+                  "Ath maramanu.",
+                ],
+                "correctAnswer": "Athe, njan raviley Vishukkani kandu.",
+                "translatedSentence":
+                    "Yes, I saw the Vishukkani in the morning.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ella koottukarum onnichu aghoshichu.",
+                "options": [
+                  "All the friends celebrated together.",
+                  "All the friends worked together.",
+                  "All the friends slept together.",
+                ],
+                "correctAnswer": "All the friends celebrated together.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ee sadhyakku pathu vibhavangal undayirunnu.",
+                "options": [
+                  "This feast had ten dishes.",
+                  "This feast had two lamps.",
+                  "This gift had ten items.",
+                ],
+                "correctAnswer": "This feast had ten dishes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Nee aashamsakal paranjuo?",
+                "options": [
+                  "Athe, njan ellavarkkum aashamsakal paranju.",
+                  "Illa, ath pusthakam aanu.",
+                  "Njan urangi.",
+                ],
+                "correctAnswer": "Athe, njan ellavarkkum aashamsakal paranju.",
+                "translatedSentence": "Yes, I wished greetings to everyone.",
+              },
+            ],
+          },
+          {
+            "level": 8,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aghoshathinu munpu njangal veedu vrithiyaakki.",
+                "options": [
+                  "Before the celebration we cleaned the house.",
+                  "After the celebration we cleaned the house.",
+                  "During the celebration we cooked food.",
+                ],
+                "correctAnswer": "Before the celebration we cleaned the house.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte veetil ethu aghosham aanu valuthu?",
+                "options": [
+                  "Njangalude veetil Onam aanu valuthu.",
+                  "Enikku pashi undu.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Njangalude veetil Onam aanu valuthu.",
+                "translatedSentence": "In our home Onam is the biggest.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Kuttikal puthiya vasthram aninju.",
+                "options": [
+                  "The children wore new clothes.",
+                  "The children lit new lamps.",
+                  "The children ate the feast.",
+                ],
+                "correctAnswer": "The children wore new clothes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Njangal orumichu pookkalam idan thudangi.",
+                "options": [
+                  "We started making the flower rangoli together.",
+                  "We started eating the feast together.",
+                  "We started lighting the lamps together.",
+                ],
+                "correctAnswer":
+                    "We started making the flower rangoli together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Sadhyakku enthokke vibhavangal undu?",
+                "options": [
+                  "Choru, sambar, avial ennivayundu.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Choru, sambar, avial ennivayundu.",
+                "translatedSentence": "There is rice, sambar, avial and more.",
+              },
+            ],
+          },
+          {
+            "level": 9,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ella varshavum njangal nattil poyi Onam aghoshikkum.",
+                "options": [
+                  "Every year we go to our village and celebrate Onam.",
+                  "Every year we stay in the city and work.",
+                  "Every year we forget to celebrate Onam.",
+                ],
+                "correctAnswer":
+                    "Every year we go to our village and celebrate Onam.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Enthukondaanu ninakku Vishu ishtam?",
+                "options": [
+                  "Vishukkaineettam kittunnathukondu enikku ishtamanu.",
+                  "Enikku vishakkunnu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer":
+                    "Vishukkaineettam kittunnathukondu enikku ishtamanu.",
+                "translatedSentence":
+                    "I like it because I get the Vishu money gift.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aghosham kazhinjappol ellavarum thiricchu poyi.",
+                "options": [
+                  "After the celebration everyone went back.",
+                  "Before the celebration everyone arrived.",
+                  "During the celebration everyone slept.",
+                ],
+                "correctAnswer": "After the celebration everyone went back.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ammaykku sadhya undakkan enne sahayikkanam.",
+                "options": [
+                  "I have to help mother make the feast.",
+                  "I have to help mother clean the house.",
+                  "I have to help mother buy clothes.",
+                ],
+                "correctAnswer": "I have to help mother make the feast.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Pookkalam aara ittathu?",
+                "options": [
+                  "Njangal kuttikal onnichu ittu.",
+                  "Enikku pashi undu.",
+                  "Ath maramanu.",
+                ],
+                "correctAnswer": "Njangal kuttikal onnichu ittu.",
+                "translatedSentence": "We children made it together.",
+              },
+            ],
+          },
+          {
+            "level": 10,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Aghoshangal namme onnichu koottunnu.",
+                "options": [
+                  "Festivals bring us together.",
+                  "Festivals keep us apart.",
+                  "Festivals make us tired.",
+                ],
+                "correctAnswer": "Festivals bring us together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee Onathinu nee entha cheythathu?",
+                "options": [
+                  "Njan veettil poyi kudumbathodoppam aghoshichu.",
+                  "Illa, njan otti.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer":
+                    "Njan veettil poyi kudumbathodoppam aghoshichu.",
+                "translatedSentence": "I went home and celebrated with family.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Adutha varsham njangal kooduthal vibhavangal undakkanam.",
+                "options": [
+                  "Next year we must make more dishes.",
+                  "Last year we made fewer dishes.",
+                  "Next year we will not cook anything.",
+                ],
+                "correctAnswer": "Next year we must make more dishes.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ellavarum aashamsakal paranju kettipidichu.",
+                "options": [
+                  "Everyone said greetings and hugged.",
+                  "Everyone said goodbye and left.",
+                  "Everyone stayed silent and sat down.",
+                ],
+                "correctAnswer": "Everyone said greetings and hugged.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Vilakku aara kathichathu?",
+                "options": [
+                  "Achan ellaa vilakkum kathichu.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Achan ellaa vilakkum kathichu.",
+                "translatedSentence": "Father lit all the lamps.",
+              },
+            ],
+          },
+          {
+            "level": 11,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Onam Keralathinte adithya viruthu aghoshamaanu.",
+                "options": [
+                  "Onam is Kerala's harvest festival.",
+                  "Onam is Kerala's biggest market day.",
+                  "Onam is Kerala's rainy season.",
+                ],
+                "correctAnswer": "Onam is Kerala's harvest festival.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Aghoshangalil ninakku eshtamullath enthu?",
+                "options": [
+                  "Ellavarum onnichu koodunnathaanu enikku ishtam.",
+                  "Enikku pashi undu.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer":
+                    "Ellavarum onnichu koodunnathaanu enikku ishtam.",
+                "translatedSentence": "I like that everyone comes together.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Maveli rajavine varavelkkanaanu pookkalam idunathu.",
+                "options": [
+                  "The pookkalam is made to welcome King Maveli.",
+                  "The pookkalam is made to say goodbye.",
+                  "The pookkalam is made to cook the feast.",
+                ],
+                "correctAnswer":
+                    "The pookkalam is made to welcome King Maveli.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Vishu divasam kaineettam pankuvekkunna oru reethiyundu.",
+                "options": [
+                  "On Vishu day there is a custom of sharing the money gift.",
+                  "On Vishu day there is a custom of cleaning the house.",
+                  "On Vishu day there is a custom of buying lamps.",
+                ],
+                "correctAnswer":
+                    "On Vishu day there is a custom of sharing the money gift.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee aghosham enthukondaanu prathyekam?",
+                "options": [
+                  "Ith njangalude kudumbathe onnippikkunnu.",
+                  "Illa, njan otti.",
+                  "Njan pattu kelkkunnu.",
+                ],
+                "correctAnswer": "Ith njangalude kudumbathe onnippikkunnu.",
+                "translatedSentence": "It brings our family together.",
+              },
+            ],
+          },
+          {
+            "level": 12,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Ella jaathi mathasthanmarum ee aghosham onnichu aghoshikkunnu.",
+                "options": [
+                  "People of all castes and religions celebrate this festival together.",
+                  "Only one family celebrates this festival.",
+                  "No one celebrates this festival now.",
+                ],
+                "correctAnswer":
+                    "People of all castes and religions celebrate this festival together.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ninte kuttikkalathe Onam enganeyaayirunnu?",
+                "options": [
+                  "Njangal nattilekku poyi valare santhoshichu.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath neela aanu.",
+                ],
+                "correctAnswer": "Njangal nattilekku poyi valare santhoshichu.",
+                "translatedSentence":
+                    "We used to go to the village and be very happy.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Aghoshangal namukku nammude paramparyam ormippikkunnu.",
+                "options": [
+                  "Festivals remind us of our traditions.",
+                  "Festivals make us forget our traditions.",
+                  "Festivals stop our traditions.",
+                ],
+                "correctAnswer": "Festivals remind us of our traditions.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence": "Ammoomma paranja katha njan innum ormikkunnu.",
+                "options": [
+                  "I still remember the story grandmother told.",
+                  "I forgot the story grandmother told.",
+                  "Grandmother forgot the story I told.",
+                ],
+                "correctAnswer": "I still remember the story grandmother told.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Sadhyayil ninakku ishtamulla vibhavam enthu?",
+                "options": [
+                  "Enikku paayasamaanu ettavum ishtam.",
+                  "Enikku pashi undu.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer": "Enikku paayasamaanu ettavum ishtam.",
+                "translatedSentence": "I like the payasam the most.",
+              },
+            ],
+          },
+          {
+            "level": 13,
+            "questions": [
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Aghoshangal namukku santhoshavum aikyavum nalkunnu.",
+                "options": [
+                  "Festivals give us joy and unity.",
+                  "Festivals give us sadness and distance.",
+                  "Festivals give us only tiredness.",
+                ],
+                "correctAnswer": "Festivals give us joy and unity.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ee paramparyangal namukku engane samrakshikkam?",
+                "options": [
+                  "Athu nammude kuttikalku parayanjukoduthaanu.",
+                  "Enikku ariyilla, njan urangi.",
+                  "Ath vellam aanu.",
+                ],
+                "correctAnswer": "Athu nammude kuttikalku parayanjukoduthaanu.",
+                "translatedSentence": "By teaching them to our children.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Doorathayaalum aghosha divasam njangal veettilekku vilikkum.",
+                "options": [
+                  "Even when far away, on the festival day we call home.",
+                  "Even when nearby, on the festival day we stay silent.",
+                  "Even on a normal day we forget to call home.",
+                ],
+                "correctAnswer":
+                    "Even when far away, on the festival day we call home.",
+              },
+              {
+                "type": "translate",
+                "prompt": "Translate the sentence",
+                "sentence":
+                    "Oro aghoshavum puthiya prathikshakal kondu varunnu.",
+                "options": [
+                  "Each festival brings new hopes.",
+                  "Each festival ends all hopes.",
+                  "Each festival brings only old worries.",
+                ],
+                "correctAnswer": "Each festival brings new hopes.",
+              },
+              {
+                "type": "multiple_choice",
+                "prompt": "Choose an appropriate response",
+                "sentence": "Ellavarkkum ente aashamsakal parayamo?",
+                "options": [
+                  "Ellavarkkum ente hridayam niranja aashamsakal.",
+                  "Enikku pashi undu.",
+                  "Ath karutha aanu.",
+                ],
+                "correctAnswer":
+                    "Ellavarkkum ente hridayam niranja aashamsakal.",
+                "translatedSentence": "My heartfelt greetings to everyone.",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   ];
 }
 
@@ -243,5 +15295,5 @@ Map<String, String> malayalamDictionary = {
   "Paal": "Milk",
   "Choru": "Rice",
   "Vishakunnu": "Hungry",
-  "Ruchi": "Tasty"
+  "Ruchi": "Tasty",
 };
