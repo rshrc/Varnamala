@@ -66,6 +66,26 @@ void main() {
       expect(everything, contains('Asha'));
     });
 
+    test('glosses every word of a real lesson sentence', () async {
+      // The tap-a-word hint silently disappears if the dictionary is looked up
+      // against a different language than the lesson came from, so assert the
+      // two travel together for every language.
+      for (final language in TargetLanguage.values) {
+        final repository = CourseRepository();
+        final courses = await repository.courses(language, firstName: 'Rishi');
+        final question = courses.first.first.levels!.first.questions!.first;
+
+        for (final word in question.sentence!.split(' ')) {
+          expect(
+            repository.activeDictionary?[normalizeWord(word)],
+            isNotNull,
+            reason: '${language.name}: "$word" in "${question.sentence}" '
+                'has no gloss, so it would render without an underline',
+          );
+        }
+      }
+    });
+
     test('caches parsed content across reads', () async {
       final repository = CourseRepository();
       expect(repository.cachedDictionary(TargetLanguage.kannada), isNull);

@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa tamari ben che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aa mari ben che.",
+            "Na, aa maro bhai che.",
+            "Ha, aa mari ma che."
+          ],
+          "correctAnswer": "Ha, aa mari ben che.",
+          "translatedSentence": "Yes, this is my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara pappa kya rahe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara pappa Ahmedabad ma rahe che.",
+            "Mari ma Surat ma rahe che.",
+            "Maro bhai Vadodara ma rahe che."
+          ],
+          "correctAnswer": "Mara pappa Ahmedabad ma rahe che.",
+          "translatedSentence": "My father lives in Ahmedabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari ma atyare gher che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is at home right now.",
+            "My mother is at work right now.",
+            "My sister is at home right now."
+          ],
+          "correctAnswer": "My mother is at home right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro bhai moto che ke nano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maro bhai mara karta nano che.",
+            "Mari ben mara karta moti che.",
+            "Maro bhai atyare gher che."
+          ],
+          "correctAnswer": "Maro bhai mara karta nano che.",
+          "translatedSentence": "My brother is younger than me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro moto bhai Surat ma rahe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother lives in Surat.",
+            "My younger brother lives in Surat.",
+            "My elder sister lives in Surat."
+          ],
+          "correctAnswer": "My elder brother lives in Surat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari ma nu naam shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari ma nu naam Meena che.",
+            "Mara pappa nu naam Ramesh che.",
+            "Mari ben nu naam Meena che."
+          ],
+          "correctAnswer": "Mari ma nu naam Meena che.",
+          "translatedSentence": "My mother's name is Meena."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari ben mara karta nani che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is younger than me.",
+            "My sister is older than me.",
+            "My brother is younger than me."
+          ],
+          "correctAnswer": "My sister is younger than me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamare ketla bhai che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mare ek bhai che.",
+            "Mare be ben che.",
+            "Mare koi bhai nathi."
+          ],
+          "correctAnswer": "Mare ek bhai che.",
+          "translatedSentence": "I have one brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amaru ghar Vadodara ma che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is in Vadodara.",
+            "Our house is in Ahmedabad.",
+            "Their house is in Vadodara."
+          ],
+          "correctAnswer": "Our house is in Vadodara."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa koni chopdi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa mari ben ni chopdi che.",
+            "Aa mara bhai ni chopdi che.",
+            "Aa mari ma ni chopdi che."
+          ],
+          "correctAnswer": "Aa mari ben ni chopdi che.",
+          "translatedSentence": "This is my sister's book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa kono phone che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa mara pappa no phone che.",
+            "Aa mara mota bhai no phone che.",
+            "Aa mari moti ben no phone che."
+          ],
+          "correctAnswer": "Aa mara pappa no phone che.",
+          "translatedSentence": "This is my father's phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa ghar mara pappa nu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This house is my father's.",
+            "This house is my brother's.",
+            "That house is my father's."
+          ],
+          "correctAnswer": "This house is my father's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa bag mari nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bag is not mine.",
+            "That bag is not mine.",
+            "This bag is not new."
+          ],
+          "correctAnswer": "This bag is not mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari gadi kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari gadi ghar ni bahar che.",
+            "Mari gadi mara bhai pase che.",
+            "Aa gadi mari nathi."
+          ],
+          "correctAnswer": "Mari gadi ghar ni bahar che.",
+          "translatedSentence": "My car is outside the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa chaas kona mate che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa chaas mari mummy mate che.",
+            "Aa chaas mari nani ben mate che.",
+            "Aa chaas mara mate che."
+          ],
+          "correctAnswer": "Aa chaas mari mummy mate che.",
+          "translatedSentence": "This buttermilk is for my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa chavi mari mummy ni che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This key is my mother's.",
+            "This key is my sister's.",
+            "This key is mine."
+          ],
+          "correctAnswer": "This key is my mother's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa dhokla kone banavya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari mummy e banavya.",
+            "Mara pappa e banavya.",
+            "Mari ben e badha khai lidha."
+          ],
+          "correctAnswer": "Mari mummy e banavya.",
+          "translatedSentence": "My mother made them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa amaru ghar nathi, aa mari ben nu ghar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not our house, it is my sister's house.",
+            "This is not our house, it is my brother's house.",
+            "This is our house, not my sister's house."
+          ],
+          "correctAnswer": "This is not our house, it is my sister's house."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married, children, how many",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame parnela cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu haju parnelo nathi.",
+            "Ha, hu parnelo chu.",
+            "Ha, mari ben parneli che."
+          ],
+          "correctAnswer": "Na, hu haju parnelo nathi.",
+          "translatedSentence": "No, I am not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamare ketla chokra che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mare ek dikro ane ek dikri che.",
+            "Mare be dikra che.",
+            "Mare haju chokra nathi."
+          ],
+          "correctAnswer": "Mare ek dikro ane ek dikri che.",
+          "translatedSentence": "I have one son and one daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari moti ben na lagna gaya varse thaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister got married last year.",
+            "My younger sister got married last year.",
+            "My elder sister is getting married next year."
+          ],
+          "correctAnswer": "My elder sister got married last year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari dikri paanch varas ni che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is five years old.",
+            "My son is five years old.",
+            "My daughter is four years old."
+          ],
+          "correctAnswer": "My daughter is five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari dikri ni umar ketli che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ae aath varas ni che.",
+            "Ae aath varas no che.",
+            "Mare dikri nathi, dikro che."
+          ],
+          "correctAnswer": "Ae aath varas ni che.",
+          "translatedSentence": "She is eight years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari patni kya ni che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari patni Rajkot ni che.",
+            "Maro pati Rajkot no che.",
+            "Mari patni atyare Surat ma che."
+          ],
+          "correctAnswer": "Mari patni Rajkot ni che.",
+          "translatedSentence": "My wife is from Rajkot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amare haju chokra nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We do not have children yet.",
+            "We do not have a house yet.",
+            "They do not have children yet."
+          ],
+          "correctAnswer": "We do not have children yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro dikro nishal jaay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ae haju bahu nano che.",
+            "Ha, ae roj nishal jaay che.",
+            "Ha, mari dikri pan nishal jaay che."
+          ],
+          "correctAnswer": "Na, ae haju bahu nano che.",
+          "translatedSentence": "No, he is still too young."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara bhai na lagna Ahmedabad ma thaya hata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother's wedding was in Ahmedabad.",
+            "My sister's wedding was in Ahmedabad.",
+            "My brother's wedding will be in Ahmedabad."
+          ],
+          "correctAnswer": "My brother's wedding was in Ahmedabad."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents, uncles, cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara dada kya rahe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara dada gam ma rahe che.",
+            "Mara nana gam ma rahe che.",
+            "Mara dada Surat ma kaam kare che."
+          ],
+          "correctAnswer": "Mara dada gam ma rahe che.",
+          "translatedSentence": "My grandfather lives in the village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari dadi ne shu bhave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emne undhiyu bhave che.",
+            "Emne thepla ane chaas bhave che.",
+            "Mane dhokla bhave che."
+          ],
+          "correctAnswer": "Emne undhiyu bhave che.",
+          "translatedSentence": "She likes undhiyu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara mama Surat ma rahe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's brother lives in Surat.",
+            "My father's brother lives in Surat.",
+            "My mother's brother works in Surat."
+          ],
+          "correctAnswer": "My mother's brother lives in Surat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari masi no dikro amari sathe rahe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt's son lives with us.",
+            "My aunt's daughter lives with us.",
+            "My aunt's son lives near us."
+          ],
+          "correctAnswer": "My aunt's son lives with us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara kaka no dikro tamara karta moto che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ae mara karta be varas moto che.",
+            "Na, ae mara karta be varas nano che.",
+            "Mara kaka ne ek j dikri che."
+          ],
+          "correctAnswer": "Ha, ae mara karta be varas moto che.",
+          "translatedSentence": "Yes, he is two years older than me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Divali ma tamara ghare kon kon ave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara foi ane fua ave che.",
+            "Mara mama ane mami ave che.",
+            "Mara kaka ane kaki ave che."
+          ],
+          "correctAnswer": "Mara foi ane fua ave che.",
+          "translatedSentence": "My father's sister and her husband come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara nana ne Gir na sinh bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather really likes the Gir lions.",
+            "My grandmother really likes the Gir lions.",
+            "My grandfather has seen the Gir lions."
+          ],
+          "correctAnswer": "My grandfather really likes the Gir lions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame tamara dada dadi sathe raho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ae alag ghar ma rahe che.",
+            "Ha, ame badha eksathe rahiye chie.",
+            "Ha, ae amari bajuma j rahe che."
+          ],
+          "correctAnswer": "Na, ae alag ghar ma rahe che.",
+          "translatedSentence": "No, they live in a separate house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari kaki dar ravivare amara mate thepla banave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt makes thepla for us every Sunday.",
+            "My aunt makes thepla for us every morning.",
+            "My aunt made thepla for us last Sunday."
+          ],
+          "correctAnswer": "My aunt makes thepla for us every Sunday."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What your family does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara pappa shu kaam kare che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara pappa shikshak che.",
+            "Mari mummy shikshak che.",
+            "Mara pappa atyare gher che."
+          ],
+          "correctAnswer": "Mara pappa shikshak che.",
+          "translatedSentence": "My father is a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari mummy naukri kare che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ae ghar sambhale che.",
+            "Ha, ae bank ma kaam kare che.",
+            "Ha, ae nishal ma bhanave che."
+          ],
+          "correctAnswer": "Na, ae ghar sambhale che.",
+          "translatedSentence": "No, she takes care of the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro moto bhai Ahmedabad ma engineer che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is an engineer in Ahmedabad.",
+            "My elder brother is a doctor in Ahmedabad.",
+            "My younger brother is an engineer in Ahmedabad."
+          ],
+          "correctAnswer": "My elder brother is an engineer in Ahmedabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari nani ben haju college ma bhane che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is still studying in college.",
+            "My younger sister already finished college.",
+            "My younger sister is still teaching in college."
+          ],
+          "correctAnswer": "My younger sister is still studying in college."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara kaka ni dukan kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emni dukan bajaar ma che.",
+            "Emni dukan aaje bandh che.",
+            "Emni dukan amara ghar ni bajuma che."
+          ],
+          "correctAnswer": "Emni dukan bajaar ma che.",
+          "translatedSentence": "His shop is in the market."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kya kaam karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu ghare thi kaam karu chu.",
+            "Hu ek hospital ma kaam karu chu.",
+            "Hu haju kaam nathi karto."
+          ],
+          "correctAnswer": "Hu ghare thi kaam karu chu.",
+          "translatedSentence": "I work from home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara nana pehla shikshak hata, pan have nivrut che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather used to be a teacher, but now he is retired.",
+            "My grandmother used to be a teacher, but now she is retired.",
+            "My grandfather is a teacher now, but he will retire soon."
+          ],
+          "correctAnswer": "My grandfather used to be a teacher, but now he is retired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara dikra ne moto thai ne shu banvu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ene doctor banvu che.",
+            "Ene mara jevu kaam karvu che.",
+            "Ene haju kai nakki nathi karyu."
+          ],
+          "correctAnswer": "Ene doctor banvu che.",
+          "translatedSentence": "He wants to become a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara pappa roj savare saat vagye kaam par jaay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father goes to work at seven every morning.",
+            "My father comes home from work at seven every morning.",
+            "My father goes to work at seven every evening."
+          ],
+          "correctAnswer": "My father goes to work at seven every morning."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits, plans and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aa varse gam jaao cho ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu nahi jau kem ke mane raja nathi malti.",
+            "Ha, hu Divali ma jais kem ke badha bhega thay che.",
+            "Ha, pan hu fakt be divas mate jais."
+          ],
+          "correctAnswer": "Na, hu nahi jau kem ke mane raja nathi malti.",
+          "translatedSentence": "No, I will not go because I am not getting any leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gher badha kem che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Badha majama che, pan dadi ni tabiyat thodi nabli che.",
+            "Badha majama che ane koi ne kai takleef nathi.",
+            "Hu majama chu, pan mane gher ni khabar nathi."
+          ],
+          "correctAnswer": "Badha majama che, pan dadi ni tabiyat thodi nabli che.",
+          "translatedSentence": "Everyone is fine, but grandmother's health is a little weak."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame Surat avo to amara ghare jamva jaroor avjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come to Surat, do come to our house for a meal.",
+            "When you came to Surat, you ate at our house.",
+            "If we come to Surat, we will eat at your house."
+          ],
+          "correctAnswer": "If you come to Surat, do come to our house for a meal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari moti ben agla mahine amne malva avvani che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister is going to come and see us next month.",
+            "My elder sister came to see us last month.",
+            "My elder brother is going to come and see us next month."
+          ],
+          "correctAnswer": "My elder sister is going to come and see us next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara mama e phone ma shu kahyu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emne kahyu ke ae agle athvadiye Ahmedabad avshe.",
+            "Emne kahyu ke emni tabiyat atyare sari nathi.",
+            "Mane khabar nathi, me phone nathi uthavyo."
+          ],
+          "correctAnswer": "Emne kahyu ke ae agle athvadiye Ahmedabad avshe.",
+          "translatedSentence": "He said that he will come to Ahmedabad next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uttarayan ma tame patang chagavva avso?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu chokra ne pan sathe lai avish.",
+            "Na, mane patang chagavta nathi avadtu.",
+            "Ha, pan mare kaam che etle modu avish."
+          ],
+          "correctAnswer": "Ha, hu chokra ne pan sathe lai avish.",
+          "translatedSentence": "Yes, I will bring the children along as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame gaya athvadiye badha sathe Sabarmati aashram gaya hata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last week we all went to the Sabarmati ashram together.",
+            "Next week we will all go to the Sabarmati ashram together.",
+            "Last week we all went to the Sabarmati river together."
+          ],
+          "correctAnswer": "Last week we all went to the Sabarmati ashram together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari mummy ne mari yaad aapjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu emne chokkas kahis.",
+            "Ha, ae atyare ghare nathi.",
+            "Na, mane emno number khabar nathi."
+          ],
+          "correctAnswer": "Ha, hu emne chokkas kahis.",
+          "translatedSentence": "Yes, I will definitely tell her."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo mara pappa ni tabiyat sari hase to ame agle mahine Vadodara jaishu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If my father's health is good, we will go to Vadodara next month.",
+            "If my mother's health is good, we will go to Vadodara next month.",
+            "My father's health is good, so we went to Vadodara last month."
+          ],
+          "correctAnswer": "If my father's health is good, we will go to Vadodara next month."
+        }
+      ]
+    }
+  ]
+}

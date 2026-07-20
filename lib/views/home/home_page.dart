@@ -1,6 +1,7 @@
 // Flutter imports:
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart' show ScrollDirection;
 
 // Package imports:
 import 'package:auto_route/annotations.dart';
@@ -31,8 +32,37 @@ class HomePage extends StatefulWidget {
   }
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   int currentIndex = 0;
+
+  /// Drives the app bar and bottom bar out of the way while the learner is
+  /// scrolling down, and brings them straight back on the first upward flick.
+  late final AnimationController _chrome = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 220),
+    value: 1,
+  );
+
+  @override
+  void dispose() {
+    _chrome.dispose();
+    super.dispose();
+  }
+
+  bool _onScroll(UserScrollNotification notification) {
+    if (notification.metrics.axis != Axis.vertical) return false;
+    switch (notification.direction) {
+      case ScrollDirection.reverse:
+        // Only give the chrome up once there is something to scroll back to,
+        // otherwise a short list flickers it away on the first drag.
+        if (notification.metrics.pixels > 24) _chrome.reverse();
+      case ScrollDirection.forward:
+        _chrome.forward();
+      case ScrollDirection.idle:
+        break;
+    }
+    return false;
+  }
 
   final screens = [
     const CourseTree(),
@@ -89,32 +119,63 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: currentIndex == 0
-          ? VarnamalaTheme.scaffoldBackground
-          : Colors.white,
-      appBar: appBars[currentIndex],
-      bottomNavigationBar: BottomNavigator(
-        currentIndex: currentIndex,
-        onPress: onBottomNavigatorTapped,
+    final bar = appBars[currentIndex];
+
+    return AnimatedBuilder(
+      animation: _chrome,
+      builder: (context, body) {
+        final t = Curves.easeOut.transform(_chrome.value);
+        return Scaffold(
+          backgroundColor: currentIndex == 0
+              ? VarnamalaTheme.scaffoldBackground
+              : Colors.white,
+          // Both bars collapse towards the screen edge they live on, so the
+          // course path grows into the space instead of sliding under them.
+          appBar: PreferredSize(
+            preferredSize: Size.fromHeight(bar.preferredSize.height * t),
+            child: ClipRect(
+              child: Align(
+                alignment: Alignment.bottomCenter,
+                heightFactor: t,
+                child: bar,
+              ),
+            ),
+          ),
+          bottomNavigationBar: ClipRect(
+            child: Align(
+              alignment: Alignment.topCenter,
+              heightFactor: t,
+              child: BottomNavigator(
+                currentIndex: currentIndex,
+                onPress: onBottomNavigatorTapped,
+              ),
+            ),
+          ),
+          body: body,
+          floatingActionButton: currentIndex == 0 && kDebugMode
+              ? FloatingActionButton.extended(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                          builder: (context) => const OnboardingScreen()),
+                    );
+                  },
+                  label: const Text("Test Onboarding"),
+                  icon: const Icon(Icons.start),
+                  backgroundColor: VarnamalaTheme.peacockTeal,
+                )
+              : null,
+        );
+      },
+      // Built once and handed to the builder, so scrolling only repaints the
+      // two bars rather than rebuilding the whole course path each frame.
+      child: NotificationListener<UserScrollNotification>(
+        onNotification: _onScroll,
+        child: AnimatedSwitcher(
+          duration: const Duration(milliseconds: 200),
+          child: screens[currentIndex],
+        ),
       ),
-      body: AnimatedSwitcher(
-        duration: const Duration(milliseconds: 200),
-        child: screens[currentIndex],
-      ),
-      floatingActionButton: currentIndex == 0 && kDebugMode
-          ? FloatingActionButton.extended(
-              onPressed: () {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                      builder: (context) => const OnboardingScreen()),
-                );
-              },
-              label: const Text("Test Onboarding"),
-              icon: const Icon(Icons.start),
-              backgroundColor: VarnamalaTheme.peacockTeal,
-            )
-          : null,
     );
   }
 
@@ -122,6 +183,8 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       currentIndex = index;
     });
+    // A new tab always starts with its chrome showing.
+    _chrome.forward();
   }
 }
 

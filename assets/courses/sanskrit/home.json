@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah grhe kati kakshaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama grhe trayah kakshaah santi.",
+            "mama grham navam asti.",
+            "aham grhe eva asmi."
+          ],
+          "correctAnswer": "mama grhe trayah kakshaah santi.",
+          "translatedSentence": "There are three rooms in my house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eshah mama shayanakakshah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my bedroom.",
+            "This is my kitchen.",
+            "That is his bedroom."
+          ],
+          "correctAnswer": "This is my bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "paakashaalaa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "paakashaalaa atra asti.",
+            "paakashaalaa svacchaa asti.",
+            "aham paakashaalaayaam pachaami."
+          ],
+          "correctAnswer": "paakashaalaa atra asti.",
+          "translatedSentence": "The kitchen is here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "idam mama grham asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my house.",
+            "This is my room.",
+            "That is your house."
+          ],
+          "correctAnswer": "This is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "snaanagrham kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "snaanagrham tatra asti.",
+            "snaanagrham svaccham asti.",
+            "aham snaanagrhe asmi."
+          ],
+          "correctAnswer": "snaanagrham tatra asti.",
+          "translatedSentence": "The bathroom is over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "grhe ekam vaataayanam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is one window in the house.",
+            "There is one door in the house.",
+            "There is no window in the house."
+          ],
+          "correctAnswer": "There is one window in the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim eshah bhavatah shayanakakshah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, atra aham svapimi.",
+            "na, idam mama grham.",
+            "aam, paakashaalaa tatra asti."
+          ],
+          "correctAnswer": "aam, atra aham svapimi.",
+          "translatedSentence": "Yes, I sleep here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vayam bhojanakakshe khaadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat in the dining room.",
+            "We cook in the kitchen.",
+            "They eat in the dining room."
+          ],
+          "correctAnswer": "We eat in the dining room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah grham kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama grham devaalayasya samiipe asti.",
+            "mama grhe pancha kakshaah santi.",
+            "aham idaaniim grham gacchaami."
+          ],
+          "correctAnswer": "mama grham devaalayasya samiipe asti.",
+          "translatedSentence": "My house is near the temple."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kakshe kim kim asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama kakshe paryankah asti.",
+            "mama kakshe kimapi na asti.",
+            "aham kakshe pathaami."
+          ],
+          "correctAnswer": "mama kakshe paryankah asti.",
+          "translatedSentence": "There is a cot in my room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama upadhaanam mrdu asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My pillow is soft.",
+            "My blanket is soft.",
+            "My pillow is new."
+          ],
+          "correctAnswer": "My pillow is soft."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kunchikaa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kunchikaa dvaarasya samiipe asti.",
+            "kunchikaa mama asti.",
+            "aham kunchikaam icchaami."
+          ],
+          "correctAnswer": "kunchikaa dvaarasya samiipe asti.",
+          "translatedSentence": "The key is near the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sheetapetikaayaam kshiiram asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is milk in the fridge.",
+            "There is water in the fridge.",
+            "There is no milk in the fridge."
+          ],
+          "correctAnswer": "There is milk in the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kakshe andhakaarah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpaya deepam jvaalayatu.",
+            "krpaya vaataayanam pidhattu.",
+            "aham deepam na pashyaami."
+          ],
+          "correctAnswer": "krpaya deepam jvaalayatu.",
+          "translatedSentence": "Please turn on the lamp."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eshah chashakah svacchah na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This cup is not clean.",
+            "This vessel is not clean.",
+            "This cup is very small."
+          ],
+          "correctAnswer": "This cup is not clean."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sammaarjani kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sammaarjani paakashaalaayaam asti.",
+            "sammaarjani mama grhe na asti.",
+            "aham sammaarjaniim icchaami."
+          ],
+          "correctAnswer": "sammaarjani paakashaalaayaam asti.",
+          "translatedSentence": "The broom is in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "grhe pancha paatraani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are five vessels in the house.",
+            "There are five books in the house.",
+            "There are four vessels in the house."
+          ],
+          "correctAnswer": "There are five vessels in the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim eshah paryankah bhavatah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, eshah mama paryankah.",
+            "na, aham atra na svapimi.",
+            "aam, mama kakshah mahaan asti."
+          ],
+          "correctAnswer": "aam, eshah mama paryankah.",
+          "translatedSentence": "Yes, this is my cot."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Cleaning, washing, cooking",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya grhakaaryam kah karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya aham grham svaccham karomi.",
+            "adya aham paakashaalaayaam na pachaami.",
+            "adya mama maataa grham aagacchati."
+          ],
+          "correctAnswer": "adya aham grham svaccham karomi.",
+          "translatedSentence": "Today I am cleaning the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maataa paakashaalaayaam bhojanam pachati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking food in the kitchen.",
+            "Mother is eating food in the kitchen.",
+            "Sister is cooking food in the kitchen."
+          ],
+          "correctAnswer": "Mother is cooking food in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vastraani malinaani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham taani prakshaalayaami.",
+            "aham taani na icchaami.",
+            "vastraani sundaraani santi."
+          ],
+          "correctAnswer": "aham taani prakshaalayaami.",
+          "translatedSentence": "I will wash them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam kaksham sammaarjayaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sweep the room every day.",
+            "I sweep the courtyard every day.",
+            "I sweep the room every morning."
+          ],
+          "correctAnswer": "I sweep the room every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya mama sahaayyam karotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham paatraani prakshaalayaami.",
+            "na, aham adya grhe na asmi.",
+            "aam, bhojanam ruchikaram asti."
+          ],
+          "correctAnswer": "aam, aham paatraani prakshaalayaami.",
+          "translatedSentence": "Yes, I will wash the vessels."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pitaa anganam svaccham karoti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father is cleaning the courtyard.",
+            "Father is cleaning the kitchen.",
+            "Brother is cleaning the courtyard."
+          ],
+          "correctAnswer": "Father is cleaning the courtyard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tvam paatraani prakshaalayasi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham idaaniim prakshaalayaami.",
+            "na, aham pustakam pathaami.",
+            "aam, aham bhojanam pachaami."
+          ],
+          "correctAnswer": "aam, aham idaaniim prakshaalayaami.",
+          "translatedSentence": "Yes, I am washing them right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya aham bhojanam na pachaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not cooking today.",
+            "I am not eating today.",
+            "I did not cook today."
+          ],
+          "correctAnswer": "I am not cooking today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tvam grham kadaa svaccham karishyasi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saayankaale karishyaami.",
+            "grham svaccham eva asti.",
+            "aham grham gacchaami."
+          ],
+          "correctAnswer": "saayankaale karishyaami.",
+          "translatedSentence": "I will do it in the evening."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama pustakam kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pustakam paryankasya upari asti.",
+            "pustakam bhavatah samiipe asti.",
+            "pustakam mama na asti."
+          ],
+          "correctAnswer": "pustakam paryankasya upari asti.",
+          "translatedSentence": "The book is on the cot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sammaarjani dvaarasya pashchaat asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The broom is behind the door.",
+            "The broom is in front of the door.",
+            "The chair is behind the door."
+          ],
+          "correctAnswer": "The broom is behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aasandi kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aasandi vaataayanasya puratah asti.",
+            "aasandi paryankasya adhah asti.",
+            "aasandi grhaat bahih asti."
+          ],
+          "correctAnswer": "aasandi vaataayanasya puratah asti.",
+          "translatedSentence": "The chair is in front of the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bidaalah paryankasya adhah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is under the cot.",
+            "The cat is on the cot.",
+            "The dog is under the cot."
+          ],
+          "correctAnswer": "The cat is under the cot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama vastraani kutra santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vastraani petikaayaam santi.",
+            "vastraani bahih santi.",
+            "vastraani malinaani na santi."
+          ],
+          "correctAnswer": "vastraani petikaayaam santi.",
+          "translatedSentence": "The clothes are in the box."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jalam paatrasya abhyantare asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The water is inside the vessel.",
+            "The water is outside the vessel.",
+            "The milk is inside the vessel."
+          ],
+          "correctAnswer": "The water is inside the vessel."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham mama upadhaanam na pashyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tat kambalasya adhah asti.",
+            "tat grhaat bahih asti.",
+            "aham upadhaanam icchaami."
+          ],
+          "correctAnswer": "tat kambalasya adhah asti.",
+          "translatedSentence": "It is under the blanket."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "baalakaah grhaat bahih kriidanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children are playing outside the house.",
+            "The children are playing inside the house.",
+            "The children are sitting outside the house."
+          ],
+          "correctAnswer": "The children are playing outside the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim snaanagrham shayanakakshasya samiipe asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, tasya samiipe eva asti.",
+            "aam, shayanakakshah mahaan asti.",
+            "na, snaanagrhe jalam na asti."
+          ],
+          "correctAnswer": "aam, tasya samiipe eva asti.",
+          "translatedSentence": "Yes, it is right next to it."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya abhyantaram aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, aham aagacchaami.",
+            "dhanyavaadah, aham na jaanaami.",
+            "krpaya bhavaan bahih tishthatu."
+          ],
+          "correctAnswer": "dhanyavaadah, aham aagacchaami.",
+          "translatedSentence": "Thank you, I am coming in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "svaagatam, krpaya atra upavishatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome, please sit here.",
+            "Welcome, please sit there.",
+            "Welcome, please come tomorrow."
+          ],
+          "correctAnswer": "Welcome, please sit here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanam atiiva ruchikaram asti.",
+            "bhojanam paakashaalaayaam asti.",
+            "aham bhojanam pachaami."
+          ],
+          "correctAnswer": "bhojanam atiiva ruchikaram asti.",
+          "translatedSentence": "The food is very tasty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya saayankaale mama grham atithayah aagamishyanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Guests will come to my house this evening.",
+            "Guests came to my house yesterday evening.",
+            "My friends will come to my house this evening."
+          ],
+          "correctAnswer": "Guests will come to my house this evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan punah kadaa aagamishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham agrime maase punah aagamishyaami.",
+            "aham hyah eva aagatavaan.",
+            "aham idaaniim grhe eva asmi."
+          ],
+          "correctAnswer": "aham agrime maase punah aagamishyaami.",
+          "translatedSentence": "I will come again next month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya bhojanam krtvaa eva gacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please eat before you leave.",
+            "Please leave before eating.",
+            "Please come again after eating."
+          ],
+          "correctAnswer": "Please eat before you leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bahu kaalah abhavat, aham idaaniim gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "punah avashyam aagacchatu.",
+            "aham api atithih asmi.",
+            "krpaya deepam jvaalayatu bhavaan."
+          ],
+          "correctAnswer": "punah avashyam aagacchatu.",
+          "translatedSentence": "Do come again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "atithih devah iti vayam vadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We say that a guest is a god.",
+            "We say that a guest is a friend.",
+            "They say that a god is a guest."
+          ],
+          "correctAnswer": "We say that a guest is a god."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah grham atiiva sundaram asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, krpaya sarvam pashyatu.",
+            "dhanyavaadah, aham grhe na vasaami.",
+            "aam, bhavatah grham api sundaram asti vaa?"
+          ],
+          "correctAnswer": "dhanyavaadah, krpaya sarvam pashyatu.",
+          "translatedSentence": "Thank you, please have a look around."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and neighbours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asya grhasya bhaatakam kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pratimaasam ashtasahasram rupyakaani bhaatakam asti.",
+            "asya grhasya kakshaah trayah santi.",
+            "aham asmin grhe na vasaami."
+          ],
+          "correctAnswer": "pratimaasam ashtasahasram rupyakaani bhaatakam asti.",
+          "translatedSentence": "The rent is eight thousand rupees a month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama grhasvaami sajjanah, kintu sah bhaatakam samaye eva icchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My landlord is a good man, but he wants the rent on time.",
+            "My landlord is a good man, and he never asks for the rent.",
+            "My neighbour is a good man, but he wants the rent on time."
+          ],
+          "correctAnswer": "My landlord is a good man, but he wants the rent on time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "paakashaalaayaam nalah bhagnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi aham shvah kaaryakaram aahvayaami.",
+            "tarhi aham paatraani prakshaalayaami.",
+            "aam, paakashaalaa svacchaa na asti."
+          ],
+          "correctAnswer": "tarhi aham shvah kaaryakaram aahvayaami.",
+          "translatedSentence": "Then I will call a workman tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hyah raatrau vidyut na aasiit, atah aham deepam jvaalitavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There was no electricity last night, so I lit a lamp.",
+            "There was no water last night, so I lit a lamp.",
+            "There is no electricity tonight, so I will light a lamp."
+          ],
+          "correctAnswer": "There was no electricity last night, so I lit a lamp."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah prativeshii katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah atiiva sahaayakah, yadaa aavashyakam tadaa sah aagacchati.",
+            "sah prativeshinah grham pratidinam gacchati.",
+            "asmaakam grhasya samiipe dve grhe stah."
+          ],
+          "correctAnswer": "sah atiiva sahaayakah, yadaa aavashyakam tadaa sah aagacchati.",
+          "translatedSentence": "He is very helpful; whenever I need him, he comes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi shvah api jalam na aagacchati, tarhi aham grhasvaaminam vadishyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the water does not come tomorrow either, I will tell the landlord.",
+            "If the water comes tomorrow, I will tell the landlord.",
+            "If there is no electricity tomorrow either, I will tell the landlord."
+          ],
+          "correctAnswer": "If the water does not come tomorrow either, I will tell the landlord."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan asmin grhe kiyatkaalaat vasati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dvivarshaat aham atra vasaami.",
+            "asmin grhe pancha kakshaah santi.",
+            "aham asya grhasya bhaatakam na jaanaami."
+          ],
+          "correctAnswer": "dvivarshaat aham atra vasaami.",
+          "translatedSentence": "I have been living here for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmaakam prativeshinah raatrau bahu shabdam kurvanti, atah aham na svapimi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our neighbours make a lot of noise at night, so I do not sleep.",
+            "Our neighbours make a lot of noise at night, but I sleep well.",
+            "Our neighbours talk a lot in the evening, so I do not sleep."
+          ],
+          "correctAnswer": "Our neighbours make a lot of noise at night, so I do not sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavaan agrime maase api atra eva vasati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, aham anyasya grhasya anveshanam karomi, yatah bhaatakam adhikam asti.",
+            "aam, mama grhe sthalam paryaaptam asti.",
+            "na, aham adya grham svaccham karomi."
+          ],
+          "correctAnswer": "na, aham anyasya grhasya anveshanam karomi, yatah bhaatakam adhikam asti.",
+          "translatedSentence": "No, I am looking for another house, because the rent here is too high."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Your name and place",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru naam shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maru naam {name} che.",
+            "Hu Ahmedabad thi chu.",
+            "Hu majama chu."
+          ],
+          "correctAnswer": "Maru naam {name} che.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu Ahmedabad thi chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Ahmedabad.",
+            "I live in Ahmedabad.",
+            "I am going to Ahmedabad."
+          ],
+          "correctAnswer": "I am from Ahmedabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kya thi cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu Surat thi chu.",
+            "Maru naam Meera che.",
+            "Hu shikshak chu."
+          ],
+          "correctAnswer": "Hu Surat thi chu.",
+          "translatedSentence": "I am from Surat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maru naam Rohit che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Rohit.",
+            "His name is Rohit.",
+            "My friend is Rohit."
+          ],
+          "correctAnswer": "My name is Rohit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu majama chu.",
+            "Maru naam Priya che.",
+            "Hu Surat ma rahu chu."
+          ],
+          "correctAnswer": "Hu majama chu.",
+          "translatedSentence": "I am doing well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tame kya raho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you live?",
+            "Where are you going?",
+            "Where were you?"
+          ],
+          "correctAnswer": "Where do you live?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kya sheher ma raho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu Vadodara ma rahu chu.",
+            "Hu tamne olakhu chu.",
+            "Maru naam Nisha che."
+          ],
+          "correctAnswer": "Hu Vadodara ma rahu chu.",
+          "translatedSentence": "I live in Vadodara."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu ahi navo chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am new here.",
+            "I am not from here.",
+            "I came here yesterday."
+          ],
+          "correctAnswer": "I am new here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru pura naam shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maru pura naam Anjali Shah che.",
+            "Maru gaam Gir ni pase che.",
+            "Hu bahu majama chu."
+          ],
+          "correctAnswer": "Maru pura naam Anjali Shah che.",
+          "translatedSentence": "My full name is Anjali Shah."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Your age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari umar ketli che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari umar trees varsh che.",
+            "Hu Rajkot thi chu.",
+            "Maru naam Kunal che."
+          ],
+          "correctAnswer": "Mari umar trees varsh che.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari umar pachees varsh che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty-five years old.",
+            "I am thirty-five years old.",
+            "My brother is twenty-five years old."
+          ],
+          "correctAnswer": "I am twenty-five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame shu karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu ek shala ma shikshak chu.",
+            "Hu Surat ma moto thayo chu.",
+            "Mari umar chalis varsh che."
+          ],
+          "correctAnswer": "Hu ek shala ma shikshak chu.",
+          "translatedSentence": "I am a teacher at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu ek hospital ma kaam karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work at a hospital.",
+            "I am going to the hospital.",
+            "I worked at a hospital."
+          ],
+          "correctAnswer": "I work at a hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kya kaam karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu ek bank ma kaam karu chu.",
+            "Hu roj savare chalva jau chu.",
+            "Mane mari naukri game che."
+          ],
+          "correctAnswer": "Hu ek bank ma kaam karu chu.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu college ma bhanu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I study at a college.",
+            "I teach at a college.",
+            "I work at a college."
+          ],
+          "correctAnswer": "I study at a college."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame shu bhano cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu vignan bhanu chu.",
+            "Hu roj bahar jamu chu.",
+            "Maru college ghar ni pase che."
+          ],
+          "correctAnswer": "Hu vignan bhanu chu.",
+          "translatedSentence": "I study science."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane maru kaam game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my work.",
+            "I do not like my work.",
+            "My work is easy."
+          ],
+          "correctAnswer": "I like my work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maru naam {name} che, ane tamaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maru naam Devang che.",
+            "Hu tees varsh no chu.",
+            "Hu Ahmedabad ma kaam karu chu."
+          ],
+          "correctAnswer": "Maru naam Devang che.",
+          "translatedSentence": "My name is Devang."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame Gujarati bolo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu thodu Gujarati bolu chu.",
+            "Ha, hu Gujarat ma rahu chu.",
+            "Na, hu tya kaam karto nathi."
+          ],
+          "correctAnswer": "Ha, hu thodu Gujarati bolu chu.",
+          "translatedSentence": "Yes, I speak a little Gujarati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu thodu Gujarati samju chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand a little Gujarati.",
+            "I speak a little Gujarati.",
+            "I am learning Gujarati now."
+          ],
+          "correctAnswer": "I understand a little Gujarati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketli bhasha bolo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu tran bhasha bolu chu.",
+            "Hu roj Gujarati bolu chu.",
+            "Mane navi bhasha shikhvi game che."
+          ],
+          "correctAnswer": "Hu tran bhasha bolu chu.",
+          "translatedSentence": "I speak three languages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari matru bhasha Hindi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother tongue is Hindi.",
+            "My mother speaks Hindi.",
+            "I learned Hindi from my mother."
+          ],
+          "correctAnswer": "My mother tongue is Hindi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame Gujarati kya thi shikhya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu mari dadi pase thi shikhyo.",
+            "Hu Gujarati roj bolvani koshish karu chu.",
+            "Mane Gujarati gaano bahu game che."
+          ],
+          "correctAnswer": "Hu mari dadi pase thi shikhyo.",
+          "translatedSentence": "I learned it from my grandmother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane bahu sari rite Gujarati nathi avadtu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know Gujarati very well.",
+            "I do not want to learn Gujarati.",
+            "I did not understand this Gujarati word."
+          ],
+          "correctAnswer": "I do not know Gujarati very well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame dhime bolo, mane badhu samjatu nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhale, hu dhime bolish.",
+            "Ha, mane badhu samjay che.",
+            "Na, hu Gujarati bolto nathi."
+          ],
+          "correctAnswer": "Bhale, hu dhime bolish.",
+          "translatedSentence": "Sure, I will speak slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj thodu Gujarati bolvani koshish karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I try to speak a little Gujarati every day.",
+            "I speak a little Gujarati every day.",
+            "I want to speak Gujarati every day."
+          ],
+          "correctAnswer": "I try to speak a little Gujarati every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne angreji avade che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane angreji sari rite avade che.",
+            "Ha, mane thodu Hindi pan avade che.",
+            "Na, hu angreji shala ma bhanyo hato."
+          ],
+          "correctAnswer": "Ha, mane angreji sari rite avade che.",
+          "translatedSentence": "Yes, I know English well."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu tamne ek prashn puchi shaku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, jarur puchho.",
+            "Na, hu have ghare jau chu.",
+            "Ha, mane te khabar nathi."
+          ],
+          "correctAnswer": "Ha, jarur puchho.",
+          "translatedSentence": "Yes, please go ahead and ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tame ahi shu karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What do you do here?",
+            "What did you do here?",
+            "Why did you come here?"
+          ],
+          "correctAnswer": "What do you do here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ahi kevi rite avya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu bus ma avyo chu.",
+            "Hu bus ni raah joyi rahyo chu.",
+            "Hu roj bus thi kaam par jau chu."
+          ],
+          "correctAnswer": "Hu bus ma avyo chu.",
+          "translatedSentence": "I came by bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamne ahi nu jamvanu game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you like the food here?",
+            "Do you eat here every day?",
+            "Did you like the food here?"
+          ],
+          "correctAnswer": "Do you like the food here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne dhokla game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane dhokla bahu game che.",
+            "Ha, mane thepla banavta avade che.",
+            "Na, mane atyare bhukh lagi che."
+          ],
+          "correctAnswer": "Ha, mane dhokla bahu game che.",
+          "translatedSentence": "Yes, I like dhokla a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tu kya kaam kare che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What work do you do?",
+            "Where are you working today?",
+            "Why are you working so much?"
+          ],
+          "correctAnswer": "What work do you do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketla vakhat thi ahi cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu be varsh thi ahi chu.",
+            "Hu ahi bahu khush chu.",
+            "Hu kale ahi thi jais."
+          ],
+          "correctAnswer": "Hu be varsh thi ahi chu.",
+          "translatedSentence": "I have been here for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane tamara vishe vadhu janvu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to know more about you.",
+            "I know a lot about you.",
+            "I will tell you more about myself."
+          ],
+          "correctAnswer": "I want to know more about you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame parnela cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu hju parnelo nathi.",
+            "Na, mane te khabar nathi.",
+            "Ha, mane be bhai che."
+          ],
+          "correctAnswer": "Na, hu hju parnelo nathi.",
+          "translatedSentence": "No, I am not married yet."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa maro mitra Kunal che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tamne madine anand thayo.",
+            "Maru naam pan Kunal che.",
+            "Hu tene roj joun chu."
+          ],
+          "correctAnswer": "Tamne madine anand thayo.",
+          "translatedSentence": "It is a pleasure to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa mari behen Nisha che, te Surat ma rahe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my sister Nisha, she lives in Surat.",
+            "This is my sister Nisha, she is from Surat.",
+            "My sister Nisha has gone to Surat."
+          ],
+          "correctAnswer": "This is my sister Nisha, she lives in Surat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ek bija ne olakho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ame pehli var maliye chiye.",
+            "Ha, hu ahi navo chu.",
+            "Na, mane tena vishe puchho."
+          ],
+          "correctAnswer": "Na, ame pehli var maliye chiye.",
+          "translatedSentence": "No, we are meeting for the first time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Te mari sathe college ma bhanti hati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She studied with me in college.",
+            "She is studying with me in college.",
+            "She teaches at my college."
+          ],
+          "correctAnswer": "She studied with me in college."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa mara pappa che, te Vadodara thi avya che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaste, tamne madine saru lagyu.",
+            "Ha, mane Vadodara bahu game che.",
+            "Na, hu tya kadi gayo nathi."
+          ],
+          "correctAnswer": "Namaste, tamne madine saru lagyu.",
+          "translatedSentence": "Hello, it is good to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro mitra Gujarati bolto nathi, pan te badhu samje che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend does not speak Gujarati, but he understands everything.",
+            "My friend speaks Gujarati, but he does not understand everything.",
+            "My friend is learning Gujarati, so he understands a little."
+          ],
+          "correctAnswer": "My friend does not speak Gujarati, but he understands everything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara mitra shu kaam kare che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te ek company ma engineer che.",
+            "Te mara ghar ni pase rahe che.",
+            "Te mari sathe ahi avyo che."
+          ],
+          "correctAnswer": "Te ek company ma engineer che.",
+          "translatedSentence": "He is an engineer at a company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame nana hata tyar thi mitro chiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have been friends since we were children.",
+            "We became friends when we were children.",
+            "We were friends when we were children."
+          ],
+          "correctAnswer": "We have been friends since we were children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame mara mota bhai ne olakho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ame gaya varshe madya hata.",
+            "Ha, mane mota bhai nathi.",
+            "Na, te maro mitra che."
+          ],
+          "correctAnswer": "Ha, ame gaya varshe madya hata.",
+          "translatedSentence": "Yes, we met last year."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame mane tamaro number aapsho to hu tamne message karish.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu atyare j tamne mokalu chu.",
+            "Na, mane message karvanu game che.",
+            "Ha, mane tamaro number khabar che."
+          ],
+          "correctAnswer": "Ha, hu atyare j tamne mokalu chu.",
+          "translatedSentence": "Sure, I will send it to you right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamaro phone number shu che, mane lakhi aapo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is your phone number, please write it down for me.",
+            "Please call me on your phone number today.",
+            "I wrote down your phone number for you."
+          ],
+          "correctAnswer": "What is your phone number, please write it down for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu tamne kale phone karu to chalse?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, saanje phone karjo, tyare hu ghare hois.",
+            "Na, mane phone karta nathi avadtu.",
+            "Ha, mane kale tamaro phone avyo hato."
+          ],
+          "correctAnswer": "Ha, saanje phone karjo, tyare hu ghare hois.",
+          "translatedSentence": "Yes, call in the evening, I will be at home then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tamne time hoy to ame kale saanje maliye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, let us meet tomorrow evening.",
+            "If I have time, I will meet you tomorrow evening.",
+            "We met yesterday evening because you had time."
+          ],
+          "correctAnswer": "If you have time, let us meet tomorrow evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne madine bahu anand thayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane pan, ame fari maliye.",
+            "Ha, hu have ghare pahonchi gayo chu.",
+            "Na, mane tamaru naam khabar nathi."
+          ],
+          "correctAnswer": "Mane pan, ame fari maliye.",
+          "translatedSentence": "Same here, let us meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu tamne message karish, pan atyare maro phone kaam karto nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will message you, but my phone is not working right now.",
+            "I messaged you, but my phone was not working then.",
+            "I cannot message you because I do not have a phone."
+          ],
+          "correctAnswer": "I will message you, but my phone is not working right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame kyare fari mali shakiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavta shanivare, kem ke tyare mane raja che.",
+            "Kale saanje hu ahi j hato.",
+            "Mane khabar nathi ke tame kya raho cho."
+          ],
+          "correctAnswer": "Aavta shanivare, kem ke tyare mane raja che.",
+          "translatedSentence": "Next Saturday, because I have a holiday then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tame Ahmedabad avo tyare mane jarur kehjo, hu tamne Sabarmati lai jais.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you come to Ahmedabad, do tell me, and I will take you to Sabarmati.",
+            "When I come to Ahmedabad, I will tell you and we can go to Sabarmati.",
+            "You did not tell me you were in Ahmedabad, so we missed Sabarmati."
+          ],
+          "correctAnswer": "When you come to Ahmedabad, do tell me, and I will take you to Sabarmati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sacchu kahu to, aaje tamari sathe vaat kari ne bahu saru lagyu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane pan, have hu nikdu chu, fari malish.",
+            "Ha, mane aaje bahu kaam hatu.",
+            "Na, mane tamari vaat samjai nathi."
+          ],
+          "correctAnswer": "Mane pan, have hu nikdu chu, fari malish.",
+          "translatedSentence": "Same here, I am heading off now, I will see you again."
+        }
+      ]
+    }
+  ]
+}

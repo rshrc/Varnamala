@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaje Diwali che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tamne Diwali ni shubhechha.",
+            "mane bhukh lagi che.",
+            "hu ghare jau chu."
+          ],
+          "correctAnswer": "tamne Diwali ni shubhechha.",
+          "translatedSentence": "Happy Diwali to you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sal mubarak!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tamne pan sal mubarak.",
+            "maru naam Meera che.",
+            "aa maro bhai che."
+          ],
+          "correctAnswer": "tamne pan sal mubarak.",
+          "translatedSentence": "Happy New Year to you too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaje amara ghare tehvar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today there is a festival at our house.",
+            "Tomorrow we are going to our house.",
+            "Our house is next to the temple."
+          ],
+          "correctAnswer": "Today there is a festival at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tehvar kevo rahyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "khub saras rahyo.",
+            "hu ahiya navo chu.",
+            "mane khabar nathi."
+          ],
+          "correctAnswer": "khub saras rahyo.",
+          "translatedSentence": "It was really lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mane tehvaro bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like festivals a lot.",
+            "I do not like festivals.",
+            "There is a festival here today."
+          ],
+          "correctAnswer": "I like festivals a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaje shu tehvar che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaje Navratri sharu thay che.",
+            "aaje maro janmadivas nathi.",
+            "hu atyare bajar ma chu."
+          ],
+          "correctAnswer": "aaje Navratri sharu thay che.",
+          "translatedSentence": "Navratri starts today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "badha ne mari shubhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My best wishes to everyone.",
+            "Everyone is at my house.",
+            "Everyone wished me well."
+          ],
+          "correctAnswer": "My best wishes to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tamne navu varsh mubarak.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "khub khub aabhar.",
+            "mane khabar nathi.",
+            "hu majama chu."
+          ],
+          "correctAnswer": "khub khub aabhar.",
+          "translatedSentence": "Thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aa tehvar khub sundar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This festival is very beautiful.",
+            "This festival is very long.",
+            "This is a brand new festival."
+          ],
+          "correctAnswer": "This festival is very beautiful."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "When the big festivals fall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Navratri kyare ave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Navratri October ma ave che.",
+            "Navratri January ma ave che.",
+            "Navratri Diwali pachi ave che."
+          ],
+          "correctAnswer": "Navratri October ma ave che.",
+          "translatedSentence": "Navratri comes in October."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uttarayan na divase tame shu karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame chhat par patang chagaviye chiye.",
+            "ame ghar ma diva pragataviye chiye.",
+            "ame mandir ma garba ramiye chiye."
+          ],
+          "correctAnswer": "ame chhat par patang chagaviye chiye.",
+          "translatedSentence": "We fly kites up on the terrace."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uttarayan chaudmi January e ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uttarayan falls on the fourteenth of January.",
+            "Uttarayan falls on the fourth of January.",
+            "Uttarayan goes on for fourteen days."
+          ],
+          "correctAnswer": "Uttarayan falls on the fourteenth of January."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Diwali pachi tarat bestu varas ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bestu Varas comes right after Diwali.",
+            "Bestu Varas comes just before Diwali.",
+            "Diwali comes right after the new year."
+          ],
+          "correctAnswer": "Bestu Varas comes right after Diwali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bestu varas etle shu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bestu varas etle Gujarati navu varsh.",
+            "bestu varas etle patang no tehvar.",
+            "bestu varas etle nav divas na garba."
+          ],
+          "correctAnswer": "bestu varas etle Gujarati navu varsh.",
+          "translatedSentence": "Bestu Varas means the Gujarati new year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Navratri ketla divas chale che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Navratri nav divas chale che.",
+            "Navratri fakt ek divas chale che.",
+            "Navratri be mahina chale che."
+          ],
+          "correctAnswer": "Navratri nav divas chale che.",
+          "translatedSentence": "Navratri goes on for nine days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Diwali ma ame fatakda fodiye chiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Diwali we set off firecrackers.",
+            "At Diwali we light lamps.",
+            "At Diwali we fly kites."
+          ],
+          "correctAnswer": "At Diwali we set off firecrackers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Surat ma Uttarayan bahu dhamdhum thi manaay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Surat, Uttarayan is celebrated with a lot of fanfare.",
+            "In Surat, Uttarayan is celebrated very quietly.",
+            "In Surat, Diwali is celebrated with a lot of fanfare."
+          ],
+          "correctAnswer": "In Surat, Uttarayan is celebrated with a lot of fanfare."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tane kayo tehvar sauthi vadhare game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mane Uttarayan sauthi vadhare game che.",
+            "mane ek pan tehvar gamto nathi.",
+            "maru ghar Vadodara ma che."
+          ],
+          "correctAnswer": "mane Uttarayan sauthi vadhare game che.",
+          "translatedSentence": "I like Uttarayan the most."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "amare tya Diwali ni party che, tame avsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ha, hu jarur avish.",
+            "ha, mane party bahu game che.",
+            "na, mane khabar nathi."
+          ],
+          "correctAnswer": "ha, hu jarur avish.",
+          "translatedSentence": "Yes, I will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kale sanje amara ghare jamva avo ne.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chokkas, ame sanje avishu.",
+            "chokkas, ame ghare j chiye.",
+            "ha, amne jamvanu bahu bhave che."
+          ],
+          "correctAnswer": "chokkas, ame sanje avishu.",
+          "translatedSentence": "Of course, we will come in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hu tamara akha parivar ne amara ghare bolavu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting your whole family to our house.",
+            "I am taking my whole family to your house.",
+            "My whole family is coming to your house."
+          ],
+          "correctAnswer": "I am inviting your whole family to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tame ketla vagye avsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame aath vagye avishu.",
+            "ame kale nathi avta.",
+            "amne Diwali bahu game che."
+          ],
+          "correctAnswer": "ame aath vagye avishu.",
+          "translatedSentence": "We will come at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mane tamaru nimantran malyu, khub aabhar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I received your invitation, thank you very much.",
+            "I sent you an invitation, thank you very much.",
+            "I did not receive your invitation at all."
+          ],
+          "correctAnswer": "I received your invitation, thank you very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maaf karjo, hu kale nahi avi shaku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kai vandho nahi, biji vaar avjo.",
+            "saru, to ame tamari raah joishu.",
+            "ha, tame jarur avjo."
+          ],
+          "correctAnswer": "kai vandho nahi, biji vaar avjo.",
+          "translatedSentence": "No problem at all, come another time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ame tamari raah joishu, tame jarur avjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will be waiting for you, so please do come.",
+            "We waited for you but you did not come.",
+            "You should wait for us at your house."
+          ],
+          "correctAnswer": "We will be waiting for you, so please do come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amara ghare Navratri ma nano melavdo che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a small get-together at our house during Navratri.",
+            "There is a big get-together at our house during Diwali.",
+            "We are going to a small get-together during Navratri."
+          ],
+          "correctAnswer": "There is a small get-together at our house during Navratri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hu tamara mate mithai lavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kai lavvani jarur nathi, tame aavo etle bas.",
+            "ha, mane mithai bahu bhave che.",
+            "na, amara ghare mithai nathi."
+          ],
+          "correctAnswer": "kai lavvani jarur nathi, tame aavo etle bas.",
+          "translatedSentence": "There is no need to bring anything, just come."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sweets for the festival",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali ma tamara ghare shu shu banave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame ghughra ane mathiya banaviye chiye.",
+            "ame nava kapda kharidiye chiye.",
+            "ame chhat par patang chagaviye chiye."
+          ],
+          "correctAnswer": "ame ghughra ane mathiya banaviye chiye.",
+          "translatedSentence": "We make ghughra and mathiya."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uttarayan na divase shu khavay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "undhiyu ane til na ladva khavay che.",
+            "amne dhokla ane chaas bahu bhave che.",
+            "ame ghughra ane chikki banaviye chiye."
+          ],
+          "correctAnswer": "undhiyu ane til na ladva khavay che.",
+          "translatedSentence": "Undhiyu and sesame ladoos are eaten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mummy Diwali pehla mohanthal banave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mum makes mohanthal before Diwali.",
+            "Mum makes mohanthal after Diwali.",
+            "Mum buys mohanthal before Diwali."
+          ],
+          "correctAnswer": "Mum makes mohanthal before Diwali."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aa undhiyu ba e potey banavyu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandma made this undhiyu herself.",
+            "Grandma is making the undhiyu right now.",
+            "We bought this undhiyu from the shop."
+          ],
+          "correctAnswer": "Grandma made this undhiyu herself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "thodu vadhare shrikhand lesho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, bas thay gayu, khub aabhar.",
+            "na, mane atyare bhukh lagi che.",
+            "ha, me shrikhand banavyu che."
+          ],
+          "correctAnswer": "na, bas thay gayu, khub aabhar.",
+          "translatedSentence": "No, that is plenty, thank you very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aa chikki tame banavi ke bahar thi lavya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "me ghare j banavi che.",
+            "hu kale bajar ma jais.",
+            "mane chikki bilkul nathi bhavti."
+          ],
+          "correctAnswer": "me ghare j banavi che.",
+          "translatedSentence": "I made it at home myself."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "til na ladva khaso to thand nahi lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you eat sesame ladoos you will not feel the cold.",
+            "If you eat sesame ladoos you will not feel hungry.",
+            "Sesame ladoos are only eaten in the winter."
+          ],
+          "correctAnswer": "If you eat sesame ladoos you will not feel the cold."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Diwali ma badha ek bija ne mithai aape che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Diwali everyone gives sweets to one another.",
+            "At Diwali everyone eats sweets together.",
+            "At Diwali we give new clothes to everyone."
+          ],
+          "correctAnswer": "At Diwali everyone gives sweets to one another."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tamne kai mithai sauthi bhave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mane basundi sauthi vadhare bhave che.",
+            "mane mithai banavta nathi avadtu.",
+            "hu roj sanje mithai khau chu."
+          ],
+          "correctAnswer": "mane basundi sauthi vadhare bhave che.",
+          "translatedSentence": "I like basundi the most."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tame Diwali mate nava kapda lidha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ha, kale j bajar mathi lidha.",
+            "ha, mane nava kapda bahu game che.",
+            "na, hu atyare bajar ma chu."
+          ],
+          "correctAnswer": "ha, kale j bajar mathi lidha.",
+          "translatedSentence": "Yes, I bought them from the market just yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bestu varas na divase ame vadilo na aashirwad laiye chiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Bestu Varas we take the blessings of our elders.",
+            "On Bestu Varas we give gifts to our elders.",
+            "On Diwali day we take the blessings of our elders."
+          ],
+          "correctAnswer": "On Bestu Varas we take the blessings of our elders."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aa bhet tamara mate lavyo chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aatlu badhu shu kaam? khub aabhar.",
+            "hu tamne kale bhet aapish.",
+            "amne bhet nathi malti."
+          ],
+          "correctAnswer": "aatlu badhu shu kaam? khub aabhar.",
+          "translatedSentence": "You really did not have to. Thank you so much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali ma tamara ghare kon kon ave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaka, foi ane badha sagavahala ave che.",
+            "amara ghare koi nathi avtu.",
+            "ame badha Surat jaie chiye."
+          ],
+          "correctAnswer": "kaka, foi ane badha sagavahala ave che.",
+          "translatedSentence": "My uncle, my aunt and all the relatives come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dada dadi ne malye bahu vakhat thai gayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been a long time since we met grandma and grandpa.",
+            "Grandma and grandpa met us a long time ago.",
+            "We will meet grandma and grandpa after a long time."
+          ],
+          "correctAnswer": "It has been a long time since we met grandma and grandpa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "nana chhokra o ne tame shu aapo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame emne thoda paisa aapiye chiye.",
+            "ame emne roj mithai aapiye chiye.",
+            "ame emne kai j nathi aapta."
+          ],
+          "correctAnswer": "ame emne thoda paisa aapiye chiye.",
+          "translatedSentence": "We give them a little money."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aa saadi mane mari masi e Diwali ma aapi hati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt gave me this sari at Diwali.",
+            "I gave this sari to my aunt at Diwali.",
+            "My aunt bought this sari at Diwali."
+          ],
+          "correctAnswer": "My aunt gave me this sari at Diwali."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "badha sagavahala bhega thay tyare ghar bharayelu lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When all the relatives gather, the house feels full.",
+            "When all the relatives gather, the house feels small.",
+            "All the relatives gather at our house every year."
+          ],
+          "correctAnswer": "When all the relatives gather, the house feels full."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tu aa vakhate Diwali kya karish?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aa vakhate ame Vadodara ma mara mummy pappa sathe karishu.",
+            "aa vakhate Diwali November ma ave che.",
+            "aa vakhate me nava kapda nathi lidha."
+          ],
+          "correctAnswer": "aa vakhate ame Vadodara ma mara mummy pappa sathe karishu.",
+          "translatedSentence": "This time we will spend it in Vadodara with my parents."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "amara dikra na lagan aavta mahine che, tame parivar sathe jarur avjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame chokkas avishu, pan ame bije divase pahonchi shakishu.",
+            "amne lagan ni khabar j nathi, tame kyare kidhu hatu?",
+            "ame lagan ma nathi jata, kem ke amne bhid gamti nathi."
+          ],
+          "correctAnswer": "ame chokkas avishu, pan ame bije divase pahonchi shakishu.",
+          "translatedSentence": "We will certainly come, but we will only be able to get there on the second day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jo tame vehla aavi shako to varghoda ma amari sathe chaljo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you can come early, walk with us in the wedding procession.",
+            "If you come late, wait for us near the wedding hall.",
+            "If you can come early, we will walk with you to the temple."
+          ],
+          "correctAnswer": "If you can come early, walk with us in the wedding procession."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "lagan ni vidhi ketla vagye sharu thashe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vidhi sada agiyar vagye sharu thashe, pan tame thoda vehla aavi jajo.",
+            "vidhi gai kale j puri thai gai hati.",
+            "vidhi mandir ma nathi, ame hall ma rakhi che."
+          ],
+          "correctAnswer": "vidhi sada agiyar vagye sharu thashe, pan tame thoda vehla aavi jajo.",
+          "translatedSentence": "The ceremony will start at half past eleven, but do come a little early."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ame mandap ni ane jamvani badhi taiyari kari lidhi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have finished all the arrangements for the mandap and the meal.",
+            "We still have to make the arrangements for the mandap and the meal.",
+            "They made all the arrangements for the mandap and the meal."
+          ],
+          "correctAnswer": "We have finished all the arrangements for the mandap and the meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tame chandlo karva mate kyare avsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ame ravivare sanje avishu, kem ke shanivare kaam che.",
+            "ame chandlo nathi karta, ame fakt jamva avishu.",
+            "amne chandlo ni vidhi ni kai khabar nathi."
+          ],
+          "correctAnswer": "ame ravivare sanje avishu, kem ke shanivare kaam che.",
+          "translatedSentence": "We will come on Sunday evening, because we have work on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mane lagan ma javu hatu pan hu bimar hato etle nahi jai shakyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wanted to go to the wedding, but I was ill, so I could not go.",
+            "I went to the wedding even though I was ill.",
+            "I did not want to go to the wedding because I was ill."
+          ],
+          "correctAnswer": "I wanted to go to the wedding, but I was ill, so I could not go."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "lagan no prasang kevo rahyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "khub sundar rahyo, badha sagavahala bhega thaya hata.",
+            "hu lagan ma nathi gayo, mane bolavyo j nahoto.",
+            "lagan aavta varshe che, atyare kai nakki nathi."
+          ],
+          "correctAnswer": "khub sundar rahyo, badha sagavahala bhega thaya hata.",
+          "translatedSentence": "It was lovely, all the relatives had gathered."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jo tamne vandho na hoy to ame tamara mate rehvani vyavastha kari daiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not mind, we will arrange somewhere for you to stay.",
+            "If you do not mind, you can arrange your own stay at the hotel.",
+            "We have already arranged somewhere for you to stay."
+          ],
+          "correctAnswer": "If you do not mind, we will arrange somewhere for you to stay."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tame darek prasang ma amne yaad karo cho, kharekhar bahu saru lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tame amara parivar jeva cho, tamne kem bhuliye?",
+            "amne aa prasang ni khabar nathi hati.",
+            "ame aavta varshe tamne jarur bolavishu."
+          ],
+          "correctAnswer": "tame amara parivar jeva cho, tamne kem bhuliye?",
+          "translatedSentence": "You are like family to us, how could we ever forget you?"
+        }
+      ]
+    }
+  ]
+}

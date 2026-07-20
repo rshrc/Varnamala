@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj kuthla vaar aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj somvar aahe.",
+            "Aaj mangalvar aahe.",
+            "Aaj ravivar aahe."
+          ],
+          "correctAnswer": "Aaj somvar aahe.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Udya mangalvar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is Tuesday.",
+            "Today is Tuesday.",
+            "Tomorrow is Wednesday."
+          ],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula ravivar aavadto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala ravivar aavadto.",
+            "Nahi, mala somvar aavadto.",
+            "Mala shanivar jasta aavadto."
+          ],
+          "correctAnswer": "Ho, mala ravivar aavadto.",
+          "translatedSentence": "Yes, I like Sunday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shanivar ani ravivar sutti aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saturday and Sunday are days off.",
+            "Monday and Tuesday are days off.",
+            "Saturday and Sunday are working days."
+          ],
+          "correctAnswer": "Saturday and Sunday are days off."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shukravar tumhi kaam karta ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi shukravar kaam karto.",
+            "Nahi, mi shukravar kaam karat nahi.",
+            "Mi fakt shanivar kaam karto."
+          ],
+          "correctAnswer": "Ho, mi shukravar kaam karto.",
+          "translatedSentence": "Yes, I work on Friday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Guruvari mi ghari asto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Thursday I am at home.",
+            "On Thursday I go home.",
+            "On Friday I am at home."
+          ],
+          "correctAnswer": "On Thursday I am at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aathavdyat kiti divas astat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aathavdyat saat divas astat.",
+            "Aathavdyat paach divas astat.",
+            "Aathavdyat baara divas astat."
+          ],
+          "correctAnswer": "Aathavdyat saat divas astat.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Somvar te shukravar shala aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "School runs from Monday to Friday.",
+            "School runs from Monday to Sunday.",
+            "School runs on Saturday and Sunday."
+          ],
+          "correctAnswer": "School runs from Monday to Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal kuthla vaar hota?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal ravivar hota.",
+            "Kal shanivar hota.",
+            "Kal guruvar hota."
+          ],
+          "correctAnswer": "Kal ravivar hota.",
+          "translatedSentence": "Yesterday was Sunday."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Now and later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu atta kay kartos?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi atta cutting chai pito aahe.",
+            "Mi atta jevan karto aahe.",
+            "Mi nantar chai pinar aahe."
+          ],
+          "correctAnswer": "Mi atta cutting chai pito aahe.",
+          "translatedSentence": "I am drinking a cutting chai right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj mala khup kaam aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a lot of work today.",
+            "I have very little work today.",
+            "I have a lot of work tomorrow."
+          ],
+          "correctAnswer": "I have a lot of work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kal kuthe hota?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi kal gharich hoto.",
+            "Mi kal Mumbait hoto.",
+            "Mi udya Mumbait janar aahe."
+          ],
+          "correctAnswer": "Mi kal gharich hoto.",
+          "translatedSentence": "I was at home yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tula nantar phone karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will call you later.",
+            "I am calling you right now.",
+            "I called you yesterday."
+          ],
+          "correctAnswer": "I will call you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vada pav atta khauya ka nantar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atta khauya, mala bhook lagli aahe.",
+            "Nantar khauya, atta mala vel nahi.",
+            "Mala vada pav aavadat nahi."
+          ],
+          "correctAnswer": "Atta khauya, mala bhook lagli aahe.",
+          "translatedSentence": "Let us eat now, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Parva mi Nagpurla gelo hoto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I went to Nagpur the day before yesterday.",
+            "I am going to Nagpur the day after tomorrow.",
+            "I went to Pune the day before yesterday."
+          ],
+          "correctAnswer": "I went to Nagpur the day before yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya tu kay karnar aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Udya mi gharich aaram karnar aahe.",
+            "Kal mi gharich aaram kela.",
+            "Udya mala kahich mahit nahi."
+          ],
+          "correctAnswer": "Udya mi gharich aaram karnar aahe.",
+          "translatedSentence": "Tomorrow I am going to rest at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atta paus padto aahe, thoda thamb.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is raining now, wait a while.",
+            "It rained yesterday, wait a while.",
+            "It is raining now, let us leave."
+          ],
+          "correctAnswer": "It is raining now, wait a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal ratri tu kay kelas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal ratri mi lavkar zoplo.",
+            "Aaj ratri mi lavkar zopnar aahe.",
+            "Kal ratri mi misal khalli."
+          ],
+          "correctAnswer": "Kal ratri mi lavkar zoplo.",
+          "translatedSentence": "Last night I went to sleep early."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atta kiti vajle aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atta saade aath vajle aahet.",
+            "Atta don vajle aahet.",
+            "Atta akra vajle aahet."
+          ],
+          "correctAnswer": "Atta saade aath vajle aahet.",
+          "translatedSentence": "It is half past eight now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Local train sakali saat vajta yete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The local train comes at seven in the morning.",
+            "The local train comes at seven in the evening.",
+            "The local train leaves at seven in the morning."
+          ],
+          "correctAnswer": "The local train comes at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche kaam kiti vajta suru hote?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze kaam sakali nau vajta suru hote.",
+            "Maze kaam dupari ek vajta suru hote.",
+            "Maze kaam ratri aath vajta sampte."
+          ],
+          "correctAnswer": "Maze kaam sakali nau vajta suru hote.",
+          "translatedSentence": "My work starts at nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala paune paach vajta nighayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to leave at a quarter to five.",
+            "I have to leave at a quarter past five.",
+            "I have to leave at half past four."
+          ],
+          "correctAnswer": "I have to leave at a quarter to five."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapan sava paach vajta chai ghenar ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, sava paach la bhetu.",
+            "Nahi, tya veles mi kaamat asto.",
+            "Ho, pan mi thoda ushira yein."
+          ],
+          "correctAnswer": "Ho, sava paach la bhetu.",
+          "translatedSentence": "Yes, let us meet at a quarter past five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dupari bara vajta khup unh asta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is very hot at twelve noon.",
+            "It is very cold at twelve noon.",
+            "It is very hot at twelve at night."
+          ],
+          "correctAnswer": "It is very hot at twelve noon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dukan kiti vajta band hote?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dukan ratri daha vajta band hote.",
+            "Dukan sakali daha vajta ughadte.",
+            "Dukan sanje saat vajta band hote."
+          ],
+          "correctAnswer": "Dukan ratri daha vajta band hote.",
+          "translatedSentence": "The shop closes at ten at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala udya saade saha vajta uthayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to get up at half past six tomorrow.",
+            "I have to get up at half past seven tomorrow.",
+            "I got up at half past six today."
+          ],
+          "correctAnswer": "I have to get up at half past six tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuza varg kiti vajta sampto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maza varg paach vajta sampto.",
+            "Maza varg paach vajta suru hoto.",
+            "Maza varg saade saha vajta sampto."
+          ],
+          "correctAnswer": "Maza varg paach vajta sampto.",
+          "translatedSentence": "My class finishes at five o'clock."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuza vadhdivas kadhi aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maza vadhdivas bara March la aahe.",
+            "Maza vadhdivas bara August la aahe.",
+            "Maza vadhdivas pudhchya aathavdyat aahe."
+          ],
+          "correctAnswer": "Maza vadhdivas bara March la aahe.",
+          "translatedSentence": "My birthday is on the twelfth of March."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jun madhe Mumbait paus suru hoto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rains start in Mumbai in June.",
+            "The rains stop in Mumbai in June.",
+            "The rains start in Pune in June."
+          ],
+          "correctAnswer": "The rains start in Mumbai in June."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula konta rutu aavadto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala pavsala aavadto.",
+            "Mala hivala aavadto.",
+            "Mala unhala aavadat nahi."
+          ],
+          "correctAnswer": "Mala pavsala aavadto.",
+          "translatedSentence": "I like the monsoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "December madhe Punyat khup thandi aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It gets very cold in Pune in December.",
+            "It gets very hot in Pune in December.",
+            "It gets very cold in Pune in October."
+          ],
+          "correctAnswer": "It gets very cold in Pune in December."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali kontya mahinyat yete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Diwali saadharan October madhe yete.",
+            "Diwali saadharan March madhe yete.",
+            "Diwali saadharan January madhe yete."
+          ],
+          "correctAnswer": "Diwali saadharan October madhe yete.",
+          "translatedSentence": "Diwali usually falls in October."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Unhalyat aamhi roj ambe khato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the summer we eat mangoes every day.",
+            "In the winter we eat mangoes every day.",
+            "In the summer we drink mango juice every day."
+          ],
+          "correctAnswer": "In the summer we eat mangoes every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajchi tarikh kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj pandhra September aahe.",
+            "Aaj pandhra October aahe.",
+            "Aaj pachvis September aahe."
+          ],
+          "correctAnswer": "Aaj pandhra September aahe.",
+          "translatedSentence": "Today is the fifteenth of September."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pavsalyat local train nehmi ushira yete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the monsoon the local train is always late.",
+            "In the monsoon the local train is always on time.",
+            "In the winter the local train is always late."
+          ],
+          "correctAnswer": "In the monsoon the local train is always late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hivalyat tumhi kuthe firayla jata?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hivalyat aamhi Sahyadrit trek karto.",
+            "Hivalyat aamhi gharich basto.",
+            "Unhalyat aamhi samudra kinari jato."
+          ],
+          "correctAnswer": "Hivalyat aamhi Sahyadrit trek karto.",
+          "translatedSentence": "In winter we go trekking in the Sahyadris."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "My daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu roj kiti vajta uthtos?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi roj saade saha vajta uthto.",
+            "Mi roj ratri daha vajta zopto.",
+            "Mi roj sakali chai pito."
+          ],
+          "correctAnswer": "Mi roj saade saha vajta uthto.",
+          "translatedSentence": "I get up at half past six every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sakali mi aadhi chai pito ani mag batmya vachto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the morning I first drink tea and then read the news.",
+            "In the morning I first read the news and then drink tea.",
+            "At night I drink tea and then read the news."
+          ],
+          "correctAnswer": "In the morning I first drink tea and then read the news."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kaamavar kase jata?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi roj local train ne jato.",
+            "Mi roj chalat jato.",
+            "Mi kal bus ne gelo hoto."
+          ],
+          "correctAnswer": "Mi roj local train ne jato.",
+          "translatedSentence": "I go by local train every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dupari mi amti bhat khato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat dal and rice in the afternoon.",
+            "I eat dal and rice at night.",
+            "I cook dal and rice in the afternoon."
+          ],
+          "correctAnswer": "I eat dal and rice in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sanje tu kay kartos?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sanje mi firayla jato.",
+            "Sanje mi kaam suru karto.",
+            "Sakali mi firayla jato."
+          ],
+          "correctAnswer": "Sanje mi firayla jato.",
+          "translatedSentence": "In the evening I go for a walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratri jevlyavar mi thoda vel pustak vachto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After dinner I read a book for a while.",
+            "Before dinner I read a book for a while.",
+            "After dinner I sleep for a while."
+          ],
+          "correctAnswer": "After dinner I read a book for a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi vyayam kadhi karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi sakali saat vajta vyayam karto.",
+            "Mi kadhich vyayam karat nahi.",
+            "Mi sanje pohayla jato."
+          ],
+          "correctAnswer": "Mi sakali saat vajta vyayam karto.",
+          "translatedSentence": "I exercise at seven in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ushira zopayla aavadat nahi, karan sakali lavkar uthayche aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like sleeping late, because I have to get up early in the morning.",
+            "I like sleeping late, because I get up late in the morning.",
+            "I do not like getting up early, because I sleep late at night."
+          ],
+          "correctAnswer": "I do not like sleeping late, because I have to get up early in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shanivari tuza divas kasa asto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shanivari mi ushira uthto ani mitranna bhetto.",
+            "Shanivari mi lavkar uthto ani kaamavar jato.",
+            "Shanivari mi divasbhar gharich zopto."
+          ],
+          "correctAnswer": "Shanivari mi ushira uthto ani mitranna bhetto.",
+          "translatedSentence": "On Saturday I get up late and meet my friends."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapan udya sanje bhetuya ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho chalel, pan mala saat nantarach jamel.",
+            "Nahi, udya mala vel nahi, aapan shanivari bhetuya.",
+            "Ho, pan mi udya Nagpurla janar aahe."
+          ],
+          "correctAnswer": "Ho chalel, pan mala saat nantarach jamel.",
+          "translatedSentence": "Yes, that works, but I can only make it after seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar udya paus padla, tar aapan gharich bhetuya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, then let us meet at home instead.",
+            "If it rains tomorrow, then let us not meet at all.",
+            "It rained yesterday, so we met at home instead."
+          ],
+          "correctAnswer": "If it rains tomorrow, then let us meet at home instead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala guruvari sakali vel milel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, guruvari sakali daha vajta ya.",
+            "Maaf kara, guruvari mala vel nahi, pan shukravari jamel.",
+            "Guruvari nako, karan tya divashi mi Punyat asen."
+          ],
+          "correctAnswer": "Ho, guruvari sakali daha vajta ya.",
+          "translatedSentence": "Yes, please come at ten on Thursday morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala udya bhetayla aavdel, pan mi sanje paach nantarach mokla asen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like to meet tomorrow, but I will only be free after five in the evening.",
+            "I would like to meet tomorrow, but I will be busy after five in the evening.",
+            "I cannot meet tomorrow, because I am free only after five in the evening."
+          ],
+          "correctAnswer": "I would like to meet tomorrow, but I will only be free after five in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi tumhala kadhi phone karu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sanje aath nantar phone kara, tya aadhi mi kaamat asen.",
+            "Mi tumhala kal ratri phone kela hota.",
+            "Mala phone var bolayla aavadat nahi."
+          ],
+          "correctAnswer": "Sanje aath nantar phone kara, tya aadhi mi kaamat asen.",
+          "translatedSentence": "Call after eight in the evening, before that I will be at work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aapli bhet somvari nako, mangalvari thevuya ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us not meet on Monday, shall we keep it for Tuesday?",
+            "Let us not meet on Tuesday, shall we keep it for Monday?",
+            "Our meeting is on Monday, not on Tuesday."
+          ],
+          "correctAnswer": "Let us not meet on Monday, shall we keep it for Tuesday?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mala yayla thoda ushir hoil, chalel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalel, kahi harkat nahi, tumhi sawkash ya.",
+            "Nako, mag aapan udya bhetuya ka?",
+            "Mi pan ushira nighalo aahe, aapan tithech bhetu."
+          ],
+          "correctAnswer": "Chalel, kahi harkat nahi, tumhi sawkash ya.",
+          "translatedSentence": "That is fine, no problem, take your time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhetaychi vel badalli tar mala aadhi kalva.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the meeting time changes, let me know in advance.",
+            "If the meeting place changes, let me know in advance.",
+            "The meeting time has changed, I told you in advance."
+          ],
+          "correctAnswer": "If the meeting time changes, let me know in advance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tar mag shukravari saade saat la nakki na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho nakki, mi velevar pohochen.",
+            "Ho, pan mala thoda ushir hoil, tumhi thamba.",
+            "Nahi, shukravari nako, shanivari bhetuya."
+          ],
+          "correctAnswer": "Ho nakki, mi velevar pohochen.",
+          "translatedSentence": "Yes, it is fixed, I will reach on time."
+        }
+      ]
+    }
+  ]
+}

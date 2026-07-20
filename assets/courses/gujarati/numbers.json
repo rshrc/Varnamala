@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Ek thi das",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamare ketla thepla joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane be thepla joie che.",
+            "Hu thepla banavu chu.",
+            "Thepla ahin nathi malta."
+          ],
+          "correctAnswer": "Mane be thepla joie che.",
+          "translatedSentence": "I would like two theplas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari pase tran chopdio che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have three books.",
+            "I want three books.",
+            "I have three bags."
+          ],
+          "correctAnswer": "I have three books."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa dukan ma ketla loko che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa dukan ma char loko che.",
+            "Aa dukan bahu moti che.",
+            "Hu dukan ma kam karu chu."
+          ],
+          "correctAnswer": "Aa dukan ma char loko che.",
+          "translatedSentence": "There are four people in this shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghar ma panch jan rahe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Five people live in our house.",
+            "There are five rooms in our house.",
+            "Five people came to our house."
+          ],
+          "correctAnswer": "Five people live in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne ketla bhai bahen che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane be bahen ane ek bhai che.",
+            "Maro bhai Surat ma rahe che.",
+            "Mari bahen aaje avvani che."
+          ],
+          "correctAnswer": "Mane be bahen ane ek bhai che.",
+          "translatedSentence": "I have two sisters and one brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj chha glass pani piu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink six glasses of water every day.",
+            "I drink six cups of tea every day.",
+            "I drink water six times a week."
+          ],
+          "correctAnswer": "I drink six glasses of water every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek athvadiya ma saat divas hoy che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are seven days in a week.",
+            "There are seven weeks in a month.",
+            "I work seven days a week."
+          ],
+          "correctAnswer": "There are seven days in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa thali ma ketla dhokla che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa thali ma aath dhokla che.",
+            "Dhokla hju garam che.",
+            "Mane dhokla bahu bhave che."
+          ],
+          "correctAnswer": "Aa thali ma aath dhokla che.",
+          "translatedSentence": "There are eight dhoklas on this plate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase ketli pen che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari pase nav pen che.",
+            "Mari pase das pencil che.",
+            "Mane navi pen joie che."
+          ],
+          "correctAnswer": "Mari pase nav pen che.",
+          "translatedSentence": "I have nine pens."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Agiyar thi so",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamare ketla kela joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane bar kela joie che.",
+            "Kela hju kacha che.",
+            "Hu roj ek kelu khau chu."
+          ],
+          "correctAnswer": "Mane bar kela joie che.",
+          "translatedSentence": "I would like a dozen bananas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa thela ma agiyar kerio che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are eleven mangoes in this bag.",
+            "There are eleven bags of mangoes.",
+            "I bought eleven mangoes today."
+          ],
+          "correctAnswer": "There are eleven mangoes in this bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa bus ma ketla musafiro che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa bus ma pandar musafiro che.",
+            "Aa bus ma pachas seat che.",
+            "Aa bus Vadodara jai che."
+          ],
+          "correctAnswer": "Aa bus ma pandar musafiro che.",
+          "translatedSentence": "There are fifteen passengers on this bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari mummy roj vees rotli banave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother makes twenty rotlis every day.",
+            "My mother makes twenty theplas every day.",
+            "My mother made twenty rotlis today."
+          ],
+          "correctAnswer": "My mother makes twenty rotlis every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari society ma ketla flat che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amari society ma tris flat che.",
+            "Amari society Ahmedabad ma che.",
+            "Hu aa society ma navo chu."
+          ],
+          "correctAnswer": "Amari society ma tris flat che.",
+          "translatedSentence": "There are thirty flats in our society."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amare tya sattar loko jamva ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seventeen people are coming to eat at our place.",
+            "Seventy people are coming to eat at our place.",
+            "Seventeen people live at our place."
+          ],
+          "correctAnswer": "Seventeen people are coming to eat at our place."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aaje ketla kilometer chalya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu chaud kilometer chalyo.",
+            "Hu roj sanje chalva jau chu.",
+            "Mane chalva nu bahu game che."
+          ],
+          "correctAnswer": "Hu chaud kilometer chalyo.",
+          "translatedSentence": "I walked fourteen kilometres."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa varg ma sol chhokra ane chaud chhokrio che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are sixteen boys and fourteen girls in this class.",
+            "There are fourteen boys and sixteen girls in this class.",
+            "There are sixteen students in this class."
+          ],
+          "correctAnswer": "There are sixteen boys and fourteen girls in this class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa chopdi ma ketla pana che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa chopdi ma so pana che.",
+            "Aa chopdi ma photo nathi.",
+            "Hu aa chopdi roj vanchu chu."
+          ],
+          "correctAnswer": "Aa chopdi ma so pana che.",
+          "translatedSentence": "This book has a hundred pages."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Aa ketla nu che",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa keri ketla rupiya kilo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa keri saith rupiya kilo che.",
+            "Aa keri Valsad thi ave che.",
+            "Keri atyare bahu mithi che."
+          ],
+          "correctAnswer": "Aa keri saith rupiya kilo che.",
+          "translatedSentence": "These mangoes are sixty rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek kilo dhokla na sattar rupiya thay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One kilo of dhokla costs seventy rupees.",
+            "One kilo of dhokla costs seventeen rupees.",
+            "One plate of dhokla costs seventy rupees."
+          ],
+          "correctAnswer": "One kilo of dhokla costs seventy rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa shirt ketla nu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa shirt panch so rupiya nu che.",
+            "Aa shirt maru maap nathi.",
+            "Mane aa rang nathi gamto."
+          ],
+          "correctAnswer": "Aa shirt panch so rupiya nu che.",
+          "translatedSentence": "This shirt costs five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa bahu maghu che, thodu ochhu karo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too expensive, please bring the price down a little.",
+            "This is very cheap, please give me a little more.",
+            "This is too expensive, I will not buy it."
+          ],
+          "correctAnswer": "This is too expensive, please bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "To tame ketla rupiya apsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu tamne tran so rupiya apish.",
+            "Hu kale pacho avish.",
+            "Mane aa vastu bahu game che."
+          ],
+          "correctAnswer": "Hu tamne tran so rupiya apish.",
+          "translatedSentence": "I will give you three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa dukan ma badhu sastu male che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is cheap in this shop.",
+            "Everything is expensive in this shop.",
+            "Everything in this shop is new."
+          ],
+          "correctAnswer": "Everything is cheap in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "So rupiya ma ketla thepla male?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "So rupiya ma das thepla male.",
+            "Thepla savare taja bane che.",
+            "Amara thepla bahu vakhanay che."
+          ],
+          "correctAnswer": "So rupiya ma das thepla male.",
+          "translatedSentence": "You get ten theplas for a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mare pachas rupiya ni chaas joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want fifty rupees worth of buttermilk.",
+            "I want fifteen rupees worth of buttermilk.",
+            "I want to buy fifty glasses of buttermilk."
+          ],
+          "correctAnswer": "I want fifty rupees worth of buttermilk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase chhutta rupiya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mari pase chhutta nathi.",
+            "Ha, dukan sanje bandh thay che.",
+            "Na, hu aa vastu nathi leto."
+          ],
+          "correctAnswer": "Na, mari pase chhutta nathi.",
+          "translatedSentence": "No, I do not have any change."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Umar ane phone number",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari umar ketli che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari umar trees varsh ni che.",
+            "Maro janamdivas aavti kale che.",
+            "Hu Ahmedabad ma motto thayo chu."
+          ],
+          "correctAnswer": "Mari umar trees varsh ni che.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro dikro saat varsh no che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is seven years old.",
+            "My son is seventeen years old.",
+            "My brother is seven years old."
+          ],
+          "correctAnswer": "My son is seven years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro phone number shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu tamne maro number message ma mokli du chu.",
+            "Maro phone ghare rahi gayo che.",
+            "Hu phone par bahu vat karu chu."
+          ],
+          "correctAnswer": "Hu tamne maro number message ma mokli du chu.",
+          "translatedSentence": "I will send you my number in a message."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane tamaro number yaad nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not remember your number.",
+            "I do not have your number.",
+            "I did not write down your number."
+          ],
+          "correctAnswer": "I do not remember your number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamare ketlu dudh joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane aadhu litre dudh joie che.",
+            "Dudh hju garam che.",
+            "Hu dudh ma sakar nakhu chu."
+          ],
+          "correctAnswer": "Mane aadhu litre dudh joie che.",
+          "translatedSentence": "I need half a litre of milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thodu mithu nakho, vadhare nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Add a little salt, not too much.",
+            "Add a lot of salt, not a little.",
+            "Do not add any salt at all."
+          ],
+          "correctAnswer": "Add a little salt, not too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara dada ni umar ketli thai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emni umar ainsi varsh thai.",
+            "Emne patang chagavva nu game che.",
+            "Ema amari sathe Vadodara ma rahe che."
+          ],
+          "correctAnswer": "Emni umar ainsi varsh thai.",
+          "translatedSentence": "He has turned eighty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghana loko Uttarayan par patang chagave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A lot of people fly kites on Uttarayan.",
+            "A few people fly kites on Uttarayan.",
+            "A lot of people buy kites on Uttarayan."
+          ],
+          "correctAnswer": "A lot of people fly kites on Uttarayan."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketla varsh thi ahin raho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu ahin pandar varsh thi rahu chu.",
+            "Mane aa saher bahu game che.",
+            "Hu Surat ma janmyo hato."
+          ],
+          "correctAnswer": "Hu ahin pandar varsh thi rahu chu.",
+          "translatedSentence": "I have been living here for fifteen years."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Ketla vagya che",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atyare ketla vagya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atyare nav vagya che.",
+            "Maro ghadiyal bandh thai gayo che.",
+            "Mane bahu moddu thai gayu."
+          ],
+          "correctAnswer": "Atyare nav vagya che.",
+          "translatedSentence": "It is nine o'clock right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj sadha chha vagye uthu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at half past six every day.",
+            "I get up at six o'clock every day.",
+            "I go to sleep at half past six every day."
+          ],
+          "correctAnswer": "I get up at half past six every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketla vagye office javana cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu savva nav vagye nikalish.",
+            "Maru office ghar thi dur che.",
+            "Hu aaje office nathi javano."
+          ],
+          "correctAnswer": "Hu savva nav vagye nikalish.",
+          "translatedSentence": "I will leave at a quarter past nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Surat ni train savva bar vagye upade che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train to Surat leaves at a quarter past twelve.",
+            "The train to Surat leaves at half past twelve.",
+            "The train to Surat reaches at a quarter past twelve."
+          ],
+          "correctAnswer": "The train to Surat leaves at a quarter past twelve."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa dukan ketla vagye khule che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa dukan das vagye khule che.",
+            "Aa dukan ravivare bandh rahe che.",
+            "Aa dukan mari society pase che."
+          ],
+          "correctAnswer": "Aa dukan das vagye khule che.",
+          "translatedSentence": "This shop opens at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame sanje pona saat vagye male chie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We meet at a quarter to seven in the evening.",
+            "We meet at a quarter past seven in the evening.",
+            "We meet at seven o'clock in the evening."
+          ],
+          "correctAnswer": "We meet at a quarter to seven in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ahmedabad thi Vadodara javama ketlo samay lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train ma be kalak lage che.",
+            "Hu Vadodara pehli var jau chu.",
+            "Vadodara nu jamvanu bahu saru che."
+          ],
+          "correctAnswer": "Train ma be kalak lage che.",
+          "translatedSentence": "It takes two hours by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sabarmati riverfront par sanje chha vagye ghana loko chale che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A lot of people walk on the Sabarmati riverfront at six in the evening.",
+            "A lot of people walk on the Sabarmati riverfront at six in the morning.",
+            "A few people walk on the Sabarmati riverfront at six in the evening."
+          ],
+          "correctAnswer": "A lot of people walk on the Sabarmati riverfront at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kale ketla vagye phone karsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu kale savare aath vagye phone karish.",
+            "Kale maro phone bandh hato.",
+            "Hu tamne message kari dais."
+          ],
+          "correctAnswer": "Hu kale savare aath vagye phone karish.",
+          "translatedSentence": "I will call you at eight tomorrow morning."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Vadhare, ochhu, kul",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa be dukan ma thi kai sasti che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa dukan sasti che kem ke ahin bhav ochha che.",
+            "Bane dukan sarkhi che, pan aa moti che.",
+            "Mane bija dukan ma javu nathi gamtu."
+          ],
+          "correctAnswer": "Aa dukan sasti che kem ke ahin bhav ochha che.",
+          "translatedSentence": "This shop is cheaper because the prices here are lower."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame be kilo lesho to hu pachas rupiya ochha karish.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you take two kilos, I will take fifty rupees off.",
+            "If you take two kilos, I will charge fifty rupees more.",
+            "If you take fifty kilos, I will give you two free."
+          ],
+          "correctAnswer": "If you take two kilos, I will take fifty rupees off."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Badhu mali ne kul ketla rupiya thaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kul tran so vees rupiya thaya.",
+            "Mare bill nathi joitu, aabhar.",
+            "Hu paisa kale api dais."
+          ],
+          "correctAnswer": "Kul tran so vees rupiya thaya.",
+          "translatedSentence": "It comes to three hundred and twenty rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa varshe gaya varsh karta vadhare loko patang kharidva avya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "More people came to buy kites this year than last year.",
+            "Fewer people came to buy kites this year than last year.",
+            "The same number of people came to buy kites as last year."
+          ],
+          "correctAnswer": "More people came to buy kites this year than last year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mare vadhare dhokla joie che, pan mari pase paisa ochha che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta na karo, baki na paisa tame kale api desho.",
+            "To pachi tame kale savare pacha avjo.",
+            "Amare tya dhokla savare j bani jay che."
+          ],
+          "correctAnswer": "Chinta na karo, baki na paisa tame kale api desho.",
+          "translatedSentence": "Do not worry, you can pay me the rest tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mare vadhare nathi joitu, thodu apsho to pan chalse.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not need much, a little will do.",
+            "I do not want any, please do not give me some.",
+            "I need a lot, a little will not do."
+          ],
+          "correctAnswer": "I do not need much, a little will do."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Undhiyu ane dhokla ma thi tamne shu vadhare bhave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane undhiyu vadhare bhave che, pan dhokla halka pade che.",
+            "Undhiyu fakt shiyala ma j saru male che.",
+            "Hu roj savare dhokla ane chaas lau chu."
+          ],
+          "correctAnswer": "Mane undhiyu vadhare bhave che, pan dhokla halka pade che.",
+          "translatedSentence": "I like undhiyu more, but dhokla is lighter on the stomach."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gir ma sinh ni sankhya pehla karta ghani vadhi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The number of lions in Gir has gone up a lot compared to before.",
+            "The number of lions in Gir has gone down a lot compared to before.",
+            "The number of lions in Gir is the same as before."
+          ],
+          "correctAnswer": "The number of lions in Gir has gone up a lot compared to before."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne aa bhav manjur che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, manjur che, pan thoda ochha karo to vadhare saru.",
+            "Na, mane atli badhi vastu nathi joiti.",
+            "Ha, hu kale sanje aavi ne lai jaish."
+          ],
+          "correctAnswer": "Ha, manjur che, pan thoda ochha karo to vadhare saru.",
+          "translatedSentence": "Yes, that works, but it would be even better if you brought it down a little."
+        }
+      ]
+    }
+  ]
+}

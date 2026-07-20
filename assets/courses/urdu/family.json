@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Ammi, Abbu, Bhai, Behen",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh aap ki ammi hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, yeh meri ammi hain.",
+            "Ji nahin, yeh meri behen hai.",
+            "Ji haan, yeh mera bhai hai."
+          ],
+          "correctAnswer": "Ji haan, yeh meri ammi hain.",
+          "translatedSentence": "Yes, this is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera bhai bahut acha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is very nice.",
+            "My sister is very nice.",
+            "My father is very nice."
+          ],
+          "correctAnswer": "My brother is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke kitne bhai hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere do bhai hain.",
+            "Meri do behnein hain.",
+            "Mere paas do kitaben hain."
+          ],
+          "correctAnswer": "Mere do bhai hain.",
+          "translatedSentence": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri behen Lucknow mein rehti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister lives in Lucknow.",
+            "My sister works in Lucknow.",
+            "My mother lives in Lucknow."
+          ],
+          "correctAnswer": "My sister lives in Lucknow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke abbu kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh theek hain, shukriya.",
+            "Main theek hoon, shukriya.",
+            "Woh mere abbu hain."
+          ],
+          "correctAnswer": "Woh theek hain, shukriya.",
+          "translatedSentence": "He is well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammi is waqt ghar par hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is at home right now.",
+            "Father is at home right now.",
+            "Mother is at work right now."
+          ],
+          "correctAnswer": "Mother is at home right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tasveer mein yeh kaun hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh meri choti behen hai.",
+            "Yeh mera naya ghar hai.",
+            "Yeh meri purani kitab hai."
+          ],
+          "correctAnswer": "Yeh meri choti behen hai.",
+          "translatedSentence": "This is my little sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere abbu roz subah chai peete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father drinks tea every morning.",
+            "My father makes tea every morning.",
+            "My brother drinks tea every morning."
+          ],
+          "correctAnswer": "My father drinks tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki behen ka naam kya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Us ka naam Ayesha hai.",
+            "Mera naam Ayesha hai.",
+            "Woh Karachi mein rehti hai."
+          ],
+          "correctAnswer": "Us ka naam Ayesha hai.",
+          "translatedSentence": "Her name is Ayesha."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yeh Kis Ka Hai",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh kitab kis ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh meri behen ki kitab hai.",
+            "Yeh kitab bahut achi hai.",
+            "Meri behen kitab parh rahi hai."
+          ],
+          "correctAnswer": "Yeh meri behen ki kitab hai.",
+          "translatedSentence": "This is my sister's book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh mere bhai ka phone hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my brother's phone.",
+            "This is my father's phone.",
+            "This is my brother's room."
+          ],
+          "correctAnswer": "This is my brother's phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh chai aap ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji nahin, yeh ammi ki chai hai.",
+            "Ji nahin, mujhe chai nahin chahiye.",
+            "Ji haan, chai bahut garam hai."
+          ],
+          "correctAnswer": "Ji nahin, yeh ammi ki chai hai.",
+          "translatedSentence": "No, this is my mother's tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh gaari mere abbu ki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That car is my father's.",
+            "That car is my brother's.",
+            "That house is my father's."
+          ],
+          "correctAnswer": "That car is my father's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh ghar kis ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh hamara ghar hai.",
+            "Yeh ghar Lucknow mein hai.",
+            "Yeh ghar bahut purana hai."
+          ],
+          "correctAnswer": "Yeh hamara ghar hai.",
+          "translatedSentence": "This is our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh chaabi meri behen ki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This key is my sister's.",
+            "This key is my mother's.",
+            "This bag is my sister's."
+          ],
+          "correctAnswer": "This key is my sister's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh aap ke bhai ka kamra hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, yeh us ka kamra hai.",
+            "Ji haan, yeh mera kamra hai.",
+            "Ji nahin, mera bhai ghar par nahin hai."
+          ],
+          "correctAnswer": "Ji haan, yeh us ka kamra hai.",
+          "translatedSentence": "Yes, this is his room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh tasveer hamare puray khandan ki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is a photo of our whole family.",
+            "This is a photo of our old house.",
+            "This is a letter from our whole family."
+          ],
+          "correctAnswer": "This is a photo of our whole family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "In mein se aap ka kamra kaun sa hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh wala kamra mera hai.",
+            "Mera kamra bahut bara hai.",
+            "Main apne bhai ke saath rehta hoon."
+          ],
+          "correctAnswer": "Yeh wala kamra mera hai.",
+          "translatedSentence": "This one is my room."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Shaadi Aur Bachche",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ki shaadi ho gayi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, meri shaadi ho gayi hai.",
+            "Ji haan, meri behen ki shaadi ho gayi hai.",
+            "Ji nahin, main abhi ghar par nahin hoon."
+          ],
+          "correctAnswer": "Ji haan, meri shaadi ho gayi hai.",
+          "translatedSentence": "Yes, I am married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere do bachche hain, ek beta aur ek beti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two children, a son and a daughter.",
+            "I have two sons and one daughter.",
+            "I have two children, both daughters."
+          ],
+          "correctAnswer": "I have two children, a son and a daughter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke kitne bachche hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere teen bachche hain.",
+            "Mere teen bhai hain.",
+            "Mera beta teen saal ka hai."
+          ],
+          "correctAnswer": "Mere teen bachche hain.",
+          "translatedSentence": "I have three children."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri beti abhi bahut choti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is still very young.",
+            "My son is still very young.",
+            "My daughter is very short."
+          ],
+          "correctAnswer": "My daughter is still very young."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke bete ki umar kya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh paanch saal ka hai.",
+            "Meri umar paanch saal hai.",
+            "Woh abhi school nahin jaata."
+          ],
+          "correctAnswer": "Woh paanch saal ka hai.",
+          "translatedSentence": "He is five years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri behen ki shaadi agle saal hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is getting married next year.",
+            "My sister got married last year.",
+            "My brother is getting married next year."
+          ],
+          "correctAnswer": "My sister is getting married next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki shaadi kahan hui thi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyderabad mein, hamare purane ghar mein.",
+            "Agle mahine Hyderabad mein.",
+            "Ji haan, meri shaadi ko dus saal ho gaye."
+          ],
+          "correctAnswer": "Hyderabad mein, hamare purane ghar mein.",
+          "translatedSentence": "In Hyderabad, at our old house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera beta abhi tak shaadi shuda nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is not married yet.",
+            "My daughter is not married yet.",
+            "My son is getting married soon."
+          ],
+          "correctAnswer": "My son is not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke bhai ke bachche hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, us ki ek beti hai.",
+            "Ji haan, us ke do bhai hain.",
+            "Ji nahin, us ka ghar bahut chota hai."
+          ],
+          "correctAnswer": "Ji haan, us ki ek beti hai.",
+          "translatedSentence": "Yes, he has one daughter."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Dada, Dadi Aur Chacha",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke dada abbu kahan rehte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh Lucknow mein rehte hain.",
+            "Woh mere abbu ke chacha hain.",
+            "Main Lucknow mein rehta hoon."
+          ],
+          "correctAnswer": "Woh Lucknow mein rehte hain.",
+          "translatedSentence": "He lives in Lucknow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri dadi bahut achi nihari banati hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother makes very good nihari.",
+            "My grandmother likes nihari very much.",
+            "My mother makes very good nihari."
+          ],
+          "correctAnswer": "My grandmother makes very good nihari."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh khatoon aap ki kya lagti hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh meri khala hain, ammi ki behen.",
+            "Yeh mere chacha hain, abbu ke bhai.",
+            "Yeh meri choti beti hai."
+          ],
+          "correctAnswer": "Yeh meri khala hain, ammi ki behen.",
+          "translatedSentence": "She is my aunt, my mother's sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere chacha Karachi mein kaam karte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle works in Karachi.",
+            "My uncle lives in Karachi.",
+            "My cousin works in Karachi."
+          ],
+          "correctAnswer": "My uncle works in Karachi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap apne nana se kitni baar milte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Har eid par, main un ke ghar jaata hoon.",
+            "Woh mere abbu ke abbu hain.",
+            "Un ka ghar Delhi mein hai."
+          ],
+          "correctAnswer": "Har eid par, main un ke ghar jaata hoon.",
+          "translatedSentence": "Every Eid, I go to their house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri phupi hamesha hamare liye sheer khurma bhejti hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt always sends us sheer khurma.",
+            "My aunt always makes us sheer khurma.",
+            "My aunt sometimes sends us sheer khurma."
+          ],
+          "correctAnswer": "My aunt always sends us sheer khurma."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh larka aap ka kya lagta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh mera cousin hai, khala ka beta.",
+            "Yeh mera bhai hai, ammi ka beta.",
+            "Yeh mere mamu ka ghar hai."
+          ],
+          "correctAnswer": "Yeh mera cousin hai, khala ka beta.",
+          "translatedSentence": "He is my cousin, my aunt's son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamare mamu har juma ko phone karte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our uncle calls every Friday.",
+            "Our uncle visits us every Friday.",
+            "Our uncle called us last Friday."
+          ],
+          "correctAnswer": "Our uncle calls every Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ka khandan bara hai ya chota?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut bara, hamare khandan mein pandrah log hain.",
+            "Bahut bara, hamara ghar pandrah saal purana hai.",
+            "Chota hai, mere sirf do bhai hain."
+          ],
+          "correctAnswer": "Bahut bara, hamare khandan mein pandrah log hain.",
+          "translatedSentence": "Very big, there are fifteen people in our family."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Ghar Walon Ka Kaam",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke abbu kya kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh ek school mein ustad hain.",
+            "Woh subah chai peete hain.",
+            "Woh mere chacha ke saath rehte hain."
+          ],
+          "correctAnswer": "Woh ek school mein ustad hain.",
+          "translatedSentence": "He is a teacher at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri ammi ek hospital mein doctor hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is a doctor at a hospital.",
+            "My mother is a nurse at a hospital.",
+            "My sister is a doctor at a hospital."
+          ],
+          "correctAnswer": "My mother is a doctor at a hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki behen aaj kal kya kar rahi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh Delhi mein parhti hai aur doctor banna chahti hai.",
+            "Woh Delhi mein apne shauhar ke saath rehti hai.",
+            "Us ka naam Fatima hai aur woh choti hai."
+          ],
+          "correctAnswer": "Woh Delhi mein parhti hai aur doctor banna chahti hai.",
+          "translatedSentence": "She studies in Delhi and wants to become a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera bara bhai apni dukan chalata hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My older brother runs his own shop.",
+            "My older brother works at a shop.",
+            "My younger brother runs his own shop."
+          ],
+          "correctAnswer": "My older brother runs his own shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki dadi din bhar kya karti hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh subah namaz parhti hain aur phir bagh mein baithti hain.",
+            "Woh sara din daftar mein kaam karti hain.",
+            "Woh hamare saath Karachi ja rahi hain."
+          ],
+          "correctAnswer": "Woh subah namaz parhti hain aur phir bagh mein baithti hain.",
+          "translatedSentence": "She prays in the morning and then sits in the garden."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere chacha shaam ko bachchon ko urdu parhate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle teaches the children Urdu in the evening.",
+            "My uncle studies Urdu with the children in the evening.",
+            "My uncle teaches the children Urdu in the morning."
+          ],
+          "correctAnswer": "My uncle teaches the children Urdu in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ki ammi naukri karti hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji nahin, woh ghar sambhalti hain.",
+            "Ji nahin, woh abhi bazaar gayi hain.",
+            "Ji haan, woh hospital ke qareeb rehti hain."
+          ],
+          "correctAnswer": "Ji nahin, woh ghar sambhalti hain.",
+          "translatedSentence": "No, she looks after the home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri khala Hyderabad ke ek college mein parhati hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt teaches at a college in Hyderabad.",
+            "My aunt studies at a college in Hyderabad.",
+            "My aunt works at a school in Hyderabad."
+          ],
+          "correctAnswer": "My aunt teaches at a college in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke bhai ko apna kaam pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, lekin us mein waqt bahut lagta hai.",
+            "Haan, us ki dukan ghar ke qareeb hai.",
+            "Nahin, us ke abhi koi bachche nahin hain."
+          ],
+          "correctAnswer": "Haan, lekin us mein waqt bahut lagta hai.",
+          "translatedSentence": "Yes, but it takes up a lot of time."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Milna Aur Ghar Ki Khabar",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap agle mahine ghar ja rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, agar chuttiyan mil gayin to main Lucknow jaunga.",
+            "Ji haan, main abhi daftar ja raha hoon.",
+            "Ji nahin, mera ghar yahan se bahut door hai."
+          ],
+          "correctAnswer": "Ji haan, agar chuttiyan mil gayin to main Lucknow jaunga.",
+          "translatedSentence": "Yes, if I get leave I will go to Lucknow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammi ka phone aaya tha, ghar par sab theek hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother called, and everyone at home is fine.",
+            "Mother wrote to say that everyone at home is fine.",
+            "Mother called, but nobody was at home."
+          ],
+          "correctAnswer": "Mother called, and everyone at home is fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki dadi ki tabiyat ab kaisi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ab behtar hain, lekin dawa abhi tak chal rahi hai.",
+            "Ab behtar hain, woh kal Karachi se aayi thin.",
+            "Woh hamesha achi biryani banati hain."
+          ],
+          "correctAnswer": "Ab behtar hain, lekin dawa abhi tak chal rahi hai.",
+          "translatedSentence": "She is better now, but she is still on medication."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere cousin ki shaadi mein sara khandan Hyderabad jama hoga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The whole family will gather in Hyderabad for my cousin's wedding.",
+            "The whole family gathered in Hyderabad for my cousin's wedding.",
+            "My cousin's whole family lives in Hyderabad."
+          ],
+          "correctAnswer": "The whole family will gather in Hyderabad for my cousin's wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke bhai kab tashreef la rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Agar tickat mil gaya to woh eid se pehle aayenge.",
+            "Woh pichle saal eid par aaye the.",
+            "Un ki dukan eid par band rehti hai."
+          ],
+          "correctAnswer": "Agar tickat mil gaya to woh eid se pehle aayenge.",
+          "translatedSentence": "If he gets a ticket, he will come before Eid."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main har itwar ko ammi abbu se baat karta hoon kyunki woh bahut door rehte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I talk to my parents every Sunday because they live very far away.",
+            "I visit my parents every Sunday because they live very far away.",
+            "I talk to my parents every Sunday, but they live very far away."
+          ],
+          "correctAnswer": "I talk to my parents every Sunday because they live very far away."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki khala ke ghar mushaira kab hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is jume ki raat ko, aap zaroor tashreef laiye.",
+            "Ji haan, mujhe shayari bahut pasand hai.",
+            "Un ka ghar Delhi mein hamare ghar ke qareeb hai."
+          ],
+          "correctAnswer": "Is jume ki raat ko, aap zaroor tashreef laiye.",
+          "translatedSentence": "This Friday night, please do come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri behen ne kaha hai ke woh bachchon ko sath le kar aayegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister has said that she will bring the children along.",
+            "My sister has said that she will come without the children.",
+            "My sister has asked me to bring the children along."
+          ],
+          "correctAnswer": "My sister has said that she will bring the children along."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghar ki aur kya khabar hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sab khairiyat hai, bas abbu ka kaam thora barh gaya hai.",
+            "Ghar bahut purana hai, lekin bahut acha hai.",
+            "Main abhi ghar nahin ja sakta, mujhe maaf kijiye."
+          ],
+          "correctAnswer": "Sab khairiyat hai, bas abbu ka kaam thora barh gaya hai.",
+          "translatedSentence": "Everyone is well; it is just that Father's work has increased a bit."
+        }
+      ]
+    }
+  ]
+}

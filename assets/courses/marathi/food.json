@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula bhook lagli ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala khup bhook lagli aahe.",
+            "Nahi, mala fakt tahan lagli aahe.",
+            "Nahi, mi attach jevan kele."
+          ],
+          "correctAnswer": "Ho, mala khup bhook lagli aahe.",
+          "translatedSentence": "Yes, I am very hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala pani pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like some water.",
+            "I would like some tea.",
+            "I would like some rice."
+          ],
+          "correctAnswer": "I would like some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi chaha ghenar ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ek cutting chai chalel.",
+            "Nahi, mala fakt pani dya.",
+            "Ho, pan sakhar kami taka."
+          ],
+          "correctAnswer": "Ho, ek cutting chai chalel.",
+          "translatedSentence": "Yes, one cutting chai would be great."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala amti bhat aavadto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like dal and rice.",
+            "I like hot tea.",
+            "I like cold water."
+          ],
+          "correctAnswer": "I like dal and rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula kay pahije, chaha ki pani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala chaha pahije.",
+            "Mala bhook lagli aahe.",
+            "Mala kahi nako."
+          ],
+          "correctAnswer": "Mala chaha pahije.",
+          "translatedSentence": "I would like tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala khup tahan lagli aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very thirsty.",
+            "I am very hungry.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jevanat kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhat ani bhaji aahe.",
+            "Chaha ani pani aahe.",
+            "Mala mahit nahi."
+          ],
+          "correctAnswer": "Bhat ani bhaji aahe.",
+          "translatedSentence": "There is rice and vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thoda pani dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little water.",
+            "Please give me a little tea.",
+            "Please give me a little rice."
+          ],
+          "correctAnswer": "Please give me a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajun bhat pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, thoda ajun dya.",
+            "Ho, mala tahan lagli aahe.",
+            "Nahi, mala chaha aavadto."
+          ],
+          "correctAnswer": "Ho, thoda ajun dya.",
+          "translatedSentence": "Yes, give me a little more."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bola, kay dyaycha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Don cutting chai dya.",
+            "Mala bill dya.",
+            "Mi ithe basto."
+          ],
+          "correctAnswer": "Don cutting chai dya.",
+          "translatedSentence": "Give me two cutting chais."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek vada pav ani ek chaha dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me one vada pav and one tea.",
+            "Give me two vada pav and one tea.",
+            "Give me one vada pav and one water."
+          ],
+          "correctAnswer": "Give me one vada pav and one tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chaha parcel karu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ithech dya, mi ubha rahun pito.",
+            "Ho, mala don vada pav dya.",
+            "Nahi, mala chaha aavadat nahi."
+          ],
+          "correctAnswer": "Nahi, ithech dya, mi ubha rahun pito.",
+          "translatedSentence": "No, give it to me here, I will drink it standing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kiti paise zhale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does it come to?",
+            "How many people are there?",
+            "How much time will it take?"
+          ],
+          "correctAnswer": "How much does it come to?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pannas rupaye zhale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha ghya, shambhar rupaye.",
+            "Mala ajun ek chaha dya.",
+            "Misal khup tikhat aahe."
+          ],
+          "correctAnswer": "Ha ghya, shambhar rupaye.",
+          "translatedSentence": "Here you go, a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sutte aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have change?",
+            "Do you have tea?",
+            "Is the shop open?"
+          ],
+          "correctAnswer": "Do you have change?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vada pav sampla aahe, misal chalel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mag ek misal pav dya.",
+            "Nahi, mi dusrikade baghto.",
+            "Ho, mala sutte pahije aahet."
+          ],
+          "correctAnswer": "Ho, mag ek misal pav dya.",
+          "translatedSentence": "Yes, then give me one misal pav."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thoda thamba, mi paise deto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wait a moment, I will pay.",
+            "Wait a moment, I will come.",
+            "Sit down, I will pay."
+          ],
+          "correctAnswer": "Wait a moment, I will pay."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajun kahi pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, evdhech pure, dhanyavaad.",
+            "Ho, mi ithe roj yeto.",
+            "Nahi, dukan band aahe."
+          ],
+          "correctAnswer": "Nahi, evdhech pure, dhanyavaad.",
+          "translatedSentence": "No, that is all, thank you."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy sweet and salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhaji kashi zhali aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaan zhali aahe, pan thodi tikhat aahe.",
+            "Mala bhaji banavta yet nahi.",
+            "Bhaji sampli aahe."
+          ],
+          "correctAnswer": "Chaan zhali aahe, pan thodi tikhat aahe.",
+          "translatedSentence": "It has turned out lovely, but it is a little spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He khup tikhat aahe, mala pani dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very spicy, please give me water.",
+            "This is very sweet, please give me water.",
+            "This is very hot, please give me tea."
+          ],
+          "correctAnswer": "This is very spicy, please give me water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula god aavadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala puran poli khup aavadte.",
+            "Nahi, mala mith jast aavadat nahi.",
+            "Ho, mala chaha kadu lagto."
+          ],
+          "correctAnswer": "Ho, mala puran poli khup aavadte.",
+          "translatedSentence": "Yes, I love puran poli."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amtit mith kami aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is not enough salt in the dal.",
+            "There is too much salt in the dal.",
+            "There is not enough sugar in the tea."
+          ],
+          "correctAnswer": "There is not enough salt in the dal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chahat sakhar kiti takaychi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thodi taka, mala jast god nako.",
+            "Don chamche taka, mala god chaha aavadto.",
+            "Mala chaha aavadat nahi."
+          ],
+          "correctAnswer": "Thodi taka, mala jast god nako.",
+          "translatedSentence": "Put in just a little, I do not want it too sweet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala jast tikhat chalat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot handle food that is too spicy.",
+            "I cannot handle food that is too sweet.",
+            "I do not like food that is too salty."
+          ],
+          "correctAnswer": "I cannot handle food that is too spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Misal tikhat aahe, dahi deu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, dya, mhanje tikhat kami hoil.",
+            "Nahi, ajun tikhat kara.",
+            "Ho, mala sutte dya."
+          ],
+          "correctAnswer": "Ho, dya, mhanje tikhat kami hoil.",
+          "translatedSentence": "Yes, please do, that will make it less spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chaha khup garam aahe, thoda thanda hou dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tea is very hot, let it cool down a little.",
+            "The tea is very sweet, let it cool down a little.",
+            "The water is very hot, let it cool down a little."
+          ],
+          "correctAnswer": "The tea is very hot, let it cool down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jevan kase vatle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khup chaan hote, chav ekdam mast hoti.",
+            "Mala jevan banavayche aahe.",
+            "Jevan garam nahi aahe."
+          ],
+          "correctAnswer": "Khup chaan hote, chav ekdam mast hoti.",
+          "translatedSentence": "It was excellent, the taste was really great."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In the restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, kiti jan aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamhi don jan aahot, table milel ka?",
+            "Mala menu card pahije aahe.",
+            "Aamhala lawkar bill dya."
+          ],
+          "correctAnswer": "Aamhi don jan aahot, table milel ka?",
+          "translatedSentence": "There are two of us, can we get a table?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Menu card milel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could we get the menu, please?",
+            "Could we get the bill, please?",
+            "Could we get some water, please?"
+          ],
+          "correctAnswer": "Could we get the menu, please?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kay order karnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamhala don thali ani ek pani bottle dya.",
+            "Aamhi ghari jevan karto.",
+            "Aamhi kalach ithe jevan kele."
+          ],
+          "correctAnswer": "Aamhala don thali ani ek pani bottle dya.",
+          "translatedSentence": "Please bring us two thalis and one bottle of water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ajun ek chapati wadha na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please serve one more chapati.",
+            "Please serve one more bowl of rice.",
+            "Please bring one more plate."
+          ],
+          "correctAnswer": "Please serve one more chapati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jevan kase zhale aahe, sagle theek aahe na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, sagle chaan aahe, dhanyavaad.",
+            "Ho, aamhi don jan aahot.",
+            "Nahi, aamhi ajun order kela nahi."
+          ],
+          "correctAnswer": "Ho, sagle chaan aahe, dhanyavaad.",
+          "translatedSentence": "Yes, everything is lovely, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha padartha aamhi order kela navhta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We did not order this dish.",
+            "We did not order this drink.",
+            "We have already paid for this dish."
+          ],
+          "correctAnswer": "We did not order this dish."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajun kahi order karayche aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, atta bill anun dya.",
+            "Ho, aamhala table badalun dya.",
+            "Ho, aamhi udya parat yeu."
+          ],
+          "correctAnswer": "Nahi, atta bill anun dya.",
+          "translatedSentence": "No, please bring the bill now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill madhe service charge aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is the service charge included in the bill?",
+            "Is the water included in the bill?",
+            "Is the tip included in the bill?"
+          ],
+          "correctAnswer": "Is the service charge included in the bill?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paise card ne denar ka cash ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamhi card ne deu, chalel ka?",
+            "Aamhala ajun ek thali dya.",
+            "Bill madhe chuk zhali aahe."
+          ],
+          "correctAnswer": "Aamhi card ne deu, chalel ka?",
+          "translatedSentence": "We will pay by card, is that all right?"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking and helping out",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj swayampakat madat karshil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho nakki, mi kanda chirto.",
+            "Nahi, mala atta bahera jayche aahe.",
+            "Ho, mi jevan order karto."
+          ],
+          "correctAnswer": "Ho nakki, mi kanda chirto.",
+          "translatedSentence": "Yes of course, I will chop the onions."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kukkarchya teen shitya hou de.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let the cooker whistle three times.",
+            "Let the cooker whistle two times.",
+            "Let the rice boil for three minutes."
+          ],
+          "correctAnswer": "Let the cooker whistle three times."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhajit kiti tel taku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Don chamche tel pure aahe.",
+            "Mith thode jast taka.",
+            "Bhaji khup tikhat zhali aahe."
+          ],
+          "correctAnswer": "Don chamche tel pure aahe.",
+          "translatedSentence": "Two spoons of oil is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi bhat lavto, tu bhaji kar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will put the rice on, you make the vegetables.",
+            "I will make the vegetables, you put the rice on.",
+            "I will put the rice on, you wash the dishes."
+          ],
+          "correctAnswer": "I will put the rice on, you make the vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gas band kela ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi attach band kela.",
+            "Ho, mala swayampak aavadto.",
+            "Nahi, mala bhook lagli aahe."
+          ],
+          "correctAnswer": "Ho, mi attach band kela.",
+          "translatedSentence": "Yes, I turned it off just now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhandi mi dhuto, tu taat lav.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will wash the dishes, you set the plates.",
+            "You wash the dishes, I will set the plates.",
+            "I will wash the dishes, you make the tea."
+          ],
+          "correctAnswer": "I will wash the dishes, you set the plates."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amtit mith takayche rahile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi harkat nahi, mi atta takto.",
+            "Ho, mala amti khup aavadte.",
+            "Nahi, amti god zhali aahe."
+          ],
+          "correctAnswer": "Kahi harkat nahi, mi atta takto.",
+          "translatedSentence": "No problem, I will add it now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dudh sampale aahe, mi anto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The milk is finished, I will bring some.",
+            "The milk is in the fridge, I will bring it.",
+            "The sugar is finished, I will bring some."
+          ],
+          "correctAnswer": "The milk is finished, I will bring some."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jevan tayar zhale ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, atta fakt poli rahili aahe.",
+            "Nahi, mala jevan aavadat nahi.",
+            "Ho, mi bazaarat jato."
+          ],
+          "correctAnswer": "Ho, atta fakt poli rahili aahe.",
+          "translatedSentence": "Yes, only the chapatis are left now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi mansahari khata ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mi shakahari aahe, pan mala andi chalatat.",
+            "Ho, pan mi shukravari mansahari khat nahi.",
+            "Ho, mi roj upvas karto."
+          ],
+          "correctAnswer": "Nahi, mi shakahari aahe, pan mala andi chalatat.",
+          "translatedSentence": "No, I am vegetarian, but eggs are fine for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala shengdanyachi allergy aahe, mhanun tyat shengdane taku naka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am allergic to peanuts, so please do not put peanuts in it.",
+            "I am allergic to milk, so please do not put milk in it.",
+            "I do not like peanuts, so please do not put peanuts in it."
+          ],
+          "correctAnswer": "I am allergic to peanuts, so please do not put peanuts in it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj upvas aahe, tar tumhi kay khanar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi sabudana khichdi khanar, kaaran ti upvasala chalte.",
+            "Mi vada pav khanar, kaaran to swasta aahe.",
+            "Mi kahich khanar nahi, mala bhook nahi."
+          ],
+          "correctAnswer": "Mi sabudana khichdi khanar, kaaran ti upvasala chalte.",
+          "translatedSentence": "I will have sabudana khichdi, because it is allowed on a fast day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar jevan jast tikhat asel, tar mala sanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the food is too spicy, please tell me.",
+            "If the food is too salty, please tell me.",
+            "If the food is too spicy, please do not eat it."
+          ],
+          "correctAnswer": "If the food is too spicy, please tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala dudh chalate ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mala dudh pachat nahi, mhanun mala kali coffee dya.",
+            "Ho, mala chaha aavadat nahi.",
+            "Nahi, mi kadhich chaha pit nahi."
+          ],
+          "correctAnswer": "Nahi, mala dudh pachat nahi, mhanun mala kali coffee dya.",
+          "translatedSentence": "No, milk does not agree with me, so please give me black coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala god padartha aavadtat, pan mi jast khat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like sweets, but I do not eat much of them.",
+            "I like sweets, but I do not eat them at night.",
+            "I like spicy food, but I do not eat much of it."
+          ],
+          "correctAnswer": "I like sweets, but I do not eat much of them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ratri jevayla kay banavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka kahitari kar, kaaran dupari jevan jast zhale.",
+            "Ho, mi ratri jevan kele.",
+            "Nahi, mala bhaji aavadat nahi."
+          ],
+          "correctAnswer": "Halka kahitari kar, kaaran dupari jevan jast zhale.",
+          "translatedSentence": "Make something light, because I ate too much at lunch."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi ratri bhat khat nahi, fakt poli ani bhaji khato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat rice at night, only chapati and vegetables.",
+            "I do not eat chapati at night, only rice and dal.",
+            "I do not eat rice in the morning, only chapati and vegetables."
+          ],
+          "correctAnswer": "I do not eat rice at night, only chapati and vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya jevayla ya, mi puran poli karnar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nakki yeu, pan mala jast god chalat nahi, thodich vadha.",
+            "Nahi, mala puran poli karta yet nahi.",
+            "Ho, mi tumchyasathi chaha anto."
+          ],
+          "correctAnswer": "Nakki yeu, pan mala jast god chalat nahi, thodich vadha.",
+          "translatedSentence": "We will definitely come, but I cannot take too much sweet, so serve me just a little."
+        }
+      ]
+    }
+  ]
+}

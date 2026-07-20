@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah bubhukshaa asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mama bubhukshaa asti.",
+            "na, mama pipaasaa asti.",
+            "aam, aham jalam icchami."
+          ],
+          "correctAnswer": "aam, mama bubhukshaa asti.",
+          "translatedSentence": "Yes, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham jalam icchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want some water.",
+            "I want some tea.",
+            "I drink milk."
+          ],
+          "correctAnswer": "I want some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim pibati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chaayam pibaami.",
+            "aham odanam khaadaami.",
+            "aham jalam na icchami."
+          ],
+          "correctAnswer": "aham chaayam pibaami.",
+          "translatedSentence": "I drink tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pipaasaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thirsty.",
+            "I am hungry.",
+            "I am tired."
+          ],
+          "correctAnswer": "I am thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tvam chaayam icchasi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, chaayam icchami.",
+            "na, aham dugdham pibaami.",
+            "aam, odanam khaadaami."
+          ],
+          "correctAnswer": "aam, chaayam icchami.",
+          "translatedSentence": "Yes, I want tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham odanam khaadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am eating rice.",
+            "I am cooking rice.",
+            "I am eating a fruit."
+          ],
+          "correctAnswer": "I am eating rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "jalam kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jalam atra asti.",
+            "chaayam atra asti.",
+            "atra jalam na asti."
+          ],
+          "correctAnswer": "jalam atra asti.",
+          "translatedSentence": "The water is here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya jalam dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me some water.",
+            "Please bring the tea.",
+            "Please drink the milk."
+          ],
+          "correctAnswer": "Please give me some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan chaayam icchati athavaa dugdham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chaayam icchami, dhanyavaadah.",
+            "mahyam dugdham rocate.",
+            "aham jalam eva icchami."
+          ],
+          "correctAnswer": "aham chaayam icchami, dhanyavaadah.",
+          "translatedSentence": "I would like tea, thank you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "svaagatam, bhavan kim icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpaya ekam chaayam dadaatu.",
+            "krpaya dugdham dadaatu.",
+            "aham kevalam pashyaami."
+          ],
+          "correctAnswer": "krpaya ekam chaayam dadaatu.",
+          "translatedSentence": "Please give me one tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etasya mulyam kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this cost?",
+            "Where is this shop?",
+            "What is this called?"
+          ],
+          "correctAnswer": "How much does this cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chaayasya mulyam dasha rupyakaani.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idam grhnaatu, dhanyavaadah.",
+            "mama samipe rupyakaani na santi.",
+            "atyadhikam mulyam, aham na icchami."
+          ],
+          "correctAnswer": "idam grhnaatu, dhanyavaadah.",
+          "translatedSentence": "Here you are, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aapane mishtaannam asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have any sweets in the shop?",
+            "Is the shop open now?",
+            "Is the tea ready?"
+          ],
+          "correctAnswer": "Do you have any sweets in the shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chaaye sharkaraam yojayaami vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, alpaam sharkaraam yojayatu.",
+            "na, sharkaraam maa yojayatu.",
+            "aam, dugdham api yojayatu."
+          ],
+          "correctAnswer": "aam, alpaam sharkaraam yojayatu.",
+          "translatedSentence": "Yes, please add a little sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya trini kadaliphalaani dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me three bananas.",
+            "Please give me two bananas.",
+            "Please give me three sweets."
+          ],
+          "correctAnswer": "Please give me three bananas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim anyat icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, ekam laddukam api dadaatu.",
+            "aham aapanam gacchami.",
+            "mama bubhukshaa na asti."
+          ],
+          "correctAnswer": "aam, ekam laddukam api dadaatu.",
+          "translatedSentence": "Yes, please give me one laddu as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham shvah punah aagamishyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will come again tomorrow.",
+            "I came here yesterday.",
+            "I am going home now."
+          ],
+          "correctAnswer": "I will come again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam, adya laddukaani na santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi anyat kimapi mishtaannam dadaatu.",
+            "aam, laddukaani atyantam ruchikaraani santi.",
+            "tarhi dasha laddukaani dadaatu."
+          ],
+          "correctAnswer": "tarhi anyat kimapi mishtaannam dadaatu.",
+          "translatedSentence": "Then please give me some other sweet."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy sweet and salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idam vyanjanam katu asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, idam atyantam katu asti.",
+            "na, idam madhuram asti.",
+            "na, idam sheetalam asti."
+          ],
+          "correctAnswer": "aam, idam atyantam katu asti.",
+          "translatedSentence": "Yes, this is very spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam adhikam katu bhojanam na rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like food that is too spicy.",
+            "I do not eat sweets at all.",
+            "I like spicy food very much."
+          ],
+          "correctAnswer": "I do not like food that is too spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saavadhaanam, suupah atyushnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, aham shanaih pibaami.",
+            "tarhi aham alpam lavanam yojayaami.",
+            "aam, suupah sheetalah asti."
+          ],
+          "correctAnswer": "dhanyavaadah, aham shanaih pibaami.",
+          "translatedSentence": "Thank you, I will drink it slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmin suupe lavanam adhikam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is too much salt in this dal.",
+            "There is not enough salt in this dal.",
+            "This dal has turned out very sweet."
+          ],
+          "correctAnswer": "There is too much salt in this dal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanam atyantam ruchikaram asti.",
+            "bhojanam paakashaalaayaam asti.",
+            "aham bhojanam pacaami."
+          ],
+          "correctAnswer": "bhojanam atyantam ruchikaram asti.",
+          "translatedSentence": "The food is really tasty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mishtaannam atimadhuram asti, kintu mahyam rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sweet is too sugary, but I like it anyway.",
+            "The sweet is very tasty, so I want some more.",
+            "The sweet is not sweet enough for me."
+          ],
+          "correctAnswer": "The sweet is too sugary, but I like it anyway."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idam phalam madhuram asti athavaa amlam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idam phalam madhuram asti.",
+            "idam phalam atyantam amlam asti.",
+            "idam phalam na ruchikaram asti."
+          ],
+          "correctAnswer": "idam phalam madhuram asti.",
+          "translatedSentence": "This fruit is sweet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya alpam eva lavanam yojayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please add just a little salt.",
+            "Please add plenty of salt.",
+            "Please do not add any salt at all."
+          ],
+          "correctAnswer": "Please add just a little salt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavatah bhojanam sheetalam jaatam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpaya punah ushnam karotu.",
+            "na, bhojanam ushnam eva asti.",
+            "aam, bhojanam atyantam madhuram asti."
+          ],
+          "correctAnswer": "aam, krpaya punah ushnam karotu.",
+          "translatedSentence": "Yes, please heat it up again."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In the restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namo namah, dvayoh krte sthaanam asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, atra upavishatu.",
+            "na, adya bhojanam samaaptam.",
+            "aam, gananapatram aanayaami."
+          ],
+          "correctAnswer": "aam, atra upavishatu.",
+          "translatedSentence": "Yes, please sit here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya bhojanapatrikaam aanayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring the menu.",
+            "Please bring the bill.",
+            "Please bring some water."
+          ],
+          "correctAnswer": "Please bring the menu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim aadishati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ekam rotikaam ekam cha suupam icchami.",
+            "aham atra pratidinam aagacchami.",
+            "bhojanapatrikaa atra na asti."
+          ],
+          "correctAnswer": "aham ekam rotikaam ekam cha suupam icchami.",
+          "translatedSentence": "I would like one chapati and one bowl of dal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya asmaakam visheshavyanjanam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have a special dish today.",
+            "We have no curry at all today.",
+            "Our restaurant is closed today."
+          ],
+          "correctAnswer": "We have a special dish today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam sajjam asti, parivishaami vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpaya parivishatu.",
+            "krpaya alpam kaalam pratikshatu.",
+            "na, aham kimapi na icchami."
+          ],
+          "correctAnswer": "aam, krpaya parivishatu.",
+          "translatedSentence": "Yes, please serve it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmin bhojanaalaye shaakaahaari bhojanam eva labhyate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Only vegetarian food is served in this restaurant.",
+            "This restaurant serves both meat and vegetables.",
+            "This restaurant is famous for its sweets."
+          ],
+          "correctAnswer": "Only vegetarian food is served in this restaurant."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam samaaptam, idaanim kim icchati bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpaya gananapatram aanayatu.",
+            "krpaya punah odanam parivishatu.",
+            "krpaya bhojanapatrikaam punah darshayatu."
+          ],
+          "correctAnswer": "krpaya gananapatram aanayatu.",
+          "translatedSentence": "Please bring the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sarvam militvaa dvishatam rupyakaani bhavanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Altogether it comes to two hundred rupees.",
+            "Altogether it comes to twenty rupees.",
+            "You have already paid two hundred rupees."
+          ],
+          "correctAnswer": "Altogether it comes to two hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam rocate vaa? punah aagamishyati vaa bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, bhojanam uttamam aasit, aham avashyam punah aagamishyaami.",
+            "na, aham gananapatram na icchami.",
+            "aham atra prathamavaaram aagatavaan."
+          ],
+          "correctAnswer": "aam, bhojanam uttamam aasit, aham avashyam punah aagamishyaami.",
+          "translatedSentence": "Yes, the food was excellent, and I will certainly come again."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya raatrau kim pacaami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "odanam suupam cha pacatu.",
+            "adya bhojanaalayam gacchaavah vaa?",
+            "mama bubhukshaa idaanim na asti."
+          ],
+          "correctAnswer": "odanam suupam cha pacatu.",
+          "translatedSentence": "Please cook rice and dal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham paakashaalaayaam bhavatyai sahaayyam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will help you in the kitchen.",
+            "I am cooking in the kitchen alone.",
+            "I am cleaning the kitchen right now."
+          ],
+          "correctAnswer": "I will help you in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya shaakaani kshaalayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham idaanim eva kshaalayaami.",
+            "aam, aham shaakaani khaadaami.",
+            "shaakaani paakashaalaayaam na santi."
+          ],
+          "correctAnswer": "aam, aham idaanim eva kshaalayaami.",
+          "translatedSentence": "Yes, I will wash them right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maataa pratidinam praatah odanam pacati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother cooks rice every morning.",
+            "Mother cooked rice yesterday morning.",
+            "Mother eats rice every morning."
+          ],
+          "correctAnswer": "Mother cooks rice every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "suupe lavanam yojitam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mayaa alpam lavanam yojitam.",
+            "na, suupah adyaapi na sajjah.",
+            "suupah atyantam madhurah asti."
+          ],
+          "correctAnswer": "aam, mayaa alpam lavanam yojitam.",
+          "translatedSentence": "Yes, I added a little salt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi tailam ushnam asti tarhi shaakaani yojayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the oil is hot, put the vegetables in.",
+            "Once the vegetables are ready, pour in the oil.",
+            "Do not put the vegetables into the hot oil."
+          ],
+          "correctAnswer": "If the oil is hot, put the vegetables in."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam sajjam asti, krpaya paatraani aanayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham paatraani jalam cha aanayaami.",
+            "aam, aham idaanim shaakaani khandayaami.",
+            "paatraani paakashaalaayaam na santi vaa?"
+          ],
+          "correctAnswer": "aam, aham paatraani jalam cha aanayaami.",
+          "translatedSentence": "Yes, I will bring the plates and the water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hyah aham svayam mishtaannam apacam, sarve cha akhaadan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I cooked the sweet myself, and everyone ate it.",
+            "Tomorrow I will cook the sweet myself for everyone.",
+            "Yesterday we all cooked the sweet together."
+          ],
+          "correctAnswer": "Yesterday I cooked the sweet myself, and everyone ate it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "paakah samaaptah, idaanim kim karavaani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpaya paatraani prakshaalayatu.",
+            "krpaya punah shaakaani khandayatu.",
+            "krpaya tailam ushnam karotu."
+          ],
+          "correctAnswer": "krpaya paatraani prakshaalayatu.",
+          "translatedSentence": "Please wash the dishes."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan maamsam khaadati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, aham shaakaahaari asmi, atah maamsam na khaadaami.",
+            "aam, aham pratidinam maamsam khaadaami.",
+            "aam, kintu adya aham kevalam odanam icchami."
+          ],
+          "correctAnswer": "na, aham shaakaahaari asmi, atah maamsam na khaadaami.",
+          "translatedSentence": "No, I am a vegetarian, so I do not eat meat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dugdham piitvaa mama udaram peedayati, atah aham dugdham varjayaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk upsets my stomach, so I avoid it.",
+            "I drink milk daily because it is good for my stomach.",
+            "I gave up milk because I do not like the taste."
+          ],
+          "correctAnswer": "Milk upsets my stomach, so I avoid it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyai kim rocate, madhuram athavaa katu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam madhuram rocate, kintu adhikaam sharkaraam na icchami.",
+            "mahyam katu bhojanam atyantam rocate, madhuram na.",
+            "aham adya kimapi na khaadaami, yatah mama bubhukshaa na asti."
+          ],
+          "correctAnswer": "mahyam madhuram rocate, kintu adhikaam sharkaraam na icchami.",
+          "translatedSentence": "I like sweet things, but I do not want too much sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhojanam atikatu asti tarhi aham khaaditum na shaknomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the food is too spicy, I cannot eat it.",
+            "Even if the food is spicy, I will still eat it.",
+            "I can eat the food as long as it is not too salty."
+          ],
+          "correctAnswer": "If the food is too spicy, I cannot eat it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya raatrau asmaabhih saha bhojanaalayam aagacchati vaa bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kshamyataam, adya na shaknomi, kintu shvah avashyam aagamishyaami.",
+            "aam, aham tatra pratidinam chaayam pibaami.",
+            "na, mahyam kimapi bhojanam na rocate."
+          ],
+          "correctAnswer": "kshamyataam, adya na shaknomi, kintu shvah avashyam aagamishyaami.",
+          "translatedSentence": "Sorry, I cannot make it today, but I will definitely come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham raatrau chaayam na pibaami, yatah tadaa nidraa na aagacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not drink tea at night, because then I cannot sleep.",
+            "I drink tea at night, because it helps me sleep.",
+            "I do not drink tea at night, but I do drink it in the morning."
+          ],
+          "correctAnswer": "I do not drink tea at night, because then I cannot sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asmin vyanjane maamsam asti vaa? aham jnaatum icchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, asmin kevalam shaakaani santi.",
+            "aam, kintu alpam eva maamsam asti.",
+            "asmin vyanjane lavanam adhikam asti."
+          ],
+          "correctAnswer": "na, asmin kevalam shaakaani santi.",
+          "translatedSentence": "No, there are only vegetables in it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya mama bhojane sharkaraam maa yojayatu, chikitsakah nishiddhavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do not put sugar in my food; the doctor has forbidden it.",
+            "Please add only a little sugar to my food, as the doctor advised.",
+            "The doctor told me to eat sweets only after a meal."
+          ],
+          "correctAnswer": "Please do not put sugar in my food; the doctor has forbidden it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam katham aasit? punah kimapi icchati vaa bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanam atyantam ruchikaram aasit, kintu idaanim paryaaptam, dhanyavaadah.",
+            "aam, krpaya punah odanam parivishatu, mama bubhukshaa asti eva.",
+            "na, aham adya praatah kimapi na akhaadam."
+          ],
+          "correctAnswer": "bhojanam atyantam ruchikaram aasit, kintu idaanim paryaaptam, dhanyavaadah.",
+          "translatedSentence": "The food was delicious, but that is enough for me now, thank you."
+        }
+      ]
+    }
+  ]
+}

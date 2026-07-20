@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aakash no rang kayo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aakash nilu che.",
+            "Aakash pilu che.",
+            "Aakash bahu duur che."
+          ],
+          "correctAnswer": "Aakash nilu che.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dudh dholu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The milk is white.",
+            "The milk is hot.",
+            "The milk is finished."
+          ],
+          "correctAnswer": "The milk is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne kayo rang game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane nilo rang game che.",
+            "Mane aa rang nathi gamto.",
+            "Mane pila phool game che."
+          ],
+          "correctAnswer": "Mane nilo rang game che.",
+          "translatedSentence": "I like blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane kalo rang bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like black a lot.",
+            "I do not like black at all.",
+            "I want the black one."
+          ],
+          "correctAnswer": "I like black a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa kelu kaya rang nu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa kelu pilu che.",
+            "Aa kelu lilu che.",
+            "Aa kelu mithu che."
+          ],
+          "correctAnswer": "Aa kelu pilu che.",
+          "translatedSentence": "This banana is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa phool gulabi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is pink.",
+            "This flower is fresh.",
+            "This flower is for you."
+          ],
+          "correctAnswer": "This flower is pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari gaadi kaya rang ni che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari gaadi dholi che.",
+            "Mari gaadi navi che.",
+            "Mari gaadi ghare che."
+          ],
+          "correctAnswer": "Mari gaadi dholi che.",
+          "translatedSentence": "My car is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kagdo kalo hoy che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A crow is black.",
+            "A crow is noisy.",
+            "A crow is sitting there."
+          ],
+          "correctAnswer": "A crow is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tametu lal che ke naarangi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tametu lal che.",
+            "Tametu naarangi che.",
+            "Tametu bahu mongu che."
+          ],
+          "correctAnswer": "Tametu lal che.",
+          "translatedSentence": "The tomato is red."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing things by colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa chopdi kaya rang ni che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa chopdi lili che.",
+            "Aa chopdi jaadi che.",
+            "Aa chopdi mari nathi."
+          ],
+          "correctAnswer": "Aa chopdi lili che.",
+          "translatedSentence": "This book is green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara ghar no darwajo bhuro che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door of my house is brown.",
+            "The door of my house is open.",
+            "My house has a big door."
+          ],
+          "correctAnswer": "The door of my house is brown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pelo thelo kaya rang no che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pelo thelo kalo che.",
+            "Pelo thelo bhaare che.",
+            "Pelo thelo mari bahen no che."
+          ],
+          "correctAnswer": "Pelo thelo kalo che.",
+          "translatedSentence": "That bag is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghar ni bhint dholi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wall of our house is white.",
+            "The wall of our house is dirty.",
+            "Our house has a high wall."
+          ],
+          "correctAnswer": "The wall of our house is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro rumal kayo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pelo pilo rumal maro che.",
+            "Maro rumal ghare rahi gayo che.",
+            "Mane navo rumal joie che."
+          ],
+          "correctAnswer": "Pelo pilo rumal maro che.",
+          "translatedSentence": "That yellow handkerchief is mine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari pen nili che ke kali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is your pen blue or black?",
+            "Do you have a blue pen?",
+            "Is this black pen yours?"
+          ],
+          "correctAnswer": "Is your pen blue or black?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhokla kaya rang na hoy che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhokla pila hoy che.",
+            "Dhokla lila hoy che.",
+            "Dhokla bahu tikha hoy che."
+          ],
+          "correctAnswer": "Dhokla pila hoy che.",
+          "translatedSentence": "Dhokla are yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chaas dholi hoy che ane thandi hoy che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Buttermilk is white and it is cold.",
+            "Buttermilk is white and it is sweet.",
+            "Buttermilk is cold but it is thick."
+          ],
+          "correctAnswer": "Buttermilk is white and it is cold."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru ghar kaya rang nu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amaru ghar dholu che.",
+            "Amaru ghar bahu motu che.",
+            "Amaru ghar Ahmedabad ma che."
+          ],
+          "correctAnswer": "Amaru ghar dholu che.",
+          "translatedSentence": "Our house is white."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne kayo rang joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane nilo rang joie che.",
+            "Mane aa dukan bahu game che.",
+            "Mane be chopdi joie che."
+          ],
+          "correctAnswer": "Mane nilo rang joie che.",
+          "translatedSentence": "I want the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane lal rang nathi joito, mane kalo joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want red, I want black.",
+            "I do not like red, I like black.",
+            "I want red, not black."
+          ],
+          "correctAnswer": "I do not want red, I want black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase aa kurto bija rang ma che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aa kurto gulabi ma pan che.",
+            "Ha, aa kurto bahu sasto che.",
+            "Na, mane aa kurto nathi gamto."
+          ],
+          "correctAnswer": "Ha, aa kurto gulabi ma pan che.",
+          "translatedSentence": "Yes, we have this kurta in pink as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane naarangi rang no dupatto batavo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me an orange dupatta.",
+            "I bought an orange dupatta.",
+            "This orange dupatta is mine."
+          ],
+          "correctAnswer": "Please show me an orange dupatta."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne pilo game ke gulabi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane gulabi vadhare game che.",
+            "Mane banne rang joie che.",
+            "Mane lilu shaak vadhare game che."
+          ],
+          "correctAnswer": "Mane gulabi vadhare game che.",
+          "translatedSentence": "I like pink better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa rang mane nathi gamto, biju kaik batavo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like this colour, please show me something else.",
+            "I like this colour, please show me one more.",
+            "This colour is not available, show me another shop."
+          ],
+          "correctAnswer": "I do not like this colour, please show me something else."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa jaambli sadi tamne kevi lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane bahu saras lage che.",
+            "Mane bahu bhookh lagi che.",
+            "Mare sadi pahervi nathi."
+          ],
+          "correctAnswer": "Mane bahu saras lage che.",
+          "translatedSentence": "I think it looks very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari dikri mate lilo chaniyo joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a green skirt for my daughter.",
+            "My daughter does not like green.",
+            "My daughter is wearing a green skirt."
+          ],
+          "correctAnswer": "I need a green skirt for my daughter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa sadi ketla rango ma male che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa sadi char rango ma male che.",
+            "Aa sadi bahu mongi che.",
+            "Mane traan sadi joie che."
+          ],
+          "correctAnswer": "Aa sadi char rango ma male che.",
+          "translatedSentence": "This saree comes in four colours."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kaya rang no jhabbho paheryo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Me dholo jhabbho paheryo che.",
+            "Maro jhabbho bahu juno che.",
+            "Maro jhabbho dhovai gayo che."
+          ],
+          "correctAnswer": "Me dholo jhabbho paheryo che.",
+          "translatedSentence": "I am wearing a white kurta."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaje me lilo chaniyo ane lal dupatto paheryo che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today I am wearing a green skirt and a red dupatta.",
+            "Today I bought a green skirt and a red dupatta.",
+            "Today my green skirt and my red dupatta are ready."
+          ],
+          "correctAnswer": "Today I am wearing a green skirt and a red dupatta."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Garba mate tame kaya rang na kapda paheresho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu naarangi kapda paheris.",
+            "Mane garba bahu game che.",
+            "Hu garba ma modu javano chu."
+          ],
+          "correctAnswer": "Hu naarangi kapda paheris.",
+          "translatedSentence": "I will wear orange clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara bhai ne dholo jhabbho bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother really likes the white kurta.",
+            "My brother is wearing the white kurta.",
+            "My brother bought a white kurta."
+          ],
+          "correctAnswer": "My brother really likes the white kurta."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tara juta kaya rang na che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara juta kala che.",
+            "Mara juta bahu nava che.",
+            "Mane nava juta joie che."
+          ],
+          "correctAnswer": "Mara juta kala che.",
+          "translatedSentence": "My shoes are black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa lal sadi mari mummy ni che, mari nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This red saree is my mother's, not mine.",
+            "This red saree is mine, not my mother's.",
+            "My mother does not like this red saree."
+          ],
+          "correctAnswer": "This red saree is my mother's, not mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa kalo koat lagna mate barabar rahese?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, pan dholo koat vadhare saro lagse.",
+            "Ha, lagna kale sanje che.",
+            "Na, atyare bahu garmi che."
+          ],
+          "correctAnswer": "Ha, pan dholo koat vadhare saro lagse.",
+          "translatedSentence": "Yes, but a white coat will look better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Me kali topi kadhi ane bhuri topi paheri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I took off the black cap and put on the brown one.",
+            "I bought a black cap and a brown cap.",
+            "I lost the black cap and the brown cap."
+          ],
+          "correctAnswer": "I took off the black cap and put on the brown one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne aa gulabi kurto kevo lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saro che, pan mane gulabi rang nathi gamto.",
+            "Ha, mane biju kurto joie che.",
+            "Aa kurto mara bhai no che."
+          ],
+          "correctAnswer": "Saro che, pan mane gulabi rang nathi gamto.",
+          "translatedSentence": "It is nice, but I do not like pink."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabarmati nadi nu paani kaya rang nu dekhay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaje paani thodu bhuru dekhay che.",
+            "Nadi ma atyare bahu paani che.",
+            "Nadi ahiyan thi bahu duur che."
+          ],
+          "correctAnswer": "Aaje paani thodu bhuru dekhay che.",
+          "translatedSentence": "Today the water looks a little brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uttarayan ma aakash ma rangberangi patang ude che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Uttarayan, colourful kites fly in the sky.",
+            "On Uttarayan, we buy colourful kites.",
+            "The kites flying in the sky are white."
+          ],
+          "correctAnswer": "On Uttarayan, colourful kites fly in the sky."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gir na sinh kaya rang na hoy che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sinh bhura hoy che.",
+            "Sinh kala hoy che.",
+            "Sinh Gir na jungle ma rahe che."
+          ],
+          "correctAnswer": "Sinh bhura hoy che.",
+          "translatedSentence": "Lions are brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chomasa ma badha khetar lila thai jay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the monsoon all the fields turn green.",
+            "In the monsoon all the fields fill with water.",
+            "The green fields look lovely in the monsoon."
+          ],
+          "correctAnswer": "In the monsoon all the fields turn green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Surat ni bus kaya rang ni hoy che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ahiyan ni bus lal ane dholi hoy che.",
+            "Bus have thodi var ma avse.",
+            "Hu bus ma Surat javano chu."
+          ],
+          "correctAnswer": "Ahiyan ni bus lal ane dholi hoy che.",
+          "translatedSentence": "The buses here are red and white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanje aakash naarangi ane gulabi thai jay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the sky turns orange and pink.",
+            "In the evening the sky slowly gets dark.",
+            "The evening sky is orange but never pink."
+          ],
+          "correctAnswer": "In the evening the sky turns orange and pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ahmedabad ma rickshaw kaya rang ni hoy che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ahiyan rickshaw lili ane pili hoy che.",
+            "Rickshaw ma javu sastu padse.",
+            "Mane rickshaw ma besvu bahu game che."
+          ],
+          "correctAnswer": "Ahiyan rickshaw lili ane pili hoy che.",
+          "translatedSentence": "Here the auto rickshaws are green and yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara gaam ni bajar ma lila ane lal marcha male che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Green and red chillies are sold in our village market.",
+            "Our village market sells only green vegetables.",
+            "In our village we grow green and red chillies."
+          ],
+          "correctAnswer": "Green and red chillies are sold in our village market."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aamba par keri pili thai gai ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, have badhi keri pili thai gai che.",
+            "Na, keri bahu mithi che.",
+            "Ha, aamba nu jhaad bahu unchu che."
+          ],
+          "correctAnswer": "Ha, have badhi keri pili thai gai che.",
+          "translatedSentence": "Yes, all the mangoes have turned yellow now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter or darker",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa be ma thi tamne kayo rang vadhare game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane ghero nilo vadhare game che, kem ke e badha kapda saathe sobhe che.",
+            "Mane aa banne rang nathi gamta, biju kaik batavo.",
+            "Mane aa dukan ni badhi sadio bahu gami."
+          ],
+          "correctAnswer": "Mane ghero nilo vadhare game che, kem ke e badha kapda saathe sobhe che.",
+          "translatedSentence": "I like the dark blue more, because it goes with all my clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tamne aa rang ghero lage to hu thodo aachho rang batavu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If this colour seems too dark to you, I will show you a lighter one.",
+            "If you like this dark colour, I will bring you two more.",
+            "This colour is dark, but I do not have a lighter one."
+          ],
+          "correctAnswer": "If this colour seems too dark to you, I will show you a lighter one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saheb, aa gulabi rang mane sobhe che ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aa rang tamne bahu sobhe che, pan aachho gulabi vadhare saro lagse.",
+            "Ha, mane pan gulabi rang bahu game che.",
+            "Na, aa sadi bahu mongi che, biji joie."
+          ],
+          "correctAnswer": "Ha, aa rang tamne bahu sobhe che, pan aachho gulabi vadhare saro lagse.",
+          "translatedSentence": "Yes, this colour really suits you, but a lighter pink would look even better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane pehla lal rang gamto hato, pan have ghero lilo vadhare game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to like red, but now I prefer dark green.",
+            "I like red, and I like dark green as well.",
+            "I never liked red, so now I choose dark green."
+          ],
+          "correctAnswer": "I used to like red, but now I prefer dark green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kayo rang lesho, dholo ke aachho pilo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu aachho pilo lais, kem ke dholo jaldi maylo thai jay che.",
+            "Hu dholo lais, kem ke mane pilo rang bahu game che.",
+            "Hu banne nahi laun, mare atyare kaik biju joie che."
+          ],
+          "correctAnswer": "Hu aachho pilo lais, kem ke dholo jaldi maylo thai jay che.",
+          "translatedSentence": "I will take the light yellow, because white gets dirty quickly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa rang saro che, pan mara bhai ne ghera rango vadhare game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour is nice, but my brother likes darker colours more.",
+            "This colour is nice, and my brother likes it as well.",
+            "My brother says this colour is much too dark."
+          ],
+          "correctAnswer": "This colour is nice, but my brother likes darker colours more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne shu lage che, aa be ma thi kayo rang lagna mate saro rahese?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ghero jaambli saro rahese, kem ke photo ma e bahu sundar dekhay che.",
+            "Lagna agla mahine Vadodara ma che.",
+            "Mane lagna ma navu kaik pahervu che."
+          ],
+          "correctAnswer": "Ghero jaambli saro rahese, kem ke photo ma e bahu sundar dekhay che.",
+          "translatedSentence": "The dark purple will be better, because it looks lovely in photos."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane aa rang to gamyo, pan aa kurto mara size ma nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did like this colour, but this kurta is not in my size.",
+            "I liked this colour and luckily this kurta is my size.",
+            "I did not like this colour or the size of this kurta."
+          ],
+          "correctAnswer": "I did like this colour, but this kurta is not in my size."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bol, tu kayo rang lais?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu kalo lais, kem ke e badha kapda saathe chale che.",
+            "Tu aa rang na le, e tane nathi sobhto.",
+            "Mane khabar nathi ke aa rang kyare avse."
+          ],
+          "correctAnswer": "Hu kalo lais, kem ke e badha kapda saathe chale che.",
+          "translatedSentence": "I will take the black one, because it goes with everything."
+        }
+      ]
+    }
+  ]
+}

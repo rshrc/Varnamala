@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, bhavatah naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama naama {name}.",
+            "mama mitram atra asti.",
+            "aham samyak asmi."
+          ],
+          "correctAnswer": "mama naama {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham chhaatrah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student.",
+            "I am a teacher.",
+            "He is a student."
+          ],
+          "correctAnswer": "I am a student."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mitra, tava naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama naama Ravih.",
+            "bhavatah naama Ravih.",
+            "tava naama Ravih."
+          ],
+          "correctAnswer": "mama naama Ravih.",
+          "translatedSentence": "My name is Ravi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eshaa mama maataa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my mother.",
+            "This is my sister.",
+            "She is my teacher."
+          ],
+          "correctAnswer": "This is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham shikshakah asmi. bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chhaatrah asmi.",
+            "esah chhaatrah asti.",
+            "mama guruh atra asti."
+          ],
+          "correctAnswer": "aham chhaatrah asmi.",
+          "translatedSentence": "I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esah mama pitaa, eshaa mama bhaginee.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my father and this is my sister.",
+            "This is my brother and this is my mother.",
+            "This is my father and this is my mother."
+          ],
+          "correctAnswer": "This is my father and this is my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, aham Gauri. bhavati kaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham Meeraa asmi.",
+            "eshaa Meeraa asti.",
+            "mama maataa Meeraa."
+          ],
+          "correctAnswer": "aham Meeraa asmi.",
+          "translatedSentence": "I am Meera."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esah mama bhraataa, tasya naama Krshnah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my brother; his name is Krishna.",
+            "This is my friend; his name is Krishna.",
+            "This is my brother; my name is Krishna."
+          ],
+          "correctAnswer": "This is my brother; his name is Krishna."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah naama {name} vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mama naama {name}.",
+            "na, mama naama Raamah.",
+            "aam, esah mama bhraataa."
+          ],
+          "correctAnswer": "aam, mama naama {name}.",
+          "translatedSentence": "Yes, my name is {name}."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this, that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat bhavatah pustakam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, etat mama pustakam.",
+            "aam, etat mama grham.",
+            "na, esah mama bhraataa."
+          ],
+          "correctAnswer": "aam, etat mama pustakam.",
+          "translatedSentence": "Yes, this is my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat mama grham, tat mandiram.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my house and that is the temple.",
+            "That is my house and this is the temple.",
+            "This is my house and that is the school."
+          ],
+          "correctAnswer": "This is my house and that is the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saa bhavatyaah bhaginee vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, saa mama sakhee.",
+            "aam, saa mama maataa.",
+            "na, esah mama pitaa."
+          ],
+          "correctAnswer": "na, saa mama sakhee.",
+          "translatedSentence": "No, she is my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "atra jalam asti, tatra phalam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is water here and fruit there.",
+            "There is fruit here and water there.",
+            "There is water here and milk there."
+          ],
+          "correctAnswer": "There is water here and fruit there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, etat bhavatah grham vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, mama grham tatra asti.",
+            "aam, etat mama sakhee.",
+            "aam, esah mama guruh."
+          ],
+          "correctAnswer": "na, mama grham tatra asti.",
+          "translatedSentence": "No, my house is over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat pustakam mama, tat pustakam bhavatah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book is mine and that book is yours.",
+            "That book is mine and this book is yours.",
+            "This book is yours and that book is his."
+          ],
+          "correctAnswer": "This book is mine and that book is yours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tat vidyaalayah vaa mandiram vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tat mandiram asti.",
+            "etat mama grham asti.",
+            "saa mama sakhee asti."
+          ],
+          "correctAnswer": "tat mandiram asti.",
+          "translatedSentence": "That is a temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "na, tat mama pustakam na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, that is not my book.",
+            "No, this is not my book.",
+            "No, that is not my house."
+          ],
+          "correctAnswer": "No, that is not my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan atra vasati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham atra vasaami.",
+            "aam, sah atra vasati.",
+            "na, etat mama pustakam."
+          ],
+          "correctAnswer": "aam, aham atra vasaami.",
+          "translatedSentence": "Yes, I live here."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan adhunaa kim pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham sanskritam pathaami.",
+            "aham jalam pibaami.",
+            "aham grham gacchami."
+          ],
+          "correctAnswer": "aham sanskritam pathaami.",
+          "translatedSentence": "I am studying Sanskrit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam dugdham pibaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink milk every day.",
+            "I drink water every day.",
+            "He drinks milk every day."
+          ],
+          "correctAnswer": "I drink milk every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham vidyaalayam gacchami. bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham api vidyaalayam gacchami.",
+            "aham grham agacchami.",
+            "saa vidyaalayam gacchati."
+          ],
+          "correctAnswer": "aham api vidyaalayam gacchami.",
+          "translatedSentence": "I am going to school too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saa pratidinam mandiram gacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She goes to the temple every day.",
+            "He goes to the temple every day.",
+            "She goes to school every day."
+          ],
+          "correctAnswer": "She goes to the temple every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan praatah kim khaadati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham phalam khaadaami.",
+            "aham dugdham pibaami.",
+            "aham annam pacaami."
+          ],
+          "correctAnswer": "aham phalam khaadaami.",
+          "translatedSentence": "I eat fruit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vayam saayamkaale gurukulam gacchaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go to the gurukula in the evening.",
+            "We go to the temple in the evening.",
+            "They go to the gurukula in the evening."
+          ],
+          "correctAnswer": "We go to the gurukula in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya aham gurukulam gacchami.",
+            "adya sah gurukulam gacchati.",
+            "adya mama guruh atra asti."
+          ],
+          "correctAnswer": "adya aham gurukulam gacchami.",
+          "translatedSentence": "Today I am going to the gurukula."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam sanskritam vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I speak Sanskrit every day.",
+            "I read Sanskrit every day.",
+            "We speak Sanskrit every day."
+          ],
+          "correctAnswer": "I speak Sanskrit every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati adhunaa kim pibati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chaayam pibaami.",
+            "aham phalam khaadaami.",
+            "aham dugdham pacaami."
+          ],
+          "correctAnswer": "aham chaayam pibaami.",
+          "translatedSentence": "I am drinking tea."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "What, where, who",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah haste etat kim asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "etat mama sanskrita-pustakam.",
+            "etat mama mitram asti.",
+            "esah mama shikshakah."
+          ],
+          "correctAnswer": "etat mama sanskrita-pustakam.",
+          "translatedSentence": "This is my Sanskrit book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavatah guruh kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your teacher?",
+            "Who is your teacher?",
+            "Where is your friend?"
+          ],
+          "correctAnswer": "Where is your teacher?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan idaaneem kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham mandiram gacchami.",
+            "aham phalam khaadaami.",
+            "sah vidyaalayam gacchati."
+          ],
+          "correctAnswer": "aham mandiram gacchami.",
+          "translatedSentence": "I am going to the temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah kah, tasya naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is he and what is his name?",
+            "Who is she and what is her name?",
+            "Where is he and what is his name?"
+          ],
+          "correctAnswer": "Who is he and what is his name?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eshaa kaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eshaa mama sakhee, tasyaah naama Gauri.",
+            "esah mama mitram, tasya naama Ravih.",
+            "saa mama maataa tatra asti."
+          ],
+          "correctAnswer": "eshaa mama sakhee, tasyaah naama Gauri.",
+          "translatedSentence": "She is my friend; her name is Gauri."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavatyaah grham kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your house?",
+            "Where is your school?",
+            "Whose house is this?"
+          ],
+          "correctAnswer": "Where is your house?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati adhunaa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham vidyaalaye asmi.",
+            "aham vidyaalayam gacchami.",
+            "mama grham tatra asti."
+          ],
+          "correctAnswer": "aham vidyaalaye asmi.",
+          "translatedSentence": "I am at school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah kim khaadati, kim pibati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is he eating and what is he drinking?",
+            "What is she eating and what is she drinking?",
+            "Where does he eat and where does he drink?"
+          ],
+          "correctAnswer": "What is he eating and what is he drinking?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya vadatu, mandiram kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mandiram tatra asti.",
+            "vidyaalayah atra asti.",
+            "aham mandiram gacchami."
+          ],
+          "correctAnswer": "mandiram tatra asti.",
+          "translatedSentence": "The temple is over there."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mandirasya maargam bhavan jaanaati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kshamyataam, aham na jaanaami.",
+            "aam, aham mandiram gacchami.",
+            "na, aham maargam pashyaami."
+          ],
+          "correctAnswer": "kshamyataam, aham na jaanaami.",
+          "translatedSentence": "Sorry, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya vidyaalayam na gacchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to school today.",
+            "I am not going to the temple today.",
+            "He is not going to school today."
+          ],
+          "correctAnswer": "I am not going to school today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati chaayam icchati, jalam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham jalam icchami, dhanyavaadah.",
+            "aham chaayam na pacaami, kshamyataam.",
+            "aham kimapi na jaanaami."
+          ],
+          "correctAnswer": "aham jalam icchami, dhanyavaadah.",
+          "translatedSentence": "I would like water, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah adya kimapi na khaadati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is not eating anything today.",
+            "He is not drinking anything today.",
+            "She is not eating anything today."
+          ],
+          "correctAnswer": "He is not eating anything today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat nutana-pustakam bhavatah vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, etat mama pustakam na asti.",
+            "aam, etat mama grham asti.",
+            "na, aham pustakam pathaami."
+          ],
+          "correctAnswer": "na, etat mama pustakam na asti.",
+          "translatedSentence": "No, this is not my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya guruh gurukule na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is not at the gurukula today.",
+            "The teacher is not at the temple today.",
+            "The student is not at the gurukula today."
+          ],
+          "correctAnswer": "The teacher is not at the gurukula today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan adya mandiram gacchati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, adya na gacchami, shvah gacchami.",
+            "aam, adya aham gurukulam gacchami.",
+            "na, aham mandiram na jaanaami."
+          ],
+          "correctAnswer": "na, adya na gacchami, shvah gacchami.",
+          "translatedSentence": "No, not today; I will go tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adhunaa mama samayah na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have time now.",
+            "I do not have a book now.",
+            "He does not have time now."
+          ],
+          "correctAnswer": "I do not have time now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sah adhunaa kutra asti, bhavan jaanaati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, aham na jaanaami, kshamyataam.",
+            "aam, sah mama mitram asti.",
+            "na, sah atra na vasati."
+          ],
+          "correctAnswer": "na, aham na jaanaami, kshamyataam.",
+          "translatedSentence": "No, I do not know, sorry."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, katham asti bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham samyak asmi, dhanyavaadah. bhavati katham asti?",
+            "aham grham gacchami, dhanyavaadah.",
+            "mama naama Ravih, aham chhaatrah asmi."
+          ],
+          "correctAnswer": "aham samyak asmi, dhanyavaadah. bhavati katham asti?",
+          "translatedSentence": "I am well, thank you. How are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya mandiram na gacchami, yatah mama samayah na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to the temple today because I have no time.",
+            "I am going to the temple today because I have time.",
+            "I am not going to school today because I have no time."
+          ],
+          "correctAnswer": "I am not going to the temple today because I have no time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya atra upavishatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, aham atra upavishaami.",
+            "dhanyavaadah, aham adhunaa gacchami.",
+            "kshamyataam, aham bhavantam na jaanaami."
+          ],
+          "correctAnswer": "dhanyavaadah, aham atra upavishaami.",
+          "translatedSentence": "Thank you, I will sit here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavan sanskritam vadati, tarhi aham api vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you speak Sanskrit, then I will speak it too.",
+            "If you speak Sanskrit, then he will speak it too.",
+            "If you read Sanskrit, then I will read it too."
+          ],
+          "correctAnswer": "If you speak Sanskrit, then I will speak it too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah bhavan gurukulam agacchati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, agacchami, parantu vilambena agacchami.",
+            "na, adya aham gurukulam na gacchami.",
+            "aam, hyah aham gurukulam gatavaan."
+          ],
+          "correctAnswer": "aam, agacchami, parantu vilambena agacchami.",
+          "translatedSentence": "Yes, I will come, but I will be late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hyah aham mandiram gatavaan, adya tu grhe eva asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I went to the temple, but today I am staying at home.",
+            "Tomorrow I will go to the temple, but today I am staying at home.",
+            "Yesterday I went to school, but today I am staying at home."
+          ],
+          "correctAnswer": "Yesterday I went to the temple, but today I am staying at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham chaayam pacaami, bhavan api icchati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpaya alpam chaayam dadaatu, dhanyavaadah.",
+            "na, aham chaayam na pacaami, kshamyataam.",
+            "aam, aham api chaayam pacaami."
+          ],
+          "correctAnswer": "aam, krpaya alpam chaayam dadaatu, dhanyavaadah.",
+          "translatedSentence": "Yes, please give me a little tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham alpam eva sanskritam jaanaami, atah krpaya mandam vadatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know only a little Sanskrit, so please speak slowly.",
+            "I know Sanskrit well, so please speak slowly.",
+            "I know only a little Sanskrit, so please speak again."
+          ],
+          "correctAnswer": "I know only a little Sanskrit, so please speak slowly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "punah kadaa milaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shvah saayamkaale gurukule milaamah.",
+            "aam, aham bhavantam jaanaami.",
+            "na, aham adya na gacchami."
+          ],
+          "correctAnswer": "shvah saayamkaale gurukule milaamah.",
+          "translatedSentence": "Let us meet at the gurukula tomorrow evening."
+        }
+      ]
+    }
+  ]
+}

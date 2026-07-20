@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother and father",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eshaa kaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eshaa mama maataa asti.",
+            "sah mama pitaa asti.",
+            "aham grhe asmi."
+          ],
+          "correctAnswer": "eshaa mama maataa asti.",
+          "translatedSentence": "She is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah mama pitaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my father.",
+            "He is my brother.",
+            "She is my mother."
+          ],
+          "correctAnswer": "He is my father."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah bhraataa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama bhraataa grhe asti.",
+            "mama bhraataa pustakam pathati.",
+            "aham api grhe asmi."
+          ],
+          "correctAnswer": "mama bhraataa grhe asti.",
+          "translatedSentence": "My brother is at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama bhagini vidyaalayam gacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister goes to school.",
+            "My brother goes to school.",
+            "My sister is at home."
+          ],
+          "correctAnswer": "My sister goes to school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah grhe ke santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama grhe maataa pitaa cha santi.",
+            "mama grham nagare asti.",
+            "aham vidyaalaye pathaami."
+          ],
+          "correctAnswer": "mama grhe maataa pitaa cha santi.",
+          "translatedSentence": "My mother and father are at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama maataa bhojanam pachati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is cooking food.",
+            "My mother is eating food.",
+            "My sister is cooking food."
+          ],
+          "correctAnswer": "My mother is cooking food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah pitaa kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama pitaa patram likhati.",
+            "mama pitaa grhe asti.",
+            "mama maataa bahu kaaryam karoti."
+          ],
+          "correctAnswer": "mama pitaa patram likhati.",
+          "translatedSentence": "My father is writing a letter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama bhraataa kandukena kridati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is playing with a ball.",
+            "My brother wants a ball.",
+            "My sister is playing with a ball."
+          ],
+          "correctAnswer": "My brother is playing with a ball."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah bhaginyaah naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama bhaginyaah naama gauri.",
+            "mama maatuh naama gauri.",
+            "mama bhagini adya grhe asti."
+          ],
+          "correctAnswer": "mama bhaginyaah naama gauri.",
+          "translatedSentence": "My sister's name is Gauri."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat pustakam kasya asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "etat pustakam mama bhraatuh asti.",
+            "etat pustakam mancake asti.",
+            "aham etat pustakam pathaami."
+          ],
+          "correctAnswer": "etat pustakam mama bhraatuh asti.",
+          "translatedSentence": "This book belongs to my brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eshaa lekhani mama maatuh asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This pen is my mother's.",
+            "This pen is my sister's.",
+            "This book is my mother's."
+          ],
+          "correctAnswer": "This pen is my mother's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eshaa kunchikaa kasyaah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eshaa kunchikaa mama bhaginyaah asti.",
+            "eshaa kunchikaa mama pituh asti.",
+            "eshaa kunchikaa dvaare asti."
+          ],
+          "correctAnswer": "eshaa kunchikaa mama bhaginyaah asti.",
+          "translatedSentence": "This key is my sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat grham asmaakam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This house is ours.",
+            "This house is theirs.",
+            "This room is ours."
+          ],
+          "correctAnswer": "This house is ours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asmin chaayaachitre ke santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asmin chaayaachitre mama maataa pitaa cha stah.",
+            "etat chaayaachitram mama bhraatuh asti.",
+            "aham chaayaachitram pashyaami."
+          ],
+          "correctAnswer": "asmin chaayaachitre mama maataa pitaa cha stah.",
+          "translatedSentence": "My mother and father are in this photo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tava pustakam kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your book?",
+            "Whose book is this?",
+            "Where is your pen?"
+          ],
+          "correctAnswer": "Where is your book?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah dooravaani kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama dooravaani maatuh samipe asti.",
+            "mama dooravaani navaa asti.",
+            "aham dooravaanyaa vadaami."
+          ],
+          "correctAnswer": "mama dooravaani maatuh samipe asti.",
+          "translatedSentence": "My phone is with my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etaani vastraani mama anujasya santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These clothes belong to my younger brother.",
+            "These clothes belong to my elder brother.",
+            "These clothes belong to my younger sister."
+          ],
+          "correctAnswer": "These clothes belong to my younger brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "esha kandukah kasya asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "esha kandukah mama anujasya asti.",
+            "esha kandukah bahih asti.",
+            "aham kandukena kridaami."
+          ],
+          "correctAnswer": "esha kandukah mama anujasya asti.",
+          "translatedSentence": "This ball is my younger brother's."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married and children",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kutumbe kati janaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama kutumbe pancha janaah santi.",
+            "mama kutumbam graame vasati.",
+            "aham kutumbena saha vasaami."
+          ],
+          "correctAnswer": "mama kutumbe pancha janaah santi.",
+          "translatedSentence": "There are five people in my family."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama agrajasya vivaahah abhavat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother got married.",
+            "My younger brother got married.",
+            "My elder brother is getting married tomorrow."
+          ],
+          "correctAnswer": "My elder brother got married."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyaah kati baalakaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama dvau putrau stah.",
+            "mama putrah vidyaalayam gacchati.",
+            "mama patih shikshakah asti."
+          ],
+          "correctAnswer": "mama dvau putrau stah.",
+          "translatedSentence": "I have two sons."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama putri vidyaalaye pathati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter studies at school.",
+            "My son studies at school.",
+            "My daughter plays at school."
+          ],
+          "correctAnswer": "My daughter studies at school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah patni kutra kaaryam karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama patni chikitsaalaye kaaryam karoti.",
+            "mama patni bahu kushalaa asti.",
+            "mama patni adya grhe eva asti."
+          ],
+          "correctAnswer": "mama patni chikitsaalaye kaaryam karoti.",
+          "translatedSentence": "My wife works at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama anujasya vivaahah adyaapi na jaatah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother is not married yet.",
+            "My elder brother is not married yet.",
+            "My younger brother's wedding is tomorrow."
+          ],
+          "correctAnswer": "My younger brother is not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah putrasya kati varshaani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama putrasya dasha varshaani.",
+            "mama putrah vijnaanam pathati.",
+            "mama putrah mitraih saha kridati."
+          ],
+          "correctAnswer": "mama putrasya dasha varshaani.",
+          "translatedSentence": "My son is ten years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmaakam kutumbam laghu kintu sukhi asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our family is small but happy.",
+            "Our family is big and happy.",
+            "Our family is small and quiet."
+          ],
+          "correctAnswer": "Our family is small but happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah bhaginyaah vivaahah kadaa bhavishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tasyaah vivaahah agrime maase bhavishyati.",
+            "tasyaah vivaahah nagare bhavishyati.",
+            "aham vivaahaaya gamishyaami."
+          ],
+          "correctAnswer": "tasyaah vivaahah agrime maase bhavishyati.",
+          "translatedSentence": "Her wedding will be next month."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents and uncles",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah pitaamahah kutra vasati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama pitaamahah graame vasati.",
+            "mama pitaamahi graame vasati.",
+            "mama pitaamahah vrddhah asti."
+          ],
+          "correctAnswer": "mama pitaamahah graame vasati.",
+          "translatedSentence": "My grandfather lives in the village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pitaamahi pratidinam mandiram gacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother goes to the temple every day.",
+            "My grandfather goes to the temple every day.",
+            "My grandmother went to the temple today."
+          ],
+          "correctAnswer": "My grandmother goes to the temple every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah maatulah kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama maatulah krshim karoti.",
+            "mama maatulah mama maatuh bhraataa asti.",
+            "mama maatulah samipe eva vasati."
+          ],
+          "correctAnswer": "mama maatulah krshim karoti.",
+          "translatedSentence": "My uncle is a farmer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama maatulaani uttamam bhojanam pachati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt cooks excellent food.",
+            "My aunt eats excellent food.",
+            "My grandmother cooks excellent food."
+          ],
+          "correctAnswer": "My aunt cooks excellent food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah pitrvyasya putrah kutra pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah nagare vishvavidyaalaye pathati.",
+            "sah mama pitrvyasya putrah asti.",
+            "tasya naama raamah asti."
+          ],
+          "correctAnswer": "sah nagare vishvavidyaalaye pathati.",
+          "translatedSentence": "He studies at the university in the city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pitrsvasaa pratimaasam asmaakam grham aagacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's sister comes to our house every month.",
+            "My mother's sister comes to our house every month.",
+            "My father's sister lives in our house."
+          ],
+          "correctAnswer": "My father's sister comes to our house every month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah maataamahi katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saa kushalini asti, dhanyavaadah.",
+            "sah kushali asti, dhanyavaadah.",
+            "saa mama maatuh maataa asti."
+          ],
+          "correctAnswer": "saa kushalini asti, dhanyavaadah.",
+          "translatedSentence": "She is well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "utsavasamaye vayam sarve maatulasya grhe milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During the festival we all meet at my uncle's house.",
+            "During the festival we all meet at my grandfather's house.",
+            "Every month we all meet at my uncle's house."
+          ],
+          "correctAnswer": "During the festival we all meet at my uncle's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kati pitrvyaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama dvau pitrvyau stah.",
+            "mama pitrvyah nagare vasati.",
+            "mama pitaa trayaanaam bhraatrnaam jyeshthah asti."
+          ],
+          "correctAnswer": "mama dvau pitrvyau stah.",
+          "translatedSentence": "I have two paternal uncles."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What my family does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah maataa kutra kaaryam karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama maataa vidyaalaye kaaryam karoti.",
+            "mama maataa shikshikaa asti.",
+            "mama maataa praatah kaaryam aarabhate."
+          ],
+          "correctAnswer": "mama maataa vidyaalaye kaaryam karoti.",
+          "translatedSentence": "My mother works at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pitaa pratidinam kaaryaalayam gacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father goes to the office every day.",
+            "My father is going to the office today.",
+            "My mother goes to the office every day."
+          ],
+          "correctAnswer": "My father goes to the office every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah agrajah kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah nagare vaidyah asti.",
+            "sah nagare vasati.",
+            "sah adya na aagacchati."
+          ],
+          "correctAnswer": "sah nagare vaidyah asti.",
+          "translatedSentence": "He is a doctor in the city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama bhagini baalakebhyah sangeetam shikshayati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister teaches music to children.",
+            "My sister learns music from children.",
+            "My brother teaches music to children."
+          ],
+          "correctAnswer": "My sister teaches music to children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyaah patih kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah aapane vyaapaaram karoti.",
+            "sah aapanasya samipe vasati.",
+            "sah pratidinam maam aahvayati."
+          ],
+          "correctAnswer": "sah aapane vyaapaaram karoti.",
+          "translatedSentence": "He runs a business at a shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama maataamahah puurvam shikshakah aasit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather used to be a teacher.",
+            "My grandfather is a teacher now.",
+            "My grandfather wanted to be a teacher."
+          ],
+          "correctAnswer": "My grandfather used to be a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah putrah kim pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah vijnaanam pathati.",
+            "sah nagarasya vidyaalaye pathati.",
+            "sah praatah eva pathati."
+          ],
+          "correctAnswer": "sah vijnaanam pathati.",
+          "translatedSentence": "He studies science."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama patni adya chikitsaalayam na gatavati yatah saa rugnaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife did not go to the hospital today because she is unwell.",
+            "My wife went to the hospital today because she is unwell.",
+            "My wife did not go to the hospital today because she had no work."
+          ],
+          "correctAnswer": "My wife did not go to the hospital today because she is unwell."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah grhe kah bhojanam pachati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asmaakam grhe maataa bhojanam pachati.",
+            "asmaakam grhe sarve saha khaadanti.",
+            "aham bhojanam khaaditum icchaami."
+          ],
+          "correctAnswer": "asmaakam grhe maataa bhojanam pachati.",
+          "translatedSentence": "At our house my mother cooks the food."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits plans and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kadaa grham gamishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham shvah praatah grham gamishyaami yatah mama maatuh janmadinam asti.",
+            "aham hyah grham gatavaan kintu shighram eva aagatavaan.",
+            "aham adhunaa grham na gacchaami yatah aham vyastah asmi."
+          ],
+          "correctAnswer": "aham shvah praatah grham gamishyaami yatah mama maatuh janmadinam asti.",
+          "translatedSentence": "I will go home tomorrow morning because it is my mother's birthday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavaan aagacchati tarhi vayam sarve saha bhojanam kurmah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come, we will all eat together.",
+            "If you come, we will all go together.",
+            "When you came, we all ate together."
+          ],
+          "correctAnswer": "If you come, we will all eat together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "grhe sarve katham santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "grhe sarve kushalinah santi, kevalam pitaamahi kinchit rugnaa asti.",
+            "grhe sarve praatah eva kaaryam kurvanti.",
+            "grhe sarve mandiram gatavantah, aham tu atra eva asmi."
+          ],
+          "correctAnswer": "grhe sarve kushalinah santi, kevalam pitaamahi kinchit rugnaa asti.",
+          "translatedSentence": "Everyone at home is well, only grandmother is a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama bhraataa adya na aagamishyati yatah tasya bahu kaaryam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother will not come today because he has a lot of work.",
+            "My brother did not come today because he had a lot of work.",
+            "My brother will come today after his work is over."
+          ],
+          "correctAnswer": "My brother will not come today because he has a lot of work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyaah kutumbam kadaa asmaakam grham aagamishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vayam agrime shanivaasare aagamishyaamah.",
+            "vayam gate shanivaasare aagatavantah.",
+            "asmaakam kutumbam bhavatah grhasya samipe eva asti."
+          ],
+          "correctAnswer": "vayam agrime shanivaasare aagamishyaamah.",
+          "translatedSentence": "We will come next Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam maatraa saha dooravaanyaa vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I talk to my mother on the phone every day.",
+            "I talked to my mother on the phone yesterday.",
+            "I talk to my mother at home every day."
+          ],
+          "correctAnswer": "I talk to my mother on the phone every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah putrasya pariikshaa katham abhavat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tasya pariikshaa samyak abhavat, atah sah santushtah asti.",
+            "tasya pariikshaa agrime saptaahe bhavishyati.",
+            "sah pariikshaayaah krte pratidinam pathati."
+          ],
+          "correctAnswer": "tasya pariikshaa samyak abhavat, atah sah santushtah asti.",
+          "translatedSentence": "His exam went well, so he is happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadyapi mama pitaa vrddhah asti tathaapi sah pratidinam bhramanaaya gacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though my father is old, he goes for a walk every day.",
+            "Because my father is old, he does not go for a walk any more.",
+            "When my father was young, he went for a walk every day."
+          ],
+          "correctAnswer": "Even though my father is old, he goes for a walk every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa vadatu, bhavaan punah kadaa aagamishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham agrime maase punah aagamishyaami, tadaa sakutumbam aagamishyaami.",
+            "aham gate maase aagatavaan kintu bahukaalam sthaatum na shaktavaan.",
+            "mama kutumbam idaaniim atra eva vasati, atah aham pratidinam milaami."
+          ],
+          "correctAnswer": "aham agrime maase punah aagamishyaami, tadaa sakutumbam aagamishyaami.",
+          "translatedSentence": "I will come again next month, and that time I will bring my family."
+        }
+      ]
+    }
+  ]
+}

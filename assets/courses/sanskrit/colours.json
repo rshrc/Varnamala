@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aakaashasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aakaashah niilavarnah asti.",
+            "aakaashah haritavarnah asti.",
+            "aakaashah krishnavarnah asti."
+          ],
+          "correctAnswer": "aakaashah niilavarnah asti.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dugdham shvetavarnam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The milk is white.",
+            "The milk is hot.",
+            "The water is white."
+          ],
+          "correctAnswer": "The milk is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kaakasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaakah krishnavarnah asti.",
+            "kaakah shvetavarnah asti.",
+            "kaakah piitavarnah asti."
+          ],
+          "correctAnswer": "kaakah krishnavarnah asti.",
+          "translatedSentence": "The crow is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "patraani haritavarnaani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The leaves are green.",
+            "The leaves are yellow.",
+            "The flowers are green."
+          ],
+          "correctAnswer": "The leaves are green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "haridraayaah varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "haridraa piitavarnaa asti.",
+            "haridraa raktavarnaa asti.",
+            "haridraa niilavarnaa asti."
+          ],
+          "correctAnswer": "haridraa piitavarnaa asti.",
+          "translatedSentence": "Turmeric is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esah kandukah raktavarnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This ball is red.",
+            "This ball is small.",
+            "That ball is red."
+          ],
+          "correctAnswer": "This ball is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "himasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "himam shvetavarnam asti.",
+            "himam krishnavarnam asti.",
+            "himam haritavarnam asti."
+          ],
+          "correctAnswer": "himam shvetavarnam asti.",
+          "translatedSentence": "Snow is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama lekhanii niilavarnaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My pen is blue.",
+            "My pen is new.",
+            "Your pen is blue."
+          ],
+          "correctAnswer": "My pen is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "trnasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "trnam haritavarnam asti.",
+            "trnam piitavarnam asti.",
+            "trnam shvetavarnam asti."
+          ],
+          "correctAnswer": "trnam haritavarnam asti.",
+          "translatedSentence": "Grass is green."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "esah kandukah kimvarnah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "esah kandukah piitavarnah asti.",
+            "esah kandukah mama asti.",
+            "aham kandukena kriidaami."
+          ],
+          "correctAnswer": "esah kandukah piitavarnah asti.",
+          "translatedSentence": "This ball is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama grham shvetavarnam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My house is white.",
+            "My house is big.",
+            "My room is white."
+          ],
+          "correctAnswer": "My house is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "iyam lekhanii kimvarnaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "iyam lekhanii krishnavarnaa asti.",
+            "iyam lekhanii mama mitrasya asti.",
+            "aham lekhanyaa likhaami."
+          ],
+          "correctAnswer": "iyam lekhanii krishnavarnaa asti.",
+          "translatedSentence": "This pen is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tat pustakam haritavarnam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That book is green.",
+            "That book is old.",
+            "This book is green."
+          ],
+          "correctAnswer": "That book is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah chhatram kimvarnam asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama chhatram niilavarnam asti.",
+            "mama chhatram grhe asti.",
+            "adya vrshtih bhavati."
+          ],
+          "correctAnswer": "mama chhatram niilavarnam asti.",
+          "translatedSentence": "My umbrella is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esaa maalaa raktavarnaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This garland is red.",
+            "This garland is fragrant.",
+            "That garland is red."
+          ],
+          "correctAnswer": "This garland is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim idam vastram krishnavarnam asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, idam vastram krishnavarnam asti.",
+            "idam vastram atiiva sundaram asti.",
+            "aham vastraani prakshaalayaami."
+          ],
+          "correctAnswer": "aam, idam vastram krishnavarnam asti.",
+          "translatedSentence": "Yes, this cloth is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tasya ashvah kapishavarnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His horse is brown.",
+            "His horse is white.",
+            "Her horse is brown."
+          ],
+          "correctAnswer": "His horse is brown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asya pushpasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idam pushpam paatalavarnam asti.",
+            "idam pushpam udyaane asti.",
+            "aham pushpam icchaami."
+          ],
+          "correctAnswer": "idam pushpam paatalavarnam asti.",
+          "translatedSentence": "This flower is pink."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Choosing a colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kam varnam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham haritavarnam icchaami.",
+            "aham kandukam na icchaami.",
+            "esah varnah sundarah asti."
+          ],
+          "correctAnswer": "aham haritavarnam icchaami.",
+          "translatedSentence": "I want green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham raktavarnaam lekhaniim icchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a red pen.",
+            "I want a red book.",
+            "I do not want a red pen."
+          ],
+          "correctAnswer": "I want a red pen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kaam shaatikaam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham niilavarnaam shaatikaam icchaami.",
+            "aham shaatikaam na dhaarayaami.",
+            "shaatikaa mahatii asti."
+          ],
+          "correctAnswer": "aham niilavarnaam shaatikaam icchaami.",
+          "translatedSentence": "I want a blue saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kim bhavaan piitavarnam kandukam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you want a yellow ball?",
+            "Do you want a green ball?",
+            "Are you buying a yellow ball?"
+          ],
+          "correctAnswer": "Do you want a yellow ball?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa ekam niilavarnam yutakam dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, atra niilavarnam yutakam asti.",
+            "aham yutakam na icchaami.",
+            "vipanii praatah kaale pihitaa asti."
+          ],
+          "correctAnswer": "aam, atra niilavarnam yutakam asti.",
+          "translatedSentence": "Yes, there is a blue shirt here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam krishnavarnah na rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like black.",
+            "I like black.",
+            "I do not like white."
+          ],
+          "correctAnswer": "I do not like black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavate kah varnah rocate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam paatalavarnah rocate.",
+            "aham vipanim gacchaami.",
+            "mama mitram atra asti."
+          ],
+          "correctAnswer": "mahyam paatalavarnah rocate.",
+          "translatedSentence": "I like pink."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shvetavarnam vastram krpayaa darshayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me the white cloth.",
+            "Please show me the black cloth.",
+            "Please buy the white cloth."
+          ],
+          "correctAnswer": "Please show me the white cloth."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavaan raktavarnam athavaa niilavarnam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham niilavarnam icchaami.",
+            "mahyam varnaah na rocante.",
+            "esah kandukah bahu mahaan asti."
+          ],
+          "correctAnswer": "aham niilavarnam icchaami.",
+          "translatedSentence": "I want the blue one."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan adya kimvarnam yutakam dhaarayati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham adya shvetavarnam yutakam dhaarayaami.",
+            "aham adya mandiram gacchaami.",
+            "mama yutakam nuutanam asti."
+          ],
+          "correctAnswer": "aham adya shvetavarnam yutakam dhaarayaami.",
+          "translatedSentence": "Today I am wearing a white shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saa raktavarnaam shaatikaam dhaarayati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is wearing a red saree.",
+            "She is buying a red saree.",
+            "She is wearing a pink saree."
+          ],
+          "correctAnswer": "She is wearing a red saree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "utsave bhavati kaam shaatikaam dhaarayati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "utsave aham piitavarnaam shaatikaam dhaarayaami.",
+            "utsavah shvah asti.",
+            "aham utsave mandiram gacchaami."
+          ],
+          "correctAnswer": "utsave aham piitavarnaam shaatikaam dhaarayaami.",
+          "translatedSentence": "At the festival I wear a yellow saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pituh vastram shvetavarnam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's clothes are white.",
+            "My father's clothes are new.",
+            "My brother's clothes are white."
+          ],
+          "correctAnswer": "My father's clothes are white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim etat uttariiyam krishnavarnam asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, etat uttariiyam niilavarnam asti.",
+            "aham uttariiyam dhaarayaami.",
+            "etat uttariiyam mahat asti."
+          ],
+          "correctAnswer": "na, etat uttariiyam niilavarnam asti.",
+          "translatedSentence": "No, this shawl is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "purvam mama yutakam haritavarnam aasiit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Earlier my shirt was green.",
+            "Earlier my shirt was blue.",
+            "Now my shirt is green."
+          ],
+          "correctAnswer": "Earlier my shirt was green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah paadarakshaah kimvarnaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama paadarakshaah krishnavarnaah santi.",
+            "mama paadarakshaah nuutanaah santi.",
+            "aham paadarakshaah kriinaami."
+          ],
+          "correctAnswer": "mama paadarakshaah krishnavarnaah santi.",
+          "translatedSentence": "My shoes are black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "balakah niilavarnam yutakam dhaarayati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The boy is wearing a blue shirt.",
+            "The boy wants a blue shirt.",
+            "The girl is wearing a blue shirt."
+          ],
+          "correctAnswer": "The boy is wearing a blue shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "gurukule chhaatraah kimvarnam vastram dhaarayanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chhaatraah piitavarnam vastram dhaarayanti.",
+            "chhaatraah gurukule pathanti.",
+            "gurukulam nadyaah samiipe asti."
+          ],
+          "correctAnswer": "chhaatraah piitavarnam vastram dhaarayanti.",
+          "translatedSentence": "The students wear yellow clothes."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours all around",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "udyaane kimvarnaani pushpaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "udyaane raktavarnaani cha piitavarnaani cha pushpaani santi.",
+            "udyaane bahavah janaah santi.",
+            "aham prati dinam udyaanam gacchaami."
+          ],
+          "correctAnswer": "udyaane raktavarnaani cha piitavarnaani cha pushpaani santi.",
+          "translatedSentence": "There are red and yellow flowers in the garden."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saayamkaale aakaashah naarangavarnah bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the sky turns orange.",
+            "In the morning the sky turns orange.",
+            "In the evening the sky turns black."
+          ],
+          "correctAnswer": "In the evening the sky turns orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mayurasya picchasya varnah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mayurasya piccham niilavarnam asti.",
+            "mayurasya piccham piitavarnam asti.",
+            "mayurasya piccham shvetavarnam asti."
+          ],
+          "correctAnswer": "mayurasya piccham niilavarnam asti.",
+          "translatedSentence": "The peacock's feather is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "nadyaah jalam adya kapishavarnam asti, yatah vrshtih abhavat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The river water is brown today because it rained.",
+            "The river water is clear today because it rained.",
+            "The river water was brown yesterday because it rained."
+          ],
+          "correctAnswer": "The river water is brown today because it rained."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vipanyaam kimvarnaani phalaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vipanyaam raktavarnaani phalaani santi.",
+            "vipanii mama grhasya samiipe asti.",
+            "aham vipanyaam phalaani kriinaami."
+          ],
+          "correctAnswer": "vipanyaam raktavarnaani phalaani santi.",
+          "translatedSentence": "There are red fruits in the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mandirasya dhvajah kaashaayavarnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The temple flag is saffron.",
+            "The temple flag is red.",
+            "The temple door is saffron."
+          ],
+          "correctAnswer": "The temple flag is saffron."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sanyaasii kimvarnam vastram dhaarayati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sanyaasii kaashaayavarnam vastram dhaarayati.",
+            "sanyaasii mandire vasati.",
+            "sanyaasii samskrtam vadati."
+          ],
+          "correctAnswer": "sanyaasii kaashaayavarnam vastram dhaarayati.",
+          "translatedSentence": "The monk wears saffron clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "raatrau aakaashah krishnavarnah bhavati, kintu chandrah shvetavarnah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At night the sky turns black, but the moon is white.",
+            "At night the sky turns black, and the moon is not visible.",
+            "In the evening the sky turns black, but the moon is white."
+          ],
+          "correctAnswer": "At night the sky turns black, but the moon is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "graame kshetraani kimvarnaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "graame kshetraani haritavarnaani santi.",
+            "graame janaah krshakaah santi.",
+            "aham maase ekavaaram graamam gacchaami."
+          ],
+          "correctAnswer": "graame kshetraani haritavarnaani santi.",
+          "translatedSentence": "In the village the fields are green."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter or darker",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan gaadhaniilavarnam yutakam icchati athavaa paanduraniilavarnam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham paanduraniilavarnam yutakam icchaami, yatah tat grishme sukhakaram bhavati.",
+            "mama sarvaani yutakaani krishnavarnaani santi.",
+            "aham hyah vipanyaam yutakam na apashyam."
+          ],
+          "correctAnswer": "aham paanduraniilavarnam yutakam icchaami, yatah tat grishme sukhakaram bhavati.",
+          "translatedSentence": "I want the light blue shirt, because it is comfortable in summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esah varnah tasmaat varnaat gaadhatarah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour is darker than that one.",
+            "This colour is lighter than that one.",
+            "That colour is darker than this one."
+          ],
+          "correctAnswer": "This colour is darker than that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim esah kaashaayavarnah mahyam ucitah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, esah varnah bhavate ucitah asti.",
+            "na, aham kaashaayavarnam na jaanaami.",
+            "esaa vipanii adya pihitaa asti."
+          ],
+          "correctAnswer": "aam, esah varnah bhavate ucitah asti.",
+          "translatedSentence": "Yes, this colour suits you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavaan gaadhavarnam icchati tarhi krishnavarnam yutakam pashyatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you want a dark colour, then look at the black shirt.",
+            "If you want a light colour, then look at the black shirt.",
+            "If you want a dark colour, then buy the black shirt."
+          ],
+          "correctAnswer": "If you want a dark colour, then look at the black shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyai kah varnah adhikam rocate, paatalavarnah athavaa naarangavarnah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam paatalavarnah adhikam rocate, kintu naarangavarnah api sundarah asti.",
+            "mama maataa shaatikaam kretum icchati.",
+            "aham adya vipanyaam bahu kaalam asthaam."
+          ],
+          "correctAnswer": "mahyam paatalavarnah adhikam rocate, kintu naarangavarnah api sundarah asti.",
+          "translatedSentence": "I like pink more, but orange is beautiful too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "purvam mahyam krishnavarnah arocata, adhunaa tu shvetavarnah rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Earlier I liked black, but now I like white.",
+            "Earlier I liked white, but now I like black.",
+            "Earlier I liked black, and I still like it."
+          ],
+          "correctAnswer": "Earlier I liked black, but now I like white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "esah varnah atigaadhah asti, kim anyah varnah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, paanduraharitavarnam vastram api atra asti.",
+            "na, aham etam varnam na jaanaami.",
+            "aham shvah punah aagamishyaami."
+          ],
+          "correctAnswer": "aam, paanduraharitavarnam vastram api atra asti.",
+          "translatedSentence": "Yes, there is a light green cloth here as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadyapi esah varnah sundarah asti tathaapi mama maatre na rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Although this colour is beautiful, my mother does not like it.",
+            "Although this colour is beautiful, my sister does not like it.",
+            "Because this colour is beautiful, my mother likes it."
+          ],
+          "correctAnswer": "Although this colour is beautiful, my mother does not like it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kimartham sarvadaa shvetavarnam vastram dhaarayati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yatah shvetavarnah mama atiiva priyah asti.",
+            "aham prati dinam praatah mandiram gacchaami.",
+            "mama vastraani vipanyaam santi."
+          ],
+          "correctAnswer": "yatah shvetavarnah mama atiiva priyah asti.",
+          "translatedSentence": "Because white is very dear to me."
+        }
+      ]
+    }
+  ]
+}

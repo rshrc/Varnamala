@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Bus, Train and Station",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kahan ja rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main station ja raha hoon.",
+            "Main bus mein baitha hoon.",
+            "Main abhi ghar par hoon."
+          ],
+          "correctAnswer": "Main station ja raha hoon.",
+          "translatedSentence": "I am going to the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh bus kahan jati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh bus Lucknow jati hai.",
+            "Yeh bus abhi nahin aayi.",
+            "Yeh train Hyderabad jati hai."
+          ],
+          "correctAnswer": "Yeh bus Lucknow jati hai.",
+          "translatedSentence": "This bus goes to Lucknow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Station kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the station?",
+            "Where is the bus?",
+            "Is the station far?"
+          ],
+          "correctAnswer": "Where is the station?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station yahan se door hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, station qareeb hai.",
+            "Haan, bus abhi khadi hai.",
+            "Nahin, mujhe chai chahiye."
+          ],
+          "correctAnswer": "Nahin, station qareeb hai.",
+          "translatedSentence": "No, the station is close by."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus abhi nahin aayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus has not come yet.",
+            "The bus has already left.",
+            "The bus is very full."
+          ],
+          "correctAnswer": "The bus has not come yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh train Delhi jati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, yeh train Delhi jati hai.",
+            "Haan, mujhe train pasand hai.",
+            "Nahin, station bahut bada hai."
+          ],
+          "correctAnswer": "Haan, yeh train Delhi jati hai.",
+          "translatedSentence": "Yes, this train goes to Delhi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train das baje jati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train leaves at ten o'clock.",
+            "The train arrives at nine o'clock.",
+            "The train is late today."
+          ],
+          "correctAnswer": "The train leaves at ten o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap bus se ja rahe hain ya train se?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main train se ja raha hoon.",
+            "Main station par khada hoon.",
+            "Main Delhi mein rehta hoon."
+          ],
+          "correctAnswer": "Main train se ja raha hoon.",
+          "translatedSentence": "I am going by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main Hyderabad ja rahi hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to Hyderabad.",
+            "I am coming from Hyderabad.",
+            "I live in Hyderabad."
+          ],
+          "correctAnswer": "I am going to Hyderabad."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a Ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kitne ticket chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe do ticket chahiye.",
+            "Mujhe train ka waqt maloom nahin.",
+            "Main khirki par khada hoon."
+          ],
+          "correctAnswer": "Mujhe do ticket chahiye.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lucknow ka ticket kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Teen sau rupay ka hai.",
+            "Ticket khirki par milta hai.",
+            "Lucknow yahan se door hai."
+          ],
+          "correctAnswer": "Teen sau rupay ka hai.",
+          "translatedSentence": "It costs three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe Karachi ka ek ticket chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one ticket to Karachi.",
+            "I want to go to Karachi tomorrow.",
+            "I already have a ticket to Karachi."
+          ],
+          "correctAnswer": "I need one ticket to Karachi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agli train kitne baje hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Agli train shaam paanch baje hai.",
+            "Ticket khirki abhi band hai.",
+            "Yeh train platform do par khadi hai."
+          ],
+          "correctAnswer": "Agli train shaam paanch baje hai.",
+          "translatedSentence": "The next train is at five in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh ticket kal ke liye hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This ticket is for tomorrow.",
+            "This ticket is only for today.",
+            "This ticket is not valid."
+          ],
+          "correctAnswer": "This ticket is for tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aaj ki train mein jagah hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, do seat khali hain.",
+            "Haan, ticket khirki khuli hai.",
+            "Nahin, station door nahin hai."
+          ],
+          "correctAnswer": "Haan, do seat khali hain.",
+          "translatedSentence": "Yes, two seats are free."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train aadhe ghante mein aayegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train will arrive in half an hour.",
+            "The train left half an hour ago.",
+            "The train comes every half hour."
+          ],
+          "correctAnswer": "The train will arrive in half an hour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ticket khirki kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khirki station ke andar hai.",
+            "Ticket teen sau rupay ka hai.",
+            "Train abhi nikal rahi hai."
+          ],
+          "correctAnswer": "Khirki station ke andar hai.",
+          "translatedSentence": "The ticket window is inside the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kya main yahan se ticket khareed sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can I buy a ticket here?",
+            "Where can I buy a ticket?",
+            "Should I buy the ticket now?"
+          ],
+          "correctAnswer": "Can I buy a ticket here?"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, bazaar kis taraf hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seedhe jaiye, phir daayen mudiye.",
+            "Bazaar aaj bahut bhara hua hai.",
+            "Bazaar mein achhi biryani milti hai."
+          ],
+          "correctAnswer": "Seedhe jaiye, phir daayen mudiye.",
+          "translatedSentence": "Go straight, then turn right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh raasta station ko jata hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, yeh raasta bazaar ko jata hai.",
+            "Haan, yeh sadak nayi bani hai.",
+            "Nahin, station das baje khulta hai."
+          ],
+          "correctAnswer": "Nahin, yeh raasta bazaar ko jata hai.",
+          "translatedSentence": "No, this road goes to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Seedhe chaliye aur baayen mudiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go straight and turn left.",
+            "Turn right at the corner.",
+            "Walk to the end of this road."
+          ],
+          "correctAnswer": "Go straight and turn left."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yahan se hospital kitni door hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sirf paanch minute ka raasta hai.",
+            "Hospital subah nau baje khulta hai.",
+            "Wahan achhi dawa mil jati hai."
+          ],
+          "correctAnswer": "Sirf paanch minute ka raasta hai.",
+          "translatedSentence": "It is only a five-minute walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe yeh raasta maloom nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this road.",
+            "This road is not open.",
+            "I have not walked much today."
+          ],
+          "correctAnswer": "I do not know this road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main wahan paidal ja sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, paidal jaana hi behtar hai.",
+            "Haan, wahan gaari khadi hai.",
+            "Nahin, mujhe raasta maloom hai."
+          ],
+          "correctAnswer": "Haan, paidal jaana hi behtar hai.",
+          "translatedSentence": "Yes, it is better to walk there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh dukan sadak ke doosri taraf hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That shop is on the other side of the road.",
+            "That shop is at the end of the road.",
+            "That shop is right next to the market."
+          ],
+          "correctAnswer": "That shop is on the other side of the road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Zara batayiye, masjid kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Masjid us mor ke baad hai.",
+            "Masjid ki imaarat bahut purani hai.",
+            "Masjid mein log jama ho rahe hain."
+          ],
+          "correctAnswer": "Masjid us mor ke baad hai.",
+          "translatedSentence": "The mosque is just after that turn."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bank chowk ke qareeb hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bank is near the crossroads.",
+            "The bank is behind the crossroads.",
+            "The bank is opposite the market."
+          ],
+          "correctAnswer": "The bank is near the crossroads."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhai sahab, kya aap purane shehar chalenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, baith jaiye.",
+            "Haan, mera auto naya hai.",
+            "Nahin, mujhe raasta maloom nahin tha."
+          ],
+          "correctAnswer": "Haan, baith jaiye.",
+          "translatedSentence": "Yes, please get in."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station tak ka kiraya kitna loge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do sau rupay lunga.",
+            "Station yahan se qareeb nahin.",
+            "Meter par abhi kuch nahin likha."
+          ],
+          "correctAnswer": "Do sau rupay lunga.",
+          "translatedSentence": "I will take two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meter chalu kar dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please start the meter.",
+            "Please stop the meter.",
+            "The meter is not working."
+          ],
+          "correctAnswer": "Please start the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap meter se chalenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main meter se hi chalta hoon.",
+            "Haan, yeh sadak seedhi jati hai.",
+            "Nahin, auto bazaar ke qareeb khada hai."
+          ],
+          "correctAnswer": "Haan, main meter se hi chalta hoon.",
+          "translatedSentence": "Yes, I go only by the meter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Auto se jaana taxi se sasta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Going by auto is cheaper than by taxi.",
+            "The auto is faster than the taxi.",
+            "The taxi costs more than the bus."
+          ],
+          "correctAnswer": "Going by auto is cheaper than by taxi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kiraya kuch kam kar lijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, ek sau assi de dijiye.",
+            "Theek hai, main yahin rok deta hoon.",
+            "Kiraya khirki par likha hua hai."
+          ],
+          "correctAnswer": "Theek hai, ek sau assi de dijiye.",
+          "translatedSentence": "All right, give me one hundred and eighty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe Charminar tak jaana hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need to go to Charminar.",
+            "I have just come from Charminar.",
+            "I want to see Charminar tomorrow."
+          ],
+          "correctAnswer": "I need to go to Charminar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Zara yahan rok dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main yahan rokta hoon.",
+            "Theek hai, meter do sau bata raha hai.",
+            "Haan, taxi bhi mil jayegi."
+          ],
+          "correctAnswer": "Theek hai, main yahan rokta hoon.",
+          "translatedSentence": "All right, I will stop here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agle chowk par rok dena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Stop at the next crossroads.",
+            "Turn at the next crossroads.",
+            "Wait for me at the crossroads."
+          ],
+          "correctAnswer": "Stop at the next crossroads."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke paas ek kamra khali hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, doosri manzil par ek kamra khali hai.",
+            "Haan, hotel station ke qareeb hai.",
+            "Nahin, nashta subah milta hai."
+          ],
+          "correctAnswer": "Haan, doosri manzil par ek kamra khali hai.",
+          "translatedSentence": "Yes, there is a free room on the second floor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kitni raat rukenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main do raat rukunga.",
+            "Main kal subah pahuncha tha.",
+            "Mujhe yeh kamra pasand aaya."
+          ],
+          "correctAnswer": "Main do raat rukunga.",
+          "translatedSentence": "I will stay for two nights."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe aisa kamra chahiye jis mein khirki ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a room that has a window.",
+            "I need a room with two beds.",
+            "I would like to see the room first."
+          ],
+          "correctAnswer": "I need a room that has a window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek raat ka kiraya kitna hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek raat ka pandrah sau rupay hai.",
+            "Kamra teesri manzil par hai.",
+            "Kamre mein garam paani aata hai."
+          ],
+          "correctAnswer": "Ek raat ka pandrah sau rupay hai.",
+          "translatedSentence": "One night costs fifteen hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kamra saaf hai lekin thora chhota hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The room is clean but a little small.",
+            "The room is small but very cheap.",
+            "The room is clean and quite big."
+          ],
+          "correctAnswer": "The room is clean but a little small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya kamre mein garam paani aata hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, subah aur raat ko garam paani aata hai.",
+            "Haan, kamra kaafi bada hai.",
+            "Nahin, lift kaam nahin kar rahi."
+          ],
+          "correctAnswer": "Haan, subah aur raat ko garam paani aata hai.",
+          "translatedSentence": "Yes, hot water comes in the morning and at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar kamra pasand na aaya to main doosra dekh lunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I do not like the room, I will look at another one.",
+            "If the room is expensive, I will stay somewhere else.",
+            "I liked the room, but I will look at another one."
+          ],
+          "correctAnswer": "If I do not like the room, I will look at another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nashta kitne baje milta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nashta saat se das baje tak milta hai.",
+            "Nashte mein chai bhi shaamil hai.",
+            "Khana neeche wale kamre mein milta hai."
+          ],
+          "correctAnswer": "Nashta saat se das baje tak milta hai.",
+          "translatedSentence": "Breakfast is served from seven until ten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meherbani kar ke mera saamaan kamre tak pahuncha dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please have my luggage sent up to the room.",
+            "Please keep my luggage down here for now.",
+            "Please bring my luggage down from the room."
+          ],
+          "correctAnswer": "Please have my luggage sent up to the room."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train kitni der se aa rahi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train do ghante late hai kyunki aage patri par kaam ho raha hai.",
+            "Train waqt par nikli thi lekin main pahunch nahin saka.",
+            "Train ka ticket khirki se lena parta hai."
+          ],
+          "correctAnswer": "Train do ghante late hai kyunki aage patri par kaam ho raha hai.",
+          "translatedSentence": "The train is two hours late because there is work going on the track ahead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ka saamaan kaisa dikhta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh ek kala bag hai jis par mera naam likha hua hai.",
+            "Woh saamaan main ne kal hi khareeda tha.",
+            "Woh bag mere kamre mein rakha hua tha."
+          ],
+          "correctAnswer": "Woh ek kala bag hai jis par mera naam likha hua hai.",
+          "translatedSentence": "It is a black bag with my name written on it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera bag train mein reh gaya hai, lekin mujhe seat number yaad hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag was left on the train, but I remember the seat number.",
+            "My bag was left at the hotel, but I remember the room number.",
+            "My bag is on the train, so I remembered to take the seat number."
+          ],
+          "correctAnswer": "My bag was left on the train, but I remember the seat number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, kya aap meri madad kar sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji zaroor, batayiye kya baat hai.",
+            "Ji nahin, mujhe madad ki zaroorat nahin hai.",
+            "Shukriya, main bilkul theek hoon."
+          ],
+          "correctAnswer": "Ji zaroor, batayiye kya baat hai.",
+          "translatedSentence": "Of course, tell me what the matter is."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main ne do ghante intezaar kiya lekin koi madad nahin mili.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I waited for two hours but got no help.",
+            "I waited for two hours before someone finally helped me.",
+            "I asked for help twice but nobody came."
+          ],
+          "correctAnswer": "I waited for two hours but got no help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agar train aur late ho gayi to aap kya karenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Agar train aur late hui to main bus se chala jaunga.",
+            "Train late nahin hoti kyunki mausam saaf hai.",
+            "Main ne kal hi is train ka ticket khareed liya tha."
+          ],
+          "correctAnswer": "Agar train aur late hui to main bus se chala jaunga.",
+          "translatedSentence": "If the train gets any later, I will go by bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aaj ki flight nahin gayi to hum kal subah niklenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If today's flight does not go, we will leave tomorrow morning.",
+            "If today's flight is late, we will wait at the airport.",
+            "Today's flight did not go, so we left the next morning."
+          ],
+          "correctAnswer": "If today's flight does not go, we will leave tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ne shikayat likhwai ya nahin?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main ne daftar mein shikayat likhwa di hai.",
+            "Nahin, kyunki mujhe daftar ka raasta maloom hai.",
+            "Haan, main ne station par do ghante intezaar kiya."
+          ],
+          "correctAnswer": "Haan, main ne daftar mein shikayat likhwa di hai.",
+          "translatedSentence": "Yes, I have filed a complaint at the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meherbani kar ke mujhe bata dijiye ke agli bus kab niklegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please tell me when the next bus will leave.",
+            "Please tell me where the next bus will stop.",
+            "Please ask them when the last bus left."
+          ],
+          "correctAnswer": "Please tell me when the next bus will leave."
+        }
+      ]
+    }
+  ]
+}

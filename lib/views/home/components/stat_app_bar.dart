@@ -4,13 +4,14 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:auto_route/auto_route.dart';
 import 'package:countup/countup.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/di/injection.dart';
-import 'package:words625/gen/assets.gen.dart';
+import 'package:words625/core/language_info.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/theme.dart';
@@ -161,32 +162,18 @@ class LanguageSelector extends StatelessWidget {
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(
                   width: 2,
-                  color: VarnamalaTheme.peacockTeal.withOpacity(0.2),
+                  color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.2),
                 ),
-                image: DecorationImage(
-                  fit: BoxFit.cover,
-                  image: AssetImage(_getFlagPath(currentLanguage)),
-                ),
+              ),
+              clipBehavior: Clip.antiAlias,
+              child: SvgPicture.asset(
+                languageInfoByName(currentLanguage).emblem,
+                fit: BoxFit.cover,
               ),
             ),
           ),
         );
       },
     );
-  }
-
-  String _getFlagPath(String language) {
-    switch (language.toLowerCase()) {
-      case 'kannada':
-        return Assets.images.karnatakaFlag.path;
-      case 'tamil':
-        return Assets.images.tamilNaduFlag.path;
-      case 'telugu':
-        return Assets.images.telenganaFlag.path;
-      case 'malayalam':
-        return Assets.images.malayalamFlag.path;
-      default:
-        return Assets.images.karnatakaFlag.path;
-    }
   }
 }

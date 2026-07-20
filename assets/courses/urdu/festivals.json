@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eid Mubarak ho!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aap ko bhi Eid Mubarak.",
+            "Main ghar ja raha hoon.",
+            "Yeh meri behen hai."
+          ],
+          "correctAnswer": "Aap ko bhi Eid Mubarak.",
+          "translatedSentence": "Happy Eid to you too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek hoon, shukriya.",
+            "Kal Eid ka din hai.",
+            "Woh mera bhai hai."
+          ],
+          "correctAnswer": "Main theek hoon, shukriya.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj bahut khushi ka din hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is a very happy day.",
+            "Today is a very long day.",
+            "Today is a very cold day."
+          ],
+          "correctAnswer": "Today is a very happy day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki Eid kaisi guzri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut achhi guzri, shukriya.",
+            "Mujhe thodi chai chahiye.",
+            "Main abhi bazaar mein hoon."
+          ],
+          "correctAnswer": "Bahut achhi guzri, shukriya.",
+          "translatedSentence": "It went very well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khuda aap ko hamesha khush rakhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "May God always keep you happy.",
+            "May God always keep you at home.",
+            "May God always keep you busy."
+          ],
+          "correctAnswer": "May God always keep you happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shukriya, aap bahut meherban hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahin, yeh meri khushi hai.",
+            "Mujhe abhi waqt maloom nahin.",
+            "Haan, main un se kal milta hoon."
+          ],
+          "correctAnswer": "Koi baat nahin, yeh meri khushi hai.",
+          "translatedSentence": "Not at all, it is my pleasure."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri taraf se sab ko mubarakbad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Congratulations to everyone from me.",
+            "Everyone is coming to my house.",
+            "I am saying goodbye to everyone."
+          ],
+          "correctAnswer": "Congratulations to everyone from me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ab main chalta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, khuda hafiz.",
+            "Achha, mujhe mithai chahiye.",
+            "Nahin, main yahan nahin hoon."
+          ],
+          "correctAnswer": "Achha, khuda hafiz.",
+          "translatedSentence": "All right, goodbye."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap se mil kar bahut khushi hui.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was a great pleasure to meet you.",
+            "It was a great pleasure to help you.",
+            "It was very difficult to find you."
+          ],
+          "correctAnswer": "It was a great pleasure to meet you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eid ul-Fitr kab hoti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ramzan ke poore mahine ke baad hoti hai.",
+            "Sardi ke mausam ke shuru mein hoti hai.",
+            "Har hafte ke aakhri din hoti hai."
+          ],
+          "correctAnswer": "Ramzan ke poore mahine ke baad hoti hai.",
+          "translatedSentence": "It comes after the whole month of Ramzan."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid ul-Adha par log qurbani karte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Eid ul-Adha people offer a sacrifice.",
+            "On Eid ul-Adha people go on a long journey.",
+            "On Eid ul-Adha people keep a fast."
+          ],
+          "correctAnswer": "On Eid ul-Adha people offer a sacrifice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shab-e-Barat kis mahine mein aati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh Shaban ke mahine mein aati hai.",
+            "Woh Ramzan ke pehle din aati hai.",
+            "Woh Muharram ke aakhir mein aati hai."
+          ],
+          "correctAnswer": "Woh Shaban ke mahine mein aati hai.",
+          "translatedSentence": "It falls in the month of Shaban."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Muharram mein log majlis mein jaate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Muharram people attend mourning gatherings.",
+            "In Muharram people attend big parties.",
+            "In Muharram people travel to their village."
+          ],
+          "correctAnswer": "In Muharram people attend mourning gatherings."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Is saal Eid kis din hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is saal Eid jumeraat ko hai.",
+            "Is saal Eid ka chand bahut bara tha.",
+            "Is saal main Eid par ghar nahin tha."
+          ],
+          "correctAnswer": "Is saal Eid jumeraat ko hai.",
+          "translatedSentence": "This year Eid falls on Thursday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ramzan mein hum sara din roza rakhte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Ramzan we fast the whole day.",
+            "In Ramzan we cook the whole day.",
+            "In Ramzan we rest the whole day."
+          ],
+          "correctAnswer": "In Ramzan we fast the whole day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap Eid kahan manate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hum Eid Hyderabad mein manate hain.",
+            "Hum Eid ke baad hi kaam shuru karte hain.",
+            "Hum Eid par sheer khurma banate hain."
+          ],
+          "correctAnswer": "Hum Eid Hyderabad mein manate hain.",
+          "translatedSentence": "We celebrate Eid in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chand raat ko bazaar dair tak khula rehta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the night before Eid the market stays open late.",
+            "On the night before Eid the market closes early.",
+            "On the night before Eid the market is very quiet."
+          ],
+          "correctAnswer": "On the night before Eid the market stays open late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ko maloom hai ke chand kab nazar aayega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe maloom nahin, shayad kal raat ko.",
+            "Ji haan, chand raat ko bazaar jaate hain.",
+            "Ji nahin, main Lucknow kabhi nahin gaya."
+          ],
+          "correctAnswer": "Mujhe maloom nahin, shayad kal raat ko.",
+          "translatedSentence": "I do not know, perhaps tomorrow night."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap kal hamare ghar tashreef layenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji zaroor, main waqt par pahunch jaunga.",
+            "Ji haan, yeh mera hi ghar hai.",
+            "Ji nahin, mujhe khana banana nahin aata."
+          ],
+          "correctAnswer": "Ji zaroor, main waqt par pahunch jaunga.",
+          "translatedSentence": "Yes of course, I will get there on time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aap ko Eid ke khane ki dawat dena chahta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like to invite you for an Eid meal.",
+            "I would like to thank you for the Eid meal.",
+            "I would like to cook you an Eid meal."
+          ],
+          "correctAnswer": "I would like to invite you for an Eid meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dawat kis waqt hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shaam saat baje hai.",
+            "Hamare ghar ke peeche hai.",
+            "Meri behen ke saath hai."
+          ],
+          "correctAnswer": "Shaam saat baje hai.",
+          "translatedSentence": "It is at seven in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, main kal nahin aa sakta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahin, phir kabhi sahi.",
+            "Shukriya, main bhi nahin aaunga.",
+            "Ji haan, dawat kal hi hai."
+          ],
+          "correctAnswer": "Koi baat nahin, phir kabhi sahi.",
+          "translatedSentence": "No problem, another time then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap apne ghar walon ko bhi saath laiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring your family along as well.",
+            "Please tell your family about it as well.",
+            "Please leave your family at home."
+          ],
+          "correctAnswer": "Please bring your family along as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke saath kitne log aayenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hum chaar log aayenge.",
+            "Hum aath baje nikal jaayenge.",
+            "Hum Karachi mein rehte hain."
+          ],
+          "correctAnswer": "Hum chaar log aayenge.",
+          "translatedSentence": "Four of us will come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap ko waqt mile to zaroor tashreef laiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get the time, please do come.",
+            "If you get the time, please call me.",
+            "If you do not get the time, let us meet later."
+          ],
+          "correctAnswer": "If you get the time, please do come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum shaam ko mere saath chalogi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main tumhare saath chalungi.",
+            "Haan, main ne khana kha liya hai.",
+            "Nahin, mujhe yeh jagah maloom hai."
+          ],
+          "correctAnswer": "Haan, main tumhare saath chalungi.",
+          "translatedSentence": "Yes, I will come with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap ke aane se hamein bahut khushi hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will be very happy if you come.",
+            "We were very happy that you came.",
+            "We will be very sad when you leave."
+          ],
+          "correctAnswer": "We will be very happy if you come."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eid ke din aap ke ghar kya banta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hamare ghar sheer khurma banta hai.",
+            "Hum nihari sirf sardi mein khate hain.",
+            "Hum khana bazaar se mangwate hain."
+          ],
+          "correctAnswer": "Hamare ghar sheer khurma banta hai.",
+          "translatedSentence": "At our house we make sheer khurma."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sheer khurma dood, seviyon aur khajoor se banta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sheer khurma is made with milk, vermicelli and dates.",
+            "Sheer khurma is made with rice, sugar and almonds.",
+            "Sheer khurma is eaten with bread and tea."
+          ],
+          "correctAnswer": "Sheer khurma is made with milk, vermicelli and dates."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ko biryani pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, Hyderabadi biryani mujhe bahut pasand hai.",
+            "Ji haan, main Hyderabad mein paida hua tha.",
+            "Ji nahin, mujhe biryani banani nahin aati."
+          ],
+          "correctAnswer": "Ji haan, Hyderabadi biryani mujhe bahut pasand hai.",
+          "translatedSentence": "Yes, I love Hyderabadi biryani."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid ki subah hum meethi seviyan khate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Eid morning we eat sweet vermicelli.",
+            "On Eid morning we drink sweet tea.",
+            "On Eid night we cook sweet vermicelli."
+          ],
+          "correctAnswer": "On Eid morning we eat sweet vermicelli."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Zara aur mithai lijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bas shukriya, main ne bahut kha liya hai.",
+            "Ji haan, mithai bazaar mein milti hai.",
+            "Maaf kijiye, mujhe mithai banani hai."
+          ],
+          "correctAnswer": "Bas shukriya, main ne bahut kha liya hai.",
+          "translatedSentence": "That is enough, thank you, I have eaten plenty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nihari subah ke nashte mein khai jaati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nihari is eaten for breakfast in the morning.",
+            "Nihari is cooked slowly through the night.",
+            "Nihari is served at dinner with rice."
+          ],
+          "correctAnswer": "Nihari is eaten for breakfast in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai mein cheeni kitni chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sirf ek chammach, shukriya.",
+            "Chai abhi bahut garam hai.",
+            "Mujhe chai banani aati hai."
+          ],
+          "correctAnswer": "Sirf ek chammach, shukriya.",
+          "translatedSentence": "Just one spoon, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Qurbani ka gosht hum apne padosiyon mein baantte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We share the sacrificial meat with our neighbours.",
+            "We cook the sacrificial meat for our neighbours.",
+            "We buy the sacrificial meat from our neighbours."
+          ],
+          "correctAnswer": "We share the sacrificial meat with our neighbours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh khana aap ne khud pakaya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, ammi ke saath mil kar pakaya hai.",
+            "Ji haan, khana waqai bahut mazedar tha.",
+            "Ji nahin, mujhe yeh jagah pasand nahin hai."
+          ],
+          "correctAnswer": "Ji haan, ammi ke saath mil kar pakaya hai.",
+          "translatedSentence": "Yes, I cooked it together with my mother."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ne Eid ke liye kya khareeda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main ne bachchon ke liye naye kapde khareede.",
+            "Main ne bazaar mein bahut waqt guzara.",
+            "Main ne Eid ki namaz masjid mein parhi."
+          ],
+          "correctAnswer": "Main ne bachchon ke liye naye kapde khareede.",
+          "translatedSentence": "I bought new clothes for the children."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chand raat ko larkiyan haathon par mehndi lagati hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the night before Eid the girls put henna on their hands.",
+            "On the night before Eid the girls buy bangles in the market.",
+            "On the night before Eid the girls stitch their new clothes."
+          ],
+          "correctAnswer": "On the night before Eid the girls put henna on their hands."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh kurta aap par bahut achha lag raha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shukriya, yeh meri behen ne diya hai.",
+            "Shukriya, main ne kurta nahin pehna hai.",
+            "Ji nahin, yeh kurta mujhe mila nahin."
+          ],
+          "correctAnswer": "Shukriya, yeh meri behen ne diya hai.",
+          "translatedSentence": "Thank you, my sister gave it to me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bare log bachchon ko Eidi dete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The elders give the children money as an Eid gift.",
+            "The elders give the children sweets after Eid.",
+            "The children give the elders gifts on Eid."
+          ],
+          "correctAnswer": "The elders give the children money as an Eid gift."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh chhota sa tohfa aap ke liye hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is ki kya zaroorat thi, bahut shukriya.",
+            "Ji haan, main tohfa khareedne ja raha hoon.",
+            "Maaf kijiye, mere paas abhi waqt nahin hai."
+          ],
+          "correctAnswer": "Is ki kya zaroorat thi, bahut shukriya.",
+          "translatedSentence": "You really should not have, thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid par sara khandan dada abbu ke ghar jama hota hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Eid the whole family gathers at grandfather's house.",
+            "On Eid the whole family goes to the mosque together.",
+            "On Eid grandfather visits every relative's house."
+          ],
+          "correctAnswer": "On Eid the whole family gathers at grandfather's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhari khala kab pahunchengi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh kal Lucknow se pahunchengi.",
+            "Woh pehle Lucknow mein rehti thin.",
+            "Woh mere liye tohfa laayi thin."
+          ],
+          "correctAnswer": "Woh kal Lucknow se pahunchengi.",
+          "translatedSentence": "She will arrive from Lucknow tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main ne naya joda silvaya hai lekin abhi tak pehna nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a new outfit stitched but I have not worn it yet.",
+            "I have bought a new outfit but I do not really like it.",
+            "I wanted a new outfit stitched but there was no time."
+          ],
+          "correctAnswer": "I have had a new outfit stitched but I have not worn it yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aap ke walidain se mil sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Zaroor, tashreef laiye, woh andar baithe hain.",
+            "Maaf kijiye, mujhe un ka naam maloom nahin.",
+            "Ji haan, main un se kal shaam mila tha."
+          ],
+          "correctAnswer": "Zaroor, tashreef laiye, woh andar baithe hain.",
+          "translatedSentence": "Of course, please come in, they are sitting inside."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ne shadi ka card dekha, taqreeb agle mahine hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, dekh liya hai, lekin un dinon main Karachi mein hoonga.",
+            "Ji haan, meri shadi pichhle saal Karachi mein hui thi.",
+            "Ji nahin, mujhe shadi ka card banana nahin aata."
+          ],
+          "correctAnswer": "Ji haan, dekh liya hai, lekin un dinon main Karachi mein hoonga.",
+          "translatedSentence": "Yes, I have seen it, but I will be in Karachi around those days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mehndi ki raat hum gaate bhi hain aur nachte bhi hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the mehndi night we both sing and dance.",
+            "On the mehndi night we sing but we do not dance.",
+            "On the mehndi night we only listen to the songs."
+          ],
+          "correctAnswer": "On the mehndi night we both sing and dance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Walima kis din hai aur kahan ho raha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Itwaar ko hai aur shahar ke bare hotel mein ho raha hai.",
+            "Itwaar ko tha aur khana mujhe bahut pasand aaya tha.",
+            "Mujhe sirf itna maloom hai ke dulhan Delhi se hai."
+          ],
+          "correctAnswer": "Itwaar ko hai aur shahar ke bare hotel mein ho raha hai.",
+          "translatedSentence": "It is on Sunday and it is being held at the big hotel in town."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar barish na hui to taqreeb bahar bagh mein hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it does not rain, the function will be held outside in the garden.",
+            "If it rains, the function will still be held out in the garden.",
+            "Since it rained, the function was moved inside the house."
+          ],
+          "correctAnswer": "If it does not rain, the function will be held outside in the garden."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap dulhan ke rishtedar hain ya dulhe ke?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main dulhe ka mamoon hoon, isi liye subah se yahan hoon.",
+            "Main dulhan ke ghar ke qareeb rehta hoon, isi liye der se aaya.",
+            "Main taqreeb mein nahin ja saka kyunke mujhe kaam tha."
+          ],
+          "correctAnswer": "Main dulhe ka mamoon hoon, isi liye subah se yahan hoon.",
+          "translatedSentence": "I am the groom's maternal uncle, that is why I have been here since morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe mushaira bahut pasand hai kyunke shayari sunne ka apna maza hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love a mushaira because listening to poetry has a pleasure of its own.",
+            "I love a mushaira even though I do not understand the poetry.",
+            "I do not enjoy a mushaira because the poetry is too difficult."
+          ],
+          "correctAnswer": "I love a mushaira because listening to poetry has a pleasure of its own."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shadi ke baad aap dono kahan rahenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pehle kuchh mahine Delhi mein rahenge aur phir Hyderabad chale jayenge.",
+            "Hamari shadi Delhi mein hui thi aur bahut mehmaan aaye the.",
+            "Hum abhi tak Hyderabad ka tarikh tay nahin kar sake."
+          ],
+          "correctAnswer": "Pehle kuchh mahine Delhi mein rahenge aur phir Hyderabad chale jayenge.",
+          "translatedSentence": "We will live in Delhi for a few months and then move to Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammi chahti hain ke hum jaldi pahunchen taake achhi jagah baith saken.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother wants us to arrive early so that we can sit in a good spot.",
+            "Mother wants us to leave early because the hall is very far away.",
+            "Mother says we arrived late and no seats were left for us."
+          ],
+          "correctAnswer": "Mother wants us to arrive early so that we can sit in a good spot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap taqreeb mein aaye hi nahin, kya sab khairiyat hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kijiye, tabiyat theek nahin thi, warna main zaroor aata.",
+            "Ji haan, taqreeb bahut achhi thi aur khana bhi lazeez tha.",
+            "Mujhe maloom nahin tha ke aap bhi wahan tashreef rakhte the."
+          ],
+          "correctAnswer": "Maaf kijiye, tabiyat theek nahin thi, warna main zaroor aata.",
+          "translatedSentence": "I am sorry, I was not well, otherwise I would certainly have come."
+        }
+      ]
+    }
+  ]
+}

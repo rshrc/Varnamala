@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kay kaam karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi shikshak aahe.",
+            "Mi vidyarthi aahe.",
+            "Mi doctor aahe."
+          ],
+          "correctAnswer": "Mi shikshak aahe.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi Punyat kaam karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in Pune.",
+            "I live in Pune.",
+            "I am going to Pune."
+          ],
+          "correctAnswer": "I work in Pune."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kuthe kaam karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi bank madhye kaam karto.",
+            "Mi sakali kaam karto.",
+            "Mi ekta kaam karto."
+          ],
+          "correctAnswer": "Mi bank madhye kaam karto.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majhi bahin doctor aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is a doctor.",
+            "My sister is a teacher.",
+            "My brother is a doctor."
+          ],
+          "correctAnswer": "My sister is a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala tumche kaam avadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala majhe kaam khup avadte.",
+            "Ho, mi roj kaam karto.",
+            "Nahi, mala Mumbai avadat nahi."
+          ],
+          "correctAnswer": "Ho, mala majhe kaam khup avadte.",
+          "translatedSentence": "Yes, I like my work a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "To Mumbait engineer aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is an engineer in Mumbai.",
+            "He is a teacher in Mumbai.",
+            "He is an engineer in Pune."
+          ],
+          "correctAnswer": "He is an engineer in Mumbai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche office kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Majhe office Nagpurat aahe.",
+            "Majhe ghar Nagpurat aahe.",
+            "Mi Nagpurla jato."
+          ],
+          "correctAnswer": "Majhe office Nagpurat aahe.",
+          "translatedSentence": "My office is in Nagpur."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi roj kaam karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work every day.",
+            "I work every week.",
+            "I go there every day."
+          ],
+          "correctAnswer": "I work every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaam kase chalu aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaam chaan chalu aahe.",
+            "Kaam Punyat aahe.",
+            "Kaam sakali suru hote."
+          ],
+          "correctAnswer": "Kaam chaan chalu aahe.",
+          "translatedSentence": "Work is going well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vargat kiti vidyarthi aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vargat tees vidyarthi aahet.",
+            "Shalet tees varg aahet.",
+            "Vargat don shikshak aahet."
+          ],
+          "correctAnswer": "Vargat tees vidyarthi aahet.",
+          "translatedSentence": "There are thirty students in the class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shikshak phalyavar lihit aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the board.",
+            "The teacher is reading a book.",
+            "The students are writing on the board."
+          ],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha shabd sarvanna samajla ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mala samajle nahi. Punha sanga.",
+            "Ho, mala pustak avadte.",
+            "Nahi, mi ushira alo."
+          ],
+          "correctAnswer": "Nahi, mala samajle nahi. Punha sanga.",
+          "translatedSentence": "No, I did not understand. Please say it again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majhya kade pustak nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have a book.",
+            "I do not have a pen.",
+            "This book is not mine."
+          ],
+          "correctAnswer": "I do not have a book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuzha prashna kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha shabd kasa lihaycha?",
+            "Mala ha shabd avadla.",
+            "Mi phalyavar lihile."
+          ],
+          "correctAnswer": "Ha shabd kasa lihaycha?",
+          "translatedSentence": "How do I write this word?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pustak ughada ani motyane vacha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Open the book and read aloud.",
+            "Open the book and write quietly.",
+            "Close the book and read aloud."
+          ],
+          "correctAnswer": "Open the book and read aloud."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajcha dhada konta aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj aapan navin shabd shikat aahot.",
+            "Aaj shala band aahe.",
+            "Aaj mi pustak aanle nahi."
+          ],
+          "correctAnswer": "Aaj aapan navin shabd shikat aahot.",
+          "translatedSentence": "Today we are learning new words."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha prashna mala kathin vatto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I find this question difficult.",
+            "I find this question easy.",
+            "This lesson is difficult for me."
+          ],
+          "correctAnswer": "I find this question difficult."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shala kiti vajta suru hote?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shala sakali aath vajta suru hote.",
+            "Shala gharajaval aahe.",
+            "Mi sakali aath vajta uthto."
+          ],
+          "correctAnswer": "Shala sakali aath vajta suru hote.",
+          "translatedSentence": "School starts at eight in the morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the Office",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche desk kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Majhe desk khidki javal aahe.",
+            "Majhe ghar station javal aahe.",
+            "Majhe desk navin aahe."
+          ],
+          "correctAnswer": "Majhe desk khidki javal aahe.",
+          "translatedSentence": "My desk is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tumhala aajch email pathavto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will send you an email today itself.",
+            "I will call you today itself.",
+            "You sent me an email today."
+          ],
+          "correctAnswer": "I will send you an email today itself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting kiti vajta aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting sakali daha vajta aahe.",
+            "Meeting varchya majlyavar aahe.",
+            "Meeting madhye chaar loka aahet."
+          ],
+          "correctAnswer": "Meeting sakali daha vajta aahe.",
+          "translatedSentence": "The meeting is at ten in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majha computer aaj chalat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer is not working today.",
+            "My phone is not working today.",
+            "My computer is new today."
+          ],
+          "correctAnswer": "My computer is not working today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting sampli ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, meeting ajun chalu aahe.",
+            "Ho, meeting conference room madhye aahe.",
+            "Nahi, mi email vachla."
+          ],
+          "correctAnswer": "Nahi, meeting ajun chalu aahe.",
+          "translatedSentence": "No, the meeting is still going on."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saheb atta phone var aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The boss is on the phone right now.",
+            "The boss is in a meeting right now.",
+            "The boss will call you right now."
+          ],
+          "correctAnswer": "The boss is on the phone right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hi file kunala pathvaychi aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hi file sahebanna pathva.",
+            "Hi file majhya desk var aahe.",
+            "Hi file khup mothi aahe."
+          ],
+          "correctAnswer": "Hi file sahebanna pathva.",
+          "translatedSentence": "Send this file to the boss."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tumcha email ajun vachla nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not read your email yet.",
+            "I have not sent your email yet.",
+            "I read your email yesterday."
+          ],
+          "correctAnswer": "I have not read your email yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj office madhye kiti kaam aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj khup kaam aahe.",
+            "Aaj office band aahe.",
+            "Office station javal aahe."
+          ],
+          "correctAnswer": "Aaj khup kaam aahe.",
+          "translatedSentence": "There is a lot of work today."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuzha gharcha abhyas zala ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ajun thoda rahila aahe.",
+            "Ho, mala shala khup avadte.",
+            "Nahi, majhe pustak navin aahe."
+          ],
+          "correctAnswer": "Nahi, ajun thoda rahila aahe.",
+          "translatedSentence": "No, a little is still left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi udyaparyant sagla abhyas purna karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will finish all the studying by tomorrow.",
+            "I will start all the studying tomorrow.",
+            "I finished all the studying yesterday."
+          ],
+          "correctAnswer": "I will finish all the studying by tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pariksha kevha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pariksha pudhchya somvari aahe.",
+            "Pariksha khup kathin aahe.",
+            "Pariksha aamchya shalet aahe."
+          ],
+          "correctAnswer": "Pariksha pudhchya somvari aahe.",
+          "translatedSentence": "The exam is next Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ratri ushiraparyant abhyas karava lagto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to study until late at night.",
+            "I like studying late at night.",
+            "I have to work until late at night."
+          ],
+          "correctAnswer": "I have to study until late at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Parikshechi tayari kashi chalu aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tayari changli chalu aahe, pan vel kami aahe.",
+            "Pariksha sakali daha vajta suru hote.",
+            "Mala parikshecha divas mahit nahi."
+          ],
+          "correctAnswer": "Tayari changli chalu aahe, pan vel kami aahe.",
+          "translatedSentence": "The preparation is going well, but there is little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyala ganitat changle gun milale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He got good marks in maths.",
+            "She got good marks in maths.",
+            "He got good marks in Marathi."
+          ],
+          "correctAnswer": "He got good marks in maths."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha dhada khup kathin aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala pan tasach vatte.",
+            "Ho, ha dhada udya sampel.",
+            "Nahi, pariksha pudhchya somvari aahe."
+          ],
+          "correctAnswer": "Ho, mala pan tasach vatte.",
+          "translatedSentence": "Yes, I feel the same way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi majhya mitrabarobar roj abhyas karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I study with my friend every day.",
+            "I work with my friend every day.",
+            "I study with my brother every day."
+          ],
+          "correctAnswer": "I study with my friend every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu pariksha pass zalas ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi changlya gunani pass zalo.",
+            "Ho, pariksha shalet zali.",
+            "Nahi, mi ajun pustak vachto."
+          ],
+          "correctAnswer": "Ho, mi changlya gunani pass zalo.",
+          "translatedSentence": "Yes, I passed with good marks."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi office la kiti vajta pohochta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi savva nau vajta pohochto.",
+            "Mi savva nau vajta gharun nighto.",
+            "Mi local traine office la jato."
+          ],
+          "correctAnswer": "Mi savva nau vajta pohochto.",
+          "translatedSentence": "I reach at quarter past nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala aaj ushira zala karan local train late hoti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was late today because the local train was delayed.",
+            "I will be late today because the local train is delayed.",
+            "I was late today because there was a lot of traffic."
+          ],
+          "correctAnswer": "I was late today because the local train was delayed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala udya sutti pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala udya ek divas sutti pahije.",
+            "Ho, mala udya meeting madhye yaycha aahe.",
+            "Nahi, mala kaal sutti hoti."
+          ],
+          "correctAnswer": "Ho, mala udya ek divas sutti pahije.",
+          "translatedSentence": "Yes, I need one day off tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi sanje saha vajta office madhun nighto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I leave the office at six in the evening.",
+            "I reach the office at six in the evening.",
+            "I leave home at six in the evening."
+          ],
+          "correctAnswer": "I leave the office at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu aaj ka ushira alas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi Mumbaichya traffic madhye adaklo hoto.",
+            "Mi sakali lavkar uthlo hoto.",
+            "Mala aaj khup kaam aahe."
+          ],
+          "correctAnswer": "Mi Mumbaichya traffic madhye adaklo hoto.",
+          "translatedSentence": "I was stuck in Mumbai traffic."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala aaj lavkar jaave lagel karan majhi tabyet theek nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will have to leave early today because I am not feeling well.",
+            "I will have to come early today because I am not feeling well.",
+            "I will have to leave early today because I have a lot of work."
+          ],
+          "correctAnswer": "I will have to leave early today because I am not feeling well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya offisla sutti aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, udya sarvanna sutti aahe.",
+            "Ho, udya meeting sakali aahe.",
+            "Nahi, kaal sutti hoti."
+          ],
+          "correctAnswer": "Ho, udya sarvanna sutti aahe.",
+          "translatedSentence": "Yes, everyone has a holiday tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi don divas sutti gheun gavala jaanar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to take two days off and go to my hometown.",
+            "I took two days off and went to my hometown.",
+            "I am going to my hometown for two days after work."
+          ],
+          "correctAnswer": "I am going to take two days off and go to my hometown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi divsatun kiti taas kaam karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi divsatun aath taas kaam karto.",
+            "Mi athavdyatun paach divas kaam karto.",
+            "Mi ghari basun kaam karto."
+          ],
+          "correctAnswer": "Mi divsatun aath taas kaam karto.",
+          "translatedSentence": "I work eight hours a day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and plans",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pudhchya varshi tumcha kay plan aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi navin naukri shodhnar aahe, karan mala pudhe shikaycha aahe.",
+            "Gelya varshi mi naukri badalali hoti, pan te kathin hote.",
+            "Mala udya don divas sutti pahije, karan mi gavala jato."
+          ],
+          "correctAnswer": "Mi navin naukri shodhnar aahe, karan mala pudhe shikaycha aahe.",
+          "translatedSentence": "I am going to look for a new job, because I want to study further."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala pudhchya varshi promotion milel ashi asha aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I hope I will get a promotion next year.",
+            "I hope you will get a promotion next year.",
+            "I got a promotion last year."
+          ],
+          "correctAnswer": "I hope I will get a promotion next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi Marathi ka shikat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karan mi Punyat rahato ani mala ithlya lokanshi bolaycha aahe.",
+            "Karan majhe office Nagpurat aahe ani mi roj train ne jato.",
+            "Karan mala vada pav ani misal khup avadte."
+          ],
+          "correctAnswer": "Karan mi Punyat rahato ani mala ithlya lokanshi bolaycha aahe.",
+          "translatedSentence": "Because I live in Pune and I want to talk with the people here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar sagle changle zale tar pudhchya varshi mi team lead honar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If everything goes well, I will become a team lead next year.",
+            "If everything goes well, I will change my job next year.",
+            "Everything went well, so I became a team lead last year."
+          ],
+          "correctAnswer": "If everything goes well, I will become a team lead next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala tumchya kamat kay badalaycha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala jasta jababdari pahije, pan tyasathi mala ajun shikave lagel.",
+            "Mala majhe kaam khup avadte, mhanun mi roj ushira yeto.",
+            "Mala pudhchya somvari sutti pahije, pan saheb ithe nahit."
+          ],
+          "correctAnswer": "Mala jasta jababdari pahije, pan tyasathi mala ajun shikave lagel.",
+          "translatedSentence": "I want more responsibility, but for that I will have to learn more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi sahebanna sangitle ki mala navin project var kaam karaycha aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I told my boss that I want to work on the new project.",
+            "My boss told me to work on the new project.",
+            "I told my boss that I want to leave the new project."
+          ],
+          "correctAnswer": "I told my boss that I want to work on the new project."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi ithe kiti varsha kaam kele aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi ithe paach varsha kaam kele aahe ani mala ithe khup avadte.",
+            "Mi ithe savva nau vajta pohochto ani saha vajta nighto.",
+            "Mi ithe navin kaam shodhat aahe, karan majhe gaav lamb aahe."
+          ],
+          "correctAnswer": "Mi ithe paach varsha kaam kele aahe ani mala ithe khup avadte.",
+          "translatedSentence": "I have worked here for five years and I like it here a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala vatte ki hya varshi aamcha team changle kaam karel.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think our team will do good work this year.",
+            "I think our team did good work this year.",
+            "I hope our team will do good work next year."
+          ],
+          "correctAnswer": "I think our team will do good work this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala pudhe kay banaycha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala ek divas majhi swatachi company suru karaychi aahe.",
+            "Mala udya lavkar ghari jaaycha aahe, karan pahune yenar aahet.",
+            "Mala navin computer ghyaycha aahe, pan tyala khup paise lagtat."
+          ],
+          "correctAnswer": "Mala ek divas majhi swatachi company suru karaychi aahe.",
+          "translatedSentence": "One day I want to start my own company."
+        }
+      ]
+    }
+  ]
+}

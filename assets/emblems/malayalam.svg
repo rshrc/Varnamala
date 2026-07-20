@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Malayalam">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#40916C"/>
+      <stop offset="1" stop-color="#1B5E3F"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 36c6 8 34 8 40 0"/>
+    <path d="M52 36c0-6-3-10-8-12"/>
+    <path d="M44 24c3-1 5 0 6 2"/>
+    <path d="M22 36v-6M30 36v-6M38 36v-6"/>
+    <path d="M14 46c5-3 9-3 14 0s9 3 14 0"/>
+  </g>
+</svg>

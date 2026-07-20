@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap aaj kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main aaj bohot khush hoon.",
+            "Main aaj udaas hoon.",
+            "Main aaj ghar ja raha hoon."
+          ],
+          "correctAnswer": "Main aaj bohot khush hoon.",
+          "translatedSentence": "I am very happy today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main bohot udaas hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very sad.",
+            "I am very happy.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tum khush ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main bohot khush hoon.",
+            "Nahin, mera dil udaas hai.",
+            "Haan, main thak gaya hoon."
+          ],
+          "correctAnswer": "Haan, main bohot khush hoon.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj mera dil khush hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel happy today.",
+            "I feel sad today.",
+            "I feel tired today."
+          ],
+          "correctAnswer": "I feel happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap theek hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main bilkul theek hoon.",
+            "Nahin, main aaj udaas hoon.",
+            "Haan, main ghar par hoon."
+          ],
+          "correctAnswer": "Haan, main bilkul theek hoon.",
+          "translatedSentence": "Yes, I am absolutely fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh bohot khush hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is very happy.",
+            "She is very sad.",
+            "She is very quiet."
+          ],
+          "correctAnswer": "She is very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh khabar bohot achhi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sun kar bohot khushi hui.",
+            "Sun kar bohot dukh hua.",
+            "Mujhe yeh khabar maloom nahin thi."
+          ],
+          "correctAnswer": "Sun kar bohot khushi hui.",
+          "translatedSentence": "I am very glad to hear it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hum sab bohot khush hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are all very happy.",
+            "We are all very tired.",
+            "They are all very happy."
+          ],
+          "correctAnswer": "We are all very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Main aaj thora udaas hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kya hua, sab theek hai?",
+            "Bohot bohot mubarak ho!",
+            "Main bhi aaj bohot khush hoon."
+          ],
+          "correctAnswer": "Kya hua, sab theek hai?",
+          "translatedSentence": "What happened, is everything all right?"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum itne khamosh kyun ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main bohot thak gaya hoon.",
+            "Main bohot khush hoon.",
+            "Main abhi ghar aaya hoon."
+          ],
+          "correctAnswer": "Main bohot thak gaya hoon.",
+          "translatedSentence": "I am very tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aaj bohot thak gaya hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired today.",
+            "I am very bored today.",
+            "I am very busy today."
+          ],
+          "correctAnswer": "I am very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tum mujh se naraz ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, main naraz nahin hoon.",
+            "Haan, main bohot khush hoon.",
+            "Nahin, main ghar ja raha hoon."
+          ],
+          "correctAnswer": "Nahin, main naraz nahin hoon.",
+          "translatedSentence": "No, I am not upset with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh mujh par bohot gussa hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is very angry with me.",
+            "He is very pleased with me.",
+            "He is very worried about me."
+          ],
+          "correctAnswer": "He is very angry with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yahan bohot andhera hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe thora dar lag raha hai.",
+            "Mujhe bohot khushi ho rahi hai.",
+            "Mujhe zor ki neend aa rahi hai."
+          ],
+          "correctAnswer": "Mujhe thora dar lag raha hai.",
+          "translatedSentence": "I am feeling a little scared."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe is film se dar lagta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This film scares me.",
+            "This film bores me.",
+            "I like this film a lot."
+          ],
+          "correctAnswer": "This film scares me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj ghar mein koi kaam nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera dil bilkul nahin lag raha.",
+            "Mujhe bohot gussa aa raha hai.",
+            "Mujhe is ghar se dar lagta hai."
+          ],
+          "correctAnswer": "Mera dil bilkul nahin lag raha.",
+          "translatedSentence": "I am completely bored."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe abhi neend aa rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am feeling sleepy right now.",
+            "I am feeling angry right now.",
+            "I am feeling scared right now."
+          ],
+          "correctAnswer": "I am feeling sleepy right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhein gussa kyun aaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kyunki woh bohot der se aaya.",
+            "Kyunki main din bhar thak gaya.",
+            "Kyunki mujhe raat mein dar lagta hai."
+          ],
+          "correctAnswer": "Kyunki woh bohot der se aaya.",
+          "translatedSentence": "Because he came very late."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how someone feels",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Main aaj kuch pareshan hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kya baat hai, aap theek hain?",
+            "Bohot khoob, mubarak ho!",
+            "Main abhi Karachi ja raha hoon."
+          ],
+          "correctAnswer": "Kya baat hai, aap theek hain?",
+          "translatedSentence": "What is the matter, are you all right?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap aaj thake hue lag rahe hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You look tired today.",
+            "You look happy today.",
+            "You look busy today."
+          ],
+          "correctAnswer": "You look tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ka chehra utra hua hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, tabiyat theek nahin hai.",
+            "Haan, aaj main bohot khush hoon.",
+            "Nahin, mujhe abhi neend aa rahi hai."
+          ],
+          "correctAnswer": "Haan, tabiyat theek nahin hai.",
+          "translatedSentence": "Yes, I am not feeling well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kya main aap se pooch sakta hoon ke kya hua hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "May I ask you what has happened?",
+            "May I tell you what has happened?",
+            "Do you know what has happened?"
+          ],
+          "correctAnswer": "May I ask you what has happened?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kal se khamosh ho, sab theek hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, bas thora thak gaya hoon.",
+            "Nahin, main kal Delhi gaya tha.",
+            "Haan, mujhe biryani bohot pasand hai."
+          ],
+          "correctAnswer": "Haan, bas thora thak gaya hoon.",
+          "translatedSentence": "Yes, I am just a little tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe bataiye ke aap ko kya pareshani hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please tell me what is troubling you.",
+            "Please tell me where you are going.",
+            "Please ask me what the trouble is."
+          ],
+          "correctAnswer": "Please tell me what is troubling you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ki tabiyat ab kaisi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pehle se behtar hai, shukriya.",
+            "Mujhe woh jagah maloom nahin hai.",
+            "Main kab se aap ka intezar kar raha hoon."
+          ],
+          "correctAnswer": "Pehle se behtar hai, shukriya.",
+          "translatedSentence": "It is better than before, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tum aaj bohot khush lag rahe ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You look very happy today.",
+            "You look very tired today.",
+            "You seem very angry today."
+          ],
+          "correctAnswer": "You look very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ko kisi cheez ki zaroorat hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Zara ek pyala chai pila dijiye.",
+            "Mujhe aap se koi shikayat nahin hai.",
+            "Main aaj bohot udaas mehsoos kar raha hoon."
+          ],
+          "correctAnswer": "Zara ek pyala chai pila dijiye.",
+          "translatedSentence": "Please get me a cup of tea."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mera imtihan bohot bura gaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fikar mat karo, agli baar behtar hoga.",
+            "Bohot mubarak ho, main bohot khush hoon.",
+            "Mujhe imtihan ki tareekh maloom nahin thi."
+          ],
+          "correctAnswer": "Fikar mat karo, agli baar behtar hoga.",
+          "translatedSentence": "Do not worry, next time will be better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Fikar ki koi baat nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is nothing to worry about.",
+            "There is no time to talk about this.",
+            "There is no need to hurry."
+          ],
+          "correctAnswer": "There is nothing to worry about."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mujhe dar hai ke main yeh kaam nahin kar sakta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aap zaroor kar sakte hain, himmat rakhiye.",
+            "Haan, yeh kaam waqai bohot mushkil hai.",
+            "Mujhe bhi is kaam se dar lagta hai."
+          ],
+          "correctAnswer": "Aap zaroor kar sakte hain, himmat rakhiye.",
+          "translatedSentence": "You can certainly do it, keep your courage up."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main hamesha aap ke saath hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am always with you.",
+            "I am always at home.",
+            "I will always ask you first."
+          ],
+          "correctAnswer": "I am always with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mere waalid ki tabiyat kharab hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khuda un ko jald sehat de.",
+            "Bohot khoob, yeh to achhi khabar hai.",
+            "Mujhe un ka ghar maloom nahin hai."
+          ],
+          "correctAnswer": "Khuda un ko jald sehat de.",
+          "translatedSentence": "May God grant them a quick recovery."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rona band karo, sab theek ho jayega.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Stop crying, everything will be fine.",
+            "Stop working, everything is ready.",
+            "Do not laugh, nothing is fine here."
+          ],
+          "correctAnswer": "Stop crying, everything will be fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Main aaj kal bohot tanha mehsoos karta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalo, aaj sham chai peene chalte hain.",
+            "Main bhi aap se bohot naraz hoon.",
+            "Yeh kaam aap ko khud karna chahiye."
+          ],
+          "correctAnswer": "Chalo, aaj sham chai peene chalte hain.",
+          "translatedSentence": "Come, let us go out for tea this evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap ne bohot achha kaam kiya hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have done very good work.",
+            "You have a lot of work to do.",
+            "You did not do this work well."
+          ],
+          "correctAnswer": "You have done very good work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shukriya, aap ne mera hausla barha diya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahin, hum dost hain.",
+            "Maaf kijiye, mujhe abhi jaana hai.",
+            "Meherbani, mujhe aap ki zaroorat thi."
+          ],
+          "correctAnswer": "Koi baat nahin, hum dost hain.",
+          "translatedSentence": "It is nothing, we are friends."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes, dislikes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kaunsa khana pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe Hyderabad ki biryani bohot pasand hai.",
+            "Mujhe khana pakana bilkul nahin aata.",
+            "Mujhe woh jagah pasand nahin aayi thi."
+          ],
+          "correctAnswer": "Mujhe Hyderabad ki biryani bohot pasand hai.",
+          "translatedSentence": "I really like Hyderabadi biryani."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe sardi mein nihari khana pasand hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like eating nihari in the winter.",
+            "I like drinking tea in the winter.",
+            "I do not like nihari in the winter."
+          ],
+          "correctAnswer": "I like eating nihari in the winter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhein mushaira pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mujhe shayari bohot pasand hai.",
+            "Nahin, mujhe raat ka khana pasand nahin.",
+            "Haan, main Lucknow mein rehta hoon."
+          ],
+          "correctAnswer": "Haan, mujhe shayari bohot pasand hai.",
+          "translatedSentence": "Yes, I like poetry very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe bohot shor pasand nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like a lot of noise.",
+            "I do not like a lot of sugar.",
+            "I quite like a bit of noise."
+          ],
+          "correctAnswer": "I do not like a lot of noise."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eid par tum kya karna chahte ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main sab ke liye sheer khurma banana chahta hoon.",
+            "Mujhe Eid ki tareekh abhi maloom nahin.",
+            "Main us din bohot udaas ho gaya tha."
+          ],
+          "correctAnswer": "Main sab ke liye sheer khurma banana chahta hoon.",
+          "translatedSentence": "I want to make sheer khurma for everyone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera dil chahta hai ke main Lucknow jaoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel like going to Lucknow.",
+            "I have to go to Lucknow today.",
+            "I do not want to go to Lucknow."
+          ],
+          "correctAnswer": "I feel like going to Lucknow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko chai chahiye ya kuch aur?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bas ek pyala chai chahiye, shukriya.",
+            "Mujhe chai banani bilkul nahin aati.",
+            "Mujhe aap ki baat pasand nahin aayi."
+          ],
+          "correctAnswer": "Bas ek pyala chai chahiye, shukriya.",
+          "translatedSentence": "Just one cup of tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaash mujhe Urdu achhi tarah aati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wish I knew Urdu well.",
+            "I know Urdu quite well now.",
+            "I wish I could teach Urdu here."
+          ],
+          "correctAnswer": "I wish I knew Urdu well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mujhe garmi bilkul pasand nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe bhi nahin, sardi kahin behtar hai.",
+            "Haan, garmi mein mera dil khush rehta hai.",
+            "Mujhe yeh khana bilkul pasand nahin aaya."
+          ],
+          "correctAnswer": "Mujhe bhi nahin, sardi kahin behtar hai.",
+          "translatedSentence": "Neither do I, winter is far better."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mere khayal mein yeh film bohot achhi thi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kijiye, lekin mujhe woh pasand nahin aayi.",
+            "Bilkul, isi liye main aap se naraz hoon.",
+            "Haan, lekin mujhe film ka naam maloom nahin."
+          ],
+          "correctAnswer": "Maaf kijiye, lekin mujhe woh pasand nahin aayi.",
+          "translatedSentence": "Excuse me, but I did not like it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe maaf kijiye, main jaan boojh kar der se nahin aaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please forgive me, I did not come late on purpose.",
+            "Please forgive me, I came late on purpose.",
+            "Please excuse me, I cannot come at all today."
+          ],
+          "correctAnswer": "Please forgive me, I did not come late on purpose."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke khayal mein humein abhi nikalna chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, kyunki Karachi ka raasta bohot lamba hai.",
+            "Nahin, kyunki mujhe raasta maloom nahin hai.",
+            "Haan, kyunki mujhe andhere se dar lagta hai."
+          ],
+          "correctAnswer": "Haan, kyunki Karachi ka raasta bohot lamba hai.",
+          "translatedSentence": "Yes, because the road to Karachi is very long."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap ko meri baat buri lagi ho to main maafi chahta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If what I said upset you, I apologise.",
+            "If you are tired, I will come back later.",
+            "I am sorry that you did not say anything."
+          ],
+          "correctAnswer": "If what I said upset you, I apologise."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Main aap ki baat se bilkul ittefaq nahin karta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahin, har kisi ki apni raye hoti hai.",
+            "Shukriya, mujhe bhi bilkul yehi lagta hai.",
+            "Maaf kijiye, mujhe yeh baat maloom nahin thi."
+          ],
+          "correctAnswer": "Koi baat nahin, har kisi ki apni raye hoti hai.",
+          "translatedSentence": "That is all right, everyone has their own opinion."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main naraz nahin hoon, lekin mujhe thora dukh zaroor hua.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not angry, but I was certainly a little hurt.",
+            "I am angry, but I do not want to talk about it.",
+            "I am not angry, and nothing upset me at all."
+          ],
+          "correctAnswer": "I am not angry, but I was certainly a little hurt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal jo maine kaha tha, us ke liye mujhe sharmindagi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaane dijiye, main to woh baat bhool bhi gaya.",
+            "Haan, is liye main abhi tak naraz hoon.",
+            "Mujhe aap ki baat samajh nahin aa rahi thi."
+          ],
+          "correctAnswer": "Jaane dijiye, main to woh baat bhool bhi gaya.",
+          "translatedSentence": "Let it go, I had already forgotten about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe lagta hai ke hum dono thak gaye hain, is liye baat kal karte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think we are both tired, so let us talk tomorrow.",
+            "I think we are both happy, so let us talk tomorrow.",
+            "I think you are tired, so I will not speak to you again."
+          ],
+          "correctAnswer": "I think we are both tired, so let us talk tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agar aap chahein to kal mil kar yeh baat khatam kar lete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, kal mulaqat mein sab saaf ho jayega.",
+            "Maaf kijiye, mujhe aap ka pata maloom nahin hai.",
+            "Nahin, kyunki mujhe woh khana pasand nahin tha."
+          ],
+          "correctAnswer": "Theek hai, kal mulaqat mein sab saaf ho jayega.",
+          "translatedSentence": "All right, everything will be cleared up when we meet tomorrow."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aje khush cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu aje bahu khush chu.",
+            "Na, mane bhukh lage che.",
+            "Hu Surat ma rahu chu."
+          ],
+          "correctAnswer": "Ha, hu aje bahu khush chu.",
+          "translatedSentence": "Yes, I am very happy today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari ben aje dukhi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is sad today.",
+            "My sister is happy today.",
+            "My mother is sad today."
+          ],
+          "correctAnswer": "My sister is sad today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kem khush che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maro mitra aje ave che.",
+            "Hu bahu dukhi chu.",
+            "Mane kai khabar nathi."
+          ],
+          "correctAnswer": "Maro mitra aje ave che.",
+          "translatedSentence": "My friend is coming today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro mitra bahu khush che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is very happy.",
+            "My friend is very sad.",
+            "My friend is very tired."
+          ],
+          "correctAnswer": "My friend is very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shu thayu, tame dukhi lago cho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kai nahi, hu thodo dukhi chu.",
+            "Ha, hu bahu khush chu.",
+            "Hu Ahmedabad thi avu chu."
+          ],
+          "correctAnswer": "Kai nahi, hu thodo dukhi chu.",
+          "translatedSentence": "It is nothing, I am a little sad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane aje bahu khushi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel very happy today.",
+            "I feel very tired today.",
+            "I am very busy today."
+          ],
+          "correctAnswer": "I feel very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame udas kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane maru ghar yaad ave che.",
+            "Mane dhokla bahu game che.",
+            "Hu roj chalva jau chu."
+          ],
+          "correctAnswer": "Mane maru ghar yaad ave che.",
+          "translatedSentence": "I am missing my home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu udas nathi, hu majama chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not sad, I am fine.",
+            "I am not happy, I am tired.",
+            "I am not sad, I am angry."
+          ],
+          "correctAnswer": "I am not sad, I am fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aje badha bahu khush che!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aje bahu maja ave che.",
+            "Na, mane khabar nathi.",
+            "Hu atyare ghare jau chu."
+          ],
+          "correctAnswer": "Ha, aje bahu maja ave che.",
+          "translatedSentence": "Yes, it is a lot of fun today."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared, bored",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame thaki gaya cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu aje bahu thaki gayo chu.",
+            "Na, mane gusso ave che.",
+            "Hu roj cha piu chu."
+          ],
+          "correctAnswer": "Ha, hu aje bahu thaki gayo chu.",
+          "translatedSentence": "Yes, I am very tired today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu bahu thakelo chu, mare sui javu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired, I want to sleep.",
+            "I am very tired, I want to eat.",
+            "I am very hungry, I want to sleep."
+          ],
+          "correctAnswer": "I am very tired, I want to sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kem gusse che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari bus aje bahu modi che.",
+            "Hu atyare bahu khush chu.",
+            "Mane rat ma dar lage che."
+          ],
+          "correctAnswer": "Mari bus aje bahu modi che.",
+          "translatedSentence": "My bus is very late today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane thodo gusso ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a little angry.",
+            "I am a little scared.",
+            "I am a little tired."
+          ],
+          "correctAnswer": "I am a little angry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne dar lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane thodo dar lage che.",
+            "Na, mane bhukh lagi che.",
+            "Ha, hu bahu khush chu."
+          ],
+          "correctAnswer": "Ha, mane thodo dar lage che.",
+          "translatedSentence": "Yes, I am a little scared."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rat ma mane andhara thi dar lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am afraid of the dark at night.",
+            "I do not like the dark at night.",
+            "I feel cold at night."
+          ],
+          "correctAnswer": "I am afraid of the dark at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tane kantalo ave che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane bahu kantalo ave che.",
+            "Na, mane bahu gusso ave che.",
+            "Ha, hu kale Vadodara jais."
+          ],
+          "correctAnswer": "Ha, mane bahu kantalo ave che.",
+          "translatedSentence": "Yes, I am really bored."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghar ma besi ne mane kantalo ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get bored sitting at home.",
+            "I get tired sitting at home.",
+            "I get angry sitting at home."
+          ],
+          "correctAnswer": "I get bored sitting at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chal, aapne patang chagavva jaie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu atyare bahu thakelo chu.",
+            "Ha, mane bahu dar lage che.",
+            "Na, mane kantalo bilkul nathi avto."
+          ],
+          "correctAnswer": "Na, hu atyare bahu thakelo chu.",
+          "translatedSentence": "No, I am too tired right now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how someone feels",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kem cho, badhu barabar che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu majama chu, aabhar.",
+            "Na, hu atyare ghare jau chu.",
+            "Mane thodi chaas joie che."
+          ],
+          "correctAnswer": "Ha, hu majama chu, aabhar.",
+          "translatedSentence": "Yes, I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tame aje kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you today?",
+            "Where are you today?",
+            "What are you doing today?"
+          ],
+          "correctAnswer": "How are you today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kem che, badhu thik che ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha yaar, badhu thik che.",
+            "Ha, tame bahu majama cho.",
+            "Na, tu kya rahe che?"
+          ],
+          "correctAnswer": "Ha yaar, badhu thik che.",
+          "translatedSentence": "Yes buddy, everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari tabiyat atyare kevi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling right now?",
+            "How was your health last week?",
+            "Where do you feel the pain now?"
+          ],
+          "correctAnswer": "How are you feeling right now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro chehro udas kem lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane aje thodu saru nathi lagtu.",
+            "Mane thepla bahu bhave che.",
+            "Hu kale Vadodara gayo hato."
+          ],
+          "correctAnswer": "Mane aje thodu saru nathi lagtu.",
+          "translatedSentence": "I am not feeling very good today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shu thayu, tame thik to cho ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What happened, are you all right?",
+            "What happened, where did you go?",
+            "What is this, are you coming along?"
+          ],
+          "correctAnswer": "What happened, are you all right?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne shu takleef thay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane matha ma dukhavo thay che.",
+            "Mane bahu khushi thay che.",
+            "Mane aje bahu maja avi che."
+          ],
+          "correctAnswer": "Mane matha ma dukhavo thay che.",
+          "translatedSentence": "I have a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari ben ne kem che, e majama che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your sister, is she well?",
+            "Where is your sister, is she at home?",
+            "Who is your sister, is she here?"
+          ],
+          "correctAnswer": "How is your sister, is she well?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aje bahu shant cho, kem?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kai nahi, hu thodo thakelo chu.",
+            "Ha, hu roj bahu bolu chu.",
+            "Na, mane atyare bhukh nathi."
+          ],
+          "correctAnswer": "Kai nahi, hu thodo thakelo chu.",
+          "translatedSentence": "It is nothing, I am a bit tired."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane aje bahu chinta thay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta na karo, badhu saru thai jashe.",
+            "Ha, mane pan bhukh lage che.",
+            "Tame Ahmedabad ma kya raho cho?"
+          ],
+          "correctAnswer": "Chinta na karo, badhu saru thai jashe.",
+          "translatedSentence": "Do not worry, everything will turn out fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chinta na kar, hu tari sathe chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, I am with you.",
+            "Do not worry, I will call you.",
+            "Do not be angry, I am with you."
+          ],
+          "correctAnswer": "Do not worry, I am with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu aa kaam nahi kari saku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tame chokkas kari shakso, mane vishvas che.",
+            "Ha, aa kaam tamara mate bahu sahelu che.",
+            "Mane pan aa kaam bilkul nathi gamtu."
+          ],
+          "correctAnswer": "Tame chokkas kari shakso, mane vishvas che.",
+          "translatedSentence": "You can definitely do it, I believe in you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rado nahi, badhu thik thai jashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not cry, everything will be all right.",
+            "Do not worry, everything is already fine.",
+            "Do not cry, I am going home now."
+          ],
+          "correctAnswer": "Do not cry, everything will be all right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mari pariksha bahu kharab gai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vandho nahi, agli var saru thashe.",
+            "Bahu saras, tamne abhinandan!",
+            "Ha, mane pan pariksha bahu game che."
+          ],
+          "correctAnswer": "Vandho nahi, agli var saru thashe.",
+          "translatedSentence": "Never mind, it will go better next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tame ekla nathi, ame badha tamari sathe chie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are not alone, we are all with you.",
+            "You are not late, we are all waiting for you.",
+            "You are not alone, we are all at home."
+          ],
+          "correctAnswer": "You are not alone, we are all with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane atyare bahu dar lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gabhrao nahi, hu ahi ja chu.",
+            "Ha, mane pan bahu kantalo ave che.",
+            "Tame gai kale kya hata?"
+          ],
+          "correctAnswer": "Gabhrao nahi, hu ahi ja chu.",
+          "translatedSentence": "Do not panic, I am right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thodo aram karo, tame bahu thaki gaya cho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rest a little, you are very tired.",
+            "Work a little, you are very tired.",
+            "Rest a little, you are not tired at all."
+          ],
+          "correctAnswer": "Rest a little, you are very tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aabhar, tamari vaat thi mane saru lagyu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ema shu, mitro aa mate ja hoy che.",
+            "Na, mane e vishe kai khabar nathi.",
+            "Ha, hu atyare bahu dukhi chu."
+          ],
+          "correctAnswer": "Ema shu, mitro aa mate ja hoy che.",
+          "translatedSentence": "It is nothing, that is what friends are for."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes, dislikes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne dhokla game che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane dhokla bahu game che.",
+            "Na, mane dhokla banavta nathi avadta.",
+            "Mane khabar nathi ke dhokla kya male che."
+          ],
+          "correctAnswer": "Ha, mane dhokla bahu game che.",
+          "translatedSentence": "Yes, I like dhokla a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane undhiyu bhave che, pan bahu tikhu nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like undhiyu, but not too spicy.",
+            "I like undhiyu, but not too sweet.",
+            "I do not like undhiyu because it is spicy."
+          ],
+          "correctAnswer": "I like undhiyu, but not too spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tane shu pivu game che, cha ke chaas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane garmi ma chaas vadhare game che.",
+            "Mane cha banavta nathi avadtu.",
+            "Hu roj savare chaas vechu chu."
+          ],
+          "correctAnswer": "Mane garmi ma chaas vadhare game che.",
+          "translatedSentence": "In this heat I prefer buttermilk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane vahelu uthvu nathi gamtu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like waking up early.",
+            "I do not like sleeping late.",
+            "I do not want to wake up right now."
+          ],
+          "correctAnswer": "I do not like waking up early."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari iccha shu che, kya farva javu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane Gir ma sinh jova javu che.",
+            "Mane atyare ghare ja rehvu che.",
+            "Mane farva javu bilkul nathi gamtu."
+          ],
+          "correctAnswer": "Mane Gir ma sinh jova javu che.",
+          "translatedSentence": "I would love to go see the lions in Gir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane uttarayan ma patang chagavvi bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really love flying kites during Uttarayan.",
+            "I really want to fly a kite tomorrow morning.",
+            "I really like watching the kite festival on television."
+          ],
+          "correctAnswer": "I really love flying kites during Uttarayan."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne cha ma sakar joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mane sakar vagar ni cha game che.",
+            "Ha, pan mane cha bilkul nathi bhavti.",
+            "Ha, mane cha ma limbu joie che."
+          ],
+          "correctAnswer": "Na, mane sakar vagar ni cha game che.",
+          "translatedSentence": "No, I like my tea without sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane bhid ma javu jara pan nathi gamtu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like going into crowds at all.",
+            "I do not like going out in the rain at all.",
+            "I do not want to go into that crowd right now."
+          ],
+          "correctAnswer": "I do not like going into crowds at all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kale rajaa che, tare shu karvu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mare Sabarmati ashram jova javu che.",
+            "Mare kale vahela kaam par javu che.",
+            "Mane rajaa no divas bilkul nathi gamto."
+          ],
+          "correctAnswer": "Mare Sabarmati ashram jova javu che.",
+          "translatedSentence": "I want to go see Sabarmati Ashram."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane lage che ke aa film bahu saras hati, tamne shu lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane pan gami, pan ant thodo nabalo hato.",
+            "Mane khabar nathi ke film joya pachi shu thay che.",
+            "Ha, mane atyare bahu bhukh lage che."
+          ],
+          "correctAnswer": "Mane pan gami, pan ant thodo nabalo hato.",
+          "translatedSentence": "I liked it too, but the ending was a bit weak."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu tamari vaat sathe sahmat chu, pan mane thodu alag pan lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I agree with you, but I also see it a little differently.",
+            "I disagree with you, and I see it completely differently.",
+            "I agree with you, so I have nothing more to say."
+          ],
+          "correctAnswer": "I agree with you, but I also see it a little differently."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane maf karjo, hu gai kale tamne phone karvanu bhuli gayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vandho nahi, mane khabar hati ke tame vyast hata.",
+            "Ha, mane tamara par gusso che ane hu have vaat nahi karu.",
+            "Aabhar, tame gai kale mane be var phone karyo hato."
+          ],
+          "correctAnswer": "Vandho nahi, mane khabar hati ke tame vyast hata.",
+          "translatedSentence": "It is all right, I knew that you were busy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame vahela avya hot to aapne sathe jami shakya hot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you had come earlier, we could have eaten together.",
+            "If you come early tomorrow, we will eat together.",
+            "If you had come earlier, I would have gone home."
+          ],
+          "correctAnswer": "If you had come earlier, we could have eaten together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane nathi lagtu ke aa kaam aje puru thashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu sahmat chu, pan aapne prayatna to karie.",
+            "Ha, aa kaam to gai kale ja puru thai gayu hatu.",
+            "Mane aa kaam bilkul nathi gamtu, etle hu nahi karu."
+          ],
+          "correctAnswer": "Hu sahmat chu, pan aapne prayatna to karie.",
+          "translatedSentence": "I agree, but let us at least give it a try."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane dukh che ke me tamne kharab lagadyu, mari evi iccha na hati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry that I hurt your feelings, that was not my intention.",
+            "I am glad that I told you the truth, that was my intention.",
+            "I am sorry that I arrived late, but it was not my fault."
+          ],
+          "correctAnswer": "I am sorry that I hurt your feelings, that was not my intention."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kai bolta kem nathi, tamne maro nirnay nathi gamyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Evu nathi, mane vichar karva thodo vadhare samay joie che.",
+            "Ha, mane tamaro nirnay bahu gamyo, etle hu chup chu.",
+            "Na, mane khabar nathi ke tame atyare kya raho cho."
+          ],
+          "correctAnswer": "Evu nathi, mane vichar karva thodo vadhare samay joie che.",
+          "translatedSentence": "It is not that, I just need a little more time to think."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu gusse hato etle kadvu bolyo, mane maf karsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was angry, so I spoke harshly; will you forgive me?",
+            "I was tired, so I said nothing; will you forgive me?",
+            "I am angry, so I will not be speaking to you again."
+          ],
+          "correctAnswer": "I was angry, so I spoke harshly; will you forgive me?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapne aa vishe alag alag vichar dharavie chie, pan aapne mitro to chie ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chokkas, mat bhale alag hoy, aapni dosti evi ne evi ja che.",
+            "Na, jo tamaro mat alag hoy to hu tamari sathe vaat nahi karu.",
+            "Ha, mane khabar nathi ke aapne kyare malya hata."
+          ],
+          "correctAnswer": "Chokkas, mat bhale alag hoy, aapni dosti evi ne evi ja che.",
+          "translatedSentence": "Of course, our opinions may differ, but our friendship stays exactly the same."
+        }
+      ]
+    }
+  ]
+}

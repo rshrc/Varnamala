@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Name and hometown",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama naama {name}.",
+            "mama graamah doore asti.",
+            "aham na jaanaami."
+          ],
+          "correctAnswer": "mama naama {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama naama raamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Rama.",
+            "His name is Rama.",
+            "Rama is my friend."
+          ],
+          "correctAnswer": "My name is Rama."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kutratyah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham kaashee-nagaratah agacchami.",
+            "aham shikshakah asmi.",
+            "mama naama gopaalah."
+          ],
+          "correctAnswer": "aham kaashee-nagaratah agacchami.",
+          "translatedSentence": "I am from Kashi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham dillee-nagare vasaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Delhi.",
+            "I am going to Delhi.",
+            "I am from Delhi."
+          ],
+          "correctAnswer": "I live in Delhi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kutra vasati bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham maisooru-nagare vasaami.",
+            "aham samskrtam vadaami.",
+            "mama sakhee atra asti."
+          ],
+          "correctAnswer": "aham maisooru-nagare vasaami.",
+          "translatedSentence": "I live in Mysuru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tava naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is your name?",
+            "Where is your house?",
+            "Who is that?"
+          ],
+          "correctAnswer": "What is your name?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, mama naama gopaalah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "namaste, mama naama {name}.",
+            "aam, gopaalah mama sakhaa.",
+            "gopaalah atra na asti."
+          ],
+          "correctAnswer": "namaste, mama naama {name}.",
+          "translatedSentence": "Hello, my name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bhaarataat agacchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from India.",
+            "I am going to India.",
+            "I want to go to India."
+          ],
+          "correctAnswer": "I am from India."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah graamasya naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama graamasya naama shivapuram.",
+            "mama naama shivah.",
+            "aham graamam gacchami."
+          ],
+          "correctAnswer": "mama graamasya naama shivapuram.",
+          "translatedSentence": "My village is called Shivapuram."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah vayah kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama vayah trimshat varshaani.",
+            "mama naama harih.",
+            "aham kaaryam karomi."
+          ],
+          "correctAnswer": "mama vayah trimshat varshaani.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama vayah vimshatih varshaani.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty years old.",
+            "My brother is twenty years old.",
+            "I have lived here for twenty years."
+          ],
+          "correctAnswer": "I am twenty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham shikshakah asmi.",
+            "aham grham gacchami.",
+            "mama vayah chatvaarimshat varshaani."
+          ],
+          "correctAnswer": "aham shikshakah asmi.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham vaidyah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a doctor.",
+            "I am a student.",
+            "I am a teacher."
+          ],
+          "correctAnswer": "I am a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kutra kaaryam karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham vidyaalaye kaaryam karomi.",
+            "aham pratidinam pathaami.",
+            "mama kaaryam sarvam samaaptam."
+          ],
+          "correctAnswer": "aham vidyaalaye kaaryam karomi.",
+          "translatedSentence": "I work at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham chhaatrah asmi, samskrtam pathaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student and I study Sanskrit.",
+            "I am a teacher and I teach Sanskrit.",
+            "I am a student but I do not know Sanskrit."
+          ],
+          "correctAnswer": "I am a student and I study Sanskrit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan chhaatrah vaa shikshakah vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chhaatrah asmi.",
+            "aham vidyaalayam gacchami.",
+            "aham shikshakasya grhe vasaami."
+          ],
+          "correctAnswer": "aham chhaatrah asmi.",
+          "translatedSentence": "I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pitaa krshakah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is a farmer.",
+            "My father is a teacher.",
+            "My brother is a farmer."
+          ],
+          "correctAnswer": "My father is a farmer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, bhavatah vayah kati varshaani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama vayah ashtaadasha varshaani.",
+            "mama grhe ashtau janaah santi.",
+            "aham ashtavaadane agacchami."
+          ],
+          "correctAnswer": "mama vayah ashtaadasha varshaani.",
+          "translatedSentence": "I am eighteen years old."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan samskrtam jaanaati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham alpam samskrtam jaanaami.",
+            "aam, mama grhe samskrtam pustakam asti.",
+            "na, aham vidyaalayam na gacchami."
+          ],
+          "correctAnswer": "aam, aham alpam samskrtam jaanaami.",
+          "translatedSentence": "Yes, I know a little Sanskrit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham samskrtam kannada-bhaashaam cha vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I speak Sanskrit and Kannada.",
+            "I am learning Sanskrit and Kannada.",
+            "I speak Sanskrit but not Kannada."
+          ],
+          "correctAnswer": "I speak Sanskrit and Kannada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyaah maatrbhaashaa kaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama maatrbhaashaa hindi.",
+            "mama maataa samskrtam vadati.",
+            "aham navam bhaashaam pathaami."
+          ],
+          "correctAnswer": "mama maatrbhaashaa hindi.",
+          "translatedSentence": "My mother tongue is Hindi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham anglabhaashaam samyak vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I speak English well.",
+            "I speak only a little English.",
+            "I am still learning English."
+          ],
+          "correctAnswer": "I speak English well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kutra samskrtam pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham gurukule samskrtam pathaami.",
+            "aham samskrtam na icchami.",
+            "mama sakhee samskrtam vadati."
+          ],
+          "correctAnswer": "aham gurukule samskrtam pathaami.",
+          "translatedSentence": "I study Sanskrit at the gurukula."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham tamil-bhaashaam na jaanaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know Tamil.",
+            "I do not speak Tamil at home.",
+            "I am learning Tamil now."
+          ],
+          "correctAnswer": "I do not know Tamil."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya mandam vadatu, aham alpam eva jaanaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham mandam vadaami.",
+            "aam, bhavan samyak vadati.",
+            "na, aham samskrtam na jaanaami."
+          ],
+          "correctAnswer": "aam, aham mandam vadaami.",
+          "translatedSentence": "Yes, I will speak slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama sakhaa pancha bhaashaah vadati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend speaks five languages.",
+            "My friend is learning five languages.",
+            "My friend knows only five words."
+          ],
+          "correctAnswer": "My friend speaks five languages."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan katham samskrtam vadati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham alpam alpam samskrtam vadaami.",
+            "aham pratidinam samskrtam pathaami.",
+            "aham samskrtam na jaanaami."
+          ],
+          "correctAnswer": "aham alpam alpam samskrtam vadaami.",
+          "translatedSentence": "I speak Sanskrit little by little."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham kaashee-nagare vasaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavan tatra kim karoti?",
+            "mama naama gopaalah asti.",
+            "aham api chhaatrah asmi."
+          ],
+          "correctAnswer": "bhavan tatra kim karoti?",
+          "translatedSentence": "What do you do there?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavatah grhe kati janaah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many people are there in your house?",
+            "How many houses do you have?",
+            "Who is at your house now?"
+          ],
+          "correctAnswer": "How many people are there in your house?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham shikshikaa asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavati kasmin vidyaalaye paathayati?",
+            "aham vidyaalayam gacchami.",
+            "mama vayah trimshat varshaani asti."
+          ],
+          "correctAnswer": "bhavati kasmin vidyaalaye paathayati?",
+          "translatedSentence": "Which school do you teach at?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavati kutratyaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where are you from?",
+            "Where are you going?",
+            "Where do you work?"
+          ],
+          "correctAnswer": "Where are you from?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham gurukule samskrtam paathayaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavan kati varshaani tatra paathayati?",
+            "aham samskrtam na jaanaami.",
+            "mama grham gurukulaat doore asti."
+          ],
+          "correctAnswer": "bhavan kati varshaani tatra paathayati?",
+          "translatedSentence": "How many years have you been teaching there?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavate idam kaaryam rochate vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you like this work?",
+            "Is this work finished?",
+            "Where do you do this work?"
+          ],
+          "correctAnswer": "Do you like this work?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama grham samudrasya sameepe asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aho, bhavan pratidinam samudram pashyati vaa?",
+            "aham samudram na jaanaami.",
+            "mama grham api atra asti."
+          ],
+          "correctAnswer": "aho, bhavan pratidinam samudram pashyati vaa?",
+          "translatedSentence": "Wonderful, do you see the sea every day?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavati kim pratidinam atra agacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you come here every day?",
+            "Do you go there every day?",
+            "Are you coming here tomorrow?"
+          ],
+          "correctAnswer": "Do you come here every day?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham pratidinam mandiram gacchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavan kena saha gacchati?",
+            "mandiram atra na asti.",
+            "aham mandirasya naama na jaanaami."
+          ],
+          "correctAnswer": "bhavan kena saha gacchati?",
+          "translatedSentence": "Who do you go with?"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "esah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "esah mama sakhaa raamah.",
+            "esaa mama sakhee lataa.",
+            "aham raamah asmi."
+          ],
+          "correctAnswer": "esah mama sakhaa raamah.",
+          "translatedSentence": "This is my friend Rama."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esaa mama sakhee geetaa, saa vaidyaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend Gita, she is a doctor.",
+            "This is my sister Gita, she is a doctor.",
+            "My friend Gita wants to become a doctor."
+          ],
+          "correctAnswer": "This is my friend Gita, she is a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tasya naama kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tasya naama krshnah.",
+            "mama naama krshnah.",
+            "saa mama sakhee asti."
+          ],
+          "correctAnswer": "tasya naama krshnah.",
+          "translatedSentence": "His name is Krishna."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah mayaa saha vidyaalaye pathati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He studies at school with me.",
+            "He teaches at my school.",
+            "He comes to school with me."
+          ],
+          "correctAnswer": "He studies at school with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "esah mama sahapaathee mohanah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "namaste mohana, aham api chhaatrah asmi.",
+            "aham mohanah asmi.",
+            "tasya naama aham na jaanaami."
+          ],
+          "correctAnswer": "namaste mohana, aham api chhaatrah asmi.",
+          "translatedSentence": "Hello Mohan, I am a student too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saa api samskrtam vadati, kintu mandam vadati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She also speaks Sanskrit, but she speaks slowly.",
+            "She also speaks Sanskrit and she speaks well.",
+            "She does not speak Sanskrit, she only reads it."
+          ],
+          "correctAnswer": "She also speaks Sanskrit, but she speaks slowly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tasyaah naama kim, tasyaah kaaryam kim cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tasyaah naama lataa, saa shikshikaa asti.",
+            "tasya naama mohanah, sah shikshakah asti.",
+            "mama naama lataa, aham shikshikaa asmi."
+          ],
+          "correctAnswer": "tasyaah naama lataa, saa shikshikaa asti.",
+          "translatedSentence": "Her name is Lata and she is a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aavaam ekasmin graame vasaavah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The two of us live in the same village.",
+            "The two of us study at the same school.",
+            "The two of us are from different villages."
+          ],
+          "correctAnswer": "The two of us live in the same village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah sakhaa kutratyah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sah kerala-pradeshaat agacchati.",
+            "aham kerala-pradeshaat agacchami.",
+            "sah mama graame na vasati."
+          ],
+          "correctAnswer": "sah kerala-pradeshaat agacchati.",
+          "translatedSentence": "He is from Kerala."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah chalabhaasha-sankhyaa kaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama sankhyaam aham likhaami, krpaya pratikshatu.",
+            "mama grhe chalabhaashah na asti.",
+            "aham bhavatah sankhyaam na jaanaami."
+          ],
+          "correctAnswer": "mama sankhyaam aham likhaami, krpaya pratikshatu.",
+          "translatedSentence": "I will write down my number, please wait a moment."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi samayah asti tarhi shvah punah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is time, let us meet again tomorrow.",
+            "If I have time, I will call you tomorrow.",
+            "We met again yesterday because there was time."
+          ],
+          "correctAnswer": "If there is time, let us meet again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham bhavantam dooravaanyaa aahvayaami vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, saayankaale aahvayatu.",
+            "na, mama sankhyaa atra na asti.",
+            "aam, aham idaaneem grham gacchami."
+          ],
+          "correctAnswer": "aam, saayankaale aahvayatu.",
+          "translatedSentence": "Yes, please call in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya na aahvayaami, yatah mama bahu kaaryam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will not call today, because I have a lot of work.",
+            "I will call today, because my work is finished.",
+            "I did not call yesterday, because I had a lot of work."
+          ],
+          "correctAnswer": "I will not call today, because I have a lot of work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavataa saha sambhaashanam mahyam rochate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam api rochate, dhanyavaadah.",
+            "aham sambhaashanam na jaanaami.",
+            "krpaya punah ekavaaram vadatu."
+          ],
+          "correctAnswer": "mahyam api rochate, dhanyavaadah.",
+          "translatedSentence": "I enjoyed it too, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavantam drshtvaa aham ateeva santushtah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very glad to have met you.",
+            "I am very glad that you are coming.",
+            "I was very sorry to miss you."
+          ],
+          "correctAnswer": "I am very glad to have met you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "punah kadaa milaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aagaamini shanivaasare milaamah.",
+            "hyah vayam militavantah.",
+            "na, aham na agacchami, kshamyataam."
+          ],
+          "correctAnswer": "aagaamini shanivaasare milaamah.",
+          "translatedSentence": "Let us meet next Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bhavate sandesham preshayaami, krpaya uttaram dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will send you a message, please reply.",
+            "I received your message, thank you.",
+            "Please send me a message tomorrow."
+          ],
+          "correctAnswer": "I will send you a message, please reply."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham idaaneem gacchami, punah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubham astu, punah milaamah.",
+            "aham api tatra agacchami.",
+            "na, aham bhavantam na jaanaami."
+          ],
+          "correctAnswer": "shubham astu, punah milaamah.",
+          "translatedSentence": "All the best, let us meet again."
+        }
+      ]
+    }
+  ]
+}

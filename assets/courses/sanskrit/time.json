@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya kah vaasarah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya somavaasarah.",
+            "aham vidyaalayam gacchaami.",
+            "mama naama gopaalah."
+          ],
+          "correctAnswer": "adya somavaasarah.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya guruvaasarah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Thursday.",
+            "Today is Tuesday.",
+            "Tomorrow is Thursday."
+          ],
+          "correctAnswer": "Today is Thursday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya somavaasarah, svah kah vaasarah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "svah mangalavaasarah.",
+            "svah ravivaasarah.",
+            "svah sukravaasarah."
+          ],
+          "correctAnswer": "svah mangalavaasarah.",
+          "translatedSentence": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ravivaasare vidyaalayah na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no school on Sunday.",
+            "There is no school on Saturday.",
+            "The school is far away on Sunday."
+          ],
+          "correctAnswer": "There is no school on Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sanivaasare bhavaan kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sanivaasare aham devaalayam gacchaami.",
+            "sanivaasare aham na pathaami.",
+            "sanivaasare mama mitram aagacchati."
+          ],
+          "correctAnswer": "sanivaasare aham devaalayam gacchaami.",
+          "translatedSentence": "On Saturday I go to the temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "budhavaasare mama sanskrtavargah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a Sanskrit class on Wednesday.",
+            "I have a Sanskrit class on Monday.",
+            "There is no Sanskrit class on Wednesday."
+          ],
+          "correctAnswer": "I have a Sanskrit class on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatii sukravaasare kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sukravaasare aham grhe asmi.",
+            "sukravaasare aham geetam gaayaami.",
+            "sukravaasare mama bahu kaaryam asti."
+          ],
+          "correctAnswer": "sukravaasare aham grhe asmi.",
+          "translatedSentence": "On Friday I am at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saptaahe sapta vaasaraah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are seven days in a week.",
+            "A week has six days.",
+            "There are seven days in a month."
+          ],
+          "correctAnswer": "There are seven days in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kasmin vaasare vishraamam karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ravivaasare vishraamam karomi.",
+            "aham praatah vishraamam karomi.",
+            "aham grhe vishraamam karomi."
+          ],
+          "correctAnswer": "aham ravivaasare vishraamam karomi.",
+          "translatedSentence": "I rest on Sunday."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan idaaniim kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idaaniim aham sanskrtam pathaami.",
+            "hyah aham sanskrtam apatham.",
+            "svah aham sanskrtam pathishyaami."
+          ],
+          "correctAnswer": "idaaniim aham sanskrtam pathaami.",
+          "translatedSentence": "Right now I am studying Sanskrit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hyah aham devaalayam agaccham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I went to the temple.",
+            "Tomorrow I will go to the temple.",
+            "Today I am going to the temple."
+          ],
+          "correctAnswer": "Yesterday I went to the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "svah bhavaan aagacchati va?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, svah aham avashyam aagacchaami.",
+            "aham grhaat aagacchaami.",
+            "svah sukravaasarah asti."
+          ],
+          "correctAnswer": "aam, svah aham avashyam aagacchaami.",
+          "translatedSentence": "Yes, I will certainly come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "idaaniim na, anantaram vadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Not now, I will tell you later.",
+            "Not now, I told you earlier.",
+            "Tell me now, not later."
+          ],
+          "correctAnswer": "Not now, I will tell you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya saayamkaale bhavatii kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya saayamkaale aham aapanam gacchaami.",
+            "praatah aham udyaanam gacchaami.",
+            "hyah aham aapanam agaccham."
+          ],
+          "correctAnswer": "adya saayamkaale aham aapanam gacchaami.",
+          "translatedSentence": "This evening I am going to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "svah praatah aham bhavataa saha milaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow morning I will meet you.",
+            "Yesterday morning I met you.",
+            "I will meet you tomorrow evening."
+          ],
+          "correctAnswer": "Tomorrow morning I will meet you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hyah bhavaan kutra aasiit?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hyah aham grhe eva aasam.",
+            "svah aham grhe bhavishyaami.",
+            "idaaniim aham grhe asmi."
+          ],
+          "correctAnswer": "hyah aham grhe eva aasam.",
+          "translatedSentence": "Yesterday I was at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya bahu kaaryam asti, atah svah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a lot of work today, so let us meet tomorrow.",
+            "There is little work today, so let us meet right now.",
+            "I met you yesterday because there was work."
+          ],
+          "correctAnswer": "There is a lot of work today, so let us meet tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan punah kadaa aagacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham svah punah aagacchaami.",
+            "aham grhaat eva aagacchaami.",
+            "aham sanskrtam pathitum aagacchaami."
+          ],
+          "correctAnswer": "aham svah punah aagacchaami.",
+          "translatedSentence": "I will come again tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idaaniim kah samayah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idaaniim nava vaadanam.",
+            "idaaniim somavaasarah.",
+            "idaaniim aham grhe asmi."
+          ],
+          "correctAnswer": "idaaniim nava vaadanam.",
+          "translatedSentence": "It is nine o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "praatah shat vaadane aham uttishthaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six in the morning.",
+            "I get up at seven in the morning.",
+            "I go to sleep at six in the morning."
+          ],
+          "correctAnswer": "I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati vaadane kaaryaalayam gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham nava vaadane kaaryaalayam gacchaami.",
+            "aham yaanena kaaryaalayam gacchaami.",
+            "aham pratidinam kaaryaalayam gacchaami."
+          ],
+          "correctAnswer": "aham nava vaadane kaaryaalayam gacchaami.",
+          "translatedSentence": "I go to the office at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saardha ashta vaadane sanskrtavargah aarabhate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Sanskrit class begins at half past eight.",
+            "The Sanskrit class ends at half past eight.",
+            "The Sanskrit class begins at eight o'clock."
+          ],
+          "correctAnswer": "The Sanskrit class begins at half past eight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vargah kati vaadane samaapyate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vargah dasha vaadane samaapyate.",
+            "vargah sanskrtabhaashayaa eva bhavati.",
+            "vargah atra eva bhavati."
+          ],
+          "correctAnswer": "vargah dasha vaadane samaapyate.",
+          "translatedSentence": "The class ends at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sapaada pancha vaadane vayam chaayam pibaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We drink tea at quarter past five.",
+            "We drink tea at quarter to five.",
+            "We drank tea at five o'clock."
+          ],
+          "correctAnswer": "We drink tea at quarter past five."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa vadatu, bhojanam kati vaadane bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanam madhyaahne dvaadasha vaadane bhavati.",
+            "bhojanam bahu rucikaram asti.",
+            "bhojanam mahaanase siddham asti."
+          ],
+          "correctAnswer": "bhojanam madhyaahne dvaadasha vaadane bhavati.",
+          "translatedSentence": "Lunch is at twelve noon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "paadona sapta vaadane aham grham aagacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I come home at quarter to seven.",
+            "I come home at quarter past seven.",
+            "I leave home at seven o'clock."
+          ],
+          "correctAnswer": "I come home at quarter to seven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatii raatrau kati vaadane svapiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham raatrau dasha vaadane svapimi.",
+            "aham raatrau sukhena svapimi.",
+            "aham raatrau na pathaami."
+          ],
+          "correctAnswer": "aham raatrau dasha vaadane svapimi.",
+          "translatedSentence": "I go to sleep at ten at night."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya kah dinaankah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya panchamah dinaankah.",
+            "adya guruvaasarah asti.",
+            "adya bahu ushnam asti."
+          ],
+          "correctAnswer": "adya panchamah dinaankah.",
+          "translatedSentence": "Today is the fifth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vasantakaale sarvatra pushpaani vikasanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In spring, flowers bloom everywhere.",
+            "In summer, flowers bloom everywhere.",
+            "In spring, the trees shed their leaves."
+          ],
+          "correctAnswer": "In spring, flowers bloom everywhere."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah janmadinam kasmin maase bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama janmadinam chaitramaase bhavati.",
+            "mama janmadinam grhe eva bhavati.",
+            "mama janmadinam mahotsavah asti."
+          ],
+          "correctAnswer": "mama janmadinam chaitramaase bhavati.",
+          "translatedSentence": "My birthday is in the month of Chaitra."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "griishmakaale atra bahu ushnam bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It gets very hot here in summer.",
+            "It gets very cold here in summer.",
+            "It rains a great deal here in summer."
+          ],
+          "correctAnswer": "It gets very hot here in summer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "varshaakaale bhavaan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "varshaakaale aham grhe eva tishthaami.",
+            "varshaakaale maargaah aardraah bhavanti.",
+            "varshaakaale bahavah meghaah aagacchanti."
+          ],
+          "correctAnswer": "varshaakaale aham grhe eva tishthaami.",
+          "translatedSentence": "In the rainy season I stay at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shishirakaale praatah bahu shiitam bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter the mornings are very cold.",
+            "In winter the evenings are very warm.",
+            "In summer the mornings are very cold."
+          ],
+          "correctAnswer": "In winter the mornings are very cold."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asmin maase kah utsavah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asmin maase diipaavalii utsavah asti.",
+            "asmin maase bahu varshaa bhavati.",
+            "asmin maase aham na aagacchaami."
+          ],
+          "correctAnswer": "asmin maase diipaavalii utsavah asti.",
+          "translatedSentence": "The festival of Deepavali falls this month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ekasmin varshe dvaadasha maasaah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twelve months in a year.",
+            "There are twelve weeks in a year.",
+            "There are ten months in a year."
+          ],
+          "correctAnswer": "There are twelve months in a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatii kam rtum icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham vasantartum icchaami.",
+            "aham madhuraani phalaani icchaami.",
+            "aham adya vishraamam icchaami."
+          ],
+          "correctAnswer": "aham vasantartum icchaami.",
+          "translatedSentence": "I like the spring season."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan pratidinam kadaa uttishthati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham pratidinam pancha vaadane uttishthaami.",
+            "aham pratidinam vyaayaamam karomi.",
+            "aham pratidinam kaaryaalayam gacchaami."
+          ],
+          "correctAnswer": "aham pratidinam pancha vaadane uttishthaami.",
+          "translatedSentence": "I get up at five o'clock every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "snaanam krtvaa aham devapoojaam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After bathing, I say my prayers.",
+            "Before bathing, I say my prayers.",
+            "After my prayers, I take a bath."
+          ],
+          "correctAnswer": "After bathing, I say my prayers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatii praatarbhojanam kadaa karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ashta vaadane praatarbhojanam karomi.",
+            "aham grhe eva praatarbhojanam karomi.",
+            "aham praatarbhojanam na icchaami."
+          ],
+          "correctAnswer": "aham ashta vaadane praatarbhojanam karomi.",
+          "translatedSentence": "I have breakfast at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "madhyaahne aham mitraih saha bhojanam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At noon I eat with my friends.",
+            "In the evening I eat with my friends.",
+            "At noon I cook for my friends."
+          ],
+          "correctAnswer": "At noon I eat with my friends."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saayamkaale bhavaan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saayamkaale aham udyaane bhramanaartham gacchaami.",
+            "saayamkaale bahu andhakaarah bhavati.",
+            "saayamkaale mama grham ramyam bhavati."
+          ],
+          "correctAnswer": "saayamkaale aham udyaane bhramanaartham gacchaami.",
+          "translatedSentence": "In the evening I go to the park for a walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "raatrau bhojanaat anantaram aham grantham pathaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After dinner at night, I read a book.",
+            "Before dinner at night, I read a book.",
+            "After dinner at night, I write a letter."
+          ],
+          "correctAnswer": "After dinner at night, I read a book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan pratidinam vyaayaamam karoti va?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham pratidinam praatah vyaayaamam karomi.",
+            "vyaayaamah aarogyaaya hitakarah asti.",
+            "mama mitram pratidinam vyaayaamam karoti."
+          ],
+          "correctAnswer": "aam, aham pratidinam praatah vyaayaamam karomi.",
+          "translatedSentence": "Yes, I exercise every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadaa aham shraantah bhavaami tadaa vishraamam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When I get tired, I take a rest.",
+            "When I take a rest, I get tired.",
+            "Even if I am tired, I keep working."
+          ],
+          "correctAnswer": "When I get tired, I take a rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatii kaaryam samaapya kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaaryam samaapya aham grham gacchaami.",
+            "mama kaaryam bahu kashtam asti.",
+            "aham pratidinam bahu kaaryam karomi."
+          ],
+          "correctAnswer": "kaaryam samaapya aham grham gacchaami.",
+          "translatedSentence": "After finishing work I go home."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yadi bhavatah samayah asti tarhi svah milaamah va?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, svah saayamkaale pancha vaadane milaamah.",
+            "hyah mama bahu samayah aasiit.",
+            "mama grham vidyaalayasya samiipe asti."
+          ],
+          "correctAnswer": "aam, svah saayamkaale pancha vaadane milaamah.",
+          "translatedSentence": "Yes, let us meet tomorrow evening at five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya aagantum na shaknomi, yatah mama bahu kaaryam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot come today because I have a lot of work.",
+            "I can come today because I have no work.",
+            "I will come today even though I have a lot of work."
+          ],
+          "correctAnswer": "I cannot come today because I have a lot of work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa vadatu, sabhaa kadaa aarabhate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sabhaa svah praatah dasha vaadane aarabhate.",
+            "sabhaayaam bahavah janaah santi.",
+            "sabhaa vidyaalayasya mahaashaalaayaam bhavati."
+          ],
+          "correctAnswer": "sabhaa svah praatah dasha vaadane aarabhate.",
+          "translatedSentence": "The meeting begins tomorrow at ten in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi svah varshaa bhavati tarhi vayam parashvah gacchaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, we will go the day after.",
+            "If it rains tomorrow, we will not go at all.",
+            "Because it rained yesterday, we did not go."
+          ],
+          "correctAnswer": "If it rains tomorrow, we will go the day after."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vayam sukravaasare milaamah athavaa sanivaasare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sukravaasare mama vargah asti, atah sanivaasare milaamah.",
+            "sukravaasarah mama priyah vaasarah asti.",
+            "sanivaasare aham praayah vishraamam karomi."
+          ],
+          "correctAnswer": "sukravaasare mama vargah asti, atah sanivaasare milaamah.",
+          "translatedSentence": "I have a class on Friday, so let us meet on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kshamyataam, tasmin samaye aham aagantum na shaknomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I cannot come at that time.",
+            "Sorry, I will come a little late.",
+            "Certainly, I can come at that time."
+          ],
+          "correctAnswer": "Sorry, I cannot come at that time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati vaadane aagantum shaknoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham saardha chatur vaadane aagantum shaknomi.",
+            "aham yaanena aagantum shaknomi.",
+            "aham bhavataa saha aagantum shaknomi."
+          ],
+          "correctAnswer": "aham saardha chatur vaadane aagantum shaknomi.",
+          "translatedSentence": "I can come at half past four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "melanasya samayah nishchitah, kintu krpayaa samaye eva aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The meeting time is fixed, but please come on time.",
+            "The meeting time is not yet fixed, so please come later.",
+            "The meeting time is fixed, so please come a little late."
+          ],
+          "correctAnswer": "The meeting time is fixed, but please come on time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "melanaat purvam bhavaan mahyam dooravaaniim karoti va?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham melanaat purvam avashyam dooravaaniim karomi.",
+            "aam, aham melane sanskrtena bhaashanam karomi.",
+            "na, mama dooravaanii navaa asti."
+          ],
+          "correctAnswer": "aam, aham melanaat purvam avashyam dooravaaniim karomi.",
+          "translatedSentence": "Yes, I will certainly call you before the meeting."
+        }
+      ]
+    }
+  ]
+}

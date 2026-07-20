@@ -36,10 +36,14 @@ class LanguageProvider extends ChangeNotifier {
   }
 
   void cacheLanguage() async {
+    // Persist locally first: the app bar and the match game read this
+    // preference, and they must follow the learner's choice even when there is
+    // no signed-in user to sync it to.
+    appPrefs.setString(PrefsConstants.currentLanguage, selectedLanguage.name);
+    notifyListeners();
+
     final userId = _auth.currentUser?.uid;
     if (userId == null) return;
-
-    appPrefs.setString(PrefsConstants.currentLanguage, selectedLanguage.name);
 
     final userDocRef = firestore.collection('users').doc(userId);
 

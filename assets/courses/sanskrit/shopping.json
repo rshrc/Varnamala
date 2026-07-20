@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etasya mulyam kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asya mulyam panchaashat rupyakaani",
+            "aapanah atra asti",
+            "etat pustakam navinam asti"
+          ],
+          "correctAnswer": "asya mulyam panchaashat rupyakaani",
+          "translatedSentence": "It costs fifty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat vastram kati rupyakaani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "etat vastram shatam rupyakaani",
+            "etat vastram raktavarnam asti",
+            "aham vastram icchaami"
+          ],
+          "correctAnswer": "etat vastram shatam rupyakaani",
+          "translatedSentence": "This cloth is one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat atimahargham asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too expensive.",
+            "This is very beautiful.",
+            "This is quite cheap."
+          ],
+          "correctAnswer": "This is too expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat mahargham asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, etat mahargham asti",
+            "na, aham aapanam gacchaami",
+            "aam, aham lekhanim icchaami"
+          ],
+          "correctAnswer": "aam, etat mahargham asti",
+          "translatedSentence": "Yes, this one is expensive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asyaah lekhanyaah mulyam dasha rupyakaani",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This pen costs ten rupees.",
+            "This pen is very good.",
+            "I want ten pens."
+          ],
+          "correctAnswer": "This pen costs ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kim pashyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham etat vastram pashyaami",
+            "aham grham gacchaami",
+            "aham dugdham pibaami"
+          ],
+          "correctAnswer": "aham etat vastram pashyaami",
+          "translatedSentence": "I am looking at this cloth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asya mulyam vimshati rupyakaani",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Its price is twenty rupees.",
+            "Its price is thirty rupees.",
+            "There are twenty books here."
+          ],
+          "correctAnswer": "Its price is twenty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etasya phalasya mulyam kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ekasya phalasya mulyam dasha rupyakaani",
+            "phalaani madhuraani santi",
+            "aham phalaani na icchaami"
+          ],
+          "correctAnswer": "ekasya phalasya mulyam dasha rupyakaani",
+          "translatedSentence": "One fruit costs ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham etat pustakam krinaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am buying this book.",
+            "I am reading this book.",
+            "I am selling this book."
+          ],
+          "correctAnswer": "I am buying this book."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaskaarah, bhavan kim icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpaya ekam pustakam darshayatu",
+            "aham aapanikah asmi",
+            "etat aapanam mahat asti"
+          ],
+          "correctAnswer": "krpaya ekam pustakam darshayatu",
+          "translatedSentence": "Please show me a book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya ekam lekhanim dadaatu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a pen.",
+            "Please show me a book.",
+            "Please take this pen."
+          ],
+          "correctAnswer": "Please give me a pen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asmin aapane dugdham asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, dugdham atra asti",
+            "na, aham dugdham pibaami",
+            "aam, aham aapanam gacchaami"
+          ],
+          "correctAnswer": "aam, dugdham atra asti",
+          "translatedSentence": "Yes, we have milk here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmin aapane tandulaah na santi",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no rice in this shop.",
+            "There is a lot of rice in this shop.",
+            "This shop is closed today."
+          ],
+          "correctAnswer": "There is no rice in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya anyat vastram darshayatu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, etat vastram pashyatu",
+            "na, aham vastram krinaami",
+            "aam, aham vastram icchaami"
+          ],
+          "correctAnswer": "aam, etat vastram pashyatu",
+          "translatedSentence": "Certainly, have a look at this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aparam kimapi icchati bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, etaavat eva paryaaptam",
+            "aam, aapanam samipe asti",
+            "na, aham aapanikah asmi"
+          ],
+          "correctAnswer": "na, etaavat eva paryaaptam",
+          "translatedSentence": "No, that is all I need."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham shaakam api icchaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like some vegetables as well.",
+            "I would like some fruit as well.",
+            "I do not want any vegetables."
+          ],
+          "correctAnswer": "I would like some vegetables as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shaakam kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shaakam tatra asti",
+            "shaakam madhuram asti",
+            "aham shaakam khaadaami"
+          ],
+          "correctAnswer": "shaakam tatra asti",
+          "translatedSentence": "The vegetables are over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aapanikah mahyam pustakam dadaati",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shopkeeper gives me a book.",
+            "The shopkeeper sells books.",
+            "I give the shopkeeper a book."
+          ],
+          "correctAnswer": "The shopkeeper gives me a book."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Please reduce the price",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etasya vastrasya mulyam shatam rupyakaani",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "etat atimahargham, krpaya alpam nyunam karotu",
+            "aam, aham shatam pustakaani icchaami",
+            "etat vastram nilavarnam asti"
+          ],
+          "correctAnswer": "etat atimahargham, krpaya alpam nyunam karotu",
+          "translatedSentence": "That is too expensive; please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya mulyam alpam nyunam karotu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please reduce the price a little.",
+            "Please tell me the price.",
+            "Please give me a little more."
+          ],
+          "correctAnswer": "Please reduce the price a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan mulyam nyunam kartum shaknoti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, dasha rupyakaani nyunam karomi",
+            "na, aham vastram na krinaami",
+            "aam, aham aapanam gacchaami"
+          ],
+          "correctAnswer": "aam, dasha rupyakaani nyunam karomi",
+          "translatedSentence": "Yes, I can take ten rupees off."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asya vastrasya mulyam sthiram asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The price of this cloth is fixed.",
+            "The price of this cloth is very low.",
+            "This cloth is always available here."
+          ],
+          "correctAnswer": "The price of this cloth is fixed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham ashiitih rupyakaani dadaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, navatih rupyakaani dadaatu",
+            "aam, aham ashiitih pustakaani icchaami",
+            "na, aham vastram na jaanaami"
+          ],
+          "correctAnswer": "na, navatih rupyakaani dadaatu",
+          "translatedSentence": "No, make it ninety rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "anyasmin aapane etasya mulyam nyunam asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the other shop this costs less.",
+            "In the other shop this is not available.",
+            "That shop is bigger than this one."
+          ],
+          "correctAnswer": "In the other shop this costs less."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yadi bhavan dve vastre krinaati tarhi aham mulyam nyunam karomi",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "uttamam, tarhi aham dve vastre krinaami",
+            "na, aham aapanikah asmi",
+            "aam, aham tatra gacchaami"
+          ],
+          "correctAnswer": "uttamam, tarhi aham dve vastre krinaami",
+          "translatedSentence": "Good, then I will take two of them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat mahargham kintu sundaram asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is expensive, but it is beautiful.",
+            "It is cheap and beautiful.",
+            "It is expensive and not very nice."
+          ],
+          "correctAnswer": "It is expensive, but it is beautiful."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan mulyam nyunam na karoti cet aham na krinaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aastaam, tarhi navatih rupyakaani dadaatu",
+            "aam, aham dugdham api icchaami",
+            "na, aapanam adya pihitam asti"
+          ],
+          "correctAnswer": "aastaam, tarhi navatih rupyakaani dadaatu",
+          "translatedSentence": "All right then, give me ninety rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kiyat tandulam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham dve kilo tandulam icchaami",
+            "aham tandulam na khaadaami",
+            "tandulah shvetavarnah asti"
+          ],
+          "correctAnswer": "aham dve kilo tandulam icchaami",
+          "translatedSentence": "I would like two kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya ardhakilo shaakam dadaatu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me half a kilo of vegetables.",
+            "Please give me two kilos of vegetables.",
+            "Please keep the vegetables aside."
+          ],
+          "correctAnswer": "Please give me half a kilo of vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat vastram mama krte mahat asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi laghutaram vastram darshayaami",
+            "tarhi aham etat vastram krinaami",
+            "aam, etat vastram shatam rupyakaani"
+          ],
+          "correctAnswer": "tarhi laghutaram vastram darshayaami",
+          "translatedSentence": "Then let me show you a smaller one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asya syutasya pramaanam laghu asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bag is small in size.",
+            "This bag is very heavy.",
+            "This bag costs very little."
+          ],
+          "correctAnswer": "This bag is small in size."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kati aamraphalaani icchati bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "panca aamraphalaani icchaami",
+            "aamraphalaani madhuraani santi",
+            "aham aamraphalaani na krinaami"
+          ],
+          "correctAnswer": "panca aamraphalaani icchaami",
+          "translatedSentence": "I would like five mangoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ekasya kilo phalaanaam mulyam ashiitih rupyakaani",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A kilo of fruit costs eighty rupees.",
+            "A kilo of rice costs eighty rupees.",
+            "A kilo of fruit costs ninety rupees."
+          ],
+          "correctAnswer": "A kilo of fruit costs eighty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat vastram alpam laghu asti, mahattaram asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mahattaram vastram atra asti",
+            "na, etat vastram mahargham asti",
+            "aam, aham laghutaram vastram icchaami"
+          ],
+          "correctAnswer": "aam, mahattaram vastram atra asti",
+          "translatedSentence": "Yes, we have a bigger one right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ekam kilo tandulam na icchaami, ardhakilo eva paryaaptam",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want a kilo of rice, half a kilo is enough.",
+            "I want a kilo of rice, not half a kilo.",
+            "Half a kilo of rice is not enough for me."
+          ],
+          "correctAnswer": "I do not want a kilo of rice, half a kilo is enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etaavat paryaaptam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, etaavat paryaaptam",
+            "na, aapanam duuram asti",
+            "aam, aham aapanikah asmi"
+          ],
+          "correctAnswer": "aam, etaavat paryaaptam",
+          "translatedSentence": "Yes, that is enough."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sarvam militva kati rupyakaani bhavanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sarvam militva dvishatam rupyakaani bhavanti",
+            "sarvam vastram atra asti",
+            "aham sarvam krinaami"
+          ],
+          "correctAnswer": "sarvam militva dvishatam rupyakaani bhavanti",
+          "translatedSentence": "Altogether it comes to two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama samipe dvishatam rupyakaani santi",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two hundred rupees on me.",
+            "I need two hundred rupees more.",
+            "I gave him two hundred rupees."
+          ],
+          "correctAnswer": "I have two hundred rupees on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idam dhanam sviikarotu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, shesham dhanam dadaami",
+            "dhanyavaadah, aham dhanam na icchaami",
+            "aam, aapanam adya pihitam asti"
+          ],
+          "correctAnswer": "dhanyavaadah, shesham dhanam dadaami",
+          "translatedSentence": "Thank you, I will give you the change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya shesham dhanam dadaatu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the change.",
+            "Please give me the bill.",
+            "Please give me a bag."
+          ],
+          "correctAnswer": "Please give me the change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "syutah asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, kintu syutasya krte panca rupyakaani",
+            "na, aham syutam krinaami",
+            "aam, aham syutam icchaami"
+          ],
+          "correctAnswer": "aam, kintu syutasya krte panca rupyakaani",
+          "translatedSentence": "Yes, but the bag costs five rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama samipe syutah asti, tasmaat navam syutam na icchaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a bag with me, so I do not need a new one.",
+            "I do not have a bag, so I need a new one.",
+            "I have a new bag, but I want another one."
+          ],
+          "correctAnswer": "I have a bag with me, so I do not need a new one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mulyapatram icchati vaa bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpaya mulyapatram dadaatu",
+            "na, aham mulyam na jaanaami",
+            "aam, aham dhanam dadaami"
+          ],
+          "correctAnswer": "aam, krpaya mulyapatram dadaatu",
+          "translatedSentence": "Yes, please give me the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shesham panca rupyakaani, krpaya ganayatu",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Here is five rupees change, please count it.",
+            "The price is five rupees, please pay it.",
+            "Five rupees are missing, please look again."
+          ],
+          "correctAnswer": "Here is five rupees change, please count it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama samipe alpam eva dhanam asti, tasmaat ekam eva vastram krinaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aastaam, tarhi etat ekam vastram sviikarotu",
+            "na, bhavan dhanam na icchati",
+            "aam, aham dve vastre krinaami"
+          ],
+          "correctAnswer": "aastaam, tarhi etat ekam vastram sviikarotu",
+          "translatedSentence": "That is fine, then please take this one."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hyah aham etat vastram atra akrinaam, kintu tat mama krte laghu asti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kshamyataam, aham mahattaram vastram dadaami",
+            "aam, etat vastram atimahargham asti",
+            "na, aham hyah aapane na aasam"
+          ],
+          "correctAnswer": "kshamyataam, aham mahattaram vastram dadaami",
+          "translatedSentence": "I am sorry, I will give you a bigger one instead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat vastram malinam asti, tasmaat aham punah dadaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This cloth is dirty, so I am returning it.",
+            "This cloth is torn, but I will keep it.",
+            "This cloth is clean, so I am buying it."
+          ],
+          "correctAnswer": "This cloth is dirty, so I am returning it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mulyapatram bhavatah samipe asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mulyapatram mama samipe asti",
+            "na, aham mulyam nyunam icchaami",
+            "aam, aham dhanam punah dadaami"
+          ],
+          "correctAnswer": "aam, mulyapatram mama samipe asti",
+          "translatedSentence": "Yes, I have the bill with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi mulyapatram na asti tarhi dhanam punah na labhyate",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not have the bill, you cannot get your money back.",
+            "If you have the bill, the price will be reduced.",
+            "If the bill is lost, you may choose another item."
+          ],
+          "correctAnswer": "If you do not have the bill, you cannot get your money back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan dhanam punah dadaati athava anyat vastram dadaati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham anyat vastram dadaami, kintu dhanam punah na dadaami",
+            "aham dhanam na jaanaami, tasmaat na vadaami",
+            "aham vastram na krinaami, yatah tat mahargham asti"
+          ],
+          "correctAnswer": "aham anyat vastram dadaami, kintu dhanam punah na dadaami",
+          "translatedSentence": "I will give you another item, but I cannot refund the money."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmin aapane mulyaani adhikaani santi, tasmaat aham anyat aapanam gacchaami",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The prices in this shop are higher, so I am going to another shop.",
+            "The prices in this shop are lower, so I always shop here.",
+            "This shop is far away, so I go to another one."
+          ],
+          "correctAnswer": "The prices in this shop are higher, so I am going to another shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "anyasmin aapane etat vastram nyunamulyam aasit vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, tatra vimshati rupyakaani nyunam aasit",
+            "na, aham tatra kadaapi na gacchaami",
+            "aam, aham tatra dve vastre akrinaam"
+          ],
+          "correctAnswer": "aam, tatra vimshati rupyakaani nyunam aasit",
+          "translatedSentence": "Yes, it was twenty rupees cheaper there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam etat aapanam rocate yatah atra mulyaani nyunaani santi",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this shop because the prices here are lower.",
+            "I like this shop because it is close to my house.",
+            "I do not like this shop because the prices are high."
+          ],
+          "correctAnswer": "I like this shop because the prices here are lower."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "punah aagacchatu, agrime vaare navaani vastraani aagamishyanti",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, tarhi aham agrime vaare punah aagacchaami",
+            "dhanyavaadah, kintu aham navam syutam icchaami",
+            "aastaam, tarhi aham dhanam punah dadaami"
+          ],
+          "correctAnswer": "dhanyavaadah, tarhi aham agrime vaare punah aagacchaami",
+          "translatedSentence": "Thank you, I will come again next week."
+        }
+      ]
+    }
+  ]
+}

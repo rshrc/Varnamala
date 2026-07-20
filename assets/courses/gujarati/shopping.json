@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa ketlanu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa pachas rupiya che.",
+            "Aa dukan moti che.",
+            "Mane aa game che."
+          ],
+          "correctAnswer": "Aa pachas rupiya che.",
+          "translatedSentence": "This one is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa bahu monghu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very expensive.",
+            "This is very cheap.",
+            "This is very big."
+          ],
+          "correctAnswer": "This is very expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Keri no bhav shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "So rupiya kilo che.",
+            "Keri bahu mithi che.",
+            "Keri ahiya nathi."
+          ],
+          "correctAnswer": "So rupiya kilo che.",
+          "translatedSentence": "They are a hundred rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mare aa joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want this one.",
+            "I do not want this one.",
+            "I already have this one."
+          ],
+          "correctAnswer": "I want this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase dudh che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, dudh che.",
+            "Na, mane khabar nathi.",
+            "Dudh bahu monghu che."
+          ],
+          "correctAnswer": "Ha, dudh che.",
+          "translatedSentence": "Yes, we have milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa dukan ma badhu sastu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is cheap in this shop.",
+            "Everything is expensive in this shop.",
+            "Everything is new in this shop."
+          ],
+          "correctAnswer": "Everything is cheap in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne shu joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane chaas joie che.",
+            "Mane bhav khabar che.",
+            "Hu Ahmedabad ma rahu chu."
+          ],
+          "correctAnswer": "Mane chaas joie che.",
+          "translatedSentence": "I would like some buttermilk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari dukan bahu moti che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your shop is very big.",
+            "Your shop is very small.",
+            "Your shop is very far."
+          ],
+          "correctAnswer": "Your shop is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ketla rupiya thaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pachas rupiya thaya.",
+            "Pachas keri joie che.",
+            "Rupiya mari pase nathi."
+          ],
+          "correctAnswer": "Pachas rupiya thaya.",
+          "translatedSentence": "That comes to fifty rupees."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhai, tamari pase thepla che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, taja thepla che.",
+            "Na, hu ghare jau chu.",
+            "Thepla bahu moti che."
+          ],
+          "correctAnswer": "Ha, taja thepla che.",
+          "translatedSentence": "Yes, we have fresh thepla."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mare ek kilo chokha joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one kilo of rice.",
+            "I need one kilo of flour.",
+            "I need one kilo of sugar."
+          ],
+          "correctAnswer": "I need one kilo of rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne biju kai joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mane thodu tel joie che.",
+            "Ha, dukan atyare bandh che.",
+            "Na, aa bahu sastu che."
+          ],
+          "correctAnswer": "Ha, mane thodu tel joie che.",
+          "translatedSentence": "Yes, I need a little oil as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa dhokla taja che ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are these dhokla fresh or not?",
+            "Are these dhokla sweet or not?",
+            "Are these dhokla expensive or not?"
+          ],
+          "correctAnswer": "Are these dhokla fresh or not?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Undhiyu kyare male che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undhiyu shiyala ma male che.",
+            "Undhiyu ame nathi banavta.",
+            "Undhiyu bahu swadisht che."
+          ],
+          "correctAnswer": "Undhiyu shiyala ma male che.",
+          "translatedSentence": "We have undhiyu in the winter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane thodu vadhare aapo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a little more.",
+            "Give me a little less.",
+            "Give me one more bag."
+          ],
+          "correctAnswer": "Give me a little more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa shaak ketle rupiye kilo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalis rupiya kilo che.",
+            "Shaak taju nathi.",
+            "Mare shaak joie che."
+          ],
+          "correctAnswer": "Chalis rupiya kilo che.",
+          "translatedSentence": "It is forty rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari dukan ketla vagye khule che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What time does your shop open?",
+            "What time does your shop close?",
+            "How far away is your shop?"
+          ],
+          "correctAnswer": "What time does your shop open?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase chaas che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, chaas atyare nathi.",
+            "Ha, chaas bahu monghi che.",
+            "Chaas Surat ma male che."
+          ],
+          "correctAnswer": "Na, chaas atyare nathi.",
+          "translatedSentence": "No, we do not have buttermilk right now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Bargaining the price down",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa saadi be so rupiya ni che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahu monghi che, thodu ochu karo.",
+            "Saras, mane be saadi aapo.",
+            "Mane saadi nathi joiti."
+          ],
+          "correctAnswer": "Bahu monghi che, thodu ochu karo.",
+          "translatedSentence": "That is very expensive, bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chhelli kimat kaho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me your final price.",
+            "Tell me the name of the shop.",
+            "Tell me how much I paid."
+          ],
+          "correctAnswer": "Tell me your final price."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ochu nahi thay, bhai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To hu biji dukan ma jais.",
+            "To mane be kilo aapo.",
+            "To bhav vadhare karo."
+          ],
+          "correctAnswer": "To hu biji dukan ma jais.",
+          "translatedSentence": "Then I will go to another shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pela dukan ma aa sastu male che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is cheaper at that other shop.",
+            "It is more expensive at that other shop.",
+            "It is not sold at that other shop."
+          ],
+          "correctAnswer": "It is cheaper at that other shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketla aapsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu so rupiya aapish.",
+            "Hu kale aavish.",
+            "Hu Vadodara ma rahu chu."
+          ],
+          "correctAnswer": "Hu so rupiya aapish.",
+          "translatedSentence": "I will give a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vees rupiya ocha karo to hu lais.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you take twenty rupees off, I will buy it.",
+            "If you add twenty rupees, I will buy it.",
+            "Take twenty rupees and I will go."
+          ],
+          "correctAnswer": "If you take twenty rupees off, I will buy it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa bhav ma nahi male.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To thodu to ochu karo ne, bhai.",
+            "To hu be kilo lais.",
+            "To bhav bahu sasto che."
+          ],
+          "correctAnswer": "To thodu to ochu karo ne, bhai.",
+          "translatedSentence": "Then at least bring it down a bit, brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu ahiya hammesha kharidi karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I always shop here.",
+            "I have never shopped here.",
+            "I shop there sometimes."
+          ],
+          "correctAnswer": "I always shop here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame juna gharak cho, etle hu so rupiya ocha karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aabhar, to hu be lais.",
+            "Na, mane aa nathi joitu.",
+            "Bhav to haju vadhare che."
+          ],
+          "correctAnswer": "Aabhar, to hu be lais.",
+          "translatedSentence": "Thank you, in that case I will take two."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne ketlu joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane aadhu kilo joie che.",
+            "Mane aa dukan game che.",
+            "Mane bhav khabar nathi."
+          ],
+          "correctAnswer": "Mane aadhu kilo joie che.",
+          "translatedSentence": "I need half a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa shirt mane nanu pade che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is too small for me.",
+            "This shirt is too big for me.",
+            "This shirt suits me well."
+          ],
+          "correctAnswer": "This shirt is too small for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa moti size ma male che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, moti size pan che.",
+            "Na, aa bahu monghu che.",
+            "Ha, aa rang bahu saro che."
+          ],
+          "correctAnswer": "Ha, moti size pan che.",
+          "translatedSentence": "Yes, we have it in a bigger size too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane tran kilo khand joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need three kilos of sugar.",
+            "I need three kilos of flour.",
+            "I need three litres of milk."
+          ],
+          "correctAnswer": "I need three kilos of sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa jeans no number ketlo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa batrees number ni che.",
+            "Aa be so rupiya ni che.",
+            "Aa Surat ma banel che."
+          ],
+          "correctAnswer": "Aa batrees number ni che.",
+          "translatedSentence": "These are a size thirty-two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa thelo bahu nano che, moto aapo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bag is too small, give me a bigger one.",
+            "This bag is too big, give me a smaller one.",
+            "This bag is torn, give me a new one."
+          ],
+          "correctAnswer": "This bag is too small, give me a bigger one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dudh ketlu joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek litre dudh aapo.",
+            "Dudh taju nathi.",
+            "Dudh no bhav vadhyo che."
+          ],
+          "correctAnswer": "Ek litre dudh aapo.",
+          "translatedSentence": "Give me one litre of milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aadha kilo thi vadhare nathi joitu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not need more than half a kilo.",
+            "I need a little more than half a kilo.",
+            "Half a kilo is not going to be enough."
+          ],
+          "correctAnswer": "I do not need more than half a kilo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa pack ma ketla thepla che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa pack ma das thepla che.",
+            "Aa pack bahu monghu che.",
+            "Thepla ame ghare banavie chie."
+          ],
+          "correctAnswer": "Aa pack ma das thepla che.",
+          "translatedSentence": "There are ten thepla in this pack."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Badhu malin ketla thaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Badhu malin tran so rupiya thaya.",
+            "Badhu ghare mukelu che.",
+            "Badhu bahu sastu hatu."
+          ],
+          "correctAnswer": "Badhu malin tran so rupiya thaya.",
+          "translatedSentence": "It comes to three hundred rupees altogether."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari pase chhutta paisa che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have change?",
+            "Do you have a carry bag?",
+            "Do you have the bill?"
+          ],
+          "correctAnswer": "Do you have change?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame rokad ma aapsho ke card thi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu card thi aapish.",
+            "Mane ek thelo pan joie che.",
+            "Bill mari pase nathi."
+          ],
+          "correctAnswer": "Hu card thi aapish.",
+          "translatedSentence": "I will pay by card."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane bill aapsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you give me the bill?",
+            "Will you give me the change?",
+            "Will you give me a discount?"
+          ],
+          "correctAnswer": "Will you give me the bill?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa so rupiya ni note lo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chhutta nathi, biji note aapo.",
+            "Note bahu navi che, ne?",
+            "Bhav so rupiya thi ocho che."
+          ],
+          "correctAnswer": "Chhutta nathi, biji note aapo.",
+          "translatedSentence": "I do not have change, please give me another note."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa tamara vees rupiya pachha lo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Here, take your twenty rupees back.",
+            "Please give me twenty rupees more.",
+            "Keep the twenty rupees with you."
+          ],
+          "correctAnswer": "Here, take your twenty rupees back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thelo joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mari pase thelo che.",
+            "Ha, bhav ochu karo.",
+            "Na, mane khabar nathi."
+          ],
+          "correctAnswer": "Na, mari pase thelo che.",
+          "translatedSentence": "No, I have a bag with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rasid sambhali ne rakho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Keep the receipt safely.",
+            "Throw the receipt away.",
+            "Show me the receipt."
+          ],
+          "correctAnswer": "Keep the receipt safely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ahiya online payment chale che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, QR code ahiya che.",
+            "Na, dukan atyare bandh che.",
+            "Ha, thelo das rupiya no che."
+          ],
+          "correctAnswer": "Ha, QR code ahiya che.",
+          "translatedSentence": "Yes, the QR code is right here."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa shirt faati gayu che, etle hu badli karava aavyo chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rasid hoy to ame badli aapi deshu.",
+            "Bhav ochu karva mate kale aavo.",
+            "Aa shirt ni size bahu saras che."
+          ],
+          "correctAnswer": "Rasid hoy to ame badli aapi deshu.",
+          "translatedSentence": "If you have the receipt, we will exchange it for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Me aa gai kale lidhu hatu, pan aa kharab nikalyu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I bought this yesterday, but it turned out to be faulty.",
+            "I bought this yesterday, and it works perfectly.",
+            "I will buy this tomorrow if it is not faulty."
+          ],
+          "correctAnswer": "I bought this yesterday, but it turned out to be faulty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne paisa pachha joie che ke biju kai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paisa pachha joie che, kem ke biju kai gamtu nathi.",
+            "Biju kai joie che, kem ke aa dukan moti che.",
+            "Paisa pachha nathi joita, kem ke rasid mari pase che."
+          ],
+          "correctAnswer": "Paisa pachha joie che, kem ke biju kai gamtu nathi.",
+          "translatedSentence": "I would like a refund, because I do not like anything else here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo aa size nano pade to hu kale badalva aavish.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If this size turns out too small, I will come tomorrow to exchange it.",
+            "If this size turns out too big, I will keep it anyway.",
+            "If this size fits me, I will come again tomorrow."
+          ],
+          "correctAnswer": "If this size turns out too small, I will come tomorrow to exchange it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pela dukan ma aa sastu hatu, to tame ahiya kem lidhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kem ke ahiya no maal saro che ane dukandar pan sara che.",
+            "Kem ke ahiya bhav bahu vadhare che ane maal juno che.",
+            "Kem ke mare atyare kai kharidvu nathi."
+          ],
+          "correctAnswer": "Kem ke ahiya no maal saro che ane dukandar pan sara che.",
+          "translatedSentence": "Because the goods here are good, and the shopkeeper is decent too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame Ahmedabad ma kharidi karie chie kem ke tya bhav ocha che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We shop in Ahmedabad because the prices are lower there.",
+            "We shop in Ahmedabad even though the prices are higher there.",
+            "We want to shop in Ahmedabad, but the shops are closed."
+          ],
+          "correctAnswer": "We shop in Ahmedabad because the prices are lower there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari fariyad shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Me je magyu hatu te tame nathi aapyu.",
+            "Me tamne gai kale ahiya joya hata.",
+            "Mane tamari dukan bahu game che."
+          ],
+          "correctAnswer": "Me je magyu hatu te tame nathi aapyu.",
+          "translatedSentence": "You did not give me what I had asked for."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tamari pase rasid nahi hoy to ame paisa pachha nahi aapi shakie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not have the receipt, we cannot give you a refund.",
+            "If you have the receipt, we still cannot give you a refund.",
+            "We can give you a refund even without the receipt."
+          ],
+          "correctAnswer": "If you do not have the receipt, we cannot give you a refund."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu tamne aana badle bijo shirt aapu, chalse?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, chalse, pan aa var moti size aapjo.",
+            "Ha, chalse, pan mare paisa pachha joie che.",
+            "Na, nahi chale, kem ke aa shirt saras che."
+          ],
+          "correctAnswer": "Ha, chalse, pan aa var moti size aapjo.",
+          "translatedSentence": "Yes, that works, but this time give me a bigger size."
+        }
+      ]
+    }
+  ]
+}

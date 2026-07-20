@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Odia">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#B5838D"/>
+      <stop offset="1" stop-color="#6D6875"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="32" r="18"/>
+    <circle cx="32" cy="32" r="6"/>
+    <path d="M32 14v6M32 44v6M14 32h6M44 32h6"/>
+    <path d="M19.3 19.3l4.3 4.3M40.4 40.4l4.3 4.3M44.7 19.3l-4.3 4.3M23.6 40.4l-4.3 4.3"/>
+  </g>
+</svg>

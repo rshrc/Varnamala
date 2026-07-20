@@ -8,4 +8,8 @@ enum TargetLanguage {
   odia,
   nepali,
   assamese,
+  gujarati,
+  marathi,
+  urdu,
+  sanskrit,
 }

@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "he kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "he majhe ghar aahe.",
+            "hi majhi kholi aahe.",
+            "he swayampakghar aahe."
+          ],
+          "correctAnswer": "he majhe ghar aahe.",
+          "translatedSentence": "This is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "swayampakghar kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "swayampakghar ikde aahe.",
+            "kholi tikde aahe.",
+            "gachchi varti aahe."
+          ],
+          "correctAnswer": "swayampakghar ikde aahe.",
+          "translatedSentence": "The kitchen is this way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya ghari teen kholya aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are three rooms in my house.",
+            "There are two rooms in my house.",
+            "There are three houses on my road."
+          ],
+          "correctAnswer": "There are three rooms in my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche ghar mothe aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, majhe ghar lahan aahe.",
+            "ho, majhi kholi mothi aahe.",
+            "majhe ghar Punyat aahe."
+          ],
+          "correctAnswer": "nahi, majhe ghar lahan aahe.",
+          "translatedSentence": "No, my house is small."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aai swayampakgharat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is in the kitchen.",
+            "Mother is in the room.",
+            "Mother is going to the kitchen."
+          ],
+          "correctAnswer": "Mother is in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchi kholi kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "majhi kholi varti aahe.",
+            "majhe ghar khali aahe.",
+            "baithakichi kholi mothi aahe."
+          ],
+          "correctAnswer": "majhi kholi varti aahe.",
+          "translatedSentence": "My room is upstairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "darwaja ughda aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door is open.",
+            "The door is closed.",
+            "The window is open."
+          ],
+          "correctAnswer": "The door is open."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "khidki band aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, khidki band aahe.",
+            "nahi, darwaja ughda aahe.",
+            "khidki khup mothi aahe."
+          ],
+          "correctAnswer": "ho, khidki band aahe.",
+          "translatedSentence": "Yes, the window is closed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hi baithakichi kholi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is the living room.",
+            "This is the bedroom.",
+            "This is a big room."
+          ],
+          "correctAnswer": "This is the living room."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Things around the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "pankha chalu kara na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mi atta chalu karto.",
+            "nahi, mala chaha nako.",
+            "kapat band aahe."
+          ],
+          "correctAnswer": "ho, mi atta chalu karto.",
+          "translatedSentence": "Sure, I will turn it on right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "he kapde kuthe thevu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "te kapatat theva.",
+            "te chaha piun ghya.",
+            "to darwaja ughda."
+          ],
+          "correctAnswer": "te kapatat theva.",
+          "translatedSentence": "Put them in the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya kholit ek palang ani ek tebal aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a bed and a table in my room.",
+            "There is a bed and a chair in my room.",
+            "There are two beds in my room."
+          ],
+          "correctAnswer": "There is a bed and a table in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala ek pela pani milel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mi atta pani aanto.",
+            "swayampakghar tikde aahe.",
+            "pankha band aahe."
+          ],
+          "correctAnswer": "ho, mi atta pani aanto.",
+          "translatedSentence": "Yes, I will bring water right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "fridge madhye dudh aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is milk in the fridge.",
+            "There is water in the fridge.",
+            "The milk is on the table."
+          ],
+          "correctAnswer": "There is milk in the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "diva lavu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, kholit andhar aahe.",
+            "nahi, pankha band kara.",
+            "ho, darwaja band kara."
+          ],
+          "correctAnswer": "ho, kholit andhar aahe.",
+          "translatedSentence": "Yes, it is dark in the room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhe pustak khurchivar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My book is on the chair.",
+            "My book is on the table.",
+            "My bag is on the chair."
+          ],
+          "correctAnswer": "My book is on the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhandi kuthe aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhandi swayampakgharat aahet.",
+            "kapde kapatat aahet.",
+            "taat tebalavar aahe."
+          ],
+          "correctAnswer": "bhandi swayampakgharat aahet.",
+          "translatedSentence": "The utensils are in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amchya gharat don pankhe aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are two fans in our house.",
+            "There is one fan in our house.",
+            "There are two fans in our room."
+          ],
+          "correctAnswer": "There are two fans in our house."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Cleaning, washing, cooking",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaj bhandi kon ghasnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaj mi ghasnar aahe.",
+            "aaj mi kapde dhunar aahe.",
+            "aaj bhandi swayampakgharat aahet."
+          ],
+          "correctAnswer": "aaj mi ghasnar aahe.",
+          "translatedSentence": "I will wash them today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "raatri swayampak kon karnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mi amti bhat karnar aahe.",
+            "mi ghar saaf karnar aahe.",
+            "mi bhaji aanli nahi."
+          ],
+          "correctAnswer": "mi amti bhat karnar aahe.",
+          "translatedSentence": "I will make dal and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mi roj sakali jhadu marto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sweep the floor every morning.",
+            "I sweep the floor every evening.",
+            "I wash the clothes every morning."
+          ],
+          "correctAnswer": "I sweep the floor every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kapde dhutle ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, ajun dhutle nahit.",
+            "ho, mi bhandi ghasli.",
+            "kapat band aahe."
+          ],
+          "correctAnswer": "nahi, ajun dhutle nahit.",
+          "translatedSentence": "No, I have not washed them yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aai swayampakgharat bhaji chirte aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cutting vegetables in the kitchen.",
+            "Mother is cooking vegetables in the kitchen.",
+            "Mother is washing vegetables in the kitchen."
+          ],
+          "correctAnswer": "Mother is cutting vegetables in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kachra kuthe takaycha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "baherchya baltit taka.",
+            "jhadu darwajya maage aahe.",
+            "kachra gadi sakali yete."
+          ],
+          "correctAnswer": "baherchya baltit taka.",
+          "translatedSentence": "Throw it in the bucket outside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mi chaha karto ani tu poha kar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will make the tea and you make the poha.",
+            "You make the tea and I will make the poha.",
+            "I will make the tea and the poha."
+          ],
+          "correctAnswer": "I will make the tea and you make the poha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "gharat khup pasara aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chala, apan aata saaf karu.",
+            "ho, mi chaha karto.",
+            "kapat khup mothe aahe."
+          ],
+          "correctAnswer": "chala, apan aata saaf karu.",
+          "translatedSentence": "Come on, let us clean it up now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mi bhandi ghasli ani nantar jhadu marla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I washed the utensils and then swept the floor.",
+            "I swept the floor and then washed the utensils.",
+            "I will wash the utensils and then sweep the floor."
+          ],
+          "correctAnswer": "I washed the utensils and then swept the floor."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "On, under, inside, behind",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chavi kapatat aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, chavi tebalavar aahe.",
+            "ho, kapat band kara.",
+            "mala chavi pahije aahe."
+          ],
+          "correctAnswer": "nahi, chavi tebalavar aahe.",
+          "translatedSentence": "No, the key is on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "balti kuthe aahe, mala pani bharaych aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "balti nhanigharat aahe.",
+            "pani tebalavar aahe.",
+            "balti aata rikami aahe."
+          ],
+          "correctAnswer": "balti nhanigharat aahe.",
+          "translatedSentence": "The bucket is in the bathroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "manjar palangakhali lapli aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is hiding under the bed.",
+            "The cat is sleeping on the bed.",
+            "The cat is hiding behind the door."
+          ],
+          "correctAnswer": "The cat is hiding under the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "jhadu kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jhadu darwajyachya maage aahe.",
+            "mi aaj jhadu marla nahi.",
+            "kachra baher takla aahe."
+          ],
+          "correctAnswer": "jhadu darwajyachya maage aahe.",
+          "translatedSentence": "The broom is behind the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dudh mi fridge madhye thevle aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have kept the milk in the fridge.",
+            "I have kept the milk on the table.",
+            "Please keep the milk in the fridge."
+          ],
+          "correctAnswer": "I have kept the milk in the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchi gadi kuthe lavli aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gadi gharasamor lavli aahe.",
+            "gadi chalu aahe.",
+            "mi local traine yeto."
+          ],
+          "correctAnswer": "gadi gharasamor lavli aahe.",
+          "translatedSentence": "The car is parked in front of the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "khurchi tebalachya shejari thev.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Put the chair next to the table.",
+            "Put the chair behind the table.",
+            "The chair is next to the table."
+          ],
+          "correctAnswer": "Put the chair next to the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dhutlele kapde kuthe valat ghalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gachchivar valat ghala.",
+            "kapde kapatat aahet.",
+            "kapde ajun dhutle nahit."
+          ],
+          "correctAnswer": "gachchivar valat ghala.",
+          "translatedSentence": "Hang them up on the terrace."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majha chashma pustakachya khali hota.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My glasses were under the book.",
+            "My glasses were on top of the book.",
+            "My glasses are under the book."
+          ],
+          "correctAnswer": "My glasses were under the book."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaskar, ya na, aat ya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaad, tumche ghar chaan aahe.",
+            "nahi, mala ushir jhala aahe.",
+            "mi baherach thambto."
+          ],
+          "correctAnswer": "dhanyavaad, tumche ghar chaan aahe.",
+          "translatedSentence": "Thank you, your house is lovely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi chaha ghenar ka coffee?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala cutting chai chalel.",
+            "mala thoda pasara aavadto.",
+            "mi swayampakgharat jato."
+          ],
+          "correctAnswer": "mala cutting chai chalel.",
+          "translatedSentence": "A cutting chai would be great."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "basa na, mi chaha karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit, I will make some tea.",
+            "Please sit, I will bring some water.",
+            "Please come, I have already made tea."
+          ],
+          "correctAnswer": "Please sit, I will make some tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaj jevun ja, mi puran poli kelya aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vah, mag mi nakki jevnar.",
+            "nahi, mala chaha nako.",
+            "mi udya sakali yeto."
+          ],
+          "correctAnswer": "vah, mag mi nakki jevnar.",
+          "translatedSentence": "Wonderful, then I will definitely stay and eat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pahune saat vajta gharat yenar aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The guests will reach the house at seven.",
+            "The guests reached the house at seven.",
+            "The guests will reach the house at nine."
+          ],
+          "correctAnswer": "The guests will reach the house at seven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "gharat pahune aale aahet, thoda naashta kar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mi atta poha karto.",
+            "ho, mi atta kapde dhuto.",
+            "pahune udya yenar aahet."
+          ],
+          "correctAnswer": "ho, mi atta poha karto.",
+          "translatedSentence": "Yes, I will make poha right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumhi punha kadhi yenar aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When will you come again?",
+            "When did you come here?",
+            "Will you come again tomorrow?"
+          ],
+          "correctAnswer": "When will you come again?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "khup ushir jhala, aamhi nighto aata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thamba na, ajun thodi chaha gheun ja.",
+            "ho, mi lavkar tumchya ghari yeto.",
+            "tumche ghar kuthe aahe?"
+          ],
+          "correctAnswer": "thamba na, ajun thodi chaha gheun ja.",
+          "translatedSentence": "Do stay, have a little more tea before you go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aai pahunyansathi misal karte aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making misal for the guests.",
+            "Mother is making tea for the guests.",
+            "Mother made misal for the guests."
+          ],
+          "correctAnswer": "Mother is making misal for the guests."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent, neighbours, repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ya gharache bhade kiti aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahinyala pandhra hajar, ani deposit vegla dyava lagel.",
+            "mala Punyat ek mothe ghar bhadyane pahije aahe.",
+            "gharmalak Nagpurla rahtat, te ithe yet nahit."
+          ],
+          "correctAnswer": "mahinyala pandhra hajar, ani deposit vegla dyava lagel.",
+          "translatedSentence": "Fifteen thousand a month, and the deposit is separate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "swayampakgharatla nal galto aahe, kahi tari kara na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mi udya plumberla bolavto, karan aaj to yeu shakat nahi.",
+            "mi nal band kela aahe, pan pani ajun garam nahi.",
+            "gharmalakane bhade vadhavle aahe, mhanun mi kahi bolat nahi."
+          ],
+          "correctAnswer": "mi udya plumberla bolavto, karan aaj to yeu shakat nahi.",
+          "translatedSentence": "I will call the plumber tomorrow, because he cannot come today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pankha chalat nahi, mistrila bolavaych lagel.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fan is not working, so we will have to call a repairman.",
+            "The fan is working, but we still called a repairman.",
+            "The light is not working, so we will have to call a repairman."
+          ],
+          "correctAnswer": "The fan is not working, so we will have to call a repairman."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shejarchya kaku tumhala olakhtat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, tya roj sakali majhyashi gappa martat.",
+            "nahi, mi tyanna ajun bhade dile nahi.",
+            "ho, tya udya Mumbaihun parat yenar aahet."
+          ],
+          "correctAnswer": "ho, tya roj sakali majhyashi gappa martat.",
+          "translatedSentence": "Yes, she chats with me every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "gharmalakane sangitle ki pudhchya mahinyapasun bhade vadhnar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The landlord said that the rent is going up from next month.",
+            "The landlord said that the rent went up last month.",
+            "The landlord said that he will not increase the rent."
+          ],
+          "correctAnswer": "The landlord said that the rent is going up from next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "raatri shejaryanchya gharat khup awaj hota, tumhala tras jhala ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, pan mi kahi bollo nahi, karan te navin aahet.",
+            "ho, mhanun mi udya bhade bharnar aahe.",
+            "nahi, mi tyanna ajun olakhat nahi."
+          ],
+          "correctAnswer": "ho, pan mi kahi bollo nahi, karan te navin aahet.",
+          "translatedSentence": "Yes, but I did not say anything, because they are new here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jar light gele tar shejaryanna vichara, tyanchyakade inverter aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the power goes out, ask the neighbours, they have an inverter.",
+            "If the power goes out, call the landlord, he has an inverter.",
+            "When the power went out, the neighbours gave us an inverter."
+          ],
+          "correctAnswer": "If the power goes out, ask the neighbours, they have an inverter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi ya gharat kiti varsha rahat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teen varsha jhali, pan aata mothya gharat jayacha vichar aahe.",
+            "teen kholya aahet, pan swayampakghar khup lahan aahe.",
+            "mi udya sakalchya local traine Punyala jato aahe."
+          ],
+          "correctAnswer": "teen varsha jhali, pan aata mothya gharat jayacha vichar aahe.",
+          "translatedSentence": "It has been three years, but now I am thinking of moving to a bigger place."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhade velevar bhara, nahi tar gharmalak ragavtat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pay the rent on time, otherwise the landlord gets angry.",
+            "Pay the rent on time, because the landlord is angry.",
+            "I paid the rent on time, so the landlord was not angry."
+          ],
+          "correctAnswer": "Pay the rent on time, otherwise the landlord gets angry."
+        }
+      ]
+    }
+  ]
+}

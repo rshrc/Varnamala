@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namo namah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "namo namah, bhavaan katham asti?",
+            "shubhaa raatrih bhavatu.",
+            "punah milaamah mitra."
+          ],
+          "correctAnswer": "namo namah, bhavaan katham asti?",
+          "translatedSentence": "Hello, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham kushalah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am well.",
+            "I am at home.",
+            "I am a student."
+          ],
+          "correctAnswer": "I am well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "katham asti bhavaan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham kushalah asmi, dhanyavaadah.",
+            "aham vidyaalayam gacchaami.",
+            "esha mama grihah asti."
+          ],
+          "correctAnswer": "aham kushalah asmi, dhanyavaadah.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavati katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you?",
+            "Who is she?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kushalah asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham kushalah asmi.",
+            "aam, aham pustakam pathaami.",
+            "na, mama gruham duuram asti."
+          ],
+          "correctAnswer": "aam, aham kushalah asmi.",
+          "translatedSentence": "Yes, I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "namo namah, mitra.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hello, friend.",
+            "Goodbye, friend.",
+            "Thank you, friend."
+          ],
+          "correctAnswer": "Hello, friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sarvam samyak asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, sarvam samyak asti.",
+            "aam, aham jalam pibaami.",
+            "na, saa atra na asti."
+          ],
+          "correctAnswer": "aam, sarvam samyak asti.",
+          "translatedSentence": "Yes, everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sarvam samyak asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is fine.",
+            "Everything is ready.",
+            "Everyone is here."
+          ],
+          "correctAnswer": "Everything is fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavaan katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya aham bahu kushalah asmi.",
+            "adya aham paatham likhaami.",
+            "adya mama mitram aagacchati."
+          ],
+          "correctAnswer": "adya aham bahu kushalah asmi.",
+          "translatedSentence": "Today I am very well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning, good night",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "suprabhaatam aacharya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "suprabhaatam, adya paathah asti.",
+            "shubhaa raatrih, shayanam karotu.",
+            "kshamyataam, aham vilambena aagatavaan."
+          ],
+          "correctAnswer": "suprabhaatam, adya paathah asti.",
+          "translatedSentence": "Good morning, we have a lesson today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "suprabhaatam, adya vaayuh sheetalah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, the air is cool today.",
+            "Good morning, the sun is hot today.",
+            "Good evening, the air is cool today."
+          ],
+          "correctAnswer": "Good morning, the air is cool today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shubhaa raatrih.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubhaa raatrih, sukhena shayanam karotu.",
+            "suprabhaatam, adya vidyaalayah asti.",
+            "svaagatam, antah aagacchatu."
+          ],
+          "correctAnswer": "shubhaa raatrih, sukhena shayanam karotu.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shubhaa sandhyaa, bhavaan katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good evening, how are you?",
+            "Good morning, how are you?",
+            "Good evening, where are you going?"
+          ],
+          "correctAnswer": "Good evening, how are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "svaagatam, antah aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, aham antah aagacchaami.",
+            "kshamyataam, aham na jaanaami.",
+            "shubhaa raatrih, aham shayanam karomi."
+          ],
+          "correctAnswer": "dhanyavaadah, aham antah aagacchaami.",
+          "translatedSentence": "Thank you, I am coming in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmaakam gruhe bhavatah svaagatam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to our home.",
+            "Welcome to our school.",
+            "Please come to our home."
+          ],
+          "correctAnswer": "Welcome to our home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "raatrih ativa vilambitaa, aham gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubhaa raatrih, saavadhaanena gacchatu.",
+            "suprabhaatam, punah aagacchatu.",
+            "svaagatam, atra upavishatu."
+          ],
+          "correctAnswer": "shubhaa raatrih, saavadhaanena gacchatu.",
+          "translatedSentence": "Good night, go carefully."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shubhaa raatrih, shvah punah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, we will meet again tomorrow.",
+            "Good morning, we will meet again tomorrow.",
+            "Good night, I will not come tomorrow."
+          ],
+          "correctAnswer": "Good night, we will meet again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa atra upavishatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, aham upavishaami.",
+            "aam, aham gruham gacchaami.",
+            "kshamyataam, aham na shrunomi."
+          ],
+          "correctAnswer": "dhanyavaadah, aham upavishaami.",
+          "translatedSentence": "Thank you, I will sit down."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavate bahu dhanyavaadah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na kimapi, tat mama kartavyam.",
+            "kshamyataam, aham vilambena aagacchaami.",
+            "krpayaa punah ekavaaram vadatu."
+          ],
+          "correctAnswer": "na kimapi, tat mama kartavyam.",
+          "translatedSentence": "It is nothing, that is my duty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa mama saahaayyam karotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please help me.",
+            "Please listen to me.",
+            "Please wait for me."
+          ],
+          "correctAnswer": "Please help me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam, aham vilambena aagatavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chintaa maa astu, paathah idaaneem aarabhate.",
+            "dhanyavaadah, aham idaaneem gacchaami.",
+            "krpayaa punah likhatu."
+          ],
+          "correctAnswer": "chintaa maa astu, paathah idaaneem aarabhate.",
+          "translatedSentence": "Do not worry, the lesson is starting now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kshamyataam, mayaa doshah krtah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I made a mistake.",
+            "Sorry, I did not hear you.",
+            "Excuse me, I have a question."
+          ],
+          "correctAnswer": "Sorry, I made a mistake."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam, esha maargah kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "esha maargah mandiram prati gacchati.",
+            "mama gruham asmin maarge eva asti.",
+            "asmin maarge bahavah janaah santi."
+          ],
+          "correctAnswer": "esha maargah mandiram prati gacchati.",
+          "translatedSentence": "This road goes to the temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa shanaih vadatu, aham na avagacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please speak slowly, I do not understand.",
+            "Please speak loudly, I cannot hear you.",
+            "Please write it down, I do not understand."
+          ],
+          "correctAnswer": "Please speak slowly, I do not understand."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavataa mama bahu saahaayyam krtam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na kimapi, mitraani evam eva kurvanti.",
+            "kshamyataam, aham tat na krtavaan.",
+            "krpayaa bhavaan mama gruham aagacchatu."
+          ],
+          "correctAnswer": "na kimapi, mitraani evam eva kurvanti.",
+          "translatedSentence": "It is nothing, this is what friends do."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kshamyataam, punah evam na karishyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I will not do this again.",
+            "Sorry, I will not come here again.",
+            "Thank you, I will not do this again."
+          ],
+          "correctAnswer": "Sorry, I will not do this again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa mahyam jalam dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham idaaneem aanayaami.",
+            "na, aham jalam na pibaami.",
+            "kshamyataam, aham idaaneem gacchaami."
+          ],
+          "correctAnswer": "aam, aham idaaneem aanayaami.",
+          "translatedSentence": "Yes, I will bring it right away."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and see you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham idaaneem gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saadhu, punah milaamah.",
+            "aam, krpayaa atra tishthatu.",
+            "kshamyataam, aham na shrutavaan."
+          ],
+          "correctAnswer": "saadhu, punah milaamah.",
+          "translatedSentence": "All right, let us meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "punah darshanaaya, mitra.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "See you again, friend.",
+            "Welcome back, friend.",
+            "Good night, friend."
+          ],
+          "correctAnswer": "See you again, friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah bhavaan aagamishyati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, shvah prabhaate aham aagamishyaami.",
+            "aam, adya aham gruhe eva asmi.",
+            "hyah aham mandiram gatavaan."
+          ],
+          "correctAnswer": "aam, shvah prabhaate aham aagamishyaami.",
+          "translatedSentence": "Yes, I will come tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saavadhaanena gacchatu, maarge bahuni yaanaani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go carefully, there are many vehicles on the road.",
+            "Go quickly, there are many vehicles on the road.",
+            "Go carefully, the road is very long."
+          ],
+          "correctAnswer": "Go carefully, there are many vehicles on the road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham gruham gacchaami, punah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubham astu, aatmaanam rakshatu.",
+            "suprabhaatam, atra upavishatu.",
+            "dhanyavaadah, aham api aagacchaami."
+          ],
+          "correctAnswer": "shubham astu, aatmaanam rakshatu.",
+          "translatedSentence": "All the best, take care of yourself."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa aatmaanam rakshatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please take care of yourself.",
+            "Please wait for me here.",
+            "Please remember me."
+          ],
+          "correctAnswer": "Please take care of yourself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kadaa punah milaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shvah saayankaale milaamah.",
+            "mandiram itah duuram na asti.",
+            "adya aham bahu kaaryam karomi."
+          ],
+          "correctAnswer": "shvah saayankaale milaamah.",
+          "translatedSentence": "Let us meet tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya melanam bahu uttamam aaseet, punah milaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today's meeting was very good, let us meet again.",
+            "Today's meeting was very long, let us meet again.",
+            "Today's lesson was very good, see you tomorrow."
+          ],
+          "correctAnswer": "Today's meeting was very good, let us meet again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah vidyaalaye milaamah vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, shvah vidyaalaye eva milaamah.",
+            "mama vidyaalayah bahu vishaalah asti.",
+            "hyah vidyaalaye bahavah chhaatraah aasan."
+          ],
+          "correctAnswer": "aam, shvah vidyaalaye eva milaamah.",
+          "translatedSentence": "Yes, let us meet at the school tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Politeness and respect",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aarya, aham bhavantam ekam prashnam prcchaami vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "avashyam, prcchatu bhavaan.",
+            "esha prashnah bahu kathinah asti.",
+            "aham api tam prashnam aprccham."
+          ],
+          "correctAnswer": "avashyam, prcchatu bhavaan.",
+          "translatedSentence": "Certainly, please ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vayam gurun aadarena namaskaaram kurmah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We greet our teachers with respect.",
+            "We greet our friends with respect.",
+            "We listen to our teachers with respect."
+          ],
+          "correctAnswer": "We greet our teachers with respect."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "putra, tvam katham asi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham kushalah asmi aarya, bhavaan katham asti?",
+            "aham kushalah asmi, tvam katham asi?",
+            "aham na jaanaami, kshamyataam."
+          ],
+          "correctAnswer": "aham kushalah asmi aarya, bhavaan katham asti?",
+          "translatedSentence": "I am well, sir. And how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "anyaih saha vayam sadaa aadarena vadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We always speak to others with respect.",
+            "We always speak to others very quietly.",
+            "We always speak to our teacher with respect."
+          ],
+          "correctAnswer": "We always speak to others with respect."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mahodaya, aham bhavatah saahaayyam karomi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpayaa maargam darshayatu.",
+            "aham api saahaayyam icchaami.",
+            "esha janah mama mitram asti."
+          ],
+          "correctAnswer": "aam, krpayaa maargam darshayatu.",
+          "translatedSentence": "Yes, please show me the way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa vrddhaaya aasanam dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give the seat to the elderly man.",
+            "Please give the book to the elderly man.",
+            "Please sit down beside the elderly man."
+          ],
+          "correctAnswer": "Please give the seat to the elderly man."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "guro, bhavaan mahyam aashirvaadam dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubham bhavatu, tvam sadaa vidyaavaan bhava.",
+            "kshamyataam, aham tvaam na jaanaami.",
+            "dhanyavaadah, aham bhavatah shishyah asmi."
+          ],
+          "correctAnswer": "shubham bhavatu, tvam sadaa vidyaavaan bhava.",
+          "translatedSentence": "May it be well; may you always be learned."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "gurum drshtvaa chhaatraah utthaaya namanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When they see the teacher, the students stand up and bow.",
+            "When they see the teacher, the students sit down quietly.",
+            "When the teacher comes, the students bow and leave."
+          ],
+          "correctAnswer": "When they see the teacher, the students stand up and bow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam mahodaya, bhavaan atra navaagatah vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham hyah eva atra aagatavaan.",
+            "na, mama gruham bahu duuram asti.",
+            "aam, mandiram itah samipe eva asti."
+          ],
+          "correctAnswer": "aam, aham hyah eva atra aagatavaan.",
+          "translatedSentence": "Yes, I arrived here only yesterday."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aho, bahukaalaat anantaram bhavaan drshtah!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham dve varshe anyasmin nagare avasam.",
+            "aam, aham prati dinam atra eva aagacchaami.",
+            "kshamyataam, adya aham sheeghram gacchaami."
+          ],
+          "correctAnswer": "aam, aham dve varshe anyasmin nagare avasam.",
+          "translatedSentence": "Yes, I lived in another city for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bahukaalaat anantaram bhavateem drshtvaa aham santushtah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am happy to see you after such a long time.",
+            "I am happy to meet you for the first time.",
+            "I was happy to see you a long time ago."
+          ],
+          "correctAnswer": "I am happy to see you after such a long time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kutumbam katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sarve kushalinah santi, dhanyavaadah.",
+            "mama gruham nagarasya madhye asti.",
+            "aham kutumbena saha na vasaami."
+          ],
+          "correctAnswer": "sarve kushalinah santi, dhanyavaadah.",
+          "translatedSentence": "Everyone is well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adhunaa aham asmin nagare kaaryam karomi, kintu mama kutumbam graame vasati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in this city now, but my family lives in the village.",
+            "I work in this village now, but my family lives in the city.",
+            "I used to work in this city, and my family lived here too."
+          ],
+          "correctAnswer": "I work in this city now, but my family lives in the village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya saayankaale bhojanaaya mama gruham aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "avashyam aagamishyaami, yadi kaaryam sheeghram samaapyate.",
+            "dhanyavaadah, kintu hyah aham na aagatavaan.",
+            "aam, mama gruham bhavatah gruhaat duuram asti."
+          ],
+          "correctAnswer": "avashyam aagamishyaami, yadi kaaryam sheeghram samaapyate.",
+          "translatedSentence": "I will certainly come, if my work finishes early."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavaan vyastah na asti, tarhi vayam kimchit kaalam vadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are not busy, let us talk for a little while.",
+            "If you are busy, we will talk a little later.",
+            "Since you were not busy, we talked for a little while."
+          ],
+          "correctAnswer": "If you are not busy, let us talk for a little while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idaaneem bhavaan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ekasmin vidyaalaye samskrtam paathayaami.",
+            "aham vidyaalaye chhaatrah aasam.",
+            "mama vidyaalayah itah duuram na asti."
+          ],
+          "correctAnswer": "aham ekasmin vidyaalaye samskrtam paathayaami.",
+          "translatedSentence": "I teach Sanskrit at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bhavantam smaraami, yatah vayam ekasmin gurukule apathaama.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I remember you, because we studied in the same gurukula.",
+            "I remember you, because we live in the same village.",
+            "I do not remember you, because we studied in different schools."
+          ],
+          "correctAnswer": "I remember you, because we studied in the same gurukula."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bahukaalaat anantaram melanam bahu aanandadaayakam aaseet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "satyam, agrime maase punah milaamah.",
+            "aam, kintu aham bhavantam na jaanaami.",
+            "kshamyataam, aham adya na aagamishyaami."
+          ],
+          "correctAnswer": "satyam, agrime maase punah milaamah.",
+          "translatedSentence": "True; let us meet again next month."
+        }
+      ]
+    }
+  ]
+}

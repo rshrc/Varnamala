@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Telugu">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#9D4EDD"/>
+      <stop offset="1" stop-color="#5A189A"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 47h32"/>
+    <path d="M21 47V27h22v20"/>
+    <path d="M27 47v-9a5 5 0 0 1 10 0v9"/>
+    <path d="M21 27h22"/>
+    <path d="M19 27V19M45 27v-8"/>
+    <path d="M17 19h4M43 19h4"/>
+  </g>
+</svg>

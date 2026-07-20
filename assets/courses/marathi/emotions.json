@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tu khush aahes ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mi khup khush aahe.",
+            "nahi, mi gharat aahe.",
+            "ho, mala cutting chai pahije."
+          ],
+          "correctAnswer": "ho, mi khup khush aahe.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mi aaj khup khush aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very tired today.",
+            "I am at home today."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tu dukhi aahes ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mala thoda vait vatate.",
+            "ho, mala vada pav avadto.",
+            "nahi, mi aata kam karto."
+          ],
+          "correctAnswer": "ho, mala thoda vait vatate.",
+          "translatedSentence": "Yes, I feel a little sad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala aaj vait vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel sad today.",
+            "I feel fine today.",
+            "I am busy today."
+          ],
+          "correctAnswer": "I feel sad today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaj mazha vadhdivas aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "arre vaa, khup khup abhinandan!",
+            "mala te mahit nahi hote.",
+            "mi udya gharich aahe."
+          ],
+          "correctAnswer": "arre vaa, khup khup abhinandan!",
+          "translatedSentence": "Oh wonderful, many congratulations!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tu aaj khup khush distos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You look very happy today.",
+            "You look very tired today.",
+            "You are very busy today."
+          ],
+          "correctAnswer": "You look very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala aaj khup aanand zala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chaan! mala pan aanand zala.",
+            "nahi, mala khup kam aahe.",
+            "mi gharat ekta aahe."
+          ],
+          "correctAnswer": "chaan! mala pan aanand zala.",
+          "translatedSentence": "Wonderful! That makes me happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amhi sagle khush aahot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are all happy.",
+            "We are all at home.",
+            "We are all tired."
+          ],
+          "correctAnswer": "We are all happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mi aaj khup dukhi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ka? kay zala?",
+            "chaan, mala aavadle.",
+            "ho, mi pan khush aahe."
+          ],
+          "correctAnswer": "ka? kay zala?",
+          "translatedSentence": "Why? What happened?"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, bored",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala aaj khup thakva ala aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mag thoda aram kar.",
+            "mag apan baher jau ya.",
+            "ho, mala pan rag ala aahe."
+          ],
+          "correctAnswer": "mag thoda aram kar.",
+          "translatedSentence": "Then rest for a while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala aaj office madhye kantala ala aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am bored at the office today.",
+            "I am tired at the office today.",
+            "I am angry at the office today."
+          ],
+          "correctAnswer": "I am bored at the office today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula kashacha rag ala aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaj lokal train khup ushira aali.",
+            "mala misal khup avadte.",
+            "mi udya Punyala jato aahe."
+          ],
+          "correctAnswer": "aaj lokal train khup ushira aali.",
+          "translatedSentence": "The local train was very late today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala andharachi bhiti vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am scared of the dark.",
+            "I am scared of dogs.",
+            "I do not go out at night."
+          ],
+          "correctAnswer": "I am scared of the dark."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala ratri ekta gharat bhiti vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ghabru nakos, mi aahe na.",
+            "chaan, mala pan te avadte.",
+            "ho, tu khup khush aahes."
+          ],
+          "correctAnswer": "ghabru nakos, mi aahe na.",
+          "translatedSentence": "Do not be scared, I am right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala ya kamacha kantala ala aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am bored of this work.",
+            "I am scared of this work.",
+            "I have finished this work."
+          ],
+          "correctAnswer": "I am bored of this work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kal ratri mala jhop ali nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mhanun tu itka thaklela distos.",
+            "mhanun tu itka khush distos.",
+            "mala pan andharachi bhiti vatate."
+          ],
+          "correctAnswer": "mhanun tu itka thaklela distos.",
+          "translatedSentence": "That is why you look so tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala udyachya parikshechi bhiti vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am scared about tomorrow's exam.",
+            "I am ready for tomorrow's exam.",
+            "I am bored of studying for the exam."
+          ],
+          "correctAnswer": "I am scared about tomorrow's exam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tu ithe ekta ka basla aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala thoda kantala ala aahe.",
+            "mala vada pav khup avadto.",
+            "udya mi Nagpurla jato aahe."
+          ],
+          "correctAnswer": "mala thoda kantala ala aahe.",
+          "translatedSentence": "I am feeling a little bored."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how you feel",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi kase aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mi theek aahe, dhanyavad. tumhi sanga.",
+            "mi aata gharich jato aahe.",
+            "ho, mala te khup avadte."
+          ],
+          "correctAnswer": "mi theek aahe, dhanyavad. tumhi sanga.",
+          "translatedSentence": "I am fine, thank you. And you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tu aaj kasa aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you today?",
+            "Where are you today?",
+            "What are you doing today?"
+          ],
+          "correctAnswer": "How are you today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhala bare vatat nahi ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kharach, mala aaj bare vatat nahi.",
+            "ho, mala aaj khup kam aahe.",
+            "nahi, mi Punyat rahato."
+          ],
+          "correctAnswer": "kharach, mala aaj bare vatat nahi.",
+          "translatedSentence": "Honestly, I am not feeling well today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kay zala? tu itka shant ka aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What happened? Why are you so quiet?",
+            "What happened? Why are you so late?",
+            "What happened? Why are you so angry?"
+          ],
+          "correctAnswer": "What happened? Why are you so quiet?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kay zala? tu ka radat aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kahi nahi, mala aaichi athavan yete.",
+            "kahi nahi, mala aata jhop yete.",
+            "ho, mi aaj khup khush zalo."
+          ],
+          "correctAnswer": "kahi nahi, mala aaichi athavan yete.",
+          "translatedSentence": "It is nothing, I just miss my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala sang, tula nakki kay zale aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me, what has really happened to you?",
+            "Tell me, what do you really want?",
+            "Tell me, where do you really want to go?"
+          ],
+          "correctAnswer": "Tell me, what has really happened to you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi kashachi tari kalaji karat aahat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mulacha ajun phone ala nahi.",
+            "ho, mala aaj cutting chai pyaychi aahe.",
+            "nahi, mi Mumbait rahato."
+          ],
+          "correctAnswer": "ho, mulacha ajun phone ala nahi.",
+          "translatedSentence": "Yes, my son has not called yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumhala aata kase vatate aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling now?",
+            "What do you want now?",
+            "How did you feel earlier?"
+          ],
+          "correctAnswer": "How are you feeling now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala aaj kunashi tari bolayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chal, apan cutting chai piu ani bolu ya.",
+            "mala tuza phone number mahit nahi.",
+            "ho, mala vada pav khup avadto."
+          ],
+          "correctAnswer": "chal, apan cutting chai piu ani bolu ya.",
+          "translatedSentence": "Come on, let us get a cutting chai and talk."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mazi nokri geli, mala khup kalaji vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kalaji karu nakos, sagle theek hoil.",
+            "chaan, khup khup abhinandan.",
+            "mala pan navin nokri pahije."
+          ],
+          "correctAnswer": "kalaji karu nakos, sagle theek hoil.",
+          "translatedSentence": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ghabru nakos, mi tuzya barobar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be scared, I am with you.",
+            "Do not worry, I will call you.",
+            "Do not go, I am waiting for you."
+          ],
+          "correctAnswer": "Do not be scared, I am with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "udya mazi mothi pariksha aahe, mala khup bhiti vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tu khup abhyas kela aahes, tu nakki chaan karshil.",
+            "mag udya tu pariksha deu nakos.",
+            "mala pan parikshecha kantala ala aahe."
+          ],
+          "correctAnswer": "tu khup abhyas kela aahes, tu nakki chaan karshil.",
+          "translatedSentence": "You have studied a lot, you will definitely do well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumhi ekte nahi aahat, amhi sagle tumchya sobat aahot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are not alone, we are all with you.",
+            "You are not late, we are all waiting for you.",
+            "You are not wrong, we all think the same thing."
+          ],
+          "correctAnswer": "You are not alone, we are all with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala vatate ki mi he karu shakat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tu nakki karu shaktos, fakt thoda vel de.",
+            "ho, he kam tuzyasathi nahi.",
+            "mala pan he kam mahit nahi."
+          ],
+          "correctAnswer": "tu nakki karu shaktos, fakt thoda vel de.",
+          "translatedSentence": "You can definitely do it, just give it a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shant ho, ek khol shwas ghe ani mala sang.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Calm down, take a deep breath and tell me.",
+            "Sit down, drink some water and tell me.",
+            "Get up, take your bag and come with me."
+          ],
+          "correctAnswer": "Calm down, take a deep breath and tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mazya aaichi tabyet bari nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kalji ghya, kahi garaj asli tar mala sanga.",
+            "chaan, tya nakki khup khush astil.",
+            "mag tumhi udya officela ya."
+          ],
+          "correctAnswer": "kalji ghya, kahi garaj asli tar mala sanga.",
+          "translatedSentence": "Take care, and tell me if you need anything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tu ekda prayatna kar, nahi jamla tari harkat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give it a try; it is fine even if it does not work out.",
+            "Try it once more, but do not tell anyone about it.",
+            "Do it tomorrow, because today everyone is busy."
+          ],
+          "correctAnswer": "Give it a try; it is fine even if it does not work out."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi bollat mhanun mala khup bare vatale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kadhihi phone kara, mi aikayla aahe.",
+            "mala mahit nahi ki nakki kay zale.",
+            "ho, mala pan udya bolayche aahe."
+          ],
+          "correctAnswer": "kadhihi phone kara, mi aikayla aahe.",
+          "translatedSentence": "Call me any time, I am here to listen."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes, dislikes, wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula misal avadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, pan far tikhat nako.",
+            "ho, mi Punyat rahato.",
+            "nahi, mala aata jhop yete."
+          ],
+          "correctAnswer": "ho, pan far tikhat nako.",
+          "translatedSentence": "Yes, but not too spicy please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala Mumbaichi lokal train avadat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like the Mumbai local train.",
+            "I do not take the Mumbai local train.",
+            "I do not like travelling around Mumbai."
+          ],
+          "correctAnswer": "I do not like the Mumbai local train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula sakali kay khayla avadel?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala vada pav ani cutting chai chalel.",
+            "mala aaj khup kantala ala aahe.",
+            "mala udya sakali nighayche aahe."
+          ],
+          "correctAnswer": "mala vada pav ani cutting chai chalel.",
+          "translatedSentence": "A vada pav and a cutting chai would be great for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala aaichi puran poli sagalyat jast avadte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my mother's puran poli the most.",
+            "My mother makes puran poli the best.",
+            "I want to eat my mother's puran poli."
+          ],
+          "correctAnswer": "I like my mother's puran poli the most."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula suttit kay karaycha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala Sahyadri madhe ekhada kila baghayla jaycha aahe.",
+            "mala suttit khup kam kela hota.",
+            "mala tyachi khup kalaji vatate."
+          ],
+          "correctAnswer": "mala Sahyadri madhe ekhada kila baghayla jaycha aahe.",
+          "translatedSentence": "I want to go and see a fort in the Sahyadris."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala gardi avadat nahi, mhanun mi ushira nighto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like crowds, so I leave later.",
+            "I do not like crowds, so I leave early.",
+            "I do not like the traffic, so I take the train."
+          ],
+          "correctAnswer": "I do not like crowds, so I leave later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala aaj kahich karayche nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mag gharich basun aram kar.",
+            "mag apan aaj officela jau ya.",
+            "ho, tula aaj khup kam aahe."
+          ],
+          "correctAnswer": "mag gharich basun aram kar.",
+          "translatedSentence": "Then just stay home and rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala asha aahe ki udya paus padnar nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I hope it does not rain tomorrow.",
+            "I think it is going to rain tomorrow.",
+            "I am scared that it will rain tomorrow."
+          ],
+          "correctAnswer": "I hope it does not rain tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula ratri baher jayla avadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, mala gharich shant vatate.",
+            "nahi, mala aaj rag ala aahe.",
+            "ho, mala te mahit nahi hote."
+          ],
+          "correctAnswer": "nahi, mala gharich shant vatate.",
+          "translatedSentence": "No, I feel calmer at home."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhala kay vatate, apan udya nighava ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala vatate ki apan udya nighave, karan aaj khup gardi asel.",
+            "mala mahit nahi, tumhi udya kuthe rahnar aahat?",
+            "ho, mala Mumbaichi lokal train avadat nahi."
+          ],
+          "correctAnswer": "mala vatate ki apan udya nighave, karan aaj khup gardi asel.",
+          "translatedSentence": "I think we should leave tomorrow, because today it will be very crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mala mafi kara, mi mudam ushira alo nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, I was not late on purpose.",
+            "I am sorry, I could not come at all yesterday.",
+            "Forgive me, I did not know that you were waiting."
+          ],
+          "correctAnswer": "I am sorry, I was not late on purpose."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mazya mate lokal train peksha bus jast bari aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala nahi vatat, bus madhe khup vel jato.",
+            "ho, mala bus chalvayla avadte.",
+            "mala mahit nahi ki bus kuthe thambte."
+          ],
+          "correctAnswer": "mala nahi vatat, bus madhe khup vel jato.",
+          "translatedSentence": "I do not agree, the bus takes far too long."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumcha mudda barobar aahe, pan mi purnapane sahamat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your point is right, but I do not fully agree.",
+            "Your point is right, and I agree completely.",
+            "I understand your point, but I did not hear all of it."
+          ],
+          "correctAnswer": "Your point is right, but I do not fully agree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mi kal tuzyashi far vait bollo, mala mafi kar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jau de, mi te kevhach visarlo aahe.",
+            "dhanyavad, mi udya tula phone karto.",
+            "mala mahit nahi ki kal tu kuthe hotas."
+          ],
+          "correctAnswer": "jau de, mi te kevhach visarlo aahe.",
+          "translatedSentence": "Let it go, I have forgotten about it already."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mazi chuk zali, punha asa honar nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was my mistake; it will not happen again.",
+            "It was not my mistake, so do not say that again.",
+            "I made a mistake, but I will not do this work again."
+          ],
+          "correctAnswer": "It was my mistake; it will not happen again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhala Nagpur peksha Pune jast avadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "donhi shahre chaan aahet, pan Punyat mala jast gharasarkhe vatate.",
+            "mala Nagpurchi amti bhat khup avadte, pan mi tithe rahat nahi.",
+            "mala mahit nahi, mi kadhich Nagpurla gelo nahi."
+          ],
+          "correctAnswer": "donhi shahre chaan aahet, pan Punyat mala jast gharasarkhe vatate.",
+          "translatedSentence": "Both cities are lovely, but Pune feels more like home to me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jar tula mazha rag ala asel tar mala sang, mi aikun ghein.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are angry with me, tell me and I will listen.",
+            "If you are tired, tell me and I will come over.",
+            "If you are angry with me, then do not say anything."
+          ],
+          "correctAnswer": "If you are angry with me, tell me and I will listen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mala vatate ki apan ya vishayavar nantar bolu ya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "barr ka, mag apan udya shant dokyane bolu.",
+            "nahi, mala ya vishayat kahich mahit nahi.",
+            "ho, mala ha vishay khup avadto."
+          ],
+          "correctAnswer": "barr ka, mag apan udya shant dokyane bolu.",
+          "translatedSentence": "All right, then let us talk tomorrow with a calm head."
+        }
+      ]
+    }
+  ]
+}

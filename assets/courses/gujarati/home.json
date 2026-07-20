@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru ghar kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maru ghar Ahmedabad ma che.",
+            "Maru ghar motu che.",
+            "Maru ghar sundar che."
+          ],
+          "correctAnswer": "Maru ghar Ahmedabad ma che.",
+          "translatedSentence": "My house is in Ahmedabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghar ma char rum che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four rooms in our house.",
+            "There are four people in our house.",
+            "Our house has four floors."
+          ],
+          "correctAnswer": "There are four rooms in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rasodu kya baju che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rasodu andar che.",
+            "Rasodu bahar che.",
+            "Rasodu navu che."
+          ],
+          "correctAnswer": "Rasodu andar che.",
+          "translatedSentence": "The kitchen is inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa maro sunvano rum che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my bedroom.",
+            "This is my kitchen.",
+            "This is my house."
+          ],
+          "correctAnswer": "This is my bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kaya rum ma cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu besvana rum ma chu.",
+            "Hu ghare jau chu.",
+            "Hu tamari sathe chu."
+          ],
+          "correctAnswer": "Hu besvana rum ma chu.",
+          "translatedSentence": "I am in the living room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rum ni bari khulli che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The window of the room is open.",
+            "The door of the room is open.",
+            "The window of the room is shut."
+          ],
+          "correctAnswer": "The window of the room is open."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa barnu kya jaay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa barnu agasi ma jaay che.",
+            "Aa barnu bandh che.",
+            "Aa barnu lakdanu che."
+          ],
+          "correctAnswer": "Aa barnu agasi ma jaay che.",
+          "translatedSentence": "This door leads to the terrace."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amaru rasodu nanu che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our kitchen is small.",
+            "Our kitchen is big.",
+            "Our bedroom is small."
+          ],
+          "correctAnswer": "Our kitchen is small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathroom kya bajue che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bathroom dabi baju che.",
+            "Bathroom saaf che.",
+            "Bathroom ma paani nathi."
+          ],
+          "correctAnswer": "Bathroom dabi baju che.",
+          "translatedSentence": "The bathroom is on the left."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara rum ma pankho che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, pankho che pan chalto nathi.",
+            "Ha, mane pankho joie che.",
+            "Na, mane khabar nathi."
+          ],
+          "correctAnswer": "Ha, pankho che pan chalto nathi.",
+          "translatedSentence": "Yes, there is a fan but it does not work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chavi tebal par muki che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have kept the key on the table.",
+            "The key is under the table.",
+            "I have lost the key."
+          ],
+          "correctAnswer": "I have kept the key on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne kevi khurshi joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane lakdani khurshi joie che.",
+            "Mane khurshi ma besvu che.",
+            "Khurshi rasoda ma che."
+          ],
+          "correctAnswer": "Mane lakdani khurshi joie che.",
+          "translatedSentence": "I want a wooden chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Almari ma badha kapda che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All the clothes are in the cupboard.",
+            "All the clothes are on the bed.",
+            "There are no clothes in the cupboard."
+          ],
+          "correctAnswer": "All the clothes are in the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Frij ma shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Frij ma chaas ane dhokla che.",
+            "Frij rasoda ma che.",
+            "Frij bahu juno che."
+          ],
+          "correctAnswer": "Frij ma chaas ane dhokla che.",
+          "translatedSentence": "There is buttermilk and dhokla in the fridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane ek saaf tuvaal aapo ne.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a clean towel.",
+            "Please give me a clean plate.",
+            "Please bring me a little water."
+          ],
+          "correctAnswer": "Please give me a clean towel."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vasan kya mukvana che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vasan rasoda ma mukjo.",
+            "Vasan bahu gandu che.",
+            "Vasan ma paani nathi."
+          ],
+          "correctAnswer": "Vasan rasoda ma mukjo.",
+          "translatedSentence": "Please put the dishes in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Palang par navi chaddar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a new sheet on the bed.",
+            "There is a new pillow on the bed.",
+            "The sheet on the bed is dirty."
+          ],
+          "correctAnswer": "There is a new sheet on the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghadiyal ma atyare ketla vagya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atyare nav vagya che.",
+            "Ghadiyal navu che.",
+            "Mane navu ghadiyal joie che."
+          ],
+          "correctAnswer": "Atyare nav vagya che.",
+          "translatedSentence": "It is nine o'clock now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaje ghar ni safai kon karshe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu aaje safai karish.",
+            "Ghar bahu saaf che.",
+            "Safai kale thai hati."
+          ],
+          "correctAnswer": "Hu aaje safai karish.",
+          "translatedSentence": "I will clean the house today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj savare jhadu maru chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sweep the floor every morning.",
+            "I mop the floor every morning.",
+            "I wash the clothes every morning."
+          ],
+          "correctAnswer": "I sweep the floor every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame vasan dhoi lidha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, badha vasan dhoi lidha.",
+            "Ha, vasan almari ma che.",
+            "Na, mane vasan joie che."
+          ],
+          "correctAnswer": "Ha, badha vasan dhoi lidha.",
+          "translatedSentence": "Yes, I have washed all the dishes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kapda dhovana haji baaki che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The clothes still have to be washed.",
+            "The clothes have already been washed.",
+            "The dishes still have to be washed."
+          ],
+          "correctAnswer": "The clothes still have to be washed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaje jamva ma shu banavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaje thepla ane chaas banavo.",
+            "Aaje rasodu saaf karo.",
+            "Mane haji bhukh nathi lagi."
+          ],
+          "correctAnswer": "Aaje thepla ane chaas banavo.",
+          "translatedSentence": "Make thepla and buttermilk today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kachro bahar mukvanu bhulso nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not forget to put the rubbish outside.",
+            "Do not forget to shut the door outside.",
+            "Remember to bring the rubbish inside."
+          ],
+          "correctAnswer": "Do not forget to put the rubbish outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kapda istri karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu istri nathi karto.",
+            "Ha, kapda almari ma mukya che.",
+            "Na, mane nava kapda joie che."
+          ],
+          "correctAnswer": "Na, hu istri nathi karto.",
+          "translatedSentence": "No, I do not iron clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pochu karya pachi rum saaf lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The room looks clean after mopping.",
+            "The room looks dirty after mopping.",
+            "The room looks clean after sweeping."
+          ],
+          "correctAnswer": "The room looks clean after mopping."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mane gharkaam ma madad karsho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu tamne madad karish.",
+            "Ha, mane pan madad joie che.",
+            "Na, mane gharkaam nathi gamtu."
+          ],
+          "correctAnswer": "Ha, hu tamne madad karish.",
+          "translatedSentence": "Yes, I will help you."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maro mobile kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tamaro mobile tebal niche padyo che.",
+            "Tamaro mobile bahu juno che.",
+            "Mane navo mobile joie che."
+          ],
+          "correctAnswer": "Tamaro mobile tebal niche padyo che.",
+          "translatedSentence": "Your phone has fallen under the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Balti bathroom ni andar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bucket is inside the bathroom.",
+            "The bucket is behind the bathroom.",
+            "The soap is inside the bathroom."
+          ],
+          "correctAnswer": "The bucket is inside the bathroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jhadu kya mukyu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jhadu barna pachhal che.",
+            "Jhadu bahu junu thai gayu che.",
+            "Jhadu thi rum saaf karo."
+          ],
+          "correctAnswer": "Jhadu barna pachhal che.",
+          "translatedSentence": "The broom is behind the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Frij ane almari ni vachche jagya nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no space between the fridge and the cupboard.",
+            "There is no space behind the fridge and the cupboard.",
+            "There is a lot of space between the fridge and the cupboard."
+          ],
+          "correctAnswer": "There is no space between the fridge and the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chavi tebal par nathi, kya gai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chavi tamara khissa ma che.",
+            "Chavi bahu navi che.",
+            "Chavi tebal par muki do."
+          ],
+          "correctAnswer": "Chavi tamara khissa ma che.",
+          "translatedSentence": "The key is in your pocket."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghar ni pachhal ek nano bagicho che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a small garden behind the house.",
+            "There is a small garden in front of the house.",
+            "There is a big garden behind the house."
+          ],
+          "correctAnswer": "There is a small garden behind the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Palang niche shu padyu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Palang niche juna kapda padya che.",
+            "Palang rum ni vachche che.",
+            "Palang par navi chaddar pathari do."
+          ],
+          "correctAnswer": "Palang niche juna kapda padya che.",
+          "translatedSentence": "There are old clothes lying under the bed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pankho palang ni barabar upar che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fan is right above the bed.",
+            "The fan is right next to the bed.",
+            "The fan is right above the table."
+          ],
+          "correctAnswer": "The fan is right above the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa vasan kya gothavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vasan frij ni bajuma gothavo.",
+            "Vasan haji dhova na baaki che.",
+            "Vasan rasoda ni bahar padya che."
+          ],
+          "correctAnswer": "Vasan frij ni bajuma gothavo.",
+          "translatedSentence": "Arrange the dishes next to the fridge."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aavo aavo, andar aavo ne.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aabhar, tamaru ghar bahu saras che.",
+            "Hu atyare bahar jau chu.",
+            "Mane tamaru ghar khabar nathi."
+          ],
+          "correctAnswer": "Aabhar, tamaru ghar bahu saras che.",
+          "translatedSentence": "Thank you, your house is very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beso, hu tamara mate chaa banavu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Have a seat, I am making tea for you.",
+            "Have a seat, I am making food for you.",
+            "Come inside, I am drinking tea with you."
+          ],
+          "correctAnswer": "Have a seat, I am making tea for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame chaa piso ke chaas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane chaas bhave che, chaas aapo.",
+            "Mane bahu bhukh lagi che.",
+            "Hu chaa nathi banavto."
+          ],
+          "correctAnswer": "Mane chaas bhave che, chaas aapo.",
+          "translatedSentence": "I like buttermilk, please give me buttermilk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mehman aave tyare ame besvano rum saaf karie chie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When guests come we clean the living room.",
+            "When guests come we cook in the kitchen.",
+            "Before guests come we clean the bedroom."
+          ],
+          "correctAnswer": "When guests come we clean the living room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara mate nasto lavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, thoda dhokla lavo to saru.",
+            "Na, hu have ghare jau chu.",
+            "Ha, mane thodu thandu paani joie che."
+          ],
+          "correctAnswer": "Ha, thoda dhokla lavo to saru.",
+          "translatedSentence": "Yes, it would be nice if you brought some dhokla."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jamya vagar na jasho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not leave without eating.",
+            "Do not eat before leaving.",
+            "Do not come without eating."
+          ],
+          "correctAnswer": "Do not leave without eating."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara mehman kya thi aavya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ae Surat thi aavya che.",
+            "Ae aaje savare ghare gaya che.",
+            "Ae besvana rum ma betha che."
+          ],
+          "correctAnswer": "Ae Surat thi aavya che.",
+          "translatedSentence": "They have come from Surat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mehman raat rokashe etle ame sunvano rum taiyar karyo che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The guests will stay the night so we have got the bedroom ready.",
+            "The guests will leave at night so we have cleaned the bedroom.",
+            "The guests will stay the night so we have cooked dinner."
+          ],
+          "correctAnswer": "The guests will stay the night so we have got the bedroom ready."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame nikalie chie, jamvanu bahu saras hatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Farithi avjo, tamne mali ne saru lagyu.",
+            "Rasoi to haji baaki che, beso.",
+            "Mane khabar nathi ke tame kya raho cho."
+          ],
+          "correctAnswer": "Farithi avjo, tamne mali ne saru lagyu.",
+          "translatedSentence": "Do come again, it was good to meet you."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent, neighbours and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa flat nu bhadu mahine ketlu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mahine pandar hajar che, pan light bill alag.",
+            "Bhadu darek varse vadhi jaay che.",
+            "Mane aa flat bahu game che."
+          ],
+          "correctAnswer": "Mahine pandar hajar che, pan light bill alag.",
+          "translatedSentence": "It is fifteen thousand a month, but the electricity bill is separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame bhadu vahelu aapsho to makan malik khush thashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you pay the rent early the landlord will be pleased.",
+            "If you pay the rent late the landlord will be angry.",
+            "If the landlord is pleased he will lower the rent."
+          ],
+          "correctAnswer": "If you pay the rent early the landlord will be pleased."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rasoda no nal tapke che, kaik karo ne.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu plumber ne bolavu chu, kem ke mane aavu kaam nathi aavadtu.",
+            "Nal navo che etle koi vandho nathi.",
+            "Paani bandh karo ane sui jao."
+          ],
+          "correctAnswer": "Hu plumber ne bolavu chu, kem ke mane aavu kaam nathi aavadtu.",
+          "translatedSentence": "I am calling a plumber, because I do not know how to do this kind of work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara padoshi bahu saras che, pan raat ma bahu avaj kare che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our neighbours are very nice, but they make a lot of noise at night.",
+            "Our neighbours are very nice, but they never speak to us at night.",
+            "Our neighbours are noisy, but they are nice in the morning."
+          ],
+          "correctAnswer": "Our neighbours are very nice, but they make a lot of noise at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamara ghar ma light nathi aavti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, savar thi light gai che, etle pankho pan chalto nathi.",
+            "Ha, light nu bill me kale j bhari didhu che.",
+            "Na, amara ghar ma be pankha che."
+          ],
+          "correctAnswer": "Na, savar thi light gai che, etle pankho pan chalto nathi.",
+          "translatedSentence": "No, the power has been out since morning, so even the fan is not working."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Makan malik e kahyu ke te agasi nu barnu thik karavi apshe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The landlord said that he will get the terrace door repaired.",
+            "The landlord said that he will get a window put in the terrace.",
+            "The landlord asked me to repair the terrace door myself."
+          ],
+          "correctAnswer": "The landlord said that he will get the terrace door repaired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aa ghar ma ketla varas thi raho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ame ahi traan varas thi raie chie, ane have badalvu nathi.",
+            "Ame kale savare Vadodara javana chie.",
+            "Aa ghar bahu junu che pan bhadu ochhu che."
+          ],
+          "correctAnswer": "Ame ahi traan varas thi raie chie, ane have badalvu nathi.",
+          "translatedSentence": "We have been living here for three years, and now we do not want to move."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Frij fari bagdyo che, etle kale mistri ne bolavvo padshe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fridge has broken down again, so we will have to call a repairman tomorrow.",
+            "The fridge has broken down again, so we will have to buy a new one tomorrow.",
+            "The fridge was repaired yesterday, so we do not need a repairman."
+          ],
+          "correctAnswer": "The fridge has broken down again, so we will have to call a repairman tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Padoshi ne ghar ni chavi aapvi joie ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aapvi joie, kem ke kyarek kaam aave.",
+            "Na, padoshi ne aapna ghar ni khabar nathi.",
+            "Ha, padoshi haji gaya varse j ahi aavya."
+          ],
+          "correctAnswer": "Ha, aapvi joie, kem ke kyarek kaam aave.",
+          "translatedSentence": "Yes, we should give it, because sometimes it comes in handy."
+        }
+      ]
+    }
+  ]
+}

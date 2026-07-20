@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame shu kaam karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu shikshak chu.",
+            "Hu Surat ma rahu chu.",
+            "Mane maru kaam game che."
+          ],
+          "correctAnswer": "Hu shikshak chu.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu ek kampani ma kaam karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work at a company.",
+            "I am looking for a job.",
+            "I own a small company."
+          ],
+          "correctAnswer": "I work at a company."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kya kaam karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu Ahmedabad ma kaam karu chu.",
+            "Hu roj kaam karu chu.",
+            "Hu aa kaam nathi karto."
+          ],
+          "correctAnswer": "Hu Ahmedabad ma kaam karu chu.",
+          "translatedSentence": "I work in Ahmedabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maro bhai doctor che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is a doctor.",
+            "My brother is a student.",
+            "My father is a doctor."
+          ],
+          "correctAnswer": "My brother is a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari naukri kevi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari naukri saras che.",
+            "Mane naukri joie che.",
+            "Hu naukri nathi karto."
+          ],
+          "correctAnswer": "Mari naukri saras che.",
+          "translatedSentence": "My job is good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari behen college ma bhane che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister studies at a college.",
+            "My sister teaches at a college.",
+            "My brother studies at a college."
+          ],
+          "correctAnswer": "My sister studies at a college."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame office ma kaam karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu office ma kaam karu chu.",
+            "Na, hu ghare thi kaam karu chu.",
+            "Ha, mane office game che."
+          ],
+          "correctAnswer": "Ha, hu office ma kaam karu chu.",
+          "translatedSentence": "Yes, I work in an office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane maru kaam bahu game che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my work very much.",
+            "I need work very badly.",
+            "I like my office very much."
+          ],
+          "correctAnswer": "I like my work very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro mitra shu kaam kare che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te engineer che.",
+            "Te Vadodara ma rahe che.",
+            "Te aaje kaam par nathi."
+          ],
+          "correctAnswer": "Te engineer che.",
+          "translatedSentence": "He is an engineer."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shikshak varg ma che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, teo atyare varg ma che.",
+            "Na, teo aaje shala ma nathi.",
+            "Ha, teo bahu saras shikshak che."
+          ],
+          "correctAnswer": "Ha, teo atyare varg ma che.",
+          "translatedSentence": "Yes, he is in the classroom right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara varg ma ghana vidyarthi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of students in our class.",
+            "There are only a few students in our class.",
+            "There are a lot of teachers in our school."
+          ],
+          "correctAnswer": "There are a lot of students in our class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taru pustak kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maru pustak bag ma che.",
+            "Mare navu pustak joie che.",
+            "Aa pustak maru nathi."
+          ],
+          "correctAnswer": "Maru pustak bag ma che.",
+          "translatedSentence": "My book is in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripa kari ne pustak kholo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please open the book.",
+            "Please close the book.",
+            "Please read the book aloud."
+          ],
+          "correctAnswer": "Please open the book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne aa prashna samjay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mane aa samjatu nathi.",
+            "Ha, mane badhu samjay che.",
+            "Ha, thodu thodu samjay che."
+          ],
+          "correctAnswer": "Na, mane aa samjatu nathi.",
+          "translatedSentence": "No, I do not understand this."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shikshak board par lakhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the board.",
+            "The teacher is reading from the book.",
+            "The student is writing on the board."
+          ],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shu hu ek prashna puchi shaku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, jarur puchho.",
+            "Na, atyare samay nathi.",
+            "Ha, pan pachi puchjo."
+          ],
+          "correctAnswer": "Ha, jarur puchho.",
+          "translatedSentence": "Yes, please do ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa varg ma ame Gujarati bhaniye chie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In this class we study Gujarati.",
+            "In this class we speak only English.",
+            "We teach Gujarati in this class."
+          ],
+          "correctAnswer": "In this class we study Gujarati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aa prashna no javab lakhyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, me javab lakhi didho.",
+            "Na, mane javab khabar nathi.",
+            "Ha, pan maro javab khoto che."
+          ],
+          "correctAnswer": "Ha, me javab lakhi didho.",
+          "translatedSentence": "Yes, I have written the answer."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Desk, email and meetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari desk kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari desk bari pase che.",
+            "Mari desk par navu computer che.",
+            "Hu bija majla par besu chu."
+          ],
+          "correctAnswer": "Mari desk bari pase che.",
+          "translatedSentence": "My desk is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Me tamne savare email mokalyo che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sent you an email in the morning.",
+            "I will send you an email in the morning.",
+            "I got your email in the morning."
+          ],
+          "correctAnswer": "I sent you an email in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting ketla vagye che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting agiyar vagye che.",
+            "Meeting kale che.",
+            "Meeting radd thai gai che."
+          ],
+          "correctAnswer": "Meeting agiyar vagye che.",
+          "translatedSentence": "The meeting is at eleven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saheb atyare meeting ma che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The boss is in a meeting right now.",
+            "The boss has already gone home.",
+            "The boss has a meeting tomorrow."
+          ],
+          "correctAnswer": "The boss is in a meeting right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame report puro karyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hu haju lakhu chu.",
+            "Ha, me kale j mokali didho.",
+            "Mane aa report vishe khabar nathi."
+          ],
+          "correctAnswer": "Na, hu haju lakhu chu.",
+          "translatedSentence": "No, I am still writing it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara computer ma kaik problem che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is some problem with my computer.",
+            "There is no problem with my computer.",
+            "There is some problem with my phone."
+          ],
+          "correctAnswer": "There is some problem with my computer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shu tame mane aa file mokli shako?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu atyare j mokalu chu.",
+            "Ha, pan mari pase te file nathi.",
+            "Na, tame saheb ne puchho."
+          ],
+          "correctAnswer": "Ha, hu atyare j mokalu chu.",
+          "translatedSentence": "Yes, I will send it right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame roj savare meeting karie chie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have a meeting every morning.",
+            "We have a meeting every evening.",
+            "We had a meeting this morning."
+          ],
+          "correctAnswer": "We have a meeting every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaro phone kem band hato?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf karjo, hu meeting ma hato.",
+            "Maro phone kharab thai gayo che.",
+            "Hu tamne pachi phone karu chu."
+          ],
+          "correctAnswer": "Maaf karjo, hu meeting ma hato.",
+          "translatedSentence": "Sorry, I was in a meeting."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ghar kaam puru karyu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mare haju thodu baki che.",
+            "Ha, me kale rate j karyu hatu.",
+            "Mane ghar kaam vishe khabar nathi."
+          ],
+          "correctAnswer": "Na, mare haju thodu baki che.",
+          "translatedSentence": "No, I still have a little left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amari pariksha aavta athvadiye che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our exam is next week.",
+            "Our exam was last week.",
+            "Our exam is next month."
+          ],
+          "correctAnswer": "Our exam is next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame pariksha mate taiyari kari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, me aakhu pustak vanchi lidhu.",
+            "Na, mane samay nathi malyo.",
+            "Hu aaje rate vanchvano chu."
+          ],
+          "correctAnswer": "Ha, me aakhu pustak vanchi lidhu.",
+          "translatedSentence": "Yes, I have read the whole book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa vishay mane bahu mushkel lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I find this subject very difficult.",
+            "This subject feels very easy to me.",
+            "I do not like this subject at all."
+          ],
+          "correctAnswer": "I find this subject very difficult."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame roj ketlo abhyas karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu roj be kalak abhyas karu chu.",
+            "Hu fakt raviware abhyas karu chu.",
+            "Mane abhyas karvo game che."
+          ],
+          "correctAnswer": "Hu roj be kalak abhyas karu chu.",
+          "translatedSentence": "I study for two hours every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane pariksha ma sara gun malya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got good marks in the exam.",
+            "I did not do well in the exam.",
+            "I will get good marks in the exam."
+          ],
+          "correctAnswer": "I got good marks in the exam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tane aa dakhlo samjay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, tu mane samjavish?",
+            "Ha, aa to bahu sahelu che.",
+            "Mane ganit ma bahu ras nathi."
+          ],
+          "correctAnswer": "Na, tu mane samjavish?",
+          "translatedSentence": "No, will you explain it to me?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo hu roj vanchu to pariksha saral lagshe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I study every day the exam will feel easy.",
+            "If the exam is easy I will study every day.",
+            "I study every day because the exam is difficult."
+          ],
+          "correctAnswer": "If I study every day the exam will feel easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kale mari sathe abhyas karish?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, hu tara ghare avish.",
+            "Na, kale mare kaam par javu che.",
+            "Ha, pan aapne library ma jaie."
+          ],
+          "correctAnswer": "Ha, hu tara ghare avish.",
+          "translatedSentence": "Yes, I will come to your place."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings, leave and delays",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru office ketla vagye shuru thay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nav vagye shuru thay che.",
+            "Sanje pach vagye puru thay che.",
+            "Amare shanivare raja hoy che."
+          ],
+          "correctAnswer": "Nav vagye shuru thay che.",
+          "translatedSentence": "It starts at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj savare aath vagye ghar thi niklu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I leave home at eight every morning.",
+            "I reach home at eight every morning.",
+            "I leave home at eight every evening."
+          ],
+          "correctAnswer": "I leave home at eight every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame aaje modu kem karyu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf karjo, hu traffic ma phasai gayo hato.",
+            "Mari bus roj modi aave che.",
+            "Hu vahela niklyo hato pan varsad hato."
+          ],
+          "correctAnswer": "Maaf karjo, hu traffic ma phasai gayo hato.",
+          "translatedSentence": "Sorry, I got stuck in traffic."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mare kale ek divas ni raja joie che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one day of leave tomorrow.",
+            "I took one day of leave yesterday.",
+            "I need two days of leave tomorrow."
+          ],
+          "correctAnswer": "I need one day of leave tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shu hu aaje vahela ghare jai shaku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, pan pahela kaam puru karo.",
+            "Na, aaje sanje meeting che.",
+            "Ha, saheb ne kahi ne jao."
+          ],
+          "correctAnswer": "Ha, pan pahela kaam puru karo.",
+          "translatedSentence": "Yes, but finish your work first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aavti kale shala bandh che kem ke raja che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "School is closed tomorrow because it is a holiday.",
+            "School is open tomorrow even though it is a holiday.",
+            "School was closed yesterday because of a holiday."
+          ],
+          "correctAnswer": "School is closed tomorrow because it is a holiday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame ketla vagye ghare pahoncho cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu sanje sat vagye pahonchi jau chu.",
+            "Hu roj bus ma ghare jau chu.",
+            "Aaje mane thodu modu thashe."
+          ],
+          "correctAnswer": "Hu sanje sat vagye pahonchi jau chu.",
+          "translatedSentence": "I reach home by seven in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane maaf karjo, mane aaje thodu modu thayu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, I got a little late today.",
+            "Excuse me, do you have the time?",
+            "Do not worry, I am not late today."
+          ],
+          "correctAnswer": "I am sorry, I got a little late today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kale tame office kem nahota aavya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mari tabiyat sari nahoti.",
+            "Me ek divas ni raja lidhi hati.",
+            "Hu bahar gam gayo hato."
+          ],
+          "correctAnswer": "Mari tabiyat sari nahoti.",
+          "translatedSentence": "I was not feeling well."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aavta varshe tamari shu yojana che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu navi naukri sodhvano chu.",
+            "Hu aa j kampani ma rahish.",
+            "Mare vadhu abhyas karvo che."
+          ],
+          "correctAnswer": "Hu navi naukri sodhvano chu.",
+          "translatedSentence": "I am going to look for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane aa varshe badhti mali che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got a promotion this year.",
+            "I am hoping for a promotion this year.",
+            "My salary went up this year."
+          ],
+          "correctAnswer": "I got a promotion this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame naukri kem badalva mango cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kem ke mare navu kaam shikhvu che.",
+            "Kem ke pagar bahu ochho che.",
+            "Mare ghar ni pase kaam joie che."
+          ],
+          "correctAnswer": "Kem ke mare navu kaam shikhvu che.",
+          "translatedSentence": "Because I want to learn new kinds of work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo hu vadhu mehnat karish to mane badhti malshe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work harder I will get a promotion.",
+            "If I get a promotion I will work harder.",
+            "I work hard but I did not get a promotion."
+          ],
+          "correctAnswer": "If I work harder I will get a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru lakshya shu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mare ek divas potani kampani shuru karvi che.",
+            "Mare Gujarati saras rite bolvi che.",
+            "Mare aavta varshe Vadodara ma rahevu che."
+          ],
+          "correctAnswer": "Mare ek divas potani kampani shuru karvi che.",
+          "translatedSentence": "One day I want to start my own company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane maru kaam game che pan pagar ochho che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my work but the salary is low.",
+            "I do not like my work but the salary is good.",
+            "I like my work and the salary is good too."
+          ],
+          "correctAnswer": "I like my work but the salary is low."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame saheb sathe pagar vishe vaat kari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, pan teoe na padi.",
+            "Na, hu aavta mahine vaat karish.",
+            "Ha, teoe vichar karvanu kahyu che."
+          ],
+          "correctAnswer": "Ha, pan teoe na padi.",
+          "translatedSentence": "Yes, but they said no."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu aa kampani ma pach varsh thi kaam karu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have been working at this company for five years.",
+            "I worked at this company five years ago.",
+            "I will work at this company for five years."
+          ],
+          "correctAnswer": "I have been working at this company for five years."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aavta varshe tame shu shikhva mango cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mare Gujarati ane thodu computer kaam shikhvu che.",
+            "Mare aa varshe kai nathi shikhvu.",
+            "Hu aavta mahine ek navo course shuru karish."
+          ],
+          "correctAnswer": "Mare Gujarati ane thodu computer kaam shikhvu che.",
+          "translatedSentence": "I want to learn Gujarati and a little computer work."
+        }
+      ]
+    }
+  ]
+}

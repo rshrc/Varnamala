@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aasman kis rang ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aasman neela hai.",
+            "Aasman hara hai.",
+            "Aasman gulaabi hai."
+          ],
+          "correctAnswer": "Aasman neela hai.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ye phool laal hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is red.",
+            "This flower is yellow.",
+            "This leaf is red."
+          ],
+          "correctAnswer": "This flower is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Patte kis rang ke hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Patte hare hain.",
+            "Patte kaale hain.",
+            "Patte safaid hain."
+          ],
+          "correctAnswer": "Patte hare hain.",
+          "translatedSentence": "The leaves are green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera pyala safaid hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My cup is white.",
+            "My cup is black.",
+            "My plate is white."
+          ],
+          "correctAnswer": "My cup is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya ye kitaab kaali hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, ye kitaab kaali hai.",
+            "Ji haan, ye kitaab bahut achhi hai.",
+            "Nahin, mujhe kitaab ka naam maloom nahin."
+          ],
+          "correctAnswer": "Ji haan, ye kitaab kaali hai.",
+          "translatedSentence": "Yes, this book is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chai ka rang bhoora hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tea is brown in colour.",
+            "Tea is black in colour.",
+            "Milk is white in colour."
+          ],
+          "correctAnswer": "Tea is brown in colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ye qameez kis rang ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ye qameez peeli hai.",
+            "Ye qameez bilkul nayi hai.",
+            "Ye kurta peela hai."
+          ],
+          "correctAnswer": "Ye qameez peeli hai.",
+          "translatedSentence": "This shirt is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Suraj peela aur narangi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sun is yellow and orange.",
+            "The sun is red and yellow.",
+            "The moon is yellow and orange."
+          ],
+          "correctAnswer": "The sun is yellow and orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kaun sa rang pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe hara rang pasand hai.",
+            "Mujhe is rang ka naam maloom nahin.",
+            "Ye rang bahut mehnga hai."
+          ],
+          "correctAnswer": "Mujhe hara rang pasand hai.",
+          "translatedSentence": "I like the colour green."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ka bag kis rang ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera bag kaala hai.",
+            "Mera bag bahut bhaari hai.",
+            "Mere bag mein do kitaabein hain."
+          ],
+          "correctAnswer": "Mera bag kaala hai.",
+          "translatedSentence": "My bag is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Wo bara darwaza neela hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That big door is blue.",
+            "That big door is green.",
+            "That small door is blue."
+          ],
+          "correctAnswer": "That big door is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ye gaari kaun se rang ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ye gaari safaid hai.",
+            "Ye gaari bahut tez chalti hai.",
+            "Ye gaari meri nahin hai."
+          ],
+          "correctAnswer": "Ye gaari safaid hai.",
+          "translatedSentence": "This car is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere kamre ki deewar neeli hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wall of my room is blue.",
+            "The wall of my room is white.",
+            "The door of my room is blue."
+          ],
+          "correctAnswer": "The wall of my room is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ye laal wali kitaab kis ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ye laal kitaab meri hai.",
+            "Ye kitaab mez par rakhi hai.",
+            "Mujhe laal rang bahut pasand hai."
+          ],
+          "correctAnswer": "Ye laal kitaab meri hai.",
+          "translatedSentence": "This red book is mine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hyderabad ki ye chudiyan sunehri hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These bangles from Hyderabad are golden.",
+            "These bangles from Hyderabad are silver.",
+            "These bangles from Lucknow are golden."
+          ],
+          "correctAnswer": "These bangles from Hyderabad are golden."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mez par kaun sa pyala rakha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mez par narangi pyala rakha hai.",
+            "Mez par ek nayi kitaab rakhi hai.",
+            "Pyale mein chai bahut garam hai."
+          ],
+          "correctAnswer": "Mez par narangi pyala rakha hai.",
+          "translatedSentence": "There is an orange cup on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Us dukaan ka darwaza hara nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door of that shop is not green.",
+            "The door of that shop is not blue.",
+            "The window of that shop is not green."
+          ],
+          "correctAnswer": "The door of that shop is not green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhara kurta safaid hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mera kurta neela hai.",
+            "Ji haan, meri qameez safaid hai.",
+            "Nahin, mujhe safaid rang pasand nahin."
+          ],
+          "correctAnswer": "Nahin, mera kurta neela hai.",
+          "translatedSentence": "No, my kurta is blue."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kaun se rang ka dupatta chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe gulaabi dupatta chahiye.",
+            "Mujhe do dupatte chahiye.",
+            "Ye dupatta bahut mehnga hai."
+          ],
+          "correctAnswer": "Mujhe gulaabi dupatta chahiye.",
+          "translatedSentence": "I would like a pink dupatta."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe hare rang wala jora chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want the green outfit.",
+            "I want the blue outfit.",
+            "I want a new outfit."
+          ],
+          "correctAnswer": "I want the green outfit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke paas neeli qameez hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, neeli qameez maujood hai.",
+            "Ji haan, qameez shaam ko tayyar milegi.",
+            "Maaf kijiye, dukaan abhi band hai."
+          ],
+          "correctAnswer": "Ji haan, neeli qameez maujood hai.",
+          "translatedSentence": "Yes, we do have the blue shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ye laal rang mujhe pasand nahin, koi aur dikhaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like this red, please show me another one.",
+            "I do not like this red, please tell me the price.",
+            "I like this red, please show me another one."
+          ],
+          "correctAnswer": "I do not like this red, please show me another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Do rang maujood hain, aap kaun sa lena chahenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main peela wala loonga.",
+            "Main abhi sirf dekh raha hoon.",
+            "Mujhe dukaan ka pata maloom nahin."
+          ],
+          "correctAnswer": "Main peela wala loonga.",
+          "translatedSentence": "I will take the yellow one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kya ye chappal bhoore rang mein bhi milti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do these sandals come in brown as well?",
+            "Do these sandals come in black as well?",
+            "Are these brown sandals expensive?"
+          ],
+          "correctAnswer": "Do these sandals come in brown as well?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke paas suramai rang ki shawl hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, suramai shawl andar rakhi hai.",
+            "Ji nahin, ye shawl bahut garam hai.",
+            "Ji haan, shawl ki qeemat teen sau rupay hai."
+          ],
+          "correctAnswer": "Ji haan, suramai shawl andar rakhi hai.",
+          "translatedSentence": "Yes, the grey shawl is kept inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meherbani kar ke wo safaid topi dikhaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me that white cap.",
+            "Please show me that black cap.",
+            "Please give me that white cap."
+          ],
+          "correctAnswer": "Please show me that white cap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko baingani rang chahiye ya gulaabi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe baingani rang chahiye, shukriya.",
+            "Mujhe in dono rangon ki qeemat maloom nahin.",
+            "Gulaabi rang har saal mehnga ho jaata hai."
+          ],
+          "correctAnswer": "Mujhe baingani rang chahiye, shukriya.",
+          "translatedSentence": "I would like the purple one, thank you."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap shaadi mein kaun se rang ka jora pehnenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main sunehre kaam wala neela jora pehnunga.",
+            "Main shaadi mein thora der se pahunchunga.",
+            "Mujhe shaadi ka waqt abhi maloom nahin."
+          ],
+          "correctAnswer": "Main sunehre kaam wala neela jora pehnunga.",
+          "translatedSentence": "I will wear a blue outfit with golden work on it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid par mere bhai ne safaid kurta pehna tha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother wore a white kurta on Eid.",
+            "My brother wore a white kurta at the wedding.",
+            "My brother bought a white kurta on Eid."
+          ],
+          "correctAnswer": "My brother wore a white kurta on Eid."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum ne aaj kaun se rang ki qameez pehni hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main ne aaj aasmani qameez pehni hai.",
+            "Main ne aaj naashta nahin kiya.",
+            "Mujhe aaj bazaar bhi jaana hai."
+          ],
+          "correctAnswer": "Main ne aaj aasmani qameez pehni hai.",
+          "translatedSentence": "Today I am wearing a sky-blue shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaale rang ki shalwar har qameez ke saath achhi lagti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Black trousers look good with every shirt.",
+            "Black trousers look good with this shirt.",
+            "Black trousers cost more than every shirt."
+          ],
+          "correctAnswer": "Black trousers look good with every shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main is shaadi mein laal jora pehen sakti hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, laal rang shaadi ke liye bahut achha rehta hai.",
+            "Ji haan, ye shaadi Lucknow mein ho rahi hai.",
+            "Nahin, mujhe shaadi ka pata maloom nahin."
+          ],
+          "correctAnswer": "Ji haan, laal rang shaadi ke liye bahut achha rehta hai.",
+          "translatedSentence": "Yes, red is a very good colour for a wedding."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri ammi ne mujhe hara dupatta diya hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother has given me a green dupatta.",
+            "My mother has given me a green shawl.",
+            "My mother has bought a green dupatta."
+          ],
+          "correctAnswer": "My mother has given me a green dupatta."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya ye peela dupatta meri qameez ke saath achha lagega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, peela rang is qameez ke saath khoob jachta hai.",
+            "Ji haan, ye qameez ab kaafi purani ho gayi hai.",
+            "Nahin, ye dupatta abhi dhula nahin hai."
+          ],
+          "correctAnswer": "Ji haan, peela rang is qameez ke saath khoob jachta hai.",
+          "translatedSentence": "Yes, yellow goes really well with this shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mushaire ke liye main ne bhoori sherwani nikaali hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have taken out a brown sherwani for the poetry evening.",
+            "I have taken out a black sherwani for the poetry evening.",
+            "I have bought a brown sherwani for the poetry evening."
+          ],
+          "correctAnswer": "I have taken out a brown sherwani for the poetry evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bachchon ke school ki wardi kis rang ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wardi safaid qameez aur neeli pant hai.",
+            "School subah saat baje khul jaata hai.",
+            "Bachche school bus se ghar aate hain."
+          ],
+          "correctAnswer": "Wardi safaid qameez aur neeli pant hai.",
+          "translatedSentence": "The uniform is a white shirt and blue trousers."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours Around Us",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Baarish ke baad aasman kaisa lagta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baarish ke baad aasman bilkul saaf aur neela ho jaata hai.",
+            "Baarish ke baad sarak par bahut paani jama ho jaata hai.",
+            "Baarish ke baad mausam phir se garam ho jaata hai."
+          ],
+          "correctAnswer": "Baarish ke baad aasman bilkul saaf aur neela ho jaata hai.",
+          "translatedSentence": "After the rain the sky becomes completely clear and blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Karachi ke samandar ka paani sabz aur neela dikhta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sea water in Karachi looks green and blue.",
+            "The sea water in Karachi looks grey and blue.",
+            "The sky in Karachi looks green and blue."
+          ],
+          "correctAnswer": "The sea water in Karachi looks green and blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lucknow ke bagh mein kaun se phool khile hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bagh mein peele aur gulaabi phool khile hain.",
+            "Bagh mein log baith kar chai pi rahe hain.",
+            "Bagh shaam saat baje band ho jaata hai."
+          ],
+          "correctAnswer": "Bagh mein peele aur gulaabi phool khile hain.",
+          "translatedSentence": "Yellow and pink flowers have bloomed in the garden."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sardiyon mein Delhi ka aasman suramai rehta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter the sky over Delhi stays grey.",
+            "In winter the sky over Delhi stays blue.",
+            "In summer the sky over Delhi stays grey."
+          ],
+          "correctAnswer": "In winter the sky over Delhi stays grey."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hyderabad ki us purani imarat ka rang kaisa hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wo imarat halke bhoore patthar ki bani hui hai.",
+            "Wo imarat bahut purani aur mashhoor hai.",
+            "Us imarat mein ab bhi log rehte hain."
+          ],
+          "correctAnswer": "Wo imarat halke bhoore patthar ki bani hui hai.",
+          "translatedSentence": "That building is made of light brown stone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shaam ko suraj doobte waqt aasman narangi ho jaata hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the sky turns orange as the sun sets.",
+            "In the morning the sky turns orange as the sun rises.",
+            "In the evening the sky turns red as the sun sets."
+          ],
+          "correctAnswer": "In the evening the sky turns orange as the sun sets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ye nihari itni gehri bhoori kyun hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kyunki isay kai ghante halki aanch par pakaya jaata hai.",
+            "Kyunki nihari yahan naashte mein khaayi jaati hai.",
+            "Kyunki nihari ke saath garam naan bhi aata hai."
+          ],
+          "correctAnswer": "Kyunki isay kai ghante halki aanch par pakaya jaata hai.",
+          "translatedSentence": "Because it is cooked for hours on a low flame."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sheer khurma safaid hota hai aur us par sunehre mewe hote hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sheer khurma is white and has golden dry fruit on top.",
+            "Sheer khurma is white and has green dry fruit on top.",
+            "Sheer khurma is sweet and has golden dry fruit inside."
+          ],
+          "correctAnswer": "Sheer khurma is white and has golden dry fruit on top."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sardiyon mein darakhton ke patte kaise ho jaate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Un ke patte peele aur bhoore ho jaate hain.",
+            "Ye darakht bahut lambe ho jaate hain.",
+            "Sardiyon mein subah bahut thandi hoti hai."
+          ],
+          "correctAnswer": "Un ke patte peele aur bhoore ho jaate hain.",
+          "translatedSentence": "Their leaves turn yellow and brown."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek dupatta halka neela hai aur doosra gehra neela, aap ko kaun sa achha lagta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe gehra neela zyada achha lagta hai, kyunki wo shaam ke liye munasib hai.",
+            "Mujhe is dupatte ki qeemat maloom nahin, aap khud pooch lijiye.",
+            "Mujhe rang ka naam yaad nahin, lekin dupatta bahut khoobsurat hai."
+          ],
+          "correctAnswer": "Mujhe gehra neela zyada achha lagta hai, kyunki wo shaam ke liye munasib hai.",
+          "translatedSentence": "I like the dark blue more, because it is suitable for the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap ko gehra rang pasand nahin to hum halka aasmani dikha sakte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like the dark shade, we can show you a light sky blue.",
+            "If you like the dark shade, we can show you a light sky blue.",
+            "If you do not like the dark shade, we can show you a bright red."
+          ],
+          "correctAnswer": "If you do not like the dark shade, we can show you a light sky blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya ye laal rang mujh par jachta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, laal aap par khoob jachta hai, lekin gulaabi aur bhi behtar lagega.",
+            "Ji haan, laal rang ki qameez andar almari mein rakhi hai.",
+            "Maaf kijiye, mujhe is laal jore ki qeemat maloom nahin."
+          ],
+          "correctAnswer": "Ji haan, laal aap par khoob jachta hai, lekin gulaabi aur bhi behtar lagega.",
+          "translatedSentence": "Yes, red really suits you, but pink would look even better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ye kurta khoobsurat hai, lekin is ka rang meri shalwar se mail nahin khaata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This kurta is beautiful, but its colour does not match my trousers.",
+            "This kurta is beautiful, and its colour matches my trousers.",
+            "This kurta is expensive, but its colour matches my trousers."
+          ],
+          "correctAnswer": "This kurta is beautiful, but its colour does not match my trousers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap garmiyon mein kaale rang se kyun bachte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kyunki kaala rang dhoop mein zyada garmi kheenchta hai, is liye main safaid pehnta hoon.",
+            "Kyunki garmiyon mein main subah bahut jaldi uth jaata hoon.",
+            "Kyunki garmiyon mein bazaar der se khulte hain."
+          ],
+          "correctAnswer": "Kyunki kaala rang dhoop mein zyada garmi kheenchta hai, is liye main safaid pehnta hoon.",
+          "translatedSentence": "Because black draws more heat in the sun, so I wear white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri behen kehti hai ke halka gulaabi mujh par gehre gulaabi se behtar lagta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister says that light pink suits me better than dark pink.",
+            "My sister says that dark pink suits me better than light pink.",
+            "My sister thinks that light pink is cheaper than dark pink."
+          ],
+          "correctAnswer": "My sister says that light pink suits me better than dark pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agar dono rang achhe hain to main kaun sa loon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aap sunehra le lijiye, kyunki wo shaadi aur Eid dono ke liye chalega.",
+            "Aap das baje ke baad aaiye, us waqt dukaan mein bheed kam hoti hai.",
+            "Mujhe in dono rangon ke naam theek se maloom nahin hain."
+          ],
+          "correctAnswer": "Aap sunehra le lijiye, kyunki wo shaadi aur Eid dono ke liye chalega.",
+          "translatedSentence": "Take the golden one, because it will work for both a wedding and Eid."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pehle mujhe gehre rang pasand thay, lekin ab main halke rang pehenta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to like dark colours, but now I wear light ones.",
+            "I used to like light colours, but now I wear dark ones.",
+            "I like dark colours, but I never wear light ones."
+          ],
+          "correctAnswer": "I used to like dark colours, but now I wear light ones."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ke khayal mein mushaire ke liye kaun sa rang munasib rahega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere khayal mein safaid ya halka kareemi rang sab se munasib rahega.",
+            "Mere khayal mein mushaira raat gyarah baje shuru hoga.",
+            "Mujhe mushaire ki jagah ka pata abhi tak maloom nahin hai."
+          ],
+          "correctAnswer": "Mere khayal mein safaid ya halka kareemi rang sab se munasib rahega.",
+          "translatedSentence": "In my opinion white or a light cream would be the most suitable."
+        }
+      ]
+    }
+  ]
+}

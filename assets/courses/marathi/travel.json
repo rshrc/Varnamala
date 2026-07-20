@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Bus, Train and Station",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kuthe jaat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi station la jaat aahe.",
+            "Mi ghari basalo aahe.",
+            "Mi roj chaha pito."
+          ],
+          "correctAnswer": "Mi station la jaat aahe.",
+          "translatedSentence": "I am going to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Station ithun jawal aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The station is near here.",
+            "The station is very far from here.",
+            "The bus stop is near here."
+          ],
+          "correctAnswer": "The station is near here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi bus ne jata ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mi roj bus ne jato.",
+            "Nahi, mala khup bhook lagli aahe.",
+            "Hoy, mala cutting chai aavadto."
+          ],
+          "correctAnswer": "Hoy, mi roj bus ne jato.",
+          "translatedSentence": "Yes, I go by bus every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi train ne Pune la jato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to Pune by train.",
+            "I go to Pune by bus.",
+            "I come to Pune by train."
+          ],
+          "correctAnswer": "I go to Pune by train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus kuthe thambte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti samorchya kopryavar thambte.",
+            "Ti sakali daha vajta yete.",
+            "Ti bus khup mothi aahe."
+          ],
+          "correctAnswer": "Ti samorchya kopryavar thambte.",
+          "translatedSentence": "It stops at the corner in front."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha local train aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is this the local train?",
+            "Is this the bus to Pune?",
+            "Where is the local train?"
+          ],
+          "correctAnswer": "Is this the local train?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi Mumbai la kadhi jaat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi udya sakali jaat aahe.",
+            "Mi Nagpur madhe rahato.",
+            "Mi bus ne jaat aahe."
+          ],
+          "correctAnswer": "Mi udya sakali jaat aahe.",
+          "translatedSentence": "I am going tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala station la jayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to go to the station.",
+            "I want to go home now.",
+            "I am waiting at the station."
+          ],
+          "correctAnswer": "I want to go to the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train atta aali ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ti ajun aali nahi.",
+            "Hoy, mi train ne jato.",
+            "Hoy, station ithun jawal aahe."
+          ],
+          "correctAnswer": "Nahi, ti ajun aali nahi.",
+          "translatedSentence": "No, it has not come yet."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti tikit pahijet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala don tikit pahijet.",
+            "Mala tya train baddal mahit nahi.",
+            "Mala train ne pravas aavadto."
+          ],
+          "correctAnswer": "Mala don tikit pahijet.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pune sathi ek tikit dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me one ticket to Pune.",
+            "Please give me two tickets to Pune.",
+            "How much is a ticket to Pune?"
+          ],
+          "correctAnswer": "Please give me one ticket to Pune."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekun kiti paise zale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekun don she rupaye zale.",
+            "Ekun tin train aahet.",
+            "Sakali aath vajta nighel."
+          ],
+          "correctAnswer": "Ekun don she rupaye zale.",
+          "translatedSentence": "It comes to two hundred rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pudhchi train kiti vajta aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What time is the next train?",
+            "What time is the last train?",
+            "Where does the next train stop?"
+          ],
+          "correctAnswer": "What time is the next train?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tikit counter kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To tikde ujvikade aahe.",
+            "To sakali sat vajta ughadto.",
+            "Mala don tikit pahije hote."
+          ],
+          "correctAnswer": "To tikde ujvikade aahe.",
+          "translatedSentence": "It is over there on the right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train sakali nau vajta sutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train leaves at nine in the morning.",
+            "The train arrives at nine in the morning.",
+            "The train leaves at nine at night."
+          ],
+          "correctAnswer": "The train leaves at nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala khidki jawal jaga pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mala khidki jawal basayche aahe.",
+            "Nahi, mi udya sakali jaat aahe.",
+            "Hoy, tikit counter tikde aahe."
+          ],
+          "correctAnswer": "Hoy, mala khidki jawal basayche aahe.",
+          "translatedSentence": "Yes, I would like to sit by the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha tikit udya sathi chalel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will this ticket work for tomorrow?",
+            "Is this ticket only for today?",
+            "How much does this ticket cost?"
+          ],
+          "correctAnswer": "Will this ticket work for tomorrow?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tikit sathi raang kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti davikade aahe.",
+            "Ti train khup mahag aahe.",
+            "Ti sandhyakali daha vajta sutte."
+          ],
+          "correctAnswer": "Ti davikade aahe.",
+          "translatedSentence": "It is on the left."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kara, station la kase jayche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saral jaa ani mag ujvikade vala.",
+            "Tithe sakali khup gardi aste.",
+            "Mi pan tya bus ne jato."
+          ],
+          "correctAnswer": "Saral jaa ani mag ujvikade vala.",
+          "translatedSentence": "Go straight and then turn right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He hotel ithun kiti lamb aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How far is this hotel from here?",
+            "How far is the station from here?",
+            "Which road is this hotel on?"
+          ],
+          "correctAnswer": "How far is this hotel from here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha rasta bus stand kade jato ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, to pudhe daha minitanvar aahe.",
+            "Nahi, mala bus ne jayla aavadat nahi.",
+            "Hoy, mi kaal tikit ghetle aahe."
+          ],
+          "correctAnswer": "Hoy, to pudhe daha minitanvar aahe.",
+          "translatedSentence": "Yes, it is ten minutes ahead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Davikade valun pudhe chalat jaa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn left and keep walking ahead.",
+            "Turn right and keep walking ahead.",
+            "Turn left and then stop there."
+          ],
+          "correctAnswer": "Turn left and keep walking ahead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithe jawal medical dukan aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, kopryavar ek aahe.",
+            "Nahi, te dukan khup mothe aahe.",
+            "Hoy, mi tya rastyavar rahato."
+          ],
+          "correctAnswer": "Hoy, kopryavar ek aahe.",
+          "translatedSentence": "Yes, there is one at the corner."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ha rasta mahit nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this road.",
+            "I know this road well.",
+            "This road is not a good one."
+          ],
+          "correctAnswer": "I do not know this road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tithe chalat jaata yeil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, fakt pandhra minit lagtat.",
+            "Nahi, tithe don dukane aahet.",
+            "Hoy, auto stand tikde aahe."
+          ],
+          "correctAnswer": "Hoy, fakt pandhra minit lagtat.",
+          "translatedSentence": "Yes, it only takes fifteen minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Signal jawal ujvikade vala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn right at the signal.",
+            "Turn left at the signal.",
+            "Stop just before the signal."
+          ],
+          "correctAnswer": "Turn right at the signal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithun museum la jayla kiti vel lagto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalat gelat tar vees minit lagtat.",
+            "Te sakali daha vajta ughadte.",
+            "Tithle tikit shambhar rupaye aahe."
+          ],
+          "correctAnswer": "Chalat gelat tar vees minit lagtat.",
+          "translatedSentence": "If you walk, it takes twenty minutes."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dadar la yal ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mi meter pramane yeto.",
+            "Nahi, mi tikde rahat nahi.",
+            "Hoy, station ithun daha minitanvar aahe."
+          ],
+          "correctAnswer": "Hoy, mi meter pramane yeto.",
+          "translatedSentence": "Yes, I will come by the meter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Krupaya meter chalu kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please switch on the meter.",
+            "Please switch off the meter.",
+            "Please tell me the fare."
+          ],
+          "correctAnswer": "Please switch on the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithe jayche kiti bhade hote?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekun sattar rupaye hotat.",
+            "Auto samor thambli aahe.",
+            "Mala tya bhagatla rasta mahit nahi."
+          ],
+          "correctAnswer": "Ekun sattar rupaye hotat.",
+          "translatedSentence": "It comes to seventy rupees in all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithech thamba, mala ithe utarayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Stop right here, I want to get off here.",
+            "Go a little further, I will get off there.",
+            "Wait right here, I will come back soon."
+          ],
+          "correctAnswer": "Stop right here, I want to get off here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi jara halu chalvaal ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mi halu chalvato.",
+            "Nahi, hi gadi navin aahe.",
+            "Hoy, bhade shambhar rupaye hoil."
+          ],
+          "correctAnswer": "Hoy, mi halu chalvato.",
+          "translatedSentence": "Yes, I will drive slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Auto walyane jaasta paise magitle.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The auto driver asked for too much money.",
+            "The auto driver gave me back my change.",
+            "The auto driver did not know the road."
+          ],
+          "correctAnswer": "The auto driver asked for too much money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchya kade sutte paise aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, majhya kade sutte nahit.",
+            "Hoy, mala aankhi paise pahijet.",
+            "Nahi, mi taxi ne aalo aahe."
+          ],
+          "correctAnswer": "Nahi, majhya kade sutte nahit.",
+          "translatedSentence": "No, I do not have any change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Taxi peksha auto swast aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "An auto is cheaper than a taxi.",
+            "A taxi is cheaper than an auto.",
+            "An auto is faster than a taxi."
+          ],
+          "correctAnswer": "An auto is cheaper than a taxi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Traffic mule ushir hoil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, pan mi dusrya rastyane gheto.",
+            "Hoy, mi roj ya rastyane jato.",
+            "Nahi, meter atta band aahe."
+          ],
+          "correctAnswer": "Hoy, pan mi dusrya rastyane gheto.",
+          "translatedSentence": "Yes, but I will take another road."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking Into a Room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj ratri sathi kholi aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, ek kholi rikami aahe.",
+            "Hoy, jevan tayaar aahe.",
+            "Nahi, mi ithe rahat nahi."
+          ],
+          "correctAnswer": "Hoy, ek kholi rikami aahe.",
+          "translatedSentence": "Yes, one room is free."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek ratricha kiti kharch aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does one night cost?",
+            "How many nights will you stay?",
+            "How much does breakfast cost?"
+          ],
+          "correctAnswer": "How much does one night cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kiti divas rahnar aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi tin divas rahnar aahe.",
+            "Mi udya station la jaat aahe.",
+            "Mi tumchi kholi baghitli aahe."
+          ],
+          "correctAnswer": "Mi tin divas rahnar aahe.",
+          "translatedSentence": "I am going to stay for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kholi madhe garam pani yete ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Does the room have hot water?",
+            "Is there a fan in the room?",
+            "Does the room have a big window?"
+          ],
+          "correctAnswer": "Does the room have hot water?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nashta kiti vajta milto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sakali sat te daha paryant milto.",
+            "To pahilya majlyavar milto.",
+            "Mala aaj nashta nako aahe."
+          ],
+          "correctAnswer": "Sakali sat te daha paryant milto.",
+          "translatedSentence": "It is served from seven until ten in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majhi kholi tisrya majlyavar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My room is on the third floor.",
+            "My room is on the second floor.",
+            "My room is next to the stairs."
+          ],
+          "correctAnswer": "My room is on the third floor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Wifi cha password kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To reception var lihila aahe.",
+            "Ti kholi aaj band aahe.",
+            "Mala tumche naav mahit nahi."
+          ],
+          "correctAnswer": "To reception var lihila aahe.",
+          "translatedSentence": "It is written up at the reception."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "AC chalat nahi, krupaya konala tari pathva.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The AC is not working, please send someone.",
+            "The AC is working now, please do not send anyone.",
+            "The light is not working, please send someone."
+          ],
+          "correctAnswer": "The AC is not working, please send someone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala aankhi kahi madat pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mala aankhi ek chaadar pahije.",
+            "Hoy, mi udya sakali nighnar aahe.",
+            "Nahi, hi kholi khup mothi aahe."
+          ],
+          "correctAnswer": "Hoy, mala aankhi ek chaadar pahije.",
+          "translatedSentence": "Yes, I need one more blanket."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train ushira aahe, tar aapan kay karayche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aapan cutting chai gheu ani thodi vaat baghu.",
+            "Aapan atta train madhe basun nighu.",
+            "Aapan udya sakali station la jau."
+          ],
+          "correctAnswer": "Aapan cutting chai gheu ani thodi vaat baghu.",
+          "translatedSentence": "Let's get a cutting chai and wait a while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majhi bag train madhech rahili, mala kay karayla have?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag was left behind on the train, what should I do?",
+            "My bag is here with me on the train, what should I do?",
+            "I left my ticket on the train, what should I do?"
+          ],
+          "correctAnswer": "My bag was left behind on the train, what should I do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchi bag kashi diste?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti nili aahe ani tyavar majhe naav lihile aahe.",
+            "Ti mi kaal Pune station var kharedi keli.",
+            "Ti mala khup aavadte kaaran ti navin aahe."
+          ],
+          "correctAnswer": "Ti nili aahe ani tyavar majhe naav lihile aahe.",
+          "translatedSentence": "It is blue and my name is written on it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar train aankhi ushira zali, tar mi bus ne jain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the train gets any later, I will go by bus.",
+            "If the train comes on time, I will go by bus.",
+            "Because the train was late, I went by bus."
+          ],
+          "correctAnswer": "If the train gets any later, I will go by bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi takrar nondavli ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mi kaal sandhyakali office madhe nondavli.",
+            "Nahi, mi ajun udyache tikit kadhle nahi.",
+            "Hoy, mi bag kholi madhech thevli aahe."
+          ],
+          "correctAnswer": "Hoy, mi kaal sandhyakali office madhe nondavli.",
+          "translatedSentence": "Yes, I filed it at the office yesterday evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ushir zala kaaran rasta band hota.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was late because the road was closed.",
+            "I was late even though the road was open.",
+            "I reached on time because the road was empty."
+          ],
+          "correctAnswer": "I was late because the road was closed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi tumchi kahi madat karu shakto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, mala thodi madat pahije kaaran mala ithli bhasha yet nahi.",
+            "Nahi, mi udya sakali Nagpur la jaanar aahe.",
+            "Hoy, mala ithla vada pav khup aavadto."
+          ],
+          "correctAnswer": "Hoy, mala thodi madat pahije kaaran mala ithli bhasha yet nahi.",
+          "translatedSentence": "Yes, I need some help because I do not speak the language here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar tumhala majhi bag sapadli, tar mala phone kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you find my bag, please call me.",
+            "If you cannot find my bag, please do not call me.",
+            "When I find your bag, I will call you."
+          ],
+          "correctAnswer": "If you find my bag, please call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udyachi train nakki sutel na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, havaman changle asel tar ti nakki sutel.",
+            "Nahi, mi udya sakali tikit kadhnar aahe.",
+            "Hoy, mi kaal station var majhi bag visarlo hoto."
+          ],
+          "correctAnswer": "Hoy, havaman changle asel tar ti nakki sutel.",
+          "translatedSentence": "Yes, if the weather is good it will definitely leave."
+        }
+      ]
+    }
+  ]
+}

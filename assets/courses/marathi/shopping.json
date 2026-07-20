@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He kiti la aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He pannas rupayala aahe.",
+            "He atta sampat aale aahe.",
+            "He mala pan mahit nahi."
+          ],
+          "correctAnswer": "He pannas rupayala aahe.",
+          "translatedSentence": "This one is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha aamba khup mahag aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This mango is very expensive.",
+            "This mango is very sweet.",
+            "This mango is fairly cheap."
+          ],
+          "correctAnswer": "This mango is very expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yacha bhav kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vees rupaye kilo aahe.",
+            "Ha bhav khup changla aahe.",
+            "Bhav dukandar sangel."
+          ],
+          "correctAnswer": "Vees rupaye kilo aahe.",
+          "translatedSentence": "It is twenty rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha shirt kiti rupayacha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this shirt cost?",
+            "Where can I find this shirt?",
+            "Is this shirt new?"
+          ],
+          "correctAnswer": "How much does this shirt cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kay pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala don kilo kanda pahije.",
+            "Mala tumche dukan aavadte.",
+            "Mala ithla bhav mahit nahi."
+          ],
+          "correctAnswer": "Mala don kilo kanda pahije.",
+          "translatedSentence": "I want two kilos of onions."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He khup swast aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very cheap.",
+            "This is very heavy.",
+            "This is not available."
+          ],
+          "correctAnswer": "This is very cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He mahag aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, he swast aahe.",
+            "Ho, he khup taaje aahe.",
+            "Nahi, he ithe milat nahi."
+          ],
+          "correctAnswer": "Nahi, he swast aahe.",
+          "translatedSentence": "No, this is cheap."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithe cutting chai kiti la milte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is a cutting chai here?",
+            "Where do they make cutting chai here?",
+            "Do you drink cutting chai here?"
+          ],
+          "correctAnswer": "How much is a cutting chai here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha vada pav kiti la aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha pandhra rupayala aahe.",
+            "Ha khup garam aahe.",
+            "Ha aaj sampla aahe."
+          ],
+          "correctAnswer": "Ha pandhra rupayala aahe.",
+          "translatedSentence": "This one is fifteen rupees."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bola, kay dau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala ek kilo tomato dya.",
+            "Mala tumche dukan aavadle.",
+            "Mala tumcha bhav mahit nahi."
+          ],
+          "correctAnswer": "Mala ek kilo tomato dya.",
+          "translatedSentence": "Give me one kilo of tomatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumchyakade taaji bhaji aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have fresh vegetables?",
+            "Are these vegetables expensive?",
+            "Do you sell fruit as well?"
+          ],
+          "correctAnswer": "Do you have fresh vegetables?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala aankhi kahi pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala thodi kothimbir dya.",
+            "Nahi, mala kothimbir aavadat nahi.",
+            "Ho, mala aaj vel nahi."
+          ],
+          "correctAnswer": "Ho, mala thodi kothimbir dya.",
+          "translatedSentence": "Yes, give me a little coriander."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ardha kilo saakhar pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need half a kilo of sugar.",
+            "I need half a kilo of salt.",
+            "I need two kilos of sugar."
+          ],
+          "correctAnswer": "I need half a kilo of sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchyakade dudh aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, aahe. Kiti packet pahijet?",
+            "Nahi, mi dudh pit nahi.",
+            "Ho, dudh khup changle aahe."
+          ],
+          "correctAnswer": "Ho, aahe. Kiti packet pahijet?",
+          "translatedSentence": "Yes, we do. How many packets would you like?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala paav kilo mirchi dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a quarter kilo of chillies.",
+            "Give me a quarter kilo of ginger.",
+            "Give me half a kilo of chillies."
+          ],
+          "correctAnswer": "Give me a quarter kilo of chillies."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kande sampale aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barr, mag mala batate dya.",
+            "Barr, kande khup changle aahet.",
+            "Barr, kande kuthe thevle aahet?"
+          ],
+          "correctAnswer": "Barr, mag mala batate dya.",
+          "translatedSentence": "Alright, then give me potatoes instead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He tandul changle aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is this rice any good?",
+            "Is this wheat any good?",
+            "Is this rice expensive?"
+          ],
+          "correctAnswer": "Is this rice any good?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kay shodhat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala chaha patti pahije aahe.",
+            "Mi ek changle dukan shodhat aahe.",
+            "Mala ithla rasta mahit nahi."
+          ],
+          "correctAnswer": "Mala chaha patti pahije aahe.",
+          "translatedSentence": "I am looking for tea leaves."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Too expensive, reduce it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Don she rupaye lagtil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khup mahag aahe, thoda kami kara.",
+            "Khup swast aahe, mala don dya.",
+            "Barr, mala don she rupaye dya."
+          ],
+          "correctAnswer": "Khup mahag aahe, thoda kami kara.",
+          "translatedSentence": "That is too expensive, bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekshe pannas la dyal ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you give it for a hundred and fifty?",
+            "Will you give it for a hundred and fifteen?",
+            "Will you give me two for a hundred and fifty?"
+          ],
+          "correctAnswer": "Will you give it for a hundred and fifty?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thoda kami kara na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ha shevatcha bhav aahe.",
+            "Nahi, ha bhav khup jasta aahe.",
+            "Ho, mi tumhala pishvi deto."
+          ],
+          "correctAnswer": "Nahi, ha shevatcha bhav aahe.",
+          "translatedSentence": "No, this is my final price."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shejarchya dukanat he swast milte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is cheaper in the shop next door.",
+            "They also sell this in the shop next door.",
+            "The shop next door is cheaper than this one."
+          ],
+          "correctAnswer": "This is cheaper in the shop next door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mag tumhi kiti dyal?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi shambhar rupaye deto.",
+            "Mi shambhar rupaye kami karto.",
+            "Mi tumhala udya paise deto."
+          ],
+          "correctAnswer": "Mi shambhar rupaye deto.",
+          "translatedSentence": "I will give you a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi don ghenar aahe, mhanun bhav thoda kami kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am buying two, so bring the price down a little.",
+            "I am buying two, so give me a bag as well.",
+            "If I buy two, will you make it a little cheaper?"
+          ],
+          "correctAnswer": "I am buying two, so bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha bhav khup jasta aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barr, tumhala dahaa rupaye kami karto.",
+            "Barr, tumhala dahaa rupaye parat deto.",
+            "Barr, ha bhav ithe sagalyat kami aahe."
+          ],
+          "correctAnswer": "Barr, tumhala dahaa rupaye kami karto.",
+          "translatedSentence": "Alright, I will take ten rupees off for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Evdhya paishat mala he parvadnar nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot afford this at that price.",
+            "I do not need this at any price.",
+            "I will not find this at a lower price."
+          ],
+          "correctAnswer": "I cannot afford this at that price."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shevatcha bhav sanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekshe visa, tyahun kami nahi.",
+            "Ekshe visa rupaye jasta zale.",
+            "Mala shevatcha bhav mahit nahi."
+          ],
+          "correctAnswer": "Ekshe visa, tyahun kami nahi.",
+          "translatedSentence": "A hundred and twenty, not a rupee less."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes, weights and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala konta size pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala mothya size cha shirt pahije.",
+            "Mala ha rang aavadat nahi.",
+            "Mala ha shirt kuthe milel?"
+          ],
+          "correctAnswer": "Mala mothya size cha shirt pahije.",
+          "translatedSentence": "I need this shirt in a large size."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala ek kilo nako, ardha kilo dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want a whole kilo, give me half a kilo.",
+            "I do not want half a kilo, give me a whole kilo.",
+            "Half a kilo is not enough, give me two kilos."
+          ],
+          "correctAnswer": "I do not want a whole kilo, give me half a kilo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hi chappal tumhala barobar hote ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, hi thodi lahan aahe.",
+            "Nahi, hi thodi mahag aahe.",
+            "Ho, hi mi kal ghetli hoti."
+          ],
+          "correctAnswer": "Nahi, hi thodi lahan aahe.",
+          "translatedSentence": "No, this one is a little small for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala paav kilo shengdane ani don kilo kanda dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a quarter kilo of peanuts and two kilos of onions.",
+            "Give me half a kilo of peanuts and one kilo of onions.",
+            "Give me a quarter kilo of onions and two kilos of peanuts."
+          ],
+          "correctAnswer": "Give me a quarter kilo of peanuts and two kilos of onions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kiti packet pahijet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fakt don packet dya.",
+            "Fakt don rupaye kami kara.",
+            "Packet khup mothe aahet."
+          ],
+          "correctAnswer": "Fakt don packet dya.",
+          "translatedSentence": "Just two packets, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha shirt thoda motha aahe, lahan number aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is a bit big, do you have a smaller size?",
+            "This shirt is a bit small, do you have a bigger size?",
+            "This shirt is too big for me, I do not want it."
+          ],
+          "correctAnswer": "This shirt is a bit big, do you have a smaller size?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aambe kilo ne ghenar ki dozen ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala ek dozen aambe dya.",
+            "Mala aambe khup aavadtat.",
+            "Aambe aata khup mahag zale aahet."
+          ],
+          "correctAnswer": "Mala ek dozen aambe dya.",
+          "translatedSentence": "Give me a dozen mangoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Evdhe purese aahet, aankhi nakot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This much is enough, I do not want any more.",
+            "This much is not enough, please add some more.",
+            "This is far too little, give me a lot more."
+          ],
+          "correctAnswer": "This much is enough, I do not want any more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti meter kapad pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala teen meter kapad dya.",
+            "Mala kapdyacha bhav sanga.",
+            "Mala hyahun changle kapad dakhva."
+          ],
+          "correctAnswer": "Mala teen meter kapad dya.",
+          "translatedSentence": "Give me three metres of cloth."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekun kiti zale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekun teen she rupaye zale.",
+            "Ekun teen packet zale.",
+            "Ekun bhav kami zala."
+          ],
+          "correctAnswer": "Ekun teen she rupaye zale.",
+          "translatedSentence": "It comes to three hundred rupees in all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majhyakade sutte paise nahit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any change on me.",
+            "I do not have enough money on me.",
+            "I have not brought my wallet."
+          ],
+          "correctAnswer": "I do not have any change on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi cash denar ki UPI karnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi UPI karto, QR code dakhva.",
+            "Mi paise udya deto, chalel ka?",
+            "Mi ekshe pannas rupaye kami karto."
+          ],
+          "correctAnswer": "Mi UPI karto, QR code dakhva.",
+          "translatedSentence": "I will pay by UPI, show me the QR code."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pachshe rupayache sutte hotil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you have change for five hundred rupees?",
+            "Do you have five hundred rupees on you?",
+            "Can you make it five hundred rupees?"
+          ],
+          "correctAnswer": "Will you have change for five hundred rupees?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala pishvi pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ek mothi pishvi dya.",
+            "Ho, mala pishvichi kimmat sanga.",
+            "Nahi, majhyakade paise nahit."
+          ],
+          "correctAnswer": "Ho, ek mothi pishvi dya.",
+          "translatedSentence": "Yes, give me one big bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pishvisathi dahaa rupaye jasta lagtil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bag will cost ten rupees extra.",
+            "The bag costs only ten rupees here.",
+            "There are ten rupees left over for the bag."
+          ],
+          "correctAnswer": "The bag will cost ten rupees extra."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He ghya, tumche vees rupaye parat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, pavti pan dya.",
+            "Dhanyavaad, vees rupaye kami kara.",
+            "Dhanyavaad, mi udya parat yeto."
+          ],
+          "correctAnswer": "Dhanyavaad, pavti pan dya.",
+          "translatedSentence": "Thank you, please give me the receipt as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi card ne paise deu ka, ki cash chalel?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Should I pay by card, or will cash do?",
+            "Do you take cards here, or only cash?",
+            "I will pay by card because I have no cash."
+          ],
+          "correctAnswer": "Should I pay by card, or will cash do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sutte nasel tar udya dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalel, mi roj ithun jaat asto.",
+            "Chalel, mi udya pishvi parat karto.",
+            "Chalel, mala sutte paise aavadat nahit."
+          ],
+          "correctAnswer": "Chalel, mi roj ithun jaat asto.",
+          "translatedSentence": "That works, I pass by here every day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and comparing shops",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha shirt parat karaycha aahe, kaaran to mala lahan hoto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pavti asel tar mi lagech badlun deto.",
+            "Pavti asel tar mi tumhala pishvi deto.",
+            "Shirt lahan asel tar mothya size cha bhav jasta aahe."
+          ],
+          "correctAnswer": "Pavti asel tar mi lagech badlun deto.",
+          "translatedSentence": "If you have the receipt, I will exchange it right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal ghetlela sabun kharab nighala, mhanun mi parat aalo aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The soap I bought yesterday turned out to be bad, so I have come back.",
+            "The soap I bought yesterday was too expensive, so I have come back.",
+            "I forgot to buy soap yesterday, so I have come back today."
+          ],
+          "correctAnswer": "The soap I bought yesterday turned out to be bad, so I have come back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala paise parat pahijet ki doosri vastu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paise nakot, tyach kimmatiche doosre packet dya.",
+            "Vastu nako, mala fakt pavti parat dya.",
+            "Paise pahijet, pan mi udya parat yeto."
+          ],
+          "correctAnswer": "Paise nakot, tyach kimmatiche doosre packet dya.",
+          "translatedSentence": "I do not want a refund, just give me another packet of the same price."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar he saat divsat kharab zale, tar mi parat yein.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If this goes bad within seven days, I will come back.",
+            "If this is not ready within seven days, I will come back.",
+            "This will go bad in seven days, so I will come back sooner."
+          ],
+          "correctAnswer": "If this goes bad within seven days, I will come back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Punyat he swast milte, mag ithe evdhe mahag ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithe dukanache bhade jasta aahe, mhanun bhav thoda jasta aahe.",
+            "Ithe grahak jasta aahet, mhanun dukan lavkar bandh hote.",
+            "Punyat mi kadhich gelo nahi, mhanun mala mahit nahi."
+          ],
+          "correctAnswer": "Ithe dukanache bhade jasta aahe, mhanun bhav thoda jasta aahe.",
+          "translatedSentence": "The rent here is higher, so the prices are a little higher too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi don dukanat bhav vicharla, pan tumcha bhav sagalyat kami aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I asked the price at two shops, but yours is the lowest.",
+            "I asked the price at two shops, but yours is the highest.",
+            "I went to two shops, but neither of them had it."
+          ],
+          "correctAnswer": "I asked the price at two shops, but yours is the lowest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi ekda tapasun ghya, nantar takrar chalnar nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barr, mi attach ughadun baghto.",
+            "Barr, mi udya takrar karto.",
+            "Barr, mi paise nantar deto."
+          ],
+          "correctAnswer": "Barr, mi attach ughadun baghto.",
+          "translatedSentence": "Alright, I will open it and check right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tya dukanat saman swast aahe, pan tumchi seva changli aahe, mhanun mi ithech yeto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Things are cheaper in that shop, but your service is good, so I keep coming here.",
+            "Things are cheaper in that shop, so from now on I will go there instead.",
+            "Your service is good, but your goods are cheaper than that shop."
+          ],
+          "correctAnswer": "Things are cheaper in that shop, but your service is good, so I keep coming here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pavti baghitli tar tumhi mala pannas rupaye jasta laavle aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kara, majhi chuk zali, mi lagech paise parat deto.",
+            "Maaf kara, pavti harvli tar paise parat milat nahit.",
+            "Maaf kara, pannas rupaye pishvisathi jasta laagle aahet."
+          ],
+          "correctAnswer": "Maaf kara, majhi chuk zali, mi lagech paise parat deto.",
+          "translatedSentence": "I am sorry, that was my mistake, I will return the money right away."
+        }
+      ]
+    }
+  ]
+}

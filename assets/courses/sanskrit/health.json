@@ -1,0 +1,720 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying it hurts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya katham asti bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham asvasthah asmi.",
+            "aham samyak asmi, dhanyavaadah.",
+            "mama maataa api samyak asti."
+          ],
+          "correctAnswer": "aham asvasthah asmi.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama shirasi vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "My head feels heavy."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavatah shirasi adhikaa vedanaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, adya bahu vedanaa asti.",
+            "na, adya samyak asti.",
+            "na, mama udare vedanaa asti."
+          ],
+          "correctAnswer": "aam, adya bahu vedanaa asti.",
+          "translatedSentence": "Yes, it hurts a lot today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya asvasthaa asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am unwell today.",
+            "I was unwell yesterday.",
+            "She is unwell today."
+          ],
+          "correctAnswer": "I am unwell today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mitra, tava kim jaatam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama kanthe vedanaa asti.",
+            "mama bhaginii adya aagacchati.",
+            "mama pustakam grhe asti."
+          ],
+          "correctAnswer": "mama kanthe vedanaa asti.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama udare vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a stomach ache.",
+            "I have a toothache.",
+            "My stomach is full."
+          ],
+          "correctAnswer": "I have a stomach ache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavati adya asvasthaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, adya aham samyak asmi.",
+            "aam, mama shirasi vedanaa asti.",
+            "aam, mama maataa asvasthaa asti."
+          ],
+          "correctAnswer": "na, adya aham samyak asmi.",
+          "translatedSentence": "No, I am fine today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama dante vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a toothache.",
+            "I have an earache.",
+            "My tooth is broken."
+          ],
+          "correctAnswer": "I have a toothache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya adya eva vaidyam pashyatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham saayam gacchaami.",
+            "na, mama vedanaa na asti.",
+            "aam, aham aushadham svikaromi."
+          ],
+          "correctAnswer": "aam, aham saayam gacchaami.",
+          "translatedSentence": "Yes, I will go in the evening."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kutra vedanaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama paade vedanaa asti.",
+            "mama karne alpaa vedanaa asti.",
+            "mama kutra api vedanaa na asti."
+          ],
+          "correctAnswer": "mama paade vedanaa asti.",
+          "translatedSentence": "My leg hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama haste vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My hand hurts.",
+            "My leg hurts.",
+            "My hand is broken."
+          ],
+          "correctAnswer": "My hand hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim tava karne vedanaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, vaama-karne vedanaa asti.",
+            "na, mama kanthe vedanaa asti.",
+            "aam, mama dakshina-haste vedanaa asti."
+          ],
+          "correctAnswer": "aam, vaama-karne vedanaa asti.",
+          "translatedSentence": "Yes, my left ear hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eshah mama dakshinah hastah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my right hand.",
+            "This is my left hand.",
+            "This is my right leg."
+          ],
+          "correctAnswer": "This is my right hand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama prshthe adhikaa vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My back hurts a lot.",
+            "My back hurts a little.",
+            "My shoulder hurts a lot."
+          ],
+          "correctAnswer": "My back hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tava jaanuni vedanaa asti kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham samyak gantum na shaknomi.",
+            "na, mama skandhe vedanaa asti.",
+            "aam, kintu adya alpaa vedanaa asti."
+          ],
+          "correctAnswer": "aam, aham samyak gantum na shaknomi.",
+          "translatedSentence": "Yes, I cannot walk properly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama naasikaayaam jalam aagacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My nose is running.",
+            "My eyes are watering.",
+            "My throat is dry."
+          ],
+          "correctAnswer": "My nose is running."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kutra vedanaa asti iti krpaya vadatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "atra, mama udare vedanaa asti.",
+            "krpaya aushadham dadaatu.",
+            "aham chikitsaalayam gacchaami."
+          ],
+          "correctAnswer": "atra, mama udare vedanaa asti.",
+          "translatedSentence": "Here, my stomach hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama skandhe api vedanaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shoulder hurts as well.",
+            "My knee hurts as well.",
+            "My shoulder does not hurt."
+          ],
+          "correctAnswer": "My shoulder hurts as well."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, bhavatah kaa samasyaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dinatrayaat aarabhya mama jvarah asti.",
+            "mama putrah adya vidyaalayam na gacchati.",
+            "aham pratidinam vyaayaamam karomi."
+          ],
+          "correctAnswer": "dinatrayaat aarabhya mama jvarah asti.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kadaa aarabhya bhavatah shirasi vedanaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since when have you had a headache?",
+            "Where exactly does your head hurt?",
+            "How often do you get a headache?"
+          ],
+          "correctAnswer": "Since when have you had a headache?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavatah kshudhaa bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, dinadvayaat aarabhya aham samyak na khaadaami.",
+            "aam, kintu bhojanaat anantaram vedanaa vardhate.",
+            "na, aham kevalam jalam pibaami."
+          ],
+          "correctAnswer": "na, dinadvayaat aarabhya aham samyak na khaadaami.",
+          "translatedSentence": "No, I have not been eating properly for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham raatrau samyak na svapimi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not sleep well at night.",
+            "I do not eat well at night.",
+            "I go to sleep early at night."
+          ],
+          "correctAnswer": "I do not sleep well at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "raatrau api jvarah asti kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, raatrau jvarah vardhate.",
+            "na, raatrau kaasah eva adhikah bhavati.",
+            "aam, kintu praatah jvarah na asti."
+          ],
+          "correctAnswer": "aam, raatrau jvarah vardhate.",
+          "translatedSentence": "Yes, the fever rises at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vaidyah mama kantham pashyati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor is examining my throat.",
+            "The doctor is examining my ear.",
+            "The doctor is giving me medicine."
+          ],
+          "correctAnswer": "The doctor is examining my throat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavan aushadham svikaroti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, kintu vedanaa na gacchati.",
+            "na, aham vaidyam na pashyaami.",
+            "aam, aham pratidinam bhramanam karomi."
+          ],
+          "correctAnswer": "aam, kintu vedanaa na gacchati.",
+          "translatedSentence": "Yes, but the pain does not go away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya aham atiiva shraantah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired today.",
+            "I am a little tired today.",
+            "I was very tired yesterday."
+          ],
+          "correctAnswer": "I am very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chintaa maa karotu, gambhiiram kim api na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, idaaniim aham nishchintah asmi.",
+            "na, mama jvarah adhikah asti.",
+            "aam, aham chikitsaalayam gacchaami."
+          ],
+          "correctAnswer": "dhanyavaadah, idaaniim aham nishchintah asmi.",
+          "translatedSentence": "Thank you, I feel relieved now."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaste, kim aavashyakam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jvarasya aushadham aavashyakam.",
+            "kaasasya aushadham atra asti vaa?",
+            "vaidyah idaaniim atra asti vaa?"
+          ],
+          "correctAnswer": "jvarasya aushadham aavashyakam.",
+          "translatedSentence": "I need medicine for fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "idam aushadham dinatrayam svikarotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this medicine for three days.",
+            "Take this medicine three times a day.",
+            "Bring this medicine after three days."
+          ],
+          "correctAnswer": "Take this medicine for three days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etaam gulikaam kadaa svikaromi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanaat anantaram svikarotu.",
+            "praatah-kaale eva svikarotu.",
+            "krpaya jalena saha svikarotu."
+          ],
+          "correctAnswer": "bhojanaat anantaram svikarotu.",
+          "translatedSentence": "Take it after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pratidinam dvivaaram gulikaam svikarotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take the tablet twice a day.",
+            "Take two tablets every day.",
+            "Take the tablet three times a day."
+          ],
+          "correctAnswer": "Take the tablet twice a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asya aushadhasya muulyam kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asya muulyam shatam rupyakaani.",
+            "idam aushadham adya atra na asti.",
+            "krpaya shvah punah aagacchatu."
+          ],
+          "correctAnswer": "asya muulyam shatam rupyakaani.",
+          "translatedSentence": "It costs a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "idam aushadham shishubhyah maa dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not give this medicine to small children.",
+            "Do not give this medicine to old people.",
+            "Give this medicine only to small children."
+          ],
+          "correctAnswer": "Do not give this medicine to small children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "anyat kim api aavashyakam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, etaavat eva paryaaptam, dhanyavaadah.",
+            "aam, kaasasya aushadham api dadaatu.",
+            "aam, alpam ushnam jalam dadaatu."
+          ],
+          "correctAnswer": "na, etaavat eva paryaaptam, dhanyavaadah.",
+          "translatedSentence": "No, that is all, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aushadhena saha adhikam jalam pibatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink plenty of water with the medicine.",
+            "Do not drink water with the medicine.",
+            "Drink hot water before the medicine."
+          ],
+          "correctAnswer": "Drink plenty of water with the medicine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vaidyasya patrikaa bhavatah samiipe asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, iyam vaidyasya patrikaa asti.",
+            "na, kintu shvah aanayaami.",
+            "na, aham vaidyam na pashyaami."
+          ],
+          "correctAnswer": "aam, iyam vaidyasya patrikaa asti.",
+          "translatedSentence": "Yes, here is the doctor's prescription."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavatah jvarah nyuunah asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, hyah apekshayaa nyuunah asti.",
+            "na, adya jvarah adhikah asti.",
+            "aam, kintu kaasah tathaiva asti."
+          ],
+          "correctAnswer": "aam, hyah apekshayaa nyuunah asti.",
+          "translatedSentence": "Yes, it is less than yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pratishyaayah kaasah cha asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a cold and a cough.",
+            "I have a cold and a fever.",
+            "I have a cough and a headache."
+          ],
+          "correctAnswer": "I have a cold and a cough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tava kaasah kadaa aarabhya asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saptaahaat aarabhya kaasah asti.",
+            "raatrau kaasah adhikah bhavati.",
+            "aushadhena kaasah nyuunah bhavati."
+          ],
+          "correctAnswer": "saptaahaat aarabhya kaasah asti.",
+          "translatedSentence": "I have had a cough for a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kaasasya kaaranaat raatrau aham na svapimi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot sleep at night because of the cough.",
+            "I cough a lot while I sleep at night.",
+            "The cough goes away when I sleep at night."
+          ],
+          "correctAnswer": "I cannot sleep at night because of the cough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah paade kim jaatam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham sopaanaat patitah, atah kshatam jaatam.",
+            "hyah kriidaa-samaye alpah aaghaatah jaatah.",
+            "adya praatah aham chikitsaalayam gatavaan."
+          ],
+          "correctAnswer": "aham sopaanaat patitah, atah kshatam jaatam.",
+          "translatedSentence": "I fell down the stairs, so I got a wound."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama haste alpam kshatam asti, kintu adhikaa vedanaa na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a small wound on my hand, but it does not hurt much.",
+            "I have a big wound on my hand and it hurts a lot.",
+            "There is no wound on my hand, only a little pain."
+          ],
+          "correctAnswer": "I have a small wound on my hand, but it does not hurt much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim aham adya kaaryaalayam gacchaami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, adya grhe eva vishramyatu.",
+            "aam, kintu saayam shiighram aagacchatu.",
+            "aam, adya bhavatah jvarah na asti."
+          ],
+          "correctAnswer": "na, adya grhe eva vishramyatu.",
+          "translatedSentence": "No, rest at home today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi jvarah adhikah bhavati tarhi maam aahvayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever gets worse, call me.",
+            "If the fever comes down, call me.",
+            "When the fever comes, take the medicine."
+          ],
+          "correctAnswer": "If the fever gets worse, call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama putrasya jvarah adya api na gatah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi shvah punah vaidyam pashyatu.",
+            "tarhi sah adya vidyaalayam gacchatu.",
+            "tarhi tasmai shiitalam jalam dadaatu."
+          ],
+          "correctAnswer": "tarhi shvah punah vaidyam pashyatu.",
+          "translatedSentence": "Then see the doctor again tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idaaniim bhavatah svaasthyam katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idaaniim bahu uttamam asti, dhanyavaadah.",
+            "adya api aham aushadham svikaromi.",
+            "mama jvarah hyah punah aagatah."
+          ],
+          "correctAnswer": "idaaniim bahu uttamam asti, dhanyavaadah.",
+          "translatedSentence": "It is much better now, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aushadhasya kaaranaat vedanaa idaaniim nyuunaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because of the medicine the pain is less now.",
+            "Even after the medicine the pain has not come down.",
+            "The medicine will bring the pain down tomorrow."
+          ],
+          "correctAnswer": "Because of the medicine the pain is less now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah aham kaaryaalayam gantum shaknomi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, kintu adhikam shramam maa karotu.",
+            "na, adya eva kaaryaalayam gacchatu.",
+            "aam, tarhi aushadham maa svikarotu."
+          ],
+          "correctAnswer": "aam, kintu adhikam shramam maa karotu.",
+          "translatedSentence": "Yes, but do not strain yourself too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi vedanaa punah aagacchati tarhi tuurnam maam milatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the pain comes back, come and see me at once.",
+            "If the pain goes away, do not come again.",
+            "When the pain comes, take one more tablet."
+          ],
+          "correctAnswer": "If the pain comes back, come and see me at once."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mitra, idaaniim tava svaasthyam katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham idaaniim samyak asmi, chintaa maa kuru.",
+            "mama bhraatuh svaasthyam idaaniim samyak asti.",
+            "aham adya api gulikaam svikaromi."
+          ],
+          "correctAnswer": "aham idaaniim samyak asmi, chintaa maa kuru.",
+          "translatedSentence": "I am fine now, do not worry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vaidyah avadat yat dinatrayam vishraamah aavashyakah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor said that three days of rest are necessary.",
+            "The doctor said that the medicine is necessary for three days.",
+            "The doctor will give three days of rest."
+          ],
+          "correctAnswer": "The doctor said that three days of rest are necessary."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idaaniim aham vyaayaamam kartum shaknomi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "alpam bhramanam karotu, kintu dhaavanam maa karotu.",
+            "aam, pratidinam trivaaram dhaavatu.",
+            "na, punah jvarasya gulikaam svikarotu."
+          ],
+          "correctAnswer": "alpam bhramanam karotu, kintu dhaavanam maa karotu.",
+          "translatedSentence": "Take a short walk, but do not run."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya uttamam anubhavaami yatah jvarah gatah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel well today because the fever is gone.",
+            "I felt well yesterday because the fever went away.",
+            "I will feel well when the fever goes away."
+          ],
+          "correctAnswer": "I feel well today because the fever is gone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dhanyavaadah vaidya-mahodaya, bhavatah sahaayataa mahatii.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kim api na, svaasthyasya rakshanam karotu.",
+            "aam, shvah punah atra aagacchatu.",
+            "na, aushadham adya eva samaaptam."
+          ],
+          "correctAnswer": "kim api na, svaasthyasya rakshanam karotu.",
+          "translatedSentence": "Not at all, do take care of your health."
+        }
+      ]
+    }
+  ]
+}

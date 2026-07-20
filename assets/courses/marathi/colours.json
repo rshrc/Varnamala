@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Akash kontya rangache aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akash nile aahe.",
+            "Akash motha aahe.",
+            "Akash swachchha aahe."
+          ],
+          "correctAnswer": "Akash nile aahe.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala lal rang avadto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour red.",
+            "I like the colour blue.",
+            "I want the colour red."
+          ],
+          "correctAnswer": "I like the colour red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula kontha rang avadto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala hirva rang avadto.",
+            "Mala cutting chai avadto.",
+            "Mala Pune avadte."
+          ],
+          "correctAnswer": "Mala hirva rang avadto.",
+          "translatedSentence": "I like the colour green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Zadachi pane hirvi aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The leaves of the tree are green.",
+            "The leaves of the tree are yellow.",
+            "The flowers of the tree are green."
+          ],
+          "correctAnswer": "The leaves of the tree are green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dudh kontya rangache aste?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dudh pandhre aste.",
+            "Dudh garam aste.",
+            "Dudh chaan aste."
+          ],
+          "correctAnswer": "Dudh pandhre aste.",
+          "translatedSentence": "Milk is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He phul pivle aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is yellow.",
+            "This flower is white.",
+            "That leaf is yellow."
+          ],
+          "correctAnswer": "This flower is yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kavla kontya rangacha asto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kavla kala asto.",
+            "Kavla lahan asto.",
+            "Kavla zadavar basto."
+          ],
+          "correctAnswer": "Kavla kala asto.",
+          "translatedSentence": "A crow is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ti gadi lal aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That car is red.",
+            "That car is black.",
+            "This bag is red."
+          ],
+          "correctAnswer": "That car is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula ha rang mahit aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ha nila rang aahe.",
+            "Nahi, mala bhuk lagli aahe.",
+            "Ho, mala vada pav avadto."
+          ],
+          "correctAnswer": "Ho, ha nila rang aahe.",
+          "translatedSentence": "Yes, this is blue."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuzi bag kontya rangachi aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mazi bag kali aahe.",
+            "Mazi bag khup jad aahe.",
+            "Mazi bag ghari rahili."
+          ],
+          "correctAnswer": "Mazi bag kali aahe.",
+          "translatedSentence": "My bag is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maza sadara pandhra aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shirt is white.",
+            "My shirt is black.",
+            "My cap is white."
+          ],
+          "correctAnswer": "My shirt is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He pustak kontya rangache aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He pustak nile aahe.",
+            "He pustak agdi navin aahe.",
+            "He pustak khup mothe aahe."
+          ],
+          "correctAnswer": "He pustak nile aahe.",
+          "translatedSentence": "This book is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amache ghar pandhre aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is white.",
+            "Our house is yellow.",
+            "Their house is white."
+          ],
+          "correctAnswer": "Our house is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchya gharache dar kontya rangache aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amachya gharache dar tapkiri aahe.",
+            "Amache ghar Nagpur madhe aahe.",
+            "Amachya gharat teen kholya aahet."
+          ],
+          "correctAnswer": "Amachya gharache dar tapkiri aahe.",
+          "translatedSentence": "The door of our house is brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ti gulabi sadi khup chaan aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That pink saree is very nice.",
+            "That pink saree is very expensive.",
+            "That yellow saree is very nice."
+          ],
+          "correctAnswer": "That pink saree is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ti khurchi kontya rangachi aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti khurchi narangi aahe.",
+            "Ti khurchi rikami aahe.",
+            "Ti khurchi bahet thevli aahe."
+          ],
+          "correctAnswer": "Ti khurchi narangi aahe.",
+          "translatedSentence": "That chair is orange."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazya bhavache ghadyal kale aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother's watch is black.",
+            "My sister's watch is black.",
+            "My brother's watch is new."
+          ],
+          "correctAnswer": "My brother's watch is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumcha nava kurta kontya rangacha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maza nava kurta jambhla aahe.",
+            "Maza nava kurta khup mahag hota.",
+            "Mala nava kurta ghyaycha aahe."
+          ],
+          "correctAnswer": "Maza nava kurta jambhla aahe.",
+          "translatedSentence": "My new kurta is purple."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kontya rangachi bag pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala lal rangachi bag pahije.",
+            "Mala mothi bag pahije.",
+            "Mala don bagga pahijet."
+          ],
+          "correctAnswer": "Mala lal rangachi bag pahije.",
+          "translatedSentence": "I want a red bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala nilya rangacha shirt pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a blue shirt.",
+            "I want a green shirt.",
+            "I already have a blue shirt."
+          ],
+          "correctAnswer": "I want a blue shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala ha kala shirt avadla ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, khup chaan aahe, mala to pahije.",
+            "Nahi, mala atta bhuk lagli aahe.",
+            "Ho, mi udya sakali yein."
+          ],
+          "correctAnswer": "Ho, khup chaan aahe, mala to pahije.",
+          "translatedSentence": "Yes, it is very nice, I want it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha rang mala avadat nahi, dusra rang dakhva.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like this colour, please show me another one.",
+            "I like this colour, please show me another one.",
+            "I do not like this shop, please show me another one."
+          ],
+          "correctAnswer": "I do not like this colour, please show me another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kontha rang pahije, lal ki nila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala nila rang pahije.",
+            "Ho, mala donhi rang mahit aahet.",
+            "Nahi, mi ithe rahat nahi."
+          ],
+          "correctAnswer": "Mala nila rang pahije.",
+          "translatedSentence": "I want the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha pandhra kurta kitila aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this white kurta?",
+            "How much is this white saree?",
+            "Where is this white kurta?"
+          ],
+          "correctAnswer": "How much is this white kurta?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchya kade halka gulabi rang aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, amachya kade halka gulabi rang aahe.",
+            "Nahi, dukan atta band aahe.",
+            "Ho, dukan sakali navala ughadte."
+          ],
+          "correctAnswer": "Ho, amachya kade halka gulabi rang aahe.",
+          "translatedSentence": "Yes, we have light pink."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazya mulila narangi topi pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter wants an orange cap.",
+            "My son wants an orange cap.",
+            "My daughter wants a yellow cap."
+          ],
+          "correctAnswer": "My daughter wants an orange cap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha rang dhutlyavar jato ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ha rang agdi pakka aahe.",
+            "Ho, he dukan khup changle aahe.",
+            "Nahi, mala thanda pani nako."
+          ],
+          "correctAnswer": "Nahi, ha rang agdi pakka aahe.",
+          "translatedSentence": "No, this colour does not run at all."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya lagnala tu kay ghalnar aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi jambhli sadi nesnar aahe.",
+            "Mi udya lavkar uthnar aahe.",
+            "Mala lagnatle jevan khup avadte."
+          ],
+          "correctAnswer": "Mi jambhli sadi nesnar aahe.",
+          "translatedSentence": "I am going to wear a purple saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "To pandhra sadara mala jasta avadto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like that white shirt more.",
+            "I like that black shirt more.",
+            "I like that white saree more."
+          ],
+          "correctAnswer": "I like that white shirt more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Officela kontya rangacha shirt ghalava?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka nila shirt ghala, to formal disto.",
+            "Officela udya thoda ushira ja.",
+            "Ha shirt aaj dhuvun taka."
+          ],
+          "correctAnswer": "Halka nila shirt ghala, to formal disto.",
+          "translatedSentence": "Wear a light blue shirt, it looks formal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazya baykola gadd hirvi sadi avadte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife likes dark green sarees.",
+            "My wife likes light green sarees.",
+            "My sister likes dark green sarees."
+          ],
+          "correctAnswer": "My wife likes dark green sarees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha kala coat mala barobar hoil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, to tumhala agdi barobar hoil.",
+            "Ho, to khup mahag aahe.",
+            "Nahi, dukan atta ughade nahi."
+          ],
+          "correctAnswer": "Ho, to tumhala agdi barobar hoil.",
+          "translatedSentence": "Yes, it will fit you perfectly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanjay nehmi pandhre kapde ghalto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sanjay always wears white clothes.",
+            "Sanjay never wears white clothes.",
+            "Sanjay always wears black clothes."
+          ],
+          "correctAnswer": "Sanjay always wears white clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha gulabi dress mazya mulila shobhto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, tila to khup chaan shobhto.",
+            "Ho, ti udya shalet jainar aahe.",
+            "Nahi, ti atta ghari nahi."
+          ],
+          "correctAnswer": "Ho, tila to khup chaan shobhto.",
+          "translatedSentence": "Yes, it suits her very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thandit mi nehmi tapkiri sweater ghalto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter I always wear a brown sweater.",
+            "In winter I always wear a black sweater.",
+            "In summer I always wear a brown sweater."
+          ],
+          "correctAnswer": "In winter I always wear a brown sweater."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchi nili sadi kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti mi dhuvayla takli aahe.",
+            "Ti sadi khup mahag hoti.",
+            "Mala nila rang far avadto."
+          ],
+          "correctAnswer": "Ti mi dhuvayla takli aahe.",
+          "translatedSentence": "I have put it in the wash."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paavsalyat Sahyadri kasa disto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paavsalyat Sahyadri agdi hirva disto.",
+            "Sahyadrit khup june kille aahet.",
+            "Paavsalyat tikde jane avaghad aste."
+          ],
+          "correctAnswer": "Paavsalyat Sahyadri agdi hirva disto.",
+          "translatedSentence": "In the monsoon the Sahyadri looks completely green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sandhyakali akash narangi ani gulabi hote.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the sky turns orange and pink.",
+            "In the morning the sky turns orange and pink.",
+            "In the evening the sky turns blue and grey."
+          ],
+          "correctAnswer": "In the evening the sky turns orange and pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mumbaichi local train kontya rangachi aste?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti nili ani pandhri aste.",
+            "Tyat sakali khup gardi aste.",
+            "Ti Churchgate paryant jate."
+          ],
+          "correctAnswer": "Ti nili ani pandhri aste.",
+          "translatedSentence": "It is blue and white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nagpurchi santri gadd narangi astat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nagpur oranges are deep orange.",
+            "Nagpur oranges are pale orange.",
+            "Nagpur oranges are very sweet."
+          ],
+          "correctAnswer": "Nagpur oranges are deep orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithlya kilyanchya bhinti kontya rangachya aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tya kalya dagdanchya aahet.",
+            "Tya khup unch ani majboot aahet.",
+            "Te kille Shivaji Maharajanche hote."
+          ],
+          "correctAnswer": "Tya kalya dagdanchya aahet.",
+          "translatedSentence": "They are made of black stone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puran poli pivli aste pan misal lal aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Puran poli is yellow but misal is red.",
+            "Puran poli is red but misal is yellow.",
+            "Puran poli is yellow and misal is yellow too."
+          ],
+          "correctAnswer": "Puran poli is yellow but misal is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cutting chai kontya rangacha asto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To gadd tapkiri asto.",
+            "To das rupayala milto.",
+            "To pitanna khup garam asto."
+          ],
+          "correctAnswer": "To gadd tapkiri asto.",
+          "translatedSentence": "It is dark brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shetat pivli phule ani hirvi pane distat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the field you can see yellow flowers and green leaves.",
+            "In the field you can see yellow flowers and red leaves.",
+            "In the garden you can see yellow flowers and green leaves."
+          ],
+          "correctAnswer": "In the field you can see yellow flowers and green leaves."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Samudra nila disto ki hirva?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konkanat to gadd nila disto.",
+            "Samudra ithun khup lamb aahe.",
+            "Mala changle pohta yete."
+          ],
+          "correctAnswer": "Konkanat to gadd nila disto.",
+          "translatedSentence": "In the Konkan it looks deep blue."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Preferences and comparisons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Halka nila ghyava ki gadd nila, tumhala kay vatte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka nila ghya, karan unhalyat to jasta bara vatto.",
+            "Nila rang mala lahanpanipasun mahit aahe.",
+            "Mala udya sakali Mumbaila jayche aahe."
+          ],
+          "correctAnswer": "Halka nila ghya, karan unhalyat to jasta bara vatto.",
+          "translatedSentence": "Take the light blue, because it feels better in summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha rang mala avadto pan to mazya bahinila shobhat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this colour, but it does not suit my sister.",
+            "I like this colour, and it suits my sister too.",
+            "I do not like this colour, but it suits my sister."
+          ],
+          "correctAnswer": "I like this colour, but it does not suit my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kala jasta avadto ki pandhra?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala pandhra jasta avadto, karan to nehmi swachchha disto.",
+            "Ho, he donhi rang mala lahanpanapasun mahit aahet.",
+            "Nahi, mi kal dukanat aalo nahi."
+          ],
+          "correctAnswer": "Mala pandhra jasta avadto, karan to nehmi swachchha disto.",
+          "translatedSentence": "I prefer white, because it always looks clean."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar tumhala ha rang gadd vatat asel tar mi thoda halka rang dakhavto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you find this colour too dark, I will show you a lighter one.",
+            "If you find this colour too light, I will show you a darker one.",
+            "If you like this colour, I will show you a lighter one."
+          ],
+          "correctAnswer": "If you find this colour too dark, I will show you a lighter one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha gulabi kurta mala shobhto ka, khare sanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khare sangaycha tar tumhala halka nila jasta shobhto.",
+            "Ho, gulabi rang hallich khup mahag zala aahe.",
+            "Nahi, mi ithe kadhich kurta ghetla nahi."
+          ],
+          "correctAnswer": "Khare sangaycha tar tumhala halka nila jasta shobhto.",
+          "translatedSentence": "To be honest, light blue suits you better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Lagnat mi gadd lal sadi nesli hoti pan atta ti thodi phikki zali aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At the wedding I wore a deep red saree, but now it has faded a little.",
+            "At the wedding I wore a pale red saree, but now it has faded a little.",
+            "At the wedding I wore a deep red saree, and it is still as bright."
+          ],
+          "correctAnswer": "At the wedding I wore a deep red saree, but now it has faded a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amhi bhintila kontha rang lavava?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka pivla lava, tyane kholi jasta mothi diste.",
+            "Bhint khup juni aahe ani tichyavar dhool aahe.",
+            "Mala rang lavayla kadhich vel milat nahi."
+          ],
+          "correctAnswer": "Halka pivla lava, tyane kholi jasta mothi diste.",
+          "translatedSentence": "Use light yellow, it makes the room look bigger."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala tapkiri peksha rakhadi rang jasta avadto, karan to sagalya kapdyanna shobhto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like grey more than brown, because it goes with all clothes.",
+            "I like brown more than grey, because it goes with all clothes.",
+            "I like grey more than brown, but it does not go with all clothes."
+          ],
+          "correctAnswer": "I like grey more than brown, because it goes with all clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala ha rang avadla nahi tar amhi to badalun deu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barr ka, mag mi udya yeun dusra rang nivadto.",
+            "Nahi, mala kal sakalpasun bara vatat navhta.",
+            "Ho, ha rang Nagpur madhun ithe yeto."
+          ],
+          "correctAnswer": "Barr ka, mag mi udya yeun dusra rang nivadto.",
+          "translatedSentence": "All right, then I will come tomorrow and choose another colour."
+        }
+      ]
+    }
+  ]
+}

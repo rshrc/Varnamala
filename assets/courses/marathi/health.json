@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kay zale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala barr nahi.",
+            "Mi udya yeto.",
+            "Maza bhau ithe aahe."
+          ],
+          "correctAnswer": "Mala barr nahi.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maze doke dukhat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My head hurts.",
+            "My hand hurts.",
+            "My stomach hurts."
+          ],
+          "correctAnswer": "My head hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kay dukhat aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze pot dukhat aahe.",
+            "Mala zop yet aahe.",
+            "Mi jevan kele."
+          ],
+          "correctAnswer": "Maze pot dukhat aahe.",
+          "translatedSentence": "My stomach hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala barr vatat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling well.",
+            "I am not going home.",
+            "I do not want to eat."
+          ],
+          "correctAnswer": "I am not feeling well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu aaj kamavar jashil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, maza ghasa dukhat aahe.",
+            "Ho, mi roj chaha pito.",
+            "Mi Punyat rahato."
+          ],
+          "correctAnswer": "Nahi, maza ghasa dukhat aahe.",
+          "translatedSentence": "No, my throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala thoda taap aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a slight fever.",
+            "I have a bad cough.",
+            "I am feeling very cold."
+          ],
+          "correctAnswer": "I have a slight fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kiti divas zale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Don divas zale.",
+            "Mi Mumbait rahato.",
+            "Atta mi jato."
+          ],
+          "correctAnswer": "Don divas zale.",
+          "translatedSentence": "It has been two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maza haat khup dukhat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My hand hurts a lot.",
+            "My leg hurts a lot.",
+            "My back hurts a little."
+          ],
+          "correctAnswer": "My hand hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor kade jayche ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, chala jauya.",
+            "Nahi, mala bhook nahi.",
+            "Mi chaha ghenar aahe."
+          ],
+          "correctAnswer": "Ho, chala jauya.",
+          "translatedSentence": "Yes, let us go."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuze kuthe dukhate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maza gudgha dukhato.",
+            "Maze ghar javal aahe.",
+            "Mala cutting chai aavadto."
+          ],
+          "correctAnswer": "Maza gudgha dukhato.",
+          "translatedSentence": "My knee hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maze daat khup dukhat aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My teeth hurt a lot.",
+            "My ears hurt a lot.",
+            "My eyes hurt a little."
+          ],
+          "correctAnswer": "My teeth hurt a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumcha khanda kevha dukhayla lagla?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal ratripasun dukhat aahe.",
+            "Mi rojach chalat jato.",
+            "Maza pay ekdam theek aahe."
+          ],
+          "correctAnswer": "Kal ratripasun dukhat aahe.",
+          "translatedSentence": "It has been hurting since last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Local train madhe maza pay dukhayla lagla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg started hurting in the local train.",
+            "My leg felt better in the local train.",
+            "I hurt my hand in the local train."
+          ],
+          "correctAnswer": "My leg started hurting in the local train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche naak vaahat aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, sakalpasun naak vaahat aahe.",
+            "Nahi, maze dole dukhat aahet.",
+            "Mala thodi thandi vaajat aahe."
+          ],
+          "correctAnswer": "Ho, sakalpasun naak vaahat aahe.",
+          "translatedSentence": "Yes, my nose has been running since morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maza ghasa dukhto ani aavaj basla aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat hurts and my voice is gone.",
+            "My throat hurts but I can still speak.",
+            "My head hurts and I cannot sleep."
+          ],
+          "correctAnswer": "My throat hurts and my voice is gone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchi paath ka dukhat aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi divasbhar khurchivar basto.",
+            "Mi rojach vada pav khato.",
+            "Maza haat modla hota."
+          ],
+          "correctAnswer": "Mi divasbhar khurchivar basto.",
+          "translatedSentence": "I sit in a chair all day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chalatana maza gudgha dukhto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My knee hurts when I walk.",
+            "My knee hurts when I sleep.",
+            "My foot hurts when I run."
+          ],
+          "correctAnswer": "My knee hurts when I walk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chhatit kahi dukhat aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, fakt pot dukhat aahe.",
+            "Ho, mala khup bhook lagli aahe.",
+            "Maze kaan dukhat aahet."
+          ],
+          "correctAnswer": "Nahi, fakt pot dukhat aahe.",
+          "translatedSentence": "No, only my stomach hurts."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti divasapasun taap aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Teen divasapasun taap aahe.",
+            "Mala taap nahi, fakt sardi aahe.",
+            "Mi kal doctor kade gelo hoto."
+          ],
+          "correctAnswer": "Teen divasapasun taap aahe.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala jevan javat nahi ani chakkar yete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot eat and I feel dizzy.",
+            "I cannot eat and I feel weak.",
+            "I cannot walk and my head hurts."
+          ],
+          "correctAnswer": "I cannot eat and I feel dizzy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ulti zali ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, sakali don vela ulti zali.",
+            "Nahi, kalpasun mi kahich khalle nahi.",
+            "Mala misal khaun tras zala."
+          ],
+          "correctAnswer": "Ho, sakali don vela ulti zali.",
+          "translatedSentence": "Yes, I vomited twice this morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratri mala neet zop yet nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not get proper sleep at night.",
+            "I do not feel hungry at night.",
+            "I cannot breathe properly at night."
+          ],
+          "correctAnswer": "I do not get proper sleep at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi aadhi konte aushadh ghetle hote ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi ghari asleli taapachi goli ghetli.",
+            "Nahi, mala aushadhachi allergy aahe.",
+            "Mi roj sakali vyayam karto."
+          ],
+          "correctAnswer": "Ho, mi ghari asleli taapachi goli ghetli.",
+          "translatedSentence": "Yes, I took a fever tablet I had at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tumhala tapasto, thoda vel basa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will examine you, please sit for a while.",
+            "I will call you, please wait outside.",
+            "I will give you medicine, please come tomorrow."
+          ],
+          "correctAnswer": "I will examine you, please sit for a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raktachi tapasani karavi lagel.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek aahe, ti kuthe karaychi?",
+            "Nako, mala injection nako.",
+            "Mala udya muleech vel nahi."
+          ],
+          "correctAnswer": "Theek aahe, ti kuthe karaychi?",
+          "translatedSentence": "All right, where should I get it done?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalpasun mala khup ashaktpana vatat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have been feeling very weak since yesterday.",
+            "I have been feeling very hot since yesterday.",
+            "I have been feeling much better since yesterday."
+          ],
+          "correctAnswer": "I have been feeling very weak since yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala dusra kahi tras hoto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, thoda khokla pan aahe.",
+            "Nahi, mi roj chalayla jato.",
+            "Mala ithe yayla ushir zala."
+          ],
+          "correctAnswer": "Ho, thoda khokla pan aahe.",
+          "translatedSentence": "Yes, I also have a slight cough."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hi goli kashi ghyaychi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jevanantar divsatun teen vela ghya.",
+            "Sakali upashi poti ekda ghya.",
+            "Hi goli lahan mulanna deu naka."
+          ],
+          "correctAnswer": "Jevanantar divsatun teen vela ghya.",
+          "translatedSentence": "Take it three times a day after meals."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He aushadh ratri zopnyaadhi ghya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this medicine at night before sleeping.",
+            "Take this medicine in the morning after eating.",
+            "Give this medicine to the child at night."
+          ],
+          "correctAnswer": "Take this medicine at night before sleeping."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchyakade doctor chi chithi aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mala fakt taapachi goli pahije.",
+            "Ho, mi udya chithi ghevun yeto.",
+            "Mi ti chithi ghari visarlo."
+          ],
+          "correctAnswer": "Nahi, mala fakt taapachi goli pahije.",
+          "translatedSentence": "No, I just need a tablet for fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ya aushadhache kiti paise zale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this medicine cost?",
+            "How many tablets are there in this strip?",
+            "How long should I take this medicine?"
+          ],
+          "correctAnswer": "How much does this medicine cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ya golya kiti divas ghyaychya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paach divas purna ghya.",
+            "Taap gela ki thambva.",
+            "Fakt aajcha divas ghya."
+          ],
+          "correctAnswer": "Paach divas purna ghya.",
+          "translatedSentence": "Take them for the full five days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha syrup divsatun don vela ghya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this syrup twice a day.",
+            "Take this syrup once a day.",
+            "Take this syrup only after food."
+          ],
+          "correctAnswer": "Take this syrup twice a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ya golimule zop yete ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, thodi zop yeu shakte.",
+            "Nahi, hi goli khupach mahag aahe.",
+            "Ti goli jevanapurvi ghya."
+          ],
+          "correctAnswer": "Ho, thodi zop yeu shakte.",
+          "translatedSentence": "Yes, it may make you a little sleepy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala taapasathi kahitari aushadh dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me some medicine for fever.",
+            "Please give me some medicine for cough.",
+            "Please tell me the price of this tablet."
+          ],
+          "correctAnswer": "Please give me some medicine for fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yapeksha swasta aushadh aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, techa aushadh swasta milel.",
+            "Nahi, medical dukan aata band aahe.",
+            "Tumhi udya sakali ya."
+          ],
+          "correctAnswer": "Ho, techa aushadh swasta milel.",
+          "translatedSentence": "Yes, the same medicine is available cheaper."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cough and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuza khokla ajun gela nahi ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ratri to jasta hoto.",
+            "Ho, aata mala barr vatat aahe.",
+            "Mi ajun aushadh ghetle nahi."
+          ],
+          "correctAnswer": "Nahi, ratri to jasta hoto.",
+          "translatedSentence": "No, it gets worse at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal mi jinyavarun padlo ani maza pay muragla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I fell down the stairs yesterday and sprained my foot.",
+            "I slipped in the bathroom yesterday and hurt my hand.",
+            "I fell down the stairs yesterday but nothing happened."
+          ],
+          "correctAnswer": "I fell down the stairs yesterday and sprained my foot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jakhmetun ajunahi rakta yet aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, aata rakta thamble aahe.",
+            "Ho, mala thandi vaajat aahe.",
+            "Mi tyavar patti bandhli aahe."
+          ],
+          "correctAnswer": "Nahi, aata rakta thamble aahe.",
+          "translatedSentence": "No, the bleeding has stopped now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala sardi zali aahe mhanun mi kamavar gelo nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a cold, so I did not go to work.",
+            "I have a fever, so I did not go to work.",
+            "I had a cold, but I still went to work."
+          ],
+          "correctAnswer": "I have a cold, so I did not go to work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taap kiti aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Taap ekshe don degree aahe.",
+            "Taap kalpasun aahe.",
+            "Mala aaj taap ala nahi."
+          ],
+          "correctAnswer": "Taap ekshe don degree aahe.",
+          "translatedSentence": "The fever is one hundred and two degrees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sahyadrit trek kartana mala lagle.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got hurt while trekking in the Sahyadris.",
+            "I got tired while trekking in the Sahyadris.",
+            "I got hurt while climbing a fort near Pune."
+          ],
+          "correctAnswer": "I got hurt while trekking in the Sahyadris."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khoklyasathi tumhi kahi karat aahat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi roj garam panyachya gulnya karto.",
+            "Nahi, mala khokla nahi, fakt taap aahe.",
+            "Mi udya doctor kade janar aahe."
+          ],
+          "correctAnswer": "Ho, mi roj garam panyachya gulnya karto.",
+          "translatedSentence": "Yes, I gargle with warm water every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thandi vaajat aahe ani angdukhi pan aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am feeling chilly and my body aches too.",
+            "I am feeling hot and my head aches too.",
+            "I am shivering but my body does not ache."
+          ],
+          "correctAnswer": "I am feeling chilly and my body aches too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maze bot kaaple aahe, mi kay karu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aadhi te swachh panyane dhuva.",
+            "Tyavar garam pani taka.",
+            "Kahi karu naka, apoap barr hoil."
+          ],
+          "correctAnswer": "Aadhi te swachh panyane dhuva.",
+          "translatedSentence": "First wash it with clean water."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aata tumhala kase vatat aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aadhipeksha khup barr vatat aahe, dhanyavaad.",
+            "Kal ratri maza taap ekshe char hota.",
+            "Mala udya punha ithe yaave lagel ka?"
+          ],
+          "correctAnswer": "Aadhipeksha khup barr vatat aahe, dhanyavaad.",
+          "translatedSentence": "I feel much better than before, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar taap utarla nahi tar udya punha ya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down, come again tomorrow.",
+            "If the fever comes down, you need not come again.",
+            "When the fever comes down, call me tomorrow."
+          ],
+          "correctAnswer": "If the fever does not come down, come again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi udya kamavar jau shakto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ajun don divas aaram kara, mag ja.",
+            "Ho, pan aushadh ghene band kara.",
+            "Nahi, tumhala hospital madhe rahave lagel."
+          ],
+          "correctAnswer": "Ajun don divas aaram kara, mag ja.",
+          "translatedSentence": "Rest for two more days, then go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aushadh sampale tari aaram karayla visru naka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even after the medicine is over, do not forget to rest.",
+            "Once the medicine is over, you can stop resting.",
+            "Take the medicine till it is over and then rest."
+          ],
+          "correctAnswer": "Even after the medicine is over, do not forget to rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi vada pav khau shakto ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aata nako, kahi divas halke jevan ghya.",
+            "Ho, roj khalla tari kahi harkat nahi.",
+            "Chalel, pan cutting chai piu naka."
+          ],
+          "correctAnswer": "Aata nako, kahi divas halke jevan ghya.",
+          "translatedSentence": "Not now, eat light food for a few days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khup pani pya ani divsatun ekda tari chala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink plenty of water and walk at least once a day.",
+            "Drink hot water and rest at least once a day.",
+            "Drink plenty of water but do not go out at all."
+          ],
+          "correctAnswer": "Drink plenty of water and walk at least once a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi punha kevha tapasnisathi yeu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aathvadabhar aushadh ghya ani mag ya.",
+            "Tumhala punha yayachi garaj nahi.",
+            "Udyach sakali lavkar ya."
+          ],
+          "correctAnswer": "Aathvadabhar aushadh ghya ani mag ya.",
+          "translatedSentence": "Take the medicine for a week and then come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala aata barr vatat aahe, pan mi ajun jasta kaam karat nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel better now, but I am still not working too much.",
+            "I feel better now, so I have started working again.",
+            "I do not feel better yet, so I am not working at all."
+          ],
+          "correctAnswer": "I feel better now, but I am still not working too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Swatahchi kaalji ghya, barr ka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nakkich, dhanyavaad doctor.",
+            "Mala tumche mhanane samajle nahi.",
+            "Ho, mi aushadh ghenar nahi."
+          ],
+          "correctAnswer": "Nakkich, dhanyavaad doctor.",
+          "translatedSentence": "Certainly, thank you doctor."
+        }
+      ]
+    }
+  ]
+}

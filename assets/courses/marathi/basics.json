@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche naav kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze naav {name} aahe.",
+            "Mi Mumbai la jato.",
+            "Ho, mi theek aahe."
+          ],
+          "correctAnswer": "Maze naav {name} aahe.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi Pune cha aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Pune.",
+            "I am going to Pune.",
+            "Pune is very big."
+          ],
+          "correctAnswer": "I am from Pune."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kon aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi {name} aahe.",
+            "He maze ghar aahe.",
+            "Mala te mahit nahi."
+          ],
+          "correctAnswer": "Mi {name} aahe.",
+          "translatedSentence": "I am {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha maza mitra Rohit aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend Rohit.",
+            "This is my brother Rohit.",
+            "Rohit is my teacher."
+          ],
+          "correctAnswer": "This is my friend Rohit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, tumhi kase aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi theek aahe, dhanyavaad.",
+            "Maze naav Sameer aahe.",
+            "Mi Nagpur la rahato."
+          ],
+          "correctAnswer": "Mi theek aahe, dhanyavaad.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi Nagpur la rahato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Nagpur.",
+            "I am going to Nagpur.",
+            "I am from Nagpur."
+          ],
+          "correctAnswer": "I live in Nagpur."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha maza bhau Amit aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskar Amit, bhetun anand zala.",
+            "Mala amti bhat aavadto.",
+            "Maza bhau Pune la rahato."
+          ],
+          "correctAnswer": "Namaskar Amit, bhetun anand zala.",
+          "translatedSentence": "Hello Amit, nice to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi vidyarthi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student.",
+            "I am a teacher.",
+            "I am a doctor."
+          ],
+          "correctAnswer": "I am a student."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kuthle aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi Mumbai cha aahe.",
+            "Mi bara aahe, dhanyavaad.",
+            "Ho, mi vidyarthi aahe."
+          ],
+          "correctAnswer": "Mi Mumbai cha aahe.",
+          "translatedSentence": "I am from Mumbai."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "This, that, yes, no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He vada pav aahe.",
+            "Ti maji bahin aahe.",
+            "Mi ghari jato."
+          ],
+          "correctAnswer": "He vada pav aahe.",
+          "translatedSentence": "This is a vada pav."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Te maze ghar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my house.",
+            "This is my house.",
+            "That is my room."
+          ],
+          "correctAnswer": "That is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha chaha tumcha aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, to maza aahe.",
+            "Nahi, mala te mahit nahi.",
+            "He pustak khup chaan aahe."
+          ],
+          "correctAnswer": "Ho, to maza aahe.",
+          "translatedSentence": "Yes, it is mine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He pustak khup chaan aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book is very nice.",
+            "That book is very old.",
+            "This book is mine."
+          ],
+          "correctAnswer": "This book is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula misal aavadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala misal khup aavadte.",
+            "Nahi, ti ithe nahi.",
+            "Ha maza mitra aahe."
+          ],
+          "correctAnswer": "Ho, mala misal khup aavadte.",
+          "translatedSentence": "Yes, I like misal a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nahi, he maze pustak nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, this is not my book.",
+            "No, that is not my bag.",
+            "Yes, this book is mine."
+          ],
+          "correctAnswer": "No, this is not my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ti mulgi kon aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti maji bahin aahe.",
+            "To maza bhau Amit aahe.",
+            "He amche ghar aahe."
+          ],
+          "correctAnswer": "Ti maji bahin aahe.",
+          "translatedSentence": "She is my sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ho, mala te mahit aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, I know that.",
+            "No, I do not know that.",
+            "Yes, I like that."
+          ],
+          "correctAnswer": "Yes, I know that."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, ha cutting chai tuza aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, to maza aahe, dhanyavaad.",
+            "Nahi, mi chaha pit nahi.",
+            "Ho, mala vada pav pahije."
+          ],
+          "correctAnswer": "Ho, to maza aahe, dhanyavaad.",
+          "translatedSentence": "Yes, that one is mine, thank you."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kay khato aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi puran poli khato aahe.",
+            "Mi ghari jaat aahe.",
+            "Mala chaha pahije."
+          ],
+          "correctAnswer": "Mi puran poli khato aahe.",
+          "translatedSentence": "I am eating puran poli."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi roj sakali chaha peeto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every morning.",
+            "I drink tea every evening.",
+            "I make tea every morning."
+          ],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kuthe jaat aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi office la jaat aahe.",
+            "Mi aatta ghari aalo.",
+            "Mala misal khup aavadte."
+          ],
+          "correctAnswer": "Mi office la jaat aahe.",
+          "translatedSentence": "I am on my way to the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "To roj local train ne kamala jato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He goes to work by local train every day.",
+            "He goes to work by bus every day.",
+            "He comes home by local train every day."
+          ],
+          "correctAnswer": "He goes to work by local train every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu kay kaam kartos?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi shikshak aahe, mi Pune la shikavto.",
+            "Mi roj kamala jato aahe.",
+            "Mala kaam khup aavadte."
+          ],
+          "correctAnswer": "Mi shikshak aahe, mi Pune la shikavto.",
+          "translatedSentence": "I am a teacher, I teach in Pune."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maji aai roj jevan banavte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother cooks the food every day.",
+            "My mother eats her food every day.",
+            "My sister cooks the food every day."
+          ],
+          "correctAnswer": "My mother cooks the food every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu udya yenar ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi sakali yein.",
+            "Nahi, mi kaal aalo hoto.",
+            "Ho, mi ghari jaat aahe."
+          ],
+          "correctAnswer": "Ho, mi sakali yein.",
+          "translatedSentence": "Yes, I will come in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamhi sandhyakali firayla jato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go out for a walk in the evening.",
+            "We go out for a walk in the morning.",
+            "We go to the market in the evening."
+          ],
+          "correctAnswer": "We go out for a walk in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula kay pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala ek cutting chai pahije.",
+            "Mi roj chaha peeto.",
+            "Ho, mala te mahit aahe."
+          ],
+          "correctAnswer": "Mala ek cutting chai pahije.",
+          "translatedSentence": "I would like one cutting chai."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Station ithun jawal aahe.",
+            "Mi udya station la jain.",
+            "Mala local train ne jayche aahe."
+          ],
+          "correctAnswer": "Station ithun jawal aahe.",
+          "translatedSentence": "The station is close to here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumhi kuthe rahata?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you live?",
+            "Where are you going?",
+            "Where do you work?"
+          ],
+          "correctAnswer": "Where do you live?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha manus kon aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To amcha shejari aahe.",
+            "Ti maji bahin Sneha aahe.",
+            "He amche naveen ghar aahe."
+          ],
+          "correctAnswer": "To amcha shejari aahe.",
+          "translatedSentence": "He is our neighbour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumhala kay pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What would you like?",
+            "Where would you like to go?",
+            "What do you know about it?"
+          ],
+          "correctAnswer": "What would you like?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche ghar kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze ghar Dadar la aahe.",
+            "Maze naav Sameer aahe.",
+            "Mi ghari chalat jato."
+          ],
+          "correctAnswer": "Maze ghar Dadar la aahe.",
+          "translatedSentence": "My house is in Dadar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "To kon aahe ani kuthun aala aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is he and where has he come from?",
+            "Who is he and where is he going?",
+            "What is he doing and where is he now?"
+          ],
+          "correctAnswer": "Who is he and where has he come from?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atta kiti vajle aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atta saat vajle aahet.",
+            "Aaj mala khup kaam aahe.",
+            "Mi sakali lavkar uthto."
+          ],
+          "correctAnswer": "Atta saat vajle aahet.",
+          "translatedSentence": "It is seven o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sahyadri chya killyavar kase jayche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How do we get to the Sahyadri fort?",
+            "When do we leave for the Sahyadri fort?",
+            "Who is going to the Sahyadri fort?"
+          ],
+          "correctAnswer": "How do we get to the Sahyadri fort?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha vada pav kunacha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To maza aahe, mi aatta ghetla.",
+            "Ho, to khup chaan aahe.",
+            "Mala vada pav khup aavadto."
+          ],
+          "correctAnswer": "To maza aahe, mi aatta ghetla.",
+          "translatedSentence": "It is mine, I just bought it."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula Marathi yete ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thoda thoda yete, pan sarv nahi.",
+            "Ho, mi Marathi shikavto.",
+            "Nahi, mala te mahit nahi."
+          ],
+          "correctAnswer": "Thoda thoda yete, pan sarv nahi.",
+          "translatedSentence": "I know a little, but not everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala te mahit nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know that.",
+            "I do not want that.",
+            "I do not like that."
+          ],
+          "correctAnswer": "I do not know that."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ti aaj office la aali ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, ti aaj aali nahi.",
+            "Ho, ti roj office la jate.",
+            "Nahi, mi office la jaat nahi."
+          ],
+          "correctAnswer": "Nahi, ti aaj aali nahi.",
+          "translatedSentence": "No, she did not come today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi aaj kahich khalle nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not eaten anything today.",
+            "I did not drink anything today.",
+            "I will not eat anything today."
+          ],
+          "correctAnswer": "I have not eaten anything today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala jhanjhanit misal aavadte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mala evdha tikhat nako.",
+            "Ho, mi roj misal banavto.",
+            "Nahi, mala misal mahit nahi."
+          ],
+          "correctAnswer": "Nahi, mala evdha tikhat nako.",
+          "translatedSentence": "No, I do not want it that spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "To Nagpur la rahat nahi, to Pune la rahato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He does not live in Nagpur, he lives in Pune.",
+            "He does not work in Nagpur, he works in Pune.",
+            "He is not from Nagpur, he is from Pune."
+          ],
+          "correctAnswer": "He does not live in Nagpur, he lives in Pune."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha rasta station kade jato ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala mahit nahi, tithe vichara.",
+            "Ho, mi station la chalat jato.",
+            "Nahi, mala ha rasta aavadto."
+          ],
+          "correctAnswer": "Mala mahit nahi, tithe vichara.",
+          "translatedSentence": "I do not know, ask over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala chaha nako, mala fakt pani pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want tea, I just want water.",
+            "I do not want tea, I want coffee instead.",
+            "I want tea, I do not want water."
+          ],
+          "correctAnswer": "I do not want tea, I just want water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu udya yenar nahis ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, udya mala vel nahi.",
+            "Ho, mi kaal aalo nahi.",
+            "Nahi, mi roj sakali yeto."
+          ],
+          "correctAnswer": "Nahi, udya mala vel nahi.",
+          "translatedSentence": "No, I do not have time tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj sandhyakali tu kay karnar aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaam sampla ki mi ghari jain, karan mi thakalo aahe.",
+            "Mi sakali lavkar uthto ani chaha peeto.",
+            "Mi Pune la rahato, pan mi Nagpur cha aahe."
+          ],
+          "correctAnswer": "Kaam sampla ki mi ghari jain, karan mi thakalo aahe.",
+          "translatedSentence": "Once work is over I will go home, because I am tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala Marathi thoda yete, pan mi roj shikat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know a little Marathi, but I am learning every day.",
+            "I know Marathi well, and I teach it every day.",
+            "I do not know Marathi, so I am learning every day."
+          ],
+          "correctAnswer": "I know a little Marathi, but I am learning every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi jevan kele ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi amti bhat khalla, to khup chaan hota.",
+            "Nahi, ajun nahi, mi nantar khain.",
+            "Nahi, mala bhook nahi, pan chaha chalel."
+          ],
+          "correctAnswer": "Ho, mi amti bhat khalla, to khup chaan hota.",
+          "translatedSentence": "Yes, I had amti bhat, and it was very good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar paus padla tar aamhi killyavar jaanar nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains we will not go to the fort.",
+            "If it rains we will still go to the fort.",
+            "When it rained we did not go to the fort."
+          ],
+          "correctAnswer": "If it rains we will not go to the fort."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala Mumbai kase vatle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mumbai mothi aahe, pan tithle lok khup chaan aahet.",
+            "Mumbai la mi ajun gelo nahi, pan jayche aahe.",
+            "Mumbai mala aavadli nahi, karan tithe khup shanti aahe."
+          ],
+          "correctAnswer": "Mumbai mothi aahe, pan tithle lok khup chaan aahet.",
+          "translatedSentence": "Mumbai is big, but the people there are very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala rasta mahit nahi, mi tumchya sobat yeu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know the way, may I come with you?",
+            "You do not know the way, so will you come with me?",
+            "I know the way, shall I come with you?"
+          ],
+          "correctAnswer": "I do not know the way, may I come with you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya sutti aahe, apan kuthe jauya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chala, apan Sahyadri chya killyavar jauya.",
+            "Mala udya kaam aahe, mhanun mi gharich thambto.",
+            "Apan misal khaun local train ne partuya."
+          ],
+          "correctAnswer": "Chala, apan Sahyadri chya killyavar jauya.",
+          "translatedSentence": "Come on, let us go to the Sahyadri fort."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaal mi Pune la gelo hoto, pan maza mitra ghari navhta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I went to Pune, but my friend was not at home.",
+            "Yesterday I went to Pune, and my friend was at home.",
+            "Tomorrow I will go to Pune, but my friend will not be at home."
+          ],
+          "correctAnswer": "Yesterday I went to Pune, but my friend was not at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chala, mi nighto, punha bhetuya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho nakki, kalji ghya ani lavkar bhetuya.",
+            "Nahi, mala tumche naav mahit nahi.",
+            "Ho, mi pan tumchya sobat yeu ka?"
+          ],
+          "correctAnswer": "Ho nakki, kalji ghya ani lavkar bhetuya.",
+          "translatedSentence": "Yes of course, take care and see you soon."
+        }
+      ]
+    }
+  ]
+}

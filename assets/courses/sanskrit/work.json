@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham adhyaapakah asmi.",
+            "aham adhyaapakam pashyaami.",
+            "sah adhyaapakah asti."
+          ],
+          "correctAnswer": "aham adhyaapakah asmi.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham vaidyah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a doctor.",
+            "I am a teacher.",
+            "He is a doctor."
+          ],
+          "correctAnswer": "I am a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kutra kaaryam karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham kaaryaalaye kaaryam karomi.",
+            "aham kaaryaalayam gacchaami.",
+            "mama kaaryam bahu asti."
+          ],
+          "correctAnswer": "aham kaaryaalaye kaaryam karomi.",
+          "translatedSentence": "I work in an office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sah abhiyantaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is an engineer.",
+            "She is an engineer.",
+            "He is a doctor."
+          ],
+          "correctAnswer": "He is an engineer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tvam kim karoshi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chhaatrah asmi.",
+            "tvam chhaatrah asi.",
+            "sah chhaatrah asti."
+          ],
+          "correctAnswer": "aham chhaatrah asmi.",
+          "translatedSentence": "I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama maataa adhyaapikaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is a teacher.",
+            "My sister is a teacher.",
+            "My mother is a doctor."
+          ],
+          "correctAnswer": "My mother is a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kaaryaalayah kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama kaaryaalayah nagare asti.",
+            "mama grham graame asti.",
+            "aham kaaryaalaye kaaryam karomi."
+          ],
+          "correctAnswer": "mama kaaryaalayah nagare asti.",
+          "translatedSentence": "My office is in the city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam kaaryam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work every day.",
+            "I am working today.",
+            "I go to work every day."
+          ],
+          "correctAnswer": "I work every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah pituh kaaryam kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama pitaa krshakah asti.",
+            "mama bhraataa krshakah asti.",
+            "mama pitaa graame asti."
+          ],
+          "correctAnswer": "mama pitaa krshakah asti.",
+          "translatedSentence": "My father is a farmer."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chhaatraah, adya kim pathaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya vayam sanskritam pathaamah.",
+            "adya vayam grham gacchaamah.",
+            "adya aacharyah na aagacchati."
+          ],
+          "correctAnswer": "adya vayam sanskritam pathaamah.",
+          "translatedSentence": "Today we are studying Sanskrit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pustakam atra asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My book is here.",
+            "My pen is here.",
+            "My book is over there."
+          ],
+          "correctAnswer": "My book is here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aacharya, aham ekam prashnam pricchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, pricchatu.",
+            "aam, aham pricchaami.",
+            "na, aham prashnam na jaanaami."
+          ],
+          "correctAnswer": "aam, pricchatu.",
+          "translatedSentence": "Yes, please ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham phalakam pashyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am looking at the blackboard.",
+            "I am looking at the book.",
+            "I am writing on the blackboard."
+          ],
+          "correctAnswer": "I am looking at the blackboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati etat vaakyam avagacchati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham avagacchaami.",
+            "aam, aham likhaami.",
+            "na, aham lekhaniim na pashyaami."
+          ],
+          "correctAnswer": "aam, aham avagacchaami.",
+          "translatedSentence": "Yes, I understand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya punah vadatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please say that again.",
+            "Please write that again.",
+            "Please listen again."
+          ],
+          "correctAnswer": "Please say that again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chhaatra, tava lekhani kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama lekhani atra na asti.",
+            "mama pustakam atra na asti.",
+            "tava lekhani atra asti."
+          ],
+          "correctAnswer": "mama lekhani atra na asti.",
+          "translatedSentence": "My pen is not here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vayam pratidinam sanskritam vadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We speak Sanskrit every day.",
+            "We study Sanskrit every day.",
+            "They speak Sanskrit every day."
+          ],
+          "correctAnswer": "We speak Sanskrit every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya vargah kadaa aarabhate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vargah nava vaadane aarabhate.",
+            "vargah asmin gurukule asti.",
+            "aham vargam gacchaami."
+          ],
+          "correctAnswer": "vargah nava vaadane aarabhate.",
+          "translatedSentence": "The class begins at nine o'clock."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Desk, email and meetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah mezaa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama mezaa vaataayanasya samipe asti.",
+            "mama sanganakam navam asti.",
+            "aham pratidinam kaaryaalayam gacchaami."
+          ],
+          "correctAnswer": "mama mezaa vaataayanasya samipe asti.",
+          "translatedSentence": "My desk is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham vidyullekham likhaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am writing an email.",
+            "I am reading an email.",
+            "I am writing a letter."
+          ],
+          "correctAnswer": "I am writing an email."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya sabhaa kadaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sabhaa dasha vaadane asti.",
+            "sabhaa mama kaaryaalaye asti.",
+            "aham sabhaayaam vadaami."
+          ],
+          "correctAnswer": "sabhaa dasha vaadane asti.",
+          "translatedSentence": "The meeting is at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adhikaari sabhaayaam vadati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The manager is speaking in the meeting.",
+            "The manager is sitting in the meeting.",
+            "My colleague is speaking in the meeting."
+          ],
+          "correctAnswer": "The manager is speaking in the meeting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan mama vidyullekham drishtavaan vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, idaaniim eva drishtavaan.",
+            "aam, aham vidyullekham likhaami.",
+            "na, mama sanganakam atra na asti."
+          ],
+          "correctAnswer": "aam, idaaniim eva drishtavaan.",
+          "translatedSentence": "Yes, I saw it just now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama sahakaari adya na aagatavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My colleague did not come today.",
+            "My colleague came today.",
+            "My manager did not come today."
+          ],
+          "correctAnswer": "My colleague did not come today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya mahyam etat patram dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, idaaniim eva dadaami.",
+            "aam, aham patram likhaami.",
+            "na, aham patram na pathaami."
+          ],
+          "correctAnswer": "aam, idaaniim eva dadaami.",
+          "translatedSentence": "Yes, I will give it to you right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama sanganakam samyak kaaryam na karoti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer is not working properly.",
+            "My computer is working well.",
+            "My telephone is not working properly."
+          ],
+          "correctAnswer": "My computer is not working properly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati adya kaaryaalaye kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham adya bahuni patraani likhaami.",
+            "aham adya kaaryaalayam na gacchaami.",
+            "mama adhikaari adya sabhaayaam asti."
+          ],
+          "correctAnswer": "aham adya bahuni patraani likhaami.",
+          "translatedSentence": "Today I am writing many documents."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tava grihakaaryam samaaptam vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, adyaapi na samaaptam.",
+            "aam, aham grihakaaryam karomi.",
+            "na, mama pustakam atra na asti."
+          ],
+          "correctAnswer": "na, adyaapi na samaaptam.",
+          "translatedSentence": "No, it is not finished yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmaakam parikshaa shvah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our exam is tomorrow.",
+            "Our exam is today.",
+            "Our class is tomorrow."
+          ],
+          "correctAnswer": "Our exam is tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kadaa pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham pratidinam praatah pathaami.",
+            "aham gurukule pathaami.",
+            "aham sanskritam pathaami."
+          ],
+          "correctAnswer": "aham pratidinam praatah pathaami.",
+          "translatedSentence": "I study every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esha prashnah bahu kathinah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This question is very difficult.",
+            "This question is very easy.",
+            "This book is very difficult."
+          ],
+          "correctAnswer": "This question is very difficult."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan parikshaayai sajjah asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham sarvam pathitavaan.",
+            "aam, parikshaa shvah asti.",
+            "na, aham parikshaayaam prashnam pricchaami."
+          ],
+          "correctAnswer": "aam, aham sarvam pathitavaan.",
+          "translatedSentence": "Yes, I have studied everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham saayankaale grihakaaryam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do my homework in the evening.",
+            "I do my homework in the morning.",
+            "I do my office work in the evening."
+          ],
+          "correctAnswer": "I do my homework in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mitra, mahyam saahaayyam karoshi vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, avashyam karomi.",
+            "aam, tvam grihakaaryam karoshi.",
+            "na, aham saahaayyam icchaami."
+          ],
+          "correctAnswer": "aam, avashyam karomi.",
+          "translatedSentence": "Yes, of course I will help you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adhyaapikaa asmaakam uttaraani pashyati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is looking at our answers.",
+            "The teacher is looking at our books.",
+            "The teacher is writing our answers."
+          ],
+          "correctAnswer": "The teacher is looking at our answers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hyah parikshaa katham aasit?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "parikshaa sulabhaa aasit.",
+            "parikshaa shvah asti.",
+            "aham parikshaayai pathaami."
+          ],
+          "correctAnswer": "parikshaa sulabhaa aasit.",
+          "translatedSentence": "The exam was easy."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kaaryam kadaa aarabhate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama kaaryam nava vaadane aarabhate.",
+            "mama kaaryam saayam samaapyate.",
+            "mama kaaryaalayah duure asti."
+          ],
+          "correctAnswer": "mama kaaryam nava vaadane aarabhate.",
+          "translatedSentence": "My work starts at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya vilambena aagatavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came late today.",
+            "I came early today.",
+            "I will come late today."
+          ],
+          "correctAnswer": "I came late today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya kimartham vilambah abhavat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kshamyataam, mama yaanam vilambena aagatam.",
+            "kshamyataam, aham shvah aagamishyaami.",
+            "aam, aham idaaniim kaaryaalaye asmi."
+          ],
+          "correctAnswer": "kshamyataam, mama yaanam vilambena aagatam.",
+          "translatedSentence": "Sorry, my bus was late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya mama avakaashah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have the day off today.",
+            "I have the day off tomorrow.",
+            "I have a meeting today."
+          ],
+          "correctAnswer": "I have the day off today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya mahyam shvah avakaasham dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, kintu adya kaaryam samaapayatu.",
+            "aam, aham shvah avakaasham icchaami.",
+            "na, shvah sarveshaam avakaashah asti."
+          ],
+          "correctAnswer": "aam, kintu adya kaaryam samaapayatu.",
+          "translatedSentence": "Yes, but please finish the work today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavan vilambena aagacchati tarhi mahyam vadatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are going to be late, please tell me.",
+            "If you come early, please tell me.",
+            "If you are late, please tell the manager."
+          ],
+          "correctAnswer": "If you are going to be late, please tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya kaaryam kadaa samaapyate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya kaaryam saayam shat vaadane samaapyate.",
+            "adya kaaryam praatah ashta vaadane aarabhate.",
+            "adya sabhaa dasha vaadane aasit."
+          ],
+          "correctAnswer": "adya kaaryam saayam shat vaadane samaapyate.",
+          "translatedSentence": "Today the work finishes at six in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham praatah ashta vaadane kaaryaalayam gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office at eight in the morning.",
+            "I go to the office at eight in the evening.",
+            "I come to the office at nine in the morning."
+          ],
+          "correctAnswer": "I go to the office at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah bhavati kaaryaalayam aagacchati vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, yatah shvah mama parikshaa asti.",
+            "aam, yatah shvah mama avakaashah asti.",
+            "na, aham adya vilambena aagatavati."
+          ],
+          "correctAnswer": "na, yatah shvah mama parikshaa asti.",
+          "translatedSentence": "No, because I have an exam tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aagaami varshe bhavatah kim lakshyam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham sanskritam samyak vaktum icchaami.",
+            "aham pratidinam sanskritam pathaami.",
+            "mama lakshyam mama adhikaari jaanaati."
+          ],
+          "correctAnswer": "aham sanskritam samyak vaktum icchaami.",
+          "translatedSentence": "I want to speak Sanskrit well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aagaami varshe aham navam kaaryam kartum icchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Next year I want to take a new job.",
+            "Next year I want to start a new class.",
+            "This year I want to take a new job."
+          ],
+          "correctAnswer": "Next year I want to take a new job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyaah padonnatih abhavat vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, gate maase eva abhavat.",
+            "aam, kintu mama vetanam alpam asti.",
+            "na, aham navam kaaryam pricchaami."
+          ],
+          "correctAnswer": "aam, gate maase eva abhavat.",
+          "translatedSentence": "Yes, it happened just last month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bahu prayatnam krtavaan, atah mama adhikaari santushtah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I worked very hard, so my manager is pleased.",
+            "I worked very hard, but my manager is not pleased.",
+            "I did not work hard, so my manager is not pleased."
+          ],
+          "correctAnswer": "I worked very hard, so my manager is pleased."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kimartham sanskritam pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yatah aham gurukule paathayitum icchaami.",
+            "yatah mama parikshaa hyah aasit.",
+            "aham saayankaale sanskritam pathaami."
+          ],
+          "correctAnswer": "yatah aham gurukule paathayitum icchaami.",
+          "translatedSentence": "Because I want to teach in a gurukula."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi aham pratidinam abhyaasam karomi tarhi aham lakshyam praapsyaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I practise every day, I will reach my goal.",
+            "If I practise every day, I will finish my work.",
+            "If I study every day, I will pass the exam."
+          ],
+          "correctAnswer": "If I practise every day, I will reach my goal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan aagaami varshe kutra kaaryam karishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham asmin eva kaaryaalaye kaaryam karishyaami.",
+            "aham gate varshe atra kaaryam krtavaan.",
+            "mama kaaryaalayah nagarasya madhye asti."
+          ],
+          "correctAnswer": "aham asmin eva kaaryaalaye kaaryam karishyaami.",
+          "translatedSentence": "I will go on working in this same office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama adhikaari avadat yat mama vetanam vardhishyate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My manager said that my salary will go up.",
+            "My manager said that my work will go up.",
+            "My colleague said that my salary will go up."
+          ],
+          "correctAnswer": "My manager said that my salary will go up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aagaami varshe vayam kim karishyaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vayam militvaa navam kaaryam karishyaamah.",
+            "vayam gate varshe navam kaaryam krtavantah.",
+            "aham ekaakii eva kaaryam karomi."
+          ],
+          "correctAnswer": "vayam militvaa navam kaaryam karishyaamah.",
+          "translatedSentence": "We will take on a new project together."
+        }
+      ]
+    }
+  ]
+}

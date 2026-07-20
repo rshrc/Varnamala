@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Bus, train, station",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham sthaanakam gacchaami.",
+            "aham grham aagacchaami.",
+            "aham atra tishthaami."
+          ],
+          "correctAnswer": "aham sthaanakam gacchaami.",
+          "translatedSentence": "I am going to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "lokayaanam sthaanake tishthati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus is waiting at the station.",
+            "The train is leaving the station.",
+            "The bus is going to the temple."
+          ],
+          "correctAnswer": "The bus is waiting at the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kena gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham lokayaanena gacchaami.",
+            "aham sthaanake tishthaami.",
+            "aham patram icchaami."
+          ],
+          "correctAnswer": "aham lokayaanena gacchaami.",
+          "translatedSentence": "I go by bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham dhoomashakatena gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going by train.",
+            "I am going by bus.",
+            "I am walking to the station."
+          ],
+          "correctAnswer": "I am going by train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idam lokayaanam kutra gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idam devaalayam gacchati.",
+            "aham api tatra gacchaami.",
+            "kshamyataam, aham na jaanaami."
+          ],
+          "correctAnswer": "idam devaalayam gacchati.",
+          "translatedSentence": "This one goes to the temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sthaanakam atra samipe asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The station is close by.",
+            "The station is very far away.",
+            "The temple is close by."
+          ],
+          "correctAnswer": "The station is close by."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dhoomashakatam kadaa aagacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shakatam dashavaadane aagacchati.",
+            "aham dashavaadane gacchaami.",
+            "shakatam sthaanake tishthati."
+          ],
+          "correctAnswer": "shakatam dashavaadane aagacchati.",
+          "translatedSentence": "The train comes at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham api sthaanakam gacchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the station too.",
+            "I am going to the market too.",
+            "I am not going to the station."
+          ],
+          "correctAnswer": "I am going to the station too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yaanam kutra tishthati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yaanam atra eva tishthati.",
+            "yaanam duure gacchati.",
+            "aham tatra gacchaami."
+          ],
+          "correctAnswer": "yaanam atra eva tishthati.",
+          "translatedSentence": "The bus stops right here."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kim icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ekam yaanapatram icchaami.",
+            "aham atra tishthaami.",
+            "aham samayam na jaanaami."
+          ],
+          "correctAnswer": "aham ekam yaanapatram icchaami.",
+          "translatedSentence": "I would like one ticket."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "patrasya mulyam kiyat asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does the ticket cost?",
+            "Where do I get the ticket?",
+            "What time is the train?"
+          ],
+          "correctAnswer": "How much does the ticket cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kati patraani icchati bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dve patre icchaami.",
+            "aham kimapi na icchaami.",
+            "patram bahu mahargham asti."
+          ],
+          "correctAnswer": "dve patre icchaami.",
+          "translatedSentence": "I would like two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asya patrasya mulyam shatam rupyakaani asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This ticket costs a hundred rupees.",
+            "This ticket costs fifty rupees.",
+            "I have a hundred rupees with me."
+          ],
+          "correctAnswer": "This ticket costs a hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shakatam kasmin samaye gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shakatam saptavaadane gacchati.",
+            "shakatam vilambena asti.",
+            "aham samayam prcchaami."
+          ],
+          "correctAnswer": "shakatam saptavaadane gacchati.",
+          "translatedSentence": "The train leaves at seven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa ekam patram dadaatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me one ticket.",
+            "Please give me two tickets.",
+            "Please tell me the time."
+          ],
+          "correctAnswer": "Please give me one ticket."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kutra gantum icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham vipanim gantum icchaami.",
+            "aham atra sthaatum icchaami.",
+            "mama patram na asti."
+          ],
+          "correctAnswer": "aham vipanim gantum icchaami.",
+          "translatedSentence": "I want to go to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya patraani na santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are no tickets today.",
+            "There are plenty of tickets today.",
+            "The tickets are here today."
+          ],
+          "correctAnswer": "There are no tickets today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "agrimam yaanam kadaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "agrimam yaanam ekaghantaanantaram aagacchati.",
+            "agrimam yaanam adya na asti.",
+            "aham agrimena yaanena gacchaami."
+          ],
+          "correctAnswer": "agrimam yaanam ekaghantaanantaram aagacchati.",
+          "translatedSentence": "The next bus comes in an hour."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "devaalayah kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "devaalayah dakshinatah asti.",
+            "aham devaalayam gacchaami.",
+            "devaalaye bahavah janaah santi."
+          ],
+          "correctAnswer": "devaalayah dakshinatah asti.",
+          "translatedSentence": "The temple is on the right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa puratah gacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please go straight ahead.",
+            "Please turn to the left.",
+            "Please come over here."
+          ],
+          "correctAnswer": "Please go straight ahead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vipanim katham gacchaami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "puratah gatvaa vaamatah gacchatu.",
+            "vipanih atra na asti.",
+            "aham vipanim na jaanaami."
+          ],
+          "correctAnswer": "puratah gatvaa vaamatah gacchatu.",
+          "translatedSentence": "Go straight ahead and then turn left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aapanah maargasya vaamatah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop is on the left side of the road.",
+            "The shop is on the right side of the road.",
+            "The shop is at the end of the road."
+          ],
+          "correctAnswer": "The shop is on the left side of the road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sthaanakam itah kiyati duure asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tat bahu duure na asti, samipe eva asti.",
+            "aham tatra paadaabhyaam gacchaami.",
+            "sthaanake bahavah janaah santi."
+          ],
+          "correctAnswer": "tat bahu duure na asti, samipe eva asti.",
+          "translatedSentence": "It is not far at all, it is quite close."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham atra navaagatah asmi, maargam na jaanaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am new here, so I do not know the way.",
+            "I live here, but I do not know the way.",
+            "I know this road very well."
+          ],
+          "correctAnswer": "I am new here, so I do not know the way."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa maargam darshayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aagacchatu, aham darshayaami.",
+            "aham api maargam prcchaami.",
+            "ayam maargah dirghah asti."
+          ],
+          "correctAnswer": "aagacchatu, aham darshayaami.",
+          "translatedSentence": "Come along, I will show you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vipanih devaalayasya samipe asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The market is near the temple.",
+            "The market is far from the temple.",
+            "The shop is near the temple."
+          ],
+          "correctAnswer": "The market is near the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam, aapanah kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aapanah asya maargasya ante asti.",
+            "aapane bahuni vastuni santi.",
+            "aham aapanam gacchaami."
+          ],
+          "correctAnswer": "aapanah asya maargasya ante asti.",
+          "translatedSentence": "The shop is at the end of this road."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kutra nayaami bhavantam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maam sthaanakam nayatu.",
+            "aham trichakrikaam icchaami.",
+            "shulkam adya adhikam asti."
+          ],
+          "correctAnswer": "maam sthaanakam nayatu.",
+          "translatedSentence": "Please take me to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa maapakam chaalayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please run the meter.",
+            "Please stop the meter.",
+            "Please tell me the fare."
+          ],
+          "correctAnswer": "Please run the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sthaanakaparyantam shulkam kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shulkam ashitih rupyakaani asti.",
+            "sthaanakam bahu duure na asti.",
+            "aham maapakam pashyaami."
+          ],
+          "correctAnswer": "shulkam ashitih rupyakaani asti.",
+          "translatedSentence": "The fare is eighty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maapakaanusaaram eva aham dhanam dadaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will pay only what the meter says.",
+            "I will pay you a hundred rupees.",
+            "I do not have any money on me."
+          ],
+          "correctAnswer": "I will pay only what the meter says."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kutra yaanam sthaapayaami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "atra eva sthaapayatu.",
+            "yaanam vegena chaalayatu.",
+            "aham atra na avataraami."
+          ],
+          "correctAnswer": "atra eva sthaapayatu.",
+          "translatedSentence": "Please stop right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "trichakrikaayaah shulkam adhikam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The auto fare is too high.",
+            "The auto fare is quite cheap.",
+            "There are no autos here."
+          ],
+          "correctAnswer": "The auto fare is too high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shulkam adhikam asti, krpayaa alpam nyunam karotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, shatam rupyakaani eva dadaatu.",
+            "aam, maapakam adya navam asti.",
+            "na, aham sthaanakam na gacchaami."
+          ],
+          "correctAnswer": "aam, shatam rupyakaani eva dadaatu.",
+          "translatedSentence": "All right, just give me a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa shighram chaalayatu, mama yaanasya samayah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please drive fast, my train is about to leave.",
+            "Please drive slowly, I have plenty of time.",
+            "Please stop, I want to get down here."
+          ],
+          "correctAnswer": "Please drive fast, my train is about to leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maapakam kaaryam na karoti, tarhi katham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi aham anyat yaanam pashyaami.",
+            "tarhi dvishatam rupyakaani dadaatu.",
+            "tarhi aham sthaanake tishthaami."
+          ],
+          "correctAnswer": "tarhi aham anyat yaanam pashyaami.",
+          "translatedSentence": "Then I will look for another vehicle."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kati dinaani atra tishthati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham trini dinaani atra tishthaami.",
+            "aham ekaam kakshaam icchaami.",
+            "mama kunchikaa na asti."
+          ],
+          "correctAnswer": "aham trini dinaani atra tishthaami.",
+          "translatedSentence": "I am staying here for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kakshaayaah mulyam ekasmin dine kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does the room cost for one day?",
+            "How much does the room cost for three days?",
+            "How many rooms are there here?"
+          ],
+          "correctAnswer": "How much does the room cost for one day?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kakshaayaam ushnajalam asti kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, praatahkaale ushnajalam labhyate.",
+            "aam, kakshaa dvitiyatale asti.",
+            "na, adya bhojanam na asti."
+          ],
+          "correctAnswer": "aam, praatahkaale ushnajalam labhyate.",
+          "translatedSentence": "Yes, hot water is available in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama kakshaayaah kunchikaa na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have the key to my room.",
+            "The key to my room is right here.",
+            "My room does not open at all."
+          ],
+          "correctAnswer": "I do not have the key to my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama kakshaa kutra asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavatah kakshaa dvitiyatale asti.",
+            "kakshaayaam ushnajalam api asti.",
+            "kunchikaa mama samipe asti."
+          ],
+          "correctAnswer": "bhavatah kakshaa dvitiyatale asti.",
+          "translatedSentence": "Your room is on the second floor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "atra bhojanam kadaa labhyate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When is food served here?",
+            "Where is food served here?",
+            "Is any food available here?"
+          ],
+          "correctAnswer": "When is food served here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa mama syutam kakshaam nayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham shighram nayaami.",
+            "aam, syutah bahu laghuh asti.",
+            "na, kunchikaa kakshaayaam eva asti."
+          ],
+          "correctAnswer": "aam, aham shighram nayaami.",
+          "translatedSentence": "Yes, I will take it up right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpayaa praatah saptavaadane maam bodhayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please wake me at seven in the morning.",
+            "Please wake me at nine in the morning.",
+            "Please call me at seven in the evening."
+          ],
+          "correctAnswer": "Please wake me at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kakshaa bhavate rocate kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, kakshaa uttamaa asti, kintu alpam ushnaa asti.",
+            "aam, kakshaayaah mulyam adhikam asti.",
+            "na, aham kakshaam na drshtavaan."
+          ],
+          "correctAnswer": "aam, kakshaa uttamaa asti, kintu alpam ushnaa asti.",
+          "translatedSentence": "Yes, the room is good, but it is a little hot."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yaanam vilambena aagacchati kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, dhoomashakatam ekaghantam vilambena aagacchati.",
+            "na, shakatam samaye eva aagacchati.",
+            "aham sthaanake prateekshaam karomi."
+          ],
+          "correctAnswer": "aam, dhoomashakatam ekaghantam vilambena aagacchati.",
+          "translatedSentence": "Yes, the train is running an hour late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yatah varshaa asti, atah lokayaanam vilambena aagacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus is late because it is raining.",
+            "The bus left early because of the rain.",
+            "It is raining, but the bus is on time."
+          ],
+          "correctAnswer": "The bus is late because it is raining."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah kim nashtam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama krshnavarnah syutah nashtah, tasmin mama patraani santi.",
+            "mama kunchikaa kakshaayaam eva asti.",
+            "aham syutam sthaanake drshtavaan."
+          ],
+          "correctAnswer": "mama krshnavarnah syutah nashtah, tasmin mama patraani santi.",
+          "translatedSentence": "My black bag is lost, and my papers are inside it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham mama petikaam dhoomashakate eva vismrtavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I left my suitcase behind on the train.",
+            "I lost my suitcase at the station.",
+            "I found my suitcase on the train."
+          ],
+          "correctAnswer": "I left my suitcase behind on the train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpayaa saahaayyam karotu, mama syutah na labhyate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chintaa maa astu, aham anveshayaami.",
+            "chintaa maa astu, aham api yaanena gacchaami.",
+            "bhavatah syutah bahu mahaan asti."
+          ],
+          "correctAnswer": "chintaa maa astu, aham anveshayaami.",
+          "translatedSentence": "Do not worry, I will look for it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi syutah labhyate tarhi maam duurabhaashena aahvayatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the bag is found, please call me on the phone.",
+            "When the bag is found, I will come to the station.",
+            "If the bag is not found, I will call you."
+          ],
+          "correctAnswer": "If the bag is found, please call me on the phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama yaanam gatam, idaanim aham kim karomi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chintaa maa astu, aparaahne anyat yaanam asti.",
+            "bhavan yaanam samaye eva praaptavaan.",
+            "yaanam adya sthaanakam na aagatam."
+          ],
+          "correctAnswer": "chintaa maa astu, aparaahne anyat yaanam asti.",
+          "translatedSentence": "Do not worry, there is another bus in the afternoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham dhanam api patram api na praaptavaan, atah bahu chintitah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got back neither my money nor my ticket, so I am very worried.",
+            "I got back my money but not my ticket, so I am a little worried.",
+            "I still have my ticket, so I am not worried at all."
+          ],
+          "correctAnswer": "I got back neither my money nor my ticket, so I am very worried."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah saahaayyaartham aham kim kartum shaknomi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "krpayaa ekaam trichakrikaam aahvayatu, aham vasatigrham gantum icchaami.",
+            "aam, aham bhavantam sthaanake drshtavaan.",
+            "mama yaanam saptavaadane aasit."
+          ],
+          "correctAnswer": "krpayaa ekaam trichakrikaam aahvayatu, aham vasatigrham gantum icchaami.",
+          "translatedSentence": "Please call an auto, I want to go to my lodging."
+        }
+      ]
+    }
+  ]
+}

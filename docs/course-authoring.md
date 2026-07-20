@@ -8,13 +8,14 @@ editing these files and hot-restarting the app.
 assets/courses/tamil/
   manifest.json      course order, tree layout, icon + colour for each course
   dictionary.json    romanized word -> English gloss (powers the tap-a-word hint)
+  notes.json         Mala's aside beside each course on the map (optional)
   basics.json        one file per course, holding all of its levels
   greetings.json
   ...
 ```
 
 Loading and validation live in [`lib/courses/course_repository.dart`](../lib/courses/course_repository.dart)
-and [`tool/validate_courses.py`](../tool/validate_courses.py).
+and [`tool/validate_courses.rb`](../tool/validate_courses.rb).
 
 ## manifest.json
 
@@ -27,13 +28,35 @@ and [`tool/validate_courses.py`](../tool/validate_courses.py).
   // side, three draw as a row — that alternation is what makes the path wind.
   "tree": [["basics"], ["greetings"], ["introductions", "family"]],
   "courses": [
-    { "id": "basics", "title": "Basics", "icon": "egg", "color": "0xff2b70c9" }
+    { "id": "basics", "title": "Basics", "icon": "egg", "color": "0xff1D998D" }
   ]
 }
 ```
 
 `icon` names a file in `assets/images/<icon>.png`. Every id in `tree` must have a
 matching entry in `courses`, and vice versa.
+
+Colours are **computed**, not chosen — `tool/generate_manifests.rb` solves each
+course's lightness so all fifteen sit at the same relative luminance. Regenerate
+rather than hand-editing them, or one node will start shouting over the others.
+
+## notes.json
+
+Optional. Each entry pins a short fact about the language beside one course on
+the map, shown when the learner taps Mala:
+
+```json
+{
+  "notes": [
+    { "after": "family", "mood": "cute",
+      "text": "Tamil ranks siblings before it names them: anna is older brother, thambi younger." }
+  ]
+}
+```
+
+`mood` picks the mascot pose (`cute`, `excited`, `wave`, `asking`). Keep notes
+under 24 words and make them *teach* — generic encouragement is worse than an
+empty space.
 
 ## `<course>.json`
 
@@ -126,5 +149,5 @@ Keys are lowercased and stripped of punctuation on load, so `"enna?"` in a
 sentence finds the `"enna"` entry. Glosses should be short enough to read in a
 tooltip — for an inflected form, gloss the form ("I will come"), not the root.
 
-Run `python3 tool/validate_courses.py` after editing anything here; it checks the
+Run `ruby tool/validate_courses.rb` after editing anything here; it checks the
 schema, the counts, answer/option agreement, ASCII-ness, and dictionary coverage.

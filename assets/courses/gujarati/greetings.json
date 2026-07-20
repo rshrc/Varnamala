@@ -1,0 +1,505 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hu majama chu.", "Maru naam Meera che.", "Hu ghare jaun chu."],
+          "correctAnswer": "Hu majama chu.",
+          "translatedSentence": "I am doing well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu pan majama chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am fine too.", "I am not fine.", "I am going home too."],
+          "correctAnswer": "I am fine too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kem cho, kaka?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hu saras chu, aabhar.", "Mane khabar nathi.", "Tame kya raho cho?"],
+          "correctAnswer": "Hu saras chu, aabhar.",
+          "translatedSentence": "I am great, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tu kem che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["How are you?", "Where are you?", "Who are you?"],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kem, badhu saru che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha, badhu saru che.", "Na, mane khabar nathi.", "Hu Ahmedabad jaun chu."],
+          "correctAnswer": "Ha, badhu saru che.",
+          "translatedSentence": "Yes, everything is good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gharna badha majama che.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Everyone at home is doing well.", "Everyone at home is coming.", "Nobody is at home."],
+          "correctAnswer": "Everyone at home is doing well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shu chale che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kai khas nahi, badhu thik che.", "Hu tamne olakhu chu.", "Mane chaas bahu bhave che."],
+          "correctAnswer": "Kai khas nahi, badhu thik che.",
+          "translatedSentence": "Nothing much, everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamne joine anand thayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["It is a pleasure to see you.", "I want to see you.", "I did not see you."],
+          "correctAnswer": "It is a pleasure to see you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tabiyat kevi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Have tabiyat saras che.", "Hu kaale avish.", "Mane thodu kaam che."],
+          "correctAnswer": "Have tabiyat saras che.",
+          "translatedSentence": "My health is good now."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning, good night, welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhat! Kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Suprabhat! Hu majama chu.", "Shubh ratri, aavjo.", "Maaf karjo, mane khabar nathi."],
+          "correctAnswer": "Suprabhat! Hu majama chu.",
+          "translatedSentence": "Good morning! I am doing well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aavo, padharo! Tamaru swagat che.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Come in, welcome! We are glad to have you.", "Please go home now, it is late.", "I am coming to your house today."],
+          "correctAnswer": "Come in, welcome! We are glad to have you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu have suva jaun chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Shubh ratri, saras unghajo.", "Suprabhat, chaa piyo.", "Aavjo, fari malishu."],
+          "correctAnswer": "Shubh ratri, saras unghajo.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu roj savare chaa piu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I drink tea every morning.", "I drink tea every night.", "I do not drink tea at all."],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhat, aaje savare shu karo cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hu Sabarmati kanthe chalva jaun chu.", "Raate hu vahela sui gayo hato.", "Mane aa vaat ni kai khabar nathi."],
+          "correctAnswer": "Hu Sabarmati kanthe chalva jaun chu.",
+          "translatedSentence": "I am going for a walk along the Sabarmati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubh ratri, kaale savare maliye.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Good night, let us meet tomorrow morning.", "Good morning, let us meet tonight.", "Good night, I am leaving tomorrow."],
+          "correctAnswer": "Good night, let us meet tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaale ghare padharo, saathe jamishu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Chokkas, hu jarur aavish.", "Na, mane atyare bhookh nathi lagi.", "Aabhar, jaman bahu saras hatu."],
+          "correctAnswer": "Chokkas, hu jarur aavish.",
+          "translatedSentence": "Of course, I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamaru swagat che, andar aavo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["You are welcome, please come inside.", "You are welcome, please wait outside.", "Thank you for inviting me inside."],
+          "correctAnswer": "You are welcome, please come inside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaje raat bahu thandi che.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha, garam kapda paherjo ane shubh ratri.", "Ha, aaje savare bahu garmi hati.", "Mane thandi bilkul nathi lagti."],
+          "correctAnswer": "Ha, garam kapda paherjo ane shubh ratri.",
+          "translatedSentence": "Yes, wear warm clothes and good night."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you, sorry, please",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa tamara mate chaas laavyo chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Bahu bahu aabhar, tamne takleef aapi.", "Maaf karjo, hu modo padyo.", "Kripa kari ne mane rasto batavo."],
+          "correctAnswer": "Bahu bahu aabhar, tamne takleef aapi.",
+          "translatedSentence": "Thank you so much, I put you to trouble."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maaf karjo, mane modu thai gayu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Sorry, I am late.", "Excuse me, where is the door?", "Thank you for waiting for me."],
+          "correctAnswer": "Sorry, I am late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf karjo, station no rasto kya che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kripa kari ne aa raste sidha jao.", "Aabhar, mane rasto khabar che.", "Hu tamne pachhi phone karish."],
+          "correctAnswer": "Kripa kari ne aa raste sidha jao.",
+          "translatedSentence": "Please go straight down this road."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripa kari ne mane thodu paani aapo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Please give me a little water.", "Please give me a little tea.", "I do not want any water."],
+          "correctAnswer": "Please give me a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mari bhool thai gai, maaf karjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kai vandho nahi, jaava do.", "Aabhar, tame bahu saras karyu.", "Ha, mane bhookh lagi che."],
+          "correctAnswer": "Kai vandho nahi, jaava do.",
+          "translatedSentence": "No problem, let it go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tamari madad mate bahu bahu aabhar.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Thank you very much for your help.", "Please help me a little more.", "I helped you a lot that day."],
+          "correctAnswer": "Thank you very much for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf karjo, hu andar aavi shaku?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha ji, jarur aavo ane besho.", "Na, hu bahar jaun chu.", "Aabhar, hu kaale aavish."],
+          "correctAnswer": "Ha ji, jarur aavo ane besho.",
+          "translatedSentence": "Yes, of course come in and sit down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane maaf karo, hu tamne olakhi na shakyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Forgive me, I did not recognise you.", "Excuse me, I do not know your name.", "Sorry, I cannot help you today."],
+          "correctAnswer": "Forgive me, I did not recognise you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame mari bahu madad kari.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aema shu, aa to mari faraj hati.", "Maaf karjo, mane khabar nathi.", "Kripa kari ne modu na karo."],
+          "correctAnswer": "Aema shu, aa to mari faraj hati.",
+          "translatedSentence": "It was nothing, it was simply my duty."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Have hu nikalu chu, aavjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aavjo, sambhaline jajo.", "Aavo, besho, chaa piyo.", "Suprabhat, tame kem cho?"],
+          "correctAnswer": "Aavjo, sambhaline jajo.",
+          "translatedSentence": "Goodbye, go carefully."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aapne fari kyare maliye?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["When shall we meet again?", "Where shall we meet again?", "Why did we meet again?"],
+          "correctAnswer": "When shall we meet again?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaale sanje maliye?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha, sanje saat vagye malishu.", "Na, mane chaas nathi bhavti.", "Hu Surat ma rahu chu."],
+          "correctAnswer": "Ha, sanje saat vagye malishu.",
+          "translatedSentence": "Yes, we will meet at seven in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhyan rakhjo ane pahonchi ne phone karjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Take care and call me once you arrive.", "Take care and come back tomorrow.", "Call me before you leave the house."],
+          "correctAnswer": "Take care and call me once you arrive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mari train atyare upade che.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["To jaldi jao, aavjo ane dhyan rakhjo.", "To besi jao, chaa pi ne jajo.", "Mane train no samay khabar nathi."],
+          "correctAnswer": "To jaldi jao, aavjo ane dhyan rakhjo.",
+          "translatedSentence": "Then hurry along, goodbye and take care."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu jaun chu, pan hu jaldi pacho avish.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am leaving, but I will come back soon.", "I am leaving and I will not come back.", "I came back quickly yesterday."],
+          "correctAnswer": "I am leaving, but I will come back soon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne maline bahu saru lagyu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Mane pan, fari maliye.", "Mane atyare bhookh lagi che.", "Hu tamne olakhto nathi."],
+          "correctAnswer": "Mane pan, fari maliye.",
+          "translatedSentence": "Same here, let us meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghare pahonchi ne mane sandesho mokaljo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Send me a message once you reach home.", "Call me before you reach home.", "I will send you a message from home."],
+          "correctAnswer": "Send me a message once you reach home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hu kaale Ahmedabad thi nikli jaun chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["To aavjo, tamaro pravaas saras jaay.", "To ghare aavo, saathe jamishu.", "Mane Ahmedabad no rasto khabar nathi."],
+          "correctAnswer": "To aavjo, tamaro pravaas saras jaay.",
+          "translatedSentence": "Then goodbye, have a good journey."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Talking to elders politely",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beta, tu kya rahe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hu Surat ma rahu chu, kaka.", "Tame kya raho cho, beta?", "Mane khabar nathi ke tame kon cho."],
+          "correctAnswer": "Hu Surat ma rahu chu, kaka.",
+          "translatedSentence": "I live in Surat, uncle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vadilo ne hamesha tame kahine bolavva joie.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["You should always address elders with the polite form.", "You should always speak loudly to elders.", "Elders always speak politely to us."],
+          "correctAnswer": "You should always address elders with the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada, tamne kai joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha beta, mane thodu paani aapish?", "Na, hu tamne olakhto nathi.", "Aavjo, aapne fari malishu."],
+          "correctAnswer": "Ha beta, mane thodu paani aapish?",
+          "translatedSentence": "Yes son, would you give me a little water?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mitro saathe tu bolay, pan vadilo saathe tame bolay.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["With friends you say tu, but with elders you say tame.", "With friends and with elders you always say tame.", "Elders say tu to us and we say tu to them."],
+          "correctAnswer": "With friends you say tu, but with elders you say tame."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf karjo saheb, tame ahiya nava cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha ji, hu gai kaale ja aavyo chu.", "Na, tu ahiya nathi rehto.", "Mane aa shaher no rasto khabar che."],
+          "correctAnswer": "Ha ji, hu gai kaale ja aavyo chu.",
+          "translatedSentence": "Yes sir, I only arrived yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap besho, hu tamara mate chaa banavu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Please sit, I will make tea for you.", "Please sit, I will bring water for you.", "I sat down and drank the tea."],
+          "correctAnswer": "Please sit, I will make tea for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ben, aa jagya khali che?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha, tame khushi thi ahiya besi shako cho.", "Na, mane aa jagya nathi gami.", "Hu aa jagya e roj aavu chu."],
+          "correctAnswer": "Ha, tame khushi thi ahiya besi shako cho.",
+          "translatedSentence": "Yes, you are welcome to sit here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu mara shikshak ne hamesha tame kahine bolavu chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I always address my teacher with the polite form.", "My teacher always speaks politely to me.", "I never speak to my teacher at all."],
+          "correctAnswer": "I always address my teacher with the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaka, hu tamne mari gaadi ma muki jaun?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aabhar beta, pan hu chalta jais.", "Ha, tu mari gaadi ma besi ja.", "Mane gaadi chalavta nathi aavadtu."],
+          "correctAnswer": "Aabhar beta, pan hu chalta jais.",
+          "translatedSentence": "Thank you son, but I will walk."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Meeting after a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Are, tame to ketla varas pachhi malya!",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ha ne, hu Surat rehva jato rahyo hato etle mulakat na thai.", "Na, hu tamne roj sanje malu chu.", "Maaf karjo, mane tamaro sandesho malyo nathi."],
+          "correctAnswer": "Ha ne, hu Surat rehva jato rahyo hato etle mulakat na thai.",
+          "translatedSentence": "I know, I had moved to Surat so we never got to meet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu tamne malva mangto hato pan mane tamaro number khabar na hato.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I wanted to meet you but I did not have your number.", "I met you but I had forgotten your number.", "I will give you my number when we meet."],
+          "correctAnswer": "I wanted to meet you but I did not have your number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gharma badha kem che? Chokra o motha thai gaya hashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Badha majama che, ane dikri to have college ma bhane che.", "Mane gharni kai khabar nathi, hu ekalo rahu chu.", "Ha, kaale savare hu ghare ja hato."],
+          "correctAnswer": "Badha majama che, ane dikri to have college ma bhane che.",
+          "translatedSentence": "Everyone is well, and my daughter is in college now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame Ahmedabad aavo to mane jarur phone karjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If you come to Ahmedabad, be sure to call me.", "When I come to Ahmedabad, I will call you.", "I called you because you were in Ahmedabad."],
+          "correctAnswer": "If you come to Ahmedabad, be sure to call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chalo, ahiya besi ne chaa pisu ane vaato karisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Chalo, mane pan tamari saathe nirante vaato karvi che.", "Chaa to me have ja banavi hati, tame pi lidhi?", "Hu ahiya kadi aavyo nathi ane mane rasto khabar nathi."],
+          "correctAnswer": "Chalo, mane pan tamari saathe nirante vaato karvi che.",
+          "translatedSentence": "Let us do that, I would also like a proper chat with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame chhelle Uttarayan ma malya hata, ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["We last met at Uttarayan, didn't we?", "We will meet at Uttarayan this year, won't we?", "We have never met at Uttarayan."],
+          "correctAnswer": "We last met at Uttarayan, didn't we?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari tabiyat have kevi che? Me sambhalyu hatu ke tame bimar hata.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Have saru che, pan doctor e mane aaram karva kahyu che.", "Mane kadi bimari nathi thati kem ke hu roj chalva jaun chu.", "Ha, mane pan sambhalyu ke tame bimar hata."],
+          "correctAnswer": "Have saru che, pan doctor e mane aaram karva kahyu che.",
+          "translatedSentence": "I am better now, but the doctor has told me to rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaje tame jamva rokao, me undhiyu ane thepla banavya che.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Stay for the meal today, I have made undhiyu and thepla.", "Come for a meal tomorrow, I will make undhiyu and thepla.", "I ate undhiyu and thepla at your house today."],
+          "correctAnswer": "Stay for the meal today, I have made undhiyu and thepla."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Have aapne aatlu lambu antar na rakhiye, kem?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Sacchu, have hu dar mahine tamne phone karish.", "Ha, pan mane tamaru sarnamu khabar nathi.", "Na, hu kaale ja Vadodara jato rahish."],
+          "correctAnswer": "Sacchu, have hu dar mahine tamne phone karish.",
+          "translatedSentence": "True, from now on I will call you every month."
+        }
+      ]
+    }
+  ]
+}

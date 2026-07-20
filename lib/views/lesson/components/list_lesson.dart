@@ -247,36 +247,46 @@ class QuestionRow extends StatelessWidget {
     return words.map((word) {
       final meaning = getWordMeaning(word);
 
-      // Only words we can actually explain get the dotted "tap me" affordance,
-      // so a learner never taps into an empty tooltip.
-      if (meaning == null) {
-        return TextSpan(text: '$word ', style: baseStyle);
-      }
-
       return TextSpan(
         children: [
           WidgetSpan(
             alignment: PlaceholderAlignment.middle,
             child: Tooltip(
+              key: ValueKey('gloss-$word'),
               triggerMode: TooltipTriggerMode.tap,
               enableFeedback: true,
-              message: meaning,
+              // Every target-language word is tappable. A word with no gloss
+              // says so rather than opening an empty box.
+              message: meaning ?? 'No meaning yet',
               textStyle: const TextStyle(
                 color: Colors.white,
-                fontSize: 14,
+                fontSize: 15,
                 fontWeight: FontWeight.w600,
+                height: 1.3,
               ),
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+              margin: const EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                color: VarnamalaTheme.peacockTeal,
-                borderRadius: BorderRadius.circular(10),
+                color: meaning == null
+                    ? VarnamalaTheme.textHint
+                    : VarnamalaTheme.peacockTeal,
+                borderRadius: BorderRadius.circular(12),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: 0.18),
+                    blurRadius: 12,
+                    offset: const Offset(0, 4),
+                  ),
+                ],
               ),
               child: Text(
                 word,
                 style: baseStyle?.copyWith(
                   decoration: TextDecoration.underline,
                   decorationStyle: TextDecorationStyle.dotted,
-                  decorationColor: VarnamalaTheme.textHint,
+                  decorationThickness: 2,
+                  decorationColor:
+                      VarnamalaTheme.peacockTeal.withValues(alpha: 0.55),
                 ),
               ),
             ),

@@ -31,6 +31,12 @@ class CourseRepository {
   /// name is spliced in per read, so the cache survives an account switch.
   final Map<TargetLanguage, _LanguageContent> _cache = {};
 
+  /// The language whose courses were loaded most recently — i.e. the one the
+  /// learner is actually studying. Word lookups follow this rather than a
+  /// separate preference, so a lesson can never be glossed against the wrong
+  /// language's dictionary.
+  TargetLanguage? _activeLanguage;
+
   static const String _root = 'assets/courses';
 
   /// Token used in the JSON wherever the learner's own first name belongs.
@@ -44,6 +50,16 @@ class CourseRepository {
     required String firstName,
   }) async {
     final content = await _content(language);
+    _activeLanguage = language;
+
+    // The learner's own name appears inside `basics` and `introductions`
+    // sentences. It is the one word no dictionary can ship a gloss for, so
+    // give it one here — otherwise it is the only untappable word in a lesson.
+    final nameKey = normalizeWord(firstName);
+    if (nameKey.isNotEmpty) {
+      content.dictionary.putIfAbsent(nameKey, () => 'your name');
+    }
+
     return content.tree
         .map((group) => group
             .map((json) => Course.fromJson(_personalise(json, firstName)))
@@ -60,6 +76,15 @@ class CourseRepository {
   /// widgets look words up during `build`, which cannot await.
   Map<String, String>? cachedDictionary(TargetLanguage language) =>
       _cache[language]?.dictionary;
+
+  /// Dictionary for the course the learner is currently in. Always warm by the
+  /// time a lesson opens, because the course tree loads it first.
+  Map<String, String>? get activeDictionary =>
+      _activeLanguage == null ? null : _cache[_activeLanguage]?.dictionary;
+
+  /// Mala's asides for [language], keyed by the course they sit beside.
+  Map<String, TrailNote> notes(TargetLanguage language) =>
+      _cache[language]?.notes ?? const {};
 
   Future<_LanguageContent> _content(TargetLanguage language) async {
     final cached = _cache[language];
@@ -98,13 +123,41 @@ class CourseRepository {
       if (group.isNotEmpty) tree.add(group);
     }
 
-    final dictionary = (jsonDecode(await _bundle.loadString(
-      '$dir/dictionary.json',
-    )) as Map)
-        .map((word, gloss) =>
-            MapEntry(normalizeWord(word as String), gloss as String));
+    // The dictionary only enriches lessons with tap-a-word hints. If it is
+    // missing the courses must still open — losing hints is a far better
+    // outcome than losing the language.
+    var dictionary = <String, String>{};
+    try {
+      dictionary = (jsonDecode(await _bundle.loadString('$dir/dictionary.json'))
+              as Map)
+          .map((word, gloss) =>
+              MapEntry(normalizeWord(word as String), gloss as String));
+    } catch (error) {
+      logger.e('No usable dictionary for ${language.name}: $error');
+    }
 
-    final content = _LanguageContent(tree: tree, dictionary: dictionary);
+    // Notes are decoration on top of the path; a language without them simply
+    // shows a plainer trail.
+    final notes = <String, TrailNote>{};
+    try {
+      final raw = jsonDecode(await _bundle.loadString('$dir/notes.json')) as Map;
+      for (final note in (raw['notes'] as List).cast<Map>()) {
+        final course = courses[note['after']];
+        if (course == null) continue;
+        notes[course['courseName'] as String] = TrailNote(
+          text: note['text'] as String,
+          mood: (note['mood'] as String?) ?? 'cute',
+        );
+      }
+    } catch (_) {
+      // No notes for this language yet.
+    }
+
+    final content = _LanguageContent(
+      tree: tree,
+      dictionary: dictionary,
+      notes: notes,
+    );
     _cache[language] = content;
     return content;
   }
@@ -126,10 +179,31 @@ class CourseRepository {
 }
 
 class _LanguageContent {
-  const _LanguageContent({required this.tree, required this.dictionary});
+  const _LanguageContent({
+    required this.tree,
+    required this.dictionary,
+    required this.notes,
+  });
 
   final List<List<Map<String, dynamic>>> tree;
   final Map<String, String> dictionary;
+
+  /// Trail notes keyed by the course title they sit beside.
+  final Map<String, TrailNote> notes;
+}
+
+/// A short aside from Mala, pinned next to one course on the path — a fact
+/// about the language or a usage tip, so the empty side of the winding path
+/// teaches something instead of just sitting there.
+class TrailNote {
+  const TrailNote({required this.text, required this.mood});
+
+  final String text;
+
+  /// Which mascot pose to draw, e.g. `excited` -> `assets/images/mala/mala_excited.png`.
+  final String mood;
+
+  String get image => 'assets/images/mala/mala_$mood.png';
 }
 
 /// Strips the punctuation a word carries inside a sentence ("enna?" -> "enna")

@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ha kon aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ha majha bhau aahe.",
+            "hi majhi bahin aahe.",
+            "he majhe baba aahet."
+          ],
+          "correctAnswer": "ha majha bhau aahe.",
+          "translatedSentence": "This is my brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hi kon aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hi majhi bahin aahe.",
+            "ha majha bhau aahe.",
+            "he majhe kaka aahet."
+          ],
+          "correctAnswer": "hi majhi bahin aahe.",
+          "translatedSentence": "This is my sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhe baba Mumbait aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is in Mumbai.",
+            "My brother is in Mumbai.",
+            "My father is going to Mumbai."
+          ],
+          "correctAnswer": "My father is in Mumbai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche baba kuthe aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "majhe baba ghari aahet.",
+            "majhi aai ghari aahe.",
+            "majha bhau shalet aahe."
+          ],
+          "correctAnswer": "majhe baba ghari aahet.",
+          "translatedSentence": "My father is at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi aai chaan swayampak karte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother cooks really well.",
+            "My sister cooks really well.",
+            "My mother wants to cook something."
+          ],
+          "correctAnswer": "My mother cooks really well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tujhi aai ghari aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, ti ghari nahi.",
+            "ho, to ghari aahe.",
+            "nahi, mi ghari nahi."
+          ],
+          "correctAnswer": "nahi, ti ghari nahi.",
+          "translatedSentence": "No, she is not at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majha bhau ajun lahan aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is still little.",
+            "My sister is still little.",
+            "My brother is quite tall."
+          ],
+          "correctAnswer": "My brother is still little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tula kiti bhau aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mala don bhau aahet.",
+            "mala don bahini aahet.",
+            "majha bhau motha aahe."
+          ],
+          "correctAnswer": "mala don bhau aahet.",
+          "translatedSentence": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aamhi gharat char jan aahot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four of us at home.",
+            "There are four of them at home.",
+            "We have four rooms at home."
+          ],
+          "correctAnswer": "There are four of us at home."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "he ghar kunache aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "he ghar aamche aahe.",
+            "hi gaadi aamchi aahe.",
+            "he ghar khup motha aahe."
+          ],
+          "correctAnswer": "he ghar aamche aahe.",
+          "translatedSentence": "This house is ours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hi gaadi majhya bhavachi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This car belongs to my brother.",
+            "This car belongs to my sister.",
+            "My brother wants to buy this car."
+          ],
+          "correctAnswer": "This car belongs to my brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ha mobile kunacha aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ha mobile majhya bahinicha aahe.",
+            "hi pishvi majhya bahinichi aahe.",
+            "ha mobile khup mahag aahe."
+          ],
+          "correctAnswer": "ha mobile majhya bahinicha aahe.",
+          "translatedSentence": "This phone is my sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumche ghar Punyat aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is your house in Pune?",
+            "Is your office in Pune?",
+            "Are you going to Pune?"
+          ],
+          "correctAnswer": "Is your house in Pune?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hi pishvi tujhi aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, ti majhya aaichi aahe.",
+            "ho, to majha aahe.",
+            "nahi, te majhe nahi."
+          ],
+          "correctAnswer": "nahi, ti majhya aaichi aahe.",
+          "translatedSentence": "No, it is my mother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya bhavache ghar Nagpurat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother's house is in Nagpur.",
+            "My brother's office is in Nagpur.",
+            "My sister's house is in Nagpur."
+          ],
+          "correctAnswer": "My brother's house is in Nagpur."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya gharat kon kon aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gharat aai, baba ani majhi bahin aahet.",
+            "gharat majha bhau ekta aahe.",
+            "aamche ghar Punyat aahe."
+          ],
+          "correctAnswer": "gharat aai, baba ani majhi bahin aahet.",
+          "translatedSentence": "At home there are my mother, my father and my sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "he majhe nahi, he tyanche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not mine, it is theirs.",
+            "This is not mine, it is yours.",
+            "This is mine, it is not theirs."
+          ],
+          "correctAnswer": "This is not mine, it is theirs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tujhya bahinicha mobile kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ticha mobile tichya kholit aahe.",
+            "tyacha mobile tyachya kholit aahe.",
+            "majha mobile majhya pishvit aahe."
+          ],
+          "correctAnswer": "ticha mobile tichya kholit aahe.",
+          "translatedSentence": "Her phone is in her room."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married and children",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche lagna jhale aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, majhe lagna jhale aahe.",
+            "ho, majhya bahiniche lagna jhale aahe.",
+            "nahi, majha bhau ajun lahan aahe."
+          ],
+          "correctAnswer": "ho, majhe lagna jhale aahe.",
+          "translatedSentence": "Yes, I am married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya bhavache lagna gelya varshi jhale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother got married last year.",
+            "My sister got married last year.",
+            "My brother is getting married next year."
+          ],
+          "correctAnswer": "My brother got married last year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhala mula aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, mala ek mulga ani ek mulgi aahe.",
+            "ho, mala ek bhau ani ek bahin aahe.",
+            "nahi, majhe lagna jhale aahe."
+          ],
+          "correctAnswer": "ho, mala ek mulga ani ek mulgi aahe.",
+          "translatedSentence": "Yes, I have one son and one daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi mulgi paach varshanchi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is five years old.",
+            "My son is five years old.",
+            "My daughter started school at five."
+          ],
+          "correctAnswer": "My daughter is five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya mulache vay kiti aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "to aath varshancha aahe.",
+            "ti aath varshanchi aahe.",
+            "mala aath varshanpasun mula aahet."
+          ],
+          "correctAnswer": "to aath varshancha aahe.",
+          "translatedSentence": "He is eight years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya baykola Marathi chaan yete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife speaks Marathi well.",
+            "My wife is still learning Marathi.",
+            "My husband speaks Marathi well."
+          ],
+          "correctAnswer": "My wife speaks Marathi well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya bahinila kiti mula aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tila don mula aahet.",
+            "tyala don mula aahet.",
+            "ti don varshanpasun ithe aahe."
+          ],
+          "correctAnswer": "tila don mula aahet.",
+          "translatedSentence": "She has two children."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aamhala ajun mula nahit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We do not have children yet.",
+            "They do not have children yet.",
+            "We do not want any children."
+          ],
+          "correctAnswer": "We do not have children yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchi mulgi shalet jate ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, ti roj shalet jate.",
+            "ho, to roj shalet jato.",
+            "nahi, majha mulga ajun lahan aahe."
+          ],
+          "correctAnswer": "ho, ti roj shalet jate.",
+          "translatedSentence": "Yes, she goes to school every day."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "The wider family",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche aajoba kuthe rahatat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "majhe aajoba Nagpurat rahatat.",
+            "majhi aaji Nagpurat rahate.",
+            "majhe kaka Nagpurla gele aahet."
+          ],
+          "correctAnswer": "majhe aajoba Nagpurat rahatat.",
+          "translatedSentence": "My grandfather lives in Nagpur."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi aaji khup chaan puran poli karte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother makes really good puran poli.",
+            "My mother makes really good puran poli.",
+            "My grandmother loves eating puran poli."
+          ],
+          "correctAnswer": "My grandmother makes really good puran poli."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "he tumche kaka aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, he majhe mama aahet.",
+            "ho, hi majhi kaku aahe.",
+            "nahi, hi majhi atya aahe."
+          ],
+          "correctAnswer": "nahi, he majhe mama aahet.",
+          "translatedSentence": "No, he is my mother's brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya mavshila don mula aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's sister has two children.",
+            "My father's sister has two children.",
+            "My mother's sister has two brothers."
+          ],
+          "correctAnswer": "My mother's sister has two children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya aajobanche vay kiti aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "te ainshi varshanche aahet.",
+            "ti ainshi varshanchi aahe.",
+            "tyanna char natvanda aahet."
+          ],
+          "correctAnswer": "te ainshi varshanche aahet.",
+          "translatedSentence": "He is eighty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhe kaka ani kaku aamchya shejari rahatat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle and aunt live right next door to us.",
+            "My uncle and aunt live far away from us.",
+            "My uncle and aunt come to our house often."
+          ],
+          "correctAnswer": "My uncle and aunt live right next door to us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya mamache naav kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tyanche naav Sameer aahe.",
+            "tiche naav Sameera aahe.",
+            "majhya mamala don mula aahet."
+          ],
+          "correctAnswer": "tyanche naav Sameer aahe.",
+          "translatedSentence": "His name is Sameer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi atya Mumbait ekti rahate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's sister lives alone in Mumbai.",
+            "My mother's sister lives alone in Mumbai.",
+            "My father's sister lives in Mumbai with us."
+          ],
+          "correctAnswer": "My father's sister lives alone in Mumbai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchya gharat sagle ekatra rahatat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, aamhi aaji-aajobansobat rahato.",
+            "nahi, majhe aajoba ekte rahatat.",
+            "ho, majha chulat bhau ithech kaam karto."
+          ],
+          "correctAnswer": "ho, aamhi aaji-aajobansobat rahato.",
+          "translatedSentence": "Yes, we all live together with my grandparents."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What everyone does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche baba kay kartat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "te shikshak aahet, te shalet shikavtat.",
+            "ti shikshika aahe, ti shalet shikavte.",
+            "te roj local train ne officela jatat."
+          ],
+          "correctAnswer": "te shikshak aahet, te shalet shikavtat.",
+          "translatedSentence": "He is a teacher, he teaches at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi aai hospitalmadhe kaam karte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother works at a hospital.",
+            "My mother works at a school.",
+            "My mother is on her way to the hospital."
+          ],
+          "correctAnswer": "My mother works at a hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumcha bhau kuthe kaam karto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "to Punyat eka kampanit kaam karto.",
+            "ti Punyat eka kampanit kaam karte.",
+            "to roj Punyahun Mumbaila yeto."
+          ],
+          "correctAnswer": "to Punyat eka kampanit kaam karto.",
+          "translatedSentence": "He works at a company in Pune."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhi bahin ajun collegemadhe shikte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is still studying in college.",
+            "My sister still teaches at a college.",
+            "My brother is still studying in college."
+          ],
+          "correctAnswer": "My sister is still studying in college."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumche kaka kay kaam kartat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tyanche swatache dukan aahe.",
+            "tiche swatache dukan aahe.",
+            "te ajun kaam shodhat aahet."
+          ],
+          "correctAnswer": "tyanche swatache dukan aahe.",
+          "translatedSentence": "He has his own shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "baba roj local train ne officela jatat ani ushira partat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father takes the local train to the office every day and comes back late.",
+            "Father takes the local train to the office every day and comes back early.",
+            "Father drives to the office every day and comes back late."
+          ],
+          "correctAnswer": "Father takes the local train to the office every day and comes back late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi kay kaam karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mi gharun kaam karto, mhanun mi divasbhar ghari asto.",
+            "mi officela jato, mhanun mi divasbhar ghari asto.",
+            "majha bhau gharun kaam karto, mhanun to ghari asto."
+          ],
+          "correctAnswer": "mi gharun kaam karto, mhanun mi divasbhar ghari asto.",
+          "translatedSentence": "I work from home, so I am at home all day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhya baykola tichi naukri khup avadte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife really likes her job.",
+            "My wife does not like her job.",
+            "My husband really likes his job."
+          ],
+          "correctAnswer": "My wife really likes her job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumchi aaji ajunhi kaam karte ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nahi, ti atta nivrutt jhali aahe.",
+            "ho, ti ajunhi shalet shikavte.",
+            "nahi, majhe aajoba nivrutt jhale aahet."
+          ],
+          "correctAnswer": "nahi, ti atta nivrutt jhali aahe.",
+          "translatedSentence": "No, she has retired now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "News from home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "pudhchya mahinyat tumhi gavala jaat aahat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, jar suti milali tar mi nakki jain.",
+            "nahi, mi gelya mahinyat gavala gelo hoto.",
+            "ho, pan majhe aai-baba ithech thambnar aahet."
+          ],
+          "correctAnswer": "ho, jar suti milali tar mi nakki jain.",
+          "translatedSentence": "Yes, if I get leave I will definitely go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaine phonevar sangitle ki aajichi tabyet bari nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother said on the phone that grandmother is not keeping well.",
+            "Mother said on the phone that grandfather is not keeping well.",
+            "Mother called to say that grandmother is coming to stay."
+          ],
+          "correctAnswer": "Mother said on the phone that grandmother is not keeping well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumhi aamhala kadhi bhetayla yenar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mi udya sandhyakali yeto, pan thoda ushir hoil.",
+            "mi kal sandhyakali alo hoto, pan tumhi ghari navhta.",
+            "mala udya vel nahi, mhanun tumhich ya."
+          ],
+          "correctAnswer": "mi udya sandhyakali yeto, pan thoda ushir hoil.",
+          "translatedSentence": "I will come tomorrow evening, but I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "diwalila aamche sagle kutumb gavi jamte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Diwali our whole family gathers back in the village.",
+            "At Diwali our whole family gathers in Mumbai.",
+            "At Diwali only my parents go back to the village."
+          ],
+          "correctAnswer": "At Diwali our whole family gathers back in the village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ekhada divas ghari jevayla ya na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nakki, pan aadhi mi baykola vicharto.",
+            "nakki, pan mala swayampak karta yet nahi.",
+            "nahi, mi roj bahercha jevto."
+          ],
+          "correctAnswer": "nakki, pan aadhi mi baykola vicharto.",
+          "translatedSentence": "Of course, but let me ask my wife first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "majhe aai-baba pudhchya athavdyat Mumbaila yenar aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My parents are coming to Mumbai next week.",
+            "My parents came to Mumbai last week.",
+            "My parents are going to Pune next week."
+          ],
+          "correctAnswer": "My parents are coming to Mumbai next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "gharun kahi navin batmi aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, majhya bahinila mulga jhala aahe.",
+            "ho, majhya bhavala mulgi jhali aahe.",
+            "nahi, gele don divas mi gharihi bollo nahi."
+          ],
+          "correctAnswer": "ho, majhya bahinila mulga jhala aahe.",
+          "translatedSentence": "Yes, my sister has had a baby boy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mi roj aajobanna phone karto, karan tyanna ekta vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I call my grandfather every day, because he feels lonely.",
+            "I call my grandfather every day, because I feel lonely.",
+            "I call my grandmother every day, because she feels lonely."
+          ],
+          "correctAnswer": "I call my grandfather every day, because he feels lonely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "magchya sutit tumhi gavala gele hote ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, gelo hoto, pan mala don divasach thambta ala.",
+            "ho, jato aahe, pan mi don divasach thambnar aahe.",
+            "nahi, pan majhe kaka don divas ithe rahile hote."
+          ],
+          "correctAnswer": "ho, gelo hoto, pan mala don divasach thambta ala.",
+          "translatedSentence": "Yes, I did go, but I could only stay for two days."
+        }
+      ]
+    }
+  ]
+}

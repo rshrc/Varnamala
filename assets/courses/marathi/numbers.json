@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Athvadyat kiti divas astat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athvadyat saat divas astat.",
+            "Athvadyat paach divas astat.",
+            "Athvadyat daha divas astat."
+          ],
+          "correctAnswer": "Athvadyat saat divas astat.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala don cutting chai pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want two cutting chai.",
+            "I want three cutting chai.",
+            "I do not want cutting chai."
+          ],
+          "correctAnswer": "I want two cutting chai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek ani don milun kiti hotat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te teen hotat.",
+            "Te char hotat.",
+            "Te don hotat."
+          ],
+          "correctAnswer": "Te teen hotat.",
+          "translatedSentence": "That makes three."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tya taatat char puran polya aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four puran polis on that plate.",
+            "There are two puran polis on that plate.",
+            "There is one puran poli on that plate."
+          ],
+          "correctAnswer": "There are four puran polis on that plate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuzya hatala kiti bote aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mazya hatala paach bote aahet.",
+            "Mazya hatala teen bote aahet.",
+            "Mazya hatala aath bote aahet."
+          ],
+          "correctAnswer": "Mazya hatala paach bote aahet.",
+          "translatedSentence": "My hand has five fingers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazyakade saha rupaye aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have six rupees.",
+            "I have seven rupees.",
+            "I need six rupees."
+          ],
+          "correctAnswer": "I have six rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti misal pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala ek misal pahije.",
+            "Mala misal nako aahe.",
+            "Mala fakt chai pahije."
+          ],
+          "correctAnswer": "Mala ek misal pahije.",
+          "translatedSentence": "I would like one misal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithe aath loka ubhe aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eight people are standing here.",
+            "Nine people are standing here.",
+            "Eight people are sitting here."
+          ],
+          "correctAnswer": "Eight people are standing here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nau ani ek milun kiti hotat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te daha hotat.",
+            "Te nau hotat.",
+            "Te aath hotat."
+          ],
+          "correctAnswer": "Te daha hotat.",
+          "translatedSentence": "That makes ten."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek dazanat kiti kele astat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek dazanat bara kele astat.",
+            "Ek dazanat daha kele astat.",
+            "Ek dazanat pandhra kele astat."
+          ],
+          "correctAnswer": "Ek dazanat bara kele astat.",
+          "translatedSentence": "There are twelve bananas in a dozen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekya varshat bara mahine astat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twelve months in a year.",
+            "There are twelve weeks in a year.",
+            "There are ten months in a year."
+          ],
+          "correctAnswer": "There are twelve months in a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ya pishvit kiti aambe aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ya pishvit pandhra aambe aahet.",
+            "Ya pishvit paach aambe aahet.",
+            "Ya pishvit tees aambe aahet."
+          ],
+          "correctAnswer": "Ya pishvit pandhra aambe aahet.",
+          "translatedSentence": "There are fifteen mangoes in this bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazya vargat pannas vidyarthi aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are fifty students in my class.",
+            "There are fifteen students in my class.",
+            "There are forty students in my class."
+          ],
+          "correctAnswer": "There are fifty students in my class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pannas ani pannas milun kiti hotat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te shambhar hotat.",
+            "Te ainshi hotat.",
+            "Te navvad hotat."
+          ],
+          "correctAnswer": "Te shambhar hotat.",
+          "translatedSentence": "That makes a hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Local train pandhra minitani yete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The local train comes every fifteen minutes.",
+            "The local train comes every fifty minutes.",
+            "The local train leaves in fifteen minutes."
+          ],
+          "correctAnswer": "The local train comes every fifteen minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ya dukanat kiti mansa kaam kartat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ya dukanat satra mansa kaam kartat.",
+            "Ya dukanat saat mansa kaam kartat.",
+            "Ya dukanat sattar mansa kaam kartat."
+          ],
+          "correctAnswer": "Ya dukanat satra mansa kaam kartat.",
+          "translatedSentence": "Seventeen people work in this shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amhi chauda loka pravasala jat aahot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fourteen of us are going on the trip.",
+            "Four of us are going on the trip.",
+            "Fourteen of us are coming back from the trip."
+          ],
+          "correctAnswer": "Fourteen of us are going on the trip."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tya baagemadhe kiti jhade aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tya baagemadhe chalis jhade aahet.",
+            "Tya baagemadhe char jhade aahet.",
+            "Tya baagemadhe chauda jhade aahet."
+          ],
+          "correctAnswer": "Tya baagemadhe chalis jhade aahet.",
+          "translatedSentence": "There are forty trees in that garden."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha vada pav kiti rupayanna aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tyachi kimat pandhra rupaye aahe.",
+            "Tyachi kimat pannas rupaye aahe.",
+            "To aaj milat nahi."
+          ],
+          "correctAnswer": "Tyachi kimat pandhra rupaye aahe.",
+          "translatedSentence": "It costs fifteen rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek cutting chai daha rupayala milte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One cutting chai costs ten rupees.",
+            "One cutting chai costs twenty rupees.",
+            "One cutting chai is not available."
+          ],
+          "correctAnswer": "One cutting chai costs ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekun bill kiti jhala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekun bill donshe rupaye jhala.",
+            "Ekun bill tinshe rupaye jhala.",
+            "Bill ajun aala nahi."
+          ],
+          "correctAnswer": "Ekun bill donshe rupaye jhala.",
+          "translatedSentence": "The total bill came to two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "He khoop mahag aahe, thoda kami kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very expensive, please reduce it a little.",
+            "This is very cheap, please give me a little more.",
+            "This is expensive, but I will still take it."
+          ],
+          "correctAnswer": "This is very expensive, please reduce it a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchyakade sutte paise aahet ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mazyakade sutte paise nahit.",
+            "Ho, mala sutte paise pahije aahet.",
+            "Nahi, mala paise aavadat nahit."
+          ],
+          "correctAnswer": "Nahi, mazyakade sutte paise nahit.",
+          "translatedSentence": "No, I do not have any change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala don kilo kanda ani ek kilo batata pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two kilos of onions and one kilo of potatoes.",
+            "I need one kilo of onions and two kilos of potatoes.",
+            "I need two kilos of onions and one kilo of tomatoes."
+          ],
+          "correctAnswer": "I need two kilos of onions and one kilo of potatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "He kapde kiti rupayanna miltat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He kapde charshe rupayanna miltat.",
+            "He kapde chalis rupayanna miltat.",
+            "He kapde vikayche nahit."
+          ],
+          "correctAnswer": "He kapde charshe rupayanna miltat.",
+          "translatedSentence": "These clothes cost four hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Misal pav sattar rupayala aahe ani chai vegli aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The misal pav is seventy rupees and the tea is separate.",
+            "The misal pav is sixty rupees and the tea is free.",
+            "The misal pav is seventy rupees including the tea."
+          ],
+          "correctAnswer": "The misal pav is seventy rupees and the tea is separate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha sadara swast aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, to khoop mahag aahe.",
+            "Ho, to fakt daha rupayanna aahe.",
+            "Nahi, to mala aavadat nahi."
+          ],
+          "correctAnswer": "Nahi, to khoop mahag aahe.",
+          "translatedSentence": "No, it is very expensive."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumche vay kiti aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze vay tees varsha aahe.",
+            "Tuze vay tees varsha aahe.",
+            "Maze vay mala mahit nahi."
+          ],
+          "correctAnswer": "Maze vay tees varsha aahe.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazya aajiche vay ainshi varsha aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother is eighty years old.",
+            "My grandmother is eighteen years old.",
+            "My grandfather is eighty years old."
+          ],
+          "correctAnswer": "My grandmother is eighty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumcha phone number kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Majha number nau aath saha teen ek aahe.",
+            "Majha number mala mahit nahi.",
+            "Majha phone atta band aahe."
+          ],
+          "correctAnswer": "Majha number nau aath saha teen ek aahe.",
+          "translatedSentence": "My number is nine eight six three one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala thodi sakhar ani jasta dudh pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a little sugar and more milk.",
+            "I want more sugar and a little milk.",
+            "I want a little sugar but no milk."
+          ],
+          "correctAnswer": "I want a little sugar and more milk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti kilo tandul pahije?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mala paach kilo tandul pahije.",
+            "Mala paach rupaye tandul pahije.",
+            "Mala tandul nako aahet."
+          ],
+          "correctAnswer": "Mala paach kilo tandul pahije.",
+          "translatedSentence": "I need five kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tya khokyat khoop pustaka aahet, pan mala fakt don pahije.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of books in that box, but I only want two.",
+            "There are only two books in that box, but I want a lot.",
+            "There are a lot of books in that box and I want all of them."
+          ],
+          "correctAnswer": "There are a lot of books in that box, but I only want two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kiti jan yenar aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amhi char jan yenar aahot.",
+            "Amhi char vajta yenar aahot.",
+            "Amhi udya sakali yenar aahot."
+          ],
+          "correctAnswer": "Amhi char jan yenar aahot.",
+          "translatedSentence": "Four of us will come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majha mulga saat varshancha aahe ani mulgi nau varshanchi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is seven years old and my daughter is nine.",
+            "My son is nine years old and my daughter is seven.",
+            "My son is seven years old and my daughter is nineteen."
+          ],
+          "correctAnswer": "My son is seven years old and my daughter is nine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuze vay kiti aahe re?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze vay daha varsha aahe.",
+            "Tumche vay daha varsha aahe.",
+            "Maze vay daha rupaye aahe."
+          ],
+          "correctAnswer": "Maze vay daha varsha aahe.",
+          "translatedSentence": "I am ten years old."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atta kiti vajle aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atta sade aath vajle aahet.",
+            "Atta sade nau vajle aahet.",
+            "Mala atta vel mahit nahi."
+          ],
+          "correctAnswer": "Atta sade aath vajle aahet.",
+          "translatedSentence": "It is half past eight now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Local train sakali saat vajta sutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The local train leaves at seven in the morning.",
+            "The local train leaves at seven in the evening.",
+            "The local train arrives at seven in the morning."
+          ],
+          "correctAnswer": "The local train leaves at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhi kiti vajta kaamala jata?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi sakali nau vajta kaamala jato.",
+            "Mi ratri nau vajta kaamala jato.",
+            "Mi aaj kaamala jat nahi."
+          ],
+          "correctAnswer": "Mi sakali nau vajta kaamala jato.",
+          "translatedSentence": "I go to work at nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala sade saat vajta uthayla lagte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to get up at half past seven.",
+            "I have to get up at half past six.",
+            "I like to get up at half past seven."
+          ],
+          "correctAnswer": "I have to get up at half past seven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cinema kiti vajta suru hoto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cinema sava saat vajta suru hoto.",
+            "Cinema sava saat vajta sampto.",
+            "Cinema udya suru hoto."
+          ],
+          "correctAnswer": "Cinema sava saat vajta suru hoto.",
+          "translatedSentence": "The film starts at quarter past seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dupari bara te don amche dukan band asta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our shop is closed from twelve to two in the afternoon.",
+            "Our shop is open from twelve to two in the afternoon.",
+            "Our shop is closed from two to twelve in the afternoon."
+          ],
+          "correctAnswer": "Our shop is closed from twelve to two in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuza varg kiti vajta sampto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Majha varg pauna paach vajta sampto.",
+            "Majha varg pauna paach vajta suru hoto.",
+            "Majha varg pandhra minitani sampto."
+          ],
+          "correctAnswer": "Majha varg pauna paach vajta sampto.",
+          "translatedSentence": "My class ends at quarter to five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratri daha vajta shevatchi bus jate, tyamule laukar chala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The last bus leaves at ten at night, so come quickly.",
+            "The last bus leaves at ten in the morning, so come quickly.",
+            "The first bus leaves at ten at night, so wait here."
+          ],
+          "correctAnswer": "The last bus leaves at ten at night, so come quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tula bhetayla mi kiti vajta yeu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tu sanjhi saha vajta ye.",
+            "Tumhi sanjhi saha vajta ya.",
+            "Mi sanjhi saha vajta yeto."
+          ],
+          "correctAnswer": "Tu sanjhi saha vajta ye.",
+          "translatedSentence": "Come at six in the evening."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sarva milun ekun kiti jhale te sangal ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekun tinshe pannas rupaye jhale.",
+            "Ekun tinshe pannas rupaye kami padle.",
+            "Mala ekun kiti jhale te mahit nahi."
+          ],
+          "correctAnswer": "Ekun tinshe pannas rupaye jhale.",
+          "translatedSentence": "The total comes to three hundred and fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ya varshi mazyakade magchya varshapeksha jasta paise aahet.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This year I have more money than last year.",
+            "This year I have less money than last year.",
+            "Last year I had more money than this year."
+          ],
+          "correctAnswer": "This year I have more money than last year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nagpur peksha Mumbait jasta loka rahtat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, Mumbait khoop jasta loka rahtat.",
+            "Nahi, Nagpurat jasta loka rahtat.",
+            "Ho, donhi shaharat sarkhech loka rahtat."
+          ],
+          "correctAnswer": "Ho, Mumbait khoop jasta loka rahtat.",
+          "translatedSentence": "Yes, many more people live in Mumbai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala kami tikhat pahije karan mi aajari aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want it less spicy because I am unwell.",
+            "I want it more spicy because I am very hungry.",
+            "I do not want it spicy, but I am fine now."
+          ],
+          "correctAnswer": "I want it less spicy because I am unwell."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jar daha jan aale tar kiti chapatya lagtil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jar daha jan aale tar tees chapatya lagtil.",
+            "Jar daha jan aale tar teen chapatya lagtil.",
+            "Daha jan aale tari chapatya lagnar nahit."
+          ],
+          "correctAnswer": "Jar daha jan aale tar tees chapatya lagtil.",
+          "translatedSentence": "If ten people come, we will need thirty chapatis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha killa chadhayla don taas lagtat, pan utarayla fakt ek taas lagto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It takes two hours to climb this fort, but only one hour to come down.",
+            "It takes one hour to climb this fort, but two hours to come down.",
+            "It takes two hours to climb this fort and two hours to come down."
+          ],
+          "correctAnswer": "It takes two hours to climb this fort, but only one hour to come down."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala aankhi kahi pahije ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala aankhi don chapatya dyal ka?",
+            "Nahi, evdhe purese aahe, dhanyavad.",
+            "Ho, mala kahich nako aahe."
+          ],
+          "correctAnswer": "Ho, mala aankhi don chapatya dyal ka?",
+          "translatedSentence": "Yes, could you give me two more chapatis?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazyakade purese sutte nahit, mhanun mi online paise pathavto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have enough change, so I will send the money online.",
+            "I have enough change, so I will not send the money online.",
+            "I do not have enough money, so I cannot pay you today."
+          ],
+          "correctAnswer": "I do not have enough change, so I will send the money online."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi ardhe paise aaj deu ka ani urlele udya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, chalel, pan urlele paise udya nakki dya.",
+            "Nahi, mala ardhech paise pahije aahet.",
+            "Ho, tumhi sarva paise udya dya."
+          ],
+          "correctAnswer": "Ho, chalel, pan urlele paise udya nakki dya.",
+          "translatedSentence": "Yes, that is fine, but do bring the rest tomorrow."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya aham santushtah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham api santushtah asmi.",
+            "aham dukhitah asmi.",
+            "aham santushtah na asmi."
+          ],
+          "correctAnswer": "aham api santushtah asmi.",
+          "translatedSentence": "I am happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham dukhitah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sad.",
+            "I am happy.",
+            "I am not sad."
+          ],
+          "correctAnswer": "I am sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavan santushtah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham santushtah asmi.",
+            "aam, mama mitram santushtam asti.",
+            "aam, bhavan santushtah asti."
+          ],
+          "correctAnswer": "aam, aham santushtah asmi.",
+          "translatedSentence": "Yes, I am happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama mitram santushtam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is happy.",
+            "My friend is sad.",
+            "My teacher is happy."
+          ],
+          "correctAnswer": "My friend is happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya mama janmadinam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bahu shobhanam, mahyam santoshah asti.",
+            "aam, aham dukhitah asmi.",
+            "na, mama janmadinam adya na asti."
+          ],
+          "correctAnswer": "bahu shobhanam, mahyam santoshah asti.",
+          "translatedSentence": "That is wonderful, I am so happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam santoshah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel happy.",
+            "I feel sad.",
+            "I am not happy."
+          ],
+          "correctAnswer": "I feel happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama mitram dukhitam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aho, aham api dukhitah asmi.",
+            "shobhanam, aham santushtah asmi.",
+            "aam, mitram bahu santushtam asti."
+          ],
+          "correctAnswer": "aho, aham api dukhitah asmi.",
+          "translatedSentence": "Oh, I am sad about that too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavan adya santushtah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are happy today.",
+            "You are sad today.",
+            "I am happy today."
+          ],
+          "correctAnswer": "You are happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim adya bhavati dukhitaa asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham dukhitaa asmi.",
+            "aam, bhavati dukhitaa asti.",
+            "aam, mama bhagini dukhitaa asti."
+          ],
+          "correctAnswer": "aam, aham dukhitaa asmi.",
+          "translatedSentence": "Yes, I am sad."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bahu shraantah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired.",
+            "I am a little tired.",
+            "I am very happy."
+          ],
+          "correctAnswer": "I am very tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kimartham bhavan shraantah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ratrau na svapimi.",
+            "aham adya santushtah asmi.",
+            "mama mitram shraantam asti."
+          ],
+          "correctAnswer": "aham ratrau na svapimi.",
+          "translatedSentence": "I do not sleep at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam kopah aagacchati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am getting angry.",
+            "I am getting scared.",
+            "I do not get angry."
+          ],
+          "correctAnswer": "I am getting angry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kimartham tvam kruddhah asi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama anujah mama pustakam na dadaati.",
+            "aham adya bahu santushtah asmi.",
+            "mama anujah kruddhah asti."
+          ],
+          "correctAnswer": "mama anujah mama pustakam na dadaati.",
+          "translatedSentence": "My little brother will not give me my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham na bibhemi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not afraid.",
+            "I am afraid.",
+            "I am not angry."
+          ],
+          "correctAnswer": "I am not afraid."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama baalah shvaanaat bibheti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maa chintayatu, shvaanah shaantah asti.",
+            "aam, aham shvaanam icchaami.",
+            "shvaanah api bhitah asti."
+          ],
+          "correctAnswer": "maa chintayatu, shvaanah shaantah asti.",
+          "translatedSentence": "Do not worry, the dog is gentle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adya nirutsaahah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am bored today.",
+            "I am tired today.",
+            "I am not bored today."
+          ],
+          "correctAnswer": "I am bored today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim karomi? mahyam nirutsaahah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavan pustakam pathatu.",
+            "aham pustakam pathaami.",
+            "pustakam kutra asti?"
+          ],
+          "correctAnswer": "bhavan pustakam pathatu.",
+          "translatedSentence": "Why not read a book?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ratrau aham ekah na gacchaami, mahyam bhayam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maa bibhetu, aham bhavataa saha aagacchaami.",
+            "aham ratrau ekah eva gacchaami.",
+            "aam, ratrau bahu shaityam asti."
+          ],
+          "correctAnswer": "maa bibhetu, aham bhavataa saha aagacchaami.",
+          "translatedSentence": "Do not be afraid, I will come with you."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how you feel",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "katham asti bhavan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham kushali asmi, dhanyavaadah.",
+            "aham bhavantam pRcchaami.",
+            "bhavan kushali asti."
+          ],
+          "correctAnswer": "aham kushali asmi, dhanyavaadah.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "katham asti bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you, madam?",
+            "Where are you going, madam?",
+            "What is your name, madam?"
+          ],
+          "correctAnswer": "How are you, madam?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavan khinnah iva drshyate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mama shirah rujati.",
+            "aam, aham bahu santushtah asmi.",
+            "na, bhavan khinnah asti."
+          ],
+          "correctAnswer": "aam, mama shirah rujati.",
+          "translatedSentence": "Yes, I have a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kim bhavatah svaasthyam samyak asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you keeping well?",
+            "Are you happy today?",
+            "Is your friend keeping well?"
+          ],
+          "correctAnswer": "Are you keeping well?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim abhavat? bhavati kimartham na vadati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama maataa rugnaa asti.",
+            "adya aham vidyaalayam gacchaami.",
+            "mama maataa kushali asti."
+          ],
+          "correctAnswer": "mama maataa rugnaa asti.",
+          "translatedSentence": "My mother is unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tava manah adya katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling today?",
+            "How is your brother today?",
+            "What are you doing today?"
+          ],
+          "correctAnswer": "How are you feeling today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mitra, kim tvam samyak asi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham samyak asmi.",
+            "aam, tvam samyak asi.",
+            "aam, mama mitram samyak asti."
+          ],
+          "correctAnswer": "aam, aham samyak asmi.",
+          "translatedSentence": "Yes, I am all right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavatah mitram adya katham asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your friend doing today?",
+            "How is your brother doing today?",
+            "Where is your friend today?"
+          ],
+          "correctAnswer": "How is your friend doing today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham adya kushali na asmi, mama jvarah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aho, bhavan vishraamam karotu.",
+            "aho, aham vaidyam gacchaami.",
+            "aam, adya bahu ushnam asti."
+          ],
+          "correctAnswer": "aho, bhavan vishraamam karotu.",
+          "translatedSentence": "Oh, please get some rest."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama pariiksha samyak na abhavat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chintaam maa karotu, punah prayatnam karotu.",
+            "bahu shobhanam, aham santushtah asmi.",
+            "pariiksha kadaa asti?"
+          ],
+          "correctAnswer": "chintaam maa karotu, punah prayatnam karotu.",
+          "translatedSentence": "Do not worry, just try again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maa chintayatu, sarvam samyak bhavishyati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, everything will be fine.",
+            "Do not worry, I will come tomorrow.",
+            "Do not be angry, everything is fine."
+          ],
+          "correctAnswer": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham etat kartum na shaknomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhavan shaknoti eva, aham sahaayyam karomi.",
+            "aam, etat kaaryam bahu kathinam asti.",
+            "aham api etat na karomi."
+          ],
+          "correctAnswer": "bhavan shaknoti eva, aham sahaayyam karomi.",
+          "translatedSentence": "Of course you can, I will help you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maa bibhetu, aham bhavataa saha asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be afraid, I am with you.",
+            "Do not be afraid, I am coming tomorrow.",
+            "Do not worry, I am keeping well."
+          ],
+          "correctAnswer": "Do not be afraid, I am with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama shvaanah rugnah asti, aham chintitah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maa chintayatu, sah shIghram svasthah bhavishyati.",
+            "aam, shvaanaah bahu shobhanaah santi.",
+            "aham shvaanaat bibhemi."
+          ],
+          "correctAnswer": "maa chintayatu, sah shIghram svasthah bhavishyati.",
+          "translatedSentence": "Do not worry, he will get well soon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhavan uttamam kaaryam karoti, aham santushtah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are doing excellent work, and I am pleased.",
+            "You are doing difficult work, and I am tired.",
+            "You do good work, but I am not pleased."
+          ],
+          "correctAnswer": "You are doing excellent work, and I am pleased."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya mama kaaryam samyak abhavat!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saadhu, mahyam api santoshah asti.",
+            "chintaam maa karotu, punah pashyaamah.",
+            "aam, kaaryam bahu kathinam asti."
+          ],
+          "correctAnswer": "saadhu, mahyam api santoshah asti.",
+          "translatedSentence": "Well done, I am happy for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavan shraantah asti, tarhi vishraamam karotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are tired, then please take a rest.",
+            "If you are tired, then please come tomorrow.",
+            "When you are tired, I will help you."
+          ],
+          "correctAnswer": "If you are tired, then please take a rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham ekaakii asmi, mahyam duhkham asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maa dukhitah bhavatu, aham bhavatah mitram asmi.",
+            "aam, aham api ekaakii asmi.",
+            "tarhi bhavan gRham gacchatu."
+          ],
+          "correctAnswer": "maa dukhitah bhavatu, aham bhavatah mitram asmi.",
+          "translatedSentence": "Do not be sad, I am your friend."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes, dislikes and wishes",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mahyam samskrtabhaashaa bahu rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the Sanskrit language very much.",
+            "I know the Sanskrit language well.",
+            "I want to learn the Sanskrit language."
+          ],
+          "correctAnswer": "I like the Sanskrit language very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavate chitrapatah rocate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, mahyam chitrapatah bahu rocate.",
+            "aam, aham chitrapatam pashyaami.",
+            "aam, bhavate chitrapatah rocate."
+          ],
+          "correctAnswer": "aam, mahyam chitrapatah bahu rocate.",
+          "translatedSentence": "Yes, I like films very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mahyam dugdham na rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tarhi phalarasam pibatu.",
+            "aam, dugdham bahu rocate.",
+            "aham api dugdham na pibaami."
+          ],
+          "correctAnswer": "tarhi phalarasam pibatu.",
+          "translatedSentence": "Then have some fruit juice instead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham gaanam shrotum icchaami, kintu adya samayah na asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to listen to music, but there is no time today.",
+            "I want to listen to music, and today there is time.",
+            "I like music, but I do not sing today."
+          ],
+          "correctAnswer": "I want to listen to music, but there is no time today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavate kim rocate, kaaphi athavaa chaayam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam chaayam eva rocate.",
+            "aham praatah chaayam pibaami.",
+            "bhavate chaayam rocate."
+          ],
+          "correctAnswer": "mahyam chaayam eva rocate.",
+          "translatedSentence": "I would prefer tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham kaashinagaram drashtum icchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to see the city of Kashi.",
+            "I am going to the city of Kashi tomorrow.",
+            "I know the city of Kashi well."
+          ],
+          "correctAnswer": "I want to see the city of Kashi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mahyam praatah bhramanam rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam api rocate, shvah saha gacchaavah?",
+            "aham saayam bhramanam karomi.",
+            "praatahkaale bahu shaityam asti."
+          ],
+          "correctAnswer": "mahyam api rocate, shvah saha gacchaavah?",
+          "translatedSentence": "I like it too, shall we go together tomorrow?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama anujaaya mishtaannam bahu rocate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My little brother loves sweets.",
+            "My little sister loves sweets.",
+            "My little brother does not like sweets."
+          ],
+          "correctAnswer": "My little brother loves sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham shvah gurukulam gantum icchaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "uttamam, aham api bhavataa saha aagacchaami.",
+            "gurukulam kutra asti?",
+            "aham gurukule na pathaami."
+          ],
+          "correctAnswer": "uttamam, aham api bhavataa saha aagacchaami.",
+          "translatedSentence": "Excellent, I will come with you as well."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama mate samskrtam saralaa bhaashaa asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham sammatah asmi, kintu vyaakaranam kathinam asti.",
+            "aam, aham pratidinam samskrtam pathaami.",
+            "mama mate bhavan samskrtam jaanaati."
+          ],
+          "correctAnswer": "aham sammatah asmi, kintu vyaakaranam kathinam asti.",
+          "translatedSentence": "I agree, but the grammar is difficult."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama matam bhinnam asti, kintu bhavan samyak vadati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My opinion is different, but you make a fair point.",
+            "My opinion is the same, and you are right.",
+            "I have no opinion, but you speak well."
+          ],
+          "correctAnswer": "My opinion is different, but you make a fair point."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kshamyataam, aham vilambena aagatavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaapi chintaa na asti, bhavan upavishatu.",
+            "aam, bhavan shIghram aagatavaan.",
+            "aham api vilambena gacchaami."
+          ],
+          "correctAnswer": "kaapi chintaa na asti, bhavan upavishatu.",
+          "translatedSentence": "No problem at all, please sit down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham kruddhah abhavam, atah kshamaam yaachaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got angry, so I apologize.",
+            "I got tired, so I apologize.",
+            "I got angry, but I will not apologize."
+          ],
+          "correctAnswer": "I got angry, so I apologize."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavan kimartham na aagatavaan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kshamyataam, aham rugnah aasam.",
+            "aham shvah avashyam aagamishyaami.",
+            "aam, aham adya aagatavaan."
+          ],
+          "correctAnswer": "kshamyataam, aham rugnah aasam.",
+          "translatedSentence": "I am sorry, I was unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi mama vachanena bhavan khinnah abhavat, tarhi kshamyataam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If my words upset you, then I am sorry.",
+            "If you are upset, then please tell me.",
+            "If my words are true, then forgive me."
+          ],
+          "correctAnswer": "If my words upset you, then I am sorry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama mate ayam paathah bahu dIrghah aasit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "satyam, aham api shraantah abhavam.",
+            "mama mate paathah bahu rocate.",
+            "paathah shvah kadaa aarabhate?"
+          ],
+          "correctAnswer": "satyam, aham api shraantah abhavam.",
+          "translatedSentence": "True, I got tired as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham kupitah na asmi, kevalam shraantah asmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not angry, I am only tired.",
+            "I am not tired, I am only angry.",
+            "I am angry, because I am tired."
+          ],
+          "correctAnswer": "I am not angry, I am only tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mama doshah aasit, kshamyataam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maa chintayatu, aham kupitah na asmi.",
+            "aam, ayam bhavatah eva doshah asti.",
+            "aham api bhavatah kshamaam yaachaami."
+          ],
+          "correctAnswer": "maa chintayatu, aham kupitah na asmi.",
+          "translatedSentence": "Do not worry, I am not angry."
+        }
+      ]
+    }
+  ]
+}

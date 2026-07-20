@@ -63,16 +63,21 @@ flutter:
     - assets/images/
     - assets/images/mala/
     - assets/screens/
+    - assets/emblems/
     # Course content, one directory of hand-editable JSON per language.
     - assets/courses/assamese/
+    - assets/courses/gujarati/
     - assets/courses/bengali/
     - assets/courses/hindi/
     - assets/courses/kannada/
     - assets/courses/malayalam/
+    - assets/courses/marathi/
     - assets/courses/nepali/
     - assets/courses/odia/
+    - assets/courses/sanskrit/
     - assets/courses/tamil/
     - assets/courses/telugu/
+    - assets/courses/urdu/
 flutter_launcher_icons:
   android: launcher_icon
   ios: true

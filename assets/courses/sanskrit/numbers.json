@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "atra kati pustakaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "atra treeni pustakaani santi.",
+            "aham pustakam pathaami.",
+            "pustakam mama samipe asti."
+          ],
+          "correctAnswer": "atra treeni pustakaani santi.",
+          "translatedSentence": "There are three books here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama samipe pancha rupyakaani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have five rupees.",
+            "I have five books.",
+            "I want five rupees."
+          ],
+          "correctAnswer": "I have five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah samipe kati lekhanyah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama samipe pancha lekhanyah santi.",
+            "mama samipe lekhani na asti.",
+            "aham lekhanim icchaami."
+          ],
+          "correctAnswer": "mama samipe pancha lekhanyah santi.",
+          "translatedSentence": "I have five pens."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "atra dasha chhaatraah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are ten students here.",
+            "There are ten teachers here.",
+            "Ten students are coming here."
+          ],
+          "correctAnswer": "There are ten students here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati phalaani icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham dve phale icchaami.",
+            "aham phalaani na icchaami.",
+            "phalaani madhuraani santi."
+          ],
+          "correctAnswer": "aham dve phale icchaami.",
+          "translatedSentence": "I would like two fruits."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tatra sapta baalakaah kridanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seven boys are playing there.",
+            "Seven girls are playing there.",
+            "Seven boys are studying there."
+          ],
+          "correctAnswer": "Seven boys are playing there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kakshyaayaam kati aasandyah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kakshyaayaam nava aasandyah santi.",
+            "aham aasandyaam upavishaami.",
+            "aasandi tatra asti."
+          ],
+          "correctAnswer": "kakshyaayaam nava aasandyah santi.",
+          "translatedSentence": "There are nine chairs in the classroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam dasha shlokaan pathaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I read ten verses every day.",
+            "I write ten verses every day.",
+            "I read ten books every day."
+          ],
+          "correctAnswer": "I read ten verses every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shat chhaatraah kutra santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shat chhaatraah paathashaalaayaam santi.",
+            "chhaatraah mandiram gacchanti.",
+            "aham chhaatraan na jaanaami."
+          ],
+          "correctAnswer": "shat chhaatraah paathashaalaayaam santi.",
+          "translatedSentence": "The six students are in the school."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kakshyaayaam kati chhaatraah santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kakshyaayaam panchavimshatih chhaatraah santi.",
+            "kakshyaayaam ekah adhyaapakah asti.",
+            "chhaatraah kakshyaayaam pathanti."
+          ],
+          "correctAnswer": "kakshyaayaam panchavimshatih chhaatraah santi.",
+          "translatedSentence": "There are twenty-five students in the classroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mandire shatam deepaah jvalanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A hundred lamps are burning in the temple.",
+            "A hundred lamps are burning in the house.",
+            "There are a hundred flowers in the temple."
+          ],
+          "correctAnswer": "A hundred lamps are burning in the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyah samipe kati pushpaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama samipe dvaadasha pushpaani santi.",
+            "aham pushpaani icchaami.",
+            "pushpaani sundaraani santi."
+          ],
+          "correctAnswer": "mama samipe dvaadasha pushpaani santi.",
+          "translatedSentence": "I have twelve flowers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "gurukule chatvaarimshat chhaatraah vasanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Forty students live in the gurukula.",
+            "Fourteen students live in the gurukula.",
+            "Forty students study in the gurukula."
+          ],
+          "correctAnswer": "Forty students live in the gurukula."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati shlokaan smarati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham shodasha shlokaan smaraami.",
+            "aham shlokaan na smaraami.",
+            "shlokaah sundaraah santi."
+          ],
+          "correctAnswer": "aham shodasha shlokaan smaraami.",
+          "translatedSentence": "I remember sixteen verses."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmin granthe panchaashat prishthaani santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book has fifty pages.",
+            "This book has fifteen pages.",
+            "This book has fifty verses."
+          ],
+          "correctAnswer": "This book has fifty pages."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aapane kati aamraphalaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aapane trimshat aamraphalaani santi.",
+            "aham aamraphalaani krinaami.",
+            "aamraphalaani madhuraani santi."
+          ],
+          "correctAnswer": "aapane trimshat aamraphalaani santi.",
+          "translatedSentence": "There are thirty mangoes in the shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adhyaapakah ashtaadasha pustakaani aanayati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher brings eighteen books.",
+            "The teacher brings eight books.",
+            "The teacher reads eighteen books."
+          ],
+          "correctAnswer": "The teacher brings eighteen books."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah graame kati mandiraani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asmaakam graame sapta mandiraani santi.",
+            "vayam pratidinam mandiram gacchaamah.",
+            "mandiram graamasya samipe asti."
+          ],
+          "correctAnswer": "asmaakam graame sapta mandiraani santi.",
+          "translatedSentence": "There are seven temples in our village."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "What does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asya pustakasya moolyam kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asya pustakasya moolyam shatam rupyakaani.",
+            "idam pustakam mama asti.",
+            "aham etat pustakam pathaami."
+          ],
+          "correctAnswer": "asya pustakasya moolyam shatam rupyakaani.",
+          "translatedSentence": "This book costs a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat vastram atyadhikam mahargham asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This cloth is far too expensive.",
+            "This cloth is quite cheap.",
+            "This cloth is very beautiful."
+          ],
+          "correctAnswer": "This cloth is far too expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham kati rupyakaani dadaami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "panchaashat rupyakaani dadaatu.",
+            "rupyakaani mama samipe santi.",
+            "moolyam adhikam na asti."
+          ],
+          "correctAnswer": "panchaashat rupyakaani dadaatu.",
+          "translatedSentence": "Please give fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "krpaya moolyam alpam karotu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please lower the price.",
+            "Please tell me the price.",
+            "Please take the money."
+          ],
+          "correctAnswer": "Please lower the price."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aamraphalaanaam moolyam kim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ekasya aamraphalasya moolyam dasha rupyakaani.",
+            "aamraphalaani aapane santi.",
+            "aham aamraphalam khaadaami."
+          ],
+          "correctAnswer": "ekasya aamraphalasya moolyam dasha rupyakaani.",
+          "translatedSentence": "One mango costs ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama samipe paryaaptaani rupyakaani na santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have enough money.",
+            "I do not want that much money.",
+            "I have enough money with me."
+          ],
+          "correctAnswer": "I do not have enough money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan aapane kim krinaati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham dve pustake krinaami.",
+            "aham aapanam gacchaami.",
+            "aapanam atra eva asti."
+          ],
+          "correctAnswer": "aham dve pustake krinaami.",
+          "translatedSentence": "I am buying two books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "idam vastram navatih rupyakaani, tat vastram shatam rupyakaani.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This cloth is ninety rupees and that cloth is a hundred rupees.",
+            "This cloth is nineteen rupees and that cloth is a hundred rupees.",
+            "This cloth is ninety rupees and that cloth is nine hundred rupees."
+          ],
+          "correctAnswer": "This cloth is ninety rupees and that cloth is a hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati rupyakaani dattavaan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham shatam rupyakaani dattavaan.",
+            "aham rupyakaani na icchaami.",
+            "rupyakaani aapane santi."
+          ],
+          "correctAnswer": "aham shatam rupyakaani dattavaan.",
+          "translatedSentence": "I gave a hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah vayah kiyat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama vayah trimshat varshaani.",
+            "aham gurukule chhaatrah asmi.",
+            "mama naama gopaalah asti."
+          ],
+          "correctAnswer": "mama vayah trimshat varshaani.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama bhaginyaah vayah dvaadasha varshaani.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is twelve years old.",
+            "My brother is twelve years old.",
+            "My sister is twenty years old."
+          ],
+          "correctAnswer": "My sister is twelve years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyah doorabhaashasankhyaa kaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham bhavate mama sankhyaam likhaami.",
+            "aham doorabhaashena vadaami.",
+            "mama grihe doorabhaashah asti."
+          ],
+          "correctAnswer": "aham bhavate mama sankhyaam likhaami.",
+          "translatedSentence": "I will write my number down for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama doorabhaashasankhyaayaam dasha ankaah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My phone number has ten digits.",
+            "My phone number has nine digits.",
+            "There are ten numbers in my phone."
+          ],
+          "correctAnswer": "My phone number has ten digits."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati varshaani atra vasati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham pancha varshaani atra vasaami.",
+            "aham atra na vasaami.",
+            "mama griham graame asti."
+          ],
+          "correctAnswer": "aham pancha varshaani atra vasaami.",
+          "translatedSentence": "I have been living here for five years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mama pituh vayah shashtih varshaani.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is sixty years old.",
+            "My mother is sixty years old.",
+            "My father is sixteen years old."
+          ],
+          "correctAnswer": "My father is sixty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatyah samipe kiyat jalam asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama samipe alpam jalam asti.",
+            "aham jalam pibaami.",
+            "jalam sheetalam asti."
+          ],
+          "correctAnswer": "mama samipe alpam jalam asti.",
+          "translatedSentence": "I have a little water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya bahavah janaah mandiram aagacchanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Many people are coming to the temple today.",
+            "A few people are coming to the temple today.",
+            "Many people will come to the temple tomorrow."
+          ],
+          "correctAnswer": "Many people are coming to the temple today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kiyat dugdham icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ardham paatram dugdham icchaami.",
+            "aham dugdham na pibaami.",
+            "dugdham grihe asti."
+          ],
+          "correctAnswer": "aham ardham paatram dugdham icchaami.",
+          "translatedSentence": "I would like half a cup of milk."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "idaanim samayah kah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "idaanim nava vaadanam.",
+            "adya somavaasarah asti.",
+            "aham paathashaalaam gacchaami."
+          ],
+          "correctAnswer": "idaanim nava vaadanam.",
+          "translatedSentence": "It is nine o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham pratidinam pancha vaadane uttishthaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at five o'clock every day.",
+            "I get up at nine o'clock every day.",
+            "I go to sleep at five o'clock every day."
+          ],
+          "correctAnswer": "I get up at five o'clock every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan kati vaadane paathashaalaam gacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham ashta vaadane paathashaalaam gacchaami.",
+            "aham adya paathashaalaam na gacchaami.",
+            "paathashaalaa grihasya samipe asti."
+          ],
+          "correctAnswer": "aham ashta vaadane paathashaalaam gacchaami.",
+          "translatedSentence": "I go to school at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sandhyaayaam shat vaadane mandire aaratrikam bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The aarati is held at the temple at six in the evening.",
+            "The aarati is held at the temple at seven in the evening.",
+            "The aarati is held at home at six in the evening."
+          ],
+          "correctAnswer": "The aarati is held at the temple at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya paathah kadaa aarabhate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "paathah dasha vaadane aarabhate.",
+            "adhyaapakah idaanim aagacchati.",
+            "paathah bahu rochakah asti."
+          ],
+          "correctAnswer": "paathah dasha vaadane aarabhate.",
+          "translatedSentence": "The class begins at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham sardhasapta vaadane raatribhojanam karomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have dinner at half past seven.",
+            "I have dinner at seven o'clock.",
+            "I have lunch at half past seven."
+          ],
+          "correctAnswer": "I have dinner at half past seven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavati kati vaadane griham aagacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham chatur vaadane griham aagacchaami.",
+            "aham idaanim grihe eva asmi.",
+            "mama griham atra samipe asti."
+          ],
+          "correctAnswer": "aham chatur vaadane griham aagacchaami.",
+          "translatedSentence": "I come home at four o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yaanam ekaadasha vaadane gacchati, atah shiighram aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus leaves at eleven o'clock, so please come quickly.",
+            "The bus leaves at eleven o'clock, so please wait here.",
+            "The bus leaves at twelve o'clock, so please come quickly."
+          ],
+          "correctAnswer": "The bus leaves at eleven o'clock, so please come quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavaan pratidinam kati ghantaah pathati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham pratidinam pancha ghantaah pathaami.",
+            "aham adya na pathaami.",
+            "mama paathah shobhanah asti."
+          ],
+          "correctAnswer": "aham pratidinam pancha ghantaah pathaami.",
+          "translatedSentence": "I study for five hours every day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sarvam militvaa kati rupyakaani bhavanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sarvam militvaa dvishatam rupyakaani bhavanti.",
+            "moolyam adhikam na asti.",
+            "aham idaanim rupyakaani dadaami."
+          ],
+          "correctAnswer": "sarvam militvaa dvishatam rupyakaani bhavanti.",
+          "translatedSentence": "Altogether it comes to two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "etat pustakam tasmaat pustakaat adhikam mahargham asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book is more expensive than that book.",
+            "This book is cheaper than that book.",
+            "That book is bigger than this book."
+          ],
+          "correctAnswer": "This book is more expensive than that book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavatah samipe paryaaptaani rupyakaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, mama samipe nyoonaani rupyakaani santi, atah aham shvah dadaami.",
+            "aam, aham rupyakaani na icchaami, yatah moolyam alpam asti.",
+            "na, mama samipe pustakaani na santi, atah aham aapanam gacchaami."
+          ],
+          "correctAnswer": "na, mama samipe nyoonaani rupyakaani santi, atah aham shvah dadaami.",
+          "translatedSentence": "No, I am short of money, so I will pay tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavaan dasha phalaani krinaati tarhi moolyam nyoonam bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you buy ten fruits, the price comes down.",
+            "If you buy ten fruits, the price goes up.",
+            "If you buy five fruits, the price comes down."
+          ],
+          "correctAnswer": "If you buy ten fruits, the price comes down."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kimartham bhavati adya alpam bhojanam khaadati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yatah adya mama kshudhaa na asti.",
+            "yatah bhojanam bahu madhuram asti.",
+            "yatah aham adhikam bhojanam icchaami."
+          ],
+          "correctAnswer": "yatah adya mama kshudhaa na asti.",
+          "translatedSentence": "Because I am not hungry today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya mandire hyah apekshaya adhikaah janaah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are more people at the temple today than yesterday.",
+            "There are fewer people at the temple today than yesterday.",
+            "There were more people at the temple yesterday than today."
+          ],
+          "correctAnswer": "There are more people at the temple today than yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah samipe kati rupyakaani nyoonaani santi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mama samipe panchaashat rupyakaani nyoonaani santi.",
+            "mama samipe bahooni rupyakaani santi.",
+            "aham bhavate rupyakaani dadaami."
+          ],
+          "correctAnswer": "mama samipe panchaashat rupyakaani nyoonaani santi.",
+          "translatedSentence": "I am fifty rupees short."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sarvaani phalaani maa khaadatu, kimchit shvah api aavashyakam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do not eat all the fruits, we need some for tomorrow too.",
+            "Please do not eat all the fruits, we will buy more tomorrow.",
+            "Please eat all the fruits, we will get some more tomorrow."
+          ],
+          "correctAnswer": "Please do not eat all the fruits, we need some for tomorrow too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah bhojanaaya kati janaah aagamishyanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sarve militvaa dasha janaah aagamishyanti.",
+            "vayam shvah bhojanam karishyaamah.",
+            "janaah adya mandire santi."
+          ],
+          "correctAnswer": "sarve militvaa dasha janaah aagamishyanti.",
+          "translatedSentence": "Ten people in all will be coming."
+        }
+      ]
+    }
+  ]
+}

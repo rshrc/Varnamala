@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame kem cho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hu majama nathi.",
+            "Hu majama chu.",
+            "Hu ghare chu."
+          ],
+          "correctAnswer": "Hu majama nathi.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne shu thay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane mathu dukhe che.",
+            "Mane bhookh lage che.",
+            "Mane ungh ave che."
+          ],
+          "correctAnswer": "Mane mathu dukhe che.",
+          "translatedSentence": "I have a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane pet ma dukhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My stomach hurts.",
+            "My head hurts.",
+            "My leg hurts."
+          ],
+          "correctAnswer": "My stomach hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne mathu dukhe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, savar thi dukhe che.",
+            "Na, mane bhookh lagi che.",
+            "Ha, hu ghare jau chu."
+          ],
+          "correctAnswer": "Ha, savar thi dukhe che.",
+          "translatedSentence": "Yes, it has been hurting since morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu aaje majama nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not well today.",
+            "I am fine today.",
+            "I am at home today."
+          ],
+          "correctAnswer": "I am not well today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara pag ma dukhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts.",
+            "My hand hurts.",
+            "My back hurts."
+          ],
+          "correctAnswer": "My leg hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu majama che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mane taav che.",
+            "Ha, hu doctor pase chu.",
+            "Na, hu ghare chu."
+          ],
+          "correctAnswer": "Na, mane taav che.",
+          "translatedSentence": "No, I have a fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane thodu dukhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It hurts a little.",
+            "It hurts a lot.",
+            "It does not hurt."
+          ],
+          "correctAnswer": "It hurts a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ketla divas thi dukhe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Be divas thi dukhe che.",
+            "Aa hath ma dukhe che.",
+            "Mane atyare saru che."
+          ],
+          "correctAnswer": "Be divas thi dukhe che.",
+          "translatedSentence": "It has been hurting for two days."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne galu dukhe che ke dant?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Galu dukhe che, dant nathi dukhta.",
+            "Mane pag ma vagyu che.",
+            "Mane be divas thi taav che."
+          ],
+          "correctAnswer": "Galu dukhe che, dant nathi dukhta.",
+          "translatedSentence": "My throat hurts, my teeth do not."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari kai aankh ma dukhe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jamni aankh ma dukhe che.",
+            "Dabo hath savar thi dukhe che.",
+            "Mara kaan ma avaj ave che."
+          ],
+          "correctAnswer": "Jamni aankh ma dukhe che.",
+          "translatedSentence": "My right eye hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara daba hath ma dukhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My left hand hurts.",
+            "My right hand hurts.",
+            "My left leg hurts."
+          ],
+          "correctAnswer": "My left hand hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne peeth ma dukhe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, besva thi vadhare dukhe che.",
+            "Na, mane bhookh lagi che.",
+            "Ha, mara kaan ma dukhe che."
+          ],
+          "correctAnswer": "Ha, besva thi vadhare dukhe che.",
+          "translatedSentence": "Yes, it hurts more when I sit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mara bane pag savar thi dukhe che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both my legs have been hurting since morning.",
+            "Both my hands have been hurting since morning.",
+            "My legs start hurting in the evening."
+          ],
+          "correctAnswer": "Both my legs have been hurting since morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne kya vagyu che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mara daba ghuntan ma vagyu che.",
+            "Mane raat e ungh nathi avti.",
+            "Mane thodo taav lage che."
+          ],
+          "correctAnswer": "Mara daba ghuntan ma vagyu che.",
+          "translatedSentence": "I have hurt my left knee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mari aangli ma vagyu che, pan lohi nathi nikaltu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My finger is hurt, but it is not bleeding.",
+            "My finger is hurt and it is bleeding a lot.",
+            "My hand is hurt, but it does not hurt much."
+          ],
+          "correctAnswer": "My finger is hurt, but it is not bleeding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamaru mathu haju pan dukhe che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, have saru lage che.",
+            "Ha, mane bhookh lagi che.",
+            "Na, mane pag ma vagyu che."
+          ],
+          "correctAnswer": "Na, have saru lage che.",
+          "translatedSentence": "No, I feel better now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane kaan ma thodo dukhavo thay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a slight pain in my ear.",
+            "I have a slight pain in my eye.",
+            "I have a bad pain in my ear."
+          ],
+          "correctAnswer": "I have a slight pain in my ear."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At The Doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bolo, tamne shu taklif che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane tran divas thi taav che.",
+            "Mane aa dava thi saru thai gayu che.",
+            "Doctor sahebe mane kale tapasyo hato."
+          ],
+          "correctAnswer": "Mane tran divas thi taav che.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane raat e vadhare taav ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My fever goes up at night.",
+            "My fever comes down at night.",
+            "I get a fever every morning."
+          ],
+          "correctAnswer": "My fever goes up at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne ulti jevu thay che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, jamya pachhi thay che.",
+            "Na, mane bhookh khoob lage che.",
+            "Ha, mane ghuntan ma vagyu che."
+          ],
+          "correctAnswer": "Ha, jamya pachhi thay che.",
+          "translatedSentence": "Yes, it happens after I eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tame koi dava lidhi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, me kale taav ni goli lidhi hati.",
+            "Na, mane doctor pase javu nathi gamtu.",
+            "Ha, mane savar thi chakkar ave che."
+          ],
+          "correctAnswer": "Ha, me kale taav ni goli lidhi hati.",
+          "translatedSentence": "Yes, I took a fever tablet yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu ubho thau tyare mane chakkar ave che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel dizzy when I stand up.",
+            "I feel dizzy when I lie down.",
+            "I feel tired when I walk."
+          ],
+          "correctAnswer": "I feel dizzy when I stand up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne bhookh lage che ke nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, be divas thi bhookh lagti nathi.",
+            "Ha, mane gala ma dukhe che.",
+            "Na, mane raat e sari ungh ave che."
+          ],
+          "correctAnswer": "Na, be divas thi bhookh lagti nathi.",
+          "translatedSentence": "No, I have not felt hungry for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane pehla kyarey aavu thayu nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This has never happened to me before.",
+            "This happens to me every month.",
+            "This happened to me last year as well."
+          ],
+          "correctAnswer": "This has never happened to me before."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne kai dava thi allergy che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ek dava thi mari chamdi par chakama thay che.",
+            "Na, hu Surat thi avu chu.",
+            "Ha, mane roj savare mathu dukhe che."
+          ],
+          "correctAnswer": "Ha, ek dava thi mari chamdi par chakama thay che.",
+          "translatedSentence": "Yes, one medicine gives me a rash on my skin."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane khavama kai svaad lagto nathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Food does not taste of anything to me.",
+            "I do not feel like eating anything.",
+            "I cannot smell anything at all."
+          ],
+          "correctAnswer": "Food does not taste of anything to me."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bolo saheb, tamne shu joie che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mane taav ni goli joie che.",
+            "Mane doctor pase javu che.",
+            "Mane aa medical store gamyu."
+          ],
+          "correctAnswer": "Mane taav ni goli joie che.",
+          "translatedSentence": "I need a tablet for fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa goli divas ma tran vaar lejo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this tablet three times a day.",
+            "Take this tablet twice a day.",
+            "Take this tablet for three days."
+          ],
+          "correctAnswer": "Take this tablet three times a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa dava jamya pehla levani ke pachhi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jamya pachhi levani che.",
+            "Divas ma be vaar levani che.",
+            "Aa dava raat e levani che."
+          ],
+          "correctAnswer": "Jamya pachhi levani che.",
+          "translatedSentence": "It has to be taken after eating."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamari pase doctor ni chithhi che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aa rahi chithhi.",
+            "Na, mane aa dava nathi joiti.",
+            "Ha, mane tran divas thi shardi che."
+          ],
+          "correctAnswer": "Ha, aa rahi chithhi.",
+          "translatedSentence": "Yes, here is the prescription."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa syrup ni be chamchi savare ane be raat e lo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take two spoons of this syrup in the morning and two at night.",
+            "Take one spoon of this syrup in the morning and one at night.",
+            "Take two spoons of this syrup only at night."
+          ],
+          "correctAnswer": "Take two spoons of this syrup in the morning and two at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa dava na ketla thaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek so vees rupiya thaya.",
+            "Tran divas chale etli che.",
+            "Divas ma be goli levani che."
+          ],
+          "correctAnswer": "Ek so vees rupiya thaya.",
+          "translatedSentence": "It comes to one hundred and twenty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa dava khali pete na levay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine must not be taken on an empty stomach.",
+            "This medicine must be taken on an empty stomach.",
+            "This medicine must not be taken at night."
+          ],
+          "correctAnswer": "This medicine must not be taken on an empty stomach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Goli lidha pachhi ungh ave to shu karvu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To gadi na chalavso.",
+            "To bija medical store ma juo.",
+            "To vadhare ek goli lai lejo."
+          ],
+          "correctAnswer": "To gadi na chalavso.",
+          "translatedSentence": "Then do not drive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo taav be divas ma na utre to pacha avjo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down in two days, come back.",
+            "If the fever comes down in two days, come back.",
+            "Come back in two days for a different medicine."
+          ],
+          "correctAnswer": "If the fever does not come down in two days, come back."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamne shardi kyare thai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal raat thi naak vahe che.",
+            "Mane pet ma bahu dukhe che.",
+            "Hu roj be goli lau chu."
+          ],
+          "correctAnswer": "Kal raat thi naak vahe che.",
+          "translatedSentence": "My nose has been running since last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane sukhi udharas che ane raat e vadhi jay che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a dry cough and it gets worse at night.",
+            "I have a chesty cough and it gets worse at night.",
+            "I have a dry cough and it settles down at night."
+          ],
+          "correctAnswer": "I have a dry cough and it gets worse at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atyare taav ketlo che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek so tran degree che.",
+            "Be divas thi che.",
+            "Mane khoob thandi lage che."
+          ],
+          "correctAnswer": "Ek so tran degree che.",
+          "translatedSentence": "It is a hundred and three degrees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu patang chagavta chhat par thi padi gayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mara ghuntan ma vagyu che.",
+            "Na, mane shardi thai gai che.",
+            "Ha, mane patang chagavvanu bahu game che."
+          ],
+          "correctAnswer": "Ha, mara ghuntan ma vagyu che.",
+          "translatedSentence": "Yes, and I hurt my knee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kale hu Sabarmati na kinare padi gayo ane mara hath ma thi lohi nikalyu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I fell on the Sabarmati riverfront and my hand bled.",
+            "Yesterday I fell on the Sabarmati riverfront, but my hand did not bleed.",
+            "Yesterday I fell at home and my hand bled."
+          ],
+          "correctAnswer": "Yesterday I fell on the Sabarmati riverfront and my hand bled."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taav sathe thandi pan lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, odhya pachhi pan thandi lage che.",
+            "Na, mane pag ma vagyu che.",
+            "Ha, mane khoob bhookh lage che."
+          ],
+          "correctAnswer": "Ha, odhya pachhi pan thandi lage che.",
+          "translatedSentence": "Yes, I feel cold even under a blanket."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Taav ma thepla ke bhare khavanu na khaso.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not eat thepla or heavy food while you have a fever.",
+            "Eat thepla and other heavy food while you have a fever.",
+            "Do not drink cold water while you have a fever."
+          ],
+          "correctAnswer": "Do not eat thepla or heavy food while you have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghav par shu lagavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pehla paani thi dhoi ne malam lagavo.",
+            "Pehla garam chaas pi lo.",
+            "Pehla taav ni be goli lai lo."
+          ],
+          "correctAnswer": "Pehla paani thi dhoi ne malam lagavo.",
+          "translatedSentence": "First wash it with water and then put the ointment on."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mane etli udharas che ke raat e ungh nathi avti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My cough is so bad that I cannot sleep at night.",
+            "My cough is so bad that I cannot eat at night.",
+            "I cough a little at night, but I sleep well."
+          ],
+          "correctAnswer": "My cough is so bad that I cannot sleep at night."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor saheb, hu kyare thi kaam par jai shaku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Be divas aaram karo, pachhi jai shakso.",
+            "Tame atyare j medical store par jai shako cho.",
+            "Mane puchhya vagar tame dava badli nakhi."
+          ],
+          "correctAnswer": "Be divas aaram karo, pachhi jai shakso.",
+          "translatedSentence": "Rest for two days, and then you can go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Divas ma ochha ma ochhu ath glass paani pijo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink at least eight glasses of water a day.",
+            "Drink no more than eight glasses of water a day.",
+            "Drink eight glasses of hot water every night."
+          ],
+          "correctAnswer": "Drink at least eight glasses of water a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taav utri gayo che, pan mane haju nabalai lage che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thoda divas halku khao ane vadhare aaram karo.",
+            "Have tame roj savare daudva jai shako cho.",
+            "To dava band kari do ane kaam shuru kari do."
+          ],
+          "correctAnswer": "Thoda divas halku khao ane vadhare aaram karo.",
+          "translatedSentence": "Eat light for a few days and rest more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jo tame barabar dava lesho to ek athvadiya ma saara thai jasho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you take the medicine properly, you will be well in a week.",
+            "If you take the medicine properly, you will be well in a month.",
+            "Even if you take the medicine, it will take a month to get well."
+          ],
+          "correctAnswer": "If you take the medicine properly, you will be well in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Have tamne kem lage che?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pehla karta ghanu saru lage che, aabhar.",
+            "Mane haju sudhi dava mali nathi.",
+            "Mane kale thi navo taav shuru thayo che."
+          ],
+          "correctAnswer": "Pehla karta ghanu saru lage che, aabhar.",
+          "translatedSentence": "I feel much better than before, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Undhiyu bhare hoy che etle atyare na khaso, chaas pijo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undhiyu is heavy, so do not eat it now; drink buttermilk instead.",
+            "Undhiyu is light, so you can eat it now with buttermilk.",
+            "Do not drink buttermilk now, but you may eat undhiyu."
+          ],
+          "correctAnswer": "Undhiyu is heavy, so do not eat it now; drink buttermilk instead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor sahebe tamne shu kahyu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emne kahyu ke ek athvadiyu aaram karvo joie.",
+            "Emne kahyu ke hu Vadodara ma rahu chu.",
+            "Emne mane koi dava lakhi aapi nathi."
+          ],
+          "correctAnswer": "Emne kahyu ke ek athvadiyu aaram karvo joie.",
+          "translatedSentence": "He said that I should rest for a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hu haju puri rite saro nathi thayo, pan pehla karta saru che.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not fully better yet, but I am better than before.",
+            "I am completely better now, much better than before.",
+            "I am not better yet and I feel worse than before."
+          ],
+          "correctAnswer": "I am not fully better yet, but I am better than before."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kale thi hu chalva jau to chale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, pan dhime dhime chalajo ane thaki jao to besi jajo.",
+            "Na, tame have kyarey chalva na jaso.",
+            "Ha, tame kale thi roj be kalak daudi shako cho."
+          ],
+          "correctAnswer": "Ha, pan dhime dhime chalajo ane thaki jao to besi jajo.",
+          "translatedSentence": "Yes, but walk slowly and sit down if you get tired."
+        }
+      ]
+    }
+  ]
+}

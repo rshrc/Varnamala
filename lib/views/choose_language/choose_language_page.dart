@@ -3,129 +3,63 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:auto_route/annotations.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:words625/application/language_provider.dart';
-import 'package:words625/core/enums.dart';
-import 'package:words625/core/extensions.dart';
-import 'package:words625/gen/assets.gen.dart';
+import 'package:words625/core/language_info.dart';
 import 'package:words625/views/choose_language/components/app_bar.dart';
 import 'package:words625/views/choose_language/components/continue_button.dart';
-
-// Include path to assets as necessary
+import 'package:words625/views/theme.dart';
 
 @RoutePage()
-class LangChoicePage extends StatefulWidget {
+class LangChoicePage extends StatelessWidget {
   const LangChoicePage({Key? key}) : super(key: key);
-
-  @override
-  State<LangChoicePage> createState() => _LangChoicePageState();
-}
-
-class _LangChoicePageState extends State<LangChoicePage> {
-  final List<Map<String, dynamic>> _languages = [
-    {
-      'language': TargetLanguage.kannada,
-      'flag': Assets.images.karnatakaFlag.path,
-      'script': 'ಕನ್ನಡ',
-    },
-    {
-      'language': TargetLanguage.tamil,
-      'flag': Assets.images.tamilNaduFlag.path,
-      'script': 'தமிழ்',
-    },
-    {
-      'language': TargetLanguage.telugu,
-      'flag': Assets.images.telenganaFlag.path,
-      'script': 'తెలుగు',
-    },
-    {
-      'language': TargetLanguage.malayalam,
-      'flag': Assets.images.malayalamFlag.path,
-      'script': 'മലയാളം',
-    },
-    {
-      'language': TargetLanguage.hindi,
-      'flag': Assets.images.book.path,
-      'script': 'हिन्दी',
-    },
-    {
-      'language': TargetLanguage.bengali,
-      'flag': Assets.images.book.path,
-      'script': 'বাংলা',
-    },
-    {
-      'language': TargetLanguage.odia,
-      'flag': Assets.images.book.path,
-      'script': 'ଓଡ଼ିଆ',
-    },
-    {
-      'language': TargetLanguage.nepali,
-      'flag': Assets.images.book.path,
-      'script': 'नेपाली',
-    },
-    {
-      'language': TargetLanguage.assamese,
-      'flag': Assets.images.book.path,
-      'script': 'অসমীয়া',
-    },
-  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const ChooseLanguageAppbar(),
       body: Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            const Align(
-              alignment: Alignment.topLeft,
-              child: Text(
-                'What do you want to learn?',
-                style: TextStyle(
-                  fontSize: 25,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+            const SizedBox(height: 4),
+            Text(
+              'What do you want to learn?',
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
             ),
-            const SizedBox(height: 10),
-            const Align(
-              alignment: Alignment.topLeft,
-              child: Text(
-                'For English speakers',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
+            const SizedBox(height: 4),
+            Text(
+              'For English speakers',
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: VarnamalaTheme.textHint,
+                    fontWeight: FontWeight.w500,
+                  ),
             ),
-            const SizedBox(height: 14),
+            const SizedBox(height: 16),
             Expanded(
               child: GridView.builder(
+                physics: const BouncingScrollPhysics(),
+                padding: const EdgeInsets.only(bottom: 8),
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  crossAxisSpacing: 10,
-                  mainAxisSpacing: 10,
-                  childAspectRatio: 1.2,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
+                  childAspectRatio: 0.95,
                 ),
-                itemCount: _languages.length,
-                itemBuilder: (context, index) {
-                  final lang = _languages[index];
-                  return LanguageOptionTile(
-                    targetLanguage: lang['language'] as TargetLanguage,
-                    flagAsset: lang['flag'] as String,
-                    languageScript: lang['script'] as String,
-                  );
-                },
+                itemCount: supportedLanguages.length,
+                itemBuilder: (context, index) =>
+                    LanguageOptionTile(supportedLanguages[index]),
               ),
             ),
-            const SizedBox(height: 14),
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: ContinueButton(context),
-            ),
+            const SizedBox(height: 12),
+            ContinueButton(context),
+            const SizedBox(height: 8),
           ],
         ),
       ),
@@ -134,71 +68,83 @@ class _LangChoicePageState extends State<LangChoicePage> {
 }
 
 class LanguageOptionTile extends StatelessWidget {
-  final TargetLanguage targetLanguage;
-  final String flagAsset;
-  final String languageScript;
+  const LanguageOptionTile(this.info, {Key? key}) : super(key: key);
 
-  const LanguageOptionTile({
-    Key? key,
-    required this.targetLanguage,
-    required this.flagAsset,
-    required this.languageScript,
-  }) : super(key: key);
+  final LanguageInfo info;
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<LanguageProvider>(builder: (context, languageState, _) {
-      bool isSelected = languageState.selectedLanguage == targetLanguage;
-      return GestureDetector(
-        onTap: () {
-          languageState.setLanguage(targetLanguage);
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(12),
-            border: Border.all(
-              color: isSelected ? Colors.green : const Color(0xFFE5E5E5),
-              width: isSelected ? 3 : 2,
+    return Consumer<LanguageProvider>(
+      builder: (context, languageState, _) {
+        final isSelected = languageState.selectedLanguage == info.language;
+
+        return GestureDetector(
+          onTap: () => languageState.setLanguage(info.language),
+          child: AnimatedContainer(
+            duration: const Duration(milliseconds: 160),
+            curve: Curves.easeOut,
+            decoration: BoxDecoration(
+              color: isSelected
+                  ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.06)
+                  : Colors.white,
+              borderRadius: BorderRadius.circular(18),
+              border: Border.all(
+                color: isSelected
+                    ? VarnamalaTheme.peacockTeal
+                    : const Color(0xFFE5E5E5),
+                width: isSelected ? 2.5 : 1.5,
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: isSelected
+                      ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.18)
+                      : Colors.black.withValues(alpha: 0.04),
+                  blurRadius: isSelected ? 14 : 6,
+                  offset: const Offset(0, 3),
+                ),
+              ],
             ),
-            boxShadow: [
-              if (isSelected)
-                const BoxShadow(
-                  color: Colors.greenAccent,
-                  blurRadius: 8,
-                  offset: Offset(0, 2),
-                ),
-            ],
+            child: Padding(
+              padding: const EdgeInsets.all(12),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  SvgPicture.asset(info.emblem, width: 52, height: 52),
+                  const SizedBox(height: 10),
+                  Text(
+                    info.englishName,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    info.nativeName,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      color: VarnamalaTheme.textHint,
+                      fontSize: 14,
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  Text(
+                    info.region,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: VarnamalaTheme.textHint.withValues(alpha: 0.7),
+                      fontSize: 11,
+                      letterSpacing: 0.2,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Image.asset(
-                flagAsset,
-                width: 60,
-                height: 40,
-                fit: BoxFit.contain,
-              ),
-              const SizedBox(height: 12),
-              Text(
-                targetLanguage.name.toTitleCase,
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 16,
-                ),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                languageScript,
-                style: const TextStyle(
-                  color: Colors.grey,
-                  fontSize: 14,
-                ),
-              ),
-            ],
-          ),
-        ),
-      );
-    });
+        );
+      },
+    );
   }
 }

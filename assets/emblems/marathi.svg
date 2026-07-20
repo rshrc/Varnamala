@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Marathi">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#C1440E"/>
+      <stop offset="1" stop-color="#7C2D12"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="17" r="4.5"/>
+    <path d="M32 22l-7 10h14z"/>
+    <path d="M32 32l-7 10h14z"/>
+    <path d="M25 32l-9-5M39 32l9-5"/>
+    <path d="M25 42l-5 8M39 42l5 8"/>
+    <path d="M12 54c6-4 14-4 20 0s14 4 20 0" stroke-width="2"/>
+  </g>
+</svg>

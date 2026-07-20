@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namo namah, adya utsavah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "utsavasya shubhaashayaah!",
+            "shubhaa raatrih astu.",
+            "punah milaamah."
+          ],
+          "correctAnswer": "utsavasya shubhaashayaah!",
+          "translatedSentence": "Happy festival to you!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "deepaavalyaah shubhaashayaah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Happy Deepavali!",
+            "Happy birthday!",
+            "Good morning!"
+          ],
+          "correctAnswer": "Happy Deepavali!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "utsavasya shubhaashayaah, bhavate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, bhavate api.",
+            "kshamyataam, na jaanaami.",
+            "aam, aham gacchami."
+          ],
+          "correctAnswer": "dhanyavaadah, bhavate api.",
+          "translatedSentence": "Thank you, and the same to you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "adya mama grhe utsavah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today there is a festival at my house.",
+            "Today there is a festival at the temple.",
+            "Yesterday there was a festival at my house."
+          ],
+          "correctAnswer": "Today there is a festival at my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya bhavan prasannah asti vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham bahu prasannah asmi.",
+            "na, aham mandiram gacchami.",
+            "aam, adya utsavah na asti."
+          ],
+          "correctAnswer": "aam, aham bahu prasannah asmi.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sarvebhyah utsavasya shubhaashayaah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Festival greetings to everyone.",
+            "Festival greetings to the teacher.",
+            "Thanks to everyone for coming."
+          ],
+          "correctAnswer": "Festival greetings to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shubham bhavatu, mitra.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, mitra.",
+            "utsavah kutra asti?",
+            "aham na jaanaami."
+          ],
+          "correctAnswer": "dhanyavaadah, mitra.",
+          "translatedSentence": "Thank you, my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "utsave sarve prasannaah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone is happy at the festival.",
+            "Everyone is at the festival.",
+            "Everyone is happy at home."
+          ],
+          "correctAnswer": "Everyone is happy at the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham idaanim grham gacchami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shubham astu, punah milaamah.",
+            "aam, aham atra tishthaami.",
+            "bhavatah grham kutra asti?"
+          ],
+          "correctAnswer": "shubham astu, punah milaamah.",
+          "translatedSentence": "All the best, see you again."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "deepaavali kadaa bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "deepaavali kaartika-maase bhavati.",
+            "deepaavali phaalguna-maase bhavati.",
+            "deepaavali maagha-maase bhavati."
+          ],
+          "correctAnswer": "deepaavali kaartika-maase bhavati.",
+          "translatedSentence": "Deepavali falls in the month of Kartika."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "holikotsavah phaalguna-maase bhavati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Holi festival falls in the month of Phalguna.",
+            "The Holi festival falls in the month of Kartika.",
+            "The Holi festival lasts for three days."
+          ],
+          "correctAnswer": "The Holi festival falls in the month of Phalguna."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya kah utsavah asti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "adya guru-purnimaa asti.",
+            "adya mama janmadinam asti.",
+            "adya utsavah na asti."
+          ],
+          "correctAnswer": "adya guru-purnimaa asti.",
+          "translatedSentence": "Today is Guru Purnima."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "guru-purnimaayaam vayam gurum namaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Guru Purnima we bow to our teacher.",
+            "On Guru Purnima we go to the temple.",
+            "On Guru Purnima our teacher comes home."
+          ],
+          "correctAnswer": "On Guru Purnima we bow to our teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vasanta-panchami kasmin maase bhavati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saa maagha-maase bhavati.",
+            "saa kaartika-maase bhavati.",
+            "saa aashaadha-maase bhavati."
+          ],
+          "correctAnswer": "saa maagha-maase bhavati.",
+          "translatedSentence": "It falls in the month of Magha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vasanta-panchamyaam chhaatraah sarasvatim pujayanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Vasanta Panchami the students worship Saraswati.",
+            "On Vasanta Panchami the students sing a song.",
+            "On Vasanta Panchami the teachers worship Saraswati."
+          ],
+          "correctAnswer": "On Vasanta Panchami the students worship Saraswati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "samskrta-dinam kadaa aacharaamah?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "shraavana-paurnamaasyaam aacharaamah.",
+            "kaartika-paurnamaasyaam aacharaamah.",
+            "vayam maagha-maase aacharaamah."
+          ],
+          "correctAnswer": "shraavana-paurnamaasyaam aacharaamah.",
+          "translatedSentence": "We celebrate it on the full-moon day of Shravana."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "samskrta-dine vayam samskrtena eva vadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Sanskrit Day we speak only in Sanskrit.",
+            "On Sanskrit Day we learn a little Sanskrit.",
+            "On Sanskrit Day we also speak in Sanskrit."
+          ],
+          "correctAnswer": "On Sanskrit Day we speak only in Sanskrit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "deepaavalyaam bhavan kim karoti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham grhe deepaan jvaalayaami.",
+            "aham varnaih saha kridaami.",
+            "aham gurum namaami."
+          ],
+          "correctAnswer": "aham grhe deepaan jvaalayaami.",
+          "translatedSentence": "I light lamps at home."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya asmaakam grham aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, avashyam aagacchaami.",
+            "aam, aham grhe eva asmi.",
+            "na, bhavan mama grham aagacchatu."
+          ],
+          "correctAnswer": "aam, avashyam aagacchaami.",
+          "translatedSentence": "Yes, I will certainly come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham bhavantam utsavaaya nimantrayaami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to the festival.",
+            "I am going to the festival with you.",
+            "I am waiting for you at the festival."
+          ],
+          "correctAnswer": "I am inviting you to the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan kadaa aagacchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham saayamkaale aagacchaami.",
+            "aham saayamkaale bhojanam khaadaami.",
+            "aham grhe eva tishthaami."
+          ],
+          "correctAnswer": "aham saayamkaale aagacchaami.",
+          "translatedSentence": "I will come in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asmaakam mitraani saayamkaale aagamishyanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our friends will come in the evening.",
+            "Our friends came in the evening.",
+            "Our friends will come in the morning."
+          ],
+          "correctAnswer": "Our friends will come in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan saparivaaram aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, vayam sarve aagacchaamah.",
+            "dhanyavaadah, kintu aham na jaanaami.",
+            "kshamyataam, mama grham duurah asti."
+          ],
+          "correctAnswer": "dhanyavaadah, vayam sarve aagacchaamah.",
+          "translatedSentence": "Thank you, we will all come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kshamyataam, adya aham aagantum na shaknomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I cannot come today.",
+            "Sorry, I do not want to come today.",
+            "Sorry, I will come tomorrow instead."
+          ],
+          "correctAnswer": "Sorry, I cannot come today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavan shvah aagamishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, shvah avashyam aagamishyaami.",
+            "na, shvah mama kaaryam asti.",
+            "na, aham shvah grhe na bhavaami."
+          ],
+          "correctAnswer": "aam, shvah avashyam aagamishyaami.",
+          "translatedSentence": "Yes, I will certainly come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "nimantranaaya bahu dhanyavaadah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for the invitation.",
+            "Thank you very much for the gift.",
+            "Please send me an invitation."
+          ],
+          "correctAnswer": "Thank you very much for the invitation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "utsavah asmaakam grhe saayamkaale asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, aham samaye aagacchaami.",
+            "aam, aham grhe bhojanam pachaami.",
+            "na, mandiram bahu duurah asti."
+          ],
+          "correctAnswer": "aam, aham samaye aagacchaami.",
+          "translatedSentence": "Yes, I will come on time."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "utsave maataa kim pachati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saa mishtaannam pachati.",
+            "saa navavastraani krinaati.",
+            "saa aapanam gacchati."
+          ],
+          "correctAnswer": "saa mishtaannam pachati.",
+          "translatedSentence": "She is making sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maataa adya laddukaan karoti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making laddus today.",
+            "Mother made laddus yesterday.",
+            "Mother is buying laddus today."
+          ],
+          "correctAnswer": "Mother is making laddus today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kim bhavan laddukam icchati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, krpaya ekam laddukam dadaatu.",
+            "aam, aham laddukam na icchami.",
+            "na, aham laddukam pachaami."
+          ],
+          "correctAnswer": "aam, krpaya ekam laddukam dadaatu.",
+          "translatedSentence": "Yes, please give me one laddu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "esha laddukah atishayena svaadishtah asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This laddu is extremely tasty.",
+            "This laddu is a little sweet.",
+            "That laddu is extremely tasty."
+          ],
+          "correctAnswer": "This laddu is extremely tasty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tvam kim icchasi, laddukam athavaa paayasam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mahyam paayasam rochate.",
+            "mahyam mishtaannam na rochate.",
+            "aham paayasam pachaami."
+          ],
+          "correctAnswer": "mahyam paayasam rochate.",
+          "translatedSentence": "I would like the payasam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "deepaavalyaam vayam bahuvidhaani mishtaannaani khaadaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Deepavali we eat many kinds of sweets.",
+            "At Deepavali we make many kinds of sweets.",
+            "At Deepavali we eat a lot of sweets at home."
+          ],
+          "correctAnswer": "At Deepavali we eat many kinds of sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "krpaya punah alpam paayasam khaadatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "na, dhanyavaadah, mama udaram purnam asti.",
+            "aam, kintu aham paayasam na khaadaami.",
+            "kshamyataam, paayasam kutra asti?"
+          ],
+          "correctAnswer": "na, dhanyavaadah, mama udaram purnam asti.",
+          "translatedSentence": "No thank you, I am completely full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aham adhikam mishtaannam khaaditum na shaknomi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot eat any more sweets.",
+            "I do not want to eat sweets.",
+            "I cannot make sweets at all."
+          ],
+          "correctAnswer": "I cannot eat any more sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhojanam katham aasit?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhojanam bahu svaadishtam aasit.",
+            "bhojanam shvah bhavishyati.",
+            "bhojanam maataa pachati."
+          ],
+          "correctAnswer": "bhojanam bahu svaadishtam aasit.",
+          "translatedSentence": "The food was very tasty."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "deepaavalyaam bhavan kim dhaarayati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham navam yutakam dhaarayaami.",
+            "aham navam yutakam krinaami.",
+            "aham aapanam gacchami."
+          ],
+          "correctAnswer": "aham navam yutakam dhaarayaami.",
+          "translatedSentence": "I wear a new shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "utsavaat purvam vayam navavastraani krinaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before the festival we buy new clothes.",
+            "After the festival we buy new clothes.",
+            "Before the festival we wear new clothes."
+          ],
+          "correctAnswer": "Before the festival we buy new clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "etat vastram bhavate rochate vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, etat vastram atishayena shobhanam asti.",
+            "na, aham vastram na dhaarayaami.",
+            "aam, aham vastraaya aapanam gacchami."
+          ],
+          "correctAnswer": "aam, etat vastram atishayena shobhanam asti.",
+          "translatedSentence": "Yes, this outfit is really beautiful."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pitaa mahyam upaayanam dattavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father gave me a gift.",
+            "Father bought a gift for mother.",
+            "I gave father a gift."
+          ],
+          "correctAnswer": "Father gave me a gift."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aham bhavate upaayanam aanitavaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, kintu etat aavashyakam na aasit.",
+            "kshamyataam, aham upaayanam na icchami.",
+            "aam, aham bhavate upaayanam dadaami."
+          ],
+          "correctAnswer": "dhanyavaadah, kintu etat aavashyakam na aasit.",
+          "translatedSentence": "Thank you, but you really did not have to."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "utsave sarve kutumbinah ekatra militvaa bhojanam khaadanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At the festival the whole family gets together and eats.",
+            "At the festival the whole family cooks the food together.",
+            "At the festival the whole family goes to the temple together."
+          ],
+          "correctAnswer": "At the festival the whole family gets together and eats."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavatah bhraataa api aagatah vaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, sah saparivaaram aagatah.",
+            "na, sah grhe mishtaannam pachati.",
+            "aam, kintu aham tam na jaanaami."
+          ],
+          "correctAnswer": "aam, sah saparivaaram aagatah.",
+          "translatedSentence": "Yes, he has come with his family."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi bhavan aagacchati tarhi vayam sarve prasannaah bhavaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come, we will all be delighted.",
+            "When you came, we were all delighted.",
+            "If you come, everyone will be at home."
+          ],
+          "correctAnswer": "If you come, we will all be delighted."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "baalaah upaayanaani labdhvaa prasannaah santi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aam, teshaam mukhe smitam asti.",
+            "na, te vidyaalayam gacchanti.",
+            "aam, te upaayanaani na labdhavantah."
+          ],
+          "correctAnswer": "aam, teshaam mukhe smitam asti.",
+          "translatedSentence": "Yes, there is a smile on their faces."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "shvah mama bhaginyaah vivaahah asti, bhavan avashyam aagacchatu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "avashyam aagacchaami, kintu alpam vilambena aagamishyaami.",
+            "kshamyataam, aham vivaaham na jaanaami.",
+            "aam, aham hyah eva vivaaham gatavaan."
+          ],
+          "correctAnswer": "avashyam aagacchaami, kintu alpam vilambena aagamishyaami.",
+          "translatedSentence": "I will certainly come, but I will arrive a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vivaahe bahavah janaah aagamishyanti, atah bhojanam bahu bhavishyati.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Many people will come to the wedding, so there will be plenty of food.",
+            "Many people came to the wedding, so there was plenty of food.",
+            "Many people will come to the wedding, but there will not be enough food."
+          ],
+          "correctAnswer": "Many people will come to the wedding, so there will be plenty of food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "vivaahah kutra bhavishyati?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "vivaahah mandirasya samipe bhavishyati.",
+            "vivaahah kaartika-maase bhavishyati.",
+            "vivaahah atishayena shobhanah aasit."
+          ],
+          "correctAnswer": "vivaahah mandirasya samipe bhavishyati.",
+          "translatedSentence": "The wedding will be held near the temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadyapi maargah duurah asti tathaapi vayam avashyam aagamishyaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though it is a long way, we will definitely come.",
+            "Because it is a long way, we will not be able to come.",
+            "Even though it is a long way, we came anyway."
+          ],
+          "correctAnswer": "Even though it is a long way, we will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhavan vivaahaaya kim upaayanam aanitavaan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aham vastraani ca mishtaannam ca aanitavaan.",
+            "aham upaayanam kretum aapanam gacchami.",
+            "mahyam upaayanaani atishayena rochante."
+          ],
+          "correctAnswer": "aham vastraani ca mishtaannam ca aanitavaan.",
+          "translatedSentence": "I brought clothes and sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "vivaahaat anantaram vayam sarve saha bhojanam krtavantah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the wedding we all ate together.",
+            "Before the wedding we all ate together.",
+            "After the wedding we all went home together."
+          ],
+          "correctAnswer": "After the wedding we all ate together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "adya mama putrasya janmadinam asti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "janmadinasya shubhaashayaah, sah dirghaayuh bhavatu.",
+            "kshamyataam, aham janmadinam vismrtavaan.",
+            "dhanyavaadah, aham api saayamkaale aagacchaami."
+          ],
+          "correctAnswer": "janmadinasya shubhaashayaah, sah dirghaayuh bhavatu.",
+          "translatedSentence": "Happy birthday to him, may he live long."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi varshah bhavati tarhi vayam bahih na gamishyaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains, we will not go outside.",
+            "If it rains, we will still go outside.",
+            "When it rained, we did not go outside."
+          ],
+          "correctAnswer": "If it rains, we will not go outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "utsavah samaaptah, idaanim vayam gacchaamah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyavaadah, adya bahu aanandah aasit.",
+            "aam, utsavah shvah aarabhate.",
+            "kshamyataam, aham bhojanam na khaaditavaan."
+          ],
+          "correctAnswer": "dhanyavaadah, adya bahu aanandah aasit.",
+          "translatedSentence": "Thank you, today was great fun."
+        }
+      ]
+    }
+  ]
+}

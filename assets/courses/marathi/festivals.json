@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwalichya hardik shubhechha!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumhala pan shubhechha!",
+            "Mala bhook lagli aahe.",
+            "Mi atta ghari jato."
+          ],
+          "correctAnswer": "Tumhala pan shubhechha!",
+          "translatedSentence": "Good wishes to you too!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ganpati Bappa Morya!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mangalmurti Morya!",
+            "Mi chaha pito.",
+            "Te ghar motha aahe."
+          ],
+          "correctAnswer": "Mangalmurti Morya!",
+          "translatedSentence": "Hail the auspicious one!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gudi Padwyachya shubhechha!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumhala pan khup shubhechha!",
+            "Nahi, mi jat nahi.",
+            "Ha chaha thanda aahe."
+          ],
+          "correctAnswer": "Tumhala pan khup shubhechha!",
+          "translatedSentence": "Many good wishes to you as well!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Navin varshachya shubhechha, kaka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, tumhala pan.",
+            "Mala mahit nahi.",
+            "Mi Mumbai la rahato."
+          ],
+          "correctAnswer": "Dhanyavaad, tumhala pan.",
+          "translatedSentence": "Thank you, and the same to you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tilgul ghya, sankrantichya shubhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tilgul ghya, god god bola.",
+            "Mala til aavadat nahi.",
+            "Te dukan band aahe."
+          ],
+          "correctAnswer": "Tilgul ghya, god god bola.",
+          "translatedSentence": "Take the sesame sweet and speak sweetly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj motha san aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is a big festival.",
+            "Today is a working day.",
+            "Today is a quiet day."
+          ],
+          "correctAnswer": "Today is a big festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tumhala shubhechha deto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I send you my good wishes.",
+            "I take your good wishes.",
+            "I want your good wishes."
+          ],
+          "correctAnswer": "I send you my good wishes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha san mala khup aavadto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this festival a lot.",
+            "This festival is very old.",
+            "I know this festival well."
+          ],
+          "correctAnswer": "I like this festival a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amhi dar varshi san sajra karto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We celebrate the festival every year.",
+            "We watch the festival every year.",
+            "We miss the festival every year."
+          ],
+          "correctAnswer": "We celebrate the festival every year."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Big festivals and dates",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ganesh Chaturthi konatya mahinyat yete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti bhadrapad mahinyat yete.",
+            "Ti dar shanivari yete.",
+            "Ti thandichya divsat yete."
+          ],
+          "correctAnswer": "Ti bhadrapad mahinyat yete.",
+          "translatedSentence": "It falls in the month of Bhadrapad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali kadhi yete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Diwali oktober kinva november madhe yete.",
+            "Diwali marchya shevati yete.",
+            "Diwali junchya suruvatila yete."
+          ],
+          "correctAnswer": "Diwali oktober kinva november madhe yete.",
+          "translatedSentence": "Diwali falls in October or November."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gudi Padwa mhanje kay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To Marathi navin varshacha pahila divas aahe.",
+            "To Bappala nirop denyacha divas aahe.",
+            "To patang udavnyacha divas aahe."
+          ],
+          "correctAnswer": "To Marathi navin varshacha pahila divas aahe.",
+          "translatedSentence": "It is the first day of the Marathi new year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Makar Sankrant konatya tarkhela asate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ti chauda januarila asate.",
+            "Ti ek januarila asate.",
+            "Ti pandhara augustla asate."
+          ],
+          "correctAnswer": "Ti chauda januarila asate.",
+          "translatedSentence": "It falls on the fourteenth of January."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ganesh utsav kiti divas chalto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To daha divas chalto.",
+            "To ek divas chalto.",
+            "To don taas chalto."
+          ],
+          "correctAnswer": "To daha divas chalto.",
+          "translatedSentence": "It goes on for ten days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sankrantila lok patang udavtat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Sankrant people fly kites.",
+            "On Sankrant people sing songs.",
+            "On Sankrant people plant trees."
+          ],
+          "correctAnswer": "On Sankrant people fly kites."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ganesh Chaturthila gharoghari Bappa yeto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Ganesh Chaturthi, Bappa comes to every home.",
+            "On Ganesh Chaturthi, everybody goes to the temple.",
+            "On Ganesh Chaturthi, every home stays closed."
+          ],
+          "correctAnswer": "On Ganesh Chaturthi, Bappa comes to every home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Punyat Ganeshotsav khup motha asto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Pune the Ganesh festival is very big.",
+            "In Pune the Ganesh festival is very quiet.",
+            "In Pune the Ganesh festival is very short."
+          ],
+          "correctAnswer": "In Pune the Ganesh festival is very big."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gudi Padwyala amhi daravar gudi ubharto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Gudi Padwa we raise the gudi at the door.",
+            "On Gudi Padwa we clean the whole door.",
+            "On Gudi Padwa we paint the door again."
+          ],
+          "correctAnswer": "On Gudi Padwa we raise the gudi at the door."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya amchyakade puja aahe, tumhi yal ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi nakki yein.",
+            "Nahi, mala puja mahit nahi.",
+            "Mi tumchya galit rahat nahi."
+          ],
+          "correctAnswer": "Ho, mi nakki yein.",
+          "translatedSentence": "Yes, I will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwalicha fraal khayla ghari ya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, mi sandhyakali yeto.",
+            "Mala fraal karta yet nahi.",
+            "Tumcha ghar khup motha aahe."
+          ],
+          "correctAnswer": "Dhanyavaad, mi sandhyakali yeto.",
+          "translatedSentence": "Thank you, I will come in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tu Ganpati baghayla amchyakade yeshil ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi shanivari yein.",
+            "Nahi, majhyakade Ganpati nahi.",
+            "Ho, mi Bappa aanla aahe."
+          ],
+          "correctAnswer": "Ho, mi shanivari yein.",
+          "translatedSentence": "Yes, I will come on Saturday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi kiti vajta yeu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sat vajta ya, tevha aarti asate.",
+            "Mi jevan karun ghetle aahe.",
+            "Amche ghar tya galit aahe."
+          ],
+          "correctAnswer": "Sat vajta ya, tevha aarti asate.",
+          "translatedSentence": "Come at seven, that is when the aarti happens."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeta yeta kahi aanu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi nako, phakt tumhi ya.",
+            "Ho, mala dukan mahit nahi.",
+            "Mi kadhich kahi aanat nahi."
+          ],
+          "correctAnswer": "Kahi nako, phakt tumhi ya.",
+          "translatedSentence": "Do not bring anything, just come yourself."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi tumhala Diwalisathi aamantran deto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you for Diwali.",
+            "I am thanking you for Diwali.",
+            "I am asking you about Diwali."
+          ],
+          "correctAnswer": "I am inviting you for Diwali."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kutumbala pan gheun ya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bring your family along as well.",
+            "Come alone if that is easier.",
+            "Bring your neighbours along as well."
+          ],
+          "correctAnswer": "Bring your family along as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mala yayla thoda ushir hoil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be a little late.",
+            "I will come a little early.",
+            "I will not be able to come."
+          ],
+          "correctAnswer": "I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamantranabaddal khup dhanyavaad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for the invitation.",
+            "Thank you very much for the present.",
+            "Thank you very much for the lovely food."
+          ],
+          "correctAnswer": "Thank you very much for the invitation."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwalila tumhi kay kay karta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amhi chakli, chivda ani ladu karto.",
+            "Amhi navin ghar gheto.",
+            "Amhi divsabhar patang udavto."
+          ],
+          "correctAnswer": "Amhi chakli, chivda ani ladu karto.",
+          "translatedSentence": "We make chakli, chivda and ladoos."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puran poli kashi karayachi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aadhi dal shijava, mag gulashi puran vata.",
+            "Aadhi bhat shijava, mag amti kara.",
+            "Aadhi chaha kara, mag kanik malava."
+          ],
+          "correctAnswer": "Aadhi dal shijava, mag gulashi puran vata.",
+          "translatedSentence": "First cook the lentils, then grind them with jaggery for the filling."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala modak aavadtat ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ukadiche modak mala khup aavadtat.",
+            "Nahi, mi modak kadhich baghitle nahi.",
+            "Modak amhi Sankrantila karto."
+          ],
+          "correctAnswer": "Ho, ukadiche modak mala khup aavadtat.",
+          "translatedSentence": "Yes, I love steamed modaks very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sankrantila kay khatat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tilache ladu ani gulachi poli khatat.",
+            "Vada pav ani cutting chai ghetat.",
+            "Misal pav ani amti bhat khatat."
+          ],
+          "correctAnswer": "Tilache ladu ani gulachi poli khatat.",
+          "translatedSentence": "People eat sesame ladoos and jaggery flatbread."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajun thoda shira gheta ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nako, khup jhala, pot bharla aahe.",
+            "Ho, pan mi shira kela nahi.",
+            "Shira mala karta yet nahi."
+          ],
+          "correctAnswer": "Nako, khup jhala, pot bharla aahe.",
+          "translatedSentence": "No thank you, that is plenty, I am full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aai Bappasathi ukadiche modak karte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother makes steamed modaks for Bappa.",
+            "Mother buys steamed modaks for Bappa.",
+            "Mother offers steamed modaks to the guests."
+          ],
+          "correctAnswer": "Mother makes steamed modaks for Bappa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amhi fraal shejaryanna pan deto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We give the festive snacks to the neighbours too.",
+            "We keep the festive snacks for ourselves.",
+            "We buy the festive snacks from the neighbours."
+          ],
+          "correctAnswer": "We give the festive snacks to the neighbours too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ha ladu farach god jhala aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This ladoo has turned out far too sweet.",
+            "This ladoo has turned out rather dry.",
+            "This ladoo has turned out much too small."
+          ],
+          "correctAnswer": "This ladoo has turned out far too sweet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puran poli tupashi khalli tar jasta chaan lagte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Puran poli tastes much better if you eat it with ghee.",
+            "Puran poli tastes much better if you eat it hot.",
+            "Puran poli tastes much better if you eat it with tea."
+          ],
+          "correctAnswer": "Puran poli tastes much better if you eat it with ghee."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Clothes, gifts and family",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwalila navin kapde ghetle ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi Punyat ek navin sadi ghetli.",
+            "Nahi, mala kapde shivta yet nahi.",
+            "Ho, mi sagle kapde dhutle."
+          ],
+          "correctAnswer": "Ho, mi Punyat ek navin sadi ghetli.",
+          "translatedSentence": "Yes, I bought a new saree in Pune."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ha kurta tula kasa vatto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khup chaan disto, rang pan changla aahe.",
+            "Mala kurta ghalta yet nahi.",
+            "To kurta mi kal dhutla aahe."
+          ],
+          "correctAnswer": "Khup chaan disto, rang pan changla aahe.",
+          "translatedSentence": "It looks very nice, and the colour is good too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hi bhet tumchyasathi aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaho, evadha kashala tras ghetla?",
+            "Mala bhet dyayla aavadat nahi.",
+            "Bhet tya dukanat milte."
+          ],
+          "correctAnswer": "Aaho, evadha kashala tras ghetla?",
+          "translatedSentence": "Oh, why did you go to all that trouble?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sagle natevaik kadhi yenar aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Te udya sakali Nagpurhun yenar aahet.",
+            "Te aata ghari nighun gele aahet.",
+            "Te dar varshi Sankrantila yetat."
+          ],
+          "correctAnswer": "Te udya sakali Nagpurhun yenar aahet.",
+          "translatedSentence": "They are coming from Nagpur tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajila namaskar kelas ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mi tyanna vakun namaskar kela.",
+            "Nahi, aaji Nagpurla rahate.",
+            "Ho, mi tyanna bhet dili nahi."
+          ],
+          "correctAnswer": "Ho, mi tyanna vakun namaskar kela.",
+          "translatedSentence": "Yes, I bowed down and touched her feet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaji saglyanna navin kapde gheun dete.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandmother buys new clothes for everyone.",
+            "Grandmother sews new clothes for everyone.",
+            "Grandmother asks everyone to wear new clothes."
+          ],
+          "correctAnswer": "Grandmother buys new clothes for everyone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Lahan mulanna san aavadto karan tyanna bhetvastu miltat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Children love the festival because they get presents.",
+            "Children love the festival because they get sweets.",
+            "Children love the festival because they get a holiday."
+          ],
+          "correctAnswer": "Children love the festival because they get presents."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sagle ekatra jamle ki ghar bharlyasarkha vatta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When everyone gathers, the house feels full.",
+            "When everyone gathers, the house gets noisy.",
+            "When everyone gathers, the house feels small."
+          ],
+          "correctAnswer": "When everyone gathers, the house feels full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi bhavasathi Punyahun ek kurta aanla aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have brought a kurta from Pune for my brother.",
+            "I have sent a kurta from Pune for my brother.",
+            "I have brought a kurta from Pune for my father."
+          ],
+          "correctAnswer": "I have brought a kurta from Pune for my brother."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumchya bhachiche lagna kadhi tharle aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pudhchya mahinyat, pan tarikh ajun pakki nahi.",
+            "Lagna Punyat jhale hote, khup chaan jhale.",
+            "Mala lagnala jayla jamnar nahi."
+          ],
+          "correctAnswer": "Pudhchya mahinyat, pan tarikh ajun pakki nahi.",
+          "translatedSentence": "Next month, but the date is not fixed yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amhi lagnala yeu, pan thoda ushir hoil, chalel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalel, tumhi ya, jevan ratri baraparyant aahe.",
+            "Nako, ushira alat tar aat sodnar nahit.",
+            "Chalel, mi pan tumchya barobar yeto."
+          ],
+          "correctAnswer": "Chalel, tumhi ya, jevan ratri baraparyant aahe.",
+          "translatedSentence": "That is fine, do come, dinner goes on until midnight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lagnala sadi ghatli tar chalel ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nakki chalel, sagle tech ghaltat.",
+            "Nahi, lagnala kunich sadi ghalat nahi.",
+            "Sadi tya navin dukanat milte."
+          ],
+          "correctAnswer": "Nakki chalel, sagle tech ghaltat.",
+          "translatedSentence": "That will be perfectly fine, everyone wears exactly that."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lagnacha muhurt kiti vajta aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sakali navala, pan tumhi thoda aadhich ya.",
+            "Muhurt mothya mangal karyalayat aahe.",
+            "Ratri navala jevan thevle aahe."
+          ],
+          "correctAnswer": "Sakali navala, pan tumhi thoda aadhich ya.",
+          "translatedSentence": "At nine in the morning, but do come a little earlier."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhala kalcha karyakram kasa vatla?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khup chaan jhala, pan thodi gardi jasta hoti.",
+            "Karyakram udya sandhyakali suru honar aahe.",
+            "Karyakramasathi mi navin kurta ghetla aahe."
+          ],
+          "correctAnswer": "Khup chaan jhala, pan thodi gardi jasta hoti.",
+          "translatedSentence": "It went off very well, though it was a bit too crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Lagnat halad, mehendi ani sangeet ase kityek karyakram astat.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A wedding has many events like haldi, mehendi and sangeet.",
+            "A wedding has only one event, and that is the ceremony.",
+            "A wedding needs many people, like cooks, singers and guests."
+          ],
+          "correctAnswer": "A wedding has many events like haldi, mehendi and sangeet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jar tumhala jamla nahi tar kalaji karu naka, amhi nantar bhetu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you cannot make it, do not worry, we will meet later.",
+            "If you cannot make it, please tell us, we will wait for you.",
+            "If you do not want to come, do not worry, we will understand."
+          ],
+          "correctAnswer": "If you cannot make it, do not worry, we will meet later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vadhdivas amhi ghari sajra karto, pan lagnasathi motha mangal karyalay gheto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We celebrate birthdays at home, but for a wedding we book a big hall.",
+            "We celebrate birthdays at home, but for a wedding we go out of town.",
+            "We celebrate birthdays at home, and we hold weddings at home too."
+          ],
+          "correctAnswer": "We celebrate birthdays at home, but for a wedding we book a big hall."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Navarya mulala ani navari mulila amhi manapasun shubhechha dilya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We wished the bride and the groom with all our hearts.",
+            "We gave the bride and the groom a present from all of us.",
+            "We met the bride and the groom after the ceremony was over."
+          ],
+          "correctAnswer": "We wished the bride and the groom with all our hearts."
+        }
+      ]
+    }
+  ]
+}

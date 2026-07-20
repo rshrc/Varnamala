@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Assamese">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#A7C957"/>
+      <stop offset="1" stop-color="#4F772D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 50V22"/>
+    <path d="M32 32c-8 0-12-4-12-10 6 0 12 3 12 10z"/>
+    <path d="M32 32c8 0 12-4 12-10-6 0-12 3-12 10z"/>
+    <path d="M32 42c-7 0-10-3-10-8 5 0 10 3 10 8z"/>
+  </g>
+</svg>

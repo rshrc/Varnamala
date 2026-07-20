@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, tumhi kase aahat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi theek aahe, dhanyavaad.",
+            "Maza naav Rohit aahe.",
+            "Mi Punyat rahato."
+          ],
+          "correctAnswer": "Mi theek aahe, dhanyavaad.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tu kasa aahes?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you?",
+            "Who are you?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kay chalu aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi vishesh nahi.",
+            "Ho, mala mahit aahe.",
+            "Nahi, mi ghari jato."
+          ],
+          "correctAnswer": "Kahi vishesh nahi.",
+          "translatedSentence": "Nothing much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi mast aahe, tu bol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am great, what about you?",
+            "I am busy, call me later.",
+            "I am tired, let me sleep."
+          ],
+          "correctAnswer": "I am great, what about you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kasa aahes, mitra?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi bara aahe, tu kasa aahes?",
+            "Mala chaha pahije.",
+            "Maze ghar ithech aahe."
+          ],
+          "correctAnswer": "Mi bara aahe, tu kasa aahes?",
+          "translatedSentence": "I am well, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumche naav kay aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is your name?",
+            "What is your work?",
+            "Where is your house?"
+          ],
+          "correctAnswer": "What is your name?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuze naav kay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maze naav Aarti aahe.",
+            "Mi theek aahe, tu bol.",
+            "Mi Nagpurla jato aahe."
+          ],
+          "correctAnswer": "Maze naav Aarti aahe.",
+          "translatedSentence": "My name is Aarti."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumhala bhetun anand zala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was a pleasure to meet you.",
+            "It was a pleasure to help you.",
+            "It was nice to hear from you."
+          ],
+          "correctAnswer": "It was a pleasure to meet you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghari sagle kase aahet?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sagle mast aahet, dhanyavaad.",
+            "Maze ghar khup motha aahe.",
+            "Mi ata ghari nahi aahe."
+          ],
+          "correctAnswer": "Sagle mast aahet, dhanyavaad.",
+          "translatedSentence": "Everyone at home is doing great, thank you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night and welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubh prabhat! Chaha ghenar ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mala cutting chai chalel.",
+            "Nahi, mi ratri jevat nahi.",
+            "Ho, maze naav Rohit aahe."
+          ],
+          "correctAnswer": "Ho, mala cutting chai chalel.",
+          "translatedSentence": "Yes, a cutting chai would be great."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubh ratri, changli zop ghya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, sleep well.",
+            "Good morning, get up early.",
+            "Good evening, come inside."
+          ],
+          "correctAnswer": "Good night, sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ya, ya! Tumche swagat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, tumche ghar chaan aahe.",
+            "Mala udya yeta yenar nahi.",
+            "Nahi, mi ata nighato."
+          ],
+          "correctAnswer": "Dhanyavaad, tumche ghar chaan aahe.",
+          "translatedSentence": "Thank you, your home is lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sakali mi lavkar uthto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up early in the morning.",
+            "I go to sleep early at night.",
+            "I eat my lunch late in the afternoon."
+          ],
+          "correctAnswer": "I get up early in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubh sandhyakal! Divas kasa gela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Divas chaan gela, dhanyavaad.",
+            "Ratri khup thandi hoti.",
+            "Sakali mala vel nahi."
+          ],
+          "correctAnswer": "Divas chaan gela, dhanyavaad.",
+          "translatedSentence": "The day went well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aat ya, baher khup oon aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Come inside, it is very sunny out there.",
+            "Go outside, it is very cold in here.",
+            "Sit down, the food is almost ready."
+          ],
+          "correctAnswer": "Come inside, it is very sunny out there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi ata zopayla jato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shubh ratri, udya bhetu.",
+            "Shubh prabhat, chaha ghya.",
+            "Ya, aat basa."
+          ],
+          "correctAnswer": "Shubh ratri, udya bhetu.",
+          "translatedSentence": "Good night, see you tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamchya ghari tumche nehmi swagat aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are always welcome at our home.",
+            "You are always late to our home.",
+            "You are always busy at your office."
+          ],
+          "correctAnswer": "You are always welcome at our home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Navin ghari tumche swagat aahe!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, ithe khup chaan vatate.",
+            "Nahi, mala he ghar mahit nahi.",
+            "Ho, mi sakali lavkar uthto."
+          ],
+          "correctAnswer": "Dhanyavaad, ithe khup chaan vatate.",
+          "translatedSentence": "Thank you, it feels really lovely here."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thanks, Sorry and Please",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhanyavaad, tumhi khup madat keli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi harkat nahi, he tar maze kaam.",
+            "Mala pan thodi madat pahije aahe.",
+            "Mi tumhala olakhat nahi."
+          ],
+          "correctAnswer": "Kahi harkat nahi, he tar maze kaam.",
+          "translatedSentence": "Not at all, this was simply my job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maaf kara, mala ushir zala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I am late.",
+            "Thanks, I am ready.",
+            "Excuse me, I am lost."
+          ],
+          "correctAnswer": "Sorry, I am late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jara aika, station kuthe aahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saral ja, station davikade aahe.",
+            "Mala station khup avadate.",
+            "Ho, mi rojach train ne jato."
+          ],
+          "correctAnswer": "Saral ja, station davikade aahe.",
+          "translatedSentence": "Go straight, the station is on your left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Krupaya mala thoda pani dya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me some water.",
+            "Please take some water from me.",
+            "Please drink a little water now."
+          ],
+          "correctAnswer": "Please give me some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sorry, mi chukun tumchya paayavar paay dila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi harkat nahi, jau dya.",
+            "Ho, mala te khup avadate.",
+            "Dhanyavaad, tumhi khup chaan aahat."
+          ],
+          "correctAnswer": "Kahi harkat nahi, jau dya.",
+          "translatedSentence": "No problem, let it go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumchya madati baddal mi khup aabhari aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very grateful for your help.",
+            "I am very late because of your help.",
+            "I am very tired after helping you."
+          ],
+          "correctAnswer": "I am very grateful for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mala udya yeta yenar nahi, kshama kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahi harkat nahi, punha keva tari bheta.",
+            "Dhanyavaad, mi pan udya yeto.",
+            "Ho, mi tithech thambto."
+          ],
+          "correctAnswer": "Kahi harkat nahi, punha keva tari bheta.",
+          "translatedSentence": "No problem, come and meet me some other time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jara baju la vha, mala jaayche aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please move aside, I need to get through.",
+            "Please sit down, I want to talk to you.",
+            "Please wait here, I will be right back."
+          ],
+          "correctAnswer": "Please move aside, I need to get through."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi tumchi maafi magto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jau dya, ata visrun ja.",
+            "Dhanyavaad, mala te aavadle.",
+            "Ho, mi tumchi vaat pahato."
+          ],
+          "correctAnswer": "Jau dya, ata visrun ja.",
+          "translatedSentence": "Let it be, forget about it now."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chala, mi ata nighto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barr, kalji ghya, punha bheta.",
+            "Ho, mi ata jevayla basto.",
+            "Nahi, mala ajun ushir zala nahi."
+          ],
+          "correctAnswer": "Barr, kalji ghya, punha bheta.",
+          "translatedSentence": "All right, take care and do visit again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Udya sakali office madhe bhetu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us meet at the office tomorrow morning.",
+            "Let us meet at the station tomorrow evening.",
+            "Let us talk on the phone tomorrow night."
+          ],
+          "correctAnswer": "Let us meet at the office tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mi udya sakali Mumbaila nighto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sambhalun ja, kalji ghya.",
+            "Ho, Mumbai ithun khup lamb aahe.",
+            "Nahi, mala Mumbai mahit nahi."
+          ],
+          "correctAnswer": "Sambhalun ja, kalji ghya.",
+          "translatedSentence": "Travel safely and take care."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Punha bhetu, tumhala bhetun chaan vatle.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "See you again, it was lovely meeting you.",
+            "See you tomorrow, it was a very long day.",
+            "Come again, the food was really lovely."
+          ],
+          "correctAnswer": "See you again, it was lovely meeting you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ratri phone karto, chalel na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho chalel, mi vaat pahato.",
+            "Nahi, maza phone ghari aahe.",
+            "Ho, mi ata zopayla jato."
+          ],
+          "correctAnswer": "Ho chalel, mi vaat pahato.",
+          "translatedSentence": "Yes that works, I will be waiting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nighayachi vel zali, mi jato ata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is time to leave, I am going now.",
+            "It is time to eat, I am hungry now.",
+            "It is time to begin, I am ready now."
+          ],
+          "correctAnswer": "It is time to leave, I am going now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Punha keva bhetnar aapan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Purna athavda mi Punyat aahe, keva pan ya.",
+            "Mala kal bhetayla vel navhta.",
+            "Ho, mi station var ubha aahe."
+          ],
+          "correctAnswer": "Purna athavda mi Punyat aahe, keva pan ya.",
+          "translatedSentence": "I am in Pune all week, so come over any time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghari pochlyavar mala message kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Message me once you reach home.",
+            "Call me before you leave home.",
+            "Meet me when you reach the station."
+          ],
+          "correctAnswer": "Message me once you reach home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeto mi, ha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ya, punha nakki ya.",
+            "Nahi, mala ajun basayche aahe.",
+            "Ho, mala khup bhuk lagli aahe."
+          ],
+          "correctAnswer": "Ya, punha nakki ya.",
+          "translatedSentence": "Goodbye, and do come again."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Respect and polite forms",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajoba, tumhi ithe basa, mi ubha rahato.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are nako, tu bas, mi theek aahe.",
+            "Ho, mi ithech ubha rahato.",
+            "Nahi, mala basayla aavadat nahi."
+          ],
+          "correctAnswer": "Are nako, tu bas, mi theek aahe.",
+          "translatedSentence": "Oh no, you sit down, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mothya mansanshi nehmi tumhi mhanun bolave.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should always address elders with the polite form.",
+            "You should always speak to elders in a loud voice.",
+            "You should never speak to elders about your work."
+          ],
+          "correctAnswer": "You should always address elders with the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaku, mi tumchi pishvi uchlu ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho re, uchal, ti khup jad aahe.",
+            "Nahi, mi pishvi vikat ghetli nahi.",
+            "Ho, mala bazarat jayla aavadte."
+          ],
+          "correctAnswer": "Ho re, uchal, ti khup jad aahe.",
+          "translatedSentence": "Yes dear, please carry it, it is very heavy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mitranshi mi tu mhanto, pan shikshakanshi tumhi mhanto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I say tu to friends, but I say tumhi to teachers.",
+            "I speak Marathi with friends, but English with teachers.",
+            "I meet my friends daily, but my teachers rarely."
+          ],
+          "correctAnswer": "I say tu to friends, but I say tumhi to teachers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tai, ha number tumcha aahe ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, majhach aahe, khup dhanyavaad.",
+            "Nahi, mala number athvat nahi kaaran mi visarle.",
+            "Ho, mi tumhala kal phone kela hota."
+          ],
+          "correctAnswer": "Ho, majhach aahe, khup dhanyavaad.",
+          "translatedSentence": "Yes, that one is mine, thank you so much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samorchi vyakti olkhichi nasel tar nehmi tumhi vapra.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the person is a stranger, always use tumhi.",
+            "If the person is a close friend, always use tumhi.",
+            "If the person is in a hurry, always wait for them."
+          ],
+          "correctAnswer": "If the person is a stranger, always use tumhi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaka, mala thoda rasta vicharaycha hota.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vichara na, mi sangto tumhala.",
+            "Mi ha rasta rojach vaparto.",
+            "Ho, mi ithech javal rahato."
+          ],
+          "correctAnswer": "Vichara na, mi sangto tumhala.",
+          "translatedSentence": "Go ahead and ask, I will tell you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mothya mansana namaskar kela ki tyanna bar vatate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Elders feel good when you greet them respectfully.",
+            "Elders feel tired when you visit them without notice.",
+            "Elders feel proud when you speak English well."
+          ],
+          "correctAnswer": "Elders feel good when you greet them respectfully."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaji, tumhi jevan kele ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho beta, mi atach jevle, tu jevun ghe.",
+            "Nahi, mala amti bhat karta yet nahi.",
+            "Ho, mi udya sagalyanna jevan banavte."
+          ],
+          "correctAnswer": "Ho beta, mi atach jevle, tu jevun ghe.",
+          "translatedSentence": "Yes dear, I just ate, now you go and eat."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Are, kiti divsani bhetlas! Kuthe hotas evdhe divas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mi Nagpurla hoto kaaran tithe maze kaam sampat navhte.",
+            "Mi rojach ithe yeto, pan tu mala disat nahis.",
+            "Mala tuze naav ajun athvat aahe."
+          ],
+          "correctAnswer": "Mi Nagpurla hoto kaaran tithe maze kaam sampat navhte.",
+          "translatedSentence": "I was in Nagpur because my work there just would not finish."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khup divsani bhetlo, pan tu agdi tasach aahes.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have met after a long time, but you are exactly the same.",
+            "We met only yesterday, but you did not say a word.",
+            "We met at the station, but I did not recognise you."
+          ],
+          "correctAnswer": "We have met after a long time, but you are exactly the same."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghari sagle kase aahet? Kaku bari aahet na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sagle mast aahet, kaku pan ata bari aahet.",
+            "Ghar khup june aahe, pan aamhi tithech rahato.",
+            "Mi ghari khup kami vel asto."
+          ],
+          "correctAnswer": "Sagle mast aahet, kaku pan ata bari aahet.",
+          "translatedSentence": "Everyone is doing great, and aunty is much better now too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mi rojach local ne office la jato, pan sakali gardi khup aste.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I take the local train to work every day, but it is very crowded in the morning.",
+            "I go to work by bus every day, because the train is far too expensive.",
+            "I travel to Pune every weekend, but I never take the local train."
+          ],
+          "correctAnswer": "I take the local train to work every day, but it is very crowded in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chal, ek cutting chai ghyu ani nivant bolu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalel, mala pan tula khup kahi sangaycha aahe.",
+            "Nahi, mi chai kadhich pilo nahi.",
+            "Ho, mi ghari jaun chai banavto."
+          ],
+          "correctAnswer": "Chalel, mala pan tula khup kahi sangaycha aahe.",
+          "translatedSentence": "Sounds good, I have a lot to tell you as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tuza mulga ata motha zala asel, nahi ka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your son must be all grown up by now, is he not?",
+            "Your son must be on his way home now, is he not?",
+            "Your son was very small the last time I saw him."
+          ],
+          "correctAnswer": "Your son must be all grown up by now, is he not?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udya ghari ye, aai puran poli karnar aahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nakki yeto, mi kadhich puran poli khalli nahi.",
+            "Mala puran poli chi recipe mahit aahe.",
+            "Aai udya bazarat jate ka?"
+          ],
+          "correctAnswer": "Nakki yeto, mi kadhich puran poli khalli nahi.",
+          "translatedSentence": "I will definitely come, I have never eaten puran poli."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Evdha vel zala tari tu mala phone ka kela nahis?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why did you not call me even after all this time?",
+            "Why did you call me so late at night?",
+            "Why do you never pick up my calls?"
+          ],
+          "correctAnswer": "Why did you not call me even after all this time?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chal, mi nighto, pan ata sampark thevu ha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nakki, ata mi tula darr mahinyala phone karen.",
+            "Ho, pan mala tuze navin ghar mahit nahi.",
+            "Barr, mi udya sakali Sahyadrit trek la jato."
+          ],
+          "correctAnswer": "Nakki, ata mi tula darr mahinyala phone karen.",
+          "translatedSentence": "Definitely, from now on I will call you every month."
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Varnamala** is a Flutter-based language learning app for nine Indian languages (Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese) inspired by Duolingo. The app uses Firebase for backend services and follows a clean architecture pattern.
+**Varnamala** is a Flutter-based language learning app for thirteen Indian languages (Assamese, Bengali, Gujarati, Hindi, Kannada, Malayalam, Marathi, Nepali, Odia, Sanskrit, Tamil, Telugu, Urdu) inspired by Duolingo. The app uses Firebase for backend services and follows a clean architecture pattern.
 
 ---
 
@@ -68,7 +68,7 @@ users/
 - [x] Leaderboard (top 30 users)
 - [x] Character/alphabet practice
 - [x] Shop UI (streak freeze, power-ups, outfits)
-- [x] Multi-language support (9 languages x 15 courses x 5-6 levels)
+- [x] Multi-language support (13 languages x 15 courses x 6 levels x 9 questions)
 - [x] Tap-a-word dictionary hints inside lesson sentences
 
 ### 🔴 Features Needed (Firebase-Based)
@@ -181,6 +181,7 @@ dictionary. Editing a lesson never means touching Dart.
 assets/courses/tamil/
   manifest.json      course order, tree layout, icon + colour per course
   dictionary.json    romanized word -> English gloss (tap-a-word hints)
+  notes.json         Mala's roadside asides, one per course
   basics.json        5-6 levels, 8-10 questions each
   greetings.json
   ...                15 courses per language
@@ -205,10 +206,12 @@ Not yet implemented: fill-in-the-blank, word matching, listening, speaking.
 ### Tooling
 
 ```bash
-python3 tool/validate_courses.py            # schema, counts, answers, dictionary coverage
-python3 tool/validate_courses.py tamil      # one language
-python3 tool/extract_vocabulary.py tamil    # words used in lessons with no gloss yet
-python3 tool/generate_manifests.py          # regenerate every manifest.json
+ruby tool/validate_courses.rb             # schema, counts, answers, dictionary coverage
+ruby tool/validate_courses.rb tamil       # one language
+ruby tool/extract_vocabulary.rb tamil     # words used in lessons with no gloss yet
+ruby tool/normalize_titles.rb --apply     # level titles to sentence case
+ruby tool/generate_manifests.rb           # regenerate every manifest.json (and the palette)
+ruby tool/generate_emblems.rb             # regenerate the language-picker emblems
 flutter test test/course_repository_test.dart
 ```
 

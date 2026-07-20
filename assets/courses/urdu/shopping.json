@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh sau rupay ka hai.",
+            "Yeh dukan subah khulti hai.",
+            "Yeh bazaar bahut door hai."
+          ],
+          "correctAnswer": "Yeh sau rupay ka hai.",
+          "translatedSentence": "This one is a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh chai kitne ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this tea?",
+            "Where is this tea from?",
+            "Is this tea any good?"
+          ],
+          "correctAnswer": "How much is this tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh mehnga hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, yeh thora mehnga hai.",
+            "Ji haan, yeh dukan bari hai.",
+            "Ji nahin, main ghar jaa raha hoon."
+          ],
+          "correctAnswer": "Ji haan, yeh thora mehnga hai.",
+          "translatedSentence": "Yes, this is a little expensive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh bahut sasta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very cheap.",
+            "This is very expensive.",
+            "This is very big."
+          ],
+          "correctAnswer": "This is very cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kya chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe yeh wala chahiye.",
+            "Mujhe daam maloom nahin.",
+            "Main is bazaar mein rehta hoon."
+          ],
+          "correctAnswer": "Mujhe yeh wala chahiye.",
+          "translatedSentence": "I want this one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh daam theek hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This price is fair.",
+            "This price is too high.",
+            "This shop is nearby."
+          ],
+          "correctAnswer": "This price is fair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke pas chai hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, hamare pas chai hai.",
+            "Ji haan, main roz chai peeta hoon.",
+            "Ji nahin, main abhi ghar par hoon."
+          ],
+          "correctAnswer": "Ji haan, hamare pas chai hai.",
+          "translatedSentence": "Yes, we have tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is that one?",
+            "Where is that one kept?",
+            "What sort of thing is that?"
+          ],
+          "correctAnswer": "How much is that one?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh sau rupay ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, poore sau rupay ka hai.",
+            "Ji haan, main bilkul theek hoon.",
+            "Ji nahin, yeh meri dukan nahin hai."
+          ],
+          "correctAnswer": "Ji haan, poore sau rupay ka hai.",
+          "translatedSentence": "Yes, it is a full hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ji farmaiye, aap ko kya chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe ek kilo chawal chahiye.",
+            "Mujhe aap ka naam maloom nahin.",
+            "Main Lucknow mein rehta hoon."
+          ],
+          "correctAnswer": "Mujhe ek kilo chawal chahiye.",
+          "translatedSentence": "I need one kilo of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Zara woh neeli qameez dikhaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me that blue shirt.",
+            "Please keep that blue shirt for me.",
+            "Where is that blue shirt?"
+          ],
+          "correctAnswer": "Please show me that blue shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kaun sa rang chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe safed rang chahiye.",
+            "Mujhe do kilo chahiye.",
+            "Mujhe is ka daam maloom nahin."
+          ],
+          "correctAnswer": "Mujhe safed rang chahiye.",
+          "translatedSentence": "I would like the white one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe do packet chai chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two packets of tea.",
+            "I need two cups of tea.",
+            "I do not want any tea today."
+          ],
+          "correctAnswer": "I need two packets of tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aur kuch chahiye, sahab?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, thora sa gosht bhi chahiye.",
+            "Ji haan, yeh dukan bahut purani hai.",
+            "Ji nahin, mera ghar yahan se door hai."
+          ],
+          "correctAnswer": "Ji haan, thora sa gosht bhi chahiye.",
+          "translatedSentence": "Yes, I need a little meat as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh cheez hamare pas nahin hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We do not have this item.",
+            "We keep this item inside.",
+            "This item is very expensive."
+          ],
+          "correctAnswer": "We do not have this item."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke pas taaza phal hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, aam abhi abhi aaye hain.",
+            "Ji haan, mujhe phal bahut pasand hain.",
+            "Ji nahin, dukan sham ko band hoti hai."
+          ],
+          "correctAnswer": "Ji haan, aam abhi abhi aaye hain.",
+          "translatedSentence": "Yes, the mangoes have just come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe nihari ke liye gosht chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need meat for the nihari.",
+            "I want to eat nihari today.",
+            "The nihari at this shop is very good."
+          ],
+          "correctAnswer": "I need meat for the nihari."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh chawal kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh chawal bahut acche hain.",
+            "Yeh gosht abhi taaza aaya hai.",
+            "Yeh rang mujhe pasand nahin hai."
+          ],
+          "correctAnswer": "Yeh chawal bahut acche hain.",
+          "translatedSentence": "This rice is very good."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Too expensive, reduce it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Is qameez ke aath sau rupay hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh bahut mehnga hai, thora kam kijiye.",
+            "Yeh bahut acha hai, do packet de dijiye.",
+            "Yeh rang mujhe safed hi chahiye tha."
+          ],
+          "correctAnswer": "Yeh bahut mehnga hai, thora kam kijiye.",
+          "translatedSentence": "That is too expensive, please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Zara daam kam kar dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please lower the price a little.",
+            "Please tell me the price again.",
+            "Please show me another one."
+          ],
+          "correctAnswer": "Please lower the price a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap kuch kam kar sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, paanch sau mein le lijiye.",
+            "Ji haan, hamare pas taaza gosht hai.",
+            "Ji nahin, mujhe safed rang chahiye."
+          ],
+          "correctAnswer": "Ji haan, paanch sau mein le lijiye.",
+          "translatedSentence": "Yes, take it for five hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh daam bahut zyada hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This price is far too high.",
+            "This price is quite fair.",
+            "This shop is far too big."
+          ],
+          "correctAnswer": "This price is far too high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kitna dena chahte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main chaar sau rupay doonga.",
+            "Main kal is dukan par aaonga.",
+            "Main do kilo chawal leta hoon."
+          ],
+          "correctAnswer": "Main chaar sau rupay doonga.",
+          "translatedSentence": "I will give four hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doosri dukan mein yeh is se sasta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is cheaper at the other shop.",
+            "The other shop is bigger than this one.",
+            "The other shop is closed today."
+          ],
+          "correctAnswer": "This is cheaper at the other shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh aakhri daam hai, is se kam nahin ho sakta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main yeh le leta hoon.",
+            "Theek hai, mujhe daam maloom nahin tha.",
+            "Nahin, yeh chawal bahut acche hain."
+          ],
+          "correctAnswer": "Theek hai, main yeh le leta hoon.",
+          "translatedSentence": "All right, I will take it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap thora kam kar dein to main do le loonga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you bring the price down a little, I will take two.",
+            "If I take two, will you give me a bag as well?",
+            "I took two because they were cheap that day."
+          ],
+          "correctAnswer": "If you bring the price down a little, I will take two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saat sau se kam mein nahin de sakta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaliye, chhe sau mein de dijiye.",
+            "Chaliye, mujhe do packet chai de dijiye.",
+            "Chaliye, main aap ko apna naam bata deta hoon."
+          ],
+          "correctAnswer": "Chaliye, chhe sau mein de dijiye.",
+          "translatedSentence": "Come on, give it to me for six hundred."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes, weights and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko kitna gosht chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe aadha kilo gosht chahiye.",
+            "Mujhe yeh neela rang chahiye.",
+            "Mujhe yeh daam bahut zyada laga."
+          ],
+          "correctAnswer": "Mujhe aadha kilo gosht chahiye.",
+          "translatedSentence": "I need half a kilo of meat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh qameez mujhe thori tang hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is a little tight on me.",
+            "This shirt is a little loose on me.",
+            "This shirt is a little expensive for me."
+          ],
+          "correctAnswer": "This shirt is a little tight on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap ke pas bari size hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, bari size andar rakhi hai.",
+            "Ji haan, yeh qameez bahut sasti hai.",
+            "Ji nahin, mujhe apna naap maloom hai."
+          ],
+          "correctAnswer": "Ji haan, bari size andar rakhi hai.",
+          "translatedSentence": "Yes, we keep the large size inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe do kilo aam aur ek kilo seb chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two kilos of mangoes and one kilo of apples.",
+            "I need one kilo of mangoes and two kilos of apples.",
+            "I bought two kilos of mangoes and some apples."
+          ],
+          "correctAnswer": "I need two kilos of mangoes and one kilo of apples."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh joota aap ke naap ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, yeh mujhe thora bara hai.",
+            "Nahin, yeh mujhe bahut sasta laga.",
+            "Ji haan, main abhi bazaar jaa raha hoon."
+          ],
+          "correctAnswer": "Nahin, yeh mujhe thora bara hai.",
+          "translatedSentence": "No, this one is a little big for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Zara is se chhota naap dikha dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me a smaller size than this one.",
+            "Please show me a bigger size than this one.",
+            "Please tell me a lower price than this one."
+          ],
+          "correctAnswer": "Please show me a smaller size than this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kitne packet chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sirf teen packet kaafi hain.",
+            "Sirf teen rupay baqi hain.",
+            "Sirf safed rang kaafi hai."
+          ],
+          "correctAnswer": "Sirf teen packet kaafi hain.",
+          "translatedSentence": "Three packets are enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thora sa aur daal dijiye, yeh kam hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please add a little more, this is not enough.",
+            "Please take a little out, this is too much.",
+            "Please give me a little less next time."
+          ],
+          "correctAnswer": "Please add a little more, this is not enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh qameez aap par kaisi lag rahi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh mujh par theek lag rahi hai.",
+            "Yeh mujhe kal shaam mili thi.",
+            "Yeh is dukan mein nahin milti."
+          ],
+          "correctAnswer": "Yeh mujh par theek lag rahi hai.",
+          "translatedSentence": "It fits me nicely."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kul mila kar barah sau rupay huay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kya main card se de sakta hoon?",
+            "Kya yeh dukan roz khulti hai?",
+            "Kya aap ke pas bari size hai?"
+          ],
+          "correctAnswer": "Kya main card se de sakta hoon?",
+          "translatedSentence": "Can I pay by card?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere pas khule paise nahin hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any small change.",
+            "I do not have enough money on me.",
+            "I do not have a bag with me."
+          ],
+          "correctAnswer": "I do not have any small change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap naqad denge ya card se?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main naqad de deta hoon.",
+            "Main kal subah wapas aaonga.",
+            "Main do kilo aam le loonga."
+          ],
+          "correctAnswer": "Main naqad de deta hoon.",
+          "translatedSentence": "I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meherbani kar ke ek thaila de dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a carry bag.",
+            "Please put it in my own bag.",
+            "Please keep the bag with you."
+          ],
+          "correctAnswer": "Please give me a carry bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh do hazar ka note hai, chhutta hai aap ke pas?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kijiye, mere pas chhutta nahin hai.",
+            "Maaf kijiye, yeh daam kam nahin ho sakta.",
+            "Maaf kijiye, hamari dukan abhi khuli hai."
+          ],
+          "correctAnswer": "Maaf kijiye, mere pas chhutta nahin hai.",
+          "translatedSentence": "Sorry, I do not have change for that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap ne mujhe pachas rupay kam wapas kiye hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have given me fifty rupees too little in change.",
+            "You have given me fifty rupees too much in change.",
+            "I have given you fifty rupees more than the price."
+          ],
+          "correctAnswer": "You have given me fifty rupees too little in change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya mujhe rasid mil sakti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, main abhi rasid deta hoon.",
+            "Ji haan, yeh daam bilkul theek hai.",
+            "Ji nahin, yeh chawal purane hain."
+          ],
+          "correctAnswer": "Ji haan, main abhi rasid deta hoon.",
+          "translatedSentence": "Yes, I will give you the receipt right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baqi paise zara gin lijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please count the change.",
+            "Please keep the change.",
+            "Please give me the change."
+          ],
+          "correctAnswer": "Please count the change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thaile ke das rupay alag lagenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahin, thaila de dijiye.",
+            "Koi baat nahin, main kal aa jaonga.",
+            "Koi baat nahin, mujhe yeh rang pasand hai."
+          ],
+          "correctAnswer": "Koi baat nahin, thaila de dijiye.",
+          "translatedSentence": "That is fine, please give me the bag."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and comparing shops",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap yeh qameez kyun wapas karna chahte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kyunki yeh mujhe tang hai aur is ka rang bhi utar gaya hai.",
+            "Kyunki mujhe aap ki dukan bahut pasand aayi thi.",
+            "Kyunki main agle hafte Hyderabad jaa raha hoon."
+          ],
+          "correctAnswer": "Kyunki yeh mujhe tang hai aur is ka rang bhi utar gaya hai.",
+          "translatedSentence": "Because it is tight on me and the colour has run as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar rasid nahin hai to hum paise wapas nahin kar sakte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not have the receipt, we cannot refund your money.",
+            "If you bring the receipt tomorrow, we will exchange it.",
+            "We cannot repair it, but we can reduce the price."
+          ],
+          "correctAnswer": "If you do not have the receipt, we cannot refund your money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main ise badal sakta hoon, ya sirf paise wapas milenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aap ise badal sakte hain, lekin paise wapas nahin milenge.",
+            "Aap ise abhi le jaiye, daam hum kal bata denge.",
+            "Aap ka thaila yahin reh gaya tha, meherbani kar ke le lijiye."
+          ],
+          "correctAnswer": "Aap ise badal sakte hain, lekin paise wapas nahin milenge.",
+          "translatedSentence": "You can exchange it, but you will not get your money back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh joota do din mein hi toot gaya, main bahut pareshan hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shoe broke in just two days, and I am very upset.",
+            "I have worn these shoes for two days and they are very comfortable.",
+            "I bought these shoes two days ago because they were cheap."
+          ],
+          "correctAnswer": "This shoe broke in just two days, and I am very upset."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ko yeh nayi dukan kaisi lagi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yahan cheezein achi hain, lekin daam thore zyada hain.",
+            "Yahan sirf kapre miltay hain, khane ki cheezein nahin.",
+            "Yahan subah bahut bheer hoti hai, is liye main sham ko aata hoon."
+          ],
+          "correctAnswer": "Yahan cheezein achi hain, lekin daam thore zyada hain.",
+          "translatedSentence": "The things here are good, but the prices are a bit high."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Purani dukan mein daam kam thay, magar cheezein itni achi nahin theen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The prices were lower at the old shop, but the goods were not as good.",
+            "The old shop was cheaper and the goods were better as well.",
+            "The new shop is expensive, so I do not go there any more."
+          ],
+          "correctAnswer": "The prices were lower at the old shop, but the goods were not as good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, is packet mein chai kam nikli hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut maafi chahta hoon, main abhi doosra packet de deta hoon.",
+            "Bahut maafi chahta hoon, hamari dukan kal band rahegi.",
+            "Bahut maafi chahta hoon, is se kam daam nahin ho sakta."
+          ],
+          "correctAnswer": "Bahut maafi chahta hoon, main abhi doosra packet de deta hoon.",
+          "translatedSentence": "I am very sorry, I will give you another packet right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap kal tashreef laayen to main aap ko naya maal dikha doonga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come tomorrow, I will show you the new stock.",
+            "If I come tomorrow, will you show me the new stock?",
+            "When you came yesterday, I showed you the new stock."
+          ],
+          "correctAnswer": "If you come tomorrow, I will show you the new stock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap ka shukriya, kya aap phir tashreef laayenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji zaroor, kyunki aap ka rawaiya bahut acha hai.",
+            "Ji zaroor, kyunki mujhe rasid abhi tak nahin mili.",
+            "Ji nahin, kyunki main kabhi bazaar nahin jaata."
+          ],
+          "correctAnswer": "Ji zaroor, kyunki aap ka rawaiya bahut acha hai.",
+          "translatedSentence": "Certainly, because you deal with people so well."
+        }
+      ]
+    }
+  ]
+}
