@@ -1,0 +1,720 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kemon acho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhalo nei.",
+            "Ami bari jachchi.",
+            "Amar cha chai."
+          ],
+          "correctAnswer": "Ami bhalo nei.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar shorir bhalo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling well.",
+            "I am feeling fine today.",
+            "I am very tired today."
+          ],
+          "correctAnswer": "I am not feeling well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar matha betha korche.",
+            "Amar khide peyeche.",
+            "Ami bajare jachchi."
+          ],
+          "correctAnswer": "Amar matha betha korche.",
+          "translatedSentence": "I have a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar pet betha korche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My stomach hurts.",
+            "My head hurts.",
+            "My tooth hurts."
+          ],
+          "correctAnswer": "My stomach hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kothay betha korche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekhane, amar golay betha.",
+            "Ekhon onek raat hoyeche.",
+            "Ekhane amar bari."
+          ],
+          "correctAnswer": "Ekhane, amar golay betha.",
+          "translatedSentence": "Here, my throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar khub betha korche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It hurts a lot.",
+            "It hurts a little.",
+            "It does not hurt now."
+          ],
+          "correctAnswer": "It hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ki khub betha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ektu betha.",
+            "Na, ami jol chai.",
+            "Ha, ami bari jabo."
+          ],
+          "correctAnswer": "Na, ektu betha.",
+          "translatedSentence": "No, it hurts only a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami aaj bhalo nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not well today.",
+            "I am well today.",
+            "I am not going today."
+          ],
+          "correctAnswer": "I am not well today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki daktar dekhabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, aaj bikele dekhabo.",
+            "Ha, ami bhaat khabo.",
+            "Na, ami cha khabo na."
+          ],
+          "correctAnswer": "Ha, aaj bikele dekhabo.",
+          "translatedSentence": "Yes, I will see the doctor this evening."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar dui chokh jala korche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both my eyes are burning.",
+            "Both my ears are hurting.",
+            "My eyes are very tired."
+          ],
+          "correctAnswer": "Both my eyes are burning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar matha ki ekhono dhorche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ekhono dhorche.",
+            "Ha, amar khide peyeche.",
+            "Na, ami ekhane thaki na."
+          ],
+          "correctAnswer": "Ha, ekhono dhorche.",
+          "translatedSentence": "Yes, it is still aching."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar daate khub betha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth hurts badly.",
+            "My throat hurts badly.",
+            "My tooth is fine now."
+          ],
+          "correctAnswer": "My tooth hurts badly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar kaane ki betha ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, daan kaane betha ache.",
+            "Ha, amar paaye betha ache.",
+            "Na, ami kal ashbo."
+          ],
+          "correctAnswer": "Ha, daan kaane betha ache.",
+          "translatedSentence": "Yes, there is pain in my right ear."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar peethe betha korche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My back hurts.",
+            "My chest hurts.",
+            "My leg hurts."
+          ],
+          "correctAnswer": "My back hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki haat ta narate parcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, narate parchi na.",
+            "Na, khete parchi na.",
+            "Ha, ami bari jabo."
+          ],
+          "correctAnswer": "Na, narate parchi na.",
+          "translatedSentence": "No, I cannot move it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar naak bondho hoye geche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My nose is blocked.",
+            "My ear is blocked.",
+            "My nose is bleeding."
+          ],
+          "correctAnswer": "My nose is blocked."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kon paaye betha korche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baa paaye betha korche.",
+            "Dui haate betha korche.",
+            "Amar golay betha korche."
+          ],
+          "correctAnswer": "Baa paaye betha korche.",
+          "translatedSentence": "My left leg hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar buke ektu betha hocche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a little pain in my chest.",
+            "I have a lot of pain in my chest.",
+            "I have a little pain in my back."
+          ],
+          "correctAnswer": "I have a little pain in my chest."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ki hoyeche, bolun to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tin din dhore jor ache, daktarbabu.",
+            "Ami daktar dekhate ashi ni.",
+            "Amar bari ekhan theke onek dur."
+          ],
+          "correctAnswer": "Tin din dhore jor ache, daktarbabu.",
+          "translatedSentence": "I have had a fever for three days, doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kobe theke ei betha hocche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since when have you had this pain?",
+            "Where exactly is this pain?",
+            "How bad is this pain?"
+          ],
+          "correctAnswer": "Since when have you had this pain?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kobe theke shorir kharap lagche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal raat theke kharap lagche.",
+            "Kal raat theke bhalo lagche.",
+            "Onek din dhore oshudh khachchi."
+          ],
+          "correctAnswer": "Kal raat theke kharap lagche.",
+          "translatedSentence": "I have been feeling unwell since last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar kichu khete ichche korche na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not feel like eating anything.",
+            "I do not feel like sleeping at all.",
+            "I feel like eating something now."
+          ],
+          "correctAnswer": "I do not feel like eating anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ki matha ghurche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, uthle matha ghure jay.",
+            "Ha, ami naam ta bhule gechi.",
+            "Na, ami cha khabo na."
+          ],
+          "correctAnswer": "Ha, uthle matha ghure jay.",
+          "translatedSentence": "Yes, my head spins when I stand up."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratre thik moto ghum hocche na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not sleeping properly at night.",
+            "I am sleeping very well at night.",
+            "I am not eating properly at night."
+          ],
+          "correctAnswer": "I am not sleeping properly at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhane chap dile betha lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, okhane khub betha lagche.",
+            "Ha, ami oshudh kheye niyechi.",
+            "Na, ami ekhane thaki na."
+          ],
+          "correctAnswer": "Ha, okhane khub betha lagche.",
+          "translatedSentence": "Yes, it hurts a lot there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aage kokhono erokom hoyni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This has never happened to me before.",
+            "This happens to me every single day.",
+            "This happened to me last year too."
+          ],
+          "correctAnswer": "This has never happened to me before."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ekhon kono oshudh khachchen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ekhono kichu khai ni.",
+            "Na, ami cha khai na.",
+            "Ha, ami roj hnati."
+          ],
+          "correctAnswer": "Na, ekhono kichu khai ni.",
+          "translatedSentence": "No, I have not taken anything yet."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei oshudh ta ki apnader kache ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ache, ek minute din.",
+            "Ha, daktarbabu ekhane bosen.",
+            "Na, ami oshudh khai na."
+          ],
+          "correctAnswer": "Ha, ache, ek minute din.",
+          "translatedSentence": "Yes, we have it, give me a minute."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei oshudh ta din e koto bar khabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many times a day should I take this medicine?",
+            "How many days should I take this medicine?",
+            "How much does this medicine cost?"
+          ],
+          "correctAnswer": "How many times a day should I take this medicine?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Roj koto bar khete hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Din e tin bar, khabar por khaben.",
+            "Sokale ekbar, khabar age khaben.",
+            "Sudhu jor ele khaben."
+          ],
+          "correctAnswer": "Din e tin bar, khabar por khaben.",
+          "translatedSentence": "Three times a day, after meals."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khabar por ekta kore khaben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take one after each meal.",
+            "Take one before each meal.",
+            "Take two after each meal."
+          ],
+          "correctAnswer": "Take one after each meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kotodin khete hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Panch din porjonto khaben.",
+            "Panch taka dam porbe.",
+            "Panch bar dokane ashben."
+          ],
+          "correctAnswer": "Panch din porjonto khaben.",
+          "translatedSentence": "Take it for five days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei oshudh khele ghum peye jete pare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine may make you sleepy.",
+            "This medicine should be taken with water.",
+            "This medicine may upset your stomach."
+          ],
+          "correctAnswer": "This medicine may make you sleepy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Prescription ta ki apnar kache ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ei je, daktar likhe diyechen.",
+            "Ha, ami oshudh kheye niyechi.",
+            "Na, ami daktar dekhabo na."
+          ],
+          "correctAnswer": "Ha, ei je, daktar likhe diyechen.",
+          "translatedSentence": "Yes, here it is, the doctor wrote it out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei oshudh ta bacchader jonno noy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine is not for children.",
+            "This medicine is only for children.",
+            "This medicine is not for fever."
+          ],
+          "correctAnswer": "This medicine is not for children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ar kichu lagbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ektu tulo ar bandage din.",
+            "Ha, ek plate bhaat din.",
+            "Na, ami oshudher dokane jabo."
+          ],
+          "correctAnswer": "Ha, ektu tulo ar bandage din.",
+          "translatedSentence": "Yes, please give me some cotton and a bandage."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cough and cuts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar jor koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekso dui, kal theke barche.",
+            "Ekso taka, khub beshi.",
+            "Duto oshudh kheye niyechi."
+          ],
+          "correctAnswer": "Ekso dui, kal theke barche.",
+          "translatedSentence": "A hundred and two, and it has been going up since yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal raat theke amar jor esheche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a fever since last night.",
+            "I have had a cough since last night.",
+            "My fever came down last night."
+          ],
+          "correctAnswer": "I have had a fever since last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kashi ta ki komeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, kashi ekhono komeni.",
+            "Na, jor ekhono komeni.",
+            "Ha, ami oshudh kine niyechi."
+          ],
+          "correctAnswer": "Na, kashi ekhono komeni.",
+          "translatedSentence": "No, the cough has not settled down yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thanda lege sordi kashi hoyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I caught a chill and now I have a cold and a cough.",
+            "I caught a chill and now I have a fever and a headache.",
+            "The cold and the cough have finally stopped."
+          ],
+          "correctAnswer": "I caught a chill and now I have a cold and a cough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki kore laglo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tram theke namte giye pore gechi.",
+            "Metro te bose bari phirechi.",
+            "Roj Howrah bridge periye jai."
+          ],
+          "correctAnswer": "Tram theke namte giye pore gechi.",
+          "translatedSentence": "I fell while getting off the tram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar haat ta kete geche ar rokto porche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My hand is cut and it is bleeding.",
+            "My hand is cut but it is not bleeding.",
+            "My leg is cut and it is bleeding."
+          ],
+          "correctAnswer": "My hand is cut and it is bleeding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paa ta ki mochke geche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tai hnatte parchi na.",
+            "Ha, tai bhaat khete parchi na.",
+            "Na, sudhu matha ghurche."
+          ],
+          "correctAnswer": "Ha, tai hnatte parchi na.",
+          "translatedSentence": "Yes, that is why I cannot walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jor beshi hole mathay thanda jol dite hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever goes high, you have to put cold water on the head.",
+            "If the fever goes high, you have to take a hot bath.",
+            "Once the fever comes down, you have to drink cold water."
+          ],
+          "correctAnswer": "If the fever goes high, you have to put cold water on the head."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bomi bhab ki ekhono ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, oshudh kheye kome geche.",
+            "Ha, ekhono matha betha korche.",
+            "Ha, kal theke jor esheche."
+          ],
+          "correctAnswer": "Na, oshudh kheye kome geche.",
+          "translatedSentence": "No, it went away after I took the medicine."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Daktarbabu, ami ki aaj kaaje jete pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, aaj barite bishram korun, kal theke jete paren.",
+            "Ha, jete paren, kintu oshudh ta niye jaben na.",
+            "Na, karon aaj oshudher dokan bondho ache."
+          ],
+          "correctAnswer": "Na, aaj barite bishram korun, kal theke jete paren.",
+          "translatedSentence": "No, rest at home today; you can go from tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beshi kore jol khaben, tahole taratari bhalo hoye jaben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink plenty of water and you will get better quickly.",
+            "Drink plenty of water, but do not take the medicine.",
+            "If you rest well, you will get better quickly."
+          ],
+          "correctAnswer": "Drink plenty of water and you will get better quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pet ekhono thik hoyni, ami ki bhaat khete pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, aaj halka kichu khan, kal theke bhaat khaben.",
+            "Ha, jato khushi bhaat khete paren.",
+            "Ha, bhaat khan, karon apnar pet thik ache."
+          ],
+          "correctAnswer": "Na, aaj halka kichu khan, kal theke bhaat khaben.",
+          "translatedSentence": "No, eat something light today and have rice from tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi jor na kome, tahole kal abar ashben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down, come again tomorrow.",
+            "If the fever comes down, do not come tomorrow.",
+            "When the fever comes down, take the medicine again."
+          ],
+          "correctAnswer": "If the fever does not come down, come again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oshudh sesh hoye gele ki korbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sob oshudh sesh korun, tarpor abar dekha korben.",
+            "Oshudh sesh hole aro kine khete thakben.",
+            "Oshudh sesh na kore ekhoni bondho kore din."
+          ],
+          "correctAnswer": "Sob oshudh sesh korun, tarpor abar dekha korben.",
+          "translatedSentence": "Finish all the medicine, then come and see me again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhon aager tulonay onek bhalo achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am much better now than I was before.",
+            "I am a little better than I was yesterday.",
+            "I am not better yet, but the pain is less."
+          ],
+          "correctAnswer": "I am much better now than I was before."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oshudh kheye ekhon kemon bodh korchen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onek bhalo bodh korchi, kal theke jor nei.",
+            "Ami kono oshudh khai ni, tai kharap lagche.",
+            "Apni kemon achen, daktarbabu?"
+          ],
+          "correctAnswer": "Onek bhalo bodh korchi, kal theke jor nei.",
+          "translatedSentence": "I feel much better; I have had no fever since yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daktar bolechen ek soptaho bishram nite hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor has said I must rest for a week.",
+            "The doctor has said I must take medicine for a week.",
+            "The doctor has said I can go back to work in a week."
+          ],
+          "correctAnswer": "The doctor has said I must rest for a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajke ki ektu hnatte jete pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ektu hnatun, kintu beshi dur jaben na.",
+            "Ha, jato khushi hnatun, kono osubidhe nei.",
+            "Na, aaj tram bondho, tai hnatte jaben na."
+          ],
+          "correctAnswer": "Ha, ektu hnatun, kintu beshi dur jaben na.",
+          "translatedSentence": "Yes, walk a little, but do not go too far."
+        }
+      ]
+    }
+  ]
+}

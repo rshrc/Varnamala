@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eita kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eita lal ranga.",
+            "Eita mo ghara.",
+            "Eita bahut dura achi."
+          ],
+          "correctAnswer": "Eita lal ranga.",
+          "translatedSentence": "This one is red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Akasha neela ranga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sky is blue.",
+            "The sky is grey.",
+            "The sea is blue."
+          ],
+          "correctAnswer": "The sky is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gacha pata kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pata sabuja ranga.",
+            "Pata gulabi ranga.",
+            "Gacha bahut bada."
+          ],
+          "correctAnswer": "Pata sabuja ranga.",
+          "translatedSentence": "The leaves are green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo kalama kala ranga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My pen is black.",
+            "My pen is blue.",
+            "My notebook is black."
+          ],
+          "correctAnswer": "My pen is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma juta kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo juta dhala ranga.",
+            "Mo juta ghare achi.",
+            "Mu juta pindhe nahin."
+          ],
+          "correctAnswer": "Mo juta dhala ranga.",
+          "translatedSentence": "My shoes are white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Halada ranga mote bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour yellow.",
+            "I like the colour green.",
+            "I do not like yellow."
+          ],
+          "correctAnswer": "I like the colour yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eita dhala ranga na kala ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eita dhala ranga, kala nuhe.",
+            "Eita bahut sundara achi.",
+            "Mu eita kinichi."
+          ],
+          "correctAnswer": "Eita dhala ranga, kala nuhe.",
+          "translatedSentence": "This one is white, not black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Seita gulabi ranga phula.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is a pink flower.",
+            "That is a red flower.",
+            "This is a pink flower."
+          ],
+          "correctAnswer": "That is a pink flower."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku kou ranga bhala lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote neela ranga bhala lage.",
+            "Mote pakhala bhala lage.",
+            "Mu Bhubaneswar re rahe."
+          ],
+          "correctAnswer": "Mote neela ranga bhala lage.",
+          "translatedSentence": "I like the colour blue."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing objects by colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka gadi kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo gadi dhusara ranga.",
+            "Mo gadi bahut purana.",
+            "Mo gadi ghare nahin."
+          ],
+          "correctAnswer": "Mo gadi dhusara ranga.",
+          "translatedSentence": "My car is grey."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee ghara ra kabata sabuja ranga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door of this house is green.",
+            "The door of this house is brown.",
+            "The wall of this house is green."
+          ],
+          "correctAnswer": "The door of this house is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma byaga kou ranga ra?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo byaga kala o lal.",
+            "Mo byaga skula re achi.",
+            "Mo byaga bahut bhari."
+          ],
+          "correctAnswer": "Mo byaga kala o lal.",
+          "translatedSentence": "My bag is black and red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puri re samudra pani neela dekhajae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Puri the sea water looks blue.",
+            "At Puri the sea water looks green.",
+            "At Puri the sand looks blue."
+          ],
+          "correctAnswer": "At Puri the sea water looks blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tebul upare kou ranga khata achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebul upare neela khata achi.",
+            "Tebul upare kichhi nahin.",
+            "Khata mo byaga bhitare achi."
+          ],
+          "correctAnswer": "Tebul upare neela khata achi.",
+          "translatedSentence": "There is a blue notebook on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhai ra sarta halada ranga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother's shirt is yellow.",
+            "My brother's shirt is orange.",
+            "My brother's bag is yellow."
+          ],
+          "correctAnswer": "My brother's shirt is yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eita kala ranga chhata ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, eita kala ranga.",
+            "Nahin, chhata bahare achi.",
+            "Ha, chhata mo pakhare nahin."
+          ],
+          "correctAnswer": "Ha, eita kala ranga.",
+          "translatedSentence": "Yes, this one is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chhena poda ra ranga khaira hoithae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chhena poda is brown in colour.",
+            "Chhena poda is yellow in colour.",
+            "Dalma is brown in colour."
+          ],
+          "correctAnswer": "Chhena poda is brown in colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka ghara kou ranga ra?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo ghara dhala ranga ra.",
+            "Mo ghara Cuttack re achi.",
+            "Mo ghara bahut bada nuhe."
+          ],
+          "correctAnswer": "Mo ghara dhala ranga ra.",
+          "translatedSentence": "My house is white."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku kou ranga sarta darkar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote neela ranga sarta darkar.",
+            "Mote tike pani darkar.",
+            "Mote kichhi darkar nahin."
+          ],
+          "correctAnswer": "Mote neela ranga sarta darkar.",
+          "translatedSentence": "I need a blue shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee lal ranga sari kete tanka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this red saree cost?",
+            "How much does this red shirt cost?",
+            "Where can I buy this red saree?"
+          ],
+          "correctAnswer": "How much does this red saree cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lal kimba sabuja, apana kou ta neba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sabuja ta neba.",
+            "Mu ebe ghara jibi.",
+            "Mu duita ranga jane nahin."
+          ],
+          "correctAnswer": "Mu sabuja ta neba.",
+          "translatedSentence": "I will take the green one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote kala ranga juta darkar, dhala nuhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need black shoes, not white ones.",
+            "I need white shoes, not black ones.",
+            "I do not need black shoes at all."
+          ],
+          "correctAnswer": "I need black shoes, not white ones."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gulabi ranga apananku bhala lagila ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mote khub bhala lagila.",
+            "Nahin, mu ebe Puri jaichi.",
+            "Ha, mo ghara pakhare achi."
+          ],
+          "correctAnswer": "Ha, mote khub bhala lagila.",
+          "translatedSentence": "Yes, I liked it very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee dokana re arau kou kou ranga achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What other colours do you have in this shop?",
+            "How many shirts do you have in this shop?",
+            "Which colour is the cheapest in this shop?"
+          ],
+          "correctAnswer": "What other colours do you have in this shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kou ranga byaga kiniba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu kala ranga byaga kinibi.",
+            "Mu aji byaga kinibi nahin.",
+            "Mu bajara jane nahin."
+          ],
+          "correctAnswer": "Mu kala ranga byaga kinibi.",
+          "translatedSentence": "I will buy a black bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote ee dhala kurta bhala lagucha, kintu dam beshi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this white kurta, but it is expensive.",
+            "I like this white kurta, and it is cheap.",
+            "I do not like this white kurta, it is expensive."
+          ],
+          "correctAnswer": "I like this white kurta, but it is expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee ranga apananka pain thik achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, eita mo pain thik achi.",
+            "Nahin, mote arau halka ranga darkar.",
+            "Nahin, mo pakhare ebe tanka nahin."
+          ],
+          "correctAnswer": "Ha, eita mo pain thik achi.",
+          "translatedSentence": "Yes, this one is fine for me."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana aji kou ranga sari pindhichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu aji sabuja sari pindhichi.",
+            "Mu aji ghara re achi.",
+            "Mu aji bajara jaichi."
+          ],
+          "correctAnswer": "Mu aji sabuja sari pindhichi.",
+          "translatedSentence": "Today I am wearing a green saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo jhia lal ranga jama pindhichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is wearing a red dress.",
+            "My daughter is wearing a pink dress.",
+            "My daughter has bought a red dress."
+          ],
+          "correctAnswer": "My daughter is wearing a red dress."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kala pyanta sange tume kou sarta pindhiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dhala sarta pindhibi.",
+            "Mu ee pyanta pindhibi nahin.",
+            "Mu nua juta kinibi."
+          ],
+          "correctAnswer": "Mu dhala sarta pindhibi.",
+          "translatedSentence": "I will wear a white shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahaghara pain mu halada ranga kurta pindhibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will wear a yellow kurta for the wedding.",
+            "I will wear an orange kurta for the wedding.",
+            "I will buy a yellow kurta for the wedding."
+          ],
+          "correctAnswer": "I will wear a yellow kurta for the wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee neela sari mote manuchi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, apananku khub bhala manuchi.",
+            "Nahin, sari ghare rahigala.",
+            "Ha, mu ee sari kinichi."
+          ],
+          "correctAnswer": "Ha, apananku khub bhala manuchi.",
+          "translatedSentence": "Yes, it suits you very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jagannatha mandira jiba bele mu dhala dhoti pindhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wear a white dhoti when I go to the Jagannath temple.",
+            "I wear a yellow dhoti when I go to the Jagannath temple.",
+            "I bought a white dhoti near the Jagannath temple."
+          ],
+          "correctAnswer": "I wear a white dhoti when I go to the Jagannath temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma nua juta kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo nua juta khaira ranga.",
+            "Mo nua juta bahut daami.",
+            "Mu ajiyaeen juta kinichi nahin."
+          ],
+          "correctAnswer": "Mo nua juta khaira ranga.",
+          "translatedSentence": "My new shoes are brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se kebe bi kala ranga luga pindhe nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She never wears black clothes.",
+            "She always wears black clothes.",
+            "She never buys black clothes."
+          ],
+          "correctAnswer": "She never wears black clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo lal sarta kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tuma lal sarta almari re achi.",
+            "Tuma sarta bahut sundara achi.",
+            "Mu lal sarta pindhichi nahin."
+          ],
+          "correctAnswer": "Tuma lal sarta almari re achi.",
+          "translatedSentence": "Your red shirt is in the cupboard."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours all around",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Barsa pare akasha kemiti dekhajae?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akasha dhusara o neela dekhajae.",
+            "Barsa aji bahut hela nahin.",
+            "Mu barsa dine ghara re rahe."
+          ],
+          "correctAnswer": "Akasha dhusara o neela dekhajae.",
+          "translatedSentence": "The sky looks grey and blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chilika re sanjha bele pani kamala ranga hoijae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Chilika the water turns orange in the evening.",
+            "At Chilika the water turns blue in the evening.",
+            "At Chilika the sky turns orange in the morning."
+          ],
+          "correctAnswer": "At Chilika the water turns orange in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhubaneswar re auto gudika kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethikara auto kala o halada ranga.",
+            "Auto stand mandira pakhare achi.",
+            "Auto re jiba bahut sasta."
+          ],
+          "correctAnswer": "Ethikara auto kala o halada ranga.",
+          "translatedSentence": "The autos here are black and yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhana kshetra ebe sabuja dekhajaucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The paddy fields look green now.",
+            "The paddy fields look yellow now.",
+            "The paddy fields looked green last year."
+          ],
+          "correctAnswer": "The paddy fields look green now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puri ra baluka kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baluka dhusara dhala ranga.",
+            "Baluka bahut garama achi.",
+            "Mu Puri kebe jaina."
+          ],
+          "correctAnswer": "Baluka dhusara dhala ranga.",
+          "translatedSentence": "The sand is a greyish white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mandira upare lal o halada jhanda uduchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A red and yellow flag is flying above the temple.",
+            "A red and green flag is flying above the temple.",
+            "A red and yellow flag is kept inside the temple."
+          ],
+          "correctAnswer": "A red and yellow flag is flying above the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma pasandara phula kou ranga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote dhala phula bhala lage.",
+            "Mo ghara pakhare bagicha achi.",
+            "Mu phula kiniba pain jaichi."
+          ],
+          "correctAnswer": "Mote dhala phula bhala lage.",
+          "translatedSentence": "I like white flowers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratire rasta ra bati halada aloka deuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At night the street lamps give a yellow light.",
+            "At night the street lamps give a white light.",
+            "In the evening the street lamps are switched off."
+          ],
+          "correctAnswer": "At night the street lamps give a yellow light."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sanjha bele suryasta kemiti dekhajae?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akasha lal o kamala hoijae.",
+            "Surya bahut garama lage.",
+            "Mu sanjha re ghara phere."
+          ],
+          "correctAnswer": "Akasha lal o kamala hoijae.",
+          "translatedSentence": "The sky turns red and orange."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gadha neela sari bhala na halka neela ta bhala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote halka neela ta beshi bhala lage.",
+            "Mo pakhare eithiru gotie bi nahin.",
+            "Mu sari kiniba pain aasi nahin."
+          ],
+          "correctAnswer": "Mote halka neela ta beshi bhala lage.",
+          "translatedSentence": "I like the light blue one better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadha ranga apananku bhala manuchi, kintu halka ranga tike phika lagucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dark colours suit you, but the light ones look a bit dull.",
+            "Light colours suit you, but the dark ones look a bit dull.",
+            "Dark colours suit you, and the light ones look lovely too."
+          ],
+          "correctAnswer": "Dark colours suit you, but the light ones look a bit dull."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kahinki kala ranga beshi pasanda karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karana kala ranga sabu luga sange manijae.",
+            "Karana mu kala ranga kebe pindhe nahin.",
+            "Karana mote ranga bishaya re kichhi jane nahin."
+          ],
+          "correctAnswer": "Karana kala ranga sabu luga sange manijae.",
+          "translatedSentence": "Because black goes with every outfit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi apananku ee lal ta beshi gadha lagucha, tebe mu halka gotie dekhaibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If this red looks too dark to you, I will show you a lighter one.",
+            "If this red looks too light to you, I will show you a darker one.",
+            "If you like this red, I will show you a lighter one as well."
+          ],
+          "correctAnswer": "If this red looks too dark to you, I will show you a lighter one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo pua pain kou ranga sarta nele bhala hoiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka sabuja ta nianta, seita tanka pain bhala hoiba.",
+            "Sarta ra dam ebe bahut beshi hoigala.",
+            "Mo pua kebe bi sarta pindhe nahin."
+          ],
+          "correctAnswer": "Halka sabuja ta nianta, seita tanka pain bhala hoiba.",
+          "translatedSentence": "Take the light green one, it will look good on him."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aage lal pasanda karuthili, kintu ebe mote gadha sabuja beshi bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to prefer red, but now I like dark green more.",
+            "I used to prefer green, but now I like dark red more.",
+            "I still prefer red, because dark green is too heavy."
+          ],
+          "correctAnswer": "I used to prefer red, but now I like dark green more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee duiti bhitaru apana kou ta baachhibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu halka gulabi ta baachhibi, karana garama dine seita thanda lage.",
+            "Mu duitika neba nahin, karana dam bahut beshi.",
+            "Mu ee dokana ru kichhi kinibi nahin."
+          ],
+          "correctAnswer": "Mu halka gulabi ta baachhibi, karana garama dine seita thanda lage.",
+          "translatedSentence": "I will choose the light pink one, because it feels cool in summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kamala ranga apananka nua sari sange manuchi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This orange does not go with your new saree.",
+            "This orange goes very well with your new saree.",
+            "This yellow does not go with your new saree."
+          ],
+          "correctAnswer": "This orange does not go with your new saree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka mata re mo pain kou ranga bhala hoiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apananku gadha lal khub bhala manijiba.",
+            "Mu ranga bishaya re kichhi jane nahin.",
+            "Apana je kichhi pindhile bhala lagiba."
+          ],
+          "correctAnswer": "Apananku gadha lal khub bhala manijiba.",
+          "translatedSentence": "A deep red would suit you very well."
+        }
+      ]
+    }
+  ]
+}

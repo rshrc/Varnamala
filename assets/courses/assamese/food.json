@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar bhok lagise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, bor bhok lagise.",
+            "nai, moi ghoroloi jaam.",
+            "hoi, moi saah khao."
+          ],
+          "correctAnswer": "hoi, bor bhok lagise.",
+          "translatedSentence": "Yes, I am very hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor pipah lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thirsty.",
+            "I am hungry.",
+            "I am sleepy."
+          ],
+          "correctAnswer": "I am thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumi ki khaba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi bhat khaam.",
+            "moi ghorot thakim.",
+            "moi bazarloi jaam."
+          ],
+          "correctAnswer": "moi bhat khaam.",
+          "translatedSentence": "I will eat rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi saah khaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will drink tea.",
+            "I will drink water.",
+            "I will eat rice."
+          ],
+          "correctAnswer": "I will drink tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "pani kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pani mezor oporot ase.",
+            "moi pani nakhao.",
+            "hoi, bhat ase."
+          ],
+          "correctAnswer": "pani mezor oporot ase.",
+          "translatedSentence": "The water is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhat etiya gorom ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rice is hot now.",
+            "The tea is hot now.",
+            "The rice has gone cold."
+          ],
+          "correctAnswer": "The rice is hot now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni saah khaba ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, olop saah diyok.",
+            "hoi, moi Guwahatit thako.",
+            "nai, saah kot ase?"
+          ],
+          "correctAnswer": "hoi, olop saah diyok.",
+          "translatedSentence": "Yes, please give me a little tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi bhat aru masor jool khao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat rice and fish curry.",
+            "I eat rice and vegetables.",
+            "I cook rice and fish curry."
+          ],
+          "correctAnswer": "I eat rice and fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar pipah lagise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, olop pani diya.",
+            "nai, moi bhat randhim.",
+            "hoi, moi Jorhatoloi jaam."
+          ],
+          "correctAnswer": "hoi, olop pani diya.",
+          "translatedSentence": "Yes, give me a little water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi du kap saah lom.",
+            "dukankhon aji bondho ase.",
+            "moi tar naam najano."
+          ],
+          "correctAnswer": "moi du kap saah lom.",
+          "translatedSentence": "I will take two cups of tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ek kap saah kiman taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is one cup of tea?",
+            "How many cups of tea do you want?",
+            "Where do they sell tea?"
+          ],
+          "correctAnswer": "How much is one cup of tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saahot sini dim ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, sini nidiba, olop gakhir he diya.",
+            "hoi, moi saah nakhao.",
+            "dukankhon kot ase?"
+          ],
+          "correctAnswer": "nai, sini nidiba, olop gakhir he diya.",
+          "translatedSentence": "No, do not add sugar, just add a little milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi duta pitha aru ek kap saah lom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will take two pithas and one cup of tea.",
+            "I will take one pitha and two cups of tea.",
+            "I ate two pithas with one cup of tea."
+          ],
+          "correctAnswer": "I will take two pithas and one cup of tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar aru eku lage ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, iman he hobo, dhonyobad.",
+            "hoi, moi Jorhatot thako.",
+            "nai, dukankhon etiya bondho."
+          ],
+          "correctAnswer": "nai, iman he hobo, dhonyobad.",
+          "translatedSentence": "No, that is all, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sob milai kiman taka hol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is it in total?",
+            "How many cups did you drink?",
+            "Do you have change with you?"
+          ],
+          "correctAnswer": "How much is it in total?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "poitalis taka hol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eyat pochas taka ase, bhangoti diyok.",
+            "moi aji taka ana nai.",
+            "saahtu bor gorom ase."
+          ],
+          "correctAnswer": "eyat pochas taka ase, bhangoti diyok.",
+          "translatedSentence": "Here is fifty rupees, please give me the change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "apunar ocorot bhangoti ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have change on you?",
+            "Do you have any tea left?",
+            "Is your shop open now?"
+          ],
+          "correctAnswer": "Do you have change on you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji pitha nai, jolpan he ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thik ase, tente jolpan he diyok.",
+            "tente mok duta pitha diyok.",
+            "hoi, saahot sini nidiba."
+          ],
+          "correctAnswer": "thik ase, tente jolpan he diyok.",
+          "translatedSentence": "That is fine, then just give me jolpan."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet or sour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "masor jool bor jal hoise, khabo pariba ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop jal, kintu moi khabo paru.",
+            "hoi, mitha mor bor bhal lage.",
+            "nai, moi saah he khao."
+          ],
+          "correctAnswer": "olop jal, kintu moi khabo paru.",
+          "translatedSentence": "It is a bit spicy, but I can eat it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eyat olop besi nimokh porise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a little too much salt in this.",
+            "This needs a little more salt.",
+            "This has turned out a little too sweet."
+          ],
+          "correctAnswer": "There is a little too much salt in this."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak mitha bhal lage ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mok pitha bor bhal lage.",
+            "nai, moi pani nakhao.",
+            "hoi, jooltu bor jal hoise."
+          ],
+          "correctAnswer": "hoi, mok pitha bor bhal lage.",
+          "translatedSentence": "Yes, I like pitha very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji masor tengar sadh bor bhal hoise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fish tenga tastes very good today.",
+            "The fish tenga is too sour today.",
+            "I cooked the fish tenga today."
+          ],
+          "correctAnswer": "The fish tenga tastes very good today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saahtu etiya bor gorom ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tente olop rou, thanda hole khaba.",
+            "hoi, sini olop besi hoise.",
+            "nai, dukankhon bondho ase."
+          ],
+          "correctAnswer": "tente olop rou, thanda hole khaba.",
+          "translatedSentence": "Then wait a little and drink it once it cools down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi besi jal khabo nowaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot eat very spicy food.",
+            "I do not like sweet food.",
+            "I can eat quite spicy food."
+          ],
+          "correctAnswer": "I cannot eat very spicy food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji randhonito kenekua hoise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bor bhal hoise, jaluk thik poriman hoise.",
+            "nai, moi eku randha nai.",
+            "hoi, moi bazarloi jaam."
+          ],
+          "correctAnswer": "bor bhal hoise, jaluk thik poriman hoise.",
+          "translatedSentence": "It turned out very well, the chillies are just right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mitha besi hole mor bhal nalage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it is too sweet I do not like it.",
+            "If it is too spicy I do not like it.",
+            "I like it better when there is more sugar."
+          ],
+          "correctAnswer": "If it is too sweet I do not like it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumi tita khabo para ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop khabo paru, kintu bhal napau.",
+            "hoi, mor etiya bhok lagise.",
+            "nai, nimokh olop besi hoise."
+          ],
+          "correctAnswer": "olop khabo paru, kintu bhal napau.",
+          "translatedSentence": "I can eat a little, but I do not like it."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In a restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kiman jonor babe tebul lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "amar tini jonor babe tebul lage.",
+            "amar aji bor bhok lagise.",
+            "moi bill khon dim."
+          ],
+          "correctAnswer": "amar tini jonor babe tebul lage.",
+          "translatedSentence": "We need a table for three people."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "menukhon olop anibo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you please bring the menu?",
+            "Could you please bring the bill?",
+            "Have you seen the menu anywhere?"
+          ],
+          "correctAnswer": "Could you please bring the menu?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji ki bhal ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aji masor tenga bor bhal hoise.",
+            "aji hotelkhon bondho ase.",
+            "moi menukhon etiyao pua nai."
+          ],
+          "correctAnswer": "aji masor tenga bor bhal hoise.",
+          "translatedSentence": "The fish tenga is very good today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amak dukhon thali bhat aru masor jool diyok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give us two plates of rice and fish curry.",
+            "Please give us one plate of rice and fish curry.",
+            "Please give us two plates of rice without any curry."
+          ],
+          "correctAnswer": "Please give us two plates of rice and fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aru olop bhat dim ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, dhonyobad, mor pet bhorise.",
+            "hoi, moi bhat ekebare nakhao.",
+            "hotelkhon iyar pora bor dur."
+          ],
+          "correctAnswer": "nai, dhonyobad, mor pet bhorise.",
+          "translatedSentence": "No thank you, I am full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi ordar kora masor jool etiyalike aha nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fish curry I ordered has not come yet.",
+            "The fish curry I ordered was very good.",
+            "I have not ordered the fish curry yet."
+          ],
+          "correctAnswer": "The fish curry I ordered has not come yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar khoa hol ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, hol, etiya billkhon anok.",
+            "nai, moi eku ordar kora nai.",
+            "hoi, moi kaali iyat ahisilo."
+          ],
+          "correctAnswer": "hoi, hol, etiya billkhon anok.",
+          "translatedSentence": "Yes, I am done, please bring the bill now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "billkhonot olop bhul hoise buli lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think there is a small mistake in the bill.",
+            "I have already paid the bill.",
+            "I think the bill has not been made yet."
+          ],
+          "correctAnswer": "I think there is a small mistake in the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sob milai sat sho taka hoise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thik ase, moi cardere dim.",
+            "nai, ami eku khowa nai.",
+            "tente mok menukhon diyok."
+          ],
+          "correctAnswer": "thik ase, moi cardere dim.",
+          "translatedSentence": "That is fine, I will pay by card."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi ki sahajyo koribo paru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop piyaj kati diya.",
+            "bhat etiya sizi ase.",
+            "moi randhibo najano."
+          ],
+          "correctAnswer": "olop piyaj kati diya.",
+          "translatedSentence": "Cut some onions for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi bhat sizai asu, tumi maas dhui diya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am boiling the rice, you wash the fish.",
+            "I am cutting the fish, you wash the rice.",
+            "I will boil the rice after you wash the fish."
+          ],
+          "correctAnswer": "I am boiling the rice, you wash the fish."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tel gorom hoise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, etiya piyaj dibo pariba.",
+            "nai, bhat etiya thanda hoise.",
+            "hoi, nimokh mezor oporot ase."
+          ],
+          "correctAnswer": "hoi, etiya piyaj dibo pariba.",
+          "translatedSentence": "Yes, you can put the onions in now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji rati moi masor jool randhim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tonight I will cook fish curry.",
+            "Last night I cooked fish curry.",
+            "Tonight I will eat fish curry."
+          ],
+          "correctAnswer": "Tonight I will cook fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "nimokh kiman diba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop he diba, besi nalage.",
+            "nimokh piyajor kasotei ase.",
+            "moi nimokh besi nakhao."
+          ],
+          "correctAnswer": "olop he diba, besi nalage.",
+          "translatedSentence": "Just add a little, not too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi randhibo jano, kintu pitha banabo najano.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know how to cook, but I do not know how to make pitha.",
+            "I do not know how to cook, but I can make pitha.",
+            "I know how to make pitha, but I never cook."
+          ],
+          "correctAnswer": "I know how to cook, but I do not know how to make pitha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bazaror pora ki ki anibo lagibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop piyaj, aloo aru duta maas ana.",
+            "bazarkhon amar ghoror kasotei ase.",
+            "moi kaali bazarloi goisilo."
+          ],
+          "correctAnswer": "olop piyaj, aloo aru duta maas ana.",
+          "translatedSentence": "Bring some onions, potatoes and two fish."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kaali rati moi bor deri koi randhisilo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last night I cooked very late.",
+            "Tonight I will cook very late.",
+            "Last night I ate very late."
+          ],
+          "correctAnswer": "Last night I cooked very late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "randha hol ne, mor bor bhok lagise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "prai hol, aru pans minit rou.",
+            "nai, moi randhibo bor bhal pau.",
+            "hoi, moi etiya bazarloi jaam."
+          ],
+          "correctAnswer": "prai hol, aru pans minit rou.",
+          "translatedSentence": "Almost done, wait five more minutes."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni maas aru mangkho khai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi maas khao, kintu mangkho ekebare nakhao.",
+            "hoi, moi etiya bhat khai asu.",
+            "nai, moi saahot sini nidiu."
+          ],
+          "correctAnswer": "moi maas khao, kintu mangkho ekebare nakhao.",
+          "translatedSentence": "I eat fish, but I do not eat meat at all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi niramish khao, gotike mok olop dail aru bhaji dilei hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat vegetarian food, so a little dal and fried vegetables will be enough for me.",
+            "I eat vegetarian food, but today I will eat some fish.",
+            "I do not eat dal, so please give me a little fried vegetables."
+          ],
+          "correctAnswer": "I eat vegetarian food, so a little dal and fried vegetables will be enough for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kiba khadyot somoxya ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, gakhir khale mor pet beya hoi.",
+            "nai, moi ekebare randhibo najano.",
+            "hoi, mok masor tenga bor bhal lage."
+          ],
+          "correctAnswer": "hoi, gakhir khale mor pet beya hoi.",
+          "translatedSentence": "Yes, milk upsets my stomach."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi saahot sini nakhao, karon daktore mana korise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not take sugar in my tea, because the doctor has told me not to.",
+            "I do not drink tea at all, because the doctor has told me not to.",
+            "I take less sugar in my tea, because I do not like it sweet."
+          ],
+          "correctAnswer": "I do not take sugar in my tea, because the doctor has told me not to."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji rati ami hotelloi jaam ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jabo paru, kintu besi jal randha hotelot mor bhal nalage.",
+            "hoi, hotelkhon aji bondho thakibo.",
+            "nai, moi kaali bhat randhisilo."
+          ],
+          "correctAnswer": "jabo paru, kintu besi jal randha hotelot mor bhal nalage.",
+          "translatedSentence": "We can go, but I do not enjoy places where the food is very spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi apunar jal bhal nalage, tente moi jaluk kom dim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like spicy food, I will use fewer chillies.",
+            "If you like spicy food, I will add more chillies.",
+            "I do not like spicy food, so I use fewer chillies."
+          ],
+          "correctAnswer": "If you do not like spicy food, I will use fewer chillies."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni Guwahatit thakute masor tenga khaisile ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, prai dinei khaisilo, mor bor bhal lage.",
+            "nai, moi masor tenga randhibo najano.",
+            "hoi, moi kailoi Jorhatoloi jaam."
+          ],
+          "correctAnswer": "hoi, prai dinei khaisilo, mor bor bhal lage.",
+          "translatedSentence": "Yes, I ate it almost every day, I like it a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi bhat besi nakhao, kintu masor jool nohole mor bhal nalage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat much rice, but a meal is not the same for me without fish curry.",
+            "I eat a lot of rice, but I do not care for fish curry.",
+            "I eat neither rice nor fish curry these days."
+          ],
+          "correctAnswer": "I do not eat much rice, but a meal is not the same for me without fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kailoi amar ghorot bhat khabologai ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhonyobad, moi ahim, kintu mor babe niramish randhiba.",
+            "hoi, moi kailoi hotelot khaam.",
+            "dhonyobad, kintu moi ekebare randhibo najano."
+          ],
+          "correctAnswer": "dhonyobad, moi ahim, kintu mor babe niramish randhiba.",
+          "translatedSentence": "Thank you, I will come, but please cook something vegetarian for me."
+        }
+      ]
+    }
+  ]
+}

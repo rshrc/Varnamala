@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee peru emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa peru {name}.",
+            "Nenu baagunnanu.",
+            "Idi naa pustakam."
+          ],
+          "correctAnswer": "Naa peru {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu Hyderabad lo untanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Hyderabad.",
+            "I am going to Hyderabad.",
+            "I am from Vijayawada."
+          ],
+          "correctAnswer": "I live in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu baagunnanu.",
+            "Naa peru Ravi.",
+            "Meeru evaru?"
+          ],
+          "correctAnswer": "Nenu baagunnanu.",
+          "translatedSentence": "I am doing well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa peru Lakshmi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Lakshmi.",
+            "Her name is Lakshmi.",
+            "I am calling Lakshmi."
+          ],
+          "correctAnswer": "My name is Lakshmi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Ravi ni.",
+            "Nenu telugu nerchukuntunnanu.",
+            "Idi naa pustakam kaadu."
+          ],
+          "correctAnswer": "Nenu Ravi ni.",
+          "translatedSentence": "I am Ravi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi naa illu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my house.",
+            "That is my house.",
+            "This is my room."
+          ],
+          "correctAnswer": "This is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ekkada untavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Vijayawada lo untanu.",
+            "Naa peru Anil.",
+            "Nenu chai tagutunnanu."
+          ],
+          "correctAnswer": "Nenu Vijayawada lo untanu.",
+          "translatedSentence": "I live in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atanu naa snehitudu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my friend.",
+            "She is my friend.",
+            "He is my elder brother."
+          ],
+          "correctAnswer": "He is my friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ame naa akka.",
+            "Atanu naa annayya.",
+            "Nenu Hyderabad nunchi."
+          ],
+          "correctAnswer": "Ame naa akka.",
+          "translatedSentence": "She is my elder sister."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this, that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi biryani aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, idi biryani.",
+            "Kaadu, adi pesarattu.",
+            "Naaku biryani kaavali."
+          ],
+          "correctAnswer": "Avunu, idi biryani.",
+          "translatedSentence": "Yes, this is biryani."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaadu, adi naa auto kaadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, that is not my auto.",
+            "Yes, that one is my auto.",
+            "No, this is not my auto."
+          ],
+          "correctAnswer": "No, that is not my auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adi Charminar aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, adi Charminar.",
+            "Kaadu, adi Golconda kota.",
+            "Nenu Charminar ki veltunnanu."
+          ],
+          "correctAnswer": "Avunu, adi Charminar.",
+          "translatedSentence": "Yes, that is Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi irani chai, adi filter coffee.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is Irani chai and that is filter coffee.",
+            "That is Irani chai and this is filter coffee.",
+            "This is Irani chai, but I want coffee."
+          ],
+          "correctAnswer": "This is Irani chai and that is filter coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku chai kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem chai kaavali.",
+            "Kaadu, idi chai kaadu.",
+            "Nenu chai amutunnanu."
+          ],
+          "correctAnswer": "Avunu, konchem chai kaavali.",
+          "translatedSentence": "Yes, I would like a little tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "{name} garu ikkada unnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is {name} here?",
+            "Where did {name} go?",
+            "Is this {name}'s house?"
+          ],
+          "correctAnswer": "Is {name} here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivi mee pustakalu aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, ivi naa pustakalu.",
+            "Kaadu, avi mee pustakalu.",
+            "Naaku kotta pustakam kaavali."
+          ],
+          "correctAnswer": "Avunu, ivi naa pustakalu.",
+          "translatedSentence": "Yes, these are my books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adi naa illu kaadu, idi naa illu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is not my house, this is my house.",
+            "This is not my house, that is my house.",
+            "That house is not mine, it is my friend's."
+          ],
+          "correctAnswer": "That is not my house, this is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gongura pachadi baagundha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, chaala baagundi.",
+            "Kaadu, adi pesarattu.",
+            "Naaku pachadi kaavali."
+          ],
+          "correctAnswer": "Avunu, chaala baagundi.",
+          "translatedSentence": "Yes, it is very good."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ipudu emi tintunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu pesarattu tintunnanu.",
+            "Nenu chai tagutunnanu.",
+            "Nenu office ki veltunnanu."
+          ],
+          "correctAnswer": "Nenu pesarattu tintunnanu.",
+          "translatedSentence": "I am eating pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju udayam irani chai tagutanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink Irani chai every morning.",
+            "I drink Irani chai every evening.",
+            "I want Irani chai this morning."
+          ],
+          "correctAnswer": "I drink Irani chai every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ekkadiki veltunnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Charminar ki veltunnanu.",
+            "Nenu biryani tintunnanu.",
+            "Nenu intlone unnanu."
+          ],
+          "correctAnswer": "Nenu Charminar ki veltunnanu.",
+          "translatedSentence": "I am going to Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atanu roju office ki auto lo veltadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He goes to the office by auto every day.",
+            "He comes to the office by auto every day.",
+            "He goes to the office by bus every day."
+          ],
+          "correctAnswer": "He goes to the office by auto every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru maa intiki vastunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu ippude vastunnanu.",
+            "Ledu, nenu annam tintunnanu.",
+            "Naa illu ikkada daggarane undi."
+          ],
+          "correctAnswer": "Avunu, nenu ippude vastunnanu.",
+          "translatedSentence": "Yes, I am coming right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa amma roju udayam pesarattu chestundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother makes pesarattu every morning.",
+            "My mother eats pesarattu every morning.",
+            "My sister makes pesarattu every morning."
+          ],
+          "correctAnswer": "My mother makes pesarattu every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu emi tagutavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu palu tagutanu.",
+            "Nenu annam tintanu.",
+            "Nenu bazaar ki veltanu."
+          ],
+          "correctAnswer": "Nenu palu tagutanu.",
+          "translatedSentence": "I drink milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Memu prati aadivaram biryani tintamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat biryani every Sunday.",
+            "We cook biryani every Sunday.",
+            "We eat biryani every Saturday."
+          ],
+          "correctAnswer": "We eat biryani every Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ipudu pani chestunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu pani chestunnanu.",
+            "Ledu, nenu palu tagutunnanu.",
+            "Nenu roju pani chestanu."
+          ],
+          "correctAnswer": "Avunu, nenu pani chestunnanu.",
+          "translatedSentence": "Yes, I am working."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "What, where, who",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi gongura pachadi.",
+            "Ame maa amma.",
+            "Adi ekkada undi?"
+          ],
+          "correctAnswer": "Idi gongura pachadi.",
+          "translatedSentence": "This is gongura pickle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus stand ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus stand?",
+            "Where is the railway station?",
+            "Is this the bus stand?"
+          ],
+          "correctAnswer": "Where is the bus stand?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee intlo evaru unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa amma nanna unnaru.",
+            "Maa illu Vijayawada lo undi.",
+            "Nenu intiki veltunnanu."
+          ],
+          "correctAnswer": "Maa amma nanna unnaru.",
+          "translatedSentence": "My mother and father are at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu roju emi chestavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What do you do every day?",
+            "What are you doing right now?",
+            "Where do you go every day?"
+          ],
+          "correctAnswer": "What do you do every day?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manchi biryani hotel ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi Charminar pakkane undi.",
+            "Naaku biryani chaala ishtam.",
+            "Nenu akkada roju tintanu."
+          ],
+          "correctAnswer": "Adi Charminar pakkane undi.",
+          "translatedSentence": "It is right next to Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa ammayi evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is that girl?",
+            "Where is that girl?",
+            "Whose daughter is she?"
+          ],
+          "correctAnswer": "Who is that girl?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku emi kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku konchem annam kaavali.",
+            "Naa peru Anil kaadu.",
+            "Nenu ikkade untanu."
+          ],
+          "correctAnswer": "Naaku konchem annam kaavali.",
+          "translatedSentence": "I would like a little rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Charminar ki ela vellali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How do I get to Charminar?",
+            "When should I go to Charminar?",
+            "Which way is Charminar from here?"
+          ],
+          "correctAnswer": "How do I get to Charminar?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee auto ekkadiki veltundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi Secunderabad ki veltundi.",
+            "Idi naa auto kaadu.",
+            "Auto ikkade aagutundi."
+          ],
+          "correctAnswer": "Idi Secunderabad ki veltundi.",
+          "translatedSentence": "This one goes to Secunderabad."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku aa manishi peru telusa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naaku teliyadu.",
+            "Avunu, naa peru telusu.",
+            "Atanu ikkadike vastadu."
+          ],
+          "correctAnswer": "Ledu, naaku teliyadu.",
+          "translatedSentence": "No, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku telugu baagaa raadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not speak Telugu well.",
+            "I do not want to learn Telugu.",
+            "I speak Telugu quite well."
+          ],
+          "correctAnswer": "I do not speak Telugu well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru chicken biryani tintara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, nenu mamsam tinanu.",
+            "Avunu, naaku biryani teliyadu.",
+            "Kaadu, idi biryani kaadu."
+          ],
+          "correctAnswer": "Ledu, nenu mamsam tinanu.",
+          "translatedSentence": "No, I do not eat meat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee oorlo evaru teliyaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know anyone in this town.",
+            "I do not know this town at all.",
+            "Nobody in this town knows me."
+          ],
+          "correctAnswer": "I do not know anyone in this town."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu meeru office ki veltunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, repu selavu.",
+            "Avunu, naaku office teliyadu.",
+            "Kaadu, adi naa office kaadu."
+          ],
+          "correctAnswer": "Ledu, repu selavu.",
+          "translatedSentence": "No, tomorrow is a holiday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku inka chai vaddu, chaalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want any more tea, that is enough.",
+            "I would like a little more tea, please.",
+            "I do not drink tea at all."
+          ],
+          "correctAnswer": "I do not want any more tea, that is enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi mee bag aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaadu, idi naa bag kaadu.",
+            "Avunu, naaku kotta bag kaavali.",
+            "Naa bag intlo undi."
+          ],
+          "correctAnswer": "Kaadu, idi naa bag kaadu.",
+          "translatedSentence": "No, this is not my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atanu ee roju office ki raaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He did not come to the office today.",
+            "He did not go to the office today.",
+            "He is not at the office right now."
+          ],
+          "correctAnswer": "He did not come to the office today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru naaku konchem sahayam cheyagalara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, naaku teliyadu.",
+            "Ledu, nenu intlo lenu.",
+            "Avunu, naaku sahayam kaavali."
+          ],
+          "correctAnswer": "Kshaminchandi, naaku teliyadu.",
+          "translatedSentence": "Sorry, I do not know."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ee saayantram maa intiki vastara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vastanu, kaani konchem aalasyam avutundi.",
+            "Ledu, naaku mee illu teliyadu.",
+            "Avunu, nenu ipudu annam tintunnanu."
+          ],
+          "correctAnswer": "Vastanu, kaani konchem aalasyam avutundi.",
+          "translatedSentence": "I will come, but I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku biryani ishtam, kaani ee roju pesarattu tintanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like biryani, but today I will eat pesarattu.",
+            "I like biryani, so today I will eat biryani.",
+            "I do not like biryani, so today I will eat pesarattu."
+          ],
+          "correctAnswer": "I like biryani, but today I will eat pesarattu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enduku Hyderabad vachcharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu ikkada pani chestunnanu, anduke vachanu.",
+            "Naaku Hyderabad gurinchi teliyadu.",
+            "Nenu repu Vijayawada veltanu."
+          ],
+          "correctAnswer": "Nenu ikkada pani chestunnanu, anduke vachanu.",
+          "translatedSentence": "I work here, that is why I came."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeku telugu raakapote, nenu English lo cheptanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not know Telugu, I will speak in English.",
+            "If you know Telugu, I will speak in Telugu.",
+            "You do not know Telugu, so please speak in English."
+          ],
+          "correctAnswer": "If you do not know Telugu, I will speak in English."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto atanu chaala ekkuva adugutunnadu, emi cheyyali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konchem taggamani cheppandi.",
+            "Avunu, auto ikkade aagindi.",
+            "Naaku auto ekkadam teliyadu."
+          ],
+          "correctAnswer": "Konchem taggamani cheppandi.",
+          "translatedSentence": "Ask him to bring the price down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju udayam nadichi veltanu, endukante aarogyaniki manchidi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I walk every morning because it is good for my health.",
+            "I walk every morning, but my health is not good.",
+            "I go every morning because I like walking."
+          ],
+          "correctAnswer": "I walk every morning because it is good for my health."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ooru gurinchi konchem cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa ooru Vijayawada, akkada Krishna nadi undi.",
+            "Naaku ooru gurinchi teliyadu, kshaminchandi.",
+            "Nenu repu maa ooriki veltunnanu."
+          ],
+          "correctAnswer": "Maa ooru Vijayawada, akkada Krishna nadi undi.",
+          "translatedSentence": "My town is Vijayawada, and the Krishna river runs through it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru vaste, memu andaram kalisi bhojanam chestamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come, we will all eat together.",
+            "When you came, we all ate together.",
+            "If you come, I will cook the food myself."
+          ],
+          "correctAnswer": "If you come, we will all eat together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku inkemaina kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, chaalu, dhanyavaadalu.",
+            "Avunu, naaku ee ooru baagaa telusu.",
+            "Kaadu, adi naa bhojanam kaadu."
+          ],
+          "correctAnswer": "Ledu, chaalu, dhanyavaadalu.",
+          "translatedSentence": "No, that is enough, thank you."
+        }
+      ]
+    }
+  ]
+}

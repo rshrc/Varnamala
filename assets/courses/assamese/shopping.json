@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eitar dam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eitar dam posas taka.",
+            "Eitar rong ronga.",
+            "Eito mor mona."
+          ],
+          "correctAnswer": "Eitar dam posas taka.",
+          "translatedSentence": "This one costs fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei gamosakhonor dam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this gamosa?",
+            "Where can I buy a gamosa?",
+            "This gamosa is very nice."
+          ],
+          "correctAnswer": "How much is this gamosa?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ki kinibo bisare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok eta gamosa lage.",
+            "Moi dokanot kaam koru.",
+            "Mor ghor iyate ase."
+          ],
+          "correctAnswer": "Mok eta gamosa lage.",
+          "translatedSentence": "I need a gamosa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei saahor dam bis taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tea costs twenty rupees.",
+            "This tea is very hot.",
+            "I drink tea every day."
+          ],
+          "correctAnswer": "This tea costs twenty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jutajorar dam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei jutajorar dam exo taka.",
+            "Ei juta bor dhuniya.",
+            "Moi nutun juta kinim."
+          ],
+          "correctAnswer": "Ei jutajorar dam exo taka.",
+          "translatedSentence": "This pair of shoes costs a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dokanor jinis bor sosta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The things in this shop are very cheap.",
+            "The things in this shop are very expensive.",
+            "This shop is very big."
+          ],
+          "correctAnswer": "The things in this shop are very cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kiman hol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Xathi taka hol.",
+            "Moi bhal ase.",
+            "Dokan bondho hol."
+          ],
+          "correctAnswer": "Xathi taka hol.",
+          "translatedSentence": "It comes to sixty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi eito lom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will take this one.",
+            "I will not take this one.",
+            "I am looking at this one."
+          ],
+          "correctAnswer": "I will take this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei dam beshi neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, dam thik ase.",
+            "Hoi, dokan bor dur.",
+            "Nai, moi Jorhatot thako."
+          ],
+          "correctAnswer": "Nai, dam thik ase.",
+          "translatedSentence": "No, the price is fine."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok duta gamosa lage.",
+            "Mok apunar dokan bhal lage.",
+            "Moi etiya ghoroloi jam."
+          ],
+          "correctAnswer": "Mok duta gamosa lage.",
+          "translatedSentence": "I need two gamosas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apunar dokanot saah pata ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have tea leaves in your shop?",
+            "Is your shop open now?",
+            "Do you drink tea in the shop?"
+          ],
+          "correctAnswer": "Do you have tea leaves in your shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar dokanot pitha ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, til pitha aru ghila pitha ase.",
+            "Hoi, moi pitha bonabo jano.",
+            "Nai, moi pitha nakhao."
+          ],
+          "correctAnswer": "Hoi, til pitha aru ghila pitha ase.",
+          "translatedSentence": "Yes, we have til pitha and ghila pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok olop bilahi aru piyaj lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need some tomatoes and onions.",
+            "I do not need tomatoes or onions.",
+            "Are the tomatoes and onions fresh?"
+          ],
+          "correctAnswer": "I need some tomatoes and onions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru eku lage neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, eitukei hol.",
+            "Hoi, dam bor beshi.",
+            "Nai, dokan bondho ase."
+          ],
+          "correctAnswer": "Nai, eitukei hol.",
+          "translatedSentence": "No, that is all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Xei nila sadorkhon mok dekhuwaok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me that blue sador.",
+            "Please keep that blue sador for me.",
+            "I really like that blue sador."
+          ],
+          "correctAnswer": "Please show me that blue sador."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni gamosa bisari ase neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, mor deutar babe eta lage.",
+            "Nai, moi gamosa bikri koru.",
+            "Hoi, mor gamosa harai gol."
+          ],
+          "correctAnswer": "Hoi, mor deutar babe eta lage.",
+          "translatedSentence": "Yes, I need one for my father."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dokanot mas aru xaak pua jai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can I get fish and greens in this shop?",
+            "Is the fish in this shop fresh?",
+            "Where do you buy your fish and greens?"
+          ],
+          "correctAnswer": "Can I get fish and greens in this shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei sadorkhon apunar babe neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, eikhon mor mar babe.",
+            "Hoi, moi sador nipindho.",
+            "Nai, moi sador bikri koru."
+          ],
+          "correctAnswer": "Nai, eikhon mor mar babe.",
+          "translatedSentence": "No, this one is for my mother."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Bargaining the price down",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei sadorkhonor dam pasxo taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dam bor beshi, olop kom korok.",
+            "Thik ase, moi tinikhon lom.",
+            "Nai, mok saah pata lage."
+          ],
+          "correctAnswer": "Dam bor beshi, olop kom korok.",
+          "translatedSentence": "That is too expensive, please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Olop kom kori diok, moi apunar niyomiya grahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please lower it a little, I am a regular customer of yours.",
+            "Please keep it aside, I will come back tomorrow.",
+            "Please give me one more, I am a regular customer of yours."
+          ],
+          "correctAnswer": "Please lower it a little, I am a regular customer of yours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tente apuni kiman dibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi tinixo taka dim.",
+            "Moi kali ahim.",
+            "Moi eito nolom."
+          ],
+          "correctAnswer": "Moi tinixo taka dim.",
+          "translatedSentence": "I will give three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dam mor babe bor beshi hoi gol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This price has turned out to be far too much for me.",
+            "This price is quite reasonable for me.",
+            "I have already paid too much money for this."
+          ],
+          "correctAnswer": "This price has turned out to be far too much for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei damot moi kombo nuwaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tente moi beleg dokan eta sam.",
+            "Tente moi duta lom.",
+            "Tente apuni aru olop dam barhaok."
+          ],
+          "correctAnswer": "Tente moi beleg dokan eta sam.",
+          "translatedSentence": "Then I will go and look at another shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Xei dokanot ekei jinis tatokoi sosta pua jai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The same thing is available cheaper in that shop.",
+            "That shop sells better things than this one.",
+            "I bought the same thing in that shop."
+          ],
+          "correctAnswer": "The same thing is available cheaper in that shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi duxo taka dim, hobo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, aru tirix taka diok.",
+            "Hoi, dam bor beshi hoise.",
+            "Nai, moi taka nolom."
+          ],
+          "correctAnswer": "Nai, aru tirix taka diok.",
+          "translatedSentence": "No, please give thirty rupees more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apuni olop kom kore, moi duta lom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you bring the price down a little, I will take two.",
+            "If you have two of them, I will buy one.",
+            "Even though the price is high, I will take two."
+          ],
+          "correctAnswer": "If you bring the price down a little, I will take two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tente xex dam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Xex dam sarixo taka, tatokoi kom nohobo.",
+            "Xex dam mor bondhue dise.",
+            "Xex dam moi kali kinisilo."
+          ],
+          "correctAnswer": "Xex dam sarixo taka, tatokoi kom nohobo.",
+          "translatedSentence": "The final price is four hundred rupees, it will not be less than that."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak kiman kilo alu lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok tini kilo alu lage.",
+            "Alur dam bor kom.",
+            "Moi alu bhal nepao."
+          ],
+          "correctAnswer": "Mok tini kilo alu lage.",
+          "translatedSentence": "I need three kilos of potatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok adha kilo mas aru dui kilo alu lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need half a kilo of fish and two kilos of potatoes.",
+            "I need two kilos of fish and half a kilo of potatoes.",
+            "Do you have half a kilo of fish and some potatoes?"
+          ],
+          "correctAnswer": "I need half a kilo of fish and two kilos of potatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jamakhon tomar babe dangor neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, mok tatokoi soru eta lage.",
+            "Hoi, moi jama nipindho.",
+            "Nai, jamar dam beshi."
+          ],
+          "correctAnswer": "Hoi, mok tatokoi soru eta lage.",
+          "translatedSentence": "Yes, I need one smaller than this."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei jutajora mor bhorir babe soru hoise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This pair of shoes is too small for my feet.",
+            "This pair of shoes is too big for my feet.",
+            "This pair of shoes is very cheap for me."
+          ],
+          "correctAnswer": "This pair of shoes is too small for my feet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman ta pitha lobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok pasta pitha diok.",
+            "Pitha bor gorom hoi ase.",
+            "Moi pitha bonabo nejano."
+          ],
+          "correctAnswer": "Mok pasta pitha diok.",
+          "translatedSentence": "Please give me five pithas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Majholi mapor sador thakile mok eta diok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have a medium size sador, please give me one.",
+            "If this sador is too big, please show me another one.",
+            "Please give me the biggest sador that you have."
+          ],
+          "correctAnswer": "If you have a medium size sador, please give me one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak dangor mona lage ne soru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok eta dangor mona lage.",
+            "Mona tur dam bor beshi.",
+            "Moi ghoror pora mona anisu."
+          ],
+          "correctAnswer": "Mok eta dangor mona lage.",
+          "translatedSentence": "I need a big bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek kilo saah patar dam kiman poribo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much will one kilo of tea leaves come to?",
+            "How many kilos of tea leaves do you want?",
+            "Where do these tea leaves come from?"
+          ],
+          "correctAnswer": "How much will one kilo of tea leaves come to?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Etiya xob milai kiman hol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Xob milai duxo posas taka hol.",
+            "Xob milai tini kilo hol.",
+            "Etiya dokan bondho hol."
+          ],
+          "correctAnswer": "Xob milai duxo posas taka hol.",
+          "translatedSentence": "Altogether it comes to two hundred and fifty rupees."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni nogode dibo ne cardere dibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi nogode dim.",
+            "Moi kali dim.",
+            "Moi taka nolom."
+          ],
+          "correctAnswer": "Moi nogode dim.",
+          "translatedSentence": "I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor ocorot exo takar note ase, bhangti ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a hundred rupee note, do you have change?",
+            "I do not have a hundred rupees, can I pay tomorrow?",
+            "I have some change, do you need a hundred rupee note?"
+          ],
+          "correctAnswer": "I have a hundred rupee note, do you have change?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mor ocorot etiya bhangti nai, olop apekha korok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ase, moi apekha korim.",
+            "Thik ase, moi taka nidiu.",
+            "Nai, mok bhangti nalage."
+          ],
+          "correctAnswer": "Thik ase, moi apekha korim.",
+          "translatedSentence": "That is fine, I will wait."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Anugroh kori mok rosid khon diok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the receipt.",
+            "Please write the price down for me.",
+            "Please keep the receipt with you."
+          ],
+          "correctAnswer": "Please give me the receipt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak polythene mona eta lage ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, eta dangor mona diok.",
+            "Nai, moi mona bikri koru.",
+            "Hoi, mona tur rong bhal."
+          ],
+          "correctAnswer": "Hoi, eta dangor mona diok.",
+          "translatedSentence": "Yes, please give me a big bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi phonere taka dibo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can I pay with my phone?",
+            "Can I call you on the phone?",
+            "Can I buy a phone here?"
+          ],
+          "correctAnswer": "Can I pay with my phone?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aru bis taka dibo lagibo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei lok, bis takar note eta.",
+            "Nai, moi xob taka dilo.",
+            "Hoi, moi bis taka pao."
+          ],
+          "correctAnswer": "Ei lok, bis takar note eta.",
+          "translatedSentence": "Here you are, a twenty rupee note."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhangti nai karone apuni pas taka kom dile o hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since there is no change, it is fine if you give five rupees less.",
+            "Since there is no change, please give me five rupees more.",
+            "There is no change, so I cannot sell you this."
+          ],
+          "correctAnswer": "Since there is no change, it is fine if you give five rupees less."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taka guni sauk, thik ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, thik ase, dhonyobad.",
+            "Nai, moi taka guni nasao.",
+            "Hoi, kintu mor ocorot taka nai."
+          ],
+          "correctAnswer": "Hoi, thik ase, dhonyobad.",
+          "translatedSentence": "Yes, it is correct, thank you."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi kali kina jutajora soru hoise, ubhotai dibo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, rosid thakile ubhotai dibo paribo.",
+            "Nai, ami juta bikri nokoru.",
+            "Hoi, kintu apuni kali juta kinisil."
+          ],
+          "correctAnswer": "Hoi, rosid thakile ubhotai dibo paribo.",
+          "translatedSentence": "Yes, if you have the receipt you can return it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei sadorkhon dhuwar pisot rong eri gol, seye moi ubhotai dibo bisaro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The colour came off this sador after washing, so I want to return it.",
+            "This sador tore while I was washing it, so I want another one.",
+            "I washed this sador yesterday, but the colour is still bright."
+          ],
+          "correctAnswer": "The colour came off this sador after washing, so I want to return it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aan eta lobo ne taka ubhotai lobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi taka ubhotai lom, kiyono mok etiya eku nalage.",
+            "Moi eito ubhotai nidiu, kiyono dam bor beshi.",
+            "Moi kali aru duta kinim, kiyono dam bor kom."
+          ],
+          "correctAnswer": "Moi taka ubhotai lom, kiyono mok etiya eku nalage.",
+          "translatedSentence": "I will take the money back, because I do not need anything now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei phonetu kalir pora bhalke kaam kora nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This phone has not been working properly since yesterday.",
+            "This phone stopped working the day I bought it.",
+            "I have not used this phone since yesterday."
+          ],
+          "correctAnswer": "This phone has not been working properly since yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ei dokanoloi kiyo bare bare aha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiyono iyat jinis bhal aru dam o kom.",
+            "Kiyono mor ghor iyar pora bor dur.",
+            "Kiyono moi iyat eku napao."
+          ],
+          "correctAnswer": "Kiyono iyat jinis bhal aru dam o kom.",
+          "translatedSentence": "Because the things here are good and the prices are low too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Xei dokanot dam kom, kintu iyar jinis bhal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That shop is cheaper, but the things here are better.",
+            "That shop is cheaper, and the things there are better too.",
+            "This shop is cheaper, but that shop is closer."
+          ],
+          "correctAnswer": "That shop is cheaper, but the things here are better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar kiba oxubidha hoise neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, ei mona tu prothom dinate bhangi gol.",
+            "Nai, moi ei mona tu bhal pao.",
+            "Hoi, mona tur dam bor kom asil."
+          ],
+          "correctAnswer": "Hoi, ei mona tu prothom dinate bhangi gol.",
+          "translatedSentence": "Yes, this bag broke on the very first day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apuni ubhotai nolo, moi ei dokanoloi aru nahu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not take it back, I will not come to this shop again.",
+            "If you take it back, I will come to this shop again.",
+            "Since you did not take it back, I did not come to this shop."
+          ],
+          "correctAnswer": "If you do not take it back, I will not come to this shop again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar oviyog ami likhi lolo, aru kiba kobo lage ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, eitukei, xohai koraat dhonyobad.",
+            "Hoi, moi aru duta mona lom.",
+            "Nai, moi eku oviyog kora nai."
+          ],
+          "correctAnswer": "Nai, eitukei, xohai koraat dhonyobad.",
+          "translatedSentence": "No, that is all, thank you for the help."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Name and hometown",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hesaru enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna hesaru {name}.",
+            "Nanna ooru Mysuru.",
+            "Naanu chennagiddene."
+          ],
+          "correctAnswer": "Nanna hesaru {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hesaru Ravi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Ravi.",
+            "His name is Ravi.",
+            "Ravi is my friend."
+          ],
+          "correctAnswer": "My name is Ravi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma ooru yaavudu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna ooru Bengaluru.",
+            "Nanna hesaru Latha.",
+            "Nanage Kannada gottu."
+          ],
+          "correctAnswer": "Nanna ooru Bengaluru.",
+          "translatedSentence": "My hometown is Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu Mysurinda bandiddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have come from Mysuru.",
+            "I am going to Mysuru.",
+            "I was born in Mysuru."
+          ],
+          "correctAnswer": "I have come from Mysuru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu elli iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Bengalurinalli iddene.",
+            "Naanu naale bartene.",
+            "Nanna hesaru Kiran."
+          ],
+          "correctAnswer": "Naanu Bengalurinalli iddene.",
+          "translatedSentence": "I live in Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namaskara, nanna hesaru Anu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hello, my name is Anu.",
+            "Hello, my friend is Anu.",
+            "Hello, this is Anu's house."
+          ],
+          "correctAnswer": "Hello, my name is Anu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskara! Hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddene, dhanyavada.",
+            "Nanna kutumba chennagide.",
+            "Ella chennagi nadeyutide."
+          ],
+          "correctAnswer": "Naanu chennagiddene, dhanyavada.",
+          "translatedSentence": "I am doing well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma hesaru chennagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your name is lovely.",
+            "Your town is lovely.",
+            "That is a common name."
+          ],
+          "correctAnswer": "Your name is lovely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna hesaru enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna hesaru Deepa.",
+            "Nimma hesaru Deepa.",
+            "Avara hesaru Deepa."
+          ],
+          "correctAnswer": "Nanna hesaru Deepa.",
+          "translatedSentence": "My name is Deepa."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Your age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage estu varsha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage muvattu varsha.",
+            "Nanage Kannada gottu.",
+            "Naanu Bengalurinalli kelasa maadtene."
+          ],
+          "correctAnswer": "Nanage muvattu varsha.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ippattaidu varsha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty-five years old.",
+            "My brother is twenty-five years old.",
+            "I have worked for twenty-five years."
+          ],
+          "correctAnswer": "I am twenty-five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu enu kelasa maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu ondu company alli kelasa maadtene.",
+            "Naanu dinaa ragi mudde tinnutene.",
+            "Nanna ooru Mangaluru."
+          ],
+          "correctAnswer": "Naanu ondu company alli kelasa maadtene.",
+          "translatedSentence": "I work at a company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu vidyarthi, Bengalurinalli odtha iddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student and I study in Bengaluru.",
+            "I am a teacher and I teach in Bengaluru.",
+            "I am a student and I work in Bengaluru."
+          ],
+          "correctAnswer": "I am a student and I study in Bengaluru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu elli kelasa maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Cubbon Park hattira kelasa maadtene.",
+            "Naanu belagge onbhattu ghanteege hogtene.",
+            "Nanage a kelasa gottilla."
+          ],
+          "correctAnswer": "Naanu Cubbon Park hattira kelasa maadtene.",
+          "translatedSentence": "I work near Cubbon Park."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna kelasa nanage tumba ista.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my job a lot.",
+            "I do not like my job.",
+            "My job is very difficult."
+          ],
+          "correctAnswer": "I like my job a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage estu varsha, {name}?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ippattu varsha.",
+            "Nanage innu ippattu varsha aagilla.",
+            "Nanna tangige ippattu varsha."
+          ],
+          "correctAnswer": "Nanage ippattu varsha.",
+          "translatedSentence": "I am twenty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu prati dina BMTC bus alli kelasakke hogtene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I take the BMTC bus to work every day.",
+            "I walk to work every day.",
+            "I take the BMTC bus to work on Saturdays."
+          ],
+          "correctAnswer": "I take the BMTC bus to work every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kelasa hege ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna kelasa chennagide, aadare swalpa kasta.",
+            "Nanna kelasa Mysurinalli ide.",
+            "Naanu enthaa kelasa beku antha yochane maadtiddene."
+          ],
+          "correctAnswer": "Nanna kelasa chennagide, aadare swalpa kasta.",
+          "translatedSentence": "My job is good, but a little hard."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage Kannada gottha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Howdu, nanage swalpa Kannada gottu.",
+            "Naanu Kannada shalege hogtidde.",
+            "Nanna snehitanige Kannada gottu."
+          ],
+          "correctAnswer": "Howdu, nanage swalpa Kannada gottu.",
+          "translatedSentence": "Yes, I know a little Kannada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu Kannada kalitha iddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am learning Kannada.",
+            "I have already learnt Kannada.",
+            "I am teaching Kannada."
+          ],
+          "correctAnswer": "I am learning Kannada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaava yaava bhashe maatadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Kannada mattu English maatadtene.",
+            "Naanu dinaa English patrike odtene.",
+            "Nanage hosa bhashe kaliyodu ista."
+          ],
+          "correctAnswer": "Naanu Kannada mattu English maatadtene.",
+          "translatedSentence": "I speak Kannada and English."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage Hindi gottilla, aadare Kannada swalpa gottu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know Hindi, but I know a little Kannada.",
+            "I know Hindi, but I do not know Kannada.",
+            "I know neither Hindi nor Kannada."
+          ],
+          "correctAnswer": "I do not know Hindi, but I know a little Kannada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma Kannada tumba chennagide!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavada, naanu dinaa abhyasa maadtene.",
+            "Nanna snehitana Kannada chennagide.",
+            "Ee Kannada pustaka tumba chennagide."
+          ],
+          "correctAnswer": "Dhanyavada, naanu dinaa abhyasa maadtene.",
+          "translatedSentence": "Thank you, I practise every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Swalpa nidhaanavaagi maatadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you speak a little more slowly?",
+            "Could you speak a little louder?",
+            "Could you say that one more time?"
+          ],
+          "correctAnswer": "Could you speak a little more slowly?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage Kannada odokke barattha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, odokke barolla, aadare maatadokke barutte.",
+            "Howdu, naanu Kannada cinema nodtene.",
+            "Naanu dinaa Kannada haadu keltene."
+          ],
+          "correctAnswer": "Illa, odokke barolla, aadare maatadokke barutte.",
+          "translatedSentence": "No, I cannot read it, but I can speak it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage innu tumba kaliyabeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I still have a lot more to learn.",
+            "I do not want to learn any more.",
+            "I have already learnt a lot."
+          ],
+          "correctAnswer": "I still have a lot more to learn."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu Kannada elli kalitiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu nanna snehitarinda kalite.",
+            "Nanage Kannada tumba ista.",
+            "Kannada kaliyodu swalpa kasta."
+          ],
+          "correctAnswer": "Naanu nanna snehitarinda kalite.",
+          "translatedSentence": "I learnt it from my friends."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu Mysurinalli huttide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oh howdaa? Neevu yaavaga Bengalurige bandiri?",
+            "Naanu innu Mysurige hogilla.",
+            "Mysuru dose tumba chennagirutte."
+          ],
+          "correctAnswer": "Oh howdaa? Neevu yaavaga Bengalurige bandiri?",
+          "translatedSentence": "Oh really? When did you come to Bengaluru?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma kutumba elli iddaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where does your family live?",
+            "How big is your family?",
+            "When is your family coming?"
+          ],
+          "correctAnswer": "Where does your family live?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanna kutumba Mandyadalli ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Neevu aagaaga oorige hogtira?",
+            "Mandya illinda tumba doora ide.",
+            "Nanage Mandya sariyaagi gottilla."
+          ],
+          "correctAnswer": "Neevu aagaaga oorige hogtira?",
+          "translatedSentence": "Do you go back home often?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu Bengalurige bandu estu varsha aayitu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How long have you been in Bengaluru?",
+            "How long will you stay in Bengaluru?",
+            "How old were you when you came to Bengaluru?"
+          ],
+          "correctAnswer": "How long have you been in Bengaluru?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu illi aidu varshadinda iddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hage aadare nimage Bengaluru chennagi gottu!",
+            "Naanu illige hosabaru, nanage enu gottilla.",
+            "Nanna tammanige aidu varsha."
+          ],
+          "correctAnswer": "Hage aadare nimage Bengaluru chennagi gottu!",
+          "translatedSentence": "In that case you must know Bengaluru well!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimage biduvinalli enu maadokke ista?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What do you like to do in your free time?",
+            "What do you do for a living?",
+            "Where do you like to go on holidays?"
+          ],
+          "correctAnswer": "What do you like to do in your free time?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage Cubbon Park nalli nadedaadokke ista.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chennagide, naanu kooda alli oditene.",
+            "Nanage park ge hogodu ista illa.",
+            "Cubbon Park yaava kade ide?"
+          ],
+          "correctAnswer": "Chennagide, naanu kooda alli oditene.",
+          "translatedSentence": "Nice, I go running there too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu madhyahna oota elli maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you have lunch?",
+            "What do you eat for lunch?",
+            "When do you have lunch?"
+          ],
+          "correctAnswer": "Where do you have lunch?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage masala dose istanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Howdu, filter kaapi jothe masala dose tumba ista.",
+            "Illa, nanage adige maadokke barolla.",
+            "Illi masala dose sikkodilla."
+          ],
+          "correctAnswer": "Howdu, filter kaapi jothe masala dose tumba ista.",
+          "translatedSentence": "Yes, I love masala dosa with filter coffee."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivaru nanna snehita Kiran.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskara Kiran, nimmannu bhetiyaagi santosha.",
+            "Kiran eega elli iddaare?",
+            "Nanna snehitana hesaru kooda Kiran."
+          ],
+          "correctAnswer": "Namaskara Kiran, nimmannu bhetiyaagi santosha.",
+          "translatedSentence": "Hello Kiran, it is nice to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivaru nanna sahodyogi, avaru nanna jothe kelasa maadtaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my colleague; we work together.",
+            "This is my friend; we studied together.",
+            "This is my colleague; he used to work with me."
+          ],
+          "correctAnswer": "This is my colleague; we work together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivaru yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ivaru nanna tangi Meera.",
+            "Meera manege hodalu.",
+            "Nanage Meera gottilla."
+          ],
+          "correctAnswer": "Ivaru nanna tangi Meera.",
+          "translatedSentence": "This is my younger sister Meera."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna anna Bengalurinalli daktara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is a doctor in Bengaluru.",
+            "My younger brother is a doctor in Bengaluru.",
+            "My elder brother is studying medicine in Bengaluru."
+          ],
+          "correctAnswer": "My elder brother is a doctor in Bengaluru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma snehita enu kelasa maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru ondu shaleyalli paatha maadtaare.",
+            "Avarige Kannada sariyaagi barolla.",
+            "Avaru naale Mysurinda bartaare."
+          ],
+          "correctAnswer": "Avaru ondu shaleyalli paatha maadtaare.",
+          "translatedSentence": "He teaches at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivaru nanna gelathi Divya, naavu ondu shaleyalli odiddevu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend Divya; we studied at the same school.",
+            "This is my friend Divya; we work at the same school.",
+            "This is my sister Divya; we studied at the same school."
+          ],
+          "correctAnswer": "This is my friend Divya; we studied at the same school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu ibbaru hege parichaya aadiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naavu kelasadalli parichaya aadevu.",
+            "Naavu naale bhetiyaagtive.",
+            "Nanage avara hesaru gottilla."
+          ],
+          "correctAnswer": "Naavu kelasadalli parichaya aadevu.",
+          "translatedSentence": "We got to know each other at work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu nimma snehitarige nanna parichaya maadisi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please introduce me to your friend.",
+            "Please tell your friend about me.",
+            "Please bring your friend along."
+          ],
+          "correctAnswer": "Please introduce me to your friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivaru nanna amma, avarige English barolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, naanu Kannadadalli maatadtene.",
+            "Hage aadare avarige English kalisi.",
+            "Naanu yaavaaglu English nalli maatadtene."
+          ],
+          "correctAnswer": "Parvagilla, naanu Kannadadalli maatadtene.",
+          "translatedSentence": "No problem, I will speak in Kannada."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma phone number kodtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khandita, naanu eegale nimage message maadtene.",
+            "Nanna phone eega kelasa maadtilla.",
+            "Nanage nimma number sikkilla."
+          ],
+          "correctAnswer": "Khandita, naanu eegale nimage message maadtene.",
+          "translatedSentence": "Of course, I will message you right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna number bariskoli, naanu naale nimage phone maadtene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Save my number, and I will call you tomorrow.",
+            "Give me your number, and I will call you tomorrow.",
+            "Save my number, and call me tomorrow."
+          ],
+          "correctAnswer": "Save my number, and I will call you tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu eegale horadbeku, tumba tadavaayitu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, matte sigona. Hushaaragi hogi.",
+            "Nanage innu tadavaagilla, naanu illiye iddene.",
+            "Naanu naale belagge horadtene."
+          ],
+          "correctAnswer": "Parvagilla, matte sigona. Hushaaragi hogi.",
+          "translatedSentence": "No problem, let us meet again. Take care."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimmannu bhetiyaagi tumba santosha aayitu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was really nice to meet you.",
+            "It was nice talking to you on the phone.",
+            "I am glad you came to my house."
+          ],
+          "correctAnswer": "It was really nice to meet you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Munde yaavaga sigona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mundina vaara shanivaara sigona, nimage aagutthaa?",
+            "Naavu Cubbon Park nalli bhetiyaadevu.",
+            "Naanu nimmannu ninne bus nalli nodide."
+          ],
+          "correctAnswer": "Mundina vaara shanivaara sigona, nimage aagutthaa?",
+          "translatedSentence": "Let us meet next Saturday, does that work for you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage biduvu sikkidre, naanu khandita nimma manege bartene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I get some free time, I will definitely come to your place.",
+            "If you get some free time, please come to my place.",
+            "When I got some free time, I came to your place."
+          ],
+          "correctAnswer": "If I get some free time, I will definitely come to your place."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu ninne nimage message maadidde, nodidira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, naanu innu nodilla, eega uttara kodtene.",
+            "Howdu, nanna phone hosadu.",
+            "Naanu nimage innu message maadilla."
+          ],
+          "correctAnswer": "Kshamisi, naanu innu nodilla, eega uttara kodtene.",
+          "translatedSentence": "Sorry, I have not seen it yet; I will reply right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma jothe maatadiddu tumba khushi aayitu, aadare naanu eega hogbeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really enjoyed talking with you, but I have to go now.",
+            "I really enjoyed talking with you, so I will stay a while longer.",
+            "I would like to talk with you, but I am busy tomorrow."
+          ],
+          "correctAnswer": "I really enjoyed talking with you, but I have to go now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Matte sigona, hushaaragi iri!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Neevu kooda hushaaragi iri, dhanyavada!",
+            "Howdu, naanu naale oorige hogtene.",
+            "Nanage illinda manege daari gottilla."
+          ],
+          "correctAnswer": "Neevu kooda hushaaragi iri, dhanyavada!",
+          "translatedSentence": "You take care too, thank you!"
+        }
+      ]
+    }
+  ]
+}

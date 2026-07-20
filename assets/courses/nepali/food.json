@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai bhok lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, malai bhok lagyo.",
+            "Ho, malai chiya man parcha.",
+            "Ho, ma Pokhara jaanchu."
+          ],
+          "correctAnswer": "Ho, malai bhok lagyo.",
+          "translatedSentence": "Yes, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai pani chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need some water.",
+            "I need some tea.",
+            "I need some rice."
+          ],
+          "correctAnswer": "I need some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai ke chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai ek glass pani chahiyo.",
+            "Malai kehi chahidaina.",
+            "Malai tirkha lageko chaina."
+          ],
+          "correctAnswer": "Malai ek glass pani chahiyo.",
+          "translatedSentence": "I would like a glass of water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma bihana bhat khanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat rice in the morning.",
+            "I drink tea in the morning.",
+            "I cook rice in the morning."
+          ],
+          "correctAnswer": "I eat rice in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chiya khanuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, chiya khanchu.",
+            "Huncha, pani matra khanchu.",
+            "Malai chiya man pardaina."
+          ],
+          "correctAnswer": "Huncha, chiya khanchu.",
+          "translatedSentence": "Sure, I will have tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai dherai tirkha lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very thirsty.",
+            "I am very hungry.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timile khana khayau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, maile khaisakein.",
+            "Aile khaeko chaina.",
+            "Ma bhat pakauchu."
+          ],
+          "correctAnswer": "Ho, maile khaisakein.",
+          "translatedSentence": "Yes, I have already eaten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo chiya ekdam mitho cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tea is really tasty.",
+            "This rice is really tasty.",
+            "This tea has gone cold."
+          ],
+          "correctAnswer": "This tea is really tasty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru bhat halne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pugyo, dhanyabad.",
+            "Bhat kaha cha?",
+            "Ma bhat pakauna sakchu."
+          ],
+          "correctAnswer": "Pugyo, dhanyabad.",
+          "translatedSentence": "That is enough, thank you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ke chahiyo hajur?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dui cup chiya dinus.",
+            "Ma yaha basdina.",
+            "Chiya kaha paincha?"
+          ],
+          "correctAnswer": "Dui cup chiya dinus.",
+          "translatedSentence": "Two cups of tea, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo chiya kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this tea cost?",
+            "How much tea do you want?",
+            "Where can I get this tea?"
+          ],
+          "correctAnswer": "How much does this tea cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek plate momo kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek sae rupiya parcha.",
+            "Momo ekdam mitho cha.",
+            "Momo pakauna samaya lagcha."
+          ],
+          "correctAnswer": "Ek sae rupiya parcha.",
+          "translatedSentence": "It costs one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai dudh chiya chahiyo, kalo chiya hoina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want milk tea, not black tea.",
+            "I want black tea, not milk tea.",
+            "I do not want any tea at all."
+          ],
+          "correctAnswer": "I want milk tea, not black tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chini kati halne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali matra halnus.",
+            "Chini yaha paincha.",
+            "Chiya aile tato cha."
+          ],
+          "correctAnswer": "Ali ali matra halnus.",
+          "translatedSentence": "Just a little, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma paisa aile tirchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will pay right now.",
+            "I paid yesterday.",
+            "I will pay tomorrow."
+          ],
+          "correctAnswer": "I will pay right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Momo sanga achar chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achar chahidaina, dhanyabad.",
+            "Momo kati parcha?",
+            "Achar pasal ma paincha."
+          ],
+          "correctAnswer": "Achar chahidaina, dhanyabad.",
+          "translatedSentence": "No pickle for me, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo pasal ma chaumin paincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have chowmein at this shop?",
+            "Is this shop open right now?",
+            "Is the chowmein tasty at this shop?"
+          ],
+          "correctAnswer": "Do you have chowmein at this shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabai jamma kati bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jamma dui sae rupiya bhayo.",
+            "Ma dui cup chiya khanchu.",
+            "Sanga paisa chaina."
+          ],
+          "correctAnswer": "Jamma dui sae rupiya bhayo.",
+          "translatedSentence": "It comes to two hundred rupees in total."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet, salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tarkari piro cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali piro cha.",
+            "Ho, ekdam guliyo cha.",
+            "Tarkari aile chiso bhayo."
+          ],
+          "correctAnswer": "Ali ali piro cha.",
+          "translatedSentence": "It is a little spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai dherai piro khana suhaudaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Very spicy food does not agree with me.",
+            "I really love very spicy food.",
+            "I never eat rice with pickle."
+          ],
+          "correctAnswer": "Very spicy food does not agree with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dal ma nun pugyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nun ali kam cha.",
+            "Dal ekdam guliyo cha.",
+            "Nun pasal ma sakiyo."
+          ],
+          "correctAnswer": "Nun ali kam cha.",
+          "translatedSentence": "It could use a bit more salt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo chiya dherai guliyo bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tea turned out too sweet.",
+            "This tea is not sweet enough.",
+            "This tea has no sugar in it."
+          ],
+          "correctAnswer": "This tea turned out too sweet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekdam mitho cha, dhanyabad.",
+            "Khana pasal ma paincha.",
+            "Malai aile bhok lagyo."
+          ],
+          "correctAnswer": "Ekdam mitho cha, dhanyabad.",
+          "translatedSentence": "It is really tasty, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhat dherai tato cha, malai ekchin pakhanu parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rice is too hot, I have to wait a moment.",
+            "The rice has gone cold, I have to heat it again.",
+            "The rice is very tasty, I want a little more."
+          ],
+          "correctAnswer": "The rice is too hot, I have to wait a moment."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khursani halne ki nahalne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahalnus, malai piro man pardaina.",
+            "Halnus, malai dherai nun chahiyo.",
+            "Khursani bajar ma kati parcha?"
+          ],
+          "correctAnswer": "Nahalnus, malai piro man pardaina.",
+          "translatedSentence": "Please do not add it, I do not like spicy food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Achar amilo ra piro dubai cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The pickle is both sour and spicy.",
+            "The pickle is both sweet and salty.",
+            "The pickle is neither sour nor spicy."
+          ],
+          "correctAnswer": "The pickle is both sour and spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai guliyo khana man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Man parcha, tara ali ali matra.",
+            "Man pardaina, malai nunilo man parcha.",
+            "Guliyo khana yaha paincha."
+          ],
+          "correctAnswer": "Man parcha, tara ali ali matra.",
+          "translatedSentence": "I do like it, but only a little."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In a restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati jana hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hami dui jana chau.",
+            "Hami aile khana khanchau.",
+            "Table kaha cha?"
+          ],
+          "correctAnswer": "Hami dui jana chau.",
+          "translatedSentence": "There are two of us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai menu dinus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you give me the menu, please?",
+            "Could you bring the bill, please?",
+            "Could you bring some water, please?"
+          ],
+          "correctAnswer": "Could you give me the menu, please?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ke order garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai ek plate dal bhat dinus.",
+            "Yo restaurant Thamel ma cha.",
+            "Order gareko khana mitho thiyo."
+          ],
+          "correctAnswer": "Malai ek plate dal bhat dinus.",
+          "translatedSentence": "One plate of dal bhat for me, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khana aauna kati samaya lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How long will the food take?",
+            "How much does the food cost?",
+            "When does this place close?"
+          ],
+          "correctAnswer": "How long will the food take?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Piune ke lyaune hajur?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek bottle chiso pani lyaunus.",
+            "Khana pugyo, dhanyabad.",
+            "Menu ma kehi chaina."
+          ],
+          "correctAnswer": "Ek bottle chiso pani lyaunus.",
+          "translatedSentence": "Please bring a bottle of cold water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamile order gareko khana aile samma aayeko chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The food we ordered has not arrived yet.",
+            "The food we ordered was very tasty.",
+            "We have not ordered our food yet."
+          ],
+          "correctAnswer": "The food we ordered has not arrived yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru kehi chahiyo hajur?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chahidaina, bil lyaunus.",
+            "Khana ekdam piro thiyo.",
+            "Hami yaha ek ghanta baseu."
+          ],
+          "correctAnswer": "Chahidaina, bil lyaunus.",
+          "translatedSentence": "Nothing else, please bring the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma card le paisa tirna sakchu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can I pay by card?",
+            "Can I pay tomorrow?",
+            "Can I see the menu again?"
+          ],
+          "correctAnswer": "Can I pay by card?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paisa kasari tirnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma nagad ma tirchu.",
+            "Ma bholi yaha aauchu.",
+            "Bil ali mahango bhayo."
+          ],
+          "correctAnswer": "Ma nagad ma tirchu.",
+          "translatedSentence": "I will pay in cash."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aja ko khana kasle pakaucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aja ma pakauchu.",
+            "Aja ko bhat mitho cha.",
+            "Aja hami bahira khanchau."
+          ],
+          "correctAnswer": "Aja ma pakauchu.",
+          "translatedSentence": "I am cooking today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai pyaj kaatna sahayog garnus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please help me cut the onions.",
+            "Please help me wash the pots.",
+            "Please buy some onions for me."
+          ],
+          "correctAnswer": "Please help me cut the onions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma ke garna sakchu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tapai golbheda dhunus.",
+            "Tapai bahira pakhanus.",
+            "Bhat pakisakyo."
+          ],
+          "correctAnswer": "Tapai golbheda dhunus.",
+          "translatedSentence": "You could wash the tomatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhat pakna aru das minute lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rice needs another ten minutes.",
+            "The rice was ready ten minutes ago.",
+            "The rice will be ready in an hour."
+          ],
+          "correctAnswer": "The rice needs another ten minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timile dal ma nun halyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halein, ali ali matra.",
+            "Dal aile pakdai cha.",
+            "Nun sakiyo, kinna parcha."
+          ],
+          "correctAnswer": "Halein, ali ali matra.",
+          "translatedSentence": "Yes, I added just a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chulo ma pani umliraheko cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The water is boiling on the stove.",
+            "The water on the stove has gone cold.",
+            "The stove is not working today."
+          ],
+          "correctAnswer": "The water is boiling on the stove."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Momo banauna gahro huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gahro chaina, tara samaya lagcha.",
+            "Ho, momo ekdam piro huncha.",
+            "Momo Thamel ma sasto paincha."
+          ],
+          "correctAnswer": "Gahro chaina, tara samaya lagcha.",
+          "translatedSentence": "It is not hard, but it does take time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khana khaisakepachi ma bhando dhunchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will wash the pots after we eat.",
+            "I washed the pots before we ate.",
+            "I do not want to wash the pots."
+          ],
+          "correctAnswer": "I will wash the pots after we eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aja ko dal bhat kasto bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hijo bhanda aja ramro bhayo.",
+            "Aja ko tarkari chiso thiyo.",
+            "Ma aja khana pakaudina."
+          ],
+          "correctAnswer": "Hijo bhanda aja ramro bhayo.",
+          "translatedSentence": "It turned out better than yesterday."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai masu khanuhuncha ki khanuhunna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma masu khanna, kina bhane ma sakahari hu.",
+            "Ma masu matra khanchu, tarkari khanna.",
+            "Ma masu kinna bajar jaanchu."
+          ],
+          "correctAnswer": "Ma masu khanna, kina bhane ma sakahari hu.",
+          "translatedSentence": "I do not eat meat, because I am vegetarian."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai dudh suhaudaina, tesaile ma kalo chiya matra khanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk does not agree with me, so I only drink black tea.",
+            "I like milk, so I always drink milk tea.",
+            "I do not drink tea at all, because it has milk in it."
+          ],
+          "correctAnswer": "Milk does not agree with me, so I only drink black tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yasma masu cha bhane malai pahile bhannus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, tara yasma masu chaina.",
+            "Huncha, ma aile bil lyaunchu.",
+            "Huncha, yo khana ekdam tato cha."
+          ],
+          "correctAnswer": "Huncha, tara yasma masu chaina.",
+          "translatedSentence": "All right, but there is no meat in this one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma roti khanna kina bhane malai gahu suhaudaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat roti because wheat does not agree with me.",
+            "I eat roti every day because I do not like rice.",
+            "I do not eat rice because wheat is cheaper here."
+          ],
+          "correctAnswer": "I do not eat roti because wheat does not agree with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kun nepali khana sabai bhanda man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai dal bhat sabai bhanda man parcha.",
+            "Malai nepali khana thaha chaina.",
+            "Ma nepali khana pakauna sikdai chu."
+          ],
+          "correctAnswer": "Malai dal bhat sabai bhanda man parcha.",
+          "translatedSentence": "Dal bhat is my favourite of all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma piro khana khanchu tara dherai piro bhaye pet dukhcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do eat spicy food, but if it is too spicy my stomach hurts.",
+            "I do not eat spicy food, because my stomach always hurts.",
+            "I eat spicy food every day and I never get a stomach ache."
+          ],
+          "correctAnswer": "I do eat spicy food, but if it is too spicy my stomach hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai machha man parcha ki kukhura ko masu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai machha bhanda kukhura ko masu man parcha.",
+            "Malai machha pakauna gahro lagcha.",
+            "Malai kukhura ko masu kati parcha thaha chaina."
+          ],
+          "correctAnswer": "Malai machha bhanda kukhura ko masu man parcha.",
+          "translatedSentence": "I like chicken more than fish."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi tapai sakahari hunuhuncha bhane yo pasal ma ramro khana paincha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are vegetarian, this place has good food for you.",
+            "If you eat meat, you should try this place once.",
+            "This place does not have any vegetarian food at all."
+          ],
+          "correctAnswer": "If you are vegetarian, this place has good food for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hijo ko bhoj ma khana kasto thiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ramro thiyo, tara malai ali dherai tel bhayo.",
+            "Ma bhoj ma gaeko thiina, ma birami thiye.",
+            "Bhoj bholi Kathmandu ma huncha."
+          ],
+          "correctAnswer": "Ramro thiyo, tara malai ali dherai tel bhayo.",
+          "translatedSentence": "It was good, but a bit too oily for me."
+        }
+      ]
+    }
+  ]
+}

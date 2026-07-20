@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi photo re kie achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se mo bou.",
+            "Se ghare nahanti.",
+            "Mo ghara Puri re."
+          ],
+          "correctAnswer": "Se mo bou.",
+          "translatedSentence": "She is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bapanka naam Suresh.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's name is Suresh.",
+            "My brother's name is Suresh.",
+            "My father's friend is Suresh."
+          ],
+          "correctAnswer": "My father's name is Suresh."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara kete jana bhai achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora dui jana bhai achanti.",
+            "Mo bhai Cuttack re rahe.",
+            "Mo bhauni bahut bhala."
+          ],
+          "correctAnswer": "Mora dui jana bhai achanti.",
+          "translatedSentence": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhauni Puri re padhuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is studying in Puri.",
+            "My sister is working in Puri.",
+            "My brother is studying in Puri."
+          ],
+          "correctAnswer": "My sister is studying in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka ghare kie kie achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ghare bou, bapa aau mo bhai achanti.",
+            "Mo bhai aji asiba nahin.",
+            "Se Bhubaneswar re kaam karanti."
+          ],
+          "correctAnswer": "Ghare bou, bapa aau mo bhai achanti.",
+          "translatedSentence": "At home there are my mother, my father and my brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bou pakhala randhanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother cooks pakhala.",
+            "My mother eats pakhala.",
+            "My sister cooks pakhala."
+          ],
+          "correctAnswer": "My mother cooks pakhala."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma sana bhai kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se ghare kheluchi.",
+            "Ta naam Raju.",
+            "Se paancha barsara."
+          ],
+          "correctAnswer": "Se ghare kheluchi.",
+          "translatedSentence": "He is playing at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bada bhauni Cuttack re rahanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister lives in Cuttack.",
+            "My elder brother lives in Cuttack.",
+            "My elder sister works in Cuttack."
+          ],
+          "correctAnswer": "My elder sister lives in Cuttack."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bapa kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se bhala achanti.",
+            "Mu bhala achi.",
+            "Se ghare nahin."
+          ],
+          "correctAnswer": "Se bhala achanti.",
+          "translatedSentence": "He is doing well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi ghara kaahara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ehi ghara mo bapanka.",
+            "Ehi ghara bahut bada.",
+            "Mu Cuttack re rahe."
+          ],
+          "correctAnswer": "Ehi ghara mo bapanka.",
+          "translatedSentence": "This house is my father's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi photo mo bhaunira.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This photo belongs to my sister.",
+            "This photo belongs to my brother.",
+            "My sister is in this photo."
+          ],
+          "correctAnswer": "This photo belongs to my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi mobile kaahara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se mo bhaira.",
+            "Mo pakhare mobile nahin.",
+            "Mo bhai mobile re katha heuchi."
+          ],
+          "correctAnswer": "Se mo bhaira.",
+          "translatedSentence": "It is my brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bapanka cycle ghara bahare achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's bicycle is outside the house.",
+            "My father's bicycle is inside the house.",
+            "My brother's bicycle is outside the house."
+          ],
+          "correctAnswer": "My father's bicycle is outside the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi bahi kaahara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ehi bahi mora.",
+            "Mu bahi padhuchi.",
+            "Bahi tebul upare achi."
+          ],
+          "correctAnswer": "Ehi bahi mora.",
+          "translatedSentence": "This book is mine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi chhata mora nuhe, mo bhaunira.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This umbrella is not mine, it is my sister's.",
+            "This umbrella is not mine, it is my brother's.",
+            "This umbrella is mine, not my sister's."
+          ],
+          "correctAnswer": "This umbrella is not mine, it is my sister's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Se kaahara pua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se mo bhaunira pua.",
+            "Ta naam Bapi.",
+            "Se bahut sana."
+          ],
+          "correctAnswer": "Se mo bhaunira pua.",
+          "translatedSentence": "He is my sister's son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apananka ghara kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your house?",
+            "Where is your brother?",
+            "Whose house is this?"
+          ],
+          "correctAnswer": "Where is your house?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi chaabi kaahara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ehi chaabi mo bounka.",
+            "Ghara duara khola achi.",
+            "Mu ebe ghara jauchi."
+          ],
+          "correctAnswer": "Ehi chaabi mo bounka.",
+          "translatedSentence": "This key is my mother's."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married and children",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka biha heichi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, gata barsa mo biha heichi.",
+            "Haan, mo bhauninka biha heichi.",
+            "Nahin, mo pila nahanti."
+          ],
+          "correctAnswer": "Haan, gata barsa mo biha heichi.",
+          "translatedSentence": "Yes, I got married last year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhaira biha ehi barsa heba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is getting married this year.",
+            "My brother got married last year.",
+            "My sister is getting married this year."
+          ],
+          "correctAnswer": "My brother is getting married this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka kete pila achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora gotie jhia aau gotie pua.",
+            "Mo pila Bhubaneswar re padhuchanti.",
+            "Mo pila sabu bada heigale."
+          ],
+          "correctAnswer": "Mora gotie jhia aau gotie pua.",
+          "translatedSentence": "I have one daughter and one son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo jhiara bayasa saata barsa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is seven years old.",
+            "My son is seven years old.",
+            "My daughter is seven months old."
+          ],
+          "correctAnswer": "My daughter is seven years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pua kete barsara heichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se ebe dasa barsara heichi.",
+            "Se Cuttack re rahuchi.",
+            "Se skule bhala padhuchi."
+          ],
+          "correctAnswer": "Se ebe dasa barsara heichi.",
+          "translatedSentence": "He is ten years old now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhauninka biha ebe suddha hoi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is not married yet.",
+            "My sister got married recently.",
+            "My brother is not married yet."
+          ],
+          "correctAnswer": "My sister is not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma ghare kete jana achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ame paanch jana achu.",
+            "Ame Puri re rahu.",
+            "Ghare kehi nahanti."
+          ],
+          "correctAnswer": "Ame paanch jana achu.",
+          "translatedSentence": "There are five of us at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame tini bhai bhauni, mu sabuthu sana.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are three siblings and I am the youngest.",
+            "We are three siblings and I am the eldest.",
+            "We have three children and I am the youngest."
+          ],
+          "correctAnswer": "We are three siblings and I am the youngest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pila kouthi padhuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Duhen Bhubaneswar re padhuchanti.",
+            "Mo jhia bahut bhala padhe.",
+            "Pila ebe ghare achanti."
+          ],
+          "correctAnswer": "Duhen Bhubaneswar re padhuchanti.",
+          "translatedSentence": "Both of them study in Bhubaneswar."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents and cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka aai kete barsara heichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se asi barsara heichanti.",
+            "Se ebe suddha Puri re rahanti.",
+            "Se mo bapanka bou."
+          ],
+          "correctAnswer": "Se asi barsara heichanti.",
+          "translatedSentence": "She is eighty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo jeje bapa Puri re Jagannath mandira pakhare rahanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather lives near the Jagannath temple in Puri.",
+            "My grandfather goes to the Jagannath temple in Puri every day.",
+            "My uncle lives near the Jagannath temple in Puri."
+          ],
+          "correctAnswer": "My grandfather lives near the Jagannath temple in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi pila kie?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se mo kakanka pua.",
+            "Se amara padosi.",
+            "Se ebe skulku jauchi."
+          ],
+          "correctAnswer": "Se mo kakanka pua.",
+          "translatedSentence": "He is my cousin, my uncle's son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo mausi kali Cuttack ru asichanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt came from Cuttack yesterday.",
+            "My aunt went to Cuttack yesterday.",
+            "My uncle came from Cuttack yesterday."
+          ],
+          "correctAnswer": "My aunt came from Cuttack yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kaha pakhare bada heichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu mo aai pakhare bada heichi.",
+            "Mu Bhubaneswar re bada heichi.",
+            "Mo aai ebe amara ghare rahanti."
+          ],
+          "correctAnswer": "Mu mo aai pakhare bada heichi.",
+          "translatedSentence": "I grew up with my grandmother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo kaki bahut bhala chhena poda karanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt makes very good chhena poda.",
+            "My aunt likes chhena poda very much.",
+            "My mother makes very good chhena poda."
+          ],
+          "correctAnswer": "My aunt makes very good chhena poda."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma kaka kouthi rahanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se amara pakha ghare rahanti.",
+            "Se mo bapanka sana bhai.",
+            "Se aji ghare nahanti."
+          ],
+          "correctAnswer": "Se amara pakha ghare rahanti.",
+          "translatedSentence": "He lives in the house next to ours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puja bele mo mamu aau mausi amara ghare asanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During Puja my uncle and aunt come to our house.",
+            "During Puja we go to my uncle and aunt's house.",
+            "During Puja my uncle and aunt come to our village."
+          ],
+          "correctAnswer": "During Puja my uncle and aunt come to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka jeje maa ebe kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se ebe tike bhala achanti.",
+            "Se ame sahita rahanti.",
+            "Se kali doctor pakhaku jaithile."
+          ],
+          "correctAnswer": "Se ebe tike bhala achanti.",
+          "translatedSentence": "She is a little better now."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What they do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bapa kana kaam karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se gotie skule sikhyaka.",
+            "Se sakalu office jaanti.",
+            "Se ebe ghare achanti."
+          ],
+          "correctAnswer": "Se gotie skule sikhyaka.",
+          "translatedSentence": "He is a teacher at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bou ghara kaam sabu ekaa karanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother does all the housework by herself.",
+            "My mother does all the housework with my sister.",
+            "My mother does not do the housework by herself."
+          ],
+          "correctAnswer": "My mother does all the housework by herself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma bhai kana kare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se Bhubaneswar re computer kaam kare.",
+            "Se aji kaamku jai nahin.",
+            "Se mo thu dui barsa sana."
+          ],
+          "correctAnswer": "Se Bhubaneswar re computer kaam kare.",
+          "translatedSentence": "He does computer work in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bada bhai gotie dukana chalanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother runs a shop.",
+            "My elder brother works at a shop.",
+            "My elder sister runs a shop."
+          ],
+          "correctAnswer": "My elder brother runs a shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bhauni kana karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se doctor, Cuttack re kaam karanti.",
+            "Se aji Cuttack jaichanti.",
+            "Se doctor pakhaku jaichanti."
+          ],
+          "correctAnswer": "Se doctor, Cuttack re kaam karanti.",
+          "translatedSentence": "She is a doctor and works in Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo kaka gaan re chasa karanti, hele ta pua sahara re rahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle farms in the village, but his son lives in the city.",
+            "My uncle farms in the village and his son lives there too.",
+            "My uncle lives in the village, but his son farms in the city."
+          ],
+          "correctAnswer": "My uncle farms in the village, but his son lives in the city."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kaam karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bank re kaam kare.",
+            "Mu Bhubaneswar re rahe.",
+            "Mu sakale aathata re office jae."
+          ],
+          "correctAnswer": "Mu bank re kaam kare.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo jhia bada heile doctor heba boli kahuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter says she will become a doctor when she grows up.",
+            "My daughter says she will become a teacher when she grows up.",
+            "My daughter became a doctor after she grew up."
+          ],
+          "correctAnswer": "My daughter says she will become a doctor when she grows up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bou ebe bi kaam karanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, se ebe ghare rahanti.",
+            "Haan, mo bapa ebe bi kaam karanti.",
+            "Nahin, mu ebe kaam kare nahin."
+          ],
+          "correctAnswer": "Nahin, se ebe ghare rahanti.",
+          "translatedSentence": "No, she stays at home now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kebe ghara jibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu agami mase Puri jibi, karana bhauninka biha achi.",
+            "Mu gata mase ghara jaithili.",
+            "Mo ghara Puri re, kintu mu Bhubaneswar re rahe."
+          ],
+          "correctAnswer": "Mu agami mase Puri jibi, karana bhauninka biha achi.",
+          "translatedSentence": "I am going to Puri next month, because my sister is getting married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bou phone kari puchhile mu kebe ghara asuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother called and asked when I am coming home.",
+            "Mother called and said that she is coming home.",
+            "I called mother and asked when she is coming home."
+          ],
+          "correctAnswer": "Mother called and asked when I am coming home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghare sabu kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabu bhala achanti, khali aai tike asustha.",
+            "Ghare kehi nahanti, sabu bahaku jaichanti.",
+            "Mu aji sandhya re ghara ku phone karibi."
+          ],
+          "correctAnswer": "Sabu bhala achanti, khali aai tike asustha.",
+          "translatedSentence": "Everyone is fine, only my grandmother is a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi tume asiba, mu tumaku station ru neba pain asibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come, I will come to the station to pick you up.",
+            "When you come, call me from the station.",
+            "If I come, you can pick me up at the station."
+          ],
+          "correctAnswer": "If you come, I will come to the station to pick you up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ebe kebe Bhubaneswar asibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Puja pare asibi, karana ebe office re kaam bahuta.",
+            "Mu gata Puja bele asithili.",
+            "Bhubaneswar ru Puri jibaku dui ghanta lage."
+          ],
+          "correctAnswer": "Puja pare asibi, karana ebe office re kaam bahuta.",
+          "translatedSentence": "I will come after Puja, because there is too much work at the office now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bapa kahanti je mu bahuta dina heigala ghara jai nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father says that I have not been home for a long time.",
+            "My father says that he has not been home for a long time.",
+            "My father said that I should come home soon."
+          ],
+          "correctAnswer": "My father says that I have not been home for a long time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kali amara ghare bhojanaku asiba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan asibi, kintu tike deri heba.",
+            "Haan, mu kali asithili.",
+            "Nahin, mo ghare ebe kehi nahanti."
+          ],
+          "correctAnswer": "Haan asibi, kintu tike deri heba.",
+          "translatedSentence": "Yes, I will come, but I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bou pakhala aau dalma karichanti, tume sighra asa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother has made pakhala and dalma, so come quickly.",
+            "Mother is making pakhala and dalma, so come tomorrow.",
+            "Mother has made pakhala and dalma for tomorrow."
+          ],
+          "correctAnswer": "Mother has made pakhala and dalma, so come quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghara katha mane pade ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, bises kari Puja bele mane pade.",
+            "Haan, mo ghara Cuttack re achi.",
+            "Nahin, mu ebe ghara jibi nahin."
+          ],
+          "correctAnswer": "Haan, bises kari Puja bele mane pade.",
+          "translatedSentence": "Yes, especially during Puja."
+        }
+      ]
+    }
+  ]
+}

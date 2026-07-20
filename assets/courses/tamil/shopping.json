@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu evvalavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idhu aimbadhu ruba.",
+            "Idhu en veedu.",
+            "Idhu enakku theriyum."
+          ],
+          "correctAnswer": "Idhu aimbadhu ruba.",
+          "translatedSentence": "This is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha pazham evvalavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this fruit?",
+            "Where is this fruit?",
+            "Is this fruit sweet?"
+          ],
+          "correctAnswer": "How much is this fruit?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku enna venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku oru pai venum.",
+            "Enakku pasikkudhu.",
+            "Naan veetla irukkiren."
+          ],
+          "correctAnswer": "Enakku oru pai venum.",
+          "translatedSentence": "I want a bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan oru sattai vaanguren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am buying a shirt.",
+            "I am selling a shirt.",
+            "I am washing a shirt."
+          ],
+          "correctAnswer": "I am buying a shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sattai evvalavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Munnooru ruba.",
+            "Adhu romba nalla irukku.",
+            "Enakku neela niram pidikkum."
+          ],
+          "correctAnswer": "Munnooru ruba.",
+          "translatedSentence": "Three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu romba nalla irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is very good.",
+            "This one is very expensive.",
+            "This one is not good."
+          ],
+          "correctAnswer": "This one is very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha kadaila pazham irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, irukku.",
+            "Illa, naan poren.",
+            "Aamaam, enakku theriyum."
+          ],
+          "correctAnswer": "Aamaam, irukku.",
+          "translatedSentence": "Yes, we have some."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku idhu venum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want this one.",
+            "I have this one.",
+            "I do not want this one."
+          ],
+          "correctAnswer": "I want this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vera enna venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vera onnum vendaam.",
+            "Vera kadai romba nalladhu.",
+            "Naan Chennaila irukkiren."
+          ],
+          "correctAnswer": "Vera onnum vendaam.",
+          "translatedSentence": "I do not want anything else."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaanga sir, ungalukku enna venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku konjam sambar podi venum.",
+            "Enakku indha kadai romba pidikkum.",
+            "Naan innaikku kadaikku varalai."
+          ],
+          "correctAnswer": "Enakku konjam sambar podi venum.",
+          "translatedSentence": "I need some sambar powder."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu unga kitta irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have this one?",
+            "Did you see this one?",
+            "Do you like this one?"
+          ],
+          "correctAnswer": "Do you have this one?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mannichukonga, ippo adhu kadaila illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naan naalaikku varuven.",
+            "Sari, rendu kudunga.",
+            "Sari, naan idhaye eduthukkiren."
+          ],
+          "correctAnswer": "Sari, naan naalaikku varuven.",
+          "translatedSentence": "Alright, I will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adhai konjam kaattunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me that one.",
+            "Please keep that one for me.",
+            "Please give me that one."
+          ],
+          "correctAnswer": "Please show me that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu ungalukku pidichirukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, romba pidichirukku.",
+            "Aamaam, naan adhai vaangalai.",
+            "Illa, adhu kadaila irukku."
+          ],
+          "correctAnswer": "Aamaam, romba pidichirukku.",
+          "translatedSentence": "Yes, I like it very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vera niram irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have another colour?",
+            "Is this colour good?",
+            "Do you like this colour?"
+          ],
+          "correctAnswer": "Do you have another colour?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku enna niram venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku neela niram venum.",
+            "Enakku niram nalla theriyum.",
+            "Naan niram vaangalai."
+          ],
+          "correctAnswer": "Enakku neela niram venum.",
+          "translatedSentence": "I would like it in blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan indha kadaikku mudhal thadava varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my first time at this shop.",
+            "I come to this shop very often.",
+            "I will not come to this shop again."
+          ],
+          "correctAnswer": "This is my first time at this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum edhaavadhu venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, oru pai kooda kudunga.",
+            "Aamaam, naan kadai mooditen.",
+            "Illa, adhu romba nalla irundhadhu."
+          ],
+          "correctAnswer": "Aamaam, oru pai kooda kudunga.",
+          "translatedSentence": "Yes, please give me a bag as well."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Too expensive, reduce it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sattai ezhunooru ruba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aiyo, adhu romba adhigam.",
+            "Aiyo, adhu romba kammi.",
+            "Sari, naan naalaikku poren."
+          ],
+          "correctAnswer": "Aiyo, adhu romba adhigam.",
+          "translatedSentence": "Oh no, that is far too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konjam kammi pannunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring the price down a little.",
+            "Please give it to me now.",
+            "Please wait for me a little."
+          ],
+          "correctAnswer": "Please bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vilai konjam kammi pannunga sir.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, ainooru ruba kudunga.",
+            "Sari, ezhunooru ruba kammi.",
+            "Sari, enakku vilai theriyalai."
+          ],
+          "correctAnswer": "Sari, ainooru ruba kudunga.",
+          "translatedSentence": "Fine, give me five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha vilai enakku romba adhigam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This price is too high for me.",
+            "This price is very low for me.",
+            "This price is just right for me."
+          ],
+          "correctAnswer": "This price is too high for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan naanooru ruba mattum tharen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mudiyaadhu sir, adhu romba kammi.",
+            "Mudiyum sir, adhu romba adhigam.",
+            "Mudiyaadhu sir, enakku pai venum."
+          ],
+          "correctAnswer": "Mudiyaadhu sir, adhu romba kammi.",
+          "translatedSentence": "I cannot do that sir, it is far too little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adhigam solladhinga, naan thinamum inga varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not quote so much, I come here every day.",
+            "Do not come here every day, it costs too much.",
+            "Tell me the price, I will come here every day."
+          ],
+          "correctAnswer": "Do not quote so much, I come here every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum konjam kammi pannalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, aimbadhu ruba kammi panren.",
+            "Sari, aimbadhu ruba jaasthi panren.",
+            "Illa, naan pai kondu varen."
+          ],
+          "correctAnswer": "Sari, aimbadhu ruba kammi panren.",
+          "translatedSentence": "Alright, I will take fifty rupees off."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vera kadaila idhu kammi vilaikku kidaikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I can get this cheaper at another shop.",
+            "This shop sells this at a very good price.",
+            "The other shop does not have this at all."
+          ],
+          "correctAnswer": "I can get this cheaper at another shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu than kadaisi vilai sir.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, appo naan idhu vaangikkiren.",
+            "Sari, appo neenga innum kammi pannunga.",
+            "Sari, appo vilai jaasthi pannunga."
+          ],
+          "correctAnswer": "Sari, appo naan idhu vaangikkiren.",
+          "translatedSentence": "Alright, in that case I will take it."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Evvalavu arisi venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku rendu kilo venum.",
+            "Enakku rendu ruba venum.",
+            "Enakku arisi nalla theriyum."
+          ],
+          "correctAnswer": "Enakku rendu kilo venum.",
+          "translatedSentence": "I need two kilos."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku arai kilo thakkali venum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need half a kilo of tomatoes.",
+            "I need two kilos of tomatoes.",
+            "I need half a kilo of onions."
+          ],
+          "correctAnswer": "I need half a kilo of tomatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sattai unga alavukku irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enakku periya alavu venum.",
+            "Illa, enakku sattai romba pidikkum.",
+            "Aamaam, adhoda vilai romba adhigam."
+          ],
+          "correctAnswer": "Illa, enakku periya alavu venum.",
+          "translatedSentence": "No, I need a bigger size."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu enakku romba chinnadhaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is too small for me.",
+            "This one is too big for me.",
+            "This one fits me perfectly."
+          ],
+          "correctAnswer": "This one is too small for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eththanai dosai venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moonu dosai pothum.",
+            "Moonu ruba pothum.",
+            "Dosai romba sooda irukku."
+          ],
+          "correctAnswer": "Moonu dosai pothum.",
+          "translatedSentence": "Three dosais will do."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaal kilo mattum kudunga, adhu pothum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me just a quarter kilo, that is enough.",
+            "Give me one full kilo, that is enough.",
+            "Give me a quarter kilo more, this is not enough."
+          ],
+          "correctAnswer": "Give me just a quarter kilo, that is enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum konjam podattuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vendaam, adhu pothum.",
+            "Aamaam, adhu romba adhigam.",
+            "Vendaam, enakku vilai theriyum."
+          ],
+          "correctAnswer": "Vendaam, adhu pothum.",
+          "translatedSentence": "No need, that is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Periya paket illa, chinna paket mattum irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no big packet, only a small one.",
+            "There is a big packet, but no small one.",
+            "Both the big and the small packets are here."
+          ],
+          "correctAnswer": "There is no big packet, only a small one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku eththanai pazham venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaru pazham kudunga.",
+            "Aaru ruba kudunga.",
+            "Pazham romba nalla irundhadhu."
+          ],
+          "correctAnswer": "Aaru pazham kudunga.",
+          "translatedSentence": "Give me six bananas."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moththam evvalavu aachu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moththam ennooru ruba.",
+            "Moththam rendu pai.",
+            "Moththam kadaisi vilai."
+          ],
+          "correctAnswer": "Moththam ennooru ruba.",
+          "translatedSentence": "The total comes to eight hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En kitta chillarai illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any change.",
+            "I do not have any money at all.",
+            "I do not need any change."
+          ],
+          "correctAnswer": "I do not have any change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan card-la panam kattalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa sir, cash mattum than.",
+            "Illa sir, chillarai mattum than.",
+            "Aamaam sir, adhu romba adhigam."
+          ],
+          "correctAnswer": "Illa sir, cash mattum than.",
+          "translatedSentence": "Sorry sir, we take cash only."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha aayiram rubaikku baaki kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the change for this thousand rupees.",
+            "Please give me a thousand rupees more.",
+            "Please take this thousand rupees back."
+          ],
+          "correctAnswer": "Please give me the change for this thousand rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku pai venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, oru pai kudunga.",
+            "Aamaam, naan pai kondu vandhen.",
+            "Illa, enakku rendu pai venum."
+          ],
+          "correctAnswer": "Aamaam, oru pai kudunga.",
+          "translatedSentence": "Yes, please give me one bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan veetla irundhu pai kondu vandhen, pai vendaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I brought a bag from home, so I do not need one.",
+            "I forgot my bag at home, so I need one.",
+            "I left the bag at the shop, please keep it."
+          ],
+          "correctAnswer": "I brought a bag from home, so I do not need one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Baaki irubadhu ruba, vaangikkonga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandri, naan vaangikkiren.",
+            "Nandri, naan innum panam tharen.",
+            "Illa, vilai romba adhigam."
+          ],
+          "correctAnswer": "Nandri, naan vaangikkiren.",
+          "translatedSentence": "Thank you, I will take it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill kudunga, naan adhai paakkanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me the bill, I want to check it.",
+            "Give me the bill, I will pay tomorrow.",
+            "Keep the bill, I do not need it."
+          ],
+          "correctAnswer": "Give me the bill, I want to check it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga kitta pathu ruba chillarai irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Irukku, indha vaanga.",
+            "Irukku, naan card-la katturen.",
+            "Illa, enakku oru pai venum."
+          ],
+          "correctAnswer": "Irukku, indha vaanga.",
+          "translatedSentence": "Yes I do, here you go."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan nethu vaangina sattai kizhinjiruchu, adhanaala maathi kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bill irundha naan kandippa maathi tharen.",
+            "Bill irundha neenga vera kadaikku poganum.",
+            "Bill illaati naan innum konjam kammi panren."
+          ],
+          "correctAnswer": "Bill irundha naan kandippa maathi tharen.",
+          "translatedSentence": "If you have the bill, I will certainly exchange it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan nethikku vaangina pazham kettu poyiruchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fruit I bought yesterday has gone bad.",
+            "The fruit I bought yesterday was very good.",
+            "I will buy the fruit tomorrow because it is fresh."
+          ],
+          "correctAnswer": "The fruit I bought yesterday has gone bad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enna sir, unga kadaila vilai romba adhigama irukke?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhigam illa sir, engaloda porul tharam romba nalladhu.",
+            "Adhigam thaan sir, adhanaala neenga inga vaanga.",
+            "Illa sir, naan indha porul vikkiradhu illa."
+          ],
+          "correctAnswer": "Adhigam illa sir, engaloda porul tharam romba nalladhu.",
+          "translatedSentence": "Not at all sir, our goods are of very good quality."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha kadaila vilai adhigam, aana adutha theruvula ulla kadaila kammi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prices are high in this shop, but lower in the one on the next street.",
+            "Prices are low in this shop, but higher in the one on the next street.",
+            "This shop and the one on the next street charge exactly the same."
+          ],
+          "correctAnswer": "Prices are high in this shop, but lower in the one on the next street."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan idhai thiruppi kudukka mudiyuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru vaaraththukkulla kondu vandha mudiyum.",
+            "Oru vaaraththukkulla naan panam tharen.",
+            "Mudiyaadhu, neenga innum onnu vaangunga."
+          ],
+          "correctAnswer": "Oru vaaraththukkulla kondu vandha mudiyum.",
+          "translatedSentence": "Yes, as long as you bring it back within a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan indha kadikaaram thirumba tharen, yennanna adhu velai seyyala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am returning this watch because it does not work.",
+            "I am buying this watch because it works well.",
+            "I will return this watch if it stops working."
+          ],
+          "correctAnswer": "I am returning this watch because it does not work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku panam thirumba venuma illa vera porul venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku panam thirumba venum, nandri.",
+            "Enakku panam thirumba theriyum, nandri.",
+            "Enakku vera kadai venum, nandri."
+          ],
+          "correctAnswer": "Enakku panam thirumba venum, nandri.",
+          "translatedSentence": "I would like my money back, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenga naalaikku vandha, naan pudhu porul kaattuven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come tomorrow, I will show you the new stock.",
+            "When you came yesterday, I showed you the new stock.",
+            "You should come tomorrow to buy the new stock."
+          ],
+          "correctAnswer": "If you come tomorrow, I will show you the new stock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha kadai nalla irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nalla irukku, aana vilai konjam adhigam.",
+            "Nalla irukku, adhanaala naan onnum vaangalai.",
+            "Nalla illa, adhanaala naan thinamum inga poren."
+          ],
+          "correctAnswer": "Nalla irukku, aana vilai konjam adhigam.",
+          "translatedSentence": "It is good, but the prices are a bit high."
+        }
+      ]
+    }
+  ]
+}

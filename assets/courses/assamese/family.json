@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Ma, Deuta, Bhai, Bhoni",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar ghorot kun kun ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor ma, deuta aru bhoni ase.",
+            "mor ghor Jorhatot ase.",
+            "moi etiya ghoroloi jam."
+          ],
+          "correctAnswer": "mor ma, deuta aru bhoni ase.",
+          "translatedSentence": "My mother, my father and my younger sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eijon mor deuta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my father.",
+            "This is my elder brother.",
+            "This is my grandfather."
+          ],
+          "correctAnswer": "This is my father."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eijon apunar baideu neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, eijon mor baideu.",
+            "nai, eijon mor ma.",
+            "hoi, eijon mor kokai."
+          ],
+          "correctAnswer": "hoi, eijon mor baideu.",
+          "translatedSentence": "Yes, this is my elder sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor ma bhat randhi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is cooking rice.",
+            "My mother is eating rice.",
+            "My sister is cooking rice."
+          ],
+          "correctAnswer": "My mother is cooking rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kokai kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor kokai Guwahatit ase.",
+            "mor kokair naam Bikash.",
+            "mor kokai olop dangor."
+          ],
+          "correctAnswer": "mor kokai Guwahatit ase.",
+          "translatedSentence": "My elder brother is in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor bhoni saah khai ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is drinking tea.",
+            "My younger sister is making tea.",
+            "My mother is drinking tea."
+          ],
+          "correctAnswer": "My younger sister is drinking tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar bhaiti ase neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor ejon bhaiti ase.",
+            "nai, mor ghor dangor nai.",
+            "hoi, moi bhal ase."
+          ],
+          "correctAnswer": "hoi, mor ejon bhaiti ase.",
+          "translatedSentence": "Yes, I have one younger brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amar ghorot sarijon manuh ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four people in our house.",
+            "There are five people in our house.",
+            "There are four rooms in our house."
+          ],
+          "correctAnswer": "There are four people in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar ma bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor ma bhal ase.",
+            "hoi, mor ma ghorot ase.",
+            "nai, mor mar naam Nirmali."
+          ],
+          "correctAnswer": "hoi, mor ma bhal ase.",
+          "translatedSentence": "Yes, my mother is well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Kar Eito, Kar Xeito",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eikhon kar phone?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eikhon mor deutar phone.",
+            "eikhon amar ghorot ase.",
+            "eikhon bor bhal phone."
+          ],
+          "correctAnswer": "eikhon mor deutar phone.",
+          "translatedSentence": "This is my father's phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eikhon mor baideur kitap.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my elder sister's book.",
+            "This is my elder brother's book.",
+            "This is my elder sister's bag."
+          ],
+          "correctAnswer": "This is my elder sister's book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei gari kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ei gari mor kokair.",
+            "ei gari bor puroni.",
+            "moi gari salabo najano."
+          ],
+          "correctAnswer": "ei gari mor kokair.",
+          "translatedSentence": "This car is my elder brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eito amar ghor, apunar ghor kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is our house, where is yours?",
+            "This is our house, where is your car?",
+            "That is our house, where do you work?"
+          ],
+          "correctAnswer": "This is our house, where is yours?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar mar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor mar naam Nirmali.",
+            "mor deutar naam Nirmali.",
+            "mor mar ghor Jorhatot."
+          ],
+          "correctAnswer": "mor mar naam Nirmali.",
+          "translatedSentence": "My mother's name is Nirmali."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ei suwalijoni mor baideur suwali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This girl is my elder sister's daughter.",
+            "This girl is my elder sister's younger sister.",
+            "This boy is my elder sister's son."
+          ],
+          "correctAnswer": "This girl is my elder sister's daughter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eibor kitap kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eibor kitap mor bhonir.",
+            "eibor kitap bor dangor.",
+            "moi ratipuwa kitap poru."
+          ],
+          "correctAnswer": "eibor kitap mor bhonir.",
+          "translatedSentence": "These books are my younger sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor deutar gari nai, kintu mor kokair ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father does not have a car, but my elder brother does.",
+            "My father has a car, but my elder brother does not.",
+            "My father does not have a car and my elder brother does not either."
+          ],
+          "correctAnswer": "My father does not have a car, but my elder brother does."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei saah kar babe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ei saah mor mar babe.",
+            "ei saah etiya bor gorom.",
+            "moi ratipuwa saah khao."
+          ],
+          "correctAnswer": "ei saah mor mar babe.",
+          "translatedSentence": "This tea is for my mother."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Biya, Lora-Suwali, Kiman",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar biya hoise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor biya hoise.",
+            "nai, moi etiya ghorot nai.",
+            "hoi, moi Guwahatit thako."
+          ],
+          "correctAnswer": "hoi, mor biya hoise.",
+          "translatedSentence": "Yes, I am married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor dujon lora-suwali ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two children.",
+            "I have two younger brothers.",
+            "I have two sons."
+          ],
+          "correctAnswer": "I have two children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kimanjon lora-suwali ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor ejon lora aru ejoni suwali ase.",
+            "mor lorar naam Rahul.",
+            "mor lora-suwali skulot ase."
+          ],
+          "correctAnswer": "mor ejon lora aru ejoni suwali ase.",
+          "translatedSentence": "I have one son and one daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor bhonir etiyao biya huwa nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is not married yet.",
+            "My younger sister got married last year.",
+            "My younger sister does not want to get married."
+          ],
+          "correctAnswer": "My younger sister is not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar lorar boyox kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tar boyox pans bosor.",
+            "tar naam Bhaskar.",
+            "moi pans bosor Guwahatit asilo."
+          ],
+          "correctAnswer": "tar boyox pans bosor.",
+          "translatedSentence": "He is five years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor kokair biya hoise aru teor ejon lora ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is married and he has one son.",
+            "My elder brother is married and he has one daughter.",
+            "My elder brother is not married and he has no children."
+          ],
+          "correctAnswer": "My elder brother is married and he has one son."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar kokair biya ketiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tar biya aha bosore hobo.",
+            "tar biya Guwahatit bor dhuniya asil.",
+            "moi tar biyaloi jabo najano."
+          ],
+          "correctAnswer": "tar biya aha bosore hobo.",
+          "translatedSentence": "His wedding will be next year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi aru mor ghoini Jorhatot thako.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife and I live in Jorhat.",
+            "My wife and I are going to Jorhat.",
+            "My elder brother and I live in Jorhat."
+          ],
+          "correctAnswer": "My wife and I live in Jorhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar lora-suwali skuloloi jai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, dujoney skuloloi jai.",
+            "hoi, moi skulot kaam koro.",
+            "nai, amar ghor skulor kasote."
+          ],
+          "correctAnswer": "hoi, dujoney skuloloi jai.",
+          "translatedSentence": "Yes, both of them go to school."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Koka, Aita, Khura, Mama",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar koka-aita kot thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teohot gaonot thake.",
+            "teohotor naam moi najano.",
+            "moi koka-aitak bhal pao."
+          ],
+          "correctAnswer": "teohot gaonot thake.",
+          "translatedSentence": "They live in the village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor aitai bhal pitha banai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother makes good pitha.",
+            "My grandmother sells good pitha.",
+            "My mother makes good pitha."
+          ],
+          "correctAnswer": "My grandmother makes good pitha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eijon apunar khura neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, eijon mor mama.",
+            "hoi, mor khurar naam Ratul.",
+            "nai, mor khura gaonot thake."
+          ],
+          "correctAnswer": "nai, eijon mor mama.",
+          "translatedSentence": "No, this is my mother's brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mamai Guwahatit thake aru majete amar ghoroloi ahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's brother lives in Guwahati and comes to our house sometimes.",
+            "My mother's brother lives in Guwahati and we go to his house sometimes.",
+            "My father's brother lives in Guwahati and comes to our house sometimes."
+          ],
+          "correctAnswer": "My mother's brother lives in Guwahati and comes to our house sometimes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar aita bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, aita bhal ase, kintu olop dubol.",
+            "hoi, aita kali gaonoloi goise.",
+            "nai, aitar naam Rukmini."
+          ],
+          "correctAnswer": "hoi, aita bhal ase, kintu olop dubol.",
+          "translatedSentence": "Yes, grandmother is well, but a little weak."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor pehi aru pehai amar ghoror kasote thake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's sister and her husband live near our house.",
+            "My father's sister and her husband live far from our house.",
+            "My mother's brother and his wife live near our house."
+          ],
+          "correctAnswer": "My father's sister and her husband live near our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar khurar lorai tumar logot padhe neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, ami eketa skulot padho.",
+            "hoi, mor khurai skulot kaam kore.",
+            "nai, mor khurar ghor bor dangor."
+          ],
+          "correctAnswer": "hoi, ami eketa skulot padho.",
+          "translatedSentence": "Yes, we study at the same school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "koka-aita bosore ekbar amar ghoroloi ahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandfather and grandmother come to our house once a year.",
+            "Grandfather and grandmother come to our house once a month.",
+            "We go to grandfather and grandmother's house once a year."
+          ],
+          "correctAnswer": "Grandfather and grandmother come to our house once a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar mamir naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teor naam Anjali.",
+            "teo amar logot thake.",
+            "moi teok kali dekhisilo."
+          ],
+          "correctAnswer": "teor naam Anjali.",
+          "translatedSentence": "Her name is Anjali."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Poriyalor Kaam",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar deutai ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teo eta skulot sikhak.",
+            "teo etiya bhat randhi ase.",
+            "teor kaam bor dangor."
+          ],
+          "correctAnswer": "teo eta skulot sikhak.",
+          "translatedSentence": "He is a teacher at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mai ghorot kaam kore aru pitha bikri kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother works at home and sells pitha.",
+            "My mother works at home and makes pitha for us.",
+            "My mother works at a shop and sells pitha."
+          ],
+          "correctAnswer": "My mother works at home and sells pitha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar baideuye kot kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teo Guwahatir eta aphisot kaam kore.",
+            "teo aji aphisoloi juwa nai.",
+            "teor kaam teor bor bhal lage."
+          ],
+          "correctAnswer": "teo Guwahatir eta aphisot kaam kore.",
+          "translatedSentence": "She works at an office in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor kokaiye saah bagisat kaam kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother works in a tea garden.",
+            "My elder brother owns a tea garden.",
+            "My elder brother works in a rice field."
+          ],
+          "correctAnswer": "My elder brother works in a tea garden."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar bhaitiye etiya ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "xi Jorhator eta kolejot padhe.",
+            "xi etiya bor dangor hoise.",
+            "tar naam Nabajit."
+          ],
+          "correctAnswer": "xi Jorhator eta kolejot padhe.",
+          "translatedSentence": "He studies at a college in Jorhat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor khura daktar, teo eta dangor hospitalot kaam kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle is a doctor, he works at a big hospital.",
+            "My uncle is a doctor, he works at a small hospital.",
+            "My uncle is a teacher, he works at a big school."
+          ],
+          "correctAnswer": "My uncle is a doctor, he works at a big hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi eta bankot kaam koro.",
+            "moi mor kaam bhal pao.",
+            "mor kaam ghoror kasote."
+          ],
+          "correctAnswer": "moi eta bankot kaam koro.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor aitai etiya kaam nokore, karone teor boyox hoise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother does not work now because she has grown old.",
+            "My grandmother still works even though she has grown old.",
+            "My grandmother does not work now because she is unwell."
+          ],
+          "correctAnswer": "My grandmother does not work now because she has grown old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar suwaliye ki hobo bisare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tai daktar hobo bisare.",
+            "tai etiya skulot padhe.",
+            "tai Guwahatiloi jabo bisare."
+          ],
+          "correctAnswer": "tai daktar hobo bisare.",
+          "translatedSentence": "She wants to become a doctor."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Ghoror Khobor Aru Plan",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni ketiya ghoroloi jabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi aha xoptahot ghoroloi jam.",
+            "mor ghor Jorhator kasote ase.",
+            "moi ghoroloi phone kora nai."
+          ],
+          "correctAnswer": "moi aha xoptahot ghoroloi jam.",
+          "translatedSentence": "I will go home next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mai phonot kole je teo mor babe pitha banaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother said on the phone that she has made pitha for me.",
+            "My mother said on the phone that she wants to make pitha for me.",
+            "My mother called to say that she is coming to see me."
+          ],
+          "correctAnswer": "My mother said on the phone that she has made pitha for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ghoror khobor ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sokolo bhal ase, kintu deutar olop jor hoise.",
+            "amar ghor Brahmaputrar kasote ase.",
+            "moi kali ghoroloi juwa nai."
+          ],
+          "correctAnswer": "sokolo bhal ase, kintu deutar olop jor hoise.",
+          "translatedSentence": "Everyone is well, but father has a slight fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi apunar somoi ase, tente aha xoptahot amar ghoroloi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, please come to our house next week.",
+            "If you have time, we will come to your house next week.",
+            "When you have time, please call our house next week."
+          ],
+          "correctAnswer": "If you have time, please come to our house next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni ketiyaba gaonoloi jai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, bosore duibar jao, karone koka-aita tate thake.",
+            "hoi, gaonot banuwa masor jool bor bhal.",
+            "nai, mor gaonot ejoni bhoni ase."
+          ],
+          "correctAnswer": "hoi, bosore duibar jao, karone koka-aita tate thake.",
+          "translatedSentence": "Yes, I go twice a year because my grandparents live there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor bhoni kailoi Guwahatipora ahi ase, kintu tai besi din nathake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is coming from Guwahati tomorrow, but she will not stay long.",
+            "My younger sister went to Guwahati yesterday, but she did not stay long.",
+            "My younger sister is coming from Guwahati tomorrow and she will stay many days."
+          ],
+          "correctAnswer": "My younger sister is coming from Guwahati tomorrow, but she will not stay long."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar mar sorir etiya kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "etiya agotkoi bhal ase, dhonyobad.",
+            "teo etiya mor logot Guwahatit ase.",
+            "moi teor babe ousodh anisilo."
+          ],
+          "correctAnswer": "etiya agotkoi bhal ase, dhonyobad.",
+          "translatedSentence": "She is better than before now, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi prottek Bihut ghoroloi jao, karone tetiya gutei poriyal eke logot hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go home every Bihu because the whole family gets together then.",
+            "I go home every Bihu because my whole family lives there.",
+            "I want to go home this Bihu so that the whole family can get together."
+          ],
+          "correctAnswer": "I go home every Bihu because the whole family gets together then."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni aha bosor mor bhonir biyaloi ahibo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, moi niscoi ahim, kintu olop deri hobo pare.",
+            "hoi, moi kali apunar ghoroloi ahisilo.",
+            "nai, mor bhonir etiya biya huwa nai."
+          ],
+          "correctAnswer": "hoi, moi niscoi ahim, kintu olop deri hobo pare.",
+          "translatedSentence": "Yes, I will definitely come, but I may be a little late."
+        }
+      ]
+    }
+  ]
+}

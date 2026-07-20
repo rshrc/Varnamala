@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu shaniyazhcha aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, innu shaniyazhcha aanu.",
+            "Alla, njaan Kochiyil aanu.",
+            "Athe, enikku chaya venam."
+          ],
+          "correctAnswer": "Athe, innu shaniyazhcha aanu.",
+          "translatedSentence": "Yes, today is Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naale chovvazhcha aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is Tuesday.",
+            "Today is Tuesday.",
+            "Tomorrow is Thursday."
+          ],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethu divasam ishtam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku njaayarazhcha ishtam.",
+            "Enikku puttu ishtam.",
+            "Enikku Kochi ishtam."
+          ],
+          "correctAnswer": "Enikku njaayarazhcha ishtam.",
+          "translatedSentence": "I like Sunday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaayarazhcha njaan joli cheyyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not work on Sunday.",
+            "I do not work on Monday.",
+            "I work on Sunday too."
+          ],
+          "correctAnswer": "I do not work on Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Class ethu divasam aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class budhanazhcha aanu.",
+            "Class raavile aanu.",
+            "Class Kochiyil aanu."
+          ],
+          "correctAnswer": "Class budhanazhcha aanu.",
+          "translatedSentence": "The class is on Wednesday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vyazhazhcha enikku oru meeting undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a meeting on Thursday.",
+            "I have a meeting on Tuesday.",
+            "I had a meeting on Thursday."
+          ],
+          "correctAnswer": "I have a meeting on Thursday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thinkalazhcha ningal evide pokunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochiyilekku pokunnu.",
+            "Njaan thinkalazhcha varum.",
+            "Njaan innale Kochiyil poyi."
+          ],
+          "correctAnswer": "Njaan Kochiyilekku pokunnu.",
+          "translatedSentence": "I am going to Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shaniyazhcha njangal kadalorathu pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Saturday we will go to the seaside.",
+            "On Sunday we will go to the seaside.",
+            "On Saturday we went to the seaside."
+          ],
+          "correctAnswer": "On Saturday we will go to the seaside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oru aazhchayil ethra divasam undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru aazhchayil ezhu divasam undu.",
+            "Oru masathil naalu aazhcha undu.",
+            "Oru divasathil irupathi naalu manikkoor undu."
+          ],
+          "correctAnswer": "Oru aazhchayil ezhu divasam undu.",
+          "translatedSentence": "There are seven days in a week."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu enthu vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innu prathyekichu onnum illa.",
+            "Innale njaan Kochiyil aayirunnu.",
+            "Naale enikku joli undu."
+          ],
+          "correctAnswer": "Innu prathyekichu onnum illa.",
+          "translatedSentence": "Nothing special today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan ippol joli cheyyukayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am working right now.",
+            "I will work later.",
+            "I worked yesterday."
+          ],
+          "correctAnswer": "I am working right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale ningal varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naale pattilla. Mattennaal varaam.",
+            "Athe, njaan innale vannirunnu.",
+            "Illa, enikku Malayalam ariyilla."
+          ],
+          "correctAnswer": "Illa, naale pattilla. Mattennaal varaam.",
+          "translatedSentence": "No, tomorrow will not work. I will come the day after tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innale njaan Thiruvananthapurathu poyi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I went to Thiruvananthapuram.",
+            "Tomorrow I will go to Thiruvananthapuram.",
+            "Yesterday I came back from Thiruvananthapuram."
+          ],
+          "correctAnswer": "Yesterday I went to Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippol ningalkku kurachu samayam undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippol illa, kurachu kazhinju njaan vilikkam.",
+            "Athe, innale enikku samayam undayirunnu.",
+            "Illa, enikku ee vazhi ariyilla."
+          ],
+          "correctAnswer": "Ippol illa, kurachu kazhinju njaan vilikkam.",
+          "translatedSentence": "Not right now, I will call you in a little while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pinne samsarikkam, njaan ippol thirakkilaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us talk later, I am busy right now.",
+            "Let us talk now, I will be busy later.",
+            "We will talk tomorrow, I am busy today."
+          ],
+          "correctAnswer": "Let us talk later, I am busy right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innale raathri ningal enthu cheythu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan nerathe urangi.",
+            "Njaan naale nerathe urangum.",
+            "Njaan ippol urangukayaanu."
+          ],
+          "correctAnswer": "Njaan nerathe urangi.",
+          "translatedSentence": "I went to sleep early."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mattennaal enikku Kochiyilekku pokanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to go to Kochi the day after tomorrow.",
+            "I want to go to Kochi tomorrow itself.",
+            "I went to Kochi the day before yesterday."
+          ],
+          "correctAnswer": "I have to go to Kochi the day after tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal eppol veettil ethum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan kurachu kazhinju ethum.",
+            "Njaan innale veettil ethi.",
+            "Enikku ee veedu ariyilla."
+          ],
+          "correctAnswer": "Njaan kurachu kazhinju ethum.",
+          "translatedSentence": "I will get home a little later."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippol samayam ethra aayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippol pathu mani aayi.",
+            "Ippol njaan veettil aanu.",
+            "Innu njaayarazhcha aanu."
+          ],
+          "correctAnswer": "Ippol pathu mani aayi.",
+          "translatedSentence": "It is ten o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raavile ezhu manikku njaan unarum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wake up at seven in the morning.",
+            "I wake up at nine in the morning.",
+            "I go to sleep at seven in the morning."
+          ],
+          "correctAnswer": "I wake up at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus ethra manikku varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "KSRTC bus ettara manikku varum.",
+            "KSRTC bus Kochiyil ninnu varum.",
+            "Bus innale vaikunneram vannu."
+          ],
+          "correctAnswer": "KSRTC bus ettara manikku varum.",
+          "translatedSentence": "The KSRTC bus comes at half past eight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uchakku onnara manikku njangal oonu kazhikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat lunch at half past one in the afternoon.",
+            "We eat lunch at half past twelve in the afternoon.",
+            "We ate lunch at half past one in the afternoon."
+          ],
+          "correctAnswer": "We eat lunch at half past one in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude class ethra manikku thudangum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class raavile onpathu manikku thudangum.",
+            "Class randu manikkoor undu.",
+            "Class ee aazhcha budhanazhcha aanu."
+          ],
+          "correctAnswer": "Class raavile onpathu manikku thudangum.",
+          "translatedSentence": "The class starts at nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaikunneram anju manikku njaan chaya kudikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea at five in the evening.",
+            "I drink tea at five in the morning.",
+            "I will drink tea at six in the evening."
+          ],
+          "correctAnswer": "I drink tea at five in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nammal ethra manikku kaanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naale raavile pathu manikku kaanam.",
+            "Nammal Kochiyil vechu kaanam.",
+            "Njaan innale ningale kandirunnu."
+          ],
+          "correctAnswer": "Naale raavile pathu manikku kaanam.",
+          "translatedSentence": "Let us meet at ten tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Trainu pathinonnara manikku ethum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train arrives at half past eleven.",
+            "The train leaves at half past eleven.",
+            "The train arrives at half past ten."
+          ],
+          "correctAnswer": "The train arrives at half past eleven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra manikku urangum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan raathri pathu manikku urangum.",
+            "Njaan raavile pathu manikku unarum.",
+            "Innale njaan ettu manikkoor urangi."
+          ],
+          "correctAnswer": "Njaan raathri pathu manikku urangum.",
+          "translatedSentence": "I go to sleep at ten at night."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates, seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude pirannaal eppol aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente pirannaal March pathinanchinu aanu.",
+            "Enikku muppathu vayassu undu.",
+            "Ente pirannaal veettil aghoshikkum."
+          ],
+          "correctAnswer": "Ente pirannaal March pathinanchinu aanu.",
+          "translatedSentence": "My birthday is on the fifteenth of March."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Keralathil June masathil mazha thudangum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rains begin in Kerala in the month of June.",
+            "The rains stop in Kerala in the month of June.",
+            "The rains begin in Kerala in the month of July."
+          ],
+          "correctAnswer": "The rains begin in Kerala in the month of June."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onam ethu masathil aanu varunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onam August, September masangalil aanu.",
+            "Onam Keralathile ettavum valiya aghosham aanu.",
+            "Onathinu njangal sadya kazhikkum."
+          ],
+          "correctAnswer": "Onam August, September masangalil aanu.",
+          "translatedSentence": "Onam falls in the months of August and September."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee varsham Vishu April pathinaalinu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This year Vishu falls on the fourteenth of April.",
+            "Last year Vishu fell on the fourteenth of April.",
+            "This year Vishu falls on the fourteenth of March."
+          ],
+          "correctAnswer": "This year Vishu falls on the fourteenth of April."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethu kaalam aanu ishtam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku mazhakkalam aanu ishtam.",
+            "Enikku thanuppu ishtam alla.",
+            "Ee kaalathu nalla veyil undu."
+          ],
+          "correctAnswer": "Enikku mazhakkalam aanu ishtam.",
+          "translatedSentence": "The rainy season is the one I like."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "April masathil Kochiyil nalla chooda aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is very hot in Kochi in April.",
+            "It is very hot in Kochi in December.",
+            "It rains a lot in Kochi in April."
+          ],
+          "correctAnswer": "It is very hot in Kochi in April."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee masam ethaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee masam October aanu.",
+            "Ee aazhcha nalla thirakku undu.",
+            "Ee varsham njaan Kochiyil aayirunnu."
+          ],
+          "correctAnswer": "Ee masam October aanu.",
+          "translatedSentence": "This month is October."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazhakkalathu chudu chaya kudikkan njaan ishtappedunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love drinking hot tea during the rainy season.",
+            "I love drinking hot tea during the summer.",
+            "I do not like drinking hot tea during the rainy season."
+          ],
+          "correctAnswer": "I love drinking hot tea during the rainy season."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal eppol Keralathil varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan September masathil varum.",
+            "Njaan Kochi vazhi varum.",
+            "Njaan trainil aanu varunnathu."
+          ],
+          "correctAnswer": "Njaan September masathil varum.",
+          "translatedSentence": "I will come in September."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude divasam engane aanu thudangunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan raavile aaru manikku unarnnu chaya undakkum.",
+            "Njaan raathri vaikiyaanu urangunnathu.",
+            "Ente joli Kochiyil aanu."
+          ],
+          "correctAnswer": "Njaan raavile aaru manikku unarnnu chaya undakkum.",
+          "translatedSentence": "I get up at six in the morning and make tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raavile njaan puttum kadalayum kazhikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the morning I eat puttu and chickpea curry.",
+            "In the morning I eat appam and egg curry.",
+            "At night I eat puttu and chickpea curry."
+          ],
+          "correctAnswer": "In the morning I eat puttu and chickpea curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal engane aanu jolikku pokunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan divasavum bus-il aanu pokunnathu.",
+            "Njaan raavile ettu manikku irangum.",
+            "Ente office Thiruvananthapurathu aanu."
+          ],
+          "correctAnswer": "Njaan divasavum bus-il aanu pokunnathu.",
+          "translatedSentence": "I go by bus every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uchakku njaan oru manikkoor vishramikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At midday I rest for an hour.",
+            "At night I rest for an hour.",
+            "At midday I work for an hour."
+          ],
+          "correctAnswer": "At midday I rest for an hour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaikunneram ningal enthaanu cheyyaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaikunneram njaan kurachu nadakkan pokum.",
+            "Raavile njaan pathram vaayikkum.",
+            "Innale njaan valare nerathe urangi."
+          ],
+          "correctAnswer": "Vaikunneram njaan kurachu nadakkan pokum.",
+          "translatedSentence": "In the evening I go out for a short walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raathri njaan kuttikalude padanam nokkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At night I check on the children's studies.",
+            "In the morning I check on the children's studies.",
+            "At night I finish my own studies."
+          ],
+          "correctAnswer": "At night I check on the children's studies."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra neram vyayamam cheyyum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan divasavum ara manikkoor vyayamam cheyyum.",
+            "Njaan raavile vyayamam cheyyan aanu ishtam.",
+            "Enikku vyayamam valare ishtam aanu."
+          ],
+          "correctAnswer": "Njaan divasavum ara manikkoor vyayamam cheyyum.",
+          "translatedSentence": "I exercise for half an hour every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pothuve njaan raathri pathu manikku urangan pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I usually go to bed at ten at night.",
+            "I usually get up at ten in the morning.",
+            "I sometimes go to bed at ten at night."
+          ],
+          "correctAnswer": "I usually go to bed at ten at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Divasathil ningalkku ettavum ishtapetta samayam ethaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raavile chaya kudikkunna samayam aanu enikku ettavum ishtam.",
+            "Enikku chaya illathe oru divasavum pattilla.",
+            "Njaan divasavum nerathe thanne unarum."
+          ],
+          "correctAnswer": "Raavile chaya kudikkunna samayam aanu enikku ettavum ishtam.",
+          "translatedSentence": "My favourite time is when I drink my morning tea."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale vaikunneram nammalkku kaanan pattumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naale pattilla, karanam enikku oru meeting undu. Mattennaal aayaalo?",
+            "Athe, njaan innale ningale kandirunnu. Naale enthaanu paripadi?",
+            "Illa, enikku Kochiyile vazhikal ariyilla. Ningal parayamo?"
+          ],
+          "correctAnswer": "Naale pattilla, karanam enikku oru meeting undu. Mattennaal aayaalo?",
+          "translatedSentence": "Tomorrow will not work because I have a meeting. Shall we make it the day after?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku samayam undenkil, njaan naale raavile pathu manikku varaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have the time, I can come at ten tomorrow morning.",
+            "If I have the time, you can come at ten tomorrow morning.",
+            "Since you have the time, I will come at ten tomorrow night."
+          ],
+          "correctAnswer": "If you have the time, I can come at ten tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctorine kaanan ethu divasam aanu ningalkku sherikkuka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vellyazhcha vaikunneram anju manikku sheriyaakumo?",
+            "Doctor Kochiyile aashupathriyil aanu jolicheyyunnathu.",
+            "Enikku innale muthal alpam sugham illa."
+          ],
+          "correctAnswer": "Vellyazhcha vaikunneram anju manikku sheriyaakumo?",
+          "translatedSentence": "Would five o'clock on Friday evening work?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazha undenkilum njaan samayathinu thanne ethikkolam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even if it rains, I will get there on time.",
+            "If it rains, I will not be able to get there on time.",
+            "Because it is raining, I will get there a bit late."
+          ],
+          "correctAnswer": "Even if it rains, I will get there on time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaayarazhcha nammalkku kayalorathekku pokamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pokaam, pakshe raavile nerathe irangenam.",
+            "Poyi, njangal innale kayal kandirunnu.",
+            "Illa, enikku njaayarazhcha oru paripadiyum illa."
+          ],
+          "correctAnswer": "Pokaam, pakshe raavile nerathe irangenam.",
+          "translatedSentence": "Let us go, but we will have to set out early in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku budhimuttu illenkil, ee aazhcha thanne nammal kaanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it is not a bother for you, let us meet this week itself.",
+            "If you are not busy, let us meet next week itself.",
+            "It is a bother for me, so let us meet next week."
+          ],
+          "correctAnswer": "If it is not a bother for you, let us meet this week itself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting ethra manikku vekkanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uchakku randu manikku vekkaam, appol ellavarum ethiyirikkum.",
+            "Meeting Kochiyile officeil vechu mathi.",
+            "Meetingnu ellavarum varunnundennu thonnunnu."
+          ],
+          "correctAnswer": "Uchakku randu manikku vekkaam, appol ellavarum ethiyirikkum.",
+          "translatedSentence": "Let us set it for two in the afternoon, everyone will have arrived by then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu vaikunneram varan pattilla, karanam enikku Thiruvananthapurathekku pokanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot come this evening because I have to go to Thiruvananthapuram.",
+            "I cannot come tomorrow evening because I have to go to Thiruvananthapuram.",
+            "I will come this evening after going to Thiruvananthapuram."
+          ],
+          "correctAnswer": "I cannot come this evening because I have to go to Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale nammal urappichathu pole thanne alle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, urappaanu. Raavile onpathu manikku njaan ethum.",
+            "Ariyilla, njaan vilichu pinneedu parayaam.",
+            "Illa, innale njaan samayathinu ethiyilla."
+          ],
+          "correctAnswer": "Athe, urappaanu. Raavile onpathu manikku njaan ethum.",
+          "translatedSentence": "Yes, it is confirmed. I will be there at nine in the morning."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kama karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bank re kama kare.",
+            "Mu ghara jauchi.",
+            "Mo naam Sunita."
+          ],
+          "correctAnswer": "Mu bank re kama kare.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu school re sikhyaka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a teacher at a school.",
+            "I am a student at a school.",
+            "I go to school every day."
+          ],
+          "correctAnswer": "I am a teacher at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kouthi kama kara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Cuttack re kama kare.",
+            "Mu Cuttack re rahe.",
+            "Mu Cuttack jauchi."
+          ],
+          "correctAnswer": "Mu Cuttack re kama kare.",
+          "translatedSentence": "I work in Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se hospital re kama kare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She works at a hospital.",
+            "She is going to the hospital.",
+            "She is waiting at the hospital."
+          ],
+          "correctAnswer": "She works at a hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka office kouthi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo office Bhubaneswar re.",
+            "Mo ghara Puri re.",
+            "Mu ebe office jauchi."
+          ],
+          "correctAnswer": "Mo office Bhubaneswar re.",
+          "translatedSentence": "My office is in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhai engineer.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is an engineer.",
+            "My brother is a teacher.",
+            "My friend is an engineer."
+          ],
+          "correctAnswer": "My brother is an engineer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kana kama kara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dokana chalae.",
+            "Mu dokana jae.",
+            "Mu dokana pakhare rahe."
+          ],
+          "correctAnswer": "Mu dokana chalae.",
+          "translatedSentence": "I run a shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ebe kama khojuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am looking for a job right now.",
+            "I am finishing my work right now.",
+            "I have found a job now."
+          ],
+          "correctAnswer": "I am looking for a job right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Se kana kare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se college re sikhyaka.",
+            "Se mo bhai.",
+            "Se ghare nahin."
+          ],
+          "correctAnswer": "Se college re sikhyaka.",
+          "translatedSentence": "He is a teacher at a college."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sir, mu bhitaraku asi pare ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, bhitaraku asa.",
+            "Na, mu bahara jauchi.",
+            "Han, mu bhitare achi."
+          ],
+          "correctAnswer": "Han, bhitaraku asa.",
+          "translatedSentence": "Yes, come inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ajira patha bahuta sahaja thila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today's lesson was very easy.",
+            "Today's lesson was very hard.",
+            "Today's lesson is very long."
+          ],
+          "correctAnswer": "Today's lesson was very easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara khata kouthi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo khata bag bhitare achi.",
+            "Mo khata bahuta bhala.",
+            "Mu khata re likhuchi."
+          ],
+          "correctAnswer": "Mo khata bag bhitare achi.",
+          "translatedSentence": "My notebook is in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sir board re likhuchanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the board.",
+            "The teacher is reading from the board.",
+            "The students are writing on the board."
+          ],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei prashnara uttara kie jane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu jane, sir.",
+            "Mu goteie prashna puchhibi.",
+            "Mu uttara khata re likhili."
+          ],
+          "correctAnswer": "Mu jane, sir.",
+          "translatedSentence": "I know it, sir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ei prashnara uttara jane nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know the answer to this question.",
+            "I do not want to answer this question.",
+            "I did not write the answer to this question."
+          ],
+          "correctAnswer": "I do not know the answer to this question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kalam anichha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mu kalam anini.",
+            "Han, mu boi anini.",
+            "Na, mu ebe padhuchi."
+          ],
+          "correctAnswer": "Na, mu kalam anini.",
+          "translatedSentence": "No, I did not bring a pen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chhatramane classroom re basichhanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The students are sitting in the classroom.",
+            "The students are standing in the classroom.",
+            "The teachers are sitting in the classroom."
+          ],
+          "correctAnswer": "The students are sitting in the classroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajira class kete bele arambha heba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class dasata re arambha heba.",
+            "Class kali sakale sarila.",
+            "Mu ebe class bhitare basichi."
+          ],
+          "correctAnswer": "Class dasata re arambha heba.",
+          "translatedSentence": "The class will start at ten."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Desk, email and meetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ebe kana karuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu goteie report likhuchi.",
+            "Mu kali report likhili.",
+            "Mu ghare basichi."
+          ],
+          "correctAnswer": "Mu goteie report likhuchi.",
+          "translatedSentence": "I am writing a report."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu apananku email pathai dechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have already sent you the email.",
+            "I will send you the email later.",
+            "I have not seen your email yet."
+          ],
+          "correctAnswer": "I have already sent you the email."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting kete bele arambha heba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting egarata re arambha heba.",
+            "Meeting kali sanjha re sarila.",
+            "Mu ebe meeting bhitare achi."
+          ],
+          "correctAnswer": "Meeting egarata re arambha heba.",
+          "translatedSentence": "The meeting will start at eleven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo computer aji kama karuni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer is not working today.",
+            "My computer is working well today.",
+            "I am not working on the computer today."
+          ],
+          "correctAnswer": "My computer is not working today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boss kouthi achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se ebe meeting re achanti.",
+            "Se bahuta bhala manisha.",
+            "Mu bossnka sahita katha heli."
+          ],
+          "correctAnswer": "Se ebe meeting re achanti.",
+          "translatedSentence": "He is in a meeting right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo table upare bahuta file achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of files on my desk.",
+            "There are only two files on my desk.",
+            "There are a lot of books on my desk."
+          ],
+          "correctAnswer": "There are a lot of files on my desk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana mote tike sahajya kari paribe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu ebe asuchi.",
+            "Na, mote sahajya darkar.",
+            "Han, mu kama sarili."
+          ],
+          "correctAnswer": "Han, mu ebe asuchi.",
+          "translatedSentence": "Yes, I am coming right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji office re bahuta kama achi kintu mu ekala achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a lot of work at the office today, but I am on my own.",
+            "There is a lot of work at the office today, so I am very happy.",
+            "There was a lot of work at the office yesterday, but I was on my own."
+          ],
+          "correctAnswer": "There is a lot of work at the office today, but I am on my own."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei file kie pathaichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Managernka office ru pathaichanti.",
+            "Mu ei file dekhi nahin.",
+            "File mo table upare rahichi."
+          ],
+          "correctAnswer": "Managernka office ru pathaichanti.",
+          "translatedSentence": "It was sent from the manager's office."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume homework sarichha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, mu ebe karuchi.",
+            "Han, mu homework anini.",
+            "Na, mu kali pariksha dechi."
+          ],
+          "correctAnswer": "Na, mu ebe karuchi.",
+          "translatedSentence": "No, I am doing it right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali mo Odia pariksha achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have my Odia exam tomorrow.",
+            "I had my Odia exam yesterday.",
+            "I have my Odia class tomorrow."
+          ],
+          "correctAnswer": "I have my Odia exam tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kete ghanta padhichha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu tini ghanta padhichi.",
+            "Mu tinita re padhibi.",
+            "Mu ratire padhi nahin."
+          ],
+          "correctAnswer": "Mu tini ghanta padhichi.",
+          "translatedSentence": "I have studied for three hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ratire padhiba pasanda kare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like studying at night.",
+            "I like studying in the morning.",
+            "I have to study at night."
+          ],
+          "correctAnswer": "I like studying at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pariksha kemiti hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhala heigala, kintu samaya kama padila.",
+            "Mu ei pariksha dei nahin.",
+            "Mo pariksha asanta saptaha re achi."
+          ],
+          "correctAnswer": "Bhala heigala, kintu samaya kama padila.",
+          "translatedSentence": "It went well, but there was not enough time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu pratidina sakale eka ghanta padhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I study for an hour every morning.",
+            "I study for an hour every evening.",
+            "I studied for an hour this morning."
+          ],
+          "correctAnswer": "I study for an hour every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei sabdara artha kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu jane nahin, mu sirnku puchhibi.",
+            "Mu ei sabda khata re likhili.",
+            "Ei boi bahuta bhala achi."
+          ],
+          "correctAnswer": "Mu jane nahin, mu sirnku puchhibi.",
+          "translatedSentence": "I do not know, I will ask the teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bahuta padhili kintu kichhi manaku asuni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I studied a lot, but I cannot remember anything.",
+            "I studied a lot, and now I remember everything.",
+            "I did not study much, so I cannot remember anything."
+          ],
+          "correctAnswer": "I studied a lot, but I cannot remember anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara result kebe asiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Asanta saptaha re asiba.",
+            "Mo result bahuta bhala heichi.",
+            "Mu result school re dekhili."
+          ],
+          "correctAnswer": "Asanta saptaha re asiba.",
+          "translatedSentence": "It will come next week."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings, leave and lateness",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete bele office asanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sakale nata re ase.",
+            "Mu sanjha panchata re ghara jae.",
+            "Mu aji office asini."
+          ],
+          "correctAnswer": "Mu sakale nata re ase.",
+          "translatedSentence": "I come in at nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji tike deri hoigali karana rasta re jam thila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was a little late today because there was a jam on the road.",
+            "I was a little late today because I woke up late.",
+            "I will be a little late today because of the traffic."
+          ],
+          "correctAnswer": "I was a little late today because there was a jam on the road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku kali chhuti darkar ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mote kali chhuti darkar.",
+            "Na, mu kali office asini.",
+            "Han, mu kali tike deri hebi."
+          ],
+          "correctAnswer": "Han, mote kali chhuti darkar.",
+          "translatedSentence": "Yes, I need leave tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo office sanjha chhata re bandha huae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My office closes at six in the evening.",
+            "My office opens at six in the morning.",
+            "My office closes at five in the evening."
+          ],
+          "correctAnswer": "My office closes at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana aji kahinki deri kale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshama karantu, bus bahuta deri re asila.",
+            "Mu sakale bahuta saghra uthili.",
+            "Mu auto re office ase."
+          ],
+          "correctAnswer": "Kshama karantu, bus bahuta deri re asila.",
+          "translatedSentence": "Sorry, the bus came very late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi mu kali asi na pare, tebe mu apananku phone karibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I cannot come tomorrow, I will call you.",
+            "If you cannot come tomorrow, please call me.",
+            "I will call you tomorrow because I cannot come."
+          ],
+          "correctAnswer": "If I cannot come tomorrow, I will call you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chhuti pain apana kahanku kahichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu managernku kahi sarichi.",
+            "Mote tini dina chhuti darkar.",
+            "Mu ei saptaha chhuti nebi nahin."
+          ],
+          "correctAnswer": "Mu managernku kahi sarichi.",
+          "translatedSentence": "I have already told the manager."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji sanjha re tike agaru jibi karana mo pua bemar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will leave a little early this evening because my son is unwell.",
+            "I will leave a little late this evening because my son is unwell.",
+            "I left early yesterday evening because my son was unwell."
+          ],
+          "correctAnswer": "I will leave a little early this evening because my son is unwell."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kali office asibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, kali chhuti achi, mu Puri jibi.",
+            "Han, mu kali office asi nahin.",
+            "Na, mu ebe office bhitare achi."
+          ],
+          "correctAnswer": "Na, kali chhuti achi, mu Puri jibi.",
+          "translatedSentence": "No, tomorrow is a holiday, so I will go to Puri."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and promotions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana asanta barsa kana kariba pain bhabuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu nua kama khojibi, karana ethi betana bahuta kama.",
+            "Mu gata barsa ei kama paithili.",
+            "Mu asanta barsa Jagannath mandira jibi."
+          ],
+          "correctAnswer": "Mu nua kama khojibi, karana ethi betana bahuta kama.",
+          "translatedSentence": "I will look for a new job, because the pay here is very low."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote gata mase promotion milila karana mu bhala kama karithili.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got a promotion last month because I had worked well.",
+            "I will get a promotion next month if I work well.",
+            "I did not get a promotion last month, even though I worked well."
+          ],
+          "correctAnswer": "I got a promotion last month because I had worked well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka lakhya kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ekdina manager hebaku chahunchi.",
+            "Mu managernku bhala bhabare jane.",
+            "Mo manager bahuta bhala katha kahanti."
+          ],
+          "correctAnswer": "Mu ekdina manager hebaku chahunchi.",
+          "translatedSentence": "I want to become a manager one day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi mu ei barsa bhala kama kare, tebe mote promotion mili pare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work well this year, I might get a promotion.",
+            "If I had worked well this year, I would have got a promotion.",
+            "I worked well this year, so I got a promotion."
+          ],
+          "correctAnswer": "If I work well this year, I might get a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ei office re kete dina heba kama karuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu pancha barsa heba ethi kama karuchi.",
+            "Mu pancha dina bhitare kama sarili.",
+            "Mu ethi pancha jana sathi sahita kama kare."
+          ],
+          "correctAnswer": "Mu pancha barsa heba ethi kama karuchi.",
+          "translatedSentence": "I have been working here for five years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu adhika sikhibaku chahunchi kintu mote samaya milu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to learn more, but I never get the time.",
+            "I want to learn more, and I have plenty of time.",
+            "I wanted to learn more, but I did not get the time."
+          ],
+          "correctAnswer": "I want to learn more, but I never get the time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kahinki ei company chhadibaku chahunchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ghara pakhare kama karibaku chahunchi, sethi pain Bhubaneswar re nua kama khojuchi.",
+            "Mu ei company re bahuta khusi achi, sethi pain ethi rahibi.",
+            "Mu ei company re tini barsa heba kama karuchi."
+          ],
+          "correctAnswer": "Mu ghara pakhare kama karibaku chahunchi, sethi pain Bhubaneswar re nua kama khojuchi.",
+          "translatedSentence": "I want to work close to home, so I am looking for a new job in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Asanta barsa mu Odia bhala bhabare sikhibi ebam office re Odia re katha hebi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Next year I will learn Odia properly and speak in Odia at the office.",
+            "Next year I will teach Odia and speak in Odia at the office.",
+            "Last year I learned Odia and spoke in Odia at the office."
+          ],
+          "correctAnswer": "Next year I will learn Odia properly and speak in Odia at the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ei barsa bahuta parisrama karichanti, dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad sir, mu chesta jari rakhibi.",
+            "Kshama karantu sir, mu ehi kama sarini.",
+            "Dhanyabad sir, mote kali chhuti darkar."
+          ],
+          "correctAnswer": "Dhanyabad sir, mu chesta jari rakhibi.",
+          "translatedSentence": "Thank you, sir, I will keep up the effort."
+        }
+      ]
+    }
+  ]
+}

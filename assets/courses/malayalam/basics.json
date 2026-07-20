@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude peru enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente peru {name} aanu.",
+            "Ente veedu ivide aanu.",
+            "Enikku chaya venam."
+          ],
+          "correctAnswer": "Ente peru {name} aanu.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan Ravi aanu. Ningal aaraanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Meera aanu.",
+            "Ente veedu Kochiyil aanu.",
+            "Enikku puttu venam."
+          ],
+          "correctAnswer": "Njaan Meera aanu.",
+          "translatedSentence": "I am Meera."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan oru adhyapakan aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a teacher.",
+            "I am a student.",
+            "He is a teacher."
+          ],
+          "correctAnswer": "I am a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu aaraanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithu ente amma aanu.",
+            "Ithu ente veedu aanu.",
+            "Ithu ente pusthakam aanu."
+          ],
+          "correctAnswer": "Ithu ente amma aanu.",
+          "translatedSentence": "This is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente peru Anu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Anu.",
+            "Her name is Anu.",
+            "My friend is Anu."
+          ],
+          "correctAnswer": "My name is Anu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal evide ninnaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochiyil ninnaanu.",
+            "Njaan oru adhyapika aanu.",
+            "Ente sahodaran Kochiyil aanu."
+          ],
+          "correctAnswer": "Njaan Kochiyil ninnaanu.",
+          "translatedSentence": "I am from Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithu ente kutti aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my child.",
+            "This is my house.",
+            "That is my child."
+          ],
+          "correctAnswer": "This is my child."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sugamaano, {name}?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sugamaanu, nandi.",
+            "Ente peru nalla peraanu.",
+            "Njaan Thiruvananthapurathaanu."
+          ],
+          "correctAnswer": "Sugamaanu, nandi.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avan ente sahodaran aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my brother.",
+            "She is my sister.",
+            "He is my friend."
+          ],
+          "correctAnswer": "He is my brother."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this, that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu chaya aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ithu chaya aanu.",
+            "Alla, athu chaya aanu.",
+            "Athe, ithu vellam aanu."
+          ],
+          "correctAnswer": "Athe, ithu chaya aanu.",
+          "translatedSentence": "Yes, this is tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Alla, ithu ente pusthakam alla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, this is not my book.",
+            "No, that is not my book.",
+            "Yes, this is my book."
+          ],
+          "correctAnswer": "No, this is not my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Athu enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu oru KSRTC bus aanu.",
+            "Athu ente veedaanu.",
+            "Athu oru poocha aanu."
+          ],
+          "correctAnswer": "Athu oru KSRTC bus aanu.",
+          "translatedSentence": "That is a KSRTC bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithu appam aanu, athu puttu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is appam and that is puttu.",
+            "This is puttu and that is appam.",
+            "This is appam but that is not puttu."
+          ],
+          "correctAnswer": "This is appam and that is puttu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku chaya venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku chaya venam.",
+            "Athe, enikku oru chaya undu.",
+            "Alla, ithu chaya alla."
+          ],
+          "correctAnswer": "Athe, enikku chaya venam.",
+          "translatedSentence": "Yes, I would like some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ithu venam, athu venda.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want this one, not that one.",
+            "I want that one, not this one.",
+            "I do not want this or that."
+          ],
+          "correctAnswer": "I want this one, not that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu ningalude bag aano, {name}?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, ente bag athaanu.",
+            "Athe, athu ningalude bag aanu.",
+            "Alla, ithu oru puthiya kada aanu."
+          ],
+          "correctAnswer": "Alla, ente bag athaanu.",
+          "translatedSentence": "No, mine is that one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Athe, avide oru kada undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, there is a shop over there.",
+            "Yes, there is a house over there.",
+            "No, there is no shop over there."
+          ],
+          "correctAnswer": "Yes, there is a shop over there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivide chaya kittumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ivide nalla chaya kittum.",
+            "Athe, ivide puttu undaakkum.",
+            "Athu oru valiya kada aanu."
+          ],
+          "correctAnswer": "Athe, ivide nalla chaya kittum.",
+          "translatedSentence": "Yes, you get good tea here."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ippol enthu cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan chaya kudikkunnu.",
+            "Njaan chaya kudichu.",
+            "Njaan chaya kudikkum."
+          ],
+          "correctAnswer": "Njaan chaya kudikkunnu.",
+          "translatedSentence": "I am drinking tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan raavile puttu kazhikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat puttu in the morning.",
+            "I eat appam in the morning.",
+            "I drink tea in the morning."
+          ],
+          "correctAnswer": "I eat puttu in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal evideykku pokunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan kadayilekku pokunnu.",
+            "Njaan bussinu kaathirikkunnu.",
+            "Njaan veettil irikkunnu."
+          ],
+          "correctAnswer": "Njaan kadayilekku pokunnu.",
+          "translatedSentence": "I am going to the shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avan innu Kochiyilekku pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is going to Kochi today.",
+            "He came to Kochi today.",
+            "He is going to Thiruvananthapuram today."
+          ],
+          "correctAnswer": "He is going to Kochi today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ippol varunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan ippol varunnu.",
+            "Athe, njaan innale vannu.",
+            "Athe, njaan naale varum."
+          ],
+          "correctAnswer": "Athe, njaan ippol varunnu.",
+          "translatedSentence": "Yes, I am coming right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma meen curry undaakkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making fish curry.",
+            "Mother is eating fish curry.",
+            "My sister is making fish curry."
+          ],
+          "correctAnswer": "Mother is making fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aval enthaanu kudikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aval oru chaya kudikkunnu.",
+            "Aval appam kazhikkunnu.",
+            "Aval kadayilekku nadakkunnu."
+          ],
+          "correctAnswer": "Aval oru chaya kudikkunnu.",
+          "translatedSentence": "She is having a tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangal ella divasavum bussil pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go by bus every day.",
+            "We go by bus every morning.",
+            "They go by bus every day."
+          ],
+          "correctAnswer": "We go by bus every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Achan evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achan veettil undu.",
+            "Achan chaya undaakkunnu.",
+            "Achan ente achan aanu."
+          ],
+          "correctAnswer": "Achan veettil undu.",
+          "translatedSentence": "Father is at home."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude veedu evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente veedu Thiruvananthapurathaanu.",
+            "Ente veedu valuthaanu.",
+            "Njaan veettilekku pokunnu."
+          ],
+          "correctAnswer": "Ente veedu Thiruvananthapurathaanu.",
+          "translatedSentence": "My house is in Thiruvananthapuram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaraanu ee chaya undaakkiyathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who made this tea?",
+            "Who is drinking this tea?",
+            "Where is this tea from?"
+          ],
+          "correctAnswer": "Who made this tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kuttiyude peru enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avalude peru Meera aanu.",
+            "Aval ente sahodari aanu.",
+            "Aval Kochiyil thaamasikkunnu."
+          ],
+          "correctAnswer": "Avalude peru Meera aanu.",
+          "translatedSentence": "Her name is Meera."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal evideykkaanu ee bussil pokunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where are you going on this bus?",
+            "When are you going on this bus?",
+            "Who is going on this bus?"
+          ],
+          "correctAnswer": "Where are you going on this bus?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus stand evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ee vazhiyude avasaanam aanu.",
+            "Athu oru valiya bus aanu.",
+            "Njaan bus standil kaathirikkunnu."
+          ],
+          "correctAnswer": "Athu ee vazhiyude avasaanam aanu.",
+          "translatedSentence": "It is at the end of this road."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Athu aarude bag aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Whose bag is that?",
+            "Where is that bag?",
+            "What is in that bag?"
+          ],
+          "correctAnswer": "Whose bag is that?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku enthaanu venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku kurachu vellam venam.",
+            "Enikku Kochi valare ishtamaanu.",
+            "Njaan kadayil ninnu varunnu."
+          ],
+          "correctAnswer": "Enikku kurachu vellam venam.",
+          "translatedSentence": "I would like a little water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vazhi evideykkaanu pokunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where does this road go?",
+            "Where does this bus go?",
+            "Which road is this?"
+          ],
+          "correctAnswer": "Where does this road go?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal Kochiyil enthu joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan oru kadayil joli cheyyunnu.",
+            "Njaan Kochiyil thaamasikkunnu.",
+            "Njaan Kochiyilekku pokunnu."
+          ],
+          "correctAnswer": "Njaan oru kadayil joli cheyyunnu.",
+          "translatedSentence": "I work at a shop."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku Malayalam ariyamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku kurachu Malayalam ariyam.",
+            "Enikku ningale ariyilla.",
+            "Malayalam oru nalla bhasha aanu."
+          ],
+          "correctAnswer": "Enikku kurachu Malayalam ariyam.",
+          "translatedSentence": "I know a little Malayalam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku athu ariyilla, kshamikkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know that, sorry.",
+            "I do not want that, sorry.",
+            "I did not hear that, sorry."
+          ],
+          "correctAnswer": "I do not know that, sorry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus vannuvo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, bus ippol vannittilla.",
+            "Athe, bus innale vannirunnu.",
+            "Enikku bussil pokaan ishtamalla."
+          ],
+          "correctAnswer": "Illa, bus ippol vannittilla.",
+          "translatedSentence": "No, the bus has not come yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan innu joliykku pokunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to work today.",
+            "I did not go to work today.",
+            "I am not going home today."
+          ],
+          "correctAnswer": "I am not going to work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku meen curry ishtamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enikku meen ishtamalla.",
+            "Athe, enikku puttu ishtamaanu.",
+            "Enikku meen curry ariyilla."
+          ],
+          "correctAnswer": "Illa, enikku meen ishtamalla.",
+          "translatedSentence": "No, I do not like fish."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ee vazhi ariyilla, njaan puthiya aalaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this road, I am new here.",
+            "I do not like this road, I am new here.",
+            "I do not know this person, I am new here."
+          ],
+          "correctAnswer": "I do not know this road, I am new here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa kadayil puttu undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, avide puttu illa.",
+            "Athe, avide chaya undaakkunnu.",
+            "Enikku puttu venda, nandi."
+          ],
+          "correctAnswer": "Illa, avide puttu illa.",
+          "translatedSentence": "No, they do not have puttu there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avan innale kadayil poyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He did not go to the shop yesterday.",
+            "He does not go to the shop.",
+            "He did not come to the shop yesterday."
+          ],
+          "correctAnswer": "He did not go to the shop yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ente peru orkkunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamikkanam, enikku orma illa.",
+            "Athe, enikku ningalude veedu ariyam.",
+            "Illa, njaan avide poyilla."
+          ],
+          "correctAnswer": "Kshamikkanam, enikku orma illa.",
+          "translatedSentence": "Sorry, I do not remember."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaram, entha vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sugamaanu, ningalkku sugamaano?",
+            "Enikku vishesham ariyilla.",
+            "Njaan ee vishesham kettittilla."
+          ],
+          "correctAnswer": "Sugamaanu, ningalkku sugamaano?",
+          "translatedSentence": "I am well, and how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku innu joli undu, athukondu njaan varunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have work today, so I am not coming.",
+            "I have work today, but I am coming anyway.",
+            "I had work yesterday, so I did not come."
+          ],
+          "correctAnswer": "I have work today, so I am not coming."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal naale Thiruvananthapurathekku varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus kittiyaal njaan theerchayaayum varum.",
+            "Njaan innale avide poyirunnu.",
+            "Enikku aa sthalam nannaayi ariyam."
+          ],
+          "correctAnswer": "Bus kittiyaal njaan theerchayaayum varum.",
+          "translatedSentence": "If I get a bus, I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku chaya ishtamaanu, pakshe innu vellam mathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like tea, but today water is enough for me.",
+            "I like tea, and today I want water as well.",
+            "I used to like tea, but today I want water."
+          ],
+          "correctAnswer": "I like tea, but today water is enough for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku puttum meen curryyum venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kurachu puttu mathi, nandi.",
+            "Njaan appam undaakkaan padikkunnu.",
+            "Ente ammaykku meen curry ishtamaanu."
+          ],
+          "correctAnswer": "Kurachu puttu mathi, nandi.",
+          "translatedSentence": "Just a little puttu, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangal innale backwaters kaanaan poyi, valare nannaayirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We went to see the backwaters yesterday and it was lovely.",
+            "We are going to see the backwaters tomorrow and it will be lovely.",
+            "We went to see the backwaters yesterday but it was not good."
+          ],
+          "correctAnswer": "We went to see the backwaters yesterday and it was lovely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra naalaayi ivide thaamasikkunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan randu varshamaayi Kochiyil thaamasikkunnu.",
+            "Njaan randu divasam kazhinju naattilekku pokum.",
+            "Enikku ivide oru cheriya veedu venam."
+          ],
+          "correctAnswer": "Njaan randu varshamaayi Kochiyil thaamasikkunnu.",
+          "translatedSentence": "I have been living in Kochi for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal Malayalam nannaayi samsaarikkunnu ennu ellaavarum parayunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone says you speak Malayalam well.",
+            "Everyone says you should speak Malayalam well.",
+            "Everyone here speaks Malayalam well."
+          ],
+          "correctAnswer": "Everyone says you speak Malayalam well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sheri, njaan iranganno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sheri, pinne kaanam, nandi.",
+            "Athe, enikku aa vazhi ariyilla.",
+            "Illa, njaan innale vannirunnilla."
+          ],
+          "correctAnswer": "Sheri, pinne kaanam, nandi.",
+          "translatedSentence": "Sure, see you later, thank you."
+        }
+      ]
+    }
+  ]
+}

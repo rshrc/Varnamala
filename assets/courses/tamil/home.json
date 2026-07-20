@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku veetla evvalavu arai irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enga veetla moonu arai irukku.",
+            "Enga veedu Madurai la irukku.",
+            "Naan veetla thaan irukken."
+          ],
+          "correctAnswer": "Enga veetla moonu arai irukku.",
+          "translatedSentence": "There are three rooms in our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu enga padukkum arai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is our bedroom.",
+            "This is our kitchen.",
+            "This is our house."
+          ],
+          "correctAnswer": "This is our bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enga samaikkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan samayal araiyila samaikkiren.",
+            "Enaku samayal nalla theriyum.",
+            "Naan kaalaila saapduven."
+          ],
+          "correctAnswer": "Naan samayal araiyila samaikkiren.",
+          "translatedSentence": "I cook in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayal arai ipo suthama irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen is clean now.",
+            "The bedroom is clean now.",
+            "The kitchen is very big."
+          ],
+          "correctAnswer": "The kitchen is clean now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kuliyalarai enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kuliyalarai antha pakkam irukku.",
+            "Kuliyalarai romba periyadhu.",
+            "Naan kuliyalarai la illa."
+          ],
+          "correctAnswer": "Kuliyalarai antha pakkam irukku.",
+          "translatedSentence": "The bathroom is over on that side."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hall la periya TV irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a big TV in the living room.",
+            "There is a big TV in the bedroom.",
+            "There is a big fan in the living room."
+          ],
+          "correctAnswer": "There is a big TV in the living room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kadhavu thorandhu irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, kadhavu saathi irukku.",
+            "Aama, jannal romba periyadhu.",
+            "Kadhavu pakkathula naarkali irukku."
+          ],
+          "correctAnswer": "Illa, kadhavu saathi irukku.",
+          "translatedSentence": "No, the door is closed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En veedu rendaam maadi la irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My house is on the second floor.",
+            "My house is on the ground floor.",
+            "My room is on the second floor."
+          ],
+          "correctAnswer": "My house is on the second floor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moattai maadi ku poganuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, moattai maadi ku polaam.",
+            "Naan padukkum araiyila padikkiren.",
+            "Veetla rendu jannal irukku."
+          ],
+          "correctAnswer": "Aama, moattai maadi ku polaam.",
+          "translatedSentence": "Yes, let us go up to the terrace."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veetla fan velai seyudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, fan velai seiyala.",
+            "Aama, veedu romba periyadhu.",
+            "Fan hall la thongudhu."
+          ],
+          "correctAnswer": "Illa, fan velai seiyala.",
+          "translatedSentence": "No, the fan is not working."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En araiyila oru periya kattil irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a big bed in my room.",
+            "There is a big table in my room.",
+            "There is a big bed in your room."
+          ],
+          "correctAnswer": "There is a big bed in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thudappam enga vechinga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thudappam samayal arai la irukku.",
+            "Thudappam romba pazhasu.",
+            "Naan arai perukkanum."
+          ],
+          "correctAnswer": "Thudappam samayal arai la irukku.",
+          "translatedSentence": "The broom is in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Fridge la paal irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is milk in the fridge.",
+            "There is water in the fridge.",
+            "There is no milk in the fridge."
+          ],
+          "correctAnswer": "There is milk in the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enaku oru tumbler kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idho, tumbler edhuthu tharen.",
+            "Enaku kaapi pidikkadhu.",
+            "Naan nethu tumbler vaanginen."
+          ],
+          "correctAnswer": "Idho, tumbler edhuthu tharen.",
+          "translatedSentence": "Here, let me get you a tumbler."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naarkali mela en pusthagam irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My book is on the chair.",
+            "My book is on the table.",
+            "My bag is on the chair."
+          ],
+          "correctAnswer": "My book is on the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Light-a off pannalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konjam iru, naan padichitu irukken.",
+            "Aama, fan romba nallaa suthudhu.",
+            "Light samayal araiyila irukku."
+          ],
+          "correctAnswer": "Konjam iru, naan padichitu irukken.",
+          "translatedSentence": "Wait a bit, I am still reading."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaaliyila thanni illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no water in the bucket.",
+            "There is water in the bucket.",
+            "There is no water in the kitchen."
+          ],
+          "correctAnswer": "There is no water in the bucket."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Porvai enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Porvai kattil mela irukku.",
+            "Porvai romba sooda irukku.",
+            "Enaku thookam varudhu."
+          ],
+          "correctAnswer": "Porvai kattil mela irukku.",
+          "translatedSentence": "The blanket is on the bed."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores around the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga inniku enna samaikkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan sambar-um rasam-um samaikkiren.",
+            "Naan nethu pathiram kazhuvinen.",
+            "Samayal arai la thanni illa."
+          ],
+          "correctAnswer": "Naan sambar-um rasam-um samaikkiren.",
+          "translatedSentence": "I am making sambar and rasam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan thuni thuvachitu irukken.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am washing clothes.",
+            "I am drying clothes.",
+            "I am washing the dishes."
+          ],
+          "correctAnswer": "I am washing clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pathirangala yaaru kazhuvuvaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan thaan pathiram kazhuvuven.",
+            "Amma kaalaila dosai suduvaanga.",
+            "Pathiram ellaam romba pazhasu."
+          ],
+          "correctAnswer": "Naan thaan pathiram kazhuvuven.",
+          "translatedSentence": "I am the one who washes the dishes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thambi arai perukkitu irukkaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother is sweeping the room.",
+            "My younger brother is cleaning the kitchen.",
+            "My younger brother is sweeping the terrace."
+          ],
+          "correctAnswer": "My younger brother is sweeping the room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enaku konjam udhavi pannureengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa, naan kaykari narukki tharen.",
+            "Sambar la uppu konjam adhigam.",
+            "Naan nethu thaan thuni thuvachen."
+          ],
+          "correctAnswer": "Kandippa, naan kaykari narukki tharen.",
+          "translatedSentence": "Of course, I will cut the vegetables for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thuniya veyilla kaaya podunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please put the clothes out in the sun to dry.",
+            "Please put the clothes into the washing machine.",
+            "Please fold the clothes and keep them inside."
+          ],
+          "correctAnswer": "Please put the clothes out in the sun to dry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idli maavu irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, fridge la maavu vechirukken.",
+            "Illa, dosai romba nallaa irundhuchu.",
+            "Naan kaalaila idli saapten."
+          ],
+          "correctAnswer": "Aama, fridge la maavu vechirukken.",
+          "translatedSentence": "Yes, I have kept the batter in the fridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayal arai thara romba azhukka irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen floor is very dirty.",
+            "The kitchen floor is very clean.",
+            "The bathroom floor is very dirty."
+          ],
+          "correctAnswer": "The kitchen floor is very dirty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veetu velai ellaam mudinjucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innum thara thodaikanum.",
+            "Aama, naan filter kaapi kudichen.",
+            "Veetla naalu jannal irukku."
+          ],
+          "correctAnswer": "Illa, innum thara thodaikanum.",
+          "translatedSentence": "No, I still have to mop the floor."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "En saavi enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Un saavi mesai mela irukku.",
+            "Naan puthu saavi vaanginen.",
+            "Saavi romba chinnadhu."
+          ],
+          "correctAnswer": "Un saavi mesai mela irukku.",
+          "translatedSentence": "Your key is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chappal kadhavu pinnadi irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The slippers are behind the door.",
+            "The slippers are in front of the door.",
+            "The bag is behind the door."
+          ],
+          "correctAnswer": "The slippers are behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "TV remote-a paatheengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, adhu naarkali keezha kedakkudhu.",
+            "Illa, TV nalla velai seiyudhu.",
+            "Remote la battery puthusu."
+          ],
+          "correctAnswer": "Aama, adhu naarkali keezha kedakkudhu.",
+          "translatedSentence": "Yes, it is lying under the chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En pusthagam ellaam petti ulla irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All my books are inside the box.",
+            "All my books are on top of the box.",
+            "All my clothes are inside the box."
+          ],
+          "correctAnswer": "All my books are inside the box."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Fridge enga vechirukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fridge samayal arai moolaiyila irukku.",
+            "Fridge romba sathama sound pannudhu.",
+            "Naan fridge kadhava saathinen."
+          ],
+          "correctAnswer": "Fridge samayal arai moolaiyila irukku.",
+          "translatedSentence": "The fridge is in the corner of the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kannaadi jannal pakkathula thongudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The mirror is hanging next to the window.",
+            "The mirror is hanging next to the door.",
+            "The photo is hanging next to the window."
+          ],
+          "correctAnswer": "The mirror is hanging next to the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un cell phone enga da?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu thalayanai keezha irukku.",
+            "Naan phone la amma kitta pesinen.",
+            "Phone la charge kammiya irukku."
+          ],
+          "correctAnswer": "Adhu thalayanai keezha irukku.",
+          "translatedSentence": "It is under the pillow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vandi veettuku munnadi nikkudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The car is parked in front of the house.",
+            "The car is parked behind the house.",
+            "The auto is waiting in front of the house."
+          ],
+          "correctAnswer": "The car is parked in front of the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uppu enga vechirukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uppu stove pakkathula irukku.",
+            "Sambar la konjam uppu podunga.",
+            "Enaku uppu adhigam pidikkadhu."
+          ],
+          "correctAnswer": "Uppu stove pakkathula irukku.",
+          "translatedSentence": "The salt is right next to the stove."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vanakkam, ulla vaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandri, neenga eppadi irukkeenga?",
+            "Naan ippo veetla illa.",
+            "Kadhava konjam saathunga."
+          ],
+          "correctAnswer": "Nandri, neenga eppadi irukkeenga?",
+          "translatedSentence": "Thank you, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naarkaliyila utkarunga, naan kaapi kondu varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please have a seat, I will bring you some coffee.",
+            "Please have a seat, I will bring you some water.",
+            "Please come inside, I am making coffee for you."
+          ],
+          "correctAnswer": "Please have a seat, I will bring you some coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku kaapi venuma, tea venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enaku filter kaapi pothum.",
+            "Naan kaapi kadai la velai seiven.",
+            "Kaapi samayal arai la aarudhu."
+          ],
+          "correctAnswer": "Enaku filter kaapi pothum.",
+          "translatedSentence": "Filter coffee is enough for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saapdaama poga koodaadhu, konjam sappidunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You must not leave without eating, please have a little.",
+            "You must not eat before you leave, please wait a little.",
+            "Do not go out now, please sit here a little."
+          ],
+          "correctAnswer": "You must not leave without eating, please have a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum konjam sambar oothava?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, pothum, romba nalla irundhuchu.",
+            "Aama, naan thaan sambar vechen.",
+            "Sambar la kaykari podala."
+          ],
+          "correctAnswer": "Illa, pothum, romba nalla irundhuchu.",
+          "translatedSentence": "No, that is enough, it was really good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enga veettuku neenga eppo venaalum varalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are welcome to come to our house any time.",
+            "We can come to your house any time you like.",
+            "You should come to our house tomorrow itself."
+          ],
+          "correctAnswer": "You are welcome to come to our house any time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanga kelamburom, neram aayidichu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konjam neram irunga, mazhai vidattum.",
+            "Aama, naan ippo thaan veetuku vandhen.",
+            "Neenga innum kaapi kudikkala."
+          ],
+          "correctAnswer": "Konjam neram irunga, mazhai vidattum.",
+          "translatedSentence": "Stay a little longer, let the rain stop first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nethu enga veettuku rendu virundhaaligal vandhaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Two guests came to our house yesterday.",
+            "Two guests are coming to our house tomorrow.",
+            "Two friends came to our house last week."
+          ],
+          "correctAnswer": "Two guests came to our house yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enga veedu kandu pidikka kashtama irundhucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, auto-kaarar sariyaa kondu vandhu vittaaru.",
+            "Aama, ungaluku Chennai theriyaadhu.",
+            "Naan share-auto la Marina beach ku poven."
+          ],
+          "correctAnswer": "Illa, auto-kaarar sariyaa kondu vandhu vittaaru.",
+          "translatedSentence": "No, the auto driver dropped us right at the door."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent, neighbours, repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku maasa vaadagai evvalavu aagudhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maasam pathinaayiram rupaai, aana current bill thani.",
+            "Naan moonu varushama indha veetla irukken.",
+            "Vaadagai kudukka nethu marandhutten."
+          ],
+          "correctAnswer": "Maasam pathinaayiram rupaai, aana current bill thani.",
+          "translatedSentence": "Ten thousand rupees a month, but the electricity bill is separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayal arai pipe la thanni ottai edukkudhu, plumber-a kooptureengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen pipe is leaking, could you call a plumber?",
+            "The kitchen tap is closed, could you open it for me?",
+            "The bathroom pipe is leaking, shall I call a plumber?"
+          ],
+          "correctAnswer": "The kitchen pipe is leaking, could you call a plumber?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veettu sonthakaarar vaadagaiya koottuvaaraam, nijamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, aana naama avar kitta pesi paakkalaam.",
+            "Illa, indha veedu romba suthama irukku.",
+            "Vaadagai pathi enaku onnum pidikkadhu."
+          ],
+          "correctAnswer": "Aama, aana naama avar kitta pesi paakkalaam.",
+          "translatedSentence": "Yes, but we can try talking to him about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pakkathu veettukaaranga romba nallavanga, edhaavadhu venum na udhavi pannuvaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our neighbours are very good people, if we need anything they help us.",
+            "Our neighbours are very good people, but they never help anyone.",
+            "Our landlord is a very good man, if we need anything he helps us."
+          ],
+          "correctAnswer": "Our neighbours are very good people, if we need anything they help us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nethu raathiri current poyidicha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, rendu mani neram current illa, fan kooda suthala.",
+            "Illa, naan raathiri saaptutu sikkiram thoonginen.",
+            "Current bill-a naan nethu thaan katti-tten."
+          ],
+          "correctAnswer": "Aama, rendu mani neram current illa, fan kooda suthala.",
+          "translatedSentence": "Yes, there was no power for two hours, even the fan would not run."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan vaadagaiya ovvoru maasamum anjaam thedhi kuduthuduven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I pay the rent by the fifth of every month.",
+            "I paid the rent on the fifth of last month.",
+            "I have to pay the rent by the end of every month."
+          ],
+          "correctAnswer": "I pay the rent by the fifth of every month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Washing machine velai seiyala, yaarai kooptalaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pakkathu theruvula oru mechanic irukkaaru, avarai koopidunga.",
+            "Adhaan naan thuniya kaila thuvachen.",
+            "Washing machine kuliyalarai la irukku."
+          ],
+          "correctAnswer": "Pakkathu theruvula oru mechanic irukkaaru, avarai koopidunga.",
+          "translatedSentence": "There is a mechanic on the next street, give him a call."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puthu veedu paakkanum, aana ippo Chennai la vaadagai romba adhigam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need to look for a new house, but rents in Chennai are very high now.",
+            "I found a new house, but the rent in Chennai is very low now.",
+            "I need to look for a new house in Madurai, because the rent is high."
+          ],
+          "correctAnswer": "I need to look for a new house, but rents in Chennai are very high now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga edhukku veeda maathureenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Office romba dooram, adhanaala pakkathula veedu thedureen.",
+            "Enga veetla rendu padukkum arai irukku.",
+            "Veettu sonthakaarar nethu inga vandhaaru."
+          ],
+          "correctAnswer": "Office romba dooram, adhanaala pakkathula veedu thedureen.",
+          "translatedSentence": "The office is too far, so I am looking for a house nearby."
+        }
+      ]
+    }
+  ]
+}

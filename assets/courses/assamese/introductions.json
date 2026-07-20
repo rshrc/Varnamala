@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Name and hometown",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apunar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor naam {name}.",
+            "Apunar naam bor bhal.",
+            "Mor ghor Guwahatit."
+          ],
+          "correctAnswer": "Mor naam {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kotor manuh?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Guwahatir manuh.",
+            "Moi bhal ase, dhanyabad.",
+            "Mor bondhur naam Bikash."
+          ],
+          "correctAnswer": "Moi Guwahatir manuh.",
+          "translatedSentence": "I am from Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Jorhatot thako.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Jorhat.",
+            "I am going to Jorhat.",
+            "I am from Guwahati."
+          ],
+          "correctAnswer": "I live in Jorhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor naam Ritu.",
+            "Tumar naam Ritu.",
+            "Mor ghor iyator pora dur."
+          ],
+          "correctAnswer": "Mor naam Ritu.",
+          "translatedSentence": "My name is Ritu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apunar ghor kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your home?",
+            "What is your name?",
+            "Where are you going now?"
+          ],
+          "correctAnswer": "Where is your home?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi bhal ase.",
+            "Hoi, mor naam Bikash.",
+            "Nai, moi Guwahatit thako."
+          ],
+          "correctAnswer": "Hoi, moi bhal ase.",
+          "translatedSentence": "Yes, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Oxomor manuh.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Assam.",
+            "I speak Assamese.",
+            "I am going to Assam."
+          ],
+          "correctAnswer": "I am from Assam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi Dilhir manuh, apuni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Guwahatir pora ahisu.",
+            "Moi Dilhi kitiyau jua nai.",
+            "Mor bondhu Dilhit thake."
+          ],
+          "correctAnswer": "Moi Guwahatir pora ahisu.",
+          "translatedSentence": "I have come from Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apunak lag pai bhal lagil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was nice to meet you.",
+            "It is good to be back here.",
+            "Please come to my home."
+          ],
+          "correctAnswer": "It was nice to meet you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar boyox kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor boyox tirix bosor.",
+            "Mor bhaiyor boyox tirix bosor.",
+            "Moi tirix bosor Guwahatit asilo."
+          ],
+          "correctAnswer": "Mor boyox tirix bosor.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi ejon daktar.",
+            "Moi kaam bisari aso.",
+            "Mor deuta ejon daktar."
+          ],
+          "correctAnswer": "Moi ejon daktar.",
+          "translatedSentence": "I am a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Guwahatit kaam koru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in Guwahati.",
+            "I am looking for work in Guwahati.",
+            "I am going to Guwahati for work."
+          ],
+          "correctAnswer": "I work in Guwahati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki kora?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi kolejot porhu.",
+            "Moi kolejot kaam koru.",
+            "Moi ghorot bohi aso."
+          ],
+          "correctAnswer": "Moi kolejot porhu.",
+          "translatedSentence": "I study at college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor boyox pochix bosor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty five years old.",
+            "I have been here twenty five days.",
+            "My brother is twenty five years old."
+          ],
+          "correctAnswer": "I am twenty five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ki porhi ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi injiniyaring porhi aso.",
+            "Moi kolejot porhibo bisaru.",
+            "Moi kitap porhi aso."
+          ],
+          "correctAnswer": "Moi injiniyaring porhi aso.",
+          "translatedSentence": "I am studying engineering."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi etiya kaam nokoru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not working right now.",
+            "I do not want to work here.",
+            "I will not work tomorrow."
+          ],
+          "correctAnswer": "I am not working right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman din dhori iyat ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi dui bosor dhori iyat aso.",
+            "Moi dui bosoror pasot iyaloi ahim.",
+            "Moi dui din pasot ghoroloi jam."
+          ],
+          "correctAnswer": "Moi dui bosor dhori iyat aso.",
+          "translatedSentence": "I have been here for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor naam {name} aru moi ejon chatro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is {name} and I am a student.",
+            "My name is {name} and I am a teacher.",
+            "My name is {name} and I work here."
+          ],
+          "correctAnswer": "My name is {name} and I am a student."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Oxomiya kobo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi olop Oxomiya kobo paru.",
+            "Hoi, moi Oxomot dui bosor asilo.",
+            "Nai, mor bondhue Oxomiya kobo pare."
+          ],
+          "correctAnswer": "Hoi, moi olop Oxomiya kobo paru.",
+          "translatedSentence": "Yes, I can speak a little Assamese."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Oxomiya bujhi pau, kintu kobo nowaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand Assamese, but I cannot speak it.",
+            "I speak Assamese, but I do not understand it.",
+            "I want to learn Assamese, but I have no time."
+          ],
+          "correctAnswer": "I understand Assamese, but I cannot speak it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kot Oxomiya xikile?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Guwahatit xikisu.",
+            "Moi Oxomiya xikibo bisaru.",
+            "Moi Oxomiya bor bhal pau."
+          ],
+          "correctAnswer": "Moi Guwahatit xikisu.",
+          "translatedSentence": "I learned it in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi ghorot Hindi kotha kou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I speak Hindi at home.",
+            "I learned Hindi at home.",
+            "I speak Hindi at work."
+          ],
+          "correctAnswer": "I speak Hindi at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman bhasa jane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi tinita bhasa jano.",
+            "Moi tinita kitap porhisu.",
+            "Moi tinita bhasa xikibo bisaru."
+          ],
+          "correctAnswer": "Moi tinita bhasa jano.",
+          "translatedSentence": "I know three languages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni olop lahe lahe kobo paribo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you speak a little slowly?",
+            "Could you say that one more time?",
+            "Could you write it down for me?"
+          ],
+          "correctAnswer": "Could you speak a little slowly?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi Oxomiya najano, apuni Ingraji kobo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi Ingraji kobo paru.",
+            "Hoi, moi Oxomiya xikhi aso.",
+            "Nai, moi Ingraji xikibo bisaru."
+          ],
+          "correctAnswer": "Hoi, moi Ingraji kobo paru.",
+          "translatedSentence": "Yes, I can speak English."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor Oxomiya beya, kintu moi etiyao xikhi aso.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My Assamese is bad, but I am still learning.",
+            "My Assamese is good, and I am still learning.",
+            "I do not like Assamese, but I am still learning."
+          ],
+          "correctAnswer": "My Assamese is bad, but I am still learning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar Oxomiya bor bhal!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, moi etiyao xikhi aso.",
+            "Dhanyabad, moi Oxomiyar xikhyok.",
+            "Dhanyabad, apuni bhal Ingraji kobo pare."
+          ],
+          "correctAnswer": "Dhanyabad, moi etiyao xikhi aso.",
+          "translatedSentence": "Thank you, I am still learning."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi Jorhatot dangor hoisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhal! Apunar poriyal etiyao tatei thake ne?",
+            "Bhal! Apuni tenehole Oxomiya najane?",
+            "Bhal! Apunar boyox tenehole tirix bosor."
+          ],
+          "correctAnswer": "Bhal! Apunar poriyal etiyao tatei thake ne?",
+          "translatedSentence": "Nice! Does your family still live there?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni iyaloi kiy ahisil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why did you come here?",
+            "When did you come here?",
+            "Who did you come here with?"
+          ],
+          "correctAnswer": "Why did you come here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi kaamor babe Guwahatiloi ahisilo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apuni tat ki kaam kore?",
+            "Apunar naam ki aru boyox kiman?",
+            "Apuni kiman bhasa kobo pare?"
+          ],
+          "correctAnswer": "Apuni tat ki kaam kore?",
+          "translatedSentence": "What work do you do there?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apunar poriyalot kiman manuh ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many people are there in your family?",
+            "How many friends do you have here?",
+            "How many years have you lived here?"
+          ],
+          "correctAnswer": "How many people are there in your family?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi bhat aru masor jool bhal pau, apuni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moiu masor jool bhal pau.",
+            "Moi bhat randhibo najano.",
+            "Moi aji bhat khua nai."
+          ],
+          "correctAnswer": "Moiu masor jool bhal pau.",
+          "translatedSentence": "I like fish curry too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni saah khabo ne kophi khabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you have tea or coffee?",
+            "Do you drink tea every day?",
+            "Would you like some more tea?"
+          ],
+          "correctAnswer": "Will you have tea or coffee?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni khali homoyot ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi kitap porhibo bhal pau.",
+            "Mor khali homoy bor kom.",
+            "Moi ratipuwa kaamoloi jau."
+          ],
+          "correctAnswer": "Moi kitap porhibo bhal pau.",
+          "translatedSentence": "I like to read books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni iyat kiman din thakibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many days will you stay here?",
+            "How many days have you been here?",
+            "When will you come here again?"
+          ],
+          "correctAnswer": "How many days will you stay here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kitiyaba Brahmaputrar pare goisile ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, kintu moi jabo bisaru.",
+            "Nai, mor tat kono bondhu nai.",
+            "Hoi, mor ghor tator pora dur."
+          ],
+          "correctAnswer": "Nai, kintu moi jabo bisaru.",
+          "translatedSentence": "No, but I want to go."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eijon mor bondhu Bikash.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskar Bikash, apunak lag pai bhal lagil.",
+            "Namaskar Bikash, mor naam Bikash.",
+            "Namaskar Bikash, apuni kot goisil?"
+          ],
+          "correctAnswer": "Namaskar Bikash, apunak lag pai bhal lagil.",
+          "translatedSentence": "Hello Bikash, it is nice to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tai mor bhoni, tair naam Rima.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is my sister, and her name is Rima.",
+            "She is my friend, and her name is Rima.",
+            "She is my sister, and she lives with me."
+          ],
+          "correctAnswer": "She is my sister, and her name is Rima."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Bikashok kenekoi sine?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami eketa kolejot porhisilo.",
+            "Bikash bor bhal manuh.",
+            "Bikashor boyox tirix bosor."
+          ],
+          "correctAnswer": "Ami eketa kolejot porhisilo.",
+          "translatedSentence": "We studied at the same college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Xi Jorhatot thake, kintu etiya Guwahatit kaam kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He lives in Jorhat, but he works in Guwahati now.",
+            "He lived in Jorhat, but now he lives in Guwahati.",
+            "He works in Jorhat, but he wants to move to Guwahati."
+          ],
+          "correctAnswer": "He lives in Jorhat, but he works in Guwahati now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Teo mor deuta, teor naam Nripen Baruah.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskar, moi apunar bisoye bahut xunisu.",
+            "Namaskar, mor deutar naam Nripen.",
+            "Namaskar, apunar deuta kot ase?"
+          ],
+          "correctAnswer": "Namaskar, moi apunar bisoye bahut xunisu.",
+          "translatedSentence": "Hello, I have heard a lot about you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor bondhue Oxomiya najane, karone moi Ingrajit kotha kou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend does not know Assamese, so I speak in English.",
+            "My friend knows Assamese, so we speak in Assamese.",
+            "My friend is learning Assamese, so I speak slowly."
+          ],
+          "correctAnswer": "My friend does not know Assamese, so I speak in English."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar bondhue ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Xi ejon injiniyar, Guwahatit kaam kore.",
+            "Moi ejon injiniyar, Guwahatit kaam koru.",
+            "Tai ejoni daktar, Jorhatot thake."
+          ],
+          "correctAnswer": "Xi ejon injiniyar, Guwahatit kaam kore.",
+          "translatedSentence": "He is an engineer, and he works in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami dujon eketa officot kaam koru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The two of us work in the same office.",
+            "The two of us studied in the same college.",
+            "We both want to work in this office."
+          ],
+          "correctAnswer": "The two of us work in the same office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bikash, tumi Rimak sina ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, ami dujon bohut dinor bondhu.",
+            "Nai, moi tair naam kitiyau xuna nai.",
+            "Hoi, Rima mor bhoni nohoi."
+          ],
+          "correctAnswer": "Hoi, ami dujon bohut dinor bondhu.",
+          "translatedSentence": "Yes, the two of us have been friends for a long time."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Numbers and staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi apunar phone number lobo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi etiyai apunak messej kori diu.",
+            "Hoi, moi apunar number likhi lolu.",
+            "Nai, moi apunak phone kora nai."
+          ],
+          "correctAnswer": "Hoi, moi etiyai apunak messej kori diu.",
+          "translatedSentence": "Yes, I will send you a message right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak kailoi phone korim, jodi apuni besto nathake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will call you tomorrow if you are not busy.",
+            "I called you yesterday, but you were busy.",
+            "You can call me tomorrow if you are free."
+          ],
+          "correctAnswer": "I will call you tomorrow if you are not busy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami aru kitiya lag pam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ahota xoptahot lag pale kenekua hobo?",
+            "Moi kailoi ghoroloi ghuri jam.",
+            "Ami kali Guwahatit lag paisilo."
+          ],
+          "correctAnswer": "Ahota xoptahot lag pale kenekua hobo?",
+          "translatedSentence": "How about we meet next week?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni jodi Guwahatiloi ahe, moke phone koribo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come to Guwahati, please call me.",
+            "When I come to Guwahati, I will call you.",
+            "If you call me, I will come to Guwahati."
+          ],
+          "correctAnswer": "If you come to Guwahati, please call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji apunar logot kotha pati bhal lagil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Morio bhal lagil, pasot lag pam.",
+            "Morio bhal lagil, kintu moi apunak nasinu.",
+            "Hoi, moi aji bor besto asilo."
+          ],
+          "correctAnswer": "Morio bhal lagil, pasot lag pam.",
+          "translatedSentence": "I enjoyed it too, see you later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunar naam aru number likhi loisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have written down your name and number.",
+            "I have forgotten your name and number.",
+            "I will give you my name and number."
+          ],
+          "correctAnswer": "I have written down your name and number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kailoi ami saah khabo joam ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, kintu moi olop deri hobo pare.",
+            "Hoi, moi kailoi saah khaisilo.",
+            "Nai, moi saah bor bhal pau."
+          ],
+          "correctAnswer": "Hoi, kintu moi olop deri hobo pare.",
+          "translatedSentence": "Yes, but I may be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi etiya jabo lagibo, kintu apunar logot kotha pati bhal palu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to go now, but it was good talking with you.",
+            "I want to go now, because I am very tired.",
+            "I will go now, and I will come back later."
+          ],
+          "correctAnswer": "I have to go now, but it was good talking with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhal thakibo, aru pasot lag pam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apuniu bhal thakibo, dhanyabad.",
+            "Moi bhal ase, dhanyabad.",
+            "Hoi, moi kailoi Jorhatoloi jam."
+          ],
+          "correctAnswer": "Apuniu bhal thakibo, dhanyabad.",
+          "translatedSentence": "You take care as well, thank you."
+        }
+      ]
+    }
+  ]
+}

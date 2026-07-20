@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi roj koto cup cha khao?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami cha khai na.",
+            "Ami roj dui cup cha khai.",
+            "Amar ek cup cha lagbe."
+          ],
+          "correctAnswer": "Ami roj dui cup cha khai.",
+          "translatedSentence": "I drink two cups of tea every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ekta bon ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two sisters.",
+            "I do not have a sister.",
+            "I have one sister."
+          ],
+          "correctAnswer": "I have one sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar kojon bondhu ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar tinjon bondhu ache.",
+            "Amar ekjon bon ache.",
+            "Ekhane amar bondhu nei."
+          ],
+          "correctAnswer": "Amar tinjon bondhu ache.",
+          "translatedSentence": "I have three friends."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhane panchta chair ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four chairs here.",
+            "There are five chairs here.",
+            "There is one chair here."
+          ],
+          "correctAnswer": "There are five chairs here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar koyta mishti chai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Noy ta mishti chai.",
+            "Ekhon mishti chai na.",
+            "Charte mishti chai."
+          ],
+          "correctAnswer": "Charte mishti chai.",
+          "translatedSentence": "I want four sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader class e dosh jon chhatro ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are ten students in our class.",
+            "There are nine students in our class.",
+            "There are ten teachers in our class."
+          ],
+          "correctAnswer": "There are ten students in our class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar bari te kojon lok thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami ekai thaki.",
+            "Amader bari te chhoy jon thake.",
+            "Amader bari ta khub boro."
+          ],
+          "correctAnswer": "Amader bari te chhoy jon thake.",
+          "translatedSentence": "Six people live in our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj aat ghonta kaj kori.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sleep eight hours every day.",
+            "I work eight hours every day.",
+            "I work eight hours on Sunday."
+          ],
+          "correctAnswer": "I work eight hours every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni koyta dim neben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami saat ta dim nebo.",
+            "Ami dim khai na.",
+            "Amar bari te ekta dim ache."
+          ],
+          "correctAnswer": "Ami saat ta dim nebo.",
+          "translatedSentence": "I will take seven eggs."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Counting to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei boi te koto pata ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei boi te chollish ta golpo ache.",
+            "Ei boi te eksho pata ache.",
+            "Ei boi ta ami kal kinechi."
+          ],
+          "correctAnswer": "Ei boi te eksho pata ache.",
+          "translatedSentence": "This book has a hundred pages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader office e ponchash jon lok kaj kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fifty people work in our office.",
+            "Fifteen people work in our office.",
+            "Fifty people come to our office."
+          ],
+          "correctAnswer": "Fifty people work in our office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar class e koto jon chhatro?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar class e onek chhatro ache.",
+            "Amar class ta khub boro.",
+            "Amar class e tirish jon chhatro."
+          ],
+          "correctAnswer": "Amar class e tirish jon chhatro.",
+          "translatedSentence": "There are thirty students in my class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami bajar theke baro ta dim kinechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I bought twenty eggs from the market.",
+            "I bought twelve eggs from the market.",
+            "I will buy twelve eggs from the market."
+          ],
+          "correctAnswer": "I bought twelve eggs from the market."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki kuri ta mishti nebe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami ponero ta nebo.",
+            "Hyan, kuri ta i thik ache.",
+            "Mishti gulo aaj khub taja."
+          ],
+          "correctAnswer": "Na, ami ponero ta nebo.",
+          "translatedSentence": "No, I will take fifteen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tram ta pochish minute pore ashbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tram left twenty-five minutes ago.",
+            "The tram will come in thirty-five minutes.",
+            "The tram will come in twenty-five minutes."
+          ],
+          "correctAnswer": "The tram will come in twenty-five minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Egaro ta aam ache, aro koyta lagbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aro egaro ta lagbe.",
+            "Aro noy ta lagbe.",
+            "Aam ar lagbe na."
+          ],
+          "correctAnswer": "Aro noy ta lagbe.",
+          "translatedSentence": "We need nine more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader school e sholo ta ghor ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our school has sixteen rooms.",
+            "Our school has seventeen rooms.",
+            "Our school has sixteen teachers."
+          ],
+          "correctAnswer": "Our school has sixteen rooms."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami bajar theke koyta kola anbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek dojon aam ano.",
+            "Kola ekhon anar dorkar nei.",
+            "Baro ta kola ano."
+          ],
+          "correctAnswer": "Baro ta kola ano.",
+          "translatedSentence": "Bring twelve bananas."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much it costs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei mishti gulor daam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekta mishti dosh taka.",
+            "Mishti gulo aajkei banano hoyeche.",
+            "Ami duto mishti nebo."
+          ],
+          "correctAnswer": "Ekta mishti dosh taka.",
+          "translatedSentence": "One sweet costs ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei macher daam kilo pichhu tinsho taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fish costs three hundred rupees in total.",
+            "This fish costs three hundred rupees a kilo.",
+            "This fish costs two hundred rupees a kilo."
+          ],
+          "correctAnswer": "This fish costs three hundred rupees a kilo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Daam ta ektu kom korun na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dokan ta ekhon bondho ache.",
+            "Ami bajar theke aschi.",
+            "Achha, dui sho taka din."
+          ],
+          "correctAnswer": "Achha, dui sho taka din.",
+          "translatedSentence": "All right, give me two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar kachhe khuchro nei, sudhu panchsho taka ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no change, only a five hundred rupee note.",
+            "I have no money at all, not even five hundred rupees.",
+            "I have change, but not five hundred rupees."
+          ],
+          "correctAnswer": "I have no change, only a five hundred rupee note."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shob mile koto holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj bajar taratari bondho hoye geche.",
+            "Shob mile chollish taka holo.",
+            "Ami taka niye ashi ni."
+          ],
+          "correctAnswer": "Shob mile chollish taka holo.",
+          "translatedSentence": "It comes to forty rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek plate bhaat ar macher jhol koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do they sell rice and fish curry?",
+            "Do you want rice and fish curry?",
+            "How much is a plate of rice and fish curry?"
+          ],
+          "correctAnswer": "How much is a plate of rice and fish curry?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami ki card e taka dite pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ekhane sudhu cash chole.",
+            "Hyan, card ta ekhane rakhun.",
+            "Amar kachhe card nei."
+          ],
+          "correctAnswer": "Na, ekhane sudhu cash chole.",
+          "translatedSentence": "No, only cash works here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cha ta matro panch taka, khub sosta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tea is only five rupees, very cheap.",
+            "The tea is fifty rupees, which is quite cheap.",
+            "The tea is only five rupees, but it is not good."
+          ],
+          "correctAnswer": "The tea is only five rupees, very cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jama tar daam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei jama ta amar khub pochondo.",
+            "Jama ta ektu boro hoye jachche.",
+            "Ei jama ta chhoysho taka."
+          ],
+          "correctAnswer": "Ei jama ta chhoysho taka.",
+          "translatedSentence": "This shirt is six hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and Quantity",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar boyosh koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar boyosh tirish bochor.",
+            "Ami tirish bochor dhore ekhane achi.",
+            "Amar boyosh ami karoke boli na."
+          ],
+          "correctAnswer": "Amar boyosh tirish bochor.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar meyer boyosh char bochor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is four years old.",
+            "My daughter is four years old.",
+            "My daughter is fourteen years old."
+          ],
+          "correctAnswer": "My daughter is four years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar phone number ta ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar phone ta ekhon kaj korche na.",
+            "Ami apnake pore phone korbo.",
+            "Amar number noy aat saat char dui."
+          ],
+          "correctAnswer": "Amar number noy aat saat char dui.",
+          "translatedSentence": "My number is nine eight seven four two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake ek kilo aloo ar aadha kilo peyaj din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me half a kilo of potatoes and one kilo of onions.",
+            "I need one kilo of potatoes and a few onions.",
+            "Give me one kilo of potatoes and half a kilo of onions."
+          ],
+          "correctAnswer": "Give me one kilo of potatoes and half a kilo of onions."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha te koto chini debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ektu chini dile i hobe.",
+            "Beshi dudh dio na.",
+            "Ami cha ta ekhon khabo na."
+          ],
+          "correctAnswer": "Ektu chini dile i hobe.",
+          "translatedSentence": "Just a little sugar is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Onek lok ekhane cha khete ashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A lot of people come here to drink tea.",
+            "Very few people come here to drink tea.",
+            "A lot of people come here to eat rice."
+          ],
+          "correctAnswer": "A lot of people come here to drink tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar chhele koto boro holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "O ekhon school e porche.",
+            "Or boyosh ekhon baro bochor.",
+            "O amar cheye lomba hoye geche."
+          ],
+          "correctAnswer": "Or boyosh ekhon baro bochor.",
+          "translatedSentence": "He is twelve years old now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar kachhe kom taka ache, tai ami kom kinechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had a lot of money, so I bought more.",
+            "I have little money, so I bought less.",
+            "I have little money, so I did not buy anything."
+          ],
+          "correctAnswer": "I have little money, so I bought less."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aro ektu macher jhol debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami maach ranna kori ni.",
+            "Ami ekhon maach kinte jachchi.",
+            "Hyan, ektu dao, kintu beshi na."
+          ],
+          "correctAnswer": "Hyan, ektu dao, kintu beshi na.",
+          "translatedSentence": "Yes, give me a little, but not too much."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhon koyta baje?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekhon sare tinte baje.",
+            "Ekhon bikel hoye geche.",
+            "Amar ghori ta bondho hoye ache."
+          ],
+          "correctAnswer": "Ekhon sare tinte baje.",
+          "translatedSentence": "It is half past three now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Metro sokal saat tay chalu hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The metro starts running at seven in the morning.",
+            "The metro stops running at seven in the morning.",
+            "The metro starts running at nine in the morning."
+          ],
+          "correctAnswer": "The metro starts running at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni roj kokhon office jan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami roj metro te office jai.",
+            "Ami roj sare noy tay beroi.",
+            "Amar office ta Park Street e."
+          ],
+          "correctAnswer": "Ami roj sare noy tay beroi.",
+          "translatedSentence": "I leave at half past nine every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amra bikel char tay dekha korbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We met at four in the afternoon.",
+            "We will meet at four in the afternoon.",
+            "We will meet at five in the afternoon."
+          ],
+          "correctAnswer": "We will meet at four in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tram ta kokhon ashbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aro dosh minute pore ashbe.",
+            "Tram ta ekhuni chole gelo.",
+            "Tram e aaj onek bhir."
+          ],
+          "correctAnswer": "Aro dosh minute pore ashbe.",
+          "translatedSentence": "It will come in another ten minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dokan ta raat dosh tay bondho hoye jay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop opens at ten at night.",
+            "The shop closes at nine at night.",
+            "The shop closes at ten at night."
+          ],
+          "correctAnswer": "The shop closes at ten at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kokhon khete bosbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar khub khide peyeche.",
+            "Ami bhaat ar macher jhol khabo.",
+            "Ami dupur ekta nagad khabo."
+          ],
+          "correctAnswer": "Ami dupur ekta nagad khabo.",
+          "translatedSentence": "I will eat around one in the afternoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train ta poune char tay chharbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train will leave at a quarter to four.",
+            "The train will leave at a quarter past four.",
+            "The train left at a quarter to four."
+          ],
+          "correctAnswer": "The train will leave at a quarter to four."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cinema ta koyta theke shuru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sondhe sawa chhoy tay shuru.",
+            "Cinema ta khub bhalo bolche shobai.",
+            "Ami ticket kete rekhechi."
+          ],
+          "correctAnswer": "Sondhe sawa chhoy tay shuru.",
+          "translatedSentence": "It starts at a quarter past six in the evening."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei dokane maach oi dokaner cheye dami keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karon ami roj ekhane bajar kori.",
+            "Karon ekhankar maach onek beshi taja.",
+            "Kintu ami maach beshi khai na."
+          ],
+          "correctAnswer": "Karon ekhankar maach onek beshi taja.",
+          "translatedSentence": "Because the fish here is much fresher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi beshi mishti nen, tahole daam ektu kom hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you take more sweets, the price will be a little higher.",
+            "If you take fewer sweets, the price will stay the same.",
+            "If you take more sweets, the price will be a little lower."
+          ],
+          "correctAnswer": "If you take more sweets, the price will be a little lower."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shob mile koto holo, ektu hisheb kore bolun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shob mile satsho pochish taka holo.",
+            "Ami ekhon hisheb korte parchi na.",
+            "Aajke dokane bikri onek kom holo."
+          ],
+          "correctAnswer": "Shob mile satsho pochish taka holo.",
+          "translatedSentence": "It comes to seven hundred and twenty-five rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami tin kilo cheyechilam, kintu apni dui kilo diyechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I asked for two kilos, but you have given me three.",
+            "I asked for three kilos, but you have given me two.",
+            "I wanted three kilos and you gave me exactly that."
+          ],
+          "correctAnswer": "I asked for three kilos, but you have given me two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar kachhe eto kom taka keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karon bank ta aaj bondho chhilo.",
+            "Ami taka ta ekhono ganini.",
+            "Karon ami aaj onek beshi kharoch kore felechi."
+          ],
+          "correctAnswer": "Karon ami aaj onek beshi kharoch kore felechi.",
+          "translatedSentence": "Because I have spent far too much today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei bochor amader class e gato bochorer cheye kom chhatro ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are fewer students in our class this year than last year.",
+            "There are more students in our class this year than last year.",
+            "Our class has as many students this year as last year."
+          ],
+          "correctAnswer": "There are fewer students in our class this year than last year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Duto plate bhaat lagbe na, ekta plate holei cholbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, tahole duto plate niye aschi.",
+            "Thik ache, ami ekta plate i anchi.",
+            "Bhaat ekhono hoyni, ektu opekkha korun."
+          ],
+          "correctAnswer": "Thik ache, ami ekta plate i anchi.",
+          "translatedSentence": "All right, I will bring just one plate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi aro lok ashe, tahole aro cha banate hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If more people come, we will have to buy more tea.",
+            "If fewer people come, we will make less tea.",
+            "If more people come, we will have to make more tea."
+          ],
+          "correctAnswer": "If more people come, we will have to make more tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhane kar kachhe sob theke beshi taka ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar cheye or kachhe onek beshi taka ache.",
+            "Amar kachhe ekdom taka nei.",
+            "Amra shobai mile taka diyechi."
+          ],
+          "correctAnswer": "Amar cheye or kachhe onek beshi taka ache.",
+          "translatedSentence": "He has much more money than I do."
+        }
+      ]
+    }
+  ]
+}

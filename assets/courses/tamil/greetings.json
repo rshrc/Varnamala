@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vanakkam! Eppadi irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan nallaa irukken.",
+            "Naan veetla irukken.",
+            "Enakku pasikkudhu."
+          ],
+          "correctAnswer": "Naan nallaa irukken.",
+          "translatedSentence": "I am doing well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga sowkiyamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, naan sowkiyam.",
+            "Illa, naan varala.",
+            "Adhu en veedu."
+          ],
+          "correctAnswer": "Aamaa, naan sowkiyam.",
+          "translatedSentence": "Yes, I am keeping well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan romba nallaa irukken.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am doing very well.",
+            "I am not doing well.",
+            "I am here right now."
+          ],
+          "correctAnswer": "I am doing very well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee eppadi irukke?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan nallaa irukken, nee?",
+            "Naan Madurai poren.",
+            "Adhu enakku theriyum."
+          ],
+          "correctAnswer": "Naan nallaa irukken, nee?",
+          "translatedSentence": "I am fine, and you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vanakkam, nanba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hello, my friend.",
+            "Goodbye, my friend.",
+            "Thank you, my friend."
+          ],
+          "correctAnswer": "Hello, my friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ellaam nallaa irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, ellaam nallaa irukku.",
+            "Illa, naan ippo poren.",
+            "Enakku oru kaapi venum."
+          ],
+          "correctAnswer": "Aamaa, ellaam nallaa irukku.",
+          "translatedSentence": "Yes, everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku konjam kalaippaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am feeling a little tired.",
+            "I am feeling very happy.",
+            "I am not at home now."
+          ],
+          "correctAnswer": "I am feeling a little tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan nallaa irukken. Neenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanum nallaa irukken.",
+            "Naan naalaiki varen.",
+            "Enga veedu inge irukku."
+          ],
+          "correctAnswer": "Naanum nallaa irukken.",
+          "translatedSentence": "I am well too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nee nallaa illaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you not well?",
+            "Are you coming today?",
+            "Do you know him?"
+          ],
+          "correctAnswer": "Are you not well?"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning, good night",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaalai vanakkam! Neenga nalla thoongineengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, naan nalla thoonginen.",
+            "Illa, naan innum sappidala.",
+            "Naan office kilambiren."
+          ],
+          "correctAnswer": "Aamaa, naan nalla thoonginen.",
+          "translatedSentence": "Yes, I slept well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kaalaila filter kaapi kudippen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink filter coffee in the morning.",
+            "I drank tea last night.",
+            "I will make coffee for you."
+          ],
+          "correctAnswer": "I drink filter coffee in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaanga sir, ullee vaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandri, naan ullee varen.",
+            "Naan veetuku poren.",
+            "Adhu enakku nalla theriyum."
+          ],
+          "correctAnswer": "Nandri, naan ullee varen.",
+          "translatedSentence": "Thank you, I will come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Iravu vanakkam, nalla thoongunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, sleep well.",
+            "Good morning, get up early.",
+            "Good evening, come home soon."
+          ],
+          "correctAnswer": "Good night, sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga kaalaila sikkiram ezhundhirippeengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, naan anju maniku ezhundhirippen.",
+            "Illa, naan raathiri sappiden.",
+            "Naan Marina beach-ku poren."
+          ],
+          "correctAnswer": "Aamaa, naan anju maniku ezhundhirippen.",
+          "translatedSentence": "Yes, I get up at five o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan raathiri sikkiram thoonguven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to sleep early at night.",
+            "I get up early in the morning.",
+            "I do not sleep at night."
+          ],
+          "correctAnswer": "I go to sleep early at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaalai vanakkam! Innikku eppadi irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innikku romba nallaa irukken.",
+            "Naan nethu Chennai vandhen.",
+            "Enakku rendu dosai venum."
+          ],
+          "correctAnswer": "Innikku romba nallaa irukken.",
+          "translatedSentence": "Today I am doing very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaanga, ukkarunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Come in and have a seat.",
+            "Go out and wait there.",
+            "Come back again tomorrow."
+          ],
+          "correctAnswer": "Come in and have a seat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan kilambiren, iravu vanakkam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, nalla thoongunga.",
+            "Illa, naan innum kilambala.",
+            "Enakku andha idam theriyaadhu."
+          ],
+          "correctAnswer": "Sari, nalla thoongunga.",
+          "translatedSentence": "All right, sleep well."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Romba nandri, neenga niraya udhavi pannineenga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaa illa, edhukku nandri?",
+            "Naan unga kooda varala.",
+            "Enakku andha pusthagam venum."
+          ],
+          "correctAnswer": "Paravaa illa, edhukku nandri?",
+          "translatedSentence": "Not at all, there is no need to thank me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thayavu senju konjam thanni kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me some water.",
+            "Please close the door.",
+            "Please wait for me here."
+          ],
+          "correctAnswer": "Please give me some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mannichukkonga, naan konjam thaamadhamaa vandhutten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaa illa, neenga ukkarunga.",
+            "Illa, naan varamaatten.",
+            "Enakku innikku neram illa."
+          ],
+          "correctAnswer": "Paravaa illa, neenga ukkarunga.",
+          "translatedSentence": "It is all right, please sit down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konjam vazhi vidunga, naan poganum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please make way, I have to go.",
+            "Please come with me now.",
+            "Please wait, I am coming."
+          ],
+          "correctAnswer": "Please make way, I have to go."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan unga kudaiya odachitten, mannichukkonga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaa illa, adhu perisa illa.",
+            "Aamaa, naan pudhu kudai vaangunen.",
+            "Enakku kudai enga irukku-nu theriyaadhu."
+          ],
+          "correctAnswer": "Paravaa illa, adhu perisa illa.",
+          "translatedSentence": "It is all right, it is not a big deal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ennai mannichidunga, naan thappa pesitten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Forgive me, I spoke wrongly.",
+            "Tell me again, I did not hear you.",
+            "Listen to me, I am speaking now."
+          ],
+          "correctAnswer": "Forgive me, I spoke wrongly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Konjam idha pidichukkureengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa, inge kudunga.",
+            "Illa, naan onnum kekkala.",
+            "Adhu enga irukku?"
+          ],
+          "correctAnswer": "Kandippa, inge kudunga.",
+          "translatedSentence": "Of course, hand it to me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenga panna udhaviku romba nandri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for your help.",
+            "I will help you again tomorrow.",
+            "I do not need your help."
+          ],
+          "correctAnswer": "Thank you very much for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Konjam kekkalaamaa, bus stop enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Andha kadai pakkathula dhaan irukku.",
+            "Naan bus-la dhaan varen.",
+            "Enakku bus-la pogaradhu pidikkaadhu."
+          ],
+          "correctAnswer": "Andha kadai pakkathula dhaan irukku.",
+          "translatedSentence": "It is right next to that shop."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sari, naan poyittu varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, poyittu vaanga.",
+            "Sari, naan ippo dhaan vandhen.",
+            "Illa, naan onnum sollala."
+          ],
+          "correctAnswer": "Sari, poyittu vaanga.",
+          "translatedSentence": "All right, see you soon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kilambiren, appuram paakkalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving, see you later.",
+            "I have arrived, let us talk.",
+            "I am waiting, come quickly."
+          ],
+          "correctAnswer": "I am leaving, see you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan innikku raathiri Maduraiku kilambiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaakkirathaiya poyittu vaanga.",
+            "Naan Madurai-la dhaan pirandhen.",
+            "Enakku Madurai vazhi theriyaadhu."
+          ],
+          "correctAnswer": "Jaakkirathaiya poyittu vaanga.",
+          "translatedSentence": "Travel safely and come back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jaakkirathaiya irunga, naaliki paakkalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take care, see you tomorrow.",
+            "Wait here, I will come tomorrow.",
+            "Be quick, we are leaving tomorrow."
+          ],
+          "correctAnswer": "Take care, see you tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga eppo thirumba varuveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan adutha vaaram thirumba varen.",
+            "Naan nethu thirumbi vandhen.",
+            "Enakku thirumba pogaradhu pidikkala."
+          ],
+          "correctAnswer": "Naan adutha vaaram thirumba varen.",
+          "translatedSentence": "I will come back next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellarukkum en vanakkam sollunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give my regards to everyone.",
+            "Tell everyone to come here.",
+            "Ask everyone about me."
+          ],
+          "correctAnswer": "Give my regards to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Romba neram aachu, naan kilambanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, jaakkirathaiya poonga.",
+            "Sari, naan ungaluku kaapi podren.",
+            "Illa, naan innum sappidala."
+          ],
+          "correctAnswer": "Sari, jaakkirathaiya poonga.",
+          "translatedSentence": "All right, go carefully."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innoru vaaram kazhichu paakkalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us meet again after a week.",
+            "We met each other a week ago.",
+            "I stayed there for one week."
+          ],
+          "correctAnswer": "Let us meet again after a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan kilambaradhukku munnaadi ungala paakka varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa vaanga, naan veetla dhaan irupen.",
+            "Illa, naan enga-yum pogala.",
+            "Adhu enakku theriyaadhu."
+          ],
+          "correctAnswer": "Kandippa vaanga, naan veetla dhaan irupen.",
+          "translatedSentence": "Do come, I will be at home."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Talking to elders",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paatti, neenga saapteengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa kanna, naan saapten.",
+            "Illa kanna, naan veetla illa.",
+            "Enakku idli seyya theriyaadhu."
+          ],
+          "correctAnswer": "Aamaa kanna, naan saapten.",
+          "translatedSentence": "Yes dear, I have eaten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Periyavanga kitta neenga-nu dhaan pesanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "With elders you must use the polite form.",
+            "With elders you should not speak first.",
+            "Elders always speak politely to us."
+          ],
+          "correctAnswer": "With elders you must use the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Anna, Marina beach-ku evlo dooram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Inge irundhu rendu kilometer dhaan.",
+            "Naan beach-ku pogave illa.",
+            "Enakku kadal romba pidikkum."
+          ],
+          "correctAnswer": "Inge irundhu rendu kilometer dhaan.",
+          "translatedSentence": "It is only two kilometres from here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thatha, neenga konjam ukkarunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandfather, please sit down for a while.",
+            "Grandfather, please come here quickly.",
+            "Grandfather, are you feeling tired?"
+          ],
+          "correctAnswer": "Grandfather, please sit down for a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee enna panre, thambi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan padichukittu irukken, anna.",
+            "Naan naaliki ungala paakka varen, anna.",
+            "Enakku romba pasikkudhu, anna."
+          ],
+          "correctAnswer": "Naan padichukittu irukken, anna.",
+          "translatedSentence": "I am studying, brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Theriyaadhavanga kitta madhippodu pesanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should speak respectfully with strangers.",
+            "You should not speak with strangers.",
+            "Strangers rarely speak to us here."
+          ],
+          "correctAnswer": "You should speak respectfully with strangers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amma, naan ungaluku enna vaangi varatum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konjam paal vaangittu vaa, kanna.",
+            "Naan kadaikku poyittu vandhen, kanna.",
+            "Enakku onnum theriyaadhu, kanna."
+          ],
+          "correctAnswer": "Konjam paal vaangittu vaa, kanna.",
+          "translatedSentence": "Bring me some milk, dear."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ayya, ungaluku edhaavadhu udhavi venumaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sir, do you need any help?",
+            "Sir, where do you want to go?",
+            "Sir, is this bag yours?"
+          ],
+          "correctAnswer": "Sir, do you need any help?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Akka, share-auto enga nikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Andha signal pakkathula nikkum.",
+            "Naan auto-la dhaan vandhen.",
+            "Auto kaasu romba adhigam."
+          ],
+          "correctAnswer": "Andha signal pakkathula nikkum.",
+          "translatedSentence": "It stops near that traffic signal."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enna, romba naal aachu, neenga enga irundheenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan velai vishayamaa Bengaluru-la irundhen, adhanaala vara mudiyala.",
+            "Naan innikku kaalaila dhaan Chennai vandhen.",
+            "Enakku unga peyar innum theriyaadhu."
+          ],
+          "correctAnswer": "Naan velai vishayamaa Bengaluru-la irundhen, adhanaala vara mudiyala.",
+          "translatedSentence": "I was in Bengaluru for work, so I could not come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Romba naal kazhichu ungala paakkiren, neenga konjamum maaraliye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am seeing you after a long time, and you have not changed at all.",
+            "I saw you last week, but you did not talk to me.",
+            "I will see you after a long time, if you come here."
+          ],
+          "correctAnswer": "I am seeing you after a long time, and you have not changed at all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veetla kudumbam ellaam eppadi irukkaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellarum nallaa irukkaanga, aanaa appa-ku konjam udambu sariyilla.",
+            "Naan kudumbathoda Marina beach-ku ponen.",
+            "Enakku unga kudumbam pathi onnum theriyaadhu."
+          ],
+          "correctAnswer": "Ellarum nallaa irukkaanga, aanaa appa-ku konjam udambu sariyilla.",
+          "translatedSentence": "Everyone is well, but my father is a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan Chennai-la irundhaalum, ungala paakka neram kidaikkala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though I was in Chennai, I did not get time to see you.",
+            "When I come to Chennai, I will meet you first.",
+            "Because I live in Chennai, I see you often."
+          ],
+          "correctAnswer": "Even though I was in Chennai, I did not get time to see you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo neenga enna velai paakkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan oru company-la velai paakkiren, aanaa veetla irundhu dhaan.",
+            "Naan adutha vaaram velai thedi kilambiren.",
+            "Enakku andha velai konjam kooda pidikkala."
+          ],
+          "correctAnswer": "Naan oru company-la velai paakkiren, aanaa veetla irundhu dhaan.",
+          "translatedSentence": "I work at a company, but I work from home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ungaluku neram irundhaa, naalaiki kaapi kudikka varalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, we can go for a coffee tomorrow.",
+            "Since you had no time, we did not meet yesterday.",
+            "I had coffee with you tomorrow morning."
+          ],
+          "correctAnswer": "If you have time, we can go for a coffee tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naam romba naal kazhichu sandhichirukkom, konjam pesalaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa pesalaam, aanaa enakku konjam neram dhaan irukku.",
+            "Illa, naan ungala munnaadi paathadhe illa.",
+            "Naan ippo dhaan pesa aarambichen."
+          ],
+          "correctAnswer": "Kandippa pesalaam, aanaa enakku konjam neram dhaan irukku.",
+          "translatedSentence": "Of course we can talk, but I only have a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan ippo kilambanum, illainaa auto kedaikkaadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to leave now, otherwise I will not get an auto.",
+            "I left just now because there was no auto.",
+            "If I get an auto, I will leave right now."
+          ],
+          "correctAnswer": "I have to leave now, otherwise I will not get an auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha murai Chennai vandhaa, en veetuku kandippa vaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa varen, appo naama serndhu idli sappidalaam.",
+            "Naan Chennai pakkam varave maatten.",
+            "Enakku unga veedu theriyaadhu, adhanaala naan varala."
+          ],
+          "correctAnswer": "Kandippa varen, appo naama serndhu idli sappidalaam.",
+          "translatedSentence": "I will definitely come, and then we can eat idli together."
+        }
+      ]
+    }
+  ]
+}

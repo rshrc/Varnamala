@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal enthu joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan oru teacher aanu.",
+            "Njaan veettil aanu.",
+            "Enikku joli ishtamaanu."
+          ],
+          "correctAnswer": "Njaan oru teacher aanu.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan oru doctor aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a doctor.",
+            "I am a student.",
+            "I need a doctor."
+          ],
+          "correctAnswer": "I am a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal evide joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochiyil joli cheyyunnu.",
+            "Njaan Kochiyil thamasikkunnu.",
+            "Enikku oru joli venam."
+          ],
+          "correctAnswer": "Njaan Kochiyil joli cheyyunnu.",
+          "translatedSentence": "I work in Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avan oru engineer aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is an engineer.",
+            "She is an engineer.",
+            "He is a driver."
+          ],
+          "correctAnswer": "He is an engineer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee evide padikkunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Thiruvananthapurathu padikkunnu.",
+            "Njaan raavile padikkunnu.",
+            "Enikku padikkaan ishtamaanu."
+          ],
+          "correctAnswer": "Njaan Thiruvananthapurathu padikkunnu.",
+          "translatedSentence": "I study in Thiruvananthapuram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aval oru nurse aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is a nurse.",
+            "He is a nurse.",
+            "She is a teacher."
+          ],
+          "correctAnswer": "She is a nurse."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude joli ishtamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku valare ishtamaanu.",
+            "Athe, njaan Kochiyil aanu.",
+            "Illa, enikku ariyilla."
+          ],
+          "correctAnswer": "Athe, enikku valare ishtamaanu.",
+          "translatedSentence": "Yes, I like it very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan oru kadayil joli cheyyunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in a shop.",
+            "I study in a school.",
+            "I am going to the shop."
+          ],
+          "correctAnswer": "I work in a shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Avan enthu cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avan oru bus driver aanu.",
+            "Aval oru bus driver aanu.",
+            "Avan veettil illa."
+          ],
+          "correctAnswer": "Avan oru bus driver aanu.",
+          "translatedSentence": "He is a bus driver."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude klaasil ethra kuttikal undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muppathu kuttikal undu.",
+            "Klaas raavile undu.",
+            "Kuttikal nannaayi padikkum."
+          ],
+          "correctAnswer": "Muppathu kuttikal undu.",
+          "translatedSentence": "There are thirty students."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teacher boardil ezhuthunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the board.",
+            "The teacher is reading from the book.",
+            "The student is writing on the board."
+          ],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude pusthakam evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pusthakam ente bagil undu.",
+            "Njaan pusthakam vaayikkunnu.",
+            "Enikku oru puthiya pusthakam venam."
+          ],
+          "correctAnswer": "Pusthakam ente bagil undu.",
+          "translatedSentence": "The book is in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kuttikal klaasil irikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The students are sitting in the class.",
+            "The students are standing in the class.",
+            "The teacher is sitting in the class."
+          ],
+          "correctAnswer": "The students are sitting in the class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innathe padam ethaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innu Malayalam padam aanu.",
+            "Padam valare eluppamaanu.",
+            "Njaan padam ezhuthi."
+          ],
+          "correctAnswer": "Innu Malayalam padam aanu.",
+          "translatedSentence": "Today it is the Malayalam lesson."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee chodyam valare eluppamaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This question is very easy.",
+            "This question is very difficult.",
+            "This lesson is very easy."
+          ],
+          "correctAnswer": "This question is very easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku oru pena tharaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithaa, edutholu.",
+            "Njaan pena vaangi.",
+            "Pena meshayude mele illa."
+          ],
+          "correctAnswer": "Ithaa, edutholu.",
+          "translatedSentence": "Here, take it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan klaasinte munnil irikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sit at the front of the class.",
+            "I sit at the back of the class.",
+            "I stand in front of the class."
+          ],
+          "correctAnswer": "I sit at the front of the class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Teacher innu klaasil varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, teacher innu varilla.",
+            "Athe, teacher innale vannu.",
+            "Teacher kuttikale padippikkunnu."
+          ],
+          "correctAnswer": "Illa, teacher innu varilla.",
+          "translatedSentence": "No, the teacher will not come today."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the office",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude mesha evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente mesha jannalinte adutthaanu.",
+            "Ente mesha valare valuthaanu.",
+            "Njaan innale officil poyilla."
+          ],
+          "correctAnswer": "Ente mesha jannalinte adutthaanu.",
+          "translatedSentence": "My desk is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan ningalkku oru email ayakkaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will send you an email.",
+            "I will give you a call.",
+            "I got your email."
+          ],
+          "correctAnswer": "I will send you an email."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting ethra manikkaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting pathu manikkaanu.",
+            "Meeting valiya hallil aanu.",
+            "Meeting valare pradhaanamaanu."
+          ],
+          "correctAnswer": "Meeting pathu manikkaanu.",
+          "translatedSentence": "The meeting is at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente boss ippol meetingil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My boss is in a meeting right now.",
+            "My boss is at his desk right now.",
+            "My boss will come to the meeting."
+          ],
+          "correctAnswer": "My boss is in a meeting right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee file ningal kando?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan athu meshayude mele vechu.",
+            "Illa, enikku oru puthiya file venam.",
+            "Athe, njaan file bossinu ayachu."
+          ],
+          "correctAnswer": "Athe, njaan athu meshayude mele vechu.",
+          "translatedSentence": "Yes, I put it on the desk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku innu othiri joli undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a lot of work today.",
+            "I have very little work today.",
+            "I had a lot of work yesterday."
+          ],
+          "correctAnswer": "I have a lot of work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ente email vaayicho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan marupadi ayachu.",
+            "Athe, njaan meeting thudangi.",
+            "Illa, enikku computer illa."
+          ],
+          "correctAnswer": "Athe, njaan marupadi ayachu.",
+          "translatedSentence": "Yes, I sent a reply."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente computer pravarthikkunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer is not working.",
+            "My computer is very old.",
+            "My phone is not working."
+          ],
+          "correctAnswer": "My computer is not working."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nammal meeting eppol thudangum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaavarum vannaal udane thudangaam.",
+            "Meeting valare nannaayirunnu.",
+            "Njaan meetingil kurachu samsaarichu."
+          ],
+          "correctAnswer": "Ellaavarum vannaal udane thudangaam.",
+          "translatedSentence": "We can start as soon as everyone gets here."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal divasavum ethra neram padikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan divasavum randu manikkoor padikkum.",
+            "Njaan raathriyil nerathe urangum.",
+            "Enikku ee padam valare ishtamaanu."
+          ],
+          "correctAnswer": "Njaan divasavum randu manikkoor padikkum.",
+          "translatedSentence": "I study for two hours every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naale enikku oru pareeksha undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have an exam tomorrow.",
+            "I had an exam yesterday.",
+            "I have a class tomorrow."
+          ],
+          "correctAnswer": "I have an exam tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Homework cheythu theernno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, kurachu koodi bakkiyundu.",
+            "Athe, njaan pareeksha ezhuthi.",
+            "Illa, enikku pusthakam kittiyilla."
+          ],
+          "correctAnswer": "Illa, kurachu koodi bakkiyundu.",
+          "translatedSentence": "No, a little is still left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan innale raathri vaikiyaanu padichathu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I studied late last night.",
+            "I slept late last night.",
+            "I will study late tonight."
+          ],
+          "correctAnswer": "I studied late last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pareeksha engane undaayirunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kurachu budhimuttaayirunnu, pakshe njaan nannaayi ezhuthi.",
+            "Pareeksha naale raavileyaanu.",
+            "Enikku pareeksha halil irikkaan ishtamalla."
+          ],
+          "correctAnswer": "Kurachu budhimuttaayirunnu, pakshe njaan nannaayi ezhuthi.",
+          "translatedSentence": "It was a bit hard, but I wrote it well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku kanakku padam manassilaakunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not understand the maths lesson.",
+            "I do not like the maths lesson.",
+            "I understood the maths lesson."
+          ],
+          "correctAnswer": "I do not understand the maths lesson."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal enthinaanu Malayalam padikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente kudumbam Keralathil aanu, athukondu padikkunnu.",
+            "Njaan Malayalam padam nannaayi ezhuthum.",
+            "Malayalam klaas raavile onpathu manikkaanu."
+          ],
+          "correctAnswer": "Ente kudumbam Keralathil aanu, athukondu padikkunnu.",
+          "translatedSentence": "My family is in Kerala, that is why I am learning it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pusthakam vaayichaal ellaam manassilaakum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you read this book, you will understand everything.",
+            "If you read this book, you will like everything.",
+            "I read this book and understood everything."
+          ],
+          "correctAnswer": "If you read this book, you will understand everything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale ente koode padikkaan varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Varaam, pakshe ucha kazhinju mathi.",
+            "Njaan innale ninte koode padichu.",
+            "Enikku ee pusthakam valare ishtamaanu."
+          ],
+          "correctAnswer": "Varaam, pakshe ucha kazhinju mathi.",
+          "translatedSentence": "I will come, but only after noon."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude joli ethra manikku thudangum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onpathu manikku thudangum, anchu manikku kazhiyum.",
+            "Njaan officilekku bassil aanu pokunnathu.",
+            "Ente joli valare rasakaramaanu."
+          ],
+          "correctAnswer": "Onpathu manikku thudangum, anchu manikku kazhiyum.",
+          "translatedSentence": "It starts at nine and gets over at five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu njaan officil pathu minute vaiki ethi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today I reached the office ten minutes late.",
+            "Today I left the office ten minutes early.",
+            "Today I reached the office at ten o'clock."
+          ],
+          "correctAnswer": "Today I reached the office ten minutes late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enthukondaanu innu vaikiyathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "KSRTC bus vaiki vannu, athukondu njaanum vaiki.",
+            "Njaan innu raavile nerathe ezhunettu.",
+            "Innu officil aarum illaayirunnu."
+          ],
+          "correctAnswer": "KSRTC bus vaiki vannu, athukondu njaanum vaiki.",
+          "translatedSentence": "The KSRTC bus came late, so I was late too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naale enikku oru divasathe avadhi venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one day of leave tomorrow.",
+            "I took one day of leave yesterday.",
+            "I need two days of leave tomorrow."
+          ],
+          "correctAnswer": "I need one day of leave tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku naale avadhi venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venam, veettil oru vishesham undu.",
+            "Venda, njaan innale veettil poyirunnu.",
+            "Avadhi divasam njaan nerathe urangum."
+          ],
+          "correctAnswer": "Venam, veettil oru vishesham undu.",
+          "translatedSentence": "Yes, there is a function at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Traffic karanam njaan meetinginu vaiki poyi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because of the traffic I went to the meeting late.",
+            "Because of the rain I went to the meeting late.",
+            "There was no traffic, so I went to the meeting early."
+          ],
+          "correctAnswer": "Because of the traffic I went to the meeting late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku innu nerathe pokaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pokaam, pakshe ee joli theerthittu pokanam.",
+            "Njaan innale nerathe veettil poyi.",
+            "Office anchu manikku adaykkum."
+          ],
+          "correctAnswer": "Pokaam, pakshe ee joli theerthittu pokanam.",
+          "translatedSentence": "You may, but finish this work before you go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan divasavum ettu manikku veettil ninnu irangum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I leave the house at eight o'clock every day.",
+            "I reach the house at eight o'clock every day.",
+            "I will leave the house at eight o'clock tomorrow."
+          ],
+          "correctAnswer": "I leave the house at eight o'clock every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal engane officil ethunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochi metroyil aanu varunnathu.",
+            "Njaan officil onpathu manikku ethum.",
+            "Ente office Kochiyilaanu ullathu."
+          ],
+          "correctAnswer": "Njaan Kochi metroyil aanu varunnathu.",
+          "translatedSentence": "I come by the Kochi metro."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Plans for next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varshathe ningalude plan enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan puthiya oru joli nokkaan udheshikkunnu.",
+            "Kazhinja varsham njaan Kochiyilekku maari.",
+            "Ente ippozhathe joli enikku valare ishtamaanu."
+          ],
+          "correctAnswer": "Njaan puthiya oru joli nokkaan udheshikkunnu.",
+          "translatedSentence": "I am planning to look for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee varsham enikku promotion kittum ennu pratheekshikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am hoping I will get a promotion this year.",
+            "I got a promotion this year.",
+            "I am hoping you will get a promotion this year."
+          ],
+          "correctAnswer": "I am hoping I will get a promotion this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enthukondaanu ningal joli maaraan aagrahikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Puthiya sthalathu kooduthal padikkaan pattum, athukondaanu.",
+            "Njaan ee kambaniyil anchu varsham joli cheythu.",
+            "Ente boss innu officil illa."
+          ],
+          "correctAnswer": "Puthiya sthalathu kooduthal padikkaan pattum, athukondaanu.",
+          "translatedSentence": "I can learn more at the new place, that is why."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan Malayalam padichaal Keralathil joli kittum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I learn Malayalam, I will get a job in Kerala.",
+            "If I learn Malayalam, I will go to Kerala.",
+            "I learnt Malayalam and got a job in Kerala."
+          ],
+          "correctAnswer": "If I learn Malayalam, I will get a job in Kerala."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varsham evideyaanu joli cheyyaan aagrahikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thiruvananthapurathu joli cheyyaan aanu enikku aagraham.",
+            "Njaan Kochiyil randu varsham joli cheythu.",
+            "Adutha varsham njaan kurachu avadhi edukkum."
+          ],
+          "correctAnswer": "Thiruvananthapurathu joli cheyyaan aanu enikku aagraham.",
+          "translatedSentence": "I would like to work in Thiruvananthapuram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente boss ennodu puthiya team nayikkaan paranju.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My boss asked me to lead the new team.",
+            "My boss asked me to join the new team.",
+            "I asked my boss to lead the new team."
+          ],
+          "correctAnswer": "My boss asked me to lead the new team."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Promotion kittiyathinu abhinandanangal!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Valare nandi, ningalude sahaayam kondaanu ithu sadhichathu.",
+            "Nandi, pakshe enikku ee varsham promotion kittiyilla.",
+            "Njaan adutha varsham promotion chodikkum."
+          ],
+          "correctAnswer": "Valare nandi, ningalude sahaayam kondaanu ithu sadhichathu.",
+          "translatedSentence": "Thank you so much, this happened because of your help."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kooduthal padichaal nalla oru joli kittum ennu njaan vishwasikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I believe that if I study more, I will get a good job.",
+            "I believe that if I get a good job, I will study more.",
+            "I know that I will get a good job without studying more."
+          ],
+          "correctAnswer": "I believe that if I study more, I will get a good job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude joliyil ettavum ishtam enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kuttikale padippikkumbol enikku valare santhosham thonnum.",
+            "Njaan raavile ettu manikku joli thudangum.",
+            "Ente office veettil ninnu valare adutthaanu."
+          ],
+          "correctAnswer": "Kuttikale padippikkumbol enikku valare santhosham thonnum.",
+          "translatedSentence": "I feel very happy when I teach children."
+        }
+      ]
+    }
+  ]
+}

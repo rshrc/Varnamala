@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna velai panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan teacher-a velai panren.",
+            "Naan kaapi kudikkiren.",
+            "Naan Chennai-la illa."
+          ],
+          "correctAnswer": "Naan teacher-a velai panren.",
+          "translatedSentence": "I work as a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan oru doctor-a irukken.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a doctor.",
+            "I am a student.",
+            "I need a doctor."
+          ],
+          "correctAnswer": "I am a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee enga velai panre?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan oru office-la velai panren.",
+            "Naan veetla sappiduven.",
+            "Enakku velai theriyum."
+          ],
+          "correctAnswer": "Naan oru office-la velai panren.",
+          "translatedSentence": "I work in an office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan Madurai-la velai panren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in Madurai.",
+            "I live in Madurai.",
+            "I am going to Madurai."
+          ],
+          "correctAnswer": "I work in Madurai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku velai pidichirukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, enakku romba pidichirukku.",
+            "Illa, enakku pasikkuthu.",
+            "Aama, naan naalaikku varuven."
+          ],
+          "correctAnswer": "Aama, enakku romba pidichirukku.",
+          "translatedSentence": "Yes, I like it a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanga oru bank-la velai panranga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They work in a bank.",
+            "They are going to the bank.",
+            "They have money in the bank."
+          ],
+          "correctAnswer": "They work in a bank."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee innum student-a?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, naan innum padikkiren.",
+            "Illa, enakku adhu theriyaathu.",
+            "Aama, enakku oru kaapi venum."
+          ],
+          "correctAnswer": "Aama, naan innum padikkiren.",
+          "translatedSentence": "Yes, I am still studying."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku en velai pidikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my job.",
+            "I don't like my job.",
+            "I need a job."
+          ],
+          "correctAnswer": "I like my job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un appa enna velai panraru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru oru engineer-a velai panraru.",
+            "Avanga oru teacher-a velai panranga.",
+            "Naan oru engineer-a velai panren."
+          ],
+          "correctAnswer": "Avaru oru engineer-a velai panraru.",
+          "translatedSentence": "He works as an engineer."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Class eppo aarambikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class onbadhu maniku aarambikkum.",
+            "Class romba nalla irundhuchu.",
+            "Enakku indha class pidikkaathu."
+          ],
+          "correctAnswer": "Class onbadhu maniku aarambikkum.",
+          "translatedSentence": "Class starts at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaathiyaar innum class-ku varala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher hasn't come to class yet.",
+            "The teacher is already in the class.",
+            "The students haven't come to class yet."
+          ],
+          "correctAnswer": "The teacher hasn't come to class yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku idhu puriyudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, enakku nalla puriyudhu.",
+            "Illa, enakku romba pasikkuthu.",
+            "Aama, naan class-ku varuven."
+          ],
+          "correctAnswer": "Aama, enakku nalla puriyudhu.",
+          "translatedSentence": "Yes, I understand it well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu yaaroda puthagam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Whose book is this?",
+            "Which book is this?",
+            "Where is this book?"
+          ],
+          "correctAnswer": "Whose book is this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Konjam medhuva sollunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naan marubadiyum solren.",
+            "Sari, naan ippo veetuku poren.",
+            "Illa, enakku ellaam theriyum."
+          ],
+          "correctAnswer": "Sari, naan marubadiyum solren.",
+          "translatedSentence": "Okay, I will say it again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan en pen-a veetla marandhutten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I forgot my pen at home.",
+            "I forgot my book at home.",
+            "I lost my pen at school."
+          ],
+          "correctAnswer": "I forgot my pen at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan ulla varalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, ulla vaanga.",
+            "Illa, neenga veetuku ponga.",
+            "Aama, naan nalla padikkiren."
+          ],
+          "correctAnswer": "Aama, ulla vaanga.",
+          "translatedSentence": "Yes, please come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En class-la muppadhu maanavanga irukkaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are thirty students in my class.",
+            "There are thirteen students in my class.",
+            "There are thirty teachers in my class."
+          ],
+          "correctAnswer": "There are thirty students in my class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha kelvikku badhil theriyuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enakku badhil theriyaathu.",
+            "Aama, naan class-ku poren.",
+            "Illa, enakku puthagam pidikkaathu."
+          ],
+          "correctAnswer": "Illa, enakku badhil theriyaathu.",
+          "translatedSentence": "No, I don't know the answer."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Office conversation",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaloda desk enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En desk moonaam maadila irukku.",
+            "En veedu office pakkathula irukku.",
+            "En desk-la computer illa."
+          ],
+          "correctAnswer": "En desk moonaam maadila irukku.",
+          "translatedSentence": "My desk is on the third floor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan ippo ungaluku oru email anuppuren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sending you an email now.",
+            "I sent you an email yesterday.",
+            "I will send you an email tomorrow."
+          ],
+          "correctAnswer": "I am sending you an email now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting eththanai maniku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting pathu maniku irukku.",
+            "Meeting romba nalla irundhuchu.",
+            "Meeting-ku naan varala."
+          ],
+          "correctAnswer": "Meeting pathu maniku irukku.",
+          "translatedSentence": "The meeting is at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan ippo meeting-la irukken, appuram call panren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am in a meeting now, I will call you later.",
+            "I am in a meeting now, please call me later.",
+            "I was in a meeting, so I called you later."
+          ],
+          "correctAnswer": "I am in a meeting now, I will call you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boss office-la irukkaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, avaru veliya poitaaru.",
+            "Illa, naan office-la irukken.",
+            "Aama, meeting nalla irundhuchu."
+          ],
+          "correctAnswer": "Illa, avaru veliya poitaaru.",
+          "translatedSentence": "No, he has gone out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku indha file-a konjam anuppunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please send me this file.",
+            "Please show me this file.",
+            "I already sent you this file."
+          ],
+          "correctAnswer": "Please send me this file."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan anuppuna email-a paartheengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, paarthen, innaikku badhil anuppuren.",
+            "Illa, enakku ungaloda email address theriyaathu.",
+            "Aama, naan office-la illa."
+          ],
+          "correctAnswer": "Aama, paarthen, innaikku badhil anuppuren.",
+          "translatedSentence": "Yes, I saw it, I will send a reply today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha velaiya innaikku saayangaalamaa mudikkanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This work has to be finished by this evening.",
+            "This work was finished yesterday evening.",
+            "I will start this work this evening."
+          ],
+          "correctAnswer": "This work has to be finished by this evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Konjam help pannuveengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa, enna venum-nu sollunga.",
+            "Illa, enakku romba pasikkuthu.",
+            "Aama, naan ippo veetuku poren."
+          ],
+          "correctAnswer": "Kandippa, enna venum-nu sollunga.",
+          "translatedSentence": "Of course, tell me what you need."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Homework mudichitiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innum mudikkala.",
+            "Aama, naan office-la irukken.",
+            "Illa, enakku pen kidaikkala."
+          ],
+          "correctAnswer": "Illa, innum mudikkala.",
+          "translatedSentence": "No, I haven't finished it yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naalaikku enakku exam irukku, adhanaala innaikku padikkanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have an exam tomorrow, so I have to study today.",
+            "I had an exam yesterday, so I studied today.",
+            "I have an exam tomorrow, but I don't have to study today."
+          ],
+          "correctAnswer": "I have an exam tomorrow, so I have to study today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Exam eppadi irundhuchu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konjam kastama irundhuchu.",
+            "Naan exam-ku poitu irukken.",
+            "Enakku exam-nnaa pidikkum."
+          ],
+          "correctAnswer": "Konjam kastama irundhuchu.",
+          "translatedSentence": "It was a little difficult."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan nethu raathiri pathinonnu mani varaikkum padichen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I studied until eleven last night.",
+            "I will study until eleven tonight.",
+            "I slept at eleven last night."
+          ],
+          "correctAnswer": "I studied until eleven last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna padikkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan engineering padikkiren.",
+            "Naan Madurai-la velai panren.",
+            "Enakku padikka neram illa."
+          ],
+          "correctAnswer": "Naan engineering padikkiren.",
+          "translatedSentence": "I am studying engineering."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku kanakku romba kastam, aana English easy-a irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maths is very hard for me, but English is easy.",
+            "Maths is very easy for me, but English is hard.",
+            "Maths and English are both hard for me."
+          ],
+          "correctAnswer": "Maths is very hard for me, but English is easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ennoda notes ungaluku venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, konjam neram kudunga.",
+            "Illa, naan exam ezhudhala.",
+            "Aama, enakku vaathiyaar theriyum."
+          ],
+          "correctAnswer": "Aama, konjam neram kudunga.",
+          "translatedSentence": "Yes, give them to me for a little while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kadaisi exam-la nalla mark vaangunen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got good marks in the last exam.",
+            "I didn't get good marks in the last exam.",
+            "I want good marks in the last exam."
+          ],
+          "correctAnswer": "I got good marks in the last exam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku library-ku porma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, saayangaalam polaam.",
+            "Illa, enakku homework pidikkum.",
+            "Aama, naan naalaikku exam ezhudhuven."
+          ],
+          "correctAnswer": "Sari, saayangaalam polaam.",
+          "translatedSentence": "Okay, let's go in the evening."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga eththanai maniku office varuveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan thinamum onbadhare maniku varuven.",
+            "Naan thinamum office-la velai panren.",
+            "Naan innaikku konjam late-a poren."
+          ],
+          "correctAnswer": "Naan thinamum onbadhare maniku varuven.",
+          "translatedSentence": "I come at nine thirty every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Traffic-la maatikitten, adhanaala konjam late aayiduchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got stuck in traffic, so I am a little late.",
+            "I got stuck in traffic, but I am not late.",
+            "There was no traffic, so I came early."
+          ],
+          "correctAnswer": "I got stuck in traffic, so I am a little late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku ungaluku leave venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, enakku oru naal leave venum.",
+            "Illa, naan naalaikku office-la illa.",
+            "Aama, naan naalaikku late-a varuven."
+          ],
+          "correctAnswer": "Aama, enakku oru naal leave venum.",
+          "translatedSentence": "Yes, I need one day's leave."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan share-auto-la vandhen, adhanaala konjam neram aachu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came by share auto, so it took a little time.",
+            "I came by share auto, so it was a little cheap.",
+            "I will come by share auto, it won't take time."
+          ],
+          "correctAnswer": "I came by share auto, so it took a little time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yen innaikku ivvalavu late-a vandheenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mannichunga, bus romba late aayiduchu.",
+            "Mannichunga, enakku indha velai pidikkala.",
+            "Aama, naan innaikku sikkiram vandhen."
+          ],
+          "correctAnswer": "Mannichunga, bus romba late aayiduchu.",
+          "translatedSentence": "Sorry, the bus was very late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan thinamum anju maniku office-la irundhu kelambuven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I leave the office at five every day.",
+            "I reach the office at five every day.",
+            "I left the office at five yesterday."
+          ],
+          "correctAnswer": "I leave the office at five every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku vaaraththula evlo naal velai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku vaaraththula anju naal velai.",
+            "Enakku vaaraththula rendu leave venum.",
+            "Naan vaaraththula oru naal Marina beach-ku poven."
+          ],
+          "correctAnswer": "Enakku vaaraththula anju naal velai.",
+          "translatedSentence": "I work five days a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku udambu sariyilla, adhanaala innaikku varamudiyaadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling well, so I can't come today.",
+            "I am not feeling well, but I will come today.",
+            "I am feeling well now, so I will come today."
+          ],
+          "correctAnswer": "I am not feeling well, so I can't come today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Lunch break eppo irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pannerandare maniku lunch break irukku.",
+            "Naan lunch-ku idli sappiduven.",
+            "Lunch break romba nalla irundhuchu."
+          ],
+          "correctAnswer": "Pannerandare maniku lunch break irukku.",
+          "translatedSentence": "The lunch break is at twelve thirty."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varusham neenga enna panna poreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan puthu velaikku try pannalaam-nu irukken.",
+            "Naan nethu oru meeting-ku poitu vandhen.",
+            "Enakku indha varusham exam ezhutha pidikkala."
+          ],
+          "correctAnswer": "Naan puthu velaikku try pannalaam-nu irukken.",
+          "translatedSentence": "I am thinking of trying for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan nalla velai senjaa, enakku kandippa promotion kidaikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work well, I will definitely get a promotion.",
+            "Because I worked well, I got a promotion.",
+            "Even if I work well, I won't get a promotion."
+          ],
+          "correctAnswer": "If I work well, I will definitely get a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku promotion kidachudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, poana maasam kidachuthu, romba santhosham.",
+            "Illa, aana adutha varusham kidaikkum-nu nenaikkiren.",
+            "Aama, naan indha office-la moonu varusham velai panren."
+          ],
+          "correctAnswer": "Aama, poana maasam kidachuthu, romba santhosham.",
+          "translatedSentence": "Yes, I got it last month, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku indha velai pidikkum, aana sambalam pothala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this job, but the salary isn't enough.",
+            "I don't like this job, but the salary is good.",
+            "I like this job and the salary is enough."
+          ],
+          "correctAnswer": "I like this job, but the salary isn't enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yen velaiya maathanum-nu nenaikkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En veetla irundhu office romba dooram, adhanaala maathanum.",
+            "Enakku puthu velai kidachuthu, adhanaala naan romba santhosham.",
+            "Naan innum engineering padichitu irukken, adhanaala neram illa."
+          ],
+          "correctAnswer": "En veetla irundhu office romba dooram, adhanaala maathanum.",
+          "translatedSentence": "The office is very far from my house, so I want to change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan innum konjam padichaa, nalla velai kidaikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I study a little more, I will get a good job.",
+            "Since I studied a little more, I got a good job.",
+            "I studied a little more, but I didn't get a good job."
+          ],
+          "correctAnswer": "If I study a little more, I will get a good job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varusham neenga Chennai-la thaan iruppeengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naan Madurai-ku maathi poidalaam-nu nenaikkiren.",
+            "Aama, naan poana varusham Chennai-la irundhen.",
+            "Illa, enakku Chennai romba pidikkum."
+          ],
+          "correctAnswer": "Illa, naan Madurai-ku maathi poidalaam-nu nenaikkiren.",
+          "translatedSentence": "No, I am thinking of moving to Madurai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan indha varusham velai maatha maatten, aana adutha varusham paarkalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I won't change jobs this year, but we can see about next year.",
+            "I will change jobs this year, but not next year.",
+            "I changed jobs this year, so I won't next year."
+          ],
+          "correctAnswer": "I won't change jobs this year, but we can see about next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaloda periya aasai enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru naal sonthama company aarambikkanum, adhu thaan en aasai.",
+            "Innaikku sikkiram veetuku poganum, adhu thaan en aasai.",
+            "Naan ippo oru periya company-la velai panren, adhu thaan en aasai."
+          ],
+          "correctAnswer": "Oru naal sonthama company aarambikkanum, adhu thaan en aasai.",
+          "translatedSentence": "My dream is to start my own company one day."
+        }
+      ]
+    }
+  ]
+}

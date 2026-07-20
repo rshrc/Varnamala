@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor naam {name}.",
+            "Moi bhal ase.",
+            "Eito mor ghor."
+          ],
+          "correctAnswer": "Mor naam {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Guwahatit thako.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Guwahati.",
+            "I am going to Guwahati.",
+            "My house in Guwahati is big."
+          ],
+          "correctAnswer": "I live in Guwahati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor naam Rina.",
+            "Tar naam Rina.",
+            "Moi Jorhatot thako."
+          ],
+          "correctAnswer": "Mor naam Rina.",
+          "translatedSentence": "My name is Rina."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eito mor bondhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend.",
+            "This is my house.",
+            "He is my father."
+          ],
+          "correctAnswer": "This is my friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kot thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Jorhatot thako.",
+            "Mor naam Rina.",
+            "Moi bhal ase."
+          ],
+          "correctAnswer": "Moi Jorhatot thako.",
+          "translatedSentence": "I live in Jorhat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tai mor bhoni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is my sister.",
+            "She is my friend.",
+            "This is my mother."
+          ],
+          "correctAnswer": "She is my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apuni bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi bhal ase.",
+            "Tai bhal ase.",
+            "Moi ghorot ase."
+          ],
+          "correctAnswer": "Hoi, moi bhal ase.",
+          "translatedSentence": "Yes, I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor ghor Jorhatot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My house is in Jorhat.",
+            "My friend is in Jorhat.",
+            "I am going home to Jorhat."
+          ],
+          "correctAnswer": "My house is in Jorhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eijon kun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eijon mor deuta.",
+            "Eito mor ghor.",
+            "Moi bhal ase."
+          ],
+          "correctAnswer": "Eijon mor deuta.",
+          "translatedSentence": "This is my father."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this and that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito saah ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, eito saah.",
+            "Nai, eito pani.",
+            "Moi saah khao."
+          ],
+          "correctAnswer": "Hoi, eito saah.",
+          "translatedSentence": "Yes, this is tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Seito mor ghor nohoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is not my house.",
+            "This is not my house.",
+            "That house is mine."
+          ],
+          "correctAnswer": "That is not my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Seito ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seito masor jool.",
+            "Eijon mor bhoni.",
+            "Hoi, moi jano."
+          ],
+          "correctAnswer": "Seito masor jool.",
+          "translatedSentence": "That is fish curry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hoi, eito mor kitap.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, this is my book.",
+            "No, this is not my book.",
+            "Yes, that is your book."
+          ],
+          "correctAnswer": "Yes, this is my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito apunar kitap ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, eito mor kitap nohoi.",
+            "Hoi, eito mor ghor.",
+            "Seito mor bondhu."
+          ],
+          "correctAnswer": "Nai, eito mor kitap nohoi.",
+          "translatedSentence": "No, this is not my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eibor pitha bhal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These pithas are good.",
+            "This pitha is good.",
+            "Those pithas are not good."
+          ],
+          "correctAnswer": "These pithas are good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, eito tomar bag ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, eito mor bag.",
+            "Nai, eito mor bag nohoi.",
+            "Hoi, seito mor kitap."
+          ],
+          "correctAnswer": "Hoi, eito mor bag.",
+          "translatedSentence": "Yes, this is my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nai, moi saah nakhao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, I do not drink tea.",
+            "No, I do not eat rice.",
+            "Yes, I drink tea."
+          ],
+          "correctAnswer": "No, I do not drink tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni saah khai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi saah khao.",
+            "Nai, moi bhat nakhao.",
+            "Hoi, eito saah nohoi."
+          ],
+          "correctAnswer": "Hoi, moi saah khao.",
+          "translatedSentence": "Yes, I drink tea."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs now",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni etiya ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi etiya bhat khao.",
+            "Moi ghorot thako.",
+            "Moi saah bhal pao."
+          ],
+          "correctAnswer": "Moi etiya bhat khao.",
+          "translatedSentence": "I am eating rice now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi bazaroloi jao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the market.",
+            "I am coming from the market.",
+            "I am at the market."
+          ],
+          "correctAnswer": "I am going to the market."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kot jua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi ghoroloi jao.",
+            "Moi kaam koro.",
+            "Moi bhat khao."
+          ],
+          "correctAnswer": "Moi ghoroloi jao.",
+          "translatedSentence": "I am going home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tai olop pani khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She drinks a little water.",
+            "She eats a little rice.",
+            "She wants a little water."
+          ],
+          "correctAnswer": "She drinks a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi saah baganot kaam koro.",
+            "Moi Guwahatiloi jao.",
+            "Moi saah khao."
+          ],
+          "correctAnswer": "Moi saah baganot kaam koro.",
+          "translatedSentence": "I work in a tea garden."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji moi ghorot pitha bonao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today I am making pitha at home.",
+            "Today I am eating pitha at home.",
+            "Tomorrow I will make pitha at home."
+          ],
+          "correctAnswer": "Today I am making pitha at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kali ahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi kali ahim.",
+            "Nai, moi kali kaam koro.",
+            "Hoi, moi ghoroloi jao."
+          ],
+          "correctAnswer": "Hoi, moi kali ahim.",
+          "translatedSentence": "Yes, I will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi ratipuwa saah khao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea in the morning.",
+            "I eat rice in the morning.",
+            "I drink tea at night."
+          ],
+          "correctAnswer": "I drink tea in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ratipuwa apuni ki khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi ratipuwa pitha khao.",
+            "Moi rati bhat khao.",
+            "Moi pani nakhao."
+          ],
+          "correctAnswer": "Moi ratipuwa pitha khao.",
+          "translatedSentence": "I eat pitha in the morning."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "What, where, who",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar ghor kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor ghor Guwahatit.",
+            "Mor naam Rina.",
+            "Moi ghoroloi jao."
+          ],
+          "correctAnswer": "Mor ghor Guwahatit.",
+          "translatedSentence": "My house is in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eijon manuh kun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is this person?",
+            "Where is this person?",
+            "What is this person doing?"
+          ],
+          "correctAnswer": "Who is this person?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eito Brahmaputra nodi.",
+            "Eito mor bondhu.",
+            "Hoi, eito bhal."
+          ],
+          "correctAnswer": "Eito Brahmaputra nodi.",
+          "translatedSentence": "This is the Brahmaputra river."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni kot kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you work?",
+            "What work do you do?",
+            "Where do you live?"
+          ],
+          "correctAnswer": "Where do you work?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saah kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saah tebulot ase.",
+            "Saah bhal ase.",
+            "Moi saah bhal pao."
+          ],
+          "correctAnswer": "Saah tebulot ase.",
+          "translatedSentence": "The tea is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bazar kot ase, apuni jane ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you know where the market is?",
+            "Do you know who is at the market?",
+            "Do you know what they sell at the market?"
+          ],
+          "correctAnswer": "Do you know where the market is?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei kitap kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei kitap mor bhonir.",
+            "Ei kitap tebulot ase.",
+            "Nai, ei kitap bhal nohoi."
+          ],
+          "correctAnswer": "Ei kitap mor bhonir.",
+          "translatedSentence": "This book is my sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi kar logot Jorhatoloi jua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who are you going to Jorhat with?",
+            "When are you going to Jorhat?",
+            "Why are you going to Jorhat?"
+          ],
+          "correctAnswer": "Who are you going to Jorhat with?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok olop saah lage.",
+            "Saah tebulot ase.",
+            "Moi saah khao."
+          ],
+          "correctAnswer": "Mok olop saah lage.",
+          "translatedSentence": "I would like a little tea."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni tar naam jane ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi najano.",
+            "Hoi, tai mor bondhu.",
+            "Nai, tai etiya ghorot nai."
+          ],
+          "correctAnswer": "Nai, moi najano.",
+          "translatedSentence": "No, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi aji kaamoloi najao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to work today.",
+            "I did not go to work today.",
+            "I am going to work today."
+          ],
+          "correctAnswer": "I am not going to work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni masor jool khai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi masor jool nakhao.",
+            "Nai, mor ghorot mas nai.",
+            "Hoi, moi bhat bonao."
+          ],
+          "correctAnswer": "Nai, moi masor jool nakhao.",
+          "translatedSentence": "No, I do not eat fish curry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghorot etiya kunu nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is nobody at home right now.",
+            "There is nothing at home right now.",
+            "Nobody is coming home right now."
+          ],
+          "correctAnswer": "There is nobody at home right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Asomiya kobo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi olop olop kobo paro.",
+            "Nai, moi tat kaam nakoro.",
+            "Hoi, moi Guwahatit thako."
+          ],
+          "correctAnswer": "Hoi, moi olop olop kobo paro.",
+          "translatedSentence": "Yes, I can speak a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok saah nalage, dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want tea, thank you.",
+            "I do not drink tea, thank you.",
+            "I would like tea, thank you."
+          ],
+          "correctAnswer": "I do not want tea, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yowa kali apuni ghorot asil ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi ghorot nasilo.",
+            "Nai, moi ghoroloi najao.",
+            "Hoi, moi kali ahim."
+          ],
+          "correctAnswer": "Nai, moi ghorot nasilo.",
+          "translatedSentence": "No, I was not at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi ei kaamto kori nuwaro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot do this work.",
+            "I do not want to do this work.",
+            "I will not do this work."
+          ],
+          "correctAnswer": "I cannot do this work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni pitha bonabo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi bonabo nuwaro.",
+            "Nai, mor ghorot pitha nai.",
+            "Hoi, moi pitha nakhao."
+          ],
+          "correctAnswer": "Nai, moi bonabo nuwaro.",
+          "translatedSentence": "No, I cannot make it."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ahok, bohok, saah khabo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, olop saah hole bhal hobo.",
+            "Nai, moi ghorot nasilo.",
+            "Hoi, mor bhoni Guwahatit thake."
+          ],
+          "correctAnswer": "Dhonyobad, olop saah hole bhal hobo.",
+          "translatedSentence": "Thank you, a little tea would be lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi aji bazaroloi najao, kiyono bahirot boroxun dise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to the market today, because it is raining outside.",
+            "I did not go to the market yesterday, because it rained all day.",
+            "I will go to the market today if it does not rain outside."
+          ],
+          "correctAnswer": "I am not going to the market today, because it is raining outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kali Jorhatoloi jabo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, jam, kintu rati ghuri ahim.",
+            "Nai, moi Jorhatot nathako.",
+            "Hoi, moi kali ghorot asilo."
+          ],
+          "correctAnswer": "Hoi, jam, kintu rati ghuri ahim.",
+          "translatedSentence": "Yes, I will go, but I will come back at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apunar somoi ase, amar ghoroloi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, please come to our house.",
+            "If I have time, I will come to your house.",
+            "When you have time, we will come to your house."
+          ],
+          "correctAnswer": "If you have time, please come to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni bhat khale ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi olop agote khalo.",
+            "Nai, moi bhat nakhao.",
+            "Hoi, moi kali bhat bonam."
+          ],
+          "correctAnswer": "Hoi, moi olop agote khalo.",
+          "translatedSentence": "Yes, I ate a little while ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor bhoni Guwahatit thake, kintu moi Jorhatot kaam koro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister lives in Guwahati, but I work in Jorhat.",
+            "My sister works in Guwahati, but I live in Jorhat.",
+            "My sister and I live in Guwahati and work in Jorhat."
+          ],
+          "correctAnswer": "My sister lives in Guwahati, but I work in Jorhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kor pora ahise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Guwahatir pora ahise.",
+            "Moi Guwahatiloi jam.",
+            "Moi bazarot kaam koro."
+          ],
+          "correctAnswer": "Moi Guwahatir pora ahise.",
+          "translatedSentence": "I have come from Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji amar ghorot pitha aru masor jool ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today we have pitha and fish curry at our house.",
+            "Today we have pitha but no fish curry at our house.",
+            "Today we will make pitha and fish curry at our house."
+          ],
+          "correctAnswer": "Today we have pitha and fish curry at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhonyobad, apunar logot kotha pati bhal lagil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moiu bhal palo, aru ebar ahibo.",
+            "Hoi, moi etiya ghoroloi jam.",
+            "Nai, mok etiya saah nalage."
+          ],
+          "correctAnswer": "Moiu bhal palo, aru ebar ahibo.",
+          "translatedSentence": "I enjoyed it too, please come again."
+        }
+      ]
+    }
+  ]
+}

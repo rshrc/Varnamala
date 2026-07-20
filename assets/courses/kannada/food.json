@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage enu beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage neeru beku.",
+            "Nanage kelasa ide.",
+            "Nanage kannada gottilla."
+          ],
+          "correctAnswer": "Nanage neeru beku.",
+          "translatedSentence": "I would like some water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage tumba hasivaagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very hungry.",
+            "I am very tired.",
+            "I am very happy."
+          ],
+          "correctAnswer": "I am very hungry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oota aaytaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, eega taane aaytu.",
+            "Illa, naanu chaha kudide.",
+            "Nanage anna tumba ishta."
+          ],
+          "correctAnswer": "Haudu, eega taane aaytu.",
+          "translatedSentence": "Yes, I just ate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu bisi neeru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is hot water.",
+            "This is cold water.",
+            "This is hot tea."
+          ],
+          "correctAnswer": "This is hot water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chaha beka, kaapi beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage kaapi beku.",
+            "Nanage hasivaagide.",
+            "Naanu manege hogtini."
+          ],
+          "correctAnswer": "Nanage kaapi beku.",
+          "translatedSentence": "I would like coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage baayaarike aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thirsty.",
+            "I am sleepy.",
+            "I am hungry."
+          ],
+          "correctAnswer": "I am thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu swalpa anna beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, saaku dhanyavaada.",
+            "Haudu, naanu manege hogtini.",
+            "Illa, nanage neeru gottilla."
+          ],
+          "correctAnswer": "Illa, saaku dhanyavaada.",
+          "translatedSentence": "No, that is enough, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu roj chaha kudiyutteene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every day.",
+            "I drink coffee every day.",
+            "I want tea every day."
+          ],
+          "correctAnswer": "I drink tea every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeru beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, swalpa kodi.",
+            "Illa, naanu Bengaluru inda bande.",
+            "Haudu, naanu chaha maadtini."
+          ],
+          "correctAnswer": "Haudu, swalpa kodi.",
+          "translatedSentence": "Yes, please give me a little."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage enu koduli?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu filter kaapi kodi.",
+            "Naanu Cubbon Park ge hogtini.",
+            "Illi tumba jana iddaare."
+          ],
+          "correctAnswer": "Ondu filter kaapi kodi.",
+          "translatedSentence": "One filter coffee, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eradu idli mattu ondu vade kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me two idlis and one vada.",
+            "Please give me one idli and two vadas.",
+            "Please give me two dosas and one coffee."
+          ],
+          "correctAnswer": "Please give me two idlis and one vada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu eshtu aagutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nalvattu rupayi saar.",
+            "Idu eega taane bantu.",
+            "Naanu naale barteeni."
+          ],
+          "correctAnswer": "Nalvattu rupayi saar.",
+          "translatedSentence": "That is forty rupees, sir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sakkare illade kaapi kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the coffee without sugar.",
+            "Please give me the coffee with extra sugar.",
+            "Please give me the tea without milk."
+          ],
+          "correctAnswer": "Please give me the coffee without sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Masala dose ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, eega taane mugidide.",
+            "Haudu, naanu ondu tinde.",
+            "Illa, nanage dose ishta illa."
+          ],
+          "correctAnswer": "Illa, eega taane mugidide.",
+          "translatedSentence": "No, we have just run out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Illi kootukolli, naanu tandu kodteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit here, I will bring it over.",
+            "Please sit here, I will come back later.",
+            "Please stand here, I will call you."
+          ],
+          "correctAnswer": "Please sit here, I will bring it over."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Parcel maadlaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, parcel maadi kodi.",
+            "Illa, naanu neeru kudide.",
+            "Haudu, nanage baayaarike aagide."
+          ],
+          "correctAnswer": "Haudu, parcel maadi kodi.",
+          "translatedSentence": "Yes, please pack it to take away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira chillare illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any change on me.",
+            "I do not want any change back.",
+            "I do not have any money on me."
+          ],
+          "correctAnswer": "I do not have any change on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaapi bisi ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, eega taane maadiddu.",
+            "Illa, nanage sakkare beda.",
+            "Haudu, ondu dose kodi."
+          ],
+          "correctAnswer": "Haudu, eega taane maadiddu.",
+          "translatedSentence": "Yes, it was made just now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet, salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu tumba khaara ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, nanna naalige urutta ide.",
+            "Illa, idu tumba sihi ide.",
+            "Haudu, nanage innu swalpa uppu beku."
+          ],
+          "correctAnswer": "Haudu, nanna naalige urutta ide.",
+          "translatedSentence": "Yes, my tongue is burning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saaru alli uppu jaasti aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is too much salt in the rasam.",
+            "There is not enough salt in the rasam.",
+            "There is too much chilli in the rasam."
+          ],
+          "correctAnswer": "There is too much salt in the rasam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Payasa hege ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumba sihi ide, chennagide.",
+            "Swalpa khaara jaasti aagide.",
+            "Idu innu bisi aagilla."
+          ],
+          "correctAnswer": "Tumba sihi ide, chennagide.",
+          "translatedSentence": "It is nice and sweet, it is lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage istu khaara aagalla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot handle this much spice.",
+            "I do not like sweet things at all.",
+            "I would like a little more spice."
+          ],
+          "correctAnswer": "I cannot handle this much spice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Swalpa uppu haaklaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Beda, iruvashtu saaku.",
+            "Haudu, idu tumba sihi ide.",
+            "Illa, nanage bisi neeru beku."
+          ],
+          "correctAnswer": "Beda, iruvashtu saaku.",
+          "translatedSentence": "No need, it is fine as it is."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bisi bele bath tumba ruchiyaagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bisi bele bath is really tasty.",
+            "This bisi bele bath is far too spicy.",
+            "This bisi bele bath has gone cold."
+          ],
+          "correctAnswer": "This bisi bele bath is really tasty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake tinnutta illa? Ruchi illave?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ruchi chennagide, aadre nanage swalpa khaara jaasti aaytu.",
+            "Haudu, naanu ivattu adige maadilla.",
+            "Illa, naanu naale bus alli hogtini."
+          ],
+          "correctAnswer": "Illa, ruchi chennagide, aadre nanage swalpa khaara jaasti aaytu.",
+          "translatedSentence": "No, it tastes good, but it is a bit too spicy for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu swalpa huli aagide, innu swalpa sakkare haaki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is a little sour, add some more sugar.",
+            "This is a little salty, add some more water.",
+            "This is very sweet already, do not add sugar."
+          ],
+          "correctAnswer": "This is a little sour, add some more sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaapi tampaagide, innondu tarlaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, ondu bisi kaapi kodi.",
+            "Illa, nanage khaara tindi beda.",
+            "Haudu, idaralli uppu jaasti aagide."
+          ],
+          "correctAnswer": "Haudu, ondu bisi kaapi kodi.",
+          "translatedSentence": "Yes, please bring me a hot coffee."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In a restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ibbarige table ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, ee kade banni.",
+            "Illa, naanu innu oota maadilla.",
+            "Haudu, bill tandu kodi."
+          ],
+          "correctAnswer": "Haudu, ee kade banni.",
+          "translatedSentence": "Yes, please come this way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu menu card kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you bring the menu card, please.",
+            "Could you bring the bill, please.",
+            "Could you bring some water, please."
+          ],
+          "correctAnswer": "Could you bring the menu card, please."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu enu order maadteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ondu masala dose mattu ondu filter kaapi beku.",
+            "Naanu Mysuru inda bandiddeene.",
+            "Nanna hattira card illa, cash ide."
+          ],
+          "correctAnswer": "Nanage ondu masala dose mattu ondu filter kaapi beku.",
+          "translatedSentence": "I will have one masala dose and one filter coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hotel alli ragi mudde tumba chennagirutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The ragi mudde at this restaurant is really good.",
+            "The ragi mudde at this restaurant is really spicy.",
+            "This restaurant does not serve ragi mudde."
+          ],
+          "correctAnswer": "The ragi mudde at this restaurant is really good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu swalpa saaru haaklaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, swalpa haaki.",
+            "Illa, naanu innu shuru maadilla.",
+            "Haudu, nanage menu card beku."
+          ],
+          "correctAnswer": "Haudu, swalpa haaki.",
+          "translatedSentence": "Yes, please serve a little more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu order maadiddu innu bandilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What I ordered has not arrived yet.",
+            "What I ordered has already arrived.",
+            "I have not ordered anything yet."
+          ],
+          "correctAnswer": "What I ordered has not arrived yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oota hegittu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumba chennagittu, dhanyavaada.",
+            "Nanage tumba baayaarike aagide.",
+            "Naanu innu order maadilla."
+          ],
+          "correctAnswer": "Tumba chennagittu, dhanyavaada.",
+          "translatedSentence": "It was very good, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill tandu kodi, naavu horadutteeve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring the bill, we are leaving.",
+            "Please bring the menu, we want to order.",
+            "Please bring water, we are thirsty."
+          ],
+          "correctAnswer": "Please bring the bill, we are leaving."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Card nadeyuttaa, illa cash kodabeka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Card nadeyutte saar, cash kodabeda.",
+            "Illa, nanage innu swalpa saaru beku.",
+            "Haudu, ee table khaali ide."
+          ],
+          "correctAnswer": "Card nadeyutte saar, cash kodabeda.",
+          "translatedSentence": "Card works, sir, you do not need to pay cash."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu adigege sahaaya maadteeya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaytu, naanu tarakaari hechchi kodteeni.",
+            "Haudu, naanu hotel ge hogtini.",
+            "Illa, nanage innu hasivaagilla."
+          ],
+          "correctAnswer": "Aaytu, naanu tarakaari hechchi kodteeni.",
+          "translatedSentence": "Sure, I will chop the vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu kukkar alli anna iduttiddeene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am putting the rice on in the cooker.",
+            "I am taking the rice out of the cooker.",
+            "I am washing the rice in water."
+          ],
+          "correctAnswer": "I am putting the rice on in the cooker."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uppu eshtu haakabeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu chikka chamacha saaku.",
+            "Nanage uppu ishta illa.",
+            "Adige aagi tumba hotaaytu."
+          ],
+          "correctAnswer": "Ondu chikka chamacha saaku.",
+          "translatedSentence": "One small spoon is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee saaru ge swalpa kottambari soppu haaki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Add a little coriander leaf to this rasam.",
+            "Add a little salt to this rasam.",
+            "Add a little coriander leaf to the rice."
+          ],
+          "correctAnswer": "Add a little coriander leaf to this rasam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage adige maadoke gotta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Swalpa gottu, aadre nanna amma nanaginta chennagi maadtaare.",
+            "Haudu, naanu ivattu hotel ge hodhe.",
+            "Illa, nanage ee saaru tumba khaara aaytu."
+          ],
+          "correctAnswer": "Swalpa gottu, aadre nanna amma nanaginta chennagi maadtaare.",
+          "translatedSentence": "I know a little, but my mother cooks better than I do."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ole mele haalu kaayuttide, swalpa nodkolli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The milk is boiling on the stove, keep an eye on it.",
+            "The milk is in the fridge, please take it out.",
+            "The water is boiling on the stove, please switch it off."
+          ],
+          "correctAnswer": "The milk is boiling on the stove, keep an eye on it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dose hittu ide, dose maadlaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, nanage eradu dose maadi kodi.",
+            "Illa, naanu eega bus alli iddeene.",
+            "Haudu, naanu paatre tolde."
+          ],
+          "correctAnswer": "Haudu, nanage eradu dose maadi kodi.",
+          "translatedSentence": "Yes, please make me two dosas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adige aaytu, ellaru oota maadoke banni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cooking is done, everyone come and eat.",
+            "The cooking is not done yet, please wait a bit.",
+            "The food is over, there is nothing left to eat."
+          ],
+          "correctAnswer": "The cooking is done, everyone come and eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paatre tolyoke sahaaya maadteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, naanu eega tolyutteene.",
+            "Illa, naanu innu tarakaari hechchilla.",
+            "Haudu, nanage innu swalpa anna haaki."
+          ],
+          "correctAnswer": "Haudu, naanu eega tolyutteene.",
+          "translatedSentence": "Yes, I will wash them right now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and diets",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu maamsa tinnutteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naanu sasyahaari, adakke motte kooda tinnalla.",
+            "Haudu, nanage eega tumba baayaarike aagide.",
+            "Illa, nanage ivattu adige maadoke aagalla."
+          ],
+          "correctAnswer": "Illa, naanu sasyahaari, adakke motte kooda tinnalla.",
+          "translatedSentence": "No, I am vegetarian, so I do not even eat eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage haalu aagalla, adakke kaapi beda.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk does not agree with me, so I will skip the coffee.",
+            "I do not like coffee, so please give me milk instead.",
+            "I drink milk every day, but I never drink coffee."
+          ],
+          "correctAnswer": "Milk does not agree with me, so I will skip the coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava tindi tumba ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ragi mudde tumba ishta, aadre vaarakke ondu sala maatra tinteeni.",
+            "Nanage adige maadoke sariyaagi gottilla.",
+            "Naanu ella dina Cubbon Park ge nadedu hogtini."
+          ],
+          "correctAnswer": "Nanage ragi mudde tumba ishta, aadre vaarakke ondu sala maatra tinteeni.",
+          "translatedSentence": "I love ragi mudde, but I only eat it once a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage sakkare kaayile iruvudarinda naanu sihi tindi tinnuvudilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since I have diabetes, I do not eat sweets.",
+            "Since I have diabetes, I eat nothing but sweets.",
+            "I do not have diabetes, but I still avoid sweets."
+          ],
+          "correctAnswer": "Since I have diabetes, I do not eat sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee palya alli kadalekaayi ideya? Nanage adarinda allergy ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, idaralli kadalekaayi haakilla, neevu nemmadiyaagi tinnabahudu.",
+            "Haudu, ee palya nimage swalpa khaara aagabahudu.",
+            "Illa, nanage kooda kadalekaayi ishta illa."
+          ],
+          "correctAnswer": "Illa, idaralli kadalekaayi haakilla, neevu nemmadiyaagi tinnabahudu.",
+          "translatedSentence": "No, there are no peanuts in it, you can eat it without worrying."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu roj beligge tindi tinnutteene, aadre raatri kammi tinnutteene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat breakfast every morning, but I eat light at night.",
+            "I skip breakfast every morning, but I eat a lot at night.",
+            "I eat breakfast every morning and a big dinner at night."
+          ],
+          "correctAnswer": "I eat breakfast every morning, but I eat light at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khaara jaasti aadare heli, naanu kammi maadtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaada, khaara swalpa kammi iddare nanage olleyadu.",
+            "Dhanyavaada, aadre naanu innu bill kodilla.",
+            "Haudu, naanu ivattu kukkar alli anna maadide."
+          ],
+          "correctAnswer": "Dhanyavaada, khaara swalpa kammi iddare nanage olleyadu.",
+          "translatedSentence": "Thank you, a little less spice would suit me better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivattu naanu upavaasa iddeene, adakke oota maaduvudilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am fasting today, so I will not have a meal.",
+            "I am fasting today, but I will still have a big meal.",
+            "I did not fast today, so I had a full meal."
+          ],
+          "correctAnswer": "I am fasting today, so I will not have a meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale nammane ootakke barteera? Nanna amma ragi mudde maadtaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khanditha barteeni, nanage ragi mudde andare tumba ishta.",
+            "Naanu ivattu nimma manege bandiddeene.",
+            "Nimma amma tumba chennagi filter kaapi maadtaare."
+          ],
+          "correctAnswer": "Khanditha barteeni, nanage ragi mudde andare tumba ishta.",
+          "translatedSentence": "I will definitely come, I really love ragi mudde."
+        }
+      ]
+    }
+  ]
+}

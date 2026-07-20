@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee illu ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa illu Hyderabad lo undi.",
+            "Maa illu chaala paatadi.",
+            "Naaku ee gadi nachindi."
+          ],
+          "correctAnswer": "Maa illu Hyderabad lo undi.",
+          "translatedSentence": "Our house is in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gadi emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi maa vanta gadi.",
+            "Adi maa illu.",
+            "Ee gadi lo evaru lekunda undi."
+          ],
+          "correctAnswer": "Idi maa vanta gadi.",
+          "translatedSentence": "This is our kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa intlo moodu gadulu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are three rooms in our house.",
+            "There are three houses on our street.",
+            "There are three people in our house."
+          ],
+          "correctAnswer": "There are three rooms in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkada padukuntaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu padaka gadi lo padukuntanu.",
+            "Nenu vanta gadi lo tintanu.",
+            "Nenu roju daaba meeda kurchuntanu."
+          ],
+          "correctAnswer": "Nenu padaka gadi lo padukuntanu.",
+          "translatedSentence": "I sleep in the bedroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa vanta gadi chinnadi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our kitchen is small.",
+            "Our bedroom is small.",
+            "Our kitchen is very big."
+          ],
+          "correctAnswer": "Our kitchen is small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hall lo TV undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, hall lo TV undi.",
+            "Ledu, hall chaala pedda di.",
+            "Avunu, nenu ippudu intlo unnanu."
+          ],
+          "correctAnswer": "Avunu, hall lo TV undi.",
+          "translatedSentence": "Yes, there is a TV in the living room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Balcony nunchi Charminar kanipistundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You can see Charminar from the balcony.",
+            "Charminar is very close to our house.",
+            "We go to Charminar from the balcony."
+          ],
+          "correctAnswer": "You can see Charminar from the balcony."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathroom ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi akkada, padaka gadi pakkana undi.",
+            "Adi maa vanta gadi pakkana ledu.",
+            "Neeru ee gadi lo undi."
+          ],
+          "correctAnswer": "Adi akkada, padaka gadi pakkana undi.",
+          "translatedSentence": "It is over there, next to the bedroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daaba meeda pillalu aadutunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children are playing on the terrace.",
+            "The children are sleeping in the room.",
+            "The children are playing outside the house."
+          ],
+          "correctAnswer": "The children are playing on the terrace."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Fridge lo emi undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fridge lo neeru, paalu unnayi.",
+            "Fridge maa vanta gadi lo undi.",
+            "Fridge chaala kotta di."
+          ],
+          "correctAnswer": "Fridge lo neeru, paalu unnayi.",
+          "translatedSentence": "There is water and milk in the fridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa intlo rendu fan lu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have two fans in our house.",
+            "We have two rooms in our house.",
+            "There are two lights in our house."
+          ],
+          "correctAnswer": "We have two fans in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku kotta alamara kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku kotta alamara kaavali.",
+            "Ledu, alamara vanta gadi lo undi.",
+            "Avunu, naa battalu ikkada unnayi."
+          ],
+          "correctAnswer": "Avunu, naaku kotta alamara kaavali.",
+          "translatedSentence": "Yes, I want a new cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa battalu alamara lo unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My clothes are in the cupboard.",
+            "My clothes are on the bed.",
+            "My books are in the cupboard."
+          ],
+          "correctAnswer": "My clothes are in the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cheepuru ekkada pettavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu daanni talupu venuka pettanu.",
+            "Nenu daanni ninna konnanu.",
+            "Adi maa padaka gadi lo undi."
+          ],
+          "correctAnswer": "Nenu daanni talupu venuka pettanu.",
+          "translatedSentence": "I put it behind the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Stove meeda paalu kaagutunnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The milk is boiling on the stove.",
+            "The water is boiling on the stove.",
+            "The milk is sitting in the fridge."
+          ],
+          "correctAnswer": "The milk is boiling on the stove."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee glaasu evaridi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi naadi, table meeda pettandi.",
+            "Adi naadi kaadu, naaku neeru kaavali.",
+            "Adi maa vanta gadi lo undi."
+          ],
+          "correctAnswer": "Adi naadi, table meeda pettandi.",
+          "translatedSentence": "That one is mine, please put it on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Paatralu anni sink lo unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All the dishes are in the sink.",
+            "All the dishes are on the table.",
+            "All the clothes are in the bucket."
+          ],
+          "correctAnswer": "All the dishes are in the sink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Light off cheyyanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu, konchem sepu undanivvu.",
+            "Sare, fan kooda off cheyyi.",
+            "Ledu, naaku ee gadi nachaledu."
+          ],
+          "correctAnswer": "Vaddu, konchem sepu undanivvu.",
+          "translatedSentence": "No, leave it on for a little while."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Cleaning and cooking",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ippudu emi chestunnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu battalu utukutunnanu.",
+            "Nenu vanta gadi lo unnanu.",
+            "Naaku vanta cheyyadam raadu."
+          ],
+          "correctAnswer": "Nenu battalu utukutunnanu.",
+          "translatedSentence": "I am washing clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma vanta gadi lo pesarattu chestundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making pesarattu in the kitchen.",
+            "Mother is eating pesarattu in the kitchen.",
+            "Mother is making biryani in the kitchen."
+          ],
+          "correctAnswer": "Mother is making pesarattu in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Intlo paatralu evaru kadugutaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Roju nene kadugutanu.",
+            "Paatralu sink lo unnayi.",
+            "Naaku kotta paatralu kaavali."
+          ],
+          "correctAnswer": "Roju nene kadugutanu.",
+          "translatedSentence": "I wash them myself every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu illu oodchi, tarvaata tudichanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I swept the house and then mopped it.",
+            "I swept the house and then washed the clothes.",
+            "I will sweep the house and then mop it."
+          ],
+          "correctAnswer": "I swept the house and then mopped it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru vanta cheyyagalaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem vanta chestanu.",
+            "Ledu, naaku ee roju aakali ledu.",
+            "Avunu, biryani chaala baagundi."
+          ],
+          "correctAnswer": "Avunu, konchem vanta chestanu.",
+          "translatedSentence": "Yes, I can cook a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee roju naaku vanta cheyyalani ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I don't feel like cooking today.",
+            "I did not cook anything today.",
+            "I don't feel like eating today."
+          ],
+          "correctAnswer": "I don't feel like cooking today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Battalu aara vesaavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, daaba meeda aara vesanu.",
+            "Ledu, nenu kotta battalu konnanu.",
+            "Avunu, battalu alamara lo pettanu."
+          ],
+          "correctAnswer": "Avunu, daaba meeda aara vesanu.",
+          "translatedSentence": "Yes, I hung them out to dry on the terrace."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kuragayalu kadigi, tarvaata koyyandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wash the vegetables and then cut them.",
+            "Cut the vegetables and then wash them.",
+            "Wash the vegetables and put them in the fridge."
+          ],
+          "correctAnswer": "Wash the vegetables and then cut them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku konchem sahaayam cheyyagalaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, nenu paatralu kadugutanu.",
+            "Tappakunda, naaku irani chai kaavali.",
+            "Ledu, nenu ippudu intlo lenu."
+          ],
+          "correctAnswer": "Tappakunda, nenu paatralu kadugutanu.",
+          "translatedSentence": "Of course, I will wash the dishes."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naa cell phone ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi mancham meeda undi.",
+            "Adi naa daggara ledu.",
+            "Adi chaala kotta phone."
+          ],
+          "correctAnswer": "Adi mancham meeda undi.",
+          "translatedSentence": "It is on the bed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pilli table kinda padukundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is sleeping under the table.",
+            "The cat is sitting on the table.",
+            "The cat is sleeping under the bed."
+          ],
+          "correctAnswer": "The cat is sleeping under the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee pustakaalu ekkada unnayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avi alamara lopala unnayi.",
+            "Avi naaku ippudu kaavali.",
+            "Avi chaala paata pustakaalu."
+          ],
+          "correctAnswer": "Avi alamara lopala unnayi.",
+          "translatedSentence": "They are inside the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Talupu venuka cheepuru undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The broom is behind the door.",
+            "The broom is next to the door.",
+            "The bucket is behind the door."
+          ],
+          "correctAnswer": "The broom is behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto ekkada aagindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi maa inti mundu aagindi.",
+            "Adi Charminar daggara veltundi.",
+            "Auto lo naa bag undi."
+          ],
+          "correctAnswer": "Adi maa inti mundu aagindi.",
+          "translatedSentence": "It stopped in front of our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neeru fridge lopala undi, paalu bayata unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The water is inside the fridge and the milk is outside.",
+            "The water is outside and the milk is inside the fridge.",
+            "Both the water and the milk are inside the fridge."
+          ],
+          "correctAnswer": "The water is inside the fridge and the milk is outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Alamara pakkana emi undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alamara pakkana oka pedda kitiki undi.",
+            "Alamara lo naa battalu unnayi.",
+            "Alamara padaka gadi lo undi."
+          ],
+          "correctAnswer": "Alamara pakkana oka pedda kitiki undi.",
+          "translatedSentence": "There is a big window next to the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa cheppulu talupu bayata unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My slippers are outside the door.",
+            "My slippers are behind the door.",
+            "My slippers are inside the house."
+          ],
+          "correctAnswer": "My slippers are outside the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bag ni ekkada pettamantaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Daanni mancham kinda pettandi.",
+            "Daanni nenu ninna konnanu.",
+            "Bag lo naa battalu unnayi."
+          ],
+          "correctAnswer": "Daanni mancham kinda pettandi.",
+          "translatedSentence": "Please put it under the bed."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaram, lopaliki randi!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaadalu, meeru baagunnaara?",
+            "Nenu ippude bayata veltunnanu.",
+            "Maa illu ikkade dagganne undi."
+          ],
+          "correctAnswer": "Dhanyavaadalu, meeru baagunnaara?",
+          "translatedSentence": "Thank you, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Repu maa chuttalu Vijayawada nunchi vastunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our relatives are coming from Vijayawada tomorrow.",
+            "Our relatives went to Vijayawada yesterday.",
+            "Our friends are coming from Vijayawada tomorrow."
+          ],
+          "correctAnswer": "Our relatives are coming from Vijayawada tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku chai kaavaalaa, coffee kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku irani chai kaavali, dhanyavaadalu.",
+            "Naaku konchem challa neeru chaalu, vaddu.",
+            "Naaku ee gadi chaala nachindi."
+          ],
+          "correctAnswer": "Naaku irani chai kaavali, dhanyavaadalu.",
+          "translatedSentence": "I would like Irani chai, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem sepu ee kurchi lo kurchondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit in this chair for a while.",
+            "Please sit on the bed for a while.",
+            "Please wait outside for a while."
+          ],
+          "correctAnswer": "Please sit in this chair for a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhojanam chesi vellandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddandi, nenu ippude tinnanu.",
+            "Sare, nenu repu malli vastanu.",
+            "Avunu, maa illu ikkade dagganne undi."
+          ],
+          "correctAnswer": "Vaddandi, nenu ippude tinnanu.",
+          "translatedSentence": "No thank you, I just ate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaallu ee raatri ikkade untaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They are staying here tonight.",
+            "They are coming here tonight.",
+            "They stayed here last night."
+          ],
+          "correctAnswer": "They are staying here tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru raatri bhojanaaniki emi tintaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emaina sare, nenu anni tintanu.",
+            "Nenu ippudu vanta gadi lo unnanu.",
+            "Naaku ee padaka gadi kaavali."
+          ],
+          "correctAnswer": "Emaina sare, nenu anni tintanu.",
+          "translatedSentence": "Anything is fine, I eat everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chuttala kosam nenu padaka gadi sarichesanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I tidied up the bedroom for the relatives.",
+            "I cleaned the kitchen for the relatives.",
+            "I will tidy up the bedroom for the relatives."
+          ],
+          "correctAnswer": "I tidied up the bedroom for the relatives."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malli tappakunda maa intiki randi!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda vastanu, dhanyavaadalu.",
+            "Naaku mee illu telidu, konchem cheppandi.",
+            "Nenu ee raatri ikkade untanu."
+          ],
+          "correctAnswer": "Tappakunda vastanu, dhanyavaadalu.",
+          "translatedSentence": "I will definitely come again, thank you."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee inti adde nelaki entha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nelaki padihenu vela, kaani current bill veru.",
+            "Idi rendu padaka gadula illu, chaala baagundi.",
+            "Adde nenu ninna kattesanu, marchipoyanu."
+          ],
+          "correctAnswer": "Nelaki padihenu vela, kaani current bill veru.",
+          "translatedSentence": "Fifteen thousand a month, but the electricity bill is separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bathroom lo nalla leak avutondi, plumber ni pilavandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tap in the bathroom is leaking, please call a plumber.",
+            "The tap in the bathroom is not working, please call an electrician.",
+            "There is no water in the bathroom, please call the owner."
+          ],
+          "correctAnswer": "The tap in the bathroom is leaking, please call a plumber."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Padaka gadi lo fan tirigatledu, meeru choosaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Choosanu, motor kaalipoyindi anukunta.",
+            "Choosanu, kaani nenu light matrame off chesanu.",
+            "Ledu, aa fan chaala kotta di kada."
+          ],
+          "correctAnswer": "Choosanu, motor kaalipoyindi anukunta.",
+          "translatedSentence": "I looked at it, and I think the motor has burnt out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninna raatri current poyindi, kaani ippudu vachindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The power went out last night, but it is back now.",
+            "The power went out last night and it still has not come back.",
+            "There was no water last night, but there is water now."
+          ],
+          "correctAnswer": "The power went out last night, but it is back now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adde eppudu kattali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prati nela aidu lopala kattandi.",
+            "Adde nelaki chaala ekkuva ayyindi.",
+            "Nenu inka ee illu choodaledu."
+          ],
+          "correctAnswer": "Prati nela aidu lopala kattandi.",
+          "translatedSentence": "Please pay it before the fifth of every month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pakkinti vaallu chaala manchi vaallu, edaina kaavalante adugutanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our neighbours are very nice, so if I need anything I just ask them.",
+            "Our neighbours are very nice, but I never talk to them.",
+            "Our neighbours are new here, so I help them with everything."
+          ],
+          "correctAnswer": "Our neighbours are very nice, so if I need anything I just ask them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ee intlo emaina ibbandi undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kitiki moosukovadam ledu, daanni bagu cheyinchandi.",
+            "Illu chaala pedda di, maa chuttalaki nachindi.",
+            "Nenu repu adde kadatanu, marchipokandi."
+          ],
+          "correctAnswer": "Kitiki moosukovadam ledu, daanni bagu cheyinchandi.",
+          "translatedSentence": "The window does not close, so please get it fixed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu owner garu ki cheppanu, kaani inka evaru raaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I told the owner, but nobody has come yet.",
+            "I told the owner, and somebody came yesterday.",
+            "I have not told the owner, so nobody has come."
+          ],
+          "correctAnswer": "I told the owner, but nobody has come yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu electrician vastadu, meeru intlo untaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Untanu, kaani pannendu tarvaata raamanandi.",
+            "Untanu, kaani naaku current gurinchi emi telidu.",
+            "Ledu, repu nenu Vijayawada veltunnanu."
+          ],
+          "correctAnswer": "Untanu, kaani pannendu tarvaata raamanandi.",
+          "translatedSentence": "I will be home, but ask him to come after twelve."
+        }
+      ]
+    }
+  ]
+}

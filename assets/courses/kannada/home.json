@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneyalli eshtu kone ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna maneyalli mooru kone ive.",
+            "Nanna mane tumba chennagide.",
+            "Nanage ondu kone beku."
+          ],
+          "correctAnswer": "Nanna maneyalli mooru kone ive.",
+          "translatedSentence": "There are three rooms in my house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu nanna malagu kone.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my bedroom.",
+            "This is my kitchen.",
+            "This is your bedroom."
+          ],
+          "correctAnswer": "This is my bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aduge mane elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aduge mane illi ide.",
+            "Aduge mane tumba chikkadu.",
+            "Nanage aduge mane ishta."
+          ],
+          "correctAnswer": "Aduge mane illi ide.",
+          "translatedSentence": "The kitchen is here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna mane tumba doddadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My house is very big.",
+            "My house is very small.",
+            "My room is very big."
+          ],
+          "correctAnswer": "My house is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu yaarada kone?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idu nanna tangiya kone.",
+            "Ee kone tumba chennagide.",
+            "Aa kone khaali ide."
+          ],
+          "correctAnswer": "Idu nanna tangiya kone.",
+          "translatedSentence": "This is my younger sister's room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Snanada kone kelage ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bathroom is downstairs.",
+            "The bathroom is upstairs.",
+            "The kitchen is downstairs."
+          ],
+          "correctAnswer": "The bathroom is downstairs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma mane hosadaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, adu haleya mane.",
+            "Haudu, nanage mane gottilla.",
+            "Illa, naanu manege hogtini."
+          ],
+          "correctAnswer": "Illa, adu haleya mane.",
+          "translatedSentence": "No, it is an old house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baagilu tegedide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door is open.",
+            "The door is closed.",
+            "The window is open."
+          ],
+          "correctAnswer": "The door is open."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava kone ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage nanna malagu kone ishta.",
+            "Nanna kone mele ide.",
+            "Nanna maneyalli kitaki ide."
+          ],
+          "correctAnswer": "Nanage nanna malagu kone ishta.",
+          "translatedSentence": "I like my bedroom."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Things around the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kursi elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kursi aduge maneyalli ide.",
+            "Kursi tumba haleyadu.",
+            "Nanage ondu hosa kursi beku."
+          ],
+          "correctAnswer": "Kursi aduge maneyalli ide.",
+          "translatedSentence": "The chair is in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna koneyalli ondu mancha ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a bed in my room.",
+            "There is a chair in my room.",
+            "There is a bed in your room."
+          ],
+          "correctAnswer": "There is a bed in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beegada kai elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Beegada kai mejina mele ide.",
+            "Ee beega tumba haleyadu.",
+            "Nanage hosa beega beku."
+          ],
+          "correctAnswer": "Beegada kai mejina mele ide.",
+          "translatedSentence": "The key is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadiyaara nintu hogide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The clock has stopped.",
+            "The clock is new.",
+            "The fan has stopped."
+          ],
+          "correctAnswer": "The clock has stopped."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Fan haakalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, swalpa sekeyaagide.",
+            "Ee fan tumba haleyadu.",
+            "Nanna kone tumba chikkadu."
+          ],
+          "correctAnswer": "Haudu, swalpa sekeyaagide.",
+          "translatedSentence": "Yes, it is a bit hot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa lota khaali ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That tumbler is empty.",
+            "That tumbler is full.",
+            "That plate is empty."
+          ],
+          "correctAnswer": "That tumbler is empty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tatte elli ittiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu tatte aduge maneyalli ittiddini.",
+            "Ee tatte tumba chennagide.",
+            "Nanage eradu tatte beku."
+          ],
+          "correctAnswer": "Naanu tatte aduge maneyalli ittiddini.",
+          "translatedSentence": "I kept the plates in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hatra eradu kambali ive.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two blankets.",
+            "I have two pillows.",
+            "I need two blankets."
+          ],
+          "correctAnswer": "I have two blankets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Koneyalli kattale ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naanu light haakteeni.",
+            "Sari, naanu baagilu haakteeni.",
+            "Ee kone tumba doddadu."
+          ],
+          "correctAnswer": "Sari, naanu light haakteeni.",
+          "translatedSentence": "Okay, I will switch on the light."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Housework and chores",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paatre yaaru toltaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu paatre tolteeni.",
+            "Paatre aduge maneyalli ive.",
+            "Nanage hosa paatre beku."
+          ],
+          "correctAnswer": "Naanu paatre tolteeni.",
+          "translatedSentence": "I wash the vessels."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ninne bata tolde.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I washed the clothes yesterday.",
+            "I washed the vessels yesterday.",
+            "I will wash the clothes tomorrow."
+          ],
+          "correctAnswer": "I washed the clothes yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nela gudisidiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innu gudisilla.",
+            "Haudu, naanu aduge maadteeni.",
+            "Ee nela tumba doddadu."
+          ],
+          "correctAnswer": "Illa, innu gudisilla.",
+          "translatedSentence": "No, I have not swept yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma aduge maadtaa iddaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking.",
+            "Mother is sweeping.",
+            "Mother has finished cooking."
+          ],
+          "correctAnswer": "Mother is cooking."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indu aduge yaaru maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Indu naanu ragi mudde maadteeni.",
+            "Indu nanage kelasa illa.",
+            "Aduge mane eega khaali ide."
+          ],
+          "correctAnswer": "Indu naanu ragi mudde maadteeni.",
+          "translatedSentence": "Today I will make ragi mudde."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu kasa horage haaki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please take the rubbish outside.",
+            "Please bring the rubbish inside.",
+            "Please wash the vessels."
+          ],
+          "correctAnswer": "Please take the rubbish outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage swalpa sahaaya maadtiraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, khandita maadteeni.",
+            "Naanu ninne nela oresidde.",
+            "Ee kelasa tumba kashta."
+          ],
+          "correctAnswer": "Haudu, khandita maadteeni.",
+          "translatedSentence": "Yes, I will definitely help."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ella bata istri maadiddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have ironed all the clothes.",
+            "I have washed all the clothes.",
+            "I will iron all the clothes."
+          ],
+          "correctAnswer": "I have ironed all the clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna koneyalli yaake ishtu kasa ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, naanu eegale gudisteeni.",
+            "Kshamisi, naanu naale bata tolteeni.",
+            "Nanna kone nimma koneginta chikkadu."
+          ],
+          "correctAnswer": "Kshamisi, naanu eegale gudisteeni.",
+          "translatedSentence": "Sorry, I will sweep right away."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanna pustaka elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ninna pustaka mejina mele ide.",
+            "Ninna pustaka tumba hosadu.",
+            "Nanage aa pustaka tumba ishta."
+          ],
+          "correctAnswer": "Ninna pustaka mejina mele ide.",
+          "translatedSentence": "Your book is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bekku manchada kelage ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is under the bed.",
+            "The cat is on the bed.",
+            "The cat is behind the bed."
+          ],
+          "correctAnswer": "The cat is under the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Haalu elli ittiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haalu fridge olage ide.",
+            "Haalu tumba bisi ide.",
+            "Nanage innu swalpa haalu beku."
+          ],
+          "correctAnswer": "Haalu fridge olage ide.",
+          "translatedSentence": "The milk is inside the fridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna chappali baagilina hinde ive.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My slippers are behind the door.",
+            "My slippers are in front of the door.",
+            "My shoes are behind the door."
+          ],
+          "correctAnswer": "My slippers are behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meju yaava kade ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meju kitakiya pakkadalli ide.",
+            "Meju tumba bhaaravaagide.",
+            "Nanage doddadaada meju beku."
+          ],
+          "correctAnswer": "Meju kitakiya pakkadalli ide.",
+          "translatedSentence": "The table is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadiyaara godeya mele ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The clock is on the wall.",
+            "The clock is on the table.",
+            "The mirror is on the wall."
+          ],
+          "correctAnswer": "The clock is on the wall."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanna beegada kai sigtaa illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu ninna cheelada olage ide.",
+            "Adu tumba haleyadu aagide.",
+            "Nanage ondu beegada kai beku."
+          ],
+          "correctAnswer": "Adu ninna cheelada olage ide.",
+          "translatedSentence": "It is inside your bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eradu koneya naduve ondu chikka angala ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a small courtyard between the two rooms.",
+            "There is a small courtyard behind the two rooms.",
+            "There is a big courtyard between the two rooms."
+          ],
+          "correctAnswer": "There is a small courtyard between the two rooms."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kasada dabbi elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu aduge maneya mooleyalli ide.",
+            "Adu tumba tumbi hogide.",
+            "Nanage hosa kasada dabbi beku."
+          ],
+          "correctAnswer": "Adu aduge maneya mooleyalli ide.",
+          "translatedSentence": "It is in the corner of the kitchen."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaara, olage banni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaada, neevu hege iddira?",
+            "Illa, nanage adu beda.",
+            "Naanu eega manege hogtini."
+          ],
+          "correctAnswer": "Dhanyavaada, neevu hege iddira?",
+          "translatedSentence": "Thank you, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu illi kootkolli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit here.",
+            "Please wait outside.",
+            "Please come inside."
+          ],
+          "correctAnswer": "Please sit here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage filter kaapi maadalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, swalpa kodi.",
+            "Nanage kaapi maadakke gottilla.",
+            "Ee kaapi tumba bisi ide."
+          ],
+          "correctAnswer": "Haudu, swalpa kodi.",
+          "translatedSentence": "Yes, please give me a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naavu naale nimma manege bartivi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will come to your house tomorrow.",
+            "We came to your house yesterday.",
+            "We will come to your house today."
+          ],
+          "correctAnswer": "We will come to your house tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu swalpa tindi tagolli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saaku, tumba dhanyavaada.",
+            "Nanage ee tindi maadakke gottilla.",
+            "Naanu manele masala dose maadteeni."
+          ],
+          "correctAnswer": "Saaku, tumba dhanyavaada.",
+          "translatedSentence": "That is enough, thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma mane tumba chennagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your house is very nice.",
+            "Your house is very big.",
+            "My house is very nice."
+          ],
+          "correctAnswer": "Your house is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chappali elli bidali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chappali baagilina horage bidi.",
+            "Nimma chappali tumba hosadu.",
+            "Naanu chappali hakolla."
+          ],
+          "correctAnswer": "Chappali baagilina horage bidi.",
+          "translatedSentence": "Please leave your slippers outside the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atithigalu bandaaga naavu bisi bele bath maadidevu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When the guests came we made bisi bele bath.",
+            "When the guests came we made masala dose.",
+            "When the guests came we ate bisi bele bath."
+          ],
+          "correctAnswer": "When the guests came we made bisi bele bath."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naavu horadtivi, tumba tada aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, jopaana hogi banni.",
+            "Sari, naanu innu swalpa kaapi maadteeni.",
+            "Nimma mane illinda tumba doora ide."
+          ],
+          "correctAnswer": "Sari, jopaana hogi banni.",
+          "translatedSentence": "Alright, travel safely and do come again."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee maneya baade eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tingalige hadinaidu saavira rupaayi.",
+            "Naanu ee maneyalli mooru varsha idde.",
+            "Ee mane Mysuru nalli ide."
+          ],
+          "correctAnswer": "Tingalige hadinaidu saavira rupaayi.",
+          "translatedSentence": "Fifteen thousand rupees a month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nalli sorutta ide, dayavittu plumber ge phone maadi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tap is leaking, please call a plumber.",
+            "The tap is leaking, please call the landlord.",
+            "The tap is broken, please buy a new one."
+          ],
+          "correctAnswer": "The tap is leaking, please call a plumber."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneyalli neeru bartaa ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, beligginda neeru bartaa illa.",
+            "Haudu, naanu ninne nalli sari maadiside.",
+            "Nanage hosa nalli beku."
+          ],
+          "correctAnswer": "Illa, beligginda neeru bartaa illa.",
+          "translatedSentence": "No, there has been no water since morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maneya maalika naale baade tagolakke bartaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The landlord is coming tomorrow to collect the rent.",
+            "The landlord came yesterday to collect the rent.",
+            "The landlord is coming tomorrow to repair the tap."
+          ],
+          "correctAnswer": "The landlord is coming tomorrow to collect the rent."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pakkada maneyavaru hege iddaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru tumba olleyavaru, yaavaglu sahaaya maadtaare.",
+            "Avara mane namma maneginta doddadu.",
+            "Naanu avarige ninne baade kotte."
+          ],
+          "correctAnswer": "Avaru tumba olleyavaru, yaavaglu sahaaya maadtaare.",
+          "translatedSentence": "They are very good people, they always help."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Current hogidare naanu maalikarige phone maadteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the power goes out I will call the landlord.",
+            "If the power goes out I will call the plumber.",
+            "When the power went out I called the landlord."
+          ],
+          "correctAnswer": "If the power goes out I will call the landlord."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee tingala baade kottiraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naale bank ge hogi kodteeni.",
+            "Haudu, ee baade tumba jaasti ide.",
+            "Naanu maalikarannu innu nodilla."
+          ],
+          "correctAnswer": "Illa, naale bank ge hogi kodteeni.",
+          "translatedSentence": "No, I will go to the bank tomorrow and pay it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ee mane bittu hogtaa iddini, yaakendare baade tumba jaasti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am moving out of this house because the rent is too high.",
+            "I am moving out of this house because it is too small.",
+            "I want to stay in this house, but the rent is too high."
+          ],
+          "correctAnswer": "I am moving out of this house because the rent is too high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kitaki muridide, adannu yaaru sari maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naale naanu obba carpenter na kalisteeni.",
+            "Kitaki tegedare olle gaali bartade.",
+            "Kitakiya pakkadalli hosa meju ide."
+          ],
+          "correctAnswer": "Naale naanu obba carpenter na kalisteeni.",
+          "translatedSentence": "I will send a carpenter tomorrow."
+        }
+      ]
+    }
+  ]
+}

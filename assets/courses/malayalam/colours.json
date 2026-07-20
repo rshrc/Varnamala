@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aakaasathinte niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aakaasam neelayaanu.",
+            "Aakaasam pachayaanu.",
+            "Aakaasam manjayaanu."
+          ],
+          "correctAnswer": "Aakaasam neelayaanu.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ilakalude niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ilakal pachayaanu.",
+            "Ilakal karuppaanu.",
+            "Ilakal vellayaanu."
+          ],
+          "correctAnswer": "Ilakal pachayaanu.",
+          "translatedSentence": "The leaves are green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente kuda chuvappaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My umbrella is red.",
+            "My umbrella is black.",
+            "My bag is red."
+          ],
+          "correctAnswer": "My umbrella is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paalinte niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paalu vellayaanu.",
+            "Paalu neelayaanu.",
+            "Paalu chuvappaanu."
+          ],
+          "correctAnswer": "Paalu vellayaanu.",
+          "translatedSentence": "Milk is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee poovu manjayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is yellow.",
+            "This flower is white.",
+            "That flower is yellow."
+          ],
+          "correctAnswer": "This flower is yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaakkayude niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaakka karuppaanu.",
+            "Kaakka manjayaanu.",
+            "Kaakka pachayaanu."
+          ],
+          "correctAnswer": "Kaakka karuppaanu.",
+          "translatedSentence": "The crow is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku pacha niram ishtamaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour green.",
+            "I like the colour blue.",
+            "I do not like the colour green."
+          ],
+          "correctAnswer": "I like the colour green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pazhutha manga manjayaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, athu manjayaanu.",
+            "Alla, athu neelayaanu.",
+            "Athe, athu karuppaanu."
+          ],
+          "correctAnswer": "Athe, athu manjayaanu.",
+          "translatedSentence": "Yes, it is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente kuppayam vellayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shirt is white.",
+            "My shirt is blue.",
+            "Your shirt is white."
+          ],
+          "correctAnswer": "My shirt is white."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude chuvanna kuda evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ente muriyil undu.",
+            "Athu chuvappaanu.",
+            "Enikku kuda ishtamaanu."
+          ],
+          "correctAnswer": "Athu ente muriyil undu.",
+          "translatedSentence": "It is in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa karutha bag aarudethaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ente chettante aanu.",
+            "Athu karuppaanu.",
+            "Bag meshayude mukalil undu."
+          ],
+          "correctAnswer": "Athu ente chettante aanu.",
+          "translatedSentence": "It is my elder brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente muriyil oru neela kasera undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a blue chair in my room.",
+            "There is a green chair in my room.",
+            "There is a blue table in my room."
+          ],
+          "correctAnswer": "There is a blue chair in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pacha kasera puthiyathaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, athu pazhayathaanu.",
+            "Athe, kasera pachayaanu.",
+            "Kasera muriyil illa."
+          ],
+          "correctAnswer": "Alla, athu pazhayathaanu.",
+          "translatedSentence": "No, it is old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avante bag karuppum vellayum aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His bag is black and white.",
+            "Her bag is black and white.",
+            "His bag is black and blue."
+          ],
+          "correctAnswer": "His bag is black and white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meshayude mukalil enthaanu ullathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru manja pusthakam undu.",
+            "Mesha karuppaanu.",
+            "Enikku pusthakam ishtamaanu."
+          ],
+          "correctAnswer": "Oru manja pusthakam undu.",
+          "translatedSentence": "There is a yellow book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa manja veedu valuthaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That yellow house is big.",
+            "That yellow house is small.",
+            "That white house is big."
+          ],
+          "correctAnswer": "That yellow house is big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee veluttha shirt ninakku cherunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, athu kurachu valuthaanu.",
+            "Athe, shirt vellayaanu.",
+            "Njaan shirt vaangi."
+          ],
+          "correctAnswer": "Illa, athu kurachu valuthaanu.",
+          "translatedSentence": "No, it is a bit too big for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pacha pusthakam ente aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This green book is mine.",
+            "This green book is yours.",
+            "This red book is mine."
+          ],
+          "correctAnswer": "This green book is mine."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Choosing a colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethu niram venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku neela niram venam.",
+            "Enikku niram ariyilla.",
+            "Ee niram nannayi cherunnu."
+          ],
+          "correctAnswer": "Enikku neela niram venam.",
+          "translatedSentence": "I want the blue one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee shirt vere niramil undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, chuvappum manjayum undu.",
+            "Illa, shirt ente muriyil undu.",
+            "Athe, enikku shirt ishtamaanu."
+          ],
+          "correctAnswer": "Undu, chuvappum manjayum undu.",
+          "translatedSentence": "Yes, we have it in red and yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku oru vella mundu venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a white mundu.",
+            "I want a white shirt.",
+            "I do not want a white mundu."
+          ],
+          "correctAnswer": "I want a white mundu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku kadum neelayo ilam neelayo venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku ilam neela mathi.",
+            "Enikku neela niram ariyilla.",
+            "Randum ente aanu."
+          ],
+          "correctAnswer": "Enikku ilam neela mathi.",
+          "translatedSentence": "Light blue is enough for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kadayil neela niram illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shop does not have blue.",
+            "This shop does not have green.",
+            "This shop has blue."
+          ],
+          "correctAnswer": "This shop does not have blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manja niramulla kuda undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, chuvanna kuda mathrame ullu.",
+            "Undu, kuda ente muriyil undu.",
+            "Athe, enikku kuda venda."
+          ],
+          "correctAnswer": "Illa, chuvanna kuda mathrame ullu.",
+          "translatedSentence": "No, we only have red umbrellas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chuvanna kuda enikku venda, manja mathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want the red umbrella, the yellow one is fine.",
+            "I do not want the yellow umbrella, the red one is fine.",
+            "I want the red umbrella, not the yellow one."
+          ],
+          "correctAnswer": "I do not want the red umbrella, the yellow one is fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pacha sari ethra roopayaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ayyanooru roopa aanu.",
+            "Athu pacha niramaanu.",
+            "Enikku sari venam."
+          ],
+          "correctAnswer": "Athu ayyanooru roopa aanu.",
+          "translatedSentence": "It is five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku ethu niramulla bag aanu venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Which colour bag do you want?",
+            "Which colour bag do you have?",
+            "Whose bag do you want?"
+          ],
+          "correctAnswer": "Which colour bag do you want?"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "The colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalyanathinu ningal enthaanu idunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan vella mundu udukkum.",
+            "Enikku kalyanam ishtamaanu.",
+            "Kalyanam Kochiyil aanu."
+          ],
+          "correctAnswer": "Njaan vella mundu udukkum.",
+          "translatedSentence": "I will wear a white mundu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chuvanna sari ningal evide ninnaanu vaangiyathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan athu Kochiyil ninnu vaangi.",
+            "Athu chuvanna niramaanu.",
+            "Enikku sari udukkan ariyilla."
+          ],
+          "correctAnswer": "Njaan athu Kochiyil ninnu vaangi.",
+          "translatedSentence": "I bought it in Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avalude churidar ilam pinku niramaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Her churidar is light pink.",
+            "Her churidar is dark pink.",
+            "His churidar is light pink."
+          ],
+          "correctAnswer": "Her churidar is light pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte neela shirt evide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu alamaarayil undu.",
+            "Athu neela niramaanu.",
+            "Enikku shirt venam."
+          ],
+          "correctAnswer": "Athu alamaarayil undu.",
+          "translatedSentence": "It is in the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan innale oru veluttha thoppi vaangi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I bought a white cap yesterday.",
+            "I bought a black cap yesterday.",
+            "I will buy a white cap tomorrow."
+          ],
+          "correctAnswer": "I bought a white cap yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee karutha pantsu ningalkku cherumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, athu enikku cheriyathaanu.",
+            "Athe, pantsu karuppaanu.",
+            "Njaan pantsu innale vaangi."
+          ],
+          "correctAnswer": "Illa, athu enikku cheriyathaanu.",
+          "translatedSentence": "No, it is too small for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente cheruppu karuppaanu, pakshe ente bag thavittu niramaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sandals are black, but my bag is brown.",
+            "My sandals are brown, but my bag is black.",
+            "My sandals are black and my bag is black too."
+          ],
+          "correctAnswer": "My sandals are black, but my bag is brown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal enthukondaanu manja sari eduthathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karanam athu ente ammakku ishtamaanu.",
+            "Karanam enikku sari venda.",
+            "Athe, sari manja niramaanu."
+          ],
+          "correctAnswer": "Karanam athu ente ammakku ishtamaanu.",
+          "translatedSentence": "Because my mother likes it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanathinu njaan kadum neela kuppayam idum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will wear a dark blue shirt to the wedding.",
+            "I will wear a light blue shirt to the wedding.",
+            "I wore a dark blue shirt to the wedding."
+          ],
+          "correctAnswer": "I will wear a dark blue shirt to the wedding."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around us",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "KSRTC bassinte niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu chuvappum manjayum aanu.",
+            "Athu neelayum vellayum aanu.",
+            "Athu pachayum karuppum aanu."
+          ],
+          "correctAnswer": "Athu chuvappum manjayum aanu.",
+          "translatedSentence": "It is red and yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kayalile vellathinte niram enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu kadum pacha niramaanu.",
+            "Athu kadum chuvappaanu.",
+            "Athu paalu pole vellayaanu."
+          ],
+          "correctAnswer": "Athu kadum pacha niramaanu.",
+          "translatedSentence": "It is dark green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kochiyile kadal innu neelayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sea in Kochi is blue today.",
+            "The sea in Kochi is green today.",
+            "The sky in Kochi is blue today."
+          ],
+          "correctAnswer": "The sea in Kochi is blue today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sooryan asthamikkumbol aakaasam ethu niramaakum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aakaasam oranju niramaakum.",
+            "Aakaasam kadum pachayaakum.",
+            "Aakaasam paalu pole veluthaakum."
+          ],
+          "correctAnswer": "Aakaasam oranju niramaakum.",
+          "translatedSentence": "The sky turns orange."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chuvanna KSRTC bus Thiruvananthapurathekku pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The red KSRTC bus is going to Thiruvananthapuram.",
+            "The blue KSRTC bus is going to Thiruvananthapuram.",
+            "The red KSRTC bus is coming from Thiruvananthapuram."
+          ],
+          "correctAnswer": "The red KSRTC bus is going to Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal kayalil poyappol enthaanu kandathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan kure veluttha pakshikale kandu.",
+            "Njaan kayalil poyilla.",
+            "Kayal Kochiyil aanu."
+          ],
+          "correctAnswer": "Njaan kure veluttha pakshikale kandu.",
+          "translatedSentence": "I saw a lot of white birds."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazhakkalathu ellaayidathum pacha niramaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the rainy season everything is green.",
+            "In the rainy season everything is grey.",
+            "In the summer everything is green."
+          ],
+          "correctAnswer": "In the rainy season everything is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pazhutha nendrapazham ethu niramaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu manja niramaanu.",
+            "Athu pacha niramaanu.",
+            "Athu thavittu niramaanu."
+          ],
+          "correctAnswer": "Athu manja niramaanu.",
+          "translatedSentence": "It is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente veedinte chumaru ilam manjayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The walls of my house are light yellow.",
+            "The walls of my house are dark yellow.",
+            "The walls of my house are light green."
+          ],
+          "correctAnswer": "The walls of my house are light yellow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee sariyekkal ilam niramulla onnu kaanikkamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thirchayaayum, ithaa ilam pinku niramulla onnu.",
+            "Kshamikkanam, ee kadayil sari illa.",
+            "Athe, ee sari kadum neela niramaanu."
+          ],
+          "correctAnswer": "Thirchayaayum, ithaa ilam pinku niramulla onnu.",
+          "translatedSentence": "Certainly, here is one in light pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal enthukondaanu kadum niram ishtappedaathathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karanam venalkkaalathu kadum niram choodu koottum.",
+            "Karanam enikku oru puthiya sari venam.",
+            "Athe, enikku kadum neela valare ishtamaanu."
+          ],
+          "correctAnswer": "Karanam venalkkaalathu kadum niram choodu koottum.",
+          "translatedSentence": "Because dark colours make you feel hotter in the summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee neela sariyekkal aa pacha sari ninakku nannayi cherum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That green sari suits you better than this blue one.",
+            "This blue sari suits you better than that green one.",
+            "That green sari costs more than this blue one."
+          ],
+          "correctAnswer": "That green sari suits you better than this blue one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee randil ethaanu enikku kooduthal cherunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ilam neela ningalkku kooduthal nannayi cherum.",
+            "Ee randu sariyum ente aanu.",
+            "Enikku ee kada valare ishtamaanu."
+          ],
+          "correctAnswer": "Ilam neela ningalkku kooduthal nannayi cherum.",
+          "translatedSentence": "The light blue one suits you better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kadum niram ishtamallenkil ee ilam manja edukkoo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like dark colours, take this light yellow one.",
+            "If you like dark colours, take this light yellow one.",
+            "If you do not like dark colours, do not take this light yellow one."
+          ],
+          "correctAnswer": "If you do not like dark colours, take this light yellow one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vila kuranja onnu venamengil enodu paranjaal mathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandi, pakshe enikku ee niram thanne mathi.",
+            "Nandi, enikku vila ariyilla.",
+            "Athe, njaan naale ee kadayil varum."
+          ],
+          "correctAnswer": "Nandi, pakshe enikku ee niram thanne mathi.",
+          "translatedSentence": "Thank you, but this is the colour I want."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan chuvappu vaangumaayirunnu, pakshe athu ente cheruppinodu cherilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would have bought the red one, but it does not go with my sandals.",
+            "I bought the red one because it goes with my sandals.",
+            "I will buy the red one even though it does not go with my sandals."
+          ],
+          "correctAnswer": "I would have bought the red one, but it does not go with my sandals."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente puthiya kuppayathinte niram ningalkku ishtamaayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ishtamaayi, pakshe kurachu koodi ilam niramaayirunnenkil nannaayirunnu.",
+            "Ishtamaayilla, karanam enikku kuppayam illa.",
+            "Athe, njaan athu Kochiyil ninnu vaangi."
+          ],
+          "correctAnswer": "Ishtamaayi, pakshe kurachu koodi ilam niramaayirunnenkil nannaayirunnu.",
+          "translatedSentence": "I liked it, but it would have been nicer in a slightly lighter shade."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku ee niram ishtamaayennu enikku thonnunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not think you liked this colour.",
+            "I think you liked this colour.",
+            "I do not know whether you liked this colour."
+          ],
+          "correctAnswer": "I do not think you liked this colour."
+        }
+      ]
+    }
+  ]
+}

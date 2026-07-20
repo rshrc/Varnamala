@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eha kete taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eha pachasa taka.",
+            "Mote eha darkar.",
+            "Eha bahut bhala achi."
+          ],
+          "correctAnswer": "Eha pachasa taka.",
+          "translatedSentence": "This is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehara dama bahut besi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Its price is too high.",
+            "Its price is quite low.",
+            "The shop is closed today."
+          ],
+          "correctAnswer": "Its price is too high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kinibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu kadali kinibi.",
+            "Mu ghara jibi.",
+            "Mote pani darkar."
+          ],
+          "correctAnswer": "Mu kadali kinibi.",
+          "translatedSentence": "I will buy bananas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote gote jhola darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a bag.",
+            "I need some money.",
+            "I want to buy a shirt."
+          ],
+          "correctAnswer": "I need a bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kadali kilo ku kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalisa taka kilo.",
+            "Mu kadali khaibi.",
+            "Dokan bandha achi."
+          ],
+          "correctAnswer": "Chalisa taka kilo.",
+          "translatedSentence": "Forty rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dokan bahut bada.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shop is very big.",
+            "This shop is very new.",
+            "This market is very far."
+          ],
+          "correctAnswer": "This shop is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kouthi jauchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bazar jauchi.",
+            "Mu bhata khauchi.",
+            "Mote bhoka lagiche."
+          ],
+          "correctAnswer": "Mu bazar jauchi.",
+          "translatedSentence": "I am going to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eha bahut sasta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very cheap.",
+            "This is very expensive.",
+            "This is quite new."
+          ],
+          "correctAnswer": "This is very cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Piaja kete taka kilo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kudi taka kilo.",
+            "Piaja sarigala.",
+            "Mu piaja kinibi nahin."
+          ],
+          "correctAnswer": "Kudi taka kilo.",
+          "translatedSentence": "Twenty rupees a kilo."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pakhare chhena poda achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, taja chhena poda achi.",
+            "Nahin, mu cha pibi nahin.",
+            "Mu kali Puri jibi."
+          ],
+          "correctAnswer": "Ha, taja chhena poda achi.",
+          "translatedSentence": "Yes, we have fresh chhena poda."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote dui kilo aloo deantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me two kilos of potatoes.",
+            "Please give me two kilos of onions.",
+            "Please give me two bananas."
+          ],
+          "correctAnswer": "Please give me two kilos of potatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aau kichhi darkar achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tike luna deantu.",
+            "Nahin, dokan bandha achi.",
+            "Mu paisa neba nahin."
+          ],
+          "correctAnswer": "Ha, tike luna deantu.",
+          "translatedSentence": "Yes, please give me a little salt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chaula kouthi miliba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where can I get rice?",
+            "Where can I get fish?",
+            "Where is this shop?"
+          ],
+          "correctAnswer": "Where can I get rice?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi ranga apananku pasanda ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ehi nila ranga bhala.",
+            "Nahin, mote pani darkar.",
+            "Ha, mu kali asibi."
+          ],
+          "correctAnswer": "Ha, ehi nila ranga bhala.",
+          "translatedSentence": "Yes, this blue colour is nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi dokanre taja machha miluchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fresh fish is available in this shop.",
+            "Fresh fish is expensive in this shop.",
+            "Fresh vegetables are sold in this market."
+          ],
+          "correctAnswer": "Fresh fish is available in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote gote nua sadhi dekhantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, apana ehi sadhi dekhantu.",
+            "Nahin, mu sadhi pindhibi.",
+            "Sadhi bahut sasta nuhen."
+          ],
+          "correctAnswer": "Ha, apana ehi sadhi dekhantu.",
+          "translatedSentence": "Yes, please look at this saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pakhare eteki paisa nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have that much money.",
+            "I do not have a bag with me.",
+            "I have only fifty rupees."
+          ],
+          "correctAnswer": "I do not have that much money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete kilo nebe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu adha kilo nebi.",
+            "Mu dokan bandha karibi.",
+            "Mote jhola darkar nahin."
+          ],
+          "correctAnswer": "Mu adha kilo nebi.",
+          "translatedSentence": "I will take half a kilo."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Bargaining down the price",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi sadhira dama tini sa taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eha bahut mahanga, tike kama karantu.",
+            "Ha, mu dui kilo nebi.",
+            "Mu kali bazar jibi."
+          ],
+          "correctAnswer": "Eha bahut mahanga, tike kama karantu.",
+          "translatedSentence": "That is too expensive, please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dama tike kama karantu, mu ebe hin nebi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Lower the price a little and I will take it right now.",
+            "Lower the price a little and I will come tomorrow.",
+            "The price is fine, so I will take it right now."
+          ],
+          "correctAnswer": "Lower the price a little and I will take it right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dui sa taka debi.",
+            "Mu paisa deba nahin.",
+            "Mu adha kilo aloo nebi."
+          ],
+          "correctAnswer": "Mu dui sa taka debi.",
+          "translatedSentence": "I will give two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eha mo pain bahut mahanga heuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is working out too expensive for me.",
+            "This is quite cheap for me.",
+            "This shop is too far for me."
+          ],
+          "correctAnswer": "This is working out too expensive for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu dui sa pachasa taka debi, chaliba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, niantu, apana pain eteki.",
+            "Nahin, mu kichhi kinibi nahin.",
+            "Dokan ebe bandha achi."
+          ],
+          "correctAnswer": "Ha, niantu, apana pain eteki.",
+          "translatedSentence": "All right, take it, that much for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sesa dama kete, kahantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me the final price.",
+            "Tell me the shop name.",
+            "Say how many kilos you want."
+          ],
+          "correctAnswer": "Tell me the final price."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eteki dama re mu nebi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe apana kete debe, kahantu.",
+            "Ha, mu au dui kilo debi.",
+            "Mo dokanre khuchura nahin."
+          ],
+          "correctAnswer": "Tebe apana kete debe, kahantu.",
+          "translatedSentence": "Then tell me how much you will pay."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aau gote dokanre eha sasta miluchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is cheaper in another shop.",
+            "This is not available in another shop.",
+            "This shop sells cheap sarees."
+          ],
+          "correctAnswer": "This is cheaper in another shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kama dama re dele mu tinita nebi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, tinita pain sa taka.",
+            "Nahin, mu sadhi kinibi.",
+            "Ha, chaula sarigala."
+          ],
+          "correctAnswer": "Thik achi, tinita pain sa taka.",
+          "translatedSentence": "All right, one hundred rupees for three."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi shirt apananku thik hela ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, eha mo pain sana heuchi.",
+            "Ha, mu tini kilo nebi.",
+            "Nahin, mote khuchura paisa darkar."
+          ],
+          "correctAnswer": "Nahin, eha mo pain sana heuchi.",
+          "translatedSentence": "No, this is too small for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote au bada size dekhantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me a bigger size.",
+            "Please show me a smaller size.",
+            "Please show me another colour."
+          ],
+          "correctAnswer": "Please show me a bigger size."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete piaja nebe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote pancha kilo piaja darkar.",
+            "Mote gote nua jhola darkar.",
+            "Mu piaja khae nahin."
+          ],
+          "correctAnswer": "Mote pancha kilo piaja darkar.",
+          "translatedSentence": "I need five kilos of onions."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi jhola bahut bhari heigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bag has become very heavy.",
+            "This bag has become very dirty.",
+            "This bag is very big."
+          ],
+          "correctAnswer": "This bag has become very heavy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adha kilo chhena poda hele chaliba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, adha kilo hin deantu.",
+            "Nahin, mu dui sa taka debi.",
+            "Nahin, mo pakhare jhola nahin."
+          ],
+          "correctAnswer": "Ha, adha kilo hin deantu.",
+          "translatedSentence": "Yes, please give just half a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei sadhi lamba, kintu ranga bhala nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This saree is long, but the colour is not nice.",
+            "This saree is long and the colour is nice.",
+            "This saree is short, but the colour is nice."
+          ],
+          "correctAnswer": "This saree is long, but the colour is not nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi juta apananka pain sana ki bada?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eha tike bada heuchi, sana deantu.",
+            "Eha bahut sasta, mu tinita nebi.",
+            "Mu juta pindhi bazar jibi."
+          ],
+          "correctAnswer": "Eha tike bada heuchi, sana deantu.",
+          "translatedSentence": "It is a bit big, please give me a smaller one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gote kilo amba kete taka padiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much will one kilo of mangoes cost?",
+            "How much will one kilo of bananas cost?",
+            "How many mangoes will one kilo be?"
+          ],
+          "correctAnswer": "How much will one kilo of mangoes cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kete gota kadali nebe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bara gota kadali deantu.",
+            "Dui kilo chaula deantu.",
+            "Kadali bahut mahanga, mu nebi nahin."
+          ],
+          "correctAnswer": "Bara gota kadali deantu.",
+          "translatedSentence": "Please give me twelve bananas."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabu misi kete hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabu misi chari sa taka hela.",
+            "Mote adha kilo aloo deantu.",
+            "Ehi dokan kali bandha thiba."
+          ],
+          "correctAnswer": "Sabu misi chari sa taka hela.",
+          "translatedSentence": "Altogether it comes to four hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pakhare khuchura nahin, sa taka notu achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no change, I only have a hundred rupee note.",
+            "I have no money, so I cannot buy this.",
+            "I have change, so take a hundred rupees."
+          ],
+          "correctAnswer": "I have no change, I only have a hundred rupee note."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kipari paisa debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu phone pe re paisa debi.",
+            "Mu kali bazar asibi.",
+            "Mote gote bada jhola darkar."
+          ],
+          "correctAnswer": "Mu phone pe re paisa debi.",
+          "translatedSentence": "I will pay by phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayakari mote bill deantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the bill.",
+            "Please give me the change.",
+            "Please give me one more bag."
+          ],
+          "correctAnswer": "Please give me the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi jhola pain paisa lagiba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, jhola pain das taka lagiba.",
+            "Nahin, khuchura paisa sarigala.",
+            "Ha, mu tini kilo nebi."
+          ],
+          "correctAnswer": "Ha, jhola pain das taka lagiba.",
+          "translatedSentence": "Yes, the bag costs ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ghara ru jhola anithili, tenu darkar nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I brought a bag from home, so I do not need one.",
+            "I forgot my bag at home, so I need one.",
+            "I will bring a bag from home tomorrow."
+          ],
+          "correctAnswer": "I brought a bag from home, so I do not need one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka khuchura pherai deuchi, ganti niantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, thik achi.",
+            "Nahin, mu card re debi.",
+            "Mote au gote jhola deantu."
+          ],
+          "correctAnswer": "Dhanyabad, thik achi.",
+          "translatedSentence": "Thank you, that is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi khuchura nahin, tebe mu card re debi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is no change, then I will pay by card.",
+            "If there is no change, then I will come tomorrow.",
+            "If the card does not work, then I will pay cash."
+          ],
+          "correctAnswer": "If there is no change, then I will pay by card."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Card machine kaam karuchi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, ebe network nahin, nagadare deantu.",
+            "Ha, mu dui kilo piaja nebi.",
+            "Nahin, ehi sadhi bahut mahanga."
+          ],
+          "correctAnswer": "Nahin, ebe network nahin, nagadare deantu.",
+          "translatedSentence": "No, there is no network right now, please pay in cash."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kali mu ehi shirt kinithili, kintu size thik nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rasid achi ki, tahele mu badali kari debi.",
+            "Ha, mote dui kilo aloo deantu.",
+            "Nahin, ehi dokan kali bandha thila."
+          ],
+          "correctAnswer": "Rasid achi ki, tahele mu badali kari debi.",
+          "translatedSentence": "Do you have the receipt? Then I will exchange it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi jhola dui dina re hin phatigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bag tore within just two days.",
+            "This bag became heavy within two days.",
+            "I bought this bag just two days ago."
+          ],
+          "correctAnswer": "This bag tore within just two days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana paisa pherai debe ki badali debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu paisa pherai debi nahin, kintu badali kari debi.",
+            "Mu apananku au gote sadhi bikri karibi nahin.",
+            "Ha, mu kali dokan bandha karibi."
+          ],
+          "correctAnswer": "Mu paisa pherai debi nahin, kintu badali kari debi.",
+          "translatedSentence": "I will not refund the money, but I will exchange it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehi machha taja nuhen, tenu mu nebi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fish is not fresh, so I will not take it.",
+            "This fish is fresh, so I will take it.",
+            "This fish is expensive, so I will not take it."
+          ],
+          "correctAnswer": "This fish is not fresh, so I will not take it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rupa kama Bhubaneswar re sasta ki Cuttack re?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cuttack re sasta mile, kahinki ki sethi hin taiari huae.",
+            "Bhubaneswar re machha bahut taja miluchi.",
+            "Mu Puri re Jagannath mandira dekhithili."
+          ],
+          "correctAnswer": "Cuttack re sasta mile, kahinki ki sethi hin taiari huae.",
+          "translatedSentence": "It is cheaper in Cuttack, because that is where it is made."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi rasid nathiba, tebe ame badali kari paribu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is no receipt, then we cannot exchange it.",
+            "If there is no receipt, then we will return the money.",
+            "If you have the receipt, then we can exchange it."
+          ],
+          "correctAnswer": "If there is no receipt, then we cannot exchange it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu ehi sadhi pheraibaku chahunchi, kahinki ki ranga uthigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshama karantu, ame dhua hoithiba jinisa pherai neu nahun.",
+            "Ha, apana au dui kilo piaja niantu.",
+            "Nahin, ehi sadhi Puri ru asichi."
+          ],
+          "correctAnswer": "Kshama karantu, ame dhua hoithiba jinisa pherai neu nahun.",
+          "translatedSentence": "Sorry, we do not take back items that have been washed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame ehi jinisa sata dina bhitare badali kari debu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will exchange this item within seven days.",
+            "We will refund this item within seven days.",
+            "We sold this item seven days ago."
+          ],
+          "correctAnswer": "We will exchange this item within seven days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ehi dokan ku aau asibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, asibi, kahinki ki ehathi jinisa bhala aau dama kama.",
+            "Nahin, mu ehathi kichhi kinithili nahin.",
+            "Ha, mu kali auto re Puri jibi."
+          ],
+          "correctAnswer": "Ha, asibi, kahinki ki ehathi jinisa bhala aau dama kama.",
+          "translatedSentence": "Yes, I will come, because the goods here are good and the prices are low."
+        }
+      ]
+    }
+  ]
+}

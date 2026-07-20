@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar bari kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar bari Kolkatay.",
+            "Amar bari khub boro.",
+            "Ami ekhon barite achi."
+          ],
+          "correctAnswer": "Amar bari Kolkatay.",
+          "translatedSentence": "My home is in Kolkata."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader bari ta choto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is small.",
+            "Our house is big.",
+            "Our room is small."
+          ],
+          "correctAnswer": "Our house is small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rannaghor kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rannaghor ei dike.",
+            "Rannaghor ta porishkar.",
+            "Ami ranna korte jani."
+          ],
+          "correctAnswer": "Rannaghor ei dike.",
+          "translatedSentence": "The kitchen is this way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei ghore duto janala ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This room has two windows.",
+            "This room has two doors.",
+            "This house has two rooms."
+          ],
+          "correctAnswer": "This room has two windows."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ghor kon ta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oi ghor ta amar.",
+            "Ei bari ta amar.",
+            "Amar ghor porishkar."
+          ],
+          "correctAnswer": "Oi ghor ta amar.",
+          "translatedSentence": "That room is mine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader baranda ta boro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our balcony is big.",
+            "Our balcony is small.",
+            "Our kitchen is big."
+          ],
+          "correctAnswer": "Our balcony is big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathroom ta kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bathroom sirir pashe.",
+            "Bathroom ta porishkar.",
+            "Ami ekhon bathroome jabo."
+          ],
+          "correctAnswer": "Bathroom sirir pashe.",
+          "translatedSentence": "The bathroom is next to the stairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar shobar ghor uporer tolay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bedroom is upstairs.",
+            "My bedroom is downstairs.",
+            "My bedroom is very big."
+          ],
+          "correctAnswer": "My bedroom is upstairs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boshar ghore ke ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Boshar ghore Ma achen.",
+            "Boshar ghor ta boro.",
+            "Ami boshar ghore jabo."
+          ],
+          "correctAnswer": "Boshar ghore Ma achen.",
+          "translatedSentence": "Mother is in the living room."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Things around the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Barir chabi ta kothay rekhecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chabi ta ami tebile rekhechi.",
+            "Chabi ta ami khuje pachhi na.",
+            "Chabi ta ekdom notun."
+          ],
+          "correctAnswer": "Chabi ta ami tebile rekhechi.",
+          "translatedSentence": "I have kept the key on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader ghore ekta boro almari ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a big cupboard in our room.",
+            "There is a small cupboard in our room.",
+            "There is a big bed in our room."
+          ],
+          "correctAnswer": "There is a big cupboard in our room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghor ta khub gorom, pakha ta chaliye dao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ekhuni chaliye dichhi.",
+            "Na, pakha ta ekdom notun.",
+            "Ami janala bondho korchi."
+          ],
+          "correctAnswer": "Hyan, ekhuni chaliye dichhi.",
+          "translatedSentence": "Yes, I am turning it on right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Fridge e thanda jol ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is cold water in the fridge.",
+            "There is hot water in the fridge.",
+            "There is cold water in the bucket."
+          ],
+          "correctAnswer": "There is cold water in the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei thala gulo kothay rakhbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rannaghore rekhe dao.",
+            "Thala gulo khub sundor.",
+            "Amar khub khide peyeche."
+          ],
+          "correctAnswer": "Rannaghore rekhe dao.",
+          "translatedSentence": "Put them in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghori ta deyale tanano ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The clock is hanging on the wall.",
+            "The clock is lying on the table.",
+            "The picture is hanging on the wall."
+          ],
+          "correctAnswer": "The clock is hanging on the wall."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Balti te jol ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, balti ta khali.",
+            "Na, balti ta notun.",
+            "Ami jol khabo na."
+          ],
+          "correctAnswer": "Na, balti ta khali.",
+          "translatedSentence": "No, the bucket is empty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei khate ami roj ghumai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sleep on this bed every day.",
+            "I sit on this bed every day.",
+            "I sleep in this room every day."
+          ],
+          "correctAnswer": "I sleep on this bed every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Alo ta jwaliye debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ektu andhokar lagche.",
+            "Na, alo ta bhenge geche.",
+            "Alo ta khub sundor."
+          ],
+          "correctAnswer": "Hyan, ektu andhokar lagche.",
+          "translatedSentence": "Yes, it feels a bit dark."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj ghor ke jhaat debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami jhaat diye debo.",
+            "Ami aaj ranna korbo na.",
+            "Jhaaru ta ekdom notun."
+          ],
+          "correctAnswer": "Ami jhaat diye debo.",
+          "translatedSentence": "I will sweep the floor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma rannaghore macher jhol ranna korchen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking fish curry in the kitchen.",
+            "Mother is cooking rice in the kitchen.",
+            "Mother is eating fish curry in the kitchen."
+          ],
+          "correctAnswer": "Mother is cooking fish curry in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bason gulo ke majbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami majchi, tumi bhaat boshao.",
+            "Bason gulo ekdom porishkar.",
+            "Ami notun bason kinechi."
+          ],
+          "correctAnswer": "Ami majchi, tumi bhaat boshao.",
+          "translatedSentence": "I am washing them, you put the rice on."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami kapor kachte jachhi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to wash the clothes.",
+            "I am going to buy some clothes.",
+            "I am going to hang up the clothes."
+          ],
+          "correctAnswer": "I am going to wash the clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki ekhon cha banabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ami duto cha banachhi.",
+            "Na, cha ta thanda hoye geche.",
+            "Cha ta khub bhalo hoyeche."
+          ],
+          "correctAnswer": "Hyan, ami duto cha banachhi.",
+          "translatedSentence": "Yes, I am making two cups of tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dida roj sokale ghor muchhe den.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandmother wipes the floor every morning.",
+            "Grandmother sweeps the floor every morning.",
+            "Grandmother washes the clothes every morning."
+          ],
+          "correctAnswer": "Grandmother wipes the floor every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kapor gulo ki shukiyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, aro ektu somoy lagbe.",
+            "Hyan, ami kapor kachbo.",
+            "Kapor gulo khub sundor."
+          ],
+          "correctAnswer": "Na, aro ektu somoy lagbe.",
+          "translatedSentence": "No, it will take a little more time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rannaghor ta ektu guchhiye rakho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please tidy up the kitchen a bit.",
+            "Please clean the bathroom a bit.",
+            "Please sweep the living room a bit."
+          ],
+          "correctAnswer": "Please tidy up the kitchen a bit."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj raate ki ranna hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhaat ar macher jhol.",
+            "Ami ranna korte jani na.",
+            "Rannaghor ta porishkar ache."
+          ],
+          "correctAnswer": "Bhaat ar macher jhol.",
+          "translatedSentence": "Rice and fish curry."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar chosma ta kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomar chosma tebiler upore ache.",
+            "Tomar chosma ta ekdom notun.",
+            "Ami chosma pori na."
+          ],
+          "correctAnswer": "Tomar chosma tebiler upore ache.",
+          "translatedSentence": "Your glasses are on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Balti ta khater niche ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bucket is under the bed.",
+            "The bucket is on the bed.",
+            "The bucket is behind the bed."
+          ],
+          "correctAnswer": "The bucket is under the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chabi gulo ki almarir bhitore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, bhitorei ache.",
+            "Na, ami almari kholini.",
+            "Almari ta bondho ache."
+          ],
+          "correctAnswer": "Hyan, bhitorei ache.",
+          "translatedSentence": "Yes, they are inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jhaaru ta dorjar pichone rakha ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The broom is kept behind the door.",
+            "The broom is kept beside the door.",
+            "The broom is kept behind the cupboard."
+          ],
+          "correctAnswer": "The broom is kept behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Fridge ta kothay boshabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rannaghore janalar pashe boshao.",
+            "Fridge ta khub bhari.",
+            "Ami notun fridge kinbo."
+          ],
+          "correctAnswer": "Rannaghore janalar pashe boshao.",
+          "translatedSentence": "Put it beside the window in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Boi gulo tebiler upore chhorano.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The books are scattered on the table.",
+            "The books are lying under the table.",
+            "The books are kept inside the cupboard."
+          ],
+          "correctAnswer": "The books are scattered on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi mobile ta kothay rekhecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bichanar upore rekhechi.",
+            "Mobile ta bondho ache.",
+            "Ami mobile ta khunjchi."
+          ],
+          "correctAnswer": "Bichanar upore rekhechi.",
+          "translatedSentence": "I have kept it on the bed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhitore ese boso, baire bristi hochhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Come and sit inside, it is raining outside.",
+            "Go and stand outside, it has stopped raining.",
+            "Come inside and sit down, the door is open."
+          ],
+          "correctAnswer": "Come and sit inside, it is raining outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar juto duto kothay gelo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dorjar samne rakha ache.",
+            "Juto duto ekdom notun.",
+            "Ami juto porte bhalobasi na."
+          ],
+          "correctAnswer": "Dorjar samne rakha ache.",
+          "translatedSentence": "They are kept in front of the door."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ashun ashun, bhitore ese boshun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, ami ektu boshi tahole.",
+            "Ami baire darie thakbo.",
+            "Apni amar bari ashun."
+          ],
+          "correctAnswer": "Dhonyobad, ami ektu boshi tahole.",
+          "translatedSentence": "Thank you, I will sit down for a bit then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apnar jonyo ekhuni cha niye aschi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am bringing you some tea right away.",
+            "I am making myself some tea right now.",
+            "I am bringing you some water right away."
+          ],
+          "correctAnswer": "I am bringing you some tea right away."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ektu boshun, ami rannaghor theke ekhuni aschi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, apni byasto hoben na.",
+            "Ami ekhuni chole jachhi.",
+            "Apni rannaghore boshun."
+          ],
+          "correctAnswer": "Thik ache, apni byasto hoben na.",
+          "translatedSentence": "It is fine, please do not go to any trouble."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aro ektu mishti nin, khub bhalo hoyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please have some more sweets, they have come out very well.",
+            "Please have some more rice, it has come out very well.",
+            "Please take these sweets home, they are very good."
+          ],
+          "correctAnswer": "Please have some more sweets, they have come out very well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aar khete parbo na, pet bhore geche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, tahole aar dichhi na.",
+            "Tahole aro ektu bhaat nin.",
+            "Apni to kichhui khan ni."
+          ],
+          "correctAnswer": "Achha, tahole aar dichhi na.",
+          "translatedSentence": "All right, then I will not serve you any more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj raate amader barite kheye jaben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please have dinner at our place tonight.",
+            "Please come to our house tomorrow night.",
+            "We will have dinner at your place tonight."
+          ],
+          "correctAnswer": "Please have dinner at our place tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar bari ta khub sundor sajano.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, amra nijerai sajiyechi.",
+            "Amar bari ta khub choto.",
+            "Apni ki bari jaben?"
+          ],
+          "correctAnswer": "Dhonyobad, amra nijerai sajiyechi.",
+          "translatedSentence": "Thank you, we decorated it ourselves."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhon uthbo, onek deri hoye gelo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I should leave now, it has got quite late.",
+            "I will sit a little longer, it is still early.",
+            "I will get up now, the food is getting cold."
+          ],
+          "correctAnswer": "I should leave now, it has got quite late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Abar ashben kintu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi ashbo, bhalo thakben.",
+            "Ami aar kokhono ashbo na.",
+            "Apni amader barite ashben."
+          ],
+          "correctAnswer": "Nishchoi ashbo, bhalo thakben.",
+          "translatedSentence": "I will certainly come again, take care."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei flat er bhara koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mase panch hajar taka, tobe jol ar alo alada.",
+            "Ei flat ta duto ghor ar ekta baranda.",
+            "Ami ei flat e char bochor achi."
+          ],
+          "correctAnswer": "Mase panch hajar taka, tobe jol ar alo alada.",
+          "translatedSentence": "Five thousand rupees a month, but water and electricity are separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rannaghorer nal ta bhenge geche, mistri dakte hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen tap is broken, we will have to call a plumber.",
+            "The kitchen light is broken, we will have to call an electrician.",
+            "The kitchen tap is leaking, but the plumber has already come."
+          ],
+          "correctAnswer": "The kitchen tap is broken, we will have to call a plumber."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mistri kokhon ashben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uni bolechhen kal sokale ashben.",
+            "Uni gato soptahe esechhilen.",
+            "Ami mistri ke ekhono daki ni."
+          ],
+          "correctAnswer": "Uni bolechhen kal sokale ashben.",
+          "translatedSentence": "He said he will come tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pasher barir protibeshi khub bhalo manush.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The neighbour next door is a very good person.",
+            "The neighbour next door is a very busy person.",
+            "The people in the next house are our relatives."
+          ],
+          "correctAnswer": "The neighbour next door is a very good person."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Barir malik ki bhara barabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, kintu ami onar sathe kotha bolbo.",
+            "Na, ei bari ta amar nijer.",
+            "Barir malik ekhane thaken na."
+          ],
+          "correctAnswer": "Hyan, kintu ami onar sathe kotha bolbo.",
+          "translatedSentence": "Yes, but I will talk to him about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi ei mase bhara dite deri hoy, tahole ami age janiye debo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the rent is late this month, I will let you know in advance.",
+            "If the rent goes up this month, I will move out of this flat.",
+            "If you pay the rent this month, I will give you a receipt."
+          ],
+          "correctAnswer": "If the rent is late this month, I will let you know in advance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uporer flat theke amader bathroome jol porche keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oder pipe leak korche, ami bole diyechi.",
+            "Uporer flat ta anek din khali ache.",
+            "Ami uporer flate thaki na."
+          ],
+          "correctAnswer": "Oder pipe leak korche, ami bole diyechi.",
+          "translatedSentence": "Their pipe is leaking, and I have already told them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pakha ta sarate koto kharoch porbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much will it cost to repair the fan?",
+            "How much will it cost to buy a new fan?",
+            "How long will it take to repair the fan?"
+          ],
+          "correctAnswer": "How much will it cost to repair the fan?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Protibeshira raate khub jore gaan bajay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apni tader ekbar bhodro bhabe bole dekhun.",
+            "Tahole apnio aro jore gaan bajan.",
+            "Ami raate taratari ghumiye pori."
+          ],
+          "correctAnswer": "Apni tader ekbar bhodro bhabe bole dekhun.",
+          "translatedSentence": "You should politely mention it to them once."
+        }
+      ]
+    }
+  ]
+}

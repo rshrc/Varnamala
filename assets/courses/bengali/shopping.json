@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada, eta koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eta ponchash taka.",
+            "Eta amar dokan.",
+            "Ami bajare jachhi."
+          ],
+          "correctAnswer": "Eta ponchash taka.",
+          "translatedSentence": "This is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Etar daam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is the price of this?",
+            "Where is this shop?",
+            "Do you want this one?"
+          ],
+          "correctAnswer": "What is the price of this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar dokane mishti ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, mishti ache.",
+            "Na, ami mishti khai na.",
+            "Mishti khub bhalo."
+          ],
+          "correctAnswer": "Hyan, mishti ache.",
+          "translatedSentence": "Yes, we have sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekta jama chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a shirt.",
+            "I have a shirt.",
+            "I am wearing a shirt."
+          ],
+          "correctAnswer": "I want a shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki chai, didi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amake ek kilo aloo din.",
+            "Ami dokane kaj kori.",
+            "Apnar dokan khub boro."
+          ],
+          "correctAnswer": "Amake ek kilo aloo din.",
+          "translatedSentence": "Please give me a kilo of potatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei macher daam beshi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fish is too expensive.",
+            "This fish is very fresh.",
+            "I want to buy some fish."
+          ],
+          "correctAnswer": "This fish is too expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha koto kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dosh taka kore.",
+            "Cha khub gorom.",
+            "Ami cha khabo."
+          ],
+          "correctAnswer": "Dosh taka kore.",
+          "translatedSentence": "Ten rupees each."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eta khub dami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very expensive.",
+            "This is very cheap.",
+            "This is very big."
+          ],
+          "correctAnswer": "This is very expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aar kichhu lagbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, aar kichhu lagbe na.",
+            "Hyan, ami bhalo achi.",
+            "Na, dokan bondho."
+          ],
+          "correctAnswer": "Na, aar kichhu lagbe na.",
+          "translatedSentence": "No, I do not need anything else."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada, apnar kachhe tatka mach ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, aaj tatka rui ache.",
+            "Na, ami mach dhori na.",
+            "Mach ranna korte samay lage."
+          ],
+          "correctAnswer": "Hyan, aaj tatka rui ache.",
+          "translatedSentence": "Yes, we have fresh rohu today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake adha kilo chini din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me half a kilo of sugar.",
+            "Please give me two kilos of sugar.",
+            "I do not need any sugar today."
+          ],
+          "correctAnswer": "Please give me half a kilo of sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jamata dekhte pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, dekhun.",
+            "Na, ami dekhchhi na.",
+            "Jamata amar bhalo lage."
+          ],
+          "correctAnswer": "Hyan, dekhun.",
+          "translatedSentence": "Yes, please take a look."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apnar dokane aro boro byag ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have a bigger bag in your shop?",
+            "Is your shop bigger than that one?",
+            "Do you sell bags in your shop?"
+          ],
+          "correctAnswer": "Do you have a bigger bag in your shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki khunjchhen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami ekta lal shari khunjchhi.",
+            "Ami dokane dariye achi.",
+            "Ami kichhu kinbo na."
+          ],
+          "correctAnswer": "Ami ekta lal shari khunjchhi.",
+          "translatedSentence": "I am looking for a red saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei mishti gulo ki aajker?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are these sweets made today?",
+            "Are these sweets made with milk?",
+            "Are these the sweets you like?"
+          ],
+          "correctAnswer": "Are these sweets made today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar ek packet cha lagbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konta neben, Darjeeling na Assam?",
+            "Cha ekhane pawa jay na.",
+            "Ami cha khete bhalobasi."
+          ],
+          "correctAnswer": "Konta neben, Darjeeling na Assam?",
+          "translatedSentence": "Which will you take, Darjeeling or Assam?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhai, tumi ki amake ekta thole dite parbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Brother, can you give me a cloth bag?",
+            "Brother, can you show me a cloth bag?",
+            "Brother, do you want to buy a cloth bag?"
+          ],
+          "correctAnswer": "Brother, can you give me a cloth bag?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei rong ta apnar pochhondo hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, amake nil ta dekhan.",
+            "Hyan, ei dokan ta bhalo.",
+            "Na, ami ekhon jachhi."
+          ],
+          "correctAnswer": "Na, amake nil ta dekhan.",
+          "translatedSentence": "No, show me the blue one."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Too expensive, reduce it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei shari tar daam dui hajar taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eto daam? Ektu kom korun.",
+            "Bah, khub sasta.",
+            "Thik ache, ami duto nebo."
+          ],
+          "correctAnswer": "Eto daam? Ektu kom korun.",
+          "translatedSentence": "That much? Please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daam ta ektu kom korun, ami niyomito khodder.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Lower the price a little, I am a regular customer.",
+            "The price is low here, and I come quite often.",
+            "I will pay less than the regular customers do."
+          ],
+          "correctAnswer": "Lower the price a little, I am a regular customer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ektu kom hobe na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na dada, eta ekdam daam.",
+            "Na dada, aaj dokan bondho.",
+            "Hyan, ami aro beshi nebo."
+          ],
+          "correctAnswer": "Na dada, eta ekdam daam.",
+          "translatedSentence": "No, this is the fixed price."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eto beshi daam dite parbo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot pay that much.",
+            "I do not want to buy this.",
+            "The price is not written here."
+          ],
+          "correctAnswer": "I cannot pay that much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni koto dite parben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami eksho taka dite pari.",
+            "Ami dokane taka rakhi.",
+            "Amar kachhe taka nei."
+          ],
+          "correctAnswer": "Ami eksho taka dite pari.",
+          "translatedSentence": "I can pay a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Onno dokane ei jinis ta aro sasta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This same thing is cheaper at the other shop.",
+            "The other shop sells much better things.",
+            "I bought this thing at another shop."
+          ],
+          "correctAnswer": "This same thing is cheaper at the other shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Duto nile ki kom hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Duto nile ponchash taka kom debo.",
+            "Duto nile beshi daam hobe.",
+            "Ami duto dokan chalai."
+          ],
+          "correctAnswer": "Duto nile ponchash taka kom debo.",
+          "translatedSentence": "If you take two, I will reduce it by fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thik ache, tinsho takatei din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All right, give it to me for three hundred then.",
+            "All right, I will come back for it later.",
+            "Fine, three hundred rupees is far too little."
+          ],
+          "correctAnswer": "All right, give it to me for three hundred then."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shesh daam koto bolun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Char sho taka, ekdam shesh daam.",
+            "Apni je daam bolben sei daam.",
+            "Amar dokan sokal theke khola."
+          ],
+          "correctAnswer": "Char sho taka, ekdam shesh daam.",
+          "translatedSentence": "Four hundred rupees, and that is my final price."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jama ta apnar maap hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, eta ektu chhoto hochhe.",
+            "Hyan, jama ta lal ronger.",
+            "Na, ami jama pori na."
+          ],
+          "correctAnswer": "Na, eta ektu chhoto hochhe.",
+          "translatedSentence": "No, this one is a bit too small for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake ek kilo peyaj aar adha kilo tomato din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a kilo of onions and half a kilo of tomatoes.",
+            "Give me half a kilo of onions and a kilo of tomatoes.",
+            "I need onions and tomatoes from the market today."
+          ],
+          "correctAnswer": "Give me a kilo of onions and half a kilo of tomatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Koto ta chal neben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Panch kilo chal din.",
+            "Chal ta khub bhalo.",
+            "Ami chal ranna korchi."
+          ],
+          "correctAnswer": "Panch kilo chal din.",
+          "translatedSentence": "Please give me five kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aro boro maap er juto ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have these shoes in a bigger size?",
+            "Are these shoes bigger than those ones?",
+            "Do you have any cheaper shoes here?"
+          ],
+          "correctAnswer": "Do you have these shoes in a bigger size?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei panjabi ta boro maap e ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan ache, kintu shudhu sada ronge.",
+            "Hyan, chhoto maap ta beshi dami.",
+            "Na, boro dokan ta bondho."
+          ],
+          "correctAnswer": "Hyan ache, kintu shudhu sada ronge.",
+          "translatedSentence": "Yes we have it, but only in white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adha kilo mishti hole cholbe, beshi lagbe na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Half a kilo of sweets will do, I do not need more.",
+            "I need more than half a kilo of sweets today.",
+            "The sweets are now half the price they were."
+          ],
+          "correctAnswer": "Half a kilo of sweets will do, I do not need more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Koto ta dudh lagbe apnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek litre dudh dile hobe.",
+            "Dudh ta ektu gorom korun.",
+            "Ami roj dudh khai."
+          ],
+          "correctAnswer": "Ek litre dudh dile hobe.",
+          "translatedSentence": "One litre of milk will do."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei macher tukro gulo aro chhoto kore katun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please cut these pieces of fish a little smaller.",
+            "Please give me the smaller fish from that basket.",
+            "These pieces of fish are far too small for me."
+          ],
+          "correctAnswer": "Please cut these pieces of fish a little smaller."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Juto ta paye thik hochhe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ektu tight lagchhe, ek maap boro din.",
+            "Juto duto khub dami.",
+            "Ami juto ta kal nebo."
+          ],
+          "correctAnswer": "Ektu tight lagchhe, ek maap boro din.",
+          "translatedSentence": "It is a little tight, please give me one size bigger."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sob miliye char sho ponchash taka holo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei nin, panch sho taka.",
+            "Ami char sho taka niyechi.",
+            "Char sho ponchash ta khub kom."
+          ],
+          "correctAnswer": "Ei nin, panch sho taka.",
+          "translatedSentence": "Here you are, five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apnar kachhe khuchro ache? Amar kachhe bhangti nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have small change? I have none on me.",
+            "Do you need small change? I have plenty on me.",
+            "I have small change, but you do not need it."
+          ],
+          "correctAnswer": "Do you have small change? I have none on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dukkhito, amader ekhane card chole na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, tahole nagade dichhi.",
+            "Bah, tahole card tai debo.",
+            "Amar kachhe card ache, taka nei."
+          ],
+          "correctAnswer": "Thik ache, tahole nagade dichhi.",
+          "translatedSentence": "All right, in that case I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bakita taka ferot din, ami ekhoni berobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the rest of the money back, I am leaving now.",
+            "Please return the money tomorrow, I am rather busy now.",
+            "Keep the rest of the money, I am leaving right now."
+          ],
+          "correctAnswer": "Please give me the rest of the money back, I am leaving now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekta byag deben? Amar kachhe thole nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Byag er jonno tin taka beshi lagbe.",
+            "Amader dokane thole bikri hoy na.",
+            "Byag ta khub bhari hoye geche."
+          ],
+          "correctAnswer": "Byag er jonno tin taka beshi lagbe.",
+          "translatedSentence": "The bag will cost three rupees extra."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei eksho takar not ta bhangti kore deben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you break this hundred rupee note for me?",
+            "Could you give me a hundred rupee note instead?",
+            "Is this hundred rupee note a real one?"
+          ],
+          "correctAnswer": "Could you break this hundred rupee note for me?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rosid ta niye jan, dorkar hote pare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, rosid ta amake diye din.",
+            "Na, ami taka diye diyechi.",
+            "Rosid ta apni rekhe din."
+          ],
+          "correctAnswer": "Hyan, rosid ta amake diye din.",
+          "translatedSentence": "Yes, please hand me the receipt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dosh taka kom porlo, kal diye debo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am ten rupees short, I will give it tomorrow.",
+            "The price came down by ten rupees today.",
+            "I paid ten rupees more than I had to."
+          ],
+          "correctAnswer": "I am ten rupees short, I will give it tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki thik taka diyechen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami eksho taka beshi diyechi.",
+            "Hyan, ami taka ganini.",
+            "Na, amar kachhe taka ache."
+          ],
+          "correctAnswer": "Na, ami eksho taka beshi diyechi.",
+          "translatedSentence": "No, I gave a hundred rupees too much."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami gotokal ei juto ta kinechilam, kintu eta amar paye hochhe na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rosid thakle amra bodle dite pari.",
+            "Juto ta bhalo, apni eta i rakhun.",
+            "Amra kinte pari, kintu daam kom debo."
+          ],
+          "correctAnswer": "Rosid thakle amra bodle dite pari.",
+          "translatedSentence": "If you have the receipt, we can exchange it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei jama ta ekbar dhuyei rong uthe geche, tai ami ferot dite chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The colour ran the first time I washed this shirt, so I want to return it.",
+            "I washed this shirt once and it still looks new, so I will keep it.",
+            "This shirt has a lovely colour, but I would like a different one."
+          ],
+          "correctAnswer": "The colour ran the first time I washed this shirt, so I want to return it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki taka ferot chan, na onno jinis neben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Taka ferot pele bhalo hoy, karon amar aar kichhu lagbe na.",
+            "Ami taka diye diyechi, tai aar kichhu bolbo na.",
+            "Onno dokan theke ami ei jinis kinini."
+          ],
+          "correctAnswer": "Taka ferot pele bhalo hoy, karon amar aar kichhu lagbe na.",
+          "translatedSentence": "A refund would be better, because I do not need anything else."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal je mishti niyechilam ta tatka chilo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sweets I took yesterday were not fresh.",
+            "The sweets I took yesterday were very fresh.",
+            "I did not take any sweets from here yesterday."
+          ],
+          "correctAnswer": "The sweets I took yesterday were not fresh."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei dokane daam ektu beshi, na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, kintu ekhankar jinis onek bhalo.",
+            "Na, ami ei dokane asi na.",
+            "Na, ei dokan ta gotokal khuleche."
+          ],
+          "correctAnswer": "Hyan, kintu ekhankar jinis onek bhalo.",
+          "translatedSentence": "Yes, but the things here are much better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi aaj daam kom na hoy, tahole ami onno dokane chole jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the price does not come down today, I will go to another shop.",
+            "If the price comes down today, I will still go to another shop.",
+            "Since the price is low today, I will not go to another shop."
+          ],
+          "correctAnswer": "If the price does not come down today, I will go to another shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei ghori ta kaj korche na, ami ki eta bodle nite pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek soptaher moddhe hole bodle deoa jay.",
+            "Amra ghori sarai na, shudhu bikri kori.",
+            "Ghori ta apni kal abar niye asben."
+          ],
+          "correctAnswer": "Ek soptaher moddhe hole bodle deoa jay.",
+          "translatedSentence": "If it is within a week, it can be exchanged."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi jodi amar songe asho, ami tomake sasta dokan ta dekhabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come with me, I will show you the cheaper shop.",
+            "If I come with you, you can show me the cheaper shop.",
+            "Come with me and buy something from the cheaper shop."
+          ],
+          "correctAnswer": "If you come with me, I will show you the cheaper shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aar kono osubidha hole amake bolben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi bolbo, apnara khub bhalo byabohar korechen.",
+            "Osubidha ta ekhoni thik kore din.",
+            "Ami ekhane kaj kori na, ami khodder."
+          ],
+          "correctAnswer": "Nishchoi bolbo, apnara khub bhalo byabohar korechen.",
+          "translatedSentence": "I certainly will; you have treated me very well."
+        }
+      ]
+    }
+  ]
+}

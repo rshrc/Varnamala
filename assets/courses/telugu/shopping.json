@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi nooru rupayalu.",
+            "Idi naa sanchi.",
+            "Idi akkada undi."
+          ],
+          "correctAnswer": "Idi nooru rupayalu.",
+          "translatedSentence": "This is one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pandlu enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much are these fruits?",
+            "Where are these fruits?",
+            "Who brought these fruits?"
+          ],
+          "correctAnswer": "How much are these fruits?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku emi kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku pandlu kaavali.",
+            "Naaku baaga telusu.",
+            "Nenu intiki veltunnanu."
+          ],
+          "correctAnswer": "Naaku pandlu kaavali.",
+          "translatedSentence": "I want some fruit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku konchem kooragayalu kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a few vegetables.",
+            "I want a lot of fruit.",
+            "I do not want any vegetables."
+          ],
+          "correctAnswer": "I want a few vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa cheera enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi renduvandala rupayalu.",
+            "Adi naa cheera.",
+            "Adi ikkada ledu."
+          ],
+          "correctAnswer": "Adi renduvandala rupayalu.",
+          "translatedSentence": "That saree is two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhara chala ekkuva undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The price is very high.",
+            "The price is very low.",
+            "The price is not written anywhere."
+          ],
+          "correctAnswer": "The price is very high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi meeku nachinda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku nachindi.",
+            "Avunu, naaku telusu.",
+            "Ledu, nenu veltunnanu."
+          ],
+          "correctAnswer": "Avunu, naaku nachindi.",
+          "translatedSentence": "Yes, I like it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee sanchi enta rupayalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many rupees is this bag?",
+            "Where did you buy this bag?",
+            "Is this bag big enough?"
+          ],
+          "correctAnswer": "How many rupees is this bag?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee dukanam ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi Charminar daggara undi.",
+            "Adi renduvandala rupayalu.",
+            "Naaku dukanam kaavali."
+          ],
+          "correctAnswer": "Adi Charminar daggara undi.",
+          "translatedSentence": "It is near Charminar."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cheppandi, meeku emi kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku ardha kilo tamatalu kaavali.",
+            "Naaku ee dukanam baaga telusu.",
+            "Nenu chillara teesukoledu."
+          ],
+          "correctAnswer": "Naaku ardha kilo tamatalu kaavali.",
+          "translatedSentence": "I need half a kilo of tomatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku rendu kilola biyyam kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two kilos of rice.",
+            "I need two bags of rice.",
+            "I do not need any rice today."
+          ],
+          "correctAnswer": "I need two kilos of rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Inkemaina kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem ullipaayalu kuda ivvandi.",
+            "Avunu, nenu intiki veltunnanu.",
+            "Ledu, mee dukanam ekkada undi?"
+          ],
+          "correctAnswer": "Avunu, konchem ullipaayalu kuda ivvandi.",
+          "translatedSentence": "Yes, please give me some onions as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee daggara gongura akulu unnaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have gongura leaves?",
+            "Do you like gongura leaves?",
+            "Where do you buy gongura leaves?"
+          ],
+          "correctAnswer": "Do you have gongura leaves?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gongura ivaala ledu, repu vastundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, nenu repu vastanu.",
+            "Sare, naaku gongura nachadu.",
+            "Sare, dhara konchem taggincandi."
+          ],
+          "correctAnswer": "Sare, nenu repu vastanu.",
+          "translatedSentence": "All right, I will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee mamidipandlu chala tiyyaga unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These mangoes are very sweet.",
+            "These mangoes are very expensive.",
+            "These mangoes are not ripe yet."
+          ],
+          "correctAnswer": "These mangoes are very sweet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee mamidipandlu ivaale techamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayite naaku okka kilo ivvandi.",
+            "Ayite naaku chillara ivvandi.",
+            "Ayite nenu repu vastanu lendi."
+          ],
+          "correctAnswer": "Ayite naaku okka kilo ivvandi.",
+          "translatedSentence": "In that case give me one kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pesarattu kosam naaku pesarapappu kuda kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I also need moong dal for pesarattu.",
+            "I want to eat pesarattu today.",
+            "I do not need moong dal for pesarattu."
+          ],
+          "correctAnswer": "I also need moong dal for pesarattu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Anni ee sanchi lo pettamanta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, andulone pettandi.",
+            "Avunu, dhara konchem taggincandi.",
+            "Ledu, naaku mamidipandlu kaavali."
+          ],
+          "correctAnswer": "Avunu, andulone pettandi.",
+          "translatedSentence": "Yes, please put everything in there."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Bargaining the price",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cheera muunuvandala rupayalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi chala ekkuva, konchem taggincandi.",
+            "Adi chala thakkuva, naaku rendu ivvandi.",
+            "Adi naaku telusu, nenu repu vastanu."
+          ],
+          "correctAnswer": "Adi chala ekkuva, konchem taggincandi.",
+          "translatedSentence": "That is too much, please reduce it a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhara konchem taggiste nenu konta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you reduce the price a little, I will buy it.",
+            "If you reduce the price a little, I will come back tomorrow.",
+            "Even if you reduce the price, I will not buy it."
+          ],
+          "correctAnswer": "If you reduce the price a little, I will buy it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu dhara taggincha lenu, idi fix rate.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayite nenu vere dukananiki veltanu.",
+            "Ayite naaku rendu kilolu ivvandi.",
+            "Ayite nenu meeku chillara istanu."
+          ],
+          "correctAnswer": "Ayite nenu vere dukananiki veltanu.",
+          "translatedSentence": "In that case I will go to another shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pakka dukanam lo ide vastuvu thakkuvaki dorukutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The same thing is cheaper at the shop next door.",
+            "The same thing is not sold at the shop next door.",
+            "The shop next door is closed today."
+          ],
+          "correctAnswer": "The same thing is cheaper at the shop next door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enta iste konagalaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu renduvandalu istanu.",
+            "Nenu repu tirigi vastanu.",
+            "Naaku ee rangu nachaledu."
+          ],
+          "correctAnswer": "Nenu renduvandalu istanu.",
+          "translatedSentence": "I will pay two hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi naa daggara unna dabbu kanna ekkuva undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This costs more than the money I have.",
+            "This costs less than the money I have.",
+            "I have more money than this costs."
+          ],
+          "correctAnswer": "This costs more than the money I have."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sare, mee kosam yabhai rupayalu taggistanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chala dhanyavaadalu, ayite nenu teesukuntanu.",
+            "Chala dhanyavaadalu, kani naa daggara sanchi ledu.",
+            "Sare, ayite nenu vere dukanam chustanu."
+          ],
+          "correctAnswer": "Chala dhanyavaadalu, ayite nenu teesukuntanu.",
+          "translatedSentence": "Thank you very much, in that case I will take it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju ikkade konta, andukane konchem taggincandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I buy here every day, so please give me a small discount.",
+            "I buy here every day, but the price is always the same.",
+            "I will buy here every day if you give me a discount."
+          ],
+          "correctAnswer": "I buy here every day, so please give me a small discount."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rendu teesukunte inko yabhai taggistanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayite naaku rendu ivvandi.",
+            "Ayite naaku okkate chalu.",
+            "Ayite nenu vere rangu chustanu."
+          ],
+          "correctAnswer": "Ayite naaku rendu ivvandi.",
+          "translatedSentence": "In that case give me two."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku kilo kaavala, ardha kilo kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku ardha kilo chalu.",
+            "Naaku ee rangu nachindi.",
+            "Naaku konchem chillara kaavali."
+          ],
+          "correctAnswer": "Naaku ardha kilo chalu.",
+          "translatedSentence": "Half a kilo is enough for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee chokka naaku konchem peddaga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is a little too big for me.",
+            "This shirt is a little too small for me.",
+            "This shirt is a little too expensive for me."
+          ],
+          "correctAnswer": "This shirt is a little too big for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee size meeku saripotunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, chinna size chupincandi.",
+            "Ledu, dhara chala ekkuva undi.",
+            "Avunu, nenu repu tirigi vastanu."
+          ],
+          "correctAnswer": "Ledu, chinna size chupincandi.",
+          "translatedSentence": "No, please show me a smaller size."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku moodu kilola ullipaayalu, okka kilo tamatalu kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need three kilos of onions and one kilo of tomatoes.",
+            "I need one kilo of onions and three kilos of tomatoes.",
+            "I need three kilos of onions but no tomatoes."
+          ],
+          "correctAnswer": "I need three kilos of onions and one kilo of tomatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Biryani ki enta biyyam kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu kilolu chalu anukuntanu.",
+            "Rendu vandalu chalu anukuntanu.",
+            "Rendu sanchulu chalu anukuntanu."
+          ],
+          "correctAnswer": "Rendu kilolu chalu anukuntanu.",
+          "translatedSentence": "I think two kilos will be enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem ekkuva vesi toogandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please put in a little extra and weigh it.",
+            "Please take out a little and weigh it again.",
+            "Please weigh it on the other scale."
+          ],
+          "correctAnswer": "Please put in a little extra and weigh it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku pedda sanchi kaavala, chinna sanchi kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pedda sanchi ivvandi, samanu ekkuva undi.",
+            "Chinna cheera ivvandi, adi chalu.",
+            "Sanchi vaddu, dhara taggincandi."
+          ],
+          "correctAnswer": "Pedda sanchi ivvandi, samanu ekkuva undi.",
+          "translatedSentence": "Give me the big bag, I have a lot of things."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee chokka naa size kaadu, inkoti chupincandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is not my size, please show me another one.",
+            "This shirt is my size, please keep another one for me.",
+            "This shirt is not my colour, please show me another one."
+          ],
+          "correctAnswer": "This shirt is not my size, please show me another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cheera podavu saripotunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konchem podavu ekkuva undi, chinnadi chupincandi.",
+            "Konchem dhara ekkuva undi, chillara ivvandi.",
+            "Avunu, naaku mee dukanam baaga telusu."
+          ],
+          "correctAnswer": "Konchem podavu ekkuva undi, chinnadi chupincandi.",
+          "translatedSentence": "It is a little too long, please show me a shorter one."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Motham enta ayindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Motham ayidu vandala rupayalu ayindi.",
+            "Motham sanchi lo pettanu.",
+            "Motham repu teesukuntanu."
+          ],
+          "correctAnswer": "Motham ayidu vandala rupayalu ayindi.",
+          "translatedSentence": "It comes to five hundred rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara chillara ledu, card teesukuntara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have change, do you take cards?",
+            "I do not have a card, can I pay tomorrow?",
+            "I have change, do you want it?"
+          ],
+          "correctAnswer": "I do not have change, do you take cards?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Card panicheyyatledu, mee daggara cash undha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undi, nenu cash istanu.",
+            "Undi, kani nenu repu vastanu.",
+            "Ledu, naaku pedda sanchi kaavali."
+          ],
+          "correctAnswer": "Undi, nenu cash istanu.",
+          "translatedSentence": "Yes I have, I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru naaku inka yabhai rupayalu chillara ivvali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You still owe me fifty rupees in change.",
+            "You still owe me fifteen rupees in change.",
+            "I still owe you fifty rupees."
+          ],
+          "correctAnswer": "You still owe me fifty rupees in change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku sanchi kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu, naa daggara sanchi undi.",
+            "Vaddu, naaku chillara chalu.",
+            "Avunu, dhara konchem taggincandi."
+          ],
+          "correctAnswer": "Vaddu, naa daggara sanchi undi.",
+          "translatedSentence": "No thanks, I have a bag with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanchi kosam padi rupayalu ekkuva teesukuntaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They charge ten rupees extra for the bag.",
+            "They give the bag for ten rupees less.",
+            "They do not charge anything for the bag."
+          ],
+          "correctAnswer": "They charge ten rupees extra for the bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bill lo okka vastuvu rendu sarlu ekkindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, nenu sari chesi kotta bill istanu.",
+            "Kshaminchandi, nenu dhara taggincha lenu.",
+            "Kshaminchandi, ee dukanam lo sanchulu ledu."
+          ],
+          "correctAnswer": "Kshaminchandi, nenu sari chesi kotta bill istanu.",
+          "translatedSentence": "Sorry, I will correct it and give you a new bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu dabbu ichchesanu, ippudu bill ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have already paid, now please give me the bill.",
+            "I have not paid yet, please give me the bill.",
+            "I will pay now, so please keep the bill."
+          ],
+          "correctAnswer": "I have already paid, now please give me the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chillara ledu, chocolate teesukuntara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu, naaku chillare ivvandi.",
+            "Vaddu, naaku inko sanchi ivvandi.",
+            "Avunu, naaku rendu kilolu ivvandi."
+          ],
+          "correctAnswer": "Vaddu, naaku chillare ivvandi.",
+          "translatedSentence": "No, please just give me the change."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chokka chinnadiga undi, marchi ivvagalara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, bill unte marchi istanu.",
+            "Tappakunda, kani nenu dhara taggincha lenu.",
+            "Kshaminchandi, ee chokka meeku baagane undi."
+          ],
+          "correctAnswer": "Tappakunda, bill unte marchi istanu.",
+          "translatedSentence": "Certainly, if you have the bill I will exchange it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pandlu rendu rojullone paadaipoyayi, andukane tirigi techanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These fruits went bad in just two days, so I brought them back.",
+            "These fruits will go bad in two days, so I want to return them.",
+            "I bought these fruits two days ago, but I did not eat them."
+          ],
+          "correctAnswer": "These fruits went bad in just two days, so I brought them back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru vaatini ekkada konnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Charminar daggara unna mee dukanam lo konnanu.",
+            "Nenu repu Charminar daggaraki veltanu.",
+            "Naaku Charminar daggara dukanalu telusu ledu."
+          ],
+          "correctAnswer": "Nenu Charminar daggara unna mee dukanam lo konnanu.",
+          "translatedSentence": "I bought them at your shop near Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dabbu tirigi ivvakapothe, kaneesam vere vastuvu ayina ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you cannot give the money back, at least give me something else instead.",
+            "If you give the money back, I will buy something else here.",
+            "You will not give the money back, so I will not buy anything else."
+          ],
+          "correctAnswer": "If you cannot give the money back, at least give me something else instead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dabbu tirigi ivvamu, kani meeru vere vastuvu teesukovacchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, ayite nenu vere rangu chokka teesukuntanu.",
+            "Sare, ayite naaku dabbu ippude ivvandi.",
+            "Sare, ayite nenu inka yabhai rupayalu istanu."
+          ],
+          "correctAnswer": "Sare, ayite nenu vere rangu chokka teesukuntanu.",
+          "translatedSentence": "All right, in that case I will take a shirt in a different colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee dukanam lo dhara ekkuva, kani vastuvulu chala manchivi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Things cost more at this shop, but the quality is much better.",
+            "Things cost less at this shop, and the quality is much better.",
+            "Things cost more at this shop, so nobody buys anything here."
+          ],
+          "correctAnswer": "Things cost more at this shop, but the quality is much better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enduku roju aa dukananike veltaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akkada dhara thakkuva, andukane akkade konta.",
+            "Akkada irani chai baagundi, andukane cheera konnanu.",
+            "Akkada evvaru leru, andukane nenu velladam ledu."
+          ],
+          "correctAnswer": "Akkada dhara thakkuva, andukane akkade konta.",
+          "translatedSentence": "The prices are lower there, that is why I buy there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru ravadaniki mundu naaku phone chesi cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please call and tell me before you come.",
+            "Please call me as soon as you get here.",
+            "Do not call me after you come."
+          ],
+          "correctAnswer": "Please call and tell me before you come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Marosari ee dukananiki vastara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vastanu, meeru manchi rate ichcharu kabatti.",
+            "Raanu, ee dukanam ekkada undo naaku telidu.",
+            "Vastanu, kani naa daggara ippudu chillara ledu."
+          ],
+          "correctAnswer": "Vastanu, meeru manchi rate ichcharu kabatti.",
+          "translatedSentence": "I will come again, because you gave me a good price."
+        }
+      ]
+    }
+  ]
+}

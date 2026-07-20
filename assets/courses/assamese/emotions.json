@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni aji kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi bhal ase.",
+            "moi bhat khau.",
+            "mor ghor Jorhat."
+          ],
+          "correctAnswer": "moi bhal ase.",
+          "translatedSentence": "I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji mor bor khusi lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel very happy today.",
+            "I felt very sad today.",
+            "I am very tired today."
+          ],
+          "correctAnswer": "I feel very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar mon kiyo beya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor bandhu gusi gol.",
+            "moi khusi ase.",
+            "mok saah lage."
+          ],
+          "correctAnswer": "mor bandhu gusi gol.",
+          "translatedSentence": "My friend went away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mon bhal lagi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am in a good mood.",
+            "I am in a bad mood.",
+            "I am feeling scared."
+          ],
+          "correctAnswer": "I am in a good mood."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi aji bor khusi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi o khusi hol.",
+            "mor mon beya lagise.",
+            "moi eku najano."
+          ],
+          "correctAnswer": "moi o khusi hol.",
+          "translatedSentence": "That makes me happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tai aji bor dukhi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is very sad today.",
+            "She is very happy today.",
+            "She is very tired today."
+          ],
+          "correctAnswer": "She is very sad today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar mon bhal ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor mon bhal.",
+            "nai, mor bhoi lagise.",
+            "moi ghoroloi jau."
+          ],
+          "correctAnswer": "hoi, mor mon bhal.",
+          "translatedSentence": "Yes, I am in a good mood."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "saah khale mor mon bhal lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tea makes me feel good.",
+            "Tea makes me feel sleepy.",
+            "I do not like tea."
+          ],
+          "correctAnswer": "Tea makes me feel good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor aji mon beya lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kiyo, ki hoise?",
+            "bhal khobor, dhonyobad.",
+            "moi etiya ghoroloi jau."
+          ],
+          "correctAnswer": "kiyo, ki hoise?",
+          "translatedSentence": "Why, what happened?"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar bhagor lagise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, moi aji bohut kaam korilu.",
+            "nai, mor khong uthise.",
+            "hoi, mor saah bhal lage."
+          ],
+          "correctAnswer": "hoi, moi aji bohut kaam korilu.",
+          "translatedSentence": "Yes, I worked a lot today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor aji bor bhagor lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired today.",
+            "I am very hungry today.",
+            "I am very busy today."
+          ],
+          "correctAnswer": "I am very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar khong kiyo uthise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor bhaie mor kotha nuhune.",
+            "mor bor khusi lagise.",
+            "mok olop saah lage."
+          ],
+          "correctAnswer": "mor bhaie mor kotha nuhune.",
+          "translatedSentence": "My brother does not listen to me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "raatit mor olop bhoi lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel a little scared at night.",
+            "I feel a little cold at night.",
+            "I sleep very well at night."
+          ],
+          "correctAnswer": "I feel a little scared at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji eku kaam nai, bor biroktikor lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bol, ami bahirot jau.",
+            "moi tomar logot khong korisu.",
+            "tumar bhoi lagise neki?"
+          ],
+          "correctAnswer": "bol, ami bahirot jau.",
+          "translatedSentence": "Come on, let us go out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor khong uthile moi eku nokou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When I get angry I say nothing.",
+            "When I get angry I shout a lot.",
+            "When I am happy I say nothing."
+          ],
+          "correctAnswer": "When I get angry I say nothing."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kiyo bhoi kori ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "iyat bor andhar.",
+            "mor mon bor bhal.",
+            "moi saah khai ase."
+          ],
+          "correctAnswer": "iyat bor andhar.",
+          "translatedSentence": "It is very dark here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi bor klanto hoi ghoroloi ahilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came home very tired.",
+            "I came home very happy.",
+            "I went to work very early."
+          ],
+          "correctAnswer": "I came home very tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor aji eku kaamot mon nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "olop bishram loa.",
+            "khong nokoriba, moi jau.",
+            "hoi, mor bhoi lagise."
+          ],
+          "correctAnswer": "olop bishram loa.",
+          "translatedSentence": "Take a little rest."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how they feel",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni etiya kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi etiya olop bhal ase.",
+            "moi etiya Guwahati jau.",
+            "mor ghor bor dur nohoi."
+          ],
+          "correctAnswer": "moi etiya olop bhal ase.",
+          "translatedSentence": "I am a little better now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumar ki hoise, mok koa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me what happened to you.",
+            "Tell me where you are going.",
+            "Tell me what you want to eat."
+          ],
+          "correctAnswer": "Tell me what happened to you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar mon beya lagi ase neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, olop dukh lagi ase.",
+            "hoi, moi etiya bhat khalu.",
+            "nai, moi ghoroloi jai ase."
+          ],
+          "correctAnswer": "hoi, olop dukh lagi ase.",
+          "translatedSentence": "Yes, I am feeling a little sad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi apunar bhal-beya sudhibole phone korisilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I called to ask how you were.",
+            "I called to say that I am coming.",
+            "I called to ask where you were."
+          ],
+          "correctAnswer": "I called to ask how you were."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumi aji eku kotha koa nai, ki hoise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eku nohoi, olop bhagor lagise.",
+            "eku nohoi, moi bhat rondhi ase.",
+            "hoi, mor khong uthi ase."
+          ],
+          "correctAnswer": "eku nohoi, olop bhagor lagise.",
+          "translatedSentence": "It is nothing, I just feel a bit tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "apuni kiyo eneke sinta kori ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why are you worrying like this?",
+            "Why are you laughing like this?",
+            "Why are you working like this?"
+          ],
+          "correctAnswer": "Why are you worrying like this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar mon bhal nohole mok koba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thik ase, moi tomak kom.",
+            "thik ase, moi etiya ghoroloi jau.",
+            "nai, moi bor bhoi kori ase."
+          ],
+          "correctAnswer": "thik ase, moi tomak kom.",
+          "translatedSentence": "All right, I will tell you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "apunar deuta etiya kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your father now?",
+            "Where is your father now?",
+            "How was your father then?"
+          ],
+          "correctAnswer": "How is your father now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ghorot sokolu bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, sokolu bhal ase.",
+            "hoi, mor bhat bhal lage.",
+            "nai, moi Jorhat jai ase."
+          ],
+          "correctAnswer": "hoi, sokolu bhal ase.",
+          "translatedSentence": "Yes, everyone at home is well."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comfort and encouragement",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor porikha bor beya hol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sinta nokoriba, aru ekbar chesta kora.",
+            "tumar bhal lagise neki?",
+            "moi tomar logot khong korisu."
+          ],
+          "correctAnswer": "sinta nokoriba, aru ekbar chesta kora.",
+          "translatedSentence": "Do not worry, try once more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sinta nokorbo, sob thik hoi jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, everything will be fine.",
+            "Do not worry, I will come tomorrow.",
+            "Do not hurry, everything is ready."
+          ],
+          "correctAnswer": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor bor bhoi lagi ase, moi eka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bhoi nokoriba, moi tomar logot ase.",
+            "tumi etiya ghoroloi jua.",
+            "moi aji bhat khai ase."
+          ],
+          "correctAnswer": "bhoi nokoriba, moi tomar logot ase.",
+          "translatedSentence": "Do not be afraid, I am with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kandi nathakiba, moi tomak sohai korim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not keep crying, I will help you.",
+            "Do not keep waiting, I will call you.",
+            "Do not keep crying, I will go home."
+          ],
+          "correctAnswer": "Do not keep crying, I will help you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi ei kaamtu koribo noaru buli bhabisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tumi niscoi pariba, olop somoy loa.",
+            "moi o iman bhoi kori ase.",
+            "tumar mon bhal lagi ase ne?"
+          ],
+          "correctAnswer": "tumi niscoi pariba, olop somoy loa.",
+          "translatedSentence": "You will surely manage it, just take a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mon beya nokorbo, kalir dinto bhal hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not feel bad, tomorrow will be a better day.",
+            "Do not be angry, tomorrow will be a busy day.",
+            "Do not worry, the work is already finished."
+          ],
+          "correctAnswer": "Do not feel bad, tomorrow will be a better day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor deuta hospitalot ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sinta nokorbo, teu sonkale bhal hoi jabo.",
+            "bhal khobor, moi bor khusi hol.",
+            "apuni etiya kot jai ase?"
+          ],
+          "correctAnswer": "sinta nokorbo, teu sonkale bhal hoi jabo.",
+          "translatedSentence": "Do not worry, he will get better soon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "apuni bor bhal kaam korise, moi gorbito.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have done very well, I am proud.",
+            "You have worked very hard, I am tired.",
+            "You have done very well, I am surprised."
+          ],
+          "correctAnswer": "You have done very well, I am proud."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dhonyobad, apunar kothai mok bol dile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhonyobad dibo nalage, moi sadai apunar logot ase.",
+            "moi apunak eku koa nai.",
+            "apuni kiyo mor logot khong korise?"
+          ],
+          "correctAnswer": "dhonyobad dibo nalage, moi sadai apunar logot ase.",
+          "translatedSentence": "You need not thank me, I am always with you."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kunbur khaddya bhal lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor masor jool aru bhat bhal lage.",
+            "moi Guwahatit thako.",
+            "mor aji bor bhoi lagise."
+          ],
+          "correctAnswer": "mor masor jool aru bhat bhal lage.",
+          "translatedSentence": "I like fish curry and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor ratit saah khaboloi bhal nalage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like drinking tea at night.",
+            "I like drinking tea at night.",
+            "I do not like eating rice at night."
+          ],
+          "correctAnswer": "I do not like drinking tea at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar pitha bhal lage ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor til pitha bor bhal lage.",
+            "nai, moi etiya ghoroloi jam.",
+            "hoi, mor olop bhagor lagise."
+          ],
+          "correctAnswer": "hoi, mor til pitha bor bhal lage.",
+          "translatedSentence": "Yes, I really like sesame pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor Brahmaputrar parot bohi thakibo bhal lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like sitting on the bank of the Brahmaputra.",
+            "I like swimming in the Brahmaputra.",
+            "I like walking beside the Brahmaputra every morning."
+          ],
+          "correctAnswer": "I like sitting on the bank of the Brahmaputra."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji apunar ki khabo mon ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor olop khisiri khabo mon ase.",
+            "moi kali Jorhat gaisilu.",
+            "mor etiya bor bhagor lagi ase."
+          ],
+          "correctAnswer": "mor olop khisiri khabo mon ase.",
+          "translatedSentence": "I feel like eating a little khichdi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor eta sah bagisa saboloi jabo mon ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel like going to see a tea garden.",
+            "I feel like working in a tea garden.",
+            "I want to buy tea from the garden."
+          ],
+          "correctAnswer": "I feel like going to see a tea garden."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor bhir eku bhal nalage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor o eke kotha, mor santi bhal lage.",
+            "moi kali bhirot gaisilu.",
+            "hoi, mor khong uthi ase."
+          ],
+          "correctAnswer": "mor o eke kotha, mor santi bhal lage.",
+          "translatedSentence": "Same here, I like quiet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tumar jodi bhal nalage, ami nejam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like it, we will not go.",
+            "If you do not come, we will not go.",
+            "If you like it, we can go tomorrow."
+          ],
+          "correctAnswer": "If you do not like it, we will not go."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi ei sinemakhon bhal napalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moro bhal laga nai, bor dighol asil.",
+            "mor sinema saboloi bor bhal lage.",
+            "tumar mon beya lagi ase neki?"
+          ],
+          "correctAnswer": "moro bhal laga nai, bor dighol asil.",
+          "translatedSentence": "I did not like it either, it was too long."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor motot Guwahatit thoka bhal, kiyono iyat kaam beshi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi apunar logot ekmot, kintu bhir olop beshi.",
+            "moi Jorhatot thako aru mor bhat bhal lage.",
+            "sinta nokorbo, moi apunak sohai korim."
+          ],
+          "correctAnswer": "moi apunar logot ekmot, kintu bhir olop beshi.",
+          "translatedSentence": "I agree with you, but the crowds are a bit too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi apunar kotha buji palu, kintu moi ekmot nohoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand what you said, but I do not agree.",
+            "I heard what you said, and I completely agree.",
+            "I did not understand what you said, so I cannot answer."
+          ],
+          "correctAnswer": "I understand what you said, but I do not agree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kali moi khong kori kotha koisilu, mok khyoma koribo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eku nohoi, moi beya poa nai.",
+            "hoi, apuni kali kot gaisil?",
+            "moi apunar logot aru nejam."
+          ],
+          "correctAnswer": "eku nohoi, moi beya poa nai.",
+          "translatedSentence": "It is nothing, I did not take it badly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor bhul hoisil, moi apunar ocorot khyoma bisarisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was my mistake, and I ask for your forgiveness.",
+            "It was not my mistake, so I will not say sorry.",
+            "There was a mistake, but I have already fixed it."
+          ],
+          "correctAnswer": "It was my mistake, and I ask for your forgiveness."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumi bhabisa moi bhul korisu, kintu moi thik asilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, hoyto moi tumak bhul bujisilu.",
+            "nai, moi tumar babe eku sinta nokoru.",
+            "mor ei khaddya eku bhal nalage."
+          ],
+          "correctAnswer": "hoi, hoyto moi tumak bhul bujisilu.",
+          "translatedSentence": "Yes, perhaps I misunderstood you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi apuni aji ahe, moi bor khusi hom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come today, I will be very happy.",
+            "If you come tomorrow, I will be very happy.",
+            "Since you came today, I am very happy."
+          ],
+          "correctAnswer": "If you come today, I will be very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar motot ei kaamtu kene hoise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor motot bhal hoise, kintu olop somoy lagibo.",
+            "moi ei kaamtu eku nokoru.",
+            "apunar bor bhagor lagi ase neki?"
+          ],
+          "correctAnswer": "mor motot bhal hoise, kintu olop somoy lagibo.",
+          "translatedSentence": "In my opinion it has gone well, but it will take a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi khong korisilu kiyono mor bor bhagor lagisil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got angry because I was very tired.",
+            "I got angry although I was not tired.",
+            "I stayed quiet because I was very tired."
+          ],
+          "correctAnswer": "I got angry because I was very tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor kotha huni jodi apunar mon beya lagise, moi dukhito.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sinta nokorbo, moi apunak buji pao.",
+            "hoi, moi apunar logot kali nejam.",
+            "moi ei kotha eku najano."
+          ],
+          "correctAnswer": "sinta nokorbo, moi apunak buji pao.",
+          "translatedSentence": "Do not worry, I understand you."
+        }
+      ]
+    }
+  ]
+}

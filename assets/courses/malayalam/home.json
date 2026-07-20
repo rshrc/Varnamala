@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu ninte muri aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ithu ente muri aanu.",
+            "Alla, ithu ente chettante muri aanu.",
+            "Athe, njaan adukkalayil aanu."
+          ],
+          "correctAnswer": "Athe, ithu ente muri aanu.",
+          "translatedSentence": "Yes, this is my room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangalude adukkala valuthaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our kitchen is big.",
+            "Our kitchen is small.",
+            "Our bedroom is big."
+          ],
+          "correctAnswer": "Our kitchen is big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kulimuri evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kulimuri adukkalayude aduthaanu.",
+            "Kulimuri valare vrithiyaanu.",
+            "Enikku kulimuri venda."
+          ],
+          "correctAnswer": "Kulimuri adukkalayude aduthaanu.",
+          "translatedSentence": "The bathroom is next to the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente veettil naalu muri undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four rooms in my house.",
+            "There are three rooms in my house.",
+            "There are four windows in my house."
+          ],
+          "correctAnswer": "There are four rooms in my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee evideyaanu urangunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan kidappumuriyil urangunnu.",
+            "Njaan adukkalayil pachakam cheyyunnu.",
+            "Njaan muttathu kalikkunnu."
+          ],
+          "correctAnswer": "Njaan kidappumuriyil urangunnu.",
+          "translatedSentence": "I sleep in the bedroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma ippol adukkalayil undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is in the kitchen now.",
+            "Mother is in the bedroom now.",
+            "Father is in the kitchen now."
+          ],
+          "correctAnswer": "Mother is in the kitchen now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veettinu munnil enthundu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Veettinu munnil oru cheriya muttam undu.",
+            "Veettinu ullil aarum illa.",
+            "Veedu valare pazhayathaanu."
+          ],
+          "correctAnswer": "Veettinu munnil oru cheriya muttam undu.",
+          "translatedSentence": "There is a small yard in front of the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithaanu njangalude oonumuri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is our dining room.",
+            "This is my dining room.",
+            "That is our dining room."
+          ],
+          "correctAnswer": "This is our dining room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude veedu evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente veedu Kochiyil aanu.",
+            "Ente muri valare cheruthaanu.",
+            "Njaan ippol veettil undu."
+          ],
+          "correctAnswer": "Ente veedu Kochiyil aanu.",
+          "translatedSentence": "My house is in Kochi."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku oru kasera venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku oru kasera venam.",
+            "Illa, enikku kasera venda.",
+            "Athe, enikku kurachu vellam venam."
+          ],
+          "correctAnswer": "Athe, enikku oru kasera venam.",
+          "translatedSentence": "Yes, I want a chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kattil valare valuthaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bed is very big.",
+            "This table is very big.",
+            "This bed is very old."
+          ],
+          "correctAnswer": "This bed is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee muriyil fan undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, muriyil oru fan undu.",
+            "Athe, muriyil randu jaalakam undu.",
+            "Illa, ente muri cheruthaanu."
+          ],
+          "correctAnswer": "Athe, muriyil oru fan undu.",
+          "translatedSentence": "Yes, there is a fan in the room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente vasthrangal ellam alamarayil undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All my clothes are in the cupboard.",
+            "All my books are in the cupboard.",
+            "All my clothes are on the bed."
+          ],
+          "correctAnswer": "All my clothes are in the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaathil thurakkano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, dayavayi vaathil thurakkoo.",
+            "Venda, jaalakam mathi thurannaal.",
+            "Athe, vilakku kathikkoo."
+          ],
+          "correctAnswer": "Athe, dayavayi vaathil thurakkoo.",
+          "translatedSentence": "Yes, please open the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku oru puthiya thalayana venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a new pillow.",
+            "I need a new bed.",
+            "I need two new pillows."
+          ],
+          "correctAnswer": "I need a new pillow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee glass ninteyaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ithu ente glass aanu.",
+            "Alla, athu ente ammayudethaanu.",
+            "Athe, njaan vellam kudikkunnu."
+          ],
+          "correctAnswer": "Athe, ithu ente glass aanu.",
+          "translatedSentence": "Yes, this is my glass."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adukkalayil othiri pathrangal undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of vessels in the kitchen.",
+            "There are only a few vessels in the kitchen.",
+            "There are a lot of vessels in the dining room."
+          ],
+          "correctAnswer": "There are a lot of vessels in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte muriyil TV undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ente muriyil TV illa.",
+            "Athe, ente veettil randu TV undu.",
+            "Illa, ente muriyil kattil illa."
+          ],
+          "correctAnswer": "Illa, ente muriyil TV illa.",
+          "translatedSentence": "No, there is no TV in my room."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee ippol entha cheyyunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan pathrangal kazhukukayaanu.",
+            "Njaan innale muri thutachu.",
+            "Njaan naale vasthrangal alakkum."
+          ],
+          "correctAnswer": "Njaan pathrangal kazhukukayaanu.",
+          "translatedSentence": "I am washing the vessels."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma adukkalayil meen curry undaakkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making fish curry in the kitchen.",
+            "Mother is eating fish curry in the kitchen.",
+            "Mother is making fish curry in the morning."
+          ],
+          "correctAnswer": "Mother is making fish curry in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee vasthrangal aara alakkuka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan thanne alakkaam, ningal visramikkoo.",
+            "Njaan puthiya vasthrangal vaangi.",
+            "Vasthrangal alamarayil undu."
+          ],
+          "correctAnswer": "Njaan thanne alakkaam, ningal visramikkoo.",
+          "translatedSentence": "I will wash them myself, you rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan innu ente muri vrithiyaakkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to clean my room today.",
+            "I want to clean my room today.",
+            "I have to clean the whole house today."
+          ],
+          "correctAnswer": "I have to clean my room today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adukkalayil ningal enne kurachu sahaayikkumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan ippol thanne varaam.",
+            "Kshamikkanam, enikku ippol samayam illa.",
+            "Njaan raavile chaya undaakki."
+          ],
+          "correctAnswer": "Athe, njaan ippol thanne varaam.",
+          "translatedSentence": "Yes, I will come right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan vasthrangal veyilathu unakkaan idunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am hanging the clothes out in the sun to dry.",
+            "I am hanging the clothes inside the room to dry.",
+            "I am folding the clothes that have dried."
+          ],
+          "correctAnswer": "I am hanging the clothes out in the sun to dry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu aara pachakam cheyyunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innu njaan thanne pachakam cheyyunnu.",
+            "Innale achan pachakam cheythu.",
+            "Naale amma pachakam cheyyum."
+          ],
+          "correctAnswer": "Innu njaan thanne pachakam cheyyunnu.",
+          "translatedSentence": "I am the one cooking today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chettan oonumuriyile taraya thutakkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is mopping the dining room floor.",
+            "My elder sister is mopping the dining room floor.",
+            "My elder brother is sweeping the dining room floor."
+          ],
+          "correctAnswer": "My elder brother is mopping the dining room floor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal chaya undaakkiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan raavile thanne undaakki.",
+            "Illa, njaan ippol undaakkaam.",
+            "Athe, njaan chaya kudichu."
+          ],
+          "correctAnswer": "Athe, njaan raavile thanne undaakki.",
+          "translatedSentence": "Yes, I made it early in the morning."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan alamara thurannu nokki, ente kuppayam avide illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ennaal athu kattilinte mukalil kaanum.",
+            "Alamara valare valuthaanu alle.",
+            "Njaan innale puthiya kuppayam vaangi."
+          ],
+          "correctAnswer": "Ennaal athu kattilinte mukalil kaanum.",
+          "translatedSentence": "Then it must be on the bed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poocha meshayude adiyil urangunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is sleeping under the table.",
+            "The cat is sleeping on the table.",
+            "The cat is sleeping under the chair."
+          ],
+          "correctAnswer": "The cat is sleeping under the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kazhukiya pathrangal njaan evideyaanu vekkendathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avayellam adukkalayile alamarayil vekkoo.",
+            "Avayellam kattilinte adiyil vekkoo.",
+            "Avayellam veendum kazhukoo."
+          ],
+          "correctAnswer": "Avayellam adukkalayile alamarayil vekkoo.",
+          "translatedSentence": "Put them all in the kitchen cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente cheruppu vaathilinu pinnil undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sandals are behind the door.",
+            "My sandals are in front of the door.",
+            "My umbrella is behind the door."
+          ],
+          "correctAnswer": "My sandals are behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "TV remote evideyaanu ennu ariyaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu sofayude adiyil undennu thonnunnu.",
+            "TV innu pravarthikkunnilla.",
+            "Njaan remote alamarayil vaangi vechu."
+          ],
+          "correctAnswer": "Athu sofayude adiyil undennu thonnunnu.",
+          "translatedSentence": "I think it is under the sofa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Fridginu ullil paal undo ennu onnu nokkoo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please check whether there is milk inside the fridge.",
+            "Please check whether there is water inside the fridge.",
+            "Please put the milk inside the fridge."
+          ],
+          "correctAnswer": "Please check whether there is milk inside the fridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente pusthakam meshayude mukalil kaanunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu kaserayil irippundallo.",
+            "Njaan aa pusthakam innale vaayichu.",
+            "Meshayil othiri saadhanangal undu."
+          ],
+          "correctAnswer": "Athu kaserayil irippundallo.",
+          "translatedSentence": "It is right there on the chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jaalakathinu aduthu oru cheriya mesha undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a small table next to the window.",
+            "There is a small chair next to the window.",
+            "There is a big table next to the window."
+          ],
+          "correctAnswer": "There is a small table next to the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kuttikal evideyaanu kalikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avar veettinte pinnile muttathu kalikkunnu.",
+            "Avar kidappumuriyil urangukayaanu.",
+            "Avar innale onnum kalichilla."
+          ],
+          "correctAnswer": "Avar veettinte pinnile muttathu kalikkunnu.",
+          "translatedSentence": "They are playing in the yard behind the house."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan akathekku kayarikkotte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kayari irunnaalum, njangal kaathirikkukayaayirunnu.",
+            "Venda, njaan puratthekku pokukayaanu.",
+            "Veettil ippol aarum illa."
+          ],
+          "correctAnswer": "Kayari irunnaalum, njangal kaathirikkukayaayirunnu.",
+          "translatedSentence": "Please come in and sit down, we were waiting for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu vaikunneram njangalude veettil aathithikal varunnundu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Guests are coming to our house this evening.",
+            "Guests came to our house yesterday evening.",
+            "Guests are coming to our house tomorrow evening."
+          ],
+          "correctAnswer": "Guests are coming to our house this evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku chaya venamo atho kaappi venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku oru chaya mathi, nandi.",
+            "Enikku chayayum kaappiyum ariyilla.",
+            "Njaan ippol chaya undaakkunnu."
+          ],
+          "correctAnswer": "Enikku oru chaya mathi, nandi.",
+          "translatedSentence": "Just a tea for me, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kazhikkaan puttum kadala curryum undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is puttu and chickpea curry to eat.",
+            "There is appam and chickpea curry to eat.",
+            "There is puttu and fish curry to eat."
+          ],
+          "correctAnswer": "There is puttu and chickpea curry to eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal oonu kazhichittu pokoo, ellam meshayil vechittundu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandi, njaan oonu kazhichittu thanne pokaam.",
+            "Enikku ippol vishakkunnilla, kurachu chaya mathi.",
+            "Njaan innale ivide oonu kazhichirunnu."
+          ],
+          "correctAnswer": "Nandi, njaan oonu kazhichittu thanne pokaam.",
+          "translatedSentence": "Thank you, I will eat before I leave."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalude kudumbathinu ellaavarkkum sugam thanne alle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone in your family is doing well, I hope?",
+            "Is your whole family at home right now?",
+            "How many people are there in your family?"
+          ],
+          "correctAnswer": "Everyone in your family is doing well, I hope?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ethra naalaayi kandittu, entha vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishesham onnum illa, ellam pazhaya pole thanne.",
+            "Njaan ningale innale kandirunnu.",
+            "Enikku ningale ariyilla."
+          ],
+          "correctAnswer": "Vishesham onnum illa, ellam pazhaya pole thanne.",
+          "translatedSentence": "Nothing much, everything is just the same as before."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avar veettil vannappol njaan chaya undaakkiyirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had already made tea when they came to the house.",
+            "I made tea after they came to the house.",
+            "I will make tea when they come to the house."
+          ],
+          "correctAnswer": "I had already made tea when they came to the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njangal iranguka aanu, vilichathil valare santhosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onnum thannilla ketto, ini veendum varanam.",
+            "Ningal ippol vannathe ullu allo.",
+            "Njaan ningalude veettilekku varunnu."
+          ],
+          "correctAnswer": "Onnum thannilla ketto, ini veendum varanam.",
+          "translatedSentence": "We could hardly offer you anything, do come again."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and neighbours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee veettinte vaadaka ethrayaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Masam pathinanchayiram roopa, pakshe vellavum current-um athil ulppedilla.",
+            "Veedu Kochiyile backwaters-inu aduthaanu, athukondu nalla kaattu undu.",
+            "Vaadakakku aalukale kittaan ippol budhimuttaanu."
+          ],
+          "correctAnswer": "Masam pathinanchayiram roopa, pakshe vellavum current-um athil ulppedilla.",
+          "translatedSentence": "Fifteen thousand rupees a month, but water and electricity are not included."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaadaka kodukkaan enikku randu divasam koodi venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two more days to pay the rent.",
+            "I paid the rent two days ago.",
+            "I need two more months to pay the rent."
+          ],
+          "correctAnswer": "I need two more days to pay the rent."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adukkalayile pipe chorunnundu, ningalkku plumberude number undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, njaan avane vilichu naale raavile varaan parayaam.",
+            "Illa, pakshe ente ayalvaasikku ariyaam ennu thonnunnu.",
+            "Athe, njaan innale kulimuri nannaayi vrithiyaakkiyirunnu."
+          ],
+          "correctAnswer": "Undu, njaan avane vilichu naale raavile varaan parayaam.",
+          "translatedSentence": "Yes, I will call him and ask him to come tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Current poyittu randu manikkoor aayi, pakshe ippozhum vannittilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The power has been out for two hours, but it still has not come back.",
+            "The power went out two hours ago, but it came back already.",
+            "The power has been out for two days, and it still has not come back."
+          ],
+          "correctAnswer": "The power has been out for two hours, but it still has not come back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puthiya ayalvaasikale ningal kandittundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, avar Thiruvananthapurathu ninnu vanna oru nalla kudumbam aanu.",
+            "Illa, njaan innale KSRTC bus-il Kochikku pooyirunnu.",
+            "Undu, avarude veettil randu kidappumuri undu."
+          ],
+          "correctAnswer": "Undu, avar Thiruvananthapurathu ninnu vanna oru nalla kudumbam aanu.",
+          "translatedSentence": "Yes, they are a nice family who moved here from Thiruvananthapuram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adutha masam muthal vaadaka koottum ennu veettudama paranju.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The landlord said that the rent will go up from next month.",
+            "The landlord said that the rent will not go up next month.",
+            "The landlord said that he will repair the house next month."
+          ],
+          "correctAnswer": "The landlord said that the rent will go up from next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaathilinte pootu kedaayi, njaan enthu cheyyanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nammalkku aashaariye vilikkaam, addeham innu vaikunneram varum.",
+            "Ennaal ini vaathil thurannu thanne idoo.",
+            "Puthiya alamara vaanganam ennaanu enikku thonnunnathu."
+          ],
+          "correctAnswer": "Nammalkku aashaariye vilikkaam, addeham innu vaikunneram varum.",
+          "translatedSentence": "We can call the carpenter, he will come this evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ayalvaasi sahaayichillaayirunnenkil njaan valare budhimuttiyene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the neighbour had not helped, I would have been in real trouble.",
+            "If the neighbour helps me, I will not be in any trouble.",
+            "The neighbour helped me because I was in real trouble."
+          ],
+          "correctAnswer": "If the neighbour had not helped, I would have been in real trouble."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ee veedu ishtamaayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ishtamaayi, pakshe vaadaka ithiri kooduthalaanu ennu thonnunnu.",
+            "Ishtamaayilla, ivide vellathinu prashnam undennu ayalvaasi paranju.",
+            "Ishtamaayi, njaan innu thanne vaadaka kodukkaam ennu paranju."
+          ],
+          "correctAnswer": "Ishtamaayi, pakshe vaadaka ithiri kooduthalaanu ennu thonnunnu.",
+          "translatedSentence": "I liked it, but I feel the rent is a little too high."
+        }
+      ]
+    }
+  ]
+}

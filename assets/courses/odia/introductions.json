@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Your name and home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka naam kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo naam {name}.",
+            "Mo ghara Puri re.",
+            "Mu bhala achi."
+          ],
+          "correctAnswer": "Mo naam {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu Bhubaneswar re rahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Bhubaneswar.",
+            "I am going to Bhubaneswar.",
+            "I am from Puri."
+          ],
+          "correctAnswer": "I live in Bhubaneswar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara naam kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo naam Rina.",
+            "Mo bhai naam Rina.",
+            "Rina bhala achi."
+          ],
+          "correctAnswer": "Mo naam Rina.",
+          "translatedSentence": "My name is Rina."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo naam {name}.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is {name}.",
+            "My brother's name is {name}.",
+            "At home they call me {name}."
+          ],
+          "correctAnswer": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kouthi ru asichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Cuttack ru asichi.",
+            "Mu ebe jauchi.",
+            "Mo naam Ajaya."
+          ],
+          "correctAnswer": "Mu Cuttack ru asichi.",
+          "translatedSentence": "I have come from Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo ghara Puri re.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My home is in Puri.",
+            "I am going to Puri.",
+            "My friend is in Puri."
+          ],
+          "correctAnswer": "My home is in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka ghara kouthi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo ghara Bhubaneswar re.",
+            "Mo naam Ajaya.",
+            "Mu bhala achi."
+          ],
+          "correctAnswer": "Mo ghara Bhubaneswar re.",
+          "translatedSentence": "My home is in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tume kouthi re raha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you live?",
+            "Where are you going?",
+            "Where is your home?"
+          ],
+          "correctAnswer": "Where do you live?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume Cuttack ru ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu Cuttack re rahe.",
+            "Nahin, mo naam Ajaya.",
+            "Haan, mu bhala achi."
+          ],
+          "correctAnswer": "Haan, mu Cuttack re rahe.",
+          "translatedSentence": "Yes, I live in Cuttack."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka boyasa kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo boyasa tirisa barsa.",
+            "Mo naam Sunil.",
+            "Mu Puri re rahe."
+          ],
+          "correctAnswer": "Mo boyasa tirisa barsa.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo boyasa pachisa barsa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty-five years old.",
+            "I am fifteen years old.",
+            "I have twenty-five rupees."
+          ],
+          "correctAnswer": "I am twenty-five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kaam karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ekjana sikhyaka.",
+            "Mu Odia jane nahin.",
+            "Mo boyasa bisa barsa."
+          ],
+          "correctAnswer": "Mu ekjana sikhyaka.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu Bhubaneswar re gote bank re kaam kare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work at a bank in Bhubaneswar.",
+            "I study at a college in Bhubaneswar.",
+            "I live near a bank in Bhubaneswar."
+          ],
+          "correctAnswer": "I work at a bank in Bhubaneswar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kana kara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu college re padhe.",
+            "Mu Cuttack ru asichi.",
+            "Mo naam Sunil."
+          ],
+          "correctAnswer": "Mu college re padhe.",
+          "translatedSentence": "I study at a college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu chhatra nuhe, mu kaam kare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not a student, I work.",
+            "I am a student, I do not work.",
+            "I am not a teacher, I study."
+          ],
+          "correctAnswer": "I am not a student, I work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana chhatra ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu ekjana engineer.",
+            "Haan, mo naam Rina.",
+            "Nahin, mo ghara Puri re."
+          ],
+          "correctAnswer": "Nahin, mu ekjana engineer.",
+          "translatedSentence": "No, I am an engineer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo boyasa chalisa barsa, kintu mu ebe bi padhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am forty years old, but I still study.",
+            "I am forty years old and I teach now.",
+            "I studied until I was forty years old."
+          ],
+          "correctAnswer": "I am forty years old, but I still study."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, apana kouthi kaam karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Puri re gote dokana chalae.",
+            "Mu Puri re rahe.",
+            "Mo boyasa tirisa barsa hela."
+          ],
+          "correctAnswer": "Mu Puri re gote dokana chalae.",
+          "translatedSentence": "I run a shop in Puri."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Odia kahiparanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu tike tike Odia kahipare.",
+            "Nahin, mu Bhubaneswar re rahe.",
+            "Haan, mo naam Odia."
+          ],
+          "correctAnswer": "Haan, mu tike tike Odia kahipare.",
+          "translatedSentence": "Yes, I can speak a little Odia."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu Hindi au Ingraji kahipare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I can speak Hindi and English.",
+            "I am learning Hindi and English.",
+            "I understand Hindi but not English."
+          ],
+          "correctAnswer": "I can speak Hindi and English."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete bhasa jananti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu tinita bhasa jane.",
+            "Mu tirisa barsa ra.",
+            "Mu gote school re bhasa sikhae."
+          ],
+          "correctAnswer": "Mu tinita bhasa jane.",
+          "translatedSentence": "I know three languages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ebe Odia sikhuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am learning Odia now.",
+            "I used to teach Odia.",
+            "I know Odia well now."
+          ],
+          "correctAnswer": "I am learning Odia now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume Odia kemiti sikhila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu mo sangata tharu sikhili.",
+            "Mu Odia jane nahin.",
+            "Mu Bhubaneswar re Odia sikhae."
+          ],
+          "correctAnswer": "Mu mo sangata tharu sikhili.",
+          "translatedSentence": "I learned it from my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bhala bhabare Odia kahipare nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot speak Odia well.",
+            "I do not want to speak Odia.",
+            "I speak Odia very well."
+          ],
+          "correctAnswer": "I cannot speak Odia well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Odia bujhiparanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu tike bujhipare.",
+            "Nahin, mu Odia bhala kahipare.",
+            "Haan, mu Cuttack re rahe."
+          ],
+          "correctAnswer": "Haan, mu tike bujhipare.",
+          "translatedSentence": "Yes, I understand a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tike aste kuhantu, mu sabu bujhipare nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please speak a little slowly, I do not understand everything.",
+            "Please speak louder, I cannot hear you at all.",
+            "Please speak in English, I do not know Odia."
+          ],
+          "correctAnswer": "Please speak a little slowly, I do not understand everything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka matru bhasa kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo matru bhasa Odia.",
+            "Mo naam Odia.",
+            "Mu Odia bhala kahipare nahin."
+          ],
+          "correctAnswer": "Mo matru bhasa Odia.",
+          "translatedSentence": "My mother tongue is Odia."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu Puri ru asichi, apana kouthi ru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Cuttack ru, kintu ebe Bhubaneswar re rahe.",
+            "Mu ebe Puri jauchi.",
+            "Mo sangata Puri re rahe."
+          ],
+          "correctAnswer": "Mu Cuttack ru, kintu ebe Bhubaneswar re rahe.",
+          "translatedSentence": "I am from Cuttack, but now I live in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana kete dina heba ethi rahuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How long have you been living here?",
+            "How many days will you stay here?",
+            "When did you come here?"
+          ],
+          "correctAnswer": "How long have you been living here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka paribara kouthi rahanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Semane Cuttack re rahanti.",
+            "Mo sangata Bhubaneswar re kaam kare.",
+            "Mo boyasa ekusa barsa."
+          ],
+          "correctAnswer": "Semane Cuttack re rahanti.",
+          "translatedSentence": "They live in Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana ethi kaam pain asichanti ki padhiba pain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Have you come here for work or to study?",
+            "Are you working here or living here?",
+            "Did you come here to study Odia?"
+          ],
+          "correctAnswer": "Have you come here for work or to study?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana khaibaku bhala paanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote pakhala au dalma bhala lage.",
+            "Mu ebe kichhi khaichi nahin.",
+            "Mu gote hotel re kaam kare."
+          ],
+          "correctAnswer": "Mote pakhala au dalma bhala lage.",
+          "translatedSentence": "I like pakhala and dalma."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote Puri ra chhena poda bahut bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really like the chhena poda from Puri.",
+            "I want to eat chhena poda in Puri.",
+            "Chhena poda is very famous in Puri."
+          ],
+          "correctAnswer": "I really like the chhena poda from Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka sathire kie asichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo sangata mo sathire asichanti.",
+            "Mu ekala ethi rahe.",
+            "Mo naam Rina, mu Puri ru."
+          ],
+          "correctAnswer": "Mo sangata mo sathire asichanti.",
+          "translatedSentence": "My friend has come with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana kebe Jagannath mandira dekhichanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Have you ever seen the Jagannath temple?",
+            "Do you want to see the Jagannath temple?",
+            "When did you see the Jagannath temple?"
+          ],
+          "correctAnswer": "Have you ever seen the Jagannath temple?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ethiku kemiti asichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu auto re asichi.",
+            "Mu ethi kaam kare.",
+            "Mu bhala achi, dhanyabad."
+          ],
+          "correctAnswer": "Mu auto re asichi.",
+          "translatedSentence": "I came by auto."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E kie?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "E mo sangata Rina.",
+            "Se kouthi achanti?",
+            "Mu bhala achi, dhanyabad."
+          ],
+          "correctAnswer": "E mo sangata Rina.",
+          "translatedSentence": "This is my friend Rina."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Taanka naam Ajaya, se Cuttack ru asichanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His name is Ajaya and he is from Cuttack.",
+            "My name is Ajaya and I am from Cuttack.",
+            "Ajaya has gone to Cuttack."
+          ],
+          "correctAnswer": "His name is Ajaya and he is from Cuttack."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Se kana kaam karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se gote hospital re kaam karanti.",
+            "Se bhala achanti, dhanyabad.",
+            "Taanka ghara Puri re."
+          ],
+          "correctAnswer": "Se gote hospital re kaam karanti.",
+          "translatedSentence": "She works at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se mo bahut purana sangata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is a very old friend of mine.",
+            "He is my elder brother.",
+            "He is a new friend of mine."
+          ],
+          "correctAnswer": "He is a very old friend of mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana taanku janichanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, ame eksathe padhithilu.",
+            "Nahin, se mo bhai.",
+            "Haan, mo naam Ajaya."
+          ],
+          "correctAnswer": "Haan, ame eksathe padhithilu.",
+          "translatedSentence": "Yes, we studied together."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se Odia jane nahin, tenu apana Hindi re kuhantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She does not know Odia, so please speak in Hindi.",
+            "She knows Odia, so you may speak in Odia.",
+            "She is learning Odia, so please speak slowly."
+          ],
+          "correctAnswer": "She does not know Odia, so please speak in Hindi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taanka sahita bheti bhala lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora bi bhala lagila.",
+            "Se ebe ethi nahanti.",
+            "Mu taanku jane nahin."
+          ],
+          "correctAnswer": "Mora bi bhala lagila.",
+          "translatedSentence": "I enjoyed it too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bhai Bhubaneswar re rahanti, kintu mo sangata Puri re rahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother lives in Bhubaneswar, but my friend lives in Puri.",
+            "My brother and my friend both live in Puri.",
+            "My brother came to Bhubaneswar to meet my friend."
+          ],
+          "correctAnswer": "My brother lives in Bhubaneswar, but my friend lives in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taanka boyasa kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Taanka boyasa tirisa barsa.",
+            "Taanka naam Rina.",
+            "Se ebe Cuttack ru asichanti."
+          ],
+          "correctAnswer": "Taanka boyasa tirisa barsa.",
+          "translatedSentence": "He is thirty years old."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka phone number kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo number lekhi nianti, mu ebe kahuchi.",
+            "Mo pakhare ebe phone nahin.",
+            "Mu apananku kali bhetithili."
+          ],
+          "correctAnswer": "Mo number lekhi nianti, mu ebe kahuchi.",
+          "translatedSentence": "Write my number down, I will say it now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote apananka number darkar, karana mu apananku kali phone karibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need your number, because I will call you tomorrow.",
+            "I have your number, so I will call you tomorrow.",
+            "I need your number if you call me tomorrow."
+          ],
+          "correctAnswer": "I need your number, because I will call you tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pakhare WhatsApp achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu apananku sethi message karibi.",
+            "Nahin, mo pakhare apananka number achi.",
+            "Haan, mu Odia jane nahin."
+          ],
+          "correctAnswer": "Haan, mu apananku sethi message karibi.",
+          "translatedSentence": "Yes, I will message you there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi apana Bhubaneswar asanti, tebe mote nischaya phone karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come to Bhubaneswar, be sure to call me.",
+            "When you came to Bhubaneswar, you did not call me.",
+            "If I come to Bhubaneswar, I will call you."
+          ],
+          "correctAnswer": "If you come to Bhubaneswar, be sure to call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu ebe jauchi, karana mote deri heuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, aau eka dina bhetiba.",
+            "Nahin, mo naam Rina.",
+            "Haan, mu ebe Odia sikhuchi."
+          ],
+          "correctAnswer": "Thik achi, aau eka dina bhetiba.",
+          "translatedSentence": "All right, we will meet another day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apananku bheti bahut bhala lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was very nice to meet you.",
+            "I would very much like to meet you.",
+            "It was nice talking to you on the phone."
+          ],
+          "correctAnswer": "It was very nice to meet you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aau kebe bhetiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Asanta saptaha re bhetiba, jadi apana ethi thanti.",
+            "Mu apananku jane nahin.",
+            "Mo ghara Cuttack re achi."
+          ],
+          "correctAnswer": "Asanta saptaha re bhetiba, jadi apana ethi thanti.",
+          "translatedSentence": "We will meet next week, if you are here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu apananku message karibi, kintu ebe mo phone re charge nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will message you, but my phone has no charge right now.",
+            "I messaged you, but my phone was switched off.",
+            "I will call you because my phone has no charge."
+          ],
+          "correctAnswer": "I will message you, but my phone has no charge right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhetiba pain bahut dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote bi bhala lagila, sabadhana re jaantu.",
+            "Mu apananka number jane nahin.",
+            "Mo phone number harei galani."
+          ],
+          "correctAnswer": "Mote bi bhala lagila, sabadhana re jaantu.",
+          "translatedSentence": "I enjoyed it too, go safely."
+        }
+      ]
+    }
+  ]
+}

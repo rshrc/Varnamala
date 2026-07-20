@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee roju emi vaaram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee roju somavaram.",
+            "Ee roju selavu.",
+            "Ee roju pandaga."
+          ],
+          "correctAnswer": "Ee roju somavaram.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aadivaram naaku selavu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a holiday on Sunday.",
+            "I work on Sunday.",
+            "Sunday is a busy day."
+          ],
+          "correctAnswer": "I have a holiday on Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Selavu roju eppudu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Selavu aadivaram.",
+            "Selavu shanivaram.",
+            "Selavu ee roju."
+          ],
+          "correctAnswer": "Selavu aadivaram.",
+          "translatedSentence": "The holiday is on Sunday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Somavaram nenu pani chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work on Monday.",
+            "I rest on Monday.",
+            "I travel on Monday."
+          ],
+          "correctAnswer": "I work on Monday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guruvaram meeku teerika unda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, guruvaram teerika undi.",
+            "Ledu, guruvaram pani undi.",
+            "Guruvaram nenu Hyderabad veltanu."
+          ],
+          "correctAnswer": "Avunu, guruvaram teerika undi.",
+          "translatedSentence": "Yes, I am free on Thursday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shukravaram sinima chuddam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let's watch a movie on Friday.",
+            "We watched a movie on Friday.",
+            "Let's watch a movie on Sunday."
+          ],
+          "correctAnswer": "Let's watch a movie on Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaaram lo enni rojulu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaaram lo edu rojulu.",
+            "Vaaram lo aaru rojulu.",
+            "Vaaram lo enimidi rojulu."
+          ],
+          "correctAnswer": "Vaaram lo edu rojulu.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Budhavaram naaku Telugu class undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a Telugu class on Wednesday.",
+            "I have a Telugu class on Tuesday.",
+            "I had a Telugu class on Wednesday."
+          ],
+          "correctAnswer": "I have a Telugu class on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shanivaram meeru ekkada untaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shanivaram nenu intlo untanu.",
+            "Shanivaram nenu office lo untanu.",
+            "Shanivaram nenu Vijayawada veltanu."
+          ],
+          "correctAnswer": "Shanivaram nenu intlo untanu.",
+          "translatedSentence": "On Saturday I stay at home."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu meeru em chestunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Repu nenu Charminar ki veltunnanu.",
+            "Ninna nenu Charminar ki vellanu.",
+            "Monna nenu Charminar ki vellanu."
+          ],
+          "correctAnswer": "Repu nenu Charminar ki veltunnanu.",
+          "translatedSentence": "Tomorrow I am going to Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninna nenu biryani tinnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I ate biryani yesterday.",
+            "I am eating biryani today.",
+            "I will eat biryani tomorrow."
+          ],
+          "correctAnswer": "I ate biryani yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippudu meeru ekkada unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu nenu bus lo unnanu.",
+            "Repu nenu bus lo untanu.",
+            "Ninna nenu bus lo unnanu."
+          ],
+          "correctAnswer": "Ippudu nenu bus lo unnanu.",
+          "translatedSentence": "I am on the bus right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pani ippudu kaadu, tarvata chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will do this work later, not now.",
+            "I am doing this work right now.",
+            "I finished this work a little while ago."
+          ],
+          "correctAnswer": "I will do this work later, not now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee roju emi tinnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee roju nenu pesarattu tinnanu.",
+            "Ee roju nenu pesarattu tintanu.",
+            "Ninna nenu pesarattu tinnanu."
+          ],
+          "correctAnswer": "Ee roju nenu pesarattu tinnanu.",
+          "translatedSentence": "Today I ate pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellundi maa amma Vijayawada nunchi vastundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is coming from Vijayawada the day after tomorrow.",
+            "My mother went to Vijayawada yesterday.",
+            "My mother is coming from Hyderabad tomorrow."
+          ],
+          "correctAnswer": "My mother is coming from Vijayawada the day after tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ee roju office ki veltunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, ee roju naaku selavu.",
+            "Avunu, ninna office ki vellanu.",
+            "Ledu, repu naaku selavu."
+          ],
+          "correctAnswer": "Ledu, ee roju naaku selavu.",
+          "translatedSentence": "No, I have a day off today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ippudu naaku teerika ledu, tarvata matladtanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not free now, I will talk later.",
+            "I am free now, so let us talk.",
+            "I was not free yesterday, we can talk now."
+          ],
+          "correctAnswer": "I am not free now, I will talk later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Monna meeru ekkada unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Monna nenu Vijayawada lo unnanu.",
+            "Repu nenu Vijayawada veltanu.",
+            "Ippudu nenu Vijayawada lo unnanu."
+          ],
+          "correctAnswer": "Monna nenu Vijayawada lo unnanu.",
+          "translatedSentence": "The day before yesterday I was in Vijayawada."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippudu enni gantalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu edu gantalu.",
+            "Ippudu edu nimishalu.",
+            "Ippudu edu rojulu."
+          ],
+          "correctAnswer": "Ippudu edu gantalu.",
+          "translatedSentence": "It is seven o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju aaru gantalaki lestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six o'clock every day.",
+            "I go to sleep at six o'clock every day.",
+            "I get up at seven o'clock every day."
+          ],
+          "correctAnswer": "I get up at six o'clock every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train enni gantalaki vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train enimidi gantalaki vastundi.",
+            "Train enimidi gantalu laate ayyindi.",
+            "Train enimidi rojulu apindi."
+          ],
+          "correctAnswer": "Train enimidi gantalaki vastundi.",
+          "translatedSentence": "The train comes at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting madhyahnam rendunnaraki undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The meeting is at two thirty in the afternoon.",
+            "The meeting is at two thirty in the morning.",
+            "The meeting was at three in the afternoon."
+          ],
+          "correctAnswer": "The meeting is at two thirty in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni gantalaki office ki veltaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu tommidi gantalaki office ki veltanu.",
+            "Nenu tommidi gantalaki intiki vastanu.",
+            "Nenu tommidi gantalaki tiffin tintanu."
+          ],
+          "correctAnswer": "Nenu tommidi gantalaki office ki veltanu.",
+          "translatedSentence": "I go to the office at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sayantram aidunnaraki irani chai taagudam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let's have Irani chai at five thirty in the evening.",
+            "Let's have Irani chai at five in the morning.",
+            "We had Irani chai at five thirty yesterday."
+          ],
+          "correctAnswer": "Let's have Irani chai at five thirty in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raatri enni gantalaki padukuntaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu padakondu gantalaki padukuntanu.",
+            "Nenu padakondu gantalaki lestanu.",
+            "Nenu padakondu nimishalu padukuntanu."
+          ],
+          "correctAnswer": "Nenu padakondu gantalaki padukuntanu.",
+          "translatedSentence": "I go to sleep at eleven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shop udayam padi gantalaki terustaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They open the shop at ten in the morning.",
+            "They close the shop at ten in the morning.",
+            "They open the shop at ten at night."
+          ],
+          "correctAnswer": "They open the shop at ten in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sinima enni gantalaki modalavutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sinima aaru gantalaki modalavutundi.",
+            "Sinima aaru gantalaki ayipotundi.",
+            "Sinima aaru rojulu untundi."
+          ],
+          "correctAnswer": "Sinima aaru gantalaki modalavutundi.",
+          "translatedSentence": "The movie starts at six o'clock."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku puttinaroju e nela lo vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku puttinaroju March lo vastundi.",
+            "Naaku puttinaroju somavaram vastundi.",
+            "Naaku puttinaroju ee vaaram undi."
+          ],
+          "correctAnswer": "Naaku puttinaroju March lo vastundi.",
+          "translatedSentence": "My birthday falls in March."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vesavi lo Hyderabad chala vedi ga untundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyderabad is very hot in the summer.",
+            "Hyderabad is very cold in the summer.",
+            "It rains a lot in Hyderabad in the summer."
+          ],
+          "correctAnswer": "Hyderabad is very hot in the summer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Varshakalam eppudu modalavutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Varshakalam June lo modalavutundi.",
+            "Varshakalam chalikalam tarvata vastundi.",
+            "Varshakalam moodu rojulu matrame untundi."
+          ],
+          "correctAnswer": "Varshakalam June lo modalavutundi.",
+          "translatedSentence": "The rainy season starts in June."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ugadi pandaga ki mem oori ki veltamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go to our village for the Ugadi festival.",
+            "We went to our village for the Ugadi festival.",
+            "We go to the city for the Ugadi festival."
+          ],
+          "correctAnswer": "We go to our village for the Ugadi festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee roju enni taareekhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee roju padihenu taareekhu.",
+            "Ee roju padihenu nimishalu ayyindi.",
+            "Ee roju padihenu nelalu ayyindi."
+          ],
+          "correctAnswer": "Ee roju padihenu taareekhu.",
+          "translatedSentence": "Today is the fifteenth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chalikalam lo udayam chala chali ga untundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter the mornings are very cold.",
+            "In winter the mornings are very hot.",
+            "In summer the mornings are very cold."
+          ],
+          "correctAnswer": "In winter the mornings are very cold."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vachhe nela meeru ekkada untaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vachhe nela nenu Vijayawada lo untanu.",
+            "Poyina nela nenu Vijayawada lo unnanu.",
+            "Vachhe vaaram nenu intlo matrame untanu."
+          ],
+          "correctAnswer": "Vachhe nela nenu Vijayawada lo untanu.",
+          "translatedSentence": "Next month I will be in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poyina samvatsaram nenu Telugu nerchukovadam modalu pettanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last year I started learning Telugu.",
+            "Next year I will start learning Telugu.",
+            "Last year I finished learning Telugu."
+          ],
+          "correctAnswer": "Last year I started learning Telugu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sankranti e nela lo vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sankranti January lo vastundi.",
+            "Sankranti aadivaram vastundi.",
+            "Sankranti vesavi lo vastundi."
+          ],
+          "correctAnswer": "Sankranti January lo vastundi.",
+          "translatedSentence": "Sankranti comes in January."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru udayam lechina tarvata em chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu mundu chai taagi, tarvata snanam chestanu.",
+            "Nenu raatri annam tini padukuntanu.",
+            "Nenu udayam chala sepu padukuntanu."
+          ],
+          "correctAnswer": "Nenu mundu chai taagi, tarvata snanam chestanu.",
+          "translatedSentence": "First I drink tea, then I take a bath."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju udayam edu gantalaki tayaru avutanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get ready at seven every morning.",
+            "I get ready at seven every evening.",
+            "I wake up at seven every morning."
+          ],
+          "correctAnswer": "I get ready at seven every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru tiffin ki emi tintaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu chala sarlu pesarattu tintanu.",
+            "Nenu raatri biryani tinnanu.",
+            "Nenu tiffin tarvata office ki veltanu."
+          ],
+          "correctAnswer": "Nenu chala sarlu pesarattu tintanu.",
+          "translatedSentence": "I usually eat pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Office ki nenu auto lo veltanu, endukante bus laate avutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office by auto, because the bus gets late.",
+            "I go to the office by bus, because the auto is expensive.",
+            "I went to the office by auto because I was late."
+          ],
+          "correctAnswer": "I go to the office by auto, because the bus gets late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Madhyahnam meeru bhojanam ekkada chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu office daggara unna hotel lo chestanu.",
+            "Nenu madhyahnam gongura pachadi tintanu.",
+            "Nenu raatri intlo bhojanam chestanu."
+          ],
+          "correctAnswer": "Nenu office daggara unna hotel lo chestanu.",
+          "translatedSentence": "I eat at a restaurant near the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sayantram pani ayyaka nenu konchem sepu nadustanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After work in the evening I walk for a little while.",
+            "Before work in the evening I walk for a little while.",
+            "After work in the evening I sleep for a little while."
+          ],
+          "correctAnswer": "After work in the evening I walk for a little while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raatri meeru enni gantalaki intiki cherukuntaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu enimidi gantalaki intiki cherukuntanu.",
+            "Nenu enimidi gantalaki pani modalu pedtanu.",
+            "Nenu enimidi gantalaki udayam lestanu."
+          ],
+          "correctAnswer": "Nenu enimidi gantalaki intiki cherukuntanu.",
+          "translatedSentence": "I reach home at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Prati aadivaram nenu intlo panulu chestanu, bayataki vellanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Every Sunday I do the chores at home and do not go out.",
+            "Every Sunday I go out and do not do the chores at home.",
+            "Every Saturday I do the chores at home and do not go out."
+          ],
+          "correctAnswer": "Every Sunday I do the chores at home and do not go out."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru padukune mundu emi chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu konchem sepu pustakam chaduvutanu.",
+            "Nenu udayam pustakam chadivanu.",
+            "Nenu lechina tarvata pustakam chaduvutanu."
+          ],
+          "correctAnswer": "Nenu konchem sepu pustakam chaduvutanu.",
+          "translatedSentence": "I read a book for a little while."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu udayam padi gantalaki meeku veelu untunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, udayam kudaradu, madhyahnam ayite veelu untundi.",
+            "Avunu, ninna udayam naaku veelu undedi.",
+            "Kshaminchandi, poyina vaaram naaku veelu ledu."
+          ],
+          "correctAnswer": "Kshaminchandi, udayam kudaradu, madhyahnam ayite veelu untundi.",
+          "translatedSentence": "Sorry, the morning does not work, but the afternoon is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting shanivaram petukundam, endukante aa roju andariki selavu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let's set the meeting for Saturday, because everyone is off that day.",
+            "Let's set the meeting for Sunday, because everyone works that day.",
+            "We had the meeting on Saturday, because everyone was off that day."
+          ],
+          "correctAnswer": "Let's set the meeting for Saturday, because everyone is off that day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku e roju baaguntundo cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku guruvaram saayantram baaguntundi, kaani aidu tarvata ayite manchidi.",
+            "Naaku poyina guruvaram saayantram chala baagundedi.",
+            "Naaku guruvaram udayam sinima chudalani undi."
+          ],
+          "correctAnswer": "Naaku guruvaram saayantram baaguntundi, kaani aidu tarvata ayite manchidi.",
+          "translatedSentence": "Thursday evening works for me, but after five would be better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Repu kudaradu, kaani ellundi tappakunda vastanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is not possible, but the day after I will definitely come.",
+            "Tomorrow is possible, so I will definitely come.",
+            "Yesterday was not possible, so I did not come."
+          ],
+          "correctAnswer": "Tomorrow is not possible, but the day after I will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Biryani ki enni gantalaki veldam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enimidi gantalaki veldam, appatiki janalu takkuva untaru.",
+            "Enimidi gantalaki vellalanukunnanu, kaani ninna vellaledu.",
+            "Enimidi rojula tarvata veldam, ippudu naaku teerika ledu."
+          ],
+          "correctAnswer": "Enimidi gantalaki veldam, appatiki janalu takkuva untaru.",
+          "translatedSentence": "Let's go at eight, there will be fewer people then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru pani lo unte, nenu tarvata phone chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are busy, I will call you later.",
+            "If you are busy, please call me later.",
+            "You were busy, so I called later."
+          ],
+          "correctAnswer": "If you are busy, I will call you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mana program repu ki marchukovacha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Marchukovaccu, kaani repu saayantram matrame naaku veelu.",
+            "Marchukunnamu, ninna saayantrame mem vellamu.",
+            "Marchukovaddu, ee roju sinima chala baagundi."
+          ],
+          "correctAnswer": "Marchukovaccu, kaani repu saayantram matrame naaku veelu.",
+          "translatedSentence": "We can change it, but only tomorrow evening works for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Varsham padite mem raamu, kaani varsham lekapote tappakunda vastamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains we will not come, but if it does not rain we will definitely come.",
+            "If it rains we will come, but if it does not rain we will not come.",
+            "It rained, so we did not come, but we will come tomorrow."
+          ],
+          "correctAnswer": "If it rains we will not come, but if it does not rain we will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mana appointment kudirinda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, shukravaram madhyahnam moodu gantalaki kudirindi.",
+            "Avunu, ninna moodu gantalaki kudurutundi.",
+            "Ledu, nenu doctor ni monna kalisanu."
+          ],
+          "correctAnswer": "Avunu, shukravaram madhyahnam moodu gantalaki kudirindi.",
+          "translatedSentence": "Yes, it is fixed for Friday at three in the afternoon."
+        }
+      ]
+    }
+  ]
+}

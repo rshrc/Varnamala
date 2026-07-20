@@ -7,4 +7,5 @@ enum TargetLanguage {
   bengali,
   odia,
   nepali,
+  assamese,
 }

@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unakku pasikkudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, enakku pasikkudhu.",
+            "Illa, enakku thanni venum.",
+            "Naan veetla irukken."
+          ],
+          "correctAnswer": "Aamaam, enakku pasikkudhu.",
+          "translatedSentence": "Yes, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku thanni venum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want water.",
+            "I want tea.",
+            "I do not want water."
+          ],
+          "correctAnswer": "I want water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unakku enna venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku oru kaapi venum.",
+            "Enakku pasikkala.",
+            "Adhu romba nalla irukku."
+          ],
+          "correctAnswer": "Enakku oru kaapi venum.",
+          "translatedSentence": "I want a coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Veetla saadham irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is rice at home.",
+            "There is no rice at home.",
+            "I am eating rice at home."
+          ],
+          "correctAnswer": "There is rice at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thanni irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, thanni irukku.",
+            "Illa, enakku pasikkudhu.",
+            "Naan saadham sappidren."
+          ],
+          "correctAnswer": "Aamaam, thanni irukku.",
+          "translatedSentence": "Yes, there is water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan tea kudikkiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am drinking tea.",
+            "I am drinking coffee.",
+            "I want some tea."
+          ],
+          "correctAnswer": "I am drinking tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga saadham sappidreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, naan saadham sappidren.",
+            "Illa, enakku ippo pasikkala.",
+            "Naan Chennaila irukken."
+          ],
+          "correctAnswer": "Aamaam, naan saadham sappidren.",
+          "translatedSentence": "Yes, I eat rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku romba pasikkudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very hungry.",
+            "I am very thirsty.",
+            "I am not hungry at all."
+          ],
+          "correctAnswer": "I am very hungry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaapi venuma, tea venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku filter kaapi venum.",
+            "Enakku romba pasikkala.",
+            "Veetla thanni illa."
+          ],
+          "correctAnswer": "Enakku filter kaapi venum.",
+          "translatedSentence": "I want filter coffee."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vanakkam, ungalukku enna venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu idli kudunga.",
+            "Naan veettukku poren.",
+            "Enakku onnum theriyala."
+          ],
+          "correctAnswer": "Rendu idli kudunga.",
+          "translatedSentence": "Two idlis, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Oru filter kaapi kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One filter coffee, please.",
+            "Two filter coffees, please.",
+            "I do not want any coffee."
+          ],
+          "correctAnswer": "One filter coffee, please."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idli venuma, dosai venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku oru dosai venum.",
+            "Rendu kaapi kudunga.",
+            "Naan idli sappitten."
+          ],
+          "correctAnswer": "Enakku oru dosai venum.",
+          "translatedSentence": "I would like one dosai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu evlo roova?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this cost?",
+            "How many of these are there?",
+            "What is this?"
+          ],
+          "correctAnswer": "How much does this cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ellaam serthu muppadhu roova.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idho panam, nandri.",
+            "Enakku innum pasikkudhu.",
+            "Naan kaapi kudikka maaten."
+          ],
+          "correctAnswer": "Idho panam, nandri.",
+          "translatedSentence": "Here is the money, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sambar konjam adhigama kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little more sambar.",
+            "Please give me a little less sambar.",
+            "I do not want any sambar."
+          ],
+          "correctAnswer": "Please give me a little more sambar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum edhaavadhu venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, idhu podhum.",
+            "Aamaam, naan Maduraikku poren.",
+            "Enakku roova theriyala."
+          ],
+          "correctAnswer": "Illa, idhu podhum.",
+          "translatedSentence": "No, this is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaapi romba sooda irukku, jaakkirathai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The coffee is very hot, be careful.",
+            "The coffee is very sweet, be careful.",
+            "The coffee has gone cold, be careful."
+          ],
+          "correctAnswer": "The coffee is very hot, be careful."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ingaye sappidreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, parcel kattikudunga.",
+            "Aamaam, enakku pasikkala.",
+            "Illa, naan kaapi kudikkala."
+          ],
+          "correctAnswer": "Illa, parcel kattikudunga.",
+          "translatedSentence": "No, please pack it to take away."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet and salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sambar eppadi irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konjam kaaram adhigam.",
+            "Naan naalaikku varen.",
+            "Ennakitta panam illa."
+          ],
+          "correctAnswer": "Konjam kaaram adhigam.",
+          "translatedSentence": "It is a little too spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu enakku romba kaaram.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too spicy for me.",
+            "This is too sweet for me.",
+            "This is not spicy at all."
+          ],
+          "correctAnswer": "This is too spicy for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uppu podhuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, konjam uppu podunga.",
+            "Aamaam, kaaram adhigam.",
+            "Illa, enakku dosai venum."
+          ],
+          "correctAnswer": "Illa, konjam uppu podunga.",
+          "translatedSentence": "No, please add a little salt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Payasam romba inippa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The payasam is very sweet.",
+            "The payasam is not sweet enough.",
+            "The payasam is too salty."
+          ],
+          "correctAnswer": "The payasam is very sweet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rasam sooda irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, konjam aara vidunga.",
+            "Illa, uppu adhigam.",
+            "Aamaam, inippu podhum."
+          ],
+          "correctAnswer": "Aamaam, konjam aara vidunga.",
+          "translatedSentence": "Yes, let it cool down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku kaaram pidikkadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like spicy food.",
+            "I really like spicy food.",
+            "I do not like sweets."
+          ],
+          "correctAnswer": "I do not like spicy food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uppu sariya irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, uppu sariyaa irukku.",
+            "Illa, enakku pasikkudhu.",
+            "Aamaam, naan rasam sappidala."
+          ],
+          "correctAnswer": "Aamaam, uppu sariyaa irukku.",
+          "translatedSentence": "Yes, the salt is just right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu inippum illa, kaaramum illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is neither sweet nor spicy.",
+            "This is both sweet and spicy.",
+            "This is sweet but not spicy."
+          ],
+          "correctAnswer": "This is neither sweet nor spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vadai aariduchaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, konjam aariduchu.",
+            "Illa, kaaram konjam adhigam.",
+            "Aamaam, enakku vadai pidikkum."
+          ],
+          "correctAnswer": "Aamaam, konjam aariduchu.",
+          "translatedSentence": "Yes, it has gone a little cold."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In the restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku menu venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, menu kondu vaanga.",
+            "Illa, naan veetla sappiduven.",
+            "Aamaam, thanni pidikkadhu."
+          ],
+          "correctAnswer": "Aamaam, menu kondu vaanga.",
+          "translatedSentence": "Yes, please bring the menu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanga naalu per, oru table irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four of us, is a table free?",
+            "There are four of us, where is the bill?",
+            "There are two of us, is the food ready?"
+          ],
+          "correctAnswer": "There are four of us, is a table free?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sappadu eppadi irundhadhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Romba nallaa irundhadhu, nandri.",
+            "Enakku menu venum, nandri.",
+            "Naanga ippo dhaan vandhom."
+          ],
+          "correctAnswer": "Romba nallaa irundhadhu, nandri.",
+          "translatedSentence": "It was very good, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konjam saadham innum podunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please serve a little more rice.",
+            "Please serve a little less rice.",
+            "Please bring the rice quickly."
+          ],
+          "correctAnswer": "Please serve a little more rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum sambar venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vendaam, podhum nandri.",
+            "Vendaam, bill kondu vaanga.",
+            "Aamaam, naan sappida aarambikkala."
+          ],
+          "correctAnswer": "Vendaam, podhum nandri.",
+          "translatedSentence": "No thank you, that is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill kondu vaanga, naanga kilambanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring the bill, we have to leave.",
+            "Please bring the menu, we want to order.",
+            "Please bring water, we are thirsty."
+          ],
+          "correctAnswer": "Please bring the bill, we have to leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bill sariya irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, oru item adhigama pottirukeenga.",
+            "Aamaam, enakku kaaram pidikkadhu.",
+            "Illa, sambar innum konjam venum."
+          ],
+          "correctAnswer": "Illa, oru item adhigama pottirukeenga.",
+          "translatedSentence": "No, you have added one extra item."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanga card vechi panam kattalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can we pay by card?",
+            "Can we pay in cash?",
+            "Can we order now?"
+          ],
+          "correctAnswer": "Can we pay by card?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga card vaangureengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa saar, cash mattum dhaan.",
+            "Aamaam saar, bill vandhuduchu.",
+            "Illa saar, table kaaliyaa illa."
+          ],
+          "correctAnswer": "Illa saar, cash mattum dhaan.",
+          "translatedSentence": "No sir, we take cash only."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku enna sameyal panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan sambaarum saadhamum panren.",
+            "Naan innaikku hotella sappiten.",
+            "Enakku sameyal panna pidikkadhu."
+          ],
+          "correctAnswer": "Naan sambaarum saadhamum panren.",
+          "translatedSentence": "I am making sambar and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vengaayatha nalla nurukkunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please chop the onions well.",
+            "Please wash the onions well.",
+            "Please fry the onions well."
+          ],
+          "correctAnswer": "Please chop the onions well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan edhaavadhu udhavi panna venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, thakkaali nurukki kudunga.",
+            "Illa, enakku kaaram pidikkadhu.",
+            "Aamaam, naan sappittu mudichiten."
+          ],
+          "correctAnswer": "Aamaam, thakkaali nurukki kudunga.",
+          "translatedSentence": "Yes, please chop the tomatoes for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kadaila irundhu konjam paal vaangittu vaa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go and get some milk from the shop.",
+            "Go and get some rice from the shop.",
+            "There is no milk left in the shop."
+          ],
+          "correctAnswer": "Go and get some milk from the shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uppu podhuma, illa innum podattumaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Podhum, innum podaadheenga.",
+            "Podhum, kaapi kondu vaanga.",
+            "Innum vendaam, dosai sappidunga."
+          ],
+          "correctAnswer": "Podhum, innum podaadheenga.",
+          "translatedSentence": "That is enough, please do not add any more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aduppa konjam kammi pannunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please turn the stove down a little.",
+            "Please turn the stove up a little.",
+            "Please switch the stove off now."
+          ],
+          "correctAnswer": "Please turn the stove down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dosai maavu irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, nethu araichi vechen.",
+            "Illa, kaaram konjam adhigamaa irukku.",
+            "Aamaam, naan dosai sappida maaten."
+          ],
+          "correctAnswer": "Aamaam, nethu araichi vechen.",
+          "translatedSentence": "Yes, I ground it yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan sameyal panren, nee paathirangala kazhuvu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will cook, you wash the dishes.",
+            "You cook, I will wash the dishes.",
+            "I will cook and wash the dishes myself."
+          ],
+          "correctAnswer": "I will cook, you wash the dishes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sappadu ready aaiduchaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innum anju nimisham aagum.",
+            "Aamaam, naan kadaikku poren.",
+            "Illa, enakku innum pasikkala."
+          ],
+          "correctAnswer": "Innum anju nimisham aagum.",
+          "translatedSentence": "It will take five more minutes."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga saivam mattum dhaan sappidreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, naan erachi sappida maaten.",
+            "Illa, enakku filter kaapi pidikkum.",
+            "Aamaam, naan innaikku sappidave illa."
+          ],
+          "correctAnswer": "Aamaam, naan erachi sappida maaten.",
+          "translatedSentence": "Yes, I do not eat meat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku paal pidikkum, aana thayir pidikkadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like milk, but I do not like curd.",
+            "I like curd, but I do not like milk.",
+            "I like both milk and curd."
+          ],
+          "correctAnswer": "I like milk, but I do not like curd."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhula vengaayam serthirukkeengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, neenga sonna maadhiri naan serkkala.",
+            "Aamaam, adhanaala konjam kaaram serthen.",
+            "Illa, naan naalaikku dhaan sameyal panren."
+          ],
+          "correctAnswer": "Illa, neenga sonna maadhiri naan serkkala.",
+          "translatedSentence": "No, I left it out just as you asked."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku thakkaali oththukkadhu, adhanaala serkkaadheenga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomatoes do not agree with me, so please do not add any.",
+            "I love tomatoes, so please add a few more.",
+            "We have no tomatoes, so please buy some."
+          ],
+          "correctAnswer": "Tomatoes do not agree with me, so please do not add any."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sweet edhaavadhu sappidreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vendaam, enakku sarkkarai vyaadhi irukku.",
+            "Vendaam, enakku uppu innum konjam venum.",
+            "Aamaam, naan naalaikku Chennai poren."
+          ],
+          "correctAnswer": "Vendaam, enakku sarkkarai vyaadhi irukku.",
+          "translatedSentence": "No thank you, I am diabetic."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kaaram sappittaa vayiru vali varum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I eat spicy food, I get a stomach ache.",
+            "I ate spicy food and got a stomach ache.",
+            "When my stomach hurts, I do not eat anything."
+          ],
+          "correctAnswer": "If I eat spicy food, I get a stomach ache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku raathiri ellaarum serndhu sappidalaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa, aana enakku kaaram kammiyaa venum.",
+            "Kandippa, aana naan nethu Maduraikku ponen.",
+            "Illa, naan indha kaapi kudikka maaten."
+          ],
+          "correctAnswer": "Kandippa, aana enakku kaaram kammiyaa venum.",
+          "translatedSentence": "Of course, but I need mine less spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kaalaila kaapi kudikka maaten, aana saayangaalam kudippen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not drink coffee in the morning, but I do in the evening.",
+            "I drink coffee in the morning, but not in the evening.",
+            "I drink coffee both in the morning and in the evening."
+          ],
+          "correctAnswer": "I do not drink coffee in the morning, but I do in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku edhaavadhu allergy irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaam, kadalai oththukkadhu, adhanaala jaakkirathaiyaa irunga.",
+            "Aamaam, enakku sambar romba pidikkum, adhigama podunga.",
+            "Illa, naan innaikku kaalaila onnume sappidala."
+          ],
+          "correctAnswer": "Aamaam, kadalai oththukkadhu, adhanaala jaakkirathaiyaa irunga.",
+          "translatedSentence": "Yes, peanuts do not agree with me, so please be careful."
+        }
+      ]
+    }
+  ]
+}

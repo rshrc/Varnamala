@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko bhookh lagi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mujhe bhookh lagi hai.",
+            "Nahi, mujhe pyaas lagi hai.",
+            "Main ghar ja raha hoon."
+          ],
+          "correctAnswer": "Haan, mujhe bhookh lagi hai.",
+          "translatedSentence": "Yes, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe thoda paani chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little water.",
+            "I need a little tea.",
+            "I need a little rice."
+          ],
+          "correctAnswer": "I need a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai logi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main chai lungi.",
+            "Nahi, main chawal lungi.",
+            "Haan, khana taiyaar hai."
+          ],
+          "correctAnswer": "Haan, main chai lungi.",
+          "translatedSentence": "Yes, I will have tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yahan ka chawal accha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rice here is good.",
+            "The tea here is good.",
+            "The water here is cold."
+          ],
+          "correctAnswer": "The rice here is good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhe pyaas lagi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, thoda paani do.",
+            "Nahi, mujhe bhookh lagi hai.",
+            "Haan, mujhe chai pasand hai."
+          ],
+          "correctAnswer": "Haan, thoda paani do.",
+          "translatedSentence": "Yes, give me a little water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main garam chai peeta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink hot tea.",
+            "I drink cold water.",
+            "I eat hot rice."
+          ],
+          "correctAnswer": "I drink hot tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana taiyaar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, main aa raha hoon.",
+            "Nahi, paani thanda hai.",
+            "Haan, chai bahut meethi hai."
+          ],
+          "correctAnswer": "Achha, main aa raha hoon.",
+          "translatedSentence": "All right, I am coming."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dal chawal bahut accha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The dal and rice are very good.",
+            "The tea is very hot.",
+            "The food is not ready."
+          ],
+          "correctAnswer": "The dal and rice are very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap chai lenge ya paani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe chai chahiye.",
+            "Mujhe bhookh lagi hai.",
+            "Main abhi ghar par hoon."
+          ],
+          "correctAnswer": "Mujhe chai chahiye.",
+          "translatedSentence": "I would like tea."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhaiya, ek chai kitne ki hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Das rupaye ki hai.",
+            "Do samose lijiye.",
+            "Chai abhi bani nahi hai."
+          ],
+          "correctAnswer": "Das rupaye ki hai.",
+          "translatedSentence": "It is ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe do chai aur ek samosa chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like two teas and one samosa.",
+            "I would like one tea and two samosas.",
+            "I would like two teas and two samosas."
+          ],
+          "correctAnswer": "I would like two teas and one samosa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai mein cheeni kitni daalun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thodi si cheeni daaliye.",
+            "Chai bahut garam hai.",
+            "Mujhe paani nahi chahiye."
+          ],
+          "correctAnswer": "Thodi si cheeni daaliye.",
+          "translatedSentence": "Please add just a little sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh samosa abhi garam hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This samosa is hot right now.",
+            "This samosa has gone cold.",
+            "This tea is hot right now."
+          ],
+          "correctAnswer": "This samosa is hot right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aur kuch chahiye, bhaiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, bas itna hi.",
+            "Haan, chai thandi ho gayi hai.",
+            "Nahi, mujhe pata nahi hai."
+          ],
+          "correctAnswer": "Nahi, bas itna hi.",
+          "translatedSentence": "No, that is all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sab milakar kitne paise hue?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is it altogether?",
+            "How much is one tea?",
+            "Where do I pay the money?"
+          ],
+          "correctAnswer": "How much is it altogether?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chalis rupaye hue.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh lijiye, lekin mere paas chutta nahi hai.",
+            "Theek hai, ek samosa aur de dijiye.",
+            "Achha, chai mein cheeni zyada thi."
+          ],
+          "correctAnswer": "Yeh lijiye, lekin mere paas chutta nahi hai.",
+          "translatedSentence": "Here you go, but I do not have change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chai yahin peeni hai ya le jaani hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you want to drink the tea here or take it away?",
+            "Do you want to drink tea or water?",
+            "Should I make the tea a bit sweeter?"
+          ],
+          "correctAnswer": "Do you want to drink the tea here or take it away?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh dukaan kab tak khuli rehti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raat das baje tak khuli rehti hai.",
+            "Yeh dukaan Jaipur mein hai.",
+            "Sirf do samose bache hain."
+          ],
+          "correctAnswer": "Raat das baje tak khuli rehti hai.",
+          "translatedSentence": "It stays open until ten at night."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet or salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabzi kaisi lagi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thodi teekhi hai, lekin swaad accha hai.",
+            "Chai bilkul thandi ho gayi hai.",
+            "Mujhe abhi bhookh nahi lagi hai."
+          ],
+          "correctAnswer": "Thodi teekhi hai, lekin swaad accha hai.",
+          "translatedSentence": "It is a bit spicy, but the taste is good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh mithai mere liye bahut meethi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This sweet is too sweet for me.",
+            "This sweet is not sweet enough for me.",
+            "This dish is too spicy for me."
+          ],
+          "correctAnswer": "This sweet is too sweet for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dal mein namak theek hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, namak bilkul theek hai.",
+            "Nahi, dal abhi bani nahi hai.",
+            "Haan, do roti aur de dijiye."
+          ],
+          "correctAnswer": "Haan, namak bilkul theek hai.",
+          "translatedSentence": "Yes, the salt is just right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe zyada teekha khana pasand nahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like very spicy food.",
+            "I like very spicy food a lot.",
+            "I do not like sweet food at all."
+          ],
+          "correctAnswer": "I do not like very spicy food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai bahut garam hai, dhyaan se piyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main thoda thanda hone doonga.",
+            "Haan, main isme aur cheeni daal deta hoon.",
+            "Nahi, is chai mein doodh nahi hai."
+          ],
+          "correctAnswer": "Haan, main thoda thanda hone doonga.",
+          "translatedSentence": "Yes, I will let it cool down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Is sabzi mein namak thoda kam hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This dish needs a little more salt.",
+            "This dish has far too much salt.",
+            "This dish is a little too spicy."
+          ],
+          "correctAnswer": "This dish needs a little more salt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko meetha pasand hai ya namkeen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe namkeen zyada pasand hai.",
+            "Mujhe khana garam pasand hai.",
+            "Mujhe paani thanda pasand hai."
+          ],
+          "correctAnswer": "Mujhe namkeen zyada pasand hai.",
+          "translatedSentence": "I like savoury things more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khaane ke baad kuch meetha lijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Have something sweet after the meal.",
+            "Have something spicy before the meal.",
+            "Drink some water after the meal."
+          ],
+          "correctAnswer": "Have something sweet after the meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh achaar bahut teekha hai, thoda hi lena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main thoda sa hi lunga.",
+            "Achha, to main poori plate le leta hoon.",
+            "Nahi, mujhe cheeni nahi chahiye."
+          ],
+          "correctAnswer": "Theek hai, main thoda sa hi lunga.",
+          "translatedSentence": "All right, I will take just a little."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In a restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Do logon ke liye mez khaali hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, khidki ke paas baith jaiye.",
+            "Nahi, khana bahut teekha hai.",
+            "Haan, aapka bill taiyaar hai."
+          ],
+          "correctAnswer": "Haan, khidki ke paas baith jaiye.",
+          "translatedSentence": "Yes, please sit near the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kya aap mujhe menu dikha sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you show me the menu?",
+            "Could you bring me the bill?",
+            "Could you bring me some more water?"
+          ],
+          "correctAnswer": "Could you show me the menu?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kya order karenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek plate dal chawal aur do roti.",
+            "Mez khidki ke paas kar dijiye.",
+            "Bill mez par rakh dijiye."
+          ],
+          "correctAnswer": "Ek plate dal chawal aur do roti.",
+          "translatedSentence": "One plate of dal and rice, and two rotis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khana aane mein kitna samay lagega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How long will the food take to arrive?",
+            "How much will the food cost?",
+            "How far is this restaurant from here?"
+          ],
+          "correctAnswer": "How long will the food take to arrive?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana kaisa laga aapko?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut accha tha, khaaskar dal.",
+            "Mujhe menu abhi tak nahi mila.",
+            "Main pehli baar Jaipur aaya hoon."
+          ],
+          "correctAnswer": "Bahut accha tha, khaaskar dal.",
+          "translatedSentence": "It was very good, especially the dal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripya thoda aur paani laa dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring a little more water.",
+            "Please bring the bill right away.",
+            "Please make the food a little less spicy."
+          ],
+          "correctAnswer": "Please bring a little more water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main bill laa doon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, bill laa dijiye.",
+            "Haan, ek roti aur laa dijiye.",
+            "Nahi, menu wapas le jaiye."
+          ],
+          "correctAnswer": "Haan, bill laa dijiye.",
+          "translatedSentence": "Yes, please bring the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill mein kuch galat lag raha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Something looks wrong on the bill.",
+            "The bill seems a bit expensive.",
+            "They brought the wrong food to the table."
+          ],
+          "correctAnswer": "Something looks wrong on the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap card se denge ya cash se?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main card se de deta hoon.",
+            "Main khana ghar le jaunga.",
+            "Mujhe do samose aur chahiye."
+          ],
+          "correctAnswer": "Main card se de deta hoon.",
+          "translatedSentence": "I will pay by card."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj raat khaane mein kya banayein?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Roti sabzi bana lete hain, jaldi ban jaati hai.",
+            "Bill abhi tak nahi aaya hai.",
+            "Chai peene bahar chalte hain, mez khaali hai."
+          ],
+          "correctAnswer": "Roti sabzi bana lete hain, jaldi ban jaati hai.",
+          "translatedSentence": "Let us make roti and sabzi, it is quick to cook."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kya tum pyaaz kaat doge jab tak main dal chadhata hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you chop the onions while I put the dal on?",
+            "Will you put the dal on while I chop the onions?",
+            "Will you buy some onions when you come home?"
+          ],
+          "correctAnswer": "Will you chop the onions while I put the dal on?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chawal chadha diya hai, ab kya karun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ab gas dheemi kar do aur dhakkan lagaa do.",
+            "Ab bazaar se thoda aur namak le aao.",
+            "Ab sabko bula lo, khana ban gaya hai."
+          ],
+          "correctAnswer": "Ab gas dheemi kar do aur dhakkan lagaa do.",
+          "translatedSentence": "Now turn the flame down and put the lid on."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sabzi mein namak baad mein daalna, warna woh paani chhod degi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Add the salt to the sabzi later, otherwise it will get watery.",
+            "Add the salt to the sabzi first, otherwise it will burn.",
+            "Add water to the sabzi later, otherwise it will be too dry."
+          ],
+          "correctAnswer": "Add the salt to the sabzi later, otherwise it will get watery."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kitchen mein madad chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, zara roti bel do.",
+            "Haan, mujhe teekha khana pasand hai.",
+            "Nahi, menu mein sab likha hai."
+          ],
+          "correctAnswer": "Haan, zara roti bel do.",
+          "translatedSentence": "Yes, please roll out the rotis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dal ban gayi hai lekin chawal abhi baaki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The dal is ready but the rice is still to come.",
+            "The rice is ready but the dal is still to come.",
+            "The dal is ready and the rice is ready too."
+          ],
+          "correctAnswer": "The dal is ready but the rice is still to come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cheeni khatam ho gayi hai, ab kya karein?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main neeche wali dukaan se le aata hoon.",
+            "Chai ko thoda aur ubalne dijiye.",
+            "Pyaaz thoda aur kaat lete hain."
+          ],
+          "correctAnswer": "Main neeche wali dukaan se le aata hoon.",
+          "translatedSentence": "I will get some from the shop downstairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar mehmaan aa rahe hain to thoda zyada khana bana lena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If guests are coming, cook a little extra food.",
+            "If the guests are late, keep the food warm.",
+            "When the guests arrive, serve the food quickly."
+          ],
+          "correctAnswer": "If guests are coming, cook a little extra food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana ban gaya hai, ab kya karna hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabko bula lo, main parosta hoon.",
+            "Gas chalu rehne do, abhi der hai.",
+            "Bazaar se do samose le aao."
+          ],
+          "correctAnswer": "Sabko bula lo, main parosta hoon.",
+          "translatedSentence": "Call everyone, I will serve the food."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap maans khaate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, main shaakaahaari hoon, isliye sirf sabzi khaata hoon.",
+            "Haan, lekin main sirf ghar ka khana khaata hoon.",
+            "Nahi, mujhe teekha khana pasand nahi hai."
+          ],
+          "correctAnswer": "Nahi, main shaakaahaari hoon, isliye sirf sabzi khaata hoon.",
+          "translatedSentence": "No, I am vegetarian, so I only eat vegetarian food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe doodh se dikkat hoti hai, isliye main chai kaali peeta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk does not agree with me, so I drink my tea black.",
+            "I do not like milk, so I drink my tea very sweet.",
+            "Milk does not agree with me, so I do not drink tea at all."
+          ],
+          "correctAnswer": "Milk does not agree with me, so I drink my tea black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khaane mein kuch aisa hai jo aap nahi khaate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main pyaaz aur lehsun nahi khaata.",
+            "Haan, mujhe yahan ka khana bahut pasand aaya.",
+            "Nahi, mujhe menu abhi tak nahi dikha."
+          ],
+          "correctAnswer": "Haan, main pyaaz aur lehsun nahi khaata.",
+          "translatedSentence": "Yes, I do not eat onion or garlic."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar khana bahut teekha hoga to main nahi kha paunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the food is very spicy, I will not be able to eat it.",
+            "If the food is very spicy, I will eat it slowly.",
+            "If the food is not spicy, I will not eat it."
+          ],
+          "correctAnswer": "If the food is very spicy, I will not be able to eat it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko Lucknow ka khana kaisa laga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut accha tha, lekin mere liye thoda bhaari tha.",
+            "Maine wahan sirf chai pee, khana nahi khaya.",
+            "Wahan ki mithai mujhe bilkul pasand nahi aayi."
+          ],
+          "correctAnswer": "Bahut accha tha, lekin mere liye thoda bhaari tha.",
+          "translatedSentence": "It was very good, but a little heavy for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main mithai kam khaata hoon kyunki mujhe cheeni se parhez hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat few sweets because I have to avoid sugar.",
+            "I eat a lot of sweets because I really like sugar.",
+            "I do not eat sweets because they are too expensive."
+          ],
+          "correctAnswer": "I eat few sweets because I have to avoid sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap hamare saath khaane chalenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Zaroor chalunga, lekin mujhe bina pyaaz wala khana chahiye hoga.",
+            "Maaf kijiye, aaj main vrat par hoon.",
+            "Haan, main abhi ghar par khana bana raha hoon."
+          ],
+          "correctAnswer": "Zaroor chalunga, lekin mujhe bina pyaaz wala khana chahiye hoga.",
+          "translatedSentence": "I would love to come, but I will need food made without onion."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe teekha pasand hai lekin meri behen bilkul nahi kha sakti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like spicy food but my sister cannot eat it at all.",
+            "I like spicy food and my sister likes it too.",
+            "My sister likes spicy food but I cannot eat it at all."
+          ],
+          "correctAnswer": "I like spicy food but my sister cannot eat it at all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aapke liye kuch aur laaun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, dhanyavaad, mera pet bilkul bhar gaya hai.",
+            "Haan, kripya menu dobara dikha dijiye.",
+            "Nahi, main aaj ghar par kuch nahi banaunga."
+          ],
+          "correctAnswer": "Nahi, dhanyavaad, mera pet bilkul bhar gaya hai.",
+          "translatedSentence": "No, thank you, I am completely full."
+        }
+      ]
+    }
+  ]
+}

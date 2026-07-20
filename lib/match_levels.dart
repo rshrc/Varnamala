@@ -265,7 +265,41 @@ final allLevel1WordsNepali = {
   "Listen": "Sunnu"
 };
 
+final allLevel1WordsAssamese = {
+  "I": "Moi",
+  "You": "Tumi",
+  "We": "Ami",
+  "This": "Ei",
+  "That": "Xei",
+  "Here": "Iyat",
+  "There": "Tat",
+  "Yes": "Hoi",
+  "No": "Nohoi",
+  "Man": "Manuh",
+  "Woman": "Tiroti",
+  "Boy": "Lora",
+  "Girl": "Suwali",
+  "Friend": "Bondhu",
+  "Love": "Bhalpuwa",
+  "Happy": "Xukhi",
+  "Sad": "Dukhi",
+  "Good": "Bhal",
+  "Bad": "Beya",
+  "Come": "Aha",
+  "Go": "Jua",
+  "Eat": "Kha",
+  "Drink": "Khua",
+  "Sleep": "Xuwa",
+  "Walk": "Khoja kadha",
+  "Run": "Duranta",
+  "Stand": "Thiya houk",
+  "Sit": "Bahok",
+  "Speak": "Kua",
+  "Listen": "Xuna"
+};
+
 final wordsMap = {
+  TargetLanguage.assamese: allLevel1WordsAssamese,
   TargetLanguage.hindi: allLevel1WordsHindi,
   TargetLanguage.bengali: allLevel1WordsBengali,
   TargetLanguage.odia: allLevel1WordsOdia,

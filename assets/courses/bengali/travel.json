@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Where are you going",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kothay jachchen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami station jachchi.",
+            "Ami bhaat khachchi.",
+            "Ami bari achi."
+          ],
+          "correctAnswer": "Ami station jachchi.",
+          "translatedSentence": "I am going to the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei bus kothay jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei bus Howrah jay.",
+            "Ei bus ta khub notun.",
+            "Ami bus e jai na."
+          ],
+          "correctAnswer": "Ei bus Howrah jay.",
+          "translatedSentence": "This bus goes to Howrah."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami train e jachchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going by train.",
+            "I am going by bus.",
+            "I came by train."
+          ],
+          "correctAnswer": "I am going by train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki bus e jabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami metro te jabo.",
+            "Ha, ami cha khabo.",
+            "Na, ami bus ta chini."
+          ],
+          "correctAnswer": "Na, ami metro te jabo.",
+          "translatedSentence": "No, I will go by metro."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Station ekhan theke kachhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The station is close to here.",
+            "The station is far from here.",
+            "The market is close to here."
+          ],
+          "correctAnswer": "The station is close to here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei train ki Sealdah jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ei train Sealdah jay.",
+            "Na, ami train chai na.",
+            "Ha, train ta khub boro."
+          ],
+          "correctAnswer": "Ha, ei train Sealdah jay.",
+          "translatedSentence": "Yes, this train goes to Sealdah."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj bus e office jai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office by bus every day.",
+            "I go to the office by train every day.",
+            "I went to the office by bus today."
+          ],
+          "correctAnswer": "I go to the office by bus every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kon station e namben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami Howrah station e nambo.",
+            "Ami ei bus e uthbo.",
+            "Ami station ta chini na."
+          ],
+          "correctAnswer": "Ami Howrah station e nambo.",
+          "translatedSentence": "I will get off at Howrah station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tram ta khub dhire chole.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tram moves very slowly.",
+            "The tram moves very fast.",
+            "The bus moves very slowly."
+          ],
+          "correctAnswer": "The tram moves very slowly."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a Ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar koyta ticket lagbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar duto ticket lagbe.",
+            "Amar ticket ta ache.",
+            "Ami ticket kinbo na."
+          ],
+          "correctAnswer": "Amar duto ticket lagbe.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Howrah r ticket koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ticket ta chollish taka.",
+            "Ticket ta sesh hoye geche.",
+            "Ami taka ani ni."
+          ],
+          "correctAnswer": "Ticket ta chollish taka.",
+          "translatedSentence": "The ticket is forty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami Sealdah r duto ticket chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want two tickets to Sealdah.",
+            "I want one ticket to Sealdah.",
+            "I want two tickets to Howrah."
+          ],
+          "correctAnswer": "I want two tickets to Sealdah."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Porer train koyta te charbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Porer train satta te charbe.",
+            "Porer train ta chole geche.",
+            "Ami train e uthte parbo na."
+          ],
+          "correctAnswer": "Porer train satta te charbe.",
+          "translatedSentence": "The next train leaves at seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train ta ek ghonta pore charbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train leaves in an hour.",
+            "The train left an hour ago.",
+            "The bus leaves in an hour."
+          ],
+          "correctAnswer": "The train leaves in an hour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami ki ekhane ticket kinte pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ekhane ticket pawa jay.",
+            "Na, ami ticket kini ni.",
+            "Ha, ami ticket ta harie felechi."
+          ],
+          "correctAnswer": "Ha, ekhane ticket pawa jay.",
+          "translatedSentence": "Yes, tickets are available here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei ticket ta sara din er jonno cholbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This ticket is valid for the whole day.",
+            "This ticket is valid for one journey only.",
+            "This ticket is valid for the whole week."
+          ],
+          "correctAnswer": "This ticket is valid for the whole day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki jawa asha r ticket chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, sudhu ek dik er ticket din.",
+            "Na, ami hete phirbo na.",
+            "Ha, amar kache khuchro nei."
+          ],
+          "correctAnswer": "Na, sudhu ek dik er ticket din.",
+          "translatedSentence": "No, please give me a one-way ticket only."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Line ta khub lomba, ektu opekkha korun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The queue is very long, please wait a little.",
+            "The queue is very long, please come back later.",
+            "The road is very long, please wait a little."
+          ],
+          "correctAnswer": "The queue is very long, please wait a little."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maf korben, Howrah bridge kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Soja giye dan dike ghurun.",
+            "Ami Howrah te thaki.",
+            "Bridge ta khub sundor."
+          ],
+          "correctAnswer": "Soja giye dan dike ghurun.",
+          "translatedSentence": "Go straight and then turn right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bazar ta ki ekhan theke onek dure?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, hete dosh minute lage.",
+            "Ha, ami bazar e jachchi.",
+            "Na, bazar ta ekhono khole ni."
+          ],
+          "correctAnswer": "Na, hete dosh minute lage.",
+          "translatedSentence": "No, it is a ten-minute walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhan theke bam dike ghurun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn left from here.",
+            "Turn right from here.",
+            "Go straight from here."
+          ],
+          "correctAnswer": "Turn left from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Metro station ta kon dike?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bam dike, ei rastar sese.",
+            "Metro te ekhon khub bhir.",
+            "Ami metro te jabo na."
+          ],
+          "correctAnswer": "Bam dike, ei rastar sese.",
+          "translatedSentence": "To the left, at the end of this road."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ditiyo mor e dan dike jaben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At the second turning, go right.",
+            "At the first turning, go right.",
+            "At the second turning, go left."
+          ],
+          "correctAnswer": "At the second turning, go right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ei jayga ta chenen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami ekhane notun.",
+            "Ha, ami bus e jachchi.",
+            "Na, amar ticket ta nei."
+          ],
+          "correctAnswer": "Na, ami ekhane notun.",
+          "translatedSentence": "No, I am new here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami rasta hariye felechi, ektu sahajyo korben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have lost my way, could you help me a little?",
+            "I have lost my ticket, could you help me a little?",
+            "I have found the way, thank you for your help."
+          ],
+          "correctAnswer": "I have lost my way, could you help me a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei rasta diye gele ki station pabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, soja gele station porbe.",
+            "Na, ami station e jabo na.",
+            "Ha, rasta ta khub chowra."
+          ],
+          "correctAnswer": "Ha, soja gele station porbe.",
+          "translatedSentence": "Yes, if you go straight you will come to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus ta ei dokaner samne thame.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus stops in front of this shop.",
+            "The bus stops behind this shop.",
+            "The tram stops in front of this shop."
+          ],
+          "correctAnswer": "The bus stops in front of this shop."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kothay jaben dada?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Park Street jabo, meter e cholun.",
+            "Ami ekhane nambo na.",
+            "Amar kache khuchro nei."
+          ],
+          "correctAnswer": "Park Street jabo, meter e cholun.",
+          "translatedSentence": "I am going to Park Street, please use the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meter e jabo na, sottor taka lagbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sottor taka onek beshi, ponchash din.",
+            "Thik ache, tahole meter e cholun.",
+            "Ha, ami meter ta dekhte pachchi."
+          ],
+          "correctAnswer": "Sottor taka onek beshi, ponchash din.",
+          "translatedSentence": "Seventy rupees is far too much, make it fifty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Auto te jete das minute lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It takes ten minutes by auto.",
+            "It takes twenty minutes by auto.",
+            "It takes ten minutes on foot."
+          ],
+          "correctAnswer": "It takes ten minutes by auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jaygay ektu daran, ami nambo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, ekhanei thamchi.",
+            "Ha, ami aro samne jabo.",
+            "Na, ami ekhane uthbo."
+          ],
+          "correctAnswer": "Thik ache, ekhanei thamchi.",
+          "translatedSentence": "All right, I am stopping right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ektu taratari cholun, amar deri hoye jachche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please drive a little faster, I am getting late.",
+            "Please drive a little slower, I am getting late.",
+            "Please stop here, I am getting late."
+          ],
+          "correctAnswer": "Please drive a little faster, I am getting late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhara koto holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekso das taka holo.",
+            "Meter ta kharap hoye geche.",
+            "Ami taka ferot debo."
+          ],
+          "correctAnswer": "Ekso das taka holo.",
+          "translatedSentence": "It comes to a hundred and ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei rastay onek jam, onno rasta dhorun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a lot of traffic on this road, please take another route.",
+            "There is a lot of traffic on this road, please wait here.",
+            "There is no traffic on this road, please take another route."
+          ],
+          "correctAnswer": "There is a lot of traffic on this road, please take another route."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar kache khuchro taka ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, amar kache sudhu panchsho takar not ache.",
+            "Ha, ami auto te jabo.",
+            "Na, ami bhara debo na."
+          ],
+          "correctAnswer": "Na, amar kache sudhu panchsho takar not ache.",
+          "translatedSentence": "No, I only have a five-hundred rupee note."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Taxi ta meter e jay na bole ami auto niyechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I took an auto because the taxi would not go by the meter.",
+            "I took a taxi because the auto would not go by the meter.",
+            "I will take an auto if the taxi does not go by the meter."
+          ],
+          "correctAnswer": "I took an auto because the taxi would not go by the meter."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ki ekta ghor khali ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, dotalay ekta ghor khali ache.",
+            "Na, ami ekhane thaki na.",
+            "Ha, ami ghor ta porishkar korchi."
+          ],
+          "correctAnswer": "Ha, dotalay ekta ghor khali ache.",
+          "translatedSentence": "Yes, there is a room free on the first floor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghor ta ek rat er koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek rat er barosho taka.",
+            "Ghor ta khub boro o pariskar.",
+            "Ami tin din thakbo."
+          ],
+          "correctAnswer": "Ek rat er barosho taka.",
+          "translatedSentence": "It is twelve hundred rupees for one night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ekta janala wala ghor chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like a room with a window.",
+            "I would like a room with two beds.",
+            "I would like to open the window of the room."
+          ],
+          "correctAnswer": "I would like a room with a window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni koto din thakben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami tin rat thakbo.",
+            "Ami kal Howrah theke esechi.",
+            "Amar ekhon ghor lagbe na."
+          ],
+          "correctAnswer": "Ami tin rat thakbo.",
+          "translatedSentence": "I will stay three nights."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghor ta bhalo, kintu ektu awaj beshi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The room is nice, but it is a little noisy.",
+            "The room is nice, but it is a little small.",
+            "The room is noisy, but it is quite cheap."
+          ],
+          "correctAnswer": "The room is nice, but it is a little noisy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghor e ki garam jol pawa jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, sokal e garam jol thake.",
+            "Na, ghor ta te janala nei.",
+            "Ha, ghor ta tin tolay."
+          ],
+          "correctAnswer": "Ha, sokal e garam jol thake.",
+          "translatedSentence": "Yes, there is hot water in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi ghor ta pochondo na hoy, tahole bodle debo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like the room, I will change it.",
+            "If the room is not free, I will look for another one.",
+            "Since you did not like the room, I have already changed it."
+          ],
+          "correctAnswer": "If you do not like the room, I will change it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sokaler khabar ki dam er moddhe dhora ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, sokaler cha ar khabar dhora ache.",
+            "Na, ami sokale bhaat khai na.",
+            "Ha, khabar ta khub bhalo chilo."
+          ],
+          "correctAnswer": "Ha, sokaler cha ar khabar dhora ache.",
+          "translatedSentence": "Yes, morning tea and breakfast are included."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami kal sokale ei ghor chere debo, tai bill ta toiri rakhben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will leave this room tomorrow morning, so please keep the bill ready.",
+            "I will leave this room tonight, so please keep the bill ready.",
+            "I will take this room tomorrow morning, so please keep the key ready."
+          ],
+          "correctAnswer": "I will leave this room tomorrow morning, so please keep the bill ready."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost bags",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train ta koto khon deri te chalche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prai dui ghonta deri, karon khub brishti hochche.",
+            "Train ta thik somoy e chere geche.",
+            "Ami train e uthte pari ni."
+          ],
+          "correctAnswer": "Prai dui ghonta deri, karon khub brishti hochche.",
+          "translatedSentence": "It is about two hours late, because it is raining heavily."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar bag ta ki khuje pawa geche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ekhono pai ni, tai ami abhijog korechi.",
+            "Ha, ami kal notun bag kinechi.",
+            "Na, amar bag ta khub bhari chilo."
+          ],
+          "correctAnswer": "Na, ekhono pai ni, tai ami abhijog korechi.",
+          "translatedSentence": "No, I still have not found it, so I have filed a complaint."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bag ta train e phele esechi, ekhon ki korbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have left my bag on the train, what should I do now?",
+            "I have left my bag at the hotel, what should I do now?",
+            "I have found my bag on the train, what should I do now?"
+          ],
+          "correctAnswer": "I have left my bag on the train, what should I do now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei byapare ami kar sathe kotha bolbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oi janalay je bhodrolok boshe achen, tanke bolun.",
+            "Ami apnar sathe station porjonto jabo.",
+            "Apni ektu opekkha korun, ami cha anchi."
+          ],
+          "correctAnswer": "Oi janalay je bhodrolok boshe achen, tanke bolun.",
+          "translatedSentence": "Speak to the gentleman sitting at that counter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami onek khon opekkha korchi, kintu keu kichu bolche na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have been waiting a long time, but nobody is telling me anything.",
+            "I have been waiting a long time, and somebody has finally explained it to me.",
+            "I waited a long time, but I did not ask anybody anything."
+          ],
+          "correctAnswer": "I have been waiting a long time, but nobody is telling me anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ticket ta ki ektu dekhate parben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ei je, kintu ticket ta brishti te ektu bhije geche.",
+            "Na, ami ekhono ticket kini ni.",
+            "Ha, kintu ami ticket ta harie felechi."
+          ],
+          "correctAnswer": "Ha, ei je, kintu ticket ta brishti te ektu bhije geche.",
+          "translatedSentence": "Yes, here it is, but the ticket got a little wet in the rain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi ei train ta baatil hoy, tahole ami bus e Kolkata phirbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If this train is cancelled, I will go back to Kolkata by bus.",
+            "Since this train was cancelled, I went back to Kolkata by bus.",
+            "If this bus is cancelled, I will go back to Kolkata by train."
+          ],
+          "correctAnswer": "If this train is cancelled, I will go back to Kolkata by bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei deri r jonno ki ami taka ferot pabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, jodi train tin ghontar beshi deri kore, tahole taka ferot paben.",
+            "Na, ei station e ticket bikri hoy na.",
+            "Ha, apnar bag ta khuje pawa geche."
+          ],
+          "correctAnswer": "Ha, jodi train tin ghontar beshi deri kore, tahole taka ferot paben.",
+          "translatedSentence": "Yes, if the train is more than three hours late, you will get a refund."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bag ta kalo, ar tar upore amar naam lekha ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag is black, and my name is written on it.",
+            "My bag is black, and there is a name tag inside it.",
+            "My bag is brown, and my name is written on it."
+          ],
+          "correctAnswer": "My bag is black, and my name is written on it."
+        }
+      ]
+    }
+  ]
+}

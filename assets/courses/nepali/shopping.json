@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo pachas rupaiya ho.",
+            "Yo mero pasal ho.",
+            "Ma aile aunchu."
+          ],
+          "correctAnswer": "Yo pachas rupaiya ho.",
+          "translatedSentence": "This is fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyo dherai mahango cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is very expensive.",
+            "That is very cheap.",
+            "This is not expensive."
+          ],
+          "correctAnswer": "That is very expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Momo kati rupaiya ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek plate ko dui sae rupaiya ho.",
+            "Momo dherai mitho cha.",
+            "Malai momo man parcha."
+          ],
+          "correctAnswer": "Ek plate ko dui sae rupaiya ho.",
+          "translatedSentence": "One plate is two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo chiya sasto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tea is cheap.",
+            "This tea is hot.",
+            "That tea is expensive."
+          ],
+          "correctAnswer": "This tea is cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo jhola kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo jhola char sae rupaiya ho.",
+            "Jhola pasal bhitra cha.",
+            "Malai euta jhola chahiyo."
+          ],
+          "correctAnswer": "Yo jhola char sae rupaiya ho.",
+          "translatedSentence": "This bag is four hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mahango chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not expensive.",
+            "This is not cheap.",
+            "That is expensive."
+          ],
+          "correctAnswer": "This is not expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kalo topi kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tin sae rupaiya parcha.",
+            "Yo topi dherai ramro cha.",
+            "Ma kalo topi lagauchu."
+          ],
+          "correctAnswer": "Tin sae rupaiya parcha.",
+          "translatedSentence": "It costs three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai yo topi man parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this hat.",
+            "I do not like this hat.",
+            "I want to buy a hat."
+          ],
+          "correctAnswer": "I like this hat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko pasal kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero pasal Thamel ma cha.",
+            "Mero pasal dherai ramro cha.",
+            "Ma aile Thamel jaanchu."
+          ],
+          "correctAnswer": "Mero pasal Thamel ma cha.",
+          "translatedSentence": "My shop is in Thamel."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, tapailai ke chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai dui kilo chamal chahiyo.",
+            "Malai chamal man pardaina.",
+            "Yo chamal dherai sasto cha."
+          ],
+          "correctAnswer": "Malai dui kilo chamal chahiyo.",
+          "translatedSentence": "I need two kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai ek bottle pani dinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a bottle of water.",
+            "Please give me a cup of tea.",
+            "I do not want any water."
+          ],
+          "correctAnswer": "Please give me a bottle of water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaisanga kalo jhola cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, tara ali mahango cha.",
+            "Ma aile pasal jaadai chu.",
+            "Kalo rang malai man pardaina."
+          ],
+          "correctAnswer": "Cha, tara ali mahango cha.",
+          "translatedSentence": "Yes, we have it, but it is a bit expensive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai tyo rato sweater dekhaunus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me that red sweater.",
+            "Please show me that blue sweater.",
+            "I already bought that red sweater."
+          ],
+          "correctAnswer": "Please show me that red sweater."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kun rang man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai nilo rang man parcha.",
+            "Malai yo saiz thik cha.",
+            "Yo rang dherai mahango cha."
+          ],
+          "correctAnswer": "Malai nilo rang man parcha.",
+          "translatedSentence": "I like the colour blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo pasal ma taja tarkari cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shop has fresh vegetables.",
+            "This shop has no vegetables.",
+            "That shop sells cheap fruit."
+          ],
+          "correctAnswer": "This shop has fresh vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf garnus, chiya kaha paincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tyaha arko pasal ma paincha.",
+            "Chiya dherai tato cha.",
+            "Malai ek kap chiya chahiyo."
+          ],
+          "correctAnswer": "Tyaha arko pasal ma paincha.",
+          "translatedSentence": "You can get it at that other shop over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai aru kehi chahiyo chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not need anything else.",
+            "I need something else too.",
+            "I do not have anything with me."
+          ],
+          "correctAnswer": "I do not need anything else."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru kehi chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, malai ek paket dudh pani chahiyo.",
+            "Malai yo pasal dherai man parcha.",
+            "Yo dudh taja chaina."
+          ],
+          "correctAnswer": "Ho, malai ek paket dudh pani chahiyo.",
+          "translatedSentence": "Yes, I need a packet of milk as well."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Bargaining the price down",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo jhola dui hajaar rupaiya parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dherai mahango bhayo, ali ghataunus na.",
+            "Ho, malai dui hajaar rupaiya chahiyo.",
+            "Ma yo pasal ma kaam garchu."
+          ],
+          "correctAnswer": "Dherai mahango bhayo, ali ghataunus na.",
+          "translatedSentence": "That is too expensive, please bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ali ali ghataera dinus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please lower the price a little for me.",
+            "Please give me one more of these.",
+            "Please show me a cheaper one."
+          ],
+          "correctAnswer": "Please lower the price a little for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kati samma dinuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma ek hajaar samma dinchu.",
+            "Ma pasal samma hidera jaanchu.",
+            "Malai ek hajaar rupaiya chahiyo."
+          ],
+          "correctAnswer": "Ma ek hajaar samma dinchu.",
+          "translatedSentence": "I will pay up to one thousand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo nai mero antim mol ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my final price.",
+            "This is my first shop.",
+            "This is a very cheap price."
+          ],
+          "correctAnswer": "This is my final price."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Char sae ma linus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tin sae ma dinus, ma aile nai linchu.",
+            "Malai char sae rupaiya firta dinus.",
+            "Char sae rupaiya dherai sasto bhayo."
+          ],
+          "correctAnswer": "Tin sae ma dinus, ma aile nai linchu.",
+          "translatedSentence": "Give it for three hundred and I will take it right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Arko pasal ma yo bhanda sasto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is cheaper than this at the other shop.",
+            "This shop is the cheapest one here.",
+            "There is no other shop near here."
+          ],
+          "correctAnswer": "It is cheaper than this at the other shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai ta hamro purano grahak hunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, tesaile ali sasto banaidinus na.",
+            "Ma tapaiko pasal ma kaam garchu.",
+            "Hamro pasal Pokhara ma cha."
+          ],
+          "correctAnswer": "Ho, tesaile ali sasto banaidinus na.",
+          "translatedSentence": "Yes, so please make it a bit cheaper for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Masanga paisa thorai cha, tesaile mahango saman kinna sakdina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have little money, so I cannot buy expensive things.",
+            "I have money, so I will buy two of them.",
+            "The money is not enough for the micro bus."
+          ],
+          "correctAnswer": "I have little money, so I cannot buy expensive things."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thik cha, ek hajaar panch sae ma lagi janus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabaad, tyo bhaye thik cha.",
+            "Malai ek hajaar panch sae chahiyo.",
+            "Yo pasal ma manche dherai cha."
+          ],
+          "correctAnswer": "Dhanyabaad, tyo bhaye thik cha.",
+          "translatedSentence": "Thank you, that works for me."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes, weights and amounts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati kilo chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai aadha kilo golbheda chahiyo.",
+            "Golbheda taja ra sasto cha.",
+            "Malai tarkari man pardaina."
+          ],
+          "correctAnswer": "Malai aadha kilo golbheda chahiyo.",
+          "translatedSentence": "I need half a kilo of tomatoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo kurta malai sano bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This kurta is too small for me.",
+            "This kurta is too big for me.",
+            "This kurta looks good on me."
+          ],
+          "correctAnswer": "This kurta is too small for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo saiz thik cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali thulo bhayo, sano saiz cha?",
+            "Ho, yo saiz dherai mahango cha.",
+            "Malai yo rang man parcha."
+          ],
+          "correctAnswer": "Ali thulo bhayo, sano saiz cha?",
+          "translatedSentence": "It is a bit big, do you have a smaller size?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai ek darjan anda chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a dozen eggs.",
+            "I need a dozen bananas.",
+            "I only want two eggs."
+          ],
+          "correctAnswer": "I need a dozen eggs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati ota chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai panch ota dinus.",
+            "Malai panch rupaiya firta dinus.",
+            "Panch ota dherai mahango bhayo."
+          ],
+          "correctAnswer": "Malai panch ota dinus.",
+          "translatedSentence": "Please give me five of them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek kilo ma pugdaina, dui kilo dinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One kilo is not enough, please give me two kilos.",
+            "One kilo is enough, please do not give more.",
+            "Two kilos is far too much for me."
+          ],
+          "correctAnswer": "One kilo is not enough, please give me two kilos."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thulo jhola chahiyo ki sano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thulo jhola dinus, ma dherai saman kinchu.",
+            "Sano jhola dherai mahango cha.",
+            "Malai jhola chahiyo chaina."
+          ],
+          "correctAnswer": "Thulo jhola dinus, ma dherai saman kinchu.",
+          "translatedSentence": "Give me the big bag, I am buying a lot of things."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo jutta ko saiz malai thik cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These shoes are the right size for me.",
+            "These shoes are too tight for me.",
+            "I do not like the colour of these shoes."
+          ],
+          "correctAnswer": "These shoes are the right size for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aadha kilo pugcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pugdaina, ek kilo nai dinus.",
+            "Yo tarkari Pokhara bata aaeko ho.",
+            "Malai aadha kilo ko mol thaha chaina."
+          ],
+          "correctAnswer": "Pugdaina, ek kilo nai dinus.",
+          "translatedSentence": "That is not enough, please give me a full kilo."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jamma kati bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jamma barha sae rupaiya bhayo.",
+            "Aile barha bajisakyo.",
+            "Jamma dui ota pasal cha."
+          ],
+          "correctAnswer": "Jamma barha sae rupaiya bhayo.",
+          "translatedSentence": "It comes to twelve hundred rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Masanga khudra paisa chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any change.",
+            "I do not have any money at all.",
+            "I have to pay with a card."
+          ],
+          "correctAnswer": "I do not have any change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai card le tirnuhuncha ki nagad le?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma nagad le nai tirchu.",
+            "Ma naya card kinna chahanchu.",
+            "Malai nagad ko mol thaha chaina."
+          ],
+          "correctAnswer": "Ma nagad le nai tirchu.",
+          "translatedSentence": "I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo panch sae ko note ho, khudra dinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is a five hundred rupee note, please give me the change.",
+            "This is a hundred rupee note, please keep it.",
+            "I will pay with a five hundred rupee note tomorrow."
+          ],
+          "correctAnswer": "This is a five hundred rupee note, please give me the change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tapaiko sae rupaiya firta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabaad, hisab thik cha.",
+            "Malai arko sae rupaiya chahiyo.",
+            "Ma aile sae rupaiya tirchu."
+          ],
+          "correctAnswer": "Dhanyabaad, hisab thik cha.",
+          "translatedSentence": "Thank you, the amount is right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai euta jhola pani dinus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a carry bag as well.",
+            "Please put everything in two bags.",
+            "I have brought my own bag today."
+          ],
+          "correctAnswer": "Please give me a carry bag as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai jhola chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaina, masanga aafnai jhola cha.",
+            "Ho, malai dui kilo chamal chahiyo.",
+            "Jhola pasal bahira rakheko cha."
+          ],
+          "correctAnswer": "Chaina, masanga aafnai jhola cha.",
+          "translatedSentence": "No, I have my own bag with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Paisa tire pachi malai bill pani dinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the bill after I pay.",
+            "Please give me the bill before I pay.",
+            "I have already paid this bill."
+          ],
+          "correctAnswer": "Please give me the bill after I pay."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaha online tirna milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milcha, yo QR skyan garnus.",
+            "Ma online paisa pathaunchu.",
+            "Hamro pasal bihana sat baje khulcha."
+          ],
+          "correctAnswer": "Milcha, yo QR skyan garnus.",
+          "translatedSentence": "Yes, you can scan this QR code."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hijo kineko sweater firta garna milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bill cha bhane firta garna milcha.",
+            "Hamro pasal hijo banda thiyo.",
+            "Ma sweater kinna jhola lyaeko chu."
+          ],
+          "correctAnswer": "Bill cha bhane firta garna milcha.",
+          "translatedSentence": "If you have the receipt, you can return it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo ghadi kineko dui din pachi nai bigriyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This watch broke just two days after I bought it.",
+            "This watch has been broken for two years.",
+            "I bought this watch two days ago and it works well."
+          ],
+          "correctAnswer": "This watch broke just two days after I bought it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo jutta ma kehi samasya cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, dahine jutta sano bhayo ra khutta dukhcha.",
+            "Yo jutta kalo rang ko ho.",
+            "Ma hijo naya jutta kinna Thamel gaye."
+          ],
+          "correctAnswer": "Cha, dahine jutta sano bhayo ra khutta dukhcha.",
+          "translatedSentence": "Yes, the right shoe is too small and my foot hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Paisa firta hudaina bhane arko saman sattaidinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you cannot refund the money, then exchange it for something else.",
+            "If the money comes back, I will buy something else.",
+            "I want to exchange this because it is too expensive."
+          ],
+          "correctAnswer": "If you cannot refund the money, then exchange it for something else."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kina yo pasal ma matra kinnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kinabhane yaha ko saman sasto ra taja huncha.",
+            "Ma yo pasal ma kahilyai aaeko chaina.",
+            "Yo pasal Pokhara ma khuleko ho."
+          ],
+          "correctAnswer": "Kinabhane yaha ko saman sasto ra taja huncha.",
+          "translatedSentence": "Because the things here are cheap and fresh."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thamel ko pasal bhanda yaha ali sasto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is a little cheaper here than in the Thamel shops.",
+            "The shops in Thamel are cheaper than this one.",
+            "This shop is as expensive as the ones in Thamel."
+          ],
+          "correctAnswer": "It is a little cheaper here than in the Thamel shops."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaile hijo dieko saman bigreko rahecha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf garnus, ma aile nai sattai dinchu.",
+            "Dhanyabaad, pheri aaunus hai.",
+            "Hijo pasal ma manche dherai thiye."
+          ],
+          "correctAnswer": "Maaf garnus, ma aile nai sattai dinchu.",
+          "translatedSentence": "I am sorry, I will exchange it for you right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai yo rang man parena, tesaile firta garna aaeko hu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not like this colour, so I have come to return it.",
+            "I liked this colour, so I came to buy another one.",
+            "I did not know the colour, so I did not buy it."
+          ],
+          "correctAnswer": "I did not like this colour, so I have come to return it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaile bhaneko bhanda badhi paisa liyeko rahecha, ke garne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bill dekhaunus, ma badhi bhaeko paisa firta garchu.",
+            "Ma grahak lai kahilyai bill dindina.",
+            "Tapaile hijo nai sabai paisa tirisaknu bhayo."
+          ],
+          "correctAnswer": "Bill dekhaunus, ma badhi bhaeko paisa firta garchu.",
+          "translatedSentence": "Show me the bill and I will return the extra money."
+        }
+      ]
+    }
+  ]
+}

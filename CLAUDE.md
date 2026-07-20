@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Varnamala** is a Flutter-based language learning app for Indian languages (Kannada, Tamil, Telugu, Malayalam) inspired by Duolingo. The app uses Firebase for backend services and follows a clean architecture pattern.
+**Varnamala** is a Flutter-based language learning app for nine Indian languages (Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese) inspired by Duolingo. The app uses Firebase for backend services and follows a clean architecture pattern.
 
 ---
 
@@ -13,9 +13,8 @@
 lib/
 ├── application/       # State management (Providers)
 ├── core/              # Enums, extensions, utilities
-├── courses/           # Language course data
-│   ├── alphabets/     # Alphabet learning content
-│   └── languages/     # Language-specific course files
+├── courses/           # Loading + lookup for course content (the content
+│   └── alphabets/     #   itself lives in assets/courses/, not in Dart)
 ├── di/                # Dependency injection (GetIt + Injectable)
 ├── domain/            # Domain models (Course, User, etc.)
 ├── routing/           # Auto Route configuration
@@ -69,7 +68,8 @@ users/
 - [x] Leaderboard (top 30 users)
 - [x] Character/alphabet practice
 - [x] Shop UI (streak freeze, power-ups, outfits)
-- [x] Multi-language support (Kannada, Tamil, Telugu, Malayalam)
+- [x] Multi-language support (9 languages x 15 courses x 5-6 levels)
+- [x] Tap-a-word dictionary hints inside lesson sentences
 
 ### 🔴 Features Needed (Firebase-Based)
 
@@ -173,41 +173,43 @@ const diamondLeague = Color(0xff3498DB);
 
 ## Course Data Structure
 
-### Question Types
-```dart
-enum QuestionType {
-  multipleChoice,    // Choose correct translation
-  translate,         // Translate sentence
-  fillBlank,         // Complete the sentence (TODO)
-  matchWords,        // Match pairs (partially implemented)
-  listening,         // Listen and select (TODO)
-  speaking,          // Speak the phrase (TODO)
-}
+Lesson content is **data, not code**. It lives in `assets/courses/<language>/` as
+JSON — one directory per language, one file per course, plus a manifest and a
+dictionary. Editing a lesson never means touching Dart.
+
+```
+assets/courses/tamil/
+  manifest.json      course order, tree layout, icon + colour per course
+  dictionary.json    romanized word -> English gloss (tap-a-word hints)
+  basics.json        5-6 levels, 8-10 questions each
+  greetings.json
+  ...                15 courses per language
 ```
 
-### Course Format (in lib/courses/languages/)
-```dart
-{
-  "courseName": "basics",
-  "image": "assets/images/course_icon.png",
-  "color": 0xff2b70c9,
-  "levels": [
-    {
-      "level": 1,
-      "questions": [
-        {
-          "type": "multiple_choice",
-          "prompt": "Choose an appropriate response",
-          "sentence": "Ninna hesaru enu?",
-          "sentenceIsTargetLanguage": true,
-          "options": ["Option A", "Option B", "Option C"],
-          "correctAnswer": "Option A",
-          "translatedSentence": "What is your name?"
-        }
-      ]
-    }
-  ]
-}
+**Full schema, content rules and examples: [`docs/course-authoring.md`](docs/course-authoring.md).**
+
+Loaded by `lib/courses/course_repository.dart`, which caches per language and
+splices the learner's first name into the `{name}` placeholder at read time.
+
+### Question types
+
+Two are implemented and rendered by `lib/views/lesson/components/list_lesson.dart`:
+
+| type | learner sees | learner picks |
+|---|---|---|
+| `multiple_choice` | a target-language prompt | the target-language reply that fits |
+| `translate` | a target-language sentence | its English meaning |
+
+Not yet implemented: fill-in-the-blank, word matching, listening, speaking.
+
+### Tooling
+
+```bash
+python3 tool/validate_courses.py            # schema, counts, answers, dictionary coverage
+python3 tool/validate_courses.py tamil      # one language
+python3 tool/extract_vocabulary.py tamil    # words used in lessons with no gloss yet
+python3 tool/generate_manifests.py          # regenerate every manifest.json
+flutter test test/course_repository_test.dart
 ```
 
 ---
@@ -246,7 +248,9 @@ flutter clean && flutter pub get && flutter pub run build_runner build --delete-
 | `lib/service/locator.dart` | AppPrefs, preferences |
 | `lib/application/game_provider.dart` | Score/streak logic |
 | `lib/domain/course/course.dart` | Course/Level/Question models |
-| `lib/courses/languages/*.dart` | Language course data |
+| `lib/courses/course_repository.dart` | Loads course JSON from assets, caches per language |
+| `lib/courses/word_dictionary.dart` | Word-tap gloss lookup |
+| `assets/courses/<language>/` | Lesson content (see `docs/course-authoring.md`) |
 
 ---
 

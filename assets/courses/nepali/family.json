@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko aamako naam ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero aamako naam Sita ho.",
+            "Mero buwako naam Sita ho.",
+            "Mero didiko naam Sita ho."
+          ],
+          "correctAnswer": "Mero aamako naam Sita ho.",
+          "translatedSentence": "My mother's name is Sita."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero buwa Kathmanduma hunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is in Kathmandu.",
+            "My mother is in Kathmandu.",
+            "My father is in Pokhara."
+          ],
+          "correctAnswer": "My father is in Kathmandu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko dai kaha hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero dai Pokharama hunuhuncha.",
+            "Mero dai sanchai hunuhuncha.",
+            "Mero dai doctor hunuhuncha."
+          ],
+          "correctAnswer": "Mero dai Pokharama hunuhuncha.",
+          "translatedSentence": "My older brother is in Pokhara."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "U mero sano bhai ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my younger brother.",
+            "He is my older brother.",
+            "She is my younger sister."
+          ],
+          "correctAnswer": "He is my younger brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tasbirma ko ko hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo tasbirma mero aama ra buwa hunuhuncha.",
+            "Yo tasbirma mero purano ghar cha.",
+            "Yo tasbir dherai ramro cha."
+          ],
+          "correctAnswer": "Yo tasbirma mero aama ra buwa hunuhuncha.",
+          "translatedSentence": "My mother and father are in this photo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero parivar sano cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My family is small.",
+            "My family is big.",
+            "My house is small."
+          ],
+          "correctAnswer": "My family is small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai ko sanga basnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma aama ra buwa sanga baschu.",
+            "Ma Kathmanduma baschu.",
+            "Ma euta sano kothama baschu."
+          ],
+          "correctAnswer": "Ma aama ra buwa sanga baschu.",
+          "translatedSentence": "I live with my mother and father."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero didi ra ma sangai baschau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My older sister and I live together.",
+            "My younger brother and I live together.",
+            "My older sister and I live in Pokhara."
+          ],
+          "correctAnswer": "My older sister and I live together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko parivar kaha basnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero parivar Pokharama basnuhuncha.",
+            "Mero parivarma char jana chau.",
+            "Mero parivar sanchai hunuhuncha."
+          ],
+          "correctAnswer": "Mero parivar Pokharama basnuhuncha.",
+          "translatedSentence": "My family lives in Pokhara."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it?",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kasko kitab ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo mero didiko kitab ho.",
+            "Yo kitab ekdam naya cha.",
+            "Yo kitab dherai mahango cha."
+          ],
+          "correctAnswer": "Yo mero didiko kitab ho.",
+          "translatedSentence": "This is my older sister's book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mero buwako phone ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my father's phone.",
+            "This is my brother's phone.",
+            "That is my father's house."
+          ],
+          "correctAnswer": "This is my father's phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tyo ghar kasko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tyo ghar mero buwako ho.",
+            "Tyo ghar Pokharama cha.",
+            "Tyo ghar dherai thulo cha."
+          ],
+          "correctAnswer": "Tyo ghar mero buwako ho.",
+          "translatedSentence": "That house is my father's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero aamako chiya dherai mitho huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's tea is really delicious.",
+            "My sister's tea is really delicious.",
+            "My mother's tea is really hot."
+          ],
+          "correctAnswer": "My mother's tea is really delicious."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo jhola timro ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoina, tyo mero bahiniko ho.",
+            "Hoina, malai naya jhola chahiyo.",
+            "Ho, tyo jhola dherai purano cha."
+          ],
+          "correctAnswer": "Hoina, tyo mero bahiniko ho.",
+          "translatedSentence": "No, that one is my younger sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mobile mero daiko ho, mero hoina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This phone is my older brother's, not mine.",
+            "This phone is my younger brother's, not mine.",
+            "This phone is mine, not my older brother's."
+          ],
+          "correctAnswer": "This phone is my older brother's, not mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo saikal kasko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo mero bhaiko saikal ho.",
+            "Yo saikal Thamelma kineko ho.",
+            "Malai saikal chalauna aaudaina."
+          ],
+          "correctAnswer": "Yo mero bhaiko saikal ho.",
+          "translatedSentence": "This bicycle is my younger brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro parivarko ghar Pokharama cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our family's house is in Pokhara.",
+            "Our family's house is in Kathmandu.",
+            "Our family's shop is in Pokhara."
+          ],
+          "correctAnswer": "Our family's house is in Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kotha kasko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo mero ra mero bhaiko kotha ho.",
+            "Yo kotha sano cha tara safa cha.",
+            "Yo kothama duita jhyal chan."
+          ],
+          "correctAnswer": "Yo mero ra mero bhaiko kotha ho.",
+          "translatedSentence": "This is my room and my younger brother's."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married, children, how many",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko bihe bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhayo, mero bihe tin barsa aghi bhayo.",
+            "Mero shrimati Pokharabata hunuhuncha.",
+            "Hamro parivarma panch jana chau."
+          ],
+          "correctAnswer": "Bhayo, mero bihe tin barsa aghi bhayo.",
+          "translatedSentence": "Yes, I got married three years ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero shrimatiko naam Anjali ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife's name is Anjali.",
+            "My husband's name is Anjali.",
+            "My daughter's name is Anjali."
+          ],
+          "correctAnswer": "My wife's name is Anjali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko kati jana bacha chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero duita chhora chan.",
+            "Mero bacha bihana school janchan.",
+            "Mero chhori Kathmanduma padhchhe."
+          ],
+          "correctAnswer": "Mero duita chhora chan.",
+          "translatedSentence": "I have two sons."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamra duita chhori ra euta chhora chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have two daughters and one son.",
+            "We have two sons and one daughter.",
+            "We have two daughters and two sons."
+          ],
+          "correctAnswer": "We have two daughters and one son."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro chhora kati barsako bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "U saat barsako bhayo.",
+            "U hareka din school jancha.",
+            "Uslai momo dherai man parcha."
+          ],
+          "correctAnswer": "U saat barsako bhayo.",
+          "translatedSentence": "He just turned seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero sano chhora ajhai school jandaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My little son doesn't go to school yet.",
+            "My little daughter doesn't go to school yet.",
+            "My little son doesn't like school."
+          ],
+          "correctAnswer": "My little son doesn't go to school yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko daiko bihe bhaisakyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhaisakyo, uhaanko euta chhora pani cha.",
+            "Uhaan Pokharama kaam garnuhuncha.",
+            "Uhaan mero thulo dai hunuhuncha."
+          ],
+          "correctAnswer": "Bhaisakyo, uhaanko euta chhora pani cha.",
+          "translatedSentence": "He already is, and he has a son too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri bahiniko bihe ajhai bhaeko chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister isn't married yet.",
+            "My older sister isn't married yet.",
+            "My younger sister got married last year."
+          ],
+          "correctAnswer": "My younger sister isn't married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko parivarma kati jana manche chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hami sabai jamma panch jana chau.",
+            "Hamro parivar Pokharama basnuhuncha aile.",
+            "Mero parivarma sabai sanchai chan."
+          ],
+          "correctAnswer": "Hami sabai jamma panch jana chau.",
+          "translatedSentence": "There are five of us in all."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents, uncles, aunts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko hajurbuwa kaha basnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaan gaunma basnuhuncha.",
+            "Uhaan asi barsako hunuhuncha.",
+            "Uhaan dherai ramro katha sunaunuhuncha."
+          ],
+          "correctAnswer": "Uhaan gaunma basnuhuncha.",
+          "translatedSentence": "He lives in the village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero hajuraama hami sanga basnuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother lives with us.",
+            "My grandfather lives with us.",
+            "My grandmother lives on her own."
+          ],
+          "correctAnswer": "My grandmother lives with us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tasbirma tapaiko kaka hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoina, uhaan mero mama hunuhuncha.",
+            "Hoina, malai tasbir khichna man parcha.",
+            "Ho, uhaanko ghar Thamel najik cha."
+          ],
+          "correctAnswer": "Hoina, uhaan mero mama hunuhuncha.",
+          "translatedSentence": "No, he is my mother's brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero kaka ra kaki Pokharama basnuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle and aunt live in Pokhara.",
+            "My uncle and aunt live in Kathmandu.",
+            "My uncle and aunt work in Pokhara."
+          ],
+          "correctAnswer": "My uncle and aunt live in Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashainma tapaiko mama aaunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaunuhuncha, uhaan hareksal aaunuhuncha.",
+            "Dashainma hami dal bhat ra masu khanchau.",
+            "Mero mamako ghar tyahi gaunma cha."
+          ],
+          "correctAnswer": "Aaunuhuncha, uhaan hareksal aaunuhuncha.",
+          "translatedSentence": "Yes, he comes every year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero phupuko chhora mero umerko cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt's son is the same age as me.",
+            "My uncle's son is the same age as me.",
+            "My aunt's son is older than me."
+          ],
+          "correctAnswer": "My aunt's son is the same age as me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko hajuraamalai ke man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaanlai chiya ra gap man parcha.",
+            "Uhaan bihana sabera uthnuhuncha.",
+            "Uhaanko naam Kamala ho."
+          ],
+          "correctAnswer": "Uhaanlai chiya ra gap man parcha.",
+          "translatedSentence": "She loves tea and a good chat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hajurbuwa ra hajuraama duijana gaunmai basnuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandfather and grandmother both live back in the village.",
+            "Grandfather and grandmother both live here in the city.",
+            "Grandfather and grandmother both came to the village."
+          ],
+          "correctAnswer": "Grandfather and grandmother both live back in the village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro maiju kaha hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaan aile bajar janubhayo.",
+            "Uhaan mero mamako shrimati hunuhuncha.",
+            "Uhaanko khana dherai mitho huncha."
+          ],
+          "correctAnswer": "Uhaan aile bajar janubhayo.",
+          "translatedSentence": "She has gone to the market just now."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What they do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko buwa ke kaam garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaan aspatalma doctor hunuhuncha.",
+            "Uhaan bihana sabera hidna januhuncha.",
+            "Uhaanlai chiya dherai man parcha."
+          ],
+          "correctAnswer": "Uhaan aspatalma doctor hunuhuncha.",
+          "translatedSentence": "He is a doctor at the hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri aama schoolma nepali padhaunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother teaches Nepali at a school.",
+            "My mother teaches English at a school.",
+            "My mother studies Nepali at a school."
+          ],
+          "correctAnswer": "My mother teaches Nepali at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko didi ke garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaan Thamelma euta pasal chalaunuhuncha.",
+            "Uhaan hijo Pokhara janubhayo.",
+            "Uhaanko chhori school janchhe."
+          ],
+          "correctAnswer": "Uhaan Thamelma euta pasal chalaunuhuncha.",
+          "translatedSentence": "She runs a shop in Thamel."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero dai Kathmanduma micro bus chalaunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My older brother drives a micro bus in Kathmandu.",
+            "My older brother repairs micro buses in Kathmandu.",
+            "My older brother takes a micro bus in Kathmandu."
+          ],
+          "correctAnswer": "My older brother drives a micro bus in Kathmandu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro bhai ke garcha aajkal?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "U Kathmanduma engineering padhcha.",
+            "U mero bhanda dui barsa sano cha.",
+            "Uslai futbol khelna man parcha."
+          ],
+          "correctAnswer": "U Kathmanduma engineering padhcha.",
+          "translatedSentence": "He is studying engineering in Kathmandu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero hajurbuwa pahile kisan hunuhunthyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather used to be a farmer.",
+            "My father used to be a farmer.",
+            "My grandfather is still a farmer."
+          ],
+          "correctAnswer": "My grandfather used to be a farmer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai chai ke kaam garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma euta officema kaam garchu.",
+            "Ma bihana ath baje uthchu.",
+            "Malai yo kaam garna man parcha."
+          ],
+          "correctAnswer": "Ma euta officema kaam garchu.",
+          "translatedSentence": "I work at an office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri bahini aile kaam khojdai chhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is looking for a job right now.",
+            "My younger sister is working right now.",
+            "My younger sister is looking for a room right now."
+          ],
+          "correctAnswer": "My younger sister is looking for a job right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko kaki ke garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uhaan gharma kaam garnuhuncha ra bacha hernuhuncha.",
+            "Uhaan mero kakako shrimati hunuhuncha.",
+            "Uhaanko ghar Pokhara bajarma cha."
+          ],
+          "correctAnswer": "Uhaan gharma kaam garnuhuncha ra bacha hernuhuncha.",
+          "translatedSentence": "She works at home and looks after the children."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits, plans and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaune mahina tapaiko parivar Kathmandu aaudai cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, aama ra buwa dubai aaunuhuncha tara dai aaunuhunna.",
+            "Hoina, ma hijo matra Pokharabata farkiye.",
+            "Ho, malai Kathmandu dherai man parcha."
+          ],
+          "correctAnswer": "Ho, aama ra buwa dubai aaunuhuncha tara dai aaunuhunna.",
+          "translatedSentence": "Yes, both my parents are coming, but my older brother isn't."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gharbata khabar aayo, hajuraama aile sanchai hunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Word came from home that grandmother is doing fine now.",
+            "Word came from home that grandmother is unwell now.",
+            "I sent word home that grandmother is doing fine now."
+          ],
+          "correctAnswer": "Word came from home that grandmother is doing fine now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashainma gaun januhunna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Janchu ni, tara yaspali ek hapta matra baschu.",
+            "Dashainma hami masu ra sel roti banaunchau.",
+            "Gaun jane bato aile ramro bhaisakyo."
+          ],
+          "correctAnswer": "Janchu ni, tara yaspali ek hapta matra baschu.",
+          "translatedSentence": "Of course I am going, but this time I'll stay only a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai bholi hajurbuwalai bhetna jana man cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to go and see my grandfather tomorrow.",
+            "I want to go and see my grandfather next week.",
+            "I have to go and see my grandfather tomorrow."
+          ],
+          "correctAnswer": "I want to go and see my grandfather tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kahile hamro gharma aaunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yadi bida paye bhane aaune hapta aaunchu.",
+            "Hijo ma tapaiko gharma aaeko thiye.",
+            "Tapaiko ghar mero officebata najik cha."
+          ],
+          "correctAnswer": "Yadi bida paye bhane aaune hapta aaunchu.",
+          "translatedSentence": "If I get time off, I'll come next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aama sanga hareka bihana phone garchu, kina bhane uhaan ekle basnuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I call my mother every morning because she lives alone.",
+            "I call my mother every evening because she lives alone.",
+            "I call my mother every morning because she is unwell."
+          ],
+          "correctAnswer": "I call my mother every morning because she lives alone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timile didilai phone garyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Garina, tara beluka pakkai garchu.",
+            "Didi bholi Pokharabata aaunuhuncha.",
+            "Didiko naya number malai thaha chaina."
+          ],
+          "correctAnswer": "Garina, tara beluka pakkai garchu.",
+          "translatedSentence": "I didn't, but I'll definitely call this evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yaspali Tiharma sabai jana gharma bhela hunchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This Tihar all of us will gather at home.",
+            "This Dashain all of us will gather at home.",
+            "Last Tihar all of us gathered at home."
+          ],
+          "correctAnswer": "This Tihar all of us will gather at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhaiko pariksha kasto bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ramrai bhayo, tara u ajhai chintit cha.",
+            "U bihana sabera uthera padhcha.",
+            "Uslai pariksha dina man pardaina."
+          ],
+          "correctAnswer": "Ramrai bhayo, tara u ajhai chintit cha.",
+          "translatedSentence": "It went well, but he is still worried."
+        }
+      ]
+    }
+  ]
+}

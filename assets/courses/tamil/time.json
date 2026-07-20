@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku enna kizhamai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innaikku thingakkizhamai.",
+            "Enakku kaapi venum.",
+            "Adhu romba nalla idam."
+          ],
+          "correctAnswer": "Innaikku thingakkizhamai.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naalaikku sevvaikkizhamai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is Tuesday.",
+            "Today is Tuesday.",
+            "Yesterday was Tuesday."
+          ],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nethu enna kizhamai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nethu nyayathukkizhamai.",
+            "Naalaikku vellikkizhamai.",
+            "Innaikku enakku velai illa."
+          ],
+          "correctAnswer": "Nethu nyayathukkizhamai.",
+          "translatedSentence": "Yesterday was Sunday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanikkizhamai enakku velai illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I don't have work on Saturday.",
+            "I have work on Saturday.",
+            "I don't have work on Sunday."
+          ],
+          "correctAnswer": "I don't have work on Saturday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vellikkizhamai neenga varuveengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, varuven.",
+            "Illa, enakku pasikkuthu.",
+            "Naan nethu vandhen."
+          ],
+          "correctAnswer": "Aama, varuven.",
+          "translatedSentence": "Yes, I will come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Budhankizhamai naan Madurai poren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to Madurai on Wednesday.",
+            "I went to Madurai on Wednesday.",
+            "I am going to Chennai on Wednesday."
+          ],
+          "correctAnswer": "I am going to Madurai on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vyaazhakkizhamai enna panre?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan veetla irupen.",
+            "Enakku dosai pidikkum.",
+            "Adhu romba dooram."
+          ],
+          "correctAnswer": "Naan veetla irupen.",
+          "translatedSentence": "I will be at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku thingakkizhamai pidikkaadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I don't like Mondays.",
+            "I like Mondays.",
+            "I don't like Fridays."
+          ],
+          "correctAnswer": "I don't like Mondays."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaluku enna kizhamai pidikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku vellikkizhamai pidikkum.",
+            "Enakku filter kaapi pidikkum.",
+            "Naan vellikkizhamai vandhen."
+          ],
+          "correctAnswer": "Enakku vellikkizhamai pidikkum.",
+          "translatedSentence": "I like Fridays."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo enna panre?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippo naan kaapi kudikkiren.",
+            "Nethu naan kaapi kudichen.",
+            "Naalaikku naan Madurai varen."
+          ],
+          "correctAnswer": "Ippo naan kaapi kudikkiren.",
+          "translatedSentence": "I'm drinking coffee right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan nethu Chennai-la illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wasn't in Chennai yesterday.",
+            "I am not in Chennai today.",
+            "I won't be in Chennai tomorrow."
+          ],
+          "correctAnswer": "I wasn't in Chennai yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku ungaluku neram irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aama, naalaikku enakku neram irukku.",
+            "Illa, innaikku enakku neram illa.",
+            "Naan nethu niraya velai paathen."
+          ],
+          "correctAnswer": "Aama, naalaikku enakku neram irukku.",
+          "translatedSentence": "Yes, I have time tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Appuram pesalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We can talk later.",
+            "Let's talk right now.",
+            "We talked yesterday."
+          ],
+          "correctAnswer": "We can talk later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku raathiri enna sappidalaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dosai sappidalaam.",
+            "Naan nethu idli sappiten.",
+            "Enakku raathiri sikkiram thookam varum."
+          ],
+          "correctAnswer": "Dosai sappidalaam.",
+          "translatedSentence": "Let's have dosai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan ippo varala, appuram varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I'm not coming now, I'll come later.",
+            "I'm coming now, not later.",
+            "I came earlier, so I won't come now."
+          ],
+          "correctAnswer": "I'm not coming now, I'll come later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nethu enga irundhe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan nethu Madurai-la irundhen.",
+            "Naan naalaikku Madurai poren.",
+            "Naan ippo veetla irukken."
+          ],
+          "correctAnswer": "Naan nethu Madurai-la irundhen.",
+          "translatedSentence": "I was in Madurai yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naalaikku kaalaila naan office-ku poven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will go to the office tomorrow morning.",
+            "I went to the office yesterday morning.",
+            "I go to the office every morning."
+          ],
+          "correctAnswer": "I will go to the office tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku neenga enna panneenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan innaikku romba velai paathen.",
+            "Naan naalaikku velai paapen.",
+            "Enakku en velai pidikkum."
+          ],
+          "correctAnswer": "Naan innaikku romba velai paathen.",
+          "translatedSentence": "I worked a lot today."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo mani enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippo moonu mani.",
+            "Naan naalu mani-ku vandhen.",
+            "Innaikku sevvaikkizhamai."
+          ],
+          "correctAnswer": "Ippo moonu mani.",
+          "translatedSentence": "It's three o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan thinamum ezhu mani-ku ezhundhirippen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at seven every day.",
+            "I get up at eight every day.",
+            "I went to bed at seven yesterday."
+          ],
+          "correctAnswer": "I get up at seven every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus enna mani-ku varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus ettu mani-ku varum.",
+            "Bus Madurai-ku pogum.",
+            "Naan bus-la vandhen."
+          ],
+          "correctAnswer": "Bus ettu mani-ku varum.",
+          "translatedSentence": "The bus comes at eight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Class pathu arai mani-ku aarambikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The class starts at half past ten.",
+            "The class ends at half past ten.",
+            "The class starts at ten o'clock."
+          ],
+          "correctAnswer": "The class starts at half past ten."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna mani-ku veetuku vandheenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan aaru mani-ku vandhen.",
+            "Naan aaru mani-ku poven.",
+            "Enakku aaru dosai venum."
+          ],
+          "correctAnswer": "Naan aaru mani-ku vandhen.",
+          "translatedSentence": "I got home at six."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku innum kaal mani neram irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I still have fifteen minutes.",
+            "I still have half an hour.",
+            "I don't have any time left."
+          ],
+          "correctAnswer": "I still have fifteen minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kadai enna mani-ku moodum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raathiri pathu mani-ku moodum.",
+            "Kadai romba periyadhu.",
+            "Naan kadai-ku nadandhu poven."
+          ],
+          "correctAnswer": "Raathiri pathu mani-ku moodum.",
+          "translatedSentence": "It closes at ten at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan raathiri pathu mani-ku appuram kaapi kudikka maaten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I don't drink coffee after ten at night.",
+            "I drink coffee at ten at night.",
+            "I will drink coffee after ten at night."
+          ],
+          "correctAnswer": "I don't drink coffee after ten at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naama enna mani-ku kelambalaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Anju mani-ku kelambalaam.",
+            "Naan nethu anju mani-ku kelambinen.",
+            "Innaikku naan veetleye irundhen."
+          ],
+          "correctAnswer": "Anju mani-ku kelambalaam.",
+          "translatedSentence": "Let's leave at five."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo enna maasam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippo Margazhi maasam.",
+            "Ippo pathu mani.",
+            "Innaikku vyaazhakkizhamai."
+          ],
+          "correctAnswer": "Ippo Margazhi maasam.",
+          "translatedSentence": "It's the month of Margazhi now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chennai-la kodai kaalam romba kodumai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Summer in Chennai is brutal.",
+            "Winter in Chennai is freezing.",
+            "Summer in Madurai is brutal."
+          ],
+          "correctAnswer": "Summer in Chennai is brutal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaloda porandha thedhi enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En porandha thedhi April pathaam thedhi.",
+            "Enakku April maasam pidikkum.",
+            "Naan April-la Madurai ponen."
+          ],
+          "correctAnswer": "En porandha thedhi April pathaam thedhi.",
+          "translatedSentence": "My birthday is the tenth of April."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazhai kaalathula Chennai-la niraya mazhai peyyum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It rains a lot in Chennai during the rainy season.",
+            "It hardly rains in Chennai during the rainy season.",
+            "It rains a lot in Madurai during the rainy season."
+          ],
+          "correctAnswer": "It rains a lot in Chennai during the rainy season."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pongal enna maasathula varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pongal Thai maasathula varum.",
+            "Pongal romba nalla pandigai.",
+            "Naan Pongal-ku Madurai poven."
+          ],
+          "correctAnswer": "Pongal Thai maasathula varum.",
+          "translatedSentence": "Pongal falls in the month of Thai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adutha maasam pathinanjaam thedhi naan Madurai-la iruppen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be in Madurai on the fifteenth of next month.",
+            "I was in Madurai on the fifteenth of last month.",
+            "I will be in Chennai on the fifteenth of next month."
+          ],
+          "correctAnswer": "I will be in Madurai on the fifteenth of next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Margazhi maasathula neenga enna pannuveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan thinamum kutcheri-ku poven.",
+            "Margazhi maasam Chennai-la kulir irukkum.",
+            "Naan Margazhi maasathula porandhen."
+          ],
+          "correctAnswer": "Naan thinamum kutcheri-ku poven.",
+          "translatedSentence": "I go to a concert every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pona varusham naan Pongal-ku ooruku pogala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I didn't go home for Pongal last year.",
+            "I went home for Pongal last year.",
+            "I won't go home for Pongal this year."
+          ],
+          "correctAnswer": "I didn't go home for Pongal last year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varusham enna panna poreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adutha varusham naan Tamil nalla kathukka poren.",
+            "Pona varusham naan Tamil kathukiten.",
+            "Enakku Tamil paata kekka pidikkum."
+          ],
+          "correctAnswer": "Adutha varusham naan Tamil nalla kathukka poren.",
+          "translatedSentence": "Next year I'm going to learn Tamil properly."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga thinamum enna mani-ku ezhundhirippeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan thinamum aaru mani-ku ezhundhirippen.",
+            "Naan nethu aaru mani-ku ezhundhirichen.",
+            "Enakku kaalaila kaapi venum."
+          ],
+          "correctAnswer": "Naan thinamum aaru mani-ku ezhundhirippen.",
+          "translatedSentence": "I get up at six every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaalaila naan filter kaapi kudippen, appuram office-ku poven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the morning I have filter coffee and then head to the office.",
+            "In the morning I go to the office and have filter coffee there.",
+            "In the evening I have filter coffee and then head to the office."
+          ],
+          "correctAnswer": "In the morning I have filter coffee and then head to the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innaikku kaalaila enna sappideenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan rendu idli sappiten.",
+            "Naan raathiri dosai sappiduven.",
+            "Enakku sambar romba pidikkum."
+          ],
+          "correctAnswer": "Naan rendu idli sappiten.",
+          "translatedSentence": "I had two idlis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan thinamum share-auto-la office-ku poven.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I take a share auto to the office every day.",
+            "I take an auto to the office every day.",
+            "I took a share auto to the office today."
+          ],
+          "correctAnswer": "I take a share auto to the office every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Madhyaanam neenga enna panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Madhyaanam naan konjam thoonguven.",
+            "Raathiri naan sikkiram thoonguven.",
+            "Enakku madhyaanam pasikkaadhu."
+          ],
+          "correctAnswer": "Madhyaanam naan konjam thoonguven.",
+          "translatedSentence": "I nap for a bit in the afternoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saayangaalam naan Marina beach-la nadappen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening I walk on Marina beach.",
+            "In the morning I walk on Marina beach.",
+            "In the evening I sit on Marina beach."
+          ],
+          "correctAnswer": "In the evening I walk on Marina beach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga raathiri enna mani-ku thoonga poveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan pathinonu mani-ku thoonga poven.",
+            "Naan pathinonu mani-ku ezhundhirippen.",
+            "Enakku raathiri padikka pidikkum."
+          ],
+          "correctAnswer": "Naan pathinonu mani-ku thoonga poven.",
+          "translatedSentence": "I go to bed at eleven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanikkizhamai naan sikkiram ezhundhirikka maaten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I don't get up early on Saturdays.",
+            "I get up early on Saturdays.",
+            "I didn't get up early last Saturday."
+          ],
+          "correctAnswer": "I don't get up early on Saturdays."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Velai mudinjadhukku appuram neenga enna panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Veetuku pona odane naan kaapi kudippen.",
+            "Kaalaila naan office-ku poven.",
+            "Enakku en velai romba pidikkum."
+          ],
+          "correctAnswer": "Veetuku pona odane naan kaapi kudippen.",
+          "translatedSentence": "The moment I get home I make myself a coffee."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku saayangaalam neram irundhaa, kaapi kudikka polaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippaa, anju mani-ku sandhikkalaam.",
+            "Naan nethu ungaloda kaapi kudichen.",
+            "Enakku kaapi-ya vida tea thaan pidikkum."
+          ],
+          "correctAnswer": "Kandippaa, anju mani-ku sandhikkalaam.",
+          "translatedSentence": "Sure, let's meet at five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku thingakkizhamai mudiyaadhu, aana sevvaikkizhamai kandippaa varen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Monday doesn't work for me, but I'll definitely come on Tuesday.",
+            "Monday works for me, but Tuesday doesn't.",
+            "Neither Monday nor Tuesday works for me."
+          ],
+          "correctAnswer": "Monday doesn't work for me, but I'll definitely come on Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku doctor-a paakka enna mani-ku varanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaalaila pathu mani-ku vandhurunga.",
+            "Naan nethu doctor-a paathen.",
+            "Doctor romba nalla manushan."
+          ],
+          "correctAnswer": "Kaalaila pathu mani-ku vandhurunga.",
+          "translatedSentence": "Please come at ten in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naalaikku mazhai peyinjaa, naama veetleye irundhukkalaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, let's just stay home.",
+            "Since it rained yesterday, we stayed home.",
+            "If it rains tomorrow, let's still go out."
+          ],
+          "correctAnswer": "If it rains tomorrow, let's just stay home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enna mani-ku kelamburadhunu mudivu panniteengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Traffic irukkum, adhanaala naalu mani-ke kelambalaam.",
+            "Naan nethu naalu mani-ku kelambinen.",
+            "Enakku Chennai traffic-nnaa pidikkaadhu."
+          ],
+          "correctAnswer": "Traffic irukkum, adhanaala naalu mani-ke kelambalaam.",
+          "translatedSentence": "There will be traffic, so let's leave by four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vellikkizhamai enakku velai adhigam, adhanaala sanikkizhamai sandhikkalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a lot of work on Friday, so shall we meet on Saturday?",
+            "I have a lot of work on Saturday, so shall we meet on Friday?",
+            "I have no work on Friday, so shall we meet then?"
+          ],
+          "correctAnswer": "I have a lot of work on Friday, so shall we meet on Saturday?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namma sandhippa konjam thallipodalaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippaa, adutha vaaram vechukkalaam.",
+            "Naan sandhippuku sariyaana neratthula vandhen.",
+            "Antha sandhippu romba nalla irundhuchu."
+          ],
+          "correctAnswer": "Kandippaa, adutha vaaram vechukkalaam.",
+          "translatedSentence": "Of course, let's push it to next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan neratthoda vandhuten, aana avanga innum varala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got here on time, but they still haven't turned up.",
+            "I turned up late, but they were already there.",
+            "I will get there on time, but they won't."
+          ],
+          "correctAnswer": "I got here on time, but they still haven't turned up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku ennoda porandha naal, neenga kandippaa varanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nichayam varen, enna mani-kunu mattum sollunga.",
+            "Naan pona varusham ungaloda veetuku vandhen.",
+            "Ungaloda porandha thedhi enakku marandhu pochu."
+          ],
+          "correctAnswer": "Nichayam varen, enna mani-kunu mattum sollunga.",
+          "translatedSentence": "I'll definitely be there, just tell me what time."
+        }
+      ]
+    }
+  ]
+}

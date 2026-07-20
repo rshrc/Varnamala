@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, moi bhal nai.",
+            "hoy, mor dorob ase.",
+            "moi etiya ghoroloi jao."
+          ],
+          "correctAnswer": "nai, moi bhal nai.",
+          "translatedSentence": "No, I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mur bikhaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My head hurts.",
+            "My hand hurts.",
+            "My head feels fine."
+          ],
+          "correctAnswer": "My head hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kot bikhaise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor petot bikhaise.",
+            "mor dorob lage.",
+            "daktor etiya ghorot nai."
+          ],
+          "correctAnswer": "mor petot bikhaise.",
+          "translatedSentence": "My stomach hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi olop bemar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a little sick.",
+            "I am very sick.",
+            "I am not sick at all."
+          ],
+          "correctAnswer": "I am a little sick."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar ki bikhaise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor dinga bikhaise.",
+            "moi saah khaon.",
+            "mor gaa bhal lage."
+          ],
+          "correctAnswer": "mor dinga bikhaise.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor gaa bhal nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling well.",
+            "My house is not good.",
+            "I do not have a cold."
+          ],
+          "correctAnswer": "I am not feeling well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar jor ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, mor olop jor ase.",
+            "hoy, mor dui bhai ase.",
+            "nai, moi Guwahatit thako."
+          ],
+          "correctAnswer": "hoy, mor olop jor ase.",
+          "translatedSentence": "Yes, I have a slight fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor dat bikhaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth hurts.",
+            "My ear hurts.",
+            "My tooth is better now."
+          ],
+          "correctAnswer": "My tooth hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni etiya kenekua ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi etiya olop bhal ase.",
+            "moi Jorhatot thako.",
+            "mor ghorot dorob nai."
+          ],
+          "correctAnswer": "moi etiya olop bhal ase.",
+          "translatedSentence": "I am a little better now."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar ki bikhaise, mur ne pithi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor pithi bikhaise.",
+            "mor mur bhal ase.",
+            "mor duyota bhori bikhaise."
+          ],
+          "correctAnswer": "mor pithi bikhaise.",
+          "translatedSentence": "My back hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor soku duta bor bikhaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My eyes hurt a lot.",
+            "My ears hurt a lot.",
+            "My eyes are a little red."
+          ],
+          "correctAnswer": "My eyes hurt a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar naak bondh hoise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, mor naak bondh hoise.",
+            "hoy, mor kaan duta bikhaise.",
+            "nai, mor dat bikhaise."
+          ],
+          "correctAnswer": "hoy, mor naak bondh hoise.",
+          "translatedSentence": "Yes, my nose is blocked."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor athu duta bikhai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both my knees ache.",
+            "Both my shoulders ache.",
+            "My knee is better today."
+          ],
+          "correctAnswer": "Both my knees ache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar bukut bikh ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, mor bukut bikh nai.",
+            "hoy, mor naak bondh hoise.",
+            "nai, moi dorob khuwa nai."
+          ],
+          "correctAnswer": "nai, mor bukut bikh nai.",
+          "translatedSentence": "No, I do not have any chest pain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor so bhori bikhaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My right leg hurts.",
+            "My left leg hurts.",
+            "My right hand hurts."
+          ],
+          "correctAnswer": "My right leg hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar anguli katise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, mor anguli olop katise.",
+            "hoy, mor kaanot bikh ase.",
+            "nai, mor haat duta bhal ase."
+          ],
+          "correctAnswer": "hoy, mor anguli olop katise.",
+          "translatedSentence": "Yes, my finger is cut a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji mor gotei gaa bikhaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My whole body aches today.",
+            "Only my head aches today.",
+            "My whole body feels fine today."
+          ],
+          "correctAnswer": "My whole body aches today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar kaanot bikh ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, mor so kaanot bikh ase.",
+            "hoy, mor petot bikhaise.",
+            "nai, mor soku duta bikhaise."
+          ],
+          "correctAnswer": "hoy, mor so kaanot bikh ase.",
+          "translatedSentence": "Yes, my right ear hurts."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kiman dinor pora apunar bikh hoise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tini dinor pora bikhai ase.",
+            "moi kailoi daktoroloi jam.",
+            "mor ghorot dorob sesh hoise."
+          ],
+          "correctAnswer": "tini dinor pora bikhai ase.",
+          "translatedSentence": "It has been hurting for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kali ratipuwar pora mor jor uthise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a fever since yesterday morning.",
+            "I had a fever late last night.",
+            "My fever came down this morning."
+          ],
+          "correctAnswer": "I have had a fever since yesterday morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni aagote kitiyaba enekua hoisil ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, ei prothom bar hoise.",
+            "hoy, moi kali dorob kinisilo.",
+            "nai, mor ghorot kono bemar nai."
+          ],
+          "correctAnswer": "nai, ei prothom bar hoise.",
+          "translatedSentence": "No, this is the first time it has happened."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ratit mor topani nahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot sleep at night.",
+            "I sleep very well at night.",
+            "I wake up early in the morning."
+          ],
+          "correctAnswer": "I cannot sleep at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar bomi bhav ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, bhat khuwar pisot bomi bhav hoy.",
+            "hoy, moi ratipuwa saah khaon.",
+            "nai, mor duyo bhori bikhaise."
+          ],
+          "correctAnswer": "hoy, bhat khuwar pisot bomi bhav hoy.",
+          "translatedSentence": "Yes, I feel nauseous after eating."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhat khale mor petot bikh hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My stomach hurts when I eat rice.",
+            "I eat rice when my stomach hurts.",
+            "I cannot eat rice at all now."
+          ],
+          "correctAnswer": "My stomach hurts when I eat rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni dhoompan kore ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, moi dhoompan nokoro.",
+            "hoy, moi dinot tinibar saah khaon.",
+            "nai, mor etiya jor nai."
+          ],
+          "correctAnswer": "nai, moi dhoompan nokoro.",
+          "translatedSentence": "No, I do not smoke."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor mur ghurai ase aru gaa durbol lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel dizzy and my body feels weak.",
+            "I feel dizzy but my body feels strong.",
+            "My head hurts and I am very hungry."
+          ],
+          "correctAnswer": "I feel dizzy and my body feels weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kali ki khaisil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi kali bahirot masor jool khaisilo.",
+            "moi kailoi dorob kinim.",
+            "mor pet etiya bhal ase."
+          ],
+          "correctAnswer": "moi kali bahirot masor jool khaisilo.",
+          "translatedSentence": "I ate fish curry outside yesterday."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak kihor dorob lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor joror dorob lage.",
+            "mor duta gorom saah lage.",
+            "moi kono dorob nakhao."
+          ],
+          "correctAnswer": "mor joror dorob lage.",
+          "translatedSentence": "I need medicine for fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ei dorobor daam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this medicine cost?",
+            "How many tablets are in this strip?",
+            "Where can I buy this medicine?"
+          ],
+          "correctAnswer": "How much does this medicine cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei bori kimanbar khabo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dinot tinibar khabo lagibo.",
+            "dinot tini tokake hobo.",
+            "duta dokanot ei bori pabo."
+          ],
+          "correctAnswer": "dinot tinibar khabo lagibo.",
+          "translatedSentence": "You have to take it three times a day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhat khuwar pisot ei dorob khabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this medicine after your meal.",
+            "Take this medicine before your meal.",
+            "Do not take this medicine with a meal."
+          ],
+          "correctAnswer": "Take this medicine after your meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei dorob khale topani ahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, seye ei dorob ratit khabo.",
+            "hoy, ratipuwa dui bori khabo lagibo.",
+            "nai, ei dorob dokanot sesh hoise."
+          ],
+          "correctAnswer": "hoy, seye ei dorob ratit khabo.",
+          "translatedSentence": "Yes, so take this medicine at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "duta bori dinot duibar panir logot khabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take two tablets twice a day with water.",
+            "Take one tablet twice a day with water.",
+            "Take two tablets once a day after food."
+          ],
+          "correctAnswer": "Take two tablets twice a day with water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei dorob dokanot ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, kailoi ahibo.",
+            "hoy, moi kali dorob khaisilo.",
+            "nai, dokan ratipuwa bondh thake."
+          ],
+          "correctAnswer": "nai, kailoi ahibo.",
+          "translatedSentence": "No, it will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi jor nokome, tente kailoi daktoroloi jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down, go to the doctor tomorrow.",
+            "If the fever comes down, do not go to the doctor tomorrow.",
+            "The doctor will come tomorrow if you still have a fever."
+          ],
+          "correctAnswer": "If the fever does not come down, go to the doctor tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei dorob kiman din khabo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pans dinor babe khabo lagibo.",
+            "pans tokare eta bori pabo.",
+            "dinot ekbar bhat khabo lagibo."
+          ],
+          "correctAnswer": "pans dinor babe khabo lagibo.",
+          "translatedSentence": "You will have to take it for five days."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji apunar jor kiman ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aji jor olop komise.",
+            "aji moi notun dorob kinisilo.",
+            "aji mor duta bori sesh hoise."
+          ],
+          "correctAnswer": "aji jor olop komise.",
+          "translatedSentence": "The fever has come down a little today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tini dinor pora mor sordi aru kah hoi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a cold and a cough for three days.",
+            "I had a cold and a cough three days ago.",
+            "My cold went away after three days."
+          ],
+          "correctAnswer": "I have had a cold and a cough for three days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar kah etiyao komuwa nai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, ratit aru besi hoy.",
+            "hoy, kali mor jor uthisil.",
+            "nai, moi kailoi dorob kinim."
+          ],
+          "correctAnswer": "nai, ratit aru besi hoy.",
+          "translatedSentence": "No, it gets worse at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kali moi sirit pori mor bhorit aghat palo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I fell on the stairs yesterday and hurt my leg.",
+            "I fell on the stairs yesterday but I was not hurt.",
+            "I hurt my hand on the stairs yesterday."
+          ],
+          "correctAnswer": "I fell on the stairs yesterday and hurt my leg."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar angulit ki hoise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kali surire kati goisil.",
+            "kali mor mur bikhai asil.",
+            "mor anguli duta etiya bhal ase."
+          ],
+          "correctAnswer": "kali surire kati goisil.",
+          "translatedSentence": "It got cut with a knife yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ghaat pani nalagabo, nohole poki jabo pare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not let water touch the wound, or it may get infected.",
+            "Wash the wound with water so that it heals faster.",
+            "The wound will heal if you keep it under water."
+          ],
+          "correctAnswer": "Do not let water touch the wound, or it may get infected."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "jor uthile ki koribo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gorom pani khabo aru bhal dore aram koribo.",
+            "thanda panire gaa dhubo aru bahirot jabo.",
+            "eku nokoribo, dinot tinibar kaam koribo."
+          ],
+          "correctAnswer": "gorom pani khabo aru bhal dore aram koribo.",
+          "translatedSentence": "Drink warm water and rest properly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sordi hole gorom saah khale dinga aram pai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you have a cold, hot tea soothes the throat.",
+            "When you have a cold, cold water soothes the throat.",
+            "Hot tea gives you a cold and a sore throat."
+          ],
+          "correctAnswer": "When you have a cold, hot tea soothes the throat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumar jor kimandin dhori ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "duidin dhori ase, kintu besi nohoi.",
+            "duidin dhori mor ghorot dorob nai.",
+            "kali ratipuwa mor kah komi goisil."
+          ],
+          "correctAnswer": "duidin dhori ase, kintu besi nohoi.",
+          "translatedSentence": "I have had it for two days, but it is not high."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "daktore kole je moi tinidin aram koribo lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tente apuni aji kamoloi najabo.",
+            "tente apuni dorob khuwa eri dibo.",
+            "tente moi kailoi Guwahatiloi jam."
+          ],
+          "correctAnswer": "tente apuni aji kamoloi najabo.",
+          "translatedSentence": "Then you should not go to work today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi apuni bhal dore aram kore, tente duidinor bhitorot bhal hoi jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you rest properly, you will get better within two days.",
+            "If you rest properly, you may go back to work for two days.",
+            "You will get better in two days even if you do not rest."
+          ],
+          "correctAnswer": "If you rest properly, you will get better within two days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi etiya kaamoloi ghuri jabo parim ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, aru duidin ghorote thakok.",
+            "nai, apunar dorob kali sesh hoise.",
+            "hoy, kintu dorobor dokan aji bondh."
+          ],
+          "correctAnswer": "nai, aru duidin ghorote thakok.",
+          "translatedSentence": "No, stay at home for two more days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dorob sesh nohowa loike khuwa nerabo, jodio bhal lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not stop the medicine until it is finished, even though you feel better.",
+            "You can stop the medicine as soon as you feel better.",
+            "Finish the medicine only if you still feel unwell."
+          ],
+          "correctAnswer": "Do not stop the medicine until it is finished, even though you feel better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi kailoi Jorhatoloi jabo parim ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jodi jor nathake, tente jabo pare.",
+            "dorobor dokan istisonor kasote ase.",
+            "Jorhator saah bagisa bor dhuniya lage."
+          ],
+          "correctAnswer": "jodi jor nathake, tente jabo pare.",
+          "translatedSentence": "If you have no fever, then you may go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji bhal lagise kintu etiyao gaa olop durbol lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel better today, but my body still feels a little weak.",
+            "I felt better yesterday, but today I am weak again.",
+            "I feel better today and I am not weak at all."
+          ],
+          "correctAnswer": "I feel better today, but my body still feels a little weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dorob khai apunar bhal lagise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoy, kali ratir pora bhal lagise.",
+            "hoy, kintu moi ei dorob khuwa nai.",
+            "nai, ei dorob bor dami asil."
+          ],
+          "correctAnswer": "hoy, kali ratir pora bhal lagise.",
+          "translatedSentence": "Yes, I have been feeling better since last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhal nohowa loike thanda pani nakhabo aru rati sonkale topani jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Until you get better, avoid cold water and go to bed early at night.",
+            "Until you get better, drink cold water and go to bed early at night.",
+            "Once you get better, you may drink cold water and stay up late."
+          ],
+          "correctAnswer": "Until you get better, avoid cold water and go to bed early at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi aru kitiya apunar ocharoloi ahim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sat dinor pisot ahibo, tetiya moi aru eta dorob dim.",
+            "sat dinor pisot mor gaa bhal lagibo.",
+            "kailoi ratipuwa dorobor dokan khuli thakibo."
+          ],
+          "correctAnswer": "sat dinor pisot ahibo, tetiya moi aru eta dorob dim.",
+          "translatedSentence": "Come after seven days, and then I will give you another medicine."
+        }
+      ]
+    }
+  ]
+}

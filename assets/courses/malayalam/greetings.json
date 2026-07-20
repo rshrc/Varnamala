@@ -1,0 +1,718 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaram, sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sugham aanu, nandi.",
+            "Enikku ariyilla.",
+            "Njaan Kochiyil aanu."
+          ],
+          "correctAnswer": "Sugham aanu, nandi.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan sugham aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am fine.",
+            "I am coming.",
+            "I am here."
+          ],
+          "correctAnswer": "I am fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku sugham aanu.",
+            "Illa, njaan varunnilla.",
+            "Njaan veettilekku pokunnu."
+          ],
+          "correctAnswer": "Athe, enikku sugham aanu.",
+          "translatedSentence": "Yes, I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku enthu vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are things with you?",
+            "What is your name?",
+            "Where are you going?"
+          ],
+          "correctAnswer": "How are things with you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Entha vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishesham onnum illa.",
+            "Njaan chaya kudikkunnu.",
+            "Ningal evide pokunnu?"
+          ],
+          "correctAnswer": "Vishesham onnum illa.",
+          "translatedSentence": "Nothing much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namaskaram, enikku sugham aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hello, I am doing well.",
+            "Hello, I am going home.",
+            "Hello, I do not know."
+          ],
+          "correctAnswer": "Hello, I am doing well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hai, ningal evide aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan veettil aanu.",
+            "Enikku sugham aanu.",
+            "Enikku ariyilla."
+          ],
+          "correctAnswer": "Njaan veettil aanu.",
+          "translatedSentence": "I am at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan sugham aanu, ningalkko?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikkum sugham aanu.",
+            "Nandi, njaan pokunnu.",
+            "Enikku chaya venam."
+          ],
+          "correctAnswer": "Enikkum sugham aanu.",
+          "translatedSentence": "I am well too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nee evide aanu ippol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where are you right now?",
+            "Where are you going now?",
+            "Who is there now?"
+          ],
+          "correctAnswer": "Where are you right now?"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night, and welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhatham, ningal chaya kudicho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan chaya kudichu.",
+            "Illa, njaan ippol kudikkum.",
+            "Njaan raathri nannaayi urangi."
+          ],
+          "correctAnswer": "Athe, njaan chaya kudichu.",
+          "translatedSentence": "Yes, I have had my tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ravile njaan puttu kazhichu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I ate puttu in the morning.",
+            "I will eat puttu in the morning.",
+            "I make puttu every morning."
+          ],
+          "correctAnswer": "I ate puttu in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njangalude veetilekku swagatham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandi, veedu manoharam aanu.",
+            "Shubha ratri, njaan pokunnu.",
+            "Enikku vazhi ariyilla."
+          ],
+          "correctAnswer": "Nandi, veedu manoharam aanu.",
+          "translatedSentence": "Thank you, your house is lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubha ratri, naale kaanaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, see you tomorrow.",
+            "Good morning, see you tomorrow.",
+            "Good night, I am going home."
+          ],
+          "correctAnswer": "Good night, see you tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Samayam ere aayi, shubha ratri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shubha ratri, nannaayi urangoo.",
+            "Suprabhatham, nammal veendum kaanum.",
+            "Athe, njaan chaya kudikkum."
+          ],
+          "correctAnswer": "Shubha ratri, nannaayi urangoo.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal ellavarkkum swagatham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to all of you.",
+            "Thank you, all of you.",
+            "Good night to all of you."
+          ],
+          "correctAnswer": "Welcome to all of you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhatham, innu enthu paripaadi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochikku pokunnu.",
+            "Ravile chaya nannaayirunnu.",
+            "Enikku innale samayam illaayirunnu."
+          ],
+          "correctAnswer": "Njaan Kochikku pokunnu.",
+          "translatedSentence": "I am going to Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Suprabhatham, innu nalla divasam aakatte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, have a nice day.",
+            "Good night, sleep nicely.",
+            "Good morning, the day is over."
+          ],
+          "correctAnswer": "Good morning, have a nice day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan raathri nerathe urangaan pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to bed early at night.",
+            "I wake up early in the morning.",
+            "I do not sleep at night."
+          ],
+          "correctAnswer": "I go to bed early at night."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Valare nandi, ningal enne sahaayichu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athinu nandi onnum venda.",
+            "Kshamikkanam, enikku samayam illa.",
+            "Dayavaayi ivide irikkoo."
+          ],
+          "correctAnswer": "Athinu nandi onnum venda.",
+          "translatedSentence": "There is no need to thank me for that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalude sahaayathinu valare nandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for your help.",
+            "I am very sorry about your problem.",
+            "Thank you for coming to my house."
+          ],
+          "correctAnswer": "Thank you very much for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamikkanam, njaan vaikippoyi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kuzhappam illa, varoo.",
+            "Nandi, njaan ippol pokatte.",
+            "Enikku vazhi nannaayi ariyam."
+          ],
+          "correctAnswer": "Kuzhappam illa, varoo.",
+          "translatedSentence": "No problem, come on in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kshamikkanam, njaan ariyaathe cheythathaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I did it without knowing.",
+            "Sorry, I do not know how to do it.",
+            "Thank you, I did it by myself."
+          ],
+          "correctAnswer": "Sorry, I did it without knowing."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dayavaayi oru chaya tharaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tharaam, oru nimisham nilkkoo.",
+            "Kshamikkanam, enikku ariyilla.",
+            "Nandi, chaya nannaayirunnu."
+          ],
+          "correctAnswer": "Tharaam, oru nimisham nilkkoo.",
+          "translatedSentence": "Sure, wait a moment."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavaayi kurachu vellam tharoo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me some water.",
+            "Please drink some water.",
+            "I want some water now."
+          ],
+          "correctAnswer": "Please give me some water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamikkanam, onnu maari nilkkaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan maari nilkkaam.",
+            "Illa, enikku sugham illa.",
+            "Nandi, njaan ivide irikkaam."
+          ],
+          "correctAnswer": "Athe, njaan maari nilkkaam.",
+          "translatedSentence": "Yes, I will move aside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee sammaanam ningalkkullathaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Valare nandi, enikku ishtamaayi.",
+            "Kshamikkanam, njaan athu kandilla.",
+            "Nandi, njaan naale varaam."
+          ],
+          "correctAnswer": "Valare nandi, enikku ishtamaayi.",
+          "translatedSentence": "Thank you very much, I love it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nandi, ningal orupaadu sahaayichu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you, you helped a lot.",
+            "Sorry, I could not help you.",
+            "Thank you, I will help you a lot."
+          ],
+          "correctAnswer": "Thank you, you helped a lot."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan irangatte, samayam aayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sheri, sookshichu pokoo.",
+            "Athe, njaan ippol vannathe ullu.",
+            "Nandi, ningal ivide irikkoo."
+          ],
+          "correctAnswer": "Sheri, sookshichu pokoo.",
+          "translatedSentence": "Okay, take care on your way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pinne kaanaam, njaan irangunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "See you later, I am leaving.",
+            "I will see you when I come.",
+            "See you tomorrow, I am at home."
+          ],
+          "correctAnswer": "See you later, I am leaving."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale nammal veendum kaanumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, naale ivide kaanaam.",
+            "Ariyilla, njaan innale vannirunnu.",
+            "Illa, enikku sugham aanu."
+          ],
+          "correctAnswer": "Athe, naale ivide kaanaam.",
+          "translatedSentence": "Yes, let us meet here tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sookshichu pokoo, mazha undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take care on the way, it is raining.",
+            "Go quickly, it is raining.",
+            "Take care, there is no rain."
+          ],
+          "correctAnswer": "Take care on the way, it is raining."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan KSRTC bassil Thiruvananthapurathekku pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nalla yaathra aashamsikkunnu.",
+            "Sheri, njaanum chaya kudikkaam.",
+            "Kshamikkanam, enikku vazhi ariyilla."
+          ],
+          "correctAnswer": "Nalla yaathra aashamsikkunnu.",
+          "translatedSentence": "I wish you a good journey."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan naale raavile veendum varaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will come again tomorrow morning.",
+            "I came again this morning.",
+            "I will go again tomorrow night."
+          ],
+          "correctAnswer": "I will come again tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veettil ethiyaal enne vilikkanam, kettho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sheri, njaan ethiyaal udane vilikkaam.",
+            "Nandi, njaan ippol irangaam.",
+            "Enikku ningalude veedu ariyilla."
+          ],
+          "correctAnswer": "Sheri, njaan ethiyaal udane vilikkaam.",
+          "translatedSentence": "Okay, I will call as soon as I get home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellavarkkum nandi, njaan yaathra parayunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you all, I am saying goodbye.",
+            "Thank you all, I am coming back.",
+            "Goodbye everyone, thank you for the food."
+          ],
+          "correctAnswer": "Thank you all, I am saying goodbye."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalude kudumbathinu ente aashamsakal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My best wishes to your family.",
+            "My greetings to your friend.",
+            "I will visit your family soon."
+          ],
+          "correctAnswer": "My best wishes to your family."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Talking to elders politely",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chettaa, ningalkku ee kasera venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venda mone, nee irunnolu.",
+            "Athe, enikku ninne ariyilla.",
+            "Nandi, njaan chaya kudichu."
+          ],
+          "correctAnswer": "Venda mone, nee irunnolu.",
+          "translatedSentence": "No need, dear, you go ahead and sit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Prayamullavarodu ningal ennu parayunnathaanu bahumaanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Calling elders ningal is the respectful way.",
+            "Calling elders nee is the respectful way.",
+            "Elders always speak respectfully to us."
+          ],
+          "correctAnswer": "Calling elders ningal is the respectful way."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamikkanam saar, ningalkku samayam undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, parayoo enthaanu karyam.",
+            "Illa, njaan ninne ariyilla.",
+            "Athe, njaan Kochiyil thaamasikkunnu."
+          ],
+          "correctAnswer": "Undu, parayoo enthaanu karyam.",
+          "translatedSentence": "Yes, tell me what the matter is."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ariyaathavarodu nee ennu parayaruthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not say nee to people you do not know.",
+            "Do not talk to people you do not know.",
+            "You should say nee to people you know well."
+          ],
+          "correctAnswer": "Do not say nee to people you do not know."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chechi, ningalkku ente koode varaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Varaam, pakshe kurachu samayam venam.",
+            "Illa, njaan ningale ariyilla.",
+            "Athe, enikku oru chaya venam."
+          ],
+          "correctAnswer": "Varaam, pakshe kurachu samayam venam.",
+          "translatedSentence": "I can come, but I need a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adheham ente achante suhruthaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my father's friend.",
+            "He is my friend's father.",
+            "She is my father's friend."
+          ],
+          "correctAnswer": "He is my father's friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ammaavan innu veettil undo ennu ariyaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adheham innale Kochikku poyi.",
+            "Avan ippol veettil urangunnu.",
+            "Enikku adhehathinte veedu ariyilla."
+          ],
+          "correctAnswer": "Adheham innale Kochikku poyi.",
+          "translatedSentence": "He went to Kochi yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthashi, njaan ningalkku chaya konduvaratte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venam mole, valare nandi.",
+            "Venda, njaan ippol pokum.",
+            "Athe, ningal evide poyirunnu?"
+          ],
+          "correctAnswer": "Venam mole, valare nandi.",
+          "translatedSentence": "Yes please, dear, thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chettante veettil ellavarkkum sugham aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is everyone well at your brother's house?",
+            "Is your brother well at home?",
+            "Is everyone coming to your brother's house?"
+          ],
+          "correctAnswer": "Is everyone well at your brother's house?"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Meeting after a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningale kandittu orupaadu naal aayi, ithra naalum evide aayirunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan puratthu joli cheyyukayaayirunnu, athukondu varaan kazhinjilla.",
+            "Enikku ningale ariyilla, athukondu kshamikkanam.",
+            "Njaan innale ningalude veettil vannirunnu."
+          ],
+          "correctAnswer": "Njaan puratthu joli cheyyukayaayirunnu, athukondu varaan kazhinjilla.",
+          "translatedSentence": "I was working away from here, so I could not come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Orupaadu naal aayallo, enthokke undu vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been ages, so tell me what is new.",
+            "I saw you a long time ago, but nothing is new.",
+            "It has been a long time, so I will see you soon."
+          ],
+          "correctAnswer": "It has been ages, so tell me what is new."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kudumbathinu sugham aano, kuttikal valuthaayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellavarkkum sugham undu, kuttikal ippol schoolil pokunnu.",
+            "Enikku sugham illa, athukondu njaan veettil aanu.",
+            "Njaan innale kuttikale kandilla, avar urangukayaayirunnu."
+          ],
+          "correctAnswer": "Ellavarkkum sugham undu, kuttikal ippol schoolil pokunnu.",
+          "translatedSentence": "Everyone is well, and the children go to school now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan vilikkaan vicharichathaanu, pakshe ninte number ente kayyil illaayirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I meant to call you, but I did not have your number.",
+            "I called you, but you did not answer the phone.",
+            "I will call you, because I have your number now."
+          ],
+          "correctAnswer": "I meant to call you, but I did not have your number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ippozhum Kochiyil thanne aano thaamasikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, njaan randu varsham munpu Thiruvananthapurathekku maari.",
+            "Athe, enikku Kochikku pokaan valare aagraham undu.",
+            "Illa, njaan innale Kochiyil oru veedu kandu."
+          ],
+          "correctAnswer": "Alla, njaan randu varsham munpu Thiruvananthapurathekku maari.",
+          "translatedSentence": "No, I moved to Thiruvananthapuram two years ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazha undaayirunnenkilum njaan ningale kaanaan vannu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though it was raining, I came to see you.",
+            "If it rains, I will come to see you.",
+            "Because it was raining, I did not come to see you."
+          ],
+          "correctAnswer": "Even though it was raining, I came to see you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namukku oru chaya kudichu kurachu samsaarikkaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kudikkaam, pakshe enikku adhikam samayam illa.",
+            "Venda, njaan innale chaya kudichathaanu.",
+            "Athe, enikku chaya undaakkaan ariyilla."
+          ],
+          "correctAnswer": "Kudikkaam, pakshe enikku adhikam samayam illa.",
+          "translatedSentence": "Let us have one, but I do not have much time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nee adutha thavana varumpol njaan appavum meen curryum undaakkaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you come next time, I will make appam and fish curry.",
+            "Next time I come, you should make appam and fish curry.",
+            "I made appam and fish curry when you came last time."
+          ],
+          "correctAnswer": "When you come next time, I will make appam and fish curry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayam illaathathukondu njaan ippol irangunnu, pakshe pinne vilikkaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving now because I have no time, but I will call you later.",
+            "I have time now, so I will stay and call you later.",
+            "I am leaving now, so please call me because I have no time."
+          ],
+          "correctAnswer": "I am leaving now because I have no time, but I will call you later."
+        }
+      ]
+    }
+  ]
+}

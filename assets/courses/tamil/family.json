@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Amma, appa, anna, akka",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu unga ammavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, idhu en amma.",
+            "Illa, adhu enga veedu.",
+            "Aamaa, enakku pasikkidhu."
+          ],
+          "correctAnswer": "Aamaa, idhu en amma.",
+          "translatedSentence": "Yes, this is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En appa veettula irukkaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is at home.",
+            "My father is at work.",
+            "My elder brother is at home."
+          ],
+          "correctAnswer": "My father is at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga anna enga irukkaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En anna Chennai-la irukkaaru.",
+            "En anna oru doctor.",
+            "Enakku anna illa, thambi dhaan."
+          ],
+          "correctAnswer": "En anna Chennai-la irukkaaru.",
+          "translatedSentence": "My elder brother is in Chennai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku oru thangachi irukkaa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have one younger sister.",
+            "I have one younger brother.",
+            "I have two younger sisters."
+          ],
+          "correctAnswer": "I have one younger sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un thambi peru enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En thambi peru Kumar.",
+            "En thambi school-ku poraan.",
+            "Enakku thambi illa."
+          ],
+          "correctAnswer": "En thambi peru Kumar.",
+          "translatedSentence": "My younger brother's name is Kumar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma sappadu samaikkiraanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking the food.",
+            "Mother is eating the food.",
+            "Mother is buying the food."
+          ],
+          "correctAnswer": "Mother is cooking the food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Avaru yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru en appa.",
+            "Avanga en thangachi.",
+            "Adhu enga veedu illa."
+          ],
+          "correctAnswer": "Avaru en appa.",
+          "translatedSentence": "He is my father."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammavum appavum veettula irukkaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother and father are at home.",
+            "Mother and father are in Chennai.",
+            "My brother and sister are at home."
+          ],
+          "correctAnswer": "Mother and father are at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga veettula yaaru yaaru irukkaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma, appa, naan moonu per irukkom.",
+            "Enga veedu romba periyadhu.",
+            "Naan Chennai-la irukken."
+          ],
+          "correctAnswer": "Amma, appa, naan moonu per irukkom.",
+          "translatedSentence": "It is my mother, my father and me, the three of us."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu yaaroda phone?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idhu en ammavoda phone.",
+            "Phone table mela irukku.",
+            "Enakku phone venum."
+          ],
+          "correctAnswer": "Idhu en ammavoda phone.",
+          "translatedSentence": "This is my mother's phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adhu en thambiyoda cycle.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my younger brother's bicycle.",
+            "That is my elder brother's bicycle.",
+            "This bicycle is mine."
+          ],
+          "correctAnswer": "That is my younger brother's bicycle."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungaloda veedu enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enga veedu Chennai-la irukku.",
+            "Enga veettula naalu per irukkom.",
+            "Adhu unga veedu illa."
+          ],
+          "correctAnswer": "Enga veedu Chennai-la irukku.",
+          "translatedSentence": "Our house is in Chennai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha saavi appavodadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This key is my father's.",
+            "This key is my mother's.",
+            "That key is mine."
+          ],
+          "correctAnswer": "This key is my father's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha bag unnodhaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, adhu en akkavoda bag.",
+            "Aamaa, adhu en akkavoda bag.",
+            "Bag room-la irukku."
+          ],
+          "correctAnswer": "Illa, adhu en akkavoda bag.",
+          "translatedSentence": "No, that is my elder sister's bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enga kudumbathoda photo hall-la irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our family photo is in the living room.",
+            "Our family photo is in my room.",
+            "Our whole family is in the living room."
+          ],
+          "correctAnswer": "Our family photo is in the living room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaaroda kaapi cup idhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu en appavoda cup.",
+            "Filter kaapi romba nalla irukku.",
+            "Enakku oru filter kaapi venum."
+          ],
+          "correctAnswer": "Adhu en appavoda cup.",
+          "translatedSentence": "That is my father's cup."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu ennoda room illa, en thangachiyoda room.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not my room, it is my younger sister's room.",
+            "This is my room, not my younger sister's room.",
+            "My younger sister is not in my room."
+          ],
+          "correctAnswer": "This is not my room, it is my younger sister's room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha veedu yaarudhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Indha veedu enga appavodadhu.",
+            "Indha veettula moonu room irukku.",
+            "Naanga indha veettula irukkom."
+          ],
+          "correctAnswer": "Indha veedu enga appavodadhu.",
+          "translatedSentence": "This house belongs to our father."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Kalyanam and kids",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku kalyanam aachaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, kalyanam aagi rendu varusham aachu.",
+            "Aamaa, en akkakku kalyanam aachu.",
+            "Illa, enakku pasanga illa."
+          ],
+          "correctAnswer": "Aamaa, kalyanam aagi rendu varusham aachu.",
+          "translatedSentence": "Yes, I have been married for two years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku innum kalyanam aagala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not married yet.",
+            "I do not want to get married.",
+            "My wedding was last year."
+          ],
+          "correctAnswer": "I am not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku ethana pasanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku rendu pasanga, oru paiyan oru ponnu.",
+            "Enakku pasanga illa, innum kalyanam aagala.",
+            "En pasanga school-ku poraanga."
+          ],
+          "correctAnswer": "Enakku rendu pasanga, oru paiyan oru ponnu.",
+          "translatedSentence": "I have two children, a boy and a girl."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En ponnukku anju vayasu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is five years old.",
+            "My son is five years old.",
+            "I have five daughters."
+          ],
+          "correctAnswer": "My daughter is five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga akkakku kalyanam aachaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, poana varusham kalyanam aachu.",
+            "Aamaa, enakku innum kalyanam aagala.",
+            "Illa, avangalukku rendu pasanga."
+          ],
+          "correctAnswer": "Aamaa, poana varusham kalyanam aachu.",
+          "translatedSentence": "Yes, she got married last year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enga veettula moonu pasanga irukkaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are three children in our house.",
+            "There are three people in our house.",
+            "There are three rooms in our house."
+          ],
+          "correctAnswer": "There are three children in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga veettula ethana per irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanga anju per irukkom.",
+            "Enakku anju pasanga irukkaanga.",
+            "Naanga Chennai-la irukkom."
+          ],
+          "correctAnswer": "Naanga anju per irukkom.",
+          "translatedSentence": "There are five of us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En thambikku kalyanam aagi oru varusham aachu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother has been married for a year.",
+            "My younger brother's wedding is next year.",
+            "My elder brother has been married for a year."
+          ],
+          "correctAnswer": "My younger brother has been married for a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga pasangalukku ethana vayasu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Periya ponnukku pathu, chinna paiyanukku anju.",
+            "Rendu perum school-ku poraanga.",
+            "En ponnukku kalyanam aachu."
+          ],
+          "correctAnswer": "Periya ponnukku pathu, chinna paiyanukku anju.",
+          "translatedSentence": "My older daughter is ten and my younger son is five."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Thatha, paatti, maama",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga thatha paatti enga irukkaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avanga Madurai-la enga ooru veettula irukkaanga.",
+            "Avanga naalaikku enga veettukku varuvaanga.",
+            "Enakku avangala nalla theriyum."
+          ],
+          "correctAnswer": "Avanga Madurai-la enga ooru veettula irukkaanga.",
+          "translatedSentence": "They live in our family home in Madurai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En paatti romba nalla idli suduvaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother makes really good idli.",
+            "My grandmother likes idli a lot.",
+            "My grandmother made idli today."
+          ],
+          "correctAnswer": "My grandmother makes really good idli."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Avaru unga maamavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, avaru en ammavoda annan.",
+            "Aamaa, avaru en appavoda appa.",
+            "Illa, avaru en thatha."
+          ],
+          "correctAnswer": "Aamaa, avaru en ammavoda annan.",
+          "translatedSentence": "Yes, he is my mother's elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En chithappa enga pakkathu veettula irukkaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's younger brother lives next door to us.",
+            "My father's elder brother lives next door to us.",
+            "My father's younger brother lives with us."
+          ],
+          "correctAnswer": "My father's younger brother lives next door to us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga athai ponnu peru enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avanga peru Divya, en vayasu dhaan.",
+            "Avaru en maama paiyan, peru Ravi.",
+            "Enakku athai illa."
+          ],
+          "correctAnswer": "Avanga peru Divya, en vayasu dhaan.",
+          "translatedSentence": "Her name is Divya, she is the same age as me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En thatha dhinamum Marina beach-ku nadandhu poavaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather walks to Marina beach every day.",
+            "My grandfather goes to Marina beach every week.",
+            "My grandfather used to walk to Marina beach."
+          ],
+          "correctAnswer": "My grandfather walks to Marina beach every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga paattikku ethana vayasu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avangalukku embathu vayasu aagudhu.",
+            "Avanga enga ooru veettula irukkaanga.",
+            "Enakku embathu vayasu aagudhu."
+          ],
+          "correctAnswer": "Avangalukku embathu vayasu aagudhu.",
+          "translatedSentence": "She is turning eighty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavalikku en maama kudumbam ellaarum varuvaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle's whole family comes over for Deepavali.",
+            "For Deepavali we all go to my uncle's house.",
+            "My uncle's whole family came for Deepavali."
+          ],
+          "correctAnswer": "My uncle's whole family comes over for Deepavali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga thatha paattikitta tamizh-la dhaan pesuveengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, avangalukku English theriyaadhu.",
+            "Aamaa, naan tamizh padikkiren.",
+            "Illa, avanga Madurai-la irukkaanga."
+          ],
+          "correctAnswer": "Aamaa, avangalukku English theriyaadhu.",
+          "translatedSentence": "Yes, they do not know any English."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What everyone does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga appa enna velai paakkaraaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru oru bank-la velai paakkaraaru.",
+            "Avaru retire aayittaaru, ippo veettula dhaan.",
+            "Avaru naalaikku Madurai poraaru."
+          ],
+          "correctAnswer": "Avaru oru bank-la velai paakkaraaru.",
+          "translatedSentence": "He works at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En amma school-la vaathiyaara irukkaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is a teacher at a school.",
+            "My mother works in a school office.",
+            "My mother teaches my sister at home."
+          ],
+          "correctAnswer": "My mother is a teacher at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga anna ippo enna panraaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru Chennai-la oru software company-la velai paakkaraaru.",
+            "Avaru innum college-la padikkiraaru.",
+            "Avaru enakku moonu varusham periyavaru."
+          ],
+          "correctAnswer": "Avaru Chennai-la oru software company-la velai paakkaraaru.",
+          "translatedSentence": "He works at a software company in Chennai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En thangachi Madurai-la college-la padikkiraa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is studying at a college in Madurai.",
+            "My younger sister is teaching at a college in Madurai.",
+            "My younger sister finished college in Madurai."
+          ],
+          "correctAnswer": "My younger sister is studying at a college in Madurai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amma ippo enna panraanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avanga samayal panraanga, dosai suduraanga.",
+            "Avanga office-ku poyittaanga.",
+            "Avanga naalaikku dosai suduvaanga."
+          ],
+          "correctAnswer": "Avanga samayal panraanga, dosai suduraanga.",
+          "translatedSentence": "She is cooking, she is making dosai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En thatha munnaadi railway-la velai paathaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather used to work for the railways.",
+            "My grandfather still works for the railways.",
+            "My grandfather goes to work by train."
+          ],
+          "correctAnswer": "My grandfather used to work for the railways."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna velai paakkareenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan oru hospital-la nurse-a velai paakkaren.",
+            "Enakku en velai romba pidikkum.",
+            "Naan velaikku share-auto-la poren."
+          ],
+          "correctAnswer": "Naan oru hospital-la nurse-a velai paakkaren.",
+          "translatedSentence": "I work as a nurse at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En maama Madurai-la oru chinna kadai vechirukkaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle runs a small shop in Madurai.",
+            "My uncle wants to open a small shop in Madurai.",
+            "My uncle's small shop is in Chennai."
+          ],
+          "correctAnswer": "My uncle runs a small shop in Madurai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga akka innum velaikku poraangala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, pasanga chinna vayasu, adhanaala veettula irukkaanga.",
+            "Aamaa, avangalukku poana varusham kalyanam aachu.",
+            "Illa, avanga naalaikku velaikku poraanga."
+          ],
+          "correctAnswer": "Illa, pasanga chinna vayasu, adhanaala veettula irukkaanga.",
+          "translatedSentence": "No, her children are small, so she stays at home."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "News from home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ooru-la ellaarum eppadi irukkaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaarum nalla irukkaanga, aana paattikku konjam udambu sari illa.",
+            "Ellaarum naalaikku ooru-ku poraanga.",
+            "Enga ooru veedu Madurai-la irukku."
+          ],
+          "correctAnswer": "Ellaarum nalla irukkaanga, aana paattikku konjam udambu sari illa.",
+          "translatedSentence": "Everyone is fine, but grandmother is not keeping too well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha maasam enakku leave kidaikkala, adhanaala adutha maasam ooru-ku poren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not get leave this month, so I am going home next month.",
+            "I got leave this month, so I am going home next month.",
+            "I will not get leave next month, so I am going home now."
+          ],
+          "correctAnswer": "I did not get leave this month, so I am going home next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga eppo enga veettukku varreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nyaayiru anniki varen, aana konjam late aagum.",
+            "Naan poana vaaram unga veettukku vandhen.",
+            "Enakku unga veedu enga-nu theriyaadhu."
+          ],
+          "correctAnswer": "Nyaayiru anniki varen, aana konjam late aagum.",
+          "translatedSentence": "I will come on Sunday, but I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma dhinamum phone panni, naan eppo varuven-nu ketkraanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother calls every day to ask when I am coming.",
+            "Mother called yesterday to ask when I am coming.",
+            "I call mother every day to tell her when I am coming."
+          ],
+          "correctAnswer": "Mother calls every day to ask when I am coming."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thathavukku udambu sari illa-nu kelvipatten, ippo eppadi irukkaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippo paravaayilla, doctor-a paathuttu vandhaaru.",
+            "Avarukku embathu vayasu aagi mudinjidhu.",
+            "Avaru dhinamum beach-ku nadandhu poraaru."
+          ],
+          "correctAnswer": "Ippo paravaayilla, doctor-a paathuttu vandhaaru.",
+          "translatedSentence": "He is better now, he has been to see the doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poana vaaram kudumbathula ellaarum beach-ku poayi, kadala vaangi saapitom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last week the whole family went to the beach and had peanuts.",
+            "Next week the whole family is going to the beach to have peanuts.",
+            "Whenever the family goes to the beach we buy peanuts."
+          ],
+          "correctAnswer": "Last week the whole family went to the beach and had peanuts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ooru-la irundhu enna vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En thangachikku kalyanam mudivaayiduchu, adutha maasam dhaan.",
+            "Enakku ooru-la yaarum theriyaadhu.",
+            "Naan poana maasam ooru-ku poayittu vandhen."
+          ],
+          "correctAnswer": "En thangachikku kalyanam mudivaayiduchu, adutha maasam dhaan.",
+          "translatedSentence": "My younger sister's wedding has been fixed, it is next month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanathukku neengalum unga kudumbamum kandippa varanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You and your family must definitely come to the wedding.",
+            "You and your family can come to the wedding if you like.",
+            "We will definitely come to your family's wedding."
+          ],
+          "correctAnswer": "You and your family must definitely come to the wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ellaarum sernthu share-auto-la kalyana veettukku poalaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaarum oru auto-la ukkaara mudiyaadhu, rendu auto pidippom.",
+            "Enakku share-auto-la povadhu romba pidikkum.",
+            "Naan kalyana veettukku bus-la poyitten."
+          ],
+          "correctAnswer": "Ellaarum oru auto-la ukkaara mudiyaadhu, rendu auto pidippom.",
+          "translatedSentence": "We cannot all fit into one auto, let us take two."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi ejon sikhyok.",
+            "Moi Guwahatit thako.",
+            "Moi bhal ase."
+          ],
+          "correctAnswer": "Moi ejon sikhyok.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi officeot kaam korou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in an office.",
+            "I go to the office.",
+            "I live near the office."
+          ],
+          "correctAnswer": "I work in an office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kot kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Guwahatit kaam korou.",
+            "Moi bhal kaam korou.",
+            "Moi kaam bhal pau."
+          ],
+          "correctAnswer": "Moi Guwahatit kaam korou.",
+          "translatedSentence": "I work in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi ki kaam kora?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What work do you do?",
+            "Where do you work?",
+            "Do you like your work?"
+          ],
+          "correctAnswer": "What work do you do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni doctor ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi ejon sikhyok.",
+            "Hoi, moi Jorhatot thako.",
+            "Nai, mok saah lage."
+          ],
+          "correctAnswer": "Nai, moi ejon sikhyok.",
+          "translatedSentence": "No, I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi mor kaam bhal pau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my work.",
+            "I like my house.",
+            "My work is good."
+          ],
+          "correctAnswer": "I like my work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar office kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor office Guwahatit.",
+            "Mor kaam bhal.",
+            "Moi etiya officeot ase."
+          ],
+          "correctAnswer": "Mor office Guwahatit.",
+          "translatedSentence": "My office is in Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tai skulot kaam kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She works at a school.",
+            "She studies at a school.",
+            "He works at a school."
+          ],
+          "correctAnswer": "She works at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar bhoni ki kaam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tai ejoni doctor.",
+            "Tai Jorhatot thake.",
+            "Tai mor bhoni."
+          ],
+          "correctAnswer": "Tai ejoni doctor.",
+          "translatedSentence": "She is a doctor."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Class ketiya aarambho hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class nota bojat aarambho hoi.",
+            "Class juwakali sesh hol.",
+            "Moi classot bohi ase."
+          ],
+          "correctAnswer": "Class nota bojat aarambho hoi.",
+          "translatedSentence": "The class starts at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sikhyoke kitap porhi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is reading a book.",
+            "The teacher is writing a book.",
+            "The student is reading a book."
+          ],
+          "correctAnswer": "The teacher is reading a book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar kolom kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor kolom mezot ase.",
+            "Mor naam kitapot likha ase.",
+            "Moi mezot bohi likhi ase."
+          ],
+          "correctAnswer": "Mor kolom mezot ase.",
+          "translatedSentence": "My pen is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunar kotha buja nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not understand what you said.",
+            "I did not hear what you said.",
+            "I do not know what you do."
+          ],
+          "correctAnswer": "I did not understand what you said."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar kiba prosno ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, mor ekta prosno ase.",
+            "Nai, moi etiya ghoroloi jaou.",
+            "Hoi, moi ejon sikhyok."
+          ],
+          "correctAnswer": "Hoi, mor ekta prosno ase.",
+          "translatedSentence": "Yes, I have one question."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi classot bohi kitap porhou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sit in the classroom and read a book.",
+            "I sit in the office and read a book.",
+            "I sit in the classroom and write a letter."
+          ],
+          "correctAnswer": "I sit in the classroom and read a book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi aji classloi ahila ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi thik somoit ahilu.",
+            "Nai, mor kolom mezot ase.",
+            "Hoi, moi kitap bhal pau."
+          ],
+          "correctAnswer": "Hoi, moi thik somoit ahilu.",
+          "translatedSentence": "Yes, I came on time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sikhyoke mok ekta prosno sudhile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher asked me a question.",
+            "The teacher answered my question.",
+            "I asked the teacher a question."
+          ],
+          "correctAnswer": "The teacher asked me a question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aakou ekbar kobo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi aakou ekbar kom.",
+            "Nai, mor kitapkhon ghorot ase.",
+            "Hoi, moi apunar kotha bujilu."
+          ],
+          "correctAnswer": "Hoi, moi aakou ekbar kom.",
+          "translatedSentence": "Yes, I will say it once more."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the office",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji meeting ketiya aarambho hobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting tinita bojat aarambho hobo.",
+            "Meeting juwakali sesh hol.",
+            "Moi meetingoloi jua nai."
+          ],
+          "correctAnswer": "Meeting tinita bojat aarambho hobo.",
+          "translatedSentence": "The meeting will start at three o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak ekta email pothalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sent you an email.",
+            "I will send you an email.",
+            "I sent you a book."
+          ],
+          "correctAnswer": "I sent you an email."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar mez kunto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor mez khirikir kasot ase.",
+            "Mor computer bhalkoi kaam kore.",
+            "Moi mezot bohi email likhou."
+          ],
+          "correctAnswer": "Mor mez khirikir kasot ase.",
+          "translatedSentence": "My desk is near the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor computer aji bhalkoi kaam kora nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer did not work well today.",
+            "My computer is working well today.",
+            "My phone did not work well today."
+          ],
+          "correctAnswer": "My computer did not work well today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni reportkhon sesh korile ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi juwakali raatit sesh korilu.",
+            "Nai, mor mez khirikir kasot ase.",
+            "Hoi, moi apunak email pothalu."
+          ],
+          "correctAnswer": "Hoi, moi juwakali raatit sesh korilu.",
+          "translatedSentence": "Yes, I finished it last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bosse mok juwakali ekta notun project dile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our boss gave me a new project yesterday.",
+            "Our boss gave me a new project today.",
+            "Our boss showed me a new office yesterday."
+          ],
+          "correctAnswer": "Our boss gave me a new project yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni etiya byosto ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi etiya reportkhon likhi ase.",
+            "Nai, moi olop bisram loi ase.",
+            "Hoi, mor office Guwahatit ase."
+          ],
+          "correctAnswer": "Hoi, moi etiya reportkhon likhi ase.",
+          "translatedSentence": "Yes, I am writing the report right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar dole aji eta dangor meeting koribo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our team will have a big meeting today.",
+            "Our team had a big meeting today.",
+            "Our boss will have a big meeting today."
+          ],
+          "correctAnswer": "Our team will have a big meeting today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni mor email pale ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi etiyai uttor dim.",
+            "Nai, mor computer notun.",
+            "Hoi, moi meetingot bohi ase."
+          ],
+          "correctAnswer": "Hoi, moi etiyai uttor dim.",
+          "translatedSentence": "Yes, I will reply right away."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar porikkha ketiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor porikkha kailoi aarambho hobo.",
+            "Mor porikkha bor kothin asil.",
+            "Mor homework sesh hoise."
+          ],
+          "correctAnswer": "Mor porikkha kailoi aarambho hobo.",
+          "translatedSentence": "My exam starts tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi juwakali raatit porikkhar babe porhilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I studied for the exam last night.",
+            "I wrote the exam last night.",
+            "I will study for the exam tonight."
+          ],
+          "correctAnswer": "I studied for the exam last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi homework sesh korila ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, moi etiyao kori ase.",
+            "Hoi, mor porikkha kailoi.",
+            "Nai, moi skulloi jaou."
+          ],
+          "correctAnswer": "Nai, moi etiyao kori ase.",
+          "translatedSentence": "No, I am still doing it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei prosnotu mor babe bor kothin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This question is very difficult for me.",
+            "This question is very easy for me.",
+            "This book is very difficult for me."
+          ],
+          "correctAnswer": "This question is very difficult for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni porikkhat kiman nombor pale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bhal nombor palu.",
+            "Moi porikkha likha nai.",
+            "Moi kailoi porhim."
+          ],
+          "correctAnswer": "Moi bhal nombor palu.",
+          "translatedSentence": "I got good marks."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sikhyoke kole je amar porikkha sohoj hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher said our exam will be easy.",
+            "The teacher said our exam will be difficult.",
+            "The teacher said our class will be easy."
+          ],
+          "correctAnswer": "The teacher said our exam will be easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi prottidin kiman ghonta porha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi prottidin tini ghonta porhou.",
+            "Moi prottidin skulloi jaou.",
+            "Moi tini ta kitap kinilu."
+          ],
+          "correctAnswer": "Moi prottidin tini ghonta porhou.",
+          "translatedSentence": "I study for three hours every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor kitapkhon herai gol, seye moi porhibo para nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I lost my book, so I could not study.",
+            "I found my book, so I could study.",
+            "I lost my pen, so I could not write."
+          ],
+          "correctAnswer": "I lost my book, so I could not study."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mok porikkhar babe bhoi lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhoi nokoriba, tumi bhalkoi porhisa.",
+            "Hoi, tomar porikkha juwakali sesh hol.",
+            "Nai, moi porikkhat bhal nombor palu."
+          ],
+          "correctAnswer": "Bhoi nokoriba, tumi bhalkoi porhisa.",
+          "translatedSentence": "Do not be afraid, you have studied well."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar office kiman bojat aarambho hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor office dohta bojat aarambho hoi.",
+            "Mor office Guwahatit ase.",
+            "Moi officeot bohut kaam korou."
+          ],
+          "correctAnswer": "Mor office dohta bojat aarambho hoi.",
+          "translatedSentence": "My office starts at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi aji olop derikoi officeot ahilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came to the office a little late today.",
+            "I came to the office a little early today.",
+            "I went home a little late today."
+          ],
+          "correctAnswer": "I came to the office a little late today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aji kiya deri korile?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Basot bhir asil, seye moi deri korilu.",
+            "Mor kaam pansta bojat sesh hoi.",
+            "Moi aji suti loise."
+          ],
+          "correctAnswer": "Basot bhir asil, seye moi deri korilu.",
+          "translatedSentence": "The bus was crowded, so I was late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor kaam pansta bojat sesh hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My work finishes at five o'clock.",
+            "My work starts at five o'clock.",
+            "My class finishes at five o'clock."
+          ],
+          "correctAnswer": "My work finishes at five o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kailoi suti lobo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, mor ghorot olop kaam ase.",
+            "Nai, moi juwakali suti lolu.",
+            "Hoi, moi thik somoit ahilu."
+          ],
+          "correctAnswer": "Hoi, mor ghorot olop kaam ase.",
+          "translatedSentence": "Yes, I have some work at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi bosok tini din sutir babe kolu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I asked the boss for three days of leave.",
+            "I asked the boss for two days of leave.",
+            "I told the boss about three days of work."
+          ],
+          "correctAnswer": "I asked the boss for three days of leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ketiya ghoroloi jua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi soyta bojat ghoroloi jaou.",
+            "Moi basot ghoroloi jaou.",
+            "Moi ghorot kaam korou."
+          ],
+          "correctAnswer": "Moi soyta bojat ghoroloi jaou.",
+          "translatedSentence": "I go home at six o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apuni deri kore, tente mok phone koribo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are late, please call me.",
+            "If you are late, I will call you.",
+            "If you are early, please call me."
+          ],
+          "correctAnswer": "If you are late, please call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aji ketiya ghoroloi jabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaam sesh hole moi ghoroloi jam.",
+            "Moi aji thik somoit officeot ahilu.",
+            "Moi kailoi suti loi ghorot thakim."
+          ],
+          "correctAnswer": "Kaam sesh hole moi ghoroloi jam.",
+          "translatedSentence": "I will go home once my work is finished."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Plans for next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aha bosor apuni ki koribo bhabise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi aha bosor ekta notun kaam bisarim.",
+            "Moi juwa bosor Jorhatot kaam korisilu.",
+            "Moi juwakali officeot olop deri korilu."
+          ],
+          "correctAnswer": "Moi aha bosor ekta notun kaam bisarim.",
+          "translatedSentence": "Next year I will look for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi bohut kothor porishrom korilu, kintu etiyao promotion pua nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I worked very hard, but I still have not got a promotion.",
+            "I worked very hard, and at last I got a promotion.",
+            "I did not work hard, so I did not get a promotion."
+          ],
+          "correctAnswer": "I worked very hard, but I still have not got a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni promotion nopoa buli mor bor dukh lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, moi aha bosor aakou sesta korim.",
+            "Dhonyobad, moi aji tini din suti lolu.",
+            "Hoi, mor office dohta bojat aarambho hoi."
+          ],
+          "correctAnswer": "Dhonyobad, moi aha bosor aakou sesta korim.",
+          "translatedSentence": "Thank you, I will try again next year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi moi ei projectkhon somoimote sesh korou, tente bosse mok promotion dibo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I finish this project on time, the boss will give me a promotion.",
+            "If I finish this project on time, the boss will give me leave.",
+            "If I do not finish this project on time, the boss will give me a new one."
+          ],
+          "correctAnswer": "If I finish this project on time, the boss will give me a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiya notun kaam ekta bisarise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiyono moi aru dangor kaam ekta koribo bisarou.",
+            "Kiyono mor office khirikir kasot ase.",
+            "Kiyono moi juwakali reportkhon sesh korilu."
+          ],
+          "correctAnswer": "Kiyono moi aru dangor kaam ekta koribo bisarou.",
+          "translatedSentence": "Because I want to take on bigger work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi aha bosor Guwahatiloi jam, kiyono tat bhal kaamor sujog besi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will move to Guwahati next year, because there are more good job opportunities there.",
+            "I moved to Guwahati last year, because there were more good job opportunities there.",
+            "I will move to Jorhat next year, because there are more good job opportunities there."
+          ],
+          "correctAnswer": "I will move to Guwahati next year, because there are more good job opportunities there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni aha bosor ki sikhibo bisare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi notun ekta bhasa sikhibo bisarou.",
+            "Moi juwa bosor ekta notun computer kinilu.",
+            "Moi aji officeot olop derikoi ahilu."
+          ],
+          "correctAnswer": "Moi notun ekta bhasa sikhibo bisarou.",
+          "translatedSentence": "I want to learn a new language."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor bosse kole je moi etiya agotkoi bhal kaam kori ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My boss said that I am doing better work now.",
+            "My boss said that I should do better work now.",
+            "My teacher said that I am doing better work now."
+          ],
+          "correctAnswer": "My boss said that I am doing better work now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar aha bosoror loksho ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi aha bosor manager hobo bisarou.",
+            "Moi juwa bosor ei dolot kaam korisilu.",
+            "Moi aha bosor suti loi ghoroloi jam."
+          ],
+          "correctAnswer": "Moi aha bosor manager hobo bisarou.",
+          "translatedSentence": "I want to become a manager next year."
+        }
+      ]
+    }
+  ]
+}

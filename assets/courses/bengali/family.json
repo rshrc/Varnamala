@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar poribare ke ke ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar ma, baba ar ek bon ache.",
+            "Amar poribar Kolkatay thake.",
+            "Amar bari khub boro."
+          ],
+          "correctAnswer": "Amar ma, baba ar ek bon ache.",
+          "translatedSentence": "I have my mother, my father and one younger sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uni amar ma.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is my mother.",
+            "She is my elder sister.",
+            "He is my father."
+          ],
+          "correctAnswer": "She is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ini ke?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ini amar baba.",
+            "Eta amar bari.",
+            "Ami barite achi."
+          ],
+          "correctAnswer": "Ini amar baba.",
+          "translatedSentence": "This is my father."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ekjon chotto bhai ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a little brother.",
+            "I have a little sister.",
+            "I have an elder brother."
+          ],
+          "correctAnswer": "I have a little brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar baba ekhon kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baba ekhon office e achen.",
+            "Ma ekhon rannaghore achen.",
+            "Ami ekhon barite achi."
+          ],
+          "correctAnswer": "Baba ekhon office e achen.",
+          "translatedSentence": "My father is at the office right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bon skule pore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister studies at school.",
+            "My younger brother studies at school.",
+            "My younger sister is at home."
+          ],
+          "correctAnswer": "My younger sister studies at school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar didi ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, amar ekjon didi ache.",
+            "Na, amar kono dada nei.",
+            "Ha, amar dujon bhai ache."
+          ],
+          "correctAnswer": "Ha, amar ekjon didi ache.",
+          "translatedSentence": "Yes, I have one elder sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baba ar ami barite achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father and I are at home.",
+            "Mother and I are at home.",
+            "Father and I are going home."
+          ],
+          "correctAnswer": "Father and I are at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma kemon achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma bhalo achen.",
+            "Ma barite nei.",
+            "Ami bhalo achi."
+          ],
+          "correctAnswer": "Ma bhalo achen.",
+          "translatedSentence": "Mother is doing well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei boi ta kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eta amar dadar boi.",
+            "Eta ekta notun boi.",
+            "Ami roj boi pori."
+          ],
+          "correctAnswer": "Eta amar dadar boi.",
+          "translatedSentence": "This is my elder brother's book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei chaier kaap ta babar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This teacup is my father's.",
+            "This teacup is my mother's.",
+            "My father is drinking tea."
+          ],
+          "correctAnswer": "This teacup is my father's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei chobi te ke ke achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei chobi te amar ma ar baba achen.",
+            "Ei chobi ta khub sundor.",
+            "Chobi ta amar ghore ache."
+          ],
+          "correctAnswer": "Ei chobi te amar ma ar baba achen.",
+          "translatedSentence": "My mother and father are in this photo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mayer hater ranna khub bhalo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's cooking is very good.",
+            "My mother cooks every day.",
+            "My elder sister's cooking is very good."
+          ],
+          "correctAnswer": "My mother's cooking is very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eta ki tomar didir bag?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, eta amar boner bag.",
+            "Ha, ami bag ta kinechi.",
+            "Na, didi ekhon barite nei."
+          ],
+          "correctAnswer": "Na, eta amar boner bag.",
+          "translatedSentence": "No, this is my younger sister's bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eta amar didir ghor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my elder sister's room.",
+            "This is my elder brother's room.",
+            "This is my elder sister's house."
+          ],
+          "correctAnswer": "This is my elder sister's room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar bhaier naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar bhaier naam Rohit.",
+            "Amar naam Rohit.",
+            "Amar bhai ekhon skule."
+          ],
+          "correctAnswer": "Amar bhaier naam Rohit.",
+          "translatedSentence": "My younger brother's name is Rohit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei mishti gulo dadur jonno.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These sweets are for grandfather.",
+            "These sweets are for grandmother.",
+            "Grandfather likes these sweets."
+          ],
+          "correctAnswer": "These sweets are for grandfather."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar poribar kothay thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amader poribar Kolkatay thake.",
+            "Ami roj tram e jai.",
+            "Amader bari ta khub kachhe."
+          ],
+          "correctAnswer": "Amader poribar Kolkatay thake.",
+          "translatedSentence": "Our family lives in Kolkata."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married, children, how many",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar biye hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, amar ekhono biye hoyni.",
+            "Ha, amar dadar biye hoyeche.",
+            "Na, ami ekhon barite nei."
+          ],
+          "correctAnswer": "Na, amar ekhono biye hoyni.",
+          "translatedSentence": "No, I am not married yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar dadar biye hoyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is married.",
+            "My elder sister is married.",
+            "My elder brother is getting married."
+          ],
+          "correctAnswer": "My elder brother is married."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar koyjon chele meye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar ekta chele ar ekta meye.",
+            "Amar dujon bhai ache.",
+            "Amar chele skule pore."
+          ],
+          "correctAnswer": "Amar ekta chele ar ekta meye.",
+          "translatedSentence": "I have one son and one daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader duto chele ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have two sons.",
+            "We have two daughters.",
+            "They have two sons."
+          ],
+          "correctAnswer": "We have two sons."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar meyer boyosh koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Or boyosh panch bochor.",
+            "Or naam Mira.",
+            "Amar meye khub bhalo ache."
+          ],
+          "correctAnswer": "Or boyosh panch bochor.",
+          "translatedSentence": "She is five years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar chotto meye ekhono skule jay na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My little daughter does not go to school yet.",
+            "My little daughter goes to school now.",
+            "My little son does not go to school yet."
+          ],
+          "correctAnswer": "My little daughter does not go to school yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomra koy bhai bon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra tin bhai bon.",
+            "Amra Kolkatay thaki.",
+            "Amar dada amar cheye boro."
+          ],
+          "correctAnswer": "Amra tin bhai bon.",
+          "translatedSentence": "There are three of us brothers and sisters."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Didir biye agami bochor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister's wedding is next year.",
+            "My elder sister's wedding was last year.",
+            "My elder brother's wedding is next year."
+          ],
+          "correctAnswer": "My elder sister's wedding is next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar stri ki ekhon barite achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, uni ekhon barite achen.",
+            "Na, ami ekhon barite jachhi.",
+            "Ha, amar meye barite ache."
+          ],
+          "correctAnswer": "Ha, uni ekhon barite achen.",
+          "translatedSentence": "Yes, she is at home right now."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents, uncles and cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar dadu thamma kothay thaken?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onara amader sathe ei barite thaken.",
+            "Amar mama Howrah te thaken.",
+            "Onara kal amader barite esechilen."
+          ],
+          "correctAnswer": "Onara amader sathe ei barite thaken.",
+          "translatedSentence": "They live with us in this house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thamma amader golpo bolen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandmother tells us stories.",
+            "Grandmother listens to our stories.",
+            "Grandfather tells us stories."
+          ],
+          "correctAnswer": "Grandmother tells us stories."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei mishti gulo ke enechen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mashi amader jonno enechen.",
+            "Mishti gulo khub bhalo hoyeche.",
+            "Ami dokan theke cha enechi."
+          ],
+          "correctAnswer": "Mashi amader jonno enechen.",
+          "translatedSentence": "My aunt brought them for us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dadu roj sokale cha khan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandfather drinks tea every morning.",
+            "Grandfather drinks tea every evening.",
+            "Grandmother drinks tea every morning."
+          ],
+          "correctAnswer": "Grandfather drinks tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaka ki amader barite asben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, kaka kal bikele asben.",
+            "Na, ami kal tomader barite jabo na.",
+            "Ha, kakima ekhon barite achen."
+          ],
+          "correctAnswer": "Ha, kaka kal bikele asben.",
+          "translatedSentence": "Yes, uncle will come tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kakima khub bhalo macher jhol ranna koren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt cooks very good fish curry.",
+            "My aunt cooks fish curry every day.",
+            "My mother cooks very good fish curry."
+          ],
+          "correctAnswer": "My aunt cooks very good fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar mamato bhai kothay thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "O Howrah te thake.",
+            "O amar cheye du bochorer boro.",
+            "Amar mama Kolkatay thaken."
+          ],
+          "correctAnswer": "O Howrah te thake.",
+          "translatedSentence": "He lives in Howrah."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar mashtuto bon Kolkatay pore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My cousin studies in Kolkata.",
+            "My cousin works in Kolkata.",
+            "My younger sister studies in Kolkata."
+          ],
+          "correctAnswer": "My cousin studies in Kolkata."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pishi kemon achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pishi ektu osustho.",
+            "Pishi amader barite thaken.",
+            "Ami ekhon bhalo achi."
+          ],
+          "correctAnswer": "Pishi ektu osustho.",
+          "translatedSentence": "My aunt is a little unwell."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What everyone does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar baba ki koren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baba ekta skule porhan.",
+            "Baba ekhon barite achen.",
+            "Ami ekta office e kaj kori."
+          ],
+          "correctAnswer": "Baba ekta skule porhan.",
+          "translatedSentence": "My father teaches at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baba tram e kore office jan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father goes to the office by tram.",
+            "Father goes to the office by metro.",
+            "Father comes home by tram."
+          ],
+          "correctAnswer": "Father goes to the office by tram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ma sara din ki koren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma barir kaj koren ar amader jonno ranna koren.",
+            "Ma kal bajare gechilen.",
+            "Ma ekhon khub bhalo achen."
+          ],
+          "correctAnswer": "Ma barir kaj koren ar amader jonno ranna koren.",
+          "translatedSentence": "Mother runs the house and cooks for us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma amader jonno roj bhaat ranna koren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother cooks rice for us every day.",
+            "Mother cooks fish for us every day.",
+            "Mother is cooking rice for us today."
+          ],
+          "correctAnswer": "Mother cooks rice for us every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dada ekta bank e kaj kore.",
+            "Dada amar cheye tin bochorer boro.",
+            "Ami ekhono porashona kori."
+          ],
+          "correctAnswer": "Dada ekta bank e kaj kore.",
+          "translatedSentence": "My elder brother works at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bon roj sokale gaan sekhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister learns singing every morning.",
+            "My younger sister teaches singing every morning.",
+            "My younger brother learns singing every morning."
+          ],
+          "correctAnswer": "My younger sister learns singing every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Didi kokhon office jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Didi roj sokal noytay office jay.",
+            "Didi metro te kore office jay.",
+            "Didi ekhon office e nei."
+          ],
+          "correctAnswer": "Didi roj sokal noytay office jay.",
+          "translatedSentence": "My elder sister leaves for the office at nine every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dadu ekhon kaj koren na, uni obosor niyechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandfather does not work now, he has retired.",
+            "Grandfather still works, he has not retired.",
+            "Grandfather does not work at home now."
+          ],
+          "correctAnswer": "Grandfather does not work now, he has retired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki chakri koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami ekhono college e pori.",
+            "Ha, amar baba chakri koren.",
+            "Na, ami ekhono barite jaini."
+          ],
+          "correctAnswer": "Na, ami ekhono college e pori.",
+          "translatedSentence": "No, I am still studying in college."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits, plans and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar barite sobai kemon achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sobai bhalo achen, sudhu dadur shorir ektu kharap.",
+            "Amader bari Howrah bridge er kachhe.",
+            "Ami bhalo achi, apni kemon achen?"
+          ],
+          "correctAnswer": "Sobai bhalo achen, sudhu dadur shorir ektu kharap.",
+          "translatedSentence": "Everyone is well, only grandfather is not keeping very good health."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi kal bristi hoy, tahole amra mamar barite jabo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, we will not go to my uncle's house.",
+            "If it rains tomorrow, we will still go to my uncle's house.",
+            "It rained yesterday, so we did not go to my uncle's house."
+          ],
+          "correctAnswer": "If it rains tomorrow, we will not go to my uncle's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei rabibar tomra ki korcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra thammar barite jachhi, karon onar jonmodin.",
+            "Amra gato rabibar barite chilam.",
+            "Ami rabibar office e kaj kori na."
+          ],
+          "correctAnswer": "Amra thammar barite jachhi, karon onar jonmodin.",
+          "translatedSentence": "We are going to my grandmother's house, because it is her birthday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amra gato bochor Howrah bridge er kachhe mashir barite gechilam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last year we went to my aunt's house near Howrah bridge.",
+            "Next year we will go to my aunt's house near Howrah bridge.",
+            "Last year my aunt came to our house near Howrah bridge."
+          ],
+          "correctAnswer": "Last year we went to my aunt's house near Howrah bridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Didi kokhon asbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Didi kal rate trene asbe.",
+            "Didi gato soptahe esechilo.",
+            "Didi ei rabibar asbe na."
+          ],
+          "correctAnswer": "Didi kal rate trene asbe.",
+          "translatedSentence": "My elder sister will arrive tomorrow night by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baba bollen je didir biye agami mashe, tai sobai barite asche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father said my sister's wedding is next month, so everyone is coming home.",
+            "Father said my sister's wedding was last month, so everyone came home.",
+            "Father said my brother's wedding is next month, so everyone is coming home."
+          ],
+          "correctAnswer": "Father said my sister's wedding is next month, so everyone is coming home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki amader sathe mashir barite jabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami jete chai, kintu amar ekhon somoy nei.",
+            "Ami tomader sathe gechilam, khub bhalo legechilo.",
+            "Ha, ami kal sara din barite thakbo."
+          ],
+          "correctAnswer": "Ami jete chai, kintu amar ekhon somoy nei.",
+          "translatedSentence": "I want to go, but I do not have the time right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dadu ke ekhon phone koro, uni tomar sathe kotha bolte chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Call grandfather now, he wants to talk to you.",
+            "Call grandfather now, he talked to you yesterday.",
+            "Call grandmother now, she wants to talk to you."
+          ],
+          "correctAnswer": "Call grandfather now, he wants to talk to you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma phone korechilen keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uni bollen je pishi agami soptahe amader barite asben.",
+            "Ami ekhono make phone kori ni.",
+            "Ma ekhon rannaghore achen, pore phone korben."
+          ],
+          "correctAnswer": "Uni bollen je pishi agami soptahe amader barite asben.",
+          "translatedSentence": "She said that my aunt is coming to our house next week."
+        }
+      ]
+    }
+  ]
+}

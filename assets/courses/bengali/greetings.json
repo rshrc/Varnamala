@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nomoskar, apni kemon achhen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhalo achi, dhonyobad.",
+            "Ami cha khete chai.",
+            "Ami bari jete chai."
+          ],
+          "correctAnswer": "Ami bhalo achi, dhonyobad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami bhalo achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am well.",
+            "I am not well.",
+            "I am going home."
+          ],
+          "correctAnswer": "I am well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki khobor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sob bhalo.",
+            "Ami kaj kori.",
+            "Ami ekhane notun."
+          ],
+          "correctAnswer": "Sob bhalo.",
+          "translatedSentence": "Everything is good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi kemon achho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you going?",
+            "What are you doing?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami bhalo achi, tumi kemon achho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami o bhalo achi.",
+            "Ami tomake chini na.",
+            "Ami ekhon jai."
+          ],
+          "correctAnswer": "Ami o bhalo achi.",
+          "translatedSentence": "I am well too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami khub bhalo achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am doing very well.",
+            "I am not doing well.",
+            "I am very busy today."
+          ],
+          "correctAnswer": "I am doing very well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar shorir bhalo to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, ami ekdom bhalo achi.",
+            "Na, ami ektu osustho.",
+            "Ami tomar sathe jabo."
+          ],
+          "correctAnswer": "Na, ami ektu osustho.",
+          "translatedSentence": "No, I am a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ektu klanto achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a little tired.",
+            "I am very happy.",
+            "I am at home."
+          ],
+          "correctAnswer": "I am a little tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki khobor, sob thik to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, sob thik ache.",
+            "Na, ami jete chai na.",
+            "Ami cha bhalobashi."
+          ],
+          "correctAnswer": "Haan, sob thik ache.",
+          "translatedSentence": "Yes, everything is fine."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night and welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubho sokal! Ghum kemon holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub bhalo ghum holo, dhonyobad.",
+            "Ami raate ghumai na.",
+            "Ami sokale cha khai."
+          ],
+          "correctAnswer": "Khub bhalo ghum holo, dhonyobad.",
+          "translatedSentence": "I slept very well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubho sokal, ami ekhon cha banai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, I am making tea now.",
+            "Good morning, I am drinking tea now.",
+            "Good evening, I am making tea now."
+          ],
+          "correctAnswer": "Good morning, I am making tea now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ashun, bhitore ashun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, ami ashchi.",
+            "Na, ami ekhane ghumai.",
+            "Ami bhitore thaki."
+          ],
+          "correctAnswer": "Dhonyobad, ami ashchi.",
+          "translatedSentence": "Thank you, I am coming in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader barite apnake shagotom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to our home.",
+            "Welcome to our office.",
+            "Thank you for coming to our home."
+          ],
+          "correctAnswer": "Welcome to our home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onek raat holo, ami ekhon jai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shubho ratri, bhalo kore ghumo.",
+            "Shubho sokal, abar dekha hobe.",
+            "Ami tomar sathe khabo."
+          ],
+          "correctAnswer": "Shubho ratri, bhalo kore ghumo.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubho sondhya, apni ki cha khaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good evening, will you have some tea?",
+            "Good morning, will you have some tea?",
+            "Good evening, do you want to go home?"
+          ],
+          "correctAnswer": "Good evening, will you have some tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boshun, ekhoni cha ashche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, ami boshchi.",
+            "Na, ami cha banate jani na.",
+            "Ami ekhane ashi na."
+          ],
+          "correctAnswer": "Dhonyobad, ami boshchi.",
+          "translatedSentence": "Thank you, I am sitting down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhalo kore ghumao, kal sokale dekha hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sleep well, we will meet tomorrow morning.",
+            "Wake up early, we will meet tomorrow morning.",
+            "Sleep well, we will meet tonight."
+          ],
+          "correctAnswer": "Sleep well, we will meet tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubho sokal! Aj kothay jachchen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami kaje jachchi.",
+            "Ami ekhon ghumate jachchi.",
+            "Ami cha kinte jai."
+          ],
+          "correctAnswer": "Ami kaje jachchi.",
+          "translatedSentence": "I am going to work."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onek dhonyobad, apni amake khub sahajyo korechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kono bepar na, eta to kichui na.",
+            "Ami apnake chini na.",
+            "Dhonyobad, ami ekhon jachchi."
+          ],
+          "correctAnswer": "Kono bepar na, eta to kichui na.",
+          "translatedSentence": "No problem at all, it was nothing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami dukkhito, amar deri hoye gelo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, I am late.",
+            "I am sorry, I forgot.",
+            "Excuse me, I am leaving now."
+          ],
+          "correctAnswer": "I am sorry, I am late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kichu mone korben na, ektu shunben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, bolun ki dorkar.",
+            "Na, ami kotha boli na.",
+            "Ami ekhane ekai achi."
+          ],
+          "correctAnswer": "Haan, bolun ki dorkar.",
+          "translatedSentence": "Yes, tell me what you need."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doya kore ektu opekkha korun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please wait a moment.",
+            "Please come inside.",
+            "Please tell me the way."
+          ],
+          "correctAnswer": "Please wait a moment."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami tomar boi ta hariye felechi, dukkhito.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, chinta korona.",
+            "Dhonyobad, ami khub khushi.",
+            "Ami boi porte bhalobashi."
+          ],
+          "correctAnswer": "Thik ache, chinta korona.",
+          "translatedSentence": "It is okay, do not worry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kichu mone korben na, ami ektu jete chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Excuse me, I would like to get through.",
+            "Excuse me, I would like to sit down.",
+            "Sorry, I do not want to go."
+          ],
+          "correctAnswer": "Excuse me, I would like to get through."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei nin apnar cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onek dhonyobad, apni khub bhalo.",
+            "Ami cha kinte jachchi.",
+            "Apni cha khete bhalobashen na."
+          ],
+          "correctAnswer": "Onek dhonyobad, apni khub bhalo.",
+          "translatedSentence": "Thank you very much, you are very kind."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maaf korben, ami bujhte parini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I did not understand.",
+            "Sorry, I could not come.",
+            "Excuse me, I do not know the way."
+          ],
+          "correctAnswer": "Sorry, I did not understand."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doya kore aro ektu aste bolun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, ami aste bolchi.",
+            "Ami jore kotha bolte pari na.",
+            "Dhonyobad, ami sob shunte pai."
+          ],
+          "correctAnswer": "Thik ache, ami aste bolchi.",
+          "translatedSentence": "All right, I will speak slowly."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami ekhon aschi, onek deri hoye gelo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, sabdhane jeo.",
+            "Na, tumi ekhane thako.",
+            "Ami tomar sathe ashchi."
+          ],
+          "correctAnswer": "Thik ache, sabdhane jeo.",
+          "translatedSentence": "All right, go safely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Abar dekha hobe, bhalo theko.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "See you again, take care.",
+            "See you tomorrow, sleep well.",
+            "Goodbye, I am going home."
+          ],
+          "correctAnswer": "See you again, take care."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalke abar dekha hobe to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, kal sokale dekha hobe.",
+            "Na, ami kal ke chini na.",
+            "Ami kal cha khabo na."
+          ],
+          "correctAnswer": "Haan, kal sokale dekha hobe.",
+          "translatedSentence": "Yes, we will meet tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekhon berochchi, pore phone korbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving now, I will call later.",
+            "I am leaving now, I will come later.",
+            "I am waiting here, I will call later."
+          ],
+          "correctAnswer": "I am leaving now, I will call later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ashi tahole, bhalo thakben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apni o bhalo thakben.",
+            "Ami ekhon bhalo achi.",
+            "Apni kothay thaken?"
+          ],
+          "correctAnswer": "Apni o bhalo thakben.",
+          "translatedSentence": "You take care too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sabdhane bari jeo, onek raat hoye geche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Get home safely, it has gotten very late.",
+            "Come home early, it has gotten very late.",
+            "Get home safely, it is raining hard."
+          ],
+          "correctAnswer": "Get home safely, it has gotten very late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar tram ta chole elo, ami tahole ashi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, pore kotha hobe.",
+            "Na, tram ekhane thame na.",
+            "Ami roj tram e jai."
+          ],
+          "correctAnswer": "Thik ache, pore kotha hobe.",
+          "translatedSentence": "All right, we will talk later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aj ashi, kal abar kotha hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am off now, we will talk again tomorrow.",
+            "I am off now, I will come again tomorrow.",
+            "I am staying today, we will talk in the evening."
+          ],
+          "correctAnswer": "I am off now, we will talk again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhalo theko, nijer jotno nio.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumi o nijer jotno nio.",
+            "Ami kono jotno kori na.",
+            "Ami tomar bari chini na."
+          ],
+          "correctAnswer": "Tumi o nijer jotno nio.",
+          "translatedSentence": "You take care of yourself too."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Respect and polite forms",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaku, apni kemon achhen? Onek din apnake dekhini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhalo achi baba, tumi kemon achho?",
+            "Ami tomake chini na, tumi ke?",
+            "Ami ekhon bajare jachchi na."
+          ],
+          "correctAnswer": "Ami bhalo achi baba, tumi kemon achho?",
+          "translatedSentence": "I am well, dear, and how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Boroder sathe amra apni kore kotha boli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "With elders we speak using the polite form.",
+            "With friends we speak using the polite form.",
+            "With elders we do not speak very much."
+          ],
+          "correctAnswer": "With elders we speak using the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mashi, ami ki apnake ektu sahajyo korte pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan baba, ei jhola ta ektu dhoro.",
+            "Na, ami tomake sahajyo korte parbo na.",
+            "Ami ei jhola ta bajar theke kinechi."
+          ],
+          "correctAnswer": "Haan baba, ei jhola ta ektu dhoro.",
+          "translatedSentence": "Yes dear, please hold this bag for a moment."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apni doya kore ektu ekhane boshun, dada ekhoni ashben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit here for a moment, my brother will come shortly.",
+            "Please wait outside, my brother will come shortly.",
+            "Please sit here for a moment, I will come back shortly."
+          ],
+          "correctAnswer": "Please sit here for a moment, my brother will come shortly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi to amar theke onek choto, amake tumi bolte paro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami apnake apni kore bolbo.",
+            "Haan, apni amake tumi bolben.",
+            "Ami kokhono kotha boli na."
+          ],
+          "correctAnswer": "Na, ami apnake apni kore bolbo.",
+          "translatedSentence": "No, I will keep addressing you with the polite form."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ochena manusher sathe tumi kore kotha bola uchit na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should not use the informal form with a stranger.",
+            "You should not use the polite form with a close friend.",
+            "You should not talk to a stranger on the street."
+          ],
+          "correctAnswer": "You should not use the informal form with a stranger."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada, Howrah bridge jete hole ki metro dhorte hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, apni ekhan theke tram dhorun.",
+            "Ami roj metro te kaje jai.",
+            "Howrah bridge onek boro ekta bridge."
+          ],
+          "correctAnswer": "Na, apni ekhan theke tram dhorun.",
+          "translatedSentence": "No, take the tram from here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami boroder pronam kori, karon eta amader niyom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I touch my elders' feet, because that is our custom.",
+            "I greet my elders, because they are much older than me.",
+            "I respect my elders, but I do not touch their feet."
+          ],
+          "correctAnswer": "I touch my elders' feet, because that is our custom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki amake ektu jaiga deben, ami bosbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi, apni ekhane boshun.",
+            "Na, ami ekhane bosini.",
+            "Ami dariye achi karon tram ta bhora."
+          ],
+          "correctAnswer": "Nishchoi, apni ekhane boshun.",
+          "translatedSentence": "Of course, please sit here."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Arre, onek din por dekha! Tumi eto din kothay chile?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami Dilli te chilam, kajer jonno jete hoyechilo.",
+            "Ami ekhanei thaki, kintu tomake chini na.",
+            "Ami kal Kolkata ashbo, tokhon dekha hobe."
+          ],
+          "correctAnswer": "Ami Dilli te chilam, kajer jonno jete hoyechilo.",
+          "translatedSentence": "I was in Delhi, I had to go there for work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tomake dekhe khub bhalo laglo, karon onek bochor kotha hoyni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is so good to see you, because we have not spoken in years.",
+            "It is so good to see you, because I was thinking about you.",
+            "It was good to meet you, but we did not get to talk much."
+          ],
+          "correctAnswer": "It is so good to see you, because we have not spoken in years."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki ekhono Kolkatai thako?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami ekhon Dilli te thaki, kintu prati bochor ashi.",
+            "Haan, ami Kolkata kokhono jaini.",
+            "Na, ami Kolkata te thakte chai na."
+          ],
+          "correctAnswer": "Na, ami ekhon Dilli te thaki, kintu prati bochor ashi.",
+          "translatedSentence": "No, I live in Delhi now, but I come back every year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cholo kothao boshe cha khai, onek kotha bola bakhi ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us sit somewhere and have tea, we have a lot to catch up on.",
+            "Let us go home and have tea, I still have a lot of work left.",
+            "Let us walk for a while, we can talk on the way."
+          ],
+          "correctAnswer": "Let us sit somewhere and have tea, we have a lot to catch up on."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki ekhono macher jhol ar bhaat bhalobasho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, ekhono roj bhaat ar macher jhol khai.",
+            "Haan, kintu ekhon ami khub kom mishti khai.",
+            "Na, ami kokhono mach ranna korte parini."
+          ],
+          "correctAnswer": "Haan, ekhono roj bhaat ar macher jhol khai.",
+          "translatedSentence": "Yes, I still eat rice and fish curry every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami tram e jachchilam, tokhon hothat tomar dada ke dekhlam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was going by tram when I suddenly saw your brother.",
+            "I was going by metro when I suddenly saw your brother.",
+            "I was waiting for the tram when your brother called me."
+          ],
+          "correctAnswer": "I was going by tram when I suddenly saw your brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onek bochor por Howrah bridge dekhe kemon laglo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aage jemon chilo temoni ache, dekhe bhalo laglo.",
+            "Ami Howrah bridge er upor diye kokhono jaini.",
+            "Ami bridge er dike takate bhoy pai."
+          ],
+          "correctAnswer": "Aage jemon chilo temoni ache, dekhe bhalo laglo.",
+          "translatedSentence": "It is just the way it used to be, it felt good to see it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi somoy pao, tahole ekdin amader barite eso.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get some time, come over to our house one day.",
+            "If you get some time, give me a call one day.",
+            "When you get some time, we will go over to your house."
+          ],
+          "correctAnswer": "If you get some time, come over to our house one day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami tahole ekhon ashi, kintu ebar theke phone kore kotha bolbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi phone koro, ami opekkha korbo.",
+            "Na, ami kokhono phone dhori na.",
+            "Ami tomar phone number ta hariye felechi."
+          ],
+          "correctAnswer": "Nishchoi phone koro, ami opekkha korbo.",
+          "translatedSentence": "Do call, of course, I will be waiting."
+        }
+      ]
+    }
+  ]
+}

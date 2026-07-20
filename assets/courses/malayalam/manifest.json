@@ -1,0 +1,132 @@
+{
+  "language": "malayalam",
+  "nativeName": "മലയാളം",
+  "romanization": "Manglish",
+  "tree": [
+    [
+      "basics"
+    ],
+    [
+      "greetings"
+    ],
+    [
+      "introductions",
+      "family"
+    ],
+    [
+      "food",
+      "numbers",
+      "colours"
+    ],
+    [
+      "travel"
+    ],
+    [
+      "time",
+      "shopping"
+    ],
+    [
+      "health",
+      "home",
+      "work"
+    ],
+    [
+      "emotions"
+    ],
+    [
+      "festivals"
+    ]
+  ],
+  "courses": [
+    {
+      "id": "basics",
+      "title": "Basics",
+      "icon": "egg",
+      "color": "0xff2b70c9"
+    },
+    {
+      "id": "greetings",
+      "title": "Greetings",
+      "icon": "hand",
+      "color": "0xffFFD700"
+    },
+    {
+      "id": "introductions",
+      "title": "Introductions",
+      "icon": "pen",
+      "color": "0xffCE82FF"
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "icon": "family",
+      "color": "0xffFF69B4"
+    },
+    {
+      "id": "food",
+      "title": "Food & Drink",
+      "icon": "food",
+      "color": "0xffFFA500"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "icon": "hammer",
+      "color": "0xff808080"
+    },
+    {
+      "id": "colours",
+      "title": "Colours",
+      "icon": "bucket",
+      "color": "0xffFF0000"
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "icon": "airplane",
+      "color": "0xff00BCD4"
+    },
+    {
+      "id": "time",
+      "title": "Time & Days",
+      "icon": "calendar",
+      "color": "0xff9B59B6"
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping",
+      "icon": "chest",
+      "color": "0xffF39C12"
+    },
+    {
+      "id": "health",
+      "title": "Health",
+      "icon": "bandages",
+      "color": "0xffE74C3C"
+    },
+    {
+      "id": "home",
+      "title": "At Home",
+      "icon": "book",
+      "color": "0xff795548"
+    },
+    {
+      "id": "work",
+      "title": "Work & School",
+      "icon": "student",
+      "color": "0xff2b70c9"
+    },
+    {
+      "id": "emotions",
+      "title": "Feelings",
+      "icon": "emotion",
+      "color": "0xff0000FF"
+    },
+    {
+      "id": "festivals",
+      "title": "Festivals",
+      "icon": "celebrate",
+      "color": "0xffC0392B"
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apana kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhala achi, dhanyabad.",
+            "Mu ghara re achi ebe.",
+            "Mote tike pani darkar."
+          ],
+          "correctAnswer": "Mu bhala achi, dhanyabad.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kemiti achha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhala achi, aau tume?",
+            "Mu ebe ghara jauchi.",
+            "Mu tumaku jane nahin."
+          ],
+          "correctAnswer": "Mu bhala achi, aau tume?",
+          "translatedSentence": "I am fine, and you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bhala achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am fine.",
+            "I am not well.",
+            "I am going now."
+          ],
+          "correctAnswer": "I am fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabu thik achi to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, sabu thik achi.",
+            "Nahin, mu jane nahin.",
+            "Mu tike bahara jauchi."
+          ],
+          "correctAnswer": "Han, sabu thik achi.",
+          "translatedSentence": "Yes, everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you going?",
+            "What is your name?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar! Bhala achha to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu bhala achi.",
+            "Nahin, mu tanka naam jane nahin.",
+            "Mu ebe kama karuchi."
+          ],
+          "correctAnswer": "Han, mu bhala achi.",
+          "translatedSentence": "Yes, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame sabu bhala achu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are all fine.",
+            "They are all fine.",
+            "You are all fine."
+          ],
+          "correctAnswer": "We are all fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara ghara loka kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Semane sabu bhala achanti.",
+            "Mu tanka ghara kouthi jane nahin.",
+            "Ame Cuttack re rahu."
+          ],
+          "correctAnswer": "Semane sabu bhala achanti.",
+          "translatedSentence": "They are all doing well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu tike bhala nahin achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling very well.",
+            "I am feeling much better now.",
+            "I am not going there today."
+          ],
+          "correctAnswer": "I am not feeling very well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning, good night",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subha sakala! Bhala nidra hela ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, bhala nidra hela, dhanyabad.",
+            "Nahin, mu ebe kichhi khaiba nahin.",
+            "Mu sakale bajaraku jaithili."
+          ],
+          "correctAnswer": "Han, bhala nidra hela, dhanyabad.",
+          "translatedSentence": "Yes, I slept well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Subha sakala, apana bhala achanti to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, are you well?",
+            "Good night, did you sleep well?",
+            "Good evening, welcome to our home."
+          ],
+          "correctAnswer": "Good morning, are you well?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subha sandhya! Aajira dina kemiti gala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaji dina bhala gala, dhanyabad.",
+            "Mu ratire tike bahara jibi.",
+            "Mu apananka naam jane nahin."
+          ],
+          "correctAnswer": "Aaji dina bhala gala, dhanyabad.",
+          "translatedSentence": "The day went well today, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Subha ratri, bhala nidra kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, sleep well.",
+            "Good morning, get up early.",
+            "Good evening, come inside."
+          ],
+          "correctAnswer": "Good night, sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amara ghara ku swagata!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, apananka ghara bhari sundara.",
+            "Dhanyabad, mu ghara re nahin achi.",
+            "Dhanyabad, apana kouthi jauchanti?"
+          ],
+          "correctAnswer": "Dhanyabad, apananka ghara bhari sundara.",
+          "translatedSentence": "Thank you, your home is very beautiful."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhitaraku asantu, apananka swagata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come inside, you are welcome.",
+            "Please go outside and wait there.",
+            "Please sit down and eat something."
+          ],
+          "correctAnswer": "Please come inside, you are welcome."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bahut ratri heigala, mu ebe suiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, subha ratri.",
+            "Thik achi, subha sakala.",
+            "Thik achi, mu ebe asuchi."
+          ],
+          "correctAnswer": "Thik achi, subha ratri.",
+          "translatedSentence": "All right, good night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana sakale kete bele uthanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bahut sakale uthe.",
+            "Mu ratire deri re suae.",
+            "Mu sakale kichhi khae nahin."
+          ],
+          "correctAnswer": "Mu bahut sakale uthe.",
+          "translatedSentence": "I get up very early."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaji sakale bahut thanda achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is very cold this morning.",
+            "It is very hot this evening.",
+            "It is raining a lot today."
+          ],
+          "correctAnswer": "It is very cold this morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei nia, apananka pain cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut dhanyabad, mu ebe piba.",
+            "Mu cha kouthi kiniba jane nahin.",
+            "Cha pain tike apeksha karantu."
+          ],
+          "correctAnswer": "Bahut dhanyabad, mu ebe piba.",
+          "translatedSentence": "Thank you very much, I will drink it now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sahajya pain bahut dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for your help.",
+            "Sorry for the trouble I caused you.",
+            "Please help me with this bag."
+          ],
+          "correctAnswer": "Thank you very much for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshama karibe, mu deri re asili.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichhi asubidha nahin, bhitaraku asantu.",
+            "Mu bi ebe jauchi, dhanyabad.",
+            "Apana kouthi rahanti, tike kuhantu."
+          ],
+          "correctAnswer": "Kichhi asubidha nahin, bhitaraku asantu.",
+          "translatedSentence": "No problem at all, please come in."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tike suniba? Jagannath mandira kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sidha jantu, mandira bame padiba.",
+            "Mu mandira re kama kare nahin.",
+            "Auto re jiba bahut mahanga."
+          ],
+          "correctAnswer": "Sidha jantu, mandira bame padiba.",
+          "translatedSentence": "Go straight, the temple will be on your left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daya kari mote tike sahajya karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please help me for a moment.",
+            "Please wait for me outside.",
+            "Please do not tell anyone about this."
+          ],
+          "correctAnswer": "Please help me for a moment."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote kshama karantu, mu apananka naam bhuli gali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichhi katha nahin, mu puni kahuchi.",
+            "Mu apananka katha bujhili nahin.",
+            "Mu ebe ghara ku pheruchi."
+          ],
+          "correctAnswer": "Kichhi katha nahin, mu puni kahuchi.",
+          "translatedSentence": "It does not matter, I will say it again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu dukhita, mora dosa hela.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, it was my mistake.",
+            "I am happy, it was a good day.",
+            "I am late, the bus did not come."
+          ],
+          "correctAnswer": "I am sorry, it was my mistake."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tike bate deba ki? Mote bahara jibaku achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han niscaya, mu tike pakhaku jauchi.",
+            "Nahin, mu ebe bahara jiba nahin.",
+            "Mu bata jane nahin, kshama karibe."
+          ],
+          "correctAnswer": "Han niscaya, mu tike pakhaku jauchi.",
+          "translatedSentence": "Yes of course, I am moving aside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ete sahajya pain mu apananka nikatare krutagya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am grateful to you for so much help.",
+            "I am waiting for you near the shop.",
+            "I am sorry that you had to wait so long."
+          ],
+          "correctAnswer": "I am grateful to you for so much help."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Achha, mu ebe jauchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, sabadhane jantu.",
+            "Thik achi, bhitaraku asantu.",
+            "Thik achi, tike apeksha karantu."
+          ],
+          "correctAnswer": "Thik achi, sabadhane jantu.",
+          "translatedSentence": "All right, go carefully."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame kali puni bhetiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will meet again tomorrow.",
+            "We met here yesterday.",
+            "We are going there together."
+          ],
+          "correctAnswer": "We will meet again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aau kebe bheta heba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Agami saptaha re bheta heba.",
+            "Kali mu ghara re nathili.",
+            "Mu tumaku ebe hin dekhili."
+          ],
+          "correctAnswer": "Agami saptaha re bheta heba.",
+          "translatedSentence": "We will meet next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu ebe train dhariba pain jauchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabadhane jantu, pahanchile phone karantu.",
+            "Ratire mu bi train re asili.",
+            "Mote train stesan ra bata jane nahin."
+          ],
+          "correctAnswer": "Sabadhane jantu, pahanchile phone karantu.",
+          "translatedSentence": "Travel safely, call me when you arrive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nijara jatna niantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please take care of yourself.",
+            "Please take care of the children.",
+            "Please look after my bag."
+          ],
+          "correctAnswer": "Please take care of yourself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu Bhubaneswar chhadi Cuttack jauchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bidaya! Sethi bhala re rahantu.",
+            "Bidaya! Mu bi Cuttack ru asichi.",
+            "Bidaya! Apana kouthi rahanti?"
+          ],
+          "correctAnswer": "Bidaya! Sethi bhala re rahantu.",
+          "translatedSentence": "Goodbye! Stay well there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bidaya, aau bhetiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Goodbye, we will meet again.",
+            "Hello, it is nice to meet you.",
+            "Sorry, I have to leave now."
+          ],
+          "correctAnswer": "Goodbye, we will meet again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaji bahut moja hela, dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo pain bi bhala lagila, puni asantu.",
+            "Mu aaji ghara re nathili.",
+            "Mote apananka katha bujha padila nahin."
+          ],
+          "correctAnswer": "Mo pain bi bhala lagila, puni asantu.",
+          "translatedSentence": "I enjoyed it too, please come again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ebe jauchi, sandhya re pheriba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going now, I will come back in the evening.",
+            "I am going now, I will not come back today.",
+            "I came in the evening and went back."
+          ],
+          "correctAnswer": "I am going now, I will come back in the evening."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Politeness and respect",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana bahut dina ru ethi rahuchanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han aagya, mu tirisa barsa ru ethi achi.",
+            "Nahin aagya, mu ethi kichhi jane nahin.",
+            "Han aagya, mu apananka ghara dekhi nahin."
+          ],
+          "correctAnswer": "Han aagya, mu tirisa barsa ru ethi achi.",
+          "translatedSentence": "Yes sir, I have been living here for thirty years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaka, apananka baga mu dhariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uncle, shall I carry your bag for you?",
+            "Uncle, is this bag really yours?",
+            "Uncle, where did you buy this bag?"
+          ],
+          "correctAnswer": "Uncle, shall I carry your bag for you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pua, tume kouthi ru asichha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aagya, mu Bhubaneswar ru asichi.",
+            "Aagya, mu tumaku jane nahin.",
+            "Aagya, tume kouthi ru asichha?"
+          ],
+          "correctAnswer": "Aagya, mu Bhubaneswar ru asichi.",
+          "translatedSentence": "Sir, I have come from Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bada manankaku sabu bele sammana deba uchit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One should always show respect to elders.",
+            "One should always listen to small children.",
+            "One should always speak the truth at home."
+          ],
+          "correctAnswer": "One should always show respect to elders."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhitaraku asantu, bahare bahut rodha achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, mu bhitaraku asuchi.",
+            "Dhanyabad, bahare bahut thanda achi ebe.",
+            "Dhanyabad, mu bhitara ra bata jane nahin."
+          ],
+          "correctAnswer": "Dhanyabad, mu bhitaraku asuchi.",
+          "translatedSentence": "Thank you, I am coming inside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka nikatare tike samaya achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, kuhantu, mu sunuchi.",
+            "Nahin, mu samaya jane nahin.",
+            "Han, mu ghadi anichi."
+          ],
+          "correctAnswer": "Han, kuhantu, mu sunuchi.",
+          "translatedSentence": "Yes, please tell me, I am listening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daya kari tike aste kuhantu, mu bujhi paruchi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please speak a little slowly, I cannot understand.",
+            "Please speak a little louder, I cannot hear you.",
+            "Please say it once more, I have forgotten it."
+          ],
+          "correctAnswer": "Please speak a little slowly, I cannot understand."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus re jaga nahin, apana ethi basantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut dhanyabad pua, tumara mana bhala.",
+            "Bahut dhanyabad, mu bus re jae nahin.",
+            "Bahut dhanyabad, mu tikat kini nahin."
+          ],
+          "correctAnswer": "Bahut dhanyabad pua, tumara mana bhala.",
+          "translatedSentence": "Thank you very much, son, you have a good heart."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apananka saha katha hoi bhala lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was good to talk with you.",
+            "It was good to see your house.",
+            "It was good that you came early."
+          ],
+          "correctAnswer": "It was good to talk with you."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Arre, kete dina pare bheta hela, tume kemiti achha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhala achi, kintu kama bahut badhi gala.",
+            "Mu tumaku aji hin prathama thara dekhili.",
+            "Mu Puri jibi, jadi tume mote bata kuha."
+          ],
+          "correctAnswer": "Mu bhala achi, kintu kama bahut badhi gala.",
+          "translatedSentence": "I am fine, but my work has increased a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu tumaku bahut khoji thili, kintu tumara phone bandha thila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I looked for you a lot, but your phone was switched off.",
+            "I called you many times, but you never came.",
+            "I waited for you outside, because it was raining."
+          ],
+          "correctAnswer": "I looked for you a lot, but your phone was switched off."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume ebe bi Cuttack re rahucha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu ebe Bhubaneswar re rahuchi, karana mora kama sethi.",
+            "Han, mu Cuttack kebe jai nahin.",
+            "Nahin, mu Cuttack ra bata jane nahin."
+          ],
+          "correctAnswer": "Nahin, mu ebe Bhubaneswar re rahuchi, karana mora kama sethi.",
+          "translatedSentence": "No, I live in Bhubaneswar now, because my work is there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi tume samaya pao, tebe amara ghara ku bhojana pain asa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get time, come to our house for a meal.",
+            "When you have time, call me on the phone.",
+            "Since you have no time, we will meet some other day."
+          ],
+          "correctAnswer": "If you get time, come to our house for a meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bahut dina hela pakhala khai nahin, tume kana kahucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe chala, aaji dupura re pakhala aau dalma khaiba.",
+            "Tebe chala, mu pakhala ra naam kebe suni nahin.",
+            "Tebe chala, pakhala kouthi kiniba mu jane nahin."
+          ],
+          "correctAnswer": "Tebe chala, aaji dupura re pakhala aau dalma khaiba.",
+          "translatedSentence": "Then come, we will eat pakhala and dalma at noon today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame sedina Jagannath mandira jaithilu, kintu bhida bahut thila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We went to the Jagannath temple that day, but the crowd was huge.",
+            "We are going to the Jagannath temple today, and there is no crowd.",
+            "We could not go to the Jagannath temple, because it was raining."
+          ],
+          "correctAnswer": "We went to the Jagannath temple that day, but the crowd was huge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghara loka sabu kemiti achanti, pila mane bada heigale ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, semane ebe school jauchanti aau bhala padhuchanti.",
+            "Han, kintu mu tanka naam ebe bi jane nahin.",
+            "Nahin, mu pila mananku aji yaen dekhi nahin."
+          ],
+          "correctAnswer": "Han, semane ebe school jauchanti aau bhala padhuchanti.",
+          "translatedSentence": "Yes, they go to school now and they study well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote ebe jibaku heba, kintu ame puni bheta kariba to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Niscaya, aasanta saptaha re mu tumaku phone kariba.",
+            "Niscaya, kintu mu auto re jiba nahin.",
+            "Niscaya, mu ebe hin ghara pahanchi gali."
+          ],
+          "correctAnswer": "Niscaya, aasanta saptaha re mu tumaku phone kariba.",
+          "translatedSentence": "Of course, I will call you next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahut dina pare bheta hela, tumaku dekhi mote bhari khusi lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We met after a long time, and I was very happy to see you.",
+            "We meet every day, so seeing you is nothing special.",
+            "It has been a long time, but I still could not see you."
+          ],
+          "correctAnswer": "We met after a long time, and I was very happy to see you."
+        }
+      ]
+    }
+  ]
+}

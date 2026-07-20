@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara kana heichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora munda byatha karuchi.",
+            "Mu Puri jauchi.",
+            "Se mora bhai."
+          ],
+          "correctAnswer": "Mora munda byatha karuchi.",
+          "translatedSentence": "My head hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana bhala achanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu bhala nahin.",
+            "Ha, mu ebe ghara jauchi.",
+            "Nahin, se ethare nahanti."
+          ],
+          "correctAnswer": "Nahin, mu bhala nahin.",
+          "translatedSentence": "No, I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora peta byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My stomach hurts.",
+            "My hand hurts.",
+            "My stomach is full."
+          ],
+          "correctAnswer": "My stomach hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kouthi byatha karuchi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethare byatha karuchi.",
+            "Mu ghara re achi.",
+            "Aji sombara."
+          ],
+          "correctAnswer": "Ethare byatha karuchi.",
+          "translatedSentence": "It hurts here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote bhala lagu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not feel well.",
+            "I feel much better now.",
+            "I am not hungry."
+          ],
+          "correctAnswer": "I do not feel well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kichi ausadha khaicha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu kichi khai nahin.",
+            "Ha, mu pakhala khaili.",
+            "Mu ausadha dokan re kama kare."
+          ],
+          "correctAnswer": "Nahin, mu kichi khai nahin.",
+          "translatedSentence": "No, I have not taken anything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora gala byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat hurts.",
+            "My leg hurts.",
+            "My tooth hurts."
+          ],
+          "correctAnswer": "My throat hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote jara heichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe tike bisrama kara.",
+            "Tebe ame Puri jiba.",
+            "Tebe pakhala khaa."
+          ],
+          "correctAnswer": "Tebe tike bisrama kara.",
+          "translatedSentence": "Then rest a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji kama ku jai paribi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot go to work today.",
+            "I did not go to work today.",
+            "I will go to work tomorrow."
+          ],
+          "correctAnswer": "I cannot go to work today."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka kouthi byatha karuchi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora pithi byatha karuchi.",
+            "Mora ghara Cuttack re.",
+            "Mu daktar nuhen."
+          ],
+          "correctAnswer": "Mora pithi byatha karuchi.",
+          "translatedSentence": "My back hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora dui goda byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both my legs hurt.",
+            "Both my hands hurt.",
+            "My left leg hurts."
+          ],
+          "correctAnswer": "Both my legs hurt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara akhi kahinki lal heichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu kali ratire soi nahin.",
+            "Mu ratire pani piu nahin.",
+            "Mora danta byatha karuchi."
+          ],
+          "correctAnswer": "Mu kali ratire soi nahin.",
+          "translatedSentence": "I did not sleep last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora danta bahut byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth hurts a lot.",
+            "My throat hurts a lot.",
+            "My head hurts a little."
+          ],
+          "correctAnswer": "My tooth hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara nak bandha heichi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, kalithu bandha heichi.",
+            "Ha, mora akhi byatha karuchi.",
+            "Nahin, mora peta bhala nahin."
+          ],
+          "correctAnswer": "Ha, kalithu bandha heichi.",
+          "translatedSentence": "Yes, it has been blocked since yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora angulli re byatha achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a pain in my finger.",
+            "There is a pain in my leg.",
+            "There is no pain in my finger."
+          ],
+          "correctAnswer": "There is a pain in my finger."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka munda ghurauchi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tike munda ghurauchi.",
+            "Ha, mu ebe pani piili.",
+            "Nahin, mu ghara jauchi."
+          ],
+          "correctAnswer": "Ha, tike munda ghurauchi.",
+          "translatedSentence": "Yes, I feel a little dizzy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora sara sarira byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My whole body aches.",
+            "My whole body feels light.",
+            "My back aches a little."
+          ],
+          "correctAnswer": "My whole body aches."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mora gala bhitare byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe garam pani pia.",
+            "Tebe hata dhoi khaa.",
+            "Tebe thanda sarabata pia."
+          ],
+          "correctAnswer": "Tebe garam pani pia.",
+          "translatedSentence": "Then drink warm water."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apananka kana asubidha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tini dina hela mora jara chalichi.",
+            "Mu Bhubaneswar re rahe.",
+            "Mora naam Sanjay Sahu."
+          ],
+          "correctAnswer": "Tini dina hela mora jara chalichi.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kete dina hela apananka peta byatha karuchi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many days have you had this stomach pain?",
+            "How many days will you stay here?",
+            "Which part of your stomach hurts?"
+          ],
+          "correctAnswer": "How many days have you had this stomach pain?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kichi ausadha khaichanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu ghara re jara ausadha khaichi.",
+            "Ha, mu daktarnka pase kama kare.",
+            "Nahin, mu aji sakalu kichi khai nahin."
+          ],
+          "correctAnswer": "Ha, mu ghara re jara ausadha khaichi.",
+          "translatedSentence": "Yes, I took some fever medicine at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote ratire nida asu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot get any sleep at night.",
+            "I sleep very well at night.",
+            "I do not eat anything at night."
+          ],
+          "correctAnswer": "I cannot get any sleep at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku bami hauchi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, sakalu dui thara heichi.",
+            "Ha, mote bahut bhoka lagichi.",
+            "Nahin, mu kali asithili."
+          ],
+          "correctAnswer": "Ha, sakalu dui thara heichi.",
+          "translatedSentence": "Yes, twice since this morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu apananka rakta parikhya karibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will get your blood tested.",
+            "I will check your fever now.",
+            "I will give you some medicine."
+          ],
+          "correctAnswer": "I will get your blood tested."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kete dina re bhala hebi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chari pancha dina re bhala heijibe.",
+            "Ei ausadha bahut daami ate.",
+            "Apana ebe ghara jai parantu."
+          ],
+          "correctAnswer": "Chari pancha dina re bhala heijibe.",
+          "translatedSentence": "You will get better in four or five days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote jara achi au munda madhya byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a fever and my head hurts as well.",
+            "I have a fever but my head does not hurt.",
+            "I had a fever and now I am fine."
+          ],
+          "correctAnswer": "I have a fever and my head hurts as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kana khadya khai paribi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Halka khadya khaantu, tela masala khaantu nahin.",
+            "Pakhala au dalma mote bahut bhala lage.",
+            "Mu dokan re kichi khai paribi nahin."
+          ],
+          "correctAnswer": "Halka khadya khaantu, tela masala khaantu nahin.",
+          "translatedSentence": "Eat light food, and stay away from oil and spice."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apananku kana darkar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote jara pain ausadha darkar.",
+            "Mote Puri jiba pain gote auto darkar.",
+            "Mote tini kilo chaula darkar."
+          ],
+          "correctAnswer": "Mote jara pain ausadha darkar.",
+          "translatedSentence": "I need some medicine for fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei ausadha dine tini thara khaantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this medicine three times a day.",
+            "Take this medicine for three days.",
+            "Take this medicine twice a day."
+          ],
+          "correctAnswer": "Take this medicine three times a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pakhare daktarnka chithi achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ei dekhantu, mu sange anichi.",
+            "Ha, mu nije jane daktar atanti.",
+            "Nahin, mu ausadha bikri kare."
+          ],
+          "correctAnswer": "Ha, ei dekhantu, mu sange anichi.",
+          "translatedSentence": "Yes, look here, I have brought it with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khali peta re ei tablet khaantu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not take this tablet on an empty stomach.",
+            "Take this tablet on an empty stomach.",
+            "Do not take this tablet at night."
+          ],
+          "correctAnswer": "Do not take this tablet on an empty stomach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabu ausadha miligale kete taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabu miligale dui sha taka.",
+            "Ausadha dokan sakalu bandha achi.",
+            "Ei ausadha kali sakalre asiba."
+          ],
+          "correctAnswer": "Sabu miligale dui sha taka.",
+          "translatedSentence": "Two hundred rupees for everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kasa pain ei sirup ratire soiba age khaantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this cough syrup at night before you sleep.",
+            "Take this cough syrup in the morning before food.",
+            "This syrup is only for a fever, not for a cough."
+          ],
+          "correctAnswer": "Take this cough syrup at night before you sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kete dina ei ausadha khaibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pancha dina purapuri khaantu.",
+            "Ei ausadha bahut daami nuhen.",
+            "Apana kali punarbara asantu."
+          ],
+          "correctAnswer": "Pancha dina purapuri khaantu.",
+          "translatedSentence": "Take it for the full five days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei ausadha khaile tike nida asiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine will make you a little sleepy.",
+            "This medicine will take your pain away.",
+            "This medicine should be taken before food."
+          ],
+          "correctAnswer": "This medicine will make you a little sleepy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote gote pani botal madhya darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ethi bam pate achi.",
+            "Nahin, ausadha sesa heigala.",
+            "Ha, mu ebe ghara jauchi."
+          ],
+          "correctAnswer": "Ha, ethi bam pate achi.",
+          "translatedSentence": "Yes, it is right here on the left."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cough and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalithu mora kasa au sardi lagichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe garam pani piantu au tini dina bisrama karantu.",
+            "Tebe apana thanda pani piantu au bahara buluntu.",
+            "Tebe apana ratire bahara re soantu."
+          ],
+          "correctAnswer": "Tebe garam pani piantu au tini dina bisrama karantu.",
+          "translatedSentence": "Then drink warm water and rest for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali ratire mora jara bahut badhigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My fever went up a lot last night.",
+            "My fever came down a lot last night.",
+            "I had no fever at all last night."
+          ],
+          "correctAnswer": "My fever went up a lot last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara goda re kana heichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sidhi ru padigali au goda mochaki gala.",
+            "Mu kali bus re Cuttack jaithili.",
+            "Mora goda re nua juta achi."
+          ],
+          "correctAnswer": "Mu sidhi ru padigali au goda mochaki gala.",
+          "translatedSentence": "I fell down the stairs and sprained my leg."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora angulli katigala au rakta baharuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My finger is cut and it is bleeding.",
+            "My finger hurts but there is no blood.",
+            "I cut my finger yesterday morning."
+          ],
+          "correctAnswer": "My finger is cut and it is bleeding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana jara mapichanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, eka sha dui digree achi.",
+            "Ha, mote ratire bami heithila.",
+            "Nahin, mu kali sakalre asibi."
+          ],
+          "correctAnswer": "Ha, eka sha dui digree achi.",
+          "translatedSentence": "Yes, it is a hundred and two degrees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ete kasi kasi mora chhati byatha karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My chest hurts from coughing so much.",
+            "My throat hurts from coughing so much.",
+            "I only cough late at night."
+          ],
+          "correctAnswer": "My chest hurts from coughing so much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei ghaa ku mu kemiti sapha karibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sapha pani re dhoi patti bandhi deantu.",
+            "Setha upare garam tela lagai deantu.",
+            "Setha upare tike nuna chhitai deantu."
+          ],
+          "correctAnswer": "Sapha pani re dhoi patti bandhi deantu.",
+          "translatedSentence": "Wash it with clean water and tie a bandage on it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jara sangare mote thanda madhya laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Along with the fever I am getting chills too.",
+            "Along with the fever I am coughing too.",
+            "The fever is gone but the chills are still there."
+          ],
+          "correctAnswer": "Along with the fever I am getting chills too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji tumara jara kemiti achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ausadha khaila pare tike kam heichi.",
+            "Mu kali daktarnka pakhaku jaithili.",
+            "Mora goda ebe purapuri bhala achi."
+          ],
+          "correctAnswer": "Ausadha khaila pare tike kam heichi.",
+          "translatedSentence": "It has come down a little after the medicine."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jadi kali sudha jara kam na hue, tebe mu kana karibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebe punarbara mo pakhaku chali asantu.",
+            "Tebe apana ausadha bandha kari deantu.",
+            "Tebe apana sidha kama ku phiri jaantu."
+          ],
+          "correctAnswer": "Tebe punarbara mo pakhaku chali asantu.",
+          "translatedSentence": "Then come back to me again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ausadha bhala kama karuchi, kintu mote ebe bi durbala laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The medicine is working well, but I still feel weak.",
+            "The medicine is not working and I feel very weak.",
+            "The medicine is working well and I feel strong again."
+          ],
+          "correctAnswer": "The medicine is working well, but I still feel weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kali ru kama ku jai paribi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Au dui dina bisrama karantu, tapare jaantu.",
+            "Ha, apana aji hin jai parantu.",
+            "Seta apana ausadha dokan re puchantu."
+          ],
+          "correctAnswer": "Au dui dina bisrama karantu, tapare jaantu.",
+          "translatedSentence": "Rest for two more days, and go after that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sighra bhala heba pain apananku besi pani piba darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "To get better quickly you need to drink more water.",
+            "To get better quickly you need to eat more food.",
+            "You should not drink water before eating."
+          ],
+          "correctAnswer": "To get better quickly you need to drink more water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu ausadha bandha karideli, karana mote ebe bhala laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ausadha adha re bandha karantu nahin, purapuri sesa karantu.",
+            "Bhala katha, tebe apana bacha ausadha pheri deantu.",
+            "Tebe apana kali ru arambha karantu."
+          ],
+          "correctAnswer": "Ausadha adha re bandha karantu nahin, purapuri sesa karantu.",
+          "translatedSentence": "Do not stop the medicine halfway, finish the whole course."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi punarbara bami hue kimba jara badhe, tebe sange sange phone karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you vomit again or the fever rises, call me at once.",
+            "If you vomit again, take one more tablet at once.",
+            "If the fever comes down, you can stop the medicine."
+          ],
+          "correctAnswer": "If you vomit again or the fever rises, call me at once."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhanyabada daktar babu, ebe mote bahut bhala laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhala katha, kintu au sata dina dhyana deantu.",
+            "Tebe apana ei ausadha au tini mas khaantu.",
+            "Mu apananka pain nua rakta parikhya likhi debi."
+          ],
+          "correctAnswer": "Bhala katha, kintu au sata dina dhyana deantu.",
+          "translatedSentence": "That is good, but take care for another seven days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji sakalu mora jara nahin, tenu mu Jagannath mandira jibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had no fever since morning, so I will go to the Jagannath temple.",
+            "I still have a fever, so I will not go to the Jagannath temple.",
+            "If my fever goes down, I will go to the Jagannath temple."
+          ],
+          "correctAnswer": "I have had no fever since morning, so I will go to the Jagannath temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume purapuri bhala heigale, ame Puri buliba jiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, kintu mu ebe ete durare jai paribi nahin.",
+            "Ha, mu ebe hin auto daki dauchi.",
+            "Nahin, mu kebe bi Puri jai nahin."
+          ],
+          "correctAnswer": "Ha, kintu mu ebe ete durare jai paribi nahin.",
+          "translatedSentence": "Yes, but I cannot travel that far just yet."
+        }
+      ]
+    }
+  ]
+}

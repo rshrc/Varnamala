@@ -1,0 +1,505 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj ki bar?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aaj sombar.", "Kaal shukrobar.", "Aaj amar chhuti."],
+          "correctAnswer": "Aaj sombar.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj brihospotibar.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Today is Thursday.", "Today is Tuesday.", "Tomorrow is Thursday."],
+          "correctAnswer": "Today is Thursday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaal ki bar hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kaal mongolbar hobe.", "Aaj mongolbar chilo.", "Kaal ami bari thakbo."],
+          "correctAnswer": "Kaal mongolbar hobe.",
+          "translatedSentence": "Tomorrow will be Tuesday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Robibar amar chhuti.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Sunday is my day off.", "Monday is my day off.", "Sunday is a working day."],
+          "correctAnswer": "Sunday is my day off."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar chhuti kon bar?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar chhuti shonibar.", "Amar bhai shonibar ashe.", "Ami shukrobar kaj kori."],
+          "correctAnswer": "Amar chhuti shonibar.",
+          "translatedSentence": "My day off is Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shukrobar ami bajare jai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I go to the market on Friday.", "I go to the market on Saturday.", "On Friday I go to the office."],
+          "correctAnswer": "I go to the market on Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Budhbar tumi ki koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Budhbar ami kaj kori.", "Budhbar amar bhalo lage.", "Budhbar chhuti noy."],
+          "correctAnswer": "Budhbar ami kaj kori.",
+          "translatedSentence": "On Wednesday I work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shonibar ami barite thaki.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["On Saturday I stay at home.", "On Sunday I stay at home.", "On Saturday I work from home."],
+          "correctAnswer": "On Saturday I stay at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saptaher prothom din kon bar?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Robibar saptaher prothom din.", "Shonibar saptaher shesh din.", "Sombar amar priyo din."],
+          "correctAnswer": "Robibar saptaher prothom din.",
+          "translatedSentence": "Sunday is the first day of the week."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhon tumi ki korcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ekhon ami cha khacchi.", "Gotokal ami cha khelam.", "Pore ami cha khabo."],
+          "correctAnswer": "Ekhon ami cha khacchi.",
+          "translatedSentence": "I am having tea now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gotokal ami Howrah bridge dekhechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Yesterday I saw the Howrah bridge.", "Today I am looking at the Howrah bridge.", "Tomorrow I will see the Howrah bridge."],
+          "correctAnswer": "Yesterday I saw the Howrah bridge."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaal tumi ki korbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kaal ami bajare jabo.", "Gotokal ami bajare gechilam.", "Ekhon ami bajare achi."],
+          "correctAnswer": "Kaal ami bajare jabo.",
+          "translatedSentence": "Tomorrow I will go to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhon ami kaj korchi, pore phone korbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am working now, I will call later.", "I am calling now, I will work later.", "I worked yesterday and I will call tomorrow."],
+          "correctAnswer": "I am working now, I will call later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kokhon ashbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami ektu pore ashbo.", "Ami gotokal esechilam.", "Ami ekhon bari jacchi."],
+          "correctAnswer": "Ami ektu pore ashbo.",
+          "translatedSentence": "I will come a little later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj noy, kaal esho.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Not today, come tomorrow.", "Not today, come a little later.", "Come today, not tomorrow."],
+          "correctAnswer": "Not today, come tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gotokal tumi kothay chile?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Gotokal ami Kolkatay chilam.", "Kaal ami Kolkatay jabo.", "Ekhon ami Kolkatay achi."],
+          "correctAnswer": "Gotokal ami Kolkatay chilam.",
+          "translatedSentence": "Yesterday I was in Kolkata."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhon amar somoy nei, pore kotha bolbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I have no time now, we will talk later.", "I have time now, so let us talk.", "I had no time yesterday, we talked later."],
+          "correctAnswer": "I have no time now, we will talk later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mishti ekhon khabe na pore?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Mishti ami ekhon khabo.", "Mishti ami gotokal kinechi.", "Mishti amar bhalo lage na."],
+          "correctAnswer": "Mishti ami ekhon khabo.",
+          "translatedSentence": "I will eat the sweets now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhon koyta baje?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ekhon noyta baje.", "Ekhon shokal hoyeche.", "Ekhon amar deri hocche."],
+          "correctAnswer": "Ekhon noyta baje.",
+          "translatedSentence": "It is nine o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train sare choyta baje charbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["The train will leave at half past six.", "The train will leave at six o'clock.", "The train left at half past six."],
+          "correctAnswer": "The train will leave at half past six."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar office koyta theke shuru?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar office doshta theke shuru.", "Amar office Kolkatay.", "Ami office e kaj kori."],
+          "correctAnswer": "Amar office doshta theke shuru.",
+          "translatedSentence": "My office starts at ten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj shokal satta baje uthi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I get up at seven every morning.", "I get up at eight every morning.", "I go to sleep at seven every night."],
+          "correctAnswer": "I get up at seven every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Metro koyta porjonto chole?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Metro raat sare noyta porjonto chole.", "Metro te bhir onek beshi.", "Metro ekhon bondho ache."],
+          "correctAnswer": "Metro raat sare noyta porjonto chole.",
+          "translatedSentence": "The metro runs until half past nine at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dupur barota baje ami bhaat khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I eat rice at twelve noon.", "I eat rice at twelve at night.", "I eat rice at one in the afternoon."],
+          "correctAnswer": "I eat rice at twelve noon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kokhon cha khabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Bikel charte baje cha khabo.", "Cha amar khub bhalo lage.", "Ami cha banate jani."],
+          "correctAnswer": "Bikel charte baje cha khabo.",
+          "translatedSentence": "I will have tea at four in the afternoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sowa aatta baje amar bus chare.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My bus leaves at a quarter past eight.", "My bus leaves at a quarter to eight.", "My bus leaves at half past eight."],
+          "correctAnswer": "My bus leaves at a quarter past eight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi koyta baje ghumate jao?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami raat egarota baje ghumate jai.", "Ami raate bhalo ghumai.", "Ami shokale taratari uthi."],
+          "correctAnswer": "Ami raat egarota baje ghumate jai.",
+          "translatedSentence": "I go to sleep at eleven at night."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar jonmodin kon mashe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar jonmodin March mashe.", "Amar bhaier jonmodin aaj.", "Jonmodin amar khub priyo din."],
+          "correctAnswer": "Amar jonmodin March mashe.",
+          "translatedSentence": "My birthday is in March."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kolkatay June mashe borsha shuru hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["In Kolkata the monsoon begins in June.", "In Kolkata the monsoon ends in June.", "In Kolkata winter begins in June."],
+          "correctAnswer": "In Kolkata the monsoon begins in June."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Durga Pujo kon mashe hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Durga Pujo October mashe hoy.", "Durga Pujo amader boro utsob.", "Durga Pujoy ami barite thaki."],
+          "correctAnswer": "Durga Pujo October mashe hoy.",
+          "translatedSentence": "Durga Pujo takes place in October."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "December mashe Kolkatay thanda pore.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["It gets cold in Kolkata in December.", "It gets cold in Kolkata in July.", "It rains in Kolkata in December."],
+          "correctAnswer": "It gets cold in Kolkata in December."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kobe Kolkatay ashbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami November mashe ashbo.", "Ami Kolkata theke ashchi.", "Ami Kolkatay thaki na."],
+          "correctAnswer": "Ami November mashe ashbo.",
+          "translatedSentence": "I will come in November."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Grishmokale ami roj doi khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["In summer I eat curd every day.", "In winter I eat curd every day.", "In summer I drink tea every day."],
+          "correctAnswer": "In summer I eat curd every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boshontokal ki tomar bhalo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hyan, boshontokal amar khub bhalo lage.", "Na, ami boshonte Kolkatay thaki na.", "Boshonto March mashe shuru hoy."],
+          "correctAnswer": "Hyan, boshontokal amar khub bhalo lage.",
+          "translatedSentence": "Yes, I like the spring very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar chhuti April mashe shesh hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My holiday will end in April.", "My holiday will begin in April.", "My holiday ended in April."],
+          "correctAnswer": "My holiday will end in April."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj koto tarikh?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aaj panch tarikh.", "Aaj ekhon May mash.", "Aaj amar chhuti ache."],
+          "correctAnswer": "Aaj panch tarikh.",
+          "translatedSentence": "Today is the fifth."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi roj koyta baje otho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami roj choyta baje uthi.", "Ami roj deri kore ghumate jai.", "Ami roj bikele hanti."],
+          "correctAnswer": "Ami roj choyta baje uthi.",
+          "translatedSentence": "I get up at six every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghum theke uthe ami ek cup cha khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["After waking up I drink a cup of tea.", "Before going to sleep I drink a cup of tea.", "After waking up I eat a little rice."],
+          "correctAnswer": "After waking up I drink a cup of tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi shokale ki khao?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Shokale ami ruti ar dim khai.", "Raate ami bhaat ar macher jhol khai.", "Shokale ami rannaghore thaki."],
+          "correctAnswer": "Shokale ami ruti ar dim khai.",
+          "translatedSentence": "In the morning I eat roti and eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami tram e kore office jai, karon tram e bhir kom.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I go to the office by tram because the tram is less crowded.", "I go to the office by metro because the metro is less crowded.", "I go to the office by tram even though the tram is crowded."],
+          "correctAnswer": "I go to the office by tram because the tram is less crowded."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dupure tumi kothay khao?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Dupure ami office er canteen e khai.", "Dupure ami bhaat ar dal khai.", "Dupure amar khide pay na."],
+          "correctAnswer": "Dupure ami office er canteen e khai.",
+          "translatedSentence": "At noon I eat in the office canteen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaj shesh kore ami bikele bari phiri.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["After finishing work I come home in the evening.", "After finishing work I go to the market in the evening.", "Before starting work I come home in the evening."],
+          "correctAnswer": "After finishing work I come home in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raate ghumanor age tumi ki koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Raate ghumanor age ami boi pori.", "Shokale uthe ami khoborer kagoj pori.", "Ami raate taratari ghumate jai."],
+          "correctAnswer": "Raate ghumanor age ami boi pori.",
+          "translatedSentence": "Before going to sleep at night I read a book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj raate macher jhol ar bhaat khai, kintu mishti khai na.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Every night I eat fish curry and rice, but I do not eat sweets.", "Every night I eat fish curry and rice, and sweets as well.", "Every night I eat only rice, but no fish curry."],
+          "correctAnswer": "Every night I eat fish curry and rice, but I do not eat sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar din kemon kate?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar din byasto kate, kintu bhaloi lage.", "Amar bari theke office khub kachhe.", "Amar din ta aaj shuru hoyeche."],
+          "correctAnswer": "Amar din byasto kate, kintu bhaloi lage.",
+          "translatedSentence": "My days are busy, but I quite like it."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kaal bikele free achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hyan, kaal charte bajar por ami free achi.", "Na, gotokal bikele ami free chilam na.", "Ami roj bikele office e kaj kori."],
+          "correctAnswer": "Hyan, kaal charte bajar por ami free achi.",
+          "translatedSentence": "Yes, I am free tomorrow after four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apnar somoy thake, tahole budhbar dekha korte pari.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If you have the time, we can meet on Wednesday.", "If I have the time, I will call you on Wednesday.", "Since you have no time, let us meet on Thursday."],
+          "correctAnswer": "If you have the time, we can meet on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amra kothay dekha korbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Chalun, Howrah bridge er kachhe dekha kori.", "Howrah bridge theke metro pawa jay.", "Ami Howrah bridge kokhono dekhini."],
+          "correctAnswer": "Chalun, Howrah bridge er kachhe dekha kori.",
+          "translatedSentence": "Let us meet near the Howrah bridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sombar amar meeting ache, tai mongolbar korle bhalo hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I have a meeting on Monday, so Tuesday would be better.", "I have a meeting on Tuesday, so Monday would be better.", "I have no meeting on Monday, so Monday would be fine."],
+          "correctAnswer": "I have a meeting on Monday, so Tuesday would be better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni koyta baje ashte parben?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami sare satta baje ashte parbo.", "Gotokal ami ashte parini.", "Ami ashte chai, kintu jani na kobe."],
+          "correctAnswer": "Ami sare satta baje ashte parbo.",
+          "translatedSentence": "I can come at half past seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ektu deri kore ashbo, karon office theke berote deri hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I will come a little late, because I will leave the office late.", "I will come early, because I will leave the office early.", "I will come a little late, but I will leave the office early."],
+          "correctAnswer": "I will come a little late, because I will leave the office late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shonibar bikele cha khete jabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hyan, cholo shonibar cha khete jai.", "Na, ami cha kokhono khai na.", "Shonibar ami tomake phone korechilam."],
+          "correctAnswer": "Hyan, cholo shonibar cha khete jai.",
+          "translatedSentence": "Yes, let us go for tea on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tahole kotha roilo, brihospotibar sare panchtay dekha hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["So it is settled, we will meet on Thursday at half past five.", "So it is settled, we will meet on Friday at half past five.", "Nothing is settled yet, so let us meet on Thursday evening."],
+          "correctAnswer": "So it is settled, we will meet on Thursday at half past five."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jodi shedin brishti hoy, tahole ki korbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Brishti hole amra pore abar din thik korbo.", "Brishti holeo ami bajare jabo.", "Gotokal brishti hoyechilo, tai jete parini."],
+          "correctAnswer": "Brishti hole amra pore abar din thik korbo.",
+          "translatedSentence": "If it rains, we will fix another day later."
+        }
+      ]
+    }
+  ]
+}

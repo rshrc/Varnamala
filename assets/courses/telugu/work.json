@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru emi pani chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu teacher ni.",
+            "Naaku chai kaavali.",
+            "Nenu intiki veltunnanu."
+          ],
+          "correctAnswer": "Nenu teacher ni.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu office lo pani chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work in an office.",
+            "I am going to the office.",
+            "My office is nearby."
+          ],
+          "correctAnswer": "I work in an office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkada pani chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad lo pani chestanu.",
+            "Naaku ee pani telusu.",
+            "Nenu roju baagunnanu."
+          ],
+          "correctAnswer": "Nenu Hyderabad lo pani chestanu.",
+          "translatedSentence": "I work in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atanu doctor ga pani chestadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He works as a doctor.",
+            "She works as a doctor.",
+            "He wants to be a doctor."
+          ],
+          "correctAnswer": "He works as a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru student aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu college lo chaduvutunnanu.",
+            "Ledu, naaku college telusu.",
+            "Avunu, naaku ippudu pani undi."
+          ],
+          "correctAnswer": "Avunu, nenu college lo chaduvutunnanu.",
+          "translatedSentence": "Yes, I am studying in college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aame engineer ga pani chestundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She works as an engineer.",
+            "She is studying to be an engineer.",
+            "He works as an engineer."
+          ],
+          "correctAnswer": "She works as an engineer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee office ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa office Hitech City lo undi.",
+            "Naa office chinnadi ga undi.",
+            "Naaku office ante ishtam."
+          ],
+          "correctAnswer": "Naa office Hitech City lo undi.",
+          "translatedSentence": "My office is in Hitech City."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee pani nachutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this work.",
+            "I do not like this work.",
+            "I want this work."
+          ],
+          "correctAnswer": "I like this work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee pani baagundaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, chaala baagundi.",
+            "Ledu, naaku pani telidu.",
+            "Avunu, nenu ippude veltunnanu."
+          ],
+          "correctAnswer": "Avunu, chaala baagundi.",
+          "translatedSentence": "Yes, it is very good."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Taragati eppudu modalavutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Taragati tommidi gantalaki modalavutundi.",
+            "Taragati chaala baagundi.",
+            "Naaku taragati lo pustakam kaavali."
+          ],
+          "correctAnswer": "Taragati tommidi gantalaki modalavutundi.",
+          "translatedSentence": "Class starts at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa pustakam ikkada ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My book is not here.",
+            "My book is here.",
+            "This is not my book."
+          ],
+          "correctAnswer": "My book is not here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ee paatam artham ayindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, konchem cheppandi.",
+            "Avunu, naaku kotta pustakam kaavali.",
+            "Ledu, nenu taragati ki veltunnanu."
+          ],
+          "correctAnswer": "Ledu, konchem cheppandi.",
+          "translatedSentence": "No, please explain it a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teacher boardu meeda raastunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the board.",
+            "The teacher is reading from the book.",
+            "The students are writing on the board."
+          ],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeku ee prashna samaadhanam telusaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naaku telidu.",
+            "Avunu, nenu boardu meeda raasanu.",
+            "Ledu, nenu paatam vintunnanu."
+          ],
+          "correctAnswer": "Ledu, naaku telidu.",
+          "translatedSentence": "No, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu taragati lo mundu kurchunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sitting in the front of the class.",
+            "I am sitting at the back of the class.",
+            "I am standing in front of the class."
+          ],
+          "correctAnswer": "I am sitting in the front of the class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ee roju paatam vinnavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu baaga vinnanu.",
+            "Ledu, naa pustakam kotta di.",
+            "Avunu, nenu tarvata raastanu."
+          ],
+          "correctAnswer": "Avunu, nenu baaga vinnanu.",
+          "translatedSentence": "Yes, I listened carefully."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee paatam konchem kastam ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This lesson is a little difficult.",
+            "This lesson is very easy.",
+            "This book is a little difficult."
+          ],
+          "correctAnswer": "This lesson is a little difficult."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee taragati lo entha mandi unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa taragati lo muppai mandi unnaru.",
+            "Maa taragati chaala peddadi ga undi.",
+            "Maa taragati lo pustakalu unnayi."
+          ],
+          "correctAnswer": "Maa taragati lo muppai mandi unnaru.",
+          "translatedSentence": "There are thirty people in our class."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Desk, Email And Meeting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru aa email pampaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu ippude pampanu.",
+            "Ledu, naaku email telusu.",
+            "Avunu, nenu meeting lo unnanu."
+          ],
+          "correctAnswer": "Avunu, nenu ippude pampanu.",
+          "translatedSentence": "Yes, I just sent it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting rendu gantalaki undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The meeting is at two o'clock.",
+            "The meeting is at three o'clock.",
+            "The meeting went on for two hours."
+          ],
+          "correctAnswer": "The meeting is at two o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee boss ekkada unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aayana meeting lo unnaru.",
+            "Aayana ki naa pani telusu.",
+            "Aayana repu email pampistaru."
+          ],
+          "correctAnswer": "Aayana meeting lo unnaru.",
+          "translatedSentence": "He is in a meeting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa desk kitiki daggara undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My desk is near the window.",
+            "My desk is near the door.",
+            "My chair is near the window."
+          ],
+          "correctAnswer": "My desk is near the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee file evaru pampaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Manager pampaaru.",
+            "File naa desk meeda undi.",
+            "Nenu meeting ki veltunnanu."
+          ],
+          "correctAnswer": "Manager pampaaru.",
+          "translatedSentence": "The manager sent it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu ippudu busy ga unnanu, tarvata matladutanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am busy now, I will talk later.",
+            "I am free now, we can talk.",
+            "I was busy yesterday, so I did not talk."
+          ],
+          "correctAnswer": "I am busy now, I will talk later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting ki nenu kuda raavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, meeru tappakunda raavaali.",
+            "Ledu, meeting chaala baagundi.",
+            "Avunu, nenu file pampanu."
+          ],
+          "correctAnswer": "Avunu, meeru tappakunda raavaali.",
+          "translatedSentence": "Yes, you must definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku roju chaala emails vastayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get a lot of emails every day.",
+            "I send a lot of emails every day.",
+            "I got only one email today."
+          ],
+          "correctAnswer": "I get a lot of emails every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pani eppudu aipotundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saayantram lopu aipotundi.",
+            "Ee pani chaala kastam ga undi.",
+            "Nenu ee pani roju chestanu."
+          ],
+          "correctAnswer": "Saayantram lopu aipotundi.",
+          "translatedSentence": "It will be finished by the evening."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework And Exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu homework chesavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, ratri chestanu.",
+            "Avunu, naaku repu pareeksha undi.",
+            "Ledu, naaku ee pustakam nachindi."
+          ],
+          "correctAnswer": "Ledu, ratri chestanu.",
+          "translatedSentence": "No, I will do it at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku repu pareeksha undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have an exam tomorrow.",
+            "I had an exam yesterday.",
+            "I have a class tomorrow."
+          ],
+          "correctAnswer": "I have an exam tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu entha sepu chaduvutavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu roju rendu gantalu chaduvutanu.",
+            "Nenu roju college ki veltanu.",
+            "Naaku chaduvu ante ishtam."
+          ],
+          "correctAnswer": "Nenu roju rendu gantalu chaduvutanu.",
+          "translatedSentence": "I study for two hours every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu pareeksha kosam baaga chaduvutunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am studying hard for the exam.",
+            "I am not studying for the exam.",
+            "I studied hard for the exam."
+          ],
+          "correctAnswer": "I am studying hard for the exam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pareeksha ela raasavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baagane raasanu, kaani prashnalu kastam ga unnayi.",
+            "Naaku pareeksha ante bhayam ledu.",
+            "Nenu ippude pareeksha ki veltunnanu."
+          ],
+          "correctAnswer": "Baagane raasanu, kaani prashnalu kastam ga unnayi.",
+          "translatedSentence": "I did fine, but the questions were hard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee lekka artham kaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not understand this sum.",
+            "I understood this sum.",
+            "I did not write this sum."
+          ],
+          "correctAnswer": "I did not understand this sum."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeku enni marks vachayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku enabhai marks vachayi.",
+            "Naaku marks ante ishtam ledu.",
+            "Nenu marks boardu meeda chusanu."
+          ],
+          "correctAnswer": "Naaku enabhai marks vachayi.",
+          "translatedSentence": "I got eighty marks."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee samvatsaram nenu inka baaga chadavaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to study even harder this year.",
+            "I studied even harder this year.",
+            "I want to study something new this year."
+          ],
+          "correctAnswer": "I have to study even harder this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu taragati ki vastavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naaku selavu undi.",
+            "Avunu, naaku pareeksha kastam ga undi.",
+            "Ledu, nenu paatam vinnanu."
+          ],
+          "correctAnswer": "Ledu, naaku selavu undi.",
+          "translatedSentence": "No, I have a holiday."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru roju enni gantalaki office ki veltaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu roju tommidi gantalaki veltanu.",
+            "Nenu roju auto lo veltanu.",
+            "Naaku office ante ishtam ledu."
+          ],
+          "correctAnswer": "Nenu roju tommidi gantalaki veltanu.",
+          "translatedSentence": "I go at nine o'clock every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu ivvala konchem aalasyam ga vachanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came a little late today.",
+            "I came a little early today.",
+            "I did not come at all today."
+          ],
+          "correctAnswer": "I came a little late today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enduku inta aalasyam ayindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku auto dorakaledu, anduke aalasyam ayindi.",
+            "Naaku samayam baaga telusu.",
+            "Nenu meeting lo kurchunnanu."
+          ],
+          "correctAnswer": "Naaku auto dorakaledu, anduke aalasyam ayindi.",
+          "translatedSentence": "I could not find an auto, that is why I was late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Repu naaku selavu kaavali, endukante maa amma hospital ki veltunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need leave tomorrow because my mother is going to the hospital.",
+            "I took leave yesterday because my mother was in the hospital.",
+            "I do not need leave tomorrow, my mother is coming home."
+          ],
+          "correctAnswer": "I need leave tomorrow because my mother is going to the hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru saayantram enni gantalaki intiki veltaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu aaru gantalaki intiki veltanu.",
+            "Nenu bus lo intiki veltanu.",
+            "Naaku intiki vellali, pani ledu."
+          ],
+          "correctAnswer": "Nenu aaru gantalaki intiki veltanu.",
+          "translatedSentence": "I go home at six o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vaaram naaku rendu rojulu selavu undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two days off this week.",
+            "I had two days off last week.",
+            "I have two days of work left this week."
+          ],
+          "correctAnswer": "I have two days off this week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ee vaaram selavu tesukuntunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, sanivaram nenu raanu.",
+            "Ledu, naaku selavu ante ishtam.",
+            "Avunu, nenu meeting lo cheppanu."
+          ],
+          "correctAnswer": "Avunu, sanivaram nenu raanu.",
+          "translatedSentence": "Yes, I will not come on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu aalasyam ga velthe, boss ki konchem cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I am late, please tell the boss.",
+            "If I am early, please tell the boss.",
+            "I already told the boss that I was late."
+          ],
+          "correctAnswer": "If I am late, please tell the boss."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu meeru eppudu vastaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu padi gantalaki vastanu, konchem pani undi.",
+            "Nenu nenna chaala aalasyam ga vachanu.",
+            "Naaku samayam ledu, nenu ippude veltanu."
+          ],
+          "correctAnswer": "Nenu padi gantalaki vastanu, konchem pani undi.",
+          "translatedSentence": "I will come at ten, I have some work."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and promotions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vachhe samvatsaram mee plan emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu kotta pani vetukutunnanu, endukante naaku ekkuva jeetam kaavali.",
+            "Nenu nenna office ki vellaledu, naaku selavu undi.",
+            "Naaku ippudu pani ledu, kaani nenu chaduvutunnanu."
+          ],
+          "correctAnswer": "Nenu kotta pani vetukutunnanu, endukante naaku ekkuva jeetam kaavali.",
+          "translatedSentence": "I am looking for a new job because I want a higher salary."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku promotion vachindi, kaani pani inka ekkuva ayindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got a promotion, but the work has increased even more.",
+            "I did not get a promotion, but the work is less now.",
+            "I want a promotion because the work has increased."
+          ],
+          "correctAnswer": "I got a promotion, but the work has increased even more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enduku ee udyogam maarutunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa office chaala dooram, anduke maarutunnanu.",
+            "Naaku udyogam ledu, nenu inka chaduvutunnanu.",
+            "Nenu ee office lo mudu samvatsaralu pani chesanu."
+          ],
+          "correctAnswer": "Naa office chaala dooram, anduke maarutunnanu.",
+          "translatedSentence": "My office is very far, that is why I am changing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu baaga pani cheste, vachhe samvatsaram promotion vastundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work well, I will get a promotion next year.",
+            "I worked well last year, so I got a promotion.",
+            "Even if I work well, I will not get a promotion."
+          ],
+          "correctAnswer": "If I work well, I will get a promotion next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee lakshyam emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa lakshyam manager avvadam, kaani inka konchem samayam padutundi.",
+            "Nenu ippudu manager ga pani chestunnanu, chaala baagundi.",
+            "Naaku ee nela selavu kaavali, endukante nenu alasipoyanu."
+          ],
+          "correctAnswer": "Naa lakshyam manager avvadam, kaani inka konchem samayam padutundi.",
+          "translatedSentence": "My goal is to become a manager, but it will take a little more time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu Telugu nerchukovaali, endukante maa team antha Hyderabad lo undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to learn Telugu because my whole team is in Hyderabad.",
+            "I learned Telugu because my whole team is in Hyderabad.",
+            "I want to move to Hyderabad because my whole team is there."
+          ],
+          "correctAnswer": "I have to learn Telugu because my whole team is in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ee samvatsaram emi nerchukunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu kotta software nerchukunnanu, ippudu pani sulabham ga undi.",
+            "Nenu vachhe samvatsaram nerchukuntanu, ippudu samayam ledu.",
+            "Naaku nerchukovadam ante ishtam ledu, kaani tappadu."
+          ],
+          "correctAnswer": "Nenu kotta software nerchukunnanu, ippudu pani sulabham ga undi.",
+          "translatedSentence": "I learned new software, and now the work is easy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee udyogam nachutundi, kaani jeetam takkuva ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this job, but the salary is low.",
+            "I do not like this job, but the salary is good.",
+            "I like this job and the salary is good too."
+          ],
+          "correctAnswer": "I like this job, but the salary is low."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru vachhe samvatsaram kuda Hyderabad lo untara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, nenu Vijayawada veltunnanu, akkada kotta office undi.",
+            "Avunu, nenu nenna Vijayawada nunchi vachanu.",
+            "Ledu, naaku Hyderabad telidu, kaani nenu chustanu."
+          ],
+          "correctAnswer": "Ledu, nenu Vijayawada veltunnanu, akkada kotta office undi.",
+          "translatedSentence": "No, I am going to Vijayawada, there is a new office there."
+        }
+      ]
+    }
+  ]
+}

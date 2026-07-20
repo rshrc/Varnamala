@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman kap saah khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi dinte dui kap saah khau.",
+            "Moi saah bor bhal pau.",
+            "Saahtu etiya bor gorom."
+          ],
+          "correctAnswer": "Moi dinte dui kap saah khau.",
+          "translatedSentence": "I drink two cups of tea a day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok tinita pitha lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need three pithas.",
+            "I have three pithas.",
+            "I like pitha a lot."
+          ],
+          "correctAnswer": "I need three pithas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Iyat kiman jon manuh ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Iyat pasjon manuh ase.",
+            "Manuhjon Jorhatot thake.",
+            "Moi iyat ekelai aso."
+          ],
+          "correctAnswer": "Iyat pasjon manuh ase.",
+          "translatedSentence": "There are five people here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor sarita kolom ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have four pens.",
+            "I need four pens.",
+            "I have four books."
+          ],
+          "correctAnswer": "I have four pens."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar kiman jon bhai ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor dujon bhai ase.",
+            "Mor bhai Guwahatit thake.",
+            "Moi bhaior logot thako."
+          ],
+          "correctAnswer": "Mor dujon bhai ase.",
+          "translatedSentence": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor hatot doh taka ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have ten rupees on me.",
+            "I need ten rupees.",
+            "I have ten rupees in the bank."
+          ],
+          "correctAnswer": "I have ten rupees on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman ta dim lobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi soyta dim lom.",
+            "Dim ekta doh taka.",
+            "Dokanot aji dim nai."
+          ],
+          "correctAnswer": "Moi soyta dim lom.",
+          "translatedSentence": "I will take six eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dokanot xatjon manuh kam kore.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seven people work in this shop.",
+            "Seven people came to this shop.",
+            "There are seven shops here."
+          ],
+          "correctAnswer": "Seven people work in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar kiman ta kola lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok nota kola lage.",
+            "Kolabur bor mitha.",
+            "Kola mor bhal nalage."
+          ],
+          "correctAnswer": "Mok nota kola lage.",
+          "translatedSentence": "I need nine bananas."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar klaasot kiman jon satro ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor klaasot tirix jon satro ase.",
+            "Mor klaas khon Guwahatit hoy.",
+            "Satrobur etiya ghorot ase."
+          ],
+          "correctAnswer": "Mor klaasot tirix jon satro ase.",
+          "translatedSentence": "There are thirty students in my class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor ghorot egaro khon boi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have eleven books at home.",
+            "I have twelve books at home.",
+            "I bought eleven books today."
+          ],
+          "correctAnswer": "I have eleven books at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Basot kiman jon manuh ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Basot ponsax jon manuh ase.",
+            "Bas khon Jorhatoloi jai.",
+            "Moi basot uthilo."
+          ],
+          "correctAnswer": "Basot ponsax jon manuh ase.",
+          "translatedSentence": "There are fifty people on the bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei gaonot kuri jon manuh thake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Twenty people live in this village.",
+            "Twenty people came to this village.",
+            "There are twenty houses in this village."
+          ],
+          "correctAnswer": "Twenty people live in this village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman ta pitha banale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi barota pitha banalo.",
+            "Pitha banabo bor tan kam.",
+            "Mor maai pitha bhal banai."
+          ],
+          "correctAnswer": "Moi barota pitha banalo.",
+          "translatedSentence": "I made twelve pithas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tai ponerota aam kinile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She bought fifteen mangoes.",
+            "She sold fifteen mangoes.",
+            "She bought fifty mangoes."
+          ],
+          "correctAnswer": "She bought fifteen mangoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei sohorot kiman khon skul ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei sohorot sallix khon skul ase.",
+            "Skul khon bor puroni.",
+            "Mor suwali ei skulot pore."
+          ],
+          "correctAnswer": "Ei sohorot sallix khon skul ase.",
+          "translatedSentence": "There are forty schools in this city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Exo jon manuh ei sabhat ahisil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A hundred people had come to this meeting.",
+            "A hundred people will come to this meeting.",
+            "Fifty people had come to this meeting."
+          ],
+          "correctAnswer": "A hundred people had come to this meeting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bagisat kiman jon manuh kam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bagisat duixo jon manuh kam kore.",
+            "Bagisa khon bor dangor.",
+            "Moi kali bagisaloi jam."
+          ],
+          "correctAnswer": "Bagisat duixo jon manuh kam kore.",
+          "translatedSentence": "Two hundred people work in the tea garden."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei gamosa khonor dam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei gamosa khon duixo taka.",
+            "Gamosa khon bor dhuniya hoise.",
+            "Moi ekhon gamosa bisarisu."
+          ],
+          "correctAnswer": "Ei gamosa khon duixo taka.",
+          "translatedSentence": "This gamosa costs two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek kilo masor dam pasxo taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A kilo of fish costs five hundred rupees.",
+            "A kilo of fish costs five thousand rupees.",
+            "I bought a kilo of fish yesterday."
+          ],
+          "correctAnswer": "A kilo of fish costs five hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dam olop kom koribo pare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ase, kuri taka kom kori dim.",
+            "Mor hatot khuchura taka nai.",
+            "Ei dokan sondhiya bondho hoy."
+          ],
+          "correctAnswer": "Thik ase, kuri taka kom kori dim.",
+          "translatedSentence": "All right, I will take twenty rupees off."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor hatot ponsax taka he ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only have fifty rupees on me.",
+            "I have five hundred rupees on me.",
+            "I need fifty rupees more."
+          ],
+          "correctAnswer": "I only have fifty rupees on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthot kiman taka hol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muthot tinixo taka hol.",
+            "Taka mor bengot ase.",
+            "Moi kali bazarloi jam."
+          ],
+          "correctAnswer": "Muthot tinixo taka hol.",
+          "translatedSentence": "It comes to three hundred rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dam bor beshi, moi nolou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This price is too high, I will not take it.",
+            "This price is all right, I will take it.",
+            "This price is too high, but I will take it."
+          ],
+          "correctAnswer": "This price is too high, I will not take it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni nogode taka dibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi nogode dim.",
+            "Ei gamosa khon mor bhal lagise.",
+            "Dokan khon Fancy Bazarot ase."
+          ],
+          "correctAnswer": "Hoy, moi nogode dim.",
+          "translatedSentence": "Yes, I will pay in cash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Duta pitha aru ek kap saah ponsax taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Two pithas and a cup of tea come to fifty rupees.",
+            "Two pithas and two cups of tea come to fifty rupees.",
+            "Two pithas and a cup of tea come to fifteen rupees."
+          ],
+          "correctAnswer": "Two pithas and a cup of tea come to fifty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Iyat masor jool kiman taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Masor jool exo kuri taka.",
+            "Masor jool mor bor bhal lage.",
+            "Mor maai masor jool bhal randhe."
+          ],
+          "correctAnswer": "Masor jool exo kuri taka.",
+          "translatedSentence": "The fish curry is one hundred and twenty rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age, phone and quantity",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar boyox kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor boyox tirix bosor.",
+            "Moi Jorhatot thako.",
+            "Mor ghorot pansjon manuh ase."
+          ],
+          "correctAnswer": "Mor boyox tirix bosor.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor suwalir boyox ath bosor hol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter has turned eight.",
+            "My daughter will turn eight.",
+            "My son has turned eight."
+          ],
+          "correctAnswer": "My daughter has turned eight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar fon nombor tu kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor nombor tu no ath xat pas sari tini.",
+            "Mor tat etiya fon tu nai.",
+            "Moi apunak kali fon korim."
+          ],
+          "correctAnswer": "Mor nombor tu no ath xat pas sari tini.",
+          "translatedSentence": "My number is nine eight seven five four three."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok apunar fon nombor tu lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need your phone number.",
+            "I will give you my phone number.",
+            "I have your phone number."
+          ],
+          "correctAnswer": "I need your phone number."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar boyox kiman hol?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor boyox unoix bosor hol.",
+            "Moi klaas dohot poru.",
+            "Mor jonmodin aji."
+          ],
+          "correctAnswer": "Mor boyox unoix bosor hol.",
+          "translatedSentence": "I have turned nineteen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok olop saah aru duta pitha diyok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little tea and two pithas.",
+            "Please give me a lot of tea and two pithas.",
+            "Please give me a little tea and two eggs."
+          ],
+          "correctAnswer": "Please give me a little tea and two pithas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhat kiman lagibo, olop ne bohut?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok olop bhat he lagibo.",
+            "Bhat aji bor bhal hoise.",
+            "Mor maai etiya bhat randhi ase."
+          ],
+          "correctAnswer": "Mok olop bhat he lagibo.",
+          "translatedSentence": "I will only need a little rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor kokar boyox axi bosor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather is eighty years old.",
+            "My grandfather is eighteen years old.",
+            "My grandmother is eighty years old."
+          ],
+          "correctAnswer": "My grandfather is eighty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar ghorot kiman jon manuh ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor ghorot sarijon manuh ase.",
+            "Mor ghor tu Guwahatit.",
+            "Ghor khon bor dangor nohoy."
+          ],
+          "correctAnswer": "Mor ghorot sarijon manuh ase.",
+          "translatedSentence": "There are four people in my house."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Etiya kiman bojise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Etiya sari bojise.",
+            "Aji bor gorom porise.",
+            "Moi etiya olop byosto aso."
+          ],
+          "correctAnswer": "Etiya sari bojise.",
+          "translatedSentence": "It is four o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi puwa soy bojat uthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six in the morning.",
+            "I get up at seven in the morning.",
+            "I go to sleep at six in the morning."
+          ],
+          "correctAnswer": "I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar train kiman bojat ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor train sare ath bojat ase.",
+            "Train khon aji dhil hoise.",
+            "Moi train ere Jorhat jam."
+          ],
+          "correctAnswer": "Mor train sare ath bojat ase.",
+          "translatedSentence": "My train is at half past eight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dokan khon puwa no bojat khule.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop opens at nine in the morning.",
+            "The shop closes at nine in the morning.",
+            "The shop opens at nine at night."
+          ],
+          "correctAnswer": "The shop opens at nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami kiman bojat log lagim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami sondhiya pas bojat log lagim.",
+            "Ami Fancy Bazarot log lagim.",
+            "Moi apunar logot jam."
+          ],
+          "correctAnswer": "Ami sondhiya pas bojat log lagim.",
+          "translatedSentence": "Let us meet at five in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Klaas tu egaro bojat sesh hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The class ends at eleven.",
+            "The class starts at eleven.",
+            "The class ends at twelve."
+          ],
+          "correctAnswer": "The class ends at eleven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni rati kiman ghonta ghumai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi xat ghonta ghumau.",
+            "Moi rati doh bojat bisonaloi jau.",
+            "Mor etiya bor ghum ahise."
+          ],
+          "correctAnswer": "Moi xat ghonta ghumau.",
+          "translatedSentence": "I sleep for seven hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sare baro bojat moi bhat khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat lunch at half past twelve.",
+            "I eat lunch at twelve.",
+            "I cook lunch at half past twelve."
+          ],
+          "correctAnswer": "I eat lunch at half past twelve."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guwahatir bas khon kiman bojat ahibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bas khon tini bojat ahibo.",
+            "Basor tikot ekhon exo taka.",
+            "Bas khon aji bohut bhal."
+          ],
+          "correctAnswer": "Bas khon tini bojat ahibo.",
+          "translatedSentence": "The bus will come at three o'clock."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less, total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji apunar bikri kalitkoi beshi hoise ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, aji kalitkoi duixo taka beshi bikri hoise.",
+            "Kali bazarot bohut manuh ahisil.",
+            "Mor dokan khon Fancy Bazarot ase."
+          ],
+          "correctAnswer": "Hoy, aji kalitkoi duixo taka beshi bikri hoise.",
+          "translatedSentence": "Yes, I sold two hundred rupees more today than yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apunar hatot poisa kom ase, tente moi dam olop kom kori dim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are short of money, I will bring the price down a little.",
+            "If you have plenty of money, I will put the price up a little.",
+            "If you are short of money, you can come back tomorrow."
+          ],
+          "correctAnswer": "If you are short of money, I will bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthot kiman hol aru moi aru kiman dibo lagibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muthot pasxo taka hol, apuni aru exo taka dibo lagibo.",
+            "Moi apunak duixo taka ghurai dilo.",
+            "Apunar hisap tu moi kali kori dim."
+          ],
+          "correctAnswer": "Muthot pasxo taka hol, apuni aru exo taka dibo lagibo.",
+          "translatedSentence": "It comes to five hundred rupees in total, and you still have to pay another hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi tinita pitha khalo, kintu mor bhaiye ekta o khowa nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I ate three pithas, but my brother did not eat even one.",
+            "I ate three pithas and my brother ate one.",
+            "I did not eat any pitha, but my brother ate three."
+          ],
+          "correctAnswer": "I ate three pithas, but my brother did not eat even one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiyo ei dokanotei bazar kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiyono iyat dam aan dokanotkoi kom.",
+            "Kiyono ei dokan mor ghoror kasote nohoy.",
+            "Kiyono moi aji bazarloi juwa nai."
+          ],
+          "correctAnswer": "Kiyono iyat dam aan dokanotkoi kom.",
+          "translatedSentence": "Because the prices here are lower than at the other shops."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji bagisat kalitkoi kom manuhe kam korise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fewer people are working in the tea garden today than yesterday.",
+            "More people are working in the tea garden today than yesterday.",
+            "As many people are working in the tea garden today as yesterday."
+          ],
+          "correctAnswer": "Fewer people are working in the tea garden today than yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei dukhon gamosar bhitorot kon khon beshi dami?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nila khon beshi dami, seikhon tinixo taka.",
+            "Gamosa duyo khon mor bhal lagise.",
+            "Moi duyo khon kini nilo."
+          ],
+          "correctAnswer": "Nila khon beshi dami, seikhon tinixo taka.",
+          "translatedSentence": "The blue one is more expensive; that one is three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok pasxo taka lage, kintu mor hatot tinixo taka he ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need five hundred rupees, but I only have three hundred on me.",
+            "I need three hundred rupees, but I only have five hundred on me.",
+            "I have five hundred rupees, but I need three hundred more."
+          ],
+          "correctAnswer": "I need five hundred rupees, but I only have three hundred on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami kiman jon manuhor babe bhat randhim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muthot dohjon manuh ase, gotike dohjonor babe randhok.",
+            "Bhat randha kam tu bor tan.",
+            "Moi bhat bhalke randhibo najano."
+          ],
+          "correctAnswer": "Muthot dohjon manuh ase, gotike dohjonor babe randhok.",
+          "translatedSentence": "There are ten of us in total, so please cook for ten."
+        }
+      ]
+    }
+  ]
+}

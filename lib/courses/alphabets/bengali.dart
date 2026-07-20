@@ -38,7 +38,6 @@ Map<String, String> bengaliSounds = {
   'য': 'ja',
   'র': 'ra',
   'ল': 'la',
-  'ব': 'ba',
   'শ': 'sha',
   'ষ': 'sha',
   'স': 'sa',

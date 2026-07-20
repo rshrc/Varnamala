@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar naam {name}.",
+            "Ami bhalo achi.",
+            "Ini amar bondhu."
+          ],
+          "correctAnswer": "Amar naam {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekjon chhatro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student.",
+            "I am a teacher.",
+            "He is a student."
+          ],
+          "correctAnswer": "I am a student."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kemon acho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhalo achi, dhonnobad.",
+            "Amar naam Bikash.",
+            "Ei je amar boi."
+          ],
+          "correctAnswer": "Ami bhalo achi, dhonnobad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ini amar ma.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my mother.",
+            "This is my elder sister.",
+            "She is my friend."
+          ],
+          "correctAnswer": "This is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ini ke?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ini amar baba.",
+            "Ami ekhane kaj kori.",
+            "Uni amar sathe esechen."
+          ],
+          "correctAnswer": "Ini amar baba.",
+          "translatedSentence": "This is my father."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami Kolkatay thaki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Kolkata.",
+            "I am going to Kolkata.",
+            "I like Kolkata a lot."
+          ],
+          "correctAnswer": "I live in Kolkata."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ekhane notun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ami ekhane notun.",
+            "Na, ami cha khai na.",
+            "Ini amar didi."
+          ],
+          "correctAnswer": "Hyan, ami ekhane notun.",
+          "translatedSentence": "Yes, I am new here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se amar bhai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my brother.",
+            "He is my friend.",
+            "That is my brother's."
+          ],
+          "correctAnswer": "He is my brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar naam ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar naam Rina.",
+            "Amar bari Kolkatay.",
+            "Ami ekhane kajer jonno esechi."
+          ],
+          "correctAnswer": "Amar naam Rina.",
+          "translatedSentence": "My name is Rina."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this, that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eta ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eta amar boi.",
+            "Ota amar bari.",
+            "Ei je amar bondhu ese geche."
+          ],
+          "correctAnswer": "Eta amar boi.",
+          "translatedSentence": "This is my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ota amar bag.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my bag.",
+            "This is my bag.",
+            "That is your bag."
+          ],
+          "correctAnswer": "That is my bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eta ki tomar cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, eta amar cha.",
+            "Na, ami cha banai ni.",
+            "Cha ta dokan theke enechi."
+          ],
+          "correctAnswer": "Hyan, eta amar cha.",
+          "translatedSentence": "Yes, this is my tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Na, ei boita amar noy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, this book is not mine.",
+            "No, that book is not mine.",
+            "Yes, this book is mine."
+          ],
+          "correctAnswer": "No, this book is not mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar kachhe ki chabi ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, amar kachhe chabi ache.",
+            "Chabi ta khub choto.",
+            "Ami darjata bondho korechi."
+          ],
+          "correctAnswer": "Hyan, amar kachhe chabi ache.",
+          "translatedSentence": "Yes, I have the key."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhane ekta mishtir dokan ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a sweet shop here.",
+            "There is a tea shop here.",
+            "The sweet shop is over there."
+          ],
+          "correctAnswer": "There is a sweet shop here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, tumi ki ekhane thako?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ami ei parate thaki.",
+            "Na, boi ta amar noy.",
+            "Eta amar didir chhata."
+          ],
+          "correctAnswer": "Hyan, ami ei parate thaki.",
+          "translatedSentence": "Yes, I live in this neighbourhood."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei cha ta khub garam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tea is very hot.",
+            "That tea is very hot.",
+            "This tea is very sweet."
+          ],
+          "correctAnswer": "This tea is very hot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ota ki tomar bari?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ota amar mamar bari.",
+            "Hyan, ota amar dokan.",
+            "Bari ta khub purono."
+          ],
+          "correctAnswer": "Na, ota amar mamar bari.",
+          "translatedSentence": "No, that is my uncle's house."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs now",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki khachcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhaat khachchi.",
+            "Ami cha banachchi.",
+            "Ami ekhon kaj korchi."
+          ],
+          "correctAnswer": "Ami bhaat khachchi.",
+          "translatedSentence": "I am eating rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj sokale cha khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every morning.",
+            "I drink tea every evening.",
+            "I make tea every morning."
+          ],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kothay jachcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bajare jachchi.",
+            "Ami bari theke aschi.",
+            "Ami bhaat khai na."
+          ],
+          "correctAnswer": "Ami bajare jachchi.",
+          "translatedSentence": "I am going to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amra macher jhol khachchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are eating fish curry.",
+            "We are cooking fish curry.",
+            "They are eating fish curry."
+          ],
+          "correctAnswer": "We are eating fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki mishti khete bhalobashen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ami mishti khub bhalobashi.",
+            "Na, ami mishti banate pari na.",
+            "Mishti gulo tebiler upore ache."
+          ],
+          "correctAnswer": "Hyan, ami mishti khub bhalobashi.",
+          "translatedSentence": "Yes, I love sweets very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se tram e kore office jay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He goes to the office by tram.",
+            "He goes to the office by metro.",
+            "He is going to the office now."
+          ],
+          "correctAnswer": "He goes to the office by tram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ekhon ki korchho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami boi porchi.",
+            "Ami tomar bondhu.",
+            "Amar bhai ekhane nei."
+          ],
+          "correctAnswer": "Ami boi porchi.",
+          "translatedSentence": "I am reading a book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami roj metro te kaje jai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to work by metro every day.",
+            "I go to work by bus every day.",
+            "I am going to work by metro today."
+          ],
+          "correctAnswer": "I go to work by metro every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki jol chao?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ektu jol chai.",
+            "Na, ami bari jai.",
+            "Jol ta ranna ghore ache."
+          ],
+          "correctAnswer": "Hyan, ektu jol chai.",
+          "translatedSentence": "Yes, I would like a little water."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Howrah bridge ta kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ota ekhan theke besi dur noy.",
+            "Ami Howrah te thaki.",
+            "Bridge ta khub purono."
+          ],
+          "correctAnswer": "Ota ekhan theke besi dur noy.",
+          "translatedSentence": "It is not very far from here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei mishti gulor daam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much do these sweets cost?",
+            "How many sweets do you want?",
+            "Where are these sweets from?"
+          ],
+          "correctAnswer": "How much do these sweets cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei bag ta kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eta amar didir bag.",
+            "Bag ta khub bhari.",
+            "Ami bag ta niye jachchi."
+          ],
+          "correctAnswer": "Eta amar didir bag.",
+          "translatedSentence": "This is my elder sister's bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi kokhon bari phero?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When do you come home?",
+            "Where do you go after work?",
+            "How do you come home?"
+          ],
+          "correctAnswer": "When do you come home?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station ta kothay, bolte paren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sojasuji giye baa dike ghurun.",
+            "Ekhane ekhon onek bhir.",
+            "Ami train e kore esechi."
+          ],
+          "correctAnswer": "Sojasuji giye baa dike ghurun.",
+          "translatedSentence": "Go straight ahead and turn left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uni ke, tumi jano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you know who he is?",
+            "Do you know where he is?",
+            "Do you know him well?"
+          ],
+          "correctAnswer": "Do you know who he is?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar sathe ke ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar sathe amar bondhu ache.",
+            "Ami ekai thaki ekhane.",
+            "Ora ekhono ase ni."
+          ],
+          "correctAnswer": "Amar sathe amar bondhu ache.",
+          "translatedSentence": "My friend is with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei tram ta kothay jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where does this tram go?",
+            "When does this tram leave?",
+            "Which tram goes there?"
+          ],
+          "correctAnswer": "Where does this tram go?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhane bhalo cha kothay pabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Samner dokane bhalo cha paben.",
+            "Ami cha banate pari na.",
+            "Cha ta thanda hoye geche."
+          ],
+          "correctAnswer": "Samner dokane bhalo cha paben.",
+          "translatedSentence": "You will get good tea at the shop just ahead."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki bangla bolte paro?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ektu ektu pari, besi noy.",
+            "Na, ami ekhane thaki na.",
+            "Hyan, ami bangla boi kinechi."
+          ],
+          "correctAnswer": "Ektu ektu pari, besi noy.",
+          "translatedSentence": "I can speak a little, not much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami jani na uni kothay gechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know where he has gone.",
+            "I do not know when he will come.",
+            "I know where he has gone."
+          ],
+          "correctAnswer": "I do not know where he has gone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki amar sathe bajare jabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ajke ami jete parbo na.",
+            "Hyan, bajar ta khub kachhe.",
+            "Ami kal bajare giyechilam."
+          ],
+          "correctAnswer": "Na, ajke ami jete parbo na.",
+          "translatedSentence": "No, I will not be able to go today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami macher jhol khai na, ami niramish khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat fish curry, I eat vegetarian food.",
+            "I do not like fish curry, but I still eat it.",
+            "I eat fish curry, not vegetarian food."
+          ],
+          "correctAnswer": "I do not eat fish curry, I eat vegetarian food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ei rasta ta chenen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami ei rasta chini na.",
+            "Hyan, rasta ta khub choto.",
+            "Ami rasta periye jachchi."
+          ],
+          "correctAnswer": "Na, ami ei rasta chini na.",
+          "translatedSentence": "No, I do not know this road."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ekhon amar kachhe kono khuchro nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any change right now.",
+            "I do not have any money at all.",
+            "I did not have any change at that time."
+          ],
+          "correctAnswer": "I do not have any change right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki cha te cheeni khan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami cheeni chhara cha khai.",
+            "Hyan, ami cha kinte jachchi.",
+            "Cheeni ta rannaghore rakha ache."
+          ],
+          "correctAnswer": "Na, ami cheeni chhara cha khai.",
+          "translatedSentence": "No, I drink my tea without sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se ekhono ase ni, ar ami jani na keno.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He has not come yet, and I do not know why.",
+            "He has not come yet, but he will come soon.",
+            "He came late, and I do not know why."
+          ],
+          "correctAnswer": "He has not come yet, and I do not know why."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki jano train ta kokhon chharbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami jani na, keu kichhu bolte parche na.",
+            "Hyan, ami train e uthe porechi.",
+            "Train ta ekhane thame na."
+          ],
+          "correctAnswer": "Na, ami jani na, keu kichhu bolte parche na.",
+          "translatedSentence": "No, I do not know, nobody can say anything."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki amader sathe khete jaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, jabo, kintu ami ektu deri kore pouchabo.",
+            "Na, ami ranna korte pari na.",
+            "Ami roj baire khai na."
+          ],
+          "correctAnswer": "Hyan, jabo, kintu ami ektu deri kore pouchabo.",
+          "translatedSentence": "Yes, I will come, but I will get there a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ajke bristi hochche, tai ami metro te jabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is raining today, so I will take the metro.",
+            "It rained today, so I took the metro.",
+            "If it rains today, I will take the metro."
+          ],
+          "correctAnswer": "It is raining today, so I will take the metro."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha ta kemon hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub bhalo hoyeche, kintu ektu besi mishti.",
+            "Ami cha banate shikhi ni.",
+            "Cha ta ekhono toiri hoyni."
+          ],
+          "correctAnswer": "Khub bhalo hoyeche, kintu ektu besi mishti.",
+          "translatedSentence": "It has come out very well, but it is a little too sweet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami mishti khete bhalobashi, kintu daktar baron korechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love sweets, but the doctor has told me not to eat them.",
+            "I love sweets, and the doctor eats them as well.",
+            "I used to love sweets, but I do not any more."
+          ],
+          "correctAnswer": "I love sweets, but the doctor has told me not to eat them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal apni office e chilen na keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar shorir kharap chilo, tai ami jai ni.",
+            "Ami kal office e giyechilam.",
+            "Ajke ami taratari beriye porbo."
+          ],
+          "correctAnswer": "Amar shorir kharap chilo, tai ami jai ni.",
+          "translatedSentence": "I was unwell, so I did not go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi somoy pao, tahole amader barite esho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get some time, come over to our place.",
+            "When you get some time, we will come to your place.",
+            "If you have some time, please call me at home."
+          ],
+          "correctAnswer": "If you get some time, come over to our place."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bikele Howrah bridge dekhte jaben naki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalun, kintu ekhon sekhane onek bhir hobe.",
+            "Ami bridge ta theke onek dure thaki.",
+            "Sokale ami hnete hnete bari phiri."
+          ],
+          "correctAnswer": "Chalun, kintu ekhon sekhane onek bhir hobe.",
+          "translatedSentence": "Let us go, but there will be a big crowd there now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami jani na uni asben ki na, tobe ami opekkha korbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know whether he will come, but I will wait.",
+            "I do not know when he will come, so I will not wait.",
+            "I know that he will come, so I will wait for him."
+          ],
+          "correctAnswer": "I do not know whether he will come, but I will wait."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onek dhonnobad, apni ajke khub sahajjo korlen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kono byapar na, bhalo theken.",
+            "Ami apnake chinte parchi na.",
+            "Ekhon ami kono kaj korte parbo na."
+          ],
+          "correctAnswer": "Kono byapar na, bhalo theken.",
+          "translatedSentence": "It is nothing at all, take care."
+        }
+      ]
+    }
+  ]
+}

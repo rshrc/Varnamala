@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara ghara kouthi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora ghara Bhubaneswar re.",
+            "Mora ghara bhala achi.",
+            "Mu ebe ghare nahin."
+          ],
+          "correctAnswer": "Mora ghara Bhubaneswar re.",
+          "translatedSentence": "My house is in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghare tinita kotha achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house has three rooms.",
+            "Our house has two rooms.",
+            "There is one room in our house."
+          ],
+          "correctAnswer": "Our house has three rooms."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Randha ghara kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Randha ghara pachhare achi.",
+            "Randha ghara safa achi.",
+            "Mu randha ghare randhuchi."
+          ],
+          "correctAnswer": "Randha ghara pachhare achi.",
+          "translatedSentence": "The kitchen is at the back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ebe soiba ghare achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am in the bedroom now.",
+            "I am in the kitchen now.",
+            "I am going to the bedroom now."
+          ],
+          "correctAnswer": "I am in the bedroom now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gadhua ghara kouthi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gadhua ghara ei pakhare achi.",
+            "Gadhua ghara bahut bada.",
+            "Mu ebe gadhuchi."
+          ],
+          "correctAnswer": "Gadhua ghara ei pakhare achi.",
+          "translatedSentence": "The bathroom is on this side."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei baithaka ghara bada achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This living room is big.",
+            "This living room is small.",
+            "This bedroom is big."
+          ],
+          "correctAnswer": "This living room is big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka ghare baranda achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, amara ghare gotie baranda achi.",
+            "Ha, mu baranda re basichi.",
+            "Nahin, mu ghara jane nahin."
+          ],
+          "correctAnswer": "Ha, amara ghare gotie baranda achi.",
+          "translatedSentence": "Yes, our house has a verandah."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame chhata upare basu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We sit on the terrace.",
+            "We sleep on the terrace.",
+            "We sit in the verandah."
+          ],
+          "correctAnswer": "We sit on the terrace."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kouthi soiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu soiba ghare soibi.",
+            "Mu baithaka ghare soibi.",
+            "Mu chhata upare soibi."
+          ],
+          "correctAnswer": "Mu soiba ghare soibi.",
+          "translatedSentence": "I will sleep in the bedroom."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Things in the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei kotha re kana kana achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethi gotie khata o gotie almira achi.",
+            "Ethi kehi nahanti.",
+            "Ethi mu prati dina soye."
+          ],
+          "correctAnswer": "Ethi gotie khata o gotie almira achi.",
+          "translatedSentence": "There is a bed and a cupboard here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora almira re bahut luga achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of clothes in my cupboard.",
+            "There are a lot of clothes on my bed.",
+            "There is nothing in my cupboard."
+          ],
+          "correctAnswer": "There are a lot of clothes in my cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chabi kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chabi tebul upare achi.",
+            "Chabi mo pakhare nahin.",
+            "Kabata bandha achi."
+          ],
+          "correctAnswer": "Chabi tebul upare achi.",
+          "translatedSentence": "The key is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghare gotie purana pankha achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have an old fan in our house.",
+            "We have a new fan in our house.",
+            "We have an old clock in our house."
+          ],
+          "correctAnswer": "We have an old fan in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Balti kouthi rakhichha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu balti gadhua ghare rakhichi.",
+            "Mu balti aji kinichi.",
+            "Balti re ebe pani nahin."
+          ],
+          "correctAnswer": "Mu balti gadhua ghare rakhichi.",
+          "translatedSentence": "I have kept the bucket in the bathroom."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote gotie balisa o gotie kambala darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a pillow and a blanket.",
+            "I need a pillow and a mat.",
+            "I want to buy a new blanket."
+          ],
+          "correctAnswer": "I need a pillow and a blanket."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kete ta thali anicha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu chariti thali anichi.",
+            "Mu duiti gilasa anichi.",
+            "Mu sabu thali dhoi sarichi."
+          ],
+          "correctAnswer": "Mu chariti thali anichi.",
+          "translatedSentence": "I have brought four plates."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jhadu kabata pakhare achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The broom is near the door.",
+            "The broom is behind the door.",
+            "The bucket is near the door."
+          ],
+          "correctAnswer": "The broom is near the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei purana chaukee kie anichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei chaukee mo bhai anichi.",
+            "Ei chaukee bahut bhari achi.",
+            "Mu chaukee upare basichi."
+          ],
+          "correctAnswer": "Ei chaukee mo bhai anichi.",
+          "translatedSentence": "My brother brought this chair."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume randha ghare kana karucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dalma randhuchi.",
+            "Mu luga dhouchi.",
+            "Mu chhata upare jhadu maruchi."
+          ],
+          "correctAnswer": "Mu dalma randhuchi.",
+          "translatedSentence": "I am cooking dalma."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu kali sara luga dhoi dei thili.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I washed all the clothes yesterday.",
+            "I will wash all the clothes tomorrow.",
+            "I am washing all the clothes now."
+          ],
+          "correctAnswer": "I washed all the clothes yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji kie basana dhoiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji mu basana dhoibi.",
+            "Basana randha ghare achi.",
+            "Mu basana dhoibaku bhala pae nahin."
+          ],
+          "correctAnswer": "Aji mu basana dhoibi.",
+          "translatedSentence": "I will wash the dishes today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bou pakhala o dalma randhuchanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking pakhala and dalma.",
+            "Mother has already cooked pakhala and dalma.",
+            "Mother will cook rice and dal tomorrow."
+          ],
+          "correctAnswer": "Mother is cooking pakhala and dalma."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghara kie safa karichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo bhauni ghara safa karichi.",
+            "Mu kali ghara safa karibi.",
+            "Ghara ebe bahut safa achi."
+          ],
+          "correctAnswer": "Mo bhauni ghara safa karichi.",
+          "translatedSentence": "My sister cleaned the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji mu jhadu maribaku bhuli gali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today I forgot to sweep.",
+            "Today I did not want to sweep.",
+            "Yesterday I forgot to sweep."
+          ],
+          "correctAnswer": "Today I forgot to sweep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume mote tike sahajya kariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu ebe asuchi.",
+            "Nahin, ghara ta safa achi.",
+            "Mu randhibaku jane nahin."
+          ],
+          "correctAnswer": "Ha, mu ebe asuchi.",
+          "translatedSentence": "Yes, I am coming right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu luga chhata upare shukhauchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am drying the clothes on the terrace.",
+            "I am washing the clothes on the terrace.",
+            "I dried the clothes on the terrace."
+          ],
+          "correctAnswer": "I am drying the clothes on the terrace."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kali ratire kie randhiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kali ratire mo bhai randhiba.",
+            "Kali ratire mu bahare khaithili.",
+            "Mu ebe pakhala randhi sarichi."
+          ],
+          "correctAnswer": "Kali ratire mo bhai randhiba.",
+          "translatedSentence": "My brother will cook tomorrow night."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mora chasma kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumara chasma tebul upare achi.",
+            "Tumara chasma almira bhitare achi.",
+            "Mu tumara chasma dekhi nahin."
+          ],
+          "correctAnswer": "Tumara chasma tebul upare achi.",
+          "translatedSentence": "Your glasses are on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Byaga khata tale achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bag is under the bed.",
+            "The bag is on the bed.",
+            "The bag is behind the bed."
+          ],
+          "correctAnswer": "The bag is under the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei jhadu kouthi rakhibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kabata pachhare rakha.",
+            "Balisa tale rakha.",
+            "Mo byaga bhitare rakha."
+          ],
+          "correctAnswer": "Kabata pachhare rakha.",
+          "translatedSentence": "Keep it behind the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara ghara Jagannath mandira pachhare achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is behind the Jagannath temple.",
+            "Our house is in front of the Jagannath temple.",
+            "Our house is near the Jagannath temple."
+          ],
+          "correctAnswer": "Our house is behind the Jagannath temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Boi gudika kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Boi gudika almira bhitare achi.",
+            "Boi gudika khata tale achi.",
+            "Mu ebe boi padhuchi."
+          ],
+          "correctAnswer": "Boi gudika almira bhitare achi.",
+          "translatedSentence": "The books are inside the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu balti nala tale rakhichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have kept the bucket under the tap.",
+            "I have kept the bucket near the tap.",
+            "I will keep the bucket under the tap."
+          ],
+          "correctAnswer": "I have kept the bucket under the tap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto kouthi rahichi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Auto ghara agare rahichi.",
+            "Auto ghara pachhare rahichi.",
+            "Auto ebe duara pakhare nahin."
+          ],
+          "correctAnswer": "Auto ghara agare rahichi.",
+          "translatedSentence": "The auto is waiting in front of the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aina kabata o jhoraka majhire achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The mirror is between the door and the window.",
+            "The mirror is beside the window.",
+            "The mirror is above the door."
+          ],
+          "correctAnswer": "The mirror is between the door and the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume ebe kouthi basicha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu baranda re basichi.",
+            "Mu chhata upare thili.",
+            "Mu ghara bhitaraku jauchi."
+          ],
+          "correctAnswer": "Mu baranda re basichi.",
+          "translatedSentence": "I am sitting in the verandah."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, mu bhitaraku asi pare ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, doya kari bhitaraku asantu.",
+            "Nahin, mu ebe bahare jauchi.",
+            "Apana kouthi rahanti?"
+          ],
+          "correctAnswer": "Ha, doya kari bhitaraku asantu.",
+          "translatedSentence": "Yes, please come inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doya kari ei chaukee re basantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit on this chair.",
+            "Please stand near this chair.",
+            "Please bring this chair."
+          ],
+          "correctAnswer": "Please sit on this chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana piba, cha na pani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote tike cha diantu.",
+            "Mu kichhi pibi nahin, dhanyabad.",
+            "Mote gotie thali diantu."
+          ],
+          "correctAnswer": "Mote tike cha diantu.",
+          "translatedSentence": "Please give me a little tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji amara ghare Cuttack ru pahuna asichanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Guests have come to our house from Cuttack today.",
+            "Guests will come to our house from Cuttack today.",
+            "Our guests went back to Cuttack today."
+          ],
+          "correctAnswer": "Guests have come to our house from Cuttack today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu juta kouthi kadhibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Juta duara bahare kadhantu.",
+            "Juta almira bhitare rakhantu.",
+            "Juta pindhi bhitaraku asantu."
+          ],
+          "correctAnswer": "Juta duara bahare kadhantu.",
+          "translatedSentence": "Please take your shoes off outside the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana aji ratire ama sange khaantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please eat with us tonight.",
+            "Please come to our house tonight.",
+            "We will eat at your house tonight."
+          ],
+          "correctAnswer": "Please eat with us tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji ratire apana kana randhichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji mu dalma o bhata randhichi.",
+            "Aji mu bajar ru chhena poda anichi.",
+            "Aji mu kichhi randhi nahin."
+          ],
+          "correctAnswer": "Aji mu dalma o bhata randhichi.",
+          "translatedSentence": "Today I have cooked dalma and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ete bhala khadya pain apananku bahut dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for such good food.",
+            "Thank you very much for all your help.",
+            "This food is very good, thank you."
+          ],
+          "correctAnswer": "Thank you very much for such good food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame ebe jauchu, aji bahut bhala lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Punarbara asantu.",
+            "Tike agaru asantu.",
+            "Doya kari aau tike bhata khaantu."
+          ],
+          "correctAnswer": "Punarbara asantu.",
+          "translatedSentence": "Please come again."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei ghara bhada mahina ku kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mahina ku atha hajara taka, kintu bijuli bill alaga.",
+            "Mu ei ghare tini barsa hela rahuchi.",
+            "Ghara malika kali Puri ru pherichanti."
+          ],
+          "correctAnswer": "Mahina ku atha hajara taka, kintu bijuli bill alaga.",
+          "translatedSentence": "Eight thousand rupees a month, but the electricity bill is separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pankha kama karu nahin, tenu mu mistirinku dakichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fan is not working, so I have called the repairman.",
+            "The fan is not working, but I have not called anyone yet.",
+            "The fan is working, so I did not call the repairman."
+          ],
+          "correctAnswer": "The fan is not working, so I have called the repairman."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nala ru pani padi jauchi, apana tike dekhi parantu ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu aji sanjhare asi thik kari debi.",
+            "Nahin, amara ghare gadhua ghara nahin.",
+            "Nala ta randha ghara bhitare achi."
+          ],
+          "correctAnswer": "Ha, mu aji sanjhare asi thik kari debi.",
+          "translatedSentence": "Yes, I will come this evening and fix it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi aji bijuli na ase, tebe ame padosinka ghare soibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the power does not come today, we will sleep at the neighbour's house.",
+            "If the power comes today, we will sleep at our own house.",
+            "The power did not come, so we slept at the neighbour's house."
+          ],
+          "correctAnswer": "If the power does not come today, we will sleep at the neighbour's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka padosi kemiti loka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se bahut bhala, karana se sabu bele sahajya karanti.",
+            "Se ama ghara pachhare rahanti nahin.",
+            "Mu tanka naam ebe bi jane nahin."
+          ],
+          "correctAnswer": "Se bahut bhala, karana se sabu bele sahajya karanti.",
+          "translatedSentence": "He is very good, because he always helps."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bhada dei sarichi kintu ghara malika rasid dei nahanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have paid the rent but the landlord is not giving a receipt.",
+            "I have not paid the rent because the landlord did not give a receipt.",
+            "I will pay the rent when the landlord gives me a receipt."
+          ],
+          "correctAnswer": "I have paid the rent but the landlord is not giving a receipt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kabata tala kharap heigala, ebe kana kariba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nua tala kinibaku padiba, karana purana ta kama karu nahin.",
+            "Chinta karantu nahin, mu duiti chabi anichi.",
+            "Tala ku aji ratire kabata pachhare rakhantu."
+          ],
+          "correctAnswer": "Nua tala kinibaku padiba, karana purana ta kama karu nahin.",
+          "translatedSentence": "We will have to buy a new lock, because the old one is not working."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali ratire padosinka ghare bahut sabda hauthila, sethipain mu soi pari nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There was a lot of noise at the neighbour's house last night, so I could not sleep.",
+            "There was a lot of noise at our house last night, but I slept well anyway.",
+            "The neighbours were talking loudly last night, so I went over to their house."
+          ],
+          "correctAnswer": "There was a lot of noise at the neighbour's house last night, so I could not sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ei ghare aau kete dina rahibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aau chha mas, kintu bhada badhile mu ghara badali debi.",
+            "Mu gata barsa ei ghara ku asithili.",
+            "Mora ghara malika Bhubaneswar re rahanti."
+          ],
+          "correctAnswer": "Aau chha mas, kintu bhada badhile mu ghara badali debi.",
+          "translatedSentence": "Six more months, but if the rent goes up I will move house."
+        }
+      ]
+    }
+  ]
+}

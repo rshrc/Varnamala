@@ -1,0 +1,721 @@
+{
+  "course": "shopping",
+  "title": "Shopping",
+  "description": "Buy things, ask the price, and push back on it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "How much is this",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idara bele eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idu nooru rupayi.",
+            "Naanu angadige hogthini.",
+            "Nanage haalu beku."
+          ],
+          "correctAnswer": "Idu nooru rupayi.",
+          "translatedSentence": "This one is a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hannu eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this fruit?",
+            "Where is this fruit?",
+            "Is this fruit good?"
+          ],
+          "correctAnswer": "How much is this fruit?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee angadiyalli haalu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, haalu ide.",
+            "Illa, haalu bekilla.",
+            "Haalu tumba chennagide."
+          ],
+          "correctAnswer": "Houdu, haalu ide.",
+          "translatedSentence": "Yes, we have milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ondu kaapi beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like one coffee.",
+            "I have one coffee.",
+            "I do not want coffee."
+          ],
+          "correctAnswer": "I would like one coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage enu beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage tarakari beku.",
+            "Nanage gottilla.",
+            "Naanu illi iddini."
+          ],
+          "correctAnswer": "Nanage tarakari beku.",
+          "translatedSentence": "I need some vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu tumba chennagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is very nice.",
+            "This one is very expensive.",
+            "This one is not good."
+          ],
+          "correctAnswer": "This one is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu eshtu rupayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aivattu rupayi.",
+            "Angadi alli ide.",
+            "Nanage rupayi beku."
+          ],
+          "correctAnswer": "Aivattu rupayi.",
+          "translatedSentence": "Fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee angadi elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is this shop?",
+            "What is this shop?",
+            "Whose shop is this?"
+          ],
+          "correctAnswer": "Where is this shop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu nimage beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, idu nanage beku.",
+            "Illa, nanage gottilla.",
+            "Idu tumba dodda ide."
+          ],
+          "correctAnswer": "Houdu, idu nanage beku.",
+          "translatedSentence": "Yes, I want this one."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Asking the shopkeeper",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Heli, nimage enu beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage eradu kilo akki beku.",
+            "Naanu BMTC bus-ge hogthini.",
+            "Nanage bele gottilla."
+          ],
+          "correctAnswer": "Nanage eradu kilo akki beku.",
+          "translatedSentence": "I need two kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ondu kilo tarakari beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one kilo of vegetables.",
+            "I need one kilo of rice.",
+            "I do not need any vegetables."
+          ],
+          "correctAnswer": "I need one kilo of vegetables."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hattira taaja hannu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ivattina hannu ide.",
+            "Illa, naanu hannu tandilla.",
+            "Hannina bele tumba jaasti."
+          ],
+          "correctAnswer": "Houdu, ivattina hannu ide.",
+          "translatedSentence": "Yes, we have today's fruit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu ondu litre haalu kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me one litre of milk.",
+            "Please give me one litre of oil.",
+            "Do you have one litre of milk?"
+          ],
+          "correctAnswer": "Please give me one litre of milk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bere enu beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innu enu bekilla, ashte saaku.",
+            "Naanu ee angadiyalli kelasa maadthini.",
+            "Nanage ee angadi gottilla."
+          ],
+          "correctAnswer": "Innu enu bekilla, ashte saaku.",
+          "translatedSentence": "Nothing else, that is all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sakkare yaava kade ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Which side is the sugar on?",
+            "How much does the sugar cost?",
+            "Is there any sugar left?"
+          ],
+          "correctAnswer": "Which side is the sugar on?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava banna beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage kempu banna beku.",
+            "Nanage eradu kilo beku.",
+            "Nanage banna gottilla."
+          ],
+          "correctAnswer": "Nanage kempu banna beku.",
+          "translatedSentence": "I would like the red one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage swalpa sakkare kooda beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little sugar as well.",
+            "I do not need any sugar.",
+            "Is there a little sugar here?"
+          ],
+          "correctAnswer": "I need a little sugar as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage ragi hittu beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ondu kilo ragi hittu kodi.",
+            "Illa, nanage haalu beku.",
+            "Ragi mudde tumba chennagide."
+          ],
+          "correctAnswer": "Houdu, ondu kilo ragi hittu kodi.",
+          "translatedSentence": "Yes, give me a kilo of ragi flour."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "That is too expensive",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idara bele munnooru rupayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayyo, tumba jaasti, swalpa kammi maadi.",
+            "Sari, nanage haalu kooda kodi.",
+            "Nanage munnooru rupayi gottilla."
+          ],
+          "correctAnswer": "Ayyo, tumba jaasti, swalpa kammi maadi.",
+          "translatedSentence": "Oh, that is far too much, bring it down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bele nanage jaasti aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That price is too high for me.",
+            "That price is fine for me.",
+            "I do not know that price."
+          ],
+          "correctAnswer": "That price is too high for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, illi bele kammi maadalu aagalla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, haagadare naanu idannu tagollalla.",
+            "Sari, haagadare innu eradu kodi.",
+            "Nanage ee angadiya bele gottilla."
+          ],
+          "correctAnswer": "Sari, haagadare naanu idannu tagollalla.",
+          "translatedSentence": "All right, in that case I will not buy it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idannu nooru rupayige kodthira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you give it to me for a hundred rupees?",
+            "Did you buy it for a hundred rupees?",
+            "Is a hundred rupees enough for you?"
+          ],
+          "correctAnswer": "Will you give it to me for a hundred rupees?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kone bele eshtu heli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eranooru aivattu rupayi, adakkinta kammi aagalla.",
+            "Nanage nimma kone bele beku.",
+            "Angadi ee kadege ide."
+          ],
+          "correctAnswer": "Eranooru aivattu rupayi, adakkinta kammi aagalla.",
+          "translatedSentence": "Two hundred and fifty rupees, I cannot go below that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Swalpa kammi maadidare naanu eradu tagolthini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you bring the price down a little, I will take two.",
+            "I took two because the price was low.",
+            "Even if you bring the price down, I will not take two."
+          ],
+          "correctAnswer": "If you bring the price down a little, I will take two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake ee vastuvina bele ashtu jaasti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaakendare idannu kai-yalli maadiddu.",
+            "Yaakendare nanage tumba hana beku.",
+            "Ee vastuvina bele nanage gottilla."
+          ],
+          "correctAnswer": "Yaakendare idannu kai-yalli maadiddu.",
+          "translatedSentence": "Because this one is handmade."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa angadiyalli idu kammi belege sigutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In that shop this is available for less.",
+            "In that shop this is not available at all.",
+            "That shop sells this for a higher price."
+          ],
+          "correctAnswer": "In that shop this is available for less."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sari, nimagaagi ainooru rupayige kodthini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaada, haagadare naanu adannu tagolthini.",
+            "Illa, nanage innu ondu kilo akki beku.",
+            "Bele innu swalpa jaasti maadi."
+          ],
+          "correctAnswer": "Dhanyavaada, haagadare naanu adannu tagolthini.",
+          "translatedSentence": "Thank you, in that case I will take it."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sizes and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage eshtu kilo akki beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage eradu kilo saaku.",
+            "Nanage kempu banna saaku.",
+            "Akki bele tumba kammi ide."
+          ],
+          "correctAnswer": "Nanage eradu kilo saaku.",
+          "translatedSentence": "Two kilos will do for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ardha kilo tarakari tooki kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Weigh out half a kilo of vegetables for me.",
+            "Half a kilo of vegetables is enough for me.",
+            "How much is half a kilo of vegetables?"
+          ],
+          "correctAnswer": "Weigh out half a kilo of vegetables for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee angi nimage sariyaagi aagutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, idu nanage swalpa chikka aagide.",
+            "Houdu, idara bele tumba jaasti.",
+            "Illa, nanage angi gottilla."
+          ],
+          "correctAnswer": "Illa, idu nanage swalpa chikka aagide.",
+          "translatedSentence": "No, this one is a bit small on me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idakkinta dodda size ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have a bigger size than this?",
+            "Is this the biggest size you have?",
+            "Do you have a smaller size than this?"
+          ],
+          "correctAnswer": "Do you have a bigger size than this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava size beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage dodda size beku.",
+            "Nanage ondu kilo beku.",
+            "Nanage size gottilla, bele heli."
+          ],
+          "correctAnswer": "Nanage dodda size beku.",
+          "translatedSentence": "I need the large size."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee packet nanage saakagilla, innondu kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This packet is not enough for me, give me one more.",
+            "This packet is too big for me, take one back.",
+            "This packet is enough for me, I do not need more."
+          ],
+          "correctAnswer": "This packet is not enough for me, give me one more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ondu kilo saaka, illa eradu kilo beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu kilo saaku, adakkinta jaasti beda.",
+            "Eradu litre haalu kooda kodi.",
+            "Nanage kilo bele gottilla."
+          ],
+          "correctAnswer": "Ondu kilo saaku, adakkinta jaasti beda.",
+          "translatedSentence": "One kilo is enough, I do not want more than that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee angi nanage tumba udda ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt is far too long on me.",
+            "This shirt is far too short on me.",
+            "This shirt looks very good on me."
+          ],
+          "correctAnswer": "This shirt is far too long on me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu ardha kilo haakalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, innu ardha kilo haaki.",
+            "Beda, nanage haalu maatra saaku.",
+            "Illa, naanu naale barthini."
+          ],
+          "correctAnswer": "Houdu, innu ardha kilo haaki.",
+          "translatedSentence": "Yes, put in another half kilo."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Paying and change",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ellaa seri munnooru embattu rupayi aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naanu Google Pay maadthini.",
+            "Sari, nanage innu ardha kilo beku.",
+            "Ee angadi tumba dodda ide."
+          ],
+          "correctAnswer": "Sari, naanu Google Pay maadthini.",
+          "translatedSentence": "All right, I will pay by Google Pay."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu card tagolthira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you accept cards?",
+            "Did you take my card?",
+            "Where is your card?"
+          ],
+          "correctAnswer": "Do you accept cards?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hattira chilre ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, nanna hattira ainooru rupayi note maatra ide.",
+            "Houdu, nanage ondu carry bag beku.",
+            "Chilre bele tumba jaasti aaytu."
+          ],
+          "correctAnswer": "Illa, nanna hattira ainooru rupayi note maatra ide.",
+          "translatedSentence": "No, I only have a five hundred rupee note."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu nanage bill kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me the bill.",
+            "Please keep the bill with you.",
+            "Please check the bill again."
+          ],
+          "correctAnswer": "Please give me the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage carry bag beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Beda, nanna hattira cheela ide.",
+            "Beda, nanna hattira chilre illa.",
+            "Houdu, carry bag bele kammi ide."
+          ],
+          "correctAnswer": "Beda, nanna hattira cheela ide.",
+          "translatedSentence": "No thanks, I have a bag with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ainooru kotte, chilre vaapas kodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I gave you five hundred, please give me the change.",
+            "I gave you five hundred, please give me the bill.",
+            "Give me five hundred back, I do not want this."
+          ],
+          "correctAnswer": "I gave you five hundred, please give me the change."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cheelakke hattu rupayi jaasti aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, adannu bill-ge seerisi.",
+            "Parvagilla, naanu naale hana kodthini.",
+            "Ee cheela nanage tumba chikka aagide."
+          ],
+          "correctAnswer": "Parvagilla, adannu bill-ge seerisi.",
+          "translatedSentence": "That is fine, add it to the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bill-nalli enoo tappu ide anisutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think there is some mistake in the bill.",
+            "I think I have lost the bill somewhere.",
+            "I think the bill has already been paid."
+          ],
+          "correctAnswer": "I think there is some mistake in the bill."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu hana hege kodthira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu nagadu kodthini.",
+            "Naanu bele kammi maadthini.",
+            "Nanage hana gottilla."
+          ],
+          "correctAnswer": "Naanu nagadu kodthini.",
+          "translatedSentence": "I will pay in cash."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Returns and complaints",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninne naanu illi kondukonda angi hariyide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bill tandiddare naanu adannu badalayisi kodthini.",
+            "Angi bele munnooru rupayi aagutte.",
+            "Nimage yaava banna angi ista aayitu?"
+          ],
+          "correctAnswer": "Bill tandiddare naanu adannu badalayisi kodthini.",
+          "translatedSentence": "If you have brought the bill, I will exchange it for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hannu kettide, adakke naanu adannu vaapas tandiddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fruit has gone bad, so I have brought it back.",
+            "This fruit is very good, so I have come back for more.",
+            "This fruit has gone bad, but I did not bring the bill."
+          ],
+          "correctAnswer": "This fruit has gone bad, so I have brought it back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage hana vaapas beka, illa bere vastu beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hana vaapas kottare saaku, dhanyavaada.",
+            "Nanage innu eradu kilo akki beku, dhanyavaada.",
+            "Naanu ee angadige modalu bandiddene."
+          ],
+          "correctAnswer": "Hana vaapas kottare saaku, dhanyavaada.",
+          "translatedSentence": "Just give me a refund and that will do, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ninne konda gadiyaara ivattu kelasa maadtilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The watch I bought yesterday is not working today.",
+            "The watch I bought yesterday was working fine yesterday.",
+            "I did not buy a watch here yesterday."
+          ],
+          "correctAnswer": "The watch I bought yesterday is not working today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake ee angadiyalli bele jaasti ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaakendare illi ella vastugalu olleyavu, aadare bele swalpa jaasti.",
+            "Yaakendare naanu ninne ee angadige bandidde.",
+            "Nanage ee angadiya bele yaavaglu gottilla."
+          ],
+          "correctAnswer": "Yaakendare illi ella vastugalu olleyavu, aadare bele swalpa jaasti.",
+          "translatedSentence": "Because everything here is good quality, but the prices are a bit higher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa angadiyalli bele kammi, aadare illi vastugalu chennagi irutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That shop is cheaper, but the goods here are better.",
+            "That shop is cheaper, and the goods there are better too.",
+            "This shop is cheaper, but the goods there are better."
+          ],
+          "correctAnswer": "That shop is cheaper, but the goods here are better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee vastuvannu vaapas kodalu aagutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, maarida vastugalannu naavu vaapas tagollalla.",
+            "Kshamisi, ee vastuvina bele nooru rupayi aagutte.",
+            "Houdu, nanage kooda ee vastu beku."
+          ],
+          "correctAnswer": "Kshamisi, maarida vastugalannu naavu vaapas tagollalla.",
+          "translatedSentence": "Sorry, we do not take back items once they are sold."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ondu vaaradolage bill jotege bandare naavu hana vaapas kodthevi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come within a week with the bill, we will refund your money.",
+            "We refunded your money a week ago, along with the bill.",
+            "If you come within a week, we will exchange it for another item."
+          ],
+          "correctAnswer": "If you come within a week with the bill, we will refund your money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu nimma angadiya seve nanage ista aagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, munde hage aagalla anta naanu nodkolthini.",
+            "Dhanyavaada, naale matte angadige banni.",
+            "Haagadare nimage innu enu beku heli."
+          ],
+          "correctAnswer": "Kshamisi, munde hage aagalla anta naanu nodkolthini.",
+          "translatedSentence": "I am sorry, I will make sure that does not happen again."
+        }
+      ]
+    }
+  ]
+}

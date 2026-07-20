@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji ki bar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji Sombar.",
+            "Aji Deobar nohoy.",
+            "Kali Budhbar."
+          ],
+          "correctAnswer": "Aji Sombar.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sonibar moi ghorot thako.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Saturday I stay at home.",
+            "On Sunday I stay at home.",
+            "On Saturday I go to work."
+          ],
+          "correctAnswer": "On Saturday I stay at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Deobar ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Deobar moi bisram koro.",
+            "Deobar moi office jao.",
+            "Deobar moi bojar jao."
+          ],
+          "correctAnswer": "Deobar moi bisram koro.",
+          "translatedSentence": "On Sunday I rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sukurbar mor kaam nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no work on Friday.",
+            "I have work on Friday.",
+            "I have no work on Sunday."
+          ],
+          "correctAnswer": "I have no work on Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kali ki bar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kali Mongolbar.",
+            "Aji Mongolbar.",
+            "Kali mor kaam ase."
+          ],
+          "correctAnswer": "Kali Mongolbar.",
+          "translatedSentence": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Brihospotibar bojar din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thursday is market day.",
+            "Thursday is a holiday.",
+            "Friday is market day."
+          ],
+          "correctAnswer": "Thursday is market day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sonibar apuni byosto ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi Sonibar byosto.",
+            "Nai, aji Sonibar nohoy.",
+            "Hoy, moi Sonibar ghorot thako."
+          ],
+          "correctAnswer": "Hoy, moi Sonibar byosto.",
+          "translatedSentence": "Yes, I am busy on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Soptahot sat din thake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are seven days in a week.",
+            "There are seven weeks in a month.",
+            "There are seven months in a year."
+          ],
+          "correctAnswer": "There are seven days in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kunto bar bhal pai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Sukurbar bhal pao.",
+            "Moi Sombar bhal napao.",
+            "Aji Sukurbar nohoy."
+          ],
+          "correctAnswer": "Moi Sukurbar bhal pao.",
+          "translatedSentence": "I like Friday."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni etiya ki kori ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi etiya saah khai aso.",
+            "Moi kali bojar jam.",
+            "Moi puwa saah khaisilo."
+          ],
+          "correctAnswer": "Moi etiya saah khai aso.",
+          "translatedSentence": "I am drinking tea right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi kali Jorhat jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will go to Jorhat tomorrow.",
+            "I went to Jorhat yesterday.",
+            "I will go to Guwahati tomorrow."
+          ],
+          "correctAnswer": "I will go to Jorhat tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kali kot asil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi kali ghorot asilo.",
+            "Moi etiya ghorot aso.",
+            "Moi kali ghorot tham."
+          ],
+          "correctAnswer": "Moi kali ghorot asilo.",
+          "translatedSentence": "I was at home yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Etiya nai, olop pasot.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Not now, a little later.",
+            "Not now, a little earlier.",
+            "Yes now, not later."
+          ],
+          "correctAnswer": "Not now, a little later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puwa apuni ki khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi puwa saah aru pitha khao.",
+            "Moi rati bhat aru masor jool khao.",
+            "Moi puwa office jao."
+          ],
+          "correctAnswer": "Moi puwa saah aru pitha khao.",
+          "translatedSentence": "In the morning I have tea and pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadhuli moi ghoroloi ahim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will come home in the evening.",
+            "I came home in the evening.",
+            "I will come home in the morning."
+          ],
+          "correctAnswer": "I will come home in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni porhi ahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi porhi ahim.",
+            "Nai, moi kali ahisilo.",
+            "Hoy, moi etiya ahi aso."
+          ],
+          "correctAnswer": "Hoy, moi porhi ahim.",
+          "translatedSentence": "Yes, I will come the day after tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali gadhuli bor borokhun disil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It rained a lot yesterday evening.",
+            "It will rain a lot tomorrow evening.",
+            "It rained a lot yesterday morning."
+          ],
+          "correctAnswer": "It rained a lot yesterday evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji rati apuni ki koribo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji rati moi bisram korim.",
+            "Kali rati moi bisram korisilo.",
+            "Aji puwa moi kaam korim."
+          ],
+          "correctAnswer": "Aji rati moi bisram korim.",
+          "translatedSentence": "Tonight I will rest."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Etiya kiman bajise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Etiya nou bajise.",
+            "Etiya nou ghonta hol.",
+            "Moi nou bojat ahim."
+          ],
+          "correctAnswer": "Etiya nou bajise.",
+          "translatedSentence": "It is nine o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi ath bojat office jao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office at eight o'clock.",
+            "I leave the office at eight o'clock.",
+            "I go to the office at nine o'clock."
+          ],
+          "correctAnswer": "I go to the office at eight o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train khon kiman bojat ahibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train khon sari bojat ahibo.",
+            "Train khon sari ghonta lobo.",
+            "Train khon kali ahisil."
+          ],
+          "correctAnswer": "Train khon sari bojat ahibo.",
+          "translatedSentence": "The train will arrive at four o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi dupuriya baro bojat bhat khao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat lunch at twelve noon.",
+            "I eat lunch at two in the afternoon.",
+            "I drink tea at twelve noon."
+          ],
+          "correctAnswer": "I eat lunch at twelve noon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sinema khon kiman bojat arombho hobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sinema khon sat bojat arombho hobo.",
+            "Sinema khon dui ghonta solibo.",
+            "Sinema khon ami kali sam."
+          ],
+          "correctAnswer": "Sinema khon sat bojat arombho hobo.",
+          "translatedSentence": "The film starts at seven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor ghorit etiya pas bajise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "By my watch it is five o'clock now.",
+            "By my watch it is four o'clock now.",
+            "My watch stopped at five o'clock."
+          ],
+          "correctAnswer": "By my watch it is five o'clock now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiman bojat uthe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi soy bojat utho.",
+            "Moi rati doh bojat suo.",
+            "Moi soy ghonta suo."
+          ],
+          "correctAnswer": "Moi soy bojat utho.",
+          "translatedSentence": "I get up at six o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dokan khon nou bojat khule.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop opens at nine o'clock.",
+            "The shop closes at nine o'clock.",
+            "The shop opens at ten o'clock."
+          ],
+          "correctAnswer": "The shop opens at nine o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guwahati pora Jorhat kiman somoy lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prai sat ghonta lage.",
+            "Prai sat din lage.",
+            "Bahs khon sat bojat solibo."
+          ],
+          "correctAnswer": "Prai sat ghonta lage.",
+          "translatedSentence": "It takes about seven hours."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates, seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji kimanor tarikh?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji bis tarikh.",
+            "Aji Budhbar.",
+            "Aji Bohag mah."
+          ],
+          "correctAnswer": "Aji bis tarikh.",
+          "translatedSentence": "Today is the twentieth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bohag mahot Rongali Bihu hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rongali Bihu falls in the month of Bohag.",
+            "Rongali Bihu falls in the month of Magh.",
+            "Bohag is the last month of the year."
+          ],
+          "correctAnswer": "Rongali Bihu falls in the month of Bohag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guwahatit gorom kal ketia ahe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gorom kal Mei mahot ahe.",
+            "Gorom kal Disembor mahot ahe.",
+            "Gorom kalot bor jaar lage."
+          ],
+          "correctAnswer": "Gorom kal Mei mahot ahe.",
+          "translatedSentence": "Summer arrives in the month of May."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Barikha kalot prottek din borokhun dise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It rains every day in the rainy season.",
+            "It rains every day in the winter.",
+            "It rained every day in the rainy season."
+          ],
+          "correctAnswer": "It rains every day in the rainy season."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar jonmo din kunto mahot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor jonmo din Julai mahot.",
+            "Mor jonmo din bis tarikhe.",
+            "Moi Julai mahot Jorhat jam."
+          ],
+          "correctAnswer": "Mor jonmo din Julai mahot.",
+          "translatedSentence": "My birthday is in July."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jaar kalot ami saah bisi khao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We drink a lot of tea in the winter.",
+            "We drink a lot of tea in the summer.",
+            "We grow a lot of tea in the winter."
+          ],
+          "correctAnswer": "We drink a lot of tea in the winter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Magh Bihu ketia hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Magh Bihu Jaanuari mahot hoy.",
+            "Magh Bihu April mahot hoy.",
+            "Magh Bihut ami pitha khao."
+          ],
+          "correctAnswer": "Magh Bihu Jaanuari mahot hoy.",
+          "translatedSentence": "Magh Bihu is in January."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei bosor moi prothom bar Assam ahisilo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came to Assam for the first time this year.",
+            "I came to Assam for the first time last year.",
+            "I will come to Assam for the first time this year."
+          ],
+          "correctAnswer": "I came to Assam for the first time this year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saah bagisat kaam ketia arombho hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kaam Mars mahot arombho hoy.",
+            "Kaam gadhuli arombho hoy.",
+            "Saah bagisa Jorhatot bisi ase."
+          ],
+          "correctAnswer": "Kaam Mars mahot arombho hoy.",
+          "translatedSentence": "The work starts in the month of March."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni prottek din kiman bojat uthe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi prottek din pas bojat utho.",
+            "Moi kali pas bojat uthisilo.",
+            "Moi prottek din pas bojat suo."
+          ],
+          "correctAnswer": "Moi prottek din pas bojat utho.",
+          "translatedSentence": "I get up at five every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puwa uthi moi prothome saah khao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After waking up in the morning, I have tea first.",
+            "After waking up in the morning, I eat rice first.",
+            "Before sleeping at night, I have tea first."
+          ],
+          "correctAnswer": "After waking up in the morning, I have tea first."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni dupuriya kot bhat khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi officeot bhat khao.",
+            "Moi rati ghorot bhat khao.",
+            "Moi dupuriya bhat nakhao."
+          ],
+          "correctAnswer": "Moi officeot bhat khao.",
+          "translatedSentence": "I eat lunch at the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaam sesh hole moi bojar jao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When work is over I go to the market.",
+            "Before work starts I go to the market.",
+            "When work is over I go home."
+          ],
+          "correctAnswer": "When work is over I go to the market."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gadhuli apuni ki kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gadhuli moi kitap porho.",
+            "Gadhuli moi officeloi jao.",
+            "Gadhuli moi ghum utho."
+          ],
+          "correctAnswer": "Gadhuli moi kitap porho.",
+          "translatedSentence": "In the evening I read a book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi rati doh bojat suo, kiyono puwa soy bojat utho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sleep at ten at night, because I get up at six in the morning.",
+            "I sleep at ten at night, but I get up at six in the morning.",
+            "I get up at ten at night, because I sleep at six in the morning."
+          ],
+          "correctAnswer": "I sleep at ten at night, because I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni dupuriya olop bisram pai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi adha ghonta bisram pao.",
+            "Nai, moi rati doh bojat suo.",
+            "Hoy, moi dupuriya masor jool khao."
+          ],
+          "correctAnswer": "Hoy, moi adha ghonta bisram pao.",
+          "translatedSentence": "Yes, I get half an hour of rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sonibare mor dinto olop beleg.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Saturdays my day is a little different.",
+            "On Saturdays my day is exactly the same.",
+            "On Sundays my day is a little different."
+          ],
+          "correctAnswer": "On Saturdays my day is a little different."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni dinot kiman bar saah khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi eta dinot tini bar saah khao.",
+            "Moi eta dinot tini ghonta saah khao.",
+            "Moi saah nakhao, bhat khao."
+          ],
+          "correctAnswer": "Moi eta dinot tini bar saah khao.",
+          "translatedSentence": "I drink tea three times a day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami kali gadhuli lag pale kene hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhal hoy, moi kali gadhuli khali aso.",
+            "Nai, kali gadhuli moi byosto, porhi hole hobo ne?",
+            "Bhal hoy, ami kali gadhuli lag paisilo."
+          ],
+          "correctAnswer": "Bhal hoy, moi kali gadhuli khali aso.",
+          "translatedSentence": "That works, I am free tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi aji jabo nowaro, kiyono mor bisi kaam ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot go today, because I have a lot of work.",
+            "I cannot go today, but I have no work at all.",
+            "I will go today, because I have no work."
+          ],
+          "correctAnswer": "I cannot go today, because I have a lot of work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tente ami kiman bojat lag pam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari bojat lag pale bhal hoy.",
+            "Sari ghonta lag pale bhal hoy.",
+            "Kali sari bojat lag paisilo."
+          ],
+          "correctAnswer": "Sari bojat lag pale bhal hoy.",
+          "translatedSentence": "It would be good if we meet at four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi kali borokhun die tente ami porhi jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, we will go the day after.",
+            "If it rains tomorrow, we will go anyway.",
+            "Since it rained yesterday, we went the day after."
+          ],
+          "correctAnswer": "If it rains tomorrow, we will go the day after."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar babe kunto somoy sobidha hobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Puwa doh bojat hole mor babe bhal.",
+            "Puwa doh bojat moi uthisilo.",
+            "Dukhit, ei soptahot mor eku somoy nai."
+          ],
+          "correctAnswer": "Puwa doh bojat hole mor babe bhal.",
+          "translatedSentence": "Ten in the morning would suit me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak Sukurbar phone korim, tetiya somoyto thik kori lom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will call you on Friday, and we will fix the time then.",
+            "I called you on Friday, and we fixed the time then.",
+            "I will call you on Sunday, and we will fix the time then."
+          ],
+          "correctAnswer": "I will call you on Friday, and we will fix the time then."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doktorok sabo lage, ami ketia jam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sonibar puwa gole bhal, kiyono tetiya bhir kom.",
+            "Sonibar puwa moi doktorok saisilo.",
+            "Doktor Sonibare nathake, kintu moi jam."
+          ],
+          "correctAnswer": "Sonibar puwa gole bhal, kiyono tetiya bhir kom.",
+          "translatedSentence": "Saturday morning would be best, because there is less of a crowd then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deri nokoriba, ami thik sat bojat ulam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be late, we are leaving at seven sharp.",
+            "Do not worry, we are leaving at seven sharp.",
+            "Do not be late, we left at seven sharp."
+          ],
+          "correctAnswer": "Do not be late, we are leaving at seven sharp."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar somoy hole aji gadhuli saah khaboloi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, moi niscoy ahim.",
+            "Dhonyobad, moi kali gadhuli ahisilo.",
+            "Dukhit, aji gadhuli moi Jorhat jam."
+          ],
+          "correctAnswer": "Dhonyobad, moi niscoy ahim.",
+          "translatedSentence": "Thank you, I will certainly come."
+        }
+      ]
+    }
+  ]
+}

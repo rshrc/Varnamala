@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume khusi achha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu bahut khusi.",
+            "Nahin, mu ghara jauchi.",
+            "Mu tumaku jane nahin."
+          ],
+          "correctAnswer": "Han, mu bahut khusi.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji khusi achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am happy today.",
+            "I am sad today.",
+            "I am tired today."
+          ],
+          "correctAnswer": "I am happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote aji dukha laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kahinki, kana heichi?",
+            "Han, mu khusi achi.",
+            "Mu ghara re achi ebe."
+          ],
+          "correctAnswer": "Kahinki, kana heichi?",
+          "translatedSentence": "Why, what happened?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote dukha laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel sad.",
+            "I feel happy.",
+            "I feel scared."
+          ],
+          "correctAnswer": "I feel sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana khusi achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu bahut khusi achi.",
+            "Nahin, mu pakhala khae nahin.",
+            "Mu ebe Puri jauchi."
+          ],
+          "correctAnswer": "Han, mu bahut khusi achi.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora mana bhala nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not in a good mood.",
+            "My house is not good.",
+            "I am not going home."
+          ],
+          "correctAnswer": "I am not in a good mood."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji mo mana bahut bhala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Suni khusi heli.",
+            "Mote raga laguchi.",
+            "Mu kichhi jane nahin."
+          ],
+          "correctAnswer": "Suni khusi heli.",
+          "translatedSentence": "I am happy to hear that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se bahut khusi achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is very happy.",
+            "He is very sad.",
+            "He is very tired."
+          ],
+          "correctAnswer": "He is very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kahinki hasuchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karana mu bahut khusi.",
+            "Karana mote bhoka laguchi.",
+            "Karana mu ghara jauchi."
+          ],
+          "correctAnswer": "Karana mu bahut khusi.",
+          "translatedSentence": "Because I am very happy."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared, bored",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume thaki gala ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu bahut thaki gali.",
+            "Nahin, mote raga laguchi.",
+            "Han, mu bahut khusi achi."
+          ],
+          "correctAnswer": "Han, mu bahut thaki gali.",
+          "translatedSentence": "Yes, I am very tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji bahut thaki gali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired today.",
+            "I am very happy today.",
+            "I got very angry today."
+          ],
+          "correctAnswer": "I am very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kahinki raga laguchi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Karana bus bahut deri karila.",
+            "Karana mora mana bhala achi.",
+            "Karana mote bhoka lagu nahin."
+          ],
+          "correctAnswer": "Karana bus bahut deri karila.",
+          "translatedSentence": "Because the bus was very late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote tike raga laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a little angry.",
+            "I am a little tired.",
+            "I am a little scared."
+          ],
+          "correctAnswer": "I am a little angry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Andhara re mote bhaya laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta kara nahin, mu achi.",
+            "Han, mu bahut khusi achi.",
+            "Tebe tume ghara ku jaa."
+          ],
+          "correctAnswer": "Chinta kara nahin, mu achi.",
+          "translatedSentence": "Do not worry, I am here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote ratire bhaya lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel scared at night.",
+            "I feel happy at night.",
+            "I sleep well at night."
+          ],
+          "correctAnswer": "I feel scared at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghara re basi mote bore laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chala, bahara ku jiba.",
+            "Mu ta bahut khusi achi.",
+            "Tume kahinki thaki gala?"
+          ],
+          "correctAnswer": "Chala, bahara ku jiba.",
+          "translatedSentence": "Come on, let us go out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kichhi kama nahin, mote bore laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is nothing to do, I am bored.",
+            "There is a lot of work, I am tired.",
+            "There is nothing to eat, I am hungry."
+          ],
+          "correctAnswer": "There is nothing to do, I am bored."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kahinki chupa achha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora mana kichhi lagu nahin.",
+            "Mora ghara Cuttack re.",
+            "Mote pakhala bhala lage."
+          ],
+          "correctAnswer": "Mora mana kichhi lagu nahin.",
+          "translatedSentence": "I do not feel like doing anything."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how someone feels",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kichhi heichi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu thik achi.",
+            "Nahin, mu ghara jauchi.",
+            "Han, mu tumaku jane."
+          ],
+          "correctAnswer": "Nahin, mu thik achi.",
+          "translatedSentence": "No, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumara mana kemiti achi aji?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling today?",
+            "How is your family today?",
+            "Where are you going today?"
+          ],
+          "correctAnswer": "How are you feeling today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kichhi chintita achanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, tike chinta laguchi.",
+            "Han, mu pakhala khaili.",
+            "Nahin, mu kali Cuttack jibi."
+          ],
+          "correctAnswer": "Han, tike chinta laguchi.",
+          "translatedSentence": "Yes, I am a little worried."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kana heichi, mote kuha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me what happened.",
+            "Tell me where you went.",
+            "Tell me what you ate."
+          ],
+          "correctAnswer": "Tell me what happened."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo mana aji bhala nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kana heichi, kuha to.",
+            "Bhala, mu ebe jauchi.",
+            "Han, mote bhoka laguchi."
+          ],
+          "correctAnswer": "Kana heichi, kuha to.",
+          "translatedSentence": "What happened, do tell me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se kahinki dukhi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why is he sad?",
+            "Why is he happy?",
+            "Why is he here?"
+          ],
+          "correctAnswer": "Why is he sad?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kemiti anubhaba karuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ebe tike bhala anubhaba karuchi.",
+            "Mu Bhubaneswar re rahe.",
+            "Mote sakalare chaha bhala lage."
+          ],
+          "correctAnswer": "Mu ebe tike bhala anubhaba karuchi.",
+          "translatedSentence": "I am feeling a little better now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote lage tume khusi nuhan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think you are not happy.",
+            "I know that you are very happy.",
+            "I hope that you are happy."
+          ],
+          "correctAnswer": "I think you are not happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume thik achha to, mukha bhala dishu nahin?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tike matha byatha karuchi.",
+            "Han, mu Puri jauchi kali.",
+            "Mote ebe tike pani darkar."
+          ],
+          "correctAnswer": "Tike matha byatha karuchi.",
+          "translatedSentence": "I have a slight headache."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu parikhya re pass heli nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta kara nahin, ara thare cheshta kara.",
+            "Bahut bhala katha, abhinandan tumaku.",
+            "Tebe tume aji bahut khusi achha."
+          ],
+          "correctAnswer": "Chinta kara nahin, ara thare cheshta kara.",
+          "translatedSentence": "Do not worry, try one more time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sabu thik heijiba, chinta karantu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything will be fine, please do not worry.",
+            "Everything is finished, please do not come.",
+            "Everything is ready, please do not wait."
+          ],
+          "correctAnswer": "Everything will be fine, please do not worry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote bahut bhaya laguchi, mu kari paribi nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tume niscaya paribha, mu tumara sangare achi.",
+            "Tebe tume ghara ku phanti jaa.",
+            "Mote bi se kama kariba bhala lage nahin."
+          ],
+          "correctAnswer": "Tume niscaya paribha, mu tumara sangare achi.",
+          "translatedSentence": "You can certainly do it, I am with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kandantu nahin, mu apananka pakhare achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do not cry, I am right here with you.",
+            "Please do not go, I am waiting for you.",
+            "Please do not worry, I will call you later."
+          ],
+          "correctAnswer": "Please do not cry, I am right here with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo bapa aji asustha, mote bahut bhaya laguchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bharasa rakha, sabu thik heijiba.",
+            "Tebe tume aji khusi achha bujhili.",
+            "Mu tumara bapanku jane nahin."
+          ],
+          "correctAnswer": "Bharasa rakha, sabu thik heijiba.",
+          "translatedSentence": "Keep faith, everything will be fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tume eka nuhan, ame sabu tumara sangare achu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are not alone, we are all with you.",
+            "You are not late, we are all waiting for you.",
+            "You are not wrong, we all agree with you."
+          ],
+          "correctAnswer": "You are not alone, we are all with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu aji bahut thaki gali, kichhi bhala lagu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tike bishrama nia, kali bhala lagiba.",
+            "Tebe chala, ame ebe bahara ku jiba.",
+            "Mote bi tumara katha bhala lagila nahin."
+          ],
+          "correctAnswer": "Tike bishrama nia, kali bhala lagiba.",
+          "translatedSentence": "Take some rest, you will feel better tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhairya dhara, samaya sabu thik kari deba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Be patient, time will set everything right.",
+            "Be careful, the road is not good at all.",
+            "Be quick, the bus will leave right now."
+          ],
+          "correctAnswer": "Be patient, time will set everything right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhanyabad, tumara katha suni mote bhala lagila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichhi katha nahin, mu sabubele achi.",
+            "Nahin, mote ebe bore laguchi.",
+            "Han, mu kali Cuttack jauchi."
+          ],
+          "correctAnswer": "Kichhi katha nahin, mu sabubele achi.",
+          "translatedSentence": "It is nothing, I am always here for you."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes, dislikes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku pakhala bhala lage ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mote pakhala bahut bhala lage.",
+            "Nahin, mu ebe ghara re nahin.",
+            "Mu pakhala kouthi milibe jane nahin."
+          ],
+          "correctAnswer": "Han, mote pakhala bahut bhala lage.",
+          "translatedSentence": "Yes, I like pakhala very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote dalma bhala lage, kintu chhena poda aau besi bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like dalma, but I like chhena poda even more.",
+            "I like dalma, but I do not like chhena poda.",
+            "I do not like dalma, but chhena poda is fine."
+          ],
+          "correctAnswer": "I like dalma, but I like chhena poda even more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kouthi ghuribaku bhala lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote Puri samudra kula bhala lage.",
+            "Mote ratire tike bhaya lage.",
+            "Mu sabubele ghara re basi rahe."
+          ],
+          "correctAnswer": "Mote Puri samudra kula bhala lage.",
+          "translatedSentence": "I like the seaside at Puri."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote sakalare chaha pibaku bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like drinking tea in the morning.",
+            "I like sleeping late in the morning.",
+            "I do not drink tea in the morning."
+          ],
+          "correctAnswer": "I like drinking tea in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku auto re jibaku bhala lage ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mote bus re jibaku besi bhala lage.",
+            "Han, mote auto re jibaku bhala lage nahin.",
+            "Mu auto re basi bahut thaki gali."
+          ],
+          "correctAnswer": "Nahin, mote bus re jibaku besi bhala lage.",
+          "translatedSentence": "No, I prefer to travel by bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu kebe kebe Jagannath mandira jibaku chahen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sometimes I want to go to the Jagannath temple.",
+            "I go to the Jagannath temple every single day.",
+            "I have never gone to the Jagannath temple."
+          ],
+          "correctAnswer": "Sometimes I want to go to the Jagannath temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume chhutire kana karibaku chahun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Puri jai samudra dekhibaku chahen.",
+            "Mu kali bahut thaki gali thili.",
+            "Mote se sinema bhala lagila nahin."
+          ],
+          "correctAnswer": "Mu Puri jai samudra dekhibaku chahen.",
+          "translatedSentence": "I want to go to Puri and see the sea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote thanda pani pibaku bhala lage nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like drinking cold water.",
+            "I really like drinking cold water.",
+            "I do not like this cold weather."
+          ],
+          "correctAnswer": "I do not like drinking cold water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara iccha kana, ame aji kana khaiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chala, ame kichhi Odia khadya khaiba.",
+            "Mote ebe kichhi bhoka lagu nahin.",
+            "Mu ranna kariba kebe jane nahin."
+          ],
+          "correctAnswer": "Chala, ame kichhi Odia khadya khaiba.",
+          "translatedSentence": "Let us go and eat some Odia food."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote lage Bhubaneswar Cuttack tharu bhala sahara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu puri raji nuhen, duita nija dhanga re sundara.",
+            "Han, mu Cuttack kebe jai nahin.",
+            "Mote sahara re rahiba bhala lage nahin."
+          ],
+          "correctAnswer": "Mu puri raji nuhen, duita nija dhanga re sundara.",
+          "translatedSentence": "I do not fully agree, both are beautiful in their own way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu deri re asili boli mote kshama karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please forgive me for arriving late.",
+            "Please tell me why you arrived late.",
+            "I will forgive you if you arrive late."
+          ],
+          "correctAnswer": "Please forgive me for arriving late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kali apananku phone kari parili nahin, kshama karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichhi asubidha nahin, mu bujhi paruchi.",
+            "Han, mu apananku kali phone karithili.",
+            "Tebe apana kali kahinki khusi thile?"
+          ],
+          "correctAnswer": "Kichhi asubidha nahin, mu bujhi paruchi.",
+          "translatedSentence": "No problem at all, I understand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi tumara mana bhala nahin, tebe ame kali jiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are not feeling well, then we will go tomorrow.",
+            "If you are feeling well, then we will go today itself.",
+            "Since you were not well, we did not go yesterday."
+          ],
+          "correctAnswer": "If you are not feeling well, then we will go tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo katha re tumaku dukha lagila, sethi pain mu dukhita.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, mu se katha bhuli gali.",
+            "Han, mote tumara katha bahut bhala lagila.",
+            "Tebe tume aau mo sangare katha kara nahin."
+          ],
+          "correctAnswer": "Thik achi, mu se katha bhuli gali.",
+          "translatedSentence": "It is alright, I have already forgotten about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu raga re se katha kahili, kintu mora se uddesya nathila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I said that in anger, but I did not mean it.",
+            "I said that with love, but he did not listen to me.",
+            "I did not say that, but he still got angry with me."
+          ],
+          "correctAnswer": "I said that in anger, but I did not mean it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana bhabanti, e katha thik ki nuhen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote lage e thik nuhen, karana kahaku puchara heli nahin.",
+            "Han, mote pakhala dalma bahut bhala lage.",
+            "Mu apananka ghara kouthi achi jane nahin."
+          ],
+          "correctAnswer": "Mote lage e thik nuhen, karana kahaku puchara heli nahin.",
+          "translatedSentence": "I think it is not right, because nobody was asked."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu apananka katha re sahamata, kintu mote tike samaya darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I agree with you, but I need a little time.",
+            "I agree with you, and I am ready right now.",
+            "I do not agree with you, and I have no time."
+          ],
+          "correctAnswer": "I agree with you, but I need a little time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume mo upare raga achha ki, satya kuha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mote raga nahin, khali tike dukha lagila.",
+            "Han, mu tumaku bhala bhabare jane nahin.",
+            "Mote ebe ghara ku jibaku padiba nahin."
+          ],
+          "correctAnswer": "Nahin, mote raga nahin, khali tike dukha lagila.",
+          "translatedSentence": "No, I am not angry, I just felt a little hurt."
+        }
+      ]
+    }
+  ]
+}

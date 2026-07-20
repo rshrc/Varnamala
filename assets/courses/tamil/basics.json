@@ -1,0 +1,720 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga peru enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En peru {name}.",
+            "Naan nalla irukkiren.",
+            "Idhu en veedu."
+          ],
+          "correctAnswer": "En peru {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vanakkam, naan Priya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vanakkam, en peru {name}.",
+            "Adhu en pusthagam.",
+            "Naan idli sappidren."
+          ],
+          "correctAnswer": "Vanakkam, en peru {name}.",
+          "translatedSentence": "Hello, my name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan oru maanavan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a student.",
+            "I am a teacher.",
+            "He is a student."
+          ],
+          "correctAnswer": "I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivar en appa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my father.",
+            "This is my elder brother.",
+            "He is my friend."
+          ],
+          "correctAnswer": "This is my father."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan Chennaila irukkiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan Maduraila irukkiren.",
+            "Enakku kaapi venum.",
+            "Adhu en thambi."
+          ],
+          "correctAnswer": "Naan Maduraila irukkiren.",
+          "translatedSentence": "I am in Madurai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivanga en amma.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my mother.",
+            "This is my younger sister.",
+            "She is my teacher."
+          ],
+          "correctAnswer": "This is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "En peru Karthik.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Santhosham, en peru {name}.",
+            "Idhu en oor.",
+            "Naan naalaikku varren."
+          ],
+          "correctAnswer": "Santhosham, en peru {name}.",
+          "translatedSentence": "Nice to meet you, my name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan inge pudhusu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am new here.",
+            "I live here.",
+            "I am not from here."
+          ],
+          "correctAnswer": "I am new here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku Tamil konjam theriyum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know a little Tamil.",
+            "I do not know Tamil.",
+            "I am learning Tamil."
+          ],
+          "correctAnswer": "I know a little Tamil."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this and that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu unga veeda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, idhu en veedu.",
+            "Illa, adhu en oor.",
+            "Aamaa, en peru {name}."
+          ],
+          "correctAnswer": "Aamaa, idhu en veedu.",
+          "translatedSentence": "Yes, this is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adhu enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu oru pusthagam.",
+            "Idhu en peru.",
+            "Aamaa, romba sari."
+          ],
+          "correctAnswer": "Adhu oru pusthagam.",
+          "translatedSentence": "That is a book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Illa, idhu en pusthagam illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, this is not my book.",
+            "Yes, this is my book.",
+            "No, that is not my book."
+          ],
+          "correctAnswer": "No, this is not my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu idliya, dosaiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idhu dosai.",
+            "Adhu sambar.",
+            "Aamaa, enakku pasikkudhu."
+          ],
+          "correctAnswer": "Idhu dosai.",
+          "translatedSentence": "This is a dosai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu romba nalla irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very good.",
+            "That is very good.",
+            "This is not good."
+          ],
+          "correctAnswer": "This is very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adhu unga thambiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, avan en thambi.",
+            "Illa, avar en appa.",
+            "Aamaa, adhu en veedu."
+          ],
+          "correctAnswer": "Aamaa, avan en thambi.",
+          "translatedSentence": "Yes, he is my younger brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamaa, enakku adhu theriyum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, I know that.",
+            "No, I do not know that.",
+            "Yes, I know him."
+          ],
+          "correctAnswer": "Yes, I know that."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu enna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idhu filter kaapi.",
+            "Adhu en peru.",
+            "Illa, enakku venum."
+          ],
+          "correctAnswer": "Idhu filter kaapi.",
+          "translatedSentence": "This is filter coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamaa, adhu sari.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, that is right.",
+            "No, that is wrong.",
+            "Yes, this is right."
+          ],
+          "correctAnswer": "Yes, that is right."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna sappidreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan idli sappidren.",
+            "Naan kaapi kudikkiren.",
+            "Naan veetukku porren."
+          ],
+          "correctAnswer": "Naan idli sappidren.",
+          "translatedSentence": "I am eating idli."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan kaalaila filter kaapi kudikkiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink filter coffee in the morning.",
+            "I drink tea in the morning.",
+            "I drink filter coffee at night."
+          ],
+          "correctAnswer": "I drink filter coffee in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan kadaikku porren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan unnoda varren.",
+            "Naan sambar sappidren.",
+            "Adhu oru periya kadai."
+          ],
+          "correctAnswer": "Naan unnoda varren.",
+          "translatedSentence": "I will come with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanga saayangaalam Marina beachukku porrom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go to Marina beach in the evening.",
+            "We go to Marina beach in the morning.",
+            "We came to Marina beach in the evening."
+          ],
+          "correctAnswer": "We go to Marina beach in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enna kudikkireenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku oru filter kaapi.",
+            "Naan dosai sappidren.",
+            "Naan kadaikku porren."
+          ],
+          "correctAnswer": "Enakku oru filter kaapi.",
+          "translatedSentence": "A filter coffee for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan dhinamum velaikku share autola porren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to work by share auto every day.",
+            "I go to work by bus every day.",
+            "I went to work by share auto yesterday."
+          ],
+          "correctAnswer": "I go to work by share auto every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enna panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan velai panren.",
+            "Naan veetla irukkiren.",
+            "Enakku adhu theriyum."
+          ],
+          "correctAnswer": "Naan velai panren.",
+          "translatedSentence": "I am working."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma sambar pandraanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making sambar.",
+            "Mother is eating sambar.",
+            "Mother made sambar yesterday."
+          ],
+          "correctAnswer": "Mother is making sambar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaanga, saaptutu poonga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, konjam sappidren.",
+            "Aamaa, idhu en veedu.",
+            "Illa, adhu en pusthagam."
+          ],
+          "correctAnswer": "Sari, konjam sappidren.",
+          "translatedSentence": "Okay, I will eat a little."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enga irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan veetla irukkiren.",
+            "Naan nalla irukkiren.",
+            "Naan velai panren."
+          ],
+          "correctAnswer": "Naan veetla irukkiren.",
+          "translatedSentence": "I am at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus stand enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus stand?",
+            "Where is the bus?",
+            "Is there a bus stand here?"
+          ],
+          "correctAnswer": "Where is the bus stand?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Andha ponnu yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avanga en thangachi.",
+            "Avan en thambi.",
+            "Adhu en thangachi veedu."
+          ],
+          "correctAnswer": "Avanga en thangachi.",
+          "translatedSentence": "She is my younger sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Unga veedu enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your house?",
+            "Where is your office?",
+            "Whose house is this?"
+          ],
+          "correctAnswer": "Where is your house?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu yaaroda pusthagam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu en pusthagam.",
+            "Adhu oru nalla pusthagam.",
+            "Aamaa, enakku pusthagam venum."
+          ],
+          "correctAnswer": "Adhu en pusthagam.",
+          "translatedSentence": "That is my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenga enna velai panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What work do you do?",
+            "Where do you work?",
+            "Are you working now?"
+          ],
+          "correctAnswer": "What work do you do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaapi kadai enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Andha theruvula irukku.",
+            "Adhu romba nalla kaapi.",
+            "Naan kaapi kudikkiren."
+          ],
+          "correctAnswer": "Andha theruvula irukku.",
+          "translatedSentence": "It is on that street."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avar yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is he?",
+            "Who is she?",
+            "Where is he?"
+          ],
+          "correctAnswer": "Who is he?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enga irundhu varreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan Maduraila irundhu varren.",
+            "Naan Chennaila velai panren.",
+            "Naan veetukku porren."
+          ],
+          "correctAnswer": "Naan Maduraila irundhu varren.",
+          "translatedSentence": "I am coming from Madurai."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu ennanu ungalukku theriyuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enakku theriyadhu.",
+            "Aamaa, adhu en peru.",
+            "Illa, naan adhu sappidren."
+          ],
+          "correctAnswer": "Illa, enakku theriyadhu.",
+          "translatedSentence": "No, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku Tamil nalla theriyadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know Tamil well.",
+            "I know Tamil well.",
+            "I do not want to learn Tamil."
+          ],
+          "correctAnswer": "I do not know Tamil well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga kaapi kudikkireengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naan kaapi kudikkamaatten.",
+            "Aamaa, naan idli sappidren.",
+            "Illa, adhu en kaapi illa."
+          ],
+          "correctAnswer": "Illa, naan kaapi kudikkamaatten.",
+          "translatedSentence": "No, I do not drink coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan innikku velaikku poga maatten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will not go to work today.",
+            "I am going to work today.",
+            "I did not go to work yesterday."
+          ],
+          "correctAnswer": "I will not go to work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enakku idhu pidikkala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, vera onnu edunga.",
+            "Aamaa, enakku romba pidikkum.",
+            "Illa, enakku theriyum."
+          ],
+          "correctAnswer": "Sari, vera onnu edunga.",
+          "translatedSentence": "Okay, take another one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Illa, avar inga illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, he is not here.",
+            "No, she is not here.",
+            "No, he is not coming."
+          ],
+          "correctAnswer": "No, he is not here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku innum oru dosai venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enakku vendaam.",
+            "Aamaa, naan veetukku porren.",
+            "Illa, enakku dosai theriyadhu."
+          ],
+          "correctAnswer": "Illa, enakku vendaam.",
+          "translatedSentence": "No, I do not want any."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku andha idam theriyadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know that place.",
+            "I know that place.",
+            "I have not gone to that place."
+          ],
+          "correctAnswer": "I do not know that place."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu sari illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naan marubadiyum panren.",
+            "Aamaa, idhu romba nalla irukku.",
+            "Illa, enakku pasikkala."
+          ],
+          "correctAnswer": "Sari, naan marubadiyum panren.",
+          "translatedSentence": "Okay, I will do it again."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan innikku varren, aana konjam neram aagum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naan kaathirukkiren.",
+            "Illa, enakku theriyadhu.",
+            "Aamaa, naan velai panren."
+          ],
+          "correctAnswer": "Sari, naan kaathirukkiren.",
+          "translatedSentence": "Okay, I will wait."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku dosai pidikkum, aana sambar romba kaaramaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like dosai, but the sambar is very spicy.",
+            "I like dosai and the sambar as well.",
+            "I do not like dosai because it is very spicy."
+          ],
+          "correctAnswer": "I like dosai, but the sambar is very spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga naalaikku Maduraikku porreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, kaalaila porren.",
+            "Illa, naan nethu poyiten.",
+            "Enakku Madurai romba pidikkum."
+          ],
+          "correctAnswer": "Aamaa, kaalaila porren.",
+          "translatedSentence": "Yes, I am going in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazhai peiyudhu, adhanala naan veetla irukkiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is raining, so I am staying at home.",
+            "It is raining, but I am going out.",
+            "If it rains, I will stay at home."
+          ],
+          "correctAnswer": "It is raining, so I am staying at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku neram irundha, naalaikku Marina beachukku povoma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, saayangaalam poganum.",
+            "Illa, enakku andha idam pidikkadhu.",
+            "Aamaa, naan nethu kadaikku poyiten."
+          ],
+          "correctAnswer": "Sari, saayangaalam poganum.",
+          "translatedSentence": "Sure, we should go in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan thappaa pesuna, thayavu senju sollunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I speak wrongly, please tell me.",
+            "I speak wrongly, so please tell me.",
+            "Please do not tell me when I speak wrongly."
+          ],
+          "correctAnswer": "If I speak wrongly, please tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga sappitteengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innum sappidala. Neenga?",
+            "Aamaa, naan naalaikku sappidren.",
+            "Illa, enakku sappadu pidikkadhu."
+          ],
+          "correctAnswer": "Illa, innum sappidala. Neenga?",
+          "translatedSentence": "No, I have not eaten yet. And you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan nethu Chennaikku vandhen, aana avar veetla illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came to Chennai yesterday, but he was not at home.",
+            "I will go to Chennai tomorrow, but he is not at home.",
+            "I came to Chennai yesterday because he was at home."
+          ],
+          "correctAnswer": "I came to Chennai yesterday, but he was not at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga enakku romba udhavi pannineenga, romba nandri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaala, idhula enna irukku.",
+            "Illa, enakku andha velai theriyadhu.",
+            "Sari, naan kadaikku porren."
+          ],
+          "correctAnswer": "Paravaala, idhula enna irukku.",
+          "translatedSentence": "It is nothing, do not mention it."
+        }
+      ]
+    }
+  ]
+}

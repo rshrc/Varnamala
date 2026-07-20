@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Name and home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude peru enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente peru {name} aanu.",
+            "Njaan Thiruvananthapurathu ninnu aanu.",
+            "Enikku malayalam ariyam."
+          ],
+          "correctAnswer": "Ente peru {name} aanu.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan Kochiyil ninnu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Kochi.",
+            "I am going to Kochi.",
+            "I work in Kochi."
+          ],
+          "correctAnswer": "I am from Kochi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal evide ninnu aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Thrissuril ninnu aanu.",
+            "Ente peru Ravi aanu.",
+            "Enikku Kochi ishtamaanu."
+          ],
+          "correctAnswer": "Njaan Thrissuril ninnu aanu.",
+          "translatedSentence": "I am from Thrissur."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente peru Meera aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Meera.",
+            "Her name is Meera.",
+            "I am looking for Meera."
+          ],
+          "correctAnswer": "My name is Meera."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude naadu evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente naadu Kochi aanu.",
+            "Ente peru Anu aanu.",
+            "Njaan innu Kochiyil pokunnu."
+          ],
+          "correctAnswer": "Ente naadu Kochi aanu.",
+          "translatedSentence": "My hometown is Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avante peru Ravi aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His name is Ravi.",
+            "My name is Ravi.",
+            "Your name is Ravi."
+          ],
+          "correctAnswer": "His name is Ravi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaram, sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sugamaanu, nandi.",
+            "Ente peru Nithin aanu.",
+            "Njaan Delhiyil ninnu aanu."
+          ],
+          "correctAnswer": "Sugamaanu, nandi.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalude naadu Thrissur aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is your hometown Thrissur?",
+            "Is Thrissur far from here?",
+            "Do you like Thrissur?"
+          ],
+          "correctAnswer": "Is your hometown Thrissur?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude peru Anu aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, ente peru Deepa aanu.",
+            "Athe, njaan Kochiyil thamasikkunnu.",
+            "Illa, enikku ariyilla."
+          ],
+          "correctAnswer": "Alla, ente peru Deepa aanu.",
+          "translatedSentence": "No, my name is Deepa."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra vayassaayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku muppathu vayassaayi.",
+            "Njaan Kochiyil joli cheyyunnu.",
+            "Ente peru Arun aanu."
+          ],
+          "correctAnswer": "Enikku muppathu vayassaayi.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan oru adhyaapakan aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a teacher.",
+            "I am a student.",
+            "I want to become a teacher."
+          ],
+          "correctAnswer": "I am a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal enthu joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan oru aashupathriyil joli cheyyunnu.",
+            "Enikku irupathanchu vayassaayi.",
+            "Njaan Kochiyil thamasikkunnu."
+          ],
+          "correctAnswer": "Njaan oru aashupathriyil joli cheyyunnu.",
+          "translatedSentence": "I work at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku irupathanchu vayassaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am twenty-five years old.",
+            "I am twenty years old.",
+            "I have twenty-five rupees."
+          ],
+          "correctAnswer": "I am twenty-five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "{name}, ningal evideyaanu padikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochiyile oru collegil padikkunnu.",
+            "Njaan raavile joli thudangunnu.",
+            "Enikku padikkaan valare ishtamaanu."
+          ],
+          "correctAnswer": "Njaan Kochiyile oru collegil padikkunnu.",
+          "translatedSentence": "I study at a college in Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente amma oru doctor aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is a doctor.",
+            "My mother is a nurse.",
+            "My mother works for a doctor."
+          ],
+          "correctAnswer": "My mother is a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal oru engineer aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, njaan oru nurse aanu.",
+            "Athe, enikku muppathu vayassu undu.",
+            "Illa, njaan naale varum."
+          ],
+          "correctAnswer": "Alla, njaan oru nurse aanu.",
+          "translatedSentence": "No, I am a nurse."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan innu joli cheyyunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not working today.",
+            "I do not want to work today.",
+            "I did not work yesterday."
+          ],
+          "correctAnswer": "I am not working today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ningalude joli ishtamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku ente joli valare ishtamaanu.",
+            "Alla, ente peru Suresh aanu.",
+            "Athe, njaan Thrissuril ninnu aanu."
+          ],
+          "correctAnswer": "Athe, enikku ente joli valare ishtamaanu.",
+          "translatedSentence": "Yes, I like my job very much."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku malayalam ariyamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku kurachu malayalam ariyam.",
+            "Athe, enikku muppathu vayassaayi.",
+            "Alla, njaan Kochiyil joli cheyyunnu."
+          ],
+          "correctAnswer": "Athe, enikku kurachu malayalam ariyam.",
+          "translatedSentence": "Yes, I know a little Malayalam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan ippol malayalam padikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am learning Malayalam now.",
+            "I speak Malayalam now.",
+            "I teach Malayalam now."
+          ],
+          "correctAnswer": "I am learning Malayalam now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethu bhaashayaanu veettil samsaarikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan veettil hindi samsaarikkunnu.",
+            "Njaan raavile chaya kudikkunnu.",
+            "Enikku ee bhaasha ariyilla."
+          ],
+          "correctAnswer": "Njaan veettil hindi samsaarikkunnu.",
+          "translatedSentence": "I speak Hindi at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku english nannaayi samsaarikkaan ariyam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I can speak English well.",
+            "I want to speak English well.",
+            "I am learning to speak English well."
+          ],
+          "correctAnswer": "I can speak English well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan parayunnathu ningalkku manassilaakunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kurachu manassilaakunnu, pathiye parayaamo?",
+            "Athe, enikku irupathu vayassaayi.",
+            "Njaan naale Kochiyilekku pokunnu."
+          ],
+          "correctAnswer": "Kurachu manassilaakunnu, pathiye parayaamo?",
+          "translatedSentence": "I understand a little; could you say it slowly?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku thamizh ariyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know Tamil.",
+            "I do not like Tamil.",
+            "I am not learning Tamil."
+          ],
+          "correctAnswer": "I do not know Tamil."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra bhaashakal samsaarikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan moonnu bhaashakal samsaarikkum.",
+            "Njaan moonnu varsham ivide padichu.",
+            "Enikku moonnu sahodarangal undu."
+          ],
+          "correctAnswer": "Njaan moonnu bhaashakal samsaarikkum.",
+          "translatedSentence": "I speak three languages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan malayalam samsaarikkum, pakshe enikku ezhuthaan ariyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I speak Malayalam, but I cannot write it.",
+            "I speak Malayalam, and I can write it too.",
+            "I am learning to read and write Malayalam."
+          ],
+          "correctAnswer": "I speak Malayalam, but I cannot write it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal engane aanu malayalam padichathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan ente ammayil ninnu padichu.",
+            "Njaan Kochiyil thamasikkukayaanu.",
+            "Enikku nadan bhakshanam ishtamaanu."
+          ],
+          "correctAnswer": "Njaan ente ammayil ninnu padichu.",
+          "translatedSentence": "I learned it from my mother."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about them",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan ningalude achante suhruthu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sar, ningal evideyaanu joli cheyyunnathu?",
+            "Nee evideyaanu joli cheyyunnathu?",
+            "Sar, ningalkku ente achane ariyilla."
+          ],
+          "correctAnswer": "Sar, ningal evideyaanu joli cheyyunnathu?",
+          "translatedSentence": "Sir, where do you work?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal ee naattil ethra kaalamaayi thamasikkunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How long have you been living in this town?",
+            "How long will you stay in this town?",
+            "Do you enjoy living in this town?"
+          ],
+          "correctAnswer": "How long have you been living in this town?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku randu makkal undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avarkku ethra vayassaayi?",
+            "Appol ningalkku makkal illa, alle?",
+            "Enikku kuttikale ishtamalla."
+          ],
+          "correctAnswer": "Avarkku ethra vayassaayi?",
+          "translatedSentence": "How old are they?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalude kudumbam evideyaanu thamasikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where does your family live?",
+            "Who lives with your family?",
+            "Where is your family going?"
+          ],
+          "correctAnswer": "Where does your family live?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan aadyamaayaanu Keralathil varunnathu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ningalkku Keralam engane undu?",
+            "Ningal ethra thavana Keralathil vannittundu?",
+            "Ningal Keralathil janichathaano?"
+          ],
+          "correctAnswer": "Ningalkku Keralam engane undu?",
+          "translatedSentence": "How do you find Kerala?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal enthu kondaanu ee naattilekku vannathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why did you come to this town?",
+            "When did you come to this town?",
+            "How did you come to this town?"
+          ],
+          "correctAnswer": "Why did you come to this town?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente veedu backwatersinu adutthaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ningal ozhivu divasangalil vallathil pokaarundo?",
+            "Appol ningalude veedu malamukalil aanu, alle?",
+            "Ningal divasavum KSRTC bassil aano joliykku pokunnathu?"
+          ],
+          "correctAnswer": "Ningal ozhivu divasangalil vallathil pokaarundo?",
+          "translatedSentence": "Do you go out on a boat on your days off?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku ivideyulla bhakshanam ishtamaayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Did you like the food here?",
+            "Do you want to eat something here?",
+            "Is the food here expensive?"
+          ],
+          "correctAnswer": "Did you like the food here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku puttum meen curryyum valare ishtamaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ningal thanne aano undaakkunnathu?",
+            "Ningalkku appam ishtamalla, alle?",
+            "Enikku puttu undaakkaan ariyilla."
+          ],
+          "correctAnswer": "Athu ningal thanne aano undaakkunnathu?",
+          "translatedSentence": "Do you make it yourself?"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu ente suhruthu Deepak aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Deepak, ningale kandathil santhosham.",
+            "Deepak ippol evideyaanu?",
+            "Deepakinu malayalam ariyilla."
+          ],
+          "correctAnswer": "Deepak, ningale kandathil santhosham.",
+          "translatedSentence": "Deepak, it is nice to meet you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ival ente sahodari Anjali aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my sister Anjali.",
+            "This is my friend Anjali.",
+            "Anjali is my sister's daughter."
+          ],
+          "correctAnswer": "This is my sister Anjali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal randu perum engane parichayappettu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangal oru collegil onnichu padichathaanu.",
+            "Njaan avane innu aadyamaayi kaanukayaanu.",
+            "Njangal randu perum Kochiyil janichu."
+          ],
+          "correctAnswer": "Njangal oru collegil onnichu padichathaanu.",
+          "translatedSentence": "We studied together at the same college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avan ente koode joli cheyyunna aal aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is the person I work with.",
+            "He is the person who works for me.",
+            "He used to work with me."
+          ],
+          "correctAnswer": "He is the person I work with."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude suhruthu enthu joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aval oru aashupathriyile nurse aanu.",
+            "Aval ente koode malayalam padichu.",
+            "Avalkku muppathu vayassu kazhinju."
+          ],
+          "correctAnswer": "Aval oru aashupathriyile nurse aanu.",
+          "translatedSentence": "She is a nurse at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente suhrutthinu malayalam ariyilla, athukondu njaan paribhaashappeduthaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend does not know Malayalam, so I will translate.",
+            "My friend knows Malayalam, so I will not translate.",
+            "My friend is learning Malayalam, so I will help him."
+          ],
+          "correctAnswer": "My friend does not know Malayalam, so I will translate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude suhruthu evide ninnaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avan Thiruvananthapurathu ninnaanu, pakshe ippol Kochiyil thamasikkunnu.",
+            "Avan naale Thiruvananthapurathekku pokum.",
+            "Avanu Thiruvananthapuram valare ishtamaanu."
+          ],
+          "correctAnswer": "Avan Thiruvananthapurathu ninnaanu, pakshe ippol Kochiyil thamasikkunnu.",
+          "translatedSentence": "He is from Thiruvananthapuram, but he lives in Kochi now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal randu perum ente veettil vannu chaya kudikkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both of you must come to my house for tea.",
+            "Both of you can make tea at my house.",
+            "I will come to your house for tea."
+          ],
+          "correctAnswer": "Both of you must come to my house for tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente suhrutthinu ee naattil aareyum ariyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishamikkenda, njaan avane ente kootukaarkku parichayappeduthaam.",
+            "Appol avanu ivide orupaadu suhrutthukkal undallo.",
+            "Avan ivide janichu valarnnathu kondaanu athu."
+          ],
+          "correctAnswer": "Vishamikkenda, njaan avane ente kootukaarkku parichayappeduthaam.",
+          "translatedSentence": "Do not worry, I will introduce him to my friends."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude phone number enikku tharaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thirchayaayum, njaan ippol thanne ningalkku oru message ayakkaam.",
+            "Ksamikkanam, enikku ningalude number ariyilla.",
+            "Athe, njaan naale Kochiyil ninnu varum."
+          ],
+          "correctAnswer": "Thirchayaayum, njaan ippol thanne ningalkku oru message ayakkaam.",
+          "translatedSentence": "Of course, I will send you a message right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ningalude number kittiyilla, onnu koodi parayaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not get your number, could you say it again?",
+            "I do not have your number, will you give it to me?",
+            "I lost your number, so I could not call you."
+          ],
+          "correctAnswer": "I did not get your number, could you say it again?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan ningale naale vilikkatte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naale vaikittu vilichaal mathi, raavile enikku joli undu.",
+            "Naale njaan Thrissuril ninnu ivide ethum.",
+            "Ksamikkanam, enikku ningalude peru ariyilla."
+          ],
+          "correctAnswer": "Naale vaikittu vilichaal mathi, raavile enikku joli undu.",
+          "translatedSentence": "Call me tomorrow evening; I have work in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayam kittumbol enikku oru message ayakkane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Send me a message when you get the time.",
+            "I will send you a message when I get the time.",
+            "Do you have time to send me a message?"
+          ],
+          "correctAnswer": "Send me a message when you get the time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningale kandathil enikku valare santhosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikkum santhosham undu, nammal veendum kaanaam.",
+            "Njaan ningale nerathe kandittilla.",
+            "Ningalkku enne ariyilla, alle?"
+          ],
+          "correctAnswer": "Enikkum santhosham undu, nammal veendum kaanaam.",
+          "translatedSentence": "I am glad too; let us meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningal Kochiyil varumbol enne nirbandhamaayum vilikkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You must call me when you come to Kochi.",
+            "Call me before you come to Kochi.",
+            "I will call you when I come to Kochi."
+          ],
+          "correctAnswer": "You must call me when you come to Kochi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan naale raavile KSRTC bassil naattilekku pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethiyaal enne onnu vilikkanam, njaan kaathirikkum.",
+            "Njaanum aa bassil undaakum, pakshe enikku ticket illa.",
+            "Ningal bassil pokaruthu, athu nallathalla."
+          ],
+          "correctAnswer": "Ethiyaal enne onnu vilikkanam, njaan kaathirikkum.",
+          "translatedSentence": "Call me once you arrive; I will be waiting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ippol pokanam, pakshe adutha aazhcha nammal veendum kaanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to go now, but we will meet again next week.",
+            "I have to go now, so we cannot meet next week.",
+            "I will go next week, but we can meet now."
+          ],
+          "correctAnswer": "I have to go now, but we will meet again next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enne vilikkaan marakkaruthu, ketto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, marakkilla; njaan ella aazhchayum vilikkaam.",
+            "Athe, enikku ningalude phone number ariyilla.",
+            "Njaan ningalude peru marannu poyi, ksamikkanam."
+          ],
+          "correctAnswer": "Illa, marakkilla; njaan ella aazhchayum vilikkaam.",
+          "translatedSentence": "No, I will not forget; I will call you every week."
+        }
+      ]
+    }
+  ]
+}

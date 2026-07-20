@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idhu sivappu niram.",
+            "Idhu romba perusu.",
+            "Idhu enakku pidikkum."
+          ],
+          "correctAnswer": "Idhu sivappu niram.",
+          "translatedSentence": "This one is red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaanam neela niram.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sky is blue.",
+            "The sky is very big.",
+            "The sky is far away."
+          ],
+          "correctAnswer": "The sky is blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Andha sattai enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu vellai niram.",
+            "Adhu en sattai illa.",
+            "Adhu kadaila irukku."
+          ],
+          "correctAnswer": "Adhu vellai niram.",
+          "translatedSentence": "That one is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ilai pachchai niram.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The leaf is green.",
+            "The leaf is yellow.",
+            "The leaf is small."
+          ],
+          "correctAnswer": "The leaf is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manjal niram unakku pidikkumaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, enakku romba pidikkum.",
+            "Illa, naan varala.",
+            "Aamaa, naan kadaikku poren."
+          ],
+          "correctAnswer": "Aamaa, enakku romba pidikkum.",
+          "translatedSentence": "Yes, I like it a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idhu karuppu niram illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is not black.",
+            "This one is not blue.",
+            "This one is black."
+          ],
+          "correctAnswer": "This one is not black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un pen enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En pen neela niram.",
+            "En pen table mela irukku.",
+            "Enakku oru pen venum."
+          ],
+          "correctAnswer": "En pen neela niram.",
+          "translatedSentence": "My pen is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sivappu roja azhaga irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The red rose is beautiful.",
+            "The white rose is beautiful.",
+            "The red rose is expensive."
+          ],
+          "correctAnswer": "The red rose is beautiful."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu vellai niramaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, idhu manjal niram.",
+            "Aamaa, naan naalai vaanguven.",
+            "Illa, adhu enakku theriyaadhu."
+          ],
+          "correctAnswer": "Illa, idhu manjal niram.",
+          "translatedSentence": "No, this one is yellow."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Andha neela pai yaarudhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu en pai.",
+            "Adhu neela niram.",
+            "Adhu kadaikku pakkathula irukku."
+          ],
+          "correctAnswer": "Adhu en pai.",
+          "translatedSentence": "That is my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enga veedu vellai niramaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is white.",
+            "Our house is very big.",
+            "Our house is close by."
+          ],
+          "correctAnswer": "Our house is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un sattai enna niram, thambi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En sattai pachcha niram.",
+            "En sattai romba pazhasu.",
+            "Naan sattai vaangala."
+          ],
+          "correctAnswer": "En sattai pachcha niram.",
+          "translatedSentence": "My shirt is green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan oru manja kudai vachchirukken.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a yellow umbrella.",
+            "I want a yellow umbrella.",
+            "I lost my yellow umbrella."
+          ],
+          "correctAnswer": "I have a yellow umbrella."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Andha karuppu naaya paaththeengalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, adhu enga veettu naai.",
+            "Illa, enakku naai romba pidikkum.",
+            "Aamaa, adhu vellai niram."
+          ],
+          "correctAnswer": "Aamaa, adhu enga veettu naai.",
+          "translatedSentence": "Yes, that is our dog."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha pachcha pai romba perusu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This green bag is very big.",
+            "This green bag is very small.",
+            "That green bag is very big."
+          ],
+          "correctAnswer": "This green bag is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sivappu pen unnudhaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, adhu en pen.",
+            "Aamaa, naan naalai varuven.",
+            "Illa, enakku pen venaam."
+          ],
+          "correctAnswer": "Aamaa, adhu en pen.",
+          "translatedSentence": "Yes, that is my pen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Andha vellai car en appaavudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That white car is my father's.",
+            "That white car is my brother's.",
+            "My father wants a white car."
+          ],
+          "correctAnswer": "That white car is my father's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga veettu kadhavu enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enga veettu kadhavu pazhuppu niram.",
+            "Enga veedu Madurai la irukku.",
+            "Kadhavu thorandhu irukku."
+          ],
+          "correctAnswer": "Enga veettu kadhavu pazhuppu niram.",
+          "translatedSentence": "Our front door is brown."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku endha niram venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku neela niram venum.",
+            "Enakku idhu theriyaadhu.",
+            "Naan kadaikku poren."
+          ],
+          "correctAnswer": "Enakku neela niram venum.",
+          "translatedSentence": "I want the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sivappu niram irukkaa, anna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have this in red?",
+            "Is the red one expensive?",
+            "I do not want the red one."
+          ],
+          "correctAnswer": "Do you have this in red?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sattai vellai la irukkaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, vellai la illa, manjal la irukku.",
+            "Aamaa, naan andha sattai poduven.",
+            "Illa, kadai moodirukku."
+          ],
+          "correctAnswer": "Illa, vellai la illa, manjal la irukku.",
+          "translatedSentence": "No, not in white, but we have it in yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku indha pachcha sattai venum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want this green shirt.",
+            "I like this green shirt.",
+            "I bought this green shirt."
+          ],
+          "correctAnswer": "I want this green shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rendu niram irukku, ungalukku edhu pidikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku sivappudhaan pidikkum.",
+            "Enakku rendum venaam.",
+            "Enakku niram theriyaadhu."
+          ],
+          "correctAnswer": "Enakku sivappudhaan pidikkum.",
+          "translatedSentence": "I like the red one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha manja pai evvalavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this yellow bag?",
+            "Where is this yellow bag?",
+            "Is this bag yellow?"
+          ],
+          "correctAnswer": "How much is this yellow bag?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku manjal venumaa, pachchai venumaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku pachchai venum.",
+            "Enakku pai onnum venaam.",
+            "Naan appuram vandhu paakkiren."
+          ],
+          "correctAnswer": "Enakku pachchai venum.",
+          "translatedSentence": "I will take the green one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enga ammaavukku sivappu podavai venum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother wants a red saree.",
+            "My mother bought a red saree.",
+            "My mother likes red sarees."
+          ],
+          "correctAnswer": "My mother wants a red saree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha niram ungalukku sariyaa irukkaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, nalla irukku, idhe kudunga.",
+            "Illa, enakku pai venaam.",
+            "Aamaa, kadai innum thorakkala."
+          ],
+          "correctAnswer": "Aamaa, nalla irukku, idhe kudunga.",
+          "translatedSentence": "Yes, it is nice, I will take this one."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalyaanathukku enna niram sattai poduveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan vellai sattai poduven.",
+            "Naan nethu oru sattai vaangunen.",
+            "Enakku sattai pidikkum."
+          ],
+          "correctAnswer": "Naan vellai sattai poduven.",
+          "translatedSentence": "I will wear a white shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanga nethu manja podavai kattinaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She wore a yellow saree yesterday.",
+            "She will wear a yellow saree tomorrow.",
+            "She bought a yellow saree yesterday."
+          ],
+          "correctAnswer": "She wore a yellow saree yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un pudhu chappal enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En chappal karuppu niram.",
+            "En chappal romba pazhasu.",
+            "Naan chappal poduvadhilla."
+          ],
+          "correctAnswer": "En chappal karuppu niram.",
+          "translatedSentence": "My sandals are black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha neela pant enakku perusaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "These blue trousers are too big for me.",
+            "These blue trousers are too small for me.",
+            "These blue trousers look good on me."
+          ],
+          "correctAnswer": "These blue trousers are too big for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan endha sattai poduven, sivappaa pachchaiyaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sivappu sattai podunga, adhu nalla irukkum.",
+            "Neenga sattaiye poda venaam.",
+            "Enakku pachcha sattai illa."
+          ],
+          "correctAnswer": "Sivappu sattai podunga, adhu nalla irukkum.",
+          "translatedSentence": "Wear the red shirt, it will look good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En thambi eppovum karuppu sattaidhaan poduvaan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother always wears black shirts.",
+            "My younger brother never wears black shirts.",
+            "My younger brother bought a black shirt."
+          ],
+          "correctAnswer": "My younger brother always wears black shirts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku indha oodha niram sattai pidichchirukkaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, romba nalla irukku.",
+            "Illa, naan innum sattai podala.",
+            "Aamaa, adhu en thambi sattai."
+          ],
+          "correctAnswer": "Aamaa, romba nalla irukku.",
+          "translatedSentence": "Yes, it looks very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pongalukku pudhu manja veshti vaanganum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have to buy a new yellow veshti for Pongal.",
+            "We bought a new yellow veshti for Pongal.",
+            "I do not need a new veshti for Pongal."
+          ],
+          "correctAnswer": "We have to buy a new yellow veshti for Pongal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "En pachcha sattai enga irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu almaari la irukku.",
+            "Adhu romba azhaga irukku.",
+            "Naan adha nethu potten."
+          ],
+          "correctAnswer": "Adhu almaari la irukku.",
+          "translatedSentence": "It is in the cupboard."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours in nature and town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Marina beach la kadal enna niramaa irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kadal neela pachchaiyaa irukku.",
+            "Kadal ingerundhu romba dooram.",
+            "Naan beach ku nethu ponen."
+          ],
+          "correctAnswer": "Kadal neela pachchaiyaa irukku.",
+          "translatedSentence": "The sea looks blue-green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chennai la auto manjalum karuppumaa irukkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Chennai the autos are yellow and black.",
+            "In Chennai the autos are black and white.",
+            "There are a lot of autos in Chennai."
+          ],
+          "correctAnswer": "In Chennai the autos are yellow and black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sooriyan maalaila enna niramaa maarum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sooriyan sivappaa maarum.",
+            "Sooriyan raathiri varum.",
+            "Sooriyan romba soodaa irukku."
+          ],
+          "correctAnswer": "Sooriyan sivappaa maarum.",
+          "translatedSentence": "The sun turns red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazhai varradhukku munnaadi vaanam karuppaa maarum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The sky goes dark before it rains.",
+            "The sky clears up before it rains.",
+            "It rains when the sky is blue."
+          ],
+          "correctAnswer": "The sky goes dark before it rains."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Signal la sivappu vandhaa enna pannanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vandiya nirutthanum.",
+            "Vegamaa polaam.",
+            "Auto la eranum."
+          ],
+          "correctAnswer": "Vandiya nirutthanum.",
+          "translatedSentence": "You have to stop the vehicle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Madurai la kovil gopuram pala niram la irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Madurai the temple tower has many colours.",
+            "In Madurai the temple tower is very tall.",
+            "There are many temples in Madurai."
+          ],
+          "correctAnswer": "In Madurai the temple tower has many colours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu pachcha maangaayaa, illa manja maambazhamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adhu manja maambazham, romba inippu.",
+            "Adhu maratthula irundhu vizhundhudhu.",
+            "Naan maangaai vaangala."
+          ],
+          "correctAnswer": "Adhu manja maambazham, romba inippu.",
+          "translatedSentence": "That is a ripe yellow mango, very sweet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beach la neela vaanamum vellai megamum azhaga irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The blue sky and the white clouds look beautiful at the beach.",
+            "The sky at the beach is grey and cloudy.",
+            "There is not a single cloud in the blue sky."
+          ],
+          "correctAnswer": "The blue sky and the white clouds look beautiful at the beach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga oorla bus enna niram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enga oorla bus vellaiyum neelamumaa irukkum.",
+            "Enga oorla bus eppovum kootamaa irukkum.",
+            "Naan bus la dhaan office ku poven."
+          ],
+          "correctAnswer": "Enga oorla bus vellaiyum neelamumaa irukkum.",
+          "translatedSentence": "In our town the buses are white and blue."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kadum neelamaa illa ilam neelamaa, ungalukku edhu pidikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku ilam neelam pidikkum, ennanaa adhu kannukku kulumaiyaa irukku.",
+            "Enakku neela sattai onnum illa.",
+            "Naan neela niram vaangi kudukkiren."
+          ],
+          "correctAnswer": "Enakku ilam neelam pidikkum, ennanaa adhu kannukku kulumaiyaa irukku.",
+          "translatedSentence": "I prefer light blue, because it is easy on the eyes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha niram adhaivida konjam kadumaa irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour is a little darker than that one.",
+            "This colour is a little lighter than that one.",
+            "This colour is exactly the same as that one."
+          ],
+          "correctAnswer": "This colour is a little darker than that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan indha oodha podavai kattinaa nalla irukkumaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, adhu ungalukku romba nalla porundhum.",
+            "Illa, naan podavai kattamaatten.",
+            "Aamaa, naan adha nethu vaangunen."
+          ],
+          "correctAnswer": "Aamaa, adhu ungalukku romba nalla porundhum.",
+          "translatedSentence": "Yes, that will suit you very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku kadum sivappu pidikkum, aana en thangachchikku ilam niram thaan pidikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like dark red, but my younger sister only likes light colours.",
+            "I like light red, but my younger sister likes dark colours.",
+            "My younger sister and I both like dark red."
+          ],
+          "correctAnswer": "I like dark red, but my younger sister only likes light colours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veyil neratthula neenga karuppu sattai poduveengalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, karuppu podamaatten, ennanaa romba soodu aagum.",
+            "Aamaa, enakku sattai poda pidikkaadhu.",
+            "Illa, naan veyil la veliya poven."
+          ],
+          "correctAnswer": "Illa, karuppu podamaatten, ennanaa romba soodu aagum.",
+          "translatedSentence": "No, I do not wear black, because it gets too hot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha sattai unakku nalla irukku, aana vilai konjam adhigam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shirt suits you, but it is a bit expensive.",
+            "This shirt suits you, and it is quite cheap.",
+            "This shirt does not suit you, and it is expensive."
+          ],
+          "correctAnswer": "This shirt suits you, but it is a bit expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ilam pachchai sattai edukkavaa, illa kadum pachchaiyaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ilam pachchai edunga, kalyaanathukku adhu nalla irukkum.",
+            "Kadum pachchai kadaila kidaikkadhu.",
+            "Rendu sattaiyum naan nethu thoyththen."
+          ],
+          "correctAnswer": "Ilam pachchai edunga, kalyaanathukku adhu nalla irukkum.",
+          "translatedSentence": "Take the light green one, it will look nice for the wedding."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenga vellai sattai pottaa, kalyaana photo la nalla varuveenga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you wear a white shirt, you will come out well in the wedding photos.",
+            "You wore a white shirt in the wedding photos.",
+            "White shirts never come out well in wedding photos."
+          ],
+          "correctAnswer": "If you wear a white shirt, you will come out well in the wedding photos."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha rendu niramum enakku pidikkala, vera niram irukkaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Irukku, oru ilam manjal sattai kaattaren, paarunga.",
+            "Illa, kadai innum thoranthu irukku.",
+            "Aamaa, ungalukku indha rendu niramum pidikkum."
+          ],
+          "correctAnswer": "Irukku, oru ilam manjal sattai kaattaren, paarunga.",
+          "translatedSentence": "We do, let me show you a light yellow shirt, have a look."
+        }
+      ]
+    }
+  ]
+}

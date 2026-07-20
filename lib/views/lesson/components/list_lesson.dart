@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:words625/application/level_provider.dart';
-import 'package:words625/courses/languages/dictionary.dart';
+import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/views/lesson/lesson_screen.dart';
@@ -239,8 +239,20 @@ class QuestionRow extends StatelessWidget {
 
   List<TextSpan> _buildTextSpans(BuildContext context) {
     final words = question?.sentence?.split(' ') ?? [];
+    final baseStyle = Theme.of(context).textTheme.titleMedium?.copyWith(
+          fontWeight: FontWeight.w600,
+          height: 1.4,
+        );
 
     return words.map((word) {
+      final meaning = getWordMeaning(word);
+
+      // Only words we can actually explain get the dotted "tap me" affordance,
+      // so a learner never taps into an empty tooltip.
+      if (meaning == null) {
+        return TextSpan(text: '$word ', style: baseStyle);
+      }
+
       return TextSpan(
         children: [
           WidgetSpan(
@@ -248,15 +260,24 @@ class QuestionRow extends StatelessWidget {
             child: Tooltip(
               triggerMode: TooltipTriggerMode.tap,
               enableFeedback: true,
-              message: getWordMeaning(word),
+              message: meaning,
+              textStyle: const TextStyle(
+                color: Colors.white,
+                fontSize: 14,
+                fontWeight: FontWeight.w600,
+              ),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color: VarnamalaTheme.peacockTeal,
+                borderRadius: BorderRadius.circular(10),
+              ),
               child: Text(
                 word,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.w600,
-                      decoration: TextDecoration.underline,
-                      decorationStyle: TextDecorationStyle.dotted,
-                      decorationColor: VarnamalaTheme.textHint,
-                    ),
+                style: baseStyle?.copyWith(
+                  decoration: TextDecoration.underline,
+                  decorationStyle: TextDecorationStyle.dotted,
+                  decorationColor: VarnamalaTheme.textHint,
+                ),
               ),
             ),
           ),

@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra chaya venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku randu chaya venam.",
+            "Enikku chaya venda.",
+            "Njaan chaya undakkaam."
+          ],
+          "correctAnswer": "Enikku randu chaya venam.",
+          "translatedSentence": "I want two teas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku oru appam venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want one appam.",
+            "I want two appams.",
+            "I do not want appam."
+          ],
+          "correctAnswer": "I want one appam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude veettil ethra per undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangalude veettil naalu per undu.",
+            "Njangalude veettil aarum illa.",
+            "Njaan ippol veettil pokunnu."
+          ],
+          "correctAnswer": "Njangalude veettil naalu per undu.",
+          "translatedSentence": "There are four people in our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meshamel moonu puttu undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are three puttu on the table.",
+            "There are two puttu on the table.",
+            "There is no puttu on the table."
+          ],
+          "correctAnswer": "There are three puttu on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee ethra puttu kazhichu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan anchu puttu kazhichu.",
+            "Njaan puttu kazhichilla.",
+            "Njaan amma-ykku puttu undakki."
+          ],
+          "correctAnswer": "Njaan anchu puttu kazhichu.",
+          "translatedSentence": "I ate five puttu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku moonu meen venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want three fish.",
+            "I want four fish.",
+            "I want three eggs."
+          ],
+          "correctAnswer": "I want three fish."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "KSRTC bassil ethra per undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bassil pathu per undu.",
+            "Bassil aarum illa.",
+            "Bass ippol vannu."
+          ],
+          "correctAnswer": "Bassil pathu per undu.",
+          "translatedSentence": "There are ten people on the bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avide aaru kutti undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are six children there.",
+            "There are seven children there.",
+            "There are six chairs there."
+          ],
+          "correctAnswer": "There are six children there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra per varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangal moonu per varum.",
+            "Njangal aarum varilla.",
+            "Njangal randu divasam varum."
+          ],
+          "correctAnswer": "Njangal moonu per varum.",
+          "translatedSentence": "Three of us will come."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude classil ethra kuttikal undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente classil irupathanchu kuttikal undu.",
+            "Ente classil pathu kuttikal undu.",
+            "Ente classil ippol aarum illa."
+          ],
+          "correctAnswer": "Ente classil irupathanchu kuttikal undu.",
+          "translatedSentence": "There are twenty-five children in my class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kadayil pathinanchu tharam chaya undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shop has fifteen kinds of tea.",
+            "This shop has fifty kinds of tea.",
+            "This shop has fifteen kinds of coffee."
+          ],
+          "correctAnswer": "This shop has fifteen kinds of tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bassil ethra seat undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bassil nalpathu seat undu.",
+            "Bassil naalu seat undu.",
+            "Bassil seat onnum ozhivilla."
+          ],
+          "correctAnswer": "Bassil nalpathu seat undu.",
+          "translatedSentence": "There are forty seats on the bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangalude gramathil nooru veedu undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a hundred houses in our village.",
+            "There are ninety houses in our village.",
+            "There are a hundred people in our village."
+          ],
+          "correctAnswer": "There are a hundred houses in our village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee varsham ningal ethra pusthakam vaayichu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan pathinettu pusthakam vaayichu.",
+            "Njaan ee varsham onnum vaayichilla.",
+            "Njaan pathinettu pusthakam vaangi."
+          ],
+          "correctAnswer": "Njaan pathinettu pusthakam vaayichu.",
+          "translatedSentence": "I read eighteen books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente amma muppathu appam undakki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother made thirty appams.",
+            "My mother made thirteen appams.",
+            "My mother ate thirty appams."
+          ],
+          "correctAnswer": "My mother made thirty appams."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude officil ethra per joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avide ampathu per joli cheyyunnu.",
+            "Avide anchu per joli cheyyunnu.",
+            "Njaan avide joli cheyyunnilla."
+          ],
+          "correctAnswer": "Avide ampathu per joli cheyyunnu.",
+          "translatedSentence": "Fifty people work there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa marathil pathimoonu manga undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are thirteen mangoes on that tree.",
+            "There are thirty mangoes on that tree.",
+            "There are thirteen birds on that tree."
+          ],
+          "correctAnswer": "There are thirteen mangoes on that tree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra divasam Kochiyil thaamasichu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan irupathu divasam avide thaamasichu.",
+            "Njaan randu divasam avide thaamasichu.",
+            "Njaan Kochiyil thaamasichittilla."
+          ],
+          "correctAnswer": "Njaan irupathu divasam avide thaamasichu.",
+          "translatedSentence": "I stayed there for twenty days."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much it costs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithinu ethra roopa aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithinu nalpathu roopa aanu.",
+            "Ithinu vila kuravaanu.",
+            "Ithu enikku venam."
+          ],
+          "correctAnswer": "Ithinu nalpathu roopa aanu.",
+          "translatedSentence": "This costs forty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Oru chayakku pathu roopa aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One tea costs ten rupees.",
+            "One tea costs twenty rupees.",
+            "One coffee costs ten rupees."
+          ],
+          "correctAnswer": "One tea costs ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meen curryude vila ethra aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athinu enpathu roopa aanu.",
+            "Athinu ippol vila kooduthal aanu.",
+            "Enikku meen curry valare ishtamaanu."
+          ],
+          "correctAnswer": "Athinu enpathu roopa aanu.",
+          "translatedSentence": "It costs eighty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan puttinu irupathu roopa koduthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I paid twenty rupees for the puttu.",
+            "I paid twelve rupees for the puttu.",
+            "I paid twenty rupees for the appam."
+          ],
+          "correctAnswer": "I paid twenty rupees for the puttu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vila kurachu kurakkaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan pathu roopa kurakkaam.",
+            "Kshamikkanam, vila kurakkaan pattilla.",
+            "Ningalkku ethra roopa undu?"
+          ],
+          "correctAnswer": "Athe, njaan pathu roopa kurakkaam.",
+          "translatedSentence": "Yes, I will reduce it by ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kadayil ellaathinum vila kooduthal aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is expensive in this shop.",
+            "Everything is cheap in this shop.",
+            "Everything in this shop is new."
+          ],
+          "correctAnswer": "Everything is expensive in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra roopa venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku anchooru roopa venam.",
+            "Enikku roopa onnum venda.",
+            "Enikku oru chaya mathram venam."
+          ],
+          "correctAnswer": "Enikku anchooru roopa venam.",
+          "translatedSentence": "I need five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus tickettinu muppathanchu roopa aayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus ticket cost thirty-five rupees.",
+            "The bus ticket cost twenty-five rupees.",
+            "The train ticket cost thirty-five rupees."
+          ],
+          "correctAnswer": "The bus ticket cost thirty-five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithinu nooru roopa mathiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, irunooru roopa venam.",
+            "Athe, nooru roopa kooduthal aanu.",
+            "Enikku vila ariyilla, njaan chodikkaam."
+          ],
+          "correctAnswer": "Illa, irunooru roopa venam.",
+          "translatedSentence": "No, two hundred rupees is needed."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantity",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra vayassu undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku muppathirandu vayassu undu.",
+            "Enikku randu makkal undu.",
+            "Enikku ente vayassu ariyilla."
+          ],
+          "correctAnswer": "Enikku muppathirandu vayassu undu.",
+          "translatedSentence": "I am thirty-two years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente makalkku anchu vayassaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is five years old.",
+            "My daughter is nine years old.",
+            "My son is five years old."
+          ],
+          "correctAnswer": "My daughter is five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude phone number onnu parayaamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ente number onpathu naalu ettu moonu aanu.",
+            "Kshamikkanam, enikku phone illa.",
+            "Njaan naale ningale vilikkaam."
+          ],
+          "correctAnswer": "Athe, ente number onpathu naalu ettu moonu aanu.",
+          "translatedSentence": "Yes, my number is nine four eight three."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku kurachu chaya mathram mathi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A little tea is enough for me.",
+            "A lot of tea is enough for me.",
+            "I do not want any tea at all."
+          ],
+          "correctAnswer": "A little tea is enough for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra makkal undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku randu makkal undu, oru makalum oru makanum.",
+            "Enikku makkal aarum illa.",
+            "Enikku moonu sahodarangal undu."
+          ],
+          "correctAnswer": "Enikku randu makkal undu, oru makalum oru makanum.",
+          "translatedSentence": "I have two children, a daughter and a son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kadayil orupaadu aalukal undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of people in this shop.",
+            "There are only a few people in this shop.",
+            "There is nobody in this shop."
+          ],
+          "correctAnswer": "There are a lot of people in this shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra kaalam Thiruvananthapurathu thaamasichu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan pathu varsham avide thaamasichu.",
+            "Njaan pathu divasam avide thaamasichu.",
+            "Njaan avide thaamasichittilla."
+          ],
+          "correctAnswer": "Njaan pathu varsham avide thaamasichu.",
+          "translatedSentence": "I lived there for ten years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente achante vayassu ezhupathaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is seventy years old.",
+            "My father is sixty years old.",
+            "My grandfather is seventy years old."
+          ],
+          "correctAnswer": "My father is seventy years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kurachu vellam tharumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan ippol thanne tharaam.",
+            "Kshamikkanam, ivide vellam illa.",
+            "Enikkum kurachu vellam venam."
+          ],
+          "correctAnswer": "Athe, njaan ippol thanne tharaam.",
+          "translatedSentence": "Yes, I will give it to you right now."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippol samayam ethra aayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippol ettu mani aayi.",
+            "Enikku ippol samayam illa.",
+            "Njaan ettu manikku varaam."
+          ],
+          "correctAnswer": "Ippol ettu mani aayi.",
+          "translatedSentence": "It is eight o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan raavile aaru manikku unarum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wake up at six in the morning.",
+            "I wake up at seven in the morning.",
+            "I go to sleep at six in the morning."
+          ],
+          "correctAnswer": "I wake up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus ethra manikku varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus pathu manikku varum.",
+            "Bus pathu minutt munpu poyi.",
+            "Innu ee vazhikku bus illa."
+          ],
+          "correctAnswer": "Bus pathu manikku varum.",
+          "translatedSentence": "The bus will come at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kada raavile ezhu manikku thurakkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop opens at seven in the morning.",
+            "The shop closes at seven in the morning.",
+            "The shop opens at seven in the evening."
+          ],
+          "correctAnswer": "The shop opens at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nammal ethra manikku kaanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nammal vaikittu anchu manikku kaanaam.",
+            "Nammal naale kaanaam, innu venda.",
+            "Enikku innu samayam illa."
+          ],
+          "correctAnswer": "Nammal vaikittu anchu manikku kaanaam.",
+          "translatedSentence": "Let us meet at five in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku pathinanchu minutt kaathirikkendi vannu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had to wait for fifteen minutes.",
+            "I had to wait for fifty minutes.",
+            "I had to wait for fifteen hours."
+          ],
+          "correctAnswer": "I had to wait for fifteen minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innale raathri ningal ethra manikkoor urangi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan ezhu manikkoor urangi.",
+            "Njaan ezhu manikku urangi.",
+            "Njaan innale raathri urangiyilla."
+          ],
+          "correctAnswer": "Njaan ezhu manikkoor urangi.",
+          "translatedSentence": "I slept for seven hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train pathinonnu manikku Kochiyil ethum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train reaches Kochi at eleven o'clock.",
+            "The train leaves Kochi at eleven o'clock.",
+            "The train reaches Kochi at one o'clock."
+          ],
+          "correctAnswer": "The train reaches Kochi at eleven o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku moonu manikku ivide varaan pattumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enikku naalu mani aakum.",
+            "Athe, njaan moonu manikkoor irikkaam.",
+            "Njaan innale moonu manikku vannirunnu."
+          ],
+          "correctAnswer": "Illa, enikku naalu mani aakum.",
+          "translatedSentence": "No, it will be four o'clock by the time I get there."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithinu irunooru roopa aanu, pakshe ente kayyil nooru roopa mathrame ullu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamikkanam, ennaal ithu tharaan pattilla.",
+            "Sarikkum, nooru roopa ithinekkaal kooduthal aanu.",
+            "Ningalkku ethra roopa koodi venam ennu ariyilla."
+          ],
+          "correctAnswer": "Kshamikkanam, ennaal ithu tharaan pattilla.",
+          "translatedSentence": "Sorry, then I cannot give it to you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Randu chayayum oru puttum koodi mothham nalpathu roopa aayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Two teas and one puttu came to forty rupees in total.",
+            "Two teas and one puttu came to fifty rupees in total.",
+            "Two teas and one appam came to forty rupees in total."
+          ],
+          "correctAnswer": "Two teas and one puttu came to forty rupees in total."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kadayil vila kooduthal aanenkilum saadhanangal nallathaanu, alle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, athukondu thanne njaan ivide ninnu vaangunnu.",
+            "Illa, ivide vilayum kuravaanu saadhanavum moshamaanu.",
+            "Enikku ee kada ariyilla, njaan aadyamaayaanu varunnathu."
+          ],
+          "correctAnswer": "Athe, athukondu thanne njaan ivide ninnu vaangunnu.",
+          "translatedSentence": "Yes, that is exactly why I buy from here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innaleyekkaal innu meeninu vila kuravaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fish is cheaper today than it was yesterday.",
+            "Fish is more expensive today than it was yesterday.",
+            "Fish was cheap yesterday as well."
+          ],
+          "correctAnswer": "Fish is cheaper today than it was yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku kooduthal puttu venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, randu puttu koodi tharumo?",
+            "Venda, ithu mathi, njaan orupaadu kazhichu.",
+            "Enikku puttinekkaal ishtam appam aanu."
+          ],
+          "correctAnswer": "Athe, randu puttu koodi tharumo?",
+          "translatedSentence": "Yes, could you give me two more puttu?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente kayyil panam kuravaanu, athukondu njaan bassil pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have much money, so I will go by bus.",
+            "I have plenty of money, so I will go by bus.",
+            "I do not have much money, but I will go by train."
+          ],
+          "correctAnswer": "I do not have much money, so I will go by bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee yaathrakku ningal ethra roopa chelavaakki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aake ayyaayiram roopa aayi, athil pakuthiyum bhakshanathinaanu.",
+            "Njaan ee yaathrakku onnum chelavaakkiyilla.",
+            "Enikku kanakku ippol ormayilla, njaan nokkiyittu parayaam."
+          ],
+          "correctAnswer": "Aake ayyaayiram roopa aayi, athil pakuthiyum bhakshanathinaanu.",
+          "translatedSentence": "It came to five thousand rupees in all, and half of that was on food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pathu per varum ennu njaan vichaarichu, pakshe pathinanchu per vannu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I thought ten people would come, but fifteen turned up.",
+            "I thought fifteen people would come, but only ten turned up.",
+            "I thought ten people would come, and exactly ten turned up."
+          ],
+          "correctAnswer": "I thought ten people would come, but fifteen turned up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee masam ningalude chelavu koodiyo alla kuranjo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kurachu koodi, karanam njaan ee masam kooduthal yaathra cheythu.",
+            "Kuranju, karanam njaan ee masam onnum vaangiyilla.",
+            "Ethra aayi ennu njaan innu vare kanakku nokkiyittilla."
+          ],
+          "correctAnswer": "Kurachu koodi, karanam njaan ee masam kooduthal yaathra cheythu.",
+          "translatedSentence": "It went up a little, because I travelled more this month."
+        }
+      ]
+    }
+  ]
+}

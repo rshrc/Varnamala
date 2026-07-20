@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku aakali ga undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku aakali ga undi.",
+            "Ledu, naaku daahamga undi.",
+            "Nenu ippudu intiki veltunnanu."
+          ],
+          "correctAnswer": "Avunu, naaku aakali ga undi.",
+          "translatedSentence": "Yes, I am hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku konchem neellu kaavaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a little water.",
+            "I want a cup of tea.",
+            "I am very hungry now."
+          ],
+          "correctAnswer": "I want a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru emi taagutaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu chai taagutaanu.",
+            "Nenu annam tintaanu.",
+            "Naaku aa hotel telusu."
+          ],
+          "correctAnswer": "Nenu chai taagutaanu.",
+          "translatedSentence": "I will drink tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Annam inka vedi ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rice is still hot.",
+            "The tea has gone cold.",
+            "The water is very clean."
+          ],
+          "correctAnswer": "The rice is still hot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu annam tinnaavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu ippude tinnaanu.",
+            "Ledu, naaku chai maatrame kaavaali.",
+            "Avunu, naaku daahamga undi."
+          ],
+          "correctAnswer": "Avunu, nenu ippude tinnaanu.",
+          "translatedSentence": "Yes, I just ate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku chaala daahamga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very thirsty.",
+            "I am very hungry.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neellu ekkada unnaayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Neellu ikkada table meeda unnaayi.",
+            "Neellu naaku chaala ishtam.",
+            "Chai konchem vedi ga undi."
+          ],
+          "correctAnswer": "Neellu ikkada table meeda unnaayi.",
+          "translatedSentence": "The water is here on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ippudu chai vaddu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want tea now.",
+            "I want tea right now.",
+            "I never drink water."
+          ],
+          "correctAnswer": "I do not want tea now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Konchem neellu ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idigo, neellu teesukondi.",
+            "Idigo, chai teesukondi.",
+            "Naaku kuda aakali ga undi."
+          ],
+          "correctAnswer": "Idigo, neellu teesukondi.",
+          "translatedSentence": "Here, take the water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enni chai lu kaavaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu irani chai lu ivvandi.",
+            "Naaku chai vaddu, neellu chaalu.",
+            "Nenu Charminar daggara unnanu."
+          ],
+          "correctAnswer": "Rendu irani chai lu ivvandi.",
+          "translatedSentence": "Please give me two Irani teas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pesarattu enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this pesarattu?",
+            "Where do you make this pesarattu?",
+            "Is this pesarattu tasty?"
+          ],
+          "correctAnswer": "How much is this pesarattu?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ikkada emi dorukutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ikkada idli, dosa, pesarattu dorukutaayi.",
+            "Ikkada chai chaala baagundi kada.",
+            "Ikkada janam chaala ekkuva ga unnaaru."
+          ],
+          "correctAnswer": "Ikkada idli, dosa, pesarattu dorukutaayi.",
+          "translatedSentence": "Idli, dosa and pesarattu are available here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku oka pesarattu, oka chai kaavaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want one pesarattu and one tea.",
+            "I want two pesarattus and one tea.",
+            "I want one dosa and one coffee."
+          ],
+          "correctAnswer": "I want one pesarattu and one tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai lo panchadaara enta veyyanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konchem takkuva veyyandi.",
+            "Konchem ekkuva veyyandi.",
+            "Chai vaddu, paalu ivvandi."
+          ],
+          "correctAnswer": "Konchem takkuva veyyandi.",
+          "translatedSentence": "Please put a little less."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee biryani ippudu vedi ga undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is this biryani hot right now?",
+            "Is this biryani very spicy?",
+            "Do you have biryani right now?"
+          ],
+          "correctAnswer": "Is this biryani hot right now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku parcel kaavaalaa, ikkade tintaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parcel ivvandi, nenu intiki teesukeltaanu.",
+            "Ikkade tintaanu, oka plate ivvandi.",
+            "Naaku chai maatrame kaavaali, tindi vaddu."
+          ],
+          "correctAnswer": "Parcel ivvandi, nenu intiki teesukeltaanu.",
+          "translatedSentence": "Make it a parcel, I will take it home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Motham enta ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is it in total?",
+            "How long will it take?",
+            "How many plates did you give?"
+          ],
+          "correctAnswer": "How much is it in total?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meelo chillara undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naa daggara pedda note maatrame undi.",
+            "Ledu, naa daggara chai kappu ledu.",
+            "Avunu, chai chaala baagundi."
+          ],
+          "correctAnswer": "Ledu, naa daggara pedda note maatrame undi.",
+          "translatedSentence": "No, I only have a big note."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet, salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kura chaala kaaramga undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naa naalika manduthundi.",
+            "Ledu, idi chaala teepi ga undi.",
+            "Avunu, idi konchem challa ga undi."
+          ],
+          "correctAnswer": "Avunu, naa naalika manduthundi.",
+          "translatedSentence": "Yes, my tongue is burning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee gongura pachadi lo uppu ekkuva ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is too much salt in this gongura chutney.",
+            "There is too much sugar in this gongura chutney.",
+            "This gongura chutney is not spicy at all."
+          ],
+          "correctAnswer": "There is too much salt in this gongura chutney."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku teepi ishtamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku mithaayilu chaala ishtam.",
+            "Ledu, naaku kaaram ekkuva ishtam.",
+            "Avunu, naaku uppu ekkuva ishtam."
+          ],
+          "correctAnswer": "Avunu, naaku mithaayilu chaala ishtam.",
+          "translatedSentence": "Yes, I like sweets very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku antha kaaram tinaleka poyaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I could not eat that much spice.",
+            "I could not finish that much rice.",
+            "I can easily eat a lot of spice."
+          ],
+          "correctAnswer": "I could not eat that much spice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai maree vedi ga undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem sepu aagi taagutaanu.",
+            "Ledu, chai chaala challa ga undi.",
+            "Avunu, chai lo panchadaara ledu."
+          ],
+          "correctAnswer": "Avunu, konchem sepu aagi taagutaanu.",
+          "translatedSentence": "Yes, I will wait a little and then drink it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pappu lo uppu saripoledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is not enough salt in this dal.",
+            "There is far too much salt in this dal.",
+            "This dal has not been cooked properly."
+          ],
+          "correctAnswer": "There is not enough salt in this dal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pachadi ela undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaala baagundi, kaani konchem pulupu ekkuva.",
+            "Chaala baagundi, kaani nenu tinaledu.",
+            "Naaku pachadi ante ishtam ledu."
+          ],
+          "correctAnswer": "Chaala baagundi, kaani konchem pulupu ekkuva.",
+          "translatedSentence": "It is very good, but it is a bit too sour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaaram takkuva ga cheyyandi, pillalu kuda tintaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please make it less spicy, the children will eat it too.",
+            "Please make it more spicy, we all like it that way.",
+            "Please make it quickly, the children are hungry."
+          ],
+          "correctAnswer": "Please make it less spicy, the children will eat it too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhojanam taruvaata emaina teepi tintaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem payasam ivvandi.",
+            "Ledu, naaku inka kaaram kaavaali.",
+            "Avunu, naaku oka chai ivvandi."
+          ],
+          "correctAnswer": "Avunu, konchem payasam ivvandi.",
+          "translatedSentence": "Yes, please give me a little payasam."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the Restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee table meeku saripotundaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, ide chaalu, thank you.",
+            "Ledu, kitiki daggara table kaavaali.",
+            "Ledu, memu naluguru vastunnaamu."
+          ],
+          "correctAnswer": "Avunu, ide chaalu, thank you.",
+          "translatedSentence": "Yes, this one is fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Menu konchem chupinchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me the menu.",
+            "Please bring me the bill.",
+            "Please show me the kitchen."
+          ],
+          "correctAnswer": "Please show me the menu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru emi order chestaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku oka chicken biryani, oka raita ivvandi.",
+            "Naaku ee restaurant chaala ishtam.",
+            "Nenu ippudu emi tinaledu."
+          ],
+          "correctAnswer": "Naaku oka chicken biryani, oka raita ivvandi.",
+          "translatedSentence": "Give me one chicken biryani and one raita."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vantakam lo kodi guddu undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is there egg in this dish?",
+            "Is there onion in this dish?",
+            "How much does this dish cost?"
+          ],
+          "correctAnswer": "Is there egg in this dish?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Inkemaina kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, chaalu, bill teesukurandi.",
+            "Ledu, chaalu, menu teesukurandi.",
+            "Avunu, konchem annam, pappu veyyandi."
+          ],
+          "correctAnswer": "Ledu, chaalu, bill teesukurandi.",
+          "translatedSentence": "No, that is enough, please bring the bill."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Biryani ki inka enta sepu padutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much longer will the biryani take?",
+            "How much does the biryani cost here?",
+            "How spicy is the biryani here?"
+          ],
+          "correctAnswer": "How much longer will the biryani take?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bill lo memu tinani vantakam okati vesaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, nenu ippude sari chestaanu.",
+            "Kshaminchandi, vantakam ippude teesukostaanu.",
+            "Avunu, bill sariggaane undi, meeru chudandi."
+          ],
+          "correctAnswer": "Kshaminchandi, nenu ippude sari chestaanu.",
+          "translatedSentence": "Sorry, I will correct it right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Memu card tho kadataamu, maa daggara cash ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will pay by card, we do not have cash.",
+            "We will pay with cash, we do not have a card.",
+            "We will pay tomorrow, we do not have time today."
+          ],
+          "correctAnswer": "We will pay by card, we do not have cash."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhojanam ela undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaala baagundi, mukhyanga gongura pappu.",
+            "Konchem challa ga undi, marchi ivvandi.",
+            "Baagundi, kaani bill inka raaledu."
+          ],
+          "correctAnswer": "Chaala baagundi, mukhyanga gongura pappu.",
+          "translatedSentence": "It was very good, especially the gongura dal."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu vanta chestunnanu, konchem sahaayam chestaavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, nenu ullipaayalu kostaanu.",
+            "Sare, kaani naaku vanta cheyyatam raadu.",
+            "Ledu, naaku ippudu aakali ga ledu."
+          ],
+          "correctAnswer": "Sare, nenu ullipaayalu kostaanu.",
+          "translatedSentence": "Okay, I will cut the onions."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Munduga ullipaayalu, tomato lu sannaga koyyi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "First, chop the onions and tomatoes finely.",
+            "First, wash the rice and the dal properly.",
+            "First, boil the water for the tea."
+          ],
+          "correctAnswer": "First, chop the onions and tomatoes finely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Annam udikindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Inka ledu, inko aidu nimushaalu padutundi.",
+            "Avunu, nenu inka biyyam kadagaledu.",
+            "Inka ledu, nenu ullipaayalu kostunnanu."
+          ],
+          "correctAnswer": "Inka ledu, inko aidu nimushaalu padutundi.",
+          "translatedSentence": "Not yet, it will take five more minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poyyi meeda paalu unnaayi, konchem chusukondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is milk on the stove, please keep an eye on it.",
+            "There is rice on the stove, please turn it off.",
+            "The milk is in the fridge, please bring it out."
+          ],
+          "correctAnswer": "There is milk on the stove, please keep an eye on it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pappu lo uppu enta veyyaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinna chamcha chaalu, taruvaata chuddaam.",
+            "Uppu vaddu, panchadaara veyyandi.",
+            "Rendu chamchalu veyyandi, inka udukutundi."
+          ],
+          "correctAnswer": "Chinna chamcha chaalu, taruvaata chuddaam.",
+          "translatedSentence": "A small spoon is enough, we can check later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pesarattu ela cheyyaalo naaku nerpinchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please teach me how to make pesarattu.",
+            "Please tell me where to buy good pesarattu.",
+            "Please make pesarattu for me tomorrow morning."
+          ],
+          "correctAnswer": "Please teach me how to make pesarattu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu gongura pappu chestunnanu, meeku kaaram ekkuva kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu, madhyasthanga cheyyandi, pillalu kuda tintaaru.",
+            "Avunu, konchem ekkuva veyyandi, naaku ishtam.",
+            "Vaddu, naaku gongura ante ishtam ledu."
+          ],
+          "correctAnswer": "Vaddu, madhyasthanga cheyyandi, pillalu kuda tintaaru.",
+          "translatedSentence": "No, make it medium, the children will eat it too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vanta ayipoyaka nenu gindilu kadigestaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will wash the vessels after the cooking is done.",
+            "I will wash the vegetables before I start cooking.",
+            "I will cook only after you wash the vessels."
+          ],
+          "correctAnswer": "I will wash the vessels after the cooking is done."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vanta ayipoyindi, tinadaaniki raa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chetulu kadukkuni ippude vastaanu.",
+            "Naaku aakali ledu, nenu vanta chesaanu.",
+            "Konchem aagu, nenu inka biyyam kadagatledu."
+          ],
+          "correctAnswer": "Chetulu kadukkuni ippude vastaanu.",
+          "translatedSentence": "I will wash my hands and come right away."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru maamsam tintaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, nenu shaakaahaari, kaani guddu tintaanu.",
+            "Avunu, kaani somavaaram naadu maatram tinanu.",
+            "Ledu, naaku chepalu ante chaala ishtam."
+          ],
+          "correctAnswer": "Ledu, nenu shaakaahaari, kaani guddu tintaanu.",
+          "translatedSentence": "No, I am a vegetarian, but I do eat eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku paalu padavu, andukane chai lo paalu vaddu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk does not suit me, so I do not want milk in my tea.",
+            "I love milk, so please add a lot of it to my tea.",
+            "Milk is expensive here, so I drink my tea without it."
+          ],
+          "correctAnswer": "Milk does not suit me, so I do not want milk in my tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku pallilu padataayaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, pallilu tinte naaku dadduru vastundi.",
+            "Avunu, naaku palli chutney ante chaala ishtam.",
+            "Ledu, nenu pallilu eppudu konanu."
+          ],
+          "correctAnswer": "Ledu, pallilu tinte naaku dadduru vastundi.",
+          "translatedSentence": "No, if I eat peanuts I get a rash."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor cheppaadu kabatti nenu panchadaara tinatam manesaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because the doctor told me to, I have stopped eating sugar.",
+            "Because the doctor told me to, I now eat more sugar.",
+            "I stopped drinking tea because the doctor asked me to."
+          ],
+          "correctAnswer": "Because the doctor told me to, I have stopped eating sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee aadivaaram maa intiki bhojanaaniki vastaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda vastaanu, kaani konchem aalasyam avvachu.",
+            "Tappakunda vastaanu, kaani nenu emi tinanu.",
+            "Ledu, mee inti daari naaku telidu."
+          ],
+          "correctAnswer": "Tappakunda vastaanu, kaani konchem aalasyam avvachu.",
+          "translatedSentence": "I will definitely come, but I may be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku kaaram ishtam, kaani raatri tinte nidra pattadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like spicy food, but if I eat it at night I cannot sleep.",
+            "I like spicy food, but my children cannot eat it at all.",
+            "I do not like spicy food, so I eat it only at night."
+          ],
+          "correctAnswer": "I like spicy food, but if I eat it at night I cannot sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku Hyderabad biryani ishtamaa, Vijayawada bhojanam ishtamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu ishtame, kaani gongura pappu ante naaku prathyekamaina ishtam.",
+            "Naaku biryani ishtam, kaani ekkuva nune unte tinalenu.",
+            "Naaku Hyderabad kanna Vijayawada ekkuva nachutundi."
+          ],
+          "correctAnswer": "Rendu ishtame, kaani gongura pappu ante naaku prathyekamaina ishtam.",
+          "translatedSentence": "I like both, but I have a special liking for gongura dal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru maamsaahaaram tinakapote cheppandi, nenu veru vanta chestaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not eat meat, tell me and I will cook something separate.",
+            "If you do not like the food, tell me and I will order from outside.",
+            "If you do eat meat, tell me and I will cook chicken for you."
+          ],
+          "correctAnswer": "If you do not eat meat, tell me and I will cook something separate."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Inkonchem biryani veyyanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddandi, kadupu nindindi, chaala baagundi.",
+            "Veyyandi, kaani chaala takkuva chaalu.",
+            "Vaddandi, naaku biryani ante ishtam ledu."
+          ],
+          "correctAnswer": "Vaddandi, kadupu nindindi, chaala baagundi.",
+          "translatedSentence": "No thank you, I am full, it was very good."
+        }
+      ]
+    }
+  ]
+}

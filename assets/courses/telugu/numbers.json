@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enni chai kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku rendu chai kaavali.",
+            "Naaku chai vaddu, coffee kaavali.",
+            "Chai chaala baagundi andi."
+          ],
+          "correctAnswer": "Naaku rendu chai kaavali.",
+          "translatedSentence": "I want two teas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara moodu pustakalu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have three books.",
+            "I have three pens.",
+            "There are three books on the table."
+          ],
+          "correctAnswer": "I have three books."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni idli tinnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu naalugu idli tinnanu.",
+            "Nenu pesarattu tinnanu.",
+            "Naaku idli ishtam ledu."
+          ],
+          "correctAnswer": "Nenu naalugu idli tinnanu.",
+          "translatedSentence": "I ate four idlis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa intlo aidu mandi unnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are five people in our house.",
+            "There are five rooms in our house.",
+            "Five people came to our house."
+          ],
+          "correctAnswer": "There are five people in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enni chapatilu tintavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu rendu chapatilu tintanu.",
+            "Naaku chapati chaala ishtam.",
+            "Nenu ippude tinnanu."
+          ],
+          "correctAnswer": "Nenu rendu chapatilu tintanu.",
+          "translatedSentence": "I eat two chapatis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara padi rupaayalu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have ten rupees.",
+            "I need ten rupees.",
+            "I have ten mangoes."
+          ],
+          "correctAnswer": "I have ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enni mamidikaayalu kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku aidu mamidikaayalu kaavali.",
+            "Naaku mamidikaayalu vaddu andi.",
+            "Mamidikaayalu chaala tipiga unnayi."
+          ],
+          "correctAnswer": "Naaku aidu mamidikaayalu kaavali.",
+          "translatedSentence": "I want five mangoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ikkada enimidi kurchilu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are eight chairs here.",
+            "There are eight tables here.",
+            "Eight people are sitting here."
+          ],
+          "correctAnswer": "There are eight chairs here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee intlo enni gadulu unnayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa intlo moodu gadulu unnayi.",
+            "Maa illu chaala peddadi.",
+            "Maa intlo ippudu evaru leru."
+          ],
+          "correctAnswer": "Maa intlo moodu gadulu unnayi.",
+          "translatedSentence": "There are three rooms in our house."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to A hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee class lo enta mandi pillalu unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa class lo iravai aidu mandi pillalu unnaru.",
+            "Maa class ippudu jarugutundi.",
+            "Maa class room chaala peddadi."
+          ],
+          "correctAnswer": "Maa class lo iravai aidu mandi pillalu unnaru.",
+          "translatedSentence": "There are twenty-five children in our class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara padakondu rupaayalu matrame unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only have eleven rupees.",
+            "I have eleven rupees in my bag.",
+            "I need eleven more rupees."
+          ],
+          "correctAnswer": "I only have eleven rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bus lo enni seatlu unnayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee bus lo nalabhai seatlu unnayi.",
+            "Ee bus Hyderabad velutundi.",
+            "Ee bus lo ippudu chotu ledu."
+          ],
+          "correctAnswer": "Ee bus lo nalabhai seatlu unnayi.",
+          "translatedSentence": "There are forty seats in this bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa office lo debbhai mandi pani chestaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seventy people work in our office.",
+            "Seventy people came to our office.",
+            "Our office opens at seven."
+          ],
+          "correctAnswer": "Seventy people work in our office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enni gudlu konnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu pannendu gudlu konnanu.",
+            "Naaku gudlu ishtam ledu.",
+            "Gudlu ippudu chaala kharidu."
+          ],
+          "correctAnswer": "Nenu pannendu gudlu konnanu.",
+          "translatedSentence": "I bought twelve eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hotel lo muppai rakala biryani dorukutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thirty kinds of biryani are available at this restaurant.",
+            "This hotel has thirty rooms.",
+            "This restaurant sells thirty plates of biryani a day."
+          ],
+          "correctAnswer": "Thirty kinds of biryani are available at this restaurant."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hyderabad nunchi Vijayawada enni kilometers untundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sumaaru moodu vandala kilometers untundi.",
+            "Nenu repu Vijayawada veltunnanu.",
+            "Vijayawada lo chaala vedi ga untundi."
+          ],
+          "correctAnswer": "Sumaaru moodu vandala kilometers untundi.",
+          "translatedSentence": "It is about three hundred kilometres."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa veedhi lo iravai illu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twenty houses on our street.",
+            "There are twenty shops on our street.",
+            "Twenty families live in our house."
+          ],
+          "correctAnswer": "There are twenty houses on our street."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni samosalu teesukuntaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu aaru samosalu teesukuntanu.",
+            "Naaku samosalu vaddu andi.",
+            "Samosalu ippude vachhayi."
+          ],
+          "correctAnswer": "Nenu aaru samosalu teesukuntanu.",
+          "translatedSentence": "I will take six samosas."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pesarattu enta andi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee pesarattu yaabhai rupaayalu andi.",
+            "Pesarattu chaala rusiga undi andi.",
+            "Naaku oka pesarattu kaavali andi."
+          ],
+          "correctAnswer": "Ee pesarattu yaabhai rupaayalu andi.",
+          "translatedSentence": "This pesarattu costs fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Irani chai oka cup padi rupaayalu matrame.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One cup of Irani chai is only ten rupees.",
+            "One cup of Irani chai costs a hundred rupees.",
+            "One cup of Irani chai is enough for me."
+          ],
+          "correctAnswer": "One cup of Irani chai is only ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto ki enta ichharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu auto ki enabhai rupaayalu ichhanu.",
+            "Ikkada auto ekkada dorakaledu.",
+            "Nenu auto lo Charminar veltunnanu."
+          ],
+          "correctAnswer": "Nenu auto ki enabhai rupaayalu ichhanu.",
+          "translatedSentence": "I paid eighty rupees for the auto."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem tagginchandi, meeru chaala ekkuva cheptunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please lower the price a little, you are asking too much.",
+            "Please give a little more, this is not enough for us.",
+            "Please tell me the price, I really do not know it."
+          ],
+          "correctAnswer": "Please lower the price a little, you are asking too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Motham enta ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Motham rendu vandala yaabhai rupaayalu ayyindi.",
+            "Meeru card teesukuntara andi?",
+            "Ee bill sariga ledu andi."
+          ],
+          "correctAnswer": "Motham rendu vandala yaabhai rupaayalu ayyindi.",
+          "translatedSentence": "It comes to two hundred and fifty rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara chillara ledu, vanda note matrame undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have change, I only have a hundred rupee note.",
+            "I do not have a hundred rupee note, I only have change.",
+            "I have no money at all, not even a hundred rupees."
+          ],
+          "correctAnswer": "I do not have change, I only have a hundred rupee note."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi chaala kharidu, konchem tagginchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare andi, iravai rupaayalu taggistanu.",
+            "Naaku kooda idi oka kilo kaavali.",
+            "Ee shop roju saayantram moosestaru."
+          ],
+          "correctAnswer": "Sare andi, iravai rupaayalu taggistanu.",
+          "translatedSentence": "All right, I will reduce it by twenty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee gongura pachadi kilo enta undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does a kilo of gongura pickle cost?",
+            "How much gongura pickle do you want?",
+            "Is this gongura pickle a full kilo?"
+          ],
+          "correctAnswer": "How much does a kilo of gongura pickle cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Biryani plate ippudu enta undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chicken biryani plate rendu vandalu undi.",
+            "Ikkada biryani chaala baaguntundi.",
+            "Naaku veg biryani matrame kaavali."
+          ],
+          "correctAnswer": "Chicken biryani plate rendu vandalu undi.",
+          "translatedSentence": "A plate of chicken biryani is two hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantity",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enni yellu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku muppai rendu yellu.",
+            "Naaku iddaru pillalu unnaru.",
+            "Nenu Hyderabad lo untanu."
+          ],
+          "correctAnswer": "Naaku muppai rendu yellu.",
+          "translatedSentence": "I am thirty-two years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa ammayiki edu yellu, thanu school ki veltundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our daughter is seven years old and she goes to school.",
+            "Our son is seven years old and he goes to school.",
+            "Our daughter has been going to school for seven years."
+          ],
+          "correctAnswer": "Our daughter is seven years old and she goes to school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee phone number konchem cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa number cheptanu, konchem raasukondi.",
+            "Naa phone ippudu pani cheyyadam ledu.",
+            "Meeru naaku saayantram call cheyyandi."
+          ],
+          "correctAnswer": "Naa number cheptanu, konchem raasukondi.",
+          "translatedSentence": "I will tell you my number, please write it down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa phone number lo chivari rendu ankelu aidu aidu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The last two digits of my phone number are five five.",
+            "The first two digits of my phone number are five five.",
+            "My phone number has only five digits."
+          ],
+          "correctAnswer": "The last two digits of my phone number are five five."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enta paalu kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku sagam litre paalu chaalu.",
+            "Naaku paalu ante ishtam ledu.",
+            "Paalu ippude ayipoyayi andi."
+          ],
+          "correctAnswer": "Naaku sagam litre paalu chaalu.",
+          "translatedSentence": "Half a litre of milk is enough for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem uppu veyyandi, kaani ekkuva karam veyyakandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Add a little salt, but do not add too much chilli.",
+            "Add a lot of salt, but only a little chilli.",
+            "Do not add any salt, just add a little chilli."
+          ],
+          "correctAnswer": "Add a little salt, but do not add too much chilli."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee thaatagariki enni yellu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa thaatagariki tombhai yellu.",
+            "Maa thaatagaru Vijayawada lo untaru.",
+            "Maa thaatagaru chaala kathalu cheptaru."
+          ],
+          "correctAnswer": "Maa thaatagariki tombhai yellu.",
+          "translatedSentence": "My grandfather is ninety years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku rendu kilola biyyam, oka packet uppu kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two kilos of rice and one packet of salt.",
+            "I need two packets of rice and one kilo of salt.",
+            "I need two kilos of rice and two packets of salt."
+          ],
+          "correctAnswer": "I need two kilos of rice and one packet of salt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni yella nunchi Hyderabad lo untunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu padi yella nunchi ikkade untunnanu.",
+            "Nenu Hyderabad lo ne puttanu.",
+            "Nenu vachhe nela Hyderabad veltunnanu."
+          ],
+          "correctAnswer": "Nenu padi yella nunchi ikkade untunnanu.",
+          "translatedSentence": "I have been living here for ten years."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippudu time enta ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu padakondu gantalu ayyindi.",
+            "Naa daggara watch ledu andi.",
+            "Nenu ippude ikkadiki vachhanu."
+          ],
+          "correctAnswer": "Ippudu padakondu gantalu ayyindi.",
+          "translatedSentence": "It is eleven o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu roju aaru gantalaki lestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six o'clock every day.",
+            "I go to sleep at six o'clock every day.",
+            "I get up at six o'clock on some days."
+          ],
+          "correctAnswer": "I get up at six o'clock every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru office ki enni gantalaki veltaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu tommidinnaraki office ki veltanu.",
+            "Nenu bus lo office ki veltanu.",
+            "Maa office Hitech City lo undi."
+          ],
+          "correctAnswer": "Nenu tommidinnaraki office ki veltanu.",
+          "translatedSentence": "I go to the office at nine thirty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus aidunnaraki bayaludeerutundi, konchem tondaraga randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus leaves at five thirty, so please come a little early.",
+            "The bus arrives at five thirty, so please wait a little.",
+            "The bus left at five thirty, so we have to come tomorrow."
+          ],
+          "correctAnswer": "The bus leaves at five thirty, so please come a little early."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cinema enni gantalaki modalavutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cinema edunnaraki modalavutundi.",
+            "Ee cinema chaala baagundi andi.",
+            "Naaku cinema ticket dorakaledu."
+          ],
+          "correctAnswer": "Cinema edunnaraki modalavutundi.",
+          "translatedSentence": "The film starts at seven thirty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Charminar daggara padi nimishaalu aagandi, nenu vastanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wait for ten minutes near Charminar and I will come.",
+            "Wait for me near Charminar for ten minutes and then leave.",
+            "I will reach Charminar in about ten minutes."
+          ],
+          "correctAnswer": "Wait for ten minutes near Charminar and I will come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting enni gantalaki undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeting madhyahnam rendu gantalaki undi.",
+            "Meeting maa office lo ne undi.",
+            "Meeting ki nenu raanu andi."
+          ],
+          "correctAnswer": "Meeting madhyahnam rendu gantalaki undi.",
+          "translatedSentence": "The meeting is at two in the afternoon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shop udayam enimidi nunchi raatri padi varaku terichi untundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop is open from eight in the morning until ten at night.",
+            "The shop opens at eight in the morning and closes at nine at night.",
+            "The shop is open only from eight to ten in the morning."
+          ],
+          "correctAnswer": "The shop is open from eight in the morning until ten at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enni gantalaki intiki vastavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu aaru gantalaki intiki vastanu.",
+            "Nenu ippudu intlo ne unnanu.",
+            "Naaku ippudu intiki vellalani ledu."
+          ],
+          "correctAnswer": "Nenu aaru gantalaki intiki vastanu.",
+          "translatedSentence": "I will come home at six o'clock."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee shop lo rate ekkuva ga undi, veru chota chuddama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, akkada thakkuva undi, akkade konudaam.",
+            "Ledu, aa shop chaala dooram, nenu raanu.",
+            "Avunu, naaku ee color ne baaga nachhindi."
+          ],
+          "correctAnswer": "Avunu, akkada thakkuva undi, akkade konudaam.",
+          "translatedSentence": "Yes, it is cheaper there, so let us buy it there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mundu anukunna dani kanna motham ekkuva ayyindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The total came to more than we expected.",
+            "The total came to less than we expected.",
+            "We had expected the total to be much more."
+          ],
+          "correctAnswer": "The total came to more than we expected."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enta ichharo cheppandi, nenu sagam istanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu naalugu vandalu ichhanu, kaabatti meeru rendu vandalu ivvandi.",
+            "Naaku dabbulu vaddu andi, meere unchukondi.",
+            "Nenu inka ivvaledu, repu istanu andi."
+          ],
+          "correctAnswer": "Nenu naalugu vandalu ichhanu, kaabatti meeru rendu vandalu ivvandi.",
+          "translatedSentence": "I paid four hundred, so you give me two hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee nela ekkuva kharchu ayyindi, andhuke vachhe nela thakkuva cheddam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We spent more this month, so let us spend less next month.",
+            "We spent less this month, so we can spend more next month.",
+            "This month we spent more than we spent last month."
+          ],
+          "correctAnswer": "We spent more this month, so let us spend less next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rendu kilola kanna ekkuva vaddu, antha avasaram ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare andi, rendu kilole tookutanu.",
+            "Sare andi, aidu kilolu packet chestanu.",
+            "Ee biyyam ippude vachhindi andi."
+          ],
+          "correctAnswer": "Sare andi, rendu kilole tookutanu.",
+          "translatedSentence": "All right, I will weigh out just two kilos."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara saripoye dabbulu levu, andhuke thakkuva teesukuntanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have enough money, so I will take less.",
+            "I have enough money, so I will take a little more.",
+            "I do not have money with me, so I will come tomorrow."
+          ],
+          "correctAnswer": "I do not have enough money, so I will take less."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Motham enta ayyindo cheppagalara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Motham aaru vandala yaabhai ayyindi andi.",
+            "Meeru repu vachhi teesukovacchu andi.",
+            "Bill ni akkada counter lo ivvandi andi."
+          ],
+          "correctAnswer": "Motham aaru vandala yaabhai ayyindi andi.",
+          "translatedSentence": "It comes to six hundred and fifty in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee sari mundu kanna thakkuva mandi vachharu, kaani programme baagundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fewer people came this time than last time, but the programme was good.",
+            "More people came this time than last time, and the programme was good.",
+            "The same number of people came this time, but the programme was better."
+          ],
+          "correctAnswer": "Fewer people came this time than last time, but the programme was good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku inka konchem biryani veyyana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu andi, chaalu, nenu appatike rendu plates tinnanu.",
+            "Avunu andi, naaku biryani ante ishtam ledu.",
+            "Konchem neellu ivvandi, taruvaata cheptanu."
+          ],
+          "correctAnswer": "Vaddu andi, chaalu, nenu appatike rendu plates tinnanu.",
+          "translatedSentence": "No thank you, that is enough, I have already eaten two plates."
+        }
+      ]
+    }
+  ]
+}

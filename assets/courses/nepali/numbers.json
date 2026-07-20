@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kati wata momo chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai das wata momo chahiyo.",
+            "Momo ekdam mitho cha.",
+            "Ma Thamel ma chu."
+          ],
+          "correctAnswer": "Malai das wata momo chahiyo.",
+          "translatedSentence": "I would like ten momos."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro paribar ma panch jana chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are five people in our family.",
+            "There are nine people in our family.",
+            "Our whole family lives in Pokhara."
+          ],
+          "correctAnswer": "There are five people in our family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro kotha number kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero kotha number saat ho.",
+            "Mero kotha ma euta jhyal cha.",
+            "Ma kotha khojdai chu."
+          ],
+          "correctAnswer": "Mero kotha number saat ho.",
+          "translatedSentence": "My room number is seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai duita chiya chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like two teas.",
+            "I would like two plates of dal bhat.",
+            "I do not want any tea."
+          ],
+          "correctAnswer": "I would like two teas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaja kati wata kitab kinnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maile tin wata kitab kinen.",
+            "Maile kitab pasal ma padhen.",
+            "Kitab tebul mathi cha."
+          ],
+          "correctAnswer": "Maile tin wata kitab kinen.",
+          "translatedSentence": "I bought three books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma sanga char wata kalam cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have four pens.",
+            "I have four books.",
+            "I do not have a pen."
+          ],
+          "correctAnswer": "I have four pens."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati jana sathi aaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chha jana sathi aaunchan.",
+            "Sathi haru bholi aaunchan.",
+            "Sathi haru Pokhara ma chan."
+          ],
+          "correctAnswer": "Chha jana sathi aaunchan.",
+          "translatedSentence": "Six friends are coming."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma bihana aath baje uthchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at eight in the morning.",
+            "I get up at nine in the morning.",
+            "I go to sleep at eight in the morning."
+          ],
+          "correctAnswer": "I get up at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kati wata anda chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai nau wata anda chahiyo.",
+            "Anda aile sasto cha.",
+            "Ma anda khanna."
+          ],
+          "correctAnswer": "Malai nau wata anda chahiyo.",
+          "translatedSentence": "I need nine eggs."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko class ma kati jana bidyarthi chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hamro class ma pachchis jana bidyarthi chan.",
+            "Hamro class bihana suru huncha.",
+            "Bidyarthi haru Nepali padhchan."
+          ],
+          "correctAnswer": "Hamro class ma pachchis jana bidyarthi chan.",
+          "translatedSentence": "There are twenty-five students in our class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Micro bus ma bis jana manche chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twenty people in the micro bus.",
+            "There are twelve people in the micro bus.",
+            "The micro bus is going to Pokhara."
+          ],
+          "correctAnswer": "There are twenty people in the micro bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo hotel ma kati wata kotha chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaha chalis wata kotha chan.",
+            "Yo hotel Thamel ma cha.",
+            "Kotha haru sapha chan."
+          ],
+          "correctAnswer": "Yaha chalis wata kotha chan.",
+          "translatedSentence": "There are forty rooms here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maile pandhra wata momo khaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I ate fifteen momos.",
+            "I ate fifty momos.",
+            "I bought fifteen momos."
+          ],
+          "correctAnswer": "I ate fifteen momos."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko gaun ma kati wata ghar chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero gaun ma saathi wata ghar chan.",
+            "Mero gaun Pokhara najik cha.",
+            "Ghar haru dherai purano chan."
+          ],
+          "correctAnswer": "Mero gaun ma saathi wata ghar chan.",
+          "translatedSentence": "There are sixty houses in my village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo kitab ma ek saya pana cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book has a hundred pages.",
+            "This book has eighty pages.",
+            "This book has a hundred pictures."
+          ],
+          "correctAnswer": "This book has a hundred pages."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati wata chiya banaun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahra wata chiya banaunus.",
+            "Chiya ekdam tato bhayo.",
+            "Malai chiya man parcha."
+          ],
+          "correctAnswer": "Bahra wata chiya banaunus.",
+          "translatedSentence": "Please make twelve teas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma hapta ma tis ghanta kam garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work thirty hours a week.",
+            "I work forty hours a week.",
+            "I study thirty hours a week."
+          ],
+          "correctAnswer": "I work thirty hours a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus ma kati wata sit khali chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eghara wata sit khali chan.",
+            "Bus aile matra aayo.",
+            "Sit haru dherai sano chan."
+          ],
+          "correctAnswer": "Eghara wata sit khali chan.",
+          "translatedSentence": "Eleven seats are free."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tarkari kati rupiya parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo tarkari asi rupiya parcha.",
+            "Yo tarkari ekdam taja cha.",
+            "Ma bihana bazar jaanchu."
+          ],
+          "correctAnswer": "Yo tarkari asi rupiya parcha.",
+          "translatedSentence": "This vegetable costs eighty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Euta chiya pachchis rupiya parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One tea costs twenty-five rupees.",
+            "One tea costs thirty-five rupees.",
+            "One coffee costs twenty-five rupees."
+          ],
+          "correctAnswer": "One tea costs twenty-five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo jutta kati ko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo dui hajar rupiya ko ho.",
+            "Yo jutta ekdam naya ho.",
+            "Malai naya jutta chahiyo."
+          ],
+          "correctAnswer": "Yo dui hajar rupiya ko ho.",
+          "translatedSentence": "This one is two thousand rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo dherai mahango bhayo, ali kam garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too expensive, please bring the price down a little.",
+            "This is very cheap, please give me two of them.",
+            "This is expensive, but I will still buy it."
+          ],
+          "correctAnswer": "This is too expensive, please bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Momo ko ek plate kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek plate momo ek saya bis rupiya parcha.",
+            "Momo aile garam cha.",
+            "Momo ma tarkari matra cha."
+          ],
+          "correctAnswer": "Ek plate momo ek saya bis rupiya parcha.",
+          "translatedSentence": "One plate of momos costs a hundred and twenty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maile dal bhat ko tin saya rupiya tiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I paid three hundred rupees for the dal bhat.",
+            "I paid two hundred rupees for the dal bhat.",
+            "I will pay three hundred rupees for the dal bhat."
+          ],
+          "correctAnswer": "I paid three hundred rupees for the dal bhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai sanga khudra paisa cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, ma sanga pachas rupiya khudra cha.",
+            "Paisa tebul mathi rakhnus.",
+            "Ma pasal ma kam garchu."
+          ],
+          "correctAnswer": "Cha, ma sanga pachas rupiya khudra cha.",
+          "translatedSentence": "Yes, I have fifty rupees in change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo pasal ma sabai kura sasto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything in this shop is cheap.",
+            "Everything in this shop is expensive.",
+            "This shop sells only vegetables."
+          ],
+          "correctAnswer": "Everything in this shop is cheap."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kati rupiya chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai panch saya rupiya chahiyo.",
+            "Malai paisa ganna aaudaina.",
+            "Ma aile pasal ma chu."
+          ],
+          "correctAnswer": "Malai panch saya rupiya chahiyo.",
+          "translatedSentence": "I need five hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantity words",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko umer kati bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero umer tis barsa bhayo.",
+            "Ma Kathmandu ma janmeko hu.",
+            "Mero jaagir naya ho."
+          ],
+          "correctAnswer": "Mero umer tis barsa bhayo.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri bahini pandhra barsa ki chin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is fifteen years old.",
+            "My younger sister is thirteen years old.",
+            "My younger brother is fifteen years old."
+          ],
+          "correctAnswer": "My younger sister is fifteen years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko phone number kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero phone number nau aath saat char tin dui ho.",
+            "Mero phone ma paisa sakiyo.",
+            "Ma bholi bihana phone garchu."
+          ],
+          "correctAnswer": "Mero phone number nau aath saat char tin dui ho.",
+          "translatedSentence": "My phone number is nine eight seven four three two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai ali ali matra Nepali aauncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only know a little Nepali.",
+            "I do not know any Nepali at all.",
+            "I speak Nepali very well."
+          ],
+          "correctAnswer": "I only know a little Nepali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chiya ma kati chini halne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali matra halnus.",
+            "Chiya pasal najik cha.",
+            "Malai chiya man parcha."
+          ],
+          "correctAnswer": "Ali ali matra halnus.",
+          "translatedSentence": "Just a little, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero chhora saat barsa ko bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son has turned seven.",
+            "My son has turned seventeen.",
+            "My daughter has turned seven."
+          ],
+          "correctAnswer": "My son has turned seven."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro daai kati barsa ko bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero daai bais barsa ko bhayo.",
+            "Mero daai Pokhara ma kam garcha.",
+            "Mero daai bholi aauncha."
+          ],
+          "correctAnswer": "Mero daai bais barsa ko bhayo.",
+          "translatedSentence": "My older brother has turned twenty-two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yaha dherai manche chan tara thorai kursi chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of people here but only a few chairs.",
+            "There are only a few people here but a lot of chairs.",
+            "There are a lot of people and a lot of chairs here."
+          ],
+          "correctAnswer": "There are a lot of people here but only a few chairs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kati barsa dekhi Nepal ma hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma char barsa dekhi Nepal ma chu.",
+            "Ma Himalaya ghumna aayeko hu.",
+            "Nepal ma manche haru ramro chan."
+          ],
+          "correctAnswer": "Ma char barsa dekhi Nepal ma chu.",
+          "translatedSentence": "I have been in Nepal for four years."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aile kati bajyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aile das bajyo.",
+            "Mero ghadi bigriyo.",
+            "Ma aile ghar ma chu."
+          ],
+          "correctAnswer": "Aile das bajyo.",
+          "translatedSentence": "It is ten o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus bihana sadhe chha baje chutcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus leaves at half past six in the morning.",
+            "The bus leaves at half past seven in the morning.",
+            "The bus arrives at half past six in the morning."
+          ],
+          "correctAnswer": "The bus leaves at half past six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kati baje aaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sadhe char baje aauchu.",
+            "Ma micro bus chadera aauchu.",
+            "Ma Thamel bata aauchu."
+          ],
+          "correctAnswer": "Ma sadhe char baje aauchu.",
+          "translatedSentence": "I will come at half past four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma rati eghara baje sutchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to bed at eleven at night.",
+            "I go to bed at ten at night.",
+            "I wake up at eleven at night."
+          ],
+          "correctAnswer": "I go to bed at eleven at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Trek kati baje suru huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Trek bihana panch baje suru huncha.",
+            "Trek Pokhara bata suru huncha.",
+            "Trek saat din ko cha."
+          ],
+          "correctAnswer": "Trek bihana panch baje suru huncha.",
+          "translatedSentence": "The trek starts at five in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kathmandu bata Pokhara pugna chha ghanta lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It takes six hours to get from Kathmandu to Pokhara.",
+            "It takes eight hours to get from Kathmandu to Pokhara.",
+            "It takes six hours to get from Pokhara to Kathmandu."
+          ],
+          "correctAnswer": "It takes six hours to get from Kathmandu to Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi kati baje office pugchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma nau baje office pugchu.",
+            "Ma office ma kam garchu.",
+            "Mero office Thamel ma cha."
+          ],
+          "correctAnswer": "Ma nau baje office pugchu.",
+          "translatedSentence": "I get to the office at nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khana paune aath baje taiyar huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dinner will be ready at a quarter to eight.",
+            "Dinner will be ready at a quarter past eight.",
+            "Dinner was ready at eight o'clock."
+          ],
+          "correctAnswer": "Dinner will be ready at a quarter to eight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kati bela chiya khanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma diuso tin baje chiya khanchu.",
+            "Ma chiya ma chini haldina.",
+            "Chiya pasal ghar najik cha."
+          ],
+          "correctAnswer": "Ma diuso tin baje chiya khanchu.",
+          "translatedSentence": "I have tea at three in the afternoon."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabai jamma kati bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jamma saat saya pachas rupiya bhayo.",
+            "Pasal rati aath baje band huncha.",
+            "Ma bholi pheri aauchu."
+          ],
+          "correctAnswer": "Jamma saat saya pachas rupiya bhayo.",
+          "translatedSentence": "It comes to seven hundred and fifty rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Momo dal bhat bhanda mahango cha tara malai momo nai man parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Momos cost more than dal bhat, but I still prefer momos.",
+            "Dal bhat costs more than momos, but I still prefer momos.",
+            "Momos cost less than dal bhat, so I always eat momos."
+          ],
+          "correctAnswer": "Momos cost more than dal bhat, but I still prefer momos."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaja kina yeti dherai tarkari kinnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kinabhane bholi ghar ma sathi haru aauchan.",
+            "Kinabhane tarkari aaja mahango cha.",
+            "Malai bazar ghumna man parcha."
+          ],
+          "correctAnswer": "Kinabhane bholi ghar ma sathi haru aauchan.",
+          "translatedSentence": "Because friends are coming over tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi paisa pugena bhane malai bhannus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the money is not enough, please tell me.",
+            "If the money is enough, please tell me.",
+            "If you need money, I will give you some."
+          ],
+          "correctAnswer": "If the money is not enough, please tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tyo jutta yo bhanda sasto cha ki chaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, tyo yo bhanda dui saya rupiya sasto cha.",
+            "Cha, tyo pasal ma dherai jutta chan.",
+            "Chaina, malai jutta chahidaina."
+          ],
+          "correctAnswer": "Cha, tyo yo bhanda dui saya rupiya sasto cha.",
+          "translatedSentence": "Yes, that one is two hundred rupees cheaper than this one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaja hijo bhanda kam manche aae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Fewer people came today than yesterday.",
+            "More people came today than yesterday.",
+            "The same number of people came today as yesterday."
+          ],
+          "correctAnswer": "Fewer people came today than yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chiya ma chini thap halne ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pardaina, aile lai yeti nai pugcha.",
+            "Pardaina, chiya ali chiso bhayo.",
+            "Huncha, chini pasal bata kinnus."
+          ],
+          "correctAnswer": "Pardaina, aile lai yeti nai pugcha.",
+          "translatedSentence": "No need, this is just enough for now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maile jati socheko thiye tyo bhanda dherai kharcha bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It cost more than I had expected.",
+            "It cost less than I had expected.",
+            "I spent exactly what I had expected."
+          ],
+          "correctAnswer": "It cost more than I had expected."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hami char jana chau, kati wata kotha book garne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Duita kotha book garnus, kinabhane euta kotha ma duita bed cha.",
+            "Char wata kotha aaja khali chaina.",
+            "Kotha ko paisa hijo bhanda badhi bhayo."
+          ],
+          "correctAnswer": "Duita kotha book garnus, kinabhane euta kotha ma duita bed cha.",
+          "translatedSentence": "Book two rooms, because each room has two beds."
+        }
+      ]
+    }
+  ]
+}

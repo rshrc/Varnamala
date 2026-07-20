@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Mother, father, brother, sister",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma appana hesaru enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna appana hesaru Ramesh.",
+            "Nanna amma maneyalli iddare.",
+            "Nanna akka Mysurinalli iddale."
+          ],
+          "correctAnswer": "Nanna appana hesaru Ramesh.",
+          "translatedSentence": "My father's name is Ramesh."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneyalli yaaru yaaru iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma, appa mattu naanu iddeve.",
+            "Nanna hesaru Ravi.",
+            "Naanu Bengalurinalli iddene."
+          ],
+          "correctAnswer": "Amma, appa mattu naanu iddeve.",
+          "translatedSentence": "My mother, my father and I live here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage obba akka iddale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have one elder sister.",
+            "I have one younger sister.",
+            "I have two elder sisters."
+          ],
+          "correctAnswer": "I have one elder sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage anna iddana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, nanage obba anna iddane.",
+            "Illa, nanage akka illa.",
+            "Houdu, naanu maneyalli iddene."
+          ],
+          "correctAnswer": "Houdu, nanage obba anna iddane.",
+          "translatedSentence": "Yes, I have one elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna tamma shaalege hogtaane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother goes to school.",
+            "My elder brother goes to school.",
+            "My younger sister goes to school."
+          ],
+          "correctAnswer": "My younger brother goes to school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma amma elli iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru maneyalli iddare.",
+            "Avaru nanna akka.",
+            "Avarige adige gottu."
+          ],
+          "correctAnswer": "Avaru maneyalli iddare.",
+          "translatedSentence": "She is at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna appa filter kaapi kudiyutaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father drinks filter coffee.",
+            "My mother drinks filter coffee.",
+            "My father makes filter coffee."
+          ],
+          "correctAnswer": "My father drinks filter coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee photo nalli yaaru iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idu nanna kutumba, amma appa mattu tangi iddare.",
+            "Ee photo nanna annanadu.",
+            "Naanu tumba photo tegediddene."
+          ],
+          "correctAnswer": "Idu nanna kutumba, amma appa mattu tangi iddare.",
+          "translatedSentence": "This is my family: my mother, my father and my younger sister."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namma maneyalli aidu jana iddeve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are five of us at home.",
+            "There are four of us at home.",
+            "Five people came to our house."
+          ],
+          "correctAnswer": "There are five of us at home."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it?",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee mobile yaarudu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu nanna annanadu.",
+            "Adu nanna maneyalli ide.",
+            "Nanage hosa mobile beku."
+          ],
+          "correctAnswer": "Adu nanna annanadu.",
+          "translatedSentence": "That one is my elder brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee pustaka nanna tangiyadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book is my younger sister's.",
+            "This book is my elder sister's.",
+            "This book is mine."
+          ],
+          "correctAnswer": "This book is my younger sister's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chappali ninnadaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, adu nanna appanadu.",
+            "Houdu, naanu hosa chappali kondukondene.",
+            "Illa, nanage nanna chappali sigtilla."
+          ],
+          "correctAnswer": "Illa, adu nanna appanadu.",
+          "translatedSentence": "No, those are my father's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu nammadu alla, adu avarudu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is not ours, that one is theirs.",
+            "This one is ours, that one is not theirs.",
+            "This one is not mine, that one is yours."
+          ],
+          "correctAnswer": "This one is not ours, that one is theirs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee car yaarudu antha gottaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gottilla, naanu keltene.",
+            "Houdu, nanage car ide.",
+            "Illa, nanage car odisoke barolla."
+          ],
+          "correctAnswer": "Gottilla, naanu keltene.",
+          "translatedSentence": "I do not know, I will ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna akkana mane Mysurinalli ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister's house is in Mysuru.",
+            "My elder brother's house is in Mysuru.",
+            "My elder sister's house is in Bengaluru."
+          ],
+          "correctAnswer": "My elder sister's house is in Mysuru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kannadaka nimmadaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, adu nanna ammanadu.",
+            "Houdu, nanage hosa kannadaka beku.",
+            "Illa, naanu kannadaka haakalla."
+          ],
+          "correctAnswer": "Illa, adu nanna ammanadu.",
+          "translatedSentence": "No, those are my mother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna annanige ondu hosa bike ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother has a new bike.",
+            "My elder brother wants a new bike.",
+            "My younger brother has a new bike."
+          ],
+          "correctAnswer": "My elder brother has a new bike."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneya key yaara hattira ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna ammana hattira ide.",
+            "Nanna mane doddadu.",
+            "Naanu key kaledukondene."
+          ],
+          "correctAnswer": "Nanna ammana hattira ide.",
+          "translatedSentence": "My mother has it."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Married, children, how many",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maduve yaavaaga aayitu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eradu varshada hinde aayitu.",
+            "Nanage ibbaru makkalu iddare.",
+            "Nanna hendati Mysurinavaru."
+          ],
+          "correctAnswer": "Eradu varshada hinde aayitu.",
+          "translatedSentence": "It was two years ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage innu maduve aagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not married yet.",
+            "I got married last year.",
+            "I do not want to get married."
+          ],
+          "correctAnswer": "I am not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage eshtu makkalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ibbaru makkalu, obba maga mattu obba magalu.",
+            "Nanage makkalu tumba ishta.",
+            "Nanna makkalu shaalege hogtaare."
+          ],
+          "correctAnswer": "Nanage ibbaru makkalu, obba maga mattu obba magalu.",
+          "translatedSentence": "I have two children, a son and a daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna magalige aidu varsha, nanna maganige eradu varsha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is five and my son is two.",
+            "My daughter is two and my son is five.",
+            "My daughter is five and my son is three."
+          ],
+          "correctAnswer": "My daughter is five and my son is two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma annanige maduve aagideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, avanige kaleda varsha maduve aayitu.",
+            "Illa, avanu Bengalurinalli iddane.",
+            "Houdu, avanu nanaginta doddavanu."
+          ],
+          "correctAnswer": "Houdu, avanige kaleda varsha maduve aayitu.",
+          "translatedSentence": "Yes, he got married last year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna tangige innu maduve aagilla, avalu innu odtaa iddale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is not married yet, she is still studying.",
+            "My younger sister got married while she was studying.",
+            "My younger sister is not studying, she is married."
+          ],
+          "correctAnswer": "My younger sister is not married yet, she is still studying."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneyalli eshtu jana iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naavu aaru jana iddeve.",
+            "Naavu Bengalurinalli iddeve.",
+            "Namma mane doddadu, mooru room ide."
+          ],
+          "correctAnswer": "Naavu aaru jana iddeve.",
+          "translatedSentence": "There are six of us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna maga innu chikkavanu, avanu shaalege hogtilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is still small, he does not go to school yet.",
+            "My son is small, but he goes to school.",
+            "My son is small and he does not like school."
+          ],
+          "correctAnswer": "My son is still small, he does not go to school yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma makkalu elli odtaa iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ibbaru Bengalurinalli odtaa iddare.",
+            "Nanna makkalige odoke ishta illa.",
+            "Nanna makkalige Bengaluru tumba ishta."
+          ],
+          "correctAnswer": "Ibbaru Bengalurinalli odtaa iddare.",
+          "translatedSentence": "Both of them are studying in Bengaluru."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents, uncles and cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma ajji elli iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna ajji Mysurinalli nanna maavana jothe iddare.",
+            "Nanna ajjige embattu varsha.",
+            "Nanna ajji chennagi adige maadtaare."
+          ],
+          "correctAnswer": "Nanna ajji Mysurinalli nanna maavana jothe iddare.",
+          "translatedSentence": "My grandmother lives in Mysuru with my uncle."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna tata prati dina belagge Cubbon Park ge hogtaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather goes to Cubbon Park every morning.",
+            "My grandfather went to Cubbon Park this morning.",
+            "My grandfather goes to Cubbon Park every evening."
+          ],
+          "correctAnswer": "My grandfather goes to Cubbon Park every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivaru nimma chikkappanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ivaru nanna doddappa.",
+            "Houdu, avanu nanna tamma.",
+            "Illa, ivaru namma maneyalli illa."
+          ],
+          "correctAnswer": "Illa, ivaru nanna doddappa.",
+          "translatedSentence": "No, this is my father's elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna chikkappana maga nanaginta ondu varsha chikkavanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle's son is one year younger than me.",
+            "My uncle's son is one year older than me.",
+            "My uncle has a one year old son."
+          ],
+          "correctAnswer": "My uncle's son is one year younger than me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma atte yaava oorinavaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru Mysurinavaru.",
+            "Avaru nanna appana akka.",
+            "Avarige ibbaru makkalu iddare."
+          ],
+          "correctAnswer": "Avaru Mysurinavaru.",
+          "translatedSentence": "She is from Mysuru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Habbakke nanna bandhugalu ellaru namma manege bartaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All my relatives come to our house for the festival.",
+            "All my relatives came to our house for the festival.",
+            "We go to our relatives' house for the festival."
+          ],
+          "correctAnswer": "All my relatives come to our house for the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma tata ajji nimma jothe iddaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, avaru Mysurinalli iddare, aadre prati tingalu bartaare.",
+            "Houdu, nanage tata ajji tumba ishta.",
+            "Illa, avarige Bengaluru gottilla."
+          ],
+          "correctAnswer": "Illa, avaru Mysurinalli iddare, aadre prati tingalu bartaare.",
+          "translatedSentence": "No, they live in Mysuru, but they visit every month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna doddammana mane namma mane pakkadalli ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt's house is right next to ours.",
+            "My aunt's house is far from ours.",
+            "My aunt lives in our house."
+          ],
+          "correctAnswer": "My aunt's house is right next to ours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma chikkammanige eshtu makkalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mooru jana, ibbaru gandu makkalu mattu obba hennu magalu.",
+            "Avaru nanna ammana tangi.",
+            "Avara makkalu Mysurinalli odtaa iddare."
+          ],
+          "correctAnswer": "Mooru jana, ibbaru gandu makkalu mattu obba hennu magalu.",
+          "translatedSentence": "Three, two boys and one girl."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What your family does",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma appa enu kelasa maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru ondu company nalli engineer aagi kelasa maadtaare.",
+            "Avaru maneyalli tumba kelasa maadtaare.",
+            "Avarige kelasa maadoke ishta illa."
+          ],
+          "correctAnswer": "Avaru ondu company nalli engineer aagi kelasa maadtaare.",
+          "translatedSentence": "He works as an engineer at a company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna amma shaaleyalli kannada kalistaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother teaches Kannada at a school.",
+            "My mother is learning Kannada at a school.",
+            "My mother teaches English at a school."
+          ],
+          "correctAnswer": "My mother teaches Kannada at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma akka elli kelasa maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru Bengalurinalli ondu aspatreyalli kelasa maadtaare.",
+            "Avaru dinaa BMTC bus nalli kelasakke hogtaare.",
+            "Avarige hosa kelasa sikkide."
+          ],
+          "correctAnswer": "Avaru Bengalurinalli ondu aspatreyalli kelasa maadtaare.",
+          "translatedSentence": "She works at a hospital in Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna anna vyaapaara maadtaane, avanige ondu angadi ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is in business, he has a shop.",
+            "My elder brother works at someone else's shop.",
+            "My elder brother wants to open a shop."
+          ],
+          "correctAnswer": "My elder brother is in business, he has a shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma tata innu kelasa maadtaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, avaru hattu varshada hinde nivrutti aadaru.",
+            "Houdu, avarige embattu varsha aayitu.",
+            "Illa, avaru Mysurinalli obbare iddare."
+          ],
+          "correctAnswer": "Illa, avaru hattu varshada hinde nivrutti aadaru.",
+          "translatedSentence": "No, he retired ten years ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna tangi college nalli odtaa iddale, avalige doctor aagbeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is in college and she wants to become a doctor.",
+            "My younger sister is in college and she wants to become a teacher.",
+            "My younger sister finished college and became a doctor."
+          ],
+          "correctAnswer": "My younger sister is in college and she wants to become a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maneyalli adige yaaru maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Belagge amma maadtaare, raatri naanu maadtene.",
+            "Namage bisi bele bath tumba ishta.",
+            "Nanna appa dinaa masala dose tinnutaare."
+          ],
+          "correctAnswer": "Belagge amma maadtaare, raatri naanu maadtene.",
+          "translatedSentence": "My mother cooks in the morning and I cook at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna amma prati bhaanuvaara ragi mudde maadtaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother makes ragi mudde every Sunday.",
+            "My mother made ragi mudde last Sunday.",
+            "My mother eats ragi mudde every Sunday."
+          ],
+          "correctAnswer": "My mother makes ragi mudde every Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maava enu maadtaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru Mysurinalli ondu hotel nadestaare.",
+            "Avaru nanna ammana anna.",
+            "Avaru nale namma manege bartaare."
+          ],
+          "correctAnswer": "Avaru Mysurinalli ondu hotel nadestaare.",
+          "translatedSentence": "He runs a small restaurant in Mysuru."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Visits, plans and news",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee sala Deepavali ge oorige bartira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bartene, aadre eradu dina maatra irtene.",
+            "Illa, nanage Deepavali habba ishta illa.",
+            "Houdu, naanu kaleda varsha bandidde."
+          ],
+          "correctAnswer": "Bartene, aadre eradu dina maatra irtene.",
+          "translatedSentence": "I will come, but I can only stay for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammanige hushaaru illa, adakke naanu naale Mysurige hogtaa iddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is not well, so I am going to Mysuru tomorrow.",
+            "My mother is not well, so she is coming to Mysuru tomorrow.",
+            "My mother was not well, so I went to Mysuru yesterday."
+          ],
+          "correctAnswer": "My mother is not well, so I am going to Mysuru tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maneyalli ellaru hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaru chennagiddare, appanige maatra swalpa shardi ide.",
+            "Naanu eega maneyalli illa.",
+            "Namma hosa mane tumba doddadu."
+          ],
+          "correctAnswer": "Ellaru chennagiddare, appanige maatra swalpa shardi ide.",
+          "translatedSentence": "Everyone is fine, only my father has a bit of a cold."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ondu vele nimage samaya sikkidre, namma manege bandu hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get some time, do drop by our house.",
+            "When you have time, we will come to your house.",
+            "I got some time, so I came to your house."
+          ],
+          "correctAnswer": "If you get some time, do drop by our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma akkana maduve yaavaaga ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mundina tingalu Mysurinalli ide, neevu khandita barbeku.",
+            "Avara maduve tumba chennagi aayitu.",
+            "Avarige maduve aagoke ishta illa."
+          ],
+          "correctAnswer": "Mundina tingalu Mysurinalli ide, neevu khandita barbeku.",
+          "translatedSentence": "It is next month in Mysuru, and you must definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu vaarakke ondu sala ajjige phone maadtene, yaake andre avaru obbare iddare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I call my grandmother once a week because she lives alone.",
+            "I called my grandmother last week because she was alone.",
+            "My grandmother calls me once a week because she lives alone."
+          ],
+          "correctAnswer": "I call my grandmother once a week because she lives alone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma tamma Bengalurige yaavaaga bartaane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mundina vaara bartaane, aadre nanage innu dina gottilla.",
+            "Avanu Bengalurinalli hutti belediddu.",
+            "Avanu yaavaglu BMTC bus nalli oadaadtaane."
+          ],
+          "correctAnswer": "Mundina vaara bartaane, aadre nanage innu dina gottilla.",
+          "translatedSentence": "He is coming next week, but I do not know the day yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ajji phone maadi, oorige yaavaaga bartiya antha keladaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandmother called and asked when I am coming home.",
+            "Grandmother called and said she is coming home.",
+            "I called grandmother and asked when she is coming home."
+          ],
+          "correctAnswer": "Grandmother called and asked when I am coming home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oorige hogi eradu varsha aayitu, mane nenapaaguttaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, tumba nenapaagutte, aadre kelasa bittu hogoke aagalla.",
+            "Illa, nanage Bengaluru innu gottilla.",
+            "Houdu, naanu naale oorige hogtaa iddene."
+          ],
+          "correctAnswer": "Houdu, tumba nenapaagutte, aadre kelasa bittu hogoke aagalla.",
+          "translatedSentence": "Yes, I miss it a lot, but I cannot leave my job and go."
+        }
+      ]
+    }
+  ]
+}

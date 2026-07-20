@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Where are you going",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal evide pokunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan Kochiyilekku pokunnu.",
+            "Njaan veetil undu.",
+            "Enikku chaya venam."
+          ],
+          "correctAnswer": "Njaan Kochiyilekku pokunnu.",
+          "translatedSentence": "I am going to Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithu bus stand aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is this the bus stand?",
+            "Is this the right bus?",
+            "Where is the bus stand?"
+          ],
+          "correctAnswer": "Is this the bus stand?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal bus il aano pokunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, njaan train il aanu pokunnathu.",
+            "Athe, njaan innale vannu.",
+            "Illa, enikku vishakkunnilla."
+          ],
+          "correctAnswer": "Alla, njaan train il aanu pokunnathu.",
+          "translatedSentence": "No, I am going by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan railway station il pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the railway station.",
+            "I am waiting at the railway station.",
+            "I am coming from the railway station."
+          ],
+          "correctAnswer": "I am going to the railway station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bus evide nirthum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus stand il nirthum.",
+            "Bus randu manikku nirthum.",
+            "Enikku bus kittiyilla."
+          ],
+          "correctAnswer": "Bus stand il nirthum.",
+          "translatedSentence": "It stops at the bus stand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee train Thiruvananthapurathekku pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This train goes to Thiruvananthapuram.",
+            "This train comes from Thiruvananthapuram.",
+            "This train stops at Thiruvananthapuram."
+          ],
+          "correctAnswer": "This train goes to Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethu vandiyil aanu varunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan KSRTC bus il aanu varunnathu.",
+            "Njaan chaya kudikkunnu.",
+            "Ente veedu ivide aanu."
+          ],
+          "correctAnswer": "Njaan KSRTC bus il aanu varunnathu.",
+          "translatedSentence": "I am coming by KSRTC bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku Kochiyilekku pokanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to go to Kochi.",
+            "I know the way to Kochi.",
+            "I am not going to Kochi."
+          ],
+          "correctAnswer": "I want to go to Kochi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu ethu bus aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithu Kochi bus aanu.",
+            "Ithu ente petti aanu.",
+            "Enikku ee bus ariyilla."
+          ],
+          "correctAnswer": "Ithu Kochi bus aanu.",
+          "translatedSentence": "This is the Kochi bus."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying A Ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra ticket venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku randu ticket venam.",
+            "Enikku ticket ariyilla.",
+            "Njaan ticket kodukkum."
+          ],
+          "correctAnswer": "Enikku randu ticket venam.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kochiyilekku oru ticket tharumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you give me one ticket to Kochi?",
+            "Could you show me the way to Kochi?",
+            "Is there a bus to Kochi today?"
+          ],
+          "correctAnswer": "Could you give me one ticket to Kochi?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ticketinu ethra roopa aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nooru roopa aanu.",
+            "Randu manikkoor aanu.",
+            "Ticket counter il aanu."
+          ],
+          "correctAnswer": "Nooru roopa aanu.",
+          "translatedSentence": "It is one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aduttha bus ethra manikku undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What time is the next bus?",
+            "How far is the next bus stop?",
+            "How much is the next bus ticket?"
+          ],
+          "correctAnswer": "What time is the next bus?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train ethra manikku puradedukkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ettu manikku puradedukkum.",
+            "Ettu roopa mathram aanu.",
+            "Train ee platform il aanu."
+          ],
+          "correctAnswer": "Ettu manikku puradedukkum.",
+          "translatedSentence": "It leaves at eight o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee ticket naale upayogikkamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can I use this ticket tomorrow?",
+            "Did you buy this ticket yesterday?",
+            "Is this ticket for the morning bus?"
+          ],
+          "correctAnswer": "Can I use this ticket tomorrow?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku janalinte arikile seat venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, enikku janalinte arikil venam.",
+            "Illa, enikku ticket venda.",
+            "Athe, njaan bus il varilla."
+          ],
+          "correctAnswer": "Athe, enikku janalinte arikil venam.",
+          "translatedSentence": "Yes, I would like a window seat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thiruvananthapurathekku ulla train ethu platform il aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Which platform is the train to Thiruvananthapuram on?",
+            "What time does the train to Thiruvananthapuram leave?",
+            "Is this the platform for the Kochi train?"
+          ],
+          "correctAnswer": "Which platform is the train to Thiruvananthapuram on?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra neram kaathirikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan arai manikkoor kaathirikkum.",
+            "Njaan ticket eduthu kazhinju.",
+            "Njaan platform il ninnu."
+          ],
+          "correctAnswer": "Njaan arai manikkoor kaathirikkum.",
+          "translatedSentence": "I will wait for half an hour."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Post office evide aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu valathu vashathu aanu.",
+            "Athu naale thurakkum.",
+            "Enikku oru ticket venam."
+          ],
+          "correctAnswer": "Athu valathu vashathu aanu.",
+          "translatedSentence": "It is on the right hand side."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vazhiyil neere pokuka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go straight along this road.",
+            "Do not go along this road.",
+            "Come back along this road."
+          ],
+          "correctAnswer": "Go straight along this road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bank ivide ninnu dooram aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, valare aduthu thanne aanu.",
+            "Athe, bank il paisa illa.",
+            "Njaan bank il jolli cheyyunnu."
+          ],
+          "correctAnswer": "Alla, valare aduthu thanne aanu.",
+          "translatedSentence": "No, it is very close by."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aduttha junction il idathekku thirinju pokanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have to turn left at the next junction.",
+            "You have to turn right at the next junction.",
+            "You have to wait at the next junction."
+          ],
+          "correctAnswer": "You have to turn left at the next junction."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Avide nadannu pokan pattumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pattum, pathu minutte ullu.",
+            "Pattilla, enikku vishakkunnu.",
+            "Athe, njaan innale bus il poyi."
+          ],
+          "correctAnswer": "Pattum, pathu minutte ullu.",
+          "translatedSentence": "Yes, it is only ten minutes away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kada evide aanennu enikku ariyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know where this shop is.",
+            "I do not know when this shop opens.",
+            "I do not know who owns this shop."
+          ],
+          "correctAnswer": "I do not know where this shop is."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamikkanam, beach il ethunnathu engane aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee road il neere ponaal beach kaanum.",
+            "Beach il nalla meen curry kittum.",
+            "Njaan beach il pokarilla."
+          ],
+          "correctAnswer": "Ee road il neere ponaal beach kaanum.",
+          "translatedSentence": "If you go straight along this road you will see the beach."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa valiya kettidathinte pinnil aanu hotel.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The hotel is behind that big building.",
+            "The hotel is next to that big building.",
+            "The hotel is inside that big building."
+          ],
+          "correctAnswer": "The hotel is behind that big building."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ee sthalam ariyamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, njaan ivide puthiya aalanu.",
+            "Athe, njaan naale Kochiyil pokum.",
+            "Ivide nalla chaya kittum."
+          ],
+          "correctAnswer": "Illa, njaan ivide puthiya aalanu.",
+          "translatedSentence": "No, I am new here."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chetta, railway station il pokumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pokaam, kayari irikku.",
+            "Illa, njaan train il aanu vannathu.",
+            "Station il nalla puttu kittum."
+          ],
+          "correctAnswer": "Pokaam, kayari irikku.",
+          "translatedSentence": "Yes, I will take you. Get in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meter ittu pokamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you go by the meter?",
+            "Could you show me the meter?",
+            "Is the meter working today?"
+          ],
+          "correctAnswer": "Could you go by the meter?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station vare ethra roopa aakum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Irunooru roopa aakum.",
+            "Irupathu minutte aakum.",
+            "Meter ivide undu."
+          ],
+          "correctAnswer": "Irunooru roopa aakum.",
+          "translatedSentence": "It will be two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithu kooduthal aanu, kurachu kurakkamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too much, could you reduce it a little?",
+            "This is enough, could you wait a little?",
+            "This is cheap, could you take me there?"
+          ],
+          "correctAnswer": "This is too much, could you reduce it a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Evide nirthanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa kadayude munnil nirthiyaal mathi.",
+            "Njaan nadannu pokum.",
+            "Ente veedu Kochi il aanu."
+          ],
+          "correctAnswer": "Aa kadayude munnil nirthiyaal mathi.",
+          "translatedSentence": "Just stop in front of that shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku thirakku undu, kurachu veagam pokamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am in a hurry, could you go a bit faster?",
+            "I have time, could you go a bit slower?",
+            "I am tired, could you stop for a while?"
+          ],
+          "correctAnswer": "I am in a hurry, could you go a bit faster?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kayyil chillara undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ente kayyil nooru roopa mathrame ullu.",
+            "Athe, enikku oru auto venam.",
+            "Chillara aa kadayil kittum."
+          ],
+          "correctAnswer": "Illa, ente kayyil nooru roopa mathrame ullu.",
+          "translatedSentence": "No, I only have a hundred rupee note."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vazhiyil valare thirakku ullathu kondu njaan vaikum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be late because there is a lot of traffic on this road.",
+            "I will go early because there is no traffic on this road.",
+            "I will take this road because it is a shorter one."
+          ],
+          "correctAnswer": "I will be late because there is a lot of traffic on this road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivide nirthiyaal mathiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ivide thanne nirthikko.",
+            "Illa, ente kayyil paisa illa.",
+            "Athe, meter ittittundu."
+          ],
+          "correctAnswer": "Athe, ivide thanne nirthikko.",
+          "translatedSentence": "Yes, stop right here."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into A room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu muri ozhivundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, randu muri ozhivundu.",
+            "Illa, njaan ivide thamasikkunnu.",
+            "Muri munnaam nilayil aanu."
+          ],
+          "correctAnswer": "Undu, randu muri ozhivundu.",
+          "translatedSentence": "Yes, two rooms are free."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku randu divasathekku oru muri venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a room for two days.",
+            "I need two rooms for one day.",
+            "I booked a room two days ago."
+          ],
+          "correctAnswer": "I need a room for two days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra divasam thamasikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moonu divasam thamasikkum.",
+            "Moonu roopa kodukkum.",
+            "Njaan innale vannathaanu."
+          ],
+          "correctAnswer": "Moonu divasam thamasikkum.",
+          "translatedSentence": "I will stay for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Murikku divasam ethra roopa aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is the room per day?",
+            "How many rooms are free today?",
+            "How many days can I keep the room?"
+          ],
+          "correctAnswer": "How much is the room per day?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Murikku AC undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, ella muriyilum AC undu.",
+            "Undu, muri randaam nilayil aanu.",
+            "Illa, njaan naale varum."
+          ],
+          "correctAnswer": "Undu, ella muriyilum AC undu.",
+          "translatedSentence": "Yes, all the rooms have air conditioning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chooduvellam kittumo ennu enikku ariyanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to know whether hot water is available.",
+            "I want to know where the hot water tap is.",
+            "I want to know why there is no hot water."
+          ],
+          "correctAnswer": "I want to know whether hot water is available."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ravile bhakshanam undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, puttum appavum kittum.",
+            "Undu, muri valare vrithiyaanu.",
+            "Illa, ee muri ozhivilla."
+          ],
+          "correctAnswer": "Undu, puttum appavum kittum.",
+          "translatedSentence": "Yes, you will get puttu and appam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Muri vrithiyaanu, pakshe janal thurakkunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The room is clean, but the window does not open.",
+            "The room is clean, but the door does not close.",
+            "The room is small, but the window is very big."
+          ],
+          "correctAnswer": "The room is clean, but the window does not open."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku vere enthenkilum venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru kuppi vellam koodi tharumo?",
+            "Illa, njaan innale ethi.",
+            "Athe, muri ozhivilla."
+          ],
+          "correctAnswer": "Oru kuppi vellam koodi tharumo?",
+          "translatedSentence": "Could you give me one more bottle of water?"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train enthu kondaanu vaikunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sakthiyaya mazha ullathu kondu train oru manikkoor vaikum.",
+            "Train ippol thanne puradettu poyi.",
+            "Enikku innu oru ticket koodi venam."
+          ],
+          "correctAnswer": "Sakthiyaya mazha ullathu kondu train oru manikkoor vaikum.",
+          "translatedSentence": "The train will be an hour late because of the heavy rain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus vaikiyathu kondu enikku meeting il ethan pattiyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I could not reach the meeting because the bus was late.",
+            "I reached the meeting late, but the bus was on time.",
+            "I did not go to the meeting because I missed the bus."
+          ],
+          "correctAnswer": "I could not reach the meeting because the bus was late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude petti evide aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku ariyilla, athu train il thanne poyennu thonnunnu.",
+            "Enikku ariyam, njaan athu innale vaangi.",
+            "Petti valuthaanu, pakshe bharam kuravaanu."
+          ],
+          "correctAnswer": "Enikku ariyilla, athu train il thanne poyennu thonnunnu.",
+          "translatedSentence": "I do not know, I think it went on with the train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente bag kaanaanilla, athil ente passport undayirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag is missing, and my passport was inside it.",
+            "My bag is here, but my passport is missing.",
+            "I found my bag, but my passport was not inside it."
+          ],
+          "correctAnswer": "My bag is missing, and my passport was inside it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan ningale engane sahaayikkanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente petti kaanaanilla, enikku oru paraathi kodukkanam.",
+            "Enikku Kochiyilekku oru ticket venam.",
+            "Njaan naale rathri ivide thirichu varum."
+          ],
+          "correctAnswer": "Ente petti kaanaanilla, enikku oru paraathi kodukkanam.",
+          "translatedSentence": "My suitcase is missing and I need to file a complaint."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku samayam undenkil ee form purippikkan sahaayikkumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, could you help me fill in this form?",
+            "If you have time, could you read this form for me?",
+            "When you have time, please bring me another form."
+          ],
+          "correctAnswer": "If you have time, could you help me fill in this form?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Petti kittiyaal njaan ningale engane ariyikkum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente phone number ivide ezhuthiyittundu, dayavayi vilikkamo?",
+            "Ente petti valare valuthaanu, athinu chuvanna niram aanu.",
+            "Njaan innale rathri ee station il ethi."
+          ],
+          "correctAnswer": "Ente phone number ivide ezhuthiyittundu, dayavayi vilikkamo?",
+          "translatedSentence": "I have written my phone number here, could you please call me?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aduttha train rathri onpathinu aanu, athu kondu njaan ivide kaathirikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The next train is at nine at night, so I will wait here.",
+            "The next train is at nine in the morning, so I will come back later.",
+            "The last train left at nine at night, so I stayed here."
+          ],
+          "correctAnswer": "The next train is at nine at night, so I will wait here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku vere entha sahaayam venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku oru taxi vilichu tharumo, enikku valare ksheenam undu.",
+            "Illa, ente petti innale thanne kittiyirunnu.",
+            "Athe, njaan ee train il aanu vannathu."
+          ],
+          "correctAnswer": "Enikku oru taxi vilichu tharumo, enikku valare ksheenam undu.",
+          "translatedSentence": "Could you call a taxi for me, I am very tired."
+        }
+      ]
+    }
+  ]
+}

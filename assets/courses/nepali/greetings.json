@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, tapai sanchai hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaste, ma sanchai chu.",
+            "Mero naam Ram ho.",
+            "Ma Pokhara ma baschu."
+          ],
+          "correctAnswer": "Namaste, ma sanchai chu.",
+          "translatedSentence": "Hello, I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namaste, mero naam Sita ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hello, my name is Sita.",
+            "Hello, this is my house.",
+            "Hello, my friend is Sita."
+          ],
+          "correctAnswer": "Hello, my name is Sita."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi sanchai chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ma thik chu.",
+            "Ha, chiya tato cha.",
+            "Ha, ghar najik cha."
+          ],
+          "correctAnswer": "Ha, ma thik chu.",
+          "translatedSentence": "Yes, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Timro naam ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is your name?",
+            "Where is your house?",
+            "Who is your friend?"
+          ],
+          "correctAnswer": "What is your name?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aja ke cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabai thik cha.",
+            "Ghar tadha cha.",
+            "Chiya mitho cha."
+          ],
+          "correctAnswer": "Sabai thik cha.",
+          "translatedSentence": "Everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma Kathmandu ma baschu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Kathmandu.",
+            "I am going to Kathmandu.",
+            "I am from Kathmandu."
+          ],
+          "correctAnswer": "I live in Kathmandu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai sanchai cha, dhanyabad.",
+            "Malai bato thaha chaina.",
+            "Malai chiya man parcha."
+          ],
+          "correctAnswer": "Malai sanchai cha, dhanyabad.",
+          "translatedSentence": "I am doing fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma sanchai chu, dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am well, thank you.",
+            "I am busy, thank you.",
+            "I am here, thank you."
+          ],
+          "correctAnswer": "I am well, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma sanchai chu, tapai ni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma pani sanchai chu.",
+            "Ma bholi aauchu.",
+            "Ma yaha basdina."
+          ],
+          "correctAnswer": "Ma pani sanchai chu.",
+          "translatedSentence": "I am well too."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night, welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subha prabhat, tapai aja sabera uthnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ma panch baje uthe.",
+            "Ho, ma raati dhilo sute.",
+            "Hoina, malai chiya man pardaina."
+          ],
+          "correctAnswer": "Ho, ma panch baje uthe.",
+          "translatedSentence": "Yes, I got up at five o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Subha prabhat, tapaiko din ramro hos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, have a nice day.",
+            "Good morning, have a safe trip.",
+            "Good evening, have a nice day."
+          ],
+          "correctAnswer": "Good morning, have a nice day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhitra aaunuhos, hamro gharma swagat cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, ghar dherai ramro cha.",
+            "Maaf garnuhos, malai bato thaha bhayena.",
+            "Hoina, ma yaha basdina."
+          ],
+          "correctAnswer": "Dhanyabad, ghar dherai ramro cha.",
+          "translatedSentence": "Thank you, your home is very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beluka hami sangai chiya khanchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening we drink tea together.",
+            "In the evening we eat dinner together.",
+            "In the morning we drink tea together."
+          ],
+          "correctAnswer": "In the evening we drink tea together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chiya khanuhuncha ki paani?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai chiya chahiyo, dhanyabad.",
+            "Ma bihana matra chiya khanchu.",
+            "Maaf garnuhos, malai bhok lageko chaina."
+          ],
+          "correctAnswer": "Malai chiya chahiyo, dhanyabad.",
+          "translatedSentence": "I would like tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aja raati dherai chiso cha, ramro sanga sutnuhos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is very cold tonight, so sleep well.",
+            "It is very hot tonight, so sleep well.",
+            "It is very cold tonight, so come home early."
+          ],
+          "correctAnswer": "It is very cold tonight, so sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma aba sutna jaanchu, subha ratri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Subha ratri, ramro sanga sutnus.",
+            "Subha prabhat, chiya khanuhos.",
+            "Namaste, ma pani jaadai chu."
+          ],
+          "correctAnswer": "Subha ratri, ramro sanga sutnus.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Subha ratri, bholi bihana bhetaula.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, see you tomorrow morning.",
+            "Good night, see you next week.",
+            "Good evening, see you tomorrow morning."
+          ],
+          "correctAnswer": "Good night, see you tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subha ratri, mitho sapana dekhnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, tapailai pani subha ratri.",
+            "Dhanyabad, ma bihana sabera uthchu.",
+            "Hunchha, ma chiya banauchu."
+          ],
+          "correctAnswer": "Dhanyabad, tapailai pani subha ratri.",
+          "translatedSentence": "Thank you, good night to you too."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dherai dhanyabad, tapaile ramro maddat garnu bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, malai khusi lagyo.",
+            "Maaf garnuhos, malai thaha chaina.",
+            "Hunchha, ma bholi aauchu."
+          ],
+          "correctAnswer": "Kehi chaina, malai khusi lagyo.",
+          "translatedSentence": "It was nothing, I was glad to help."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapaile garnu bhayeko maddat ko lagi dherai dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for the help you gave me.",
+            "Thank you very much for coming all the way here.",
+            "I am sorry for all the trouble I gave you."
+          ],
+          "correctAnswer": "Thank you very much for the help you gave me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf garnuhos, ma dhilo aaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, bhitra aaunuhos.",
+            "Dhanyabad, ma pani jaanchu.",
+            "Hoina, bato dherai ramro cha."
+          ],
+          "correctAnswer": "Kehi chaina, bhitra aaunuhos.",
+          "translatedSentence": "No problem, please come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maaf garnuhos, malai nepali ali ali matra aaucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I only speak a little Nepali.",
+            "Sorry, I do not speak Nepali at all.",
+            "Sorry, I am learning Nepali right now."
+          ],
+          "correctAnswer": "Sorry, I only speak a little Nepali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf garnuhos, yo micro bus Thamel jaancha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaancha, tara ali dhilo pugcha.",
+            "Malai bus ko naam thaha cha.",
+            "Ho, ma Thamel ma baschu."
+          ],
+          "correctAnswer": "Jaancha, tara ali dhilo pugcha.",
+          "translatedSentence": "Yes it does, but it gets there a bit late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripaya ali bistarai bolnuhos, malai bujhna garho cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please speak a little slowly, it is hard for me to understand.",
+            "Please speak a little louder, I cannot hear you at all.",
+            "Please say that again, I did not hear the last word."
+          ],
+          "correctAnswer": "Please speak a little slowly, it is hard for me to understand."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kripaya malai ek gilas paani dinuhos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, aile lyauchu.",
+            "Hunchha, chiya pani mitho cha.",
+            "Maaf garnuhos, malai paani man pardaina."
+          ],
+          "correctAnswer": "Hunchha, aile lyauchu.",
+          "translatedSentence": "Sure, I will bring it right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dhanyabad bhannu pardaina, yo ta mero kaam nai ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You do not have to thank me, this is my job after all.",
+            "You do not have to pay me, this is my house after all.",
+            "Do not thank me, because I really did nothing at all."
+          ],
+          "correctAnswer": "You do not have to thank me, this is my job after all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai maaf garnuhos, maile tapaiko naam birse.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, mero naam Bikash ho.",
+            "Dhanyabad, tapaiko naam ramro cha.",
+            "Hoina, ma tapailai chindina."
+          ],
+          "correctAnswer": "Kehi chaina, mero naam Bikash ho.",
+          "translatedSentence": "No problem, my name is Bikash."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "La ta, ma aba jaanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, pheri bhetaula.",
+            "Hunchha, bhitra aaunuhos.",
+            "Dhanyabad, ma sanchai chu."
+          ],
+          "correctAnswer": "Hunchha, pheri bhetaula.",
+          "translatedSentence": "All right, see you again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aba jaanchu, pheri bhetaula.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving now, see you again.",
+            "I am coming now, see you again.",
+            "I am leaving now, see you tomorrow."
+          ],
+          "correctAnswer": "I am leaving now, see you again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi bihana office ma bhetaula, hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, ma sabera aauchu.",
+            "Hunchha, ma aile ghar ma chu.",
+            "Hoina, malai office thaha chaina."
+          ],
+          "correctAnswer": "Hunchha, ma sabera aauchu.",
+          "translatedSentence": "Sure, I will come early."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhetera dherai khusi lagyo, aram garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was very nice to meet you, take care.",
+            "It was very nice to meet you, come again.",
+            "I am very happy today, so take care."
+          ],
+          "correctAnswer": "It was very nice to meet you, take care."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ramro sanga jaanus, bato ma dhyan dinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, ma pugera phone garchu.",
+            "Dhanyabad, ma yaha nai baschu.",
+            "Hunchha, ma bihana sabera sutchu."
+          ],
+          "correctAnswer": "Dhanyabad, ma pugera phone garchu.",
+          "translatedSentence": "Thank you, I will call once I get there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beluka pharkane bela ma malai phone garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Call me when you are heading back in the evening.",
+            "Call me once you have reached home in the evening.",
+            "Come and see me before you leave in the evening."
+          ],
+          "correctAnswer": "Call me when you are heading back in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kahile pharkanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma arko hapta pharkanchu.",
+            "Ma Pokhara ma basdina.",
+            "Ma bihana chiya khanchu."
+          ],
+          "correctAnswer": "Ma arko hapta pharkanchu.",
+          "translatedSentence": "I will come back next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma dui hapta pachi Kathmandu pharkanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will come back to Kathmandu in two weeks.",
+            "I came back to Kathmandu two weeks ago.",
+            "I will be leaving Kathmandu in two weeks."
+          ],
+          "correctAnswer": "I will come back to Kathmandu in two weeks."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghar ma sabailai namaste bhanidinus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, ma bhanidinchu.",
+            "Hunchha, ma bhitra aauchu.",
+            "Maaf garnuhos, malai ghar thaha chaina."
+          ],
+          "correctAnswer": "Hunchha, ma bhanidinchu.",
+          "translatedSentence": "Sure, I will pass it on to them."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Politeness and respect",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf garnuhos hajur, ma euta kura sodhna sakchu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, sodhnuhos na.",
+            "Hoina, malai kehi thaha chaina.",
+            "Dhanyabad, ma aile jaandai chu."
+          ],
+          "correctAnswer": "Hunchha, sodhnuhos na.",
+          "translatedSentence": "Of course, please go ahead and ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thulo manche sanga kura garda hajur bhannu parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you talk to an elder you should say hajur.",
+            "When you talk to a child you should say hajur.",
+            "When you talk to an elder you should stand up."
+          ],
+          "correctAnswer": "When you talk to an elder you should say hajur."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Didi, yo micro bus Pokhara jaancha ki jaadaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaadaina, tapaile arko bus samatnu parcha.",
+            "Jaancha, tara malai Pokhara thaha chaina.",
+            "Malai yo bus ko naam matra thaha cha."
+          ],
+          "correctAnswer": "Jaadaina, tapaile arko bus samatnu parcha.",
+          "translatedSentence": "No it does not, you will have to catch another bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapaile malai chinnu hunna, tara ma tapailai maddat garna sakchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You do not know me, but I can still help you.",
+            "I do not know you, but I can still help you.",
+            "You do not know me, so I cannot help you."
+          ],
+          "correctAnswer": "You do not know me, but I can still help you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hajurbua sanga kura garda timi bhannu hundaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thaha paye, ma aba tapai nai bhanchu.",
+            "Thaha chaina, ma timi nai bhanchu.",
+            "Hunchha, ma hajurbua lai chindina."
+          ],
+          "correctAnswer": "Thaha paye, ma aba tapai nai bhanchu.",
+          "translatedSentence": "I see, from now on I will say tapai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Umer le thulo manche lai naam le bolaunu ramro maanidaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is not considered polite to call an older person by name.",
+            "It is not considered polite to ask an older person their age.",
+            "It is considered polite to call an older person by name."
+          ],
+          "correctAnswer": "It is not considered polite to call an older person by name."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nani, timi kaha bata aayeko?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma America bata aayeko hu, hajurbua.",
+            "Ma America jaadai chu, timi ni?",
+            "Malai thaha chaina, timro ghar kaha ho?"
+          ],
+          "correctAnswer": "Ma America bata aayeko hu, hajurbua.",
+          "translatedSentence": "I have come from America, grandfather."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripaya jutta bahira nikalera matra bhitra pasnuhos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please take your shoes off outside before you come in.",
+            "Please leave your bag outside before you come in.",
+            "Please put your shoes on before you step outside."
+          ],
+          "correctAnswer": "Please take your shoes off outside before you come in."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dai, yo momo ko kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek plate ko ek saya rupaiya parcha.",
+            "Momo dherai mitho cha, khanuhos na.",
+            "Malai momo man pardaina, maaf garnuhos."
+          ],
+          "correctAnswer": "Ek plate ko ek saya rupaiya parcha.",
+          "translatedSentence": "One plate costs a hundred rupees."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Are, dherai dinpachi bhetiyo, tapai kaha haraunu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma teen mahina Pokhara ma thiye, tesaile bhet bhayena.",
+            "Ma yaha nai chu, tara malai tapai thaha chaina.",
+            "Ma bholi Pokhara jaandai chu, tapai pani aaunus."
+          ],
+          "correctAnswer": "Ma teen mahina Pokhara ma thiye, tesaile bhet bhayena.",
+          "translatedSentence": "I was in Pokhara for three months, so we never ran into each other."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dherai dinpachi bhetiyo, tapai ta ekdam patlo hunu bhayecha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been ages since we met, and you have got really thin.",
+            "It has been ages since we met, and you look really happy.",
+            "We met only a few days ago, but you looked very tired."
+          ],
+          "correctAnswer": "It has been ages since we met, and you have got really thin."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro parivar sanchai cha? Dherai bhayo timro khabar nai chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabai sanchai chan, ma nai byasta thiye.",
+            "Sabai sanchai chan, tara ma timilai chindina.",
+            "Malai khabar thaha chaina, maaf garnuhos."
+          ],
+          "correctAnswer": "Sabai sanchai chan, ma nai byasta thiye.",
+          "translatedSentence": "Everyone is fine, I was just the one who was busy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma pahile Kathmandu ma basthe, tara aile Pokhara sarisake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to live in Kathmandu, but I have moved to Pokhara now.",
+            "I used to live in Pokhara, but I have moved to Kathmandu now.",
+            "I live in Kathmandu now, but I want to move to Pokhara."
+          ],
+          "correctAnswer": "I used to live in Kathmandu, but I have moved to Pokhara now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai aajakal ke garnu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma Thamel ma euta pasal chalauchu, tesaile ali byasta chu.",
+            "Ma hijo Thamel gaye, tyo din dherai ramro thiyo.",
+            "Ma Thamel chindina, tara tyaha jaana chahanchu."
+          ],
+          "correctAnswer": "Ma Thamel ma euta pasal chalauchu, tesaile ali byasta chu.",
+          "translatedSentence": "I run a little shop in Thamel, so I am fairly busy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Fursad bhayo bhane bholi chiya khana aaunus, ghar najik nai cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, come for tea tomorrow; my place is close by.",
+            "If you have time, come for dinner tomorrow; my place is close by.",
+            "When you are free, call me tomorrow because my place is far."
+          ],
+          "correctAnswer": "If you have time, come for tea tomorrow; my place is close by."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhet nai nabhayeko dherai bhayo, bhok lagyo bhane momo khana jaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaam na, tara pahile ma chiya khanchu.",
+            "Ho, momo Kathmandu ma dherai mitho huncha.",
+            "Malai bhok lageko chaina bhane ma khanchu."
+          ],
+          "correctAnswer": "Jaam na, tara pahile ma chiya khanchu.",
+          "translatedSentence": "Let's go, but first I want to have some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Himalaya trek ma jane bichar cha, tara aile paisa pugdaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thinking of going on a Himalaya trek, but I cannot afford it yet.",
+            "I went on a Himalaya trek, but it cost more money than I had.",
+            "I want to go on a Himalaya trek because I have saved enough money."
+          ],
+          "correctAnswer": "I am thinking of going on a Himalaya trek, but I cannot afford it yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai Nepal ma basnu bhayeko kati barsa bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dui barsa bhayo, tara ma aile pani nepali sikdai chu.",
+            "Dui barsa aghi ma America pharkeko thiye.",
+            "Ma Nepal ma basdina, ma bholi matra aauchu."
+          ],
+          "correctAnswer": "Dui barsa bhayo, tara ma aile pani nepali sikdai chu.",
+          "translatedSentence": "It has been two years, and I am still learning Nepali."
+        }
+      ]
+    }
+  ]
+}

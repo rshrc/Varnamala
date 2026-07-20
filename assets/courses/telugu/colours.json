@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee rangu emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi erra rangu.",
+            "Idi naa pustakam.",
+            "Idi chaala chinnadi."
+          ],
+          "correctAnswer": "Idi erra rangu.",
+          "translatedSentence": "This is red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi nalla rangu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is black.",
+            "This is white.",
+            "This is blue."
+          ],
+          "correctAnswer": "This is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aakasam rangu emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aakasam neeli rangu.",
+            "Aakasam tella rangu.",
+            "Aakasam pacha rangu."
+          ],
+          "correctAnswer": "Aakasam neeli rangu.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaku pacha rangu lo undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The leaf is green.",
+            "The leaf is yellow.",
+            "The flower is green."
+          ],
+          "correctAnswer": "The leaf is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Palu e rangu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Palu tella rangu.",
+            "Palu nalla rangu.",
+            "Palu erra rangu."
+          ],
+          "correctAnswer": "Palu tella rangu.",
+          "translatedSentence": "Milk is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pasupu rangu chaala baagundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yellow is a very nice colour.",
+            "Red is a very nice colour.",
+            "Yellow is a very rare colour."
+          ],
+          "correctAnswer": "Yellow is a very nice colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idi pasupu rangaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, idi pasupu rangu.",
+            "Ledu, naaku adi teliyadu.",
+            "Avunu, idi naa pen."
+          ],
+          "correctAnswer": "Avunu, idi pasupu rangu.",
+          "translatedSentence": "Yes, this is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku erra rangu nachutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour red.",
+            "I want the colour red.",
+            "I know the colour red."
+          ],
+          "correctAnswer": "I like the colour red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pandu rangu emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi narinja rangu.",
+            "Idi chaala tiyyaga undi.",
+            "Idi naa pandu kaadu."
+          ],
+          "correctAnswer": "Idi narinja rangu.",
+          "translatedSentence": "It is orange."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing objects",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee illu e rangu lo undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa illu tella rangu lo undi.",
+            "Maa illu Hyderabad lo undi.",
+            "Maa illu ikkada nunchi dooram."
+          ],
+          "correctAnswer": "Maa illu tella rangu lo undi.",
+          "translatedSentence": "Our house is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa daggara oka nalla rangu pustakam undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a black book with me.",
+            "I have a black bag with me.",
+            "I have a new book with me."
+          ],
+          "correctAnswer": "I have a black book with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa auto e rangu lo undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aa auto pasupu mariyu nalla rangu lo undi.",
+            "Aa auto chaala vegam ga veltundi.",
+            "Aa auto ikkada aagadu."
+          ],
+          "correctAnswer": "Aa auto pasupu mariyu nalla rangu lo undi.",
+          "translatedSentence": "That auto is yellow and black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee gadi lo oka erra rangu kurchi undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a red chair in this room.",
+            "There is a red table in this room.",
+            "There is a red chair in that room."
+          ],
+          "correctAnswer": "There is a red chair in this room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee bag e rangu lo undi, cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa bag neeli rangu lo undi.",
+            "Naa bag chaala baruvu undi.",
+            "Naa bag intilo undi."
+          ],
+          "correctAnswer": "Naa bag neeli rangu lo undi.",
+          "translatedSentence": "My bag is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa pedda intiki tella rangu vesaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They painted that big house white.",
+            "They painted that small house white.",
+            "They built that big house last year."
+          ],
+          "correctAnswer": "They painted that big house white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gulabi rangu chokka evarridi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi naa chelli chokka.",
+            "Naaku adi teliyadu.",
+            "Adi Charminar daggara dorukutundi."
+          ],
+          "correctAnswer": "Adi naa chelli chokka.",
+          "translatedSentence": "That is my younger sister's shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa kotta chappulu nalla rangu lo unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My new shoes are black.",
+            "My old shoes are black.",
+            "My new shoes are brown."
+          ],
+          "correctAnswer": "My new shoes are black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee bike e rangu lo undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa bike erra rangu lo undi.",
+            "Naa bike bayata nilipanu.",
+            "Naa bike chaala pathadi ayipoyindi."
+          ],
+          "correctAnswer": "Naa bike erra rangu lo undi.",
+          "translatedSentence": "My bike is red."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Choosing a colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku e rangu kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku neeli rangu kaavali.",
+            "Naaku rendu kaavali.",
+            "Naaku idi vaddu."
+          ],
+          "correctAnswer": "Naaku neeli rangu kaavali.",
+          "translatedSentence": "I want the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku pacha rangu chokka kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a green shirt.",
+            "I like this green shirt.",
+            "I want a green towel."
+          ],
+          "correctAnswer": "I want a green shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Erra rangu kaavaala, leka nalla rangu kaavaala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku nalla rangu kaavali.",
+            "Naaku aa rangu peru telusu.",
+            "Naaku ee dukanam nachindi."
+          ],
+          "correctAnswer": "Naaku nalla rangu kaavali.",
+          "translatedSentence": "I want the black one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee rangu naaku nachaledu, veru rangu chupinchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like this colour, please show me another one.",
+            "I like this colour, please show me another one too.",
+            "I do not like this shop, please show me another one."
+          ],
+          "correctAnswer": "I do not like this colour, please show me another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku pasupu rangu cheera nachinda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu chaala baagundi, adi teesukuntanu.",
+            "Ledu, naaku cheera kattadam raadu.",
+            "Avunu, naaku Hyderabad chaala nachutundi."
+          ],
+          "correctAnswer": "Avunu chaala baagundi, adi teesukuntanu.",
+          "translatedSentence": "Yes, it is very nice, I will take it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru naaku tella rangu towel okati ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a white towel.",
+            "Please show me a white towel.",
+            "Please give me a white shirt."
+          ],
+          "correctAnswer": "Please give me a white towel."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee rangu lo inko size undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undi, konchem sepu aagandi.",
+            "Ledu, aa rangu naaku nachaledu.",
+            "Avunu, idi chaala kharidu."
+          ],
+          "correctAnswer": "Undi, konchem sepu aagandi.",
+          "translatedSentence": "Yes, we have it, please wait a moment."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nalla rangu chokka enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is the black shirt?",
+            "Where is the black shirt?",
+            "How much are the black shoes?"
+          ],
+          "correctAnswer": "How much is the black shirt?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru e rangu bag teesukuntaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu narinja rangu bag teesukuntanu.",
+            "Nenu repu dukanam ki veltanu.",
+            "Nenu naa bag intilo marchipoyanu."
+          ],
+          "correctAnswer": "Nenu narinja rangu bag teesukuntanu.",
+          "translatedSentence": "I will take the orange bag."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu function ki nuvvu e rangu dress vestavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu pacha rangu langa vestanu.",
+            "Nenu repu maa ooriki veltanu.",
+            "Naaku aa function gurinchi teliyadu."
+          ],
+          "correctAnswer": "Nenu pacha rangu langa vestanu.",
+          "translatedSentence": "I will wear a green skirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aayana pelli ki tella rangu pancha kattukunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He wore a white dhoti to the wedding.",
+            "He wore a white shirt to the wedding.",
+            "He bought a white dhoti for the wedding."
+          ],
+          "correctAnswer": "He wore a white dhoti to the wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ammagaru e rangu cheera kattukunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma erra rangu cheera kattukunnaru.",
+            "Amma intilo vanta chestunnaru.",
+            "Amma cheera konadaniki vellaru."
+          ],
+          "correctAnswer": "Amma erra rangu cheera kattukunnaru.",
+          "translatedSentence": "Mother wore a red saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa neeli rangu jeans chinigipoyindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My blue jeans have torn.",
+            "My black jeans have torn.",
+            "My blue jeans have faded."
+          ],
+          "correctAnswer": "My blue jeans have torn."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee nalla rangu kotu meeku saripotunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, idi naaku konchem pedda ga undi.",
+            "Ledu, naaku ee rangu peru teliyadu.",
+            "Avunu, naa kotu intilo undi."
+          ],
+          "correctAnswer": "Ledu, idi naaku konchem pedda ga undi.",
+          "translatedSentence": "No, this is a little big for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pillalu badi ki tella chokka, nalla pant vestaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Children wear a white shirt and black pants to school.",
+            "Children wear a white shirt and blue pants to school.",
+            "Children wear a black shirt and white pants to school."
+          ],
+          "correctAnswer": "Children wear a white shirt and black pants to school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gulabi rangu chunni aa dress ki saripotunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, chaala baaga saripotundi.",
+            "Ledu, aa dress ippudu ikkada ledu.",
+            "Avunu, naaku chunni vesukovadam raadu."
+          ],
+          "correctAnswer": "Avunu, chaala baaga saripotundi.",
+          "translatedSentence": "Yes, it matches very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa chelli erra rangu chappulu konukkundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister bought red shoes.",
+            "My elder sister bought red shoes.",
+            "My younger sister wanted red shoes."
+          ],
+          "correctAnswer": "My younger sister bought red shoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ee roju e rangu battalu vesukunnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu neeli rangu chokka vesukunnanu.",
+            "Nenu ee roju battalu utakanu.",
+            "Naaku kotta battalu kaavali."
+          ],
+          "correctAnswer": "Nenu neeli rangu chokka vesukunnanu.",
+          "translatedSentence": "I am wearing a blue shirt today."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Charminar daggara aa pedda kattadam e rangu lo undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi boodida rangu lo undi.",
+            "Adi chaala purathanamainadi.",
+            "Adi ikkada nunchi chaala dooram."
+          ],
+          "correctAnswer": "Adi boodida rangu lo undi.",
+          "translatedSentence": "It is grey."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Varsham taruvata aakasam lo harivillu kanipinchindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the rain a rainbow appeared in the sky.",
+            "Before the rain a rainbow appeared in the sky.",
+            "After the rain the sky became clear."
+          ],
+          "correctAnswer": "After the rain a rainbow appeared in the sky."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vijayawada lo Krishna nadi ippudu e rangu lo undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu adi konchem matti rangu lo undi.",
+            "Ippudu akkada chaala mandi unnaru.",
+            "Ippudu nenu akkadiki veltunnanu."
+          ],
+          "correctAnswer": "Ippudu adi konchem matti rangu lo undi.",
+          "translatedSentence": "Right now it is a muddy brown colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee chettu ki pasupu rangu poolu unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tree has yellow flowers.",
+            "That tree has yellow flowers.",
+            "This tree has yellow leaves."
+          ],
+          "correctAnswer": "This tree has yellow flowers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pesarattu e rangu lo untundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi pacha rangu lo untundi.",
+            "Adi chaala ruchi ga untundi.",
+            "Adi Hyderabad lo baaga dorukutundi."
+          ],
+          "correctAnswer": "Adi pacha rangu lo untundi.",
+          "translatedSentence": "It is green in colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sayantram suryudu narinja rangu lo untadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the sun looks orange.",
+            "In the morning the sun looks orange.",
+            "In the evening the sky looks orange."
+          ],
+          "correctAnswer": "In the evening the sun looks orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ooru lo autolu e rangu lo untayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa ooru lo autolu pasupu rangu lo untayi.",
+            "Maa ooru lo autolu chaala takkuva.",
+            "Maa ooru lo bassulu ekkuva ga untayi."
+          ],
+          "correctAnswer": "Maa ooru lo autolu pasupu rangu lo untayi.",
+          "translatedSentence": "In our town the autos are yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gongura aakulu pacha rangu lo untayi, kaani kaadalu erra ga untayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gongura leaves are green, but the stems are red.",
+            "Gongura leaves are red, but the stems are green.",
+            "Gongura leaves and stems are both green."
+          ],
+          "correctAnswer": "Gongura leaves are green, but the stems are red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Irani chai e rangu lo untundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi kaaphi rangu lo untundi.",
+            "Adi chaala vedi ga untundi.",
+            "Adi Charminar daggara baaga dorukutundi."
+          ],
+          "correctAnswer": "Adi kaaphi rangu lo untundi.",
+          "translatedSentence": "It is coffee brown in colour."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee rendu chokkallo meeku e rangu ekkuva nachindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku ee laeta neeli rangu ekkuva nachindi, endukante adi vesavi ki baaguntundi.",
+            "Naaku rendu chokkalu nachayi, kaani nenu ivvala konanu.",
+            "Naaku chokkalu konadam ante asalu ishtam ledu."
+          ],
+          "correctAnswer": "Naaku ee laeta neeli rangu ekkuva nachindi, endukante adi vesavi ki baaguntundi.",
+          "translatedSentence": "I like this light blue more, because it is good for summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa muduru pacha rangu kanna ee laeta pacha rangu naaku baaguntundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this light green better than that dark green.",
+            "I like that dark green better than this light green.",
+            "This light green looks the same as that dark green."
+          ],
+          "correctAnswer": "I like this light green better than that dark green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee muduru erra rangu naaku saripotunda, cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeku baagane undi, kaani laeta rangu inka baaguntundi.",
+            "Meeru repu vachi maa dukanam lo choodandi.",
+            "Naaku erra rangu battalu ante bhayam."
+          ],
+          "correctAnswer": "Meeku baagane undi, kaani laeta rangu inka baaguntundi.",
+          "translatedSentence": "It suits you fine, but a lighter shade would look even better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku muduru rangulu nachavu, endukante avi chaala vedi ga anipistayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like dark colours, because they feel too hot.",
+            "I do not like dark colours, because they fade too quickly.",
+            "I like dark colours, because they feel warm in winter."
+          ],
+          "correctAnswer": "I do not like dark colours, because they feel too hot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru pelli ki e rangu cheera kattukuntaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu muduru erra rangu cheera kattukuntanu, endukante maa amma adi naaku konnaru.",
+            "Nenu aa pelli ki veldam ani anukovadam ledu.",
+            "Naaku cheera kattadam raadu, kaani nenu nerchukuntanu."
+          ],
+          "correctAnswer": "Nenu muduru erra rangu cheera kattukuntanu, endukante maa amma adi naaku konnaru.",
+          "translatedSentence": "I will wear a dark red saree, because my mother bought it for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu chinnappudu erra rangu ishtapadevadini, kaani ippudu naaku neeli rangu ishtam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "As a child I used to like red, but now I like blue.",
+            "As a child I used to like blue, but now I like red.",
+            "As a child I never liked red, and I still do not like it."
+          ],
+          "correctAnswer": "As a child I used to like red, but now I like blue."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku laeta rangu kaavaala leka muduru rangu kaavaala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku laeta rangu ivvandi, endukante ee gadi konchem chinnadi.",
+            "Naaku rendu rangulu telusu, kaani nenu ippudu konanu.",
+            "Naaku rangu peru gurtu ledu, konchem cheppandi."
+          ],
+          "correctAnswer": "Naaku laeta rangu ivvandi, endukante ee gadi konchem chinnadi.",
+          "translatedSentence": "Please give me the lighter shade, because this room is a bit small."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru tella rangu chokka vesukunte, ee muduru neeli kotu chaala baaguntundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you wear a white shirt, this dark blue coat will look very good.",
+            "If you wear a white shirt, this dark blue coat will not suit you.",
+            "You wore a white shirt, so this dark blue coat looked very good."
+          ],
+          "correctAnswer": "If you wear a white shirt, this dark blue coat will look very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee rangu naaku nachindi, kaani daani rate konchem ekkuva ga undi kada?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu konchem ekkuva ne, kaani meeku nenu konchem taggistanu.",
+            "Ledu, ee rangu ippudu ekkada dorakadam ledu.",
+            "Avunu, kaani naaku ee rangu asalu nachaledu."
+          ],
+          "correctAnswer": "Avunu konchem ekkuva ne, kaani meeku nenu konchem taggistanu.",
+          "translatedSentence": "Yes, it is a little expensive, but I will reduce it a bit for you."
+        }
+      ]
+    }
+  ]
+}

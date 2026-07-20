@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Amma, Naanna, Anna",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee photo lo unnadi mee ammanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, aame maa amma.",
+            "Kaadu, aame maa akka.",
+            "Avunu, aayana maa naanna."
+          ],
+          "correctAnswer": "Avunu, aame maa amma.",
+          "translatedSentence": "Yes, she is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa naanna intlo unnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is at home.",
+            "My father is at work.",
+            "My elder brother is at home."
+          ],
+          "correctAnswer": "My father is at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku anna unnaadaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku oka anna unnaadu.",
+            "Ledu, naaku oka akka undi.",
+            "Avunu, naaku iddaru chellelu unnaru."
+          ],
+          "correctAnswer": "Avunu, naaku oka anna unnaadu.",
+          "translatedSentence": "Yes, I have one elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku oka chelli undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have one younger sister.",
+            "I have one elder sister.",
+            "I have two younger sisters."
+          ],
+          "correctAnswer": "I have one younger sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee akka peru emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa akka peru Sunitha.",
+            "Maa amma peru Sunitha.",
+            "Naa peru Sunitha."
+          ],
+          "correctAnswer": "Maa akka peru Sunitha.",
+          "translatedSentence": "My elder sister's name is Sunitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa amma ippudu vanta chesthundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother is cooking right now.",
+            "My mother is sleeping right now.",
+            "My elder sister is cooking right now."
+          ],
+          "correctAnswer": "My mother is cooking right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee thammudu ekkada unnaadu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaadu intlo unnaadu.",
+            "Vaadi peru Kiran.",
+            "Vaadu maa thammudu."
+          ],
+          "correctAnswer": "Vaadu intlo unnaadu.",
+          "translatedSentence": "He is at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee kutumbam lo evaru unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is there in your family?",
+            "Where is your family?",
+            "How is your family doing?"
+          ],
+          "correctAnswer": "Who is there in your family?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee amma naanna ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaallu iddaru baagunnaru.",
+            "Vaallu Hyderabad lo untaaru.",
+            "Vaallu maa amma naanna."
+          ],
+          "correctAnswer": "Vaallu iddaru baagunnaru.",
+          "translatedSentence": "Both of them are doing well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Whose is it",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee phone evaridi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idi naa phone.",
+            "Ee phone chaala baagundi.",
+            "Naa phone intlo undi."
+          ],
+          "correctAnswer": "Idi naa phone.",
+          "translatedSentence": "This is my phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee illu maa naannadi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This house belongs to my father.",
+            "This house belongs to my elder brother.",
+            "My father is inside this house."
+          ],
+          "correctAnswer": "This house belongs to my father."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pusthakam mee akkadaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, adi maa akkadi.",
+            "Kaadu, adi maa naannadi.",
+            "Maa akkaki pusthakalu ante ishtam."
+          ],
+          "correctAnswer": "Avunu, adi maa akkadi.",
+          "translatedSentence": "Yes, that one is my elder sister's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee cycle maa thammudidi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This bicycle is my younger brother's.",
+            "This bicycle is my younger sister's.",
+            "My younger brother wants a bicycle."
+          ],
+          "correctAnswer": "This bicycle is my younger brother's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee illu ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa illu Vijayawada lo undi.",
+            "Maa illu chaala peddadi.",
+            "Maa intlo aaruguru untaaru."
+          ],
+          "correctAnswer": "Maa illu Vijayawada lo undi.",
+          "translatedSentence": "Our house is in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi maa illu kaadu, maa akka illu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not our house, it is my elder sister's house.",
+            "This is our house, not my elder sister's house.",
+            "Our house is right next to my elder sister's house."
+          ],
+          "correctAnswer": "This is not our house, it is my elder sister's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bayata unna car evaridi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi maa naannadi.",
+            "Adi chaala kotha car.",
+            "Naaku car nadapatam telusu."
+          ],
+          "correctAnswer": "Adi maa naannadi.",
+          "translatedSentence": "That one is my father's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa gadi lo naa pusthakalu anni unnayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All my books are in my room.",
+            "All your books are in my room.",
+            "My books are in my sister's room."
+          ],
+          "correctAnswer": "All my books are in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee photo lo evaru unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee photo lo maa kutumbam antha undi.",
+            "Ee photo maa intlo undi.",
+            "Naaku ee photo chaala nachchindi."
+          ],
+          "correctAnswer": "Ee photo lo maa kutumbam antha undi.",
+          "translatedSentence": "My whole family is in this photo."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Marriage and children",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku pelli ayindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku pelli ayindi.",
+            "Ledu, naaku pillalu leru.",
+            "Avunu, maa pelli Hyderabad lo."
+          ],
+          "correctAnswer": "Avunu, naaku pelli ayindi.",
+          "translatedSentence": "Yes, I am married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku inka pelli kaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not married yet.",
+            "I got married last year.",
+            "I do not have children yet."
+          ],
+          "correctAnswer": "I am not married yet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku entha mandi pillalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku iddaru pillalu, oka koduku oka kuthuru.",
+            "Naaku pillalu ante chaala ishtam.",
+            "Maa pillalu skool ki vellaru."
+          ],
+          "correctAnswer": "Naaku iddaru pillalu, oka koduku oka kuthuru.",
+          "translatedSentence": "I have two children, a son and a daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa abbayiki padi sanvatsaralu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our son is ten years old.",
+            "Our daughter is ten years old.",
+            "Our son studies in tenth class."
+          ],
+          "correctAnswer": "Our son is ten years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee akkaki pelli ayindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, poyina sanvatsaram ayindi.",
+            "Ledu, aame maa chelli.",
+            "Avunu, aame Hyderabad lo untundi."
+          ],
+          "correctAnswer": "Avunu, poyina sanvatsaram ayindi.",
+          "translatedSentence": "Yes, she got married last year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa pelli Vijayawada lo jarigindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our wedding took place in Vijayawada.",
+            "Our wedding will take place in Vijayawada.",
+            "We are going to a wedding in Vijayawada."
+          ],
+          "correctAnswer": "Our wedding took place in Vijayawada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ammayiki entha vayasu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa ammayiki aaru sanvatsaralu.",
+            "Maa ammayi peru Anitha.",
+            "Maa ammayi skool ki veltundi."
+          ],
+          "correctAnswer": "Maa ammayiki aaru sanvatsaralu.",
+          "translatedSentence": "Our daughter is six years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa intlo mottham aaruguru untaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are six of us living at home.",
+            "There are six rooms in our house.",
+            "Six people are coming to our house."
+          ],
+          "correctAnswer": "There are six of us living at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee vaari peru emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aayana peru Srinivas.",
+            "Naa peru Srinivas.",
+            "Aayanaki Telugu baaga vachchu."
+          ],
+          "correctAnswer": "Aayana peru Srinivas.",
+          "translatedSentence": "His name is Srinivas."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Grandparents and cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee thaatha ammamma ekkada untaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaallu palletoollo untaaru.",
+            "Vaallu ninna maa intiki vachcharu.",
+            "Maa thaathaki enabhai sanvatsaralu."
+          ],
+          "correctAnswer": "Vaallu palletoollo untaaru.",
+          "translatedSentence": "They live in the village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa ammamma naaku roju kathalu cheptundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandmother tells me stories every day.",
+            "My grandmother listens to my stories every day.",
+            "My grandfather tells me stories every day."
+          ],
+          "correctAnswer": "My grandmother tells me stories every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pandagaki mee intiki evaru vasthunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa attha maa mamayya vasthunnaru, andariki biryani chesthaam.",
+            "Maa atthaki pandagalu ante chaala ishtam.",
+            "Pandaga vachche vaaram vasthundi."
+          ],
+          "correctAnswer": "Maa attha maa mamayya vasthunnaru, andariki biryani chesthaam.",
+          "translatedSentence": "My aunt and uncle are coming, and we will make biryani for everyone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa babai Hyderabad lo untaadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's younger brother lives in Hyderabad.",
+            "My mother's brother lives in Hyderabad.",
+            "My father's younger brother is coming to Hyderabad."
+          ],
+          "correctAnswer": "My father's younger brother lives in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee pinni pillalu ekkada chaduvutunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaallu Vijayawada lo chaduvutunnaru.",
+            "Maa pinniki iddaru pillalu.",
+            "Vaallu maa intiki daggara untaaru."
+          ],
+          "correctAnswer": "Vaallu Vijayawada lo chaduvutunnaru.",
+          "translatedSentence": "They are studying in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa thaathaki gongura pachadi ante chaala ishtam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather really loves gongura pickle.",
+            "My grandfather does not like gongura pickle.",
+            "My grandmother makes very good gongura pickle."
+          ],
+          "correctAnswer": "My grandfather really loves gongura pickle."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Akkada kurchunna aayana evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aayana maa peddananna.",
+            "Aayana ippudu intlo leru.",
+            "Aayanaki ee vooru baaga telusu."
+          ],
+          "correctAnswer": "Aayana maa peddananna.",
+          "translatedSentence": "He is my father's elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa mamayya koduku naa kanna peddavaadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My cousin is older than me.",
+            "My cousin is younger than me.",
+            "My uncle's son is the same age as me."
+          ],
+          "correctAnswer": "My cousin is older than me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee naanamma ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aame ippudu baagunnaru.",
+            "Aame maa naanna amma.",
+            "Aame palletoollo puttaru."
+          ],
+          "correctAnswer": "Aame ippudu baagunnaru.",
+          "translatedSentence": "She is doing well now."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "What they do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee naanna emi chestharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aayana oka banklo pani chestharu.",
+            "Aayana peru Ramesh.",
+            "Aayana ippudu intlo unnaru."
+          ],
+          "correctAnswer": "Aayana oka banklo pani chestharu.",
+          "translatedSentence": "He works at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa amma oka skool lo teacher ga pani chesthundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother works as a teacher at a school.",
+            "My mother is studying at a school.",
+            "My mother wants to work as a teacher."
+          ],
+          "correctAnswer": "My mother works as a teacher at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee anna ekkada pani chesthaadu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaadu Hyderabad lo oka company lo pani chesthaadu.",
+            "Vaadu repu Hyderabad velthunnaadu.",
+            "Vaadi office chaala peddadi."
+          ],
+          "correctAnswer": "Vaadu Hyderabad lo oka company lo pani chesthaadu.",
+          "translatedSentence": "He works at a company in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa thaatha retire ayyaru, ippudu intlo ne untaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather has retired, so now he stays at home.",
+            "My grandfather has retired, but he still goes to work.",
+            "My grandfather will retire and then stay at home."
+          ],
+          "correctAnswer": "My grandfather has retired, so now he stays at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee chelli inka chaduvutundaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, aame collegelo chaduvutundi.",
+            "Avunu, aame oka hospital lo pani chesthundi.",
+            "Ledu, aame maa akka."
+          ],
+          "correctAnswer": "Avunu, aame collegelo chaduvutundi.",
+          "translatedSentence": "Yes, she is still studying in college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa mamayya palletoollo vyavasayam chesthaadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My uncle farms in the village.",
+            "My uncle runs a shop in the village.",
+            "My uncle wants to buy land in the village."
+          ],
+          "correctAnswer": "My uncle farms in the village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee vaaru enni gantalaki intiki vastharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aayana saayantram aaru gantalaki vastharu.",
+            "Aayana udayam aaru gantalaki veltharu.",
+            "Aayana roju saayantram irani chai thaagutaaru."
+          ],
+          "correctAnswer": "Aayana saayantram aaru gantalaki vastharu.",
+          "translatedSentence": "He comes home at six in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa akkaki uddyogam nachchindi, kaani roju prayanam chaala ekkuva.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister likes her job, but she travels a lot every day.",
+            "My sister does not like her job because she travels a lot.",
+            "My sister found a new job close to our house."
+          ],
+          "correctAnswer": "My sister likes her job, but she travels a lot every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru emi chesthunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Charminar daggara oka hospital lo pani chesthunnanu.",
+            "Nenu baagunnanu, meeru ela unnaru?",
+            "Nenu Vijayawada nunchi vachchanu."
+          ],
+          "correctAnswer": "Nenu Charminar daggara oka hospital lo pani chesthunnanu.",
+          "translatedSentence": "I work at a hospital near Charminar."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "News from home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee amma naanna ee nela mee intiki vasthunnaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, vaallu vachche vaaram vasthunnaru, kaani rendu rojule untaaru.",
+            "Avunu, maa intlo andaru baagunnaru.",
+            "Maa amma naannaki Hyderabad chaala nachchindi."
+          ],
+          "correctAnswer": "Avunu, vaallu vachche vaaram vasthunnaru, kaani rendu rojule untaaru.",
+          "translatedSentence": "Yes, they are coming next week, but they will stay only two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa akka pillalatho kalisi vasthundi kaabatti intlo chaala sandadi ga untundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is coming with her children, so the house will be very lively.",
+            "My sister is coming alone, so the house will be very quiet.",
+            "My sister came with her children and the house was very lively."
+          ],
+          "correctAnswer": "My sister is coming with her children, so the house will be very lively."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru intiki eppudu velthunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vachche nela selavu dorikithe velthanu.",
+            "Nenu intiki auto lo velthanu.",
+            "Maa intlo andaru baagunnaru."
+          ],
+          "correctAnswer": "Vachche nela selavu dorikithe velthanu.",
+          "translatedSentence": "If I get leave next month, I will go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa naanna phone chesi, intlo andaru baagunnaru ani cheppaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father called and said that everyone at home is doing well.",
+            "My father called to ask whether everyone at home is doing well.",
+            "My father said he would call when everyone is at home."
+          ],
+          "correctAnswer": "My father called and said that everyone at home is doing well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee thaathaki baagaledu ani vinnanu, ippudu ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu paravaledu, kaani doctor konchem vishranti theesukommani cheppaaru.",
+            "Aayana ee vaaram Hyderabad velthunnaru.",
+            "Aayanaki chinnappati nunchi vyavasayam ante ishtam."
+          ],
+          "correctAnswer": "Ippudu paravaledu, kaani doctor konchem vishranti theesukommani cheppaaru.",
+          "translatedSentence": "He is better now, but the doctor told him to take some rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku intiki vellalani undi, kaani office lo pani chaala ekkuva ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to go home, but there is far too much work at the office.",
+            "I went home, but there was far too much work at the office.",
+            "I have to go home because there is too much work at the office."
+          ],
+          "correctAnswer": "I want to go home, but there is far too much work at the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee sari Sankrantiki andaram palletooru veldaamaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Veldaam, kaani mundhu maa amma ni adagali.",
+            "Palletoollo maa thaatha illu chaala peddadi.",
+            "Naaku Sankranti ante chinnappati nunchi ishtam."
+          ],
+          "correctAnswer": "Veldaam, kaani mundhu maa amma ni adagali.",
+          "translatedSentence": "Let's go, but I should ask my mother first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa amma prathi aadivaram phone chesi, konchem sepu maatladutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother calls every Sunday and talks for a little while.",
+            "My mother called on Sunday and talked for a long time.",
+            "I call my mother every Sunday and talk for a little while."
+          ],
+          "correctAnswer": "My mother calls every Sunday and talks for a little while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru vachchinappudu pillalni kooda theesukuni randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, kaani vaallaki skool selavulu vachchaka ne vasthaam.",
+            "Avunu, maa pillalu Hyderabad lo chaduvutunnaru.",
+            "Meeru ekkada untaaru ani maa pillalu adigaaru."
+          ],
+          "correctAnswer": "Tappakunda, kaani vaallaki skool selavulu vachchaka ne vasthaam.",
+          "translatedSentence": "Of course, but we will come only once their school holidays start."
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 We are reclaiming language learning from corporate interests.
 *   **No Hearts, No Energy:** Learning shouldn't stop because you made a mistake.
 *   **No Pay-to-Win:** Education should be accessible to everyone, everywhere.
-*   **Real Languages:** While others focus on fictional languages like High Valyrian, we focus on connecting humanity through languages spoken by billions but ignored by major apps—**Kannada, Tamil, Telugu, Malayalam, Hindi**, and indigenous languages.
+*   **Real Languages:** While others focus on fictional languages like High Valyrian, we focus on connecting humanity through languages spoken by billions but ignored by major apps—**Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali and Assamese**.
 
 ---
 

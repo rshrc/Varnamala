@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kya kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main Delhi mein rehta hoon.",
+            "Main doctor hoon.",
+            "Main bilkul theek hoon."
+          ],
+          "correctAnswer": "Main doctor hoon.",
+          "translatedSentence": "I am a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main ek bank mein kaam karta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the bank.",
+            "I work at a bank.",
+            "I have an account at this bank."
+          ],
+          "correctAnswer": "I work at a bank."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kahan kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main ek school mein kaam karta hoon.",
+            "Main subah jaldi kaam karta hoon.",
+            "Main teen saal se kaam kar raha hoon."
+          ],
+          "correctAnswer": "Main ek school mein kaam karta hoon.",
+          "translatedSentence": "I work at a school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri behen ek teacher hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My sister is a student.",
+            "My sister has a good teacher.",
+            "My sister is a teacher."
+          ],
+          "correctAnswer": "My sister is a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap student hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main college mein padhta hoon.",
+            "Haan, mera college bahut bada hai.",
+            "Nahi, mujhe padhna pasand hai."
+          ],
+          "correctAnswer": "Haan, main college mein padhta hoon.",
+          "translatedSentence": "Yes, I study at a college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main subah nau baje kaam par jaata hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to work at nine in the morning.",
+            "I come home from work at nine.",
+            "I start my work at nine at night."
+          ],
+          "correctAnswer": "I go to work at nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kya karte ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main abhi ghar par hoon.",
+            "Main aaj kaam nahi karta.",
+            "Main engineer hoon."
+          ],
+          "correctAnswer": "Main engineer hoon.",
+          "translatedSentence": "I am an engineer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe apna kaam bahut pasand hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my job a lot.",
+            "My work is very hard.",
+            "I am very good at my job."
+          ],
+          "correctAnswer": "I like my job a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka office kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera office bahut bada hai.",
+            "Mera office Jaipur mein hai.",
+            "Main roz office jaata hoon."
+          ],
+          "correctAnswer": "Mera office Jaipur mein hai.",
+          "translatedSentence": "My office is in Jaipur."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj class mein kitne bachche hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class mein bees bachche hain.",
+            "Class nau baje shuru hoti hai.",
+            "Bachche abhi ghar ja rahe hain."
+          ],
+          "correctAnswer": "Class mein bees bachche hain.",
+          "translatedSentence": "There are twenty children in the class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teacher blackboard par likh rahi hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is reading from a book.",
+            "The teacher is writing on the blackboard.",
+            "The teacher is cleaning the blackboard."
+          ],
+          "correctAnswer": "The teacher is writing on the blackboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhare paas Hindi ki kitab hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, meri kitab bag mein hai.",
+            "Haan, main roz Hindi padhta hoon.",
+            "Nahi, meri class abhi shuru nahi hui."
+          ],
+          "correctAnswer": "Haan, meri kitab bag mein hai.",
+          "translatedSentence": "Yes, my book is in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe ek sawaal poochna hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to ask a question.",
+            "I want to answer this question.",
+            "I have one question left."
+          ],
+          "correctAnswer": "I want to ask a question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Class kitne baje shuru hoti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class bade kamre mein hoti hai.",
+            "Class do ghante chalti hai.",
+            "Class dus baje shuru hoti hai."
+          ],
+          "correctAnswer": "Class dus baje shuru hoti hai.",
+          "translatedSentence": "The class starts at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bachche apni copy mein likh rahe hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children are looking for their notebooks.",
+            "The children are reading from their notebooks.",
+            "The children are writing in their notebooks."
+          ],
+          "correctAnswer": "The children are writing in their notebooks."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapko yeh sawaal samajh aaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mujhe thoda samajh nahi aaya.",
+            "Haan, main class mein baitha hoon.",
+            "Nahi, mera pen kaam nahi kar raha."
+          ],
+          "correctAnswer": "Nahi, mujhe thoda samajh nahi aaya.",
+          "translatedSentence": "No, I did not quite understand it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teacher ne hamein ghar ka kaam diya hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher has given us homework.",
+            "The teacher has checked our homework.",
+            "The teacher gives homework every day."
+          ],
+          "correctAnswer": "The teacher has given us homework."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhari pasandida class kaun si hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera school ghar ke paas hai.",
+            "Mujhe Hindi ki class pasand hai.",
+            "Meri class subah hoti hai."
+          ],
+          "correctAnswer": "Mujhe Hindi ki class pasand hai.",
+          "translatedSentence": "I like the Hindi class."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At The Office Desk",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapki meeting kitne baje hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meri meeting gyarah baje hai.",
+            "Meeting bade kamre mein hai.",
+            "Main meeting mein baithna chahta hoon."
+          ],
+          "correctAnswer": "Meri meeting gyarah baje hai.",
+          "translatedSentence": "My meeting is at eleven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aapko abhi email bhej deta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got your email just now.",
+            "I will call you right away.",
+            "I will send you the email right away."
+          ],
+          "correctAnswer": "I will send you the email right away."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapne meri email padh li?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, maine subah hi padh li thi.",
+            "Haan, mera computer band hai.",
+            "Nahi, mera phone desk par rakha hai."
+          ],
+          "correctAnswer": "Haan, maine subah hi padh li thi.",
+          "translatedSentence": "Yes, I read it first thing in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera computer aaj kaam nahi kar raha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer is not working today.",
+            "My computer is very old now.",
+            "I am not working on my computer today."
+          ],
+          "correctAnswer": "My computer is not working today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya boss abhi office mein hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, unka desk khali hai.",
+            "Nahi, woh meeting mein gaye hain.",
+            "Nahi, mujhe unka number pata hai."
+          ],
+          "correctAnswer": "Nahi, woh meeting mein gaye hain.",
+          "translatedSentence": "No, he has gone into a meeting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri desk khidki ke paas hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My desk is near the door.",
+            "My desk is next to the window.",
+            "There is a window above my desk."
+          ],
+          "correctAnswer": "My desk is next to the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh file kiski hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh file bahut purani hai.",
+            "File meri desk par rakh dijiye.",
+            "Yeh file mere boss ki hai."
+          ],
+          "correctAnswer": "Yeh file mere boss ki hai.",
+          "translatedSentence": "This file belongs to my boss."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting ke baad main aapse baat karunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I talked to you before the meeting.",
+            "I will talk to you after the meeting.",
+            "Let us talk during the meeting."
+          ],
+          "correctAnswer": "I will talk to you after the meeting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai peene chalein?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, chaliye, mujhe bhi chai chahiye.",
+            "Haan, meri meeting abhi shuru hui hai.",
+            "Nahi, mera office yahan se door hai."
+          ],
+          "correctAnswer": "Haan, chaliye, mujhe bhi chai chahiye.",
+          "translatedSentence": "Yes, let us go, I could use a tea too."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumne apna ghar ka kaam kar liya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, abhi tak nahi kiya, thoda baaki hai.",
+            "Haan, mujhe abhi ghar jaana hai.",
+            "Nahi, mera bag ghar par reh gaya tha."
+          ],
+          "correctAnswer": "Nahi, abhi tak nahi kiya, thoda baaki hai.",
+          "translatedSentence": "No, I have not done it yet, a little is left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal mera Hindi ka exam hai isliye main aaj raat padhunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I studied last night because my Hindi exam was today.",
+            "My Hindi exam is tonight, so I studied yesterday.",
+            "My Hindi exam is tomorrow, so I will study tonight."
+          ],
+          "correctAnswer": "My Hindi exam is tomorrow, so I will study tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Exam kaisa gaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Exam agle hafte shuru hoga.",
+            "Achha gaya, lekin ek sawaal mushkil tha.",
+            "Main exam ke liye roz padh raha hoon."
+          ],
+          "correctAnswer": "Achha gaya, lekin ek sawaal mushkil tha.",
+          "translatedSentence": "It went well, but one question was hard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe har roz do ghante padhna padta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to study for two hours every day.",
+            "I like to study for two hours every day.",
+            "I studied for two hours yesterday."
+          ],
+          "correctAnswer": "I have to study for two hours every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum itni der se kya padh rahe ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main kal raat der se soya tha.",
+            "Mujhe science bilkul pasand nahi hai.",
+            "Main science padh raha hoon, kal test hai."
+          ],
+          "correctAnswer": "Main science padh raha hoon, kal test hai.",
+          "translatedSentence": "I am studying science, there is a test tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar main roz padhunga to exam aasan lagega.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since I studied every day, the exam felt easy.",
+            "If I study every day, the exam will feel easy.",
+            "I study every day, but the exam is not easy."
+          ],
+          "correctAnswer": "If I study every day, the exam will feel easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main tumhari copy dekh sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, lekin kal mujhe wapas kar dena.",
+            "Haan, meri copy ghar par rakhi hai.",
+            "Nahi, mujhe nayi copy chahiye thi."
+          ],
+          "correctAnswer": "Haan, lekin kal mujhe wapas kar dena.",
+          "translatedSentence": "Yes, but give it back to me tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maine kitab padh li hai lekin mujhe sab yaad nahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have read the book, but I do not remember all of it.",
+            "I am reading the book because I do not remember it.",
+            "I will read the book again so that I remember it."
+          ],
+          "correctAnswer": "I have read the book, but I do not remember all of it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Exam ka result kab aayega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Result bahut achha aaya tha.",
+            "Result agle mahine aayega.",
+            "Exam agle mahine hoga."
+          ],
+          "correctAnswer": "Result agle mahine aayega.",
+          "translatedSentence": "The result will come next month."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap aaj itni der se kyun aaye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kijiye, metro mein bahut bheed thi.",
+            "Haan, main roz jaldi aa jaata hoon.",
+            "Mujhe kal subah chutti chahiye thi."
+          ],
+          "correctAnswer": "Maaf kijiye, metro mein bahut bheed thi.",
+          "translatedSentence": "Sorry, the metro was very crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe kal chutti chahiye kyunki mere bhai ki shaadi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I took leave yesterday for my brother's wedding.",
+            "I need leave tomorrow because my brother is getting married.",
+            "My brother needs leave tomorrow for a wedding."
+          ],
+          "correctAnswer": "I need leave tomorrow because my brother is getting married."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap roz office kaise aate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main nau baje office pahunch jaata hoon.",
+            "Mera office metro station ke paas hai.",
+            "Main metro se aata hoon, woh sasti hai."
+          ],
+          "correctAnswer": "Main metro se aata hoon, woh sasti hai.",
+          "translatedSentence": "I come by metro, it is cheap."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj traffic itna tha ki main aadhe ghante late ho gaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There was so much traffic today that I was half an hour late.",
+            "There was traffic today, but I reached half an hour early.",
+            "I left half an hour late today, so I was stuck in traffic."
+          ],
+          "correctAnswer": "There was so much traffic today that I was half an hour late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka office kitne baje band hota hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Office subah jaldi khulta hai.",
+            "Office shaam ko chhah baje band hota hai.",
+            "Main shaam ko ghar chala jaata hoon."
+          ],
+          "correctAnswer": "Office shaam ko chhah baje band hota hai.",
+          "translatedSentence": "The office closes at six in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar auto rickshaw nahi mila to main paidal chala jaunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not get an auto rickshaw, so I walked.",
+            "If I do not get an auto rickshaw, I will walk.",
+            "I would rather take an auto rickshaw than walk."
+          ],
+          "correctAnswer": "If I do not get an auto rickshaw, I will walk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aaj thoda jaldi ja sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, lekin apna kaam khatam kar dijiye.",
+            "Haan, main kal chutti par tha.",
+            "Nahi, aaj office jaldi khula tha."
+          ],
+          "correctAnswer": "Haan, lekin apna kaam khatam kar dijiye.",
+          "translatedSentence": "Yes, but please finish your work first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main pichhle hafte do din chutti par tha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be on leave for two days next week.",
+            "I have taken two days of leave this week.",
+            "I was on leave for two days last week."
+          ],
+          "correctAnswer": "I was on leave for two days last week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap chutti mein kya karenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe chutti nahi mil rahi hai.",
+            "Main apne ghar Lucknow jaunga.",
+            "Main roz auto rickshaw se aata hoon."
+          ],
+          "correctAnswer": "Main apne ghar Lucknow jaunga.",
+          "translatedSentence": "I will go home to Lucknow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and promotions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap agle saal kya karna chahte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main naya kaam dhoondhna chahta hoon, kyunki yeh kaam ab aasan lagta hai.",
+            "Main pichhle saal Jaipur mein kaam karta tha.",
+            "Mujhe pichhle saal lambi chutti mili thi."
+          ],
+          "correctAnswer": "Main naya kaam dhoondhna chahta hoon, kyunki yeh kaam ab aasan lagta hai.",
+          "translatedSentence": "I want to look for a new job, because this one feels easy now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar mera kaam achha raha to mujhe agle saal promotion mil sakta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My work was good, so I got a promotion last year.",
+            "If my work is good, I may get a promotion next year.",
+            "I will get a promotion next year, but my work is not good."
+          ],
+          "correctAnswer": "If my work is good, I may get a promotion next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko is kaam mein sabse mushkil kya lagta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh kaam maine pichhle saal shuru kiya tha.",
+            "Mujhe subah jaldi uthna mushkil lagta hai, baaki sab theek hai.",
+            "Mujhe yeh kaam ab bilkul nahi karna hai."
+          ],
+          "correctAnswer": "Mujhe subah jaldi uthna mushkil lagta hai, baaki sab theek hai.",
+          "translatedSentence": "I find getting up early the hard part, the rest is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main Hindi seekh raha hoon taaki main apne clients se baat kar sakoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I learned Hindi because my clients speak it.",
+            "I want to learn Hindi, but my clients do not speak it.",
+            "I am learning Hindi so that I can talk to my clients."
+          ],
+          "correctAnswer": "I am learning Hindi so that I can talk to my clients."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap kisi naye shehar mein kaam karna chahenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, agar tankhwah achhi ho to main Delhi ja sakta hoon.",
+            "Haan, yeh shehar mujhe bahut pasand hai isliye main yahin rahunga.",
+            "Nahi, maine pichhle saal hi naya kaam shuru kiya tha."
+          ],
+          "correctAnswer": "Haan, agar tankhwah achhi ho to main Delhi ja sakta hoon.",
+          "translatedSentence": "Yes, if the pay is good I could move to Delhi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe apna kaam pasand hai lekin main aur seekhna chahta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my job, but I want to learn more.",
+            "I do not like my job, so I want to learn something else.",
+            "I liked my job while I was still learning."
+          ],
+          "correctAnswer": "I like my job, but I want to learn more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapne boss se promotion ke baare mein baat ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, unhone kaha ki woh agle mahine sochenge.",
+            "Nahi, mera boss kal chutti par tha isliye office band tha.",
+            "Haan, main agle saal se naya kaam shuru karunga."
+          ],
+          "correctAnswer": "Haan, unhone kaha ki woh agle mahine sochenge.",
+          "translatedSentence": "Yes, he said he would think about it next month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jab mujhe promotion milega tab main apne parivaar ko khaana khilane le jaunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After my promotion, my family took me out for a meal.",
+            "When I get my promotion, I will take my family out for a meal.",
+            "If I get a promotion, my family will cook a big meal."
+          ],
+          "correctAnswer": "When I get my promotion, I will take my family out for a meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap paanch saal baad khud ko kahan dekhte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paanch saal pehle main Lucknow mein padhta tha.",
+            "Mujhe paanch din ki chutti chahiye hogi.",
+            "Main apni company shuru karna chahta hoon, isliye abhi bahut mehnat kar raha hoon."
+          ],
+          "correctAnswer": "Main apni company shuru karna chahta hoon, isliye abhi bahut mehnat kar raha hoon.",
+          "translatedSentence": "I want to start my own company, so I am working very hard right now."
+        }
+      ]
+    }
+  ]
+}

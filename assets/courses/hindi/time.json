@@ -1,0 +1,505 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj kaun sa din hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aaj somvar hai.", "Aaj chai garam hai.", "Aaj main theek hoon."],
+          "correctAnswer": "Aaj somvar hai.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal mangalvar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Tomorrow is Tuesday.", "Today is Sunday.", "Tomorrow is Thursday."],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ravivar ko chutti hai kya?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ravivar ko chutti hai.", "Nahi, shanivar ko chutti hai.", "Haan, somvar ko chutti hai."],
+          "correctAnswer": "Haan, ravivar ko chutti hai.",
+          "translatedSentence": "Yes, Sunday is a holiday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shanivar mera pasandida din hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Saturday is my favourite day.", "Sunday is my favourite day.", "Saturday is a busy day."],
+          "correctAnswer": "Saturday is my favourite day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap shukravar ko kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, main shukravar ko kaam karta hoon.", "Haan, mujhe shukravar bahut pasand hai.", "Nahi, shukravar ke baad shanivar aata hai."],
+          "correctAnswer": "Haan, main shukravar ko kaam karta hoon.",
+          "translatedSentence": "Yes, I work on Fridays."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Budhvar ko meri class hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I have a class on Wednesday.", "I have a class on Thursday.", "I do not have a class on Wednesday."],
+          "correctAnswer": "I have a class on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guruvar ke baad kaun sa din aata hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Guruvar ke baad shukravar aata hai.", "Guruvar ke baad budhvar aata hai.", "Guruvar ke baad ravivar aata hai."],
+          "correctAnswer": "Guruvar ke baad shukravar aata hai.",
+          "translatedSentence": "Friday comes after Thursday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hafte mein saat din hote hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["There are seven days in a week.", "There are five days in a week.", "There are seven weeks in a month."],
+          "correctAnswer": "There are seven days in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hafte ka pehla din kaun sa hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hafte ka pehla din somvar hai.", "Hafte ka pehla din shukravar hai.", "Hafte ka aakhri din somvar hai."],
+          "correctAnswer": "Hafte ka pehla din somvar hai.",
+          "translatedSentence": "Monday is the first day of the week."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kal kahan the?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kal main Jaipur mein tha.", "Kal main theek tha.", "Aaj main ghar par hoon."],
+          "correctAnswer": "Kal main Jaipur mein tha.",
+          "translatedSentence": "I was in Jaipur yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main abhi chai pi raha hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am drinking chai right now.", "I will drink chai later.", "I drank chai in the morning."],
+          "correctAnswer": "I am drinking chai right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal aap kya karenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kal main Dilli jaunga.", "Kal main Dilli gaya tha.", "Abhi main ghar ja raha hoon."],
+          "correctAnswer": "Kal main Dilli jaunga.",
+          "translatedSentence": "Tomorrow I will go to Delhi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Parso mera test hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My test is the day after tomorrow.", "My test is tomorrow.", "My test was the day before yesterday."],
+          "correctAnswer": "My test is the day after tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hum abhi chalein ya baad mein?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Baad mein chalte hain, abhi mujhe kaam hai.", "Haan, kal hum wahan gaye the.", "Nahi, mujhe raasta pata nahi hai."],
+          "correctAnswer": "Baad mein chalte hain, abhi mujhe kaam hai.",
+          "translatedSentence": "Let's go later, I have work right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj subah maine roti sabzi khai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I ate roti and sabzi this morning.", "I eat roti and sabzi every morning.", "I will eat roti and sabzi in the morning."],
+          "correctAnswer": "I ate roti and sabzi this morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap aaj shaam ko free hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, aaj shaam ko main free hoon.", "Haan, kal subah main free tha.", "Nahi, shaam ko mausam accha rehta hai."],
+          "correctAnswer": "Haan, aaj shaam ko main free hoon.",
+          "translatedSentence": "Yes, I am free this evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aapko baad mein phone karunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I will call you later.", "I called you a little while ago.", "I am calling you right now."],
+          "correctAnswer": "I will call you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapne kal raat ko khana khaya tha?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, maine kal raat ko dal chawal khaya tha.", "Haan, main abhi khana khaunga.", "Nahi, mujhe dal chawal bahut pasand hai."],
+          "correctAnswer": "Haan, maine kal raat ko dal chawal khaya tha.",
+          "translatedSentence": "Yes, I ate dal and rice last night."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Abhi kitne baje hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Abhi paanch baje hain.", "Abhi shanivar hai.", "Abhi main ghar par hoon."],
+          "correctAnswer": "Abhi paanch baje hain.",
+          "translatedSentence": "It is five o'clock right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri train subah aath baje hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My train is at eight in the morning.", "My train is at eight at night.", "My train is at nine in the morning."],
+          "correctAnswer": "My train is at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kitne baje daftar pahunchte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Main saade nau baje daftar pahunchta hoon.", "Main auto rickshaw se daftar jaata hoon.", "Main roz daftar jaata hoon."],
+          "correctAnswer": "Main saade nau baje daftar pahunchta hoon.",
+          "translatedSentence": "I get to the office at half past nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dukan sawa das baje khulti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["The shop opens at a quarter past ten.", "The shop opens at a quarter to ten.", "The shop closes at a quarter past ten."],
+          "correctAnswer": "The shop opens at a quarter past ten."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor ka appointment kitne baje hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Appointment paune char baje hai.", "Appointment mangalvar ko tha.", "Appointment metro station ke paas hai."],
+          "correctAnswer": "Appointment paune char baje hai.",
+          "translatedSentence": "The appointment is at a quarter to four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe der ho rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am getting late.", "I am right on time.", "You are getting late."],
+          "correctAnswer": "I am getting late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Metro kitne baje aati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Metro sawa aath baje aati hai.", "Metro se aadha ghanta lagta hai.", "Metro station ghar ke paas hai."],
+          "correctAnswer": "Metro sawa aath baje aati hai.",
+          "translatedSentence": "The metro comes at a quarter past eight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chalo, do baje milte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Come on, let's meet at two o'clock.", "Come on, let's meet at twelve o'clock.", "Come on, we met at two o'clock."],
+          "correctAnswer": "Come on, let's meet at two o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap gyarah baje tak aa sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, main gyarah baje tak aa jaunga.", "Nahi, mujhe subah der tak sona hai.", "Haan, main kal gyarah baje aaya tha."],
+          "correctAnswer": "Haan, main gyarah baje tak aa jaunga.",
+          "translatedSentence": "Yes, I can be there by eleven."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka janamdin kab hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Mera janamdin bees janvari ko hai.", "Mera janamdin bahut accha tha.", "Mera janamdin ghar par hota hai."],
+          "correctAnswer": "Mera janamdin bees janvari ko hai.",
+          "translatedSentence": "My birthday is on the twentieth of January."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Joon ke mahine mein Dilli mein bahut garmi hoti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["It gets very hot in Delhi in the month of June.", "It rains a lot in Delhi in the month of June.", "It gets very hot in Jaipur in the month of June."],
+          "correctAnswer": "It gets very hot in Delhi in the month of June."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Barish ka mausam kab shuru hota hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Barish ka mausam julai mein shuru hota hai.", "Barish ka mausam mujhe bahut pasand hai.", "Barish do din tak hoti rahi thi."],
+          "correctAnswer": "Barish ka mausam julai mein shuru hota hai.",
+          "translatedSentence": "The rainy season starts in July."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sardiyon mein Jaipur ghoomna bahut accha lagta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Travelling around Jaipur in the winter is lovely.", "Travelling around Jaipur in the summer is lovely.", "Jaipur gets very cold in the winter."],
+          "correctAnswer": "Travelling around Jaipur in the winter is lovely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj kaun si tarikh hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Aaj pandrah agast hai.", "Aaj shukravar hai.", "Aaj bahut sardi hai."],
+          "correctAnswer": "Aaj pandrah agast hai.",
+          "translatedSentence": "Today is the fifteenth of August."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera bhai agle mahine Lucknow aa raha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My brother is coming to Lucknow next month.", "My brother came to Lucknow last month.", "My brother is coming to Lucknow next week."],
+          "correctAnswer": "My brother is coming to Lucknow next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap chutti par kab jaa rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Main disambar mein chutti par jaa raha hoon.", "Main chutti par apne parivaar ke saath jaa raha hoon.", "Main pichhle saal chutti par gaya tha."],
+          "correctAnswer": "Main disambar mein chutti par jaa raha hoon.",
+          "translatedSentence": "I am going on holiday in December."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saal mein baarah mahine hote hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["There are twelve months in a year.", "There are twelve weeks in a year.", "There are twelve days in a month."],
+          "correctAnswer": "There are twelve months in a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sitambar mein mausam kaisa rehta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Sitambar mein mausam thoda garam rehta hai.", "Sitambar mein mera janamdin aata hai.", "Sitambar ke baad aktoobar aata hai."],
+          "correctAnswer": "Sitambar mein mausam thoda garam rehta hai.",
+          "translatedSentence": "In September the weather stays a little warm."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "My daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap subah kitne baje uthte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Main roz subah chhe baje uthta hoon.", "Main roz raat ko gyarah baje sota hoon.", "Main uthkar chai peeta hoon."],
+          "correctAnswer": "Main roz subah chhe baje uthta hoon.",
+          "translatedSentence": "I get up at six every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uthne ke baad main ek cup chai peeta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["After I get up I have a cup of chai.", "Before I get up I have a cup of chai.", "After I get up I take a bath."],
+          "correctAnswer": "After I get up I have a cup of chai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap nashte mein kya khate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Main nashte mein do roti aur sabzi khata hoon.", "Main nashta aath baje karta hoon.", "Main nashte ke baad daftar jaata hoon."],
+          "correctAnswer": "Main nashte mein do roti aur sabzi khata hoon.",
+          "translatedSentence": "For breakfast I have two rotis and some sabzi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main roz metro se daftar jaata hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I go to the office by metro every day.", "I go to the office by auto rickshaw every day.", "I go to the office by metro sometimes."],
+          "correctAnswer": "I go to the office by metro every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kaam ke baad kya karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kaam ke baad main thoda tehelne jaata hoon.", "Kaam se pehle main nahata hoon.", "Kaam mere ghar ke paas hai."],
+          "correctAnswer": "Kaam ke baad main thoda tehelne jaata hoon.",
+          "translatedSentence": "After work I go for a short walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shaam ko main apne bacchon ke saath khelta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["In the evening I play with my children.", "In the morning I play with my children.", "In the evening I study with my children."],
+          "correctAnswer": "In the evening I play with my children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap log raat ka khana kitne baje khate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Hum aath baje raat ka khana khate hain.", "Hum roz bahar khana khate hain.", "Hum subah jaldi nashta karte hain."],
+          "correctAnswer": "Hum aath baje raat ka khana khate hain.",
+          "translatedSentence": "We eat dinner at eight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sone se pehle main thodi der padhta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I read for a little while before going to sleep.", "I read for a little while after waking up.", "I watch television for a little while before going to sleep."],
+          "correctAnswer": "I read for a little while before going to sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ravivar ko aapka din kaisa hota hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ravivar ko main aaram karta hoon aur der tak sota hoon.", "Ravivar ko main jaldi uthkar daftar jaata hoon.", "Ravivar ko mausam bahut accha tha."],
+          "correctAnswer": "Ravivar ko main aaram karta hoon aur der tak sota hoon.",
+          "translatedSentence": "On Sundays I relax and sleep in late."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya hum is shanivar ko mil sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, shanivar theek hai, lekin shaam ko milte hain.", "Haan, pichhle shanivar ko hum mile the.", "Nahi, shanivar ko chutti hoti hai isliye main daftar mein hoon."],
+          "correctAnswer": "Haan, shanivar theek hai, lekin shaam ko milte hain.",
+          "translatedSentence": "Yes, Saturday works, but let's meet in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap busy hain to hum agle hafte mil sakte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If you are busy, we can meet next week.", "If you are free, we can meet next week.", "If you are busy, we can meet tomorrow."],
+          "correctAnswer": "If you are busy, we can meet next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Main mangalvar ko nahi aa paunga, kyunki mujhe Jaipur jaana hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Koi baat nahi, phir hum budhvar ko mil lete hain.", "Achha, to aap mangalvar ko hi aa rahe hain.", "Maaf kijiye, mujhe Jaipur ka raasta pata nahi hai."],
+          "correctAnswer": "Koi baat nahi, phir hum budhvar ko mil lete hain.",
+          "translatedSentence": "No problem, then let's meet on Wednesday instead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aapko kal shaam paanch baje phone karunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I will call you at five tomorrow evening.", "I will call you at five this evening.", "I called you at five yesterday evening."],
+          "correctAnswer": "I will call you at five tomorrow evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor sahab kitne baje tak baithte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Doctor sahab shaam saat baje tak baithte hain.", "Doctor sahab guruvar ko nahi aate hain.", "Doctor sahab ka clinic metro station ke paas hai."],
+          "correctAnswer": "Doctor sahab shaam saat baje tak baithte hain.",
+          "translatedSentence": "The doctor sees patients until seven in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe agle somvar subah das baje ka appointment chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I need an appointment for ten in the morning next Monday.", "I need an appointment for ten at night next Monday.", "I had an appointment at ten in the morning last Monday."],
+          "correctAnswer": "I need an appointment for ten in the morning next Monday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kab tak pahunch jayenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Main aadhe ghante mein pahunch jaunga, traffic thoda zyada hai.", "Main auto rickshaw se aa raha hoon, lekin mujhe raasta pata nahi hai.", "Main kal shaam ko pahunch gaya tha."],
+          "correctAnswer": "Main aadhe ghante mein pahunch jaunga, traffic thoda zyada hai.",
+          "translatedSentence": "I will be there in half an hour, the traffic is a bit heavy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar barish hui to hum program agle hafte rakh lenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If it rains, we will move the plan to next week.", "If it rains, we will cancel the plan altogether.", "It rained, so we moved the plan to next week."],
+          "correctAnswer": "If it rains, we will move the plan to next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "To phir pakka, ravivar ko das baje?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, pakka, main das baje tak aa jaunga.", "Haan, lekin mujhe abhi tak din pata nahi hai.", "Nahi, main pichhle ravivar ko aaya tha."],
+          "correctAnswer": "Haan, pakka, main das baje tak aa jaunga.",
+          "translatedSentence": "Yes, it is set, I will be there by ten."
+        }
+      ]
+    }
+  ]
+}

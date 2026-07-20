@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja ke bar ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaja sombar ho.",
+            "aaja sanibar ho.",
+            "aaja bihibar ho."
+          ],
+          "correctAnswer": "aaja sombar ho.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bholi mangalbar ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is Tuesday.",
+            "Today is Tuesday.",
+            "Tomorrow is Thursday."
+          ],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai sanibar aaunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, ma sanibar aauchu.",
+            "hoina, ma aitabar aauchu.",
+            "hoina, ma sombar aauchu."
+          ],
+          "correctAnswer": "ho, ma sanibar aauchu.",
+          "translatedSentence": "Yes, I am coming on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "sukrabar ma kaam garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work on Friday.",
+            "I rest on Friday.",
+            "I work on Sunday."
+          ],
+          "correctAnswer": "I work on Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timi budhabar kaha jaanchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma budhabar Thamel jaanchu.",
+            "ma budhabar ghar ma baschu.",
+            "ma budhabar chiya khanchu."
+          ],
+          "correctAnswer": "ma budhabar Thamel jaanchu.",
+          "translatedSentence": "On Wednesday I go to Thamel."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nepal ma sanibar bidha ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Nepal, Saturday is the day off.",
+            "In Nepal, Sunday is the day off.",
+            "In Nepal, Saturday is a working day."
+          ],
+          "correctAnswer": "In Nepal, Saturday is the day off."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hijo ke bar thiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hijo sukrabar thiyo.",
+            "hijo aitabar thiyo.",
+            "hijo mangalbar thiyo."
+          ],
+          "correctAnswer": "hijo sukrabar thiyo.",
+          "translatedSentence": "Yesterday was Friday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma bihibar Pokhara jaanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to Pokhara on Thursday.",
+            "I go to Pokhara on Tuesday.",
+            "I came from Pokhara on Thursday."
+          ],
+          "correctAnswer": "I go to Pokhara on Thursday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sanibar timi ke garchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sanibar ma sathi sanga momo khanchu.",
+            "sanibar ma office ma kaam garchu.",
+            "sanibar ma bihana chado uthchu."
+          ],
+          "correctAnswer": "sanibar ma sathi sanga momo khanchu.",
+          "translatedSentence": "On Saturday I eat momo with my friends."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aile tapai ke garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aile ma chiya khandai chu.",
+            "hijo maile chiya khaye.",
+            "bholi ma chiya khanchu."
+          ],
+          "correctAnswer": "aile ma chiya khandai chu.",
+          "translatedSentence": "I am drinking tea right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hijo ma Kathmandu gaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I went to Kathmandu yesterday.",
+            "I am going to Kathmandu today.",
+            "I will go to Kathmandu tomorrow."
+          ],
+          "correctAnswer": "I went to Kathmandu yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bholi timi ke garchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bholi ma sathi sanga bhetchu.",
+            "hijo ma sathi sanga bhete.",
+            "aile ma sathi sanga chu."
+          ],
+          "correctAnswer": "bholi ma sathi sanga bhetchu.",
+          "translatedSentence": "Tomorrow I am meeting my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma aile bysta chu, pachi phone garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am busy right now, I will call later.",
+            "I am free right now, so call me.",
+            "I was busy yesterday, so I did not call."
+          ],
+          "correctAnswer": "I am busy right now, I will call later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "parsi tapai kaha hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "parsi ma Pokhara ma hunchu.",
+            "hijo ma Pokhara ma thiye.",
+            "aile ma Pokhara ma chu."
+          ],
+          "correctAnswer": "parsi ma Pokhara ma hunchu.",
+          "translatedSentence": "The day after tomorrow I will be in Pokhara."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaja beluka ma dal bhat pakauchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This evening I will cook dal bhat.",
+            "This morning I cooked dal bhat.",
+            "Tomorrow evening I will cook dal bhat."
+          ],
+          "correctAnswer": "This evening I will cook dal bhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "asti timi kaha thiyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "asti ma Thamel ma thiye.",
+            "bholi ma Thamel jaanchu.",
+            "aile ma Thamel ma chu."
+          ],
+          "correctAnswer": "asti ma Thamel ma thiye.",
+          "translatedSentence": "The day before yesterday I was in Thamel."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aba ma ghar jaanchu, dhilo bhaisakyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going home now, it has gotten late.",
+            "I will go home tomorrow, it is late.",
+            "I came home late last night."
+          ],
+          "correctAnswer": "I am going home now, it has gotten late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja bihana tapaile ke khanubhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maile chiya ra roti khaye.",
+            "ma beluka dal bhat khanchu.",
+            "bholi bihana ma momo khanchu."
+          ],
+          "correctAnswer": "maile chiya ra roti khaye.",
+          "translatedSentence": "I had tea and bread."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aile kati bajyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aile das bajyo.",
+            "aile barha bajyo.",
+            "aile sadhe aath bajyo."
+          ],
+          "correctAnswer": "aile das bajyo.",
+          "translatedSentence": "It is ten o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma bihana chha baje uthchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six in the morning.",
+            "I go to sleep at six in the evening.",
+            "I get up at nine in the morning."
+          ],
+          "correctAnswer": "I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "micro bus kati baje aauncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "micro bus sadhe saat baje aauncha.",
+            "micro bus saat baje aauncha.",
+            "micro bus aath baje aauncha."
+          ],
+          "correctAnswer": "micro bus sadhe saat baje aauncha.",
+          "translatedSentence": "The micro bus comes at seven thirty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma beluka paanch baje ghar pharkinchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I come back home at five in the evening.",
+            "I leave home at five in the evening.",
+            "I come back home at five in the morning."
+          ],
+          "correctAnswer": "I come back home at five in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kati baje sutnu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma rati das baje sutchu.",
+            "ma rati barha baje sutchu.",
+            "ma beluka nau baje sutchu."
+          ],
+          "correctAnswer": "ma rati das baje sutchu.",
+          "translatedSentence": "I go to sleep at ten at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "chiya pasal bihana nau baje khulcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tea shop opens at nine in the morning.",
+            "The tea shop closes at nine in the morning.",
+            "The tea shop opens at nine at night."
+          ],
+          "correctAnswer": "The tea shop opens at nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hami kati baje bhetne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sadhe tin baje bhetau.",
+            "sadhe char baje bhetau.",
+            "paune tin baje bhetau."
+          ],
+          "correctAnswer": "sadhe tin baje bhetau.",
+          "translatedSentence": "Let's meet at three thirty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero kaam bihana aath baje suru huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My work starts at eight in the morning.",
+            "My work ends at eight in the evening.",
+            "My work starts at eight at night."
+          ],
+          "correctAnswer": "My work starts at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko ghadi ma kati bajyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero ghadi ma eghara bajyo.",
+            "mero ghadi ma char bajyo.",
+            "mero ghadi ma sadhe dui bajyo."
+          ],
+          "correctAnswer": "mero ghadi ma eghara bajyo.",
+          "translatedSentence": "It is eleven o'clock by my watch."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja kati gate ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaja das gate ho.",
+            "aaja panch gate ho.",
+            "aaja pandhra gate ho."
+          ],
+          "correctAnswer": "aaja das gate ho.",
+          "translatedSentence": "Today is the tenth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "asar mahina ma dherai pani parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It rains a lot in the month of Asar.",
+            "It snows a lot in the month of Asar.",
+            "It rains very little in the month of Asar."
+          ],
+          "correctAnswer": "It rains a lot in the month of Asar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko janma din kun mahina ma parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero janma din magh mahina ma parcha.",
+            "mero janma din sombar ma parcha.",
+            "mero janma din bihana das baje parcha."
+          ],
+          "correctAnswer": "mero janma din magh mahina ma parcha.",
+          "translatedSentence": "My birthday falls in the month of Magh."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jado mahina ma Kathmandu dherai chiso huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kathmandu gets very cold in the winter months.",
+            "Kathmandu gets very hot in the winter months.",
+            "Kathmandu gets very cold in the summer months."
+          ],
+          "correctAnswer": "Kathmandu gets very cold in the winter months."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kun mahina ma Himalaya trek jaanuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma kartik mahina ma jaanchu.",
+            "ma barkha ko bela ma jaanchu.",
+            "ma poush ko chiso ma jaanchu."
+          ],
+          "correctAnswer": "ma kartik mahina ma jaanchu.",
+          "translatedSentence": "I go in the month of Kartik."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "basanta ritu ma sabai tira phul phulcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In spring, flowers bloom everywhere.",
+            "In autumn, the leaves fall everywhere.",
+            "In spring, it rains everywhere."
+          ],
+          "correctAnswer": "In spring, flowers bloom everywhere."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai barkha ko mausam kasto lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai barkha man parcha, kinaki sabai hariyo huncha.",
+            "malai jado man parcha, kinaki hiu parcha.",
+            "malai garmi man parcha, kinaki din lamo huncha."
+          ],
+          "correctAnswer": "malai barkha man parcha, kinaki sabai hariyo huncha.",
+          "translatedSentence": "I like the monsoon, because everything turns green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "chaitra mahina pachi naya barsa suru huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The new year begins after the month of Chaitra.",
+            "The new year begins before the month of Chaitra.",
+            "The new month begins after the new year."
+          ],
+          "correctAnswer": "The new year begins after the month of Chaitra."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain kun mahina ma parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dashain asoj mahina ma parcha.",
+            "Dashain baisakh mahina ma parcha.",
+            "Dashain falgun mahina ma parcha."
+          ],
+          "correctAnswer": "Dashain asoj mahina ma parcha.",
+          "translatedSentence": "Dashain falls in the month of Asoj."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai bihana uthera pahile ke garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma pahile chiya banauchu ani akhbar padhchu.",
+            "ma pahile sutchu ani bihana ko khana khanchu.",
+            "ma pahile beluka ko khana pakauchu ani hidna jaanchu."
+          ],
+          "correctAnswer": "ma pahile chiya banauchu ani akhbar padhchu.",
+          "translatedSentence": "First I make tea and then I read the newspaper."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma bihana saat baje micro bus chadhera office jaanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I take the micro bus to the office at seven in the morning.",
+            "I walk to the office at seven in the morning.",
+            "I take the micro bus home at seven in the evening."
+          ],
+          "correctAnswer": "I take the micro bus to the office at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timi diuso ko khana kaha khanchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma office najik ko pasal ma dal bhat khanchu.",
+            "ma rati ghar ma dal bhat khanchu.",
+            "ma bihana ghar ma chiya ra roti khanchu."
+          ],
+          "correctAnswer": "ma office najik ko pasal ma dal bhat khanchu.",
+          "translatedSentence": "I eat dal bhat at a shop near the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "beluka ma khana pakauchu ra pariwar sanga milera khanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening I cook and eat together with my family.",
+            "In the evening my family cooks and I eat alone.",
+            "In the morning I cook and eat with my family."
+          ],
+          "correctAnswer": "In the evening I cook and eat together with my family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kaam sakera tapai ke garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaam pachi ma sathi sanga chiya khana jaanchu.",
+            "kaam suru garnu bhanda aghi ma chiya khanchu.",
+            "kaam ko bela ma ma khana pakauchu."
+          ],
+          "correctAnswer": "kaam pachi ma sathi sanga chiya khana jaanchu.",
+          "translatedSentence": "After work I go out for tea with a friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma har din bihana hidna niskanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Every morning I go out for a walk.",
+            "Every evening I go out for a walk.",
+            "Every morning I go out to work."
+          ],
+          "correctAnswer": "Every morning I go out for a walk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai din ma kati ghanta kaam garnuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma din ma aath ghanta kaam garchu.",
+            "ma haptaa ma paanch din kaam garchu.",
+            "ma bihana das baje kaam suru garchu."
+          ],
+          "correctAnswer": "ma din ma aath ghanta kaam garchu.",
+          "translatedSentence": "I work eight hours a day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "rati sutnu bhanda aghi ma ali ali kitab padhchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before going to sleep at night I read a little.",
+            "After waking up in the morning I read a little.",
+            "Before going to sleep at night I write a little."
+          ],
+          "correctAnswer": "Before going to sleep at night I read a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sanibar tapaiko dincharya kasto huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sanibar ma dhilo uthchu ra pariwar sanga ghumna jaanchu.",
+            "sanibar ma chado uthera office jaanchu.",
+            "sanibar ma din bhari kaam garchu ra rati matra pharkinchu."
+          ],
+          "correctAnswer": "sanibar ma dhilo uthchu ra pariwar sanga ghumna jaanchu.",
+          "translatedSentence": "On Saturday I get up late and go out with my family."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans and appointments",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bholi beluka ma bysta chu, tara parsi khali chu. tapailai kahile milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "parsi beluka paanch baje bhetau, malai tyo bela ramro milcha.",
+            "bholi beluka paanch baje bhetau, malai tyo bela ramro milcha.",
+            "hijo beluka bhetnu parne thiyo, ma dherai ber parkhe."
+          ],
+          "correctAnswer": "parsi beluka paanch baje bhetau, malai tyo bela ramro milcha.",
+          "translatedSentence": "Let's meet at five the day after tomorrow, that time works well for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma bholi aauna sakdina, kinaki malai office ma kaam cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot come tomorrow, because I have work at the office.",
+            "I can come tomorrow, because I have no work at the office.",
+            "I could not come yesterday, because I had work at the office."
+          ],
+          "correctAnswer": "I cannot come tomorrow, because I have work at the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "malai sanibar bidha huncha, tara aitabar office jaanu parcha. hami kun din bhetne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ta sanibar nai bhetau, tyo din tapailai pharsad huncha.",
+            "ta aitabar nai bhetau, tyo din tapailai pharsad huncha.",
+            "ta hami sombar bhetyau, tyo din ramro thiyo."
+          ],
+          "correctAnswer": "ta sanibar nai bhetau, tyo din tapailai pharsad huncha.",
+          "translatedSentence": "Then let's meet on Saturday, since you are free that day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yedi bholi pani paryo bhane hami Pokhara jaadainau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, we will not go to Pokhara.",
+            "If it rains tomorrow, we will still go to Pokhara.",
+            "Since it rained yesterday, we did not go to Pokhara."
+          ],
+          "correctAnswer": "If it rains tomorrow, we will not go to Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maph garnuhos, bihibar ko samaya sarna milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "milcha, ma tapailai sukrabar bihana das baje ko samaya dinchu.",
+            "mildaina, kinaki tapai bihibar aaisaknu bhayo.",
+            "milcha, maile hijo nai tapaiko samaya sareko thiye."
+          ],
+          "correctAnswer": "milcha, ma tapailai sukrabar bihana das baje ko samaya dinchu.",
+          "translatedSentence": "Yes, I can give you a ten o'clock slot on Friday morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yedi tapailai dhilo huncha bhane malai phone garnu hos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are going to be late, please give me a call.",
+            "If I am going to be late, I will give you a call.",
+            "You were late, so I gave you a call."
+          ],
+          "correctAnswer": "If you are going to be late, please give me a call."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hamile trek ko yojana banayeka thiyau, tara aile mausam naramro cha. ke garne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yatra arko haptaa sarau, tyo bela mausam ramro huncha.",
+            "aaja nai hidau, kinaki hijo ko mausam ramro thiyo.",
+            "yatra hijo nai sakiyo, aba kehi garnu pardaina."
+          ],
+          "correctAnswer": "yatra arko haptaa sarau, tyo bela mausam ramro huncha.",
+          "translatedSentence": "Let's push the trip to next week, the weather will be good then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maile tapailai tin baje samma parkhe, tara tapai aaunu bhayena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I waited for you until three, but you did not come.",
+            "I will wait for you until three, but please do not be late.",
+            "You waited for me until three, but I did not come."
+          ],
+          "correctAnswer": "I waited for you until three, but you did not come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bholi ko bhet pakka ho ni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pakka ho, ma sadhe paanch baje Thamel ma pugchu.",
+            "pakka ho, ma hijo sadhe paanch baje Thamel ma pugeko thiye.",
+            "malai bhet ko bare ma kehi thaha chaina, ma hijo ghar ma thiye."
+          ],
+          "correctAnswer": "pakka ho, ma sadhe paanch baje Thamel ma pugchu.",
+          "translatedSentence": "Yes, it is confirmed, I will reach Thamel at five thirty."
+        }
+      ]
+    }
+  ]
+}

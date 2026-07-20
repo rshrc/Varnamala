@@ -65,6 +65,11 @@ class _LangChoicePageState extends State<LangChoicePage> {
       'flag': Assets.images.book.path,
       'script': 'नेपाली',
     },
+    {
+      'language': TargetLanguage.assamese,
+      'flag': Assets.images.book.path,
+      'script': 'অসমীয়া',
+    },
   ];
 
   @override

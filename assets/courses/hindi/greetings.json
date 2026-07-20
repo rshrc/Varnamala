@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek hoon, dhanyavaad.",
+            "Main ghar jaa raha hoon.",
+            "Mujhe ek chai chahiye."
+          ],
+          "correctAnswer": "Main theek hoon, dhanyavaad.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main bilkul theek hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am absolutely fine.",
+            "I am very tired.",
+            "I am almost ready."
+          ],
+          "correctAnswer": "I am absolutely fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya haal hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sab theek hai.",
+            "Mujhe bahut bhookh hai.",
+            "Main abhi ghar par hoon."
+          ],
+          "correctAnswer": "Sab theek hai.",
+          "translatedSentence": "Everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tum kaise ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you?",
+            "Who are you?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aur aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main bhi theek hoon.",
+            "Main abhi aa raha hoon.",
+            "Mujhe nahi pata hai."
+          ],
+          "correctAnswer": "Main bhi theek hoon.",
+          "translatedSentence": "I am fine too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aaj bahut khush hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very tired today.",
+            "I am not well today."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kaise ho, dost?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main mast hoon, yaar.",
+            "Aap kahan rehte hain?",
+            "Yeh chai bahut garam hai."
+          ],
+          "correctAnswer": "Main mast hoon, yaar.",
+          "translatedSentence": "I am doing great, buddy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sab theek nahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is not okay.",
+            "Everything is fine here.",
+            "Nothing is very difficult."
+          ],
+          "correctAnswer": "Everything is not okay."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap se milkar khushi hui.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe bhi khushi hui.",
+            "Main theek nahi hoon.",
+            "Mera ghar yahan par hai."
+          ],
+          "correctAnswer": "Mujhe bhi khushi hui.",
+          "translatedSentence": "I am glad to meet you too."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning and welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhat! Aaiye, andar aaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaad, main andar aata hoon.",
+            "Nahi, main abhi so raha hoon.",
+            "Aap kahan jaa rahe hain?"
+          ],
+          "correctAnswer": "Dhanyavaad, main andar aata hoon.",
+          "translatedSentence": "Thank you, I will come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamare ghar mein aapka swagat hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to our home.",
+            "Our home is very big.",
+            "Come to our home tomorrow."
+          ],
+          "correctAnswer": "Welcome to our home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Baithiye, main abhi chai laata hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shukriya, aap bahut ache hain.",
+            "Nahi, aap yahan mat baithiye.",
+            "Main roz subah uthta hoon."
+          ],
+          "correctAnswer": "Shukriya, aap bahut ache hain.",
+          "translatedSentence": "Thank you, you are very kind."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main roz subah chai peeta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every morning.",
+            "I drink tea every night.",
+            "I am making tea right now."
+          ],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chai loge ya coffee?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main chai loonga, dhanyavaad.",
+            "Main subah jaldi uthta hoon.",
+            "Aapka ghar bahut door hai."
+          ],
+          "correctAnswer": "Main chai loonga, dhanyavaad.",
+          "translatedSentence": "I will have tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Suprabhat, aaj mausam bahut achha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, the weather is very nice today.",
+            "Good evening, the weather is very bad today.",
+            "Good morning, today is a holiday for us."
+          ],
+          "correctAnswer": "Good morning, the weather is very nice today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ab bahut raat ho gayi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, shubh raatri!",
+            "Haan, suprabhat!",
+            "Nahi, abhi subah hai."
+          ],
+          "correctAnswer": "Haan, shubh raatri!",
+          "translatedSentence": "Yes, good night!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubh raatri, achhe se soiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aap bhi aaram se soiye.",
+            "Aap subah jaldi aa jaiye.",
+            "Main abhi khana bana raha hoon."
+          ],
+          "correctAnswer": "Aap bhi aaram se soiye.",
+          "translatedSentence": "You sleep well too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubh raatri, kal subah milte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, see you tomorrow morning.",
+            "Good morning, see you later today.",
+            "Good night, I am going home now."
+          ],
+          "correctAnswer": "Good night, see you tomorrow morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, kya main yahan baith sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, zaroor baithiye.",
+            "Nahi, mujhe der ho rahi hai.",
+            "Main auto rickshaw se aaya hoon."
+          ],
+          "correctAnswer": "Haan, zaroor baithiye.",
+          "translatedSentence": "Yes, of course, please sit."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Zara suniye, yeh auto rickshaw khaali hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Excuse me, is this auto rickshaw free?",
+            "Excuse me, where do I find an auto rickshaw?",
+            "Excuse me, how much does the auto rickshaw cost?"
+          ],
+          "correctAnswer": "Excuse me, is this auto rickshaw free?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapki madad ke liye bahut shukriya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahi, mujhe khushi hui.",
+            "Main aapko nahi jaanta hoon.",
+            "Mujhe bhi thodi madad chahiye."
+          ],
+          "correctAnswer": "Koi baat nahi, mujhe khushi hui.",
+          "translatedSentence": "Not at all, it was my pleasure."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kripya mujhe metro station tak chhod dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please drop me at the metro station.",
+            "Please tell me where the metro station is.",
+            "The metro station is very far from here."
+          ],
+          "correctAnswer": "Please drop me at the metro station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, main der se aaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahi, aap baithiye.",
+            "Haan, aap bahut jaldi aaye hain.",
+            "Main abhi ghar jaa raha hoon."
+          ],
+          "correctAnswer": "Koi baat nahi, aap baithiye.",
+          "translatedSentence": "No problem, please have a seat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maaf kijiye, mujhe hindi thodi thodi aati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I know only a little Hindi.",
+            "Sorry, I do not know any Hindi at all.",
+            "Sorry, I speak Hindi very well."
+          ],
+          "correctAnswer": "Sorry, I know only a little Hindi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kripya mujhe thoda paani dijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, main abhi laata hoon.",
+            "Nahi, mujhe paani nahi chahiye.",
+            "Yeh paani bahut thanda hai."
+          ],
+          "correctAnswer": "Ji haan, main abhi laata hoon.",
+          "translatedSentence": "Yes, I will bring it right away."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, maine galti se aapka bag utha liya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahi, aisa ho jaata hai.",
+            "Dhanyavaad, aap bahut ache hain.",
+            "Haan, mera bag bilkul naya hai."
+          ],
+          "correctAnswer": "Koi baat nahi, aisa ho jaata hai.",
+          "translatedSentence": "No problem, these things happen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aapka bahut bahut dhanyavaad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you so much.",
+            "You are most welcome.",
+            "Sorry for the trouble."
+          ],
+          "correctAnswer": "Thank you so much."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Achha, ab main chalta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, phir milenge.",
+            "Haan, aap andar aa jaiye.",
+            "Nahi, main abhi abhi aaya hoon."
+          ],
+          "correctAnswer": "Theek hai, phir milenge.",
+          "translatedSentence": "Alright, we will meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main ab chalta hoon, mujhe der ho rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will leave now, I am getting late.",
+            "I will come now, I am not late at all.",
+            "I am leaving tomorrow, so do not be late."
+          ],
+          "correctAnswer": "I will leave now, I am getting late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal phir milte hain, theek hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, kal shaam ko milte hain.",
+            "Nahi, main kal yahan aaya tha.",
+            "Main aapko bilkul nahi jaanta hoon."
+          ],
+          "correctAnswer": "Haan, kal shaam ko milte hain.",
+          "translatedSentence": "Yes, let us meet tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Phir milenge, apna khayal rakhiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "See you again, take care of yourself.",
+            "We met yesterday, do not worry about it.",
+            "See you tomorrow, please call me once."
+          ],
+          "correctAnswer": "See you again, take care of yourself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apna khayal rakhna, dost.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tum bhi apna khayal rakhna.",
+            "Tum aajkal kahan rehte ho?",
+            "Main abhi khana khaa raha hoon."
+          ],
+          "correctAnswer": "Tum bhi apna khayal rakhna.",
+          "translatedSentence": "You take care of yourself too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shaam ko milte hain, main auto rickshaw se aaunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us meet in the evening, I will come by auto rickshaw.",
+            "Let us meet in the morning, I will come by metro.",
+            "I met him in the evening near the auto rickshaw stand."
+          ],
+          "correctAnswer": "Let us meet in the evening, I will come by auto rickshaw."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghar pahunch kar phone kar dena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main phone karunga.",
+            "Nahi, mera ghar door nahi hai.",
+            "Haan, mujhe naya phone chahiye."
+          ],
+          "correctAnswer": "Theek hai, main phone karunga.",
+          "translatedSentence": "Okay, I will call you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, phir kabhi milenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaste, aapse milkar achha laga.",
+            "Namaste, aap andar aa jaiye.",
+            "Namaste, main abhi so raha tha."
+          ],
+          "correctAnswer": "Namaste, aapse milkar achha laga.",
+          "translatedSentence": "Goodbye, it was nice meeting you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghar par sabko mera namaste kehna.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Say hello to everyone at home from me.",
+            "Tell everyone at home that I am leaving.",
+            "Everyone at home said hello to me."
+          ],
+          "correctAnswer": "Say hello to everyone at home from me."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Politeness and respect",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beta, tum kahan rehte ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji, main Lucknow mein rehta hoon.",
+            "Ji, aap Lucknow mein rehte hain.",
+            "Haan, tum yahan pass mein rehte ho."
+          ],
+          "correctAnswer": "Ji, main Lucknow mein rehta hoon.",
+          "translatedSentence": "Yes, I live in Lucknow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bade logon se hamesha aap kehna chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should always say aap to elders.",
+            "You should always speak quietly at home.",
+            "Elders always speak politely to us."
+          ],
+          "correctAnswer": "You should always say aap to elders."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste aunty, aap kaisi hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek hoon beta, tum sunao.",
+            "Main bhi aunty ko namaste kehta hoon.",
+            "Aunty abhi ghar par nahi hain."
+          ],
+          "correctAnswer": "Main theek hoon beta, tum sunao.",
+          "translatedSentence": "I am fine, dear, tell me how you are."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap bura na maanein, to main aapse ek sawaal poochunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not mind, I will ask you a question.",
+            "If you have some time, I will call you later.",
+            "I asked him a question, but he did not mind it."
+          ],
+          "correctAnswer": "If you do not mind, I will ask you a question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aapse ek baat pooch sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, zaroor poochiye.",
+            "Ji nahi, mujhe kuch pata nahi hai.",
+            "Haan, main aapse baad mein poochunga."
+          ],
+          "correctAnswer": "Ji haan, zaroor poochiye.",
+          "translatedSentence": "Yes of course, please ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uncle ji, kya main aapki madad kar sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uncle, may I help you?",
+            "Uncle, can you help me please?",
+            "Uncle, do you need an auto rickshaw?"
+          ],
+          "correctAnswer": "Uncle, may I help you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dadaji ko pranam karo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pranam dadaji, aap kaise hain?",
+            "Pranam dadaji, tum kaise ho?",
+            "Namaste dadaji, main ab chalta hoon."
+          ],
+          "correctAnswer": "Pranam dadaji, aap kaise hain?",
+          "translatedSentence": "Greetings grandfather, how are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beta, aap mujhe tum keh sakte ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, aap mujhse bahut bade hain.",
+            "Haan, main aapse bahut bada hoon.",
+            "Nahi, main aapko bilkul nahi jaanta."
+          ],
+          "correctAnswer": "Nahi, aap mujhse bahut bade hain.",
+          "translatedSentence": "No, you are much older than me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dost ke saath tum theek hai, lekin teacher se aap kehna chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tum is fine with a friend, but you should say aap to a teacher.",
+            "Aap is fine with a friend, but you should say tum to a teacher.",
+            "You should say tum to a friend and to a teacher as well."
+          ],
+          "correctAnswer": "Tum is fine with a friend, but you should say aap to a teacher."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Meeting after a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Arre, aap kitne saalon baad mile hain!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, poore paanch saal ho gaye.",
+            "Haan, main kal hi Delhi aaya tha.",
+            "Nahi, hum log roz hi milte hain."
+          ],
+          "correctAnswer": "Haan, poore paanch saal ho gaye.",
+          "translatedSentence": "Yes, it has been a full five years."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahut din ho gaye, aap kahan the?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been a long time, where were you?",
+            "It has been a long day, where are you going?",
+            "It was many days ago, where did you go?"
+          ],
+          "correctAnswer": "It has been a long time, where were you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap aajkal kya kar rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main Jaipur mein ek school mein padhata hoon.",
+            "Main pichhle saal Jaipur gaya tha.",
+            "Mujhe Jaipur ka khana bahut pasand hai."
+          ],
+          "correctAnswer": "Main Jaipur mein ek school mein padhata hoon.",
+          "translatedSentence": "I teach at a school in Jaipur these days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main Delhi chala gaya tha, isliye hum mil nahi paaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had moved to Delhi, so we could not meet.",
+            "I am going to Delhi, so we cannot meet now.",
+            "I went to Delhi because we could not meet."
+          ],
+          "correctAnswer": "I had moved to Delhi, so we could not meet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghar par sab kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sab theek hain, bas papa ki tabiyat thodi kharab hai.",
+            "Ghar bahut bada hai, lekin station se thoda door hai.",
+            "Main ghar par akela rehta hoon, isliye khana banata hoon."
+          ],
+          "correctAnswer": "Sab theek hain, bas papa ki tabiyat thodi kharab hai.",
+          "translatedSentence": "Everyone is fine, only my father is a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aapke paas thoda time ho, to samosa khaate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have a little time, let us have a samosa.",
+            "If I get a little time, I will bring some samosas.",
+            "You had some time, so we ate samosas together."
+          ],
+          "correctAnswer": "If you have a little time, let us have a samosa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chalo, kabhi ghar aaiye, saath mein chai peete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Zaroor aaunga, agle hafte time nikaalta hoon.",
+            "Mujhe chai bilkul pasand nahi hai.",
+            "Main abhi chai bana raha hoon, aap baithiye."
+          ],
+          "correctAnswer": "Zaroor aaunga, agle hafte time nikaalta hoon.",
+          "translatedSentence": "I will definitely come, I will make time next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko dekh kar bahut achha laga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe bhi, hum itne samay baad mile hain.",
+            "Mujhe bhi, main kal subah phir aaunga.",
+            "Haan, lekin main aapko dekh nahi paaya."
+          ],
+          "correctAnswer": "Mujhe bhi, hum itne samay baad mile hain.",
+          "translatedSentence": "Me too, we are meeting after such a long time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe abhi nikalna hai, lekin agli baar hum lambi baat karenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have to leave now, but next time we will talk longer.",
+            "I want to leave now because we have talked for too long.",
+            "I will leave next time, but today we can talk longer."
+          ],
+          "correctAnswer": "I have to leave now, but next time we will talk longer."
+        }
+      ]
+    }
+  ]
+}

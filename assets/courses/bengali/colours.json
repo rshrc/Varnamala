@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Akasher rong ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akash nil.",
+            "Akash lal.",
+            "Akash holud."
+          ],
+          "correctAnswer": "Akash nil.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei ful ta lal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is red.",
+            "This flower is yellow.",
+            "That flower is red."
+          ],
+          "correctAnswer": "This flower is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghaser rong ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ghas sabuj.",
+            "Ghas kalo.",
+            "Ghas golapi."
+          ],
+          "correctAnswer": "Ghas sabuj.",
+          "translatedSentence": "The grass is green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar juta kalo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shoes are black.",
+            "My shoes are brown.",
+            "My shirt is black."
+          ],
+          "correctAnswer": "My shoes are black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar priyo rong ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar priyo rong nil.",
+            "Amar priyo rong kalo.",
+            "Amar priyo rong sabuj."
+          ],
+          "correctAnswer": "Amar priyo rong nil.",
+          "translatedSentence": "My favourite colour is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dudh shada hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk is white.",
+            "Milk is sweet.",
+            "Rice is white."
+          ],
+          "correctAnswer": "Milk is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei kola ta ki holud?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, eta holud.",
+            "Na, eta nil.",
+            "Na, eta kalo."
+          ],
+          "correctAnswer": "Hyan, eta holud.",
+          "translatedSentence": "Yes, it is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chayer rong badami.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tea is brown in colour.",
+            "The tea is very hot.",
+            "Tea is black in colour."
+          ],
+          "correctAnswer": "Tea is brown in colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei gach ta ki sabuj?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, gach ta sabuj.",
+            "Na, gach ta shada.",
+            "Na, gach ta lal."
+          ],
+          "correctAnswer": "Hyan, gach ta sabuj.",
+          "translatedSentence": "Yes, the tree is green."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar bag ta kon ronger?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar bag ta komla ronger.",
+            "Amar bag ta beguni ronger.",
+            "Amar bag ta shada ronger."
+          ],
+          "correctAnswer": "Amar bag ta komla ronger.",
+          "translatedSentence": "My bag is orange."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar chhata ta kalo ronger.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My umbrella is black.",
+            "My umbrella is blue.",
+            "Her umbrella is black."
+          ],
+          "correctAnswer": "My umbrella is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei chair gulo kon ronger?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei chair gulo lal ronger.",
+            "Ei chair gulo holud ronger.",
+            "Ei chair gulo sabuj ronger."
+          ],
+          "correctAnswer": "Ei chair gulo lal ronger.",
+          "translatedSentence": "These chairs are red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader barir darja ta sabuj.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door of our house is green.",
+            "The door of our house is blue.",
+            "The window of our house is green."
+          ],
+          "correctAnswer": "The door of our house is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar phone tar rong ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar phone ta shada.",
+            "Amar phone ta golapi.",
+            "Amar phone ta badami."
+          ],
+          "correctAnswer": "Amar phone ta shada.",
+          "translatedSentence": "My phone is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei kolom ta nil, oi ta kalo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This pen is blue and that one is black.",
+            "This pen is black and that one is blue.",
+            "This pen is blue and that one is red."
+          ],
+          "correctAnswer": "This pen is blue and that one is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei bari ta ki holud ronger?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, bari ta holud ronger.",
+            "Na, bari ta gaaro nil ronger.",
+            "Na, bari ta shada ronger."
+          ],
+          "correctAnswer": "Hyan, bari ta holud ronger.",
+          "translatedSentence": "Yes, the house is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tram gulo holud ronger hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The trams are yellow.",
+            "The buses are yellow.",
+            "The trams are green."
+          ],
+          "correctAnswer": "The trams are yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar gari ta kon ronger?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar gari ta kalo ronger.",
+            "Amar gari ta lal ronger.",
+            "Amar gari ta sabuj ronger."
+          ],
+          "correctAnswer": "Amar gari ta kalo ronger.",
+          "translatedSentence": "My car is black."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kon ronger jama chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami nil ronger jama chai.",
+            "Ami lal ronger jama chai.",
+            "Ami kalo ronger jama chai."
+          ],
+          "correctAnswer": "Ami nil ronger jama chai.",
+          "translatedSentence": "I want a blue shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ekta shada shari chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a white saree.",
+            "I want a white shirt.",
+            "I do not want a white saree."
+          ],
+          "correctAnswer": "I want a white saree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei ronger juta ki apnar pochondo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ei rong ta amar pochondo.",
+            "Na, ei rong ta amar pochondo na.",
+            "Ami juta khunjchhi na."
+          ],
+          "correctAnswer": "Hyan, ei rong ta amar pochondo.",
+          "translatedSentence": "Yes, I like this colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Golapi ronger ta ektu dekhan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me the pink one.",
+            "Please show me the purple one.",
+            "Please give me the pink one."
+          ],
+          "correctAnswer": "Please show me the pink one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar kache ki komla ronger chhata ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, komla ronger nei, kintu sabuj ache.",
+            "Hyan, komla ronger onek ache.",
+            "Amra chhata bikri kori na."
+          ],
+          "correctAnswer": "Na, komla ronger nei, kintu sabuj ache.",
+          "translatedSentence": "No, we do not have orange, but we have green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami holud rong ta pochondo kori na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like the colour yellow.",
+            "I really like the colour yellow.",
+            "I do not like the colour orange."
+          ],
+          "correctAnswer": "I do not like the colour yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kon rong ta nebe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami beguni ta nebo.",
+            "Ami nil ta nebo.",
+            "Ami ekhon kichhu nebo na."
+          ],
+          "correctAnswer": "Ami beguni ta nebo.",
+          "translatedSentence": "I will take the purple one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei lal jama tar dam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this red shirt cost?",
+            "How much does this blue shirt cost?",
+            "Where can I find this red shirt?"
+          ],
+          "correctAnswer": "How much does this red shirt cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki aro rong dekhte chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ei rong tai thik ache.",
+            "Hyan, aro kichhu rong dekhan.",
+            "Ami ekhoni bari jachhi."
+          ],
+          "correctAnswer": "Na, ei rong tai thik ache.",
+          "translatedSentence": "No, this colour is fine."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj tumi kon ronger jama porecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami aaj sabuj jama porechi.",
+            "Ami aaj lal shari porechi.",
+            "Ami aaj nil panjabi porechi."
+          ],
+          "correctAnswer": "Ami aaj sabuj jama porechi.",
+          "translatedSentence": "Today I am wearing a green shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Biyer din o lal shari porechhilo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She wore a red saree on the wedding day.",
+            "She will wear a red saree on the wedding day.",
+            "She wore a red shirt on the wedding day."
+          ],
+          "correctAnswer": "She wore a red saree on the wedding day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei kalo panjabi ta ki tomar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, oi ta amar dadar.",
+            "Hyan, oi ta amar dadar.",
+            "Na, ami panjabi pori na."
+          ],
+          "correctAnswer": "Na, oi ta amar dadar.",
+          "translatedSentence": "No, that one is my elder brother's."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar shada juta gulo nongra hoye gechhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My white shoes have got dirty.",
+            "My black shoes have got dirty.",
+            "My white shoes have got torn."
+          ],
+          "correctAnswer": "My white shoes have got dirty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar chhele kon ronger jama pochondo kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "O sabsomoy kalo pochondo kore.",
+            "O sabsomoy holud pochondo kore.",
+            "O rong niye kichhu bole na."
+          ],
+          "correctAnswer": "O sabsomoy kalo pochondo kore.",
+          "translatedSentence": "He always likes black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sitkale ami gaaro ronger jama pori.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter I wear dark-coloured clothes.",
+            "In summer I wear dark-coloured clothes.",
+            "In winter I wear light-coloured clothes."
+          ],
+          "correctAnswer": "In winter I wear dark-coloured clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei halka golapi jama ta ki tomar bhalo lagchhe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, amar gaaro rong beshi bhalo lage.",
+            "Hyan, amar halka rong kokhono bhalo lage na.",
+            "Na, ami golapi jama kine felechi."
+          ],
+          "correctAnswer": "Na, amar gaaro rong beshi bhalo lage.",
+          "translatedSentence": "No, I like dark colours more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puja te ami notun holud shari kinbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "For the puja I will buy a new yellow saree.",
+            "For the puja I bought a new yellow saree.",
+            "For the puja I will buy a new yellow shirt."
+          ],
+          "correctAnswer": "For the puja I will buy a new yellow saree."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar bon ki nil ronger jama porte bhalobashe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, o beshir bhag somoy shada pore.",
+            "Hyan, o nil chhara onno kichhu pore na.",
+            "Na, o lal ronger juta pochondo kore."
+          ],
+          "correctAnswer": "Na, o beshir bhag somoy shada pore.",
+          "translatedSentence": "No, she mostly wears white."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Brishtir por akash kemon dekhay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Brishtir por akash porishkar nil hoye jay.",
+            "Brishtir por akash sara din kalo thake.",
+            "Brishtir por akash gaaro lal hoye jay."
+          ],
+          "correctAnswer": "Brishtir por akash porishkar nil hoye jay.",
+          "translatedSentence": "After the rain the sky turns a clear blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Howrah bridge ta dur theke dhusor dekhay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Howrah bridge looks grey from a distance.",
+            "The Howrah bridge looks white from a distance.",
+            "The Howrah bridge looks grey from close up."
+          ],
+          "correctAnswer": "The Howrah bridge looks grey from a distance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Metror ei line ta kon ronger?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei line ta nil ronger.",
+            "Ei line ta sabuj ronger.",
+            "Ei line ta beguni ronger."
+          ],
+          "correctAnswer": "Ei line ta nil ronger.",
+          "translatedSentence": "This line is the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sondhyay Gangar jol komla dekhay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening the water of the Ganga looks orange.",
+            "In the morning the water of the Ganga looks orange.",
+            "In the evening the water of the Ganga looks black."
+          ],
+          "correctAnswer": "In the evening the water of the Ganga looks orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sitkale gacher pata gulo ki sabuj thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, pata gulo holud hoye jay.",
+            "Hyan, pata gulo sara bochor sabuj thake.",
+            "Na, pata gulo tokhon nil hoye jay."
+          ],
+          "correctAnswer": "Na, pata gulo holud hoye jay.",
+          "translatedSentence": "No, the leaves turn yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader parar dokan gulo sabuj rong kora.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shops in our neighbourhood are painted green.",
+            "The shops in our neighbourhood are painted blue.",
+            "The houses in our neighbourhood are painted green."
+          ],
+          "correctAnswer": "The shops in our neighbourhood are painted green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kolkatar tram gulo ki ekhono holud?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ekhono holud ronger tram chole.",
+            "Na, ekhon sob tram nil ronger.",
+            "Hyan, kintu tram gulo ekhon sabuj."
+          ],
+          "correctAnswer": "Hyan, ekhono holud ronger tram chole.",
+          "translatedSentence": "Yes, yellow trams still run."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Macher jhol e holud diye rong ana hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turmeric gives the fish curry its colour.",
+            "Chilli gives the fish curry its colour.",
+            "Turmeric gives the fish curry its smell."
+          ],
+          "correctAnswer": "Turmeric gives the fish curry its colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mishtir dokane kon ronger mishti beshi dekha jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sekhane shada ar badami mishti beshi thake.",
+            "Sekhane sudhu nil ronger mishti pawa jay.",
+            "Sekhane kalo ronger mishti beshi bikri hoy."
+          ],
+          "correctAnswer": "Sekhane shada ar badami mishti beshi thake.",
+          "translatedSentence": "White and brown sweets are the most common there."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ki gaaro nil bhalo lage, na halka nil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar gaaro nil beshi bhalo lage, karon ta porishkar dekhay.",
+            "Amar halka nil beshi bhalo lage, karon ta thanda dekhay.",
+            "Amar duto rong i kharap lage, tai ami kalo pori."
+          ],
+          "correctAnswer": "Amar gaaro nil beshi bhalo lage, karon ta porishkar dekhay.",
+          "translatedSentence": "I like dark blue more, because it looks neat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei lal ta oi lal tar cheye ektu gaaro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This red is a little darker than that one.",
+            "This red is a little lighter than that one.",
+            "That red is a little darker than this one."
+          ],
+          "correctAnswer": "This red is a little darker than that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei shari tar rong ta ki amake manabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ei rong ta apnake khub bhalo manabe.",
+            "Na, ei rong ta apnake manabe na, halka kichhu dekhun.",
+            "Hyan, kintu ei rong ta ekhon pawa jachhe na."
+          ],
+          "correctAnswer": "Hyan, ei rong ta apnake khub bhalo manabe.",
+          "translatedSentence": "Yes, this colour will suit you very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi halka rong ta thake, tahole ami oi ta i nebo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have the lighter colour, I will take that one.",
+            "If you have the darker colour, I will take that one.",
+            "If you have the lighter colour, I will not take it."
+          ],
+          "correctAnswer": "If you have the lighter colour, I will take that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki oi kalo jama ta kinbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, kinbo na, karon amar onek kalo jama ache.",
+            "Hyan, kinbo, karon amar ekta o kalo jama nei.",
+            "Na, kinbo na, karon kalo rong ta ekhane nei."
+          ],
+          "correctAnswer": "Na, kinbo na, karon amar onek kalo jama ache.",
+          "translatedSentence": "No, I will not, because I already have plenty of black clothes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar sabuj bhalo lage, kintu ei sabuj ta beshi ujjol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like green, but this green is too bright.",
+            "I like green, but this green is too dark.",
+            "I do not like green, and this green is too bright."
+          ],
+          "correctAnswer": "I like green, but this green is too bright."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ei rong ta bodle onno kichhu dekhte chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hyan, ektu halka ronger kichhu dekhan.",
+            "Na, ei rong tai amar sob theke bhalo lagchhe.",
+            "Hyan, kintu ami aaj kichhu kinbo na."
+          ],
+          "correctAnswer": "Hyan, ektu halka ronger kichhu dekhan.",
+          "translatedSentence": "Yes, please show me something in a lighter colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Garame halka ronger jama porle aram lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wearing light-coloured clothes feels comfortable in summer.",
+            "Wearing dark-coloured clothes feels comfortable in summer.",
+            "Wearing light-coloured clothes feels comfortable in winter."
+          ],
+          "correctAnswer": "Wearing light-coloured clothes feels comfortable in summer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar didir biye te tumi kon rong porbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami gaaro lal porbo, karon didi lal bhalobashe.",
+            "Ami halka golapi porbo, karon ta amake bhalo manay.",
+            "Ami kalo porbo, karon amar onno rong nei."
+          ],
+          "correctAnswer": "Ami gaaro lal porbo, karon didi lal bhalobashe.",
+          "translatedSentence": "I will wear deep red, because my elder sister loves red."
+        }
+      ]
+    }
+  ]
+}

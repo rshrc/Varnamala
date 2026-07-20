@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali ki shubhkamnaye!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aapko bhi shubhkamnaye!",
+            "Main abhi ghar par hoon.",
+            "Mujhe thoda paani chahiye."
+          ],
+          "correctAnswer": "Aapko bhi shubhkamnaye!",
+          "translatedSentence": "Wishes to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj Holi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Holi.",
+            "Tomorrow is Holi.",
+            "Today is Diwali."
+          ],
+          "correctAnswer": "Today is Holi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eid mubarak!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aapko bhi Eid mubarak!",
+            "Main kal subah aaunga.",
+            "Yeh mithai bahut meethi hai."
+          ],
+          "correctAnswer": "Aapko bhi Eid mubarak!",
+          "translatedSentence": "Happy Eid to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe tyohaar bahut pasand hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like festivals a lot.",
+            "I like sweets a lot.",
+            "I like this city a lot."
+          ],
+          "correctAnswer": "I like festivals a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek hoon, shukriya.",
+            "Yeh mera naya ghar hai.",
+            "Woh log bazaar jaate hain."
+          ],
+          "correctAnswer": "Main theek hoon, shukriya.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh tyohaar bahut khaas hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This festival is very special.",
+            "This festival is very long.",
+            "This sweet is very special."
+          ],
+          "correctAnswer": "This festival is very special."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Holi ki shubhkamnaye!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aapko bhi Holi mubarak!",
+            "Mujhe abhi office jaana hai.",
+            "Bazaar yahan se bahut door hai."
+          ],
+          "correctAnswer": "Aapko bhi Holi mubarak!",
+          "translatedSentence": "Happy Holi to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghar par sab khush hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone at home is happy.",
+            "Everyone at home is busy.",
+            "Everyone at work is happy."
+          ],
+          "correctAnswer": "Everyone at home is happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj kaun sa tyohaar hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj Raksha Bandhan hai.",
+            "Aaj mera janamdin hai.",
+            "Aaj mujhe chutti nahi hai."
+          ],
+          "correctAnswer": "Aaj Raksha Bandhan hai.",
+          "translatedSentence": "Today is Raksha Bandhan."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali kab hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Diwali agle mahine hai.",
+            "Diwali bahut rangeen hoti hai.",
+            "Diwali mere ghar par hai."
+          ],
+          "correctAnswer": "Diwali agle mahine hai.",
+          "translatedSentence": "Diwali is next month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Holi basant ke mausam mein aati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Holi comes in the spring season.",
+            "Holi comes in the winter season.",
+            "Diwali comes in the spring season."
+          ],
+          "correctAnswer": "Holi comes in the spring season."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raksha Bandhan kis mahine mein hota hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh August mein hota hai.",
+            "Woh mere bhai ke saath hota hai.",
+            "Woh bazaar mein bahut mehnga hai."
+          ],
+          "correctAnswer": "Woh August mein hota hai.",
+          "translatedSentence": "It is in August."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid ke din log naye kapde pehente hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the day of Eid people wear new clothes.",
+            "On the day of Eid people cook new dishes.",
+            "On the day of Diwali people wear new clothes."
+          ],
+          "correctAnswer": "On the day of Eid people wear new clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Diwali par log kya karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Log apne ghar mein diye jalate hain.",
+            "Log ek dusre ko rang lagate hain.",
+            "Log poore mahine roza rakhte hain."
+          ],
+          "correctAnswer": "Log apne ghar mein diye jalate hain.",
+          "translatedSentence": "People light lamps in their homes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Holi par bachche ek dusre par rang daalte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Holi the children throw colour on each other.",
+            "On Holi the children give sweets to each other.",
+            "On Diwali the children throw colour on each other."
+          ],
+          "correctAnswer": "On Holi the children throw colour on each other."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka pasandeeda tyohaar kaun sa hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe Diwali sabse zyada pasand hai.",
+            "Mera ghar Jaipur shehar mein hai.",
+            "Main roz subah chai peeta hoon."
+          ],
+          "correctAnswer": "Mujhe Diwali sabse zyada pasand hai.",
+          "translatedSentence": "I like Diwali the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyohaar se pehle poora bazaar der raat tak khula rehta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before the festival the whole market stays open till late at night.",
+            "Before the festival the whole market closes early in the evening.",
+            "After the festival the whole market stays open till late at night."
+          ],
+          "correctAnswer": "Before the festival the whole market stays open till late at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya Eid saal mein do baar aati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, saal mein do Eid hoti hain.",
+            "Nahi, Eid sirf Lucknow mein hoti hai.",
+            "Haan, Eid har mahine aati hai."
+          ],
+          "correctAnswer": "Haan, saal mein do Eid hoti hain.",
+          "translatedSentence": "Yes, there are two Eids in a year."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap Diwali par hamare ghar aa sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main zaroor aaunga.",
+            "Nahi, mera ghar bahut bada hai.",
+            "Haan, mujhe chai bahut pasand hai."
+          ],
+          "correctAnswer": "Haan, main zaroor aaunga.",
+          "translatedSentence": "Yes, I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aapko Diwali ki dawat par bula raha hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to the Diwali dinner.",
+            "I am going to the Diwali dinner.",
+            "I am inviting you to the wedding dinner."
+          ],
+          "correctAnswer": "I am inviting you to the Diwali dinner."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kitne baje aaoge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main shaam ko saat baje aaunga.",
+            "Main Jaipur mein rehta hoon.",
+            "Mujhe yahan ka khaana pasand hai."
+          ],
+          "correctAnswer": "Main shaam ko saat baje aaunga.",
+          "translatedSentence": "I will come at seven in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere ghar par kal ek chhota sa function hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a small function at my place tomorrow.",
+            "There is a big function at my place tomorrow.",
+            "There was a small function at my place yesterday."
+          ],
+          "correctAnswer": "There is a small function at my place tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maafi chahta hoon, main kal nahi aa paunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahi, phir kabhi aa jaana.",
+            "Theek hai, main aapke ghar mein rehta hoon.",
+            "Bahut acchi baat hai, aap kal aa rahe hain."
+          ],
+          "correctAnswer": "Koi baat nahi, phir kabhi aa jaana.",
+          "translatedSentence": "No problem, come some other time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap apne poore parivaar ke saath zaroor aaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do come with your whole family.",
+            "Please come alone the next time.",
+            "Please call your whole family tomorrow."
+          ],
+          "correctAnswer": "Please do come with your whole family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main apne dost ko bhi laa sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan bilkul, unhe bhi le aaiye.",
+            "Nahi, aapka dost Delhi mein rehta hai.",
+            "Haan, mujhe aapke dost ka naam pata hai."
+          ],
+          "correctAnswer": "Haan bilkul, unhe bhi le aaiye.",
+          "translatedSentence": "Yes of course, bring him along too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hum sab aapka intezaar karenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will all wait for you.",
+            "We will all call you.",
+            "We will all come to your house."
+          ],
+          "correctAnswer": "We will all wait for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka ghar kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Metro station ke paas, Lajpat Nagar mein.",
+            "Auto rickshaw se aadha ghanta lagta hai.",
+            "Mere ghar mein paanch log rehte hain."
+          ],
+          "correctAnswer": "Metro station ke paas, Lajpat Nagar mein.",
+          "translatedSentence": "Near the metro station, in Lajpat Nagar."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kaun si mithai pasand hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe gulab jamun sabse zyada pasand hai.",
+            "Mujhe mithai ki dukaan ka rasta pata hai.",
+            "Main roz shaam ko samosa khaata hoon."
+          ],
+          "correctAnswer": "Mujhe gulab jamun sabse zyada pasand hai.",
+          "translatedSentence": "I like gulab jamun the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa Diwali par ghar mein ladoo banati hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother makes ladoos at home on Diwali.",
+            "Mother buys ladoos from the shop on Diwali.",
+            "My sister makes ladoos at home on Diwali."
+          ],
+          "correctAnswer": "Mother makes ladoos at home on Diwali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap thodi aur kheer lenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bas thodi si, bahut swaad hai.",
+            "Nahi, mujhe kheer banani nahi aati.",
+            "Haan, main abhi kheer bana raha hoon."
+          ],
+          "correctAnswer": "Bas thodi si, bahut swaad hai.",
+          "translatedSentence": "Just a little, it is really tasty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Holi par hum log gujiya khaate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat gujiya on Holi.",
+            "We make gujiya on Diwali.",
+            "We eat samosa on Holi."
+          ],
+          "correctAnswer": "We eat gujiya on Holi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh mithai kisne banayi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh meri dadi ne banayi hai.",
+            "Yeh dukaan bahut purani hai.",
+            "Yeh do sau rupaye kilo hai."
+          ],
+          "correctAnswer": "Yeh meri dadi ne banayi hai.",
+          "translatedSentence": "My grandmother made it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eid par har ghar mein sewaiyan banti hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sewaiyan are made in every home on Eid.",
+            "Sewaiyan are sold in every shop on Eid.",
+            "Sweets are made in every home on Diwali."
+          ],
+          "correctAnswer": "Sewaiyan are made in every home on Eid."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko khaana kaisa laga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut swaadisht tha, shukriya.",
+            "Haan, main khaana bana raha hoon.",
+            "Nahi, mujhe abhi bhookh nahi hai."
+          ],
+          "correctAnswer": "Bahut swaadisht tha, shukriya.",
+          "translatedSentence": "It was very tasty, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe thodi chai aur ek samosa chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like a little tea and one samosa.",
+            "I would like a little tea and two samosas.",
+            "I would like a little milk and one samosa."
+          ],
+          "correctAnswer": "I would like a little tea and one samosa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap mithai ki dukaan par kab jaayenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main shaam ko bazaar jaunga.",
+            "Main mithai ghar par hi banata hoon.",
+            "Mujhe mithai bilkul pasand nahi hai."
+          ],
+          "correctAnswer": "Main shaam ko bazaar jaunga.",
+          "translatedSentence": "I will go to the market in the evening."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapne Diwali ke liye naye kapde khareede ya nahi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, kal hi maine ek kurta khareeda hai.",
+            "Nahi, mujhe naye kapde pasand nahi hain.",
+            "Haan, maine apna poora ghar saaf kiya hai."
+          ],
+          "correctAnswer": "Haan, kal hi maine ek kurta khareeda hai.",
+          "translatedSentence": "Yes, I bought a kurta just yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main apni behen ke liye ek tohfa khareedna chahta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to buy a gift for my sister.",
+            "I want to buy a gift for my mother.",
+            "I want to make a gift for my sister."
+          ],
+          "correctAnswer": "I want to buy a gift for my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raksha Bandhan par behen bhai ko kya baandhti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Behen bhai ki kalai par rakhi baandhti hai.",
+            "Behen bhai ko apne haath se mithai khilati hai.",
+            "Behen bhai ke liye naye kapde khareedti hai."
+          ],
+          "correctAnswer": "Behen bhai ki kalai par rakhi baandhti hai.",
+          "translatedSentence": "The sister ties a rakhi on her brother's wrist."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar bazaar band ho gaya to hum kapde online mangwa lenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the market is closed we will order the clothes online.",
+            "If the market is open we will order the clothes online.",
+            "If the market is closed we will not buy any clothes at all."
+          ],
+          "correctAnswer": "If the market is closed we will order the clothes online."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh saree aapke liye hai, ummeed hai aapko pasand aayegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bahut sundar hai, lekin itna kuch karne ki kya zaroorat thi!",
+            "Nahi, mujhe saree pehenna bilkul nahi aata hai.",
+            "Theek hai, main ise kal bazaar se badal laaunga."
+          ],
+          "correctAnswer": "Bahut sundar hai, lekin itna kuch karne ki kya zaroorat thi!",
+          "translatedSentence": "It is beautiful, but you really did not have to do all this!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyohaar par poora parivaar dadi ke ghar ikattha hota hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the festival the whole family gathers at grandmother's house.",
+            "On the festival the whole family goes out of the city.",
+            "On the festival the whole family gathers at my house."
+          ],
+          "correctAnswer": "On the festival the whole family gathers at grandmother's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhare chacha Lucknow se kab pahunch rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh kal subah train se pahunch jaayenge.",
+            "Woh bachpan se Lucknow mein hi rehte hain.",
+            "Unhe train ka lamba safar pasand nahi hai."
+          ],
+          "correctAnswer": "Woh kal subah train se pahunch jaayenge.",
+          "translatedSentence": "He will get here tomorrow morning by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyohaar par bade log bachchon ko paise dete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festivals the elders give money to the children.",
+            "On festivals the children give money to the elders.",
+            "On festivals the elders give sweets to the children."
+          ],
+          "correctAnswer": "On festivals the elders give money to the children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko yeh kurta kaisa laga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rang to accha hai, lekin thoda bada lag raha hai.",
+            "Haan, maine yeh kurta kal raat ko pehna tha.",
+            "Nahi, mujhe is bazaar mein aana pasand nahi hai."
+          ],
+          "correctAnswer": "Rang to accha hai, lekin thoda bada lag raha hai.",
+          "translatedSentence": "The colour is nice, but it looks a bit big."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meri chhoti behen ki shaadi agle mahine Jaipur mein ho rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Badhai ho! Hum zaroor shaamil honge.",
+            "Koi baat nahi, phir kisi din mil lenge.",
+            "Achha, mujhe Jaipur ka rasta nahi pata hai."
+          ],
+          "correctAnswer": "Badhai ho! Hum zaroor shaamil honge.",
+          "translatedSentence": "Congratulations! We will definitely be there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shaadi mein itne log the ki mujhe dulhan dikhi hi nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There were so many people at the wedding that I could not even see the bride.",
+            "There were so few people at the wedding that I saw the bride at once.",
+            "There were so many people at the wedding that I could not even eat properly."
+          ],
+          "correctAnswer": "There were so many people at the wedding that I could not even see the bride."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap sangeet ki raat naachenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naach to mujhe aata nahi, lekin koshish zaroor karunga.",
+            "Haan, main us raat sabke liye khaana banaunga.",
+            "Nahi, mujhe shaadi ke gaane sunna pasand nahi hai."
+          ],
+          "correctAnswer": "Naach to mujhe aata nahi, lekin koshish zaroor karunga.",
+          "translatedSentence": "I do not really know how to dance, but I will certainly try."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hum shaam tak pahunch jaate lekin Delhi ke traffic ne bahut samay le liya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We would have arrived by the evening, but the Delhi traffic took a lot of time.",
+            "We arrived by the evening because the Delhi traffic was quite light.",
+            "We will arrive by the evening if the Delhi traffic is not too bad."
+          ],
+          "correctAnswer": "We would have arrived by the evening, but the Delhi traffic took a lot of time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap shaadi mein tohfe ke taur par kya de rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hum ek lifafa aur thodi mithai de rahe hain.",
+            "Hum log is shaadi mein nahi jaa rahe hain.",
+            "Humein shaadi ka nimantran do din pehle mila tha."
+          ],
+          "correctAnswer": "Hum ek lifafa aur thodi mithai de rahe hain.",
+          "translatedSentence": "We are giving an envelope and some sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap chahen to hum aapko auto rickshaw se ghar chhod dete hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you like, we can drop you home in an auto rickshaw.",
+            "If you like, you can come to our home in an auto rickshaw.",
+            "If you like, we can go to the market in an auto rickshaw."
+          ],
+          "correctAnswer": "If you like, we can drop you home in an auto rickshaw."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko shaadi ka khaana kaisa laga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sab kuch bahut accha tha, khaas kar dal chawal.",
+            "Mujhe khaane se pehle hi nikalna pad gaya tha.",
+            "Maine khaane ke baad thodi der araam kiya tha."
+          ],
+          "correctAnswer": "Sab kuch bahut accha tha, khaas kar dal chawal.",
+          "translatedSentence": "Everything was very good, especially the dal chawal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naye jode ko hamari taraf se bahut saari shubhkamnaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Many good wishes to the new couple from all of us.",
+            "Many thanks to the new couple from all of us.",
+            "Many good wishes to the whole family from all of us."
+          ],
+          "correctAnswer": "Many good wishes to the new couple from all of us."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shaadi ke baad aap dono kahan jaa rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hum kuch din ke liye pahaadon par jaa rahe hain.",
+            "Hum dono ek hi college mein saath padhte the.",
+            "Hum shaadi ki tayaari mein bahut vyast hain."
+          ],
+          "correctAnswer": "Hum kuch din ke liye pahaadon par jaa rahe hain.",
+          "translatedSentence": "We are going to the hills for a few days."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai sanchai hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sanchai chaina.",
+            "Ma sanchai chu.",
+            "Ma ghar jaanchu."
+          ],
+          "correctAnswer": "Ma sanchai chaina.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai tauko dukhyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "I have a fever."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai ke bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai pet dukhyo.",
+            "Malai bhok lagyo.",
+            "Malai nid lagyo."
+          ],
+          "correctAnswer": "Malai pet dukhyo.",
+          "translatedSentence": "My stomach hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aaja birami chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sick today.",
+            "I am tired today.",
+            "I am fine today."
+          ],
+          "correctAnswer": "I am sick today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kaha dukhyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai ghaanti dukhyo.",
+            "Malai bhok lagyo.",
+            "Ma aspatal jaanchu."
+          ],
+          "correctAnswer": "Malai ghaanti dukhyo.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai jworo aayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a fever.",
+            "I have a cough.",
+            "I have a cold."
+          ],
+          "correctAnswer": "I have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ke bhayo, timi thik chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai thik chaina.",
+            "Malai thaha chaina.",
+            "Malai bhok chaina."
+          ],
+          "correctAnswer": "Malai thik chaina.",
+          "translatedSentence": "I do not feel well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai ali ali dukhyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It hurts a little.",
+            "It hurts a lot.",
+            "It does not hurt."
+          ],
+          "correctAnswer": "It hurts a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai ausadhi chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, malai ausadhi chahiyo.",
+            "Ho, malai chiya chahiyo.",
+            "Hoina, malai khana chahiyo."
+          ],
+          "correctAnswer": "Ho, malai ausadhi chahiyo.",
+          "translatedSentence": "Yes, I need some medicine."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko haat dukhyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, mero daya haat dukhyo.",
+            "Hoina, mero khutta dukhyo.",
+            "Ho, mero aankha dukhyo."
+          ],
+          "correctAnswer": "Ho, mero daya haat dukhyo.",
+          "translatedSentence": "Yes, my right hand hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero khutta dherai dukhyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts a lot.",
+            "My hand hurts a lot.",
+            "My leg hurts a little."
+          ],
+          "correctAnswer": "My leg hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro aankha rato bhayo, ke bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai aankha dukhirahecha.",
+            "Malai kaan dukhirahecha.",
+            "Malai daat dukhirahecha."
+          ],
+          "correctAnswer": "Malai aankha dukhirahecha.",
+          "translatedSentence": "My eyes have been hurting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero daat bihana dekhi dukhyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth has been hurting since morning.",
+            "My ear has been hurting since morning.",
+            "My tooth has been hurting since evening."
+          ],
+          "correctAnswer": "My tooth has been hurting since morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko pith dukhcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, micro bus ma basera pith dukhyo.",
+            "Ho, mero ghaanti dukhyo.",
+            "Hoina, mero naak dukhyo."
+          ],
+          "correctAnswer": "Ho, micro bus ma basera pith dukhyo.",
+          "translatedSentence": "Yes, my back hurts from sitting in the micro bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero naak banda bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My nose is blocked.",
+            "My throat is sore.",
+            "My ear is blocked."
+          ],
+          "correctAnswer": "My nose is blocked."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kun khutta dukhyo, daya ki baya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baya khutta dukhyo.",
+            "Duitai haat dukhyo.",
+            "Mero tauko dukhyo."
+          ],
+          "correctAnswer": "Baya khutta dukhyo.",
+          "translatedSentence": "My left leg hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero chhaati ali dukhcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My chest hurts a little.",
+            "My back hurts a little.",
+            "My chest hurts a lot."
+          ],
+          "correctAnswer": "My chest hurts a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro haat ma ke bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero aunla katiyo.",
+            "Mero pet dukhyo.",
+            "Malai chiso lagyo."
+          ],
+          "correctAnswer": "Mero aunla katiyo.",
+          "translatedSentence": "I cut my finger."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, tapailai ke bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai tin din dekhi jworo cha.",
+            "Malai chiya khana man lagyo.",
+            "Ma hijo Pokhara ghumna gaye."
+          ],
+          "correctAnswer": "Malai tin din dekhi jworo cha.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kati din bhayo yesto bhayeko?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many days has it been like this?",
+            "How many days will you stay here?",
+            "How many times a day do you eat?"
+          ],
+          "correctAnswer": "How many days has it been like this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kahile dekhi dukheko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hijo beluka dekhi dukheko cha.",
+            "Hijo beluka maile ausadhi khae.",
+            "Hijo beluka ma Thamel gaye."
+          ],
+          "correctAnswer": "Hijo beluka dekhi dukheko cha.",
+          "translatedSentence": "It has been hurting since yesterday evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai ringata lagcha ra kamjor lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel dizzy and weak.",
+            "I feel hungry and tired.",
+            "I feel hot and thirsty."
+          ],
+          "correctAnswer": "I feel dizzy and weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai banta aayo ki aayena?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, hijo dui choti banta aayo.",
+            "Hoina, malai dherai bhok lagyo.",
+            "Ho, malai raat ma nid lagyo."
+          ],
+          "correctAnswer": "Ho, hijo dui choti banta aayo.",
+          "translatedSentence": "Yes, I vomited twice yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daktar sahab, ma raat bhari sutna sakina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Doctor, I could not sleep all night.",
+            "Doctor, I could not eat all day.",
+            "Doctor, I slept well all night."
+          ],
+          "correctAnswer": "Doctor, I could not sleep all night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma tapaiko jworo naapchu, hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, naapnus.",
+            "Hunchha, ma ausadhi khanchu.",
+            "Hoina, ma aile ghar jaanchu."
+          ],
+          "correctAnswer": "Hunchha, naapnus.",
+          "translatedSentence": "Yes, please check it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai kehi pani khana man lagdaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not feel like eating anything.",
+            "I do not feel like going anywhere.",
+            "I do not feel like talking to anyone."
+          ],
+          "correctAnswer": "I do not feel like eating anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai pahile pani yesto bhayeko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pahile kahile pani bhayeko chaina.",
+            "Ho, ma ausadhi khaidai chu.",
+            "Malai ausadhi ko naam thaha chaina."
+          ],
+          "correctAnswer": "Pahile kahile pani bhayeko chaina.",
+          "translatedSentence": "It has never happened to me before."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo ausadhi kasari khaane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Din ma tin choti khaanus.",
+            "Hapta ma ek choti aaunus.",
+            "Yo ausadhi tapailai chaidaina."
+          ],
+          "correctAnswer": "Din ma tin choti khaanus.",
+          "translatedSentence": "Take it three times a day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo chakki khana pachi khaanus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this tablet after food.",
+            "Take this tablet before food.",
+            "Take this tablet with water."
+          ],
+          "correctAnswer": "Take this tablet after food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khali pet ma khana milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milcha, tara khana pachi khanu ramro hunchha.",
+            "Milcha, tara ausadhi ek choti matra kinnus.",
+            "Naya parchi bina ausadhi dina paidaina."
+          ],
+          "correctAnswer": "Milcha, tara khana pachi khanu ramro hunchha.",
+          "translatedSentence": "You can, but it is better to take it after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo ausadhi ko kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this medicine cost?",
+            "How many of these tablets do I take?",
+            "How long should I take this medicine?"
+          ],
+          "correctAnswer": "How much does this medicine cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kasto ausadhi chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai khoki ko ausadhi chahiyo.",
+            "Malai jworo ko ausadhi chahiyo.",
+            "Malai ghau ko malam chahiyo."
+          ],
+          "correctAnswer": "Malai khoki ko ausadhi chahiyo.",
+          "translatedSentence": "I need some cough medicine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo syrup din ma dui choti piunus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink this syrup twice a day.",
+            "Drink this syrup three times a day.",
+            "Drink this syrup once at night."
+          ],
+          "correctAnswer": "Drink this syrup twice a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo ausadhi kati din khaane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Panch din samma khaanus.",
+            "Khana agadi khaanus.",
+            "Ausadhi sakiye pachi pheri aaunus."
+          ],
+          "correctAnswer": "Panch din samma khaanus.",
+          "translatedSentence": "Take it for five days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo ausadhi khae pachi nid lagcha, tyasaile raat ma khaanus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine makes you sleepy, so take it at night.",
+            "This medicine makes you thirsty, so drink lots of water.",
+            "This medicine is strong, so take it after food."
+          ],
+          "correctAnswer": "This medicine makes you sleepy, so take it at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaisanga daktar ko parchi cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, yo mero parchi ho.",
+            "Chaina, ma bholi lyaunchu.",
+            "Cha, ma din ma tin choti khanchu."
+          ],
+          "correctAnswer": "Cha, yo mero parchi ho.",
+          "translatedSentence": "Yes, this is my prescription."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai rugha lagyo ki khoki lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai rugha ra khoki duitai lagyo.",
+            "Malai jworo matra aayo, aru kehi chaina.",
+            "Malai aile samma kehi bhayeko chaina."
+          ],
+          "correctAnswer": "Malai rugha ra khoki duitai lagyo.",
+          "translatedSentence": "I have both a cold and a cough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hijo Pokhara ma pani parda malai chiso lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got cold in the rain in Pokhara yesterday.",
+            "I got wet in the rain in Kathmandu yesterday.",
+            "It was cold in Pokhara yesterday morning."
+          ],
+          "correctAnswer": "I got cold in the rain in Pokhara yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aile jworo kati cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jworo dherai cha, jiu tato cha.",
+            "Jworo aile ali ali matra cha.",
+            "Jworo bilkul chaina, ma sanchai chu."
+          ],
+          "correctAnswer": "Jworo dherai cha, jiu tato cha.",
+          "translatedSentence": "The fever is high, my body is hot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raat ma khoki badhcha ra sutna gahro hunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cough gets worse at night and it is hard to sleep.",
+            "The fever gets worse at night and it is hard to sleep.",
+            "The cough gets better at night so I can sleep."
+          ],
+          "correctAnswer": "The cough gets worse at night and it is hard to sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghau kasari lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma micro bus bata orlada ladein.",
+            "Malai hijo dekhi jworo aayeko cha.",
+            "Ma bihana bihana hidna jaanchu."
+          ],
+          "correctAnswer": "Ma micro bus bata orlada ladein.",
+          "translatedSentence": "I fell while getting off the micro bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero ghuda ma ghau lagyo ra ragat aayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I hurt my knee and it bled.",
+            "I hurt my hand and it bled.",
+            "I hurt my knee but it did not bleed."
+          ],
+          "correctAnswer": "I hurt my knee and it bled."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaile ghau safa garnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, maile pani le safa gare.",
+            "Hoina, maile ausadhi khaisake.",
+            "Ho, maile daktar lai phone gare."
+          ],
+          "correctAnswer": "Ho, maile pani le safa gare.",
+          "translatedSentence": "Yes, I cleaned it with water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tin din bhayo jworo aayeko, tara aile ali thik cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a fever for three days, but now it is a bit better.",
+            "I have had a fever for three days, and now it is worse.",
+            "I had a fever three days ago, but now it is gone."
+          ],
+          "correctAnswer": "I have had a fever for three days, but now it is a bit better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aspatal jaanu parcha ki pardaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaanu pardaina, ghar mai aaram garchu.",
+            "Jaanu parcha, ma bazar ma ausadhi kinchu.",
+            "Jaanu pardaina, malai jworo dherai cha."
+          ],
+          "correctAnswer": "Jaanu pardaina, ghar mai aaram garchu.",
+          "translatedSentence": "I do not need to go, I will rest at home."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chhitto niko hunako lagi ke garnu parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ausadhi samaya ma khaanus ra dui din aaram garnus.",
+            "Aile nai kaam ma jaanus, ausadhi khanu pardaina.",
+            "Chiso pani piunus ra beluka bahira ghumnus."
+          ],
+          "correctAnswer": "Ausadhi samaya ma khaanus ra dui din aaram garnus.",
+          "translatedSentence": "Take the medicine on time and rest for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jworo aayeko bela chiso pani nakhanus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not drink cold water while you have a fever.",
+            "Do not drink hot water while you have a fever.",
+            "Drink plenty of cold water while you have a fever."
+          ],
+          "correctAnswer": "Do not drink cold water while you have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma bholi kaam ma jaana milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, tara dherai nathaknus.",
+            "Hunchha, tara ausadhi aile banda garnus.",
+            "Hoina, tapai aile nai kaam ma jaanus."
+          ],
+          "correctAnswer": "Hunchha, tara dherai nathaknus.",
+          "translatedSentence": "Yes, but do not tire yourself out too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tin din pachi pani niko bhayena bhane, pheri daktar kaha aaunus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are still not better after three days, come back to the doctor.",
+            "If you are better after three days, you can stop the medicine.",
+            "After three days, come back to the doctor for another test."
+          ],
+          "correctAnswer": "If you are still not better after three days, come back to the doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai aaja dherai ramro lagyo, dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sunera khusi lagyo, tara ausadhi nachhodnus.",
+            "Thik cha, aba ausadhi khanu pardaina.",
+            "Malai pani jworo aayo, ma aaja jaanchu."
+          ],
+          "correctAnswer": "Sunera khusi lagyo, tara ausadhi nachhodnus.",
+          "translatedSentence": "I am glad to hear that, but do not stop the medicine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma jworo ko karan le hijo kaam ma gaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not go to work yesterday because of the fever.",
+            "I did not go to work today because of the fever.",
+            "I went to work yesterday even though I had a fever."
+          ],
+          "correctAnswer": "I did not go to work yesterday because of the fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana ma ke khanu ramro hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tato dal bhat ra jhol khanus, momo aile nakhanus.",
+            "Chiso momo ra chiso pani khanus, jhol nakhanus.",
+            "Kehi nakhanus, tin din khali pet basnus."
+          ],
+          "correctAnswer": "Tato dal bhat ra jhol khanus, momo aile nakhanus.",
+          "translatedSentence": "Eat hot dal bhat and soup, and avoid momo for now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pani dherai piunus ra raat ma dhilo samma nabasnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink plenty of water and do not stay up late at night.",
+            "Drink plenty of tea and go to bed early at night.",
+            "Drink plenty of water but do not eat late at night."
+          ],
+          "correctAnswer": "Drink plenty of water and do not stay up late at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhanyabad daktar sahab, ma aba jaanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, aaram garnus ra chhitto niko hunus.",
+            "Hunchha, bholi dekhi kaam suru garnus.",
+            "Hunchha, aba ausadhi kinnu pardaina."
+          ],
+          "correctAnswer": "Hunchha, aaram garnus ra chhitto niko hunus.",
+          "translatedSentence": "All right, rest and get well soon."
+        }
+      ]
+    }
+  ]
+}

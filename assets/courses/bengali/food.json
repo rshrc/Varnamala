@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Water, rice and tea",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar khide peyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, khub khide peyeche.",
+            "Na, ami ekhane thaki.",
+            "Ha, ami bhalo achi."
+          ],
+          "correctAnswer": "Ha, khub khide peyeche.",
+          "translatedSentence": "Yes, I am very hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekhon bhaat khabo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will eat rice now.",
+            "I will drink tea now.",
+            "I am not hungry now."
+          ],
+          "correctAnswer": "I will eat rice now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki cha khaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ek cup cha chai.",
+            "Ha, jol ekhane ache.",
+            "Na, ami ekhane bosi na."
+          ],
+          "correctAnswer": "Ha, ek cup cha chai.",
+          "translatedSentence": "Yes, I would like a cup of tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar khub teshta peyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very thirsty.",
+            "I am very hungry.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very thirsty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jol kothay ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jol table er upore ache.",
+            "Ami jol khabo na.",
+            "Cha ekhono garam ache."
+          ],
+          "correctAnswer": "Jol table er upore ache.",
+          "translatedSentence": "The water is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami cha khete bhalobashi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love drinking tea.",
+            "I like eating rice.",
+            "I do not drink tea."
+          ],
+          "correctAnswer": "I love drinking tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ekhon ki khete chao?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami ekhon bhaat khete chai.",
+            "Ami ekhane bose achi.",
+            "Ami khub bhalo achi."
+          ],
+          "correctAnswer": "Ami ekhon bhaat khete chai.",
+          "translatedSentence": "I want to eat rice now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake ek glass jol dao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a glass of water.",
+            "Give me a cup of tea.",
+            "Bring me a little rice."
+          ],
+          "correctAnswer": "Give me a glass of water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha ta ki garam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, cha ta khub garam.",
+            "Ha, cha ta table e ache.",
+            "Na, ami cha banai na."
+          ],
+          "correctAnswer": "Ha, cha ta khub garam.",
+          "translatedSentence": "Yes, the tea is very hot."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dada, ki chai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Duto cha din, ektu garam kore.",
+            "Ami ekhane kaj kori.",
+            "Dokan ta ekhon bondho."
+          ],
+          "correctAnswer": "Duto cha din, ektu garam kore.",
+          "translatedSentence": "Two teas please, nice and hot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ek cup cha er dam koto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does one cup of tea cost?",
+            "How much does one plate of rice cost?",
+            "Where is the tea shop from here?"
+          ],
+          "correctAnswer": "How much does one cup of tea cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha e cheeni koto debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ektu cheeni din, beshi na.",
+            "Duto biskut o din.",
+            "Cha ta ekhane rakhun."
+          ],
+          "correctAnswer": "Ektu cheeni din, beshi na.",
+          "translatedSentence": "Just a little sugar, not too much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake cha er sathe ekta biskut o din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a biscuit with the tea as well.",
+            "Give me a biscuit instead of the tea.",
+            "Give me two teas and nothing else."
+          ],
+          "correctAnswer": "Give me a biscuit with the tea as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar aar kichu lagbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ar kichu lagbe na, dhonnobad.",
+            "Ha, cha ta khub garam hoyeche.",
+            "Na, ami ekhane bose khabo."
+          ],
+          "correctAnswer": "Na, ar kichu lagbe na, dhonnobad.",
+          "translatedSentence": "No, I do not need anything else, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sob mile koto holo, dada?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is it altogether?",
+            "How many teas did you make?",
+            "How long will it take?"
+          ],
+          "correctAnswer": "How much is it altogether?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sob mile chollish taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei nin panchash taka, khuchro ache?",
+            "Ha, ami aro ek cup cha chai.",
+            "Na, ami cheeni khai na."
+          ],
+          "correctAnswer": "Ei nin panchash taka, khuchro ache?",
+          "translatedSentence": "Here is fifty rupees, do you have change?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar kache khuchro nei, boro note ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have change, only a big note.",
+            "I do not have any money with me today.",
+            "I do not want tea, only a biscuit."
+          ],
+          "correctAnswer": "I do not have change, only a big note."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha ta niye jaben na ekhane khaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami ekhane dariye khabo.",
+            "Ami cha e cheeni khai na.",
+            "Ami taka ta pore debo."
+          ],
+          "correctAnswer": "Ami ekhane dariye khabo.",
+          "translatedSentence": "I will drink it standing right here."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy, sweet and salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Torkari ta kemon legeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhalo, kintu ektu beshi jhal hoye geche.",
+            "Bhalo, ami ekhane bose achi.",
+            "Bhalo, dokan ta kache ache."
+          ],
+          "correctAnswer": "Bhalo, kintu ektu beshi jhal hoye geche.",
+          "translatedSentence": "Good, but it has turned out a bit too spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dal e noon ektu kom hoyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a little too little salt in the lentils.",
+            "There is a little too much salt in the lentils.",
+            "There is no oil at all in the lentils."
+          ],
+          "correctAnswer": "There is a little too little salt in the lentils."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki jhal khete paren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami jhal khete khub bhalobashi.",
+            "Ha, ami mishti banate pari.",
+            "Na, ami ranna ghore jai na."
+          ],
+          "correctAnswer": "Ha, ami jhal khete khub bhalobashi.",
+          "translatedSentence": "Yes, I really love spicy food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Roshogolla ta amar jonno khub mishti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The roshogolla is too sweet for me.",
+            "The roshogolla is not sweet enough for me.",
+            "The sweet shop is very close to me."
+          ],
+          "correctAnswer": "The roshogolla is too sweet for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Macher jhol ta kemon hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Darun hoyeche, sudhu ektu jhal beshi.",
+            "Darun hoyeche, ami mach khai na.",
+            "Darun hoyeche, bhaat ta thanda."
+          ],
+          "correctAnswer": "Darun hoyeche, sudhu ektu jhal beshi.",
+          "translatedSentence": "It has come out wonderfully, only a bit too spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cha ta eto garam je ekhon khete parchi na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tea is so hot that I cannot drink it right now.",
+            "The tea is so sweet that I cannot drink it right now.",
+            "The tea has gone so cold that I do not want it."
+          ],
+          "correctAnswer": "The tea is so hot that I cannot drink it right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aro ektu noon debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, noon thik ache, ar diyo na.",
+            "Na, cheeni ta beshi hoye geche.",
+            "Ha, jhal ta kom hoyeche."
+          ],
+          "correctAnswer": "Na, noon thik ache, ar diyo na.",
+          "translatedSentence": "No, the salt is just right, do not add any more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar khabare beshi tel bhalo lage na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like too much oil in my food.",
+            "I do not like too much salt in my food.",
+            "I do not like eating fish at all."
+          ],
+          "correctAnswer": "I do not like too much oil in my food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi mishti ta khabe na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, amar peyt bhore geche.",
+            "Na, mishti ta noonta hoyeche.",
+            "Ha, ami jhal khete pari na."
+          ],
+          "correctAnswer": "Na, amar peyt bhore geche.",
+          "translatedSentence": "No, I am completely full."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Restaurant and the Bill",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnara koyjon achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra tinjon, ekta table hobe?",
+            "Amra bhaat aar mach khabo.",
+            "Amra bill ta chai ekhon."
+          ],
+          "correctAnswer": "Amra tinjon, ekta table hobe?",
+          "translatedSentence": "There are three of us, is a table available?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amake menu ta ektu dekhaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you show me the menu, please?",
+            "Could you bring me the bill, please?",
+            "Could you give me some water, please?"
+          ],
+          "correctAnswer": "Could you show me the menu, please?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnara ki order korben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Duto bhaat aar ek plate macher jhol din.",
+            "Amra ekhon bill ta dite chai.",
+            "Amra baire dariye achi."
+          ],
+          "correctAnswer": "Duto bhaat aar ek plate macher jhol din.",
+          "translatedSentence": "Two portions of rice and one plate of fish curry, please."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kolkatay sob cheye bhalo macher jhol kothay pawa jay?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where can you get the best fish curry in Kolkata?",
+            "Where can you get the best sweets in Kolkata?",
+            "How far is the fish market from Kolkata?"
+          ],
+          "correctAnswer": "Where can you get the best fish curry in Kolkata?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khabar kemon legeche apnader?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sob kichu darun legeche, dhonnobad.",
+            "Amra ekhono order kori ni.",
+            "Amra metro te kore eshechi."
+          ],
+          "correctAnswer": "Sob kichu darun legeche, dhonnobad.",
+          "translatedSentence": "Everything was delicious, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dada, ekhon bill ta niye ashun.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Excuse me, please bring the bill now.",
+            "Excuse me, please bring the menu now.",
+            "Excuse me, please bring some water now."
+          ],
+          "correctAnswer": "Excuse me, please bring the bill now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bill e ki service charge dhora ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, dosh sotangsho age thekei dhora ache.",
+            "Ha, bill ta ekhono asheni.",
+            "Na, ekhane card cholbe na."
+          ],
+          "correctAnswer": "Ha, dosh sotangsho age thekei dhora ache.",
+          "translatedSentence": "Yes, ten percent is already included."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami card e dam dite chai, hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like to pay by card, is that all right?",
+            "I would like to pay in cash, is that all right?",
+            "I would like to see the bill again, is that all right?"
+          ],
+          "correctAnswer": "I would like to pay by card, is that all right?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnara ki card nen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ekhane sudhu nogod choley.",
+            "Na, ekhane khabar ta khub bhalo.",
+            "Ha, amader dokan ekhon bondho."
+          ],
+          "correctAnswer": "Na, ekhane sudhu nogod choley.",
+          "translatedSentence": "No, only cash works here."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking and helping out",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj ranna ki hocche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaj bhaat, dal aar macher jhol hocche.",
+            "Aaj ami bazar e jete parbo na.",
+            "Aaj ranna ghor ta khub garam."
+          ],
+          "correctAnswer": "Aaj bhaat, dal aar macher jhol hocche.",
+          "translatedSentence": "Today we are making rice, lentils and fish curry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami peyaj kete dicchi, tumi mach ta dhue nao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will cut the onions, you wash the fish.",
+            "I will wash the fish, you cut the onions.",
+            "I will cook the rice, you make the tea."
+          ],
+          "correctAnswer": "I will cut the onions, you wash the fish."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amake ektu sahajjo korbe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi, bolo ki korte hobe.",
+            "Nishchoi, ami ranna korte pari na.",
+            "Na, amar khide peyeche na."
+          ],
+          "correctAnswer": "Nishchoi, bolo ki korte hobe.",
+          "translatedSentence": "Of course, tell me what needs doing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cheenir dabba ta amake ektu egiye dao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pass me the sugar jar, please.",
+            "Pass me the salt jar, please.",
+            "Put the sugar jar back, please."
+          ],
+          "correctAnswer": "Pass me the sugar jar, please."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Torkari te noon diyecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ektu diyechi, ar lagbe na.",
+            "Ha, tel ta ekhono dei ni.",
+            "Na, torkari ta khub mishti hoyeche."
+          ],
+          "correctAnswer": "Ha, ektu diyechi, ar lagbe na.",
+          "translatedSentence": "Yes, I added a little, it does not need more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi cheeni na thake, tahole ami dokan theke niye ashbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is no sugar, I will get some from the shop.",
+            "If there is no sugar, we will drink the tea without it.",
+            "If the shop is closed, I will make the tea black."
+          ],
+          "correctAnswer": "If there is no sugar, I will get some from the shop."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhaat ta ki hoye geche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prai hoye geche, aro paanch minute lagbe.",
+            "Prai hoye geche, ami bhaat khabo na.",
+            "Na, bhaat ta khub mishti hoyeche."
+          ],
+          "correctAnswer": "Prai hoye geche, aro paanch minute lagbe.",
+          "translatedSentence": "It is almost done, it will take five more minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ranna hoye gele bashon gulo dhue rekho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When the cooking is done, wash the dishes.",
+            "Before you start cooking, wash the dishes.",
+            "When the cooking is done, put the rice away."
+          ],
+          "correctAnswer": "When the cooking is done, wash the dishes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami macher jhol ranna korte pari na, tumi shikhiye debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi, kal theke shuru kora jak.",
+            "Nishchoi, ami mach khete bhalobashi.",
+            "Na, ranna ghor ta parishkar ache."
+          ],
+          "correctAnswer": "Nishchoi, kal theke shuru kora jak.",
+          "translatedSentence": "Of course, let us start from tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes, limits and diets",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki mach mangsho khan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami niramish khai, sudhu sobji aar dal.",
+            "Na, ami ranna korte bhalobashi na.",
+            "Ha, ami cha e cheeni khai na."
+          ],
+          "correctAnswer": "Na, ami niramish khai, sudhu sobji aar dal.",
+          "translatedSentence": "No, I am vegetarian, only vegetables and lentils."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami mach khai na, karon amar allergy ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat fish, because I am allergic to it.",
+            "I do not eat fish, because I do not like the smell.",
+            "I do not cook fish, because I never learnt how."
+          ],
+          "correctAnswer": "I do not eat fish, because I am allergic to it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar jonno ki alada kore ranna korbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jodi osubidha na hoy, tahole khub bhalo hoy.",
+            "Jodi osubidha na hoy, tahole ami mach khabo.",
+            "Na, ami ekhon bazar theke ashchi."
+          ],
+          "correctAnswer": "Jodi osubidha na hoy, tahole khub bhalo hoy.",
+          "translatedSentence": "If it is not too much trouble, that would be lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami mishti khete bhalobashi, kintu daktar barron koreche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love sweets, but the doctor has told me not to have them.",
+            "I love sweets, but I only have them on a Sunday.",
+            "I do not like sweets, and the doctor agrees with me."
+          ],
+          "correctAnswer": "I love sweets, but the doctor has told me not to have them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar cha e cheeni debo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, cheeni chara din, ami cheeni khai na.",
+            "Na, ami cha banate jani na.",
+            "Ha, cha ta thanda hoye geche."
+          ],
+          "correctAnswer": "Na, cheeni chara din, ami cheeni khai na.",
+          "translatedSentence": "No, without sugar please, I do not take sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jhal beshi hole amar peyt kharap hoye jay.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the food is too spicy, my stomach gets upset.",
+            "If the food is too oily, my stomach gets upset.",
+            "If the food is too spicy, I drink a lot of water."
+          ],
+          "correctAnswer": "If the food is too spicy, my stomach gets upset."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aro ektu bhaat nin na, ekdom kom kheyechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na na, ar parbo na, peyt etoi bhore geche.",
+            "Na na, ami bhaat ranna korte pari na.",
+            "Ha, bhaat ta ektu thanda hoye geche."
+          ],
+          "correctAnswer": "Na na, ar parbo na, peyt etoi bhore geche.",
+          "translatedSentence": "No really, I cannot manage more, I am that full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami dudh khete pari na, tai cha ta kalo kore banaben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot have milk, so please make the tea black.",
+            "I cannot have sugar, so please make the tea without it.",
+            "I do not like milk, so I never drink tea at all."
+          ],
+          "correctAnswer": "I cannot have milk, so please make the tea black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal amader barite khete asben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi asbo, tobe mone rakhben ami niramish khai.",
+            "Nishchoi asbo, tobe amar barite mach ache.",
+            "Na, kal amra Howrah bridge dekhte jabo na."
+          ],
+          "correctAnswer": "Nishchoi asbo, tobe mone rakhben ami niramish khai.",
+          "translatedSentence": "I will certainly come, but please remember that I am vegetarian."
+        }
+      ]
+    }
+  ]
+}

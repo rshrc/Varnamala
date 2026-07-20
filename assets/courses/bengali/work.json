@@ -1,0 +1,505 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work do you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki kaj koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami ekjon sikkhok.", "Ami bhaat khai.", "Ami bari jai."],
+          "correctAnswer": "Ami ekjon sikkhok.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami office e kaj kori.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I work in an office.", "I am going to the office.", "I do not work in an office."],
+          "correctAnswer": "I work in an office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kothay kaj koren?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami ekta baank e kaj kori.", "Ami baank e taka rakhi.", "Ami ekhon barite achi."],
+          "correctAnswer": "Ami ekta baank e kaj kori.",
+          "translatedSentence": "I work at a bank."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar didi ekjon daktar.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My elder sister is a doctor.", "My elder sister is a teacher.", "My elder brother is a doctor."],
+          "correctAnswer": "My elder sister is a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar office kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar office Salt Lake e.", "Amar bari Salt Lake e.", "Ami office e jai na."],
+          "correctAnswer": "Amar office Salt Lake e.",
+          "translatedSentence": "My office is in Salt Lake."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekta skule porai.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I teach at a school.", "I study at a school.", "I am going to a school."],
+          "correctAnswer": "I teach at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kon company te kaj koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami ekta chhoto company te kaj kori.", "Amar company ta khub boro.", "Ami kal company te jabo."],
+          "correctAnswer": "Ami ekta chhoto company te kaj kori.",
+          "translatedSentence": "I work at a small company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar dada ekjon engineer.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My elder brother is an engineer.", "My elder brother is a student.", "My younger brother is an engineer."],
+          "correctAnswer": "My elder brother is an engineer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar kaj ki bhalo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, amar kaj khub bhalo lage.", "Na, ami kono kaj kori na.", "Amar cha khub bhalo lage."],
+          "correctAnswer": "Haan, amar kaj khub bhalo lage.",
+          "translatedSentence": "Yes, I like my work very much."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar boi ta kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar boi bag er moddhe ache.", "Amar bag klase ache.", "Ami ekhon boi porchi."],
+          "correctAnswer": "Amar boi bag er moddhe ache.",
+          "translatedSentence": "My book is in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sikkhok board e likhchen.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["The teacher is writing on the board.", "The teacher is reading from the book.", "The student is writing on the board."],
+          "correctAnswer": "The teacher is writing on the board."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei prosno ta ki tumi bujhte parcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Na, ami bujhte parchi na.", "Haan, ami klase achi.", "Na, amar kolom nei."],
+          "correctAnswer": "Na, ami bujhte parchi na.",
+          "translatedSentence": "No, I do not understand it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar kachhe kono kolom nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I do not have a pen.", "I have a pen with me.", "I do not have a notebook."],
+          "correctAnswer": "I do not have a pen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami ki ekhon ekta prosno korte pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, obossoi korte paro.", "Na, ami prosno ta bujhini.", "Haan, ami boi ta porechi."],
+          "correctAnswer": "Haan, obossoi korte paro.",
+          "translatedSentence": "Yes, of course you can."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amra klase bangla shikhchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["We are learning Bengali in class.", "We are teaching Bengali in class.", "We learn Bengali at home."],
+          "correctAnswer": "We are learning Bengali in class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar khata ta ke niyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar bondhu niyeche.", "Ami notun khata kini.", "Amar khata ta khub boro."],
+          "correctAnswer": "Amar bondhu niyeche.",
+          "translatedSentence": "My friend took it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sikkhok amake ekta prosno korlen.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["The teacher asked me a question.", "I asked the teacher a question.", "The teacher answered my question."],
+          "correctAnswer": "The teacher asked me a question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Klas koyta theke shuru hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Klas noyta theke shuru hoy.", "Klas dupure sesh hoy.", "Ami noyta y bari jai."],
+          "correctAnswer": "Klas noyta theke shuru hoy.",
+          "translatedSentence": "Class starts at nine."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Desk, email, meeting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeting ta koyta y shuru hobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Meeting ta egarota y shuru hobe.", "Meeting ta kal sesh hoyeche.", "Ami egarota y office e ashi."],
+          "correctAnswer": "Meeting ta egarota y shuru hobe.",
+          "translatedSentence": "The meeting will start at eleven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami tomake email ta pathiye dichhi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am sending you the email.", "I sent you the email yesterday.", "I will send you the file tomorrow."],
+          "correctAnswer": "I am sending you the email."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar desk ta kothay?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Tomar desk janalar pashe.", "Tomar file table er upore.", "Amar desk ta khub porishkar."],
+          "correctAnswer": "Tomar desk janalar pashe.",
+          "translatedSentence": "Your desk is next to the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Boss ekhon meeting e achen.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["The boss is in a meeting right now.", "The boss will come to the meeting.", "The boss is not in the office today."],
+          "correctAnswer": "The boss is in a meeting right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki file ta pathiyecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ami sokale pathiye diyechi.", "Haan, ami meeting e chilam.", "Na, amar computer ta notun."],
+          "correctAnswer": "Haan, ami sokale pathiye diyechi.",
+          "translatedSentence": "Yes, I sent it in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar computer ta kaj korche na.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My computer is not working.", "My computer is very old.", "My phone is not working."],
+          "correctAnswer": "My computer is not working."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ekhon ektu kotha bolte parben?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ekhon na, ami meeting e jachhi.", "Haan, ami phone ta dhorechi.", "Na, amar desk ta khali ache."],
+          "correctAnswer": "Ekhon na, ami meeting e jachhi.",
+          "translatedSentence": "Not now, I am going into a meeting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting er por ami tomake phone korbo.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I will call you after the meeting.", "I called you before the meeting.", "I will email you after the meeting."],
+          "correctAnswer": "I will call you after the meeting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajker meeting ta kemon holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Bhalo holo, sob thik ache.", "Meeting ta agami sombar hobe.", "Ami meeting e jete parbo na."],
+          "correctAnswer": "Bhalo holo, sob thik ache.",
+          "translatedSentence": "It went well, everything is fine."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar porikkha kobe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar porikkha agami sombar.", "Ami porikkha diye esechi.", "Porikkha ta khub kothin chilo."],
+          "correctAnswer": "Amar porikkha agami sombar.",
+          "translatedSentence": "My exam is next Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj amake onek porte hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I have to study a lot today.", "I studied a lot today.", "I do not want to study today."],
+          "correctAnswer": "I have to study a lot today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar barir kaj ta ki sesh hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Na, ekhono sesh hoyni.", "Haan, ami barite achi.", "Na, ami barir kaj pai ni."],
+          "correctAnswer": "Na, ekhono sesh hoyni.",
+          "translatedSentence": "No, it is not finished yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei chapter ta amar khub kothin lagche.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I am finding this chapter very hard.", "This chapter feels very easy to me.", "I have already finished this chapter."],
+          "correctAnswer": "I am finding this chapter very hard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Porikkhay kemon korle?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Bhalo korechi, sob likhte perechi.", "Porikkha ta kal shuru hobe.", "Ami porikkhay boshte chai na."],
+          "correctAnswer": "Bhalo korechi, sob likhte perechi.",
+          "translatedSentence": "I did well, I could write everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal ami onek raat obdi porechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Last night I studied until very late.", "Last night I went to sleep very early.", "Tonight I will study until very late."],
+          "correctAnswer": "Last night I studied until very late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki amake ektu bujhiye debe?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ami tomake bujhiye debo.", "Haan, ami kichhu bujhte parchi na.", "Na, ami sikkhok ke prosno korbo."],
+          "correctAnswer": "Haan, ami tomake bujhiye debo.",
+          "translatedSentence": "Yes, I will explain it to you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader sikkhok bolechen porikkha sohoj hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Our teacher has said the exam will be easy.", "Our teacher has said the exam will be hard.", "Our teacher will give us the exam tomorrow."],
+          "correctAnswer": "Our teacher has said the exam will be easy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki porikkhar jonno tairi?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ami puropuri tairi.", "Na, porikkha ta sesh hoyeche.", "Haan, ami porikkha diye esechilam."],
+          "correctAnswer": "Haan, ami puropuri tairi.",
+          "translatedSentence": "Yes, I am completely ready."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings, leave and lateness",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi aaj eto deri korle keno?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Rastay onek jam chilo.", "Ami somoy moto eshe gechi.", "Kal ami deri kore berobo."],
+          "correctAnswer": "Rastay onek jam chilo.",
+          "translatedSentence": "There was a lot of traffic on the road."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj ami metro te office eshechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Today I came to the office by metro.", "Today I came to the office late.", "Every day I go to the office by tram."],
+          "correctAnswer": "Today I came to the office by metro."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar office koyta obdi chole?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Amar office chhoyta obdi chole.", "Amar office Howrah bridge er kachhe.", "Ami chhoyta y bari pouchhai."],
+          "correctAnswer": "Amar office chhoyta obdi chole.",
+          "translatedSentence": "My office runs until six."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal ami chhuti nebo, karon amar shorir bhalo nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I will take leave tomorrow, because I am not well.", "I took leave yesterday, because I was not well.", "I cannot take leave tomorrow, because there is a meeting."],
+          "correctAnswer": "I will take leave tomorrow, because I am not well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami ki aaj ektu tairatari berote pari?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, kintu kaj ta sesh kore jeo.", "Na, tumi kal deri kore esechile.", "Haan, ami kal chhuti nebo."],
+          "correctAnswer": "Haan, kintu kaj ta sesh kore jeo.",
+          "translatedSentence": "Yes, but finish the work before you go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train deri korle ami somoy moto pouchhate pari na.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If the train is late, I cannot reach on time.", "If the train is late, I take the bus instead.", "The train is late, so I will not go today."],
+          "correctAnswer": "If the train is late, I cannot reach on time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar chhuti ta ki manjur hoyeche?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, boss manjur kore diyechen.", "Na, ami chhuti chai ni.", "Haan, ami chhuti te bari chilam."],
+          "correctAnswer": "Haan, boss manjur kore diyechen.",
+          "translatedSentence": "Yes, the boss has approved it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami sokal noyta r moddhe office e dhuki.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I get to the office by nine in the morning.", "I leave the office at nine in the morning.", "I get to the office by ten every day."],
+          "correctAnswer": "I get to the office by nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi roj kibhabe office asho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami roj metro te ashi.", "Ami roj noyta y ashi.", "Ami roj office e kaj kori."],
+          "correctAnswer": "Ami roj metro te ashi.",
+          "translatedSentence": "I come by metro every day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and next year",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agami bochor tomar ki plan?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Bhalo sujog pele ami notun kaj khujbo.", "Kal ami office e jabo na.", "Amar plan ta bhalo chilo na."],
+          "correctAnswer": "Bhalo sujog pele ami notun kaj khujbo.",
+          "translatedSentence": "If I get a good opportunity, I will look for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami onek din dhore ei company te achi, kintu ekhono promotion pai ni.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I have been at this company for a long time, but I still have not got a promotion.", "I have been at this company for a long time, and last year I got a promotion.", "I joined this company recently, so I have not got a promotion yet."],
+          "correctAnswer": "I have been at this company for a long time, but I still have not got a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki promotion niye kotha bolecho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ami boss er songe kotha bolechi.", "Na, ami promotion peye gechi.", "Haan, ami kal chhuti nebo."],
+          "correctAnswer": "Haan, ami boss er songe kotha bolechi.",
+          "translatedSentence": "Yes, I have spoken to my boss about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi ami bhalo kaj kori, tahole amar maine barbe.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["If I do good work, my salary will go up.", "If I do good work, I will get a promotion.", "My salary went up because I did good work."],
+          "correctAnswer": "If I do good work, my salary will go up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki bidesh e porte jete chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Haan, ami agami bochor jete chai.", "Na, ami bidesh theke phire esechi.", "Haan, ami bidesh e porechilam."],
+          "correctAnswer": "Haan, ami agami bochor jete chai.",
+          "translatedSentence": "Yes, I want to go next year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ichhe ekdin nijer ekta chhoto company kholar.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["My wish is to open my own small company one day.", "My wish is to work in a big company one day.", "One day I will have to close my small company."],
+          "correctAnswer": "My wish is to open my own small company one day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Notun kaj ta niye tumi ki bhabcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Kaj ta bhalo, kintu maine ektu kom.", "Ami kaj ta ekhono shuru kori ni.", "Notun kaj ta kal sesh hoye gechhe."],
+          "correctAnswer": "Kaj ta bhalo, kintu maine ektu kom.",
+          "translatedSentence": "The work is good, but the pay is a little low."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ar deri korte chai na, karon amar hate besi somoy nei.",
+          "sentenceIsTargetLanguage": true,
+          "options": ["I do not want to wait any longer, because I do not have much time left.", "I do not want to be late, because the meeting has already started.", "I have plenty of time left, so I am not in any hurry."],
+          "correctAnswer": "I do not want to wait any longer, because I do not have much time left."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni agami bochor kothay thakben?",
+          "sentenceIsTargetLanguage": true,
+          "options": ["Ami sombhoboto Kolkatatei thakbo, karon amar kaj ekhanei.", "Ami onek bochor age Kolkata theke esechilam.", "Ami agami bochor lomba chhuti nebo."],
+          "correctAnswer": "Ami sombhoboto Kolkatatei thakbo, karon amar kaj ekhanei.",
+          "translatedSentence": "I will probably stay in Kolkata itself, because my work is here."
+        }
+      ]
+    }
+  ]
+}

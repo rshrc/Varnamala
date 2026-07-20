@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten daily",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saptahare kete dina achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saptahare sata dina achi.",
+            "Saptahare pancha dina achi.",
+            "Saptahare dasa dina achi."
+          ],
+          "correctAnswer": "Saptahare sata dina achi.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara hatare kete ta anguli achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora hatare pancha ta anguli achi.",
+            "Mora hatare tini ta anguli achi.",
+            "Mora hatare dasa ta anguli achi."
+          ],
+          "correctAnswer": "Mora hatare pancha ta anguli achi.",
+          "translatedSentence": "I have five fingers on my hand."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dui aau dui mishile kete hue?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dui aau dui mishile chari hue.",
+            "Dui aau dui mishile tini hue.",
+            "Dui aau dui mishile pancha hue."
+          ],
+          "correctAnswer": "Dui aau dui mishile chari hue.",
+          "translatedSentence": "Two and two make four."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kete jana pain cha darkar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chari jana pain darkar.",
+            "Chari kilo darkar.",
+            "Chari taka darkar."
+          ],
+          "correctAnswer": "Chari jana pain darkar.",
+          "translatedSentence": "We need it for four people."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tuma pakhare kete ta pena achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo pakhare dui ta pena achi.",
+            "Mo pakhare dui jana pena achi.",
+            "Mo pakhare dui kilo pena achi."
+          ],
+          "correctAnswer": "Mo pakhare dui ta pena achi.",
+          "translatedSentence": "I have two pens."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora dui jana bhai achanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two brothers.",
+            "I have three brothers.",
+            "I have two sisters."
+          ],
+          "correctAnswer": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame chari jana Puri jauchhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The four of us are going to Puri.",
+            "The five of us are going to Puri.",
+            "The four of us are coming back from Puri."
+          ],
+          "correctAnswer": "The four of us are going to Puri."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote gotie cha dia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me one tea.",
+            "Give me two teas.",
+            "Give me one glass of water."
+          ],
+          "correctAnswer": "Give me one tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pakhare chha ta amba achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have six mangoes.",
+            "I have seven mangoes.",
+            "I want six mangoes."
+          ],
+          "correctAnswer": "I have six mangoes."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Barsare kete masa achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barsare bara masa achi.",
+            "Barsare dasa masa achi.",
+            "Barsare pandara masa achi."
+          ],
+          "correctAnswer": "Barsare bara masa achi.",
+          "translatedSentence": "There are twelve months in a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gotie ghantare kete minit achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gotie ghantare saathi minit achi.",
+            "Gotie ghantare pachasa minit achi.",
+            "Gotie ghantare sae minit achi."
+          ],
+          "correctAnswer": "Gotie ghantare saathi minit achi.",
+          "translatedSentence": "There are sixty minutes in one hour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kodie taka aau dasa taka mishile kete hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabu miliki tirisa taka hela.",
+            "Sabu miliki chalisa taka hela.",
+            "Sabu miliki pachisa taka hela."
+          ],
+          "correctAnswer": "Sabu miliki tirisa taka hela.",
+          "translatedSentence": "It comes to thirty rupees in all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kete ta amba kinila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bara ta amba kinili.",
+            "Mu bara kilo amba kinili.",
+            "Mu bara jana amba kinili."
+          ],
+          "correctAnswer": "Mu bara ta amba kinili.",
+          "translatedSentence": "I bought twelve mangoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sae taka ru chalisa taka kharcha kale kete rahila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saathi taka rahila.",
+            "Pachasa taka rahila.",
+            "Sattari taka rahila."
+          ],
+          "correctAnswer": "Saathi taka rahila.",
+          "translatedSentence": "Sixty rupees are left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pakhare pandara ta bahi achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have fifteen books.",
+            "I have fifty books.",
+            "I have fifteen pens."
+          ],
+          "correctAnswer": "I have fifteen books."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei saharare kodie ta mandira achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twenty temples in this city.",
+            "There are twelve temples in this city.",
+            "There are twenty temples in this village."
+          ],
+          "correctAnswer": "There are twenty temples in this city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame egara jana Cuttack jibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eleven of us will go to Cuttack.",
+            "Twelve of us will go to Cuttack.",
+            "Eleven of us went to Cuttack."
+          ],
+          "correctAnswer": "Eleven of us will go to Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Busre chalisa jana basichhanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Forty people are sitting in the bus.",
+            "Fourteen people are sitting in the bus.",
+            "Forty people are standing in the bus."
+          ],
+          "correctAnswer": "Forty people are sitting in the bus."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much it costs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei ambara dama kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiloku asi taka.",
+            "Mote dui kilo dia.",
+            "Ei amba bhala achi."
+          ],
+          "correctAnswer": "Kiloku asi taka.",
+          "translatedSentence": "Eighty rupees a kilo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dama tike kama karantu na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, sattari taka diantu.",
+            "Achha, aau dasa taka diantu.",
+            "Achha, mo pakhare amba nahin."
+          ],
+          "correctAnswer": "Achha, sattari taka diantu.",
+          "translatedSentence": "All right, give me seventy rupees then."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabu miliki kete taka hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apananka bill eka sae pachisa taka hela.",
+            "Apananka bill eka sae pachisa kilo hela.",
+            "Apananka bill kete taka hela?"
+          ],
+          "correctAnswer": "Apananka bill eka sae pachisa taka hela.",
+          "translatedSentence": "Your bill comes to one hundred and twenty-five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jagannath mandira jiba pain auto bhada kete lagiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pachasa taka lagiba.",
+            "Pachasa minit lagiba.",
+            "Pachasa kilo lagiba."
+          ],
+          "correctAnswer": "Pachasa taka lagiba.",
+          "translatedSentence": "It will cost fifty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ehi chhena poda ta kete taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gotiku chalisa taka.",
+            "Kiloku chalisa taka.",
+            "Sabu miliki chalisa taka."
+          ],
+          "correctAnswer": "Gotiku chalisa taka.",
+          "translatedSentence": "Forty rupees each."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ehara dama besi, tike kama karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is too expensive, please lower the price a little.",
+            "This is quite cheap, please give me a little more.",
+            "The price is fine, I will take two of them."
+          ],
+          "correctAnswer": "This is too expensive, please lower the price a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote dui kilo aloo o eka kilo pyaja dia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me two kilos of potatoes and one kilo of onions.",
+            "Give me one kilo of potatoes and two kilos of onions.",
+            "Give me two kilos of onions and one kilo of potatoes."
+          ],
+          "correctAnswer": "Give me two kilos of potatoes and one kilo of onions."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pakhare mate pachasa taka achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only have fifty rupees on me.",
+            "I only have five hundred rupees on me.",
+            "I do not have fifty rupees on me."
+          ],
+          "correctAnswer": "I only have fifty rupees on me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei hotelre pakhala thali mate saathi taka.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A pakhala meal is only sixty rupees at this restaurant.",
+            "A pakhala meal is six hundred rupees at this restaurant.",
+            "A pakhala meal is not available at this restaurant."
+          ],
+          "correctAnswer": "A pakhala meal is only sixty rupees at this restaurant."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and Quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bayasa kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora bayasa chalisa barsa.",
+            "Mora bayasa chalisa masa.",
+            "Mora bhaira bayasa chalisa barsa."
+          ],
+          "correctAnswer": "Mora bayasa chalisa barsa.",
+          "translatedSentence": "I am forty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu tirisa barsara, tume mo thu dui barsa sana. Tumara bayasa kete?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora bayasa athais barsa.",
+            "Mora bayasa batisa barsa.",
+            "Mora bayasa tirisa barsa."
+          ],
+          "correctAnswer": "Mora bayasa athais barsa.",
+          "translatedSentence": "I am twenty-eight years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei nambara ta thik nuhen, apana punarbara kahantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, sunantu, nau sata dui pancha eka chari tini atha.",
+            "Achha, mu apananka nambara jane nahin.",
+            "Achha, mu punarbara call karibi."
+          ],
+          "correctAnswer": "Achha, sunantu, nau sata dui pancha eka chari tini atha.",
+          "translatedSentence": "All right, listen: nine seven two five one four three eight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume dine kete gilas pani piucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dine atha gilas pani pie.",
+            "Mu dine atha kapa cha pie.",
+            "Mu dine atha thara khae."
+          ],
+          "correctAnswer": "Mu dine atha gilas pani pie.",
+          "translatedSentence": "I drink eight glasses of water a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mora bayasa chalisa barsa, kintu apana mo thu bada, na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu apananka thu pancha barsa bada.",
+            "Han, mu apananka thu pancha barsa sana.",
+            "Nahin, mora bayasa chalisa barsa."
+          ],
+          "correctAnswer": "Han, mu apananka thu pancha barsa bada.",
+          "translatedSentence": "Yes, I am five years older than you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora pua ebe dasa barsara heigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son has just turned ten.",
+            "My daughter has just turned ten.",
+            "My son will turn ten next year."
+          ],
+          "correctAnswer": "My son has just turned ten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote apananka phone nambara darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need your phone number.",
+            "I already have your phone number.",
+            "I need your address."
+          ],
+          "correctAnswer": "I need your phone number."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amara gharare pancha jana rahanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Five people live in our house.",
+            "Four people live in our house.",
+            "Five people are visiting our house."
+          ],
+          "correctAnswer": "Five people live in our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tike lunu dia, besi nuhen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a little salt, not too much.",
+            "Give me plenty of salt, not too little.",
+            "Do not give me any salt at all."
+          ],
+          "correctAnswer": "Give me a little salt, not too much."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puri jiba train kete bajile chharibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sakala satata bajile chharibe.",
+            "Sakala sata ghanta lagiba.",
+            "Sakala sata taka lagiba."
+          ],
+          "correctAnswer": "Sakala satata bajile chharibe.",
+          "translatedSentence": "It leaves at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ebe kete bajila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ebe sadhe pancha ta bajila.",
+            "Ebe pancha minit bajila.",
+            "Ebe pancha ghanta hela."
+          ],
+          "correctAnswer": "Ebe sadhe pancha ta bajila.",
+          "translatedSentence": "It is half past five now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana sakalu kete bajile uthanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sakala pancha ta bajile uthe.",
+            "Mu sakala pancha ghanta uthe.",
+            "Tume sakala pancha ta bajile utha."
+          ],
+          "correctAnswer": "Mu sakala pancha ta bajile uthe.",
+          "translatedSentence": "I get up at five in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame kete bajile Jagannath mandira jiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sandhya chha ta bajile jiba, tebe bhida kama thiba.",
+            "Sandhya chha ghanta jiba, tebe bhida kama thiba.",
+            "Sandhya chha ta bajigala, tebe bhida kama thila."
+          ],
+          "correctAnswer": "Sandhya chha ta bajile jiba, tebe bhida kama thiba.",
+          "translatedSentence": "Let us go at six in the evening, there will be less of a crowd then."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei cinema kete ghanta chaliba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prayah dui ghanta chaliba.",
+            "Prayah dui ta bajiba.",
+            "Prayah dui minit chaliba."
+          ],
+          "correctAnswer": "Prayah dui ghanta chaliba.",
+          "translatedSentence": "It will run for about two hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu sakala atha ta bajile office jae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office at eight in the morning.",
+            "I go to the office at eight at night.",
+            "I come home from the office at eight in the morning."
+          ],
+          "correctAnswer": "I go to the office at eight in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratri dasa ta bajigala, ebe sui pada.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is ten at night, go to sleep now.",
+            "It is ten in the morning, get up now.",
+            "It is ten at night, but I am not sleepy."
+          ],
+          "correctAnswer": "It is ten at night, go to sleep now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train adha ghanta bilambare asiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train will arrive half an hour late.",
+            "The train will arrive half an hour early.",
+            "The train left half an hour ago."
+          ],
+          "correctAnswer": "The train will arrive half an hour late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dupura bara ta bajile ame pakhala khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat pakhala at twelve noon.",
+            "We cook pakhala at twelve noon.",
+            "We eat pakhala at twelve midnight."
+          ],
+          "correctAnswer": "We eat pakhala at twelve noon."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less, total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jadi ame chari jana jibu, tebe kete taka lagiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dui sae taka lagiba, karana jane pachasa taka.",
+            "Pachasa taka lagiba, karana jane dui sae taka.",
+            "Dui ghanta lagiba, karana rasta kharap."
+          ],
+          "correctAnswer": "Dui sae taka lagiba, karana jane pachasa taka.",
+          "translatedSentence": "It will cost two hundred rupees, because it is fifty each."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji kali thu besi loka asichhanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, aji kali thu besi loka asichhanti.",
+            "Han, aji kali thu kama loka asichhanti.",
+            "Nahin, aji kali thu besi loka asichhanti."
+          ],
+          "correctAnswer": "Han, aji kali thu besi loka asichhanti.",
+          "translatedSentence": "Yes, more people have come today than yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote aau tike dalma diantu, hoile bhata besi darkar nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achha, mu aau tike dalma dechhi.",
+            "Achha, mu aau tike bhata dechhi.",
+            "Achha, mu dalma o bhata duiti aau dechhi."
+          ],
+          "correctAnswer": "Achha, mu aau tike dalma dechhi.",
+          "translatedSentence": "All right, I am giving you a little more dalma."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo pakhare mate sae taka achi, kintu bill dui sae taka hela.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta karantu nahin, baki sae taka mu dei debi.",
+            "Chinta karantu nahin, baki dui hajara taka mu dei debi.",
+            "Chinta karantu nahin, mu apananka taka nebi nahin."
+          ],
+          "correctAnswer": "Chinta karantu nahin, baki sae taka mu dei debi.",
+          "translatedSentence": "Do not worry, I will pay the remaining hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kie besi amba khaila, tume ki mu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tume besi khaila, mu mate duita khaithili.",
+            "Mu besi khaili, mu mate duita khaithili.",
+            "Tume kama khaila, mu pancha ta khaithili."
+          ],
+          "correctAnswer": "Tume besi khaila, mu mate duita khaithili.",
+          "translatedSentence": "You ate more, I only had two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji bikri kama hela, karana bristi hoithila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sales were low today, because it rained.",
+            "Sales were good today, because it rained.",
+            "Sales were low today, but it did not rain."
+          ],
+          "correctAnswer": "Sales were low today, because it rained."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu tini sae taka mangithili, kintu se dui sae taka dela.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I asked for three hundred rupees, but he gave me two hundred.",
+            "I asked for two hundred rupees, but he gave me three hundred.",
+            "I asked for three hundred rupees, and he gave me all of it."
+          ],
+          "correctAnswer": "I asked for three hundred rupees, but he gave me two hundred."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi dasa jana asibe, tebe ame aau pancha ta chauki anibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If ten people come, we will bring five more chairs.",
+            "If ten people come, we will take five chairs away.",
+            "When ten people came, we brought five more chairs."
+          ],
+          "correctAnswer": "If ten people come, we will bring five more chairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ebe amara sarbamota pandara jana achanti, aau kehi asibe nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are fifteen of us in total now, and nobody else will come.",
+            "There are fifteen of us in total now, and a few more will come.",
+            "There are fifty of us in total now, and nobody else will come."
+          ],
+          "correctAnswer": "There are fifteen of us in total now, and nobody else will come."
+        }
+      ]
+    }
+  ]
+}

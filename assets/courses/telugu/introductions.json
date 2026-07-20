@@ -1,0 +1,721 @@
+{
+  "course": "introductions",
+  "title": "Introductions",
+  "description": "Introduce yourself and get someone to open up.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Name and hometown",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee peru emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa peru {name}.",
+            "Naaku Telugu telusu.",
+            "Nenu baagunnanu."
+          ],
+          "correctAnswer": "Naa peru {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkada nunchi vachcharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad nunchi vachchanu.",
+            "Naa peru Ravi.",
+            "Nenu ippudu veltunnanu."
+          ],
+          "correctAnswer": "Nenu Hyderabad nunchi vachchanu.",
+          "translatedSentence": "I have come from Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu Hyderabad lo untanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Hyderabad.",
+            "I am going to Hyderabad.",
+            "I like Hyderabad a lot."
+          ],
+          "correctAnswer": "I live in Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ooru ekkada?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa ooru Vijayawada.",
+            "Naa illu chala peddadi.",
+            "Nenu ooriki veltunnanu."
+          ],
+          "correctAnswer": "Naa ooru Vijayawada.",
+          "translatedSentence": "My hometown is Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who are you?",
+            "Where are you?",
+            "How are you?"
+          ],
+          "correctAnswer": "Who are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru baagunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu baagunnanu, meeru?",
+            "Naa peru baagundi.",
+            "Nenu Vijayawada lo untanu."
+          ],
+          "correctAnswer": "Nenu baagunnanu, meeru?",
+          "translatedSentence": "I am well, and you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa peru Ravi, nenu Vijayawada nunchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Ravi and I am from Vijayawada.",
+            "My friend Ravi is from Vijayawada.",
+            "Ravi, are you from Vijayawada?"
+          ],
+          "correctAnswer": "My name is Ravi and I am from Vijayawada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru Hyderabad lo untara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu ikkade untanu.",
+            "Ledu, naaku Telugu raadu.",
+            "Naaku biryani chala ishtam."
+          ],
+          "correctAnswer": "Avunu, nenu ikkade untanu.",
+          "translatedSentence": "Yes, I live right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu ikkadaki kotta ga vachchanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am new here.",
+            "I come here often.",
+            "I want to go there."
+          ],
+          "correctAnswer": "I am new here."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Age and work",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee vayasu enta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku iravai aidu sanvatsaralu.",
+            "Naa daggara iravai rupayalu unnayi.",
+            "Naa peru {name}."
+          ],
+          "correctAnswer": "Naaku iravai aidu sanvatsaralu.",
+          "translatedSentence": "I am twenty-five years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru emi chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu oka company lo pani chestanu.",
+            "Nenu ippudu intiki veltunnanu.",
+            "Naaku ee pani telusu."
+          ],
+          "correctAnswer": "Nenu oka company lo pani chestanu.",
+          "translatedSentence": "I work at a company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku muppai sanvatsaralu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thirty years old.",
+            "I have been here thirty days.",
+            "There are thirty people."
+          ],
+          "correctAnswer": "I am thirty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkada pani chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad lo pani chestanu.",
+            "Nenu roju pani chestanu.",
+            "Naaku ee pani nachchadu."
+          ],
+          "correctAnswer": "Nenu Hyderabad lo pani chestanu.",
+          "translatedSentence": "I work in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu teacher ga pani chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work as a teacher.",
+            "I am looking for a teacher.",
+            "My teacher works here."
+          ],
+          "correctAnswer": "I work as a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru inka student aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu inka chaduvutunnanu.",
+            "Ledu, naa ooru chala dooram.",
+            "Ledu, naaku ikkada snehitulu ledu."
+          ],
+          "correctAnswer": "Avunu, nenu inka chaduvutunnanu.",
+          "translatedSentence": "Yes, I am still studying."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa office Charminar daggara undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My office is near Charminar.",
+            "My office is far from Charminar.",
+            "I am going to Charminar now."
+          ],
+          "correctAnswer": "My office is near Charminar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru roju enni gantalu pani chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu roju enimidi gantalu pani chestanu.",
+            "Nenu udayam enimidi gantalaki lestanu.",
+            "Naa pani chala kashtam ga undi."
+          ],
+          "correctAnswer": "Nenu roju enimidi gantalu pani chestanu.",
+          "translatedSentence": "I work eight hours every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu ippudu pani cheyyatam ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not working right now.",
+            "I do not want to work here.",
+            "I will not come to work."
+          ],
+          "correctAnswer": "I am not working right now."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Languages you speak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku Telugu telusa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku konchem Telugu telusu.",
+            "Nenu Telugu nerchukovadam ledu.",
+            "Naaku Telugu cinemalu ishtam."
+          ],
+          "correctAnswer": "Naaku konchem Telugu telusu.",
+          "translatedSentence": "I know a little Telugu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni bhashalu maatladataru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu moodu bhashalu maatladatanu.",
+            "Nenu roju Telugu chaduvutanu.",
+            "Naaku ee bhasha kashtam ga undi."
+          ],
+          "correctAnswer": "Nenu moodu bhashalu maatladatanu.",
+          "translatedSentence": "I speak three languages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku Telugu chadavadam raadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot read Telugu.",
+            "I do not speak Telugu.",
+            "I do not like reading Telugu."
+          ],
+          "correctAnswer": "I cannot read Telugu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru Telugu ekkada nerchukunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad lo nerchukunnanu.",
+            "Nenu Telugu baaga maatladatanu.",
+            "Naaku oka Telugu teacher kaavali."
+          ],
+          "correctAnswer": "Nenu Hyderabad lo nerchukunnanu.",
+          "translatedSentence": "I learned it in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem nemmadi ga cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please say it a little slowly.",
+            "Please say it one more time.",
+            "Please speak a little louder."
+          ],
+          "correctAnswer": "Please say it a little slowly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku Hindi raadu, meeku English telusa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku English baaga telusu.",
+            "Ledu, naaku Hindi chala ishtam.",
+            "Nenu Hindi lo raastanu."
+          ],
+          "correctAnswer": "Avunu, naaku English baaga telusu.",
+          "translatedSentence": "Yes, I know English well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu Telugu nerchukuntunnanu, kaani inka kashtam ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am learning Telugu, but it is still hard.",
+            "I learned Telugu, and it was not hard at all.",
+            "I want to learn Telugu because it is hard."
+          ],
+          "correctAnswer": "I am learning Telugu, but it is still hard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru Telugu ela practice chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu roju oka app lo practice chestanu.",
+            "Nenu Telugu chala baaga nerchukunnanu.",
+            "Naaku Telugu paatalu vinadam ishtam."
+          ],
+          "correctAnswer": "Nenu roju oka app lo practice chestanu.",
+          "translatedSentence": "I practise on an app every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru Telugu lo maatladite naaku artham avutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you speak in Telugu, I can understand.",
+            "When I speak in Telugu, you understand me.",
+            "I understand Telugu but I cannot speak it."
+          ],
+          "correctAnswer": "If you speak in Telugu, I can understand."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking about someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu Vijayawada nunchi vachchanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeru ikkada enni rojula nunchi unnaru?",
+            "Naa peru kuda Vijayawada.",
+            "Nenu kuda ikkade pani chestanu."
+          ],
+          "correctAnswer": "Meeru ikkada enni rojula nunchi unnaru?",
+          "translatedSentence": "How long have you been here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku ikkada evaru telisina vaallu ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aithe mimmalni naa snehitulaki parichayam chestanu.",
+            "Naaku ikkada chala pani undi.",
+            "Meeku ee ooru baaga telusu."
+          ],
+          "correctAnswer": "Aithe mimmalni naa snehitulaki parichayam chestanu.",
+          "translatedSentence": "Then I will introduce you to my friends."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru ikkadaki enduku vachcharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why did you come here?",
+            "When did you come here?",
+            "How did you come here?"
+          ],
+          "correctAnswer": "Why did you come here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ekkada chaduvutunnav?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad lo oka college lo chaduvutunnanu.",
+            "Naaku chaduvu antha ishtam ledu.",
+            "Nenu roju college ki auto lo veltanu."
+          ],
+          "correctAnswer": "Nenu Hyderabad lo oka college lo chaduvutunnanu.",
+          "translatedSentence": "I am studying at a college in Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeku ee ooru nachchindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Did you like this town?",
+            "Do you know this town?",
+            "Is this your town?"
+          ],
+          "correctAnswer": "Did you like this town?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee family kuda Hyderabad lo undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, vaallu Vijayawada lo untaru.",
+            "Avunu, naaku vaallu baaga telusu.",
+            "Ledu, nenu ikkada pani chestanu."
+          ],
+          "correctAnswer": "Ledu, vaallu Vijayawada lo untaru.",
+          "translatedSentence": "No, they live in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu evaritho ikkada untunnav?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who are you staying here with?",
+            "Where exactly are you staying here?",
+            "Why are you staying here?"
+          ],
+          "correctAnswer": "Who are you staying here with?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ikkadi tindi nachchindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku pesarattu chala nachchindi.",
+            "Ledu, naaku vanta cheyyadam raadu.",
+            "Avunu, nenu roju hotel ki veltanu."
+          ],
+          "correctAnswer": "Avunu, naaku pesarattu chala nachchindi.",
+          "translatedSentence": "Yes, I really liked the pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru cheppandi, mee gurinchi konchem telusukovaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please tell me, I would like to know a little about you.",
+            "Tell me if you know a little about him.",
+            "I already told you a little about myself."
+          ],
+          "correctAnswer": "Please tell me, I would like to know a little about you."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "This is my friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Atanu evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atanu naa snehitudu Ravi.",
+            "Nenu atani snehitudini.",
+            "Atanu ikkada ledu."
+          ],
+          "correctAnswer": "Atanu naa snehitudu Ravi.",
+          "translatedSentence": "He is my friend Ravi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aame mee snehituraalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, aame naa snehituraalu Sita.",
+            "Avunu, atanu naa tammudu.",
+            "Ledu, naaku snehitulu chala mandi unnaru."
+          ],
+          "correctAnswer": "Avunu, aame naa snehituraalu Sita.",
+          "translatedSentence": "Yes, she is my friend Sita."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi naa snehituraalu, aame peru Sita.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend, her name is Sita.",
+            "This is my sister, her name is Sita.",
+            "My friend Sita is not here today."
+          ],
+          "correctAnswer": "This is my friend, her name is Sita."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ravi emi chestadu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atanu oka hospital lo doctor.",
+            "Nenu atanitho paatu pani chestanu.",
+            "Atanu Telugu chala baaga maatladatadu."
+          ],
+          "correctAnswer": "Atanu oka hospital lo doctor.",
+          "translatedSentence": "He is a doctor at a hospital."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Atanu naatho paatu office lo pani chestadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He works with me at the office.",
+            "He used to work with me at the office.",
+            "He wants to work with me at the office."
+          ],
+          "correctAnswer": "He works with me at the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee snehitudu ekkada nunchi vachchadu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Atanu Vijayawada nunchi vachchadu.",
+            "Nenu atanini ikkada kalisanu.",
+            "Atanu naa kanna pedda vaadu."
+          ],
+          "correctAnswer": "Atanu Vijayawada nunchi vachchadu.",
+          "translatedSentence": "He came from Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aame Telugu maatladutundi, kaani aameku English raadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She speaks Telugu, but she does not know English.",
+            "She speaks English, but she does not know Telugu.",
+            "She is learning both Telugu and English."
+          ],
+          "correctAnswer": "She speaks Telugu, but she does not know English."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru iddaru ela parichayam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Memu okate college lo chadivamu.",
+            "Memu iddaram Telugu maatladatamu.",
+            "Atanu naaku roju call chestadu."
+          ],
+          "correctAnswer": "Memu okate college lo chadivamu.",
+          "translatedSentence": "We studied at the same college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa snehitudu ikkade untadu kabatti memu tarachuga kalustamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend lives right here, so we meet often.",
+            "My friend lives far away, so we rarely meet.",
+            "If my friend lived here, we would meet often."
+          ],
+          "correctAnswer": "My friend lives right here, so we meet often."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Numbers and staying in touch",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee phone number cheppagalara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, nenu ippude meeku message chestanu.",
+            "Naa phone intilo undipoyindi.",
+            "Naaku mee peru gurtu ledu."
+          ],
+          "correctAnswer": "Tappakunda, nenu ippude meeku message chestanu.",
+          "translatedSentence": "Of course, I will message you right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku WhatsApp undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naa number rasukondi.",
+            "Ledu, naaku mee number telidu.",
+            "Avunu, nenu roju phone chestanu."
+          ],
+          "correctAnswer": "Avunu, naa number rasukondi.",
+          "translatedSentence": "Yes, please write down my number."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa number rasukondi, nenu meeku message chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Write down my number, I will message you.",
+            "I wrote your number down and messaged you.",
+            "Give me your number and message me."
+          ],
+          "correctAnswer": "Write down my number, I will message you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malli eppudu kaluddam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeku okay aithe vachche vaaram kaluddam.",
+            "Nenu ninna mimmalni kalisanu.",
+            "Nenu ippude intiki veltunnanu."
+          ],
+          "correctAnswer": "Meeku okay aithe vachche vaaram kaluddam.",
+          "translatedSentence": "If it works for you, let us meet next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru Hyderabad vaste, naaku tappakunda cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come to Hyderabad, be sure to tell me.",
+            "When I come to Hyderabad, I will surely tell you.",
+            "You came to Hyderabad but did not tell me."
+          ],
+          "correctAnswer": "If you come to Hyderabad, be sure to tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Repu neetho maatladocha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, saayantram naaku call cheyyi.",
+            "Nenu ninna neeku call chesanu.",
+            "Naaku nee peru gurtundi."
+          ],
+          "correctAnswer": "Tappakunda, saayantram naaku call cheyyi.",
+          "translatedSentence": "Of course, call me in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ippudu naaku pani undi, kaani saayantram tappakunda call chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have work now, but I will definitely call in the evening.",
+            "I have no work now, so I can call you in the evening.",
+            "I called in the evening because I had work all day."
+          ],
+          "correctAnswer": "I have work now, but I will definitely call in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mimmalni kalavadam chala santosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku kuda chala santosham, malli kaluddam.",
+            "Naaku ikkada evaru telidu.",
+            "Nenu mimmalni ikkada choodaledu."
+          ],
+          "correctAnswer": "Naaku kuda chala santosham, malli kaluddam.",
+          "translatedSentence": "I am very happy too, let us meet again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru irani chai taagadaniki vaste, nenu Charminar daggara untanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come for an Irani chai, I will be near Charminar.",
+            "I drank an Irani chai near Charminar yesterday.",
+            "Come near Charminar, but do not drink Irani chai."
+          ],
+          "correctAnswer": "If you come for an Irani chai, I will be near Charminar."
+        }
+      ]
+    }
+  ]
+}

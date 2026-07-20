@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aakasha yaava banna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aakasha neeli banna.",
+            "Aakasha kempu banna.",
+            "Aakasha haladi banna."
+          ],
+          "correctAnswer": "Aakasha neeli banna.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hoovu kempu bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is red.",
+            "This flower is white.",
+            "That leaf is red."
+          ],
+          "correctAnswer": "This flower is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee ele yaava banna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee ele hasiru bannada ide.",
+            "Ee ele kappu bannada ide.",
+            "Ee ele gulabi bannada ide."
+          ],
+          "correctAnswer": "Ee ele hasiru bannada ide.",
+          "translatedSentence": "This leaf is green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Haalu bili bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk is white.",
+            "Milk is sweet.",
+            "The water is white."
+          ],
+          "correctAnswer": "Milk is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suryakanti hoovu yaava banna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu haladi banna.",
+            "Adu neeli banna.",
+            "Adu kappu banna."
+          ],
+          "correctAnswer": "Adu haladi banna.",
+          "translatedSentence": "It is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaage kappu bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The crow is black.",
+            "The crow is small.",
+            "The cow is black."
+          ],
+          "correctAnswer": "The crow is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage yaava banna ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage hasiru banna ishta.",
+            "Nanage ragi mudde ishta.",
+            "Nanage filter kaapi beku."
+          ],
+          "correctAnswer": "Nanage hasiru banna ishta.",
+          "translatedSentence": "I like green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage bili banna tumba ishta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour white a lot.",
+            "I like the colour black a lot.",
+            "I do not like white at all."
+          ],
+          "correctAnswer": "I like the colour white a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kittale hannu yaava banna?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu kittale banna ide.",
+            "Adu bili banna ide.",
+            "Adu hasiru banna ide."
+          ],
+          "correctAnswer": "Adu kittale banna ide.",
+          "translatedSentence": "It is orange."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kaaru yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna kaaru bili bannada ide.",
+            "Nanna kaaru tumba doddadu.",
+            "Nanna kaaru mane munde ide."
+          ],
+          "correctAnswer": "Nanna kaaru bili bannada ide.",
+          "translatedSentence": "My car is white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee mane hasiru bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This house is green.",
+            "This house is very big.",
+            "That house is green."
+          ],
+          "correctAnswer": "This house is green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chappali yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee chappali kappu bannada ide.",
+            "Ee chappali swalpa doddadu.",
+            "Ee chappali nanna alla."
+          ],
+          "correctAnswer": "Ee chappali kappu bannada ide.",
+          "translatedSentence": "These slippers are black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna chila kempu bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag is red.",
+            "My bag is black.",
+            "Your bag is red."
+          ],
+          "correctAnswer": "My bag is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pustaka yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee pustaka neeli bannada ide.",
+            "Ee pustaka tumba chennagide.",
+            "Ee pustaka nanna tangiya pustaka."
+          ],
+          "correctAnswer": "Ee pustaka neeli bannada ide.",
+          "translatedSentence": "This book is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "BMTC bus kempu mattu bili bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The BMTC bus is red and white.",
+            "The BMTC bus is red and yellow.",
+            "The BMTC bus is late today."
+          ],
+          "correctAnswer": "The BMTC bus is red and white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna mobile yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna mobile kappu bannada ide.",
+            "Nanna mobile mane alli ide.",
+            "Nanna mobile hosadu."
+          ],
+          "correctAnswer": "Nanna mobile kappu bannada ide.",
+          "translatedSentence": "My phone is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee lota haladi bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This tumbler is yellow.",
+            "This tumbler is orange.",
+            "That tumbler is yellow."
+          ],
+          "correctAnswer": "This tumbler is yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma mane baagilu yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namma mane baagilu kandu bannada ide.",
+            "Namma mane baagilu doddadu.",
+            "Namma mane Bengaluru alli ide."
+          ],
+          "correctAnswer": "Namma mane baagilu kandu bannada ide.",
+          "translatedSentence": "Our front door is brown."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava bannada angi beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage neeli bannada angi beku.",
+            "Nanage angi beda, kaapi beku.",
+            "Nanage ee angi saakagilla."
+          ],
+          "correctAnswer": "Nanage neeli bannada angi beku.",
+          "translatedSentence": "I want a blue shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage kempu bannadu beda, hasiru bannadu koduri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want the red one, please give me the green one.",
+            "I do not want the green one, please give me the red one.",
+            "I want both the red one and the green one."
+          ],
+          "correctAnswer": "I do not want the red one, please give me the green one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage kappu chila beka athava bili chila beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage kappu chila beku.",
+            "Nanage chila beda, angi beku.",
+            "Nanage eradu chila gottilla."
+          ],
+          "correctAnswer": "Nanage kappu chila beku.",
+          "translatedSentence": "I want the black bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bannadalli innondu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have another one in this colour?",
+            "Do you have this one in another colour?",
+            "Will this colour come tomorrow?"
+          ],
+          "correctAnswer": "Do you have another one in this colour?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaava banna nimage hechchu ishta, neeli athava hasiru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage neeli banna hechchu ishta.",
+            "Nanage eradu bannagalu gottilla.",
+            "Nanage banna beda, size beku."
+          ],
+          "correctAnswer": "Nanage neeli banna hechchu ishta.",
+          "translatedSentence": "I like blue more."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage swalpa tili bannada seere beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a saree in a slightly lighter colour.",
+            "I want a saree in a slightly darker colour.",
+            "I want a slightly bigger saree."
+          ],
+          "correctAnswer": "I want a saree in a slightly lighter colour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gulabi bannada seere nimage hege ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idu tumba chennagide, ide beku.",
+            "Nanage seere haakalu gottilla.",
+            "Ee seere kappu bannada ide."
+          ],
+          "correctAnswer": "Idu tumba chennagide, ide beku.",
+          "translatedSentence": "This is very nice, I want this one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kshamisi, kappu bannadu nammalli illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, we do not have it in black.",
+            "Sorry, the black one is very expensive.",
+            "Sorry, we only have it in black."
+          ],
+          "correctAnswer": "Sorry, we do not have it in black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innu yaava banna torisali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haladi bannadu torisi.",
+            "Ee angi nanage tumba doddadu.",
+            "Nanage swalpa kaapi kudiyabeku."
+          ],
+          "correctAnswer": "Haladi bannadu torisi.",
+          "translatedSentence": "Please show me the yellow one."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maduvege naanu yaava bannada angi haakikolli?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bili angi haakikolli, chennagi kaanutte.",
+            "Maduvege naanu barolla.",
+            "Nanage maduve oota tumba ishta."
+          ],
+          "correctAnswer": "Bili angi haakikolli, chennagi kaanutte.",
+          "translatedSentence": "Wear the white shirt, it will look good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kempu seere nanna ammanige tumba ishta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother likes this red saree very much.",
+            "My sister likes this red saree very much.",
+            "My mother bought this red saree."
+          ],
+          "correctAnswer": "My mother likes this red saree very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna hosa angi yaava bannada ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna hosa angi kandu bannada ide.",
+            "Nanna hosa angi nenne kondukonde.",
+            "Nanna hosa angi Mysuru inda bantu."
+          ],
+          "correctAnswer": "Nanna hosa angi kandu bannada ide.",
+          "translatedSentence": "My new shirt is brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kappu angi nanage swalpa doddadu aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This black shirt is a bit too big for me.",
+            "This black shirt is a bit too small for me.",
+            "This black shirt is a bit too expensive for me."
+          ],
+          "correctAnswer": "This black shirt is a bit too big for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeli angi jothe yaava bannada chappali chennagi kaanutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bili chappali chennagi kaanutte.",
+            "Chappali illade hogona.",
+            "Nanage neeli banna ishta illa."
+          ],
+          "correctAnswer": "Bili chappali chennagi kaanutte.",
+          "translatedSentence": "White slippers will look good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bannada angi office ge sari hogolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "A shirt of this colour is not right for the office.",
+            "A shirt of this colour is perfect for the office.",
+            "This shirt is not the right size for the office."
+          ],
+          "correctAnswer": "A shirt of this colour is not right for the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenne kondukonda haladi churidar nimage ishta aaytha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, adu nanage tumba ishta aaytu.",
+            "Illa, nanage churidar haakalu gottilla.",
+            "Naanu naale hosa seere kolluttene."
+          ],
+          "correctAnswer": "Houdu, adu nanage tumba ishta aaytu.",
+          "translatedSentence": "Yes, I liked it very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna tangi yaavaglu gulabi bannada batte haakkotaale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister always wears pink clothes.",
+            "My younger sister sometimes wears pink clothes.",
+            "My elder sister always wears pink clothes."
+          ],
+          "correctAnswer": "My younger sister always wears pink clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bili angi jothe kappu pantu chennagide alva?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, adu tumba chennagi kaanutte.",
+            "Illa, nanage bili banna gottilla.",
+            "Naanu yaavaglu angi haakkolla."
+          ],
+          "correctAnswer": "Houdu, adu tumba chennagi kaanutte.",
+          "translatedSentence": "Yes, that looks very good."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cubbon Park nalli yaava bannada hoovugalu jaasti iddaave?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alli haladi mattu kempu hoovugalu jaasti iddaave.",
+            "Cubbon Park Bengaluru nalli ide.",
+            "Naanu Cubbon Park ge dina hoguttene."
+          ],
+          "correctAnswer": "Alli haladi mattu kempu hoovugalu jaasti iddaave.",
+          "translatedSentence": "There are mostly yellow and red flowers there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Male baruva munche aakasha boodi banna aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before it rains the sky turns grey.",
+            "Before it rains the sky turns black.",
+            "After the rain the sky turns blue."
+          ],
+          "correctAnswer": "Before it rains the sky turns grey."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Signal nalli kempu deepa iddare enu maadabeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kempu deepa iddare nintukolli.",
+            "Kempu deepa iddare bega hogi.",
+            "Kempu deepa nanage tumba ishta."
+          ],
+          "correctAnswer": "Kempu deepa iddare nintukolli.",
+          "translatedSentence": "If the light is red, you must stop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rathri Mysuru aramane haladi deepagalinda belaguttade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At night the Mysuru palace glows with yellow lights.",
+            "At night the Mysuru palace is closed to visitors.",
+            "In the evening the Mysuru palace looks white."
+          ],
+          "correctAnswer": "At night the Mysuru palace glows with yellow lights."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namma ooru bassugalu yaava bannada iruttave?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avu kempu mattu bili bannada iruttave.",
+            "Avu yaavaglu tumba tumbi iruttave.",
+            "Naanu yaavaglu bus nalli hoguttene."
+          ],
+          "correctAnswer": "Avu kempu mattu bili bannada iruttave.",
+          "translatedSentence": "They are red and white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadde ella hasiru bannadinda haladi banna aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The whole field has turned from green to yellow.",
+            "The whole field has turned from yellow to green.",
+            "The whole field is still green."
+          ],
+          "correctAnswer": "The whole field has turned from green to yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beesige nalli gulmohar mara yaava banna aagutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu kittale mattu kempu banna aagutte.",
+            "Adu chali kaaladalli hoovu bidutte.",
+            "Nanage mara hattalu gottilla."
+          ],
+          "correctAnswer": "Adu kittale mattu kempu banna aagutte.",
+          "translatedSentence": "It turns orange and red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cubbon Park nalli hasiru maragalu tumba iddaave.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of green trees in Cubbon Park.",
+            "There are only a few green trees in Cubbon Park.",
+            "There are a lot of flowers in Cubbon Park."
+          ],
+          "correctAnswer": "There are a lot of green trees in Cubbon Park."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Filter kaapi yaava bannada iruttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu kandu bannada iruttade.",
+            "Adu yaavaglu tumba bisi iruttade.",
+            "Adu nanage dina beku."
+          ],
+          "correctAnswer": "Adu kandu bannada iruttade.",
+          "translatedSentence": "It is brown."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee eradaralli yaava banna nimage hechchu ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gaadha neeli banna hechchu ishta, yaakendare adu nanna angige hondutte.",
+            "Nanage eradu bannagala hesaru gottilla.",
+            "Naanu yaavaglu banna nodi kollolla."
+          ],
+          "correctAnswer": "Gaadha neeli banna hechchu ishta, yaakendare adu nanna angige hondutte.",
+          "translatedSentence": "I like the dark blue more, because it goes with my shirt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee banna nimage chennagi hondutte, aadare swalpa gaadha ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour suits you well, but it is a little too dark.",
+            "This colour suits you well, but it is a little too light.",
+            "This colour does not suit you, and it is too dark."
+          ],
+          "correctAnswer": "This colour suits you well, but it is a little too dark."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tili gulabi athava gaadha kempu, yaavudu nanage chennagi kaanutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tili gulabi chennagi kaanutte, yaakendare adu beesigege sariyaagide.",
+            "Eradu bannagalu nimage sari hogolla.",
+            "Nanage gulabi bannada hesaru gottilla."
+          ],
+          "correctAnswer": "Tili gulabi chennagi kaanutte, yaakendare adu beesigege sariyaagide.",
+          "translatedSentence": "The light pink looks good, because it is right for the summer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage gaadha bannagalu ishta, aadare beesige nalli tili banna haakkotene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like dark colours, but in summer I wear light ones.",
+            "I like light colours, but in summer I wear dark ones.",
+            "I like dark colours, and I wear them in summer too."
+          ],
+          "correctAnswer": "I like dark colours, but in summer I wear light ones."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma abhipraayadalli, ee kappu seere nanage sari hogutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, adu nimage hondutte, aadare tili bannadu innu chennagi kaanutte.",
+            "Illa, nanage seere kollalu ishta illa.",
+            "Nanage seerege banna aayke maadalu gottilla."
+          ],
+          "correctAnswer": "Houdu, adu nimage hondutte, aadare tili bannadu innu chennagi kaanutte.",
+          "translatedSentence": "Yes, it suits you, but the lighter one would look even better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimage ee banna ishta aagadiddare, naanu bere banna torisuttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like this colour, I will show you another one.",
+            "If you like this colour, I will show you another one.",
+            "I do not like this colour, so I will show you another one."
+          ],
+          "correctAnswer": "If you do not like this colour, I will show you another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake neevu yaavaglu kappu banna haakkotira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaakendare kappu banna ella bannagala jothe hondutte.",
+            "Nanage hosa kappu chappali beku.",
+            "Naanu nenne kappu angi kondukonde."
+          ],
+          "correctAnswer": "Yaakendare kappu banna ella bannagala jothe hondutte.",
+          "translatedSentence": "Because black goes with every other colour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee hasiru angi aa angi ginta tili bannada ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This green shirt is lighter in colour than that one.",
+            "This green shirt is darker in colour than that one.",
+            "That green shirt is lighter in colour than this one."
+          ],
+          "correctAnswer": "This green shirt is lighter in colour than that one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ella nodida mele, neevu yaava banna aayke maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu gaadha neeli bannadanne tegedukolluttene, yaakendare adu dina haakkolakke sari.",
+            "Nanage yaavudoo ishta aagalilla, kshamisi.",
+            "Naanu bere angadige hoguttene."
+          ],
+          "correctAnswer": "Naanu gaadha neeli bannadanne tegedukolluttene, yaakendare adu dina haakkolakke sari.",
+          "translatedSentence": "I will take the dark blue one, because it is right for everyday wear."
+        }
+      ]
+    }
+  ]
+}

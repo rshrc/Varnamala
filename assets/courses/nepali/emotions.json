@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai khusi hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ma khusi chu.",
+            "Ho, ma dukhi chu.",
+            "Ho, ma thakeko chu."
+          ],
+          "correctAnswer": "Ho, ma khusi chu.",
+          "translatedSentence": "Yes, I am happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aja dherai khusi chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very sad today.",
+            "I am very tired today."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi kina dukhi chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai gharko samjhana ayo.",
+            "Malai momo man parcha.",
+            "Ma Pokhara ma baschu."
+          ],
+          "correctAnswer": "Malai gharko samjhana ayo.",
+          "translatedSentence": "I miss home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uni dherai khusi chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is very happy.",
+            "He is very sad.",
+            "They are very tired."
+          ],
+          "correctAnswer": "He is very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai aja dukha lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kina, ke bhayo?",
+            "Ho, ma khusi chu.",
+            "Tapaiko naam ke ho?"
+          ],
+          "correctAnswer": "Kina, ke bhayo?",
+          "translatedSentence": "Why, what happened?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma khusi chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not happy.",
+            "I am not sad.",
+            "I am not tired."
+          ],
+          "correctAnswer": "I am not happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ke timi thikai chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ma thikai chu.",
+            "Hoina, ma Pokhara jaanchu.",
+            "Ho, malai chiya man parcha."
+          ],
+          "correctAnswer": "Ho, ma thikai chu.",
+          "translatedSentence": "Yes, I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hami sabai khusi chau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We are all happy.",
+            "We are all sad.",
+            "They are all happy."
+          ],
+          "correctAnswer": "We are all happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sanchai chu, dhanyabad.",
+            "Ma aile ghar jaanchu.",
+            "Malai dal bhat man parcha."
+          ],
+          "correctAnswer": "Ma sanchai chu, dhanyabad.",
+          "translatedSentence": "I am well, thank you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired and angry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai aja dherai thakai lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaram garnus, ma chiya banaunchu.",
+            "Ma pani risaeko chu.",
+            "Tapailai dar lagyo?"
+          ],
+          "correctAnswer": "Aaram garnus, ma chiya banaunchu.",
+          "translatedSentence": "Please rest, I will make tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai aile dikka lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am bored right now.",
+            "I am tired right now.",
+            "I am hungry right now."
+          ],
+          "correctAnswer": "I am bored right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai dar lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali dar lagyo.",
+            "Ali ali thakai lagyo.",
+            "Malai chiya man parcha."
+          ],
+          "correctAnswer": "Ali ali dar lagyo.",
+          "translatedSentence": "I am a little scared."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aile risaeko chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am angry right now.",
+            "I am scared right now.",
+            "I am sleepy right now."
+          ],
+          "correctAnswer": "I am angry right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ke bhayo, kina risaunu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Micro bus le dhilo garyo.",
+            "Malai momo man parcha.",
+            "Ma Thamel ma baschu."
+          ],
+          "correctAnswer": "Micro bus le dhilo garyo.",
+          "translatedSentence": "The micro bus was late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai raati eklai hidna dar lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am scared to walk alone at night.",
+            "I like to walk alone at night.",
+            "I am tired of walking at night."
+          ],
+          "correctAnswer": "I am scared to walk alone at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi kina yeti thakeko chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maile dinbhar kaam garen.",
+            "Maile dinbhar aaram garen.",
+            "Malai dikka lagyo."
+          ],
+          "correctAnswer": "Maile dinbhar kaam garen.",
+          "translatedSentence": "I worked all day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai yo kaam garna dikka lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am fed up with doing this work.",
+            "I like doing this work.",
+            "I am scared to do this work."
+          ],
+          "correctAnswer": "I am fed up with doing this work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai ris uthyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ke bhayo, malai bhannus na.",
+            "Malai pani dar lagyo.",
+            "Ma aile ghar jaanchu ni."
+          ],
+          "correctAnswer": "Ke bhayo, malai bhannus na.",
+          "translatedSentence": "What happened? Please tell me."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How are you feeling",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aja tapaiko man kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aja mero man ekdam ramro cha.",
+            "Aja mausam ekdam ramro cha.",
+            "Aja ma Kathmandu jaanchu."
+          ],
+          "correctAnswer": "Aja mero man ekdam ramro cha.",
+          "translatedSentence": "My mood is really good today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Timilai aja kasto lagirahecha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling today?",
+            "What are you doing today?",
+            "Where are you going today?"
+          ],
+          "correctAnswer": "How are you feeling today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hijo dekhi mero man ramro chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kina, ke bhayo bhannus na.",
+            "Ramro, ma pani khusi chu.",
+            "Tapai Pokhara jaanuhuncha?"
+          ],
+          "correctAnswer": "Kina, ke bhayo bhannus na.",
+          "translatedSentence": "Why, please tell me what happened."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ke tapai thik hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you okay?",
+            "Are you coming?",
+            "Are you happy?"
+          ],
+          "correctAnswer": "Are you okay?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi aja kina chup chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi hoina, ali thakeko matra chu.",
+            "Kehi hoina, ma dherai khusi chu.",
+            "Malai aile chiya chahiyo."
+          ],
+          "correctAnswer": "Kehi hoina, ali thakeko matra chu.",
+          "translatedSentence": "It is nothing, I am just a little tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai bhannus, tapailai ke bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me, what happened to you?",
+            "Tell me, where are you going?",
+            "Tell me, what do you want?"
+          ],
+          "correctAnswer": "Tell me, what happened to you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai aja pani thakai lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aile ta thik cha, dhanyabad.",
+            "Ho, malai ekdam dar lagyo.",
+            "Hoina, ma dherai risaeko chu."
+          ],
+          "correctAnswer": "Aile ta thik cha, dhanyabad.",
+          "translatedSentence": "Right now I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma sodhna chahanchu, timi thikai chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to ask, are you okay?",
+            "I want to say that I am okay.",
+            "I want to know where you are."
+          ],
+          "correctAnswer": "I want to ask, are you okay?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko anuhar dekhda thakeko jasto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, raati ramro sanga sutina.",
+            "Ho, malai gharko samjhana lagcha.",
+            "Hoina, ma Pokhara jana chahanchu."
+          ],
+          "correctAnswer": "Ho, raati ramro sanga sutina.",
+          "translatedSentence": "Yes, I did not sleep well last night."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting a friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai aja dherai chinta lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta nagarnus, sabai thik huncha.",
+            "Ho, malai pani dikka lagyo.",
+            "Tapai aile kaha jaanuhuncha?"
+          ],
+          "correctAnswer": "Chinta nagarnus, sabai thik huncha.",
+          "translatedSentence": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma sadhai timro sathma chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am always there for you.",
+            "I always go with you.",
+            "I am always at home."
+          ],
+          "correctAnswer": "I am always there for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maile pariksha ma ramro garina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi bhayena, agadi ramro garchau.",
+            "Badhai cha, timile ramro garyau.",
+            "Malai pariksha man pardaina."
+          ],
+          "correctAnswer": "Kehi bhayena, agadi ramro garchau.",
+          "translatedSentence": "It is alright, you will do better next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chinta nagara, ma timro sath dinchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, I will stand by you.",
+            "Do not be angry, I will come with you.",
+            "Do not go, I will call you tomorrow."
+          ],
+          "correctAnswer": "Do not worry, I will stand by you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai yo kaam garna sakdina jasto lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Timile sakchau, malai bishwas cha.",
+            "Malai pani yo kaam man pardaina.",
+            "Ho, timi ekdam thakeko chau."
+          ],
+          "correctAnswer": "Timile sakchau, malai bishwas cha.",
+          "translatedSentence": "You can do it, I believe in you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naruna, ma timilai maddat garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not cry, I will help you.",
+            "Do not cry, I will call you.",
+            "Do not run, I will come with you."
+          ],
+          "correctAnswer": "Do not cry, I will help you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajkal malai eklo lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bholi bhetau na, chiya khana jaau.",
+            "Malai pani raati dar lagcha.",
+            "Tapai kaha basnu huncha?"
+          ],
+          "correctAnswer": "Bholi bhetau na, chiya khana jaau.",
+          "translatedSentence": "Let's meet tomorrow and go out for tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Timro kura sunera malai dukha lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry to hear that.",
+            "I am happy to hear that.",
+            "I did not hear what you said."
+          ],
+          "correctAnswer": "I am sorry to hear that."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dhanyabad, timile mero man halka banayau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, sathi bhaneko yehi ta ho.",
+            "Malai tyo kura thaha chaina.",
+            "Ma aile dherai risaeko chu."
+          ],
+          "correctAnswer": "Kehi chaina, sathi bhaneko yehi ta ho.",
+          "translatedSentence": "It is nothing, that is what friends are for."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai momo man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, malai momo dherai man parcha.",
+            "Hoina, malai raati dar lagcha.",
+            "Ho, ma Kathmandu ma baschu."
+          ],
+          "correctAnswer": "Ho, malai momo dherai man parcha.",
+          "translatedSentence": "Yes, I like momos a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai jaado mausam man pardaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like cold weather.",
+            "I do not like hot tea.",
+            "I like cold weather a lot."
+          ],
+          "correctAnswer": "I do not like cold weather."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai chhutti ma ke garna man lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai Himal ma trek garna man lagcha.",
+            "Malai ghar ma kaam garna dikka lagcha.",
+            "Malai bihana chiya khana man parcha."
+          ],
+          "correctAnswer": "Malai Himal ma trek garna man lagcha.",
+          "translatedSentence": "I like going trekking in the Himalayas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai aile chiya khana man lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel like having tea right now.",
+            "I feel like sleeping right now.",
+            "I do not want tea right now."
+          ],
+          "correctAnswer": "I feel like having tea right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai Kathmandu kasto lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai yo sahar ekdam man paryo.",
+            "Malai yeta aauna dar lagcha.",
+            "Ma bholi bihana ghar jaanchu."
+          ],
+          "correctAnswer": "Malai yo sahar ekdam man paryo.",
+          "translatedSentence": "I really liked this city."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma feri Pokhara jana chahanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to go to Pokhara again.",
+            "I want to go to Kathmandu again.",
+            "I do not want to go to Pokhara."
+          ],
+          "correctAnswer": "I want to go to Pokhara again."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timilai kasto khana man pardaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai piro khana man pardaina.",
+            "Malai dal bhat ekdam man parcha.",
+            "Malai khana pakauna aaudaina."
+          ],
+          "correctAnswer": "Malai piro khana man pardaina.",
+          "translatedSentence": "I do not like spicy food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai Pokhara ma euta sano ghar bhaye huntho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wish I had a small house in Pokhara.",
+            "I already have a small house in Pokhara.",
+            "I want to see a small house in Pokhara."
+          ],
+          "correctAnswer": "I wish I had a small house in Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kasto sangeet man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai Nepali lok geet man parcha.",
+            "Malai naach herna man pardaina.",
+            "Ma gaana gauna sakdina."
+          ],
+          "correctAnswer": "Malai Nepali lok geet man parcha.",
+          "translatedSentence": "I like Nepali folk songs."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai lagcha momo bhanda dal bhat ramro huncha, tapailai ke lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sahamat chu, kinabhane dal bhat le lamo samaya samma pet bharcha.",
+            "Malai thaha chaina, kinabhane ma khana pakaudina.",
+            "Hoina, ma bholi bihana Pokhara jana chahanchu."
+          ],
+          "correctAnswer": "Ma sahamat chu, kinabhane dal bhat le lamo samaya samma pet bharcha.",
+          "translatedSentence": "I agree, because dal bhat keeps you full for a long time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maph garnus, maile hijo tapailai phone garna bhulen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I forgot to call you yesterday.",
+            "Sorry, I could not come to your house yesterday.",
+            "Excuse me, I want to call you tomorrow."
+          ],
+          "correctAnswer": "Sorry, I forgot to call you yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma tapai sanga sahamat chaina, tara tapaiko kura pani thik ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik cha, hamro soch farak bhaye pani samasya chaina.",
+            "Dhanyabad, malai bihana chiya man parcha.",
+            "Maph garnus, ma aile ghar jana chahanchu."
+          ],
+          "correctAnswer": "Thik cha, hamro soch farak bhaye pani samasya chaina.",
+          "translatedSentence": "That is fine, it is no problem that we think differently."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi tapailai naramro lagyo bhane, malai maph garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I upset you, please forgive me.",
+            "If you are tired, please take a rest.",
+            "If you liked it, please tell me."
+          ],
+          "correctAnswer": "If I upset you, please forgive me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timile hijo kina malai yesto bhanyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma risaeko thiye, tyasaile tyesto bhanen, malai maph gara.",
+            "Ma khusi thiye, tyasaile dinbhar hasen.",
+            "Malai thaha chaina, maile kehi pani bhanina."
+          ],
+          "correctAnswer": "Ma risaeko thiye, tyasaile tyesto bhanen, malai maph gara.",
+          "translatedSentence": "I was angry, so I said that; please forgive me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai lagcha tapai thakeko hunuhuncha, tyasaile aaram garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I think you are tired, so please rest.",
+            "I think you are sad, so please tell me.",
+            "I know you are tired, but please come."
+          ],
+          "correctAnswer": "I think you are tired, so please rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maile bhaneko kura le tapailai dukha lagyo bhane maph garnus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, maile naramro manina.",
+            "Ho, tyo suner ma dherai khusi bhaye.",
+            "Malai tyo kura ali pani thaha chaina."
+          ],
+          "correctAnswer": "Kehi chaina, maile naramro manina.",
+          "translatedSentence": "It is nothing, I did not take it badly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma risaeko chaina, ma ali thakeko matra chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not angry, I am just a little tired.",
+            "I am not tired, I am just a little angry.",
+            "I am not sad, I am just very tired."
+          ],
+          "correctAnswer": "I am not angry, I am just a little tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai ke lagcha, bholi Pokhara jane ki najane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai lagcha bholi janu ramro huncha, kinabhane mausam sapha cha.",
+            "Malai lagcha tapai risaunu bhayo, tyasaile ma boldina.",
+            "Malai thaha cha, tapailai micro bus man pardaina."
+          ],
+          "correctAnswer": "Malai lagcha bholi janu ramro huncha, kinabhane mausam sapha cha.",
+          "translatedSentence": "I think it is better to go tomorrow, because the weather is clear."
+        }
+      ]
+    }
+  ]
+}

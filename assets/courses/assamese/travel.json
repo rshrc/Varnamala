@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Buses and trains",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kolai jabo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi Guwahati jam.",
+            "moi bhat khai asu.",
+            "moi iyat thako."
+          ],
+          "correctAnswer": "moi Guwahati jam.",
+          "translatedSentence": "I am going to Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bus khon kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus?",
+            "Where is the station?",
+            "When does the bus leave?"
+          ],
+          "correctAnswer": "Where is the bus?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "eikhon bus Jorhat jai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, eikhon Jorhat jai.",
+            "nai, moi najano.",
+            "hoi, moi Jorhat thako."
+          ],
+          "correctAnswer": "hoi, eikhon Jorhat jai.",
+          "translatedSentence": "Yes, this one goes to Jorhat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "train khon etiya ahise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train has arrived now.",
+            "The bus has arrived now.",
+            "The train will come later."
+          ],
+          "correctAnswer": "The train has arrived now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni bus ere jabo ne train ere?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi train ere jam.",
+            "moi bus khon bisari asu.",
+            "moi iyat ticket kino."
+          ],
+          "correctAnswer": "moi train ere jam.",
+          "translatedSentence": "I will go by train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi etiya station loi jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the station now.",
+            "I will go to the station tomorrow.",
+            "I came from the station just now."
+          ],
+          "correctAnswer": "I am going to the station now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "train khon kiman bojat ahibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "train khon sat bojat ahibo.",
+            "train khon station tot ase.",
+            "moi sat bojat jam."
+          ],
+          "correctAnswer": "train khon sat bojat ahibo.",
+          "translatedSentence": "The train will come at seven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi Guwahati pora ahisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have come from Guwahati.",
+            "I am going to Guwahati.",
+            "I live in Guwahati."
+          ],
+          "correctAnswer": "I have come from Guwahati."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kot pora ahise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi Jorhat pora ahisu.",
+            "moi Jorhat loi jam.",
+            "moi iyat saah khai asu."
+          ],
+          "correctAnswer": "moi Jorhat pora ahisu.",
+          "translatedSentence": "I have come from Jorhat."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak kiman khon ticket lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moke dukhon ticket lage.",
+            "moke eta kotha lage.",
+            "moi ticket khon herualu."
+          ],
+          "correctAnswer": "moke dukhon ticket lage.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ekhon ticketor daam kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does one ticket cost?",
+            "How many tickets do you need?",
+            "Where do I buy a ticket?"
+          ],
+          "correctAnswer": "How much does one ticket cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jorhator bus khon kiman bojat ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "puate ath bojat ase.",
+            "bus khon manuhere bhorti hoi ase.",
+            "ticket khon mor logot ase."
+          ],
+          "correctAnswer": "puate ath bojat ase.",
+          "translatedSentence": "It is at eight in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi kalilei Guwahatir babe dukhon ticket lam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will buy two tickets for Guwahati tomorrow.",
+            "I bought two tickets for Guwahati yesterday.",
+            "I need two tickets for Jorhat tomorrow."
+          ],
+          "correctAnswer": "I will buy two tickets for Guwahati tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ticket counter tu kiman bojat khule?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "counter tu nou bojat khule.",
+            "counter tu station or bhitorot ase.",
+            "counter tut bor besi manuh nai."
+          ],
+          "correctAnswer": "counter tu nou bojat khule.",
+          "translatedSentence": "The counter opens at nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji rati Dibrugarhor train nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no train to Dibrugarh tonight.",
+            "There is no bus to Dibrugarh tonight.",
+            "The train to Dibrugarh is late tonight."
+          ],
+          "correctAnswer": "There is no train to Dibrugarh tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni janalar kasot sit bisare ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, moke janalar kasot ekhon sit lage.",
+            "hoi, moi puate ath bojat jam.",
+            "nai, moi ticket khon online kinim."
+          ],
+          "correctAnswer": "hoi, moke janalar kasot ekhon sit lage.",
+          "translatedSentence": "Yes, I need a seat by the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi ticket khon online kinisilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I bought the ticket online.",
+            "I am buying the ticket at the counter.",
+            "I will buy the ticket online tomorrow."
+          ],
+          "correctAnswer": "I bought the ticket online."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ticket khon apunar logot ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, mor begot ase.",
+            "nai, bus khon deri hoise.",
+            "hoi, moi station loi jam."
+          ],
+          "correctAnswer": "hoi, mor begot ase.",
+          "translatedSentence": "Yes, it is in my bag."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maaf koribo, bank tu kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "soja jaok, tar pisot baohate.",
+            "moi bank loi jabo lage.",
+            "bank tu aji bondho hoise."
+          ],
+          "correctAnswer": "soja jaok, tar pisot baohate.",
+          "translatedSentence": "Go straight, and then it is on the left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "iyar pora post office khon kiman dur?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How far is the post office from here?",
+            "Where is the post office from here?",
+            "How do I get to the post office?"
+          ],
+          "correctAnswer": "How far is the post office from here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi bat heruaisu, olop sohai koribo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, apuni kolai jabo?",
+            "nai, moi dukhon ticket kinisu.",
+            "hoi, moi iyat notun."
+          ],
+          "correctAnswer": "hoi, apuni kolai jabo?",
+          "translatedSentence": "Yes, where do you want to go?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "iyar pora sohate ghuri jaok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn right from here.",
+            "Turn left from here.",
+            "Keep going straight from here."
+          ],
+          "correctAnswer": "Turn right from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "iyat kot bhal saah dokan ekhon ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sei goli tur bhitorot ekhon ase.",
+            "moi saah nokhao, moi pani khao.",
+            "saah dokan khon puate khule."
+          ],
+          "correctAnswer": "sei goli tur bhitorot ekhon ase.",
+          "translatedSentence": "There is one inside that lane."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "iyar pora station khon khoj kari jabo pari.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You can walk to the station from here.",
+            "You can take a bus to the station from here.",
+            "You cannot walk to the station from here."
+          ],
+          "correctAnswer": "You can walk to the station from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi baohate jam ne sohate?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sohate jaok, tar pisot soja jaok.",
+            "hoi, bus khon iyate rokhe.",
+            "nai, mondir tu etiya bondho ase."
+          ],
+          "correctAnswer": "sohate jaok, tar pisot soja jaok.",
+          "translatedSentence": "Go right, and then go straight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi iyat notun, gotike bat bur najano.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am new here, so I do not know the roads.",
+            "I am new here, but I know the roads well.",
+            "I have lived here a long time, so I know the roads."
+          ],
+          "correctAnswer": "I am new here, so I do not know the roads."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dhonyobad, apuni bor sohai korile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kunu kotha nai, bhalke jaok.",
+            "hoi, moi baohate jam.",
+            "nai, post office khon bor dur."
+          ],
+          "correctAnswer": "kunu kotha nai, bhalke jaok.",
+          "translatedSentence": "Not at all, travel safely."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "dada, station loi bhara kiman lagibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ekso taka lagibo.",
+            "moi station tot namim.",
+            "auto tu iyate rokhaok."
+          ],
+          "correctAnswer": "ekso taka lagibo.",
+          "translatedSentence": "It will cost one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "meter tu on kori diok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please turn the meter on.",
+            "Please turn the meter off.",
+            "Please show me the meter."
+          ],
+          "correctAnswer": "Please turn the meter on."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "meter tu kiyo nosole?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "meter tu bhagi ase, gotike moi bhara koi disu.",
+            "meter tu apunar logot ase.",
+            "hoi, moi meter ere jam."
+          ],
+          "correctAnswer": "meter tu bhagi ase, gotike moi bhara koi disu.",
+          "translatedSentence": "The meter is broken, so I am telling you the fare."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "iyate rokhaok, moi iyate namim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Stop here, I will get off here.",
+            "Stop there, I will get off there.",
+            "Do not stop here, keep going."
+          ],
+          "correctAnswer": "Stop here, I will get off here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi kot rokham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sei saah dokan tur agot rokhaok.",
+            "moi tat kali namisilu.",
+            "bhara ekso taka hobo."
+          ],
+          "correctAnswer": "sei saah dokan tur agot rokhaok.",
+          "translatedSentence": "Please stop in front of that tea shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhara olop besi hoi goise, olop kom koribo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fare is a bit too much, could you lower it a little?",
+            "The fare is quite cheap, so I will pay a little more.",
+            "The fare is fine, I will pay you now."
+          ],
+          "correctAnswer": "The fare is a bit too much, could you lower it a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar logot bhangoti ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, mor logot khali dohor nut ase.",
+            "hoi, moi auto tu iyate rokham.",
+            "nai, moi taxi ere jam."
+          ],
+          "correctAnswer": "nai, mor logot khali dohor nut ase.",
+          "translatedSentence": "No, I only have big notes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "rastat jam bor besi, gotike olop deri hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a lot of traffic on the road, so we will be a little late.",
+            "There is no traffic on the road, so we will reach early.",
+            "There is a lot of traffic, but we will still reach on time."
+          ],
+          "correctAnswer": "There is a lot of traffic on the road, so we will be a little late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar poisa loi lok, dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thik ase, bhalke jaok.",
+            "nai, meter tu etiya bhal ase.",
+            "hoi, moi kolai jam?"
+          ],
+          "correctAnswer": "thik ase, bhalke jaok.",
+          "translatedSentence": "All right, take care."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "namaskar, iyat kotha khali ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, dutamon kotha khali ase.",
+            "nai, moi eitat thako.",
+            "hoi, bhara ekso taka lagibo."
+          ],
+          "correctAnswer": "hoi, dutamon kotha khali ase.",
+          "translatedSentence": "Yes, a couple of rooms are free."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ek ratir babe kiman taka lagibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does it cost for one night?",
+            "How many nights will you be staying?",
+            "How much did you pay for one night?"
+          ],
+          "correctAnswer": "How much does it cost for one night?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kiman din thakibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi tini din thakim.",
+            "moi kali puate ahisilu.",
+            "moke duta sabi lage."
+          ],
+          "correctAnswer": "moi tini din thakim.",
+          "translatedSentence": "I will stay for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kotha tut garam pani aru wifi ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Does the room have hot water and wifi?",
+            "Does the room have hot water but no wifi?",
+            "Is there hot water in the bathroom?"
+          ],
+          "correctAnswer": "Does the room have hot water and wifi?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar naam aru phone number iyat likhi diok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi form khonot likhi disu.",
+            "moi kotha tu bisari asu.",
+            "hoi, garam pani ahi ase."
+          ],
+          "correctAnswer": "moi form khonot likhi disu.",
+          "translatedSentence": "I have written it on the form."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "puate saah aru pitha pam ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will I get tea and pitha in the morning?",
+            "Will I get tea and rice in the morning?",
+            "Do you serve tea and pitha in the evening?"
+          ],
+          "correctAnswer": "Will I get tea and pitha in the morning?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kotha tut AC nai, kintu fan eta ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thik ase, etiya iman gorom nohoi.",
+            "nai, moi dukhon ticket kinim.",
+            "hoi, bhara tu olop kom koribo neki?"
+          ],
+          "correctAnswer": "thik ase, etiya iman gorom nohoi.",
+          "translatedSentence": "That is fine, it is not so hot right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi kali puate ath bojat ulai jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will leave at eight tomorrow morning.",
+            "I will leave at eight tonight.",
+            "I arrived at eight this morning."
+          ],
+          "correctAnswer": "I will leave at eight tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar kotha tu tinita nombor, sabi tu loi lok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhonyobad, beg tu moi nije loi jam.",
+            "nai, moi bus ere ahisilu.",
+            "hoi, meter tu bhagi ase."
+          ],
+          "correctAnswer": "dhonyobad, beg tu moi nije loi jam.",
+          "translatedSentence": "Thank you, I will carry the bag myself."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "train khon dui ghonta deri hoise, gotike ami etiyao station tote apekhya kori asu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sinta nokoribo, moi apunar babe saah anisu.",
+            "hoi, moi ticket khon online kinisu.",
+            "nai, hotel tut kunu kotha khali nai."
+          ],
+          "correctAnswer": "sinta nokoribo, moi apunar babe saah anisu.",
+          "translatedSentence": "Do not worry, I have brought you some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi train khon aru deri hoi, tente moi bus ere jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the train is delayed any further, I will go by bus.",
+            "If the train arrives on time, I will go by bus.",
+            "Even though the train is late, I will keep waiting for it."
+          ],
+          "correctAnswer": "If the train is delayed any further, I will go by bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar herua beg tu kenekua asil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "eta dohor kola beg, bhitorot mor kagoj potro asil.",
+            "moi beg tu kalilei kinim.",
+            "hoi, moi station tot namisilu."
+          ],
+          "correctAnswer": "eta dohor kola beg, bhitorot mor kagoj potro asil.",
+          "translatedSentence": "A big black bag, with my documents inside it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi train khonot mor beg tu eri thoi ahisu, kintu kot eri asu monot nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I left my bag on the train, but I do not remember where.",
+            "I left my bag on the bus, and I remember exactly where.",
+            "I lost my bag at the station, but somebody has found it."
+          ],
+          "correctAnswer": "I left my bag on the train, but I do not remember where."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "harua jinisor counter tu kot ase, moke kobo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "counter tu duta platformor majot ase.",
+            "counter tu ratipuate bondho thake, gotike kali ahok.",
+            "moi apunar beg tu iyat dekha nai."
+          ],
+          "correctAnswer": "counter tu duta platformor majot ase.",
+          "translatedSentence": "The counter is between the two platforms."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi rail policok jonaisu, kintu etiyalike kunu khobor pua nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have informed the railway police, but so far I have had no news.",
+            "I will inform the railway police, because I have had no news.",
+            "I have informed the railway police and they have found my bag."
+          ],
+          "correctAnswer": "I have informed the railway police, but so far I have had no news."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak aru ki sohai lagibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jodi hobo pare, moke eta phone koribo diok.",
+            "nai, moi kotha tu book kori thoisu.",
+            "hoi, meter tu on kori diok."
+          ],
+          "correctAnswer": "jodi hobo pare, moke eta phone koribo diok.",
+          "translatedSentence": "If possible, please let me make a phone call."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bus khon batote bhagi porar babe amar tini ghonta deri hol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We were three hours late because the bus broke down on the way.",
+            "We were three hours late because the road was closed.",
+            "The bus broke down on the way, but we still reached on time."
+          ],
+          "correctAnswer": "We were three hours late because the bus broke down on the way."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni iman sohai korar babe bor dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kunu kotha nai, apunar beg tu palei moi phone korim.",
+            "nai, moi bhara tu olop kom kori dim.",
+            "hoi, kotha tut garam pani aru fan duiotai ase."
+          ],
+          "correctAnswer": "kunu kotha nai, apunar beg tu palei moi phone korim.",
+          "translatedSentence": "Not at all, if I find your bag I will call you."
+        }
+      ]
+    }
+  ]
+}

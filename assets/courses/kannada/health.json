@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage hushaaru illa.",
+            "Naanu naale bartini.",
+            "Nanage ee kelasa beku."
+          ],
+          "correctAnswer": "Nanage hushaaru illa.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage tale novu ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "I have a cough."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage tale novu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, swalpa novu ide.",
+            "Illa, nanage hasivu ide.",
+            "Houdu, naanu manege hogtini."
+          ],
+          "correctAnswer": "Houdu, swalpa novu ide.",
+          "translatedSentence": "Yes, it hurts a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage hotte novu ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a stomach ache.",
+            "I have a sore throat.",
+            "My leg hurts."
+          ],
+          "correctAnswer": "I have a stomach ache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage jvara ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ninne inda jvara ide.",
+            "Illa, nanage aushadhi beku.",
+            "Houdu, nanage hasivu ide."
+          ],
+          "correctAnswer": "Houdu, ninne inda jvara ide.",
+          "translatedSentence": "Yes, I have had a fever since yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna kaalu novu ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts.",
+            "My hand hurts.",
+            "My head hurts."
+          ],
+          "correctAnswer": "My leg hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage vishraanti beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, swalpa vishraanti beku.",
+            "Illa, nanage kelasa gottilla.",
+            "Houdu, naanu Cubbon Park ge hogtini."
+          ],
+          "correctAnswer": "Houdu, swalpa vishraanti beku.",
+          "translatedSentence": "Yes, I need a little rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage indu chennagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not feel well today.",
+            "I am fine today.",
+            "I will come tomorrow."
+          ],
+          "correctAnswer": "I do not feel well today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu nimage swalpa neeru tarali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, dayavittu swalpa neeru tanni.",
+            "Illa, nanage tale novu ide.",
+            "Houdu, naanu doctor hattira hogtini."
+          ],
+          "correctAnswer": "Houdu, dayavittu swalpa neeru tanni.",
+          "translatedSentence": "Yes, please bring me a little water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage elli novu ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna gantalalli novu ide.",
+            "Nanage ninne novu ittu.",
+            "Nanna gantalu chennagide."
+          ],
+          "correctAnswer": "Nanna gantalalli novu ide.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna kannugalu kempagive.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My eyes are red.",
+            "My eyes are watering.",
+            "My eyes are tired."
+          ],
+          "correctAnswer": "My eyes are red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hallu tumba novu aagtaa ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth hurts a lot.",
+            "My ear hurts a lot.",
+            "My tooth is broken."
+          ],
+          "correctAnswer": "My tooth hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma moogu kattideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, moogu poorti kattide.",
+            "Illa, nanna hallu novu ide.",
+            "Houdu, nanna kannugalu chennagive."
+          ],
+          "correctAnswer": "Houdu, moogu poorti kattide.",
+          "translatedSentence": "Yes, my nose is completely blocked."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaava kai novu aagtaa ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Balagai novu aagtaa ide.",
+            "Yedagaiyalli novu illa.",
+            "Eradu kaigalu chennagive."
+          ],
+          "correctAnswer": "Balagai novu aagtaa ide.",
+          "translatedSentence": "My right hand hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu nadedaaga kaalu novu aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts when I walk.",
+            "My leg hurts when I sit down.",
+            "My leg hurts at night."
+          ],
+          "correctAnswer": "My leg hurts when I walk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hegalalli novu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, bareyuvaaga novu jaasti aagutte.",
+            "Illa, nanna hotte novu ide.",
+            "Houdu, nanna moogu kattide."
+          ],
+          "correctAnswer": "Houdu, bareyuvaaga novu jaasti aagutte.",
+          "translatedSentence": "Yes, it hurts more when I write."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna bennu belige inda novu aagtaa ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My back has been hurting since morning.",
+            "My back hurt the whole night.",
+            "My back hurts when I sleep."
+          ],
+          "correctAnswer": "My back has been hurting since morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage sariyaagi kelisutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, bala kivi kelisalla.",
+            "Houdu, nanna hallu novu ide.",
+            "Illa, nanage hasivu illa."
+          ],
+          "correctAnswer": "Illa, bala kivi kelisalla.",
+          "translatedSentence": "No, I cannot hear with my right ear."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava tondare ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mooru dinadinda jvara mattu kemmu ide.",
+            "Nanage ee doctor gottilla.",
+            "Naanu innu aspatrege hogilla."
+          ],
+          "correctAnswer": "Mooru dinadinda jvara mattu kemmu ide.",
+          "translatedSentence": "I have had a fever and a cough for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yaavaaginda hige aagtaa ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since when has it been like this?",
+            "How did this happen to you?",
+            "Where exactly does it hurt?"
+          ],
+          "correctAnswer": "Since when has it been like this?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaavaaginda jvara ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eradu dinadinda jvara ide.",
+            "Naanu ninne oota maadilla.",
+            "Nanna gantalu chennagi ide."
+          ],
+          "correctAnswer": "Eradu dinadinda jvara ide.",
+          "translatedSentence": "I have had a fever for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raatri malagidaaga kemmu jaasti aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cough gets worse when I lie down at night.",
+            "The fever gets worse late at night.",
+            "I cannot sleep because of the pain."
+          ],
+          "correctAnswer": "The cough gets worse when I lie down at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu enaadaru aushadhi tagondira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naanu innu yaava aushadhiyanna tagondilla.",
+            "Houdu, nanage eradu dinadinda jvara ide.",
+            "Illa, nanna manege hogo daari gottilla."
+          ],
+          "correctAnswer": "Illa, naanu innu yaava aushadhiyanna tagondilla.",
+          "translatedSentence": "No, I have not taken any medicine yet."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage hasivu aagtaa illa mattu tumba sustu ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no appetite and I feel very weak.",
+            "I am hungry but I feel very weak.",
+            "I feel weak because I did not eat."
+          ],
+          "correctAnswer": "I have no appetite and I feel very weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu nimage raktada parikshe bareyutteni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, adanna elli maadisbeku?",
+            "Illa, nanage jvara kammi aagide.",
+            "Houdu, naanu ninne aushadhi tagonde."
+          ],
+          "correctAnswer": "Sari, adanna elli maadisbeku?",
+          "translatedSentence": "Alright, where should I get it done?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage vaanti aagideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, belige eradu sala aagide.",
+            "Illa, nanna kaalu novu ide.",
+            "Houdu, naanu belige oota maadidini."
+          ],
+          "correctAnswer": "Houdu, belige eradu sala aagide.",
+          "translatedSentence": "Yes, twice this morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninne inda nanage enu tinnalu aagtaa illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not been able to eat anything since yesterday.",
+            "I did not want to eat anything yesterday.",
+            "I have not eaten anything since this morning."
+          ],
+          "correctAnswer": "I have not been able to eat anything since yesterday."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chittiyalli iruva ellaa aushadhi ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ellaa aushadhi namma angadiyalli ide.",
+            "Illa, naanu doctor hattira hogilla.",
+            "Houdu, nimage eradu dinadinda jvara ide."
+          ],
+          "correctAnswer": "Houdu, ellaa aushadhi namma angadiyalli ide.",
+          "translatedSentence": "Yes, we have all the medicines in our shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee mathre dinakke mooru sala tagolli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this tablet three times a day.",
+            "Take this tablet twice a day.",
+            "Take this tablet for three days."
+          ],
+          "correctAnswer": "Take this tablet three times a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee aushadhi hege tagobeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oota aada mele bisi neeru jotege tagolli.",
+            "Aushadhi angadi ee raste pakkadalli ide.",
+            "Nimage naale belige jvara kammi aagutte."
+          ],
+          "correctAnswer": "Oota aada mele bisi neeru jotege tagolli.",
+          "translatedSentence": "Take it with warm water after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khaali hotteyalli ee mathre tagolabedi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not take this tablet on an empty stomach.",
+            "Do not take this tablet after a meal.",
+            "Take this tablet before your meal."
+          ],
+          "correctAnswer": "Do not take this tablet on an empty stomach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee aushadhige eshtu aagutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaa seri nooru rupayi aagutte.",
+            "Ellaa seri aidu dina aagutte.",
+            "Ee mathre dinakke eradu sala saaku."
+          ],
+          "correctAnswer": "Ellaa seri nooru rupayi aagutte.",
+          "translatedSentence": "It comes to one hundred rupees in all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jvara illa andre ee mathre tagolabedi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is no fever, do not take this tablet.",
+            "If you have a fever, do not take this tablet.",
+            "Take this tablet only after the fever goes."
+          ],
+          "correctAnswer": "If there is no fever, do not take this tablet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanna kemmige enaadaru sikkutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ee sirap raatri malaguva munche kudiyiri.",
+            "Houdu, nimma jvara ninne kammi aagide.",
+            "Illa, naanu ninne aushadhi tagonde."
+          ],
+          "correctAnswer": "Houdu, ee sirap raatri malaguva munche kudiyiri.",
+          "translatedSentence": "Yes, drink this syrup at night before you sleep."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee aushadhi tagondare nidde bartade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine makes you sleepy.",
+            "This medicine takes away the pain.",
+            "Take this medicine before you sleep."
+          ],
+          "correctAnswer": "This medicine makes you sleepy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee mathre eshtu dina tagobeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aidu dina tappade tagolli.",
+            "Dinakke eradu sala oota maadi.",
+            "Ee angadi aidu ganteg mucchutte."
+          ],
+          "correctAnswer": "Aidu dina tappade tagolli.",
+          "translatedSentence": "Take it without fail for five days."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage ninne inda shita mattu kemmu ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, moogu kattide mattu gantalu novu ide.",
+            "Illa, nanna kaalige gaaya aagide.",
+            "Houdu, naanu bisi bele bath tinde."
+          ],
+          "correctAnswer": "Houdu, moogu kattide mattu gantalu novu ide.",
+          "translatedSentence": "Yes, my nose is blocked and my throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninne raatri jvara tumba jaasti ittu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fever was very high last night.",
+            "The fever came down last night.",
+            "The fever started only last night."
+          ],
+          "correctAnswer": "The fever was very high last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gantalu novige naanu enu maadli?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bisi neerige uppu haaki bayi mukkulisi.",
+            "Belige BMTC bus nalli kelasakke hogi.",
+            "Dina eradu sala tanni neeralli snaana maadi."
+          ],
+          "correctAnswer": "Bisi neerige uppu haaki bayi mukkulisi.",
+          "translatedSentence": "Gargle with warm salt water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bisi neeru kudidare gantalu novu kammi aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drinking warm water eases a sore throat.",
+            "Warm water makes the cough worse.",
+            "Drink warm water when the fever is high."
+          ],
+          "correctAnswer": "Drinking warm water eases a sore throat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kaalige enu aayitu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "BMTC bus inda ilidaaga jaari bidde.",
+            "Nanage ninne raatri jvara ittu.",
+            "Naanu Cubbon Park nalli nadeyalu hogtini."
+          ],
+          "correctAnswer": "BMTC bus inda ilidaaga jaari bidde.",
+          "translatedSentence": "I slipped while getting off the BMTC bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bidda kaarana nanna monakaalige gaaya aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I hurt my knee because I fell.",
+            "I fell because my knee was hurting.",
+            "My knee is swollen since the fall."
+          ],
+          "correctAnswer": "I hurt my knee because I fell."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gaayakke enaadaru aushadhi haakidira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, manele iddha aushadhi haakidini.",
+            "Illa, nanage ninne kemmu ittu.",
+            "Houdu, naanu naale doctor hattira hogtini."
+          ],
+          "correctAnswer": "Houdu, manele iddha aushadhi haakidini.",
+          "translatedSentence": "Yes, I put on the ointment we had at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mooru dinadalli jvara illa aadre doctor hattira hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not go in three days, see a doctor.",
+            "The fever has not gone for three days, so see a doctor.",
+            "See a doctor three days after the fever goes."
+          ],
+          "correctAnswer": "If the fever does not go in three days, see a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kemmu kammi aayita?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Swalpa kammi aagide aadre raatri innu ide.",
+            "Houdu, nanna monakaalu gaaya vaasi aagide.",
+            "Illa, nanage ee sirap sikkilla."
+          ],
+          "correctAnswer": "Swalpa kammi aagide aadre raatri innu ide.",
+          "translatedSentence": "It is a little better, but it is still there at night."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu naale kelasakke hogabahuda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innu eradu dina vishraanti tagondu aamele hogi.",
+            "Houdu, nimage ninne inda jvara ide.",
+            "Illa, naanu naale aushadhi angadige hogtini."
+          ],
+          "correctAnswer": "Innu eradu dina vishraanti tagondu aamele hogi.",
+          "translatedSentence": "Rest for two more days and then go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu sariyaagi vishraanti maadidare bega gunavaagtira.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you rest properly you will get better soon.",
+            "You got better soon because you rested properly.",
+            "Rest properly, but you will not get better soon."
+          ],
+          "correctAnswer": "If you rest properly you will get better soon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu ragi mudde tinnabahuda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, aadre saaru nalli khaara jaasti haakabedi.",
+            "Illa, nimma monakaalu innu novu ide.",
+            "Houdu, naanu belige filter kaapi kudide."
+          ],
+          "correctAnswer": "Houdu, aadre saaru nalli khaara jaasti haakabedi.",
+          "translatedSentence": "Yes, but do not put too much chilli in the saaru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jvara iruvaaga masala dose thara enne iruva tindi tinnabedi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you have a fever, do not eat oily food like masala dose.",
+            "When you have a fever, eat light food like masala dose.",
+            "Do not eat masala dose, because it gives you a fever."
+          ],
+          "correctAnswer": "When you have a fever, do not eat oily food like masala dose."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mooru dinada vishraanti nanage saakagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haagadare innu eradu dina manele vishraanti maadi.",
+            "Haagadare naale belige kelasakke hogi.",
+            "Haagadare aushadhi tagoluvudanna nilisi bidi."
+          ],
+          "correctAnswer": "Haagadare innu eradu dina manele vishraanti maadi.",
+          "translatedSentence": "In that case, rest at home for two more days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aushadhi tagonda mele nanage tumba vaasi aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel much better after taking the medicine.",
+            "I felt better even before taking the medicine.",
+            "The medicine did not help me very much."
+          ],
+          "correctAnswer": "I feel much better after taking the medicine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale kelasakke bartira tane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bartini, aadre swalpa tadavaagi bartini.",
+            "Illa, nanage ee aushadhi saakagilla.",
+            "Houdu, naanu ninne mathre tagondini."
+          ],
+          "correctAnswer": "Bartini, aadre swalpa tadavaagi bartini.",
+          "translatedSentence": "I will come, but I will be a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mattomme jvara bandare tappade doctor hattira hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever comes again, be sure to see the doctor.",
+            "The fever came again, so I went to the doctor.",
+            "See the doctor again before the fever comes back."
+          ],
+          "correctAnswer": "If the fever comes again, be sure to see the doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu iga hogtini, nimmanna naale nodtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, tumba dhanyavaada, hushaaragi iri.",
+            "Illa, nanage innu swalpa novu ide.",
+            "Houdu, nimma raktada parikshe chennagide."
+          ],
+          "correctAnswer": "Sari, tumba dhanyavaada, hushaaragi iri.",
+          "translatedSentence": "Alright, thank you very much, take care."
+        }
+      ]
+    }
+  ]
+}

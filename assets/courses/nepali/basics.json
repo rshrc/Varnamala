@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, tapaiko naam ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero naam {name} ho.",
+            "Ma sanchai chu.",
+            "Yo mero ghar ho."
+          ],
+          "correctAnswer": "Mero naam {name} ho.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma bideshi hu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am a foreigner.",
+            "I am a student.",
+            "I am a friend."
+          ],
+          "correctAnswer": "I am a foreigner."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro naam ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero naam Sita ho.",
+            "Mero ghar Pokhara ho.",
+            "Mero saathi Nepali ho."
+          ],
+          "correctAnswer": "Mero naam Sita ho.",
+          "translatedSentence": "My name is Sita."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mero saathi ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend.",
+            "This is my house.",
+            "He is my teacher."
+          ],
+          "correctAnswer": "This is my friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kaha bata hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma America bata hu.",
+            "Ma sanchai chu.",
+            "Mero naam Hari ho."
+          ],
+          "correctAnswer": "Ma America bata hu.",
+          "translatedSentence": "I am from America."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma Kathmandu bata hu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Kathmandu.",
+            "I live in Kathmandu.",
+            "I am going to Kathmandu."
+          ],
+          "correctAnswer": "I am from Kathmandu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sanchai chu, dhanyabaad.",
+            "Mero naam Gita ho.",
+            "Yo mero kitab ho."
+          ],
+          "correctAnswer": "Ma sanchai chu, dhanyabaad.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Wahaa mero aama hunuhuncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is my mother.",
+            "She is my older sister.",
+            "This is my mother's house."
+          ],
+          "correctAnswer": "She is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma {name} hu, tapaiko naam ni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero naam Bikash ho.",
+            "Ma sanchai chu ni.",
+            "Yo mero bhai ho."
+          ],
+          "correctAnswer": "Mero naam Bikash ho.",
+          "translatedSentence": "My name is Bikash."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this and that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo chiya ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, yo chiya ho.",
+            "Hoina, yo pani ho.",
+            "Ho, yo mero saathi ho."
+          ],
+          "correctAnswer": "Ho, yo chiya ho.",
+          "translatedSentence": "Yes, this is tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tyo mero jhola hoina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is not my bag.",
+            "That is my bag.",
+            "This is not my bag."
+          ],
+          "correctAnswer": "That is not my bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tyo momo ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoina, tyo sel roti ho.",
+            "Ho, tyo mero khaja ho.",
+            "Hoina, tyo pani ho."
+          ],
+          "correctAnswer": "Hoina, tyo sel roti ho.",
+          "translatedSentence": "No, that is sel roti."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo dal bhat ekdam mitho cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This dal bhat is really delicious.",
+            "That dal bhat is not delicious.",
+            "This dal bhat has gone cold."
+          ],
+          "correctAnswer": "This dal bhat is really delicious."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kitab tapaiko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, tyo mero kitab ho.",
+            "Tyo pasal ma pani cha.",
+            "Tyaha dherai kitab chan."
+          ],
+          "correctAnswer": "Ho, tyo mero kitab ho.",
+          "translatedSentence": "Yes, that is my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yaha najik euta pasal cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a shop near here.",
+            "There is no shop near here.",
+            "The shop near here is very big."
+          ],
+          "correctAnswer": "There is a shop near here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai ke chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai ek kap chiya chahiyo.",
+            "Malai chiya man pardaina.",
+            "Yo chiya ekdam tato cha."
+          ],
+          "correctAnswer": "Malai ek kap chiya chahiyo.",
+          "translatedSentence": "I would like a cup of tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mero kotha ho, tyo timro ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my room and that one is yours.",
+            "This is your room and that one is mine.",
+            "This room is ours, not theirs."
+          ],
+          "correctAnswer": "This is my room and that one is yours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai Nepali bolnu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali bolchu.",
+            "Ho, ma Nepal ma bascu.",
+            "Hoina, ma Nepali hu."
+          ],
+          "correctAnswer": "Ali ali bolchu.",
+          "translatedSentence": "I speak a little."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Eat, drink, go, come",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai bihana ke khanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma bihana dal bhat khanchu.",
+            "Ma bihana Thamel janchu.",
+            "Ma bihana dherai kaam garchu."
+          ],
+          "correctAnswer": "Ma bihana dal bhat khanchu.",
+          "translatedSentence": "I eat dal bhat in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma bihana chiya piunchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea in the morning.",
+            "I make tea in the morning.",
+            "I drink tea in the evening."
+          ],
+          "correctAnswer": "I drink tea in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kaha jaanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma Thamel janchu.",
+            "Ma Thamel bata aauchu.",
+            "Ma Thamel ma bascu."
+          ],
+          "correctAnswer": "Ma Thamel janchu.",
+          "translatedSentence": "I am going to Thamel."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hami micro bus ma school janchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We go to school by micro bus.",
+            "We walk to school every day.",
+            "We are waiting for the micro bus."
+          ],
+          "correctAnswer": "We go to school by micro bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi ke gardai chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma khana pakaudai chu.",
+            "Ma bhat khana janchu.",
+            "Ma pasal ma kaam garchu."
+          ],
+          "correctAnswer": "Ma khana pakaudai chu.",
+          "translatedSentence": "I am cooking food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Beluka ma saathi sanga momo khanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening I eat momo with my friend.",
+            "In the evening I cook momo for my friend.",
+            "At noon I eat momo with my friend."
+          ],
+          "correctAnswer": "In the evening I eat momo with my friend."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kahile aaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma bholi aauchu.",
+            "Ma Pokhara ma chu.",
+            "Ma micro bus ma janchu."
+          ],
+          "correctAnswer": "Ma bholi aauchu.",
+          "translatedSentence": "I will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Wahaa hospital ma kaam garnu huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She works at the hospital.",
+            "She is going to the hospital.",
+            "She is a doctor at the hospital."
+          ],
+          "correctAnswer": "She works at the hospital."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi hami Pokhara jaane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, ma pani janchu.",
+            "Hoina, ma Pokhara bata hu.",
+            "Ma Pokhara ma bascu."
+          ],
+          "correctAnswer": "Huncha, ma pani janchu.",
+          "translatedSentence": "Sure, I will come along too."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo Nepali chiya ho.",
+            "Tyo pasal ma cha.",
+            "Wahaa mero saathi hunuhuncha."
+          ],
+          "correctAnswer": "Yo Nepali chiya ho.",
+          "translatedSentence": "This is Nepali tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapaiko ghar kaha ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your house?",
+            "Where is your shop?",
+            "Whose house is this?"
+          ],
+          "correctAnswer": "Where is your house?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathroom kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sidha gayera daya tira cha.",
+            "Tyo pasal ekdam tadha cha.",
+            "Yaha dherai manche chan."
+          ],
+          "correctAnswer": "Sidha gayera daya tira cha.",
+          "translatedSentence": "Go straight and it is on the right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Wahaa ko hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is she?",
+            "Where is she?",
+            "Whose is this?"
+          ],
+          "correctAnswer": "Who is she?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma sanga ko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tapai sanga tapaiko didi hunuhuncha.",
+            "Tapai euta hotel ma hunuhuncha.",
+            "Tapailai ek jana saathi chahiyo."
+          ],
+          "correctAnswer": "Tapai sanga tapaiko didi hunuhuncha.",
+          "translatedSentence": "Your older sister is with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pokhara jaane bus kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus that goes to Pokhara?",
+            "When does the bus to Pokhara leave?",
+            "How much is the bus to Pokhara?"
+          ],
+          "correctAnswer": "Where is the bus that goes to Pokhara?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo ek saya rupaiya ho.",
+            "Yo mero saathi ko ho.",
+            "Yo pasal bhitra cha."
+          ],
+          "correctAnswer": "Yo ek saya rupaiya ho.",
+          "translatedSentence": "This is one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapai ke kaam garnu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What work do you do?",
+            "Where do you work?",
+            "Do you work here?"
+          ],
+          "correctAnswer": "What work do you do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kitab kasko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tyo mero saathiko ho.",
+            "Tyo tebul mathi cha.",
+            "Tyo ekdam ramro kitab ho."
+          ],
+          "correctAnswer": "Tyo mero saathiko ho.",
+          "translatedSentence": "That one belongs to my friend."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no politely",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus kati baje aaucha, tapailai thaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai thaha chaina, sodhera bhanchu.",
+            "Ho, bus yaha bata aaucha.",
+            "Ma bus ma jandina."
+          ],
+          "correctAnswer": "Malai thaha chaina, sodhera bhanchu.",
+          "translatedSentence": "I do not know, I will ask and tell you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai Nepali ramrari bolna audaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot speak Nepali well.",
+            "I do not want to speak Nepali.",
+            "I do not understand Nepali at all."
+          ],
+          "correctAnswer": "I cannot speak Nepali well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tarkari ma masu cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaina, yo tarkari ma masu chaina.",
+            "Cha, yo tarkari ekdam mitho cha.",
+            "Malai tarkari man pardaina."
+          ],
+          "correctAnswer": "Chaina, yo tarkari ma masu chaina.",
+          "translatedSentence": "No, there is no meat in this curry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai tyo thau thaha chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know that place.",
+            "I have not been to that place.",
+            "That place is not far."
+          ],
+          "correctAnswer": "I do not know that place."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaile bujhnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maph garnuhos, maile bujhina.",
+            "Hoina, ma tyaha basdina.",
+            "Hoina, ma tyaha jandina."
+          ],
+          "correctAnswer": "Maph garnuhos, maile bujhina.",
+          "translatedSentence": "Sorry, I did not understand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aja ma pasal jandina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going to the shop today.",
+            "I did not go to the shop today.",
+            "I do not like that shop."
+          ],
+          "correctAnswer": "I am not going to the shop today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai yo thau man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Man pardaina, yaha dherai hulla cha.",
+            "Ho, ma yaha naya hu.",
+            "Yo thau Pokhara bata tadha cha."
+          ],
+          "correctAnswer": "Man pardaina, yaha dherai hulla cha.",
+          "translatedSentence": "I do not like it, there is too much noise here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai maph garnuhos, ma Nepali bujhdina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Excuse me, I do not understand Nepali.",
+            "Excuse me, I do not speak Nepali.",
+            "Sorry, I cannot hear you."
+          ],
+          "correctAnswer": "Excuse me, I do not understand Nepali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaha wifi cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaina, yaha wifi chaina.",
+            "Cha, yaha chiya pani cha.",
+            "Malai wifi ko password chahiyo."
+          ],
+          "correctAnswer": "Chaina, yaha wifi chaina.",
+          "translatedSentence": "No, there is no wifi here."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi hami Nagarkot janchau, tapai pani aaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aauchu, tara malai beluka pharkinu cha.",
+            "Hoina, ma Nagarkot ma bascu.",
+            "Malai Nagarkot ko bato thaha chaina."
+          ],
+          "correctAnswer": "Aauchu, tara malai beluka pharkinu cha.",
+          "translatedSentence": "I will come, but I have to be back in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aja kaam ma gaina kinabhane malai sancho chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not go to work today because I am not well.",
+            "I am not going to work today because I am tired.",
+            "I went to work today even though I was not well."
+          ],
+          "correctAnswer": "I did not go to work today because I am not well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai momo man parcha ki dal bhat?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Momo man parcha, tara ma roj dal bhat khanchu.",
+            "Malai momo pasal thaha chaina.",
+            "Ma euta momo pasal ma kaam garchu."
+          ],
+          "correctAnswer": "Momo man parcha, tara ma roj dal bhat khanchu.",
+          "translatedSentence": "I like momo, but I eat dal bhat every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi bholi pani pardaina bhane hami Himalaya trek ma janchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it does not rain tomorrow, we will go on the Himalaya trek.",
+            "If it rains tomorrow, we will not go on the Himalaya trek.",
+            "We are going on the Himalaya trek tomorrow even if it rains."
+          ],
+          "correctAnswer": "If it does not rain tomorrow, we will go on the Himalaya trek."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai Nepal ma kati samaya bata hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma yaha aayeko tin mahina bhayo.",
+            "Ma Kathmandu ma dui jana saathi sanga bascu.",
+            "Ma Nepali sikna yaha aayeko hu."
+          ],
+          "correctAnswer": "Ma yaha aayeko tin mahina bhayo.",
+          "translatedSentence": "It has been three months since I came here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maph garnuhos, ma dhilo aaye kinabhane micro bus ma dherai bhid thiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry I am late, the micro bus was very crowded.",
+            "Sorry I am late, I could not find a micro bus.",
+            "Sorry, the micro bus does not come this way."
+          ],
+          "correctAnswer": "Sorry I am late, the micro bus was very crowded."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai Pokhara jaanu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gaye, ani tyaha ko tal ekdam ramro thiyo.",
+            "Jandina, malai tyo bato man pardaina.",
+            "Ma bholi Pokhara janchu."
+          ],
+          "correctAnswer": "Gaye, ani tyaha ko tal ekdam ramro thiyo.",
+          "translatedSentence": "Yes I did, and the lake there was beautiful."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma Nepali ali ali bujhchu tara bistarai bolnuhos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand a little Nepali, but please speak slowly.",
+            "I understand Nepali well, so you can speak quickly.",
+            "I do not understand Nepali, please speak in English."
+          ],
+          "correctAnswer": "I understand a little Nepali, but please speak slowly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi bihana chiya khana aaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, ma sat baje aauchu.",
+            "Hoina, malai chiya ko pasal thaha chaina.",
+            "Ma bihana chiya pasal khojdai chu."
+          ],
+          "correctAnswer": "Huncha, ma sat baje aauchu.",
+          "translatedSentence": "Sure, I will come at seven o'clock."
+        }
+      ]
+    }
+  ]
+}

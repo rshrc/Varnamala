@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aakash ko rang ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aakash nilo cha.",
+            "aakash rato cha.",
+            "aakash kalo cha."
+          ],
+          "correctAnswer": "aakash nilo cha.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo phul rato cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This flower is red.",
+            "This flower is white.",
+            "This leaf is red."
+          ],
+          "correctAnswer": "This flower is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "paat ko rang ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "paat hariyo cha.",
+            "paat pahelo cha.",
+            "paat gulabi cha."
+          ],
+          "correctAnswer": "paat hariyo cha.",
+          "translatedSentence": "The leaf is green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "dudh seto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Milk is white.",
+            "Curd is white.",
+            "Milk is yellow."
+          ],
+          "correctAnswer": "Milk is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai kun rang man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai hariyo rang man parcha.",
+            "malai hariyo rang man pardaina.",
+            "malai hariyo saag man parcha."
+          ],
+          "correctAnswer": "malai hariyo rang man parcha.",
+          "translatedSentence": "I like the colour green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kaag kalo cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The crow is black.",
+            "The crow is big.",
+            "The cow is black."
+          ],
+          "correctAnswer": "The crow is black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo pakeko kera ko rang ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo pahelo cha.",
+            "yo hariyo cha.",
+            "yo khairo cha."
+          ],
+          "correctAnswer": "yo pahelo cha.",
+          "translatedSentence": "It is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero jutta kalo cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shoes are black.",
+            "My shoes are new.",
+            "My bag is black."
+          ],
+          "correctAnswer": "My shoes are black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timro man parne rang ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero man parne rang seto ho.",
+            "mero man parne khana momo ho.",
+            "mero man parne thau pokhara ho."
+          ],
+          "correctAnswer": "mero man parne rang seto ho.",
+          "translatedSentence": "My favourite colour is white."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko jhola kun rang ko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero jhola khairo rang ko cha.",
+            "mero jhola gharma cha.",
+            "mero jhola dherai naya ho."
+          ],
+          "correctAnswer": "mero jhola khairo rang ko cha.",
+          "translatedSentence": "My bag is brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tyo ghar ko chana rato cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That house has a red roof.",
+            "That house has a red door.",
+            "That house is very big."
+          ],
+          "correctAnswer": "That house has a red roof."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo kalam kun rang ko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo kalam nilo rang ko ho.",
+            "yo kalam mero sathi ko ho.",
+            "yo kalam dherai ramro cha."
+          ],
+          "correctAnswer": "yo kalam nilo rang ko ho.",
+          "translatedSentence": "This pen is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero saikal rato ra seto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bicycle is red and white.",
+            "My bicycle is red and black.",
+            "My car is red and white."
+          ],
+          "correctAnswer": "My bicycle is red and white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo topi kun rang ko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo topi kalo ra seto cha.",
+            "yo topi malai sano bhayo.",
+            "yo topi thamel ma kineko ho."
+          ],
+          "correctAnswer": "yo topi kalo ra seto cha.",
+          "translatedSentence": "This cap is black and white."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo micro bus nilo ra seto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This micro bus is blue and white.",
+            "That micro bus is blue and white.",
+            "This micro bus is old and slow."
+          ],
+          "correctAnswer": "This micro bus is blue and white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tyo bhitta kun rang ko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tyo bhitta pahelo cha.",
+            "tyo bhitta kotha bhitra cha.",
+            "tyo bhitta ekdam purano cha."
+          ],
+          "correctAnswer": "tyo bhitta pahelo cha.",
+          "translatedSentence": "That wall is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero didi ko sari gulabi cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My older sister's sari is pink.",
+            "My mother's sari is pink.",
+            "My older sister's sari is new."
+          ],
+          "correctAnswer": "My older sister's sari is pink."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "chiya ko yo kap kun rang ko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo kap seto ra nilo ho.",
+            "yo kap dherai sano ho.",
+            "yo chiya ekdam tato cha."
+          ],
+          "correctAnswer": "yo kap seto ra nilo ho.",
+          "translatedSentence": "This cup is white and blue."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Choosing a colour",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai kun rang chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai rato rang chahiyo.",
+            "malai duita chahiyo.",
+            "malai thulo chahiyo."
+          ],
+          "correctAnswer": "malai rato rang chahiyo.",
+          "translatedSentence": "I would like the red one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai gadha nilo rang chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a dark blue one.",
+            "I want a light blue one.",
+            "I do not want the blue one."
+          ],
+          "correctAnswer": "I want a dark blue one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo topi seto rang ma pani cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "cha, seto rang ma pani cha.",
+            "cha, yo topi dui saya rupaiya ho.",
+            "chaina, pasal aile banda cha."
+          ],
+          "correctAnswer": "cha, seto rang ma pani cha.",
+          "translatedSentence": "Yes, we have it in white too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo kurta arko rang ma cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have this kurta in another colour?",
+            "Do you have this kurta in another size?",
+            "Is this kurta very expensive?"
+          ],
+          "correctAnswer": "Do you have this kurta in another colour?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai kalo chahiyo ki khairo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai khairo chahiyo.",
+            "malai duita chahidaina.",
+            "malai sano nai chahiyo."
+          ],
+          "correctAnswer": "malai khairo chahiyo.",
+          "translatedSentence": "I would like the brown one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai halka rang man parcha, gadha rang haina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like light colours, not dark ones.",
+            "I like dark colours, not light ones.",
+            "I like this colour a lot."
+          ],
+          "correctAnswer": "I like light colours, not dark ones."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo pahelo topi kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "paanch saya rupaiya ho.",
+            "yo topi pahelo rang ko ho.",
+            "malai pahelo rang man parcha."
+          ],
+          "correctAnswer": "paanch saya rupaiya ho.",
+          "translatedSentence": "It is five hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo rang malai thik cha, ma yahi linchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour is fine for me, I will take this one.",
+            "This colour is too dark, I will look at another one.",
+            "This colour is fine, but I will come back tomorrow."
+          ],
+          "correctAnswer": "This colour is fine for me, I will take this one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai yo rang man paryo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "man paryo, tara ali gadha cha.",
+            "man parcha, ma pokhara janchu.",
+            "thaha chaina, ma aile aaunchu."
+          ],
+          "correctAnswer": "man paryo, tara ali gadha cha.",
+          "translatedSentence": "I like it, but it is a bit dark."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja tapaile kun rang ko lugaa lagaunu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maile aaja seto kurta lagaye.",
+            "ma aaja kaam ma gaye.",
+            "maile aaja dal bhat khaye."
+          ],
+          "correctAnswer": "maile aaja seto kurta lagaye.",
+          "translatedSentence": "Today I wore a white kurta."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "usko sirt nilo ra pant kalo cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His shirt is blue and his trousers are black.",
+            "His shirt is black and his trousers are blue.",
+            "His shirt is blue and his shoes are black."
+          ],
+          "correctAnswer": "His shirt is blue and his trousers are black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo rato sari timilai kasto lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dherai ramro cha, timilai suhauncha.",
+            "malai aile bhok lageko cha.",
+            "ma bholi bihana pokhara janchu."
+          ],
+          "correctAnswer": "dherai ramro cha, timilai suhauncha.",
+          "translatedSentence": "It is very nice, it suits you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai kaam ko lagi seto sirt chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a white shirt for work.",
+            "I need a white cap for work.",
+            "I need a white shirt for the wedding."
+          ],
+          "correctAnswer": "I need a white shirt for work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "biha ma tapaile kun rang lagaunu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma rato sari lagauchu.",
+            "ma bihana chiya khanchu.",
+            "ma kathmandu ma baschu."
+          ],
+          "correctAnswer": "ma rato sari lagauchu.",
+          "translatedSentence": "I will wear a red sari."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo kalo jyaketa jado ko lagi ramro cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This black jacket is good for the cold.",
+            "This blue jacket is good for the cold.",
+            "This black jacket is good for the rain."
+          ],
+          "correctAnswer": "This black jacket is good for the cold."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timro naya jutta kun rang ko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero naya jutta khairo ho.",
+            "mero naya jutta dherai mahango cha.",
+            "mero naya jutta thamel ma kineko ho."
+          ],
+          "correctAnswer": "mero naya jutta khairo ho.",
+          "translatedSentence": "My new shoes are brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hariyo rang mero chhora lai suhauncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Green suits my son.",
+            "Green suits my daughter.",
+            "My son likes green."
+          ],
+          "correctAnswer": "Green suits my son."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo seto kurta ra tyo nilo kurta, kun ramro cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "seto nai ramro cha.",
+            "malai kurta chahidaina.",
+            "yo kurta thamel ma paincha."
+          ],
+          "correctAnswer": "seto nai ramro cha.",
+          "translatedSentence": "The white one is nicer."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around town",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "himalaya kasto dekhincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "himalaya seto ra chamkilo dekhincha.",
+            "himalaya yaha bata dherai tadha cha.",
+            "himalaya ma jada jyaketa chahincha."
+          ],
+          "correctAnswer": "himalaya seto ra chamkilo dekhincha.",
+          "translatedSentence": "The Himalayas look white and bright."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "barsat pachi dhan ko khet gahiro hariyo huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the rain the paddy fields turn deep green.",
+            "After the rain the paddy fields turn yellow.",
+            "Before the rain the paddy fields are deep green."
+          ],
+          "correctAnswer": "After the rain the paddy fields turn deep green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "pokhara ko tal ko pani kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tal ko pani hariyo nilo cha.",
+            "tal ma aaja dherai manche cha.",
+            "tal pokhara sahar ko bich ma cha."
+          ],
+          "correctAnswer": "tal ko pani hariyo nilo cha.",
+          "translatedSentence": "The lake water is a greenish blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bihana ko aakash gulabi ra suntale huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the morning the sky turns pink and orange.",
+            "In the evening the sky turns pink and orange.",
+            "In the morning the sky is dark and grey."
+          ],
+          "correctAnswer": "In the morning the sky turns pink and orange."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "thamel ma sanjha ma ke dekhincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "rangi changi batti haru dekhincha.",
+            "thamel ma micro bus paincha.",
+            "thamel kathmandu ma nai cha."
+          ],
+          "correctAnswer": "rangi changi batti haru dekhincha.",
+          "translatedSentence": "You can see colourful lights."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "gaun ka ghar haru rato ra seto rang le poteko cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The village houses are painted red and white.",
+            "The village houses are painted blue and white.",
+            "The village houses are built of red and white stone."
+          ],
+          "correctAnswer": "The village houses are painted red and white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bagaicha ma kun rang ka phul chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "rato ra pahelo phul chan.",
+            "bagaicha ghar pachadi cha.",
+            "bagaicha ma pani halnu parcha."
+          ],
+          "correctAnswer": "rato ra pahelo phul chan.",
+          "translatedSentence": "There are red and yellow flowers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jado ma kathmandu ko aakash dhamilo khairo huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In winter the Kathmandu sky turns a hazy brown.",
+            "In summer the Kathmandu sky turns a hazy brown.",
+            "In winter the Kathmandu sky is clear and blue."
+          ],
+          "correctAnswer": "In winter the Kathmandu sky turns a hazy brown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "trek ma jada kasto ban dekhincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gahiro hariyo ban dekhincha.",
+            "ban ma dherai chara haru chan.",
+            "trek dui din ko matra ho."
+          ],
+          "correctAnswer": "gahiro hariyo ban dekhincha.",
+          "translatedSentence": "You see a deep green forest."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai gadha rato man parcha ki halka gulabi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai halka gulabi man parcha, kina bhane tyo najuk dekhincha.",
+            "malai aaja lugaa kinna man lagena, ma pachi aaunchu.",
+            "malai yo pasal thaha thiena, sathi le bhaneko thiyo."
+          ],
+          "correctAnswer": "malai halka gulabi man parcha, kina bhane tyo najuk dekhincha.",
+          "translatedSentence": "I prefer light pink, because it looks delicate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo rang gadha cha, tara garmi ko lagi halka rang nai thik huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This colour is dark, but light colours are better for the summer.",
+            "This colour is light, but dark colours are better for the summer.",
+            "This colour is dark, so it is good for the winter."
+          ],
+          "correctAnswer": "This colour is dark, but light colours are better for the summer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo nilo kurta malai suhaucha ki suhaudaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "suhaucha, tara gadha nilo bhaye ajha ramro hunthyo.",
+            "suhaudaina, kina bhane ma kathmandu ma baschu.",
+            "thaha chaina, malai kurta lagauna aaudaina."
+          ],
+          "correctAnswer": "suhaucha, tara gadha nilo bhaye ajha ramro hunthyo.",
+          "translatedSentence": "It suits you, but a darker blue would look even better."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi tapailai yo rang man pardaina bhane, hami arko rang dekhauchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like this colour, we will show you another one.",
+            "If you like this colour, we will show you another one too.",
+            "If you do not like this colour, you can come back tomorrow."
+          ],
+          "correctAnswer": "If you do not like this colour, we will show you another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kina timi sadhai kalo lugaa lagauchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kina bhane kalo mailo dekhindaina ra sabai sanga milcha.",
+            "kina bhane ma bihana dhilo uthchu ra hattar huncha.",
+            "kina bhane mero pasal thamel ma nai cha."
+          ],
+          "correctAnswer": "kina bhane kalo mailo dekhindaina ra sabai sanga milcha.",
+          "translatedSentence": "Because black does not look dirty and it goes with everything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero bichar ma yo seto sirt bhanda tyo halka nilo tapailai badhi suhaucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In my opinion that light blue one suits you better than this white shirt.",
+            "In my opinion this white shirt suits you better than that light blue one.",
+            "In my opinion that light blue shirt is more expensive than this white one."
+          ],
+          "correctAnswer": "In my opinion that light blue one suits you better than this white shirt."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aakhir ma tapaile kun rang chhannu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maile khairo chhane, kina bhane tyo mero jutta sanga milcha.",
+            "maile aaja kehi kineko chaina, bholi socchu.",
+            "malai rang chhanna gahro huncha, tara sabai ramro cha."
+          ],
+          "correctAnswer": "maile khairo chhane, kina bhane tyo mero jutta sanga milcha.",
+          "translatedSentence": "I chose brown, because it goes with my shoes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pahile malai rato man parthyo, tara aba halka rang haru badhi man parcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to like red, but now I prefer lighter colours.",
+            "I like red now, but earlier I preferred lighter colours.",
+            "I like red, and I like lighter colours as well."
+          ],
+          "correctAnswer": "I used to like red, but now I prefer lighter colours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo gulabi sari ra tyo pahelo sari, kun kinne hola?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "gulabi nai kinnus, kina bhane tyo tapailai dherai suhaucha.",
+            "duitai nakinnus, pasal chadai banda huncha.",
+            "pahelo sari ko mulya thaha chaina, sodhnu parcha."
+          ],
+          "correctAnswer": "gulabi nai kinnus, kina bhane tyo tapailai dherai suhaucha.",
+          "translatedSentence": "Buy the pink one, because it suits you much better."
+        }
+      ]
+    }
+  ]
+}

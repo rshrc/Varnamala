@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kahan ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main rasoi mein hoon.",
+            "Main theek hoon.",
+            "Main tumhara dost hoon."
+          ],
+          "correctAnswer": "Main rasoi mein hoon.",
+          "translatedSentence": "I am in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh mera kamra hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my room.",
+            "This is my house.",
+            "That is your room."
+          ],
+          "correctAnswer": "This is my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghar mein kitne kamre hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ghar mein teen kamre hain.",
+            "Ghar bahut sundar hai.",
+            "Ghar yahin paas mein hai."
+          ],
+          "correctAnswer": "Ghar mein teen kamre hain.",
+          "translatedSentence": "There are three rooms in the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rasoi bahut chhoti hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen is very small.",
+            "The kitchen is very clean.",
+            "The room is very small."
+          ],
+          "correctAnswer": "The kitchen is very small."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Baithak kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baithak neeche hai.",
+            "Baithak bahut saaf hai.",
+            "Baithak mein sab baithte hain."
+          ],
+          "correctAnswer": "Baithak neeche hai.",
+          "translatedSentence": "The living room is downstairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera kamra upar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My room is upstairs.",
+            "My room is downstairs.",
+            "Your room is upstairs."
+          ],
+          "correctAnswer": "My room is upstairs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya ghar mein do bathroom hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, do bathroom hain.",
+            "Haan, main ghar par hoon.",
+            "Nahi, main abhi aata hoon."
+          ],
+          "correctAnswer": "Haan, do bathroom hain.",
+          "translatedSentence": "Yes, there are two bathrooms."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bachche apne kamre mein hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children are in their room.",
+            "The children are in the kitchen.",
+            "The children are in my room."
+          ],
+          "correctAnswer": "The children are in their room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kahan sote ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main is kamre mein sota hoon.",
+            "Main der se aata hoon.",
+            "Main ghar par nahi hoon."
+          ],
+          "correctAnswer": "Main is kamre mein sota hoon.",
+          "translatedSentence": "I sleep in this room."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhare kamre mein pankha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mere kamre mein pankha hai.",
+            "Haan, mujhe bahut garmi lagti hai.",
+            "Nahi, mera kamra upar hai."
+          ],
+          "correctAnswer": "Haan, mere kamre mein pankha hai.",
+          "translatedSentence": "Yes, there is a fan in my room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kapde almari mein rakh do.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Put the clothes in the cupboard.",
+            "Take the clothes out of the cupboard.",
+            "Put the clothes on the bed."
+          ],
+          "correctAnswer": "Put the clothes in the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mujhe baithne ke liye ek kursi chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh kursi le lijiye.",
+            "Yeh kamra bahut bada hai.",
+            "Yeh mez purani ho gayi hai."
+          ],
+          "correctAnswer": "Yeh kursi le lijiye.",
+          "translatedSentence": "Please take this chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Palang par saaf chadar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a clean sheet on the bed.",
+            "There is a dirty sheet on the bed.",
+            "There is a clean sheet on the chair."
+          ],
+          "correctAnswer": "There is a clean sheet on the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pankha band kar do.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main abhi band karta hoon.",
+            "Theek hai, main abhi so jaata hoon.",
+            "Theek hai, main naya pankha dekhta hoon."
+          ],
+          "correctAnswer": "Theek hai, main abhi band karta hoon.",
+          "translatedSentence": "All right, I will switch it off right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh gilas rasoi mein rakh do.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Put this glass in the kitchen.",
+            "Bring this glass from the kitchen.",
+            "Put this plate in the kitchen."
+          ],
+          "correctAnswer": "Put this glass in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhara mobile kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera mobile mez par hai.",
+            "Mera mobile bilkul naya hai.",
+            "Mera mobile bahut mehnga tha."
+          ],
+          "correctAnswer": "Mera mobile mez par hai.",
+          "translatedSentence": "My phone is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Almari mein bahut saare bartan hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are a lot of utensils in the cupboard.",
+            "There are only a few utensils in the cupboard.",
+            "There are a lot of clothes in the cupboard."
+          ],
+          "correctAnswer": "There are a lot of utensils in the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh mez nayi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, yeh mez bahut purani hai.",
+            "Haan, yeh kursi bahut sundar hai.",
+            "Nahi, mez rasoi mein rakhi hai."
+          ],
+          "correctAnswer": "Nahi, yeh mez bahut purani hai.",
+          "translatedSentence": "No, this table is very old."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Chores around the house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj bartan kaun dhoyega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bartan aaj main dhoonga.",
+            "Bartan rasoi mein rakhe hain.",
+            "Bartan bahut gande ho gaye hain."
+          ],
+          "correctAnswer": "Bartan aaj main dhoonga.",
+          "translatedSentence": "I will wash the dishes today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main roz subah jhaadu lagata hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sweep the floor every morning.",
+            "I sweep the floor every evening.",
+            "I wash the clothes every morning."
+          ],
+          "correctAnswer": "I sweep the floor every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumne kapde dho liye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, main abhi dho raha hoon.",
+            "Haan, mujhe naye kapde chahiye.",
+            "Nahi, kapde almari mein rakhe hain."
+          ],
+          "correctAnswer": "Nahi, main abhi dho raha hoon.",
+          "translatedSentence": "No, I am washing them right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj rasoi ki safai karni hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen has to be cleaned today.",
+            "The kitchen was cleaned today.",
+            "The bedroom has to be cleaned today."
+          ],
+          "correctAnswer": "The kitchen has to be cleaned today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana kaun bana raha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa khana bana rahi hain.",
+            "Khana mez par rakha hai.",
+            "Khana bahut swadisht hai."
+          ],
+          "correctAnswer": "Maa khana bana rahi hain.",
+          "translatedSentence": "Mom is cooking."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aaj dal chawal bana raha hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am cooking dal and rice today.",
+            "I am eating dal and rice today.",
+            "I am cooking roti and sabzi today."
+          ],
+          "correctAnswer": "I am cooking dal and rice today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kachra bahar phenk do.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, main abhi phenk deta hoon.",
+            "Theek hai, main abhi khana banata hoon.",
+            "Theek hai, main abhi bartan dhota hoon."
+          ],
+          "correctAnswer": "Theek hai, main abhi phenk deta hoon.",
+          "translatedSentence": "All right, I will throw it out right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghar ki safai karne mein do ghante lag gaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cleaning the house took two hours.",
+            "Cleaning the house will take two hours.",
+            "Cleaning the kitchen took two hours."
+          ],
+          "correctAnswer": "Cleaning the house took two hours."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kaam mein meri madad karoge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main abhi tumhari madad karta hoon.",
+            "Haan, main tumhara kamra dekh raha hoon.",
+            "Nahi, yeh bartan mera nahi hai."
+          ],
+          "correctAnswer": "Haan, main abhi tumhari madad karta hoon.",
+          "translatedSentence": "Yes, I will help you right away."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meri chabi kahin mil hi nahi rahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh mez ke neeche gir gayi hai.",
+            "Woh chabi bahut purani ho gayi hai.",
+            "Main kal nayi chabi banwa loonga."
+          ],
+          "correctAnswer": "Woh mez ke neeche gir gayi hai.",
+          "translatedSentence": "It has fallen under the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Billi kursi ke neeche baithi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is sitting under the chair.",
+            "The cat is sitting on the chair.",
+            "The cat is sitting under the table."
+          ],
+          "correctAnswer": "The cat is sitting under the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doodh kahan rakha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Doodh fridge ke andar rakha hai.",
+            "Doodh roz subah aa jaata hai.",
+            "Doodh chai ke liye chahiye."
+          ],
+          "correctAnswer": "Doodh fridge ke andar rakha hai.",
+          "translatedSentence": "The milk is inside the fridge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jhaadu darwaze ke peeche rakhi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The broom is kept behind the door.",
+            "The broom is kept behind the cupboard.",
+            "The bucket is kept behind the door."
+          ],
+          "correctAnswer": "The broom is kept behind the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya mera bag palang ke neeche hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, woh almari ke upar rakha hai.",
+            "Haan, palang mere kamre mein hai.",
+            "Nahi, mujhe ek naya bag chahiye."
+          ],
+          "correctAnswer": "Nahi, woh almari ke upar rakha hai.",
+          "translatedSentence": "No, it is kept on top of the cupboard."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chai ka cup mez par rakha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cup of tea is on the table.",
+            "The cup of tea is under the table.",
+            "The glass of milk is on the table."
+          ],
+          "correctAnswer": "The cup of tea is on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bachche kahan khel rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh ghar ke bahar khel rahe hain.",
+            "Woh bahut zyada shor kar rahe hain.",
+            "Unhe khelna bahut pasand hai."
+          ],
+          "correctAnswer": "Woh ghar ke bahar khel rahe hain.",
+          "translatedSentence": "They are playing outside the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri chappal darwaze ke saamne hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My slippers are in front of the door.",
+            "My slippers are behind the door.",
+            "My slippers are inside the cupboard."
+          ],
+          "correctAnswer": "My slippers are in front of the door."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Balti kahan hai, mujhe poncha lagana hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Balti bathroom mein rakhi hai.",
+            "Balti bahut bhaari ho gayi hai.",
+            "Poncha roz lagana zaroori hai."
+          ],
+          "correctAnswer": "Balti bathroom mein rakhi hai.",
+          "translatedSentence": "The bucket is in the bathroom."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, kya main andar aa sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, aaiye, andar aaiye.",
+            "Ji haan, main abhi bahar jaa raha hoon.",
+            "Ji nahi, mera ghar yahin paas mein hai."
+          ],
+          "correctAnswer": "Ji haan, aaiye, andar aaiye.",
+          "translatedSentence": "Yes of course, please come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap yahan sofe par baithiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit here on the sofa.",
+            "Please wait here near the sofa.",
+            "Please sit there on the chair."
+          ],
+          "correctAnswer": "Please sit here on the sofa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap chai lenge ya coffee?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main chai loonga, dhanyawaad.",
+            "Main abhi ghar jaa raha hoon, dhanyawaad.",
+            "Main aapke liye chai banata hoon."
+          ],
+          "correctAnswer": "Main chai loonga, dhanyawaad.",
+          "translatedSentence": "I will have tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maine aapke liye samose mangwaye hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have ordered samosas for you.",
+            "I have made samosas for you.",
+            "I will order samosas for you."
+          ],
+          "correctAnswer": "I have ordered samosas for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka ghar bahut sundar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyawaad, aapko achha laga to khushi hui.",
+            "Dhanyawaad, main abhi ghar jaa raha hoon.",
+            "Ji nahi, mera ghar Jaipur mein hai."
+          ],
+          "correctAnswer": "Dhanyawaad, aapko achha laga to khushi hui.",
+          "translatedSentence": "Thank you, I am glad you liked it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khana taiyar hai, aap mez par aa jaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The food is ready, please come to the table.",
+            "The food is ready, please sit on the sofa.",
+            "The food will be ready soon, please wait."
+          ],
+          "correctAnswer": "The food is ready, please come to the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thoda aur khana lijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi dhanyawaad, mera pet bhar gaya hai.",
+            "Haan, mujhe aapki rasoi dikhaiye.",
+            "Haan, main abhi khana banata hoon."
+          ],
+          "correctAnswer": "Nahi dhanyawaad, mera pet bhar gaya hai.",
+          "translatedSentence": "No thank you, I am full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mehmaan raat ke khane par aa rahe hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The guests are coming over for dinner.",
+            "The guests are coming over for lunch.",
+            "The guests came over for dinner."
+          ],
+          "correctAnswer": "The guests are coming over for dinner."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ab hum chalte hain, kaafi der ho gayi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, phir kabhi zaroor aaiyega.",
+            "Theek hai, main abhi khana lagata hoon.",
+            "Ji nahi, aapka ghar bahut door hai."
+          ],
+          "correctAnswer": "Theek hai, phir kabhi zaroor aaiyega.",
+          "translatedSentence": "All right, do come again some time."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent, neighbours and repairs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Is flat ka kiraya kitna hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiraya pandrah hazaar mahina hai, lekin bijli ka bill alag hai.",
+            "Kiraya har mahine pehli tarikh ko dena hota hai.",
+            "Flat teesri manzil par hai aur lift bhi hai."
+          ],
+          "correctAnswer": "Kiraya pandrah hazaar mahina hai, lekin bijli ka bill alag hai.",
+          "translatedSentence": "The rent is fifteen thousand a month, but the electricity bill is separate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar nal se paani tapak raha hai to main plumber ko bula deta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the tap is leaking, I will call a plumber.",
+            "If the tap is leaking, you should call a plumber.",
+            "Since the tap was leaking, I called a plumber."
+          ],
+          "correctAnswer": "If the tap is leaking, I will call a plumber."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap har mahine pehli tarikh ko kiraya de sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji haan, main pehli tarikh ko hi de doonga.",
+            "Ji haan, mujhe yeh ghar bahut pasand aaya hai.",
+            "Ji nahi, mera purana ghar Lucknow mein tha."
+          ],
+          "correctAnswer": "Ji haan, main pehli tarikh ko hi de doonga.",
+          "translatedSentence": "Yes, I will pay on the first itself."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere padosi bahut madadgar hain, lekin thoda shor karte hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My neighbours are very helpful, but they make a bit of noise.",
+            "My neighbours are very helpful and very quiet.",
+            "My neighbours were very helpful, but they made a bit of noise."
+          ],
+          "correctAnswer": "My neighbours are very helpful, but they make a bit of noise."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathroom ki batti kal se kaam nahi kar rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main aaj shaam tak electrician ko bhej deta hoon.",
+            "Main aaj shaam tak ghar aa jaunga, phir chai peete hain.",
+            "Bathroom ki safai kal hi ho gayi thi."
+          ],
+          "correctAnswer": "Main aaj shaam tak electrician ko bhej deta hoon.",
+          "translatedSentence": "I will send an electrician over by this evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Makan malik ne kaha ki woh agle hafte chhat theek karwa denge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The landlord said he will get the roof repaired next week.",
+            "The landlord said he will get the roof repaired next month.",
+            "The landlord asked whether the roof was repaired last week."
+          ],
+          "correctAnswer": "The landlord said he will get the roof repaired next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke padosi kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh bahut achhe hain, kyunki zaroorat padne par hamesha madad karte hain.",
+            "Woh abhi ghar par nahi hain, shaam ko hi aayenge.",
+            "Woh Jaipur se aaye hain aur unka parivar bada hai."
+          ],
+          "correctAnswer": "Woh bahut achhe hain, kyunki zaroorat padne par hamesha madad karte hain.",
+          "translatedSentence": "They are lovely, because they always help out whenever we need it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maine makan malik ko phone kiya lekin unhone uthaya nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I called the landlord but he did not pick up.",
+            "I called the landlord and he picked up straight away.",
+            "I will call the landlord if he does not pick up."
+          ],
+          "correctAnswer": "I called the landlord but he did not pick up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agar ghar mein koi dikkat ho to mujhe bata dijiyega.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ji zaroor, main aapko turant phone kar doonga.",
+            "Ji zaroor, main aapke liye chai bana doonga.",
+            "Ji nahi, is mohalle mein bahut shor hota hai."
+          ],
+          "correctAnswer": "Ji zaroor, main aapko turant phone kar doonga.",
+          "translatedSentence": "Sure, I will call you right away."
+        }
+      ]
+    }
+  ]
+}

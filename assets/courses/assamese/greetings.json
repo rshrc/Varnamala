@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nomoskar, apuni kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bhal ase, dhonyobad.",
+            "Moi etiya ghoroloi jau.",
+            "Moi saah khai aso."
+          ],
+          "correctAnswer": "Moi bhal ase, dhonyobad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi bhal ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am well.",
+            "I am not well.",
+            "You are well."
+          ],
+          "correctAnswer": "I am well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kene asa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi olop bhal ase.",
+            "Tumar naam ki?",
+            "Moi Guwahatit thako."
+          ],
+          "correctAnswer": "Moi olop bhal ase.",
+          "translatedSentence": "I am doing okay."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you?",
+            "Who are you?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji ki khobor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sob thik ase.",
+            "Moi kunu khobor najano.",
+            "Apunar ghor kot ase?"
+          ],
+          "correctAnswer": "Sob thik ase.",
+          "translatedSentence": "Everything is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sob thik ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everything is fine.",
+            "Nothing is fine.",
+            "Is everything fine?"
+          ],
+          "correctAnswer": "Everything is fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi bhal ase, apuni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moiu bhal ase.",
+            "Moi ghorot bohi ase.",
+            "Apuni bhal ase."
+          ],
+          "correctAnswer": "Moiu bhal ase.",
+          "translatedSentence": "I am well too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi aji bhal ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you well today?",
+            "I am well today.",
+            "Was he well today?"
+          ],
+          "correctAnswer": "Are you well today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nomoskar, apunak lag pai bhal lagil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moroo bhal lagil, dhonyobad.",
+            "Nai, moi apunak najano.",
+            "Moi iyat olop rou."
+          ],
+          "correctAnswer": "Moroo bhal lagil, dhonyobad.",
+          "translatedSentence": "I am glad to meet you too, thank you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night, welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Suprabhat! Aji bor bhal din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Suprabhat! Hoy, bor bhal din.",
+            "Subha ratri, bhal dore xuo.",
+            "Nai, aji moi ghoroloi najau."
+          ],
+          "correctAnswer": "Suprabhat! Hoy, bor bhal din.",
+          "translatedSentence": "Good morning! Yes, it is a very nice day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Puwate moi saah khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea in the morning.",
+            "I drink tea at night.",
+            "I do not drink tea in the morning."
+          ],
+          "correctAnswer": "I drink tea in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi etiya xubo jau, subha ratri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Subha ratri, bhal dore xuo.",
+            "Suprabhat, etiya uthok.",
+            "Aahok, iyat saah khaok."
+          ],
+          "correctAnswer": "Subha ratri, bhal dore xuo.",
+          "translatedSentence": "Good night, sleep well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhal dore xuo, kali dekha hobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sleep well, we will meet tomorrow.",
+            "Wake up early, we will meet tomorrow.",
+            "Sleep well, I will not come tomorrow."
+          ],
+          "correctAnswer": "Sleep well, we will meet tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi apunar ghoroloi aahisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aahok, bhitoroloi aahok.",
+            "Nai, moi ghorot nai.",
+            "Dhonyobad, moi etiya xubo jau."
+          ],
+          "correctAnswer": "Aahok, bhitoroloi aahok.",
+          "translatedSentence": "Please come in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamar ghoroloi apunak xoagotom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to our home.",
+            "Welcome to our office.",
+            "Come to our home tomorrow."
+          ],
+          "correctAnswer": "Welcome to our home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aahok, iyat bohok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, moi bohu.",
+            "Nai, moi etiya xui ase.",
+            "Suprabhat, apuni kene ase?"
+          ],
+          "correctAnswer": "Dhonyobad, moi bohu.",
+          "translatedSentence": "Thank you, I will sit down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni olop saah khabo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you have a little tea?",
+            "Did you have a little tea?",
+            "I will have a little tea."
+          ],
+          "correctAnswer": "Will you have a little tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puwate apuni ki khai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi puwate bhat khau.",
+            "Moi ratit bhat khau.",
+            "Moi puwate saah nakhau."
+          ],
+          "correctAnswer": "Moi puwate bhat khau.",
+          "translatedSentence": "I eat rice in the morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar sahajyor babe bohut dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kunu kotha nai, moi eku kora nai.",
+            "Nai, moi apunak sahajyo nokoru.",
+            "Hoy, moi apunar sahajyo bisaru."
+          ],
+          "correctAnswer": "Kunu kotha nai, moi eku kora nai.",
+          "translatedSentence": "Not at all, I did not do anything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bohut dhonyobad, apuni bor sahajyo korile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much, you helped a lot.",
+            "Thank you very much, I helped you a lot.",
+            "Sorry, I could not help you at all."
+          ],
+          "correctAnswer": "Thank you very much, you helped a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khyoma koribo, moi deri korilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kunu osubidha nai, iyat bohok.",
+            "Dhonyobad, moi etiya jau.",
+            "Hoy, apuni bor sonkale aahil."
+          ],
+          "correctAnswer": "Kunu osubidha nai, iyat bohok.",
+          "translatedSentence": "No problem at all, please have a seat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi dukhito, moi bhul korilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, I made a mistake.",
+            "I am sorry, I arrived late.",
+            "I am happy, I did it correctly."
+          ],
+          "correctAnswer": "I am sorry, I made a mistake."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Anugroh kori olop rowk.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ase, moi rou.",
+            "Nai, moi kot rom najano.",
+            "Dhonyobad, apuni bohut roil."
+          ],
+          "correctAnswer": "Thik ase, moi rou.",
+          "translatedSentence": "All right, I will wait."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Anugroh kori mok olop pani diok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little water.",
+            "Please give me a little tea.",
+            "I do not want any water."
+          ],
+          "correctAnswer": "Please give me a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khyoma koribo, moi olop kotha kobo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, apuni kowk.",
+            "Nai, moi eku najano.",
+            "Dhonyobad, moi bhal kotha kou."
+          ],
+          "correctAnswer": "Hoy, apuni kowk.",
+          "translatedSentence": "Yes, please go ahead and speak."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak olop sahajyo koribo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "May I help you a little?",
+            "Can you help me a little?",
+            "I cannot help you at all."
+          ],
+          "correctAnswer": "May I help you a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khyoma koribo, moi apunar kolomdal olop lobo paru ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, nisoy lowk.",
+            "Nai, moi kolomdal bisari aso.",
+            "Dhonyobad, moi kolomdal apunak dilu."
+          ],
+          "correctAnswer": "Hoy, nisoy lowk.",
+          "translatedSentence": "Yes, please do take it."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi etiya ghoroloi jau, tente aahim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ase, bhal dore thakiba.",
+            "Aahok, bhitorot bohok.",
+            "Suprabhat, apuni kene asil?"
+          ],
+          "correctAnswer": "Thik ase, bhal dore thakiba.",
+          "translatedSentence": "All right, take care of yourself."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pasot dekha hobo, bhal dore thakibo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will meet later, take care.",
+            "We met earlier, take care.",
+            "We will not meet later at all."
+          ],
+          "correctAnswer": "We will meet later, take care."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kali abelit apunar logot dekha hobo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, kali abelit dekha hobo.",
+            "Nai, moi kali puwate saah khalu.",
+            "Moi kali apunak dekha pua nai."
+          ],
+          "correctAnswer": "Hoy, kali abelit dekha hobo.",
+          "translatedSentence": "Yes, we will meet tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi etiya jau, kintu sonkale ghurai aahim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving now, but I will come back soon.",
+            "I am leaving now and I will not come back.",
+            "I came back soon after I left."
+          ],
+          "correctAnswer": "I am leaving now, but I will come back soon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bidai! Apunar jatra xubho houk.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, moi Jorhatoloi jai aso.",
+            "Nai, moi kutuo najau.",
+            "Suprabhat, bhal dore xuo."
+          ],
+          "correctAnswer": "Dhonyobad, moi Jorhatoloi jai aso.",
+          "translatedSentence": "Thank you, I am on my way to Jorhat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nijor jotno lobo, aru sonkale moloi phone koribo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take care of yourself, and call me soon.",
+            "Take care of yourself, but do not call me.",
+            "I will take care of you and call you soon."
+          ],
+          "correctAnswer": "Take care of yourself, and call me soon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru kitiya apunar logot dekha hobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aha xoptahot dekha hobo.",
+            "Kali moi ghorote asilu.",
+            "Moi apunak bhal dore najano."
+          ],
+          "correctAnswer": "Aha xoptahot dekha hobo.",
+          "translatedSentence": "We will meet next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bohut dhonyobad, tente moi etiya aahim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much, I will be off now.",
+            "Thank you very much, I will come tomorrow.",
+            "Thank you, please do not leave now."
+          ],
+          "correctAnswer": "Thank you very much, I will be off now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi kot jai asa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bojaroloi jai aso.",
+            "Moi ghorote bohi aso.",
+            "Tumi kot thaka?"
+          ],
+          "correctAnswer": "Moi bojaroloi jai aso.",
+          "translatedSentence": "I am going to the market."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Respect for elders",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aita, apuni kene ase, sorir bhal ase ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bhal ase, tumi kene asa?",
+            "Nomoskar, apuni kun?",
+            "Moi apunak sinaki nopau."
+          ],
+          "correctAnswer": "Moi bhal ase, tumi kene asa?",
+          "translatedSentence": "I am well, and how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi kokaideur logot xodai xonman kori kotha patu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I always speak respectfully with my elder brother.",
+            "I never speak with my elder brother.",
+            "My elder brother always speaks respectfully to me."
+          ],
+          "correctAnswer": "I always speak respectfully with my elder brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Koka, apunar babe moi olop saah anim ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, ana, moi saah kham.",
+            "Nai, moi saah bikri koru.",
+            "Dhonyobad, apuni saah khaok."
+          ],
+          "correctAnswer": "Hoy, ana, moi saah kham.",
+          "translatedSentence": "Yes, bring it, I will have some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni bohok, moi thiy hoi thakim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit down, I will remain standing.",
+            "Please stand up, I will sit down.",
+            "I will sit down and you will remain standing."
+          ],
+          "correctAnswer": "Please sit down, I will remain standing."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar naam ki, aru apuni kot thake?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mur naam Rupali, moi Jorhatot thako.",
+            "Moi apunar naam najano.",
+            "Apuni Guwahatit thake ne?"
+          ],
+          "correctAnswer": "Mur naam Rupali, moi Jorhatot thako.",
+          "translatedSentence": "My name is Rupali, and I live in Jorhat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ojana manuhor logot xodai apuni buli kobo lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "With someone you do not know you should always use the polite form.",
+            "With someone you do not know you should always use the informal form.",
+            "With a close friend you should always use the polite form."
+          ],
+          "correctAnswer": "With someone you do not know you should always use the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ma, apuni bhat khaile ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi etiya bhat khai uthilu.",
+            "Nai, eiber moi olop saah khalu.",
+            "Moi masor jool bor bhal pau."
+          ],
+          "correctAnswer": "Hoy, moi etiya bhat khai uthilu.",
+          "translatedSentence": "Yes, I have just finished my meal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ghorot dangor manuh aahile ami uthi thiy hou.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When an elder comes to the house we stand up.",
+            "When an elder comes to the house we sit down.",
+            "We stand up when we go to an elder's house."
+          ],
+          "correctAnswer": "When an elder comes to the house we stand up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kokaideu, apuni aji amar ghoroloi aahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoy, moi abelit aahim.",
+            "Nai, tumar ghor kot?",
+            "Moi ghorkhon sapha kori aso."
+          ],
+          "correctAnswer": "Hoy, moi abelit aahim.",
+          "translatedSentence": "Yes, I will come in the evening."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Meeting after long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kiman dinor pasot apunak dekha palu, apuni kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bhal ase, kintu kamor babe bor byosto asilu.",
+            "Khyoma koribo, moi apunak sinaki napalu.",
+            "Hoy, moi kali Jorhatoloi jam."
+          ],
+          "correctAnswer": "Moi bhal ase, kintu kamor babe bor byosto asilu.",
+          "translatedSentence": "I am well, but I have been very busy with work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi Guwahatit thakisilu, kintu etiya Jorhatoloi ghuri aahisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I used to live in Guwahati, but now I have moved back to Jorhat.",
+            "I live in Guwahati, but I am going to move to Jorhat.",
+            "I used to live in Jorhat, but now I have moved back to Guwahati."
+          ],
+          "correctAnswer": "I used to live in Guwahati, but now I have moved back to Jorhat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar poriyalor sokolu kene ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sokolu bhal ase, kintu deutar olop oxukh hoise.",
+            "Nai, moi poriyalor logot nathako.",
+            "Moi kali apunar poriyalok dekha palu."
+          ],
+          "correctAnswer": "Sokolu bhal ase, kintu deutar olop oxukh hoise.",
+          "translatedSentence": "Everyone is well, but my father has been a little unwell."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apuni Guwahatiloi aahe, tente amar ghorotei thakibo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come to Guwahati, please stay at our house.",
+            "If I come to Guwahati, I will stay at your house.",
+            "When you came to Guwahati you stayed at our house."
+          ],
+          "correctAnswer": "If you come to Guwahati, please stay at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji abelit saah khaboloi aahok, moi pitha banaisu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nisoy aahim, kiyono moi apunar pitha bor bhal pau.",
+            "Nai, moi pitha banabo najano.",
+            "Dhonyobad, moi kali puwate aahisilu."
+          ],
+          "correctAnswer": "Nisoy aahim, kiyono moi apunar pitha bor bhal pau.",
+          "translatedSentence": "I will certainly come, because I really like your pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak phone korisilu, kintu apuni phone dhora nasil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had called you, but you did not pick up.",
+            "I will call you, but you will not pick up.",
+            "You had called me, but I did not pick up."
+          ],
+          "correctAnswer": "I had called you, but you did not pick up."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni etiya kot kam kore?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi etiya saah bagisa ekhonot kam koru.",
+            "Moi kam nokoru, kiyono moi ghorote thako.",
+            "Moi Brahmaputrar parot thako."
+          ],
+          "correctAnswer": "Moi etiya saah bagisa ekhonot kam koru.",
+          "translatedSentence": "I work at a tea garden now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bohut din hol ami logote bohi masor jool khuwa nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been a long time since we sat together and ate fish curry.",
+            "We sat together and ate fish curry only a few days ago.",
+            "It has been a long time since we cooked fish curry together."
+          ],
+          "correctAnswer": "It has been a long time since we sat together and ate fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tente aha xoptahot amar ghorot bhat khaboloi aahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ase, jodi somoi pau tente nisoy aahim.",
+            "Nai, moi ghorot bhat nakhau.",
+            "Moi kali apunar ghorot bhat khaisilu."
+          ],
+          "correctAnswer": "Thik ase, jodi somoi pau tente nisoy aahim.",
+          "translatedSentence": "All right, if I get the time I will definitely come."
+        }
+      ]
+    }
+  ]
+}

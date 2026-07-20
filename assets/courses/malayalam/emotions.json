@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku innu santhosham undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, enikku valare santhosham undu.",
+            "Illa, enikku sankadam undu.",
+            "Enikku ariyilla, njaan pokunnu."
+          ],
+          "correctAnswer": "Undu, enikku valare santhosham undu.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku innu valare santhosham undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very sad today.",
+            "I am very tired today."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan innu valare santhoshathil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikkum santhosham undu.",
+            "Enikku sankadam undu.",
+            "Njaan innu veettil illa."
+          ],
+          "correctAnswer": "Enikkum santhosham undu.",
+          "translatedSentence": "I am happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanu innu santhosham illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is not happy today.",
+            "She is not happy today.",
+            "He is not sad today."
+          ],
+          "correctAnswer": "He is not happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte amma sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, ammakku sugam aanu.",
+            "Illa, njaan veettil pokunnu.",
+            "Ammakku puttu valare ishtam aanu."
+          ],
+          "correctAnswer": "Athey, ammakku sugam aanu.",
+          "translatedSentence": "Yes, my mother is well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku innu sankadam undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel sad today.",
+            "I feel happy today.",
+            "I feel sad every day."
+          ],
+          "correctAnswer": "I feel sad today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku entha vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishesham onnum illa, enikku sugam aanu.",
+            "Enikku kurachu chaya venam.",
+            "Njaan Kochiyil thaamasikkunnu."
+          ],
+          "correctAnswer": "Vishesham onnum illa, enikku sugam aanu.",
+          "translatedSentence": "Nothing much, I am doing fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kuttikalkku valare santhosham undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children are very happy.",
+            "The children are very sad.",
+            "The children are very tired."
+          ],
+          "correctAnswer": "The children are very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku innu sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, enikku innu sugam aanu.",
+            "Athey, ammakku santhosham undu.",
+            "Njaan innu appam kazhichu."
+          ],
+          "correctAnswer": "Athey, enikku innu sugam aanu.",
+          "translatedSentence": "Yes, I am well today."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired and angry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku ksheenam undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, njaan innu othiri joli cheythu.",
+            "Illa, enikku ninnodu deshyam undu.",
+            "Undu, enikku raathriyil pedi aanu."
+          ],
+          "correctAnswer": "Undu, njaan innu othiri joli cheythu.",
+          "translatedSentence": "Yes, I worked a lot today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku innu valare ksheenam undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very tired today.",
+            "I am very angry today.",
+            "I am very bored today."
+          ],
+          "correctAnswer": "I am very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku pedi undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, enikku raathriyil othiri pedi aanu.",
+            "Undu, enikku innu ksheenam undu.",
+            "Illa, enikku valare santhosham aanu."
+          ],
+          "correctAnswer": "Undu, enikku raathriyil othiri pedi aanu.",
+          "translatedSentence": "Yes, I get very scared at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avalkku poochaye pedi aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is afraid of cats.",
+            "He is afraid of cats.",
+            "She is afraid of dogs."
+          ],
+          "correctAnswer": "She is afraid of cats."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku ivide bore adikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namukku purathekku pokam.",
+            "Ninakku pedi undo?",
+            "Njaan ippol urangunnu."
+          ],
+          "correctAnswer": "Namukku purathekku pokam.",
+          "translatedSentence": "Let us go outside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku deshyam varunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am getting angry.",
+            "I am getting scared.",
+            "I am getting tired."
+          ],
+          "correctAnswer": "I am getting angry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan innu othiri nadannu, enikku ksheenam undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nee kurachu neram vishramikku.",
+            "Nee KSRTC bussil pokendathaayirunnu.",
+            "Enikku nadakkaan valare ishtam aanu."
+          ],
+          "correctAnswer": "Nee kurachu neram vishramikku.",
+          "translatedSentence": "Rest for a while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kutty pedichu karayunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The child is crying in fear.",
+            "The child is crying in anger.",
+            "The child is laughing happily."
+          ],
+          "correctAnswer": "The child is crying in fear."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cinema valare bore aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, namukku veettil pokam.",
+            "Athey, enikku ee cinemaye pedi aanu.",
+            "Illa, enikku ippol ksheenam undu."
+          ],
+          "correctAnswer": "Athey, namukku veettil pokam.",
+          "translatedSentence": "Yes, let us go home."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How are you feeling",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku enthu patti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onnum illa, kurachu ksheenam undu.",
+            "Onnum illa, njaan Kochiyilekku pokunnu.",
+            "Ariyilla, ninakku enthaanu venda?"
+          ],
+          "correctAnswer": "Onnum illa, kurachu ksheenam undu.",
+          "translatedSentence": "Nothing, I am just a little tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku innu sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you well today?",
+            "Were you well yesterday?",
+            "Are you happy today?"
+          ],
+          "correctAnswer": "Are you well today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte mugham vaadi irikkunnu, enthaanu prashnam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku joliyil kurachu prashnam undu.",
+            "Enikku puttum chayayum valare ishtam aanu.",
+            "Njaan innale Thiruvananthapurathu ninnu vannu."
+          ],
+          "correctAnswer": "Enikku joliyil kurachu prashnam undu.",
+          "translatedSentence": "I am having some trouble at work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enthukondaanu nee onnum parayathathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why are you not saying anything?",
+            "Why are you not eating anything?",
+            "Why did you not tell me anything?"
+          ],
+          "correctAnswer": "Why are you not saying anything?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ammakku innu sugam illa ennu njaan kettu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayyo, ammakku enthu patti?",
+            "Athu kettittu enikku santhosham undu.",
+            "Ammakku innu othiri joli undu."
+          ],
+          "correctAnswer": "Ayyo, ammakku enthu patti?",
+          "translatedSentence": "Oh no, what happened to her?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ningalkku entha vishesham, ellam sugam alle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are things, is everything fine?",
+            "What is the news, did you hear it?",
+            "How was the trip, was everything fine?"
+          ],
+          "correctAnswer": "How are things, is everything fine?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku ippol enthu thonnunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippol kurachu bhedam undu, nandi.",
+            "Ippol enikku kurachu chaya venam.",
+            "Ippol njaan veettilekku pokunnu."
+          ],
+          "correctAnswer": "Ippol kurachu bhedam undu, nandi.",
+          "translatedSentence": "I feel a little better now, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanu innale muthal sugam illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He has not been well since yesterday.",
+            "She has not been well since yesterday.",
+            "He has not been home since yesterday."
+          ],
+          "correctAnswer": "He has not been well since yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku manassinu oru sugavum illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enthaanu undaayathu ennu ennodu parayaamo?",
+            "Ninakku innu othiri santhosham undallo.",
+            "Njaan naale ninte veettil varum."
+          ],
+          "correctAnswer": "Enthaanu undaayathu ennu ennodu parayaamo?",
+          "translatedSentence": "Can you tell me what happened?"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting someone",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku naale pareekshaye pedi undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pedikkenda, nee nannaayi padichittundallo.",
+            "Enikkum pedi undu, njaan varunnilla.",
+            "Ninakku innu ksheenam undo?"
+          ],
+          "correctAnswer": "Pedikkenda, nee nannaayi padichittundallo.",
+          "translatedSentence": "Do not be scared, you have studied well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vishamikkenda, ellam nannaakum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, everything will be fine.",
+            "Do not be angry, everything will be fine.",
+            "Do not worry, everything is over."
+          ],
+          "correctAnswer": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku ee joli cheyyaan pattilla ennu thonnunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ninakku ithu cheyyaan pattum, njaan koode undu.",
+            "Athey, ee joli ninakku pattiya onnalla.",
+            "Enikku innu othiri ksheenam undu."
+          ],
+          "correctAnswer": "Ninakku ithu cheyyaan pattum, njaan koode undu.",
+          "translatedSentence": "You can do this, I am with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sankadapedenda, njaan ninte koode undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be sad, I am with you.",
+            "Do not be scared, I am with you.",
+            "Do not be sad, I am coming with you."
+          ],
+          "correctAnswer": "Do not be sad, I am with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amma innale muthal karayukayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan ammayodu samsaarikkaam, nee vishamikkenda.",
+            "Ammayodu puttu undaakkaan parayu.",
+            "Enikku athinepatti onnum ariyilla."
+          ],
+          "correctAnswer": "Njaan ammayodu samsaarikkaam, nee vishamikkenda.",
+          "translatedSentence": "I will talk to her, do not worry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nee dhairyamaayirikku, njaan ninne sahaayikkaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Be brave, I will help you.",
+            "Be careful, I will help you.",
+            "Be brave, I will call you."
+          ],
+          "correctAnswer": "Be brave, I will help you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku pareekshayil nalla mark kittiyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saramilla, adutha thavana nee nannaayi cheyyum.",
+            "Athu ninte thettaanu, nee nannaayi padichilla.",
+            "Enikku athu kettittu valare santhosham undu."
+          ],
+          "correctAnswer": "Saramilla, adutha thavana nee nannaayi cheyyum.",
+          "translatedSentence": "It is okay, you will do well next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Karayenda, njaan ninakku vendi ivide undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not cry, I am here for you.",
+            "Do not be sad, I am here for you.",
+            "Do not cry, I will come here tomorrow."
+          ],
+          "correctAnswer": "Do not cry, I am here for you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nandi, ninte vaakkukal kettappol enikku aashwasam thonni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ninne sahaayikkaan kazhinjathil enikku santhosham undu.",
+            "Enikku ippozhum ninnodu deshyam undu.",
+            "Njaan naale Kochiyilekku pokunnu."
+          ],
+          "correctAnswer": "Ninne sahaayikkaan kazhinjathil enikku santhosham undu.",
+          "translatedSentence": "I am glad that I could help you."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku meen curry ishtamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, enikku meen curry valare ishtam aanu.",
+            "Illa, enikku meen curry undaakkaan ariyilla.",
+            "Athey, enikku innu othiri ksheenam undu."
+          ],
+          "correctAnswer": "Athey, enikku meen curry valare ishtam aanu.",
+          "translatedSentence": "Yes, I like fish curry very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku raavile chaya kudikkaan ishtam aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like to drink tea in the morning.",
+            "I like to drink tea in the evening.",
+            "I want to drink tea in the morning."
+          ],
+          "correctAnswer": "I like to drink tea in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namukku njaayarazhcha backwaters kaanaan pokam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nannaayi, enikku athu valare ishtam aanu.",
+            "Venda, enikku vellathe pedi aanu.",
+            "Enikku njaayarazhcha othiri joli undu."
+          ],
+          "correctAnswer": "Nannaayi, enikku athu valare ishtam aanu.",
+          "translatedSentence": "Great, I would like that very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku Thiruvananthapurathu joli cheyyaan aagraham undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wish to work in Thiruvananthapuram.",
+            "I wish to study in Thiruvananthapuram.",
+            "I wish to live in Thiruvananthapuram."
+          ],
+          "correctAnswer": "I wish to work in Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku enthaanu ishtamillathathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku thirakkulla bus yaathra ishtamalla.",
+            "Enikku bussil yaathra cheyyaan ishtam aanu.",
+            "Enikku ivide bore adikkunnu."
+          ],
+          "correctAnswer": "Enikku thirakkulla bus yaathra ishtamalla.",
+          "translatedSentence": "I do not like crowded bus rides."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avalkku pattanathil thaamasikkaan ishtamalla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She does not like living in the city.",
+            "He does not like living in the city.",
+            "She does not like working in the city."
+          ],
+          "correctAnswer": "She does not like living in the city."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enikku innu appavum meen curryum venam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan ippol undaakkaam, kurachu neram irikku.",
+            "Ninakku puttu ishtamalla ennu njaan karuthi.",
+            "Enikku raavile chaya mathi."
+          ],
+          "correctAnswer": "Njaan ippol undaakkaam, kurachu neram irikku.",
+          "translatedSentence": "I will make it now, sit for a while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ninne kaanaan valare aagraham undaayirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really wanted to see you.",
+            "I really want to see you.",
+            "I really wanted to talk to you."
+          ],
+          "correctAnswer": "I really wanted to see you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku Kochiyil thaamasikkaan ishtamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ishtam aanu, pakshe ivide thirakku kooduthal aanu.",
+            "Illa, enikku Kochiyekkurichu onnum ariyilla.",
+            "Ishtam aanu, enikku meen curry venam."
+          ],
+          "correctAnswer": "Ishtam aanu, pakshe ivide thirakku kooduthal aanu.",
+          "translatedSentence": "I like it, but it is too crowded here."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cinema nallathaanu ennu enikku thonnunnu, ningalkku enthu thonnunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku athu ishtappettilla, karanam kadha valare pathukke aayirunnu.",
+            "Enikku cinema kaanaan pokaan ishtamalla, njaan veettil irikkum.",
+            "Athey, enikku innu valare ksheenam undu."
+          ],
+          "correctAnswer": "Enikku athu ishtappettilla, karanam kadha valare pathukke aayirunnu.",
+          "translatedSentence": "I did not like it, because the story was very slow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan vaikiyathinu kshamikkanam, KSRTC bus vazhiyil kedaayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry I am late, the KSRTC bus broke down on the way.",
+            "Sorry I am late, I missed the KSRTC bus.",
+            "Sorry I could not come, the KSRTC bus broke down on the way."
+          ],
+          "correctAnswer": "Sorry I am late, the KSRTC bus broke down on the way."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal parayunnathu shariyaanu ennu enikku thonnunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sathyam parayanam enkil, enikkum kurachu samsayam undu.",
+            "Nandi, athu kettittu enikku santhosham undu.",
+            "Athey, njaan ningalodu poornnamaayum yojikkunnu."
+          ],
+          "correctAnswer": "Sathyam parayanam enkil, enikkum kurachu samsayam undu.",
+          "translatedSentence": "To be honest, I have some doubts about it too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku ningalodu yojikkaan pattunnilla, pakshe ningalude abhipraayam njaan manasilaakkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot agree with you, but I do understand your opinion.",
+            "I cannot agree with you, and I do not understand your opinion.",
+            "I agree with you, but I do not understand your opinion."
+          ],
+          "correctAnswer": "I cannot agree with you, but I do understand your opinion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan innale ninnodu deshyappettathil enikku valare kuttabodham undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saramilla, njaan athu marannu kazhinju.",
+            "Athey, nee innale valare thettaanu cheythathu.",
+            "Enikku innale ninne kaanaan kazhinjilla."
+          ],
+          "correctAnswer": "Saramilla, njaan athu marannu kazhinju.",
+          "translatedSentence": "It is okay, I have already forgotten about it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninakku sankadam undenkil, ennodu parayaan madikkenda.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are sad, do not hesitate to tell me.",
+            "If you are angry, do not hesitate to tell me.",
+            "If you are sad, do not forget to call me."
+          ],
+          "correctAnswer": "If you are sad, do not hesitate to tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enthukondaanu ningal innale yogathinu varathathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamikkanam, ente makanu sugam illaayirunnu.",
+            "Kshamikkanam, enikku yogangal valare ishtam aanu.",
+            "Njaan innale yogathil pankeduthirunnu."
+          ],
+          "correctAnswer": "Kshamikkanam, ente makanu sugam illaayirunnu.",
+          "translatedSentence": "I am sorry, my son was not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan parayunnathu thettaanenkil, dayavaayi ente thettu thiruthanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If what I say is wrong, please correct my mistake.",
+            "If what I say is right, please tell me the reason.",
+            "If I said something wrong, please forgive me."
+          ],
+          "correctAnswer": "If what I say is wrong, please correct my mistake."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente vaakkukal kondu ningal vishamichu ennu enikku ariyaam, kshamikkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saramilla, ningal athu manapoorvam paranjathalla ennu enikku ariyaam.",
+            "Athey, athukondu njaan ippozhum ningalodu deshyathil aanu.",
+            "Ningalude vaakkukal njaan kettittu polum illa."
+          ],
+          "correctAnswer": "Saramilla, ningal athu manapoorvam paranjathalla ennu enikku ariyaam.",
+          "translatedSentence": "It is okay, I know you did not say it on purpose."
+        }
+      ]
+    }
+  ]
+}

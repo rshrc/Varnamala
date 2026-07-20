@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying it hurts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku innu sugamilla.",
+            "Enikku kurachu chaya venam.",
+            "Njaan Kochiyil thaamasikkunnu."
+          ],
+          "correctAnswer": "Enikku innu sugamilla.",
+          "translatedSentence": "I am not well today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku thala vedana undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "I have a fever."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku enthu patti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku vayaru vedana undu.",
+            "Enikku nannayi vishakkunnu.",
+            "Njaan veettil thanne undu."
+          ],
+          "correctAnswer": "Enikku vayaru vedana undu.",
+          "translatedSentence": "I have a stomach ache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku pani undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a fever.",
+            "I have a cough.",
+            "I am hungry."
+          ],
+          "correctAnswer": "I have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku vedana undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, kurachu vedana undu.",
+            "Athe, enikku samayam illa.",
+            "Illa, enikku vishakkunnu."
+          ],
+          "correctAnswer": "Athe, kurachu vedana undu.",
+          "translatedSentence": "Yes, I have a little pain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma innu sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is mother well today?",
+            "Is mother at home today?",
+            "Is mother coming today?"
+          ],
+          "correctAnswer": "Is mother well today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Evideya vedana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku thalayil vedana undu.",
+            "Enikku innu pani illa.",
+            "Njaan aashupathriyil pokunnu."
+          ],
+          "correctAnswer": "Enikku thalayil vedana undu.",
+          "translatedSentence": "I have pain in my head."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku doctorine kaananam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need to see a doctor.",
+            "I know the doctor.",
+            "I am waiting for the doctor."
+          ],
+          "correctAnswer": "I need to see a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku enthu venam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku kurachu vellam venam.",
+            "Enikku vedana onnum illa.",
+            "Njaan oru doctor aanu."
+          ],
+          "correctAnswer": "Enikku kurachu vellam venam.",
+          "translatedSentence": "I want a little water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kaikku enthu patti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente kaiyil vedana undu.",
+            "Ente pallu vedanikkunnu.",
+            "Ente kannu chuvannirikkunnu."
+          ],
+          "correctAnswer": "Ente kaiyil vedana undu.",
+          "translatedSentence": "There is a pain in my hand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente kaalil vedana undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts.",
+            "My hand hurts.",
+            "My back hurts."
+          ],
+          "correctAnswer": "My leg hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku nannayi kaanunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ente kannu nannayi kaanunnilla.",
+            "Athe, ente chevi kelkkunnilla.",
+            "Illa, enikku innu pani undu."
+          ],
+          "correctAnswer": "Illa, ente kannu nannayi kaanunnilla.",
+          "translatedSentence": "No, my eyes do not see well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente pallu valare vedanikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth hurts a lot.",
+            "My ear hurts a lot.",
+            "My throat hurts a lot."
+          ],
+          "correctAnswer": "My tooth hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Evideyaanu vedanikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ente muthukil aanu vedana.",
+            "Enikku ippol vedana onnum illa.",
+            "Ente veedu Thiruvananthapurathu aanu."
+          ],
+          "correctAnswer": "Ente muthukil aanu vedana.",
+          "translatedSentence": "The pain is in my back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente thonda vedanikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat hurts.",
+            "My chest hurts.",
+            "My stomach hurts."
+          ],
+          "correctAnswer": "My throat hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude mookku adanjittundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, ente mookku adanjittundu.",
+            "Illa, ente kai vedanikkunnu.",
+            "Athe, enikku nannayi vishannittundu."
+          ],
+          "correctAnswer": "Athe, ente mookku adanjittundu.",
+          "translatedSentence": "Yes, my nose is blocked."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kunjinu chevi vedana undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The child has an earache.",
+            "The child has a toothache.",
+            "The child has a fever."
+          ],
+          "correctAnswer": "The child has an earache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku nadakkan pattumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ente kaal orupaadu vedanikkunnu.",
+            "Athe, ente kannu vedanikkunnu.",
+            "Illa, enikku kurachu vellam venam."
+          ],
+          "correctAnswer": "Illa, ente kaal orupaadu vedanikkunnu.",
+          "translatedSentence": "No, my leg hurts a lot."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ethra divasamayi ningalkku pani undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moonnu divasamayi enikku pani undu.",
+            "Enikku doctorine ariyilla.",
+            "Njaan raavile aashupathriyil vannu."
+          ],
+          "correctAnswer": "Moonnu divasamayi enikku pani undu.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor, enikku raathri urakkam varunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Doctor, I cannot sleep at night.",
+            "Doctor, I cannot eat at night.",
+            "Doctor, I get a fever at night."
+          ],
+          "correctAnswer": "Doctor, I cannot sleep at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enthokke buddhimuttukal aanu ullathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thala vedanayum chumayum undu.",
+            "Enikku puttum appavum ishtamanu.",
+            "Ente veetil aarum illa."
+          ],
+          "correctAnswer": "Thala vedanayum chumayum undu.",
+          "translatedSentence": "I have a headache and a cough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Randu divasamayi enikku onnum kazhikkan thonnunnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "For two days I have not felt like eating anything.",
+            "For two days I have not been able to sleep at all.",
+            "For two days I have not gone out of the house."
+          ],
+          "correctAnswer": "For two days I have not felt like eating anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal marunnu vallathum kazhichuvo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, njaan ithuvare onnum kazhichittilla.",
+            "Athe, njaan raavile chaya kudichu.",
+            "Illa, enikku ippol pani illa."
+          ],
+          "correctAnswer": "Illa, njaan ithuvare onnum kazhichittilla.",
+          "translatedSentence": "No, I have not taken anything so far."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ezhunnettu nilkkumbol enikku thala chuttunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When I stand up I feel dizzy.",
+            "When I stand up my back hurts.",
+            "When I wake up I feel tired."
+          ],
+          "correctAnswer": "When I stand up I feel dizzy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethenkilum marunninu alarji undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, chila marunnukal enikku pattilla.",
+            "Athe, enikku meen curry valare ishtamanu.",
+            "Illa, enikku moonnu divasamayi vedana undu."
+          ],
+          "correctAnswer": "Athe, chila marunnukal enikku pattilla.",
+          "translatedSentence": "Yes, some medicines do not suit me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor ente thonda parishodhichu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor examined my throat.",
+            "The doctor examined my chest.",
+            "The doctor checked my fever."
+          ],
+          "correctAnswer": "The doctor examined my throat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan ini enthu cheyyanam doctor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ningal naale raktham parishodhikkanam.",
+            "Ningal innu thanne jolikku pokanam.",
+            "Ningal ini marunnu kazhikkenda."
+          ],
+          "correctAnswer": "Ningal naale raktham parishodhikkanam.",
+          "translatedSentence": "You should get a blood test tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kayyil doctorude kuripp undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, ithaanu ente kuripp.",
+            "Illa, enikku ippol pani illa.",
+            "Undu, enikku randu chaya venam."
+          ],
+          "correctAnswer": "Undu, ithaanu ente kuripp.",
+          "translatedSentence": "Yes, this is my prescription."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee gulika divasathil moonnu thavana kazhikkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You must take this tablet three times a day.",
+            "You must take three tablets after food.",
+            "You must take this tablet for three days."
+          ],
+          "correctAnswer": "You must take this tablet three times a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee marunnu eppozhaanu kazhikkendathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhakshanathinu shesham kazhikkanam.",
+            "Ee marunnu kuttikalkku ullathaanu.",
+            "Ee marunninu valare vila kuravaanu."
+          ],
+          "correctAnswer": "Bhakshanathinu shesham kazhikkanam.",
+          "translatedSentence": "You should take it after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee marunninu ethra roopa aakum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much will this medicine cost?",
+            "How many tablets are in this strip?",
+            "How long should I take this medicine?"
+          ],
+          "correctAnswer": "How much will this medicine cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chumaykku marunnu venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venam, oru kuppi chuma marunnu tharoo.",
+            "Venda, enikku thala vedana maathrame ullu.",
+            "Venam, ente kuripp veettil aanu."
+          ],
+          "correctAnswer": "Venam, oru kuppi chuma marunnu tharoo.",
+          "translatedSentence": "Yes, please give me a bottle of cough syrup."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee marunnu kazhichaal urakkam varum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This medicine will make you sleepy.",
+            "This medicine will take away the pain.",
+            "This medicine has to be taken at night."
+          ],
+          "correctAnswer": "This medicine will make you sleepy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vedanaykku njaan enthu kazhikkanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee gulika randu nerathu kazhikkoo.",
+            "Kurachu chudu vellam maathram kudikkoo.",
+            "Ee marunnu bhakshanathinu munpu kazhikkoo."
+          ],
+          "correctAnswer": "Ee gulika randu nerathu kazhikkoo.",
+          "translatedSentence": "Take this tablet twice a day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee marunnu kuttikalkku kodukkaruthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not give this medicine to children.",
+            "Do not take this medicine on an empty stomach.",
+            "Do not keep this medicine in the sun."
+          ],
+          "correctAnswer": "Do not give this medicine to children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee gulika ethra divasam kazhikkanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Anchu divasam murakku kazhikkanam.",
+            "Pani maarumbol nirthaam ennu thonnunnu.",
+            "Randu gulika onnichu kazhikkanam."
+          ],
+          "correctAnswer": "Anchu divasam murakku kazhikkanam.",
+          "translatedSentence": "You must take it regularly for five days."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever cold and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte kaiyil enthaa ee murivu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan cyclil ninnu veenu kai murinju.",
+            "Enikku randu divasamayi kadutha pani undu.",
+            "Njaan innale KSRTC bassil Kochikku poyi."
+          ],
+          "correctAnswer": "Njaan cyclil ninnu veenu kai murinju.",
+          "translatedSentence": "I fell off my bicycle and cut my hand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innale muthal enikku kadutha pani undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have had a high fever since yesterday.",
+            "I have had a bad cough since yesterday.",
+            "I have not eaten anything since yesterday."
+          ],
+          "correctAnswer": "I have had a high fever since yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude jaladosham maariyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innum ente mookku ozhukunnu.",
+            "Athe, ente kaal innale murinju.",
+            "Illa, njaan marunnu vaangan poyi."
+          ],
+          "correctAnswer": "Illa, innum ente mookku ozhukunnu.",
+          "translatedSentence": "No, my nose is still running."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raathri muzhuvan njaan chumachu kondirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was coughing all night.",
+            "I was awake all night.",
+            "I had a fever all night."
+          ],
+          "correctAnswer": "I was coughing all night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Murivil ninnu chora varunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, kurachu chora varunnundu.",
+            "Illa, enikku thala vedana maathram undu.",
+            "Athe, enikku innale pani koodi."
+          ],
+          "correctAnswer": "Athe, kurachu chora varunnundu.",
+          "translatedSentence": "Yes, it is bleeding a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chudu vellam kudichaal thonda vedana kurayum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you drink hot water the sore throat will get better.",
+            "If you drink hot water the fever will come down.",
+            "If you gargle with salt water the cough will stop."
+          ],
+          "correctAnswer": "If you drink hot water the sore throat will get better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pani ippol kooduthal undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, innale raathri pani koodi.",
+            "Illa, ente kai innale murinju.",
+            "Athe, njaan marunnu vaangi vechittundu."
+          ],
+          "correctAnswer": "Athe, innale raathri pani koodi.",
+          "translatedSentence": "Yes, the fever went up last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Murivu vruthiyayi kazhuki oru kettu vekkanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wash the wound well and put a bandage on it.",
+            "Wash your hands well before you eat.",
+            "Clean the wound and show it to the doctor."
+          ],
+          "correctAnswer": "Wash the wound well and put a bandage on it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal aashupathriyil poyirunno?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athe, njaan innale aashupathriyil poyi.",
+            "Illa, enikku moonnu divasamayi chuma undu.",
+            "Athe, njaan raavile kurachu kanji kazhichu."
+          ],
+          "correctAnswer": "Athe, njaan innale aashupathriyil poyi.",
+          "translatedSentence": "Yes, I went to the hospital yesterday."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor ningalodu enthaanu paranjathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Randu divasam vishramikkanam ennum marunnu murakku kazhikkanam ennum paranju.",
+            "Enikku onnum kuzhappam illa ennu paranju, athukondu marunnu venda.",
+            "Naale raavile aashupathriyil varenda ennu paranju."
+          ],
+          "correctAnswer": "Randu divasam vishramikkanam ennum marunnu murakku kazhikkanam ennum paranju.",
+          "translatedSentence": "He said I should rest for two days and take the medicine regularly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pani maariyenkilum enikku ippozhum thalarcha undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Although the fever has gone, I still feel weak.",
+            "Although I took the medicine, the fever has not gone.",
+            "Since the fever has gone, I feel much stronger now."
+          ],
+          "correctAnswer": "Although the fever has gone, I still feel weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor, enikku naale jolikku pokamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venda, innum randu divasam koodi vishramikkoo.",
+            "Venam, naale raavile thanne jolikku pokoo.",
+            "Venda, ningal ini marunnu kazhikkenda."
+          ],
+          "correctAnswer": "Venda, innum randu divasam koodi vishramikkoo.",
+          "translatedSentence": "No, please rest for two more days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Marunnu murakku kazhichillenkil chuma maarilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not take the medicine regularly, the cough will not go away.",
+            "If you take the medicine regularly, the cough will go away soon.",
+            "Even if you take the medicine, the cough will take a week to go."
+          ],
+          "correctAnswer": "If you do not take the medicine regularly, the cough will not go away."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan ippol enthaanu kazhikkendathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kurachu kanjiyum puzhungiya pachakkariyum kazhikkoo.",
+            "Meen curryum kurachu chorum kazhichaal mathi.",
+            "Ippol onnum kazhikkanda, vellam maathram kudichaal mathi."
+          ],
+          "correctAnswer": "Kurachu kanjiyum puzhungiya pachakkariyum kazhikkoo.",
+          "translatedSentence": "Eat a little rice gruel and some boiled vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu njaan purathu pokunnilla, karanam enikku ippozhum pani undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not going out today, because I still have a fever.",
+            "I am not going to work today, because I have to see the doctor.",
+            "I did not go out yesterday, because I had a bad headache."
+          ],
+          "correctAnswer": "I am not going out today, because I still have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ippol enganeyundu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Munpathekkal ippol ere bhedam undu, nandi.",
+            "Enikku ippozhum kadutha thala vedana undu.",
+            "Njaan ithuvare doctorine kandittilla."
+          ],
+          "correctAnswer": "Munpathekkal ippol ere bhedam undu, nandi.",
+          "translatedSentence": "I feel much better than before, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nannayi vishramichaal pani vegam maarum, pakshe jolikku pokaruthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you rest well the fever will go quickly, but you must not go to work.",
+            "If you rest well the fever will go quickly, and then you can go to work.",
+            "You must rest well and drink hot water, but you can go to work tomorrow."
+          ],
+          "correctAnswer": "If you rest well the fever will go quickly, but you must not go to work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vegam sugam praapikkatte!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Valare nandi, njaan sradhichukollam.",
+            "Valare nandi, enikku ippol pani undu.",
+            "Nandi, njaan ippol aashupathriyil pokunnu."
+          ],
+          "correctAnswer": "Valare nandi, njaan sradhichukollam.",
+          "translatedSentence": "Thank you very much, I will take care of myself."
+        }
+      ]
+    }
+  ]
+}

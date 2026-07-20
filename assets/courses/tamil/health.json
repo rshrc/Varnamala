@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying it hurts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udambu eppadi irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku udambu sari illa.",
+            "Enakku pasi illa.",
+            "Enakku neram illa."
+          ],
+          "correctAnswer": "Enakku udambu sari illa.",
+          "translatedSentence": "I am not feeling well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku thalai vali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "I have a toothache."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unakku enna aachu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku vayiru vali.",
+            "Enakku thookkam varudhu.",
+            "Enakku pasikkudhu."
+          ],
+          "correctAnswer": "Enakku vayiru vali.",
+          "translatedSentence": "I have a stomach ache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku romba valikkudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It hurts a lot.",
+            "It hurts a little.",
+            "It does not hurt now."
+          ],
+          "correctAnswer": "It hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Romba valikkudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, thaanga mudiyala.",
+            "Illa, konjam dhaan valikkudhu.",
+            "Illa, enakku onnume theriyala."
+          ],
+          "correctAnswer": "Illa, konjam dhaan valikkudhu.",
+          "translatedSentence": "No, it only hurts a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku jaram irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a fever.",
+            "I have a cough.",
+            "I have a cold."
+          ],
+          "correctAnswer": "I have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga nalla irukkeengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, enakku ippo udambu sari illa.",
+            "Aamaa, naan nalla irukken.",
+            "Aamaa, naan veetla dhaan irukken."
+          ],
+          "correctAnswer": "Illa, enakku ippo udambu sari illa.",
+          "translatedSentence": "No, I am not well right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan doctor-a paakkanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need to see a doctor.",
+            "I need to call a doctor.",
+            "I want to go home now."
+          ],
+          "correctAnswer": "I need to see a doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor kitta ippo poganuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, ippove poganum.",
+            "Illa, naalaikku poganum.",
+            "Illa, enakku ippo pravaayilla."
+          ],
+          "correctAnswer": "Aamaa, ippove poganum.",
+          "translatedSentence": "Yes, we should go right now."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enga valikkudhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En thondaila valikkudhu.",
+            "En kannula valikkudhu.",
+            "En kaadhula valikkudhu."
+          ],
+          "correctAnswer": "En thondaila valikkudhu.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En kannu rendum sivandhu irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Both my eyes are red.",
+            "Both my eyes are watering.",
+            "I cannot open my eyes."
+          ],
+          "correctAnswer": "Both my eyes are red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un kaal ippo eppadi irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En kaal innum valikkudhu.",
+            "En kai innum valikkudhu.",
+            "En kaal ippo nalla irukku."
+          ],
+          "correctAnswer": "En kaal innum valikkudhu.",
+          "translatedSentence": "My leg still hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pallu valiya enaala thaanga mudiyala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot bear this toothache.",
+            "I cannot open my mouth.",
+            "I cannot eat anything hot."
+          ],
+          "correctAnswer": "I cannot bear this toothache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un kaikku enna aachu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En kaiyila konjam kaayam irukku.",
+            "En kaiyila onnume illa.",
+            "En kaal romba veengi irukku."
+          ],
+          "correctAnswer": "En kaiyila konjam kaayam irukku.",
+          "translatedSentence": "There is a small wound on my hand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En mudhugu vali kaalaila romba jaasthi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My back pain is much worse in the morning.",
+            "My back pain is much worse at night.",
+            "My back hurts whenever I walk."
+          ],
+          "correctAnswer": "My back pain is much worse in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moochu vaanga kashtama irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, konjam kashtama dhaan irukku.",
+            "Illa, moochu nalla vaangudhu.",
+            "Aamaa, thondai mattum valikkudhu."
+          ],
+          "correctAnswer": "Illa, moochu nalla vaangudhu.",
+          "translatedSentence": "No, I am breathing fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "En vayiru kaalaila irundhu valikkudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My stomach has been hurting since morning.",
+            "My stomach hurts every time I eat.",
+            "My stomach started hurting last night."
+          ],
+          "correctAnswer": "My stomach has been hurting since morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unakku thala suththudha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, ninnaa thala suththudhu.",
+            "Illa, thala mattum valikkudhu.",
+            "Aamaa, kaal vali romba adhigam."
+          ],
+          "correctAnswer": "Aamaa, ninnaa thala suththudhu.",
+          "translatedSentence": "Yes, I feel dizzy when I stand up."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaanga, ukkaarunga, enna prachanai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu naalaa enakku jaram irukku, doctor.",
+            "Rendu naalaa enakku irumal irukku, doctor.",
+            "Rendu naalaa naan saapdave illa, doctor."
+          ],
+          "correctAnswer": "Rendu naalaa enakku jaram irukku, doctor.",
+          "translatedSentence": "I have had a fever for two days, doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naethu raathiri jaram romba adhigama irundhuchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Last night the fever was very high.",
+            "Last night I could not sleep at all.",
+            "This morning the fever came down."
+          ],
+          "correctAnswer": "Last night the fever was very high."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eppo irundhu ipdi irukku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moonu naalaa ipdi dhaan irukku.",
+            "Innaikku kaalaila dhaan aarambichchudhu.",
+            "Poana vaaram irundhu konjam konjam irukku."
+          ],
+          "correctAnswer": "Innaikku kaalaila dhaan aarambichchudhu.",
+          "translatedSentence": "It started only this morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saapdrappo enakku thondaila romba valikkudhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat hurts a lot when I eat.",
+            "My throat hurts a lot when I talk.",
+            "My stomach hurts a lot after I eat."
+          ],
+          "correctAnswer": "My throat hurts a lot when I eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan konjam check pannalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa doctor, paarunga.",
+            "Venaam doctor, naan kelambaren.",
+            "Konjam neram kazhichchu paarunga, doctor."
+          ],
+          "correctAnswer": "Kandippa doctor, paarunga.",
+          "translatedSentence": "Of course doctor, please go ahead and check."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ungalukku vera edhaavadhu prachanai irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do you have any other problem?",
+            "Have you had this problem before?",
+            "Is this problem getting worse?"
+          ],
+          "correctAnswer": "Do you have any other problem?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo edhaavadhu marundhu edhukkureengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, rathha azhuththaththukku maathirai edukkuren.",
+            "Aamaa, aana marundhu peru enakku theriyala.",
+            "Illa, naan edhuvum edukkala."
+          ],
+          "correctAnswer": "Illa, naan edhuvum edukkala.",
+          "translatedSentence": "No, I am not taking anything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kavalai padaadheenga, idhu periya prachanai illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, this is not a big problem.",
+            "Do not worry, the pain will go by tomorrow.",
+            "Do not be afraid, I will give you an injection."
+          ],
+          "correctAnswer": "Do not worry, this is not a big problem."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rattha test pannanuma, doctor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, naalaikku kaalaila saapdaama vaanga.",
+            "Illa, ippodhaikku thevai illa.",
+            "Aamaa, ippove marundhu vaangi saapdunga."
+          ],
+          "correctAnswer": "Illa, ippodhaikku thevai illa.",
+          "translatedSentence": "No, it is not needed for now."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idhu doctor ezhudhi kudutha chit, marundhu irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaa marundhum irukku, bill podattaa?",
+            "Oru maathirai mattum ippo stock illa.",
+            "Konjam neram ukkaarunga, paakkuren."
+          ],
+          "correctAnswer": "Ellaa marundhum irukku, bill podattaa?",
+          "translatedSentence": "We have all the medicines, shall I make the bill?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha maathiraiya saapaattukku appuram saapdunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this tablet after food.",
+            "Take this tablet before food.",
+            "Take this tablet with hot milk."
+          ],
+          "correctAnswer": "Take this tablet after food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dinam ethana vela saapdanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dinam moonu vela, saapaattukku appuram.",
+            "Dinam oru vela, thoongum mundhi mattum.",
+            "Rendu naalaikku oru thadava podhum."
+          ],
+          "correctAnswer": "Dinam moonu vela, saapaattukku appuram.",
+          "translatedSentence": "Three times a day, after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indha syrup-a kuzhandhaikku raathiri mattum kudunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give this syrup to the child only at night.",
+            "Give this syrup to the child only in the morning.",
+            "Do not give this syrup to the child at night."
+          ],
+          "correctAnswer": "Give this syrup to the child only at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha marundhu saapttaa thookkam varuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, konjam thookkam varum, vandi ottaadheenga.",
+            "Illa, idhu saapttaa thookkame varaadhu.",
+            "Aamaa, adhanaala kaalaila mattum saapdunga."
+          ],
+          "correctAnswer": "Aamaa, konjam thookkam varum, vandi ottaadheenga.",
+          "translatedSentence": "Yes, it will make you a little sleepy, so do not drive."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ethana naalaikku indha marundhu saapdanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How many days should I take this medicine?",
+            "How many tablets should I take in a day?",
+            "When should I stop this medicine?"
+          ],
+          "correctAnswer": "How many days should I take this medicine?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Motham evlo aagudhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Munnooru rubaa aagudhu, sir.",
+            "Bill-a naalaikku kudukkuren, sir.",
+            "Marundhu innum vandhu serala, sir."
+          ],
+          "correctAnswer": "Munnooru rubaa aagudhu, sir.",
+          "translatedSentence": "It comes to three hundred rupees, sir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jaram vittaalum maathiraiya nadula niruththa koodaadhu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even if the fever goes, you must not stop the tablets halfway.",
+            "Once the fever goes, you can stop the tablets.",
+            "Stop the tablets as soon as the fever comes down."
+          ],
+          "correctAnswer": "Even if the fever goes, you must not stop the tablets halfway."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vali maathirai edhaavadhu venuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, rendu naalaikku kudunga.",
+            "Venaam, veetla irukku.",
+            "Aamaa, aana naan appuram vaanguren."
+          ],
+          "correctAnswer": "Venaam, veetla irukku.",
+          "translatedSentence": "No thanks, I have some at home."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cough and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Un kural maathi irukke, enna aachu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jaladhosham pudichirukku, adhanaala kural utkaarndhu poiduchu.",
+            "Naethu niraya pesinen, adhanaala thondai valikkudhu.",
+            "Onnum illa, naan nalla dhaan irukken."
+          ],
+          "correctAnswer": "Jaladhosham pudichirukku, adhanaala kural utkaarndhu poiduchu.",
+          "translatedSentence": "I have caught a cold, so my voice has gone hoarse."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raathiri muzhukka irumal, adhanaala thoongave mudiyala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I coughed all night, so I could not sleep at all.",
+            "I could not sleep last night because of the fever.",
+            "I coughed a little at night but I slept well."
+          ],
+          "correctAnswer": "I coughed all night, so I could not sleep at all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jaram innum irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naethu raathiri irundhe jaram illa.",
+            "Aamaa, aana naethu vida konjam kammi.",
+            "Aamaa, adhanaala naan marundhu saapten."
+          ],
+          "correctAnswer": "Aamaa, aana naethu vida konjam kammi.",
+          "translatedSentence": "Yes, but it is a little less than yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus-la irundhu erangumbodhu naan kizhe vizhundhuten.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I fell down while getting off the bus.",
+            "I fell down while getting on the bus.",
+            "I hurt my leg while running to the bus."
+          ],
+          "correctAnswer": "I fell down while getting off the bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaayam romba aazhama irukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, rattham nindhuduchu, konjam dhaan kaayam.",
+            "Aamaa, innum rattham vandhundu irukku.",
+            "Aamaa, aana enakku valikave illa."
+          ],
+          "correctAnswer": "Illa, rattham nindhuduchu, konjam dhaan kaayam.",
+          "translatedSentence": "No, the bleeding has stopped, it is only a small wound."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kaal veengi irukku, adhanaala nadakka mudiyala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg is swollen, so I cannot walk.",
+            "My leg hurts, but I can still walk.",
+            "I cannot stand up because my head is spinning."
+          ],
+          "correctAnswer": "My leg is swollen, so I cannot walk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jaladhoshaththukku neenga enna panreenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sooda thanni kudichchu, aavi pidippen.",
+            "Kaalaila Marina beach-la nadakka poven.",
+            "Onnum panradhu illa, adhu thaana sari aagum."
+          ],
+          "correctAnswer": "Sooda thanni kudichchu, aavi pidippen.",
+          "translatedSentence": "I drink hot water and take some steam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jaram irukkaradhunaala innaikku office pogala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not go to the office today because I have a fever.",
+            "I will not go to the office tomorrow because of the fever.",
+            "I went to the office today even though I had a fever."
+          ],
+          "correctAnswer": "I did not go to the office today because I have a fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaayaththukku edhaavadhu potteengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, marundhu thadavi bandage kattinen.",
+            "Illa, thanniyila kazhuvi mattum vittuten.",
+            "Illa, doctor kitta kaamikkalaam-nu irukken."
+          ],
+          "correctAnswer": "Aamaa, marundhu thadavi bandage kattinen.",
+          "translatedSentence": "Yes, I put medicine on it and tied a bandage."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Doctor enna sonnaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moonu naal rest edukka sonnaanga, aana enakku office poganum.",
+            "Naalaikku thirumba vandhu paakka sonnaanga.",
+            "Marundhu saapda vendaam-nu sonnaanga."
+          ],
+          "correctAnswer": "Moonu naal rest edukka sonnaanga, aana enakku office poganum.",
+          "translatedSentence": "They told me to rest for three days, but I have to go to the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Niraya thanni kudichaa jaram seekkiram kammi aagum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you drink plenty of water, the fever will come down faster.",
+            "If you drink hot water, the cough will stop faster.",
+            "You should drink water only after the fever comes down."
+          ],
+          "correctAnswer": "If you drink plenty of water, the fever will come down faster."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku velila polaama, doctor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innum rendu naal veetlaye irunga, appuram polaam.",
+            "Aamaa, kaalaila Marina beach-ku polaam.",
+            "Naalaikku poneenga-na kandippa marundhu edunga."
+          ],
+          "correctAnswer": "Innum rendu naal veetlaye irunga, appuram polaam.",
+          "translatedSentence": "Stay at home for two more days, then you can go out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vayiru sari aagara varaikkum kaaram saapdaadheenga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not eat spicy food until your stomach is better.",
+            "Do not eat anything at all until your stomach is better.",
+            "Eat only light food whenever your stomach hurts."
+          ],
+          "correctAnswer": "Do not eat spicy food until your stomach is better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippo eppadi irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Innum jaram irukku, aana vali kammi aagirichu.",
+            "Naethu vida romba mosama irukken.",
+            "Enakku ippo onnume theriyala."
+          ],
+          "correctAnswer": "Innum jaram irukku, aana vali kammi aagirichu.",
+          "translatedSentence": "I still have a fever, but the pain has come down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Marundhu muzhusa saapttaa oru vaaraththula sari aagidum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you finish the full course of medicine, you will be fine in a week.",
+            "If you take the medicine tonight, the fever will go in a day.",
+            "You will have to take this medicine for one more week."
+          ],
+          "correctAnswer": "If you finish the full course of medicine, you will be fine in a week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan enna saapdalaam, doctor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idli sambar maadhiri lightaana saapaadu nallathu.",
+            "Kaalaila filter kaapi mattum kudichaa podhum.",
+            "Dosai-yum kaaramaana chutney-um saapdunga."
+          ],
+          "correctAnswer": "Idli sambar maadhiri lightaana saapaadu nallathu.",
+          "translatedSentence": "Light food like idli and sambar is good for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vali thirumba vandhaa udane enna kooppidunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the pain comes back, call me immediately.",
+            "If the pain comes back, go to the hospital immediately.",
+            "Call me tomorrow if you are feeling better."
+          ],
+          "correctAnswer": "If the pain comes back, call me immediately."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku romba nandri, doctor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaayilla, udamba paathukonga.",
+            "Nandri, naan naalaikku varen.",
+            "Kavalai vendaam, marundhu vaangunga."
+          ],
+          "correctAnswer": "Paravaayilla, udamba paathukonga.",
+          "translatedSentence": "You are welcome, take care of your health."
+        }
+      ]
+    }
+  ]
+}

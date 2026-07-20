@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskar, apananka naam kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora naam {name}.",
+            "Mu Puri jauchi.",
+            "Se mora bhai."
+          ],
+          "correctAnswer": "Mora naam {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumara naam kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora naam Ritu.",
+            "Mu bhala achi.",
+            "Eita mora ghara."
+          ],
+          "correctAnswer": "Mora naam Ritu.",
+          "translatedSentence": "My name is Ritu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhala achi, dhanyabada.",
+            "Mu Cuttack re rahe.",
+            "Se mora sikhyaka."
+          ],
+          "correctAnswer": "Mu bhala achi, dhanyabada.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E mora sangata Ritu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskar Ritu, mu {name}.",
+            "Nahin, mu jane nahin.",
+            "Mu ebe ghara jauchi."
+          ],
+          "correctAnswer": "Namaskar Ritu, mu {name}.",
+          "translatedSentence": "Hello Ritu, I am {name}."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu Bhubaneswar ru, apana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Cuttack ru.",
+            "Haan, se mora bhai.",
+            "Mu ethi kama kare."
+          ],
+          "correctAnswer": "Mu Cuttack ru.",
+          "translatedSentence": "I am from Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora naam {name} aau mu chhatra.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is {name} and I am a student.",
+            "My name is {name} and I am a teacher.",
+            "My friend is {name} and he is a student."
+          ],
+          "correctAnswer": "My name is {name} and I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "E mora bhai, taa naam Raju.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my brother, his name is Raju.",
+            "This is my friend, his name is Raju.",
+            "This is my brother, my name is Raju."
+          ],
+          "correctAnswer": "This is my brother, his name is Raju."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu Bhubaneswar re rahe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I live in Bhubaneswar.",
+            "I am going to Bhubaneswar.",
+            "I am from Cuttack."
+          ],
+          "correctAnswer": "I live in Bhubaneswar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se mora sikhyaka, se bahuta bhala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is my teacher, he is very good.",
+            "He is my student, he is very good.",
+            "He is my teacher, he is very busy."
+          ],
+          "correctAnswer": "He is my teacher, he is very good."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Yes, no, this and that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eita kana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eita chhena poda.",
+            "Seita mora ghara.",
+            "Haan, mu jane."
+          ],
+          "correctAnswer": "Eita chhena poda.",
+          "translatedSentence": "This is chhena poda."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Seita kaahara ghara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seita mora bhai ra ghara.",
+            "Haan, seita bahuta bhala ghara.",
+            "Nahin, mu ethi rahe nahin."
+          ],
+          "correctAnswer": "Seita mora bhai ra ghara.",
+          "translatedSentence": "That is my brother's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume ki Odia jana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu tike tike jane.",
+            "Nahin, seita mora nuhen.",
+            "Haan, eita mora boi."
+          ],
+          "correctAnswer": "Haan, mu tike tike jane.",
+          "translatedSentence": "Yes, I know a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eita tumara boi na seita tumara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eita mora, seita mora sangata ra.",
+            "Nahin, mu boi padhe nahin.",
+            "Haan, duitajaka bahuta bhala."
+          ],
+          "correctAnswer": "Eita mora, seita mora sangata ra.",
+          "translatedSentence": "This one is mine, that one is my friend's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E dokaana re chhena poda achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan achi, apananku kete darkar?",
+            "Nahin, e dokaana bandha achi.",
+            "Haan, mu ebe Puri jauchi."
+          ],
+          "correctAnswer": "Haan achi, apananku kete darkar?",
+          "translatedSentence": "Yes, there is. How much do you need?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nahin, eita mora chabi nuhen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, this is not my key.",
+            "No, that is not my key.",
+            "Yes, this is my key."
+          ],
+          "correctAnswer": "No, this is not my key."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Seita bahuta bhala dokaana.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is a very good shop.",
+            "This is a very good shop.",
+            "That is a very big shop."
+          ],
+          "correctAnswer": "That is a very good shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Haan, mu apananku jane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, I know you.",
+            "Yes, I know him.",
+            "No, I do not know you."
+          ],
+          "correctAnswer": "Yes, I know you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eita mora ghara aau seita mora sangata ra ghara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my house and that is my friend's house.",
+            "This is my house and that is my brother's house.",
+            "That is my house and this is my friend's house."
+          ],
+          "correctAnswer": "This is my house and that is my friend's house."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume sakalare kana khaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sakalare pakhala khae.",
+            "Mu ratire ghara jae.",
+            "Mu cha pie nahin."
+          ],
+          "correctAnswer": "Mu sakalare pakhala khae.",
+          "translatedSentence": "I eat pakhala in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana cha pianti na coffee?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu cha pie, coffee nuhen.",
+            "Mu pani pie nahin.",
+            "Haan, mu bhala achi."
+          ],
+          "correctAnswer": "Mu cha pie, coffee nuhen.",
+          "translatedSentence": "I drink tea, not coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ebe kana karuchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhata khaauchi.",
+            "Mu kali asichi.",
+            "Mu Puri re rahe."
+          ],
+          "correctAnswer": "Mu bhata khaauchi.",
+          "translatedSentence": "I am eating my meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame ebe ghara jiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan chala, mu bi jauchi.",
+            "Nahin, mu bhata khae nahin.",
+            "Mu ghara re cha pie."
+          ],
+          "correctAnswer": "Haan chala, mu bi jauchi.",
+          "translatedSentence": "Yes, let us go, I am coming too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Se office ku kemiti jae?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se auto re jae.",
+            "Se office re kama kare.",
+            "Se sakale bhata khae."
+          ],
+          "correctAnswer": "Se auto re jae.",
+          "translatedSentence": "He goes by auto."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu pratidina sakale cha pie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every morning.",
+            "I drink tea every evening.",
+            "I eat rice every morning."
+          ],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora sangata aji Cuttack ru asuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is coming from Cuttack today.",
+            "My friend is going to Cuttack today.",
+            "My brother is coming from Cuttack today."
+          ],
+          "correctAnswer": "My friend is coming from Cuttack today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana ratire kana khaanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What do you eat at night?",
+            "What do you drink at night?",
+            "What are you doing tonight?"
+          ],
+          "correctAnswer": "What do you eat at night?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora bhai bahuta dalma khae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother eats a lot of dalma.",
+            "My brother eats a little dalma.",
+            "My friend eats a lot of dalma."
+          ],
+          "correctAnswer": "My brother eats a lot of dalma."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "What, where, who",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kouthi rahanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Bhubaneswar re rahe, apana?",
+            "Mu ebe bajaar jauchi.",
+            "Mu ethi cha pie."
+          ],
+          "correctAnswer": "Mu Bhubaneswar re rahe, apana?",
+          "translatedSentence": "I live in Bhubaneswar, and you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jagannatha mandira kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seita Puri re achi.",
+            "Mu mandira jae nahin.",
+            "Seita bahuta puruna mandira."
+          ],
+          "correctAnswer": "Seita Puri re achi.",
+          "translatedSentence": "It is in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Seita kie, tumara sikhyaka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, se mora sangata ra bhai.",
+            "Haan, mu taanku jane nahin.",
+            "Se ebe Cuttack jauchi."
+          ],
+          "correctAnswer": "Nahin, se mora sangata ra bhai.",
+          "translatedSentence": "No, he is my friend's brother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus adda kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethu tike dura, auto re jaantu.",
+            "Haan, mu bus re asichi.",
+            "Mu pratidina bus re office jae."
+          ],
+          "correctAnswer": "Ethu tike dura, auto re jaantu.",
+          "translatedSentence": "It is a little far from here, please take an auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kama karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu gotiye dokaana chalae.",
+            "Mu Bhubaneswar ru asichi.",
+            "Mu aji kama kare nahin."
+          ],
+          "correctAnswer": "Mu gotiye dokaana chalae.",
+          "translatedSentence": "I run a shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumara ghara kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your house?",
+            "Where is your shop?",
+            "Whose house is this?"
+          ],
+          "correctAnswer": "Where is your house?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "E gaadi kaahara, tume jana ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Whose car is this, do you know?",
+            "Whose house is this, do you know?",
+            "Where is this car, do you know?"
+          ],
+          "correctAnswer": "Whose car is this, do you know?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "E chhena poda kete taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is this chhena poda?",
+            "How much is this pakhala?",
+            "Where is this chhena poda?"
+          ],
+          "correctAnswer": "How much is this chhena poda?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana kaahaku khojuchanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Whom are you looking for?",
+            "What are you looking for?",
+            "Where are you going now?"
+          ],
+          "correctAnswer": "Whom are you looking for?"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Cuttack rasta jananti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu jane nahin, kshama karantu.",
+            "Haan, mu rasta re achi.",
+            "Mu Cuttack ru asuchi."
+          ],
+          "correctAnswer": "Nahin, mu jane nahin, kshama karantu.",
+          "translatedSentence": "No, I do not know, sorry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tike mansa niantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin dhanyabada, mu mansa khae nahin.",
+            "Haan, mu ghare mansa rendhe nahin.",
+            "Nahin, mu apananku jane nahin."
+          ],
+          "correctAnswer": "Nahin dhanyabada, mu mansa khae nahin.",
+          "translatedSentence": "No thank you, I do not eat meat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame ebe cinema jiba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, aji mora samaya nahin.",
+            "Haan, mu cinema bahuta bhala paae.",
+            "Mu kali cinema dekhichi."
+          ],
+          "correctAnswer": "Nahin, aji mora samaya nahin.",
+          "translatedSentence": "No, I do not have time today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Se ki ebe ethi achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, se ebe ethi nahanti.",
+            "Haan, se kali ethi thile.",
+            "Se mora sikhyaka nuhanti."
+          ],
+          "correctAnswer": "Nahin, se ebe ethi nahanti.",
+          "translatedSentence": "No, he is not here now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kana kahuchanti, mu bujhi paruni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshama karantu, mu tike aste kahibi.",
+            "Nahin, mu Odia kahi pare nahin.",
+            "Haan, mu apananku bhala bhabare bujhuchi."
+          ],
+          "correctAnswer": "Kshama karantu, mu tike aste kahibi.",
+          "translatedSentence": "Sorry, I will speak a little more slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu jane nahin se kouthi achanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know where he is.",
+            "I do not know who he is.",
+            "I know where he is."
+          ],
+          "correctAnswer": "I do not know where he is."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora pakhare ebe taka nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have money right now.",
+            "I do not have time right now.",
+            "I have some money right now."
+          ],
+          "correctAnswer": "I do not have money right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eita pakhala nuhen, eita dalma.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not pakhala, this is dalma.",
+            "This is not dalma, this is pakhala.",
+            "This is pakhala and that is dalma."
+          ],
+          "correctAnswer": "This is not pakhala, this is dalma."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se aji office asibe nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He will not come to the office today.",
+            "He will not come to the office tomorrow.",
+            "He did not come to the office today."
+          ],
+          "correctAnswer": "He will not come to the office today."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana aji sanjhare mora ghara asibe ki, mu dalma rendhichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mu tike deri re asibi, kaaranaki ebe mora kama achi.",
+            "Nahin, mu dalma rendhiba jane nahin.",
+            "Haan, mu kali Puri jaichhi."
+          ],
+          "correctAnswer": "Haan, mu tike deri re asibi, kaaranaki ebe mora kama achi.",
+          "translatedSentence": "Yes, I will come a little late, because I have work right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jadi brushti heba, tebe ame kouthi jiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jadi brushti heba, ame ghare rahibu aau cha pibu.",
+            "Nahin, mu brushti re bahare jae nahin.",
+            "Ame auto re Puri jaichhu."
+          ],
+          "correctAnswer": "Jadi brushti heba, ame ghare rahibu aau cha pibu.",
+          "translatedSentence": "If it rains, we will stay home and drink tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kali kahinki asila nahin?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshama kara, mora bhai asithile tenu mu ghare rahili.",
+            "Mu kali asibi, kintu ebe mora samaya nahin.",
+            "Mu jane nahin tume kouthi thila."
+          ],
+          "correctAnswer": "Kshama kara, mora bhai asithile tenu mu ghare rahili.",
+          "translatedSentence": "Sorry, my brother had come, so I stayed at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Puri jaithile ki, mandira kemiti lagila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mandira bahuta bhala lagila, kintu bhida bhari thila.",
+            "Nahin, mu Puri re rahe nahin.",
+            "Mu mandira ku auto re jaithili."
+          ],
+          "correctAnswer": "Haan, mandira bahuta bhala lagila, kintu bhida bhari thila.",
+          "translatedSentence": "Yes, I liked the temple a lot, but the crowd was heavy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kali sakale ame Cuttack jibu, tume asiba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan mu asibi, kintu mu tike deri re pahanchibi.",
+            "Nahin, mu Cuttack ra rasta jane nahin.",
+            "Mu kali Cuttack ru pherichi."
+          ],
+          "correctAnswer": "Haan mu asibi, kintu mu tike deri re pahanchibi.",
+          "translatedSentence": "Yes I will come, but I will arrive a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu aji jai pariba nahin, kaaranaki mora bahuta kama achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot go today, because I have a lot of work.",
+            "I cannot go tomorrow, because I have a lot of work.",
+            "I will go today, because I have no work."
+          ],
+          "correctAnswer": "I cannot go today, because I have a lot of work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi apananka samaya achi, tebe ame tike cha piba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, let us have some tea.",
+            "If you have money, let us have some tea.",
+            "If I have time, let us go home."
+          ],
+          "correctAnswer": "If you have time, let us have some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu Odia tike tike bujhe, kintu bhala kahi pare nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand a little Odia, but I cannot speak it well.",
+            "I speak a little Odia, but I cannot understand it well.",
+            "I understand Odia well, but I do not speak it at home."
+          ],
+          "correctAnswer": "I understand a little Odia, but I cannot speak it well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se kali asithile, kintu apana ghare nathile.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He came yesterday, but you were not at home.",
+            "He came yesterday, but I was not at home.",
+            "He will come tomorrow, but you will not be at home."
+          ],
+          "correctAnswer": "He came yesterday, but you were not at home."
+        }
+      ]
+    }
+  ]
+}

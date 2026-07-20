@@ -1,0 +1,721 @@
+{
+  "course": "family",
+  "title": "Family",
+  "description": "Talk about the people at home the way people actually do.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Amma, achan, chettan",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu aaraanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ithu ente amma aanu.",
+            "Ithu ente veedu aanu.",
+            "Ithu ente pusthakam aanu."
+          ],
+          "correctAnswer": "Ithu ente amma aanu.",
+          "translatedSentence": "This is my mother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente achan Kochiyil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is in Kochi.",
+            "My father is at home.",
+            "My elder brother is in Kochi."
+          ],
+          "correctAnswer": "My father is in Kochi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninakku chettan undo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, enikku oru chettan undu.",
+            "Illa, enikku chettan illa.",
+            "Undu, enikku randu chechimar undu."
+          ],
+          "correctAnswer": "Undu, enikku oru chettan undu.",
+          "translatedSentence": "Yes, I have one elder brother."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente chechi ivide illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder sister is not here.",
+            "My elder sister is here.",
+            "My younger sister is not here."
+          ],
+          "correctAnswer": "My elder sister is not here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte aniyathiyude peru enthaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avalude peru Meera aanu.",
+            "Avante peru Manu aanu.",
+            "Ente peru Meera aanu."
+          ],
+          "correctAnswer": "Avalude peru Meera aanu.",
+          "translatedSentence": "Her name is Meera."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangal veettil naalu per undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are four of us at home.",
+            "There are five of us at home.",
+            "We have four rooms at home."
+          ],
+          "correctAnswer": "There are four of us at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte amma sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, ammaykku sugamaanu.",
+            "Illa, ammaykku sugamilla.",
+            "Amma ippol veettil illa."
+          ],
+          "correctAnswer": "Athey, ammaykku sugamaanu.",
+          "translatedSentence": "Yes, my mother is well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente aniyan skoolil pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother goes to school.",
+            "My elder brother goes to school.",
+            "My younger brother goes to college."
+          ],
+          "correctAnswer": "My younger brother goes to school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu ninte achan aano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, ithu ente achan aanu.",
+            "Alla, ithu ente chettan aanu.",
+            "Alla, ithu ente ammaman aanu."
+          ],
+          "correctAnswer": "Athey, ithu ente achan aanu.",
+          "translatedSentence": "Yes, this is my father."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Ithu aarudeyaanu",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithu aarude pusthakam aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ente chechiyude pusthakam aanu.",
+            "Athu ente chettante pusthakam aanu.",
+            "Athu ente ammayude bag aanu."
+          ],
+          "correctAnswer": "Athu ente chechiyude pusthakam aanu.",
+          "translatedSentence": "That is my elder sister's book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee veedu ente muthassante aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This house belongs to my grandfather.",
+            "This house belongs to my grandmother.",
+            "This house belongs to my father."
+          ],
+          "correctAnswer": "This house belongs to my grandfather."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chaya aarudeyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athu ente achante chaya aanu.",
+            "Athu ente ammayude chaya aanu.",
+            "Athu ente aniyante chaya aanu."
+          ],
+          "correctAnswer": "Athu ente achante chaya aanu.",
+          "translatedSentence": "That is my father's tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ithu ente aniyathiyude phone alla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not my younger sister's phone.",
+            "This is my younger sister's phone.",
+            "This is not my elder sister's phone."
+          ],
+          "correctAnswer": "This is not my younger sister's phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kudumbathinte veedu evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangalude veedu Thiruvananthapurathaanu.",
+            "Njangalude veedu valuthaanu.",
+            "Ente achan Thiruvananthapurathu joli cheyyunnu."
+          ],
+          "correctAnswer": "Njangalude veedu Thiruvananthapurathaanu.",
+          "translatedSentence": "Our house is in Thiruvananthapuram."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aa car ente chettante aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That car is my elder brother's.",
+            "That car is my father's.",
+            "That house is my elder brother's."
+          ],
+          "correctAnswer": "That car is my elder brother's."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kutti aarude makan aanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avan ente chechiyude makan aanu.",
+            "Avan ente chettante makan aanu.",
+            "Aval ente chechiyude makal aanu."
+          ],
+          "correctAnswer": "Avan ente chechiyude makan aanu.",
+          "translatedSentence": "He is my elder sister's son."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente ammayude peru Sarala aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother's name is Sarala.",
+            "My grandmother's name is Sarala.",
+            "My mother's sister's name is Sarala."
+          ],
+          "correctAnswer": "My mother's name is Sarala."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kuda ninteyaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Alla, athu ente aniyanteyaanu.",
+            "Athey, athu enteyaanu.",
+            "Alla, athu ente achanteyaanu."
+          ],
+          "correctAnswer": "Alla, athu ente aniyanteyaanu.",
+          "translatedSentence": "No, it is my younger brother's."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Kalyanam, kuttikal, ethra",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude kalyanam kazhinjo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, ente kalyanam kazhinju.",
+            "Illa, ente kalyanam kazhinjittilla.",
+            "Ente chettante kalyanam kazhinju."
+          ],
+          "correctAnswer": "Athey, ente kalyanam kazhinju.",
+          "translatedSentence": "Yes, I am married."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku randu makkal undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have two children.",
+            "I have three children.",
+            "I have two younger brothers."
+          ],
+          "correctAnswer": "I have two children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethra kuttikal undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku oru makanum oru makalum undu.",
+            "Ente kuttikal randu perum skoolil aanu.",
+            "Enikku randu chettanmar undu."
+          ],
+          "correctAnswer": "Enikku oru makanum oru makalum undu.",
+          "translatedSentence": "I have one son and one daughter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente chettante kalyanam adutha maasam aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother's wedding is next month.",
+            "My elder sister's wedding is next month.",
+            "My elder brother's wedding was last month."
+          ],
+          "correctAnswer": "My elder brother's wedding is next month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte makalkku ethra vayassaayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avalkku anchu vayassaayi.",
+            "Avanu anchu vayassaayi.",
+            "Avalude peru Anu aanu."
+          ],
+          "correctAnswer": "Avalkku anchu vayassaayi.",
+          "translatedSentence": "She is five years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente bharya Kochiyil joli cheyyunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wife works in Kochi.",
+            "My husband works in Kochi.",
+            "My wife lives in Kochi."
+          ],
+          "correctAnswer": "My wife works in Kochi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude bharthavu evideyaanu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Addeham ippol veettil undu.",
+            "Addeham naale Kochiyilekku pokum.",
+            "Aval ippol veettil undu."
+          ],
+          "correctAnswer": "Addeham ippol veettil undu.",
+          "translatedSentence": "He is at home right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enikku kuttikal onnum illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have any children.",
+            "I have only one child.",
+            "I do not have any brothers or sisters."
+          ],
+          "correctAnswer": "I do not have any children."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte kudumbathil ethra per undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangal anchu per undu.",
+            "Njangalude veettil moonnu per aanu ullathu.",
+            "Enikku anchu kuttikal undu."
+          ],
+          "correctAnswer": "Njangal anchu per undu.",
+          "translatedSentence": "There are five of us."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Muthassi, ammaman, cousins",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte muthassi evideyaanu thamasikkunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muthassi naattil gramathil aanu thamasikkunnathu.",
+            "Muthassan Kochiyil oru kadayil joli cheyyunnu.",
+            "Muthassi kazhinja aazhcha ente veettil vannirunnu."
+          ],
+          "correctAnswer": "Muthassi naattil gramathil aanu thamasikkunnathu.",
+          "translatedSentence": "My grandmother lives back in the village."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente muthassan ippozhum divasavum nadakkan pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather still goes for a walk every day.",
+            "My grandfather used to go for a walk every day.",
+            "My grandmother still goes for a walk every day."
+          ],
+          "correctAnswer": "My grandfather still goes for a walk every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte ammaman enthu joli cheyyunnu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ammaman KSRTC bussil driver aanu.",
+            "Ammaman ente ammayude chettan aanu.",
+            "Ammayi veettil thanne undu."
+          ],
+          "correctAnswer": "Ammaman KSRTC bussil driver aanu.",
+          "translatedSentence": "My uncle is a driver with the KSRTC."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente cheriyachan Thiruvananthapurathaanu thamasikkunnathu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father's younger brother lives in Thiruvananthapuram.",
+            "My father's elder brother lives in Thiruvananthapuram.",
+            "My father's younger brother works in Thiruvananthapuram."
+          ],
+          "correctAnswer": "My father's younger brother lives in Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kalyanathinu ninte cousins okke varunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, ellavarum varunnundu.",
+            "Illa, avarkkokke joli ullathukondu varunnilla.",
+            "Athey, njaan naale raavile varum."
+          ],
+          "correctAnswer": "Athey, ellavarum varunnundu.",
+          "translatedSentence": "Yes, all of them are coming."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente ammayi nannayi meen curry undakkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt makes excellent fish curry.",
+            "My grandmother makes excellent fish curry.",
+            "My aunt is learning to make fish curry."
+          ],
+          "correctAnswer": "My aunt makes excellent fish curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthassiykku ippol sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippol kurachu bhedhamundu.",
+            "Muthassiykku ippol joli onnum illa.",
+            "Muthassi naale gramathilekku pokum."
+          ],
+          "correctAnswer": "Ippol kurachu bhedhamundu.",
+          "translatedSentence": "She is a bit better now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente valyammayude makan ente prayathil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My aunt's son is the same age as me.",
+            "My aunt's son is older than me.",
+            "My uncle's son is the same age as me."
+          ],
+          "correctAnswer": "My aunt's son is the same age as me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthassan ninnodu kathakal parayarundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, muthassan pandathe kathakal parayum.",
+            "Undu, muthassi nannayi pattu paadum.",
+            "Illa, muthassanu ippol nannayi kelkkan pattarilla."
+          ],
+          "correctAnswer": "Undu, muthassan pandathe kathakal parayum.",
+          "translatedSentence": "Yes, my grandfather tells stories about the old days."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Veettilullavar enthu cheyyunnu",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte achan enthu joli aanu cheyyunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Achan oru school teacher aanu.",
+            "Achan ippol veettil vishramikkukayaanu.",
+            "Achanu randu makkal undu."
+          ],
+          "correctAnswer": "Achan oru school teacher aanu.",
+          "translatedSentence": "My father is a school teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente amma raavile puttum kadalayum undakkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My mother makes puttu and chickpea curry in the morning.",
+            "My mother makes appam and stew in the morning.",
+            "My mother eats puttu and chickpea curry in the morning."
+          ],
+          "correctAnswer": "My mother makes puttu and chickpea curry in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte chechi ippozhum padikkukayaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Athey, aval Kochiyil padikkunnu.",
+            "Illa, aval ippol oru bank-il joli cheyyunnu.",
+            "Athey, avan Kochiyil padikkunnu."
+          ],
+          "correctAnswer": "Athey, aval Kochiyil padikkunnu.",
+          "translatedSentence": "Yes, she is studying in Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente chettan raavile ettu manikku officilekku pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother leaves for the office at eight in the morning.",
+            "My elder brother comes back from the office at eight in the morning.",
+            "My father leaves for the office at eight in the morning."
+          ],
+          "correctAnswer": "My elder brother leaves for the office at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veettile joli aaraanu cheyyunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangal ellavarum koodiyaanu cheyyunnathu.",
+            "Amma mathramaanu cheyyunnathu.",
+            "Chechi mathramaanu cheyyunnathu."
+          ],
+          "correctAnswer": "Njangal ellavarum koodiyaanu cheyyunnathu.",
+          "translatedSentence": "All of us do it together."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ente aniyan divasavum vaikunneram football kalikkan pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger brother goes to play football every evening.",
+            "My younger brother goes to play football every morning.",
+            "My younger brother wants to go and play football this evening."
+          ],
+          "correctAnswer": "My younger brother goes to play football every evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthassi divasavum enthu cheyyum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muthassi raavile ambalathil pokum.",
+            "Muthassi innale ambalathil poyi.",
+            "Muthassan divasavum patram vaayikkum."
+          ],
+          "correctAnswer": "Muthassi raavile ambalathil pokum.",
+          "translatedSentence": "My grandmother goes to the temple in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Achan chaya kudichukondu patram vaayikkukayaanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father is reading the newspaper while drinking his tea.",
+            "My father drinks tea after reading the newspaper.",
+            "My father is drinking tea and watching television."
+          ],
+          "correctAnswer": "My father is reading the newspaper while drinking his tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninte makan skoolil nannayi padikkunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, avan nannayi padikkunnundu.",
+            "Undu, aval nannayi padikkunnundu.",
+            "Illa, avanu padippil valiya thalparyam illa."
+          ],
+          "correctAnswer": "Undu, avan nannayi padikkunnundu.",
+          "translatedSentence": "Yes, he studies well."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Naattile vishesham",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee avadhikku ningal naattilekku varunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Varanam ennundu, pakshe ticket kittiyillenkil pattilla.",
+            "Illa, njaan kazhinja avadhikku naattil vannirunnu.",
+            "Athey, njaan innu raavile ivide ethiyathe ullu."
+          ],
+          "correctAnswer": "Varanam ennundu, pakshe ticket kittiyillenkil pattilla.",
+          "translatedSentence": "I want to come, but if I do not get a ticket it will not work out."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma innale vilichirunnu, muthassanu sugamillennu paranju.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother called yesterday and said that grandfather is not well.",
+            "Mother called yesterday to say that grandfather is better now.",
+            "Grandmother called yesterday and said that father is not well."
+          ],
+          "correctAnswer": "Mother called yesterday and said that grandfather is not well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Entha veettil ninnu vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prathyekichonnum illa, ellavarkkum sugamaanu.",
+            "Veettil ippol aarum illa, ellavarum purathu poyi.",
+            "Vishesham enikkum ariyilla, njaan chechiyodu chodikkam."
+          ],
+          "correctAnswer": "Prathyekichonnum illa, ellavarkkum sugamaanu.",
+          "translatedSentence": "Nothing much, everyone at home is fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chettan kudumbathodoppam adutha aazhcha backwaters kaanan pokunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My elder brother is going with his family to see the backwaters next week.",
+            "My elder brother went with his family to see the backwaters last week.",
+            "My elder brother wants to take his family to see the backwaters."
+          ],
+          "correctAnswer": "My elder brother is going with his family to see the backwaters next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ethra divasam naattil undaakum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oru aazhcha undaakum, athinu shesham thirichu pokanam.",
+            "Randu divasam munpaanu njaan ivide ethiyathu.",
+            "Ethra divasam ennu ippozhum theerumanichittilla."
+          ],
+          "correctAnswer": "Oru aazhcha undaakum, athinu shesham thirichu pokanam.",
+          "translatedSentence": "I will be here a week, and after that I have to head back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanathinu varan pattiyillenkilum njaan theerchayayum vilikkam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even if I cannot come for the wedding, I will definitely call.",
+            "If I cannot come for the wedding, I will not call at all.",
+            "Since I could not come for the wedding, I called instead."
+          ],
+          "correctAnswer": "Even if I cannot come for the wedding, I will definitely call."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Muthassiyodu ente anveshanam parayanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theerchayayum parayam, muthassikku santhosham aakum.",
+            "Muthassiye njaan innale thanne kandirunnu.",
+            "Muthassikku ippol phone upayogikkan ariyilla."
+          ],
+          "correctAnswer": "Theerchayayum parayam, muthassikku santhosham aakum.",
+          "translatedSentence": "I will certainly tell her, and she will be happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Achanu prayamaayathukondu ippol dooram yathra cheyyan pattilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because my father is getting old, he cannot travel long distances now.",
+            "My father is getting old, but he still travels long distances.",
+            "When my father was young, he used to travel long distances."
+          ],
+          "correctAnswer": "Because my father is getting old, he cannot travel long distances now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kuttikaleyum koottiyaano naattilekku varunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avarkku skool ullathukondu njaan mathrame varunnullu.",
+            "Kuttikalkku muthassiye kaanan valiya mohamundu.",
+            "Kuttikal ippozhum muthassiyude koode naattil thanne undu."
+          ],
+          "correctAnswer": "Avarkku skool ullathukondu njaan mathrame varunnullu.",
+          "translatedSentence": "Since they have school, I am coming alone."
+        }
+      ]
+    }
+  ]
+}

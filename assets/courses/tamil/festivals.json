@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Iniya Pongal vaazhthukkal!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ungalukkum iniya Pongal vaazhthukkal!",
+            "Enakku Pongal theriyaathu.",
+            "Naan inniki veetla illa."
+          ],
+          "correctAnswer": "Ungalukkum iniya Pongal vaazhthukkal!",
+          "translatedSentence": "Happy Pongal to you too!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Inniki enna pandigai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Inniki Deepavali pandigai.",
+            "Inniki enakku velai irukku.",
+            "Inniki naan Chennai poren."
+          ],
+          "correctAnswer": "Inniki Deepavali pandigai.",
+          "translatedSentence": "Today is the Deepavali festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pandigai romba nalla irukku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The festival is really nice.",
+            "The festival is very long.",
+            "The festival is tomorrow."
+          ],
+          "correctAnswer": "The festival is really nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ungalukku nalla puthaandu vaazhthukkal!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nandri, ungalukkum en vaazhthukkal!",
+            "Illa, enakku puthaandu pidikkaathu.",
+            "Naan ippo kadaikku poren."
+          ],
+          "correctAnswer": "Nandri, ungalukkum en vaazhthukkal!",
+          "translatedSentence": "Thank you, my best wishes to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Enakku pandigai romba pidikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like festivals a lot.",
+            "I do not like festivals.",
+            "I know this festival well."
+          ],
+          "correctAnswer": "I like festivals a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Veetla ellarukkum en vaazhthukkal sollunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa sollren, romba nandri.",
+            "Enakku unga veedu theriyaathu.",
+            "Naan ippo saapduren."
+          ],
+          "correctAnswer": "Kandippa sollren, romba nandri.",
+          "translatedSentence": "I will surely tell them, thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellarukkum iniya Deepavali vaazhthukkal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Happy Deepavali to everyone.",
+            "Happy birthday to everyone.",
+            "Everyone is coming for Deepavali."
+          ],
+          "correctAnswer": "Happy Deepavali to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga eppadi irukkeenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naan nallaa irukken, nandri.",
+            "Naan pandigaikku poren.",
+            "Enakku filter kaapi venum."
+          ],
+          "correctAnswer": "Naan nallaa irukken, nandri.",
+          "translatedSentence": "I am doing well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naalaikku enga veetla pandigai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow there is a festival at our house.",
+            "Yesterday there was a festival at our house.",
+            "Tomorrow we are going to a festival."
+          ],
+          "correctAnswer": "Tomorrow there is a festival at our house."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Festivals and their seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pongal eppo varum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pongal Thai maasathula varum.",
+            "Pongal Aippasi maasathula varum.",
+            "Pongal ovvoru maasamum varum."
+          ],
+          "correctAnswer": "Pongal Thai maasathula varum.",
+          "translatedSentence": "Pongal comes in the month of Thai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavali Aippasi maasathula varum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Deepavali falls in the month of Aippasi.",
+            "Deepavali falls in the month of Thai.",
+            "Deepavali comes twice a year."
+          ],
+          "correctAnswer": "Deepavali falls in the month of Aippasi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tamizh puthaandu eppo kondaduvom?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chithirai maasam mudhal naal kondaduvom.",
+            "Thai maasam kadaisi naal kondaduvom.",
+            "Deepavali mudinja odane kondaduvom."
+          ],
+          "correctAnswer": "Chithirai maasam mudhal naal kondaduvom.",
+          "translatedSentence": "We celebrate it on the first day of the month of Chithirai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pongal naalu naal pandigai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pongal is a four-day festival.",
+            "Pongal is a one-day festival.",
+            "Pongal comes after four months."
+          ],
+          "correctAnswer": "Pongal is a four-day festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Karthigai Deepam pathi ungalukku theriyuma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theriyum, andha naal veedu muzhusa vilakku vappom.",
+            "Theriyum, adhu Thai maasathula varra pandigai.",
+            "Theriyaathu, naan andha pandigai kondaduradhu illa."
+          ],
+          "correctAnswer": "Theriyum, andha naal veedu muzhusa vilakku vappom.",
+          "translatedSentence": "Yes I know, on that day we light lamps all around the house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Karthigai maasathula deepam kondaduvom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We celebrate Deepam in the month of Karthigai.",
+            "We celebrate Deepam in the month of Chithirai.",
+            "We light lamps at home every month."
+          ],
+          "correctAnswer": "We celebrate Deepam in the month of Karthigai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pongal mudhal naal enna pandigai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mudhal naal Bhogi pandigai.",
+            "Mudhal naal Maattu Pongal.",
+            "Mudhal naal Kaanum Pongal."
+          ],
+          "correctAnswer": "Mudhal naal Bhogi pandigai.",
+          "translatedSentence": "The first day is the Bhogi festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavali anniki kaalambara pattaasu vedippom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Deepavali day we burst crackers early in the morning.",
+            "On Deepavali day we burst crackers late at night.",
+            "On Deepavali day we sleep till the morning."
+          ],
+          "correctAnswer": "On Deepavali day we burst crackers early in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga Chennaila eppadi Pongal kondaduveenga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Veetla pongal vachu, ellarum sernthu kondaduvom.",
+            "Chennaila Pongal varaadhu, adhanaala oorukku poiduvom.",
+            "Naanga Pongal kondaduradhu illa, aana pandigai pidikkum."
+          ],
+          "correctAnswer": "Veetla pongal vachu, ellarum sernthu kondaduvom.",
+          "translatedSentence": "We make pongal at home and everyone celebrates together."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanga Deepavalikku unga veetuku varalaama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa vaanga, naanga kaathindu iruppom.",
+            "Illa, engalukku andha pandigai theriyaathu.",
+            "Enga veedu Maduraila irukku."
+          ],
+          "correctAnswer": "Kandippa vaanga, naanga kaathindu iruppom.",
+          "translatedSentence": "Please do come, we will be waiting for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pongalukku enga veetuku saapida vaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Come to our house for a meal on Pongal.",
+            "Come to our house for a meal tomorrow evening.",
+            "We are coming to your house for Pongal."
+          ],
+          "correctAnswer": "Come to our house for a meal on Pongal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naalaikku maalai aaru maniku varuveengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa varen, konjam thaamadhamaanaalum varen.",
+            "Aamaa, enakku andha pandigai romba pidikkum.",
+            "Aaru mani aachu, naan ippo kelamburen."
+          ],
+          "correctAnswer": "Kandippa varen, konjam thaamadhamaanaalum varen.",
+          "translatedSentence": "I will definitely come, even if I am a little late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ungala ellaraiyum enga veetuku azhaikkiren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting all of you to our house.",
+            "I am coming to your house with everyone.",
+            "I called everyone from your house."
+          ],
+          "correctAnswer": "I am inviting all of you to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pandigaikku yaaru yaarellam varraanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En thambi, en akka ellarum varaanga.",
+            "Naanga naalu naal kondaduvom.",
+            "Pandigai Thai maasathula varum."
+          ],
+          "correctAnswer": "En thambi, en akka ellarum varaanga.",
+          "translatedSentence": "My younger brother and my elder sister are all coming."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenga varalanaa enga pandigai muzhusa illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not come, our festival is not complete.",
+            "If you come, our festival will be complete.",
+            "You did not come to our festival."
+          ],
+          "correctAnswer": "If you do not come, our festival is not complete."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naan enna kondu varanum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onnum kondu vara vendaam, neenga vandha podhum.",
+            "Naan kadaila sweet vaangi vachirukken.",
+            "Kadai enga irukku-nu ungalukku theriyuma?"
+          ],
+          "correctAnswer": "Onnum kondu vara vendaam, neenga vandha podhum.",
+          "translatedSentence": "You do not have to bring anything, your coming is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Veetuku vara vazhi theriyalanaa enna kooppidunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not know the way to the house, call me.",
+            "If you know the way to the house, come alone.",
+            "Tell me the way to your house."
+          ],
+          "correctAnswer": "If you do not know the way to the house, call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enga veetuku vandhadhukku romba nandri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naangalum romba santhoshama irundhom, koopittadhukku nandri.",
+            "Paravaayilla, naan naalaikku varen.",
+            "Enakku indha pandigai theriyaathu."
+          ],
+          "correctAnswer": "Naangalum romba santhoshama irundhom, koopittadhukku nandri.",
+          "translatedSentence": "We were very happy too, thank you for inviting us."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pongalukku amma enna seivaanga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma sakkarai pongalum vadaiyum seivaanga.",
+            "Amma kadaila sweet vaanguvaanga.",
+            "Amma inniki veetla illa."
+          ],
+          "correctAnswer": "Amma sakkarai pongalum vadaiyum seivaanga.",
+          "translatedSentence": "Amma will make sweet pongal and vadai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavalikku veetla murukkum adhirasamum panrom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "For Deepavali we make murukku and adhirasam at home.",
+            "For Deepavali we buy murukku and adhirasam from the shop.",
+            "We made murukku and adhirasam for Pongal."
+          ],
+          "correctAnswer": "For Deepavali we make murukku and adhirasam at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha payasam yaaru pannadhu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "En paatti pannaanga, suvai eppadi irukku?",
+            "Payasam engaluku pidikkaathu.",
+            "Payasam kadaila kedaikkum."
+          ],
+          "correctAnswer": "En paatti pannaanga, suvai eppadi irukku?",
+          "translatedSentence": "My grandmother made it, how does it taste?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sakkarai pongalla nei konjam adhigama podunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please put a little more ghee in the sweet pongal.",
+            "Please put a little less ghee in the sweet pongal.",
+            "There is too much ghee in the sweet pongal."
+          ],
+          "correctAnswer": "Please put a little more ghee in the sweet pongal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Innum konjam adhirasam sappidreengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vendaam, vayiru nerambidichu, romba nandri.",
+            "Illa, enakku adhirasam seiya theriyaathu.",
+            "Adhirasam Deepavalikku thaan seivaanga."
+          ],
+          "correctAnswer": "Vendaam, vayiru nerambidichu, romba nandri.",
+          "translatedSentence": "No thank you, I am full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Karthigai Deepathukku ellu urundai seivom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "For Karthigai Deepam we make sesame balls.",
+            "For Karthigai Deepam we make sweet pongal.",
+            "We ate sesame balls on Karthigai Deepam."
+          ],
+          "correctAnswer": "For Karthigai Deepam we make sesame balls."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kaalambara idli dosai edhu venum?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enakku dosai venum, kooda filter kaapi kudunga.",
+            "Enakku sambar seiya theriyum.",
+            "Idli kadaila vaangikkalaam."
+          ],
+          "correctAnswer": "Enakku dosai venum, kooda filter kaapi kudunga.",
+          "translatedSentence": "I would like dosai, and please give me filter coffee with it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pandigai anniki naanga saiva saapadu thaan sappiduvom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festival day we eat only vegetarian food.",
+            "On festival day we eat only sweets.",
+            "On festival day we do not eat at home."
+          ],
+          "correctAnswer": "On festival day we eat only vegetarian food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivvalavu samaikka unga ammavukku kashtam illaya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kashtam thaan, aana pandigai-nu vandha santhoshama seivaanga.",
+            "Illa, amma samaikkaradhu illa, naanga velila saapduvom.",
+            "Amma kadaila irundhu saapadu vaanguvaanga."
+          ],
+          "correctAnswer": "Kashtam thaan, aana pandigai-nu vandha santhoshama seivaanga.",
+          "translatedSentence": "It is hard work, but when a festival comes she does it happily."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Deepavalikku pudhu thuni vaangiteengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaangiten, oru pudhu sattaiyum veshtiyum vaangiten.",
+            "Illa, enakku thuni kadai theriyaathu.",
+            "Naan pandigaikku pudhu thuni pottukka maaten."
+          ],
+          "correctAnswer": "Vaangiten, oru pudhu sattaiyum veshtiyum vaangiten.",
+          "translatedSentence": "Yes I did, I bought a new shirt and a veshti."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammavukku oru pudhu saree parisa kuduthen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I gave amma a new saree as a gift.",
+            "Amma gave me a new saree as a gift.",
+            "I want to buy amma a new saree."
+          ],
+          "correctAnswer": "I gave amma a new saree as a gift."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Indha sattai unakku pidichirukka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Romba pidichirukku, niram azhaga irukku.",
+            "Thuni kadai saayangaalam moodiduvaanga.",
+            "Naan naalaikku pudhu sattai pottukkuven."
+          ],
+          "correctAnswer": "Romba pidichirukku, niram azhaga irukku.",
+          "translatedSentence": "I like it a lot, the colour is beautiful."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pandigai anniki uravinargal ellarum enga veetla koodiduvaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festival day all our relatives gather at our house.",
+            "On festival day we go to all our relatives' houses.",
+            "All our relatives gathered at our house yesterday."
+          ],
+          "correctAnswer": "On festival day all our relatives gather at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kuzhandhaigalukku enna parisu vaangalaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avangalukku pudhu thuni vaangunga, illana pattaasu vaangi kudunga.",
+            "Kuzhandhaigal indha varusham pandigaikku varamaatanga.",
+            "Naan kuzhandhaigalukku sakkarai pongal pannen."
+          ],
+          "correctAnswer": "Avangalukku pudhu thuni vaangunga, illana pattaasu vaangi kudunga.",
+          "translatedSentence": "Buy them new clothes, or else buy them some crackers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Paatti pandigai anniki ellarukkum kaila kaasu kuduppaanga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festival day grandmother gives everyone some money.",
+            "On festival day grandmother buys everyone new clothes.",
+            "Grandmother gave me some money yesterday."
+          ],
+          "correctAnswer": "On festival day grandmother gives everyone some money."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pandigaikku oorukku poreengala, illa Chennailaye irukkeengala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ivvarusham Chennailaye irukkom, veetla ellarum sernthu kondaduvom.",
+            "Pona varusham naanga Maduraikku ponom.",
+            "Enga oorla pandigai kondaadave maatanga."
+          ],
+          "correctAnswer": "Ivvarusham Chennailaye irukkom, veetla ellarum sernthu kondaduvom.",
+          "translatedSentence": "This year we are staying in Chennai and celebrating together at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Veetla perusungalukku kaal thottu vanakkam sollanum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should touch the elders' feet at home and greet them.",
+            "You should greet the elders at home with a smile.",
+            "The elders at home will greet you first."
+          ],
+          "correctAnswer": "You should touch the elders' feet at home and greet them."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithana varusham kazhichu ellarum onna serndhadhu romba santhosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, ella varushamum ippadi serndha nalla irukkum.",
+            "Illa, naan ivanga yaaraiyum inniki paakkala.",
+            "Enakku pudhu thuni vaanga vendaam."
+          ],
+          "correctAnswer": "Aamaa, ella varushamum ippadi serndha nalla irukkum.",
+          "translatedSentence": "Yes, it would be lovely if we gathered like this every year."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Unga thangachi kalyanam eppo-nu mudivu aachaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adutha maasam pathinanjaam thedhi, muhurtham kaalambara ezhu maniku.",
+            "Kalyana pathirikai innum acchu aagala.",
+            "Kalyanam Maduraila nadandhudhu, aana naan pogala."
+          ],
+          "correctAnswer": "Adutha maasam pathinanjaam thedhi, muhurtham kaalambara ezhu maniku.",
+          "translatedSentence": "It is on the fifteenth of next month, and the muhurtham is at seven in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanam Maduraila nadakkudhu, aana virundhu Chennaila vechurukkom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wedding is in Madurai, but we have arranged the feast in Chennai.",
+            "The wedding is in Chennai, but we have arranged the feast in Madurai.",
+            "The wedding and the feast are both in Madurai."
+          ],
+          "correctAnswer": "The wedding is in Madurai, but we have arranged the feast in Chennai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenga kalyanathukku kandippa vaananum, illana enga ammavukku varutham aayidum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kandippa varen, velai irundhaalum naan vazhi pannikkiren.",
+            "Naan kalyana pathirikaiye innum paakkala.",
+            "Unga amma kalyanathukku varamaatangala?"
+          ],
+          "correctAnswer": "Kandippa varen, velai irundhaalum naan vazhi pannikkiren.",
+          "translatedSentence": "I will definitely come, even if I have work I will find a way."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanathukku munnadi pen veetla oru chinna virundhu irukkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before the wedding there is a small feast at the bride's house.",
+            "After the wedding there is a big feast at the groom's house.",
+            "There was a small feast at the bride's house before the wedding."
+          ],
+          "correctAnswer": "Before the wedding there is a small feast at the bride's house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pirandha naal kondaattathukku naan enna vaangittu varalaam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kekku vaangittu vaanga, kuzhandhaigalukku adhu thaan pidikkum.",
+            "Onnum vendaam, kondaattam nethikke mudinjidichu.",
+            "Pirandha naal kondaattam enga veetla thaan nadandhudhu."
+          ],
+          "correctAnswer": "Kekku vaangittu vaanga, kuzhandhaigalukku adhu thaan pidikkum.",
+          "translatedSentence": "Bring a cake, because that is what the children like."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naan varen-nu sonnen, aana matha velai irundhadhaala vara mudiyala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I said I would come, but because of other work I could not make it.",
+            "I said I would come, and I finished my other work and came.",
+            "I did not say I would come because I had other work."
+          ],
+          "correctAnswer": "I said I would come, but because of other work I could not make it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalyanathula ponnum mappillaiyum romba azhaga irundhaanga illa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aamaa, rendu perum santhoshama irundhadha paakka romba nalla irundhudhu.",
+            "Illa, naan kalyanathukku pogala, adhanaala yaaraiyum paakkala.",
+            "Mappillai veetukaaranga Chennaila thaan irukkaanga."
+          ],
+          "correctAnswer": "Aamaa, rendu perum santhoshama irundhadha paakka romba nalla irundhudhu.",
+          "translatedSentence": "Yes, it was lovely to see how happy the two of them were."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Perusunga aashirvadham panna appuram thaan virundhu aarambikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The feast begins only after the elders give their blessings.",
+            "The elders give their blessings after the feast begins.",
+            "The feast began before the elders gave their blessings."
+          ],
+          "correctAnswer": "The feast begins only after the elders give their blessings."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha varusham valaikaappukku neenga kandippa varanum, marandhudaadheenga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Marakka maaten, thedhi mudivu aanadhum enakku sollunga.",
+            "Marandhuten, adhanaala thaan poana thadava vara mudiyala.",
+            "Valaikaappu enga veetla thaan nadandhudhu."
+          ],
+          "correctAnswer": "Marakka maaten, thedhi mudivu aanadhum enakku sollunga.",
+          "translatedSentence": "I will not forget, tell me as soon as the date is fixed."
+        }
+      ]
+    }
+  ]
+}

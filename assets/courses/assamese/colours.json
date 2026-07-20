@@ -1,0 +1,721 @@
+{
+  "course": "colours",
+  "title": "Colours",
+  "description": "Describe and choose things by colour.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "The basic colours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Akax kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Akax neela.",
+            "Akax ronga.",
+            "Akax kola."
+          ],
+          "correctAnswer": "Akax neela.",
+          "translatedSentence": "The sky is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Saah bagisar pat seujia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The tea garden leaves are green.",
+            "The tea garden leaves are yellow.",
+            "The tea garden flowers are green."
+          ],
+          "correctAnswer": "The tea garden leaves are green."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gamosa khon kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Gamosa khon boga aru ronga.",
+            "Gamosa khon kola aru neela.",
+            "Gamosa khon seujia aru halodhiya."
+          ],
+          "correctAnswer": "Gamosa khon boga aru ronga.",
+          "translatedSentence": "The gamosa is white and red."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rati akax kola hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At night the sky turns black.",
+            "At night the sky turns blue.",
+            "At night the sky is very big."
+          ],
+          "correctAnswer": "At night the sky turns black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kon rong bhal pai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi neela rong bhal pao.",
+            "Moi Jorhat oloi jao.",
+            "Moloi ekakup saah lage."
+          ],
+          "correctAnswer": "Moi neela rong bhal pao.",
+          "translatedSentence": "I like the colour blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doi tu boga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The curd is white.",
+            "The rice is white.",
+            "The curd is fresh."
+          ],
+          "correctAnswer": "The curd is white."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Phul tu kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Phul tu halodhiya.",
+            "Phul tu bor dangor.",
+            "Phul tu ghor ot ase."
+          ],
+          "correctAnswer": "Phul tu halodhiya.",
+          "translatedSentence": "The flower is yellow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi ronga rong bhal pao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the colour red.",
+            "I like the colour black.",
+            "I want a red flower."
+          ],
+          "correctAnswer": "I like the colour red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito boga sart ne kola sart?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eito boga sart.",
+            "Eito ronga gamosa.",
+            "Eito kola juta."
+          ],
+          "correctAnswer": "Eito boga sart.",
+          "translatedSentence": "This is a white shirt."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Describing an object",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar sart tu kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor sart tu neela rongor.",
+            "Mor ghoror duar tu neela.",
+            "Moi sart tu dukan ot kinilo."
+          ],
+          "correctAnswer": "Mor sart tu neela rongor.",
+          "translatedSentence": "My shirt is blue."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor gamosa khon boga, kintu tar dhar ronga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My gamosa is white, but its border is red.",
+            "My gamosa is red, but its border is white.",
+            "My gamosa is white and it is very old."
+          ],
+          "correctAnswer": "My gamosa is white, but its border is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar bag tu kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor bag tu kola rongor.",
+            "Mor bag tu ghorot ase.",
+            "Moi bag tu Guwahati ot kinilo."
+          ],
+          "correctAnswer": "Mor bag tu kola rongor.",
+          "translatedSentence": "My bag is black."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eito gari khon ronga rongor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This car is red.",
+            "This red car is mine.",
+            "This car is very fast."
+          ],
+          "correctAnswer": "This car is red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Seito gos jopar pat kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seito gos jopar pat seujia.",
+            "Seito gos jopa bor dangor.",
+            "Seito gos jopa ghoror kakot ase."
+          ],
+          "correctAnswer": "Seito gos jopar pat seujia.",
+          "translatedSentence": "That tree has green leaves."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor ghoror duar khon halodhiya rongor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The door of my house is yellow.",
+            "The door of my house is closed.",
+            "My house has a yellow roof."
+          ],
+          "correctAnswer": "The door of my house is yellow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kap tu kon rongor, boga ne kamola?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kap tu kamola rongor.",
+            "Kap tu saah re bhorti.",
+            "Kap tu tebulor oporot ase."
+          ],
+          "correctAnswer": "Kap tu kamola rongor.",
+          "translatedSentence": "The cup is orange."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor juta jur kola aru bor puroni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My shoes are black and very old.",
+            "My shoes are black and very new.",
+            "My black bag is very old."
+          ],
+          "correctAnswer": "My shoes are black and very old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar phone tu kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor phone tu boga rongor.",
+            "Mor phone tu bor puroni.",
+            "Moi phone tu ghorot pahorilo."
+          ],
+          "correctAnswer": "Mor phone tu boga rongor.",
+          "translatedSentence": "My phone is white."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Which colour do you want",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak kon rongor gamosa lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moloi boga rongor gamosa lage.",
+            "Moloi duta gamosa lage.",
+            "Moi gamosa khon bhal pao."
+          ],
+          "correctAnswer": "Moloi boga rongor gamosa lage.",
+          "translatedSentence": "I want a white gamosa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moloi ronga rongor tu nalage, neela rongor tu lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not want the red one, I want the blue one.",
+            "I do not want the blue one, I want the red one.",
+            "I want both the red one and the blue one."
+          ],
+          "correctAnswer": "I do not want the red one, I want the blue one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito duta rongor bhitorot apunak kunto lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moloi seujia rongor tu lage.",
+            "Moi dukan tu bisari asilo.",
+            "Moloi olop saah lage."
+          ],
+          "correctAnswer": "Moloi seujia rongor tu lage.",
+          "translatedSentence": "I want the green one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kamola rongor sart tu kiman tokar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is the orange shirt?",
+            "How much is the yellow shirt?",
+            "Where is the orange shirt?"
+          ],
+          "correctAnswer": "How much is the orange shirt?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dukan ot etiya ronga rong nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tente moloi neela rongor tu diok.",
+            "Tente moloi ronga rongor tu diok.",
+            "Moi dukan tu kot ase najano."
+          ],
+          "correctAnswer": "Tente moloi neela rongor tu diok.",
+          "translatedSentence": "Then please give me the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi neela rongor sador khon lom.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will take the blue sador.",
+            "I will take the blue shirt.",
+            "I like the blue sador."
+          ],
+          "correctAnswer": "I will take the blue sador."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kunto bisare, gadh neela ne halka neela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi halka neela rongor tu bisaru.",
+            "Moi neela rong ekebare bhal napao.",
+            "Moi dui khon sador bisaru."
+          ],
+          "correctAnswer": "Moi halka neela rongor tu bisaru.",
+          "translatedSentence": "I want the light blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apunak jodi eito rong bhal nalage, ami anto dekhuam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like this colour, we will show you another one.",
+            "If you like this colour, we will show you another one.",
+            "We do not have another colour to show you."
+          ],
+          "correctAnswer": "If you do not like this colour, we will show you another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar lora jonor babe kon rongor kurta lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tar babe seujia rongor kurta lage.",
+            "Tar babe ekhon nutun boi lage.",
+            "Moi kurta khon kali kinisilo."
+          ],
+          "correctAnswer": "Tar babe seujia rongor kurta lage.",
+          "translatedSentence": "He needs a green kurta."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Colours of clothes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihu ot apuni ki pindhibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi boga mekhela sador pindhim.",
+            "Moi Bihu bor bhal pao.",
+            "Bihu ot ghor ot bahut manuh ahe."
+          ],
+          "correctAnswer": "Moi boga mekhela sador pindhim.",
+          "translatedSentence": "I will wear a white mekhela sador."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tar sart tu neela aru tar pant tu kola.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "His shirt is blue and his trousers are black.",
+            "His shirt is black and his trousers are blue.",
+            "His blue shirt is inside his black bag."
+          ],
+          "correctAnswer": "His shirt is blue and his trousers are black."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi aji kon rongor kurta pindhisa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi aji halodhiya kurta pindhisu.",
+            "Moi aji bahirot ulua nai.",
+            "Moi kurta khon bhal pao."
+          ],
+          "correctAnswer": "Moi aji halodhiya kurta pindhisu.",
+          "translatedSentence": "Today I am wearing a yellow kurta."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Boga rongor kapur soonkale moila hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "White clothes get dirty quickly.",
+            "White clothes dry quickly.",
+            "Dirty clothes turn white quickly."
+          ],
+          "correctAnswer": "White clothes get dirty quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi kola sart tu pindhim ne neela tu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Neela tu pindhok, apunak bhal lage.",
+            "Apuni kono sart pindha nai.",
+            "Moi kola rong ekebare bhal napao."
+          ],
+          "correctAnswer": "Neela tu pindhok, apunak bhal lage.",
+          "translatedSentence": "Wear the blue one, it suits you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor deuta boga gamosa khon kandhot loi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My father wears the white gamosa on his shoulder.",
+            "My father keeps the white gamosa in the cupboard.",
+            "My father wears a white shirt every day."
+          ],
+          "correctAnswer": "My father wears the white gamosa on his shoulder."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito ronga sador khon kar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eito mor bhonir sador.",
+            "Eito sador khon bor dangor.",
+            "Moi sador khon kali dhuisilo."
+          ],
+          "correctAnswer": "Eito mor bhonir sador.",
+          "translatedSentence": "It is my sister's sador."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumar seujia sart tu kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is your green shirt?",
+            "Where is my green shirt?",
+            "Whose green shirt is this?"
+          ],
+          "correctAnswer": "Where is your green shirt?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar juta jur kola ne motia?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor juta jur motia rongor.",
+            "Mor juta jur bor dhuniya.",
+            "Moi juta jur Guwahati ot kinisilo."
+          ],
+          "correctAnswer": "Mor juta jur motia rongor.",
+          "translatedSentence": "My shoes are brown."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Colours around us",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Brahmaputrar pani kon rongor dekha jai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barisa kalot pani tu motia rongor hoi.",
+            "Barisa kalot pani tu bor thanda hoi.",
+            "Noi khon amar ghoror kakot ase."
+          ],
+          "correctAnswer": "Barisa kalot pani tu motia rongor hoi.",
+          "translatedSentence": "In the monsoon the water looks brown."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Guwahati ot bahut ghoror sat ronga rongor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In Guwahati many house roofs are red.",
+            "In Guwahati many house roofs are blue.",
+            "In Guwahati many red houses are new."
+          ],
+          "correctAnswer": "In Guwahati many house roofs are red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jorhator saah bagisa bur kenekua lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bagisa bur sompurno seujia dekha jai.",
+            "Bagisa bur ghoror pora bor dur ot ase.",
+            "Moi Jorhat oloi jabo bisaru."
+          ],
+          "correctAnswer": "Bagisa bur sompurno seujia dekha jai.",
+          "translatedSentence": "The gardens look completely green."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bosonto kalot gos bur ronga phul ere bhorti hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In spring the trees are full of red flowers.",
+            "In spring the trees are full of green leaves.",
+            "In spring the red flowers fall from the trees."
+          ],
+          "correctAnswer": "In spring the trees are full of red flowers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beli dubar somoyot akaxor rong kenekua hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Beli dubar somoyot akax kamola hoi.",
+            "Beli dubar somoyot bor gorom lage.",
+            "Rati akax bur bor dhuniya lage."
+          ],
+          "correctAnswer": "Beli dubar somoyot akax kamola hoi.",
+          "translatedSentence": "At sunset the sky turns orange."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Barisar dinot akax dhuwa rongor hoi thake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On rainy days the sky stays grey.",
+            "On rainy days the sky stays blue.",
+            "On rainy days it rains the whole day."
+          ],
+          "correctAnswer": "On rainy days the sky stays grey."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bazar ot kon rongor pasoli besi dekha jai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bazar ot seujia pasoli hei besi dekha jai.",
+            "Bazar ot manuh bor besi hoi.",
+            "Moi bazar oloi kali goisilo."
+          ],
+          "correctAnswer": "Bazar ot seujia pasoli hei besi dekha jai.",
+          "translatedSentence": "In the market you mostly see green vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar gaon or gorubur boga aru motia rongor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cows in our village are white and brown.",
+            "The cows in our village are black and white.",
+            "Our village has many brown houses."
+          ],
+          "correctAnswer": "The cows in our village are white and brown."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Seito sorai tu kon rongor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Seito sorai tu neela aru kola rongor.",
+            "Seito sorai tu soonkale uri gol.",
+            "Moi sorai bur bor bhal pao."
+          ],
+          "correctAnswer": "Seito sorai tu neela aru kola rongor.",
+          "translatedSentence": "That bird is blue and black."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Lighter, darker, suits you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito neela tu moloi olop besi gadh lagise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tente moi apunak olop halka tu dekhuao.",
+            "Tente moi apunak arau gadh tu dekhuao.",
+            "Moro seito rongtu ekebare bhal nalage."
+          ],
+          "correctAnswer": "Tente moi apunak olop halka tu dekhuao.",
+          "translatedSentence": "Then let me show you a slightly lighter one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gorom kalot halka rongor kapur bhal, kiyono kola rong e gorom bosai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Light coloured clothes are better in summer, because black holds the heat.",
+            "Light coloured clothes are better in winter, because black holds the heat.",
+            "Black clothes are better in summer, because they do not show dirt."
+          ],
+          "correctAnswer": "Light coloured clothes are better in summer, because black holds the heat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunak ronga takoi neela rong e besi bhal lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavad, tente moi neela tu hei lom.",
+            "Dhanyavad, tente moi ronga tu hei lom.",
+            "Moi ajikali kono nutun kapur nikino."
+          ],
+          "correctAnswer": "Dhanyavad, tente moi neela tu hei lom.",
+          "translatedSentence": "Thank you, then I will take the blue one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi eito rong tumar bhal nalage, tente moi anto khon uliai dim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not like this colour, then I will take out another one.",
+            "If you like this colour, then I will take out another one.",
+            "I do not like this colour, so please take out another one."
+          ],
+          "correctAnswer": "If you do not like this colour, then I will take out another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kola rong besi bhal pai ne motia rong?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi kola rong besi bhal pao, kintu motia rongo bhal.",
+            "Moi duyota rong ekebare bhal napao.",
+            "Moloi ekhon kola rongor bag lage."
+          ],
+          "correctAnswer": "Moi kola rong besi bhal pao, kintu motia rongo bhal.",
+          "translatedSentence": "I like black more, but brown is nice too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor bhagini ye gulopiya rong bhal pai, kintu moi tak besi bhal napao.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My niece likes pink, but I do not like it much.",
+            "My niece likes pink, and I like it a lot too.",
+            "My niece does not like pink, but I like it a lot."
+          ],
+          "correctAnswer": "My niece likes pink, but I do not like it much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eito sador khon dhui dile rong tu molan hoi jabo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nai, eito rong tu dhui dileo molan nohoi.",
+            "Hoi, eito sador khon bor dhuniya.",
+            "Moi sador khon etiya dhui asu."
+          ],
+          "correctAnswer": "Nai, eito rong tu dhui dileo molan nohoi.",
+          "translatedSentence": "No, this colour does not fade even after washing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadh rongor kapur soonkale moila nedekhai, kintu gorom besi lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dark clothes do not look dirty quickly, but they feel hotter.",
+            "Dark clothes look dirty quickly, but they feel cooler.",
+            "Dark clothes are cheaper, but they get dirty quickly."
+          ],
+          "correctAnswer": "Dark clothes do not look dirty quickly, but they feel hotter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kiyo neela rong ito iman bhal pai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiyono neela rong e moloi Brahmaputrar kotha monot pelai.",
+            "Kiyono moi Guwahati ot bahut bosor thakisu.",
+            "Moi neela rongor sart duta kali kinisilo."
+          ],
+          "correctAnswer": "Kiyono neela rong e moloi Brahmaputrar kotha monot pelai.",
+          "translatedSentence": "Because blue reminds me of the Brahmaputra."
+        }
+      ]
+    }
+  ]
+}

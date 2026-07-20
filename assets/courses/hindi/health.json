@@ -1,0 +1,721 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek nahi hoon.",
+            "Main bazaar ja raha hoon.",
+            "Mujhe chai chahiye."
+          ],
+          "correctAnswer": "Main theek nahi hoon.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe sir dard hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I am very hungry.",
+            "I am feeling sleepy."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya hua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera pet dard kar raha hai.",
+            "Mera ghar yahin paas mein hai.",
+            "Mera naam yaad nahi hai."
+          ],
+          "correctAnswer": "Mera pet dard kar raha hai.",
+          "translatedSentence": "My stomach hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj main kaam par nahi ja sakta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot go to work today.",
+            "I am going to work late today.",
+            "I have a lot of work today."
+          ],
+          "correctAnswer": "I cannot go to work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhein kya takleef hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe bukhar hai.",
+            "Mujhe bhookh nahi hai.",
+            "Mujhe der ho gayi hai."
+          ],
+          "correctAnswer": "Mujhe bukhar hai.",
+          "translatedSentence": "I have a fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe thoda aaram chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little rest.",
+            "I need a little water.",
+            "I need a little help."
+          ],
+          "correctAnswer": "I need a little rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapko dard hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, thoda dard hai.",
+            "Haan, mujhe bhookh lagi hai.",
+            "Nahi, main ghar ja raha hoon."
+          ],
+          "correctAnswer": "Haan, thoda dard hai.",
+          "translatedSentence": "Yes, it hurts a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe achha nahi lag raha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not feeling well.",
+            "I do not like this place.",
+            "I am not going out today."
+          ],
+          "correctAnswer": "I am not feeling well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main doctor ko bulaun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, doctor ko bula do.",
+            "Nahi, chai bana do.",
+            "Haan, khana laga do."
+          ],
+          "correctAnswer": "Haan, doctor ko bula do.",
+          "translatedSentence": "Yes, please call the doctor."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kahan dard ho raha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere gale mein dard hai.",
+            "Mere ghar mein koi nahi hai.",
+            "Mere paas paise nahi hain."
+          ],
+          "correctAnswer": "Mere gale mein dard hai.",
+          "translatedSentence": "My throat hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri aankhon mein jalan ho rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My eyes are burning.",
+            "My eyes are watering.",
+            "My head is spinning."
+          ],
+          "correctAnswer": "My eyes are burning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka haath ab kaisa hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera haath abhi bhi dukh raha hai.",
+            "Mera haath bilkul saaf hai.",
+            "Mera haath thoda chhota hai."
+          ],
+          "correctAnswer": "Mera haath abhi bhi dukh raha hai.",
+          "translatedSentence": "My hand still hurts."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere pair mein bahut dard hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My leg hurts a lot.",
+            "My back hurts a lot.",
+            "My arm hurts a lot."
+          ],
+          "correctAnswer": "My leg hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Peeth mein dard kab se hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do din se peeth dukh rahi hai.",
+            "Do din se main ghar par hoon.",
+            "Do din se baarish ho rahi hai."
+          ],
+          "correctAnswer": "Do din se peeth dukh rahi hai.",
+          "translatedSentence": "My back has been hurting for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere kaan mein dard hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My ear hurts.",
+            "My tooth hurts.",
+            "My neck hurts."
+          ],
+          "correctAnswer": "My ear hurts."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumhare daant mein dard hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, ek daant bahut dukh raha hai.",
+            "Haan, mujhe mithai bahut pasand hai.",
+            "Nahi, mujhe bhookh lagi hai."
+          ],
+          "correctAnswer": "Haan, ek daant bahut dukh raha hai.",
+          "translatedSentence": "Yes, one of my teeth hurts a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera gala kharab hai aur bolna mushkil hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat is sore and it is hard to speak.",
+            "My throat is fine but I cannot eat anything.",
+            "My voice is fine but I cannot sleep at night."
+          ],
+          "correctAnswer": "My throat is sore and it is hard to speak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya pet mein bhi dard hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, sirf sir mein dard hai.",
+            "Haan, khana bahut achha tha.",
+            "Nahi, maine subah kuch khaya tha."
+          ],
+          "correctAnswer": "Nahi, sirf sir mein dard hai.",
+          "translatedSentence": "No, only my head hurts."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko yeh takleef kab se hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe teen din se bukhar hai.",
+            "Mujhe teen roti chahiye.",
+            "Main teen saal se Delhi mein hoon."
+          ],
+          "correctAnswer": "Mujhe teen din se bukhar hai.",
+          "translatedSentence": "I have had a fever for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor ne mujhe kuch test karane ko kaha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor has asked me to get some tests done.",
+            "The doctor has asked me to come back tomorrow.",
+            "The doctor has given me some new medicine."
+          ],
+          "correctAnswer": "The doctor has asked me to get some tests done."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapne aaj kuch khaya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, subah se kuch nahi khaya.",
+            "Haan, main abhi so raha tha.",
+            "Nahi, mujhe raasta pata nahi tha."
+          ],
+          "correctAnswer": "Nahi, subah se kuch nahi khaya.",
+          "translatedSentence": "No, I have not eaten anything since morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe raat bhar neend nahi aayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I could not sleep all night.",
+            "I slept very well last night.",
+            "I woke up very early today."
+          ],
+          "correctAnswer": "I could not sleep all night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap koi dawai le rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main bukhar ki dawai le raha hoon.",
+            "Haan, main doctor ke paas ja raha hoon.",
+            "Nahi, mujhe dawai ki dukaan nahi mili."
+          ],
+          "correctAnswer": "Haan, main bukhar ki dawai le raha hoon.",
+          "translatedSentence": "Yes, I am taking medicine for the fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe chakkar aa rahe hain aur kamzori lag rahi hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am feeling dizzy and weak.",
+            "I am feeling hungry and tired.",
+            "I am feeling hot and thirsty."
+          ],
+          "correctAnswer": "I am feeling dizzy and weak."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kisi dawai se allergy hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mujhe kisi dawai se allergy nahi hai.",
+            "Haan, main yeh dawai roz leta hoon.",
+            "Nahi, maine abhi tak dawai nahi li."
+          ],
+          "correctAnswer": "Nahi, mujhe kisi dawai se allergy nahi hai.",
+          "translatedSentence": "No, I am not allergic to any medicine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bukhar kam na ho to kal phir aa jaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down, come again tomorrow.",
+            "If the fever comes down, take the medicine again.",
+            "If you do not feel better, call me tonight."
+          ],
+          "correctAnswer": "If the fever does not come down, come again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal raat aapka bukhar kitna tha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kal raat ek sau do bukhar tha.",
+            "Kal raat main bahar gaya tha.",
+            "Kal raat mujhe jaldi neend aa gayi thi."
+          ],
+          "correctAnswer": "Kal raat ek sau do bukhar tha.",
+          "translatedSentence": "Last night my fever was a hundred and two."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kaun si dawai chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe sir dard ki dawai chahiye.",
+            "Mujhe ek kilo chawal chahiye.",
+            "Mujhe doctor ka number chahiye."
+          ],
+          "correctAnswer": "Mujhe sir dard ki dawai chahiye.",
+          "translatedSentence": "I need medicine for a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh dawai din mein do baar leni hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have to take this medicine twice a day.",
+            "You have to take this medicine twice a week.",
+            "You can take this medicine after two days."
+          ],
+          "correctAnswer": "You have to take this medicine twice a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh dawai khane ke baad leni hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, khane ke baad hi leejiye.",
+            "Haan, yeh dawai bahut mehngi hai.",
+            "Nahi, dukaan abhi band hai."
+          ],
+          "correctAnswer": "Haan, khane ke baad hi leejiye.",
+          "translatedSentence": "Yes, take it only after eating."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor ka parcha dikhaiye, tabhi yeh dawai milegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Show the doctor's prescription, only then will you get this medicine.",
+            "Show the doctor's prescription and this medicine will be free.",
+            "Bring the doctor's prescription with you tomorrow morning."
+          ],
+          "correctAnswer": "Show the doctor's prescription, only then will you get this medicine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Is dawai ki keemat kitni hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh dawai do sau rupaye ki hai.",
+            "Yeh dukaan das baje khulti hai.",
+            "Yeh dawai khaansi ke liye hai."
+          ],
+          "correctAnswer": "Yeh dawai do sau rupaye ki hai.",
+          "translatedSentence": "This medicine costs two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khaali pet yeh goli mat leejiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not take this tablet on an empty stomach.",
+            "Do not take this tablet with hot water.",
+            "Do not take this tablet before going to sleep."
+          ],
+          "correctAnswer": "Do not take this tablet on an empty stomach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main yeh dawai bina parche ke le sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, iske liye doctor ka parcha zaroori hai.",
+            "Haan, yeh dawai khane ke saath leni hai.",
+            "Nahi, yeh dukaan shaam ko band ho jaati hai."
+          ],
+          "correctAnswer": "Nahi, iske liye doctor ka parcha zaroori hai.",
+          "translatedSentence": "No, you need a doctor's prescription for this."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teen din tak dawai lijiye aur phir doctor ko dikhaiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take the medicine for three days and then see the doctor.",
+            "Take the medicine for three days and then stop it.",
+            "Take the medicine for three weeks and rest at home."
+          ],
+          "correctAnswer": "Take the medicine for three days and then see the doctor."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya is dawai se neend aati hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, isse thodi neend aa sakti hai.",
+            "Haan, isse pet dard theek ho jaata hai.",
+            "Nahi, yeh dawai bachchon ke liye nahi hai."
+          ],
+          "correctAnswer": "Haan, isse thodi neend aa sakti hai.",
+          "translatedSentence": "Yes, it can make you a little sleepy."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cough and injury",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumhein sardi zukam kab se hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parso raat se naak beh rahi hai.",
+            "Parso raat se main Jaipur mein hoon.",
+            "Parso se dawai ki dukaan band hai."
+          ],
+          "correctAnswer": "Parso raat se naak beh rahi hai.",
+          "translatedSentence": "My nose has been running since the night before last."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raat mein mujhe tez bukhar chadh gaya tha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had a high fever during the night.",
+            "I felt very cold during the night.",
+            "I took my medicine during the night."
+          ],
+          "correctAnswer": "I had a high fever during the night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh chot kaise lagi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main auto se utarte waqt gir gaya tha.",
+            "Main auto se ghar jaldi pahunch gaya tha.",
+            "Maine auto wale ko paise de diye the."
+          ],
+          "correctAnswer": "Main auto se utarte waqt gir gaya tha.",
+          "translatedSentence": "I fell while getting out of the auto rickshaw."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Khaansi itni hai ki main raat bhar so nahi pata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My cough is so bad that I cannot sleep all night.",
+            "My cough is so bad that I cannot eat anything.",
+            "My cough is better but I still cannot sleep."
+          ],
+          "correctAnswer": "My cough is so bad that I cannot sleep all night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya ghaav se abhi bhi khoon nikal raha hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, khoon ab band ho gaya hai.",
+            "Haan, chot kal hi lagi thi.",
+            "Nahi, maine patti nahi kharidi."
+          ],
+          "correctAnswer": "Nahi, khoon ab band ho gaya hai.",
+          "translatedSentence": "No, the bleeding has stopped now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Garam paani peene se gale ko aaram milta hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drinking warm water soothes the throat.",
+            "Drinking cold water soothes the throat.",
+            "Warm water helps you sleep at night."
+          ],
+          "correctAnswer": "Drinking warm water soothes the throat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tumne bukhar naapa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, abhi ek sau ek hai.",
+            "Haan, maine dawai kharid li hai.",
+            "Nahi, main abhi bazaar mein hoon."
+          ],
+          "correctAnswer": "Haan, abhi ek sau ek hai.",
+          "translatedSentence": "Yes, it is a hundred and one right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chot par barf lagao, warna sujan badh jayegi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Put ice on the injury, otherwise the swelling will get worse.",
+            "Put ice on the injury and the pain will go away at once.",
+            "Do not put ice on the injury or it will swell up."
+          ],
+          "correctAnswer": "Put ice on the injury, otherwise the swelling will get worse."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya is sardi mein bahar jaana theek hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, itni thand mein bahar mat jao.",
+            "Haan, thand mein chai bahut achhi lagti hai.",
+            "Nahi, bahar bahut bheed hoti hai."
+          ],
+          "correctAnswer": "Nahi, itni thand mein bahar mat jao.",
+          "translatedSentence": "No, do not go out in such cold weather."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Advice and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ab aapki tabiyat kaisi hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Pehle se bahut behtar hai, dhanyavaad.",
+            "Yahan se dukaan bahut door hai.",
+            "Aaj mausam bahut achha hai."
+          ],
+          "correctAnswer": "Pehle se bahut behtar hai, dhanyavaad.",
+          "translatedSentence": "It is much better than before, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aap poora aaram karenge to jaldi theek ho jayenge.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you rest properly, you will get better soon.",
+            "If you take the medicine, you will sleep better tonight.",
+            "If you do not rest, the fever will come back again."
+          ],
+          "correctAnswer": "If you rest properly, you will get better soon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main kal office ja sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do din aur ghar par rahiye, phir jaiye.",
+            "Office metro se sirf das minute door hai.",
+            "Kal subah dukaan jaldi khul jayegi."
+          ],
+          "correctAnswer": "Do din aur ghar par rahiye, phir jaiye.",
+          "translatedSentence": "Stay at home two more days, and then go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Doctor ne kaha hai ki mujhe tel wala khana nahi khana chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The doctor has said that I should not eat oily food.",
+            "The doctor has said that I should eat less rice.",
+            "The doctor has said that I can eat anything now."
+          ],
+          "correctAnswer": "The doctor has said that I should not eat oily food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aaj samosa kha sakta hoon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Abhi nahi, dal chawal khaiye to behtar hoga.",
+            "Haan, samose ke saath chai bhi le aaiye.",
+            "Samosa yahan se bahut door milta hai."
+          ],
+          "correctAnswer": "Abhi nahi, dal chawal khaiye to behtar hoga.",
+          "translatedSentence": "Not yet, it would be better if you ate dal and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dawai poori lijiye, beech mein band mat kijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Finish the whole course of medicine, do not stop it halfway.",
+            "Take the medicine only when you are not feeling well.",
+            "Start the medicine again if the fever comes back."
+          ],
+          "correctAnswer": "Finish the whole course of medicine, do not stop it halfway."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap itne kamzor kyun lag rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kyunki maine teen din se theek se khana nahi khaya.",
+            "Kyunki main roz subah tehalne jaata hoon.",
+            "Kyunki mujhe Lucknow ka khana bahut pasand hai."
+          ],
+          "correctAnswer": "Kyunki maine teen din se theek se khana nahi khaya.",
+          "translatedSentence": "Because I have not eaten properly for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bukhar to utar gaya hai lekin kamzori abhi baaki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fever has gone, but the weakness is still there.",
+            "The fever has gone and now I feel completely fine.",
+            "The fever is still there, but the weakness has gone."
+          ],
+          "correctAnswer": "The fever has gone, but the weakness is still there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mujhe aapko agli baar kab dikhana hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek hafte baad phir aa jaiye.",
+            "Ek hafte se mujhe bukhar hai.",
+            "Ek hafte tak yeh dukaan band rahegi."
+          ],
+          "correctAnswer": "Ek hafte baad phir aa jaiye.",
+          "translatedSentence": "Come and see me again after a week."
+        }
+      ]
+    }
+  ]
+}

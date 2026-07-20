@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku Raja ra subhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apananku madhya subhechha.",
+            "Mu ebe ghara jauchi.",
+            "Ha, mu Puri re achi."
+          ],
+          "correctAnswer": "Apananku madhya subhechha.",
+          "translatedSentence": "Greetings to you as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaji Rath Yatra achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Rath Yatra.",
+            "Tomorrow is Rath Yatra.",
+            "Today there is no festival."
+          ],
+          "correctAnswer": "Today is Rath Yatra."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku Durga Puja ra subhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, tumaku madhya.",
+            "Dhanyabad, apananku madhya.",
+            "Nahin, mote bhala lagu nahin."
+          ],
+          "correctAnswer": "Dhanyabad, tumaku madhya.",
+          "translatedSentence": "Thank you, the same to you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu khub khusi achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy.",
+            "I am not happy.",
+            "I am very tired."
+          ],
+          "correctAnswer": "I am very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaji kana parba achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaji Kumar Purnima achi.",
+            "Aaji mo janmadina.",
+            "Aaji chhuti nahin."
+          ],
+          "correctAnswer": "Aaji Kumar Purnima achi.",
+          "translatedSentence": "Today is Kumar Purnima."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sabanku parba ra subhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Festival greetings to everyone.",
+            "Greetings to you and your family.",
+            "Thank you all very much."
+          ],
+          "correctAnswer": "Festival greetings to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kemiti achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu bhala achi, dhanyabad.",
+            "Mu ghara re achi.",
+            "Apana bhala achanti."
+          ],
+          "correctAnswer": "Mu bhala achi, dhanyabad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaji amara ghara re parba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today there is a festival at our house.",
+            "Today we are going to a festival.",
+            "Our house is near the temple."
+          ],
+          "correctAnswer": "Today there is a festival at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume aaji khusi acha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu bhari khusi achi.",
+            "Ha, mu ghara re nahin.",
+            "Nahin, aaji parba nahin."
+          ],
+          "correctAnswer": "Ha, mu bhari khusi achi.",
+          "translatedSentence": "Yes, I am very happy."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raja kebe padiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raja juna mase padiba.",
+            "Raja tini dina rahiba.",
+            "Raja Puri re heba."
+          ],
+          "correctAnswer": "Raja juna mase padiba.",
+          "translatedSentence": "Raja falls in the month of June."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rath Yatra Puri re heithae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rath Yatra takes place in Puri.",
+            "Rath Yatra takes place in Cuttack.",
+            "Rath Yatra happens every month."
+          ],
+          "correctAnswer": "Rath Yatra takes place in Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Durga Puja sabuthu bhala kouthi hue?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cuttack re Durga Puja sabuthu bhala hue.",
+            "Durga Puja dasa dina rahe.",
+            "Durga Puja pare bhida kam hue."
+          ],
+          "correctAnswer": "Cuttack re Durga Puja sabuthu bhala hue.",
+          "translatedSentence": "Durga Puja is best in Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kumar Purnima ratri re jhia mane chandra ku puja karanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Kumar Purnima night, the girls worship the moon.",
+            "On Kumar Purnima night, the girls sing songs.",
+            "On Kumar Purnima morning, the girls go to the temple."
+          ],
+          "correctAnswer": "On Kumar Purnima night, the girls worship the moon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rath Yatra kou mase hue?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rath Yatra jula mase hue.",
+            "Rath Yatra Cuttack re hue.",
+            "Rath Yatra nau dina rahe."
+          ],
+          "correctAnswer": "Rath Yatra jula mase hue.",
+          "translatedSentence": "Rath Yatra takes place in the month of July."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raja bele jhia mane doli khelanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During Raja the girls play on swings.",
+            "During Raja the girls make pitha.",
+            "During Durga Puja the girls play on swings."
+          ],
+          "correctAnswer": "During Raja the girls play on swings."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kou parba sabuthu bhala lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote Rath Yatra sabuthu bhala lage.",
+            "Mote pakhala sabuthu bhala lage.",
+            "Mu parba dina ghara re rahe."
+          ],
+          "correctAnswer": "Mote Rath Yatra sabuthu bhala lage.",
+          "translatedSentence": "I like Rath Yatra the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Durga Puja sarila pare bhasani hue.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The immersion happens after Durga Puja ends.",
+            "The immersion happens before Durga Puja begins.",
+            "The pandal opens after Durga Puja ends."
+          ],
+          "correctAnswer": "The immersion happens after Durga Puja ends."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Rath Yatra dekhibaku kouthi jibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Puri ku jibi, ratha tana dekhibaku.",
+            "Mu asanta saptaha re jibi.",
+            "Mu auto re jibi."
+          ],
+          "correctAnswer": "Mu Puri ku jibi, ratha tana dekhibaku.",
+          "translatedSentence": "I will go to Puri to watch the chariots being pulled."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu apananku amara ghara ku nimantran karuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, mu niscaya asibi.",
+            "Dhanyabad, mu ghara re achi.",
+            "Ha, apana amara ghara ku asantu."
+          ],
+          "correctAnswer": "Dhanyabad, mu niscaya asibi.",
+          "translatedSentence": "Thank you, I will certainly come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali sanjha re amara ghara ku asantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come to our house tomorrow evening.",
+            "Please come to our house tomorrow morning.",
+            "We will come to your house tomorrow evening."
+          ],
+          "correctAnswer": "Please come to our house tomorrow evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kete bele asiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sanjha re asibi.",
+            "Mu auto re asibi.",
+            "Mu bandhu sange asibi."
+          ],
+          "correctAnswer": "Mu sanjha re asibi.",
+          "translatedSentence": "I will come in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana parivara sange asantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come with your family.",
+            "Please come with your friend.",
+            "We will come with our family."
+          ],
+          "correctAnswer": "Please come with your family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kali asuchanti, na parikali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu parikali asibi.",
+            "Mu auto re asibi.",
+            "Ha, mu asibi."
+          ],
+          "correctAnswer": "Mu parikali asibi.",
+          "translatedSentence": "I will come the day after tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apana nija pilamananku madhya anantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please bring your children along as well.",
+            "Please bring your brother along as well.",
+            "We will bring our children along as well."
+          ],
+          "correctAnswer": "Please bring your children along as well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimantran pain dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apana asile ame khub khusi hebu.",
+            "Ha, mu nimantran karuchi.",
+            "Mu kali asi pariba nahin."
+          ],
+          "correctAnswer": "Apana asile ame khub khusi hebu.",
+          "translatedSentence": "We will be very happy if you come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame sabu mili parba palan karibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will all celebrate the festival together.",
+            "We all celebrated the festival together.",
+            "They will all celebrate the festival together."
+          ],
+          "correctAnswer": "We will all celebrate the festival together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kichi anibi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichi anibara darkar nahin, apana kebala asantu.",
+            "Ha, mu apananka pain khaja anichi.",
+            "Nahin, mu kichi khaibi nahin."
+          ],
+          "correctAnswer": "Kichi anibara darkar nahin, apana kebala asantu.",
+          "translatedSentence": "There is no need to bring anything, please just come."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raja pain ghare kana pitha heuchi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa poda pitha aau arisa pitha karuchanti.",
+            "Ame aaji pakhala aau dalma khaibu.",
+            "Mu bazar ru chhena poda anichi."
+          ],
+          "correctAnswer": "Maa poda pitha aau arisa pitha karuchanti.",
+          "translatedSentence": "Mother is making poda pitha and arisa pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chhena poda Odisha ra sabuthu bhala mithai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chhena poda is the best sweet in Odisha.",
+            "Rasagola is the best sweet in Odisha.",
+            "Chhena poda is the most famous sweet in Puri."
+          ],
+          "correctAnswer": "Chhena poda is the best sweet in Odisha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Puri ra khaja kouthu kinichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Jagannath mandira pakha dokana ru kinichi.",
+            "Mu kali khaja kinichi.",
+            "Mu duiti khaja kinichi."
+          ],
+          "correctAnswer": "Mu Jagannath mandira pakha dokana ru kinichi.",
+          "translatedSentence": "I bought it from a shop near the Jagannath temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaji ghara re khiri randha heuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kheer is being cooked at home today.",
+            "Kheer was cooked at home yesterday.",
+            "Dalma is being cooked at home today."
+          ],
+          "correctAnswer": "Kheer is being cooked at home today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kou mithai sabuthu bhala lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote chhena poda sabuthu bhala lage.",
+            "Mote dalma sabuthu bhala lage.",
+            "Mu roj mithai khae nahin."
+          ],
+          "correctAnswer": "Mote chhena poda sabuthu bhala lage.",
+          "translatedSentence": "I like chhena poda the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Parba dina ame niramish khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festival days we eat vegetarian food.",
+            "On festival days we eat fish.",
+            "On festival days we do not cook at home."
+          ],
+          "correctAnswer": "On festival days we eat vegetarian food."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei pitha kie karichanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei pitha mo maa karichanti.",
+            "Ei pitha khub mitha achi.",
+            "Mu kali pitha khaichi."
+          ],
+          "correctAnswer": "Ei pitha mo maa karichanti.",
+          "translatedSentence": "My mother made this pitha."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kumar Purnima dina ghara ghara re khiri hue.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Kumar Purnima, kheer is made in every home.",
+            "On Kumar Purnima, pitha is made in every home.",
+            "On Raja, kheer is made in every home."
+          ],
+          "correctAnswer": "On Kumar Purnima, kheer is made in every home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aau tike dalma debi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tike deantu, khub bhala lagila.",
+            "Nahin, mu dalma randhi nahin.",
+            "Ha, mu apananku dalma debi."
+          ],
+          "correctAnswer": "Ha, tike deantu, khub bhala lagila.",
+          "translatedSentence": "Yes, please give me a little, it was very tasty."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puja pain nua luga kinichanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu kali Cuttack bazar ru duiti nua luga kinichi.",
+            "Ha, mu nua luga pindhi bazar gali.",
+            "Nahin, mu ei luga apananka pain anichi."
+          ],
+          "correctAnswer": "Ha, mu kali Cuttack bazar ru duiti nua luga kinichi.",
+          "translatedSentence": "Yes, yesterday I bought two new outfits at the Cuttack market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Parba bele sabu pilamane nua luga pindhanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At festival time all the children wear new clothes.",
+            "At festival time all the children get new toys.",
+            "At festival time all the children went to the temple."
+          ],
+          "correctAnswer": "At festival time all the children wear new clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu apananka pain ei upahara anichi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ete kasta kahinki nele? Bahut dhanyabad.",
+            "Dhanyabad, kintu mu upahara nebi nahin.",
+            "Mu apananka pain kichi ani pari nahin."
+          ],
+          "correctAnswer": "Ete kasta kahinki nele? Bahut dhanyabad.",
+          "translatedSentence": "Why did you go to so much trouble? Thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei upahara mo bhauni pain, karana kali tara janmadina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This gift is for my sister, because tomorrow is her birthday.",
+            "This gift is for my sister, because yesterday was her birthday.",
+            "This gift is from my sister, because tomorrow is my birthday."
+          ],
+          "correctAnswer": "This gift is for my sister, because tomorrow is her birthday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puja re apananka ghara ku kie kie asibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo bhai parivara sange Cuttack ru asibe.",
+            "Ame sabu Cuttack ku jibu.",
+            "Mo bhai kali phone karithile."
+          ],
+          "correctAnswer": "Mo bhai parivara sange Cuttack ru asibe.",
+          "translatedSentence": "My brother will come from Cuttack with his family."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi tume ei barsa asa, ame sabu mili doli khelibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you come this year, we will all play on the swings together.",
+            "If you come next year, we will all play on the swings together.",
+            "When you came this year, we all played on the swings together."
+          ],
+          "correctAnswer": "If you come this year, we will all play on the swings together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume mo pain kana upahara anicha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu tuma pain Puri ru khaja anichi.",
+            "Apana mo pain kana anichanti?",
+            "Mu tumaku kichi dei pariba nahin."
+          ],
+          "correctAnswer": "Mu tuma pain Puri ru khaja anichi.",
+          "translatedSentence": "I have brought khaja from Puri for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Parba bele sara parivara ekathi hue, tenu mote bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At festival time the whole family gets together, so I love it.",
+            "At festival time the whole family gets together, but I do not love it.",
+            "At festival time the whole family leaves town, so I love it."
+          ],
+          "correctAnswer": "At festival time the whole family gets together, so I love it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananku ei nua luga re khub sundara dishuchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, ehaku mo bhauni mote deithile.",
+            "Dhanyabad, mu ehaku kali kinibi.",
+            "Nahin, mu nua luga pindhi nahin."
+          ],
+          "correctAnswer": "Dhanyabad, ehaku mo bhauni mote deithile.",
+          "translatedSentence": "Thank you, my sister gave it to me."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Asanta mase mo bhai ra bahaghara, apana asibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu abasya asibi, kintu tarikha tike kahantu.",
+            "Ha, mu bahaghara re khaja khaibi.",
+            "Nahin, mu apananka bhai ku jane nahin."
+          ],
+          "correctAnswer": "Ha, mu abasya asibi, kintu tarikha tike kahantu.",
+          "translatedSentence": "Yes, I will definitely come, but please tell me the date."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahaghara Cuttack re heba, karana kanya ghara sethi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wedding will be in Cuttack, because the bride's family is there.",
+            "The wedding will be in Cuttack, because the groom's family is there.",
+            "The wedding was in Cuttack, because the bride's family was there."
+          ],
+          "correctAnswer": "The wedding will be in Cuttack, because the bride's family is there."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bahaghara re apana kana pindhibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu nua kurta pindhibi, karana mo purana ta chhota heigala.",
+            "Mu sakala re Puri ku jibi.",
+            "Mu bahaghara re gita gaibi."
+          ],
+          "correctAnswer": "Mu nua kurta pindhibi, karana mo purana ta chhota heigala.",
+          "translatedSentence": "I will wear a new kurta, because my old one has got too small."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi barsa hue, tebe barajatri deri re pahanchibe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains, the groom's party will arrive late.",
+            "If it rains, the groom's party will not come at all.",
+            "Because it rained, the groom's party arrived late."
+          ],
+          "correctAnswer": "If it rains, the groom's party will arrive late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bahaghara kete bele arambha heba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ratri re arambha heba, kintu apana sanjha ru asantu.",
+            "Bahaghara Bhubaneswar re arambha heba.",
+            "Ratri re bhida khub besi heba."
+          ],
+          "correctAnswer": "Ratri re arambha heba, kintu apana sanjha ru asantu.",
+          "translatedSentence": "It will start at night, but please come from the evening onwards."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bahaghara ku jai pari nahin, karana se dina mora kama achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot go to the wedding, because I have work that day.",
+            "I could not go to the wedding, because I had work that day.",
+            "I will not go to the wedding, because I do not know them well."
+          ],
+          "correctAnswer": "I cannot go to the wedding, because I have work that day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka jhia ra bahaghara pain hardika subhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, apana asithile ame aau khusi heithantu.",
+            "Dhanyabad, mu apananku subhechha janauchi.",
+            "Ha, bahaghara asanta mase heba."
+          ],
+          "correctAnswer": "Dhanyabad, apana asithile ame aau khusi heithantu.",
+          "translatedSentence": "Thank you, we would have been even happier if you had come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahaghara sarila pare ame sabu mili chhabi tolila.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the wedding ended, we all took photos together.",
+            "Before the wedding began, we all took photos together.",
+            "After the wedding ends, we will all take photos together."
+          ],
+          "correctAnswer": "After the wedding ended, we all took photos together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei barsa apananka parba kemiti katila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub bhala katila, karana sara parivara ekathi thile.",
+            "Ei barsa Raja juna mase padiba.",
+            "Mu parba pain nua luga kinibi."
+          ],
+          "correctAnswer": "Khub bhala katila, karana sara parivara ekathi thile.",
+          "translatedSentence": "It went very well, because the whole family was together."
+        }
+      ]
+    }
+  ]
+}

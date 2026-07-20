@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai ke kaam garnuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma shikshak hu.",
+            "ma sanchai chu.",
+            "mero ghar Pokhara ma cha."
+          ],
+          "correctAnswer": "ma shikshak hu.",
+          "translatedSentence": "I am a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kaha kaam garnuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma Kathmandu ma kaam garchu.",
+            "ma bihana chandai uthchu.",
+            "ma dal bhat khanchu."
+          ],
+          "correctAnswer": "ma Kathmandu ma kaam garchu.",
+          "translatedSentence": "I work in Kathmandu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma banka ma kaam garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work at a bank.",
+            "I am going to the bank.",
+            "I am a bank manager."
+          ],
+          "correctAnswer": "I work at a bank."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timi ke garchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma college ma padhchu.",
+            "ma ramro chu.",
+            "mero naam Sita ho."
+          ],
+          "correctAnswer": "ma college ma padhchu.",
+          "translatedSentence": "I am a student at a college."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "uni school ma padhaunchhin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She teaches at a school.",
+            "She studies at a school.",
+            "She works at a bank."
+          ],
+          "correctAnswer": "She teaches at a school."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko kaam kasto cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero kaam ramro cha.",
+            "mero ghar sano cha.",
+            "mero sathi doctor ho."
+          ],
+          "correctAnswer": "mero kaam ramro cha.",
+          "translatedSentence": "My job is good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaja mero kaam chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no work today.",
+            "I have work today.",
+            "My work is not good today."
+          ],
+          "correctAnswer": "I have no work today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai doctor hunuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "haina, ma injiniyar hu.",
+            "ho, ma yaha baschu.",
+            "malai thaha chaina."
+          ],
+          "correctAnswer": "haina, ma injiniyar hu.",
+          "translatedSentence": "No, I am an engineer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero kaam dherai cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a lot of work.",
+            "My work is very good.",
+            "I have a little work."
+          ],
+          "correctAnswer": "I have a lot of work."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo kitab kasko ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo kitab mero ho.",
+            "yo kalam rato cha.",
+            "tyo school thulo cha."
+          ],
+          "correctAnswer": "yo kitab mero ho.",
+          "translatedSentence": "This book is mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja hami ke padhchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aaja hami Nepali padhchau.",
+            "aaja hami ghar jaanchau.",
+            "aaja bida ho."
+          ],
+          "correctAnswer": "aaja hami Nepali padhchau.",
+          "translatedSentence": "Today we are studying Nepali."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "shikshakle kalopati ma lekhnuhunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is writing on the blackboard.",
+            "The teacher is reading from the book.",
+            "The student is writing on the blackboard."
+          ],
+          "correctAnswer": "The teacher is writing on the blackboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "malai yo prashna bujhena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma feri bujhaunchu.",
+            "ma ghar jaanchu.",
+            "tapai dhilo aaunubhayo."
+          ],
+          "correctAnswer": "ma feri bujhaunchu.",
+          "translatedSentence": "I will explain it again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma kaksha ma agadi baschu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sit at the front of the class.",
+            "I sit at the back of the class.",
+            "I stand at the front of the class."
+          ],
+          "correctAnswer": "I sit at the front of the class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko kalam malai dinuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hunchha, yo linuhos.",
+            "hunchha, ma bholi aaunchu.",
+            "malai kitab chahiyo."
+          ],
+          "correctAnswer": "hunchha, yo linuhos.",
+          "translatedSentence": "Sure, take this one."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hamro kaksha ma pachis jana bidyarthi chan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twenty five students in our class.",
+            "There are fifteen students in our class.",
+            "There are twenty five teachers in our school."
+          ],
+          "correctAnswer": "There are twenty five students in our class."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kaksha kati baje suru hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kaksha das baje suru hunchha.",
+            "kaksha dherai ramro cha.",
+            "shikshak aile kaksha ma hunuhunchha."
+          ],
+          "correctAnswer": "kaksha das baje suru hunchha.",
+          "translatedSentence": "The class starts at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai yo shabda ko artha thaha chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know the meaning of this word.",
+            "I know the meaning of this word.",
+            "I cannot read this word."
+          ],
+          "correctAnswer": "I do not know the meaning of this word."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At The Office",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "meeting kati baje suru hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "meeting eghara baje suru hunchha.",
+            "meeting hijo dherai lamo thiyo.",
+            "ma meeting ma basdina."
+          ],
+          "correctAnswer": "meeting eghara baje suru hunchha.",
+          "translatedSentence": "The meeting starts at eleven o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maile pathaeko email tapaile hernubhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma aile nai herchu.",
+            "ma bholi office aaudina.",
+            "mero computer naya ho."
+          ],
+          "correctAnswer": "ma aile nai herchu.",
+          "translatedSentence": "I will look at it right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maile bihana panch wata email pathaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I sent five emails in the morning.",
+            "I read five emails in the morning.",
+            "I will send five emails in the morning."
+          ],
+          "correctAnswer": "I sent five emails in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko desk kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mero desk jhyal ko najik cha.",
+            "mero ghar Thamel ma cha.",
+            "mero kalam desk ma cha."
+          ],
+          "correctAnswer": "mero desk jhyal ko najik cha.",
+          "translatedSentence": "My desk is near the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hamro meeting hareka somabar hunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have a meeting every Monday.",
+            "We have a meeting every Sunday.",
+            "We have a meeting once a month."
+          ],
+          "correctAnswer": "We have a meeting every Monday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hakim aile office ma hunuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hunuhunna, uhaa meeting ma hunuhunchha.",
+            "hunuhunchha, ma uhaa lai email pathaye.",
+            "uhaa ko desk mero desk najik cha."
+          ],
+          "correctAnswer": "hunuhunna, uhaa meeting ma hunuhunchha.",
+          "translatedSentence": "No, he is in a meeting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero computer bigriyo, tyasaile ma kaam garna sakina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My computer broke down, so I could not work.",
+            "My computer broke down, but I finished the work.",
+            "My computer is old, so I work slowly."
+          ],
+          "correctAnswer": "My computer broke down, so I could not work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja office ma kaam dherai cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "cha, aaja ma dherai byasta chu.",
+            "chaina, mero desk sano cha.",
+            "cha, mero sahakarmi ramro manche ho."
+          ],
+          "correctAnswer": "cha, aaja ma dherai byasta chu.",
+          "translatedSentence": "Yes, I am very busy today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "khaja khane bela ma hami chiya khanchau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We drink tea during the lunch break.",
+            "We eat momo during the lunch break.",
+            "We drink tea before we start work."
+          ],
+          "correctAnswer": "We drink tea during the lunch break."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "pariksha kahile suru hunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pariksha arko haptaa suru hunchha.",
+            "pariksha dherai garo thiyo.",
+            "ma pariksha ma basdina."
+          ],
+          "correctAnswer": "pariksha arko haptaa suru hunchha.",
+          "translatedSentence": "The exam starts next week."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timile aaja kati ghanta padhyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maile tin ghanta padhe.",
+            "ma bholi bihana padhchu.",
+            "malai yo kitab man parcha."
+          ],
+          "correctAnswer": "maile tin ghanta padhe.",
+          "translatedSentence": "I studied for three hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma hareka rati kitab padhchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I read a book every night.",
+            "I read a book every morning.",
+            "I write in my notebook every night."
+          ],
+          "correctAnswer": "I read a book every night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo prashna ko uttar timilai thaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thaha chaina, malai sikaunuhos na.",
+            "thaha cha, ma bholi padhchu.",
+            "mero kalam harayo."
+          ],
+          "correctAnswer": "thaha chaina, malai sikaunuhos na.",
+          "translatedSentence": "I do not know, please teach me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "maile grihakarya sakina kinabhane malai samaya bhaena.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not finish the homework because I had no time.",
+            "I finished the homework because I had enough time.",
+            "I did not do the homework because I forgot about it."
+          ],
+          "correctAnswer": "I did not finish the homework because I had no time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timile pariksha ma kasto garyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "maile ramro gare.",
+            "ma pariksha ma jaanchu.",
+            "pariksha ko kitab mahango cha."
+          ],
+          "correctAnswer": "maile ramro gare.",
+          "translatedSentence": "I did well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "pariksha garo thiyo tara maile sabai prashna lekhe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The exam was hard but I answered every question.",
+            "The exam was easy so I answered every question.",
+            "The exam was hard and I left two questions."
+          ],
+          "correctAnswer": "The exam was hard but I answered every question."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timilai kun bishaya man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai ganit man parcha.",
+            "malai chiya man parcha.",
+            "ma school ma padhchu."
+          ],
+          "correctAnswer": "malai ganit man parcha.",
+          "translatedSentence": "I like mathematics."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bholi pariksha cha, tyasaile aaja ma sathi haru sanga jaadina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is an exam tomorrow, so I am not going out with friends today.",
+            "There is an exam tomorrow, but I am going out with friends today.",
+            "There was an exam yesterday, so I did not go out with friends."
+          ],
+          "correctAnswer": "There is an exam tomorrow, so I am not going out with friends today."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai office kati baje pugnuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma bihana nau baje pugchu.",
+            "ma micro bus ma jaanchu.",
+            "mero office Thamel ma cha."
+          ],
+          "correctAnswer": "ma bihana nau baje pugchu.",
+          "translatedSentence": "I get there at nine in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aaja kina dhilo aaunubhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "micro bus ma dherai bhid thiyo.",
+            "ma bihanai uthe ra chiya khaye.",
+            "mero kaam chandai sakiyo."
+          ],
+          "correctAnswer": "micro bus ma dherai bhid thiyo.",
+          "translatedSentence": "The micro bus was very crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma sadhai bihana aath baje ghar bata niskanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I always leave home at eight in the morning.",
+            "I always reach home at eight in the morning.",
+            "I leave home at eight every evening."
+          ],
+          "correctAnswer": "I always leave home at eight in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "malai bholi bida chahiyo, milchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hunchha, tara hakim lai pani bhannuhos.",
+            "hunchha, ma bholi office aaudina.",
+            "malai pani bida chahiyo."
+          ],
+          "correctAnswer": "hunchha, tara hakim lai pani bhannuhos.",
+          "translatedSentence": "That is fine, but please tell the manager too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaja bato ma dherai gadi thiyo, tyasaile ma aadha ghanta dhilo bhaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There was heavy traffic today, so I was half an hour late.",
+            "There was heavy traffic today, but I was not late at all.",
+            "There was no traffic today, so I arrived half an hour early."
+          ],
+          "correctAnswer": "There was heavy traffic today, so I was half an hour late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "office kati baje sakinchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "office panch baje sakinchha.",
+            "office bihana nau baje suru hunchha.",
+            "aaja office ma bida cha."
+          ],
+          "correctAnswer": "office panch baje sakinchha.",
+          "translatedSentence": "The office finishes at five o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi tapai bida linuhunchha bhane ek din agadi bhannuhos.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you are going to take leave, please tell us a day in advance.",
+            "If you are going to be late, please call the office in the morning.",
+            "If you take leave, you will have to work on Saturday."
+          ],
+          "correctAnswer": "If you are going to take leave, please tell us a day in advance."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "hijo tapai kina office aaunubhaena?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma birami thiye, tyasaile aaina.",
+            "ma hijo dhilo aaye, maph garnuhos.",
+            "hijo mero meeting ramro bhayo."
+          ],
+          "correctAnswer": "ma birami thiye, tyasaile aaina.",
+          "translatedSentence": "I was sick, so I did not come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma dhilo aaye tara maile kaam samaya mai sake.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I came late but I finished the work on time.",
+            "I came late so I could not finish the work on time.",
+            "I came early and finished the work on time."
+          ],
+          "correctAnswer": "I came late but I finished the work on time."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and promotions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "arko barsa tapaiko ke yojana cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma naya kaam khojne yojana ma chu.",
+            "ma hijo Pokhara bata pharke.",
+            "mero kaam aaja bihanai sakiyo."
+          ],
+          "correctAnswer": "ma naya kaam khojne yojana ma chu.",
+          "translatedSentence": "I am planning to look for a new job."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai badhuwa bhayo re, badhai cha!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "dhanyabaad, ma dherai khusi chu.",
+            "malai thaha chaina, ma sodhchu.",
+            "ho, ma aaja dhilo aaye."
+          ],
+          "correctAnswer": "dhanyabaad, ma dherai khusi chu.",
+          "translatedSentence": "Thank you, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi ma mehanat gare bhane arko barsa badhuwa paunchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work hard, I will get a promotion next year.",
+            "If I work hard, I will find a new job next year.",
+            "I worked hard, so I got a promotion this year."
+          ],
+          "correctAnswer": "If I work hard, I will get a promotion next year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timi arko barsa ke padhne bichar ma chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma computer bishaya padhne bichar ma chu.",
+            "maile hijo pariksha diye.",
+            "malai ganit ekdam garo lagcha."
+          ],
+          "correctAnswer": "ma computer bishaya padhne bichar ma chu.",
+          "translatedSentence": "I am thinking of studying computer science."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai yo kaam man parcha tara talab ali kam cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this job but the salary is a little low.",
+            "I do not like this job because the salary is low.",
+            "I like this job and the salary is good too."
+          ],
+          "correctAnswer": "I like this job but the salary is a little low."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kina naya kaam khojdai hunuhunchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kinabhane mero talab dherai kam cha.",
+            "kinabhane mero office ekdam najik cha.",
+            "kinabhane malai yo kaam man parcha."
+          ],
+          "correctAnswer": "kinabhane mero talab dherai kam cha.",
+          "translatedSentence": "Because my salary is too low."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero lakshya Nepali ramro sanga bolna sikne ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My goal is to learn to speak Nepali well.",
+            "My goal is to learn to write Nepali well.",
+            "I want to teach Nepali to my friends."
+          ],
+          "correctAnswer": "My goal is to learn to speak Nepali well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "panch barsa pachhi tapai kaha hunuhunchha jasto lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma aafnai company kholne sochdai chu.",
+            "ma hijo din bhari meeting ma thiye.",
+            "ma sadhai micro bus ma office jaanchu."
+          ],
+          "correctAnswer": "ma aafnai company kholne sochdai chu.",
+          "translatedSentence": "I am thinking of opening my own company."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hakimle mero kaam ramro cha bhannubhayo, tyasaile ma dherai khusi chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The boss said my work is good, so I am very happy.",
+            "The boss said my work is not good, so I am very sad.",
+            "The boss said my work is good, but I am still not happy."
+          ],
+          "correctAnswer": "The boss said my work is good, so I am very happy."
+        }
+      ]
+    }
+  ]
+}

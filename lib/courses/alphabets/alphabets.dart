@@ -1,4 +1,5 @@
 //GENERATED BARREL FILE
+export 'assamese.dart';
 export 'kannada.dart';
 export 'malayalam.dart';
 export 'resource.dart';

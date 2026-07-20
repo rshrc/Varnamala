@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskara, neevu hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddini, dhanyavaada.",
+            "Nanage kannada gottilla.",
+            "Naanu manege hogtiddini."
+          ],
+          "correctAnswer": "Naanu chennagiddini, dhanyavaada.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu chennagiddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am fine.",
+            "I am at home.",
+            "I am coming now."
+          ],
+          "correctAnswer": "I am fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenu hegiddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chennagiddini, neenu hegiddiya?",
+            "Naanu shaalege hogtiddini.",
+            "Nanage gottilla."
+          ],
+          "correctAnswer": "Chennagiddini, neenu hegiddiya?",
+          "translatedSentence": "I am fine, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you?",
+            "Where are you?",
+            "Who are you?"
+          ],
+          "correctAnswer": "How are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manele ellaru chennagiddara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ellaru chennagiddare.",
+            "Illa, avaru illi illa.",
+            "Naanu naale barteeni."
+          ],
+          "correctAnswer": "Houdu, ellaru chennagiddare.",
+          "translatedSentence": "Yes, everyone is well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellaru chennagiddare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone is well.",
+            "Everyone is here.",
+            "Everyone is coming."
+          ],
+          "correctAnswer": "Everyone is well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu hosa vidyarthi.",
+            "Naanu chennagiddini.",
+            "Nanage kannada gottilla."
+          ],
+          "correctAnswer": "Naanu hosa vidyarthi.",
+          "translatedSentence": "I am a new student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage kannada swalpa gottu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know a little Kannada.",
+            "I do not know Kannada.",
+            "I want to learn Kannada."
+          ],
+          "correctAnswer": "I know a little Kannada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu kannada maathadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, swalpa maathadtini.",
+            "Illa, naanu chennagiddini.",
+            "Houdu, naanu manege hogtiddini."
+          ],
+          "correctAnswer": "Houdu, swalpa maathadtini.",
+          "translatedSentence": "Yes, I speak a little."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Good morning, good night",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubhodaya, neevu bega eddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu aaru gantege edde.",
+            "Illa, naanu Cubbon Park nalli iddini.",
+            "Houdu, naanu raatri chennagi malagide."
+          ],
+          "correctAnswer": "Houdu, naanu aaru gantege edde.",
+          "translatedSentence": "Yes, I got up at six."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubhodaya, indu hava chennagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, the weather is nice today.",
+            "Good morning, today is a holiday.",
+            "Good morning, I am going out now."
+          ],
+          "correctAnswer": "Good morning, the weather is nice today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage oota aaytha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu ragi mudde thinde.",
+            "Illa, naanu naale barteeni.",
+            "Houdu, naanu chennagiddini."
+          ],
+          "correctAnswer": "Houdu, naanu ragi mudde thinde.",
+          "translatedSentence": "Yes, I ate ragi mudde."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubha raatri, chennagi malagi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, sleep well.",
+            "Good night, see you tomorrow.",
+            "Good morning, wake up early."
+          ],
+          "correctAnswer": "Good night, sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu eega malagalu hogtiddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shubha raatri, naale sigona.",
+            "Shubhodaya, neevu bega banni.",
+            "Namaskara, nimage swagata."
+          ],
+          "correctAnswer": "Shubha raatri, naale sigona.",
+          "translatedSentence": "Good night, let's meet tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namma manege swagata, olage banni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to our home, please come in.",
+            "Welcome to our home, please sit down.",
+            "Please come to our home tomorrow."
+          ],
+          "correctAnswer": "Welcome to our home, please come in."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Olage banni, kaapi kudiyiri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaada, filter kaapi kudiyona.",
+            "Illa, naanu innu bandilla.",
+            "Houdu, naanu raatri malagtini."
+          ],
+          "correctAnswer": "Dhanyavaada, filter kaapi kudiyona.",
+          "translatedSentence": "Thank you, let's have filter coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubhodaya, nimage olle dina aagali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, have a nice day.",
+            "Good night, have a good sleep.",
+            "Good morning, are you going to work?"
+          ],
+          "correctAnswer": "Good morning, have a nice day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale bega barteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, belagge entu gantege barteeni.",
+            "Illa, naale nanage kelasa ide.",
+            "Houdu, naanu nenne bandiddini."
+          ],
+          "correctAnswer": "Houdu, belagge entu gantege barteeni.",
+          "translatedSentence": "Yes, I will come at eight in the morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank you and sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma sahaayakke tumba dhanyavaada.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, yaava tondare-nu illa.",
+            "Kshamisi, naanu tadavaagi bande.",
+            "Dayavittu swalpa illi kaayiri."
+          ],
+          "correctAnswer": "Parvagilla, yaava tondare-nu illa.",
+          "translatedSentence": "It is all right, it was no trouble at all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kshamisi, naanu tadavaagi bande.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I came late.",
+            "Sorry, I cannot come.",
+            "Excuse me, I have to go."
+          ],
+          "correctAnswer": "Sorry, I came late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Swalpa jaaga kodtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, banni, illi kutkolli.",
+            "Illa, nanage jaaga gottilla.",
+            "Dhanyavaada, naanu ilidu hogtini."
+          ],
+          "correctAnswer": "Houdu, banni, illi kutkolli.",
+          "translatedSentence": "Yes, come, sit here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu swalpa nidhaanavaagi maathaadi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please speak a little slowly.",
+            "Please speak a little louder.",
+            "Please come a little early."
+          ],
+          "correctAnswer": "Please speak a little slowly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, BMTC bus nildaana elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ille pakkadalli ide, munde hogi.",
+            "Nanage kannada gottilla, kshamisi.",
+            "Houdu, naanu bus nalli bande."
+          ],
+          "correctAnswer": "Ille pakkadalli ide, munde hogi.",
+          "translatedSentence": "It is right nearby, go straight ahead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adu nanna tappu, dayavittu kshamisi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my mistake, please forgive me.",
+            "That is not my mistake, please listen to me.",
+            "I am sorry, I did not hear you."
+          ],
+          "correctAnswer": "That is my mistake, please forgive me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu nimage sahaaya maadali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, dayavittu swalpa sahaaya maadi.",
+            "Illa, nanage kannada gottilla.",
+            "Houdu, naanu naale barteeni."
+          ],
+          "correctAnswer": "Houdu, dayavittu swalpa sahaaya maadi.",
+          "translatedSentence": "Yes, please help me a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumba dhanyavaada, neevu tumba olleyavaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much, you are very kind.",
+            "Thank you very much, you came very early.",
+            "I am sorry, you are very busy today."
+          ],
+          "correctAnswer": "Thank you very much, you are very kind."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, neevu helidaddu nanage kelalilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, naanu innondu sala helteeni.",
+            "Dhanyavaada, naanu eega hogtiddini.",
+            "Illa, nanage kannada maathaadalu barolla."
+          ],
+          "correctAnswer": "Parvagilla, naanu innondu sala helteeni.",
+          "translatedSentence": "No problem, I will say it once more."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sari, naanu eega hogi barteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aytu, hushaaragi hogi banni.",
+            "Illa, neevu innu bandilla.",
+            "Houdu, naanu ille kutkotteeni."
+          ],
+          "correctAnswer": "Aytu, hushaaragi hogi banni.",
+          "translatedSentence": "All right, go safely and come again."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naale malli sigona.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let's meet again tomorrow.",
+            "Let's meet again next week.",
+            "I will call you tomorrow."
+          ],
+          "correctAnswer": "Let's meet again tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaavaga malli barteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu mundina vaara barteeni.",
+            "Naanu nenne bandiddini.",
+            "Nanage barokke aagalla."
+          ],
+          "correctAnswer": "Naanu mundina vaara barteeni.",
+          "translatedSentence": "I will come next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hushaaragi iri, daari nodkondu hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take care, watch the road as you go.",
+            "Take care, do not go out alone at night.",
+            "Be careful, the bus is very crowded today."
+          ],
+          "correctAnswer": "Take care, watch the road as you go."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumba tadavaaytu, naanu hogteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, hogi banni, naale maathaadona.",
+            "Illa, neevu innu oota maadilla.",
+            "Houdu, naanu nimma jothe barteeni."
+          ],
+          "correctAnswer": "Sari, hogi banni, naale maathaadona.",
+          "translatedSentence": "All right, goodbye, let's talk tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma jothe maathaadi tumba khushi aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It was a real pleasure talking with you.",
+            "It was very nice to see your house.",
+            "I was very happy that you came early."
+          ],
+          "correctAnswer": "It was a real pleasure talking with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu nimmannu bus nildaanadalli bittu barteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaada, adu nanage tumba sahaaya aagutte.",
+            "Illa, naanu bus nildaana nodilla.",
+            "Houdu, naanu ille nimagaagi kaayteeni."
+          ],
+          "correctAnswer": "Dhanyavaada, adu nanage tumba sahaaya aagutte.",
+          "translatedSentence": "Thank you, that will be a big help to me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Manege hogi phone maadi, naanu kaaytiruttini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Call me once you get home, I will be waiting.",
+            "Come home early, I will be waiting for you.",
+            "Call me before you leave, I am busy now."
+          ],
+          "correctAnswer": "Call me once you get home, I will be waiting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu naale Mysuru ge hogtiddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Olleyadu, hushaaragi hogi banni.",
+            "Parvagilla, naanu nimmannu nodalilla.",
+            "Illa, naanu Mysuru nalli illa."
+          ],
+          "correctAnswer": "Olleyadu, hushaaragi hogi banni.",
+          "translatedSentence": "That is good, have a safe trip."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Politeness and respect",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajji, neevu hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddini maga, neenu hegiddiya?",
+            "Naanu chennagiddini, aadare neevu yaaru?",
+            "Nanage gottilla, naanu eega hogtiddini."
+          ],
+          "correctAnswer": "Naanu chennagiddini maga, neenu hegiddiya?",
+          "translatedSentence": "I am fine, child, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hiriyarodane yaavaglu gauravadinda maathaadabeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You should always speak to elders with respect.",
+            "You should always speak to children very softly.",
+            "You should always greet the elders in the house first."
+          ],
+          "correctAnswer": "You should always speak to elders with respect."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, naanu olage barabahuda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, dayavittu olage banni.",
+            "Illa, naanu horage hogtiddini.",
+            "Houdu, naanu bagilu muchchiddini."
+          ],
+          "correctAnswer": "Houdu, dayavittu olage banni.",
+          "translatedSentence": "Yes, please come inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gottilladavarodane 'neevu' anta maathaadidare olleyadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is better to say 'neevu' when you speak to strangers.",
+            "It is better to speak in English when you meet strangers.",
+            "It is better to say 'neenu' when you speak to your elders."
+          ],
+          "correctAnswer": "It is better to say 'neevu' when you speak to strangers."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma thande thaayi hegiddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru ibbaru chennagiddare, dhanyavaada.",
+            "Avaru eega Mysuru nalli illa, kshamisi.",
+            "Naanu avarannu nenne raatri nodide."
+          ],
+          "correctAnswer": "Avaru ibbaru chennagiddare, dhanyavaada.",
+          "translatedSentence": "They are both well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu kutkolli, naanu nimage kaapi tarteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please sit down, I will bring you some coffee.",
+            "Please wait here, I will call them for you.",
+            "Please come inside, the coffee is already ready."
+          ],
+          "correctAnswer": "Please sit down, I will bring you some coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage nimma sahaaya beku, aadare neevu kelasadalli iddira.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, heli, naanu kelteeni.",
+            "Illa, nanage yaava kelasa-nu gottilla.",
+            "Houdu, naanu naale nimma sahaaya kelteeni."
+          ],
+          "correctAnswer": "Parvagilla, heli, naanu kelteeni.",
+          "translatedSentence": "It is all right, tell me, I am listening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu nanaginta doddavaru, adakke naanu nimage namaskara helteeni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are older than me, so I greet you respectfully.",
+            "You are older than me, so I will listen to whatever you say.",
+            "You came before me, so you may speak first."
+          ],
+          "correctAnswer": "You are older than me, so I greet you respectfully."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maga, neenu oota maadidya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa ajji, naanu innu oota maadilla.",
+            "Illa ajji, neevu innu oota maadilla.",
+            "Houdu ajji, naanu naale manege barteeni."
+          ],
+          "correctAnswer": "Illa ajji, naanu innu oota maadilla.",
+          "translatedSentence": "No grandma, I have not eaten yet."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "After a long time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eshtu dina aaytu nimmannu nodi, elli iddiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Bengaluru nalli kelasa maadtidde, adakke barokke aagalilla.",
+            "Naanu ille iddini, aadare nanage nimma hesaru gottilla.",
+            "Naanu naale Mysuru inda barteeni, aaga sigona."
+          ],
+          "correctAnswer": "Naanu Bengaluru nalli kelasa maadtidde, adakke barokke aagalilla.",
+          "translatedSentence": "I was working in Bengaluru, so I could not come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimmannu nodi tumba varshagalu aaytu, aadare neevu swalpa-nu badalaagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It has been years since I saw you, but you have not changed at all.",
+            "It has been years since I saw you, and you have changed a lot.",
+            "We met many years ago, but I do not remember your name."
+          ],
+          "correctAnswer": "It has been years since I saw you, but you have not changed at all."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hosa kelasa hege sagtide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chennagi sagtide, aadare swalpa jaasti kelasa ide.",
+            "Nanage kelasa gottilla, aadare naanu kaltiddini.",
+            "Illa, naanu hosa kelasa innu shuru maadilla."
+          ],
+          "correctAnswer": "Chennagi sagtide, aadare swalpa jaasti kelasa ide.",
+          "translatedSentence": "It is going well, but there is a bit too much work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu Mysuru inda Bengaluru ge bandiddini, yaakendare illi kelasa sikkitu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have moved from Mysuru to Bengaluru because I got a job here.",
+            "I have moved from Bengaluru to Mysuru because my family lives here.",
+            "I travel from Mysuru to Bengaluru every week for my work."
+          ],
+          "correctAnswer": "I have moved from Mysuru to Bengaluru because I got a job here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Illi hattira olle hotel ideya, oota maadona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, pakkadalli ondu ide, alli masala dose tumba chennagirutte.",
+            "Illa, nanage ee ooru gottilla, naanu nenne raatri bande.",
+            "Houdu, naanu belagge manele bisi bele bath maadiddini."
+          ],
+          "correctAnswer": "Houdu, pakkadalli ondu ide, alli masala dose tumba chennagirutte.",
+          "translatedSentence": "Yes, there is one nearby, and the masala dosa there is very good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage nimma jothe maathaadalu ishta, aadare eega naanu kelasakke hogabeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would love to talk with you, but I have to go to work now.",
+            "I like talking with you, so I will come to your office now.",
+            "I wanted to talk to you, but you were not at home then."
+          ],
+          "correctAnswer": "I would love to talk with you, but I have to go to work now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee vaarantyadalli Cubbon Park ge hogona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aytu, belagge hogona, aaga alli jana kammi iruttare.",
+            "Illa, nanage Cubbon Park elli ide anta gottilla.",
+            "Houdu, naanu nenne alli tumba hottu nadede."
+          ],
+          "correctAnswer": "Aytu, belagge hogona, aaga alli jana kammi iruttare.",
+          "translatedSentence": "All right, let's go in the morning, there are fewer people then."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu bandiddu nanage tumba khushi aaytu, yaakendare tumba dina aagittu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am so glad you came, because it had been such a long time.",
+            "I am so glad you came, because I had a lot of work that day.",
+            "I was sad that you left early, because we had a lot to talk about."
+          ],
+          "correctAnswer": "I am so glad you came, because it had been such a long time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malli yaavaga sigona, mundina tingalu aagabahuda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aytu, mundina tingalu sigona, naanu modalu phone maadteeni.",
+            "Illa, naanu nimmannu nenne nodide, adakke bekilla.",
+            "Houdu, naanu mundina vaara Mysuru ge hogtiddini."
+          ],
+          "correctAnswer": "Aytu, mundina tingalu sigona, naanu modalu phone maadteeni.",
+          "translatedSentence": "All right, let's meet next month, I will call you first."
+        }
+      ]
+    }
+  ]
+}

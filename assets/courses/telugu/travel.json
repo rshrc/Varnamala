@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Buses and trains",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkada veltunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Hyderabad veltunnanu.",
+            "Naaku biryani kaavali.",
+            "Naa peru meeku telusu."
+          ],
+          "correctAnswer": "Nenu Hyderabad veltunnanu.",
+          "translatedSentence": "I am going to Hyderabad."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idi bus stand aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is this the bus stand?",
+            "Is this the train station?",
+            "Is this your bag?"
+          ],
+          "correctAnswer": "Is this the bus stand?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru bus ekkutunnara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, nenu train ekkutunnanu.",
+            "Avunu, naaku bus telusu.",
+            "Ledu, bus stand ikkada undi."
+          ],
+          "correctAnswer": "Ledu, nenu train ekkutunnanu.",
+          "translatedSentence": "No, I am taking the train."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu station ki veltunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to the station.",
+            "I am coming from the station.",
+            "I am waiting at the station."
+          ],
+          "correctAnswer": "I am going to the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Station akkada undi.",
+            "Station ki bus ledu.",
+            "Naaku station telusu."
+          ],
+          "correctAnswer": "Station akkada undi.",
+          "translatedSentence": "The station is over there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku Vijayawada bus kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need the bus to Vijayawada.",
+            "I need the train to Vijayawada.",
+            "I am waiting for the Vijayawada bus."
+          ],
+          "correctAnswer": "I need the bus to Vijayawada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ekkadiki veltunnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu intiki veltunnanu.",
+            "Naaku bus telusu.",
+            "Nenu ikkada unnanu."
+          ],
+          "correctAnswer": "Nenu intiki veltunnanu.",
+          "translatedSentence": "I am going home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bus Charminar veltunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Does this bus go to Charminar?",
+            "Does this train go to Charminar?",
+            "Is this bus coming from Charminar?"
+          ],
+          "correctAnswer": "Does this bus go to Charminar?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train vachchindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, train inka raledu.",
+            "Avunu, nenu train ekkanu.",
+            "Ledu, naaku ticket kaavali."
+          ],
+          "correctAnswer": "Ledu, train inka raledu.",
+          "translatedSentence": "No, the train has not come yet."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tickets And Timings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku enni tickets kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku rendu tickets kaavali.",
+            "Naaku ticket ledu.",
+            "Nenu ticket teesukunnanu."
+          ],
+          "correctAnswer": "Naaku rendu tickets kaavali.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ticket entha avutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does the ticket cost?",
+            "Where do I buy the ticket?",
+            "How many tickets do you want?"
+          ],
+          "correctAnswer": "How much does the ticket cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vijayawada ki ticket entha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ticket rendu vandalu avutundi.",
+            "Ticket counter akkada undi.",
+            "Naaku Vijayawada telusu."
+          ],
+          "correctAnswer": "Ticket rendu vandalu avutundi.",
+          "translatedSentence": "The ticket costs two hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tarvatha train eppudu bayaluderutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When does the next train leave?",
+            "When does the next train arrive?",
+            "Which platform does the train leave from?"
+          ],
+          "correctAnswer": "When does the next train leave?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus eppudu vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus padi nimushallo vastundi.",
+            "Bus ippude vellipoyindi.",
+            "Bus stand ki nadichi vellandi."
+          ],
+          "correctAnswer": "Bus padi nimushallo vastundi.",
+          "translatedSentence": "The bus will come in ten minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku Hyderabad ki oka ticket kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one ticket to Hyderabad.",
+            "I need two tickets to Hyderabad.",
+            "I want to go to Hyderabad by train."
+          ],
+          "correctAnswer": "I need one ticket to Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee train Vijayawada ki veltunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, ee train Vijayawada ki veltundi.",
+            "Ledu, ee train ikkada aagadu.",
+            "Avunu, naaku train ticket kaavali."
+          ],
+          "correctAnswer": "Avunu, ee train Vijayawada ki veltundi.",
+          "translatedSentence": "Yes, this train goes to Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ticket counter ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the ticket counter?",
+            "Where is the bus stand?",
+            "Is the ticket counter open now?"
+          ],
+          "correctAnswer": "Where is the ticket counter?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru eppudu bayaluderutunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu podduna aaru gantalaki bayaluderutunnanu.",
+            "Nenu ikkada rendu tickets konnanu.",
+            "Naaku raatri train telusu."
+          ],
+          "correctAnswer": "Nenu podduna aaru gantalaki bayaluderutunnanu.",
+          "translatedSentence": "I am leaving at six in the morning."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Charminar ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Charminar chala dooram, meeru auto ekkandi.",
+            "Charminar ki ticket rendu vandalu.",
+            "Naaku Charminar chala nachchindi."
+          ],
+          "correctAnswer": "Charminar chala dooram, meeru auto ekkandi.",
+          "translatedSentence": "Charminar is quite far, take an auto."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru ikkada nunchi kudivaipu vellandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go to the right from here.",
+            "Go to the left from here.",
+            "Come back to this place."
+          ],
+          "correctAnswer": "Go to the right from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee daari ekkadiki veltundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee daari bus stand ki veltundi.",
+            "Ee daari lo chala janalu unnaru.",
+            "Nenu ee daari lo veltunnanu."
+          ],
+          "correctAnswer": "Ee daari bus stand ki veltundi.",
+          "translatedSentence": "This road goes to the bus stand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem cheppandi, hotel ekkada undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please tell me, where is the hotel?",
+            "Please tell me, where is the station?",
+            "Excuse me, is there a hotel nearby?"
+          ],
+          "correctAnswer": "Please tell me, where is the hotel?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ekkada thiragaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeru mundhu signal daggara edamavaipu thiragandi.",
+            "Meeru ikkade aagandi, bus vastundi.",
+            "Meeru station ki ticket teesukondi."
+          ],
+          "correctAnswer": "Meeru mundhu signal daggara edamavaipu thiragandi.",
+          "translatedSentence": "Turn left at the signal ahead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bank ee vidhi chivara undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bank is at the end of this street.",
+            "The bank is at the start of this street.",
+            "There is no bank on this street."
+          ],
+          "correctAnswer": "The bank is at the end of this street."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ikkada nunchi station ki entha dooram?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Oka kilometer dooram, nadichi vellochu.",
+            "Station daggara irani chai chala bagunutundi.",
+            "Station ki ticket counter lo adagandi."
+          ],
+          "correctAnswer": "Oka kilometer dooram, nadichi vellochu.",
+          "translatedSentence": "It is one kilometre, you can walk there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu daari tappipoyanu, naaku sahayam cheyyandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am lost, please help me.",
+            "I am late, please wait for me.",
+            "I do not know this road, please come with me."
+          ],
+          "correctAnswer": "I am lost, please help me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ee daari telusa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naaku ee prantham telusu ledu.",
+            "Avunu, nenu ee daari lo thiraganu.",
+            "Ledu, nenu ikkade untanu."
+          ],
+          "correctAnswer": "Ledu, naaku ee prantham telusu ledu.",
+          "translatedSentence": "No, I do not know this area."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Autos and taxis",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ekkadiki vellali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku Charminar ki vellali.",
+            "Naaku auto telusu ledu.",
+            "Nenu ikkade digutanu."
+          ],
+          "correctAnswer": "Naaku Charminar ki vellali.",
+          "translatedSentence": "I need to go to Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeter meeda vellandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please go by the meter.",
+            "Please stop near the meter.",
+            "Please look at the meter."
+          ],
+          "correctAnswer": "Please go by the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Charminar ki entha avutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeter prakaram vandha rupayalu avutundi.",
+            "Charminar ikkadiki chala daggara.",
+            "Nenu Charminar ki roju veltanu."
+          ],
+          "correctAnswer": "Meeter prakaram vandha rupayalu avutundi.",
+          "translatedSentence": "By the meter it will be one hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Konchem tagginchandi, meeru chala ekkuva adugutunnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please reduce it, you are asking too much.",
+            "Please wait, you are driving too fast.",
+            "Please tell me, how much are you asking?"
+          ],
+          "correctAnswer": "Please reduce it, you are asking too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ikkada aagana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, konchem mundhuku vellandi.",
+            "Avunu, meeru venakki thiragandi.",
+            "Ledu, naaku meeter telusu ledu."
+          ],
+          "correctAnswer": "Ledu, konchem mundhuku vellandi.",
+          "translatedSentence": "No, go a little further ahead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeter veyyandi, lekapothe nenu vere auto ekkutanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn on the meter, otherwise I will take another auto.",
+            "Turn on the meter, and then we can leave.",
+            "Stop the auto here, otherwise I will get down."
+          ],
+          "correctAnswer": "Turn on the meter, otherwise I will take another auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru chillara istara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, naa daggara chillara ledu.",
+            "Avunu, naaku ee daari telusu.",
+            "Ledu, nenu auto ekkanu."
+          ],
+          "correctAnswer": "Kshaminchandi, naa daggara chillara ledu.",
+          "translatedSentence": "Sorry, I do not have change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee taxi lo naalugu mandi kurchovacha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Can four people sit in this taxi?",
+            "Can four people sit in this auto?",
+            "Are there four people in this taxi?"
+          ],
+          "correctAnswer": "Can four people sit in this taxi?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto eppudu vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Padi nimushallo vastundi ani driver cheppadu.",
+            "Auto lo moodu mandi kurchunnaru.",
+            "Auto valla naaku aalasyam ayindi."
+          ],
+          "correctAnswer": "Padi nimushallo vastundi ani driver cheppadu.",
+          "translatedSentence": "The driver said it will come in ten minutes."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking Into A Room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku gadi kaavala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku rendu rojula ki oka gadi kaavali.",
+            "Ledu, naaku train ticket kaavali.",
+            "Avunu, naaku ee gadi telusu."
+          ],
+          "correctAnswer": "Avunu, naaku rendu rojula ki oka gadi kaavali.",
+          "translatedSentence": "Yes, I need a room for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadi ki roju ki entha charge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is the room per day?",
+            "How much is the room per week?",
+            "How many days can I keep the room?"
+          ],
+          "correctAnswer": "How much is the room per day?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enni rojulu untaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu moodu rojulu untanu.",
+            "Nenu moodu gantalu nadichanu.",
+            "Naaku ee gadi chala nachchindi."
+          ],
+          "correctAnswer": "Nenu moodu rojulu untanu.",
+          "translatedSentence": "I will stay for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gadi lo AC undaa, leda fan matrame unda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Does the room have AC, or only a fan?",
+            "Does the room have a fan, or only a window?",
+            "Is the AC in the room working or not?"
+          ],
+          "correctAnswer": "Does the room have AC, or only a fan?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gadi lo wifi undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu undi, password reception lo adagandi.",
+            "Ledu, gadi lo fan matrame undi.",
+            "Avunu, gadi moodava anthasthu lo undi."
+          ],
+          "correctAnswer": "Avunu undi, password reception lo adagandi.",
+          "translatedSentence": "Yes there is, ask for the password at reception."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Podduna tiffin ki pesarattu dorukutunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is pesarattu available for breakfast?",
+            "Is biryani available for lunch?",
+            "Do you serve breakfast in the room?"
+          ],
+          "correctAnswer": "Is pesarattu available for breakfast?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu gadi choodochha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda, nenu meeku ippude choopistanu.",
+            "Kshaminchandi, gadi lo evaru leru.",
+            "Avunu, gadi charge roju ki vey rupayalu."
+          ],
+          "correctAnswer": "Tappakunda, nenu meeku ippude choopistanu.",
+          "translatedSentence": "Of course, I will show it to you right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku veedhi vaipu kaakunda, nishabdham ga unde gadi kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want a quiet room, not one facing the street.",
+            "I want a big room facing the street.",
+            "I want a room on the ground floor, not upstairs."
+          ],
+          "correctAnswer": "I want a quiet room, not one facing the street."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru eppudu gadi khaali chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Repu podduna padi gantalaki khaali chestanu.",
+            "Nenu ikkada rendu tickets teesukunnanu.",
+            "Gadi lo AC pani cheyyatam ledu."
+          ],
+          "correctAnswer": "Repu podduna padi gantalaki khaali chestanu.",
+          "translatedSentence": "I will check out tomorrow at ten in the morning."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost bags",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train enduku aalasyam ayindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaana valla train rendu gantalu aalasyam ayindi.",
+            "Train ki ticket dorakaledu, anduke nenu bus ekkanu.",
+            "Train vachchindi, kaani nenu station ki raledu."
+          ],
+          "correctAnswer": "Vaana valla train rendu gantalu aalasyam ayindi.",
+          "translatedSentence": "The train is two hours late because of the rain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa baag station lo poyindi, nenu evarini adagaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag is lost at the station, whom should I ask?",
+            "I left my bag at the station, can I get it back?",
+            "My bag is at the station, who will bring it here?"
+          ],
+          "correctAnswer": "My bag is lost at the station, whom should I ask?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee saamanu ela untundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adi nalla rangu baag, dani meeda naa peru undi.",
+            "Adi naa gadi lo undi, nenu repu teesukuntanu.",
+            "Naa daggara saamanu ekkuva ledu, oka baag matrame."
+          ],
+          "correctAnswer": "Adi nalla rangu baag, dani meeda naa peru undi.",
+          "translatedSentence": "It is a black bag with my name written on it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus raakapothe, nenu taxi lo veltanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the bus does not come, I will go by taxi.",
+            "If the bus comes late, I will wait for it.",
+            "The bus did not come, so I went by taxi."
+          ],
+          "correctAnswer": "If the bus does not come, I will go by taxi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ento sahayam kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa ticket poyindi, konchem sahayam cheyyandi.",
+            "Naaku ee prantham baaga telusu, dhanyavadalu.",
+            "Nenu ikkada nunchi nadichi veltanu."
+          ],
+          "correctAnswer": "Naa ticket poyindi, konchem sahayam cheyyandi.",
+          "translatedSentence": "I have lost my ticket, please help me a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu ninna complaint ichchanu, kaani inka jawaabu raledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I made a complaint yesterday, but I still have not got a reply.",
+            "I made a complaint yesterday, and they replied to me today.",
+            "I will make a complaint tomorrow, because nobody replied."
+          ],
+          "correctAnswer": "I made a complaint yesterday, but I still have not got a reply."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu repati flight ki maarchukovacha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maarchukovachchu, kaani meeru extra charge kattaali.",
+            "Maarchukovachchu, mee saamanu ikkade undi.",
+            "Kudaradu, meeru repu podduna bayaluderaru."
+          ],
+          "correctAnswer": "Maarchukovachchu, kaani meeru extra charge kattaali.",
+          "translatedSentence": "You can change it, but you have to pay an extra charge."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Train aalasyam ayinanduku, naaku vere ticket ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since the train is late, please give me another ticket.",
+            "Since the train is late, please return my money.",
+            "If the train is late, I will take another train."
+          ],
+          "correctAnswer": "Since the train is late, please give me another ticket."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru enduku kangaru padutunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa flight ki oka gante undi, anduke kangaru padutunnanu.",
+            "Naaku ee prantham telusu, anduke nenu nadichi veltunnanu.",
+            "Naa baag dorikindi, anduke nenu santhoshamga unnanu."
+          ],
+          "correctAnswer": "Naa flight ki oka gante undi, anduke kangaru padutunnanu.",
+          "translatedSentence": "My flight is in one hour, that is why I am worried."
+        }
+      ]
+    }
+  ]
+}

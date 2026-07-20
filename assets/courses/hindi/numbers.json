@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kitni chai chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe do chai chahiye.",
+            "Mujhe chai pasand hai.",
+            "Chai bahut garam hai."
+          ],
+          "correctAnswer": "Mujhe do chai chahiye.",
+          "translatedSentence": "I would like two teas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Plate mein kitne samose hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Plate mein teen samose hain.",
+            "Samosa bahut swaadisht hai.",
+            "Mujhe ek samosa chahiye."
+          ],
+          "correctAnswer": "Plate mein teen samose hain.",
+          "translatedSentence": "There are three samosas on the plate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere paas paanch rupaye hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have five rupees.",
+            "I need five rupees.",
+            "This costs five rupees."
+          ],
+          "correctAnswer": "I have five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke ghar mein kitne log hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere ghar mein chaar log hain.",
+            "Mera ghar Lucknow mein hai.",
+            "Main abhi ghar ja raha hoon."
+          ],
+          "correctAnswer": "Mere ghar mein chaar log hain.",
+          "translatedSentence": "There are four people in my house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe ek roti aur chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would like one more roti.",
+            "I do not want any roti.",
+            "I would like one plate of rice."
+          ],
+          "correctAnswer": "I would like one more roti."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke kitne bhai hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere do bhai hain.",
+            "Mera bhai Dilli mein hai.",
+            "Main ghar par akela hoon."
+          ],
+          "correctAnswer": "Mere do bhai hain.",
+          "translatedSentence": "I have two brothers."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yahan das kursiyan hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are ten chairs here.",
+            "There are nine chairs here.",
+            "These ten chairs are new."
+          ],
+          "correctAnswer": "There are ten chairs here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kitne kele chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe chhah kele chahiye.",
+            "Kele bahut meethe hain.",
+            "Mujhe kele bahut pasand hain."
+          ],
+          "correctAnswer": "Mujhe chhah kele chahiye.",
+          "translatedSentence": "I would like six bananas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri class mein aath bachche hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are eight children in my class.",
+            "There are eight teachers in my class.",
+            "My class starts at eight."
+          ],
+          "correctAnswer": "There are eight children in my class."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Counting up to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Is kamre mein kitni kursiyan hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is kamre mein pandrah kursiyan hain.",
+            "Yeh kamra bahut bada hai.",
+            "Is kamre mein koi nahi hai."
+          ],
+          "correctAnswer": "Is kamre mein pandrah kursiyan hain.",
+          "translatedSentence": "There are fifteen chairs in this room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Is gaon mein pachaas ghar hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are fifty houses in this village.",
+            "There are fifteen houses in this village.",
+            "There are fifty shops in this village."
+          ],
+          "correctAnswer": "There are fifty houses in this village."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke bag mein kitni kitaabein hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere bag mein gyarah kitaabein hain.",
+            "Yeh kitaab meri nahi hai.",
+            "Main abhi kitaab padh raha hoon."
+          ],
+          "correctAnswer": "Mere bag mein gyarah kitaabein hain.",
+          "translatedSentence": "There are eleven books in my bag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Metro mein sau se zyada log hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are more than a hundred people in the metro.",
+            "There are fewer than a hundred people in the metro.",
+            "There are a hundred metro stations."
+          ],
+          "correctAnswer": "There are more than a hundred people in the metro."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek dozen mein kitne ande hote hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek dozen mein barah ande hote hain.",
+            "Ek dozen mein das ande hote hain.",
+            "Ande aaj bahut mehnge hain."
+          ],
+          "correctAnswer": "Ek dozen mein barah ande hote hain.",
+          "translatedSentence": "There are twelve eggs in a dozen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe do kilo aloo chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two kilos of potatoes.",
+            "I need two plates of potatoes.",
+            "I do not need any potatoes."
+          ],
+          "correctAnswer": "I need two kilos of potatoes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke office mein kitne log kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere office mein tees log kaam karte hain.",
+            "Main office metro se jaata hoon.",
+            "Mera office Jaipur mein hai."
+          ],
+          "correctAnswer": "Mere office mein tees log kaam karte hain.",
+          "translatedSentence": "Thirty people work in my office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bahar chalees log khade hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Forty people are standing outside.",
+            "Fourteen people are standing outside.",
+            "Forty people are sitting outside."
+          ],
+          "correctAnswer": "Forty people are standing outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kitne samose pack karne hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe solah samose pack karne hain.",
+            "Mujhe samose bilkul pasand nahi hain.",
+            "Samose abhi taiyar nahi hain."
+          ],
+          "correctAnswer": "Mujhe solah samose pack karne hain.",
+          "translatedSentence": "I need to pack sixteen samosas."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much does it cost",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh samosa kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh das rupaye ka hai.",
+            "Yeh abhi bahut garam hai.",
+            "Yeh mere liye nahi hai."
+          ],
+          "correctAnswer": "Yeh das rupaye ka hai.",
+          "translatedSentence": "It is ten rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ek kilo aam kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ek kilo aam sau rupaye ka hai.",
+            "Aam bahut meethe aur achhe hain.",
+            "Mujhe aam bahut pasand hain."
+          ],
+          "correctAnswer": "Ek kilo aam sau rupaye ka hai.",
+          "translatedSentence": "A kilo of mangoes is a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh bahut mehnga hai, thoda kam kijiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is very expensive, please bring the price down a little.",
+            "This is very cheap, please give me a little more.",
+            "This is expensive, but I will still take it."
+          ],
+          "correctAnswer": "This is very expensive, please bring the price down a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto se station tak kitna lagega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Assi rupaye lagenge.",
+            "Station yahan se bahut door hai.",
+            "Main auto se hi jaunga."
+          ],
+          "correctAnswer": "Assi rupaye lagenge.",
+          "translatedSentence": "It will cost eighty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Do plate dal chawal kitne ke hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much are two plates of dal and rice?",
+            "How many plates of dal and rice do you want?",
+            "Two plates of dal and rice are enough."
+          ],
+          "correctAnswer": "How much are two plates of dal and rice?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap sattar rupaye lenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, assi rupaye se kam nahi milega.",
+            "Haan, mujhe ek chai chahiye.",
+            "Nahi, mere paas chhutta nahi hai."
+          ],
+          "correctAnswer": "Nahi, assi rupaye se kam nahi milega.",
+          "translatedSentence": "No, you will not get it for less than eighty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh kitaab pachchees rupaye ki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This book costs twenty-five rupees.",
+            "This book costs thirty-five rupees.",
+            "I bought this book for twenty-five rupees."
+          ],
+          "correctAnswer": "This book costs twenty-five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapke paas chhutta hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mere paas bees rupaye ka chhutta hai.",
+            "Haan, mujhe do samose chahiye.",
+            "Nahi, main dukaan nahi jaunga."
+          ],
+          "correctAnswer": "Haan, mere paas bees rupaye ka chhutta hai.",
+          "translatedSentence": "Yes, I have twenty rupees in change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sab milakar teen sau rupaye hue.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That comes to three hundred rupees in all.",
+            "That comes to two hundred rupees in all.",
+            "Three hundred rupees is far too much."
+          ],
+          "correctAnswer": "That comes to three hundred rupees in all."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age and quantities",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapki umar kitni hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meri umar tees saal hai.",
+            "Main tees saal se Dilli mein hoon.",
+            "Mera janamdin agle mahine hai."
+          ],
+          "correctAnswer": "Meri umar tees saal hai.",
+          "translatedSentence": "I am thirty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka phone number kya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera number nau do teen se shuru hota hai.",
+            "Mera phone abhi kharab hai.",
+            "Mujhe aapka number chahiye."
+          ],
+          "correctAnswer": "Mera number nau do teen se shuru hota hai.",
+          "translatedSentence": "My number starts with nine two three."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meri beti saat saal ki hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My daughter is seven years old.",
+            "My daughter is nine years old.",
+            "I have seven daughters."
+          ],
+          "correctAnswer": "My daughter is seven years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapko kitna doodh chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mujhe aadha litre doodh chahiye.",
+            "Mujhe doodh bilkul pasand nahi hai.",
+            "Doodh abhi thanda hai."
+          ],
+          "correctAnswer": "Mujhe aadha litre doodh chahiye.",
+          "translatedSentence": "I need half a litre of milk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Thoda namak dijiye, zyada nahi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little salt, not too much.",
+            "Please give me plenty of salt.",
+            "There is too much salt in this."
+          ],
+          "correctAnswer": "Please give me a little salt, not too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya main aapka number likh loon?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, likh lijiye: nau nau do, aath paanch.",
+            "Nahi, mera phone naya hai.",
+            "Haan, mujhe aapka naam pata hai."
+          ],
+          "correctAnswer": "Haan, likh lijiye: nau nau do, aath paanch.",
+          "translatedSentence": "Yes, please write it down: nine nine two, eight five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere dada ji ki umar assi saal hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My grandfather is eighty years old.",
+            "My grandfather is ninety years old.",
+            "My grandfather has lived here for eighty years."
+          ],
+          "correctAnswer": "My grandfather is eighty years old."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kitne logon ke liye khaana banaun?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paanch logon ke liye bana lijiye.",
+            "Khaana bahut swaadisht bana hai.",
+            "Mujhe abhi khaana nahi chahiye."
+          ],
+          "correctAnswer": "Paanch logon ke liye bana lijiye.",
+          "translatedSentence": "Please make it for five people."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe sirf thoda paani chahiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only want a little water.",
+            "I want a lot of water.",
+            "I do not want any water."
+          ],
+          "correctAnswer": "I only want a little water."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Abhi kitne baje hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Abhi saade teen baje hain.",
+            "Aaj bahut der ho gayi hai.",
+            "Mujhe abhi ghar jaana hai."
+          ],
+          "correctAnswer": "Abhi saade teen baje hain.",
+          "translatedSentence": "It is half past three right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jaipur wali train kitne baje aayegi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train sawa paanch baje aayegi.",
+            "Train station yahan se paas hai.",
+            "Main train se Jaipur jaunga."
+          ],
+          "correctAnswer": "Train sawa paanch baje aayegi.",
+          "translatedSentence": "The train will come at quarter past five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main subah saat baje uthta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at seven in the morning.",
+            "I get up at nine in the morning.",
+            "I go to sleep at seven in the morning."
+          ],
+          "correctAnswer": "I get up at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh dukaan kitne baje band hoti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh dukaan raat nau baje band hoti hai.",
+            "Yeh dukaan bahut purani hai.",
+            "Is dukaan mein bahut bhid hai."
+          ],
+          "correctAnswer": "Yeh dukaan raat nau baje band hoti hai.",
+          "translatedSentence": "This shop closes at nine at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeting paune do baje shuru hogi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The meeting will start at quarter to two.",
+            "The meeting will start at quarter past two.",
+            "The meeting started at two o'clock."
+          ],
+          "correctAnswer": "The meeting will start at quarter to two."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kitne baje pahunchenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main aadhe ghante mein pahunch jaunga.",
+            "Main auto rickshaw se aata hoon.",
+            "Mujhe aapka ghar pata hai."
+          ],
+          "correctAnswer": "Main aadhe ghante mein pahunch jaunga.",
+          "translatedSentence": "I will get there in half an hour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Metro har paanch minute mein aati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The metro comes every five minutes.",
+            "The metro takes five minutes.",
+            "The metro comes at five o'clock."
+          ],
+          "correctAnswer": "The metro comes every five minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya hum kal do baje mil sakte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, do baje mere liye theek hai.",
+            "Nahi, main do baje so raha hoonga.",
+            "Haan, mera ghar yahan se paas hai."
+          ],
+          "correctAnswer": "Haan, do baje mere liye theek hai.",
+          "translatedSentence": "Yes, two o'clock works for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dopahar ka khaana ek baje taiyar hoga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Lunch will be ready at one o'clock.",
+            "Lunch will be ready at two o'clock.",
+            "Lunch was ready at one o'clock."
+          ],
+          "correctAnswer": "Lunch will be ready at one o'clock."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Agar aap do kilo lenge to main daam thoda kam kar dunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theek hai, phir do kilo hi de dijiye.",
+            "Nahi, mujhe aam bilkul nahi chahiye.",
+            "Haan, dukaan nau baje khulti hai."
+          ],
+          "correctAnswer": "Theek hai, phir do kilo hi de dijiye.",
+          "translatedSentence": "All right, then give me two kilos."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh wala sasta hai lekin woh wala zyada achha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This one is cheaper, but that one is better.",
+            "This one is better, but that one is cheaper.",
+            "Both of these are cheap and good."
+          ],
+          "correctAnswer": "This one is cheaper, but that one is better."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapne bazaar mein kitne rupaye kharch kiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maine kul paanch sau rupaye kharch kiye.",
+            "Mujhe abhi paanch sau rupaye chahiye.",
+            "Bazaar aaj bahut door tha."
+          ],
+          "correctAnswer": "Maine kul paanch sau rupaye kharch kiye.",
+          "translatedSentence": "I spent five hundred rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mere paas utne paise nahi hain, isliye main kal aaunga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not have that much money, so I will come tomorrow.",
+            "I have that much money, so I will come tomorrow.",
+            "I had no money yesterday, so I did not come."
+          ],
+          "correctAnswer": "I do not have that much money, so I will come tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapko aur chawal chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, bas itna hi kaafi hai.",
+            "Haan, chawal abhi bahut garam hai.",
+            "Nahi, mujhe chawal bahut pasand hai."
+          ],
+          "correctAnswer": "Nahi, bas itna hi kaafi hai.",
+          "translatedSentence": "No, this much is enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj kal se zyada log aaye kyunki chhutti thi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "More people came today than yesterday because it was a holiday.",
+            "Fewer people came today than yesterday because it was a holiday.",
+            "More people will come tomorrow because there is a holiday."
+          ],
+          "correctAnswer": "More people came today than yesterday because it was a holiday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bill mein kul kitna hua?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kul milakar chaar sau bees rupaye hue.",
+            "Bill abhi tak aaya nahi hai.",
+            "Khaana bahut achha bana tha."
+          ],
+          "correctAnswer": "Kul milakar chaar sau bees rupaye hue.",
+          "translatedSentence": "It comes to four hundred and twenty rupees in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar samose kam pad jayein to aur mangwa lijiyega.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the samosas run short, please order some more.",
+            "If there are too many samosas, please send some back.",
+            "The samosas have run short, so order more now."
+          ],
+          "correctAnswer": "If the samosas run short, please order some more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maine aapko do sau rupaye diye the, kitne wapas milenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aapko assi rupaye wapas milenge.",
+            "Aapko do sau rupaye aur dene honge.",
+            "Aapko abhi kuch nahi dena hai."
+          ],
+          "correctAnswer": "Aapko assi rupaye wapas milenge.",
+          "translatedSentence": "You will get eighty rupees back."
+        }
+      ]
+    }
+  ]
+}

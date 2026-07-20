@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hesaru enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna hesaru {name}.",
+            "Nanage gottilla.",
+            "Naanu chennagiddene."
+          ],
+          "correctAnswer": "Nanna hesaru {name}.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hesaru Ravi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Ravi.",
+            "His name is Ravi.",
+            "Ravi is my friend."
+          ],
+          "correctAnswer": "My name is Ravi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Ravi, hosa vidyarthi.",
+            "Naanu chennagiddene.",
+            "Idu nanna mane."
+          ],
+          "correctAnswer": "Naanu Ravi, hosa vidyarthi.",
+          "translatedSentence": "I am Ravi, the new student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu nanna snehita Kiran.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my friend Kiran.",
+            "This is my brother Kiran.",
+            "My friend's name is Kiran."
+          ],
+          "correctAnswer": "This is my friend Kiran."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddene, dhanyavaada.",
+            "Nanna hesaru Kiran.",
+            "Avaru nanna guru."
+          ],
+          "correctAnswer": "Naanu chennagiddene, dhanyavaada.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu Mysurinavanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Mysuru.",
+            "I am going to Mysuru.",
+            "Mysuru is a nice town."
+          ],
+          "correctAnswer": "I am from Mysuru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu ellinavaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Bengalurinavanu.",
+            "Naanu manege hoguttene.",
+            "Nanage gottilla."
+          ],
+          "correctAnswer": "Naanu Bengalurinavanu.",
+          "translatedSentence": "I am from Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivaru nanna amma.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my mother.",
+            "This is my elder sister.",
+            "My mother is at home."
+          ],
+          "correctAnswer": "This is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimmannu bhetiyaagi santhosha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanagu santhosha, Kiran.",
+            "Nanage gottilla, kshamisi.",
+            "Naanu eega manege hoguttene."
+          ],
+          "correctAnswer": "Nanagu santhosha, Kiran.",
+          "translatedSentence": "I am happy to meet you too, Kiran."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "This, that, yes and no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu nimma pustaka na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, idu nanna pustaka.",
+            "Illa, nanage gottilla.",
+            "Adu nanna mane."
+          ],
+          "correctAnswer": "Houdu, idu nanna pustaka.",
+          "translatedSentence": "Yes, this is my book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adu tumba dodda mane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is a very big house.",
+            "This is a very big house.",
+            "That house is very old."
+          ],
+          "correctAnswer": "That is a very big house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idu masala dose.",
+            "Naanu dose tinnutteene.",
+            "Avaru nanna snehita."
+          ],
+          "correctAnswer": "Idu masala dose.",
+          "translatedSentence": "This is a masala dosa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Idu filter kaapi, adu chaha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is filter coffee and that is tea.",
+            "This is tea and that is filter coffee.",
+            "I drink filter coffee and tea."
+          ],
+          "correctAnswer": "This is filter coffee and that is tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adu nimma BMTC bus na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, adu nanna bus alla.",
+            "Houdu, adu nanna pustaka.",
+            "Naanu bus nalli hoguttene."
+          ],
+          "correctAnswer": "Illa, adu nanna bus alla.",
+          "translatedSentence": "No, that is not my bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hesaru {name}, idu nanna mane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is {name} and this is my house.",
+            "My name is {name} and that is my house.",
+            "I am {name} and this is my room."
+          ],
+          "correctAnswer": "My name is {name} and this is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idu chennagide alva?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, tumba chennagide.",
+            "Illa, nanage gottilla.",
+            "Adu nanna pustaka alla."
+          ],
+          "correctAnswer": "Houdu, tumba chennagide.",
+          "translatedSentence": "Yes, it is very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Illa, nanage kaapi beda.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "No, I do not want coffee.",
+            "No, I do not want tea.",
+            "Yes, I would like some coffee."
+          ],
+          "correctAnswer": "No, I do not want coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage ragi mudde ishtana?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, nanage tumba ishta.",
+            "Illa, adu nanna mane alla.",
+            "Naanu Bengalurinavanu."
+          ],
+          "correctAnswer": "Houdu, nanage tumba ishta.",
+          "translatedSentence": "Yes, I like it very much."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu belagge enu tinnutteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu belagge idli tinnutteene.",
+            "Naanu belagge kaapi kudiyutteene.",
+            "Naanu belagge manege hoguttene."
+          ],
+          "correctAnswer": "Naanu belagge idli tinnutteene.",
+          "translatedSentence": "In the morning I eat idli."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu dina filter kaapi kudiyutteene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink filter coffee every day.",
+            "I drink filter coffee every morning.",
+            "I make filter coffee every day."
+          ],
+          "correctAnswer": "I drink filter coffee every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu ellige hoguttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Cubbon Park-ge hoguttene.",
+            "Naanu bisi bele bath tinnutteene.",
+            "Nanage gottilla, kshamisi."
+          ],
+          "correctAnswer": "Naanu Cubbon Park-ge hoguttene.",
+          "translatedSentence": "I am going to Cubbon Park."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanu BMTC bus nalli kelasakke hoguttane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He goes to work by BMTC bus.",
+            "He is waiting for the BMTC bus at work.",
+            "She goes to work by BMTC bus."
+          ],
+          "correctAnswer": "He goes to work by BMTC bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu naale nanna manege baruttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu khandita baruttene.",
+            "Illa, nanage dose beda.",
+            "Naanu kaapi kudiyutteene."
+          ],
+          "correctAnswer": "Houdu, naanu khandita baruttene.",
+          "translatedSentence": "Yes, I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma manele adige maaduttare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother cooks at home.",
+            "Mother eats at home.",
+            "Mother is coming home."
+          ],
+          "correctAnswer": "Mother cooks at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu eega enu maaduttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu eega kelasa maaduttene.",
+            "Naanu Mysurinavanu.",
+            "Adu nanna bus alla."
+          ],
+          "correctAnswer": "Naanu eega kelasa maaduttene.",
+          "translatedSentence": "I am working right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naavu sanje Cubbon Park nalli nadeyutteeve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the evening we walk in Cubbon Park.",
+            "In the morning we walk in Cubbon Park.",
+            "In the evening we sit in Cubbon Park."
+          ],
+          "correctAnswer": "In the evening we walk in Cubbon Park."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage bisi bele bath beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, nanage swalpa beku.",
+            "Illa, naanu manege hoguttene.",
+            "Naanu kaapi maaduttene."
+          ],
+          "correctAnswer": "Houdu, nanage swalpa beku.",
+          "translatedSentence": "Yes, I would like a little."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "What, where and who",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma mane elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna mane Jayanagara dalli ide.",
+            "Nanna hesaru Kiran.",
+            "Nanage ee ooru gottilla."
+          ],
+          "correctAnswer": "Nanna mane Jayanagara dalli ide.",
+          "translatedSentence": "My house is in Jayanagara."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus nildaana elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus stop?",
+            "Where is this bus going?",
+            "Is this the bus stop?"
+          ],
+          "correctAnswer": "Where is the bus stop?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Avaru yaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru nanna Kannada maestru.",
+            "Adu nanna pustaka.",
+            "Naanu kelasa maaduttene."
+          ],
+          "correctAnswer": "Avaru nanna Kannada maestru.",
+          "translatedSentence": "He is my Kannada teacher."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee bus Majestic ge hogutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Does this bus go to Majestic?",
+            "Where does this bus go?",
+            "Is this bus coming from Majestic?"
+          ],
+          "correctAnswer": "Does this bus go to Majestic?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Idara bele eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idara bele ippattu rupayi.",
+            "Idu nanna mane alla.",
+            "Nanage idu beda, dhanyavaada."
+          ],
+          "correctAnswer": "Idara bele ippattu rupayi.",
+          "translatedSentence": "This costs twenty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu yaava ooru inda bandiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Which town have you come from?",
+            "Which town are you going to?",
+            "When did you come to this town?"
+          ],
+          "correctAnswer": "Which town have you come from?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu nimma jothe yaaru baruttare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna jothe nanna tangi baruttale.",
+            "Naanu naale Mysurige baruttene.",
+            "Nanna mane illinda tumba doora ide."
+          ],
+          "correctAnswer": "Nanna jothe nanna tangi baruttale.",
+          "translatedSentence": "My younger sister is coming with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu enu kudiyutteera, kaapi athava chaha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What will you drink, coffee or tea?",
+            "What did you drink, coffee or tea?",
+            "Do you want coffee with your tea?"
+          ],
+          "correctAnswer": "What will you drink, coffee or tea?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Hotel elli ide, swalpa heli.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ade rasteyalli, balagade ide.",
+            "Naanu hotel ge hoguttene.",
+            "Hotel nalli dose tumba chennagide."
+          ],
+          "correctAnswer": "Ade rasteyalli, balagade ide.",
+          "translatedSentence": "It is on that same road, on the right."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage Kannada gotta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Swalpa swalpa gottu, aadre jaasti alla.",
+            "Illa, nanage nimma hesaru gottilla.",
+            "Houdu, adu nanna pustaka alla."
+          ],
+          "correctAnswer": "Swalpa swalpa gottu, aadre jaasti alla.",
+          "translatedSentence": "I know a little, but not much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu maamsa tinnolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat meat.",
+            "I do not want meat today.",
+            "He does not eat meat."
+          ],
+          "correctAnswer": "I do not eat meat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu naale office ge baruttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naale naanu barolla.",
+            "Houdu, nanage gottilla.",
+            "Illa, nanage kaapi beda."
+          ],
+          "correctAnswer": "Illa, naale naanu barolla.",
+          "translatedSentence": "No, I will not come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ee ooru sariyaagi gottilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this city well.",
+            "I do not like this city much.",
+            "This city does not know me."
+          ],
+          "correctAnswer": "I do not know this city well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage innu swalpa mudde beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Beda, saaku, dhanyavaada.",
+            "Houdu, nanage ee ooru gottilla.",
+            "Illa, naanu naale barolla."
+          ],
+          "correctAnswer": "Beda, saaku, dhanyavaada.",
+          "translatedSentence": "No, that is enough, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kshamisi, naanu Kannada chennagi maatadolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I do not speak Kannada well.",
+            "Sorry, I do not understand Kannada at all.",
+            "Sorry, I cannot read Kannada well."
+          ],
+          "correctAnswer": "Sorry, I do not speak Kannada well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bus Mysurige hogutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ee bus alli hogolla.",
+            "Houdu, idu nanna bus alla.",
+            "Illa, nanage mudde beda."
+          ],
+          "correctAnswer": "Illa, ee bus alli hogolla.",
+          "translatedSentence": "No, this bus does not go there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ivattu nanage yaava kelasavu illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no work at all today.",
+            "I am not going to work today.",
+            "Today my work is not finished."
+          ],
+          "correctAnswer": "I have no work at all today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage nanna hesaru gotta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, nanage gottilla, matte heli.",
+            "Houdu, nanna hesaru Kiran.",
+            "Illa, adu nanna bus alla."
+          ],
+          "correctAnswer": "Kshamisi, nanage gottilla, matte heli.",
+          "translatedSentence": "Sorry, I do not know it, please tell me again."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninne raatri neevu ellige hogidri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu snehitara jothe hotel ge hogidde.",
+            "Naanu naale Mysurige hoguttene.",
+            "Nanage ee hotel sariyaagi gottilla."
+          ],
+          "correctAnswer": "Naanu snehitara jothe hotel ge hogidde.",
+          "translatedSentence": "I went out to a restaurant with friends."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage kaapi tumba ishta, aadre ivattu naanu kudiyolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like coffee a lot, but I am not drinking any today.",
+            "I like coffee a lot, so I am drinking some today.",
+            "I do not like coffee, but I will drink some today."
+          ],
+          "correctAnswer": "I like coffee a lot, but I am not drinking any today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake ivattu neevu office ge barlilla?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaake andre nanage hushaaru illa.",
+            "Houdu, naanu naale office ge baruttene.",
+            "Illa, nanage innu kaapi beda."
+          ],
+          "correctAnswer": "Yaake andre nanage hushaaru illa.",
+          "translatedSentence": "Because I was not feeling well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ondu vele male bandre, naavu manele iruttheve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains, we will stay at home.",
+            "When it rained, we stayed at home.",
+            "If it rains, we will go home."
+          ],
+          "correctAnswer": "If it rains, we will stay at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale Mysurige hogona va?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaytu, aadre belagge bega horadona.",
+            "Illa, nanage Kannada gottilla.",
+            "Houdu, adu nanna tangi mane."
+          ],
+          "correctAnswer": "Aaytu, aadre belagge bega horadona.",
+          "translatedSentence": "All right, but let us leave early in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu belagge bisi bele bath tindu filter kaapi kudidde.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the morning I ate bisi bele bath and drank filter coffee.",
+            "In the morning I eat bisi bele bath and drink filter coffee.",
+            "In the evening I ate bisi bele bath and drank filter coffee."
+          ],
+          "correctAnswer": "In the morning I ate bisi bele bath and drank filter coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dayavittu swalpa nidhaanavaagi maatadtheera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaytu, naanu nidhaanavaagi maatadtheeni.",
+            "Illa, nanage ee ooru sariyaagi gottilla.",
+            "Houdu, naanu naale barolla."
+          ],
+          "correctAnswer": "Aaytu, naanu nidhaanavaagi maatadtheeni.",
+          "translatedSentence": "All right, I will speak slowly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage Kannada innu chennagi kaliyabeku, yaake andre naanu Bengaluru nalli iruttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need to learn Kannada better, because I live in Bengaluru.",
+            "I want to teach Kannada better, because I live in Bengaluru.",
+            "I learned Kannada well, because I lived in Bengaluru."
+          ],
+          "correctAnswer": "I need to learn Kannada better, because I live in Bengaluru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma jothe maatadi tumba santhosha aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanagu santhosha, matte sigona.",
+            "Illa, nanage innu kelasa ide.",
+            "Houdu, adu nanna bus alla."
+          ],
+          "correctAnswer": "Nanagu santhosha, matte sigona.",
+          "translatedSentence": "I am happy too, let us meet again."
+        }
+      ]
+    }
+  ]
+}

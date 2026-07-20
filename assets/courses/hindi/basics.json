@@ -1,0 +1,721 @@
+{
+  "course": "basics",
+  "title": "Basics",
+  "description": "The handful of sentences everything else is built on.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Saying who you are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, aap kaise hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main theek hoon.",
+            "Main ghar jaata hoon.",
+            "Yeh meri kitaab hai."
+          ],
+          "correctAnswer": "Main theek hoon.",
+          "translatedSentence": "I am fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapka naam kya hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mera naam {name} hai.",
+            "Main Dilli mein hoon.",
+            "Yeh mera ghar hai."
+          ],
+          "correctAnswer": "Mera naam {name} hai.",
+          "translatedSentence": "My name is {name}."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main Dilli se hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am from Delhi.",
+            "I am going to Delhi.",
+            "My house is in Delhi."
+          ],
+          "correctAnswer": "I am from Delhi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh kaun hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh mera dost hai.",
+            "Yeh meri chai hai.",
+            "Main theek hoon."
+          ],
+          "correctAnswer": "Yeh mera dost hai.",
+          "translatedSentence": "This is my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mera naam Rohan hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Rohan.",
+            "His name is Rohan.",
+            "Rohan is my friend."
+          ],
+          "correctAnswer": "My name is Rohan."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap Jaipur se hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, main Jaipur se hoon.",
+            "Nahi, yeh meri kitaab hai.",
+            "Haan, mujhe chai chahiye."
+          ],
+          "correctAnswer": "Haan, main Jaipur se hoon.",
+          "translatedSentence": "Yes, I am from Jaipur."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh meri behan hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my sister.",
+            "This is my mother.",
+            "She is my friend."
+          ],
+          "correctAnswer": "This is my sister."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kahan se hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main Lucknow se hoon.",
+            "Main theek nahi hoon.",
+            "Yeh mera bhai hai."
+          ],
+          "correctAnswer": "Main Lucknow se hoon.",
+          "translatedSentence": "I am from Lucknow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh mera bhai Arjun hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my brother Arjun.",
+            "This is my friend Arjun.",
+            "Arjun is my father."
+          ],
+          "correctAnswer": "This is my brother Arjun."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "This and that",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh aapki chai hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, yeh meri chai hai.",
+            "Nahi, yeh meri kitaab hai.",
+            "Haan, main theek hoon."
+          ],
+          "correctAnswer": "Haan, yeh meri chai hai.",
+          "translatedSentence": "Yes, this is my tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh mera ghar hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my house.",
+            "This is my house.",
+            "That is my room."
+          ],
+          "correctAnswer": "That is my house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya woh aapka bhai hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, woh mera dost hai.",
+            "Haan, woh meri behan hai.",
+            "Nahi, yeh meri chai thi."
+          ],
+          "correctAnswer": "Nahi, woh mera dost hai.",
+          "translatedSentence": "No, he is my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh samosa bahut achha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This samosa is very good.",
+            "That samosa is very good.",
+            "This samosa is very hot."
+          ],
+          "correctAnswer": "This samosa is very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh kya hai, {name}?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh ek naya phone hai.",
+            "Woh mera dost hai.",
+            "Haan, yeh meri kitaab hai."
+          ],
+          "correctAnswer": "Yeh ek naya phone hai.",
+          "translatedSentence": "This is a new phone."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Haan, woh meri kitaab hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yes, that is my book.",
+            "No, that is not my book.",
+            "Yes, that is her book."
+          ],
+          "correctAnswer": "Yes, that is my book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapko chai chahiye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, mujhe chai chahiye.",
+            "Nahi, yeh meri chai nahi hai.",
+            "Haan, woh mera ghar hai."
+          ],
+          "correctAnswer": "Haan, mujhe chai chahiye.",
+          "translatedSentence": "Yes, I would like some tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh meri maa hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That is my mother.",
+            "That is my sister.",
+            "That is my daughter."
+          ],
+          "correctAnswer": "That is my mother."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh Dilli ka metro hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, yeh Dilli ka metro hai.",
+            "Nahi, yeh mera auto rickshaw hai.",
+            "Haan, mujhe roti sabzi chahiye."
+          ],
+          "correctAnswer": "Haan, yeh Dilli ka metro hai.",
+          "translatedSentence": "Yes, this is the Delhi metro."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Everyday verbs now",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap abhi kya kar rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main chai pee raha hoon.",
+            "Main Dilli se hoon.",
+            "Yeh meri nayi kitaab hai."
+          ],
+          "correctAnswer": "Main chai pee raha hoon.",
+          "translatedSentence": "I am drinking tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main roz subah chai peeta hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea every morning.",
+            "I make tea every morning.",
+            "I drink tea every evening."
+          ],
+          "correctAnswer": "I drink tea every morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kahan ja rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main bazaar ja raha hoon.",
+            "Main khaana kha raha hoon.",
+            "Main abhi ghar par hoon."
+          ],
+          "correctAnswer": "Main bazaar ja raha hoon.",
+          "translatedSentence": "I am going to the market."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hum raat mein dal chawal khaate hain.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We eat dal and rice at night.",
+            "We eat roti and vegetables at night.",
+            "We cook dal and rice at night."
+          ],
+          "correctAnswer": "We eat dal and rice at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tum kab aa rahe ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main abhi aa raha hoon.",
+            "Main roz chai peeta hoon.",
+            "Woh bazaar ja raha hai."
+          ],
+          "correctAnswer": "Main abhi aa raha hoon.",
+          "translatedSentence": "I am coming right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh roz metro se office jaata hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He goes to the office by metro every day.",
+            "He goes to the office by auto rickshaw every day.",
+            "He comes to the office by metro every day."
+          ],
+          "correctAnswer": "He goes to the office by metro every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap subah kya khaate hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main subah roti sabzi khaata hoon.",
+            "Main subah bazaar jaata hoon.",
+            "Main raat mein paani peeta hoon."
+          ],
+          "correctAnswer": "Main subah roti sabzi khaata hoon.",
+          "translatedSentence": "In the morning I eat roti and vegetables."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main thoda paani pee raha hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am drinking a little water.",
+            "I am drinking a lot of water.",
+            "I would like a little water."
+          ],
+          "correctAnswer": "I am drinking a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kaam kahan karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main ek school mein kaam karta hoon.",
+            "Main auto rickshaw se aata hoon.",
+            "Main roz samosa khaata hoon."
+          ],
+          "correctAnswer": "Main ek school mein kaam karta hoon.",
+          "translatedSentence": "I work at a school."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Asking simple questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maaf kijiye, metro station kahan hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Metro station yahan se paas hai.",
+            "Main roz metro se jaata hoon.",
+            "Yeh mera station nahi hai."
+          ],
+          "correctAnswer": "Metro station yahan se paas hai.",
+          "translatedSentence": "The metro station is near here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap kis sheher mein rehte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Which city do you live in?",
+            "Which city are you from?",
+            "Where is your house in this city?"
+          ],
+          "correctAnswer": "Which city do you live in?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yeh samosa kitne ka hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yeh bees rupaye ka hai.",
+            "Yeh mera samosa hai.",
+            "Haan, mujhe yeh chahiye."
+          ],
+          "correctAnswer": "Yeh bees rupaye ka hai.",
+          "translatedSentence": "It costs twenty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh aadmi kaun hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Who is that man?",
+            "Who is this man?",
+            "Where is that man?"
+          ],
+          "correctAnswer": "Who is that man?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto rickshaw kahan milega?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Woh gate ke baahar milega.",
+            "Woh mera auto rickshaw hai.",
+            "Main auto se ghar jaata hoon."
+          ],
+          "correctAnswer": "Woh gate ke baahar milega.",
+          "translatedSentence": "You will find one outside the gate."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aap kya kaam karte hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What work do you do?",
+            "Where do you work?",
+            "Who do you work with?"
+          ],
+          "correctAnswer": "What work do you do?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aapke saath kaun hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mere saath meri behan hai.",
+            "Mera ghar Lucknow mein hai.",
+            "Main aaj bazaar ja raha hoon."
+          ],
+          "correctAnswer": "Mere saath meri behan hai.",
+          "translatedSentence": "My sister is with me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yahan achhi chai kahan milti hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where do you get good tea around here?",
+            "Where do they make tea in this city?",
+            "When do they sell good tea here?"
+          ],
+          "correctAnswer": "Where do you get good tea around here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kitne baje aayenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main paanch baje aaunga.",
+            "Main paanch rupaye doonga.",
+            "Main abhi ghar par baitha hoon."
+          ],
+          "correctAnswer": "Main paanch baje aaunga.",
+          "translatedSentence": "I will come at five o'clock."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Saying no",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aapko Jaipur ka raasta pata hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, mujhe pata nahi hai.",
+            "Haan, mujhe chai chahiye.",
+            "Nahi, main Jaipur se hoon."
+          ],
+          "correctAnswer": "Nahi, mujhe pata nahi hai.",
+          "translatedSentence": "No, I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main abhi khaana nahi kha raha hoon.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not eating right now.",
+            "I do not want to eat right now.",
+            "I am not cooking right now."
+          ],
+          "correctAnswer": "I am not eating right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya tum mere saath bazaar chaloge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, main aaj nahi jaaunga.",
+            "Haan, mujhe raasta pata nahi hai.",
+            "Nahi, yeh bazaar bahut achha hai."
+          ],
+          "correctAnswer": "Nahi, main aaj nahi jaaunga.",
+          "translatedSentence": "No, I will not go today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe Hindi thodi thodi aati hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I know a little Hindi.",
+            "I do not know any Hindi.",
+            "I am learning Hindi slowly."
+          ],
+          "correctAnswer": "I know a little Hindi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya yeh auto rickshaw khaali hai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, yeh khaali nahi hai.",
+            "Haan, mujhe auto nahi chahiye.",
+            "Nahi, main metro se jaata hoon."
+          ],
+          "correctAnswer": "Nahi, yeh khaali nahi hai.",
+          "translatedSentence": "No, it is not free."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe iska matlab nahi pata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know what this means.",
+            "I do not want to say this.",
+            "I did not hear this word."
+          ],
+          "correctAnswer": "I do not know what this means."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap chai peete hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahi, main sirf paani peeta hoon.",
+            "Haan, main chai nahi peeta hoon.",
+            "Nahi, mujhe samosa chahiye."
+          ],
+          "correctAnswer": "Nahi, main sirf paani peeta hoon.",
+          "translatedSentence": "No, I only drink water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yeh meri kitaab nahi hai, woh meri hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is not my book, that one is mine.",
+            "This is my book, that one is not.",
+            "That is not my book, this one is mine."
+          ],
+          "correctAnswer": "This is not my book, that one is mine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap kal kyun nahi aaye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maaf kijiye, main bimaar tha.",
+            "Haan, main kal zaroor aaunga.",
+            "Nahi, mujhe kal ka kaam pata hai."
+          ],
+          "correctAnswer": "Maaf kijiye, main bimaar tha.",
+          "translatedSentence": "Sorry, I was unwell."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Putting it together",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap kal Jaipur ja rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haan, agar kaam khatm ho gaya to main jaaunga.",
+            "Nahi, mujhe abhi chai nahi chahiye.",
+            "Haan, main roz metro se office jaata hoon."
+          ],
+          "correctAnswer": "Haan, agar kaam khatm ho gaya to main jaaunga.",
+          "translatedSentence": "Yes, if my work is finished I will go."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Main aaj nahi aa sakta kyunki mujhe kaam hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot come today because I have work.",
+            "I will not come today because I am tired.",
+            "I cannot come today, but I will call you."
+          ],
+          "correctAnswer": "I cannot come today because I have work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kya aap mere saath chai peene chalenge?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Zaroor, lekin mujhe pehle ghar jaana hai.",
+            "Maaf kijiye, main chai nahi banata hoon.",
+            "Haan, woh chai bahut achhi thi."
+          ],
+          "correctAnswer": "Zaroor, lekin mujhe pehle ghar jaana hai.",
+          "translatedSentence": "Sure, but I have to go home first."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Agar aapko raasta nahi pata to mujhe bataiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not know the way, tell me.",
+            "If you know the way, please tell me.",
+            "I do not know the way, so please tell me."
+          ],
+          "correctAnswer": "If you do not know the way, tell me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kal shaam aapne kya kiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main apne dost ke saath bazaar gaya tha.",
+            "Main kal shaam bazaar jaaunga.",
+            "Main roz shaam ko chai peeta hoon."
+          ],
+          "correctAnswer": "Main apne dost ke saath bazaar gaya tha.",
+          "translatedSentence": "I went to the market with my friend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mujhe samosa pasand hai lekin main roz nahi khaata.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like samosas, but I do not eat them every day.",
+            "I like samosas, and I eat them every day.",
+            "I do not like samosas, so I never eat them."
+          ],
+          "correctAnswer": "I like samosas, but I do not eat them every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aap Hindi kahan seekh rahe hain?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Main ek app par roz thodi Hindi seekhta hoon.",
+            "Main Hindi bilkul nahi bolta hoon.",
+            "Mujhe is shabd ka matlab nahi pata."
+          ],
+          "correctAnswer": "Main ek app par roz thodi Hindi seekhta hoon.",
+          "translatedSentence": "I learn a little Hindi on an app every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Woh Lucknow mein rehti hai lekin uska parivaar Dilli mein hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She lives in Lucknow, but her family is in Delhi.",
+            "She lives in Delhi, but her family is in Lucknow.",
+            "She works in Lucknow and her family visits Delhi."
+          ],
+          "correctAnswer": "She lives in Lucknow, but her family is in Delhi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bahut dhanyavaad, aapne meri madad ki.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Koi baat nahi, mujhe achha laga.",
+            "Haan, mujhe aapki madad chahiye.",
+            "Nahi, main aapki madad nahi kar sakta."
+          ],
+          "correctAnswer": "Koi baat nahi, mujhe achha laga.",
+          "translatedSentence": "Not at all, I was glad to help."
+        }
+      ]
+    }
+  ]
+}

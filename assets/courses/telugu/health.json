@@ -1,0 +1,719 @@
+{
+  "course": "health",
+  "title": "Health",
+  "description": "Say what is wrong and understand the advice.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "I am not well",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku emiti ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku baagoledu.",
+            "Nenu intiki veltunnanu.",
+            "Naaku Telugu telusu."
+          ],
+          "correctAnswer": "Naaku baagoledu.",
+          "translatedSentence": "I am not well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku tala noppi undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a headache.",
+            "I have a stomach ache.",
+            "I have a fever."
+          ],
+          "correctAnswer": "I have a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ekkada noppi undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku kadupu noppi undi.",
+            "Naaku daaktaru kaavali.",
+            "Nenu baagunnanu."
+          ],
+          "correctAnswer": "Naaku kadupu noppi undi.",
+          "translatedSentence": "I have a stomach ache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku konchem jwaram undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a slight fever.",
+            "I have a bad cough.",
+            "I feel a little cold."
+          ],
+          "correctAnswer": "I have a slight fever."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu baagunnaavaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, naaku jwaram undi.",
+            "Avunu, naaku mandu kaavali.",
+            "Ledu, naaku daari telidu."
+          ],
+          "correctAnswer": "Ledu, naaku jwaram undi.",
+          "translatedSentence": "No, I have a fever."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee roju naaku baagoledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not well today.",
+            "I am fine today.",
+            "I am very busy today."
+          ],
+          "correctAnswer": "I am not well today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru daaktaru daggaraki veltaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, ippude veltunnanu.",
+            "Ledu, naaku aakali ledu.",
+            "Avunu, naaku biryani kaavali."
+          ],
+          "correctAnswer": "Avunu, ippude veltunnanu.",
+          "translatedSentence": "Yes, I am going right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku konchem vishranthi kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little rest.",
+            "I need a little water.",
+            "I need a little medicine."
+          ],
+          "correctAnswer": "I need a little rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku neellu kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem neellu ivvandi.",
+            "Ledu, naaku tala noppi undi.",
+            "Avunu, naa daggara mandu undi."
+          ],
+          "correctAnswer": "Avunu, konchem neellu ivvandi.",
+          "translatedSentence": "Yes, please give me a little water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Parts of the body",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa kallu erraga unnaayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My eyes are red.",
+            "My eyes are tired.",
+            "My face is red."
+          ],
+          "correctAnswer": "My eyes are red."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee chethiki emiti ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa cheyyi noppi pedutondi.",
+            "Naa tala ippudu baagundi.",
+            "Naaku irani chai kaavali."
+          ],
+          "correctAnswer": "Naa cheyyi noppi pedutondi.",
+          "translatedSentence": "My hand is hurting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa gontu noppi ekkuvaga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My throat hurts a lot.",
+            "My throat is a little dry.",
+            "My tooth hurts a lot."
+          ],
+          "correctAnswer": "My throat hurts a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee kaallu noppi pedutunnaayaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, rendu kaallu noppi pedutunnaayi.",
+            "Ledu, naa chevi noppi pedutondi.",
+            "Ledu, naaku jwaram maatrame undi."
+          ],
+          "correctAnswer": "Avunu, rendu kaallu noppi pedutunnaayi.",
+          "translatedSentence": "Yes, both my legs are hurting."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee roju naa muku moosukupoyindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My nose is blocked today.",
+            "My ear is blocked today.",
+            "My nose is running today."
+          ],
+          "correctAnswer": "My nose is blocked today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee nadumu noppi eppati nunchi undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muudu rojula nunchi undi.",
+            "Ee mandu chaala manchidi.",
+            "Naa pallu noppi pedutunnaayi."
+          ],
+          "correctAnswer": "Muudu rojula nunchi undi.",
+          "translatedSentence": "I have had it for three days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa pallu noppi pedutondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My tooth is hurting.",
+            "My jaw is swollen.",
+            "My tooth is broken."
+          ],
+          "correctAnswer": "My tooth is hurting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku kallu tirugutunnaayaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, konchem kallu tirugutunnaayi.",
+            "Ledu, naaku aakali ekkuvaga undi.",
+            "Avunu, naa chevi moosukupoyindi."
+          ],
+          "correctAnswer": "Avunu, konchem kallu tirugutunnaayi.",
+          "translatedSentence": "Yes, I feel a little dizzy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa mokaalu vaachipoyindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My knee is swollen.",
+            "My ankle is swollen.",
+            "My knee is bleeding."
+          ],
+          "correctAnswer": "My knee is swollen."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At The Doctor",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cheppandi, meeku emiti ibbandiga undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rendu rojula nunchi naaku jwaram undi.",
+            "Naaku ee ooru chaala nachchindi.",
+            "Nenu Vijayawada nunchi vachchanu."
+          ],
+          "correctAnswer": "Rendu rojula nunchi naaku jwaram undi.",
+          "translatedSentence": "I have had a fever for two days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Raatri nunchi naaku jwaram taggaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My fever has not come down since last night.",
+            "My fever came down last night.",
+            "I have had a fever since this morning."
+          ],
+          "correctAnswer": "My fever has not come down since last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku eppudu ekkuvaga daggu vastondi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raatri padukunnappudu ekkuvaga vastondi.",
+            "Naaku daggu maatralu kaavali.",
+            "Nenu roju udayam nadustaanu."
+          ],
+          "correctAnswer": "Raatri padukunnappudu ekkuvaga vastondi.",
+          "translatedSentence": "It gets worse at night when I lie down."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru rendu rojulu vishranthi teesukovaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You must take two days of rest.",
+            "You can rest for two hours.",
+            "You should come back in two days."
+          ],
+          "correctAnswer": "You must take two days of rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee noppi eppati nunchi undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaaram rojula nunchi undi.",
+            "Ee mandu vaaram rojulu vaadandi.",
+            "Naaku ippudu noppi ledu."
+          ],
+          "correctAnswer": "Vaaram rojula nunchi undi.",
+          "translatedSentence": "I have had it for a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeku edaina mandu allergy undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you allergic to any medicine?",
+            "Are you taking any medicine?",
+            "Do you need any medicine?"
+          ],
+          "correctAnswer": "Are you allergic to any medicine?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ippudu edaina mandu vaadutunnaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, nenu ippudu emi vaadatledu.",
+            "Avunu, naaku jwaram taggindi.",
+            "Ledu, aspatri Charminar daggara undi."
+          ],
+          "correctAnswer": "Ledu, nenu ippudu emi vaadatledu.",
+          "translatedSentence": "No, I am not taking anything right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mundu oka blood test cheyinchukondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "First, get a blood test done.",
+            "First, take this medicine.",
+            "First, go home and rest."
+          ],
+          "correctAnswer": "First, get a blood test done."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu malli eppudu raavaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Muudu rojula taruvaata malli randi.",
+            "Ee mandu roju raatri teesukondi.",
+            "Aspatriki auto lo vellandi."
+          ],
+          "correctAnswer": "Muudu rojula taruvaata malli randi.",
+          "translatedSentence": "Come again after three days."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "At the pharmacy",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku emi mandu kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku jwaram maatralu kaavali.",
+            "Naaku oka auto kaavali.",
+            "Naaku ee mandu telusu."
+          ],
+          "correctAnswer": "Naaku jwaram maatralu kaavali.",
+          "translatedSentence": "I need fever tablets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee maatra rojuki rendusarlu vaadandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take this tablet twice a day.",
+            "Take this tablet twice a week.",
+            "Take two tablets every day."
+          ],
+          "correctAnswer": "Take this tablet twice a day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee mandu bhojanam mundu teesukovaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, bhojanam taruvaata teesukondi.",
+            "Avunu, roju udayam maatrame vaadandi.",
+            "Ledu, ee mandu maa daggara ledu."
+          ],
+          "correctAnswer": "Ledu, bhojanam taruvaata teesukondi.",
+          "translatedSentence": "No, take it after food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daaktaru raasina cheeti naaku chupinchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me the prescription the doctor wrote.",
+            "Please show me the medicine the doctor gave.",
+            "Please tell me what the doctor said."
+          ],
+          "correctAnswer": "Please show me the prescription the doctor wrote."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee syrup entha teesukovaali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Roju raatri oka chinna spoon teesukondi.",
+            "Ee syrup pillalaki panikiraadu.",
+            "Ee syrup chaala khareedu."
+          ],
+          "correctAnswer": "Roju raatri oka chinna spoon teesukondi.",
+          "translatedSentence": "Take one small spoon every night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee maatra tho paatu ekkuva neellu taagandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Drink plenty of water along with this tablet.",
+            "Drink this medicine with a little water.",
+            "Take this tablet only after drinking water."
+          ],
+          "correctAnswer": "Drink plenty of water along with this tablet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee manduki entha ayyindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Anni kalipi rendu vandalu ayyindi.",
+            "Ee mandu chaala baaga panichesindi.",
+            "Naaku bill ippudu kaavali ledu."
+          ],
+          "correctAnswer": "Anni kalipi rendu vandalu ayyindi.",
+          "translatedSentence": "It comes to two hundred in total."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maatralu roju vaadandi, madhyalo aapakandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take the tablets every day, do not stop in between.",
+            "Take the tablets every day, but only at night.",
+            "Take the tablets for a few days and then stop."
+          ],
+          "correctAnswer": "Take the tablets every day, do not stop in between."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku inkemaina kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, oka daggu syrup kuda ivvandi.",
+            "Ledu, naaku ee ooru baaga telusu.",
+            "Avunu, naaku tala noppi taggindi."
+          ],
+          "correctAnswer": "Avunu, oka daggu syrup kuda ivvandi.",
+          "translatedSentence": "Yes, please give me a cough syrup as well."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Fever, cold and injury",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninna raatri nunchi naaku jwaram, jalubu rendu unnaayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since last night I have had both a fever and a cold.",
+            "Since last night I have had a fever but no cold.",
+            "Since this morning I have had a cold and a cough."
+          ],
+          "correctAnswer": "Since last night I have had both a fever and a cold."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee jwaram entha undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nooru degrees kanna ekkuva undi.",
+            "Naa gontu naalugu rojula nunchi noppi pedutondi.",
+            "Naaku jwaram eppudu raadu."
+          ],
+          "correctAnswer": "Nooru degrees kanna ekkuva undi.",
+          "translatedSentence": "It is more than a hundred degrees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Daggu ekkuvaga unte gorvechchani neellu taagandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the cough is bad, drink lukewarm water.",
+            "If the cough is bad, drink cold water.",
+            "If the fever is high, drink lukewarm water."
+          ],
+          "correctAnswer": "If the cough is bad, drink lukewarm water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee kaaluki debba ela tagilindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bike meeda nunchi padipoyi debba tagilindi.",
+            "Nenu roju udayam chaala dooram nadustaanu.",
+            "Naaku kaallu noppi maatrame undi."
+          ],
+          "correctAnswer": "Bike meeda nunchi padipoyi debba tagilindi.",
+          "translatedSentence": "I fell off the bike and got hurt."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gaayam meeda ee mandu raayandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apply this ointment on the wound.",
+            "Wash the wound with this water.",
+            "Put a bandage on the wound."
+          ],
+          "correctAnswer": "Apply this ointment on the wound."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jalubu tho muku moosukupoyindaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, sariggaa gaali aadatledu.",
+            "Ledu, naa chevulu noppi pedutunnaayi.",
+            "Avunu, naaku jwaram poortiga taggindi."
+          ],
+          "correctAnswer": "Avunu, sariggaa gaali aadatledu.",
+          "translatedSentence": "Yes, I cannot breathe properly."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jwaram ekkuvaithe nudutipai chalani gudda pettandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever is high, put a cold cloth on the forehead.",
+            "If the fever is high, take a hot water bath.",
+            "If the fever comes down, put a cold cloth on the forehead."
+          ],
+          "correctAnswer": "If the fever is high, put a cold cloth on the forehead."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Debba tagilina chota inka noppi undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, muttukunte inka noppi pedutondi.",
+            "Ledu, naaku ee mandu peru telusu.",
+            "Avunu, naaku jalubu kuda undi."
+          ],
+          "correctAnswer": "Avunu, muttukunte inka noppi pedutondi.",
+          "translatedSentence": "Yes, it still hurts when I touch it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Rendu rojulu ayina jwaram taggakapote aspatriki vellandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the fever does not come down even after two days, go to the hospital.",
+            "If the fever comes down within two days, go to the hospital.",
+            "Go to the hospital after taking this medicine for two days."
+          ],
+          "correctAnswer": "If the fever does not come down even after two days, go to the hospital."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rest and getting better",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippudu meeku ela anipistondi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ninnati kanna ivaala chaala nayamga undi.",
+            "Naaku ee ooru nachchindi kaani chali ekkuva.",
+            "Nenu daaktaru daggaraki vellaledu ani cheppanu."
+          ],
+          "correctAnswer": "Ninnati kanna ivaala chaala nayamga undi.",
+          "translatedSentence": "I feel much better today than yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jwaram taggindi kaani balaheenanga undi, anduke rendu rojulu vishranthi teesukuntunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The fever has gone but I feel weak, so I am taking two days of rest.",
+            "The fever has not gone and I feel weak, so I am going to the doctor.",
+            "The fever has gone and I feel strong, so I am going back to work."
+          ],
+          "correctAnswer": "The fever has gone but I feel weak, so I am taking two days of rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru repu office ki veltaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ledu, daaktaru cheppinattu inko roju intlone untanu.",
+            "Avunu, naaku ee mandu roju raatri kaavali.",
+            "Ledu, naaku Hyderabad lo daari telidu."
+          ],
+          "correctAnswer": "Ledu, daaktaru cheppinattu inko roju intlone untanu.",
+          "translatedSentence": "No, as the doctor said, I will stay at home one more day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mandu poorthi ayye varaku aapakandi, lekapothe malli jwaram vastundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not stop until the course of medicine is finished, otherwise the fever will come back.",
+            "Stop the medicine as soon as the fever goes, otherwise you will feel weak.",
+            "Do not stop the medicine, because the doctor will ask you about it."
+          ],
+          "correctAnswer": "Do not stop until the course of medicine is finished, otherwise the fever will come back."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee vaaram nenu biryani tinocchaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ippudu vaddu, konni rojulu telikaina bhojanam tinandi.",
+            "Avunu, mandu tho paatu biryani tinandi.",
+            "Ledu, naaku pesarattu ante chaala ishtam."
+          ],
+          "correctAnswer": "Ippudu vaddu, konni rojulu telikaina bhojanam tinandi.",
+          "translatedSentence": "Not now, eat light food for a few days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Roju udayam konchem sepu nadisthe, twaragaa balam vastundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you walk for a little while every morning, your strength will come back quickly.",
+            "If you walk a lot every morning, you will get tired quickly.",
+            "If you rest every morning, your strength will come back quickly."
+          ],
+          "correctAnswer": "If you walk for a little while every morning, your strength will come back quickly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku irani chai taagaalani undi, taagavacchaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Taagandi kaani chakkera takkuva vesukondi.",
+            "Vaddu, meeru ippude aspatriki vellandi.",
+            "Avunu, naaku kuda chai ante chaala ishtam."
+          ],
+          "correctAnswer": "Taagandi kaani chakkera takkuva vesukondi.",
+          "translatedSentence": "You may, but use less sugar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Noppi malli modalaithe, nannu ventane pilavandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the pain starts again, call me immediately.",
+            "If the pain gets less, call me tomorrow.",
+            "If the pain starts again, take one more tablet."
+          ],
+          "correctAnswer": "If the pain starts again, call me immediately."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chaala thanks daaktaru garu, ippudu naaku baaga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Santosham, jagrattaga chusukondi.",
+            "Ledu, meeku inka jwaram undi.",
+            "Naaku Vijayawada nunchi mandu teppinchandi."
+          ],
+          "correctAnswer": "Santosham, jagrattaga chusukondi.",
+          "translatedSentence": "Glad to hear it, take care of yourself."
+        }
+      ]
+    }
+  ]
+}

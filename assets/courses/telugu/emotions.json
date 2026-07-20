@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu chaala santhoshanga unnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu kooda santhoshanga unnanu.",
+            "Naaku baadha ga undi.",
+            "Nenu intiki veltunnanu."
+          ],
+          "correctAnswer": "Nenu kooda santhoshanga unnanu.",
+          "translatedSentence": "I am happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee roju chaala santhosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very sad today.",
+            "I was very happy yesterday."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enduku santhoshanga unnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa snehitudu vachaadu.",
+            "Naaku nidra vastundi.",
+            "Nenu ninna Vijayawada vellanu."
+          ],
+          "correctAnswer": "Naa snehitudu vachaadu.",
+          "translatedSentence": "My friend has come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aame chaala santhoshanga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is very happy.",
+            "She is very sad.",
+            "She is not here."
+          ],
+          "correctAnswer": "She is very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ee roju baadha ga unnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enduku? Emaindi?",
+            "Chaala santhosham, thank you!",
+            "Sare, nenu chai tagutanu."
+          ],
+          "correctAnswer": "Enduku? Emaindi?",
+          "translatedSentence": "Why? What happened?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaadu ippudu baadha ga unnadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is sad right now.",
+            "He is happy right now.",
+            "He was sad yesterday."
+          ],
+          "correctAnswer": "He is sad right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nee mukham chaala santhoshanga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku manchi varta vachindi.",
+            "Ledu, naa mukham baaledu.",
+            "Avunu, naaku chaala baadha ga undi."
+          ],
+          "correctAnswer": "Avunu, naaku manchi varta vachindi.",
+          "translatedSentence": "Yes, I got some good news."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ippudu baadha ga ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not sad now.",
+            "I am not happy now.",
+            "I am very sad now."
+          ],
+          "correctAnswer": "I am not sad now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu exam lo paas ayyanu!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaala santhosham, abhinandanalu!",
+            "Ayyo, chaala baadha ga undi.",
+            "Naaku aa exam gurinchi telidu."
+          ],
+          "correctAnswer": "Chaala santhosham, abhinandanalu!",
+          "translatedSentence": "I am so happy, congratulations!"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired and angry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ee roju chaala alasipoyanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konchem sepu padukondi.",
+            "Ippude bayataki vellandi.",
+            "Meeru chaala santhoshanga unnaru."
+          ],
+          "correctAnswer": "Konchem sepu padukondi.",
+          "translatedSentence": "Lie down and rest for a little while."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ninna chaala kopam vachindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got very angry yesterday.",
+            "I got very scared yesterday.",
+            "I was very tired yesterday."
+          ],
+          "correctAnswer": "I got very angry yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enduku antha kopanga unnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Evaru naa maata vinaledu.",
+            "Naaku ee biryani chaala nachindi.",
+            "Nenu ee roju baagunnanu."
+          ],
+          "correctAnswer": "Evaru naa maata vinaledu.",
+          "translatedSentence": "Nobody listened to what I said."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku cheekati ante bhayam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am afraid of the dark.",
+            "I am afraid of dogs.",
+            "I do not go out in the dark."
+          ],
+          "correctAnswer": "I am afraid of the dark."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku ee cinema chaala boru kottindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku kooda boru kottindi.",
+            "Nenu aa cinema ki vellaledu.",
+            "Naaku chaala bhayam ga undi."
+          ],
+          "correctAnswer": "Naaku kooda boru kottindi.",
+          "translatedSentence": "I found it boring too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aame ee roju chaala alasipoyindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is very tired today.",
+            "She is very angry today.",
+            "She is very busy today."
+          ],
+          "correctAnswer": "She is very tired today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ratri naaku sarigga nidra pattaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Anduke meeru alasipoyaru.",
+            "Anduke meeru santhoshanga unnaru.",
+            "Meeku bhayam enduku?"
+          ],
+          "correctAnswer": "Anduke meeru alasipoyaru.",
+          "translatedSentence": "That is why you are tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ippudu kopam ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not angry now.",
+            "I am not scared now.",
+            "I am still angry now."
+          ],
+          "correctAnswer": "I am not angry now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee traffic lo naaku chaala chiraaku ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, Hyderabad traffic chaala ekkuva.",
+            "Avunu, ee irani chai chaala baagundi.",
+            "Meeru auto lo velladhu."
+          ],
+          "correctAnswer": "Avunu, Hyderabad traffic chaala ekkuva.",
+          "translatedSentence": "Yes, the traffic in Hyderabad is very heavy."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How are you feeling",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu baagunnanu, meeru ela unnaru?",
+            "Nenu Vijayawada nunchi vachanu.",
+            "Naaku okka pesarattu kaavali."
+          ],
+          "correctAnswer": "Nenu baagunnanu, meeru ela unnaru?",
+          "translatedSentence": "I am fine, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu ippudu ela unnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you doing now?",
+            "Where are you now?",
+            "What are you doing now?"
+          ],
+          "correctAnswer": "How are you doing now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Emaindi? Nee mukham baaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku thala noppi ga undi.",
+            "Naaku chaala santhosham ga undi.",
+            "Nenu ippude office nunchi vachanu."
+          ],
+          "correctAnswer": "Naaku thala noppi ga undi.",
+          "translatedSentence": "I have a headache."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee amma garu ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your mother?",
+            "Where is your mother?",
+            "Who is that lady?"
+          ],
+          "correctAnswer": "How is your mother?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ninnati nunchi baaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayyo, doctor daggaraki vellandi.",
+            "Ayyo, meeru chaala santhoshanga unnaru.",
+            "Sare, memu cinema ki veltunnam."
+          ],
+          "correctAnswer": "Ayyo, doctor daggaraki vellandi.",
+          "translatedSentence": "Oh no, please go and see a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeku ippudu konchem nayam ga unda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you feeling a little better now?",
+            "Are you feeling very tired now?",
+            "Do you want a little water now?"
+          ],
+          "correctAnswer": "Are you feeling a little better now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu enduku emi maatladatam ledu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku ippudu maatladaalani ledu.",
+            "Naaku chaala akali ga undi.",
+            "Nenu ninnu ninna adigaanu."
+          ],
+          "correctAnswer": "Naaku ippudu maatladaalani ledu.",
+          "translatedSentence": "I do not feel like talking right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaadiki emaindo naaku telidu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know what happened to him.",
+            "I do not know where he went.",
+            "I know very well what happened to him."
+          ],
+          "correctAnswer": "I do not know what happened to him."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru edo aalochanalo unnattu unnaru. Emaindi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naa pani sarigga avatam ledu.",
+            "Naaku gongura pachadi chaala nachindi.",
+            "Nenu ninna Charminar chusanu."
+          ],
+          "correctAnswer": "Naa pani sarigga avatam ledu.",
+          "translatedSentence": "My work is not going well."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting a friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku chaala bhayam ga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhayapadakandi, nenu meeto unnanu.",
+            "Sare, meeru okkare vellandi.",
+            "Naaku kooda chaala kopam ga undi."
+          ],
+          "correctAnswer": "Bhayapadakandi, nenu meeto unnanu.",
+          "translatedSentence": "Do not be afraid, I am with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhayapadaku, anni sarigga avutayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be afraid, everything will turn out fine.",
+            "Do not be sad, I am coming right now.",
+            "Do not go there, nothing is ready yet."
+          ],
+          "correctAnswer": "Do not be afraid, everything will turn out fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ee exam lo fail ayyanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvaledu, vachhe sari baaga chestavu.",
+            "Chaala santhosham, party ekkada?",
+            "Avunu, naaku kooda exam undi."
+          ],
+          "correctAnswer": "Parvaledu, vachhe sari baaga chestavu.",
+          "translatedSentence": "It is okay, you will do well next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu eppudoo nee pakkane untanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will always be there beside you.",
+            "I will always tell you the truth.",
+            "I will come to your house tomorrow."
+          ],
+          "correctAnswer": "I will always be there beside you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku em cheyaalo artham kaavatam ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Konchem sepu aalochinchandi, tondara vaddu.",
+            "Sare, nenu ippude intiki veltunnanu.",
+            "Naaku aa vishayam gurinchi telidu."
+          ],
+          "correctAnswer": "Konchem sepu aalochinchandi, tondara vaddu.",
+          "translatedSentence": "Think it over for a while, there is no hurry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu chaala baaga chesavu, naaku chaala santhoshanga undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You did really well, and I am very happy about it.",
+            "You worked really hard, but now you are tired.",
+            "You did it the wrong way, and I am very upset."
+          ],
+          "correctAnswer": "You did really well, and I am very happy about it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku okkadine unnattu anipistundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeru okkaru kaaru, memu andaram unnam.",
+            "Meeru ippude intiki velli padukondi.",
+            "Naaku kooda ee pani boru kottindi."
+          ],
+          "correctAnswer": "Meeru okkaru kaaru, memu andaram unnam.",
+          "translatedSentence": "You are not alone, all of us are here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Edavaku, nenu neeku sahayam chestanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not cry, I will help you.",
+            "Do not laugh, I will tell you later.",
+            "Do not run, I will come with you."
+          ],
+          "correctAnswer": "Do not cry, I will help you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maa amma garu hospital lo unnaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayyo, aavidaki tvaraga nayam avvali.",
+            "Ayyo, aavida chaala santhoshanga unnaru.",
+            "Sare, memu repu Charminar ki veltunnam."
+          ],
+          "correctAnswer": "Ayyo, aavidaki tvaraga nayam avvali.",
+          "translatedSentence": "Oh no, I hope she gets better soon."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku Hyderabad biryani ishtama?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, naaku chaala ishtam.",
+            "Avunu, nenu Vijayawada lo untanu.",
+            "Ledu, naaku ippudu alasata ga undi."
+          ],
+          "correctAnswer": "Avunu, naaku chaala ishtam.",
+          "translatedSentence": "Yes, I like it very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku irani chai ante chaala ishtam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really love Irani chai.",
+            "I do not like Irani chai at all.",
+            "I drink Irani chai every morning."
+          ],
+          "correctAnswer": "I really love Irani chai."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeku ippudu emi kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku okka pesarattu kaavali.",
+            "Naaku aa cinema nachaledu.",
+            "Naaku ee pani ante chiraaku."
+          ],
+          "correctAnswer": "Naaku okka pesarattu kaavali.",
+          "translatedSentence": "I want one pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku gongura pachadi antha nachaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not like the gongura pickle much.",
+            "I liked the gongura pickle a lot.",
+            "I have never eaten gongura pickle."
+          ],
+          "correctAnswer": "I did not like the gongura pickle much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee weekend nuvvu emi cheyyalani anukuntunnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku Charminar chudalani undi.",
+            "Naaku ninna chaala kopam vachindi.",
+            "Nenu ee roju office ki vellaledu."
+          ],
+          "correctAnswer": "Naaku Charminar chudalani undi.",
+          "translatedSentence": "I want to go and see Charminar."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ippudu emi tinaalani ledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not feel like eating anything right now.",
+            "I do not feel like going anywhere right now.",
+            "I want to eat something right now."
+          ],
+          "correctAnswer": "I do not feel like eating anything right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaku alasata ga undi, konchem chai kaavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu ippude teesukostanu.",
+            "Naaku chai ante ishtam ledu.",
+            "Meeru ippude nidra lechara?"
+          ],
+          "correctAnswer": "Nenu ippude teesukostanu.",
+          "translatedSentence": "I will bring it right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vaadiki cinemalu ishtam, kaani naaku pustakalu ishtam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He likes movies, but I like books.",
+            "He likes books, but I like movies.",
+            "Both he and I like movies."
+          ],
+          "correctAnswer": "He likes movies, but I like books."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neeku enduku aa udyogam ishtam ledu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rojoo chaala dooram prayanam cheyyali.",
+            "Naaku aa udyogam chaala ishtam.",
+            "Aa office maa intiki chaala daggara."
+          ],
+          "correctAnswer": "Rojoo chaala dooram prayanam cheyyali.",
+          "translatedSentence": "I have to travel a long way every day."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru cheppindi nijame, kaani naaku okka sandeham undi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cheppandi, mee sandeham emiti?",
+            "Ledu, naaku ee vishayam gurinchi telidu.",
+            "Sare, nenu ippude bayataki veltunnanu."
+          ],
+          "correctAnswer": "Cheppandi, mee sandeham emiti?",
+          "translatedSentence": "Please tell me, what is your doubt?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee vishayam lo nenu meeto ekibhavinchatam ledu, kshaminchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am sorry, but I do not agree with you on this matter.",
+            "Thank you, I completely agree with you on this matter.",
+            "I am sorry, I did not understand this matter at all."
+          ],
+          "correctAnswer": "I am sorry, but I do not agree with you on this matter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna nenu neeto gattiga maatladinanduku kshaminchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvaledu, nenu appude marchipoyanu.",
+            "Avunu, nuvvu ninna chaala santhoshanga unnavu.",
+            "Sare, nenu repu neeku phone chestanu."
+          ],
+          "correctAnswer": "Parvaledu, nenu appude marchipoyanu.",
+          "translatedSentence": "It is alright, I forgot about it long ago."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku aalasyam ayyindi, endukante auto dorakaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was late because I could not find an auto.",
+            "I was late because the traffic was very heavy.",
+            "I did not come at all because I could not find an auto."
+          ],
+          "correctAnswer": "I was late because I could not find an auto."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru cheppinattu chesthe manchidi ani naaku anipistundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, alaage chestanu, dhanyavaadalu.",
+            "Ledu, nenu aa pani ippatike chesanu.",
+            "Ayyo, naaku chaala bhayam ga undi."
+          ],
+          "correctAnswer": "Sare, alaage chestanu, dhanyavaadalu.",
+          "translatedSentence": "Alright, I will do it that way, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu naato cheppi unte, nenu neeku sahayam chesi undevaadini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you had told me, I would have helped you.",
+            "If you tell me, I will help you tomorrow.",
+            "You told me, so I helped you that day."
+          ],
+          "correctAnswer": "If you had told me, I would have helped you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu mimmalni baadha pettanu anukunta, kshaminchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvaledu, meeru kaavalani cheyyaledu ani naaku telusu.",
+            "Parvaledu, meeru ippudu chaala santhoshanga unnaru.",
+            "Ledu, aa sangathi naaku gurthu ledu ani cheppanu."
+          ],
+          "correctAnswer": "Parvaledu, meeru kaavalani cheyyaledu ani naaku telusu.",
+          "translatedSentence": "It is okay, I know you did not do it on purpose."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku kopam vachindi, kaani nenu emi analedu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got angry, but I did not say anything.",
+            "I got angry, and I said everything to him.",
+            "I was not angry, so I said nothing."
+          ],
+          "correctAnswer": "I got angry, but I did not say anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee panilo naa tappu undi ani nenu ottukuntunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeru ottukunnanduku dhanyavaadalu, ika daanni marchipoddam.",
+            "Meeru chaala alasipoyaru, konchem sepu vishranthi teesukondi.",
+            "Naaku ee vishayam gurinchi evaru emi cheppaledu."
+          ],
+          "correctAnswer": "Meeru ottukunnanduku dhanyavaadalu, ika daanni marchipoddam.",
+          "translatedSentence": "Thank you for admitting it, let us forget about it now."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Rooms of a house",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko ghar kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero ghar Kathmandu ma cha.",
+            "Mero ghar sano cha.",
+            "Ma aile bhansa ma chu."
+          ],
+          "correctAnswer": "Mero ghar Kathmandu ma cha.",
+          "translatedSentence": "My house is in Kathmandu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo mero sutne kotha ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my bedroom.",
+            "This is my kitchen.",
+            "This is my house."
+          ],
+          "correctAnswer": "This is my bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhansa kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhansa tala cha.",
+            "Bhansa mathi cha.",
+            "Bhansa dhoka najik cha."
+          ],
+          "correctAnswer": "Bhansa tala cha.",
+          "translatedSentence": "The kitchen is downstairs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro gharma tin ota kotha cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are three rooms in our house.",
+            "There are two rooms in our house.",
+            "There are three windows in our house."
+          ],
+          "correctAnswer": "There are three rooms in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko gharma kati ota kotha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Char ota kotha cha.",
+            "Char ota jhyal cha.",
+            "Ma sano kotha ma baschu."
+          ],
+          "correctAnswer": "Char ota kotha cha.",
+          "translatedSentence": "There are four rooms."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baithak kotha ekdam thulo cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The living room is very big.",
+            "The bedroom is very big.",
+            "The living room is very small."
+          ],
+          "correctAnswer": "The living room is very big."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Charpi kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Charpi bahira cha.",
+            "Charpi mathi cha.",
+            "Charpi ekdam sano cha."
+          ],
+          "correctAnswer": "Charpi bahira cha.",
+          "translatedSentence": "The toilet is outside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero kotha mathi cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My room is upstairs.",
+            "My room is downstairs.",
+            "My house is up there."
+          ],
+          "correctAnswer": "My room is upstairs."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kasko kotha ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yo mero kotha ho.",
+            "Yo hamro ghar ho.",
+            "Yo naya baithak kotha ho."
+          ],
+          "correctAnswer": "Yo mero kotha ho.",
+          "translatedSentence": "This is my room."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Everyday household things",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gharko chabi kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chabi tebul mathi cha.",
+            "Chabi mero jhola ma cha.",
+            "Chabi ekdam sano cha."
+          ],
+          "correctAnswer": "Chabi tebul mathi cha.",
+          "translatedSentence": "The key is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro bhansa ma naya phrij cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a new fridge in our kitchen.",
+            "There is a new stove in our kitchen.",
+            "There is an old fridge in our kitchen."
+          ],
+          "correctAnswer": "There is a new fridge in our kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kotha ko batti balnus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hunchha, ma aile balchu.",
+            "Hunchha, ma aile nibhauchu.",
+            "Batti aja bihana gayeko ho."
+          ],
+          "correctAnswer": "Hunchha, ma aile balchu.",
+          "translatedSentence": "Sure, I will turn it on now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sutne kotha ma duita takiya cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are two pillows in the bedroom.",
+            "There are two blankets in the bedroom.",
+            "There are two pillows in the living room."
+          ],
+          "correctAnswer": "There are two pillows in the bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo gilas kaha rakhne ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhansa ma rakhnus.",
+            "Tebul mathi rakhnus.",
+            "Jhola bhitra rakhnus."
+          ],
+          "correctAnswer": "Bhansa ma rakhnus.",
+          "translatedSentence": "Please put it in the kitchen."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yo pankha ramro sanga chaldaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fan does not work properly.",
+            "This fan works very well.",
+            "This light does not work properly."
+          ],
+          "correctAnswer": "This fan does not work properly."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro jhola kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mero jhola kursi mathi cha.",
+            "Mero jhola dhoka ma cha.",
+            "Mero jhola purano bhayo."
+          ],
+          "correctAnswer": "Mero jhola kursi mathi cha.",
+          "translatedSentence": "My bag is on the chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Malai naya sirak chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a new blanket.",
+            "I need a new pillow.",
+            "I want to buy a new bed."
+          ],
+          "correctAnswer": "I need a new blanket."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Paani ko botal kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Phrij bhitra cha.",
+            "Chulho ko chheu ma cha.",
+            "Jhyal najik cha."
+          ],
+          "correctAnswer": "Phrij bhitra cha.",
+          "translatedSentence": "It is inside the fridge."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Housework and chores",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aja khana kasle pakauchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aja ma pakauchu.",
+            "Aja mero didi le pakaunchhin.",
+            "Aja bahira gayera khaum."
+          ],
+          "correctAnswer": "Aja ma pakauchu.",
+          "translatedSentence": "I will cook today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aile bhada majhdai chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am washing the dishes right now.",
+            "I am washing the clothes right now.",
+            "I am cooking the food right now."
+          ],
+          "correctAnswer": "I am washing the dishes right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Luga dhune bela bhayo hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, ma aile dhunchu.",
+            "Ho, ma bholi safa garchu.",
+            "Luga aja sukena."
+          ],
+          "correctAnswer": "Ho, ma aile dhunchu.",
+          "translatedSentence": "Yes, I will wash them now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bihana uthera ma kotha safa garchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I clean my room after getting up in the morning.",
+            "I clean my room before going to bed at night.",
+            "I cook food after getting up in the morning."
+          ],
+          "correctAnswer": "I clean my room after getting up in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Baithak kotha ma jhadu kasle lagayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maile lagaye.",
+            "Mero bhai le lagayo.",
+            "Aja kasaile lagaeko chaina."
+          ],
+          "correctAnswer": "Maile lagaye.",
+          "translatedSentence": "I swept it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aja maile ghar ma dal bhat pakaye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cooked dal bhat at home today.",
+            "I ate dal bhat at home today.",
+            "I will cook dal bhat at home tomorrow."
+          ],
+          "correctAnswer": "I cooked dal bhat at home today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malai aja bhada majhna alchi lagyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta nagarnus, ma majhidinchu.",
+            "Ma pani aja dherai thakeko chu.",
+            "Tyaso bhaye bholi majhnus."
+          ],
+          "correctAnswer": "Chinta nagarnus, ma majhidinchu.",
+          "translatedSentence": "Do not worry, I will wash them for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Phohor bahira phalna nabirsanus hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do not forget to take the trash outside.",
+            "Please do not forget to close the door outside.",
+            "Please remember to wash the clothes outside."
+          ],
+          "correctAnswer": "Please do not forget to take the trash outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gharko kaam sakiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ali baki cha.",
+            "Ho, sabai sakiyo.",
+            "Aile suru garna baki cha."
+          ],
+          "correctAnswer": "Ali ali baki cha.",
+          "translatedSentence": "A little bit is still left."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Where things are",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mero chasma kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kitab muni cha.",
+            "Kitab mathi cha.",
+            "Tapaiko jhola bhitra cha."
+          ],
+          "correctAnswer": "Kitab muni cha.",
+          "translatedSentence": "It is under the book."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Biralo khat muni lukeko cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is hiding under the bed.",
+            "The cat is sleeping on the bed.",
+            "The dog is hiding under the bed."
+          ],
+          "correctAnswer": "The cat is hiding under the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chiya ko kap kaha rakhnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tebul mathi rakhe.",
+            "Phrij bhitra rakhe.",
+            "Jhyal ko chheu ma rakhe."
+          ],
+          "correctAnswer": "Tebul mathi rakhe.",
+          "translatedSentence": "I put it on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro ghar mandir ko pachadi cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is behind the temple.",
+            "Our house is in front of the temple.",
+            "Our house is next to the temple."
+          ],
+          "correctAnswer": "Our house is behind the temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jutta kaha rakhne ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhoka bahira rakhnus.",
+            "Khat muni rakhnus.",
+            "Bhansa bhitra rakhnus."
+          ],
+          "correctAnswer": "Dhoka bahira rakhnus.",
+          "translatedSentence": "Please leave them outside the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhansa ra sutne kotha ko bich ma charpi cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The toilet is between the kitchen and the bedroom.",
+            "The toilet is behind the kitchen and the bedroom.",
+            "The kitchen is between the toilet and the bedroom."
+          ],
+          "correctAnswer": "The toilet is between the kitchen and the bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chabi tebul mathi chaina, kaha gayo hola?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai thaha chaina, ekchin khojnus na.",
+            "Sayad maile dhoka mai chhode.",
+            "Chabi sadhai tebul mathi hunchha."
+          ],
+          "correctAnswer": "Malai thaha chaina, ekchin khojnus na.",
+          "translatedSentence": "I do not know, please look for it for a moment."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Timro kitab kursi ko chheu ma cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your book is beside the chair.",
+            "Your book is on top of the chair.",
+            "My book is beside the chair."
+          ],
+          "correctAnswer": "Your book is beside the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabun kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Charpi bhitra cha.",
+            "Bhada ko chheu ma cha.",
+            "Maile aja kineko chaina."
+          ],
+          "correctAnswer": "Charpi bhitra cha.",
+          "translatedSentence": "It is inside the bathroom."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Guests at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaste, bhitra aauna milchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaunus na, swagat cha.",
+            "Ma aile bahira janu parcha.",
+            "Ghar ma aile kohi chaina."
+          ],
+          "correctAnswer": "Aaunus na, swagat cha.",
+          "translatedSentence": "Please come in, you are welcome."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Basnus na, ma chiya banaidinchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please have a seat, I will make you some tea.",
+            "Please come in, I will make you some tea.",
+            "Please have a seat, I will cook some dal bhat."
+          ],
+          "correctAnswer": "Please have a seat, I will make you some tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai chiya ki kaphi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai chiya nai thik cha.",
+            "Malai kaphi nai man parcha.",
+            "Malai kehi chaidaina, dhanyabad."
+          ],
+          "correctAnswer": "Malai chiya nai thik cha.",
+          "translatedSentence": "Tea is fine for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aja ratiko khanako lagi maile momo banayeko chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have made momo for dinner tonight.",
+            "I have made dal bhat for dinner tonight.",
+            "I will make momo for lunch tomorrow."
+          ],
+          "correctAnswer": "I have made momo for dinner tonight."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana kasto bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ekdam mitho cha, dhanyabad.",
+            "Ali piro bhayo, tara thik cha.",
+            "Malai aja bhok lageko chaina."
+          ],
+          "correctAnswer": "Ekdam mitho cha, dhanyabad.",
+          "translatedSentence": "It is very tasty, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pahuna aunu bhanda aghi maile ghar safa gare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cleaned the house before the guests arrived.",
+            "I cleaned the house after the guests left.",
+            "I cooked the food before the guests arrived."
+          ],
+          "correctAnswer": "I cleaned the house before the guests arrived."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aba ma janchu la, dherai dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ali ber basnus na, aile ta sanjha matra bhayo.",
+            "Hunchha, ma pani tapai sanga janchu.",
+            "Bholi pheri khana banaunus hai."
+          ],
+          "correctAnswer": "Ali ber basnus na, aile ta sanjha matra bhayo.",
+          "translatedSentence": "Please stay a little longer, it is only evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapaiko chhora ta dherai thulo bhaisakyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Your son has grown up so much.",
+            "Your daughter has grown up so much.",
+            "Your house has become so big."
+          ],
+          "correctAnswer": "Your son has grown up so much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi hamro gharma pahuna aunuhunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tyaso bhaye ghar safa garnu parcha.",
+            "Ho ra, ma bholi bahira janchu.",
+            "Malai bholi ko kura thaha chaina."
+          ],
+          "correctAnswer": "Tyaso bhaye ghar safa garnu parcha.",
+          "translatedSentence": "In that case we have to clean the house."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Rent and neighbours",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo kotha ko mahina ko bhada kati ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mahina ko pandhra hajar rupaiya ho.",
+            "Hapta ko pandhra hajar rupaiya ho.",
+            "Bhada aile samma tireko chaina."
+          ],
+          "correctAnswer": "Mahina ko pandhra hajar rupaiya ho.",
+          "translatedSentence": "It is fifteen thousand rupees a month."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhansa ko dhara bata paani chuhirahecha, tyasaile mistri bolaunu paryo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The kitchen tap is leaking, so we have to call a repairman.",
+            "The bathroom tap is leaking, so we have to call a repairman.",
+            "The kitchen tap is leaking, but we can fix it ourselves."
+          ],
+          "correctAnswer": "The kitchen tap is leaking, so we have to call a repairman."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gharbeti le bhada badhaunu bhayo re, saccho ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoina, purano bhada nai cha.",
+            "Ho, aba duita kotha ko paisa tirnu parcha.",
+            "Malai thaha chaina, ma aile sodhchu."
+          ],
+          "correctAnswer": "Hoina, purano bhada nai cha.",
+          "translatedSentence": "No, the rent is still the same as before."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mathi ko chimeki le rati dherai halla garchan, tyasaile ma sutna sakdina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The neighbours upstairs make a lot of noise at night, so I cannot sleep.",
+            "The neighbours upstairs make a lot of noise at night, but I can still sleep.",
+            "The neighbours downstairs make a lot of noise at night, so I cannot sleep."
+          ],
+          "correctAnswer": "The neighbours upstairs make a lot of noise at night, so I cannot sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gharma batti gayo bhane ke garne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chimeki lai sodhnus, unko gharma pani gayeko cha ki.",
+            "Mistri lai bolaunus, dhara banauna parcha.",
+            "Gharbeti lai bhada aja nai tirnus."
+          ],
+          "correctAnswer": "Chimeki lai sodhnus, unko gharma pani gayeko cha ki.",
+          "translatedSentence": "Ask the neighbours, maybe their power is out too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi bhada aja tirnu bhayena bhane gharbeti risaunu hunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not pay the rent today, the landlord will get angry.",
+            "If you pay the rent today, the landlord will be very happy.",
+            "If you do not pay the rent today, the neighbours will get angry."
+          ],
+          "correctAnswer": "If you do not pay the rent today, the landlord will get angry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sutne kotha ma naya batti kasle halne ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma aphai halchu, tyati garho chaina.",
+            "Gharbeti le halidinu hunchha hola.",
+            "Chimeki dai lai bolauna parla."
+          ],
+          "correctAnswer": "Ma aphai halchu, tyati garho chaina.",
+          "translatedSentence": "I will put it in myself, it is not that difficult."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mero chimeki ramro manche hunuhunchha, sadhai madat garnuhunchha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My neighbour is a good person and always helps me.",
+            "My neighbour is a good person but never helps me.",
+            "My landlord is a good person and always helps me."
+          ],
+          "correctAnswer": "My neighbour is a good person and always helps me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naya ghar sarnu bhayo ki purano mai basnu bhayeko cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma purano mai chu, kinabhane bhada sasto cha.",
+            "Ma bhada dherai bhayera naya ghar sare.",
+            "Ma bholi Pokhara ma ghar khojna janchu."
+          ],
+          "correctAnswer": "Ma purano mai chu, kinabhane bhada sasto cha.",
+          "translatedSentence": "I am still in the old one, because the rent is cheap."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "home",
+  "title": "At Home",
+  "description": "The vocabulary of the place you actually live in.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Ghoror kotha bilak",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar ghorot kiman ta kotha ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor ghorot tinita kotha ase.",
+            "mor ghor tu bor puroni.",
+            "moi ghorot bhat khai asu."
+          ],
+          "correctAnswer": "mor ghorot tinita kotha ase.",
+          "translatedSentence": "There are three rooms in my house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "eitu mor sowa kotha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This is my bedroom.",
+            "This is our kitchen.",
+            "That is my bedroom."
+          ],
+          "correctAnswer": "This is my bedroom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "randhoni ghor tu kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "randhoni ghor tu pisfale ase.",
+            "randhoni ghor tu bor dangor.",
+            "moi randhoni ghorot bhat randhim."
+          ],
+          "correctAnswer": "randhoni ghor tu pisfale ase.",
+          "translatedSentence": "The kitchen is at the back."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amar ghorot dangor bharanda eta ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house has a big verandah.",
+            "Our house has a small verandah.",
+            "There is a big room in our house."
+          ],
+          "correctAnswer": "Our house has a big verandah."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kot bohi ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi boithokkhonat bohi asu.",
+            "moi etiya ghoroloi jam.",
+            "moi saah ekap khai asu."
+          ],
+          "correctAnswer": "moi boithokkhonat bohi asu.",
+          "translatedSentence": "I am sitting in the living room."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "gusol ghor tu bahirot ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bathroom is outside.",
+            "The bathroom is inside.",
+            "The kitchen is outside."
+          ],
+          "correctAnswer": "The bathroom is outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tomar kotha tu dangor neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, mor kotha tu sorou.",
+            "hoi, mor ghor tu dangor.",
+            "nai, mor kotha tu safa nohoi."
+          ],
+          "correctAnswer": "nai, mor kotha tu sorou.",
+          "translatedSentence": "No, my room is small."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amar sotalot eta gos ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a tree in our courtyard.",
+            "There is a flower in our courtyard.",
+            "There is a tree behind our house."
+          ],
+          "correctAnswer": "There is a tree in our courtyard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar ghor tu kot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mor ghor Jorhatot.",
+            "mor ghor tu notun.",
+            "moi ghoroloi jaboloi ulai asu."
+          ],
+          "correctAnswer": "mor ghor Jorhatot.",
+          "translatedSentence": "My house is in Jorhat."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Ghoror jinis pati",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi bohiboloi ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "apunak eta sokia lage.",
+            "apunak eta mez lage.",
+            "apunak eta bisona lage."
+          ],
+          "correctAnswer": "apunak eta sokia lage.",
+          "translatedSentence": "You need a chair."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mor kothat eta dangor alomari ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a big cupboard in my room.",
+            "There is a big bed in my room.",
+            "There is a small cupboard in my room."
+          ],
+          "correctAnswer": "There is a big cupboard in my room."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "duar tu bondho neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, duar tu bondho.",
+            "nai, khirikee tu khula.",
+            "hoi, batti tu joli ase."
+          ],
+          "correctAnswer": "hoi, duar tu bondho.",
+          "translatedSentence": "Yes, the door is closed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "khirikee tu khuli diya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Open the window.",
+            "Close the window.",
+            "Open the door."
+          ],
+          "correctAnswer": "Open the window."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bor gorom lagise, ki koru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "pankha tu solai diya.",
+            "kombol khon ani diya.",
+            "duar tu bondho kori diya."
+          ],
+          "correctAnswer": "pankha tu solai diya.",
+          "translatedSentence": "Turn on the fan."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amar ghorot notun pankha eta ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have a new fan in our house.",
+            "We have an old fan in our house.",
+            "We have a new light in our house."
+          ],
+          "correctAnswer": "We have a new fan in our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunak etiya ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mok eta gilas poni lage.",
+            "mok eta kahi bhat lage.",
+            "mok eta gamosa lage."
+          ],
+          "correctAnswer": "mok eta gilas poni lage.",
+          "translatedSentence": "I need a glass of water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi mor gamosa khon bisari asu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am looking for my gamosa.",
+            "I am washing my gamosa.",
+            "I am looking for my blanket."
+          ],
+          "correctAnswer": "I am looking for my gamosa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "duaror sabi tu apunar hatot ase neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, sabi tu mor hatot ase.",
+            "nai, moi duar tu bondho korilu.",
+            "hoi, moi duar tu khuli dim."
+          ],
+          "correctAnswer": "hoi, sabi tu mor hatot ase.",
+          "translatedSentence": "Yes, I have the key with me."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Ghoror kam kaj",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tumi etiya ki kori asa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi bason dhui asu.",
+            "moi bhat khai asu.",
+            "moi mor kotha tu safa korim."
+          ],
+          "correctAnswer": "moi bason dhui asu.",
+          "translatedSentence": "I am washing the dishes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma randhoni ghorot masor jool randhi ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is cooking fish curry in the kitchen.",
+            "Mother is eating fish curry in the kitchen.",
+            "My sister is cooking fish curry in the kitchen."
+          ],
+          "correctAnswer": "Mother is cooking fish curry in the kitchen."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kapor bur dhua hol neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "nai, moi etiya dhui dim.",
+            "hoi, moi bason dhui dilu.",
+            "nai, poni tu bor gorom."
+          ],
+          "correctAnswer": "nai, moi etiya dhui dim.",
+          "translatedSentence": "No, I will wash them now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi kali ghor tu jharu dilu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I swept the house yesterday.",
+            "I will sweep the house tomorrow.",
+            "I washed the house yesterday."
+          ],
+          "correctAnswer": "I swept the house yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi apunak sahajjo koribo parim neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mok olop poni ani diyok.",
+            "nai, moi kapor dhui asu.",
+            "hoi, moi apunak sahajjo korim."
+          ],
+          "correctAnswer": "mok olop poni ani diyok.",
+          "translatedSentence": "Please bring me a little water."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi moila bur bahirot pheli dim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will throw the rubbish outside.",
+            "I threw the rubbish outside.",
+            "I will keep the rubbish inside."
+          ],
+          "correctAnswer": "I will throw the rubbish outside."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bhat randha hol neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, bhat randha hol.",
+            "nai, moi bason dhoa nai.",
+            "hoi, moi bhat khai lolu."
+          ],
+          "correctAnswer": "hoi, bhat randha hol.",
+          "translatedSentence": "Yes, the rice is cooked."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhoni e bisona khon pati ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister is making the bed.",
+            "My younger sister is cleaning the bed.",
+            "My younger sister is washing the bedsheet."
+          ],
+          "correctAnswer": "My younger sister is making the bed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "aji ghor tu kune safa korile?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi safa korilu.",
+            "moi kali safa korim.",
+            "kokai e bason dhuile."
+          ],
+          "correctAnswer": "moi safa korilu.",
+          "translatedSentence": "I cleaned it."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Jinis bur kot ase",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "mor sabi tu kot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "sabi tu mezor uporot ase.",
+            "sabi tu alomarir bhitorot ase.",
+            "sabi tu bisonar tolot ase."
+          ],
+          "correctAnswer": "sabi tu mezor uporot ase.",
+          "translatedSentence": "The key is on the table."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mekuri tu sokiar tolot sui ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat is sleeping under the chair.",
+            "The cat is sleeping on the chair.",
+            "The cat is sitting under the chair."
+          ],
+          "correctAnswer": "The cat is sleeping under the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi mor jutta duta kot pam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "jutta duta duaror pisot ase.",
+            "jutta duta mezor tolot ase.",
+            "jutta duta alomarit ase."
+          ],
+          "correctAnswer": "jutta duta duaror pisot ase.",
+          "translatedSentence": "The shoes are behind the door."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "poni tu botolor bhitorot ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The water is inside the bottle.",
+            "The water is on the bottle.",
+            "The milk is inside the bottle."
+          ],
+          "correctAnswer": "The water is inside the bottle."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar ghor tu kihor kasot ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "amar ghor tu iskulor kasot ase.",
+            "amar ghor tu iskulor pisfale ase.",
+            "amar ghor tu bojarot ase."
+          ],
+          "correctAnswer": "amar ghor tu iskulor kasot ase.",
+          "translatedSentence": "Our house is next to the school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi kitap khon mezor tolot palu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I found the book under the table.",
+            "I found the book on the table.",
+            "I kept the book under the table."
+          ],
+          "correctAnswer": "I found the book under the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "moi kot bohim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "apuni khirikeer kasot bohok.",
+            "apuni bisonar uporot bohok.",
+            "apuni bharandat bohok."
+          ],
+          "correctAnswer": "apuni khirikeer kasot bohok.",
+          "translatedSentence": "Please sit near the window."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mekuri tu alomarir uporoloi uthil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cat climbed onto the cupboard.",
+            "The cat climbed onto the table.",
+            "The cat came down from the cupboard."
+          ],
+          "correctAnswer": "The cat climbed onto the cupboard."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "saah kap tu kot thom?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mezor uporot thoi diyok.",
+            "randhoni ghorot thoi diyok.",
+            "alomarir bhitorot thoi diyok."
+          ],
+          "correctAnswer": "mezor uporot thoi diyok.",
+          "translatedSentence": "Please put it on the table."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Ghorot atithi ahise",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "duarot kun ahise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "amar suburiya ahise.",
+            "moi etiya ghoroloi ahisu.",
+            "atithi jon kali ahisil."
+          ],
+          "correctAnswer": "amar suburiya ahise.",
+          "translatedSentence": "Our neighbour has come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bhitorot ahok, sokiat bohok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come in and sit on the chair.",
+            "Please come in and sit on the bed.",
+            "Come in and stand near the door."
+          ],
+          "correctAnswer": "Please come in and sit on the chair."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni saah ekap khabo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "hoi, ekap saah hole bhal hoy.",
+            "nai, moi bhat khai ahisu.",
+            "hoi, moi apunak saah bonai dim."
+          ],
+          "correctAnswer": "hoi, ekap saah hole bhal hoy.",
+          "translatedSentence": "Yes, a cup of tea would be lovely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma e atithi bilakor babe pitha bonaise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother has made pitha for the guests.",
+            "Mother has made tea for the guests.",
+            "Mother has bought pitha for the guests."
+          ],
+          "correctAnswer": "Mother has made pitha for the guests."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni kotor pora ahise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi Guwahatir pora ahisu.",
+            "moi kali Jorhatoloi jam.",
+            "moi ghorote asu."
+          ],
+          "correctAnswer": "moi Guwahatir pora ahisu.",
+          "translatedSentence": "I have come from Guwahati."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aru olop bhat lobo neki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Would you like a little more rice?",
+            "Would you like a little more tea?",
+            "Have you eaten your rice?"
+          ],
+          "correctAnswer": "Would you like a little more rice?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bohut deri hol, moi etiya ghoroloi ghuri jam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aru olop somoi bohi jaok.",
+            "tente moi apunar loge jam.",
+            "hoi, moi kali apunar ghoroloi jam."
+          ],
+          "correctAnswer": "aru olop somoi bohi jaok.",
+          "translatedSentence": "Do sit a little longer."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aji rati amar ghorot thaki jaok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please stay the night at our house.",
+            "Please eat at our house tonight.",
+            "Please come to our house tonight."
+          ],
+          "correctAnswer": "Please stay the night at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "amar ghoroloi ahiboloi bohut dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "apunar ghorot ahi bhal lagil.",
+            "moi apunar ghoroloi ahibo nuwaru.",
+            "dhonyobad, kintu moi saah nakhau."
+          ],
+          "correctAnswer": "apunar ghorot ahi bhal lagil.",
+          "translatedSentence": "It was lovely to come to your house."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Bhora aru suburiya",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ei ghor tur bhora kiman?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "protimahe pas hezar taka, kintu ponir bill algakoi dibo lage.",
+            "protimahe pas hezar taka, aru bhora agotiyakoi dibo lage.",
+            "ei ghor tut tinita kotha aru duta gusol ghor ase."
+          ],
+          "correctAnswer": "protimahe pas hezar taka, kintu ponir bill algakoi dibo lage.",
+          "translatedSentence": "Five thousand rupees a month, but you have to pay the water bill separately."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "moi protimahe sat tarikhe ghoror bhora di diu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I pay the house rent on the seventh of every month.",
+            "I paid the house rent on the seventh of this month.",
+            "I will pay the house rent on the seventh of next month."
+          ],
+          "correctAnswer": "I pay the house rent on the seventh of every month."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kalir pora amar kolot poni oha nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "moi mistiri jonok mati anisu, teu aji ahibo.",
+            "moi kali kapor dhui dilu, seibabe poni nai.",
+            "amar ghorot poni bur bohut bhal."
+          ],
+          "correctAnswer": "moi mistiri jonok mati anisu, teu aji ahibo.",
+          "translatedSentence": "I have called the repairman, and he will come today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "batti tu jola nai babe kali rati moi poribo para nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because the light was not working, I could not read last night.",
+            "Because the light is not working, I cannot read at night.",
+            "The light was working, so I read for a long time last night."
+          ],
+          "correctAnswer": "Because the light was not working, I could not read last night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apunar suburiya jon kene manuh?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "teu bohut bhal manuh, dorkar hole sahajjo kore.",
+            "teu ghorot nathake, seibabe moi teuk bhal dorore nasinu.",
+            "teu mor pora protimahe ghoror bhora loi."
+          ],
+          "correctAnswer": "teu bohut bhal manuh, dorkar hole sahajjo kore.",
+          "translatedSentence": "He is a very good man; he helps whenever it is needed."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "jodi kalio poni nahe, tente moi ghoror malikok phone korim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the water does not come tomorrow either, I will call the landlord.",
+            "If the water comes tomorrow, I will call the landlord.",
+            "I called the landlord because the water did not come."
+          ],
+          "correctAnswer": "If the water does not come tomorrow either, I will call the landlord."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "duaror tola tu bhangi gol, etiya ki korim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "mistiri jonok mati anok, teu thik kori dibo.",
+            "duar tu bhal dorore bondho kori thoi diyok.",
+            "tente sabi tu alomarir bhitorot thoi diyok."
+          ],
+          "correctAnswer": "mistiri jonok mati anok, teu thik kori dibo.",
+          "translatedSentence": "Call the repairman; he will fix it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "amar suburiya e kali amak pitha aru saah di gol.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our neighbour gave us pitha and tea yesterday.",
+            "We gave our neighbour pitha and tea yesterday.",
+            "Our neighbour brought us pitha and tea today."
+          ],
+          "correctAnswer": "Our neighbour gave us pitha and tea yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "apuni ei ghorot aru kiman din thakibo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "aru duta bosor thakim, kiyono bhora olop aru ghor tu iskulor kasot.",
+            "moi oha mahot ghor tu eri dim, kiyono bhora bohut besi.",
+            "moi ei ghorot tini bosor dhori asu."
+          ],
+          "correctAnswer": "aru duta bosor thakim, kiyono bhora olop aru ghor tu iskulor kasot.",
+          "translatedSentence": "I will stay two more years, because the rent is low and the house is near the school."
+        }
+      ]
+    }
+  ]
+}

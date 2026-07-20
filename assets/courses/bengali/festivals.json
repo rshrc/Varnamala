@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubho Bijoya!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shubho Bijoya, bhalo thakben.",
+            "Shubho noboborsho, bhai.",
+            "Shubho jonmodin, tomake."
+          ],
+          "correctAnswer": "Shubho Bijoya, bhalo thakben.",
+          "translatedSentence": "Happy Bijoya, take care."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubho noboborsho!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Happy new year!",
+            "Happy birthday to you!",
+            "Happy Bijoya to you!"
+          ],
+          "correctAnswer": "Happy new year!"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pujo kemon katche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub bhalo katche, dhonyobad.",
+            "Ami ekhon bhaat khachchi.",
+            "Amar bari Kolkatay."
+          ],
+          "correctAnswer": "Khub bhalo katche, dhonyobad.",
+          "translatedSentence": "It is going very well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ajke pujor prothom din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is the first day of the Pujo.",
+            "Today is the last day of the Pujo.",
+            "Today is a holiday for us."
+          ],
+          "correctAnswer": "Today is the first day of the Pujo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomake onek shubhechha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomakeo onek shubhechha.",
+            "Tomake dhonyobad, ami ekhon jachchi.",
+            "Ami ekhon bari te achi."
+          ],
+          "correctAnswer": "Tomakeo onek shubhechha.",
+          "translatedSentence": "Many good wishes to you too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amader bari te aj utsav.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a celebration at our house today.",
+            "There is a celebration at our house tomorrow.",
+            "We are going out of the house today."
+          ],
+          "correctAnswer": "There is a celebration at our house today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Shubho Saraswati Pujo!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomakeo shubho Saraswati Pujo!",
+            "Tomakeo shubho noboborsho!",
+            "Tomakeo shubho Bijoya!"
+          ],
+          "correctAnswer": "Tomakeo shubho Saraswati Pujo!",
+          "translatedSentence": "Happy Saraswati Puja to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami pujo khub bhalobashi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love the Pujo very much.",
+            "I like sweets very much.",
+            "I go to the Pujo every day."
+          ],
+          "correctAnswer": "I love the Pujo very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei mishti ta nao, pujor mishti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhonyobad, khub bhalo lagche.",
+            "Na, ami cha khai na.",
+            "Ami bajare mach kinte jachchi."
+          ],
+          "correctAnswer": "Dhonyobad, khub bhalo lagche.",
+          "translatedSentence": "Thank you, it tastes really good."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Festivals and their dates",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Durga Pujo kobe hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shorot kale hoy, October mashe.",
+            "Boshonto kale hoy, February mashe.",
+            "Gorom kale hoy, June mashe."
+          ],
+          "correctAnswer": "Shorot kale hoy, October mashe.",
+          "translatedSentence": "It falls in autumn, in the month of October."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poila Boishakh Bangla bochorer prothom din.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Poila Boishakh is the first day of the Bengali year.",
+            "Poila Boishakh is the last day of the Bengali year.",
+            "Poila Boishakh is a holiday in every Bengali house."
+          ],
+          "correctAnswer": "Poila Boishakh is the first day of the Bengali year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saraswati Pujo kon somoy hoy?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Boshonto kale hoy, Magh mashe.",
+            "Shorot kale hoy, Ashwin mashe.",
+            "Sheet kale hoy, Poush mashe."
+          ],
+          "correctAnswer": "Boshonto kale hoy, Magh mashe.",
+          "translatedSentence": "It falls in spring, in the month of Magh."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali Pujo Durga Pujor kichu din pore ashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kali Puja comes a few days after Durga Puja.",
+            "Kali Puja comes a few days before Durga Puja.",
+            "Kali Puja and Durga Puja fall on the same day."
+          ],
+          "correctAnswer": "Kali Puja comes a few days after Durga Puja."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Durga Pujo koto din dhore choley?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Panch din dhore choley, Shashthi theke Doshomi.",
+            "Sara mash dhore choley, Ashwin mashe.",
+            "Ek din e sesh hoye jay, sokal theke rat."
+          ],
+          "correctAnswer": "Panch din dhore choley, Shashthi theke Doshomi.",
+          "translatedSentence": "It runs for five days, from Shashthi to Doshomi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kali Pujor rate sob ghore alo jole.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the night of Kali Puja lights burn in every house.",
+            "On the night of Kali Puja we sing in every house.",
+            "On the morning of Kali Puja we clean the whole house."
+          ],
+          "correctAnswer": "On the night of Kali Puja lights burn in every house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aar koto din pore pujo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aar mattro dosh din baki ache.",
+            "Pujo gato mashe sesh hoye geche.",
+            "Ami pujor somoy Kolkatay thaki."
+          ],
+          "correctAnswer": "Aar mattro dosh din baki ache.",
+          "translatedSentence": "Only ten more days are left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar pujor chhuti Shashthir din theke shuru hoy.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My Pujo holidays start from the day of Shashthi.",
+            "My Pujo holidays end on the day of Shashthi.",
+            "My Pujo holidays are only five days long."
+          ],
+          "correctAnswer": "My Pujo holidays start from the day of Shashthi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki proti bochor Kolkatay pujo dekho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami proti bochor pujo dekhte Kolkatay ashi.",
+            "Ha, ami roj sokale cha banai.",
+            "Na, amar Kolkata bhalo lage na kichu."
+          ],
+          "correctAnswer": "Ha, ami proti bochor pujo dekhte Kolkatay ashi.",
+          "translatedSentence": "Yes, I come to Kolkata every year to see the Pujo."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amader barite pujor din khete asben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi asbo, onek dhonyobad.",
+            "Na, ami ranna korte pari na.",
+            "Ami ekhon barir bhitore achi."
+          ],
+          "correctAnswer": "Nishchoi asbo, onek dhonyobad.",
+          "translatedSentence": "I will certainly come, thank you very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami tomake amader pujor nimontron korchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to our Pujo.",
+            "I am going to their Pujo with you.",
+            "I have already invited them to our Pujo."
+          ],
+          "correctAnswer": "I am inviting you to our Pujo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnara kokhon asben, sokale na bikele?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra bikele asbo, char tar por.",
+            "Amra kalke bajar jachchi.",
+            "Amra Howrah bridger kachhe thaki."
+          ],
+          "correctAnswer": "Amra bikele asbo, char tar por.",
+          "translatedSentence": "We will come in the evening, after four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi ki amar songe pandal dekhte jabe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you go with me to see the pandals?",
+            "Did you go to see the pandals with them?",
+            "Shall I go to see the pandals alone?"
+          ],
+          "correctAnswer": "Will you go with me to see the pandals?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dukkhito, ami ashte parbo na, amar kaj ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kono osubidha nei, porer bar eso.",
+            "Tahole ami tomar jonyo opekkha korbo.",
+            "Thik ache, ami ekhoni pouche jachchi."
+          ],
+          "correctAnswer": "Kono osubidha nei, porer bar eso.",
+          "translatedSentence": "No problem at all, come next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi somoy pao, tahole sondhye belay chole eso.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you get the time, come over in the evening.",
+            "If you have no time, do not come in the evening.",
+            "When you get the time, call me in the evening."
+          ],
+          "correctAnswer": "If you get the time, come over in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar poribar ke o niye eso.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Obosshoi, ami sobaike niye asbo.",
+            "Obosshoi, ami tomar jonyo mishti anbo.",
+            "Obosshoi, ami taratari bari fire jabo."
+          ],
+          "correctAnswer": "Obosshoi, ami sobaike niye asbo.",
+          "translatedSentence": "Of course, I will bring everyone along."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apnar nimontron peye khub bhalo laglo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I was very glad to receive your invitation.",
+            "I was very glad to send you an invitation.",
+            "I am still waiting for your invitation."
+          ],
+          "correctAnswer": "I was very glad to receive your invitation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ashte ektu deri hoye gelo, kichu mone korben na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are na na, apni eshechen ei to onek.",
+            "Thik ache, ami tahole chole jachchi.",
+            "Tahole apni kal bikele asben."
+          ],
+          "correctAnswer": "Are na na, apni eshechen ei to onek.",
+          "translatedSentence": "Not at all, it is more than enough that you came."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pujo te tomar priyo mishti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar sob theke priyo mishti roshogolla.",
+            "Amar sob theke priyo khabar macher jhol.",
+            "Amar sob theke priyo utsav Durga Pujo."
+          ],
+          "correctAnswer": "Amar sob theke priyo mishti roshogolla.",
+          "translatedSentence": "My favourite sweet of all is roshogolla."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma aj sokale narkel nadu banachchen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making coconut sweets this morning.",
+            "Mother made coconut sweets yesterday morning.",
+            "Mother will buy coconut sweets this morning."
+          ],
+          "correctAnswer": "Mother is making coconut sweets this morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ashtomir dupure apnara ki khaben?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra pandale khichuri bhog khabo.",
+            "Amra sokale luchi kheye niyechi.",
+            "Amra rate baire khete jachchi."
+          ],
+          "correctAnswer": "Amra pandale khichuri bhog khabo.",
+          "translatedSentence": "We will eat the khichuri bhog at the pandal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bijoyar din amra sobai mishti mukh kori.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the day of Bijoya we all share sweets.",
+            "On the day of Bijoya we all cook together.",
+            "On the day of Bijoya we all go out together."
+          ],
+          "correctAnswer": "On the day of Bijoya we all share sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aro ekta sondesh nao na, khub bhalo hoyeche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na bhai, ami onek kheye felechi.",
+            "Ha, ami mishti banate bhalobashi.",
+            "Na, amar cha e cheeni lagbe na."
+          ],
+          "correctAnswer": "Na bhai, ami onek kheye felechi.",
+          "translatedSentence": "No my friend, I have already eaten a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Poila Boishakhe amra barite luchi ar alur dom banai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Poila Boishakh we make luchi and potato curry at home.",
+            "On Poila Boishakh we eat luchi and potato curry outside.",
+            "On Poila Boishakh we take luchi and potato curry to the pandal."
+          ],
+          "correctAnswer": "On Poila Boishakh we make luchi and potato curry at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Payesh ta kemon holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Osadharon hoyeche, aro ektu debe?",
+            "Ekhono ranna hoyni, ektu opekkha koro.",
+            "Ami payesher jonyo dudh niye eshechi."
+          ],
+          "correctAnswer": "Osadharon hoyeche, aro ektu debe?",
+          "translatedSentence": "It turned out wonderful, will you give me a little more?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bhog khete hole sokal sokal pandale ashte hobe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you want the bhog you have to reach the pandal early.",
+            "If you want the bhog you have to cook at the pandal.",
+            "If you reach the pandal early you can sit in front."
+          ],
+          "correctAnswer": "If you want the bhog you have to reach the pandal early."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki pujor kodin niramish khaccho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, Ashtomir din ami mach mangsho khai na.",
+            "Ha, ami roj sokale ek cup cha khai.",
+            "Na, ami ekhon ranna ghore kaj korchi."
+          ],
+          "correctAnswer": "Ha, Ashtomir din ami mach mangsho khai na.",
+          "translatedSentence": "Yes, on Ashtami I do not eat fish or meat."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei pujoy koyta notun jama kinle?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei bar tinte notun jama kinechi.",
+            "Ei bar amra pandale gechilam.",
+            "Ei bar mishti khub dami hoye geche."
+          ],
+          "correctAnswer": "Ei bar tinte notun jama kinechi.",
+          "translatedSentence": "This time I have bought three new outfits."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Baba amake pujoy ekta notun panjabi diyechen.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father gave me a new panjabi for the Pujo.",
+            "Father bought himself a new panjabi for the Pujo.",
+            "I gave father a new panjabi for the Pujo."
+          ],
+          "correctAnswer": "Father gave me a new panjabi for the Pujo."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei sharee ta tomar jonyo enechi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eto sundor, tomake onek dhonyobad!",
+            "Ami sharee ta kal dokane dekhechilam.",
+            "Amar didi sharee porte bhalobashe."
+          ],
+          "correctAnswer": "Eto sundor, tomake onek dhonyobad!",
+          "translatedSentence": "It is so beautiful, thank you so much!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pujor somoy sob attiyo amader barite ashe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Pujo time all our relatives come to our house.",
+            "At Pujo time we go to all our relatives houses.",
+            "At Pujo time our relatives stay in their own houses."
+          ],
+          "correctAnswer": "At Pujo time all our relatives come to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar didi ki ei bar bari asche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, didi Doshomir age chole asbe.",
+            "Ha, ami kal didir barite jachchi.",
+            "Didi amake ekta notun jama diyeche."
+          ],
+          "correctAnswer": "Ha, didi Doshomir age chole asbe.",
+          "translatedSentence": "Yes, my elder sister will come home before Doshomi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Boroder pranam korle tara ashirbad koren.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you touch the elders feet, they give you their blessing.",
+            "When the elders bless you, you must thank them.",
+            "The elders touch our feet and give us gifts."
+          ],
+          "correctAnswer": "When you touch the elders feet, they give you their blessing."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bijoyar din tumi ki koro?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra boroder pranam kori ar mishti khai.",
+            "Amra sokal sokal bajare mach kinte jai.",
+            "Amra sara rat pandale gan shuni."
+          ],
+          "correctAnswer": "Amra boroder pranam kori ar mishti khai.",
+          "translatedSentence": "We touch the elders feet and eat sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei upohar ta chotoder jonyo, kintu ekhon kholo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This gift is for the children, but do not open it now.",
+            "This gift is from the children, so open it now.",
+            "This gift is for the children, but it is not ready now."
+          ],
+          "correctAnswer": "This gift is for the children, but do not open it now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei bochor sobai ek songe ekta chobi tulbo to?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nishchoi, sobai ek songe daran, ami tulchi.",
+            "Ha, ami tomar jonyo onek mishti enechi.",
+            "Ha, amra kal bikele pandale gechilam."
+          ],
+          "correctAnswer": "Nishchoi, sobai ek songe daran, ami tulchi.",
+          "translatedSentence": "Of course, everyone stand together and I will take it."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar meyer biye kobe thik holo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Agami Ogrohayon mashe, jodi sob thik thake.",
+            "Amra kal ekta biye barite khete gechilam.",
+            "Ami biye te ei notun sharee ta porechilam."
+          ],
+          "correctAnswer": "Agami Ogrohayon mashe, jodi sob thik thake.",
+          "translatedSentence": "Next Ogrohayon, if everything goes to plan."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami biye te jete parini, karon amar sorir kharap chilo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I could not go to the wedding because I was unwell.",
+            "I did not go to the wedding because nobody invited me.",
+            "I went to the wedding even though I was unwell."
+          ],
+          "correctAnswer": "I could not go to the wedding because I was unwell."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jamai Shoshthi te apnara ki koren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amra jamaike nimontron kore bhalo mondo ranna kori.",
+            "Amra Ashtomir sokale pandale anjali dii.",
+            "Amra noboborshe dokane hal khata kori."
+          ],
+          "correctAnswer": "Amra jamaike nimontron kore bhalo mondo ranna kori.",
+          "translatedSentence": "We invite our son-in-law over and cook him a big meal."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apnar somoy hoy, tahole biyer age ekbar amader barite asben.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have the time, please come to our house once before the wedding.",
+            "If you have the time, please come to our house once after the wedding.",
+            "Since you have the time, come to our house on the wedding day itself."
+          ],
+          "correctAnswer": "If you have the time, please come to our house once before the wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Biye barite eto lok, apni kauke chinte parchen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kichu lok ke chini, tobe beshir bhag ke chini na.",
+            "Ami ei barite age kokhono ashini.",
+            "Ami amar bondhu derke o nimontron korechi."
+          ],
+          "correctAnswer": "Kichu lok ke chini, tobe beshir bhag ke chini na.",
+          "translatedSentence": "I know a few people, but most of them I do not know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bou bhat er din amra sobai notun jama porechilam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the day of the reception we all wore new clothes.",
+            "On the day of the reception we all ate together.",
+            "Before the reception we all bought new clothes."
+          ],
+          "correctAnswer": "On the day of the reception we all wore new clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnara ki noboborshe dokane hal khata koren?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, protyek bochor kori, ar sobaike mishti khaoai.",
+            "Na, amra Kali Pujor rate dokan bondho rakhi.",
+            "Ha, amra sokal sokal dokan khule boshi."
+          ],
+          "correctAnswer": "Ha, protyek bochor kori, ar sobaike mishti khaoai.",
+          "translatedSentence": "Yes, we do it every year, and we give everyone sweets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Biyer nimontron peyechi, kintu jete parbo kina jani na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have got the wedding invitation, but I do not know if I can go.",
+            "I have got the wedding invitation, so I will surely go.",
+            "I did not get the wedding invitation, so I am not going."
+          ],
+          "correctAnswer": "I have got the wedding invitation, but I do not know if I can go."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onushthan ta kemon laglo apnar?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub sundor hoyeche, tobe ektu beshi bhir chilo.",
+            "Ha, ami apnake age i nimontron kore diyechi.",
+            "Amra tram e kore sokal sokal chole eshechilam."
+          ],
+          "correctAnswer": "Khub sundor hoyeche, tobe ektu beshi bhir chilo.",
+          "translatedSentence": "It was lovely, though the crowd was a bit too much."
+        }
+      ]
+    }
+  ]
+}

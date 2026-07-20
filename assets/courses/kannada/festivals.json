@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi habbada shubhashayagalu!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nimage kooda shubhashayagalu.",
+            "Naanu manege hoguttene.",
+            "Nanage adu gottilla."
+          ],
+          "correctAnswer": "Nimage kooda shubhashayagalu.",
+          "translatedSentence": "Wishes to you too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage habba tumba ishta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like festivals a lot.",
+            "I do not like sweets much.",
+            "I am going to the temple now."
+          ],
+          "correctAnswer": "I like festivals a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Habba chennagi aayita?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, tumba chennagi aayitu.",
+            "Houdu, naale habba ide.",
+            "Illa, nanage hasivilla."
+          ],
+          "correctAnswer": "Houdu, tumba chennagi aayitu.",
+          "translatedSentence": "Yes, it went very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavali habbada shubhashayagalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Happy Deepavali.",
+            "Happy new year.",
+            "Happy birthday."
+          ],
+          "correctAnswer": "Happy Deepavali."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaara, hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddene, dhanyavaadagalu.",
+            "Namma mane illi hattira ide.",
+            "Nanage swalpa sihi beku."
+          ],
+          "correctAnswer": "Naanu chennagiddene, dhanyavaadagalu.",
+          "translatedSentence": "I am fine, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma kutumbakke nanna shubhashayagalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My best wishes to your family.",
+            "My family sends you their wishes.",
+            "I will meet your family tomorrow."
+          ],
+          "correctAnswer": "My best wishes to your family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale Ugadi habba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, nanage gottu.",
+            "Houdu, naanu bus nalli bande.",
+            "Illa, nanage kaapi beda."
+          ],
+          "correctAnswer": "Houdu, nanage gottu.",
+          "translatedSentence": "Yes, I know."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellarigu habbada shubhashayagalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Festival greetings to everyone.",
+            "Everyone is coming home for the festival.",
+            "The festival is over for everyone now."
+          ],
+          "correctAnswer": "Festival greetings to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ganesha Chaturthi shubhashayagalu!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaadagalu, nimagu shubhashayagalu.",
+            "Dhanyavaadagalu, naanu Cubbon Park nalli iddene.",
+            "Kshamisi, nanage samaya illa."
+          ],
+          "correctAnswer": "Dhanyavaadagalu, nimagu shubhashayagalu.",
+          "translatedSentence": "Thank you, and wishes to you too."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi habba yaavaga baruttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ugadi vasanta kaaladalli baruttade.",
+            "Ugadi chali kaaladalli baruttade.",
+            "Ugadi male kaaladalli baruttade."
+          ],
+          "correctAnswer": "Ugadi vasanta kaaladalli baruttade.",
+          "translatedSentence": "Ugadi comes in the spring season."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dasara habba Mysuru nalli tumba doddadu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Dasara festival is very big in Mysuru.",
+            "The Dasara festival is very old in Mysuru.",
+            "There is a very big palace in Mysuru."
+          ],
+          "correctAnswer": "The Dasara festival is very big in Mysuru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dasara eshtu dina irutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dasara hattu dina irutte.",
+            "Dasara mooru dina irutte.",
+            "Dasara ondu dina matra irutte."
+          ],
+          "correctAnswer": "Dasara hattu dina irutte.",
+          "translatedSentence": "Dasara lasts ten days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavali habbadalli naavu deepa haccutteve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At Deepavali we light lamps.",
+            "At Deepavali we buy new clothes.",
+            "At Deepavali we visit the temple."
+          ],
+          "correctAnswer": "At Deepavali we light lamps."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ganesha Chaturthi yaava tingalalli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adu September tingalalli ide.",
+            "Adu December tingalalli ide.",
+            "Adu March tingalalli ide."
+          ],
+          "correctAnswer": "Adu September tingalalli ide.",
+          "translatedSentence": "It falls in the month of September."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ugadi namma hosa varshada modala dina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ugadi is the first day of our new year.",
+            "Ugadi is the last day of our old year.",
+            "Ugadi is our festival of lights."
+          ],
+          "correctAnswer": "Ugadi is the first day of our new year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava habba tumba ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage Deepavali tumba ishta.",
+            "Nanage bisi bele bath tumba ishta.",
+            "Nanage Mysuru ooru tumba ishta."
+          ],
+          "correctAnswer": "Nanage Deepavali tumba ishta.",
+          "translatedSentence": "I like Deepavali the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dasarada dina Mysuru nalli aane meravanige irutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Dasara day there is an elephant procession in Mysuru.",
+            "On Dasara day the palace stays closed in Mysuru.",
+            "On Dasara day people light lamps in Mysuru."
+          ],
+          "correctAnswer": "On Dasara day there is an elephant procession in Mysuru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu Dasarakke Mysuru ge hoguttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naavu ellaru Mysuru ge hoguttive.",
+            "Houdu, Mysuru nalli aramane ide.",
+            "Illa, naanu Bengaluru nalli iddene."
+          ],
+          "correctAnswer": "Houdu, naavu ellaru Mysuru ge hoguttive.",
+          "translatedSentence": "Yes, we are all going to Mysuru."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale namma manege habbakke barteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, khandita barutteve.",
+            "Houdu, naavu ninne bandiddevu.",
+            "Houdu, namma mane tumba doddadu."
+          ],
+          "correctAnswer": "Houdu, khandita barutteve.",
+          "translatedSentence": "Yes, we will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimmannu habbakke kareyalu naanu bandiddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have come to invite you to the festival.",
+            "I have come to the festival with you.",
+            "I want to take you to the temple."
+          ],
+          "correctAnswer": "I have come to invite you to the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naavu yaava samayakke barabeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sanje aidu gante ge banni.",
+            "Belagge naanu kelasakke hoguttene.",
+            "Nanage samaya gottilla."
+          ],
+          "correctAnswer": "Sanje aidu gante ge banni.",
+          "translatedSentence": "Please come at five in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kutumba sameta banni, oota kooda ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come with your family, lunch is included.",
+            "Please come alone, lunch is included.",
+            "Please come with your family tomorrow evening."
+          ],
+          "correctAnswer": "Please come with your family, lunch is included."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, naale nanage bara aagalla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, innondu dina banni.",
+            "Parvagilla, naanu naale barutteene.",
+            "Houdu, nimma mane elli ide?"
+          ],
+          "correctAnswer": "Parvagilla, innondu dina banni.",
+          "translatedSentence": "That is all right, come another day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Habbakke bandiddakke tumba dhanyavaada.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for coming for the festival.",
+            "Thank you very much for the festival gift.",
+            "Please come again for the next festival."
+          ],
+          "correctAnswer": "Thank you very much for coming for the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna snehitarannu kooda karkondu baa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, avarannu kooda karkondu baruttene.",
+            "Sari, naanu obbane baruttene.",
+            "Sari, naanu naale nimage phone maadtene."
+          ],
+          "correctAnswer": "Sari, avarannu kooda karkondu baruttene.",
+          "translatedSentence": "Okay, I will bring them along as well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu barlilla andre namage bejaar aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not come we will be sad.",
+            "If you come we will be very happy.",
+            "We were sad that you did not come."
+          ],
+          "correctAnswer": "If you do not come we will be sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manege bandaaga naanu enu tarabeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enu beda, neevu bandare saaku.",
+            "Ondu BMTC bus nalli bandare saaku.",
+            "Namma mane Cubbon Park hattira ide."
+          ],
+          "correctAnswer": "Enu beda, neevu bandare saaku.",
+          "translatedSentence": "Nothing at all, it is enough if you come."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi ge amma enu maaduttare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma obbattu mattu payasa maaduttare.",
+            "Amma masala dose mattu filter kaapi maaduttare.",
+            "Amma ragi mudde mattu saaru maaduttare."
+          ],
+          "correctAnswer": "Amma obbattu mattu payasa maaduttare.",
+          "translatedSentence": "Mother makes obbattu and payasa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ganesha Chaturthi ge naavu kadubu maadutteve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We make kadubu for Ganesha Chaturthi.",
+            "We buy kadubu for Ganesha Chaturthi.",
+            "We make payasa for Ganesha Chaturthi."
+          ],
+          "correctAnswer": "We make kadubu for Ganesha Chaturthi."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ondu holige saaka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ondu saakagilla, innondu haaki.",
+            "Illa, naanu holige maadalu gottilla.",
+            "Houdu, naanu ninne holige maadidde."
+          ],
+          "correctAnswer": "Illa, ondu saakagilla, innondu haaki.",
+          "translatedSentence": "No, one is not enough, please serve another."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sihi tindi illade habba illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no festival without sweets.",
+            "There are no sweets at this festival.",
+            "I do not eat sweets at festivals."
+          ],
+          "correctAnswer": "There is no festival without sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Payasadalli enu haakiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adaralli akki, bella mattu tuppa haakiddene.",
+            "Adaralli ragi, uppu mattu neeru haakiddene.",
+            "Adaralli tarakari mattu khaara haakiddene."
+          ],
+          "correctAnswer": "Adaralli akki, bella mattu tuppa haakiddene.",
+          "translatedSentence": "I have put rice, jaggery and ghee in it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ugadi dina naavu bevu bella tinnutteve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Ugadi day we eat neem and jaggery.",
+            "On Ugadi day we eat sweets and savouries.",
+            "On Ugadi day we cook rice and lentils."
+          ],
+          "correctAnswer": "On Ugadi day we eat neem and jaggery."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chakkuli neeve maadidira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, ninne ratri naanu maadide.",
+            "Houdu, adu tumba ruchiyaagide.",
+            "Illa, nanage adara hesaru gottilla."
+          ],
+          "correctAnswer": "Houdu, ninne ratri naanu maadide.",
+          "translatedSentence": "Yes, I made them last night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tuppa haakidare obbattu innu ruchiyaagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Obbattu tastes even better if you add ghee.",
+            "Obbattu is always made with ghee and jaggery.",
+            "I do not like obbattu with ghee on it."
+          ],
+          "correctAnswer": "Obbattu tastes even better if you add ghee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Oota aayita?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaytu, hotte tumba oota maadide.",
+            "Aaytu, naanu naale baruttene.",
+            "Illa, nanage adige maadalu gottilla."
+          ],
+          "correctAnswer": "Aaytu, hotte tumba oota maadide.",
+          "translatedSentence": "Yes, I ate a full meal."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Clothes, gifts and family",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Habbakke yaavaga hosa batte kolluttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee vaaraantyadalli angadige hoguttene.",
+            "Kaleda vaara naanu angadige hogidde.",
+            "Nanage hosa batte tumba ishta."
+          ],
+          "correctAnswer": "Ee vaaraantyadalli angadige hoguttene.",
+          "translatedSentence": "I will go to the shop this weekend."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Habbada dina ella makkalige hosa batte kodutteve.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the festival day we give all the children new clothes.",
+            "On the festival day all the children wear new clothes.",
+            "Every year we buy new clothes for the children."
+          ],
+          "correctAnswer": "On the festival day we give all the children new clothes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ajjige yaava udugore kodona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avarige ondu hosa seere kodona.",
+            "Avaru ninne namma manege bandiddaru.",
+            "Ajji tumba chennagi adige maaduttare."
+          ],
+          "correctAnswer": "Avarige ondu hosa seere kodona.",
+          "translatedSentence": "Let us give her a new saree."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Habbakke namma kutumbadavaru ellaru oorininda baruttaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "All our relatives come from out of town for the festival.",
+            "All our relatives leave town during the festival.",
+            "Our whole family celebrates the festival at home."
+          ],
+          "correctAnswer": "All our relatives come from out of town for the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale namma manege eshtu jana baruttaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sumaaru ippattu jana baruttaare.",
+            "Sumaaru ippattu nimishadalli barutteve.",
+            "Sumaaru ippattu roopayi aayitu."
+          ],
+          "correctAnswer": "Sumaaru ippattu jana baruttaare.",
+          "translatedSentence": "About twenty people will come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Habbada dina BMTC bus nalli tumba jana iruttaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On the festival day the BMTC bus is very crowded.",
+            "On the festival day the BMTC bus does not run.",
+            "On the festival day we go by bus to see the lights."
+          ],
+          "correctAnswer": "On the festival day the BMTC bus is very crowded."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee udugore nimagaagi tandiddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ayyo, idara agatya iralilla, dhanyavaadagalu.",
+            "Ayyo, nanage udugore kollalu samaya sigalilla.",
+            "Houdu, naanu naale angadige hoguttene."
+          ],
+          "correctAnswer": "Ayyo, idara agatya iralilla, dhanyavaadagalu.",
+          "translatedSentence": "Oh, there was no need for this, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellaru ondu kade seridaaga mane tumba khushi irutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When everyone gathers together the house is full of joy.",
+            "When everyone leaves the house feels very empty.",
+            "Everyone gathers at our house for every festival."
+          ],
+          "correctAnswer": "When everyone gathers together the house is full of joy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Habbada dina yaaru adige maaduttaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amma mattu attige jothe seri adige maaduttaare.",
+            "Naavu ellaru jothe seri oota maadutteve.",
+            "Makkalu jothe seri aata aaduttaare."
+          ],
+          "correctAnswer": "Amma mattu attige jothe seri adige maaduttaare.",
+          "translatedSentence": "Mother and my sister-in-law cook together."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma tammana maduve yaavaga ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Munde tingala hattaneya taarikhige ide, neevu khandita banni.",
+            "Kaleda tingalu aayitu, aadare naanu hogalu aagalilla.",
+            "Nanage maduve samaarambha andare tumba ishta."
+          ],
+          "correctAnswer": "Munde tingala hattaneya taarikhige ide, neevu khandita banni.",
+          "translatedSentence": "It is on the tenth of next month, so please do come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maduve manedalli kelasa jaasti iddaru, ellaru khushiyaagi iddaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though there was a lot of work at the wedding house, everyone was happy.",
+            "Because there was so much work at the wedding house, nobody was happy.",
+            "There was so much work at the wedding house that everyone left early."
+          ],
+          "correctAnswer": "Even though there was a lot of work at the wedding house, everyone was happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maduvege yaava udugore kodona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hosa samsaarakke upayogavaaguva vastu kodona, adu olleyadu.",
+            "Maduve tumba chennagi aayitu, aadare oota tadavaagi bantu.",
+            "Nanage udugore aarisalu samaya sigalilla, kshamisi."
+          ],
+          "correctAnswer": "Hosa samsaarakke upayogavaaguva vastu kodona, adu olleyadu.",
+          "translatedSentence": "Let us give something useful for their new home, that would be best."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maduve mugida mele naavu ellaru jothe photo tegisikondevu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the wedding was over we all had a photo taken together.",
+            "Before the wedding started we all had a photo taken together.",
+            "After the wedding was over we all went home together."
+          ],
+          "correctAnswer": "After the wedding was over we all had a photo taken together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namma hosa manege gruhapravesha ide, neevu kutumba sameta barabeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khandita barutteve, dinaanka mattu vilaasa kalisi.",
+            "Khandita barutteve, aadare namage hosa mane sigalilla.",
+            "Namma hosa mane Cubbon Park hattira ide."
+          ],
+          "correctAnswer": "Khandita barutteve, dinaanka mattu vilaasa kalisi.",
+          "translatedSentence": "We will certainly come, please send the date and the address."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kelasa iddaddarinda nimma maguvina huttuhabbakke bara aagalilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Because I had work I could not come to your child's birthday.",
+            "Because I had work I did not want to come to your child's birthday.",
+            "I came to your child's birthday after finishing my work."
+          ],
+          "correctAnswer": "Because I had work I could not come to your child's birthday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maduve mugida mele Bengaluru ge yaavaga vaapas hoguttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sombaara belagge bus nalli vaapas hoguttene.",
+            "Sombaara belagge naanu maduvege hoguttene.",
+            "Kaleda vaara naanu Bengaluru inda bandiddene."
+          ],
+          "correctAnswer": "Sombaara belagge bus nalli vaapas hoguttene.",
+          "translatedSentence": "I will go back by bus on Monday morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naavu chikkavaraagiddaaga habbagalu innu chennagi iddavu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When we were small the festivals were even nicer.",
+            "When we were small we did not celebrate any festivals.",
+            "Even now the festivals are as nice as they used to be."
+          ],
+          "correctAnswer": "When we were small the festivals were even nicer."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Munde varsha Dasarakke ellaru jothe Mysuru ge hogona, enantira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Olleya yochane, aa dinagalige eegale room book maadona.",
+            "Olleya yochane, aadare ninne naavu Mysuru inda bandevu.",
+            "Nanage Mysuru gottilla, naanu alli maduvege hogidde."
+          ],
+          "correctAnswer": "Olleya yochane, aa dinagalige eegale room book maadona.",
+          "translatedSentence": "Good idea, let us book a room for those days right away."
+        }
+      ]
+    }
+  ]
+}

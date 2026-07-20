@@ -1,0 +1,719 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onam aashamsakal!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ningalkkum Onam aashamsakal!",
+            "Enikku sugamilla.",
+            "Njaan veetil pokunnu."
+          ],
+          "correctAnswer": "Ningalkkum Onam aashamsakal!",
+          "translatedSentence": "Happy Onam to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu Onam aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Onam.",
+            "Tomorrow is Onam.",
+            "Yesterday was Onam."
+          ],
+          "correctAnswer": "Today is Onam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku sugamaano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku sugamaanu.",
+            "Onam nallathaanu.",
+            "Njaan innu varunnilla."
+          ],
+          "correctAnswer": "Enikku sugamaanu.",
+          "translatedSentence": "I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ellavarkkum Vishu aashamsakal.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Happy Vishu to everyone.",
+            "Happy Onam to everyone.",
+            "Happy Vishu to you."
+          ],
+          "correctAnswer": "Happy Vishu to everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Entha vishesham?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishesham onnum illa.",
+            "Enikku athu ariyilla.",
+            "Njaan ivide illa."
+          ],
+          "correctAnswer": "Vishesham onnum illa.",
+          "translatedSentence": "Nothing much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan nalla Onam aashamsikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I wish you a happy Onam.",
+            "I celebrated Onam at home.",
+            "I am going home for Onam."
+          ],
+          "correctAnswer": "I wish you a happy Onam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Christmas aashamsakal, chetta!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ningalkkum aashamsakal, ketto!",
+            "Njaan pallikku pokunnu.",
+            "Enikku samayam illa."
+          ],
+          "correctAnswer": "Ningalkkum aashamsakal, ketto!",
+          "translatedSentence": "The same to you as well!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu enikku valiya santhosham undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very sad today.",
+            "I was very happy yesterday."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal Onam aaghoshikkunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ate, njaan ellaa kollavum aaghoshikkunnu.",
+            "Illa, enikku ippol vishakkunnu.",
+            "Ate, ente veedu Kochiyil aanu."
+          ],
+          "correctAnswer": "Ate, njaan ellaa kollavum aaghoshikkunnu.",
+          "translatedSentence": "Yes, I celebrate it every year."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "When the festivals fall",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Onam Chingam maasathil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onam falls in the month of Chingam.",
+            "Onam falls in the month of Medam.",
+            "Vishu falls in the month of Chingam."
+          ],
+          "correctAnswer": "Onam falls in the month of Chingam."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vishu eppol aanu varunnathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vishu Medam onnaam thiyathi aanu.",
+            "Vishu Chingam maasathil aanu.",
+            "Vishu ente ishta aaghosham aanu."
+          ],
+          "correctAnswer": "Vishu Medam onnaam thiyathi aanu.",
+          "translatedSentence": "Vishu is on the first day of Medam."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Christmas December irupathanchinu aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Christmas is on the twenty-fifth of December.",
+            "Christmas is on the fifth of December.",
+            "Christmas was on the twenty-fifth of December."
+          ],
+          "correctAnswer": "Christmas is on the twenty-fifth of December."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalude naattil ethu aaghosham aanu valuthu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njangalude naattil Onam aanu valiya aaghosham.",
+            "Njangalude naattil mazha kooduthal aanu.",
+            "Njangalude naattilekku bus illa."
+          ],
+          "correctAnswer": "Njangalude naattil Onam aanu valiya aaghosham.",
+          "translatedSentence": "In our home town Onam is the big celebration."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Onam patthu divasam neelunna aaghosham aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onam is a celebration that lasts ten days.",
+            "Onam is a celebration that lasts four days.",
+            "Onam is a celebration that comes in ten days."
+          ],
+          "correctAnswer": "Onam is a celebration that lasts ten days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Thiruvathira eppozha varika?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thiruvathira Dhanu maasathil varum.",
+            "Thiruvathira Onathinu munpu varum.",
+            "Thiruvathira sthreekalude aaghosham aanu."
+          ],
+          "correctAnswer": "Thiruvathira Dhanu maasathil varum.",
+          "translatedSentence": "Thiruvathira comes in the month of Dhanu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kollam Onam September maasathil aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This year Onam is in September.",
+            "This year Onam is in August.",
+            "Last year Onam was in September."
+          ],
+          "correctAnswer": "This year Onam is in September."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onathinu ningal evideyaanu pokaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Njaan naattilekku pokum, athaanu pathivu.",
+            "Njaan onnum kazhichilla.",
+            "Enikku pookkalam idaan ariyilla."
+          ],
+          "correctAnswer": "Njaan naattilekku pokum, athaanu pathivu.",
+          "translatedSentence": "I go to my home town; that is the usual thing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vishu kazhinjaal njangal Thiruvananthapurathekku pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After Vishu we will go to Thiruvananthapuram.",
+            "Before Vishu we will go to Thiruvananthapuram.",
+            "After Onam we will go to Kochi."
+          ],
+          "correctAnswer": "After Vishu we will go to Thiruvananthapuram."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onathinu ente veettilekku varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theerchayayum njaan varum.",
+            "Enikku ningalude veedu ariyilla.",
+            "Njaan innale ivide vannu."
+          ],
+          "correctAnswer": "Theerchayayum njaan varum.",
+          "translatedSentence": "I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njangalude veettil valiya sadya undu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a big feast at our house.",
+            "There is a big feast at your house.",
+            "We are going to a big feast."
+          ],
+          "correctAnswer": "There is a big feast at our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku naale varaan pattumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamikkanam, naale enikku pattilla.",
+            "Ate, njaan innale vannirunnu.",
+            "Enikku sadya undakkan ariyilla."
+          ],
+          "correctAnswer": "Kshamikkanam, naale enikku pattilla.",
+          "translatedSentence": "Sorry, I cannot make it tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kudumbam muzhuvan varanam, ketto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The whole family must come, alright?",
+            "The whole family came, right?",
+            "You alone must come, alright?"
+          ],
+          "correctAnswer": "The whole family must come, alright?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ethra manikku njangal varanam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uchakku pantrandu manikku varanam.",
+            "Njangal KSRTC bus il varum.",
+            "Enikku vazhi ariyilla."
+          ],
+          "correctAnswer": "Uchakku pantrandu manikku varanam.",
+          "translatedSentence": "Please come at twelve noon."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Njaan ningale sadyakku kshanikkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to the feast.",
+            "I am going to the feast with you.",
+            "I invited you to the feast."
+          ],
+          "correctAnswer": "I am inviting you to the feast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Varunnathinu munpu enne vilikkumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ate, njaan vilichittu varaam.",
+            "Illa, njaan innale vilichirunnu.",
+            "Ate, ningalude veedu adutha thanne aanu."
+          ],
+          "correctAnswer": "Ate, njaan vilichittu varaam.",
+          "translatedSentence": "Yes, I will call before I come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nammalkku onnichu pookkalam idaam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us make the flower carpet together.",
+            "Let us eat the feast together.",
+            "We made the flower carpet together."
+          ],
+          "correctAnswer": "Let us make the flower carpet together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Varaan pattiyillenkil enne ariyikkanam, ketto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theerchayayum, njaan ariyikkam.",
+            "Njaan sadya kazhichu kazhinju.",
+            "Ente phone veettil aanu."
+          ],
+          "correctAnswer": "Theerchayayum, njaan ariyikkam.",
+          "translatedSentence": "Of course, I will let you know."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Sweets and festival food",
+      "questions": [
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amma sadyakku payasam undakkunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making payasam for the feast.",
+            "Mother made payasam for the feast.",
+            "Mother is making appam for the feast."
+          ],
+          "correctAnswer": "Mother is making payasam for the feast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku ethu payasam aanu ishtam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Enikku ada pradhaman aanu ishtam.",
+            "Enikku meen curry aanu ishtam.",
+            "Enikku payasam undakkan ariyilla."
+          ],
+          "correctAnswer": "Enikku ada pradhaman aanu ishtam.",
+          "translatedSentence": "I like ada pradhaman the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Vishuvinu njangal puttum kadalayum kazhikkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "For Vishu we eat puttu and chickpea curry.",
+            "For Onam we eat puttu and chickpea curry.",
+            "For Vishu we make puttu and appam."
+          ],
+          "correctAnswer": "For Vishu we eat puttu and chickpea curry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sadyakku ethra kootan undu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ettu kootanum randu payasavum undu.",
+            "Sadya uchakku aanu vilambuka.",
+            "Enikku nannayi vishakkunnu."
+          ],
+          "correctAnswer": "Ettu kootanum randu payasavum undu.",
+          "translatedSentence": "There are eight side dishes and two payasams."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee payasathinu madhuram kurachu kooduthal aanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This payasam is a little too sweet.",
+            "This payasam is not sweet enough.",
+            "This payasam has a little too much salt."
+          ],
+          "correctAnswer": "This payasam is a little too sweet."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku kurachu koodi payasam venamo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Venda, enikku mathi aayi, nandi.",
+            "Njaan payasam undakkiyilla.",
+            "Payasam adukkalayil illa."
+          ],
+          "correctAnswer": "Venda, enikku mathi aayi, nandi.",
+          "translatedSentence": "No thank you, I have had enough."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Achan ellavarkkum chaya undakki kondu vannu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Father made tea and brought it for everyone.",
+            "Mother made tea and brought it for everyone.",
+            "Father drank tea along with everyone."
+          ],
+          "correctAnswer": "Father made tea and brought it for everyone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaru aanu ee sadya undakkiyathu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ammayum chechiyum koodi undakkiyathaanu.",
+            "Sadya vazhayilayil vilambi.",
+            "Njangal ellavarum sadya kazhichu."
+          ],
+          "correctAnswer": "Ammayum chechiyum koodi undakkiyathaanu.",
+          "translatedSentence": "Mother and my elder sister made it together."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Onasadya vazhayilayil thanne vilambanam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Onam feast must be served on a banana leaf itself.",
+            "The Onam feast is usually served on a plate.",
+            "The Onam feast was served on a banana leaf."
+          ],
+          "correctAnswer": "The Onam feast must be served on a banana leaf itself."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Onathinu puthiya udupu vaangiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ate, Kochiyile oru kadayil ninnu vaangi.",
+            "Njaan innale kadayil poyilla.",
+            "Udupinu ippol vila valare kooduthal aanu."
+          ],
+          "correctAnswer": "Ate, Kochiyile oru kadayil ninnu vaangi.",
+          "translatedSentence": "Yes, I bought it from a shop in Kochi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ammakku njaan oru sari sammanamayi kodukkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will give my mother a sari as a gift.",
+            "My mother will give me a sari as a gift.",
+            "I gave my mother a sari as a gift."
+          ],
+          "correctAnswer": "I will give my mother a sari as a gift."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kollam kaineettam kittiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ate, muthashan nooru rupa thannu.",
+            "Kaineettam Vishu divasam aanu kodukkuka.",
+            "Njaan muthashante veettil poyilla."
+          ],
+          "correctAnswer": "Ate, muthashan nooru rupa thannu.",
+          "translatedSentence": "Yes, grandfather gave me a hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee Onathinu kudumbam muzhuvan veettil ottu koodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This Onam the whole family gathered at home.",
+            "This Onam the whole family went out somewhere.",
+            "Last Onam the whole family gathered at home."
+          ],
+          "correctAnswer": "This Onam the whole family gathered at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Njaan tanna sammanam ishtappetto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Valare ishtappettu, orupadu nandi.",
+            "Njaan kadayil ninnu onnum vaangiyilla.",
+            "Sammanam mezhayude mele undu."
+          ],
+          "correctAnswer": "Valare ishtappettu, orupadu nandi.",
+          "translatedSentence": "I liked it very much, thank you so much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kuttikalkku puthiya udupum mittayiyum kittum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The children get new clothes and sweets.",
+            "The children got new clothes and sweets.",
+            "The children want new clothes and sweets."
+          ],
+          "correctAnswer": "The children get new clothes and sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee kollam ellavarum veettil varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chettante kudumbam varum, pakshe chechi varilla.",
+            "Veedu Thiruvananthapurathu aanu.",
+            "Njaan innale veettil ninnu irangi."
+          ],
+          "correctAnswer": "Chettante kudumbam varum, pakshe chechi varilla.",
+          "translatedSentence": "My elder brother's family will come, but my elder sister will not."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Muthashi ellavarkkum oro sammanam kodukkum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Grandmother gives everyone a gift each.",
+            "Grandmother gave everyone a gift each.",
+            "Grandmother wants a gift from everyone."
+          ],
+          "correctAnswer": "Grandmother gives everyone a gift each."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningal ente kude kadayilekku varunnundo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Undu, enikkum kurachu saadhanam vaanganam.",
+            "Kada innu adachittundu ennu thonnunnu.",
+            "Njaan kadayil ninnu chaya kudichu."
+          ],
+          "correctAnswer": "Undu, enikkum kurachu saadhanam vaanganam.",
+          "translatedSentence": "Yes, I also need to buy a few things."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ente aniyante kalyanam adutha maasam aanu, ningal varumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theerchayayum varum, karanam njaan avane kure naalayi kandittilla.",
+            "Kalyanam kazhinju poyi, athukondu njaan varunnilla.",
+            "Ente aniyan Kochiyil aanu joli cheyyunnathu."
+          ],
+          "correctAnswer": "Theerchayayum varum, karanam njaan avane kure naalayi kandittilla.",
+          "translatedSentence": "I will certainly come, because I have not seen him in a long time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanam Thiruvananthapurathe oru kalyana mandapathil aanu nadakkunnathu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wedding is taking place at a wedding hall in Thiruvananthapuram.",
+            "The wedding took place at a wedding hall in Thiruvananthapuram.",
+            "The wedding is taking place at a temple in Thiruvananthapuram."
+          ],
+          "correctAnswer": "The wedding is taking place at a wedding hall in Thiruvananthapuram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ningalkku KSRTC bus il varaan pattumo, allengil njaan car ayakkano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus il varaam, pakshe stand il ninnu enne edukkanam.",
+            "Enikku car odikkan ariyilla, athukondu njaan nadannu varum.",
+            "Njaan innale bus il Kochiyilekku poyirunnu."
+          ],
+          "correctAnswer": "Bus il varaam, pakshe stand il ninnu enne edukkanam.",
+          "translatedSentence": "I can come by bus, but you will have to pick me up from the stand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mazha undayirunnenkilum ellavarum sadyakku ethiyirunnu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Even though it was raining, everyone had come for the feast.",
+            "Because it was raining, nobody came for the feast.",
+            "If it rains, everyone will come for the feast."
+          ],
+          "correctAnswer": "Even though it was raining, everyone had come for the feast."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalyanathinu enthu udukkanam ennu enikku ariyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Set saree uduthaal mathi, athu kalyanathinu nannayi chernnu pokum.",
+            "Enikkum ariyilla, athukondu njaan kalyanathinu varunnilla.",
+            "Ee udupu njaan innale kadayil ninnu vaangiyathaanu."
+          ],
+          "correctAnswer": "Set saree uduthaal mathi, athu kalyanathinu nannayi chernnu pokum.",
+          "translatedSentence": "Just wear a set saree; it suits a wedding very well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kalyanam kazhinjittu njangal ellavarum backwaters kaanan pokum.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the wedding all of us will go to see the backwaters.",
+            "Before the wedding all of us will go to see the backwaters.",
+            "After the wedding all of us went to see the backwaters."
+          ],
+          "correctAnswer": "After the wedding all of us will go to see the backwaters."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kalyana photo ayachu tharumo, enikku varaan pattiyilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Theerchayayum ayachu tharaam, ningale kaanaathathil vishamam undu.",
+            "Photo onnum njaan eduthittilla, camera veettil aayirunnu.",
+            "Kalyanam nalla rasamayirunnu ennu ellavarum parayunnu."
+          ],
+          "correctAnswer": "Theerchayayum ayachu tharaam, ningale kaanaathathil vishamam undu.",
+          "translatedSentence": "I will certainly send them; I was sad that you could not be there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aashamsakal parayaan njaan vilichirunnu, pakshe ningal phone eduthilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I had called to give you my wishes, but you did not pick up the phone.",
+            "I had called to give you my wishes, and you picked up the phone.",
+            "You had called to give me your wishes, but I did not pick up the phone."
+          ],
+          "correctAnswer": "I had called to give you my wishes, but you did not pick up the phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Adutha Onathinu njaan ningalude veettil vannaal budhimuttavumo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Budhimuttonnum illa, ningal vannaal njangalkku valiya santhosham aanu.",
+            "Njangalude veedu Kochiyil ninnu valare akale aanu.",
+            "Adutha Onathinu njangal puthiya udupu vaangum."
+          ],
+          "correctAnswer": "Budhimuttonnum illa, ningal vannaal njangalkku valiya santhosham aanu.",
+          "translatedSentence": "It is no trouble at all; we would be very happy if you came."
+        }
+      ]
+    }
+  ]
+}

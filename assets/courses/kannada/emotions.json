@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenu ivattu khushiyaagiddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu khushiyaagiddini.",
+            "Illa, nanage bejaar aagide.",
+            "Naanu ivattu manege hogtini."
+          ],
+          "correctAnswer": "Houdu, naanu khushiyaagiddini.",
+          "translatedSentence": "Yes, I am happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage tumba khushi aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy.",
+            "I am very tired.",
+            "I am very angry."
+          ],
+          "correctAnswer": "I am very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu nanage bejaar aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yaake, enu aaytu?",
+            "Tumba chennagide, dhanyavaadagalu.",
+            "Naanu filter kaapi kudiyutteene."
+          ],
+          "correctAnswer": "Yaake, enu aaytu?",
+          "translatedSentence": "Why, what happened?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avanige tumba bejaar aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is feeling very sad.",
+            "He is feeling very happy.",
+            "He is feeling very tired."
+          ],
+          "correctAnswer": "He is feeling very sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu ivattu tumba khushi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanagoo khushi aaytu.",
+            "Nanage bejaar aagtide.",
+            "Naanu kelasa maadtini."
+          ],
+          "correctAnswer": "Nanagoo khushi aaytu.",
+          "translatedSentence": "That makes me happy too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna gelatige swalpa bejaar aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is a little sad.",
+            "My friend is a little tired.",
+            "My friend is very sad."
+          ],
+          "correctAnswer": "My friend is a little sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake nagta iddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee kathe tumba tamaashe.",
+            "Nanage bejaar aagide.",
+            "Naanu ivattu maatadalla."
+          ],
+          "correctAnswer": "Ee kathe tumba tamaashe.",
+          "translatedSentence": "This story is really funny."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ivattu khushi illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am not happy today.",
+            "I am not sad today.",
+            "I am not tired today."
+          ],
+          "correctAnswer": "I am not happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu pareekshe alli paas aade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumba santosha, abhinandanegalu!",
+            "Bejaar maadikobedi.",
+            "Nanage gottilla."
+          ],
+          "correctAnswer": "Tumba santosha, abhinandanegalu!",
+          "translatedSentence": "That is wonderful, congratulations!"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired, angry, scared",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage tumba sustaagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Swalpa vishranti tegedukolli.",
+            "Innu swalpa kelasa maadi.",
+            "Nanage kopa bandide."
+          ],
+          "correctAnswer": "Swalpa vishranti tegedukolli.",
+          "translatedSentence": "Take a little rest."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage nidde saakagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not had enough sleep.",
+            "I do not feel like sleeping.",
+            "I did not sleep at all."
+          ],
+          "correctAnswer": "I have not had enough sleep."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yaake ninage kopa bandide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "BMTC bus tumba tadavaagi bantu.",
+            "Nanage tumba khushi aagide.",
+            "Naanu ivattu chennagiddini."
+          ],
+          "correctAnswer": "BMTC bus tumba tadavaagi bantu.",
+          "translatedSentence": "The BMTC bus came very late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kattalu andare nanage bhaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am scared of the dark.",
+            "I am scared of dogs.",
+            "I do not like the dark."
+          ],
+          "correctAnswer": "I am scared of the dark."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee cinema nodi nanage bhaya aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanagoo bhaya aaytu.",
+            "Nanage tumba khushi aaytu.",
+            "Naanu ee cinema nodilla."
+          ],
+          "correctAnswer": "Nanagoo bhaya aaytu.",
+          "translatedSentence": "I felt scared too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ee kelasa tumba bejaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I find this work very boring.",
+            "I find this work very hard.",
+            "I like this work a lot."
+          ],
+          "correctAnswer": "I find this work very boring."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenu yaake summane kulitiddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage bejaru aagtide.",
+            "Nanage kopa illa.",
+            "Naanu oota maadtini."
+          ],
+          "correctAnswer": "Nanage bejaru aagtide.",
+          "translatedSentence": "I am feeling bored."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Avarige nanna mele kopa bandide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They are angry with me.",
+            "I am angry with them.",
+            "They are happy with me."
+          ],
+          "correctAnswer": "They are angry with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu bhaya padabedi, naanu iddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nimma jothe iddare nanage bhaya illa.",
+            "Nanage innu tumba bhaya aagtide.",
+            "Naanu obbane manege hogtini."
+          ],
+          "correctAnswer": "Nimma jothe iddare nanage bhaya illa.",
+          "translatedSentence": "When you are with me I am not afraid."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how they feel",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu hege iddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu chennagiddini, dhanyavaadagalu.",
+            "Naanu eega manege hogtini.",
+            "Nanage adu gottilla."
+          ],
+          "correctAnswer": "Naanu chennagiddini, dhanyavaadagalu.",
+          "translatedSentence": "I am doing well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenu ivattu hegiddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you today?",
+            "How are you all today?",
+            "Where are you going today?"
+          ],
+          "correctAnswer": "How are you today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninna mukha yaake bejaaraagide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ondu kettha suddi bantu.",
+            "Nanage ondu olleya suddi bantu.",
+            "Naanu chennagi nidde maadide."
+          ],
+          "correctAnswer": "Nanage ondu kettha suddi bantu.",
+          "translatedSentence": "I got some bad news."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimage eega parvagilla tane?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are feeling better now, right?",
+            "You are not well at all, right?",
+            "Are you feeling worse now?"
+          ],
+          "correctAnswer": "You are feeling better now, right?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enaaytu, yaake maatadutilla?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage maatadoke manasilla.",
+            "Nanage nimma jothe maatadabeku.",
+            "Naanu nimma jothe bartini."
+          ],
+          "correctAnswer": "Nanage maatadoke manasilla.",
+          "translatedSentence": "I do not feel like talking."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma amma eega hege iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your mother doing now?",
+            "Where is your mother now?",
+            "Who is with your mother now?"
+          ],
+          "correctAnswer": "How is your mother doing now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage enaadaru sahaaya beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, swalpa sahaaya beku.",
+            "Houdu, nanage kopa bandide.",
+            "Illa, naanu ninage sahaaya maadtini."
+          ],
+          "correctAnswer": "Houdu, swalpa sahaaya beku.",
+          "translatedSentence": "Yes, I could use a little help."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yaake ivattu tumba sustaagi kanistiddiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Why do you look so tired today?",
+            "Why do you look so happy today?",
+            "Why are you so late today?"
+          ],
+          "correctAnswer": "Why do you look so tired today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu chinte maadtiddira anta nanage anistide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, nanage swalpa chinte ide.",
+            "Illa, nanage nidde bartide.",
+            "Houdu, nanage tumba khushi aagide."
+          ],
+          "correctAnswer": "Houdu, nanage swalpa chinte ide.",
+          "translatedSentence": "Yes, I am a little worried."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting and encouraging",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage ee kelasa maadoke aagalla anta bhaya.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinte maadbedi, neenu khandita maadtiya.",
+            "Houdu, ninage idu tumba kashta.",
+            "Naanu kooda ee kelasa maadalla."
+          ],
+          "correctAnswer": "Chinte maadbedi, neenu khandita maadtiya.",
+          "translatedSentence": "Do not worry, you will definitely manage it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chinte maadbedi, ellaa sariyaagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not worry, everything will be fine.",
+            "Do not be angry, everything will be fine.",
+            "Do not worry, everything is over now."
+          ],
+          "correctAnswer": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu pareekshe alli fail aade, tumba bejaar aagtide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, munde chennagi maadtiya.",
+            "Nanage kooda pareekshe tumba kashta aaytu.",
+            "Baa, naavu cinema ge hogona."
+          ],
+          "correctAnswer": "Parvagilla, munde chennagi maadtiya.",
+          "translatedSentence": "It is all right, you will do well next time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neenu obbane illa, naanu ninna jothe iddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are not alone, I am with you.",
+            "You are alone, but I will come soon.",
+            "I am with you, so do not go alone."
+          ],
+          "correctAnswer": "You are not alone, I am with you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanna maatu yaaroo keluvudilla anta anistide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu yaavaagalu ninna maatu kelthini.",
+            "Neenu tumba jaasti maataduttiya.",
+            "Nanage ninna maatu artha aagalla."
+          ],
+          "correctAnswer": "Naanu yaavaagalu ninna maatu kelthini.",
+          "translatedSentence": "I always listen to what you say."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Swalpa vishranti tegedukolli, aamele chennagirutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Take some rest, you will feel better afterwards.",
+            "Take some rest, then we will go out.",
+            "Do a little work, then you will feel better."
+          ],
+          "correctAnswer": "Take some rest, you will feel better afterwards."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage munde enu maadabeku anta gottilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinte beda, naavu jothe yochane maadona.",
+            "Nanagoo gottilla, naanu hogtini.",
+            "Neenu yaavaagalu haage helthiya."
+          ],
+          "correctAnswer": "Chinte beda, naavu jothe yochane maadona.",
+          "translatedSentence": "No need to worry, let us think it through together."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Neevu tumba chennagi maadidiri, nanage hemme aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You did very well, I am proud of you.",
+            "You did very well, but I am not surprised.",
+            "You did it wrong, and I am upset with you."
+          ],
+          "correctAnswer": "You did very well, I am proud of you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu nanage tumba obbantana anistide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baa, naavu Cubbon Park ge hogona.",
+            "Nanage kooda ivattu samaya illa.",
+            "Neenu manele iru, parvagilla."
+          ],
+          "correctAnswer": "Baa, naavu Cubbon Park ge hogona.",
+          "translatedSentence": "Come on, let us go to Cubbon Park."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage masala dose ista aaytha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, tumba ruchiyaagitthu.",
+            "Illa, nanage eega hasivu illa.",
+            "Nanage bisi bele bath beku."
+          ],
+          "correctAnswer": "Houdu, tumba ruchiyaagitthu.",
+          "translatedSentence": "Yes, it was really tasty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ragi mudde andare tumba ista.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really like ragi mudde.",
+            "I do not like ragi mudde at all.",
+            "I want ragi mudde right now."
+          ],
+          "correctAnswer": "I really like ragi mudde."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beligge nimage kaapi beka, chaha beka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage filter kaapi saaku.",
+            "Nanage yaavudoo bekilla, dhanyavaadagalu.",
+            "Nanage kaapi ista illa."
+          ],
+          "correctAnswer": "Nanage filter kaapi saaku.",
+          "translatedSentence": "Filter coffee will do for me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ee shabda ista illa, tale novu bartide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like this noise, I am getting a headache.",
+            "I do not like this noise, I want to sleep.",
+            "I like this song, but I have a headache."
+          ],
+          "correctAnswer": "I do not like this noise, I am getting a headache."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naaley Mysuru ge hogona anta ide, neenu barthiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, khandita bartini, nanage tumba khushi.",
+            "Illa, nanage Mysuru daari gottilla.",
+            "Naanu Bengaluru alli kelasa maadtini."
+          ],
+          "correctAnswer": "Houdu, khandita bartini, nanage tumba khushi.",
+          "translatedSentence": "Yes, I will definitely come, I am so happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage swalpa vishranti beku, aadare samaya illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little rest, but there is no time.",
+            "I need a little rest, and I do have time.",
+            "I do not need rest, but I have no time."
+          ],
+          "correctAnswer": "I need a little rest, but there is no time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninage ivattu enu maadabeku anta ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage manele iddu cinema nodabeku anta ide.",
+            "Nanage ivattu yaavude kelasa illa.",
+            "Naanu ninne cinema nodide."
+          ],
+          "correctAnswer": "Nanage manele iddu cinema nodabeku anta ide.",
+          "translatedSentence": "I feel like staying home and watching a movie."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage Bengaluru male ista, aadare traffic ista illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like the Bengaluru rain, but I do not like the traffic.",
+            "I like Bengaluru, but there is too much rain.",
+            "I do not like the rain or the traffic in Bengaluru."
+          ],
+          "correctAnswer": "I like the Bengaluru rain, but I do not like the traffic."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neenu yaavaagalu khushiyaagi irabeku anta nanna aase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adannu kelidre nanage tumba santosha aagutte.",
+            "Nanage ninna mele swalpa kopa ide.",
+            "Naanu ninage adannu helalilla."
+          ],
+          "correctAnswer": "Adannu kelidre nanage tumba santosha aagutte.",
+          "translatedSentence": "Hearing that makes me very happy."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nanage ee yojane sariyaagilla anta anistutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanagoo haage anistutte, aadare bere daari illa.",
+            "Nanage haage anisalla, adu tumba chennagide.",
+            "Nanage ee bagge yaavude abhipraaya illa."
+          ],
+          "correctAnswer": "Nanagoo haage anistutte, aadare bere daari illa.",
+          "translatedSentence": "I feel the same way, but there is no other option."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tadavaagiddakke kshamisi, BMTC bus tumba tadavaagi bantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry for being late, the BMTC bus was very delayed.",
+            "Sorry, I forgot, and the BMTC bus never came.",
+            "Excuse me, is the BMTC bus running late today?"
+          ],
+          "correctAnswer": "Sorry for being late, the BMTC bus was very delayed."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma maatu nanage novu maadithu, adakke naanu maatadalilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, naanu haage helabaaradittu.",
+            "Naanu tamaashege helide, neevu bejaar maadikondiri.",
+            "Nanage gottilla, neevu yaake haage helthiddira?"
+          ],
+          "correctAnswer": "Kshamisi, naanu haage helabaaradittu.",
+          "translatedSentence": "I am sorry, I should not have said that."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu kopadalli maatadide, adakke eega bejaar aagtide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I spoke in anger, and now I feel bad about it.",
+            "I spoke angrily because I was already feeling bad.",
+            "I did not speak in anger, so I feel fine now."
+          ],
+          "correctAnswer": "I spoke in anger, and now I feel bad about it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu heliddu nanage oppige illa, aadare nimma abhipraaya arthavaagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla, naavu bere bere reeti yochane maadabahudu.",
+            "Haagaadre nimma jothe maatadoke nanage ista illa.",
+            "Dhanyavaadagalu, naanu nimma maatige oppthini."
+          ],
+          "correctAnswer": "Parvagilla, naavu bere bere reeti yochane maadabahudu.",
+          "translatedSentence": "That is fine, we are allowed to think differently."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninne naanu nimage novu maadidre, dayavittu kshamisi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I hurt you yesterday, please forgive me.",
+            "If you hurt me yesterday, please tell me.",
+            "I hurt you yesterday, and I am very sorry."
+          ],
+          "correctAnswer": "If I hurt you yesterday, please forgive me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu tappu maadide, nannannu kshamisuttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parvagilla bidi, ellaa mareti hogona.",
+            "Illa, nanage innu nimma mele kopa ide.",
+            "Nimma tappu enu anta nanage gottilla."
+          ],
+          "correctAnswer": "Parvagilla bidi, ellaa mareti hogona.",
+          "translatedSentence": "It is all right, let it go, let us forget the whole thing."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimma kopa nanage arthavaagutte, aadare naanu bekantale maadilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I understand your anger, but I did not do it on purpose.",
+            "I understand your anger, and I did do it on purpose.",
+            "I do not understand why you are angry with me."
+          ],
+          "correctAnswer": "I understand your anger, but I did not do it on purpose."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naavu ondu filter kaapi kudidu ee vishaya mugisona.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Olleya yochane, naanu nimma jothe bartini.",
+            "Nanage kaapi ista illa, naanu manege hogtini.",
+            "Illa, nanage innu ee bagge maatadoke ista illa."
+          ],
+          "correctAnswer": "Olleya yochane, naanu nimma jothe bartini.",
+          "translatedSentence": "Good idea, I will come along with you."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain ko subhakamana!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tapailai pani subhakamana!",
+            "Namaste, ma sanchai chu.",
+            "Ma pani ghar jaanchu."
+          ],
+          "correctAnswer": "Tapailai pani subhakamana!",
+          "translatedSentence": "Best wishes to you too!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaja Tihar ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Tihar.",
+            "Tomorrow is Tihar.",
+            "Today is Dashain."
+          ],
+          "correctAnswer": "Today is Tihar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapailai chad ramro lagyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho, dherai ramro lagyo.",
+            "Ho, ma ghar gaye.",
+            "Hoina, khana mitho thiyo."
+          ],
+          "correctAnswer": "Ho, dherai ramro lagyo.",
+          "translatedSentence": "Yes, I liked it a lot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaja ghar ma puja cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a puja at home today.",
+            "There is a puja at home tomorrow.",
+            "There is a party at home today."
+          ],
+          "correctAnswer": "There is a puja at home today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kaha jaadai hunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma ghar jaadai chu.",
+            "Ma ghar ma chu.",
+            "Ghar najik cha."
+          ],
+          "correctAnswer": "Ma ghar jaadai chu.",
+          "translatedSentence": "I am going home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma Dashain manaunchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I celebrate Dashain.",
+            "I celebrate Tihar.",
+            "I like Dashain."
+          ],
+          "correctAnswer": "I celebrate Dashain."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timi sanchai chau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sanchai chu.",
+            "Ma chad manaunchu.",
+            "Timro ghar ramro cha."
+          ],
+          "correctAnswer": "Ma sanchai chu.",
+          "translatedSentence": "I am fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chad ekdam ramro cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The festival is very nice.",
+            "The festival is very big.",
+            "The food is very nice."
+          ],
+          "correctAnswer": "The festival is very nice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tihar kahile ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bholi ho.",
+            "Ghar ma ho.",
+            "Ramro cha."
+          ],
+          "correctAnswer": "Bholi ho.",
+          "translatedSentence": "It is tomorrow."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Big festivals and dates",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain kun mahina ma parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dashain sadhai Asoj ya Kartik mahina ma parcha.",
+            "Dashain sadhai Falgun mahina ma parcha.",
+            "Dashain sadhai barsa ma dui choti parcha."
+          ],
+          "correctAnswer": "Dashain sadhai Asoj ya Kartik mahina ma parcha.",
+          "translatedSentence": "Dashain always falls in the month of Asoj or Kartik."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tihar Dashain ko thorai pachi aaucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tihar comes a little after Dashain.",
+            "Tihar comes a little before Dashain.",
+            "Tihar comes a month after Holi."
+          ],
+          "correctAnswer": "Tihar comes a little after Dashain."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Holi kahile manaincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Holi basanta ritu ma, Falgun mahina ma manaincha.",
+            "Holi jada ko bela, Push mahina ma manaincha.",
+            "Holi barsat ma, Sawan mahina ma manaincha."
+          ],
+          "correctAnswer": "Holi basanta ritu ma, Falgun mahina ma manaincha.",
+          "translatedSentence": "Holi is celebrated in spring, in the month of Falgun."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Losar himali samudaya ko naya barsa ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Losar is the new year of the Himalayan communities.",
+            "Losar is the new year of the whole country.",
+            "Losar is a harvest festival of the Himalayan communities."
+          ],
+          "correctAnswer": "Losar is the new year of the Himalayan communities."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain kati din samma chalcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dashain pandhra din samma chalcha.",
+            "Dashain tin din samma chalcha.",
+            "Dashain ek mahina samma chalcha."
+          ],
+          "correctAnswer": "Dashain pandhra din samma chalcha.",
+          "translatedSentence": "Dashain goes on for fifteen days."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tihar panch din ko chad ho ra tesma kag, kukur ra gai lai puja garincha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tihar is a five day festival, and crows, dogs and cows are worshipped in it.",
+            "Tihar is a three day festival, and crows, dogs and cows are worshipped in it.",
+            "Tihar is a five day festival, and only cows are worshipped in it."
+          ],
+          "correctAnswer": "Tihar is a five day festival, and crows, dogs and cows are worshipped in it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko ghar ma sabai bhanda thulo chad kun ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hamro ghar ma Dashain nai sabai bhanda thulo chad ho.",
+            "Hamro ghar ma Holi nai sabai bhanda thulo chad ho.",
+            "Hamro ghar ma Losar nai sabai bhanda thulo chad ho."
+          ],
+          "correctAnswer": "Hamro ghar ma Dashain nai sabai bhanda thulo chad ho.",
+          "translatedSentence": "In our house Dashain is the biggest festival of all."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dashain ko bela Kathmandu khali huncha kinabhane dherai manche gaon farkanchan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During Dashain Kathmandu goes quiet because many people go back to their villages.",
+            "During Dashain Kathmandu gets crowded because many people come in from their villages.",
+            "During Tihar Kathmandu goes quiet because many people go back to their villages."
+          ],
+          "correctAnswer": "During Dashain Kathmandu goes quiet because many people go back to their villages."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aba arko chad kahile aaucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Arko mahina Tihar aaucha.",
+            "Arko mahina Dashain sakincha.",
+            "Hijo nai chad sakiyo."
+          ],
+          "correctAnswer": "Arko mahina Tihar aaucha.",
+          "translatedSentence": "Tihar comes next month."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi hamro ghar ma khana khana aunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, ma jarur aauchu.",
+            "Huncha, ma hijo aaeko thiye.",
+            "Aile ma khana khadai chu."
+          ],
+          "correctAnswer": "Huncha, ma jarur aauchu.",
+          "translatedSentence": "Sure, I will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tapai lai hamro Dashain ko khana ma nimto cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are invited to our Dashain meal.",
+            "We are invited to your Dashain meal.",
+            "You are invited to our Tihar meal."
+          ],
+          "correctAnswer": "You are invited to our Dashain meal."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bholi ko bhoj ma timi aauchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aauchu ni, kati baje ho?",
+            "Aaunu huncha ni, kati baje ho?",
+            "Ma bhoj ma aaeko thiye."
+          ],
+          "correctAnswer": "Aauchu ni, kati baje ho?",
+          "translatedSentence": "Of course I will come, what time is it at?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maph garnus, bholi ma aauna saktina kinabhane malai kaam cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sorry, I cannot come tomorrow because I have work.",
+            "Sorry, I cannot come today because I have work.",
+            "Sorry, I will not come tomorrow because I am unwell."
+          ],
+          "correctAnswer": "Sorry, I cannot come tomorrow because I have work."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai kati baje aunuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ma sanjha panch baje samma aaipugchu.",
+            "Ma sanjha panch baje samma aaipugeko thiye.",
+            "Malai panch jana manche chahiyo."
+          ],
+          "correctAnswer": "Ma sanjha panch baje samma aaipugchu.",
+          "translatedSentence": "I will get there by five in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaunda kehi lyaunu pardaina, tapai aae pugcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You do not need to bring anything, it is enough that you come.",
+            "You need to bring something, it is not enough that you come.",
+            "You do not need to bring anything, but please come early."
+          ],
+          "correctAnswer": "You do not need to bring anything, it is enough that you come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapaiko shrimati ra chora chori lai pani lyaunus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, hami sabai jana milera aauchau.",
+            "Dhanyabad, ma eklai matra aaeko thiye.",
+            "Huncha, ma tapai lai bholi bolauchu."
+          ],
+          "correctAnswer": "Dhanyabad, hami sabai jana milera aauchau.",
+          "translatedSentence": "Thank you, we will all come together."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro ghar Thamel bata micro bus ma pandhra minute matra ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Our house is only fifteen minutes from Thamel by micro bus.",
+            "Our house is only fifty minutes from Thamel by micro bus.",
+            "Our house is only fifteen minutes from Thamel on foot."
+          ],
+          "correctAnswer": "Our house is only fifteen minutes from Thamel by micro bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimto ko lagi dherai dhanyabad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kehi chaina, hami tapai lai parkhirakhchau.",
+            "Dhanyabad, ma pani tapai lai nimto dinchu.",
+            "Maph garnus, malai nimto aaeko thaha thiena."
+          ],
+          "correctAnswer": "Kehi chaina, hami tapai lai parkhirakhchau.",
+          "translatedSentence": "Not at all, we will be waiting for you."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain ma tapaiko ghar ma ke ke pakcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hamro ghar ma masu, bhat ra sel roti pakcha.",
+            "Hamro ghar ma chiya ra momo matra pakcha.",
+            "Hamro ghar ma kehi pani pakdaina."
+          ],
+          "correctAnswer": "Hamro ghar ma masu, bhat ra sel roti pakcha.",
+          "translatedSentence": "At our house we cook meat, rice and sel roti."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sel roti chamal ko pitho bata banaincha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sel roti is made from rice flour.",
+            "Sel roti is made from wheat flour.",
+            "Sel roti is made from corn flour."
+          ],
+          "correctAnswer": "Sel roti is made from rice flour."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai lai sel roti man parcha ki jeri man parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Malai sel roti besi man parcha, tara jeri pani mitho huncha.",
+            "Malai sel roti pani man pardaina, jeri pani man pardaina.",
+            "Malai sel roti chahiyo, ali ali chiya pani chahiyo."
+          ],
+          "correctAnswer": "Malai sel roti besi man parcha, tara jeri pani mitho huncha.",
+          "translatedSentence": "I like sel roti more, but jeri is tasty too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tihar ma aama le sel roti ra anarsa banaunu huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During Tihar my mother makes sel roti and anarsa.",
+            "During Tihar my mother buys sel roti and anarsa.",
+            "During Dashain my mother makes sel roti and anarsa."
+          ],
+          "correctAnswer": "During Tihar my mother makes sel roti and anarsa."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo mithai kasari banaeko, ekdam mitho cha ta!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dudh ra chini le banaeko, ghar mai banaeko ho.",
+            "Bazar bata kineko ho, ma le khaeko chaina.",
+            "Malai pani mitho lagyo, tapai le banaunus na."
+          ],
+          "correctAnswer": "Dudh ra chini le banaeko, ghar mai banaeko ho.",
+          "translatedSentence": "It is made with milk and sugar, made right here at home."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hamro pahuna ko lagi ma le dal bhat ra tarkari pakae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cooked dal bhat and vegetables for our guest.",
+            "I cooked dal bhat and vegetables for our neighbour.",
+            "Our guest cooked dal bhat and vegetables for me."
+          ],
+          "correctAnswer": "I cooked dal bhat and vegetables for our guest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ali ali aru khanus na, thorai matra khanu bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyabad, tara ma le dherai khae, aba pugcha.",
+            "Dhanyabad, malai bhok lageko chaina tara ma khadai chu.",
+            "Huncha, ma aile khana pakauna thalchu."
+          ],
+          "correctAnswer": "Dhanyabad, tara ma le dherai khae, aba pugcha.",
+          "translatedSentence": "Thank you, but I have eaten a lot, that is enough now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chad ko bela Kathmandu ka pasal ma mithai kinne manche ko lam huncha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At festival time there are queues of people buying sweets in the shops of Kathmandu.",
+            "At festival time the shops of Kathmandu run out of sweets.",
+            "At festival time there are queues of people buying clothes in the shops of Kathmandu."
+          ],
+          "correctAnswer": "At festival time there are queues of people buying sweets in the shops of Kathmandu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khana pachi chiya khanuhuncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Huncha, ek cup chiya bhaye ramro huncha.",
+            "Huncha, malai dui plate momo chahiyo.",
+            "Hoina, ma chiya banauna jandina."
+          ],
+          "correctAnswer": "Huncha, ek cup chiya bhaye ramro huncha.",
+          "translatedSentence": "Yes please, a cup of tea would be nice."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dashain ko lagi naya lugga kinyau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kinye ni, hijo Thamel gaera kinye.",
+            "Kinnu bhayo ni, hijo Thamel gaera kinnu bhayo.",
+            "Malai naya lugga lagauna man parcha."
+          ],
+          "correctAnswer": "Kinye ni, hijo Thamel gaera kinye.",
+          "translatedSentence": "I did, I went to Thamel yesterday and bought some."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dashain ma thulo manche le sana lai tika ra dakshina dinchan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "During Dashain the elders give tika and money to the younger ones.",
+            "During Dashain the younger ones give tika and money to the elders.",
+            "During Dashain the elders give new clothes and money to the younger ones."
+          ],
+          "correctAnswer": "During Dashain the elders give tika and money to the younger ones."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo tapai ko lagi sano upahar ho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ho ra? Yesto garnu pardainthyo, dherai dhanyabad.",
+            "Ho ra? Ma le tapai lai upahar dina birse.",
+            "Malai upahar man pardaina, maph garnus."
+          ],
+          "correctAnswer": "Ho ra? Yesto garnu pardainthyo, dherai dhanyabad.",
+          "translatedSentence": "Really? You did not have to do this, thank you so much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chad ma sabai jana gaon ma jamma hunchan ra rat bhari gaph garchan.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At festival time everyone gathers in the village and chats all night.",
+            "At festival time everyone gathers in the city and chats all night.",
+            "At festival time everyone gathers in the village and dances all night."
+          ],
+          "correctAnswer": "At festival time everyone gathers in the village and chats all night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Timro didi bahini pani aaeka chan?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Didi ta aaunu bhayo, tara bahini kaam ko karan aauna sakina.",
+            "Didi ra bahini duitai bholi Pokhara jaadai chan.",
+            "Ma didi bahini sanga bhetna gaeko thiye."
+          ],
+          "correctAnswer": "Didi ta aaunu bhayo, tara bahini kaam ko karan aauna sakina.",
+          "translatedSentence": "My older sister came, but my younger sister could not come because of work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ma le hajur buwa lai naya dhaka topi kinera diye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I bought a new dhaka topi for my grandfather and gave it to him.",
+            "I bought a new dhaka topi for my grandmother and gave it to her.",
+            "My grandfather bought a new dhaka topi and gave it to me."
+          ],
+          "correctAnswer": "I bought a new dhaka topi for my grandfather and gave it to him."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kina naya lugga lagaunu bhaeko chaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bholi Tihar ko din lagaune bicharma chu, tesaile aaja lagaeko chaina.",
+            "Naya lugga hijo nai lagaisake, tesaile aba pheri kinnu parcha.",
+            "Malai naya lugga man pardaina bhanera ma le kinina."
+          ],
+          "correctAnswer": "Bholi Tihar ko din lagaune bicharma chu, tesaile aaja lagaeko chaina.",
+          "translatedSentence": "I am planning to wear them tomorrow on Tihar, so I have not worn them today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hami dui barsa pachi bhetyau, tesaile aama ekdam khusi hunu bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We met after two years, so my mother was very happy.",
+            "We met after two years, but my mother was not happy.",
+            "We met after two months, so my mother was very happy."
+          ],
+          "correctAnswer": "We met after two years, so my mother was very happy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Yo upahar timi lai, khusi bhayeu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dherai khusi bhaye, malai thik yestai chahiyeko thiyo!",
+            "Khusi chu, tara ma le yo hijo nai kineko thiye.",
+            "Malai upahar kholna aile fursad chaina."
+          ],
+          "correctAnswer": "Dherai khusi bhaye, malai thik yestai chahiyeko thiyo!",
+          "translatedSentence": "I am very happy, this is exactly what I wanted!"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mero bahini ko bihe arko mahina Pokhara ma cha, tapai aaunuhuncha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aauchu ni, tara sanjha samma matra baschu kinabhane bholi kaam cha.",
+            "Aaunu huncha ni, tara sanjha samma matra basnu huncha.",
+            "Bihe ma jana man cha tara ma hijo nai Pokhara bata farke."
+          ],
+          "correctAnswer": "Aauchu ni, tara sanjha samma matra baschu kinabhane bholi kaam cha.",
+          "translatedSentence": "I will come, but I can only stay till evening because I have work the next day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bihe ko bhoj ma janu bhanda aghi ma le naya daura suruwal silaeko thiye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Before going to the wedding feast, I had a new daura suruwal tailored.",
+            "Before going to the wedding feast, I bought a new daura suruwal.",
+            "After the wedding feast, I had a new daura suruwal tailored."
+          ],
+          "correctAnswer": "Before going to the wedding feast, I had a new daura suruwal tailored."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Janti kati baje hidcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bihana das baje hidcha, tesaile tapai nau baje samma aaunus.",
+            "Bihana das baje hidcha, tesaile tapai hijo nai pugnu bhayo.",
+            "Janti hideko bela ma ma ghar mai thiye."
+          ],
+          "correctAnswer": "Bihana das baje hidcha, tesaile tapai nau baje samma aaunus.",
+          "translatedSentence": "It leaves at ten in the morning, so please get there by nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Yadi pani paryo bhane, bihe ko karyakram ghar bhitrai garne hami le socheka chau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains, we plan to hold the wedding programme indoors.",
+            "If it rains, we plan to move the wedding programme to the next day.",
+            "Because it rained, we held the wedding programme indoors."
+          ],
+          "correctAnswer": "If it rains, we plan to hold the wedding programme indoors."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihe ko upahar ma ke lyaunu ramro holla?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nagad paisa nai thik huncha, tara sano upahar diye pani huncha.",
+            "Khana lyaunu parcha kinabhane bhoj ma khana pugdaina.",
+            "Kehi lyaunu pardaina kinabhane bihe ma upahar dine chalan chaina."
+          ],
+          "correctAnswer": "Nagad paisa nai thik huncha, tara sano upahar diye pani huncha.",
+          "translatedSentence": "Cash is the safest thing, but a small gift is fine too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bihe sakiye pachi sabai roye, kinabhane chori maiti ghar chodera jandai thii.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After the wedding ended everyone cried, because the daughter was leaving her parents home.",
+            "After the wedding ended everyone laughed, because the daughter was leaving her parents home.",
+            "Before the wedding began everyone cried, because the daughter was leaving her parents home."
+          ],
+          "correctAnswer": "After the wedding ended everyone cried, because the daughter was leaving her parents home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihe ko bhoj kasto lagyo tapai lai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khana ta mitho thiyo, tara manche dherai bhayera ali bhid thiyo.",
+            "Bhoj ma ma pugna sakina kinabhane bhoj bholi matra huncha.",
+            "Bhoj arko hapta cha, tesaile ma aile Pokhara ma chu."
+          ],
+          "correctAnswer": "Khana ta mitho thiyo, tara manche dherai bhayera ali bhid thiyo.",
+          "translatedSentence": "The food was tasty, but there were so many people that it was a bit crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Hami le bihe ko photo herera rat bhari gaph garyau ra bihana matra sutna gayau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We looked at the wedding photos and chatted all night, and only went to sleep in the morning.",
+            "We looked at the wedding photos and chatted all night, but went to sleep early.",
+            "We looked at the wedding photos in the morning and then went to sleep."
+          ],
+          "correctAnswer": "We looked at the wedding photos and chatted all night, and only went to sleep in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tapai lai hamro chora ko bratabandha ma nimto cha, aaunu parcha hai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jarur aauchu, kaam milaera ma bihana nai pugchu.",
+            "Aauna man ta cha, tara bratabandha hijo nai sakiyo hoina ra?",
+            "Dhanyabad, tara ma bihe ma jana sakdina."
+          ],
+          "correctAnswer": "Jarur aauchu, kaam milaera ma bihana nai pugchu.",
+          "translatedSentence": "I will definitely come, I will sort out my work and be there in the morning."
+        }
+      ]
+    }
+  ]
+}

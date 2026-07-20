@@ -1,0 +1,721 @@
+{
+  "course": "emotions",
+  "title": "Feelings",
+  "description": "Say how you feel and respond when someone else does.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Happy and sad",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki aaj khushi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami khub khushi.",
+            "Na, ami cha khabo.",
+            "Ha, ami Kolkata thaki."
+          ],
+          "correctAnswer": "Ha, ami khub khushi.",
+          "translatedSentence": "Yes, I am very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj amar mon kharap.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I feel sad today.",
+            "I feel great today.",
+            "I am busy today."
+          ],
+          "correctAnswer": "I feel sad today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar mon kharap kano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar bondhu chole gyache.",
+            "Ami kal Kolkata jabo.",
+            "Ha, ami khub bhalo achi."
+          ],
+          "correctAnswer": "Amar bondhu chole gyache.",
+          "translatedSentence": "My friend has gone away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami aaj khub khushi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy today.",
+            "I am very sad today.",
+            "I am very tired today."
+          ],
+          "correctAnswer": "I am very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar khub mon kharap lagche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kano, ki hoyeche?",
+            "Tomar naam ki?",
+            "Ami ekhon bhaat khabo."
+          ],
+          "correctAnswer": "Kano, ki hoyeche?",
+          "translatedSentence": "Why, what happened?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Se aaj khub khushi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "He is very happy today.",
+            "He is very sad today.",
+            "He is at home today."
+          ],
+          "correctAnswer": "He is very happy today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami aaj khub bhalo achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bah, khub bhalo!",
+            "Ish, kharap khobor.",
+            "Na, ami jani na."
+          ],
+          "correctAnswer": "Bah, khub bhalo!",
+          "translatedSentence": "Oh, that is great!"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bondhur mon kharap.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is sad.",
+            "My friend is happy.",
+            "My friend is at home."
+          ],
+          "correctAnswer": "My friend is sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ki mon kharap?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ektu mon kharap.",
+            "Ha, ami cha khete bhalobashi.",
+            "Na, ami Kolkata jabo."
+          ],
+          "correctAnswer": "Ha, ektu mon kharap.",
+          "translatedSentence": "Yes, I am a little sad."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Tired and angry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki khub klanto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami khub klanto.",
+            "Ha, ami khub khushi.",
+            "Na, ami cha khai na."
+          ],
+          "correctAnswer": "Ha, ami khub klanto.",
+          "translatedSentence": "Yes, I am very tired."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami sara din kaj kore khub klanto.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I worked all day and I am very tired.",
+            "I worked all day and I am very happy.",
+            "I stayed at home all day and I am bored."
+          ],
+          "correctAnswer": "I worked all day and I am very tired."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki amar upor rege acho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ami rege nei.",
+            "Ha, ami khub klanto.",
+            "Na, ami ekhon bari jabo."
+          ],
+          "correctAnswer": "Na, ami rege nei.",
+          "translatedSentence": "No, I am not angry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bhai amar upor khub rege ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My brother is very angry with me.",
+            "My brother is very happy with me.",
+            "My brother is very tired today."
+          ],
+          "correctAnswer": "My brother is very angry with me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ekhane eto ondhokar, amar bhoy korche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhoy peo na, ami achi.",
+            "Ha, ami khub khushi.",
+            "Na, ami alo jalate jani na."
+          ],
+          "correctAnswer": "Bhoy peo na, ami achi.",
+          "translatedSentence": "Do not be scared, I am here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami raate ekla thakte bhoy pai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am scared to stay alone at night.",
+            "I am happy to stay alone at night.",
+            "I do not like going out at night."
+          ],
+          "correctAnswer": "I am scared to stay alone at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi eto chup kore acho kano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar kichhu bhalo lagche na.",
+            "Ami Kolkata theke esechi.",
+            "Ha, cha ta khub bhalo."
+          ],
+          "correctAnswer": "Amar kichhu bhalo lagche na.",
+          "translatedSentence": "I do not feel like doing anything."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Barite boshe boshe amar khub ekghyeye lagche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sitting at home all the time is making me really bored.",
+            "Sitting at home all the time is making me really happy.",
+            "Working at home all the time is making me really tired."
+          ],
+          "correctAnswer": "Sitting at home all the time is making me really bored."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki bhoy pele?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami ektu bhoy pelam.",
+            "Na, ami khub rege achi.",
+            "Na, ami kichhu jani na."
+          ],
+          "correctAnswer": "Ha, ami ektu bhoy pelam.",
+          "translatedSentence": "Yes, I got a little scared."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking how you feel",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni kemon achen?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami bhalo achi, dhonnobad.",
+            "Apnar naam ki?",
+            "Ami cha khete bhalobashi."
+          ],
+          "correctAnswer": "Ami bhalo achi, dhonnobad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apnar shorir ekhon kemon ache?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How are you feeling now?",
+            "Where are you going now?",
+            "What are you doing now?"
+          ],
+          "correctAnswer": "How are you feeling now?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ki mon kharap, na ki shudhu klanto?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Shudhu klanto, ar kichhu na.",
+            "Ha, ami khub rege achi.",
+            "Na, ami bhoy pai na."
+          ],
+          "correctAnswer": "Shudhu klanto, ar kichhu na.",
+          "translatedSentence": "Just tired, nothing else."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aaj apnake ektu mon mora lagche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You look a little down today.",
+            "You look a little tired today.",
+            "You look very happy today."
+          ],
+          "correctAnswer": "You look a little down today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ki holo, tomake eto chintito lagche kano?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kalke amar porikkha, tai chinta hochche.",
+            "Ha, ami kal Howrah jabo.",
+            "Amar bari ekhan theke onek dure."
+          ],
+          "correctAnswer": "Kalke amar porikkha, tai chinta hochche.",
+          "translatedSentence": "I have an exam tomorrow, so I am worried."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apni ki thik achen, na ki daktar dakbo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Are you all right, or should I call a doctor?",
+            "Are you ready, or should I wait outside?",
+            "Are you coming, or should I go alone?"
+          ],
+          "correctAnswer": "Are you all right, or should I call a doctor?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ekhon kemon bodh korcho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ager theke onek bhalo lagche.",
+            "Ami kal theke asbo.",
+            "Amar bari Kolkatay."
+          ],
+          "correctAnswer": "Ager theke onek bhalo lagche.",
+          "translatedSentence": "I feel much better than before."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tomar kichhu darkar hole amake bolo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tell me if you need anything.",
+            "Tell me when you reach home.",
+            "Ask me if you do not know the way."
+          ],
+          "correctAnswer": "Tell me if you need anything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar mon ki ekhono kharap?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Na, ekhon ar kharap lagche na.",
+            "Ha, ami kal office jabo.",
+            "Na, ami cha khai na."
+          ],
+          "correctAnswer": "Na, ekhon ar kharap lagche na.",
+          "translatedSentence": "No, I do not feel bad any more."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Comforting a friend",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar khub chinta hochche, ki hobe jani na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta koro na, sob thik hoye jabe.",
+            "Ha, ami o kichhu jani na.",
+            "Tahole ami ekhon bari jai."
+          ],
+          "correctAnswer": "Chinta koro na, sob thik hoye jabe.",
+          "translatedSentence": "Do not worry, everything will be fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mon kharap koro na, ami tomar pashe achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not be sad, I am here beside you.",
+            "Do not be angry, I will call you later.",
+            "Do not go alone, I will come with you."
+          ],
+          "correctAnswer": "Do not be sad, I am here beside you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mone hochche ami porikkhay bhalo korte parbo na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumi niscoi parbe, ektu cheshta koro.",
+            "Tahole tumi porikkha diyo na.",
+            "Ami o eibar kichhu porini."
+          ],
+          "correctAnswer": "Tumi niscoi parbe, ektu cheshta koro.",
+          "translatedSentence": "You will definitely manage it, just try a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eto bhebo na, kalke sob thik hoye jabe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not think so much, everything will be fine tomorrow.",
+            "Do not come so late, everything will be closed tomorrow.",
+            "Do not worry, I will finish all the work tomorrow."
+          ],
+          "correctAnswer": "Do not think so much, everything will be fine tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar chakri chole gyache, ki korbo bujhte parchi na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kono byapar na, tumi notun kaj peye jabe.",
+            "Tumi ki tahole Kolkata chere jabe?",
+            "Ami kal theke notun kaj shuru korechi."
+          ],
+          "correctAnswer": "Kono byapar na, tumi notun kaj peye jabe.",
+          "translatedSentence": "It is all right, you will find a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kendo na, amake sob khule bolo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Do not cry, tell me everything.",
+            "Do not shout, listen to me first.",
+            "Do not go now, wait for me here."
+          ],
+          "correctAnswer": "Do not cry, tell me everything."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aajkal ami khub ekla bodh korchi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cholo, kal amra ekshathe ghurte jai.",
+            "Tahole tumi ekla thako.",
+            "Ami o tomar kotha bhabini."
+          ],
+          "correctAnswer": "Cholo, kal amra ekshathe ghurte jai.",
+          "translatedSentence": "Come on, let us go out together tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tumi onek kichhu korecho, nijer upor bishwas rakho.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You have done a lot, believe in yourself.",
+            "You have worked a lot, take some rest now.",
+            "You have helped me a lot, thank you very much."
+          ],
+          "correctAnswer": "You have done a lot, believe in yourself."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami baar baar bhul korchi, nijer upor raag hochche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sobai bhul kore, nijer upor raag koro na.",
+            "Ha, tumi sotti onek bhul koro.",
+            "Ami tomar kotha bujhte parchi na."
+          ],
+          "correctAnswer": "Sobai bhul kore, nijer upor raag koro na.",
+          "translatedSentence": "Everyone makes mistakes, do not be angry with yourself."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Likes and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ki macher jhol bhalo lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, amar macher jhol khub bhalo lage.",
+            "Na, ami mach dhorte jai na.",
+            "Ha, ami ekhon rannaghore achi."
+          ],
+          "correctAnswer": "Ha, amar macher jhol khub bhalo lage.",
+          "translatedSentence": "Yes, I like fish curry very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar bhalo lage na jokhon keu michhe kotha bole.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not like it when someone tells a lie.",
+            "I do not like it when someone arrives late.",
+            "I do not know when he will tell the truth."
+          ],
+          "correctAnswer": "I do not like it when someone tells a lie."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aaj sondhyay ki korte ichche korche?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ganga r pare boshe cha khete ichche korche.",
+            "Kal sokale ami office giyechilam.",
+            "Amar tram e uthte bhoy kore na."
+          ],
+          "correctAnswer": "Ganga r pare boshe cha khete ichche korche.",
+          "translatedSentence": "I feel like sitting by the Ganga and having tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami ekdin tram e chore sara Kolkata ghurte chai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One day I want to ride the tram all around Kolkata.",
+            "One day I want to walk across the Howrah bridge.",
+            "Every day I take the tram to go around Kolkata."
+          ],
+          "correctAnswer": "One day I want to ride the tram all around Kolkata."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar ki metro te jete bhalo lage, na ki bus e?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar metro te jete beshi bhalo lage.",
+            "Ami roj hente office jai.",
+            "Amar bus e uthte deri hoye jay."
+          ],
+          "correctAnswer": "Amar metro te jete beshi bhalo lage.",
+          "translatedSentence": "I prefer travelling by metro."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar mishti khub bhalo lage, kintu roj khai na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I love sweets, but I do not eat them every day.",
+            "I love sweets, but I cannot make them at home.",
+            "I like tea very much, but I do not drink it every day."
+          ],
+          "correctAnswer": "I love sweets, but I do not eat them every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tomar emon kono ichche ache ja ekhono puron hoyni?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, ami ekbar Darjeeling jete chai.",
+            "Ha, amar sob ichche puron hoye gyache.",
+            "Na, ami Darjeeling theke esechi."
+          ],
+          "correctAnswer": "Ha, ami ekbar Darjeeling jete chai.",
+          "translatedSentence": "Yes, I want to visit Darjeeling once."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar dupurbelay ghumote khub bhalo lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I really enjoy sleeping in the afternoon.",
+            "I really enjoy walking in the afternoon.",
+            "I really do not like waking up early."
+          ],
+          "correctAnswer": "I really enjoy sleeping in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi cha bhalobasho na coffee?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar cha i beshi bhalo lage.",
+            "Ami dudh diye bhaat khai.",
+            "Ami coffee banate jani na."
+          ],
+          "correctAnswer": "Amar cha i beshi bhalo lage.",
+          "translatedSentence": "I like tea more."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Opinions and apologies",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amar mone hoy Kolkatar tram ekhon bondho kore dewa uchit.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami ekmot noi, karon tram amader shohorer oitijjho.",
+            "Ha, ami kal tram e uthechilam.",
+            "Amar tram e uthte bhalo lage na."
+          ],
+          "correctAnswer": "Ami ekmot noi, karon tram amader shohorer oitijjho.",
+          "translatedSentence": "I do not agree, because the tram is part of our city's heritage."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apni thik i bolchen, kintu amar ektu onno mot ache.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You are right, but I have a slightly different opinion.",
+            "You are right, and I completely agree with you.",
+            "You are wrong, but I do not want to argue about it."
+          ],
+          "correctAnswer": "You are right, but I have a slightly different opinion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ami dukkhito, sedin apnar upor amar raag kora uchit hoyni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik ache, ami kichhu mone korini.",
+            "Ha, apni sotti khub kharap bolechen.",
+            "Ami apnar sathe ar kotha bolbo na."
+          ],
+          "correctAnswer": "Thik ache, ami kichhu mone korini.",
+          "translatedSentence": "It is all right, I did not take it to heart."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kal deri kore asar jonno ami sotti khub dukkhito.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am truly sorry for arriving late yesterday.",
+            "I am truly sorry that I could not come at all yesterday.",
+            "I am truly glad that you came early yesterday."
+          ],
+          "correctAnswer": "I am truly sorry for arriving late yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apnar ki mone hoy Howrah bridge e hente jawa nirapod?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tobe bhirer somoy ektu sabdhane jaben.",
+            "Na, ami Howrah station e kokhono jaini.",
+            "Ha, ami roj metro te office jai."
+          ],
+          "correctAnswer": "Ha, tobe bhirer somoy ektu sabdhane jaben.",
+          "translatedSentence": "Yes, but please be careful when it is crowded."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ami rege giyechilam bole oi kotha bolechilam, amake khoma koro.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I said that because I was angry, please forgive me.",
+            "I said that because I was worried, please do not be angry.",
+            "I said nothing to you because I was angry with him."
+          ],
+          "correctAnswer": "I said that because I was angry, please forgive me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi ki mone koro ami bhul korechi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bhul korecho thik i, kintu tumi sudhre nite paro.",
+            "Ha, ami tomar sathe kokhono ekmot noi.",
+            "Na, ami tomar kotha shunte pai ni."
+          ],
+          "correctAnswer": "Bhul korecho thik i, kintu tumi sudhre nite paro.",
+          "translatedSentence": "You did make a mistake, but you can still put it right."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi ami tomake kosto diye thaki, tahole ami sotti dukkhito.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I have hurt you, then I am truly sorry.",
+            "If you are angry with me, then please tell me now.",
+            "If I had known this, then I would not have come here."
+          ],
+          "correctAnswer": "If I have hurt you, then I am truly sorry."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apni ki ei byapare amar sathe ekmot?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Onekta ekmot, tobe sob byapare noi.",
+            "Ha, ami apnake chinte parchi na.",
+            "Na, ami ekhono kichhu i shunini."
+          ],
+          "correctAnswer": "Onekta ekmot, tobe sob byapare noi.",
+          "translatedSentence": "I agree with much of it, though not on everything."
+        }
+      ]
+    }
+  ]
+}

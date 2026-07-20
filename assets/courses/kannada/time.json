@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu yaava vaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ivattu Somavaara.",
+            "Ivattu nanna huttida dina.",
+            "Ivattu male ide."
+          ],
+          "correctAnswer": "Ivattu Somavaara.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naale Mangalavaara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tomorrow is Tuesday.",
+            "Today is Tuesday.",
+            "Yesterday was Tuesday."
+          ],
+          "correctAnswer": "Tomorrow is Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava vaara ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage Shanivaara ishta.",
+            "Nanage filter kaapi ishta.",
+            "Nanage Bengaluru tumba ishta."
+          ],
+          "correctAnswer": "Nanage Shanivaara ishta.",
+          "translatedSentence": "I like Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shanivaara nanage kelasa illa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have no work on Saturday.",
+            "I have work on Saturday.",
+            "Saturday is a holiday for everyone."
+          ],
+          "correctAnswer": "I have no work on Saturday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhanuvaara neenu ellige hoguttiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Cubbon Park ge hoguttene.",
+            "Bhanuvaara nanna ishtada dina.",
+            "Ivattu nanage raje illa."
+          ],
+          "correctAnswer": "Naanu Cubbon Park ge hoguttene.",
+          "translatedSentence": "I am going to Cubbon Park."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Guruvaara nanna Kannada taragati ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My Kannada class is on Thursday.",
+            "My Kannada class is on Friday.",
+            "I had my Kannada class on Thursday."
+          ],
+          "correctAnswer": "My Kannada class is on Thursday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaarakke eshtu dina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaarakke elu dina.",
+            "Vaarakke eradu dina.",
+            "Tingalige elu dina."
+          ],
+          "correctAnswer": "Vaarakke elu dina.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Budhavaara naanu Mysuru ge hoguttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to Mysuru on Wednesday.",
+            "I went to Mysuru on Wednesday.",
+            "I am going to Mysuru on Monday."
+          ],
+          "correctAnswer": "I am going to Mysuru on Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu Shanivaara alva?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ivattu Shukravaara.",
+            "Haudu, naanu chennagiddene.",
+            "Illa, nanage Shanivaara ishta illa."
+          ],
+          "correctAnswer": "Illa, ivattu Shukravaara.",
+          "translatedSentence": "No, today is Friday."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, later",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaavaga baruttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu naale baruttene.",
+            "Naanu nenne bande.",
+            "Naanu ivattu manele iddene."
+          ],
+          "correctAnswer": "Naanu naale baruttene.",
+          "translatedSentence": "I will come tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenne naanu Cubbon Park ge hode.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday I went to Cubbon Park.",
+            "Tomorrow I will go to Cubbon Park.",
+            "I go to Cubbon Park every day."
+          ],
+          "correctAnswer": "Yesterday I went to Cubbon Park."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eega enu maaduttidiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eega naanu filter kaapi kudiyuttidene.",
+            "Nenne naanu tumba kelasa maadide.",
+            "Naale naanu Mysuru ge hoguttene."
+          ],
+          "correctAnswer": "Eega naanu filter kaapi kudiyuttidene.",
+          "translatedSentence": "Right now I am drinking filter coffee."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aamele maatadona.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let's talk later.",
+            "Let's talk now.",
+            "We talked yesterday."
+          ],
+          "correctAnswer": "Let's talk later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu neenu kelasakke hoguttiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, ivattu nanage raje.",
+            "Haudu, nenne naanu hode.",
+            "Illa, naanu Mysuru ninda bande."
+          ],
+          "correctAnswer": "Illa, ivattu nanage raje.",
+          "translatedSentence": "No, today is my day off."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaditu nanna snehita Bengaluru ge baruttane.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My friend is coming to Bengaluru the day after tomorrow.",
+            "My friend came to Bengaluru yesterday.",
+            "My friend is going to Bengaluru tomorrow."
+          ],
+          "correctAnswer": "My friend is coming to Bengaluru the day after tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aa kelasa yaavaga maaduttiya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu adannu aamele maaduttene.",
+            "Aa kelasa nanage gottilla.",
+            "Naanu adannu chennagi maadide."
+          ],
+          "correctAnswer": "Naanu adannu aamele maaduttene.",
+          "translatedSentence": "I will do it later."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eega samaya illa, naale nodona.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no time now, let's look at it tomorrow.",
+            "There is time now, let's look at it today.",
+            "I have no work now, so let's meet tomorrow."
+          ],
+          "correctAnswer": "There is no time now, let's look at it tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenne raatri chennagi malagideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Haudu, tumba chennagi malagide.",
+            "Illa, naale naanu beega malaguttene.",
+            "Haudu, eega naanu malaguttidene."
+          ],
+          "correctAnswer": "Haudu, tumba chennagi malagide.",
+          "translatedSentence": "Yes, I slept very well."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eega gante eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eega gante ombattu.",
+            "Naanu ombattu gantege baruttene.",
+            "Nanna gadiyaara hosadu."
+          ],
+          "correctAnswer": "Eega gante ombattu.",
+          "translatedSentence": "It is nine o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus belagge elu gantege horaduttade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The bus leaves at seven in the morning.",
+            "The bus leaves at seven in the evening.",
+            "The bus arrives at seven in the morning."
+          ],
+          "correctAnswer": "The bus leaves at seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma office yaavaga shuru aaguttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Belagge ombattuvare gantege shuru aaguttade.",
+            "Nanna office Cubbon Park hattira ide.",
+            "Naanu BMTC bus nalli office ge hoguttene."
+          ],
+          "correctAnswer": "Belagge ombattuvare gantege shuru aaguttade.",
+          "translatedSentence": "It starts at half past nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu sanje aaru gantege manege baruttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get home at six in the evening.",
+            "I leave home at six in the evening.",
+            "I get home at six in the morning."
+          ],
+          "correctAnswer": "I get home at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sinima yaava samayakke shuru aaguttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Raatri ombattu gantege shuru aaguttade.",
+            "Aa sinima eradu gante ide.",
+            "Aa sinima tumba chennagide."
+          ],
+          "correctAnswer": "Raatri ombattu gantege shuru aaguttade.",
+          "translatedSentence": "It starts at nine at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna taragati madhyaahna eradu gantege ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My class is at two in the afternoon.",
+            "My class is at two at night.",
+            "My class finishes at two in the afternoon."
+          ],
+          "correctAnswer": "My class is at two in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, eega gante eshtu aagide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eega naalku gante ippattu nimisha.",
+            "Naanu naalku gantege bande.",
+            "Ivattu naalkaneya taariku."
+          ],
+          "correctAnswer": "Eega naalku gante ippattu nimisha.",
+          "translatedSentence": "It is twenty past four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage innu hattu nimisha beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need ten more minutes.",
+            "I waited for ten minutes.",
+            "I will come in ten minutes."
+          ],
+          "correctAnswer": "I need ten more minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "BMTC bus eshtu gantege baruttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus hannondu gantege baruttade.",
+            "Bus nildaana illi hattira ide.",
+            "Bus ivattu tumba tumbide."
+          ],
+          "correctAnswer": "Bus hannondu gantege baruttade.",
+          "translatedSentence": "The bus comes at eleven o'clock."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months, dates, seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma huttida dina yaava tingalalli baruttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna huttida dina Julai tingalalli baruttade.",
+            "Nanna huttida dina Shanivaara baruttade.",
+            "Naanu Julai nalli Mysuru ge hode."
+          ],
+          "correctAnswer": "Nanna huttida dina Julai tingalalli baruttade.",
+          "translatedSentence": "My birthday falls in the month of July."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Disembar nalli Bengaluru nalli chali jaasti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is very cold in Bengaluru in December.",
+            "It is very hot in Bengaluru in December.",
+            "It rains a lot in Bengaluru in December."
+          ],
+          "correctAnswer": "It is very cold in Bengaluru in December."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ivattu yaava taariku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ivattu hadinaidaneya taariku.",
+            "Ivattu Guruvaara.",
+            "Ivattu nanage raje ide."
+          ],
+          "correctAnswer": "Ivattu hadinaidaneya taariku.",
+          "translatedSentence": "Today is the fifteenth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Male kaala nalli Bengaluru tumba chennagi iruttade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bengaluru is lovely during the rainy season.",
+            "Bengaluru is very hot during the rainy season.",
+            "It rains in Bengaluru all through the year."
+          ],
+          "correctAnswer": "Bengaluru is lovely during the rainy season."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Beesige kaala nalli neevu enu maaduttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naavu prati beesige nalli Mysuru ge hoguttevi.",
+            "Beesige nalli tumba male baruttade.",
+            "Naanu Disembar nalli huttide."
+          ],
+          "correctAnswer": "Naavu prati beesige nalli Mysuru ge hoguttevi.",
+          "translatedSentence": "Every summer we go to Mysuru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna maduve Epril tingalalli ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My wedding is in the month of April.",
+            "My wedding was in the month of April.",
+            "My birthday is in the month of April."
+          ],
+          "correctAnswer": "My wedding is in the month of April."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Varshakke eshtu tingalu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Varshakke hanneradu tingalu.",
+            "Varshakke aidu tingalu.",
+            "Tingalige naalku vaara."
+          ],
+          "correctAnswer": "Varshakke hanneradu tingalu.",
+          "translatedSentence": "There are twelve months in a year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chali kaala nalli nanage bisi bele bath beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In the cold season I want bisi bele bath.",
+            "In the cold season I do not eat bisi bele bath.",
+            "In the summer season I want bisi bele bath."
+          ],
+          "correctAnswer": "In the cold season I want bisi bele bath."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaava tingalalli raje tegedukolluttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Aktobar nalli raje tegedukolluttene.",
+            "Naanu Somavaara raje tegedukolluttene.",
+            "Nanage ee varsha raje beda."
+          ],
+          "correctAnswer": "Naanu Aktobar nalli raje tegedukolluttene.",
+          "translatedSentence": "I take my holiday in October."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu belagge eshtu gantege eluttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu belagge aaru gantege eluttene.",
+            "Naanu raatri hattu gantege malaguttene.",
+            "Naanu belagge kaapi kudiyuvudilla."
+          ],
+          "correctAnswer": "Naanu belagge aaru gantege eluttene.",
+          "translatedSentence": "I get up at six in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu eddu koodale filter kaapi kudiyuttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "As soon as I wake up I drink filter coffee.",
+            "I drink filter coffee just before I sleep.",
+            "I make filter coffee for everyone in the morning."
+          ],
+          "correctAnswer": "As soon as I wake up I drink filter coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Belagge tindige enu tinnuttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu prati dina masala dose tinnuttene.",
+            "Naanu raatri uta maaduvudilla.",
+            "Nanage kaapi ginta chaha ishta."
+          ],
+          "correctAnswer": "Naanu prati dina masala dose tinnuttene.",
+          "translatedSentence": "I eat a masala dose every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu ombattu gantege BMTC bus nalli kelasakke hoguttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to work on the BMTC bus at nine o'clock.",
+            "I go to work on the BMTC bus at nine at night.",
+            "I walk to work every day at nine o'clock."
+          ],
+          "correctAnswer": "I go to work on the BMTC bus at nine o'clock."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Madhyaahna uta elli maaduttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu office hattira iruva ondu hotel nalli uta maaduttene.",
+            "Naanu raatri manele uta maaduttene.",
+            "Nanage madhyaahna hasivu jaasti."
+          ],
+          "correctAnswer": "Naanu office hattira iruva ondu hotel nalli uta maaduttene.",
+          "translatedSentence": "I have lunch at a small restaurant near the office."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanje kelasa mugida mele naanu Cubbon Park nalli nadeyuttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After work finishes in the evening I walk in Cubbon Park.",
+            "Before work starts in the evening I walk in Cubbon Park.",
+            "After work in the evening I go straight home and sleep."
+          ],
+          "correctAnswer": "After work finishes in the evening I walk in Cubbon Park."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Raatri eshtu gantege malaguttiri?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu saadhaaranavaagi hattuvare gantege malaguttene.",
+            "Naanu belagge beega eluttene.",
+            "Naanu raatri uta aada mele nadeyuttene."
+          ],
+          "correctAnswer": "Naanu saadhaaranavaagi hattuvare gantege malaguttene.",
+          "translatedSentence": "I usually go to bed by half past ten."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu prati Shanivaara mane kelasa maaduttene, aadare Bhanuvaara vishraanti tegedukolluttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do the housework every Saturday, but on Sunday I rest.",
+            "I do the housework every Sunday, but on Saturday I rest.",
+            "I do the housework on both Saturday and Sunday."
+          ],
+          "correctAnswer": "I do the housework every Saturday, but on Sunday I rest."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu prati dina vyaayaama maaduttira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, aadare naanu prati belagge swalpa nadeyuttene.",
+            "Haudu, nanage vyaayaama gottilla.",
+            "Illa, naanu ragi mudde tinnuvudilla."
+          ],
+          "correctAnswer": "Illa, aadare naanu prati belagge swalpa nadeyuttene.",
+          "translatedSentence": "No, but I walk a little every morning."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans, fixing times",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale sanje bhetiyaagona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naale aagalla, aadare Shanivaara khandita bhetiyaagona.",
+            "Nenne sanje naanu Cubbon Park nalli idde.",
+            "Aa sinima raatri hannondu gantege mugiyuttade."
+          ],
+          "correctAnswer": "Naale aagalla, aadare Shanivaara khandita bhetiyaagona.",
+          "translatedSentence": "Tomorrow will not work, but let's definitely meet on Saturday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage Guruvaara belagge daktar bheti ide, adarinda office ge tadavaagi baruttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a doctor's appointment on Thursday morning, so I will get to the office late.",
+            "I have a doctor's appointment on Thursday evening, so I will not come to the office.",
+            "I went to the doctor on Thursday morning and reached the office late."
+          ],
+          "correctAnswer": "I have a doctor's appointment on Thursday morning, so I will get to the office late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava samaya anukoola?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage sanje aidu gante aada mele anukoola.",
+            "Nanage ee jaaga tumba anukoola.",
+            "Naanu belagge tindi tinnuvudilla."
+          ],
+          "correctAnswer": "Nanage sanje aidu gante aada mele anukoola.",
+          "translatedSentence": "Any time after five in the evening suits me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimage samaya iddare, Bhanuvaara madhyaahna nanna manege uta ke banni.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, come to my place for lunch on Sunday afternoon.",
+            "If you have time, come to my place for dinner on Saturday night.",
+            "I will come to your place for lunch on Sunday afternoon."
+          ],
+          "correctAnswer": "If you have time, come to my place for lunch on Sunday afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshamisi, Shukravaara nanage aagolla, bere dina nodona?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Paravaagilla, haagadare Somavaara madhyaahna hege?",
+            "Paravaagilla, naanu Shukravaara sinima nodide.",
+            "Kshamisi, nanage Kannada swalpa maatra gottu."
+          ],
+          "correctAnswer": "Paravaagilla, haagadare Somavaara madhyaahna hege?",
+          "translatedSentence": "No problem, how about Monday afternoon then?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu manedinda horaduva munche nimage phone maaduttene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will call you before I leave the house.",
+            "I called you before I left the house.",
+            "Call me before you leave the house."
+          ],
+          "correctAnswer": "I will call you before I leave the house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sabhe eshtu hottu nadeyuttade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu gantege mugiyuttade anisuttade.",
+            "Sabhe nanna office nalli nadeyuttade.",
+            "Naanu aa sabhege hoguvudilla."
+          ],
+          "correctAnswer": "Ondu gantege mugiyuttade anisuttade.",
+          "translatedSentence": "I think it will be over in an hour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Male bandare naavu naale sinimakke hoguvudilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains we will not go to the movie tomorrow.",
+            "If it rains we will still go to the movie tomorrow.",
+            "It rained, so we did not go to the movie."
+          ],
+          "correctAnswer": "If it rains we will not go to the movie tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Haagadare naale hattu gantege sikona, sari na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sari, naanu sariyaagi hattu gantege bandu biduttene.",
+            "Sari, nenne nanage samaya illa ittu.",
+            "Sari, naanu prati dina hattu gantege malaguttene."
+          ],
+          "correctAnswer": "Sari, naanu sariyaagi hattu gantege bandu biduttene.",
+          "translatedSentence": "Fine, I will be there at ten sharp."
+        }
+      ]
+    }
+  ]
+}

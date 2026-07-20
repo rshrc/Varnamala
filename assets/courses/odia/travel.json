@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Bus, Train, Station",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kouthi jauchhanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Puri jauchhi.",
+            "Mu bus re asuchhi.",
+            "Mu station re achi."
+          ],
+          "correctAnswer": "Mu Puri jauchhi.",
+          "translatedSentence": "I am going to Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E bus kouthi jae?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "E bus Cuttack jae.",
+            "Mu bus re jauchhi.",
+            "Bus station pakhare achi."
+          ],
+          "correctAnswer": "E bus Cuttack jae.",
+          "translatedSentence": "This bus goes to Cuttack."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu train re Puri jauchhi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going to Puri by train.",
+            "I am going to Puri by bus.",
+            "I came to Puri by train."
+          ],
+          "correctAnswer": "I am going to Puri by train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Station kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Station ethi pakhare achi.",
+            "Station sakalu khule.",
+            "Mu station re kama kare."
+          ],
+          "correctAnswer": "Station ethi pakhare achi.",
+          "translatedSentence": "The station is near here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bus station kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Where is the bus station?",
+            "Where is the train station?",
+            "How far is the bus station?"
+          ],
+          "correctAnswer": "Where is the bus station?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana train re jauchhanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu bus re jauchhi.",
+            "Train station pakhare achi.",
+            "Mu train ra naam jane nahin."
+          ],
+          "correctAnswer": "Nahin, mu bus re jauchhi.",
+          "translatedSentence": "No, I am going by bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "E train Cuttack jae nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This train does not go to Cuttack.",
+            "This train goes to Cuttack.",
+            "This bus does not go to Cuttack."
+          ],
+          "correctAnswer": "This train does not go to Cuttack."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kete belaku jauchha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ebe jauchhi.",
+            "Mu bus re jauchhi.",
+            "Mu Cuttack jauchhi."
+          ],
+          "correctAnswer": "Mu ebe jauchhi.",
+          "translatedSentence": "I am going right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo bus ebe asuchhi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bus is coming now.",
+            "My bus is not coming.",
+            "My train is coming now."
+          ],
+          "correctAnswer": "My bus is coming now."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a Ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puri pain ticket kete taka?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ticket pachasa taka.",
+            "Ticket ghara ethi achi.",
+            "Ticket sakalu milibe."
+          ],
+          "correctAnswer": "Ticket pachasa taka.",
+          "translatedSentence": "The ticket costs fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote Puri pain dui ta ticket darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need two tickets to Puri.",
+            "I need one ticket to Puri.",
+            "I want to go to Puri by train."
+          ],
+          "correctAnswer": "I need two tickets to Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ticket ghara kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ticket ghara station bhitare achi.",
+            "Ticket ghara sata ta baje bandha hue.",
+            "Mu ticket katisarichi."
+          ],
+          "correctAnswer": "Ticket ghara station bhitare achi.",
+          "translatedSentence": "The ticket counter is inside the station."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train kete belaku chhadiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train sata ta baje chhadiba.",
+            "Train sidha Cuttack jae.",
+            "Train re bhida beshi achi."
+          ],
+          "correctAnswer": "Train sata ta baje chhadiba.",
+          "translatedSentence": "The train leaves at seven o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Arka bus kete belaku asiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What time will the next bus come?",
+            "Where will the next bus go?",
+            "How much is the next bus ticket?"
+          ],
+          "correctAnswer": "What time will the next bus come?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana aji jibe na kaali jibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu kaali sakalu jibi.",
+            "Mu bus re jibi.",
+            "Mu Bhubaneswar jibi."
+          ],
+          "correctAnswer": "Mu kaali sakalu jibi.",
+          "translatedSentence": "I will go tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu kaali sakalu sata ta train re jibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will go by the seven o'clock train tomorrow morning.",
+            "I will go by the seven o'clock bus tomorrow morning.",
+            "I went by the seven o'clock train this morning."
+          ],
+          "correctAnswer": "I will go by the seven o'clock train tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E ticket re mu Cuttack jai pariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, e ticket kebala Puri pain.",
+            "Ha, ticket ghara station bahare achi.",
+            "Nahin, mu Cuttack rasta jane nahin."
+          ],
+          "correctAnswer": "Nahin, e ticket kebala Puri pain.",
+          "translatedSentence": "No, this ticket is only for Puri."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ebe ticket nahin, sabu bikri hoigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are no tickets now, everything is sold out.",
+            "There are tickets now, but they are very expensive.",
+            "The tickets will be sold tomorrow morning."
+          ],
+          "correctAnswer": "There are no tickets now, everything is sold out."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Directions in the street",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jagannath mandira kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sidha jantu, mandira bama pate achi.",
+            "Mandira bahuta sundara achi.",
+            "Mu mandira bhitare achi."
+          ],
+          "correctAnswer": "Sidha jantu, mandira bama pate achi.",
+          "translatedSentence": "Go straight, the temple is on the left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ethu station kete dura achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How far is the station from here?",
+            "Which way is the station from here?",
+            "How do I go to the station from here?"
+          ],
+          "correctAnswer": "How far is the station from here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshama karantu, bus stand kou pate achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dahana pate jantu, bus stand pakhare achi.",
+            "Bus stand sakalu pachata baje khule.",
+            "Mu bus stand ru asuchhi."
+          ],
+          "correctAnswer": "Dahana pate jantu, bus stand pakhare achi.",
+          "translatedSentence": "Go to the right, the bus stand is nearby."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "E rasta station ku jae ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, e rasta sidha station ku jae.",
+            "Ha, station bhitare ticket ghara achi.",
+            "Nahin, e rasta bahuta bhala nahin."
+          ],
+          "correctAnswer": "Ha, e rasta sidha station ku jae.",
+          "translatedSentence": "Yes, this road goes straight to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ehi sahara jane nahin, tike sahajya karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this city, please help me a little.",
+            "I know this city well, so I can help you.",
+            "I do not know this road, please show me on the map."
+          ],
+          "correctAnswer": "I do not know this city, please help me a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ethi pakhare auto milibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tike age gale auto stand achi.",
+            "Ha, auto bhada ebe beshi achi.",
+            "Nahin, mu ebe auto re jauchhi."
+          ],
+          "correctAnswer": "Ha, tike age gale auto stand achi.",
+          "translatedSentence": "Yes, there is an auto stand a little ahead."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bama pate jantu, tapare dahana pate jantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Turn left, and after that turn right.",
+            "Turn right, and after that turn left.",
+            "Go straight, and after that turn left."
+          ],
+          "correctAnswer": "Turn left, and after that turn right."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chali chali jiba pain kete samaya lagiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chali chali dasa minute lagiba.",
+            "Auto bhada chalisha taka lagiba.",
+            "Rasta ebe bahuta bhala achi."
+          ],
+          "correctAnswer": "Chali chali dasa minute lagiba.",
+          "translatedSentence": "It takes ten minutes on foot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu bata bhuli gali, ebe kouthi jibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have lost my way, where should I go now?",
+            "I have found the way, so where should we go now?",
+            "I forgot the address, where do you want to go now?"
+          ],
+          "correctAnswer": "I have lost my way, where should I go now?"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Auto, Taxi and Fare",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Puri station jiba pain kete bhada hoba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sahe taka hoba, apana asantu.",
+            "Auto stand sidha rasta re achi.",
+            "Mu ebe Puri ru asuchhi."
+          ],
+          "correctAnswer": "Sahe taka hoba, apana asantu.",
+          "translatedSentence": "It will be one hundred rupees, please get in."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meter re chalantu, mu beshi paisa deba nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go by the meter, I will not pay more.",
+            "Go by the meter, I will pay you later.",
+            "Drive slowly, I will not pay you more."
+          ],
+          "correctAnswer": "Go by the meter, I will not pay more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana meter re jibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu meter re jae nahin.",
+            "Ha, mo auto bahuta purana achi.",
+            "Nahin, station ethi pakhare achi."
+          ],
+          "correctAnswer": "Nahin, mu meter re jae nahin.",
+          "translatedSentence": "No, I do not go by the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhada bahuta beshi lagucchi, tike kama karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, dasa taka kama karidebi.",
+            "Thik achi, mu ebe ghara jauchhi.",
+            "Ha, meter ebe thik chaluchhi."
+          ],
+          "correctAnswer": "Thik achi, dasa taka kama karidebi.",
+          "translatedSentence": "All right, I will reduce it by ten rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote Jagannath mandira pakhare chhadi dianthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please drop me near the Jagannath temple.",
+            "Please pick me up near the Jagannath temple.",
+            "Please take me inside the Jagannath temple."
+          ],
+          "correctAnswer": "Please drop me near the Jagannath temple."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kouthi rokibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ethi rokantu, mu ethi ohlaibi.",
+            "Auto bhada sahe taka lagiba.",
+            "Mandira bama pate rahichi."
+          ],
+          "correctAnswer": "Ethi rokantu, mu ethi ohlaibi.",
+          "translatedSentence": "Stop here, I will get down here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tike jore jantu, nahinle mo train chhadi jiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please go a little faster, otherwise my train will leave.",
+            "Please go a little slower, otherwise my train will leave.",
+            "Please go a little faster, because my bus has already left."
+          ],
+          "correctAnswer": "Please go a little faster, otherwise my train will leave."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pakhare khuchura paisa achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mo pakhare khuchura nahin.",
+            "Ha, mo pakhare dui ta ticket achi.",
+            "Nahin, mu apananku bhada dei sarichi."
+          ],
+          "correctAnswer": "Nahin, mo pakhare khuchura nahin.",
+          "translatedSentence": "No, I do not have any change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi rasta re bhida beshi thae, tebe taxi re jiba bhala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If there is a lot of traffic on the road, it is better to go by taxi.",
+            "If there is a lot of traffic on the road, it is better to go by auto.",
+            "Because there is a lot of traffic on the road, the taxi will not come."
+          ],
+          "correctAnswer": "If there is a lot of traffic on the road, it is better to go by taxi."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji ratiku gote ruma milipariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, upara mahala re gote ruma khali achi.",
+            "Ha, hotel station pakhare rahichi.",
+            "Nahin, mu ebe hotel ku asuchhi."
+          ],
+          "correctAnswer": "Ha, upara mahala re gote ruma khali achi.",
+          "translatedSentence": "Yes, there is one room free on the upper floor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Gote ratiku kete taka lagiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does it cost for one night?",
+            "How much does it cost for one week?",
+            "How many nights will you stay here?"
+          ],
+          "correctAnswer": "How much does it cost for one night?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete dina rahibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu tini dina rahibi.",
+            "Mu Bhubaneswar ru asuchhi.",
+            "Mu ruma tike dekhibi."
+          ],
+          "correctAnswer": "Mu tini dina rahibi.",
+          "translatedSentence": "I will stay for three days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ruma re garam pani achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, sakalu garam pani ase.",
+            "Ha, ruma dui tala re achi.",
+            "Nahin, aji koudi ruma khali nahin."
+          ],
+          "correctAnswer": "Ha, sakalu garam pani ase.",
+          "translatedSentence": "Yes, there is hot water in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo ruma ra chabi harei gala, tike arka gote dianthu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have lost my room key, please give me another one.",
+            "I have found my room key, please keep another one.",
+            "My room key is not working, please repair it now."
+          ],
+          "correctAnswer": "I have lost my room key, please give me another one."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sakala jalakhia kete belaku milibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jalakhia sata ta ru na ta paryanta milibe.",
+            "Jalakhia pain pachasa taka lagiba.",
+            "Jalakhia re pakhala aau dalma achi."
+          ],
+          "correctAnswer": "Jalakhia sata ta ru na ta paryanta milibe.",
+          "translatedSentence": "Breakfast is served from seven until nine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "E ruma tike chhota, aau bada ruma achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This room is a little small, is there a bigger room?",
+            "This room is a little dirty, is there a cleaner room?",
+            "This room is very big, but it is too expensive."
+          ],
+          "correctAnswer": "This room is a little small, is there a bigger room?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ruma re wifi chaluchhi nahin, tike dekhantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, mu ebe loka pathauchhi.",
+            "Thik achi, apananka ruma tini tala re achi.",
+            "Ha, garam pani rati re ase nahin."
+          ],
+          "correctAnswer": "Thik achi, mu ebe loka pathauchhi.",
+          "translatedSentence": "All right, I am sending someone now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu kaali sakalu bahari jibi, kintu mo bag ethi rakhi pariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am leaving tomorrow morning, but can I keep my bag here?",
+            "I am leaving tomorrow evening, but can I keep my bag here?",
+            "I left this morning, but I forgot my bag here."
+          ],
+          "correctAnswer": "I am leaving tomorrow morning, but can I keep my bag here?"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost luggage",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train kahinki eteka bilamba hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Barsha karana sabu train bilamba re chaluchhi.",
+            "Train tini number platform ru chhadiba.",
+            "Train ticket ebe milibe nahin."
+          ],
+          "correctAnswer": "Barsha karana sabu train bilamba re chaluchhi.",
+          "translatedSentence": "All the trains are running late because of the rain."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu deri hoigali, karana mo bus rasta re kharap hoigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I got late because my bus broke down on the way.",
+            "I got late because I could not find the bus stand.",
+            "I will be late because my bus has not come yet."
+          ],
+          "correctAnswer": "I got late because my bus broke down on the way."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka bag kemiti dekhajae?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Se gote kala rangara bada bag.",
+            "Bag bhitare mo ticket rahichi.",
+            "Mu bag train re rakhithili."
+          ],
+          "correctAnswer": "Se gote kala rangara bada bag.",
+          "translatedSentence": "It is a big black bag."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mo bag milila ki nahin?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ebe sudha milinahin, kintu ame khojuchhu.",
+            "Ha, kala rangara bag bahuta bhari achi.",
+            "Nahin, apana ticket ghara ku jantu."
+          ],
+          "correctAnswer": "Ebe sudha milinahin, kintu ame khojuchhu.",
+          "translatedSentence": "It has not been found yet, but we are looking for it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi mo bag milijae, tebe mote phone karantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If my bag is found, then please call me.",
+            "If my bag is not found, then please call me.",
+            "When my bag is found, I will call you."
+          ],
+          "correctAnswer": "If my bag is found, then please call me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus chhadi galani, ebe mu kana karibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chinta karantu nahin, arka bus ghantae pare asiba.",
+            "Chinta karantu nahin, bus stand ethi pakhare achi.",
+            "Ha, bus bhada sahe taka padiba."
+          ],
+          "correctAnswer": "Chinta karantu nahin, arka bus ghantae pare asiba.",
+          "translatedSentence": "Do not worry, the next bus will come in an hour."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo ticket harei gala, kintu mo pakhare tara gote photo achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have lost my ticket, but I have a photo of it.",
+            "I have lost my ticket, and I do not have a photo of it.",
+            "I have found my ticket, but the photo is not clear."
+          ],
+          "correctAnswer": "I have lost my ticket, but I have a photo of it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kaali paryanta ethi rahi paribe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, karana mo train aji rati re achi.",
+            "Ha, mu kaali sakalu ethi asithili.",
+            "Nahin, mo ruma upara mahala re achi."
+          ],
+          "correctAnswer": "Nahin, karana mo train aji rati re achi.",
+          "translatedSentence": "No, because my train is tonight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu odia bhala bhabare kahi parena, kintu apana tike aste kahile mu bujhi paribi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot speak Odia well, but if you speak a little slowly I will understand.",
+            "I cannot speak Odia at all, so please write it down for me.",
+            "I speak Odia well, but I cannot understand when you speak fast."
+          ],
+          "correctAnswer": "I cannot speak Odia well, but if you speak a little slowly I will understand."
+        }
+      ]
+    }
+  ]
+}

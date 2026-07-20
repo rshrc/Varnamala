@@ -1,0 +1,721 @@
+{
+  "course": "food",
+  "title": "Food & Drink",
+  "description": "Order, cook, share and refuse food.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hungry and thirsty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku bhoka lagiche ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mote khub bhoka lagiche.",
+            "Nahin, mote pipasa lagiche.",
+            "Mu ebe cha pibi."
+          ],
+          "correctAnswer": "Ha, mote khub bhoka lagiche.",
+          "translatedSentence": "Yes, I am very hungry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote tike pani darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little water.",
+            "I need a little tea.",
+            "I want to eat some rice."
+          ],
+          "correctAnswer": "I need a little water."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume kana piba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu cha pibi.",
+            "Mu bhata khaibi.",
+            "Mu thanda pani pibi."
+          ],
+          "correctAnswer": "Mu cha pibi.",
+          "translatedSentence": "I will drink tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei bhata khub bhala achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This rice is very good.",
+            "This tea is very hot.",
+            "This water is not cold."
+          ],
+          "correctAnswer": "This rice is very good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana cha pibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, tike cha diantu.",
+            "Nahin, mote kebala pani darkar.",
+            "Ha, mu bhata khaibi."
+          ],
+          "correctAnswer": "Ha, tike cha diantu.",
+          "translatedSentence": "Yes, please give me a little tea."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote pipasa lagiche, pani kouthi achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am thirsty, where is the water?",
+            "I am hungry, where is the rice?",
+            "I am thirsty, is there any tea?"
+          ],
+          "correctAnswer": "I am thirsty, where is the water?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sakale tume kana khaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sakale pakhala khae.",
+            "Mu sakale kebala cha pie.",
+            "Mu sakale bhata randhe."
+          ],
+          "correctAnswer": "Mu sakale pakhala khae.",
+          "translatedSentence": "I eat pakhala in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pain ekata cha ana.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bring me one tea.",
+            "Bring me one glass of water.",
+            "Give me a little rice."
+          ],
+          "correctAnswer": "Bring me one tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghara re pani achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, thanda pani achi.",
+            "Nahin, kintu cha achi.",
+            "Ha, kintu bhata sarigala."
+          ],
+          "correctAnswer": "Ha, thanda pani achi.",
+          "translatedSentence": "Yes, there is cold water."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "At the tea stall",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka dokan re kana kana achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cha, bara au ghuguni achi.",
+            "Alu chop au mudhi achi.",
+            "Ebe kebala thanda pani achi."
+          ],
+          "correctAnswer": "Cha, bara au ghuguni achi.",
+          "translatedSentence": "We have tea, bara and ghuguni."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote duita cha au ekata bara dia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me two teas and one bara.",
+            "Give me one tea and two baras.",
+            "Give me two teas and a little water."
+          ],
+          "correctAnswer": "Give me two teas and one bara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha re chini kete debi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo cha re chini nahin, dhanyabad.",
+            "Tike kam chini diantu.",
+            "Besi chini dia nahin."
+          ],
+          "correctAnswer": "Mo cha re chini nahin, dhanyabad.",
+          "translatedSentence": "No sugar in my tea, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei bara kete taka pade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does this bara cost?",
+            "How many baras do you want?",
+            "How much does one tea cost?"
+          ],
+          "correctAnswer": "How much does this bara cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mote kete taka deba padiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chalisha taka deba padiba.",
+            "Pachasa taka hela.",
+            "Apananku kichi deba padiba nahin."
+          ],
+          "correctAnswer": "Chalisha taka deba padiba.",
+          "translatedSentence": "You will have to pay forty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ei dokan ru roj cha pie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I drink tea from this shop every day.",
+            "I buy tea from this shop sometimes.",
+            "I come to this shop every evening."
+          ],
+          "correctAnswer": "I drink tea from this shop every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Au kichi darkar achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, eituku jathesta. Dhanyabad.",
+            "Ha, au ekata cha dia.",
+            "Ha, tike thanda pani dia."
+          ],
+          "correctAnswer": "Nahin, eituku jathesta. Dhanyabad.",
+          "translatedSentence": "No, this is enough. Thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu phone re paisa debi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will pay by phone.",
+            "I will pay in cash.",
+            "I will pay tomorrow."
+          ],
+          "correctAnswer": "I will pay by phone."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ghuguni re piaja misaibi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, piaja au lanka misantu.",
+            "Nahin, piaja dia nahin.",
+            "Tike besi ghuguni dia."
+          ],
+          "correctAnswer": "Ha, piaja au lanka misantu.",
+          "translatedSentence": "Yes, please add onion and chilli."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Spicy sweet and salty",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei tarkari kemiti lagila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Khub swadista, kintu tike jhala.",
+            "Tarkari re luna tike kam achi.",
+            "Mote besi bhala lagila nahin."
+          ],
+          "correctAnswer": "Khub swadista, kintu tike jhala.",
+          "translatedSentence": "Very tasty, but a little spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei dalma re luna besi hoigala.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is too much salt in this dalma.",
+            "There is not enough salt in this dalma.",
+            "This dalma has turned out too spicy."
+          ],
+          "correctAnswer": "There is too much salt in this dalma."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku jhala khaiba bhala lage ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, kintu besi jhala mu khai pari nahin.",
+            "Nahin, mote kebala mitha bhala lage.",
+            "Ha, mote lanka khub bhala lage."
+          ],
+          "correctAnswer": "Ha, kintu besi jhala mu khai pari nahin.",
+          "translatedSentence": "Yes, but I cannot eat very spicy food."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Chhena poda khub mitha, kintu mote bhala lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chhena poda is very sweet, but I like it.",
+            "Chhena poda is very sweet, so I do not eat it.",
+            "Chhena poda is not sweet enough for me."
+          ],
+          "correctAnswer": "Chhena poda is very sweet, but I like it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cha khub tata achi, mu kana karibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tike thanda hela pare piantu.",
+            "Tebe tike pani misantu.",
+            "Tahale mu au ekata cha anibi."
+          ],
+          "correctAnswer": "Tike thanda hela pare piantu.",
+          "translatedSentence": "Please drink it after it cools down a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mo pain besi jhala kariba nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please do not make mine too spicy.",
+            "Please do not put salt in mine.",
+            "Please make mine a little sweeter."
+          ],
+          "correctAnswer": "Please do not make mine too spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Machha tarkari re jhala kemiti achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thik achi, besi jhala nahin.",
+            "Khub jhala, mu khai pari nahin.",
+            "Jhala thik achi, kintu luna kam."
+          ],
+          "correctAnswer": "Thik achi, besi jhala nahin.",
+          "translatedSentence": "It is fine, not too spicy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ei mudhi re luna nahin, tike luna dia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no salt in this mudhi, please add a little.",
+            "There is too much salt in this mudhi, please change it.",
+            "There is no chilli in this mudhi, please add a little."
+          ],
+          "correctAnswer": "There is no salt in this mudhi, please add a little."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku mitha bhala lage na jhala?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote mitha besi bhala lage.",
+            "Mote jhala besi bhala lage.",
+            "Mote dui jaka bhala lage."
+          ],
+          "correctAnswer": "Mote mitha besi bhala lage.",
+          "translatedSentence": "I like sweet things more."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "In the restaurant",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete jana achanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ame tini jana achu.",
+            "Ame dui jana matra achu.",
+            "Mu ekala hin achi."
+          ],
+          "correctAnswer": "Ame tini jana achu.",
+          "translatedSentence": "There are three of us."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Menu card tike dekhantu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please show me the menu card.",
+            "Please bring the bill now.",
+            "Please bring some water first."
+          ],
+          "correctAnswer": "Please show me the menu card."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pain kana anibi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mo pain dalma au bhata anantu.",
+            "Mo pain kebala ekata cha anantu.",
+            "Ebe kichi darkar nahin, tike apekhya karantu."
+          ],
+          "correctAnswer": "Mo pain dalma au bhata anantu.",
+          "translatedSentence": "Please bring me dalma and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ethi pakhala thali milucchi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is pakhala thali available here?",
+            "How much is the pakhala thali here?",
+            "Is the pakhala thali good here?"
+          ],
+          "correctAnswer": "Is pakhala thali available here?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Khadya kemiti lagila apananku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sabu kichi khub bhala lagila.",
+            "Dalma tike besi jhala thila.",
+            "Bhata tike thanda thila."
+          ],
+          "correctAnswer": "Sabu kichi khub bhala lagila.",
+          "translatedSentence": "Everything was very good."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tike au bhata dele bhala hoanta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It would be good if you gave a little more rice.",
+            "It would be good if you brought the bill now.",
+            "It would be better if the rice were hot."
+          ],
+          "correctAnswer": "It would be good if you gave a little more rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Amara bill kete hela?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tini sha taka hela.",
+            "Char sha pachasa taka hela.",
+            "Mu hisab kari ebe kahuchi."
+          ],
+          "correctAnswer": "Tini sha taka hela.",
+          "translatedSentence": "It comes to three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame bill alaga alaga debu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will pay the bill separately.",
+            "We will pay the bill together.",
+            "We will pay the bill by card."
+          ],
+          "correctAnswer": "We will pay the bill separately."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana paisa card re debe na nagade?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu card re debi.",
+            "Mu nagade debi.",
+            "Mu phone ru debi."
+          ],
+          "correctAnswer": "Mu card re debi.",
+          "translatedSentence": "I will pay by card."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Cooking at home",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji ratire kana randhiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dalma au bhata randhibi.",
+            "Mu bahara ru khadya anibi.",
+            "Aji mu kichi randhibi nahin."
+          ],
+          "correctAnswer": "Mu dalma au bhata randhibi.",
+          "translatedSentence": "I will cook dalma and rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tume mote tike sahajya kariba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Will you help me a little?",
+            "Can you cook a little rice?",
+            "Will you come into the kitchen?"
+          ],
+          "correctAnswer": "Will you help me a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mu kana karibi kuha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Piaja au lanka kati dia.",
+            "Handi re pani dhali dia.",
+            "Chuli bandha kari dia."
+          ],
+          "correctAnswer": "Piaja au lanka kati dia.",
+          "translatedSentence": "Cut the onions and chillies."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Handi re tela tata heba paryanta apekhya kara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Wait until the oil in the pot is hot.",
+            "Wait until the water in the pot boils.",
+            "Heat the oil in the pot for five minutes."
+          ],
+          "correctAnswer": "Wait until the oil in the pot is hot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhata sijila ki nahin?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, au panch minute lagiba.",
+            "Ha, sijigala, chuli bandha kara.",
+            "Mu ebe hin bhata basaichi."
+          ],
+          "correctAnswer": "Nahin, au panch minute lagiba.",
+          "translatedSentence": "No, it will take five more minutes."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Tarkari re luna tike kam achi, au tike dia.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The curry has a little less salt, add some more.",
+            "The curry has too much salt, add a little water.",
+            "The curry is a little spicy, add a little sugar."
+          ],
+          "correctAnswer": "The curry has a little less salt, add some more."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pakhala pain bhata thanda heigala ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, ebe bi tata achi.",
+            "Ha, ebe pani dhali dia.",
+            "Ha, kintu pani sarigala."
+          ],
+          "correctAnswer": "Nahin, ebe bi tata achi.",
+          "translatedSentence": "No, it is still hot."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ranna sarigala, ebe ame khaiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The cooking is done, now let us eat.",
+            "The cooking is not done yet, please wait.",
+            "The food is ready, keep it on the table."
+          ],
+          "correctAnswer": "The cooking is done, now let us eat."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bhojana pare basana kie dhoiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dhoibi, tume bisrama kara.",
+            "Ame dui jana milei dhoibu.",
+            "Tume dhoa, mu ranna karichi."
+          ],
+          "correctAnswer": "Mu dhoibi, tume bisrama kara.",
+          "translatedSentence": "I will wash them, you rest."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Likes and dietary needs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana mansa khaanti ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, mu niramish khae, kintu anda khae.",
+            "Ha, kintu mu kebala machha khae.",
+            "Ha, mu sabu kichi khae, kichi samasya nahin."
+          ],
+          "correctAnswer": "Nahin, mu niramish khae, kintu anda khae.",
+          "translatedSentence": "No, I eat vegetarian food, but I do eat eggs."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu dudha khai pari nahin, karana mo pete gadabad hue.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I cannot drink milk, because it upsets my stomach.",
+            "I do not drink milk, because I do not like the taste.",
+            "I cannot eat curd, because it upsets my stomach."
+          ],
+          "correctAnswer": "I cannot drink milk, because it upsets my stomach."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka pain kichi bisesa randhiba padiba ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mo pain tela kam dei randhantu.",
+            "Nahin, mu sabu kichi khai pare.",
+            "Ha, mo pain kebala pakhala anantu."
+          ],
+          "correctAnswer": "Ha, mo pain tela kam dei randhantu.",
+          "translatedSentence": "Yes, please cook mine with less oil."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi khub jhala hue, tebe mu khai pari nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it is very spicy, then I cannot eat it.",
+            "If it is very sweet, then I cannot eat it.",
+            "If it is not spicy, then I will eat it."
+          ],
+          "correctAnswer": "If it is very spicy, then I cannot eat it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumaku kounasi khadya ru samasya hue ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, chinabadam khaile mote samasya hue.",
+            "Nahin, kintu mu besi jhala khae nahin.",
+            "Ha, dudha khaile mote samasya hue."
+          ],
+          "correctAnswer": "Ha, chinabadam khaile mote samasya hue.",
+          "translatedSentence": "Yes, peanuts give me trouble."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mote mitha khub bhala lage, kintu daktar chini kam kariba pain kahichanti.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like sweets a lot, but the doctor has told me to cut down on sugar.",
+            "I like sweets a lot, but I eat them only on Sundays.",
+            "I do not like sweets much, so I avoid sugar."
+          ],
+          "correctAnswer": "I like sweets a lot, but the doctor has told me to cut down on sugar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame kali Puri re pakhala khaibaku jauchu, apana asibe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ha, mu niscaya asibi, mote pakhala khub bhala lage.",
+            "Nahin, mu kali kama re byasta thibi.",
+            "Ha, kintu mo pain niramish khadya darkar."
+          ],
+          "correctAnswer": "Ha, mu niscaya asibi, mote pakhala khub bhala lage.",
+          "translatedSentence": "Yes, I will certainly come, I like pakhala very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ratire besi khae nahin, karana tapare bhala nidra hue nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not eat much at night, because afterwards I do not sleep well.",
+            "I do not eat at night, because I am not hungry then.",
+            "I eat early at night, so that I can sleep well."
+          ],
+          "correctAnswer": "I do not eat much at night, because afterwards I do not sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana au tike bhata nebe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin dhanyabad, mo pet bharti heigala.",
+            "Ha, tike au diantu, khub bhala lagila.",
+            "Nahin, kintu tike dalma diantu."
+          ],
+          "correctAnswer": "Nahin dhanyabad, mo pet bharti heigala.",
+          "translatedSentence": "No thank you, I am full."
+        }
+      ]
+    }
+  ]
+}

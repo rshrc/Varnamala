@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Festival greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rongali Bihur subhessa.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apunako Bihur subhessa.",
+            "Moi bhat khau.",
+            "Mor ghor Jorhatot."
+          ],
+          "correctAnswer": "Apunako Bihur subhessa.",
+          "translatedSentence": "Happy Bihu to you too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji Bohag Bihu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Bohag Bihu.",
+            "Tomorrow is Bohag Bihu.",
+            "Yesterday was Bohag Bihu."
+          ],
+          "correctAnswer": "Today is Bohag Bihu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kenekoi ase?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi bhal ase, dhonyobad.",
+            "Moi Guwahatit thako.",
+            "Bihu bohag mahot hoi."
+          ],
+          "correctAnswer": "Moi bhal ase, dhonyobad.",
+          "translatedSentence": "I am well, thank you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak subhessa janau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I send you my good wishes.",
+            "I am going to your house.",
+            "I know your name."
+          ],
+          "correctAnswer": "I send you my good wishes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi Bihu bhal pua ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi Bihu bohut bhal pau.",
+            "Nai, moi saah nakhau.",
+            "Moi tomar ghor najano."
+          ],
+          "correctAnswer": "Hoi, moi Bihu bohut bhal pau.",
+          "translatedSentence": "Yes, I love Bihu very much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar ghorot aji utsav.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is a celebration at our house today.",
+            "There is a celebration at our house tomorrow.",
+            "Our house is near the festival ground."
+          ],
+          "correctAnswer": "There is a celebration at our house today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihut apunar ki lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mok ekhon notun gamosa lage.",
+            "Mok kono kaam nai.",
+            "Moi etiya ghorot nai."
+          ],
+          "correctAnswer": "Mok ekhon notun gamosa lage.",
+          "translatedSentence": "I need a new gamosa."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok olop saah lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a little tea.",
+            "I want a lot of tea.",
+            "I do not drink tea."
+          ],
+          "correctAnswer": "I need a little tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji amar ghoroloi ahiba ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi sondhya ahim.",
+            "Nai, moi tomar naam najano.",
+            "Tumi kot thaka?"
+          ],
+          "correctAnswer": "Hoi, moi sondhya ahim.",
+          "translatedSentence": "Yes, I will come in the evening."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Festivals and their seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bohag Bihu kitiya hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bohag Bihu bohag mahot hoi.",
+            "Bohag Bihu magh mahot hoi.",
+            "Bohag Bihu kati mahot hoi."
+          ],
+          "correctAnswer": "Bohag Bihu bohag mahot hoi.",
+          "translatedSentence": "Bohag Bihu falls in the month of Bohag."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Magh Bihu jaarkalot hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Magh Bihu falls in the winter.",
+            "Magh Bihu falls in the spring.",
+            "Magh Bihu lasts for one week."
+          ],
+          "correctAnswer": "Magh Bihu falls in the winter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kati Bihu kiy alag?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kati Bihut ami tulsi gosor tolot saki jolau.",
+            "Kati Bihut ami meji jolau aru bhoj khau.",
+            "Kati Bihut ami husori gai ghore ghore jau."
+          ],
+          "correctAnswer": "Kati Bihut ami tulsi gosor tolot saki jolau.",
+          "translatedSentence": "At Kati Bihu we light lamps under the tulsi plant."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Durga Puja ahin mahot hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Durga Puja falls in the month of Ahin.",
+            "Durga Puja falls in the month of Bohag.",
+            "Durga Puja goes on for four days."
+          ],
+          "correctAnswer": "Durga Puja falls in the month of Ahin."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni kun Bihu besi bhal pai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi Bohag Bihu besi bhal pau.",
+            "Moi Bihu palon nokoru.",
+            "Moi Guwahatit thako."
+          ],
+          "correctAnswer": "Moi Bohag Bihu besi bhal pau.",
+          "translatedSentence": "I like Bohag Bihu the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bosorot tinita Bihu hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bihu comes three times a year.",
+            "Bihu comes twice a year.",
+            "Bihu goes on for three days."
+          ],
+          "correctAnswer": "Bihu comes three times a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Guwahatit Durga Puja kenekua hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Guwahatit bohut dangor pandal hoi.",
+            "Guwahatit bohut manuhe meji jolai.",
+            "Guwahatit etiya kono utsav nai."
+          ],
+          "correctAnswer": "Guwahatit bohut dangor pandal hoi.",
+          "translatedSentence": "In Guwahati they put up very big pandals."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bohag Bihu Asomiya notun bosor.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bohag Bihu is the Assamese new year.",
+            "Bohag Bihu is the Assamese harvest festival.",
+            "Bohag Bihu is a winter festival of Assam."
+          ],
+          "correctAnswer": "Bohag Bihu is the Assamese new year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Uruka kitiya hoi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Uruka Magh Bihur agor dinat hoi.",
+            "Uruka Bohag Bihur prothom dinat hoi.",
+            "Uruka Durga Pujar sesh dinat hoi."
+          ],
+          "correctAnswer": "Uruka Magh Bihur agor dinat hoi.",
+          "translatedSentence": "Uruka falls on the day before Magh Bihu."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting invitations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Bihut amar ghoroloi ahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi niscoi ahim.",
+            "Nai, moi apunar naam najano.",
+            "Moi Bihu kitiya hoi najano."
+          ],
+          "correctAnswer": "Hoi, moi niscoi ahim.",
+          "translatedSentence": "Yes, I will certainly come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi apunak amar ghoroloi nimontron janau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to our house.",
+            "I am going to your house today.",
+            "I have received your invitation."
+          ],
+          "correctAnswer": "I am inviting you to our house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kailoi amar ghorot Bihur bhoj ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bohut bhal khobor, moi niscoi jam.",
+            "Moi kali apunar ghoroloi goisilu.",
+            "Moi bhoj bonaboloi najano."
+          ],
+          "correctAnswer": "Bohut bhal khobor, moi niscoi jam.",
+          "translatedSentence": "That is wonderful news, I will surely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Apuni poribarok loi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come with your family.",
+            "Please come alone tomorrow morning.",
+            "Please bring some sweets with you."
+          ],
+          "correctAnswer": "Please come with your family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Moi kiman bojat ahim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Apuni sondhya sat bojat ahok.",
+            "Apuni bajaroloi sat bojat jaok.",
+            "Moi kailoi apunar ghoroloi jam."
+          ],
+          "correctAnswer": "Apuni sondhya sat bojat ahok.",
+          "translatedSentence": "Please come at seven in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor kaam ase, kintu moi olop somoir babe ahim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have work, but I will come for a little while.",
+            "I have work, so I will not be able to come.",
+            "I will come as soon as my work is over."
+          ],
+          "correctAnswer": "I have work, but I will come for a little while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumi husorir dolot ahiba ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi tomar logot ahim.",
+            "Nai, moi git gaboloi bhoi khau.",
+            "Husori Kati Bihut hoi."
+          ],
+          "correctAnswer": "Hoi, moi tomar logot ahim.",
+          "translatedSentence": "Yes, I will come along with you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nimontronor babe bohut dhonyobad.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for the invitation.",
+            "Thank you very much for the lovely gift.",
+            "I am sorry that I could not come."
+          ],
+          "correctAnswer": "Thank you very much for the invitation."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni ahibo nowarile mok kobo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi apunak agotei phone korim.",
+            "Hoi, moi apunar ghor bisari pau.",
+            "Nai, moi apunar ghoror rasta najano."
+          ],
+          "correctAnswer": "Hoi, moi apunak agotei phone korim.",
+          "translatedSentence": "Yes, I will call you beforehand."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihut apuni ki bonai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami til pitha aru laru bonau.",
+            "Ami notun kapur kinu aru pindhu.",
+            "Ami pandal saboloi jau."
+          ],
+          "correctAnswer": "Ami til pitha aru laru bonau.",
+          "translatedSentence": "We make til pitha and laru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aai etiya ghila pitha bonai ase.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mother is making ghila pitha right now.",
+            "Mother has already made ghila pitha.",
+            "Mother knows how to make ghila pitha."
+          ],
+          "correctAnswer": "Mother is making ghila pitha right now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni pitha khaboloi bhal pai ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi til pitha besi bhal pau.",
+            "Nai, moi pitha bonaboloi najano.",
+            "Pitha Magh Bihut bonai."
+          ],
+          "correctAnswer": "Hoi, moi til pitha besi bhal pau.",
+          "translatedSentence": "Yes, I like til pitha the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uruka ratit ami masor jool aru bhat khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Uruka night we eat fish curry and rice.",
+            "On Uruka night we light the big bonfire.",
+            "On Uruka night we eat sweets and drink tea."
+          ],
+          "correctAnswer": "On Uruka night we eat fish curry and rice."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Jolpanot ki dim?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Doi, chira aru olop gur diyok.",
+            "Bhat aru masor jool diyok.",
+            "Ekaap saah aru duta laru diyok."
+          ],
+          "correctAnswer": "Doi, chira aru olop gur diyok.",
+          "translatedSentence": "Serve curd, flattened rice and a little jaggery."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mok olop saah aru eta laru diyok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please give me a little tea and one laru.",
+            "Please give me a lot of tea and some pitha.",
+            "I would like tea without any sugar."
+          ],
+          "correctAnswer": "Please give me a little tea and one laru."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei laru kune bonaise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ei laru mor aaitai bonaise.",
+            "Ei laru moi bajarot kinisu.",
+            "Ei laru mor babe kinise."
+          ],
+          "correctAnswer": "Ei laru mor aaitai bonaise.",
+          "translatedSentence": "My grandmother made these laru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pitha bonaboloi pithaguri aru gur lage.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You need rice flour and jaggery to make pitha.",
+            "You need rice flour and coconut to make pitha.",
+            "Pitha is made only during Magh Bihu."
+          ],
+          "correctAnswer": "You need rice flour and jaggery to make pitha."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aru olop masor jool lobo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, olop diyok, bohut bhal hoise.",
+            "Hoi, moi kailoi bajaroloi jam.",
+            "Nai, mok saah bonaboloi najano."
+          ],
+          "correctAnswer": "Hoi, olop diyok, bohut bhal hoise.",
+          "translatedSentence": "Yes, give me a little, it has turned out very tasty."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihur babe notun kapur kinisa ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi ekhon notun mekhela sador kinisu.",
+            "Hoi, moi kailoi bajarot kaam koru.",
+            "Nai, moi notun kapur bhal napau."
+          ],
+          "correctAnswer": "Hoi, moi ekhon notun mekhela sador kinisu.",
+          "translatedSentence": "Yes, I have bought a new mekhela sador."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi deutak ekhon gamosa upohar dim.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will give my father a gamosa as a gift.",
+            "My father gave me a gamosa as a gift.",
+            "I want to buy a gamosa for my father."
+          ],
+          "correctAnswer": "I will give my father a gamosa as a gift."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni Bihut prothome kar ghoroloi jai?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi prothome mor koka aaitar ghoroloi jau.",
+            "Moi prothome bajaroloi jau.",
+            "Moi ghorote thako, kotu najau."
+          ],
+          "correctAnswer": "Moi prothome mor koka aaitar ghoroloi jau.",
+          "translatedSentence": "First I go to my grandparents' house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bihur dinot gutei poribar ekelog hoi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Bihu day the whole family comes together.",
+            "On Bihu day the whole family goes to the temple.",
+            "The whole family will come together tomorrow."
+          ],
+          "correctAnswer": "On Bihu day the whole family comes together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bihut ami dangorok kenekoi sonman koru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ami dangorok gamosa di seva lou.",
+            "Ami dangorok notun kapur kini dou.",
+            "Ami dangorok phone kori subhessa janau."
+          ],
+          "correctAnswer": "Ami dangorok gamosa di seva lou.",
+          "translatedSentence": "We offer our elders a gamosa and take their blessings."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mor bhontiye mor babe ekhon notun sola anise.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My younger sister has brought a new shirt for me.",
+            "My younger sister wants a new shirt for herself.",
+            "I have brought a new shirt for my younger sister."
+          ],
+          "correctAnswer": "My younger sister has brought a new shirt for me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tumar upohar mok bohut bhal lagil.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tumar bhal lagil buli moi bohut sukhi hol.",
+            "Moi upohar khan bajarot bisari poisu.",
+            "Tumi mok kono upohar diya nai."
+          ],
+          "correctAnswer": "Tumar bhal lagil buli moi bohut sukhi hol.",
+          "translatedSentence": "I am so happy that you liked it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Notun kapur pindhi ami ghore ghore jau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We wear new clothes and go from house to house.",
+            "We buy new clothes and give them to everyone.",
+            "We will wear new clothes tomorrow morning."
+          ],
+          "correctAnswer": "We wear new clothes and go from house to house."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar ghorot aji kiman manuh ahise?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Amar ghorot aji bis jon manuh ahise.",
+            "Amar ghorot aji kono manuh aha nai.",
+            "Amar ghor Jorhator ekebare kasot."
+          ],
+          "correctAnswer": "Amar ghorot aji bis jon manuh ahise.",
+          "translatedSentence": "Twenty people have come to our house today."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and other celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apunar kokaidewor biya kitiya hobo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aha magh mahot hobo, apuni niscoi ahibo.",
+            "Kali hoi goisil, kintu apuni aha nasil.",
+            "Moi biyaloi jaboloi bhal napau."
+          ],
+          "correctAnswer": "Aha magh mahot hobo, apuni niscoi ahibo.",
+          "translatedSentence": "It will be in the coming month of Magh, and you must come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jodi apunar somoi thake, tente biyaloi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have the time, please come to the wedding.",
+            "If you have the time, we can go to the market.",
+            "Since you have no time, do not come to the wedding."
+          ],
+          "correctAnswer": "If you have the time, please come to the wedding."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Biyat ki pindhim buli bhabi aso?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Moi mekhela sador pindhim, kiyono i bohut sundor lage.",
+            "Moi bhat aru masor jool khaim, kiyono mor bhuk lagise.",
+            "Moi biyar git gaboloi najano, gotike moi nagau."
+          ],
+          "correctAnswer": "Moi mekhela sador pindhim, kiyono i bohut sundor lage.",
+          "translatedSentence": "I will wear a mekhela sador, because it looks very beautiful."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Biyar bhojot bhat, masor jool aru doi thakibo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wedding feast will have rice, fish curry and curd.",
+            "The wedding feast had rice, fish curry and sweets.",
+            "At the wedding we will only serve tea and pitha."
+          ],
+          "correctAnswer": "The wedding feast will have rice, fish curry and curd."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apuni biyaloi kiy aha nasil?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mor deuta osusto asil, karone moi ahibo nowarilu.",
+            "Moi biyaloi goisilu aru bohut moja paisilu.",
+            "Moi apunak nimontron diboloi pahori goisilu."
+          ],
+          "correctAnswer": "Mor deuta osusto asil, karone moi ahibo nowarilu.",
+          "translatedSentence": "My father was unwell, so I could not come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Moi bhabisilu apuni ahibo, kintu apuni aha nai.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I thought you would come, but you did not come.",
+            "I did not think you would come, and you stayed away.",
+            "I will come only if you also come with me."
+          ],
+          "correctAnswer": "I thought you would come, but you did not come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kailoi mor jonmodin, apuni ahibo ne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Hoi, moi kaam sesh kori sondhya ahim.",
+            "Nai, moi jonmodin palon nokoru.",
+            "Moi apunar jonmodinor katha pahori goisilu."
+          ],
+          "correctAnswer": "Hoi, moi kaam sesh kori sondhya ahim.",
+          "translatedSentence": "Yes, I will finish my work and come in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Amar notun ghorot kailoi puja ase, gotike apuni poribarok loi ahok.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have a puja at our new house tomorrow, so please come with your family.",
+            "We had a puja at our new house yesterday, so you should have come.",
+            "We are still building our new house, so we cannot hold the puja."
+          ],
+          "correctAnswer": "We have a puja at our new house tomorrow, so please come with your family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ei utsavbur amar babe kiy iman dangor?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kiyono ei utsave amar gutei poribarok ekelog kore.",
+            "Kiyono ami bosorot tinita Bihu palon koru.",
+            "Kiyono Guwahatit bohut dangor pandal bonai."
+          ],
+          "correctAnswer": "Kiyono ei utsave amar gutei poribarok ekelog kore.",
+          "translatedSentence": "Because these festivals bring our whole family together."
+        }
+      ]
+    }
+  ]
+}

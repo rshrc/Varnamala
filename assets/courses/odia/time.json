@@ -1,0 +1,721 @@
+{
+  "course": "time",
+  "title": "Time & Days",
+  "description": "Say when - and make plans that stick.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Days of the week",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji kana bara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji Somabara.",
+            "Aji bahut garam.",
+            "Aji mora chhuti."
+          ],
+          "correctAnswer": "Aji Somabara.",
+          "translatedSentence": "Today is Monday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aji Budhabara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Today is Wednesday.",
+            "Today is Thursday.",
+            "Tomorrow is Wednesday."
+          ],
+          "correctAnswer": "Today is Wednesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume Rabibara office jaa ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, Rabibara chhuti.",
+            "Han, aji Sanibara.",
+            "Nahin, mu bata jane nahin."
+          ],
+          "correctAnswer": "Nahin, Rabibara chhuti.",
+          "translatedSentence": "No, Sunday is a holiday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanibara mu Puri jae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to Puri on Saturday.",
+            "I went to Puri on Saturday.",
+            "I go to Puri on Sunday."
+          ],
+          "correctAnswer": "I go to Puri on Saturday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kou bara asibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu Gurubara asibi.",
+            "Mu ebe ghare achi.",
+            "Mu Cuttack re rahe."
+          ],
+          "correctAnswer": "Mu Gurubara asibi.",
+          "translatedSentence": "I will come on Thursday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sukrabara bazar bandha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The market is closed on Friday.",
+            "The market is open on Friday.",
+            "The market is closed on Sunday."
+          ],
+          "correctAnswer": "The market is closed on Friday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saptaha re kete dina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saptaha re sata dina.",
+            "Saptaha re dasa dina.",
+            "Dina re sata ghanta."
+          ],
+          "correctAnswer": "Saptaha re sata dina.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mora chhuti Rabibara.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My day off is Sunday.",
+            "My day off is Saturday.",
+            "Sunday is a busy day."
+          ],
+          "correctAnswer": "My day off is Sunday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Somabara pare kana bara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Somabara pare Mangalabara.",
+            "Somabara pare Rabibara.",
+            "Mangalabara pare Somabara."
+          ],
+          "correctAnswer": "Somabara pare Mangalabara.",
+          "translatedSentence": "After Monday comes Tuesday."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Today, tomorrow, now",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume aji kana karucha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu aji ghare kama karuchi.",
+            "Mu kali Puri jibi.",
+            "Mu gatakali bahut soithili."
+          ],
+          "correctAnswer": "Mu aji ghare kama karuchi.",
+          "translatedSentence": "I am working at home today."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu gatakali Cuttack gali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I went to Cuttack yesterday.",
+            "I will go to Cuttack tomorrow.",
+            "I am going to Cuttack now."
+          ],
+          "correctAnswer": "I went to Cuttack yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kebe asibe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu kali sakale asibi.",
+            "Mu kali sakale asithili.",
+            "Mu ebe ghare nahin."
+          ],
+          "correctAnswer": "Mu kali sakale asibi.",
+          "translatedSentence": "I will come tomorrow morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ebe nuhen, tike pare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Not now, a little later.",
+            "Not now, a little earlier.",
+            "Now, not later."
+          ],
+          "correctAnswer": "Not now, a little later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume gatakali kouthi thila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu gatakali ghare thili.",
+            "Mu kali ghare rahibi.",
+            "Mu ebe office re achi."
+          ],
+          "correctAnswer": "Mu gatakali ghare thili.",
+          "translatedSentence": "I was at home yesterday."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ame pariba dina Puri jibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will go to Puri the day after tomorrow.",
+            "We went to Puri the day before yesterday.",
+            "We are going to Puri today."
+          ],
+          "correctAnswer": "We will go to Puri the day after tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kama ebe sarila ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, tike samaya lagiba.",
+            "Han, mu kali asibi.",
+            "Nahin, aji Rabibara."
+          ],
+          "correctAnswer": "Nahin, tike samaya lagiba.",
+          "translatedSentence": "No, it will take a little time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu ebe khauchi, pare phone karibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am eating now, I will call later.",
+            "I ate earlier, I am calling now.",
+            "I am calling now, I will eat later."
+          ],
+          "correctAnswer": "I am eating now, I will call later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana Jagannath mandira gale ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, mu gatakali gali.",
+            "Han, mu kali jibi.",
+            "Nahin, mu mandira bata jane nahin."
+          ],
+          "correctAnswer": "Han, mu gatakali gali.",
+          "translatedSentence": "Yes, I went yesterday."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Telling the clock time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ebe kete bajila?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ebe aatha ta bajila.",
+            "Ebe mu ghare achi.",
+            "Ebe kama sarila."
+          ],
+          "correctAnswer": "Ebe aatha ta bajila.",
+          "translatedSentence": "It is eight o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu sakale chha ta re uthe.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six in the morning.",
+            "I get up at six in the evening.",
+            "I go to sleep at six in the morning."
+          ],
+          "correctAnswer": "I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Train kete ta re chhadiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Train sadhe pancha ta re chhadiba.",
+            "Train Bhubaneswar jiba.",
+            "Train gatakali asila nahin."
+          ],
+          "correctAnswer": "Train sadhe pancha ta re chhadiba.",
+          "translatedSentence": "The train will leave at half past five."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dokana ratire dasa ta re bandha huye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The shop closes at ten at night.",
+            "The shop opens at ten at night.",
+            "The shop closes at ten in the morning."
+          ],
+          "correctAnswer": "The shop closes at ten at night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana madhyanha bhojana kete ta re karanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu dui ta re bhojana kare.",
+            "Mu sakale cha pie.",
+            "Mu ratire sighra soe."
+          ],
+          "correctAnswer": "Mu dui ta re bhojana kare.",
+          "translatedSentence": "I have lunch at two."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sanjha sata ta re mu ghara pahanche.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I reach home at seven in the evening.",
+            "I leave home at seven in the evening.",
+            "I reach home at seven in the morning."
+          ],
+          "correctAnswer": "I reach home at seven in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Class kete ghanta chale?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Class dui ghanta chale.",
+            "Class sakale aarambha huye.",
+            "Class Mangalabara achi."
+          ],
+          "correctAnswer": "Class dui ghanta chale.",
+          "translatedSentence": "The class runs for two hours."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mate aau dasa minit darkar.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need ten more minutes.",
+            "I waited for ten minutes.",
+            "I will come in ten minutes."
+          ],
+          "correctAnswer": "I need ten more minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Auto kete bela asiba?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Auto pandhara minit re asiba.",
+            "Auto Puri jiba nahin.",
+            "Auto pakhare rahichi."
+          ],
+          "correctAnswer": "Auto pandhara minit re asiba.",
+          "translatedSentence": "The auto will come in fifteen minutes."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Months and seasons",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka janmadina kou masa re?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mora janmadina March masa re.",
+            "Mora janmadina Rabibara re.",
+            "Mu March masa re Puri gali."
+          ],
+          "correctAnswer": "Mora janmadina March masa re.",
+          "translatedSentence": "My birthday is in March."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Barsa re bara masa achi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are twelve months in a year.",
+            "There are twelve days in a month.",
+            "There are twelve weeks in a year."
+          ],
+          "correctAnswer": "There are twelve months in a year."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aji kete tarikha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aji dasa tarikha.",
+            "Aji Gurubara.",
+            "Aji sata ta bajila."
+          ],
+          "correctAnswer": "Aji dasa tarikha.",
+          "translatedSentence": "Today is the tenth."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Juna masa re barsa aarambha huye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The rains begin in June.",
+            "The rains end in June.",
+            "The summer begins in June."
+          ],
+          "correctAnswer": "The rains begin in June."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apananka kou ritu bhala lage?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mote sita dina bhala lage.",
+            "Mote chhena poda bhala lage.",
+            "Mote Puri bahut bhala lage."
+          ],
+          "correctAnswer": "Mote sita dina bhala lage.",
+          "translatedSentence": "I like the winter."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Garama dina re ame pakhala khau.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "In summer we eat pakhala.",
+            "In winter we eat pakhala.",
+            "In summer we cook dalma."
+          ],
+          "correctAnswer": "In summer we eat pakhala."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Rath Yatra kou masa re huye?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Rath Yatra Julai masa re huye.",
+            "Rath Yatra Puri re huye.",
+            "Rath Yatra dekhiba pain bahut loka asanti."
+          ],
+          "correctAnswer": "Rath Yatra Julai masa re huye.",
+          "translatedSentence": "The Rath Yatra takes place in July."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "December masa re ratire thanda huye.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It gets cold at night in December.",
+            "It gets cold at night in June.",
+            "It gets hot at night in December."
+          ],
+          "correctAnswer": "It gets cold at night in December."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Durga Puja kebe achi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Durga Puja October masa re achi.",
+            "Durga Puja Cuttack re bahut bada.",
+            "Durga Puja pain mu chhuti nebi."
+          ],
+          "correctAnswer": "Durga Puja October masa re achi.",
+          "translatedSentence": "Durga Puja is in October."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Your daily routine",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana pratidina kete ta re uthanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu pratidina pancha ta re uthe.",
+            "Mu pratidina office jae.",
+            "Mu pratidina dui ghanta padhe."
+          ],
+          "correctAnswer": "Mu pratidina pancha ta re uthe.",
+          "translatedSentence": "I get up at five every day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Uthiba pare mu gotie kapa cha pie.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After getting up I drink a cup of tea.",
+            "Before getting up I drink a cup of tea.",
+            "After getting up I eat breakfast."
+          ],
+          "correctAnswer": "After getting up I drink a cup of tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume sakale kana khaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu pakhala aau dalma khae.",
+            "Mu sakale sighra kama aarambha kare.",
+            "Mu sakale chha ta re bulibaku jae."
+          ],
+          "correctAnswer": "Mu pakhala aau dalma khae.",
+          "translatedSentence": "I eat pakhala and dalma."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mu na ta re office jae aau sanjha chha ta re phere.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office at nine and come back at six in the evening.",
+            "I go to the office at six and come back at nine in the evening.",
+            "I leave the office at nine and reach home at six."
+          ],
+          "correctAnswer": "I go to the office at nine and come back at six in the evening."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana ratire kete ta re soanti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu ratire egara ta re soe.",
+            "Mu ratire kama kare nahin.",
+            "Mu sakale sighra uthe."
+          ],
+          "correctAnswer": "Mu ratire egara ta re soe.",
+          "translatedSentence": "I go to sleep at eleven at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Snana sarila pare mu jalakhia khae.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat breakfast after my bath.",
+            "I take a bath after my breakfast.",
+            "I eat breakfast before my bath."
+          ],
+          "correctAnswer": "I eat breakfast after my bath."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume sanjhare kana kara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sanjhare tike bulibaku jae.",
+            "Mu sakale khabara kagaja pade.",
+            "Mu madhyanha re tarakari kine."
+          ],
+          "correctAnswer": "Mu sanjhare tike bulibaku jae.",
+          "translatedSentence": "In the evening I go out for a short walk."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ratire khaiba pare mu tike boi pade.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After dinner I read a book for a while.",
+            "Before dinner I read a book for a while.",
+            "After dinner I write for a while."
+          ],
+          "correctAnswer": "After dinner I read a book for a while."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tume Rabibara bi sighra uthucha ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nahin, Rabibara mu deri re uthe.",
+            "Han, Rabibara mu office jae.",
+            "Nahin, mu cha pie nahin."
+          ],
+          "correctAnswer": "Nahin, Rabibara mu deri re uthe.",
+          "translatedSentence": "No, on Sunday I get up late."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Making plans",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kali sanjhare tike samaya pai paribe ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, kali sanjha chha ta pare mu samaya pai paribi.",
+            "Nahin, mu gatakali sanjhare bahut byasta thili.",
+            "Han, mu gatakali sanjhare apananku khojuthili."
+          ],
+          "correctAnswer": "Han, kali sanjha chha ta pare mu samaya pai paribi.",
+          "translatedSentence": "Yes, I can find some time after six tomorrow evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi kali barsa huye, tebe ame Puri jibu nahin.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If it rains tomorrow, we will not go to Puri.",
+            "If it had rained yesterday, we would not have gone to Puri.",
+            "Even if it rains tomorrow, we will go to Puri."
+          ],
+          "correctAnswer": "If it rains tomorrow, we will not go to Puri."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ame kou dina bhetibu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sukrabara bhala heba, karana Sanibara mora chhuti.",
+            "Sukrabara mu Bhubaneswar gali, tenu bheti hela nahin.",
+            "Sukrabara ratire dokana bandha thila."
+          ],
+          "correctAnswer": "Sukrabara bhala heba, karana Sanibara mora chhuti.",
+          "translatedSentence": "Friday would be good, because Saturday is my day off."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mate tike deri heba, kintu mu nischaya asibi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be a little late, but I will definitely come.",
+            "I am already late, so I will not come.",
+            "I will come early, but only for a little while."
+          ],
+          "correctAnswer": "I will be a little late, but I will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Apana kete ta re asi paribe?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Mu sadhe chari ta re asi paribi.",
+            "Mu gatakali sadhe chari ta re asithili.",
+            "Mu sadhe chari ta re ghara chhadi dei thili."
+          ],
+          "correctAnswer": "Mu sadhe chari ta re asi paribi.",
+          "translatedSentence": "I can be there at half past four."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Somabara mora bhari kama achi, tenu ame Mangalabara bhetiba.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a lot of work on Monday, so let us meet on Tuesday.",
+            "I have a lot of work on Tuesday, so let us meet on Monday.",
+            "I had a lot of work on Monday, so we met on Tuesday."
+          ],
+          "correctAnswer": "I have a lot of work on Monday, so let us meet on Tuesday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tebe ame kouthi bhetibu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ame Jagannath mandira pakhare bhetiba.",
+            "Ame sanjha sata ta re bhetiba.",
+            "Ame auto re sethiku jiba."
+          ],
+          "correctAnswer": "Ame Jagannath mandira pakhare bhetiba.",
+          "translatedSentence": "Let us meet near the Jagannath temple."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Jadi apananka samaya nahin, tebe ame aau gotie dina thik karibu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you do not have time, then we will fix another day.",
+            "If you have time, then we will fix this day itself.",
+            "You did not have time, so we fixed another day."
+          ],
+          "correctAnswer": "If you do not have time, then we will fix another day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Tebe kali sanjha sata ta thik achi ki?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Han, thik achi. Mu apananku phone karibi.",
+            "Nahin, mu gatakali sata ta re asithili.",
+            "Han, kintu mu apananku bhala bhabare chinhe nahin."
+          ],
+          "correctAnswer": "Han, thik achi. Mu apananku phone karibi.",
+          "translatedSentence": "Yes, that works. I will call you."
+        }
+      ]
+    }
+  ]
+}

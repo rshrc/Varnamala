@@ -1,0 +1,721 @@
+{
+  "course": "travel",
+  "title": "Travel",
+  "description": "Get from one place to another and ask for help doing it.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Buses and stations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kaha jaanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma Pokhara jaanchu.",
+            "ma bhat khanchu.",
+            "ma ghar ma nai chu."
+          ],
+          "correctAnswer": "ma Pokhara jaanchu.",
+          "translatedSentence": "I am going to Pokhara."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bus kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bus station ma cha.",
+            "bus dherai purano cha.",
+            "bus ko ticket mahango cha."
+          ],
+          "correctAnswer": "bus station ma cha.",
+          "translatedSentence": "The bus is at the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma bus ma jaanchu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going by bus.",
+            "I am going by train.",
+            "I am waiting for the bus."
+          ],
+          "correctAnswer": "I am going by bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo bus Kathmandu jaancha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, yo bus Kathmandu jaancha.",
+            "haina, yo bus Pokhara jaancha.",
+            "yo bus bihana chutcha."
+          ],
+          "correctAnswer": "ho, yo bus Kathmandu jaancha.",
+          "translatedSentence": "Yes, this bus goes to Kathmandu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "station yaha bata tadha cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The station is far from here.",
+            "The station is close to here.",
+            "The station is behind the house."
+          ],
+          "correctAnswer": "The station is far from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "timi kaha jaanchau?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma station jaanchu.",
+            "ma chiya khanchu.",
+            "ma sanchai chu."
+          ],
+          "correctAnswer": "ma station jaanchu.",
+          "translatedSentence": "I am going to the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "rail gadi aile aaucha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The train is coming now.",
+            "The train came yesterday.",
+            "The train is not coming today."
+          ],
+          "correctAnswer": "The train is coming now."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "micro bus yaha rokcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, micro bus yahi rokcha.",
+            "haina, micro bus tyaha rokcha.",
+            "micro bus ma dherai manche chan."
+          ],
+          "correctAnswer": "ho, micro bus yahi rokcha.",
+          "translatedSentence": "Yes, the micro bus stops right here."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma aile station jaandai chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am on my way to the station right now.",
+            "I went to the station yesterday.",
+            "I will go to the station tomorrow."
+          ],
+          "correctAnswer": "I am on my way to the station right now."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Buying a Ticket",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai kati ota ticket chahiyo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "malai dui ota ticket chahiyo.",
+            "malai ek kap chiya chahiyo.",
+            "malai ticket ko paisa thaha chaina."
+          ],
+          "correctAnswer": "malai dui ota ticket chahiyo.",
+          "translatedSentence": "I need two tickets."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pokhara ko ticket kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much does a ticket to Pokhara cost?",
+            "How long does it take to reach Pokhara?",
+            "Where do they sell tickets to Pokhara?"
+          ],
+          "correctAnswer": "How much does a ticket to Pokhara cost?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bihana ko bus kati baje chutcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bihana ko bus saat baje chutcha.",
+            "bihana ko bus station bata chutcha.",
+            "bihana ko ticket ek hajar parcha."
+          ],
+          "correctAnswer": "bihana ko bus saat baje chutcha.",
+          "translatedSentence": "The morning bus leaves at seven."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai bholi bihana ko ticket chahiyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need a ticket for tomorrow morning.",
+            "I need a ticket for tonight.",
+            "I bought a ticket this morning."
+          ],
+          "correctAnswer": "I need a ticket for tomorrow morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "sabai jamma kati bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "saat sai rupaiya bhayo.",
+            "saat baje bhayo.",
+            "saat ota sit khali cha."
+          ],
+          "correctAnswer": "saat sai rupaiya bhayo.",
+          "translatedSentence": "It comes to seven hundred rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "ticket counter kaha cha, thaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thaha cha, ticket counter tyaha bhitra cha.",
+            "thaha chaina, ma yaha naya manche hu.",
+            "ticket counter bihana chhai baje kholcha."
+          ],
+          "correctAnswer": "thaha cha, ticket counter tyaha bhitra cha.",
+          "translatedSentence": "Yes, I know, the ticket counter is inside there."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "aaja ko bus ma thau chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is no room on today's bus.",
+            "Today's bus is not running.",
+            "There is no bus at all today."
+          ],
+          "correctAnswer": "There is no room on today's bus."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "bus chutna ek ghanta baki cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There is one hour left before the bus leaves.",
+            "The bus left one hour ago.",
+            "The bus takes one hour to get there."
+          ],
+          "correctAnswer": "There is one hour left before the bus leaves."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai window sit chahanu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ho, malai window sit nai chahiyo.",
+            "haina, ma window ma basdina.",
+            "ho, malai bholi ko ticket chahiyo."
+          ],
+          "correctAnswer": "ho, malai window sit nai chahiyo.",
+          "translatedSentence": "Yes, I would like a window seat."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Asking for directions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maph garnus, Thamel kaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yaha bata sidha janus, Thamel najikai cha.",
+            "Thamel ma dherai pasal ra hotel chan.",
+            "ma pani Thamel ma nai baschu."
+          ],
+          "correctAnswer": "yaha bata sidha janus, Thamel najikai cha.",
+          "translatedSentence": "Go straight from here, Thamel is quite close."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yaha bata daya tira janus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Go to the right from here.",
+            "Go to the left from here.",
+            "Come back this way from there."
+          ],
+          "correctAnswer": "Go to the right from here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yo bato kaha jaancha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "yo bato station tira jaancha.",
+            "yo bato dherai saguro cha.",
+            "yo bato bihana banda huncha."
+          ],
+          "correctAnswer": "yo bato station tira jaancha.",
+          "translatedSentence": "This road goes toward the station."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "hospital yaha bata najik cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The hospital is near here.",
+            "The hospital is far from here.",
+            "The hospital is next to the station."
+          ],
+          "correctAnswer": "The hospital is near here."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "yaha bata hidera kati minute lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "das minute jati lagcha.",
+            "das rupaiya matra lagcha.",
+            "das baje micro bus aaucha."
+          ],
+          "correctAnswer": "das minute jati lagcha.",
+          "translatedSentence": "It takes about ten minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "maph garnus, najikai bank cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "cha, bank tyo pasal ko chheu ma cha.",
+            "cha, ma bank ma kaam garchu.",
+            "bank ma dherai manche parkhirakheka chan."
+          ],
+          "correctAnswer": "cha, bank tyo pasal ko chheu ma cha.",
+          "translatedSentence": "Yes, the bank is next to that shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "chok ma pugepachi baya tira janus.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "After you reach the intersection, go to the left.",
+            "Turn left before you reach the intersection.",
+            "Wait for me at the intersection."
+          ],
+          "correctAnswer": "After you reach the intersection, go to the left."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai yo thau ramro sanga thaha chaina.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I do not know this place well.",
+            "I know this place very well.",
+            "I have never liked this place."
+          ],
+          "correctAnswer": "I do not know this place well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapailai Thamel jaane bato thaha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "thaha cha, sidha gaera chok bata daya tira janus.",
+            "thaha cha, Thamel ma khana dherai mitho cha.",
+            "thaha chaina, ma pani hijo matra aayeko hu."
+          ],
+          "correctAnswer": "thaha cha, sidha gaera chok bata daya tira janus.",
+          "translatedSentence": "I know it, go straight and then turn right at the intersection."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Taxis and fares",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "taxi ma Thamel samma kati lagcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tin sai rupaiya lagcha.",
+            "tin baje pugincha.",
+            "tin jana samma milcha."
+          ],
+          "correctAnswer": "tin sai rupaiya lagcha.",
+          "translatedSentence": "It costs three hundred rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "meter halera janus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please go by the meter.",
+            "Please drive a little faster.",
+            "Please stop the taxi here."
+          ],
+          "correctAnswer": "Please go by the meter."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "meter anusar jaane ki paisa milaune?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "meter anusar nai jaau, tyahi thik huncha.",
+            "taxi ma ma ekchin sutchu.",
+            "meter ma mero naam lekhieko cha."
+          ],
+          "correctAnswer": "meter anusar nai jaau, tyahi thik huncha.",
+          "translatedSentence": "Let us just go by the meter, that works fine."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yo bhada ekdam mahango bhayo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This fare is much too expensive.",
+            "This fare is quite cheap.",
+            "This taxi is very old."
+          ],
+          "correctAnswer": "This fare is much too expensive."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kaha roknu parcha, bhannus na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "tyo pasal ko agadi roknus.",
+            "chok kaatepachi baya tira janus.",
+            "bhada meter le dekhaye jati dinchu."
+          ],
+          "correctAnswer": "tyo pasal ko agadi roknus.",
+          "translatedSentence": "Please stop in front of that shop."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yahi roknus, ma yaha jhardai chu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Stop right here, I am getting out.",
+            "Stop here, I am getting in.",
+            "Do not stop here, please keep going."
+          ],
+          "correctAnswer": "Stop right here, I am getting out."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "auto ma jaane ki taxi ma?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "auto ma nai jaau, tyo sasto huncha.",
+            "taxi ko meter bigreko cha.",
+            "auto station ko agadi rokcha."
+          ],
+          "correctAnswer": "auto ma nai jaau, tyo sasto huncha.",
+          "translatedSentence": "Let us take the auto, it is cheaper."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "meter kina chalaunu bhayeko chaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "meter bigreko cha, maph garnus.",
+            "meter chalauna ma birsanchu.",
+            "meter ma char sai dekhaeko cha."
+          ],
+          "correctAnswer": "meter bigreko cha, maph garnus.",
+          "translatedSentence": "The meter is broken, I am sorry."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "malai station samma pugaidinus na.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please drop me off at the station.",
+            "Please pick me up at the station.",
+            "Please wait for me at the station."
+          ],
+          "correctAnswer": "Please drop me off at the station."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Checking into a room",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "khali kotha cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "cha, dui jana ko kotha khali cha.",
+            "chaina, ma yo kotha ma baschu.",
+            "kotha maathillo tala ma cha."
+          ],
+          "correctAnswer": "cha, dui jana ko kotha khali cha.",
+          "translatedSentence": "Yes, we have a room free for two people."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ek rat ko kati parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is it for one night?",
+            "How many nights will you stay?",
+            "Is the room free for one night?"
+          ],
+          "correctAnswer": "How much is it for one night?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai kati rat basnu huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ma tin rat baschu.",
+            "ma tin baje aauchu.",
+            "hami tin jana chau."
+          ],
+          "correctAnswer": "ma tin rat baschu.",
+          "translatedSentence": "I will stay for three nights."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kotha ma tato pani cha ki chaina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Is there hot water in the room?",
+            "Is there a heater in the room?",
+            "Is the water in the room clean?"
+          ],
+          "correctAnswer": "Is there hot water in the room?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bihana ko khana kati baje dekhi paincha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bihana ko khana saat baje dekhi paincha.",
+            "bihana ko khana ko paisa alaggai lagcha.",
+            "bihana chiya ra momo dubai paincha."
+          ],
+          "correctAnswer": "bihana ko khana saat baje dekhi paincha.",
+          "translatedSentence": "Breakfast is served from seven in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "kotha herna milcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "milcha, ma tapailai maathi lagera dekhaunchu.",
+            "kotha ko bhada agadi nai tirnu parcha.",
+            "hamro hotel Thamel ko bich ma cha."
+          ],
+          "correctAnswer": "milcha, ma tapailai maathi lagera dekhaunchu.",
+          "translatedSentence": "Of course, I will take you upstairs and show you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "wifi ko password ke ho?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "What is the wifi password?",
+            "Where is the wifi router?",
+            "Does the room have wifi?"
+          ],
+          "correctAnswer": "What is the wifi password?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "kotha ali sano cha, tara safa cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The room is a little small, but it is clean.",
+            "The room is small and rather dirty.",
+            "The room is clean and quite big."
+          ],
+          "correctAnswer": "The room is a little small, but it is clean."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "malai tapaiko passport chahiyo, huncha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "huncha, ma aile jhola bata jhikera dinchu.",
+            "huncha, malai arko kotha chahiyo.",
+            "passport office yaha bata tadha cha."
+          ],
+          "correctAnswer": "huncha, ma aile jhola bata jhikera dinchu.",
+          "translatedSentence": "Sure, I will take it out of my bag right now."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Delays and lost bags",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "bus dhilo bhayo, kati ber parkhinu parcha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "bato bigreko le ek ghanta dhilo huncha, tara bus pakkai aaucha.",
+            "bus aile chuti sakyo, tara tapaiko ticket thik cha.",
+            "bus ko ticket counter maathillo tala ma sarieko cha."
+          ],
+          "correctAnswer": "bato bigreko le ek ghanta dhilo huncha, tara bus pakkai aaucha.",
+          "translatedSentence": "It will be an hour late because the road is damaged, but the bus will definitely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "mero jhola rail gadi mai chutyo.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My bag was left behind on the train.",
+            "My bag was stolen on the train.",
+            "I left my bag at the hotel."
+          ],
+          "correctAnswer": "My bag was left behind on the train."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaiko jhola kasto cha, bhannus na?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "kalo rang ko thulo jhola ho, ra bhitra mero passport pani cha.",
+            "jhola ma khana matra cha, tara tyo mero haina.",
+            "ma naya jhola kinna pasal jaadai chu."
+          ],
+          "correctAnswer": "kalo rang ko thulo jhola ho, ra bhitra mero passport pani cha.",
+          "translatedSentence": "It is a big black bag, and my passport is inside it too."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "tapaile sahayog garnu bhayo bhane dherai gun lagcha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I would be very grateful if you could help me.",
+            "I helped him and he was very grateful.",
+            "You should ask someone else for help."
+          ],
+          "correctAnswer": "I would be very grateful if you could help me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "jahaj dhilo bhayo bhane ke garne?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "chinta nagarnus, dhilo bhayo bhane hami arko jahaj ko byabastha milaidinchau.",
+            "jahaj bihana das baje Kathmandu bata udcha.",
+            "malai jahaj ma yatra garna man lagdaina."
+          ],
+          "correctAnswer": "chinta nagarnus, dhilo bhayo bhane hami arko jahaj ko byabastha milaidinchau.",
+          "translatedSentence": "Do not worry, if it is delayed we will arrange another flight for you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "ma aile samma hotel pugeko chaina, kinaki bato ma jam cha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not reached the hotel yet, because there is a jam on the road.",
+            "I reached the hotel late because of the traffic jam.",
+            "I am not going to the hotel, because the road is closed."
+          ],
+          "correctAnswer": "I have not reached the hotel yet, because there is a jam on the road."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapaile police ma report garnu bhayo?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "ahile samma gareko chaina, tara aile nai garna jaadai chu.",
+            "police station yaha bata dherai najik rahecha.",
+            "police le mero jhola bhetaisake, dhanyabaad."
+          ],
+          "correctAnswer": "ahile samma gareko chaina, tara aile nai garna jaadai chu.",
+          "translatedSentence": "I have not done it yet, but I am on my way to do it now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "yadi jhola bhetiyena bhane, malai phone garnu hola.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the bag is not found, please give me a call.",
+            "If you find the bag, please give me a call.",
+            "I called about the bag, but nobody picked up."
+          ],
+          "correctAnswer": "If the bag is not found, please give me a call."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "tapai sanga ticket ko rasid cha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "cha, tara tyo mero jhola bhitra thiyo ra jhola nai harayo.",
+            "cha, ma bholi bihana arko ticket kinchu.",
+            "rasid ma hotel ko naam lekhieko cha."
+          ],
+          "correctAnswer": "cha, tara tyo mero jhola bhitra thiyo ra jhola nai harayo.",
+          "translatedSentence": "I do have it, but it was inside my bag and the bag itself is lost."
+        }
+      ]
+    }
+  ]
+}

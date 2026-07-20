@@ -1,0 +1,721 @@
+{
+  "course": "work",
+  "title": "Work & School",
+  "description": "Talk about what you do all day.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "What work you do",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu enu kelasa maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu vaidya aagi kelasa maadtini.",
+            "Nanage hasivu aagide.",
+            "Nanna mane Mysuru nalli ide."
+          ],
+          "correctAnswer": "Naanu vaidya aagi kelasa maadtini.",
+          "translatedSentence": "I work as a doctor."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu shikshaka aagi kelasa maadtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I work as a teacher.",
+            "I want to become a teacher.",
+            "My teacher works here."
+          ],
+          "correctAnswer": "I work as a teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu elli kelasa maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu Bengaluru nalli kelasa maadtini.",
+            "Naanu chennagi iddini.",
+            "Nanage kannada gottilla."
+          ],
+          "correctAnswer": "Naanu Bengaluru nalli kelasa maadtini.",
+          "translatedSentence": "I work in Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna akka bank nalli kelasa maadtale.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My older sister works at a bank.",
+            "My older sister is going to the bank.",
+            "My older brother works at a bank."
+          ],
+          "correctAnswer": "My older sister works at a bank."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu vidyarthina?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu vidyarthi.",
+            "Illa, nanage hasivu illa.",
+            "Houdu, naanu mane nalli iddini."
+          ],
+          "correctAnswer": "Houdu, naanu vidyarthi.",
+          "translatedSentence": "Yes, I am a student."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu dinaa office ge hogtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I go to the office every day.",
+            "I am going to the office tomorrow.",
+            "I went to the office today."
+          ],
+          "correctAnswer": "I go to the office every day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma office elli ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna office Cubbon Park hattira ide.",
+            "Nanna office thumba chennagide.",
+            "Naanu office ge hogolla."
+          ],
+          "correctAnswer": "Nanna office Cubbon Park hattira ide.",
+          "translatedSentence": "My office is near Cubbon Park."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage nanna kelasa thumba ishta.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like my job very much.",
+            "I really need a job.",
+            "I do not like my job at all."
+          ],
+          "correctAnswer": "I like my job very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage kelasa hege ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna kelasa chennagide.",
+            "Nanage eega kelasa illa.",
+            "Nanage nimma kelasa gottilla."
+          ],
+          "correctAnswer": "Nanna kelasa chennagide.",
+          "translatedSentence": "My work is going well."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "In the classroom",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee taragati nalli eshtu vidyarthigalu iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee taragati nalli ippattu vidyarthigalu iddare.",
+            "Ee taragati thumba doddadu.",
+            "Naanu taragati ge dinaa bartini."
+          ],
+          "correctAnswer": "Ee taragati nalli ippattu vidyarthigalu iddare.",
+          "translatedSentence": "There are twenty students in this class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shikshakaru indu hosa paatha helikodtare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The teacher is teaching a new lesson today.",
+            "The teacher taught a new lesson yesterday.",
+            "The teacher will come to class tomorrow."
+          ],
+          "correctAnswer": "The teacher is teaching a new lesson today."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage ee prashne artha aaytha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, swalpa artha aagilla.",
+            "Houdu, naanu manege hogtini.",
+            "Illa, nanage hasivu ide."
+          ],
+          "correctAnswer": "Illa, swalpa artha aagilla.",
+          "translatedSentence": "No, I did not quite understand it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna pustaka mejina mele ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My book is on the table.",
+            "My book is in the bag.",
+            "My book is under the table."
+          ],
+          "correctAnswer": "My book is on the table."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naanu ondu prashne kelabahuda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, dayavittu keli.",
+            "Illa, nanage pustaka beku.",
+            "Houdu, naanu manege hogtiddini."
+          ],
+          "correctAnswer": "Houdu, dayavittu keli.",
+          "translatedSentence": "Yes, please ask."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayavittu nimma pustaka teri.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please open your book.",
+            "Please close your book.",
+            "Please bring your book."
+          ],
+          "correctAnswer": "Please open your book."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee prashnege uttara yaarige gottu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage gottu, naanu heltini.",
+            "Nanage hosa pustaka beku.",
+            "Naanu taragati ge tadavaagi bande."
+          ],
+          "correctAnswer": "Nanage gottu, naanu heltini.",
+          "translatedSentence": "I know it, I will say it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage kannada bareyoke kalibeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want to learn to write Kannada.",
+            "I want to learn to speak Kannada.",
+            "I already know how to write Kannada."
+          ],
+          "correctAnswer": "I want to learn to write Kannada."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu dinaa taragati ge bartira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu dinaa bartini.",
+            "Illa, nanna pustaka mane nalli ide.",
+            "Houdu, nanage kannada gottilla."
+          ],
+          "correctAnswer": "Houdu, naanu dinaa bartini.",
+          "translatedSentence": "Yes, I come every day."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "At the Office",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma meeting eshtu hottige shuru aagutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna meeting hattu ghantege shuru aagutte.",
+            "Nanna meeting thumba chennagittu.",
+            "Naanu meeting ge hogolla."
+          ],
+          "correctAnswer": "Nanna meeting hattu ghantege shuru aagutte.",
+          "translatedSentence": "My meeting starts at ten o'clock."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu nimage email kalisiddini, dayavittu nodi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have sent you an email, please take a look.",
+            "I will send you an email tomorrow, please wait.",
+            "I got your email, thank you very much."
+          ],
+          "correctAnswer": "I have sent you an email, please take a look."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma computer kelasa maadtha ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, nanna computer kelasa maadtha illa.",
+            "Houdu, naanu eega manege hogtini.",
+            "Illa, nanage swalpa kaapi beku."
+          ],
+          "correctAnswer": "Illa, nanna computer kelasa maadtha illa.",
+          "translatedSentence": "No, my computer is not working."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu nanna phone mejina mele ittiddini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have left my phone on the desk.",
+            "I have left my phone in the bus.",
+            "I am looking for my phone under the desk."
+          ],
+          "correctAnswer": "I have left my phone on the desk."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Swalpa filter kaapi kudiyona, bartira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, meeting mugida mele bartini.",
+            "Illa, nanage kannada gottilla.",
+            "Houdu, naanu naale office ge bartini."
+          ],
+          "correctAnswer": "Houdu, meeting mugida mele bartini.",
+          "translatedSentence": "Yes, I will come once the meeting is over."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee kelasa naale olage mugiyabeku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This work has to be finished by tomorrow.",
+            "This work was finished yesterday itself.",
+            "This work will start only tomorrow."
+          ],
+          "correctAnswer": "This work has to be finished by tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Manager avaru elli iddare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avaru eega meeting nalli iddare.",
+            "Avaru nanna olle snehita.",
+            "Avarige filter kaapi thumba ishta."
+          ],
+          "correctAnswer": "Avaru eega meeting nalli iddare.",
+          "translatedSentence": "He is in a meeting right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu meeting nalli iddini, aamele phone maadtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am in a meeting, I will call you later.",
+            "I am in the office, please call me now.",
+            "I was in a meeting, so I did not call you."
+          ],
+          "correctAnswer": "I am in a meeting, I will call you later."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee email yaarige kalisbeku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Adannu manager avarige kalisi.",
+            "Naanu email innu odilla.",
+            "Nanna computer eega chennagide."
+          ],
+          "correctAnswer": "Adannu manager avarige kalisi.",
+          "translatedSentence": "Please send it to the manager."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Homework and exams",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma pariksha yaavaga ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna pariksha mundina vaara ide.",
+            "Nanna pariksha thumba kashta ittu.",
+            "Naanu pariksha bareyolla."
+          ],
+          "correctAnswer": "Nanna pariksha mundina vaara ide.",
+          "translatedSentence": "My exam is next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu dinaa raatri eradu ghante odtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I study for two hours every night.",
+            "I studied for two hours last night.",
+            "I sleep for two hours every night."
+          ],
+          "correctAnswer": "I study for two hours every night."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu manegelasa maadidira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, innu maadilla, indu raatri maadtini.",
+            "Houdu, nanage pariksha thumba ishta.",
+            "Illa, naanu shaale ge hogolla."
+          ],
+          "correctAnswer": "Illa, innu maadilla, indu raatri maadtini.",
+          "translatedSentence": "No, not yet, I will do it tonight."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee paatha nanage swalpa kashta anisutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This lesson feels a little difficult to me.",
+            "This lesson is very easy for me.",
+            "I finished this lesson a little late."
+          ],
+          "correctAnswer": "This lesson feels a little difficult to me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ninne pariksha hege ittu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chennagi ittu, naanu ella uttara barede.",
+            "Nanage pariksha andre ishta illa.",
+            "Naanu naale pariksha bareetini."
+          ],
+          "correctAnswer": "Chennagi ittu, naanu ella uttara barede.",
+          "translatedSentence": "It went well, I answered every question."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ee prashne artha aagalilla, adakke shikshakarannu kelide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I did not understand this question, so I asked the teacher.",
+            "I understood this question, so I did not ask the teacher.",
+            "The teacher did not understand my question at all."
+          ],
+          "correctAnswer": "I did not understand this question, so I asked the teacher."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu pariksheige chennagi odiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, naanu vaaravella odiddini.",
+            "Illa, nanage swalpa kaapi beku.",
+            "Houdu, naanu naale manege hogtini."
+          ],
+          "correctAnswer": "Houdu, naanu vaaravella odiddini.",
+          "translatedSentence": "Yes, I have studied all week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna manegelasa mugiyalilla, adakke naanu horage hogolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My homework is not done, so I am not going out.",
+            "My homework is done, so I am going out now.",
+            "I finished my homework before I went out."
+          ],
+          "correctAnswer": "My homework is not done, so I am not going out."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage yaava vishaya thumba ishta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ganita thumba ishta.",
+            "Nanage pariksha naale ide.",
+            "Nanna manegelasa mugidide."
+          ],
+          "correctAnswer": "Nanage ganita thumba ishta.",
+          "translatedSentence": "I like maths very much."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Timings and leave",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu eshtu hottige office ge bartira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu beligge ombhattu ghantege bartini.",
+            "Naanu dinaa BMTC bus nalli bartini.",
+            "Naanu ee vaara office ge hogolla."
+          ],
+          "correctAnswer": "Naanu beligge ombhattu ghantege bartini.",
+          "translatedSentence": "I come in at nine in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Indu traffic thumba ittu, adakke naanu tadavaagi bande.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There was a lot of traffic today, so I came late.",
+            "There was no traffic today, so I came early.",
+            "I came late today, so I missed my bus."
+          ],
+          "correctAnswer": "There was a lot of traffic today, so I came late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu yaake tadavaagi bandira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, nanna bus tadavaagi bantu.",
+            "Houdu, naanu beligge bande.",
+            "Illa, nanage eega samaya illa."
+          ],
+          "correctAnswer": "Kshamisi, nanna bus tadavaagi bantu.",
+          "translatedSentence": "Sorry, my bus was late."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage naale ondu dina raje beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I need one day of leave tomorrow.",
+            "I took one day of leave yesterday.",
+            "I want to work one more day."
+          ],
+          "correctAnswer": "I need one day of leave tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma kelasa eshtu hottige mugiyutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sanje aaru ghantege mugiyutte.",
+            "Beligge aaru ghantege shuru aagutte.",
+            "Nanna kelasa thumba kashta ide."
+          ],
+          "correctAnswer": "Sanje aaru ghantege mugiyutte.",
+          "translatedSentence": "It gets over at six in the evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu naale raje thagondiddini, adakke office ge barolla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have taken leave tomorrow, so I will not come to the office.",
+            "I will take leave tomorrow if I cannot come to the office.",
+            "I did not take leave yesterday, so I came to the office."
+          ],
+          "correctAnswer": "I have taken leave tomorrow, so I will not come to the office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naale neevu office ge bartira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, naale nanage raje ide.",
+            "Houdu, naanu ninne bandidde.",
+            "Illa, nanna kelasa mugidide."
+          ],
+          "correctAnswer": "Illa, naale nanage raje ide.",
+          "translatedSentence": "No, I am off tomorrow."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu BMTC bus nalli hogodrinda swalpa tadavaagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Since I travel by BMTC bus, I get a little late.",
+            "If I travel by BMTC bus, I will reach early.",
+            "I travelled by BMTC bus, but I was not late."
+          ],
+          "correctAnswer": "Since I travel by BMTC bus, I get a little late."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage vaarada koneyalli raje ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, shanivaara mattu bhaanuvaara raje ide.",
+            "Illa, naanu beligge bega bandiddini.",
+            "Houdu, nanna kelasa naale mugiyutte."
+          ],
+          "correctAnswer": "Houdu, shanivaara mattu bhaanuvaara raje ide.",
+          "translatedSentence": "Yes, I have Saturday and Sunday off."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Goals and promotions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mundina varsha nimma yojane enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu hosa kelasa hudukoke yochane maadtiddini.",
+            "Nanage ninne dina raje ittu.",
+            "Naanu dinaa beligge office ge bartini."
+          ],
+          "correctAnswer": "Naanu hosa kelasa hudukoke yochane maadtiddini.",
+          "translatedSentence": "I am planning to look for a new job."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu chennagi kelasa maadidre, nanage badthi sigutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If I work well, I will get a promotion.",
+            "I worked well, but I did not get a promotion.",
+            "Once I get a promotion, I will work well."
+          ],
+          "correctAnswer": "If I work well, I will get a promotion."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage badthi sikkitha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Houdu, kaleda tingalu sikkitu, thumba khushi aaytu.",
+            "Illa, nanage innu kannada gottilla.",
+            "Houdu, naanu naale office ge bartini."
+          ],
+          "correctAnswer": "Houdu, kaleda tingalu sikkitu, thumba khushi aaytu.",
+          "translatedSentence": "Yes, I got it last month, I was very happy."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage ee kelasa ishta, aadre sambala saakagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this job, but the salary is not enough.",
+            "I do not like this job, but the salary is good.",
+            "I like this job because the salary is good."
+          ],
+          "correctAnswer": "I like this job, but the salary is not enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mundina varsha neevu enu maadoke yochane maadiddira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu kannada taragatige seruttini, aamele chennagi maataadtini.",
+            "Naanu kaleda varsha kannada kalithe.",
+            "Nanage kannada odoke gottilla."
+          ],
+          "correctAnswer": "Naanu kannada taragatige seruttini, aamele chennagi maataadtini.",
+          "translatedSentence": "I will join a Kannada class, and then I will speak it well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna manager nanna kelasa chennagide antha helidaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My manager said that my work is good.",
+            "My manager asked me to improve my work.",
+            "I told my manager that the work is done."
+          ],
+          "correctAnswer": "My manager said that my work is good."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma mundina guri enu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna guri hosa bhaashe kaliyodu mattu chennagi maataadodu.",
+            "Nanage ninne raatri chennagi nidde bantu.",
+            "Nanna pariksha kaleda varsha mugitu."
+          ],
+          "correctAnswer": "Nanna guri hosa bhaashe kaliyodu mattu chennagi maataadodu.",
+          "translatedSentence": "My goal is to learn a new language and speak it well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu innu eradu varsha ee company nalli kelasa maadtini, aamele swanta vyaapara shuru maadtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will work at this company for two more years, and then I will start my own business.",
+            "I worked at this company for two years, and then I started my own business.",
+            "If I work at this company for two years, I can start my own business."
+          ],
+          "correctAnswer": "I will work at this company for two more years, and then I will start my own business."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage nimma hosa kelasa hege anisutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Modalu swalpa kashta ittu, aadre eega chennagide.",
+            "Nanage hosa kelasa sikkilla, adakke naanu manege hode.",
+            "Naanu hosa kelasa bagge yaarannu kelilla."
+          ],
+          "correctAnswer": "Modalu swalpa kashta ittu, aadre eega chennagide.",
+          "translatedSentence": "It was a bit hard at first, but now it is going well."
+        }
+      ]
+    }
+  ]
+}

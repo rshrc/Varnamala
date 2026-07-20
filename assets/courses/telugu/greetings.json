@@ -1,0 +1,721 @@
+{
+  "course": "greetings",
+  "title": "Greetings",
+  "description": "Open and close a conversation without sounding like a textbook.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Hello and how are you",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskaram, meeru ela unnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu baagunnanu, dhanyavaadalu.",
+            "Nenu Hyderabad lo untanu.",
+            "Naaku konchem chai kaavali."
+          ],
+          "correctAnswer": "Nenu baagunnanu, dhanyavaadalu.",
+          "translatedSentence": "I am doing well, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nuvvu ippudu ela unnavu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu baaga unnanu, nuvvu?",
+            "Naaku ee ooru baaga telusu.",
+            "Nenu ippudu office ki veltunnanu."
+          ],
+          "correctAnswer": "Nenu baaga unnanu, nuvvu?",
+          "translatedSentence": "I am fine, and you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naa peru Ravi, meeru evaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My name is Ravi, and who are you?",
+            "My name is Ravi, and where are you?",
+            "My name is Ravi, and how are you?"
+          ],
+          "correctAnswer": "My name is Ravi, and who are you?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru evaru, mee peru cheppandi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Ravi snehitudini, naa peru Kiran.",
+            "Naaku Ravi telusu, aayana ikkada ledu.",
+            "Nenu ikkadaki kotta ga vachanu."
+          ],
+          "correctAnswer": "Nenu Ravi snehitudini, naa peru Kiran.",
+          "translatedSentence": "I am Ravi's friend, my name is Kiran."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee kutumbam ela undi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How is your family?",
+            "Where is your family?",
+            "Who is there in your family?"
+          ],
+          "correctAnswer": "How is your family?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ooru peru emiti?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa ooru Vijayawada.",
+            "Naa peru Lakshmi.",
+            "Naaku ee ooru telusu."
+          ],
+          "correctAnswer": "Maa ooru Vijayawada.",
+          "translatedSentence": "My town is Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu kuda baagunnanu, dhanyavaadalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am doing well too, thank you.",
+            "I am not doing well, thank you.",
+            "I am here too, thank you."
+          ],
+          "correctAnswer": "I am doing well too, thank you."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku telugu telusaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, naaku konchem telugu telusu.",
+            "Ledu, naaku ee ooru telidu.",
+            "Aavunu, aayana maa annayya."
+          ],
+          "correctAnswer": "Aavunu, naaku konchem telugu telusu.",
+          "translatedSentence": "Yes, I know a little Telugu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mimmalni kalisinanduku chaala santosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am very happy to meet you.",
+            "I am very happy to see this place.",
+            "I will meet you again tomorrow."
+          ],
+          "correctAnswer": "I am very happy to meet you."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Morning, night, welcome",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subhodayam, meeru chai taagutaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, naaku irani chai kaavali.",
+            "Ledu, nenu Hyderabad lo untanu.",
+            "Aavunu, naa peru Kiran."
+          ],
+          "correctAnswer": "Aavunu, naaku irani chai kaavali.",
+          "translatedSentence": "Yes, I would like some Irani chai."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Subhodayam, ee roju meeru baagunnaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good morning, are you well today?",
+            "Good morning, did you sleep well?",
+            "Good morning, where are you going today?"
+          ],
+          "correctAnswer": "Good morning, are you well today?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Maa intiki swagatham, lopaliki randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dhanyavaadalu, mee illu chaala baagundi.",
+            "Ledu, nenu ippudu emi tinanu.",
+            "Naaku mee inti daari baaga telusu."
+          ],
+          "correctAnswer": "Dhanyavaadalu, mee illu chaala baagundi.",
+          "translatedSentence": "Thank you, your house is very nice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Lopaliki randi, konchem chai taagandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come inside and have some tea.",
+            "Please come inside and sit for a while.",
+            "Please wait outside for a few minutes."
+          ],
+          "correctAnswer": "Please come inside and have some tea."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chaala raatri ayindi, nenu veltunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, shubha ratri, jagratta ga vellandi.",
+            "Sare, subhodayam, malli udayam randi.",
+            "Sare, meeru inka konchem chai taagandi."
+          ],
+          "correctAnswer": "Sare, shubha ratri, jagratta ga vellandi.",
+          "translatedSentence": "Alright, good night, go safely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubha ratri, hayi ga nidra pondandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Good night, sleep well.",
+            "Good night, wake up early.",
+            "Good evening, rest for a while."
+          ],
+          "correctAnswer": "Good night, sleep well."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Subhodayam, mee amma gaaru lechaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, aavida vanta chestunnaru.",
+            "Ledu, nenu pesarattu tinnanu.",
+            "Aavunu, naaku vanta cheyyadam raadu."
+          ],
+          "correctAnswer": "Aavunu, aavida vanta chestunnaru.",
+          "translatedSentence": "Yes, she is cooking right now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee andariki swagatham, dayachesi kurchondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Welcome to all of you, please sit down.",
+            "Welcome to all of you, please come tomorrow.",
+            "Thank you all, please stand up here."
+          ],
+          "correctAnswer": "Welcome to all of you, please sit down."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Saayantram meeru ekkada untaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saayantram nenu intilone untanu.",
+            "Nenu udayam thondaraga lechanu.",
+            "Naaku raatri bhojanam kaavali."
+          ],
+          "correctAnswer": "Saayantram nenu intilone untanu.",
+          "translatedSentence": "In the evening I stay at home."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Thank You and Sorry",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku naa sahaayam kaavaalaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, dayachesi konchem sahaayam cheyyandi.",
+            "Ledu, naaku ippudu chai kaavali.",
+            "Aavunu, nenu ninna Charminar chusanu."
+          ],
+          "correctAnswer": "Aavunu, dayachesi konchem sahaayam cheyyandi.",
+          "translatedSentence": "Yes, please help me a little."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mee sahaayaniki chaala dhanyavaadalu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Thank you very much for your help.",
+            "Thank you very much for your gift.",
+            "I am very glad to help you."
+          ],
+          "correctAnswer": "Thank you very much for your help."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshaminchandi, nenu konchem aalasyam ga vachanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Parledu andi, meeru kurchondi.",
+            "Dhanyavaadalu, nenu ippudu veltunnanu.",
+            "Aavunu, naaku aalasyam ga telisindi."
+          ],
+          "correctAnswer": "Parledu andi, meeru kurchondi.",
+          "translatedSentence": "It is alright, please have a seat."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Kshaminchandi, Charminar daari cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Excuse me, please tell me the way to Charminar.",
+            "Sorry, I do not know the way to Charminar.",
+            "Excuse me, is this the way to the market?"
+          ],
+          "correctAnswer": "Excuse me, please tell me the way to Charminar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dayachesi naaku konchem neellu ivvandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare andi, ippude teesukostanu.",
+            "Sare andi, nenu neellu taaganu.",
+            "Ledu andi, naaku neellu kaavali."
+          ],
+          "correctAnswer": "Sare andi, ippude teesukostanu.",
+          "translatedSentence": "Sure, I will bring it right away."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Adi naa tappu, nannu kshaminchandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "That was my mistake, please forgive me.",
+            "That was your mistake, please forgive me.",
+            "That was my mistake, but I will not fix it."
+          ],
+          "correctAnswer": "That was my mistake, please forgive me."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru naaku chaala sahaayam chesaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Andulo emi ledu andi, parledu.",
+            "Ledu, nenu meeku sahaayam adigaanu.",
+            "Aavunu, nenu repu Vijayawada veltunnanu."
+          ],
+          "correctAnswer": "Andulo emi ledu andi, parledu.",
+          "translatedSentence": "It was nothing, do not mention it."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Dayachesi konchem pakkaki jarugutaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Could you please move aside a little?",
+            "Could you please wait here a little?",
+            "Could you please come here quickly?"
+          ],
+          "correctAnswer": "Could you please move aside a little?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Kshaminchandi, ee kurchee khaali ga undaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, meeru dhairyam ga kurchovacchu.",
+            "Ledu, naaku ee kurchee telusu.",
+            "Aavunu, ee illu chaala baagundi."
+          ],
+          "correctAnswer": "Aavunu, meeru dhairyam ga kurchovacchu.",
+          "translatedSentence": "Yes, you are welcome to sit there."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Goodbye and take care",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu ippudu veltunnanu, malli kaluddam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, jagratta ga vellandi.",
+            "Sare, lopaliki randi andi.",
+            "Ledu, nenu ikkade untanu."
+          ],
+          "correctAnswer": "Sare, jagratta ga vellandi.",
+          "translatedSentence": "Alright, go safely."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Repu kaluddam, jagratta ga undandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Let us meet tomorrow, take care.",
+            "Let us meet tomorrow, do not be late.",
+            "See you this evening, take care."
+          ],
+          "correctAnswer": "Let us meet tomorrow, take care."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru malli eppudu vastaaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu vachhe vaaram malli vastanu.",
+            "Nenu ninna ikkadiki vachanu.",
+            "Naaku ee ooru chaala nachindi."
+          ],
+          "correctAnswer": "Nenu vachhe vaaram malli vastanu.",
+          "translatedSentence": "I will come again next week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu auto ekki intiki veltunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am taking an auto and going home.",
+            "I am walking home from here.",
+            "I am going to the market by auto."
+          ],
+          "correctAnswer": "I am taking an auto and going home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu repu Vijayawada veltunnanu, cheppadaniki vachanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Antha duuram veltunnaaraa? Jagratta andi.",
+            "Sare, meeru ikkade undandi andi.",
+            "Sare, repu udayam ikkada kaluddam."
+          ],
+          "correctAnswer": "Antha duuram veltunnaaraa? Jagratta andi.",
+          "translatedSentence": "Are you going that far? Take care."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru vellipothe naaku baadha ga untundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you leave, I will feel sad.",
+            "If you come, I will feel happy.",
+            "When you leave, please tell me."
+          ],
+          "correctAnswer": "If you leave, I will feel sad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Malli eppudu kaluddam andi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aadivaaram saayantram kaluddam.",
+            "Nenu ninna mee intiki vachanu.",
+            "Naaku ee samayam baaga telusu."
+          ],
+          "correctAnswer": "Aadivaaram saayantram kaluddam.",
+          "translatedSentence": "Let us meet on Sunday evening."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Intiki chereka naaku phone cheyyandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Call me after you reach home.",
+            "Call me before you leave home.",
+            "Come to my home after work."
+          ],
+          "correctAnswer": "Call me after you reach home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru vellandi, nenu tarvata vastanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Sare, nenu mundu veltanu, jagratta.",
+            "Sare, nenu ikkada bhojanam chestanu.",
+            "Ledu, nenu ninna mundu vellanu."
+          ],
+          "correctAnswer": "Sare, nenu mundu veltanu, jagratta.",
+          "translatedSentence": "Okay, I will go ahead, take care."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Respect for elders",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ithanu maa taatayya gaaru, aayanaki namaskaram cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namaskaram taatayya gaaru, meeru ela unnaru?",
+            "Emiti taatayya, nuvvu ela unnavu?",
+            "Namaskaram andi, nenu ippudu veltunnanu."
+          ],
+          "correctAnswer": "Namaskaram taatayya gaaru, meeru ela unnaru?",
+          "translatedSentence": "Greetings grandfather, how are you?"
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Peddavaallatho maatlaadetappudu meeru ani pilavaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you speak with elders, you should use the polite form.",
+            "When you speak with friends, you should use the polite form.",
+            "When you speak with elders, you should speak loudly."
+          ],
+          "correctAnswer": "When you speak with elders, you should use the polite form."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee naanna gaaru intlo unnaaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, aayana lopala unnaru.",
+            "Aavunu, vaadu lopala unnadu.",
+            "Ledu, nenu intlone unnanu."
+          ],
+          "correctAnswer": "Aavunu, aayana lopala unnaru.",
+          "translatedSentence": "Yes, he is inside."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Aavida maa pinni gaaru, aavidane adagandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "She is my aunt, please ask her.",
+            "She is my aunt, please tell her.",
+            "She is my sister, please ask her."
+          ],
+          "correctAnswer": "She is my aunt, please ask her."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dost, nuvvu naaku konchem sahaayam chestaava?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda chestanu, cheppu.",
+            "Tappakunda chestanu andi, meeru cheppandi.",
+            "Ledu, naake sahaayam kaavali ra."
+          ],
+          "correctAnswer": "Tappakunda chestanu, cheppu.",
+          "translatedSentence": "Of course I will help, tell me."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Teliyani vaallani kalisinappudu namaskaram ani cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "When you meet people you do not know, say namaskaram.",
+            "When you meet your friends, say namaskaram.",
+            "When you meet people you do not know, ask their name."
+          ],
+          "correctAnswer": "When you meet people you do not know, say namaskaram."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Aayana mimmalni bhojanaaniki pilichaaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Chaala dhanyavaadalu andi, tappakunda vastanu.",
+            "Sare ra, nenu raatri vastanu.",
+            "Ledu, nenu aayanani bhojanaaniki pilichanu."
+          ],
+          "correctAnswer": "Chaala dhanyavaadalu andi, tappakunda vastanu.",
+          "translatedSentence": "Thank you very much, I will surely come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Peddavaallaki namaskaram pettadam maa sampradaayam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Greeting elders respectfully is our custom.",
+            "Greeting friends respectfully is our custom.",
+            "Inviting elders home is our custom."
+          ],
+          "correctAnswer": "Greeting elders respectfully is our custom."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru naa kanna peddavaaru, nenu mimmalni emani pilavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nannu annayya ani pilavandi.",
+            "Nenu mee peru marchipoyanu.",
+            "Meeru naa kanna chinnavaaru."
+          ],
+          "correctAnswer": "Nannu annayya ani pilavandi.",
+          "translatedSentence": "Please call me elder brother."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Meeting After Long Time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Chaala rojula tarvata kalisamu, meeru ela unnaru andi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Baagunnanu, kaani panilo chaala ottidi ga undi.",
+            "Ledu, nenu mimmalni ekkada kalavaledu.",
+            "Aavunu, naaku Hyderabad chaala baaga telusu."
+          ],
+          "correctAnswer": "Baagunnanu, kaani panilo chaala ottidi ga undi.",
+          "translatedSentence": "I am well, but work has been very hectic."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu Hyderabad ki maarina tarvata mimmalni kalavaledu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have not met you since I moved to Hyderabad.",
+            "I met you right after I moved to Hyderabad.",
+            "I will meet you once I move to Hyderabad."
+          ],
+          "correctAnswer": "I have not met you since I moved to Hyderabad."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippudu meeru ekkada pani chestunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nenu Vijayawada lo oka bank lo pani chestunnanu.",
+            "Nenu ninna Vijayawada nunchi vachanu.",
+            "Naaku aa bank daari baaga telusu."
+          ],
+          "correctAnswer": "Nenu Vijayawada lo oka bank lo pani chestunnanu.",
+          "translatedSentence": "I work at a bank in Vijayawada."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Mimmalni chusi chaala santosham ga undi, meeru ento maaripoyaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "It is so good to see you, you have changed a lot.",
+            "It is so good to see you, you have not changed at all.",
+            "I am so happy that you came to see me."
+          ],
+          "correctAnswer": "It is so good to see you, you have changed a lot."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee pillalu ippudu entha peddavaaru ayyaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Peddavaadu college ki veltunnadu, chinnadi inka school lo undi.",
+            "Naaku mee pillalu baaga telusu andi.",
+            "Nenu aa school lone pani chestunnanu."
+          ],
+          "correctAnswer": "Peddavaadu college ki veltunnadu, chinnadi inka school lo undi.",
+          "translatedSentence": "The older one is in college, and the younger one is still in school."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Samayam unte repu kalisi irani chai taagudam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you have time, let us have Irani chai together tomorrow.",
+            "If I have time, I will drink Irani chai tomorrow.",
+            "We had Irani chai together yesterday."
+          ],
+          "correctAnswer": "If you have time, let us have Irani chai together tomorrow."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru inka pesarattu ishtapadataaraa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aavunu, kaani ee rojullo nenu ekkuva biryani tintunnanu.",
+            "Ledu, naaku pesarattu cheyyadam raadu.",
+            "Aavunu, nenu ninna raatri biryani chesanu."
+          ],
+          "correctAnswer": "Aavunu, kaani ee rojullo nenu ekkuva biryani tintunnanu.",
+          "translatedSentence": "Yes, but these days I eat more biryani."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu gongura pachadi chesanu, meeru tappakunda tinaali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I made gongura pickle, you must definitely try it.",
+            "I bought gongura pickle, you must definitely try it.",
+            "I made gongura pickle, but I could not taste it."
+          ],
+          "correctAnswer": "I made gongura pickle, you must definitely try it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee saari intha aalasyam cheyyakandi, tarachu phone cheyyandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda andi, ee saari nene mundu phone chestanu.",
+            "Ledu andi, naaku mee phone number telidu.",
+            "Sare andi, nenu repu Charminar daggara untanu."
+          ],
+          "correctAnswer": "Tappakunda andi, ee saari nene mundu phone chestanu.",
+          "translatedSentence": "Definitely, this time I will call you first."
+        }
+      ]
+    }
+  ]
+}

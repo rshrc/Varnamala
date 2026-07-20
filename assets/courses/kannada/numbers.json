@@ -1,0 +1,721 @@
+{
+  "course": "numbers",
+  "title": "Numbers",
+  "description": "Counting, prices and quantities in real sentences.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "One to ten daily",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Vaaradalli eshtu dina ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaaradalli elu dina ive.",
+            "Vaaradalli aidu dina ive.",
+            "Vaaradalli hattu dina ive."
+          ],
+          "correctAnswer": "Vaaradalli elu dina ive.",
+          "translatedSentence": "There are seven days in a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanage eradu masala dose beku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I want two masala dosas.",
+            "I want three masala dosas.",
+            "I want two filter coffees."
+          ],
+          "correctAnswer": "I want two masala dosas."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma manetalli eshtu jana iddaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namma manetalli naalku jana iddaare.",
+            "Namma mane Mysurinalli ide.",
+            "Naanu manege beligge hoguttene."
+          ],
+          "correctAnswer": "Namma manetalli naalku jana iddaare.",
+          "translatedSentence": "There are four people in our house."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira mooru pustaka ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have three books.",
+            "I have three pens.",
+            "There are three books on the table."
+          ],
+          "correctAnswer": "I have three books."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage eshtu chapati beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage mooru chapati beku.",
+            "Nanage chapati tumba ista.",
+            "Chapati innu bisi ide."
+          ],
+          "correctAnswer": "Nanage mooru chapati beku.",
+          "translatedSentence": "I want three chapatis."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira aidu roopayi ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have five rupees.",
+            "I need five rupees.",
+            "I have fifty rupees."
+          ],
+          "correctAnswer": "I have five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ondu kaiyalli eshtu beralu ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu kaiyalli aidu beralu ive.",
+            "Ondu kaiyalli mooru beralu ive.",
+            "Ondu kaiyalli hattu beralu ive."
+          ],
+          "correctAnswer": "Ondu kaiyalli aidu beralu ive.",
+          "translatedSentence": "There are five fingers on one hand."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namma manetalli eradu bekku ive.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We have two cats at home.",
+            "We have two dogs at home.",
+            "There are two cats in the park."
+          ],
+          "correctAnswer": "We have two cats at home."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage aaru idli saakaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, nanage entu idli beku.",
+            "Howdu, idli tumba chennagide.",
+            "Idli jote chutney ide."
+          ],
+          "correctAnswer": "Illa, nanage entu idli beku.",
+          "translatedSentence": "No, I need eight idlis."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Eleven to a hundred",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma taragatiyalli eshtu vidyarthigalu iddaare?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Namma taragatiyalli muvattu vidyarthigalu iddaare.",
+            "Namma taragati tumba doddadaagi ide.",
+            "Naanu taragatige beligge hoguttene."
+          ],
+          "correctAnswer": "Namma taragatiyalli muvattu vidyarthigalu iddaare.",
+          "translatedSentence": "There are thirty students in our class."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "BMTC busnalli aivattu jana iddaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are fifty people in the BMTC bus.",
+            "There are fifteen people in the BMTC bus.",
+            "Fifty people are waiting for the BMTC bus."
+          ],
+          "correctAnswer": "There are fifty people in the BMTC bus."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ondu varshadalli eshtu tingalu ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ondu varshadalli hanneradu tingalu ive.",
+            "Ondu varshadalli hattu tingalu ive.",
+            "Ondu varshadalli ippattu tingalu ive."
+          ],
+          "correctAnswer": "Ondu varshadalli hanneradu tingalu ive.",
+          "translatedSentence": "There are twelve months in one year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira ippattaidu roopayi matra ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only have twenty-five rupees.",
+            "I only have twenty rupees.",
+            "I need twenty-five rupees more."
+          ],
+          "correctAnswer": "I only have twenty-five rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee pustakadalli eshtu puta ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee pustakadalli nooru puta ive.",
+            "Ee pustaka tumba chennagide.",
+            "Ee pustakavannu naanu ninne odide."
+          ],
+          "correctAnswer": "Ee pustakadalli nooru puta ive.",
+          "translatedSentence": "This book has a hundred pages."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee angadiyalli hadinentu tara sihi tindi ide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This shop has eighteen kinds of sweets.",
+            "This shop has eight kinds of sweets.",
+            "This shop sells sweets and snacks."
+          ],
+          "correctAnswer": "This shop has eighteen kinds of sweets."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bengaluru inda Mysuru eshtu doora ide?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bengaluru inda Mysuru nooraivattu kilometre doora ide.",
+            "Bengaluru inda Mysurige dina bus ide.",
+            "Mysuru tumba chennagide."
+          ],
+          "correctAnswer": "Bengaluru inda Mysuru nooraivattu kilometre doora ide.",
+          "translatedSentence": "Mysuru is a hundred and fifty kilometres from Bengaluru."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee sabheyalli aravattu jana iddaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "There are sixty people at this meeting.",
+            "There are sixteen people at this meeting.",
+            "Sixty people are coming to this meeting."
+          ],
+          "correctAnswer": "There are sixty people at this meeting."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee hotelnalli eshtu meji khaali ive?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee hotelnalli hanneradu meji khaali ive.",
+            "Ee hotelnalli oota tumba chennagide.",
+            "Naanu ee hotelge aagaga barutteene."
+          ],
+          "correctAnswer": "Ee hotelnalli hanneradu meji khaali ive.",
+          "translatedSentence": "There are twelve free tables in this restaurant."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "How much it costs",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee tarakaari kilo ge eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kilo ge nalvattu roopayi.",
+            "Tarakaari tumba tajaa ide.",
+            "Namma angadi illi hattira ide."
+          ],
+          "correctAnswer": "Kilo ge nalvattu roopayi.",
+          "translatedSentence": "It is forty rupees a kilo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ondu masala dose eshtu roopayi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "How much is one masala dosa?",
+            "How much are two masala dosas?",
+            "Is the masala dosa good here?"
+          ],
+          "correctAnswer": "How much is one masala dosa?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bele swalpa jaasti aaytu, swalpa kammi maadi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa saar, idu sariyaada bele ide.",
+            "Howdu, naanu naale barutteene.",
+            "Namma angadi raatri mucchutte."
+          ],
+          "correctAnswer": "Illa saar, idu sariyaada bele ide.",
+          "translatedSentence": "No sir, this is the right price."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira eppattu roopayi matra ide, saakagilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I only have seventy rupees, it is not enough.",
+            "I only have seventeen rupees, it is not enough.",
+            "I have seventy rupees, that is enough."
+          ],
+          "correctAnswer": "I only have seventy rupees, it is not enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee shirt bele eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Idara bele nooraivattu roopayi.",
+            "Ee shirt neeli bannada ide.",
+            "Naanu ee shirt ninne konde."
+          ],
+          "correctAnswer": "Idara bele nooraivattu roopayi.",
+          "translatedSentence": "It costs a hundred and fifty rupees."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Eradu filter kaapige nalvattu roopayi aaytu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Two filter coffees came to forty rupees.",
+            "Two filter coffees came to fourteen rupees.",
+            "One filter coffee costs forty rupees."
+          ],
+          "correctAnswer": "Two filter coffees came to forty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma hattira chillare ideya?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Illa, nanna hattira chillare illa.",
+            "Howdu, nanage ondu kaapi beku.",
+            "Naanu bank ge hoguttene."
+          ],
+          "correctAnswer": "Illa, nanna hattira chillare illa.",
+          "translatedSentence": "No, I do not have change."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ondu kilo ragi hittu embattu roopayi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "One kilo of ragi flour is eighty rupees.",
+            "One kilo of ragi flour is eighteen rupees.",
+            "Ragi flour costs eighty rupees a packet."
+          ],
+          "correctAnswer": "One kilo of ragi flour is eighty rupees."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ellaa seri eshtu aaytu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ellaa seri innooru roopayi aaytu.",
+            "Ella tindi innu bisi ide.",
+            "Naanu innu oota maadilla."
+          ],
+          "correctAnswer": "Ellaa seri innooru roopayi aaytu.",
+          "translatedSentence": "It comes to two hundred rupees in all."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Age, numbers and quantity",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage eshtu varsha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage muvattaidu varsha.",
+            "Nanna hesaru Ravi.",
+            "Naanu Bengalurinalli iddene."
+          ],
+          "correctAnswer": "Nanage muvattaidu varsha.",
+          "translatedSentence": "I am thirty-five years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna maganige entu varsha, magalige aaru varsha.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My son is eight and my daughter is six.",
+            "My son is six and my daughter is eight.",
+            "My son is eight and my daughter is nine."
+          ],
+          "correctAnswer": "My son is eight and my daughter is six."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma phone number eshtu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Swalpa iri, nanna number heluttene.",
+            "Naanu phone nalli maatadutta iddene.",
+            "Nanna phone tumba hosadu."
+          ],
+          "correctAnswer": "Swalpa iri, nanna number heluttene.",
+          "translatedSentence": "Wait a moment, I will tell you my number."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna phone number ombattu inda shuru aagutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "My phone number starts with nine.",
+            "My phone number ends with nine.",
+            "My phone number has nine digits."
+          ],
+          "correctAnswer": "My phone number starts with nine."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage eshtu akki beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage eradu kilo akki beku.",
+            "Akki bele indu tumba jaasti ide.",
+            "Naanu manetalli anna maaduttene."
+          ],
+          "correctAnswer": "Nanage eradu kilo akki beku.",
+          "translatedSentence": "I need two kilos of rice."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Swalpa haalu kodi, jaasti beda.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Give me a little milk, not too much.",
+            "Give me a lot of milk, please.",
+            "I do not want any milk today."
+          ],
+          "correctAnswer": "Give me a little milk, not too much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma tangige eshtu varsha?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanna tangige ippattu varsha.",
+            "Nanna tangi Mysurinalli odutta iddaale.",
+            "Nanage ibbaru tangiyaru iddaare."
+          ],
+          "correctAnswer": "Nanna tangige ippattu varsha.",
+          "translatedSentence": "My younger sister is twenty years old."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Namma officenalli ippattu jana kelasa maadtaare.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Twenty people work in our office.",
+            "Twelve people work in our office.",
+            "Our office has twenty rooms."
+          ],
+          "correctAnswer": "Twenty people work in our office."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimma manege dinakke eshtu litre haalu beku?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Dinakke ondu litre haalu saaku.",
+            "Haalinda naavu mosaru maadtive.",
+            "Haalu bele hattu roopayi jaasti aaytu."
+          ],
+          "correctAnswer": "Dinakke ondu litre haalu saaku.",
+          "translatedSentence": "One litre of milk a day is enough for us."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Telling the time",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Eega eshtu gante aaytu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Eega mooru gante aaytu.",
+            "Naanu gante nodalilla.",
+            "Nanna watch tumba hosadu."
+          ],
+          "correctAnswer": "Eega mooru gante aaytu.",
+          "translatedSentence": "It is three o'clock now."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu beligge aaru gantege eddeltini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I get up at six in the morning.",
+            "I get up at seven in the morning.",
+            "I go to sleep at six in the morning."
+          ],
+          "correctAnswer": "I get up at six in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bus eshtu gantege barutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bus entu gante ippattu nimishakke barutte.",
+            "Bus stand illi hattira ide.",
+            "Busnalli indu tumba jana iddaare."
+          ],
+          "correctAnswer": "Bus entu gante ippattu nimishakke barutte.",
+          "translatedSentence": "The bus comes at eight twenty."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naanu madhyaana ondu gantege oota maadtini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I eat lunch at one in the afternoon.",
+            "I eat lunch at two in the afternoon.",
+            "I cook lunch at one in the afternoon."
+          ],
+          "correctAnswer": "I eat lunch at one in the afternoon."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Neevu eshtu hottige mane serutteera?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naanu raatri entu gantege mane sertini.",
+            "Nanna mane Jayanagaradalli ide.",
+            "Naanu busnalli manege hoguttene."
+          ],
+          "correctAnswer": "Naanu raatri entu gantege mane sertini.",
+          "translatedSentence": "I get home at eight at night."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Cubbon Park beligge aidu gantege terede irutte.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cubbon Park is open from five in the morning.",
+            "Cubbon Park opens at six in the morning.",
+            "Cubbon Park closes at five in the morning."
+          ],
+          "correctAnswer": "Cubbon Park is open from five in the morning."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Namaskara, angadi eshtu gantege terithira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naavu beligge elu gantege terittive.",
+            "Namma angadiyalli tarakaari maaruttive.",
+            "Namma angadi Gandhi Bazaar nalli ide."
+          ],
+          "correctAnswer": "Naavu beligge elu gantege terittive.",
+          "translatedSentence": "We open at seven in the morning."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Innu ippattu nimishadalli naanu bartini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I will be there in twenty minutes.",
+            "I will be there in twelve minutes.",
+            "I came here twenty minutes ago."
+          ],
+          "correctAnswer": "I will be there in twenty minutes."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Cinema eshtu hottige mugiyutte?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Cinema raatri hattu gantege mugiyutte.",
+            "Cinema tumba chennagide antha helthaare.",
+            "Naanu cinemage snehitara jote hoguttene."
+          ],
+          "correctAnswer": "Cinema raatri hattu gantege mugiyutte.",
+          "translatedSentence": "The film ends at ten at night."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "More, less and total",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bele tumba jaasti ide, swalpa kammi maadtira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshamisi, bele kammi maadoke aagolla, aadare naanu swalpa jaasti kodtini.",
+            "Howdu, ee tarakaari ninne raatri bandide.",
+            "Namma angadi vaaradalli aaru dina terittiruttade."
+          ],
+          "correctAnswer": "Kshamisi, bele kammi maadoke aagolla, aadare naanu swalpa jaasti kodtini.",
+          "translatedSentence": "Sorry, I cannot lower the price, but I will give you a little extra."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ninne kilo ge ippattu roopayi ittu, aadare indu muvattu roopayi aagide.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Yesterday it was twenty rupees a kilo, but today it has gone up to thirty.",
+            "Yesterday it was thirty rupees a kilo, but today it has come down to twenty.",
+            "Yesterday and today the price is twenty rupees a kilo."
+          ],
+          "correctAnswer": "Yesterday it was twenty rupees a kilo, but today it has gone up to thirty."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Naavu aaru jana iddivi, entu dose saakutta?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Saaku antha anistilla, hattu dose helidre olledu.",
+            "Ee hotelnalli dose tumba prasiddha.",
+            "Nanage dose maadoke gottilla."
+          ],
+          "correctAnswer": "Saaku antha anistilla, hattu dose helidre olledu.",
+          "translatedSentence": "I do not think it is enough, it would be better to order ten dosas."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nanna hattira nooru roopayi ide, aadare pustakada bele nooraivattu, adakke naanu konnilla.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I have a hundred rupees but the book costs a hundred and fifty, so I did not buy it.",
+            "I have a hundred and fifty rupees, so I bought the book.",
+            "The book costs a hundred rupees, so I bought it."
+          ],
+          "correctAnswer": "I have a hundred rupees but the book costs a hundred and fifty, so I did not buy it."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nimage ragi mudde jaasti istavaa, illa bisi bele bath aa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nanage ragi mudde jaasti ista, aadare vaarakke ondu sala matra tinnuttene.",
+            "Bisi bele bath maadoke swalpa hottu beku.",
+            "Namma manetalli dina anna maadtaare."
+          ],
+          "correctAnswer": "Nanage ragi mudde jaasti ista, aadare vaarakke ondu sala matra tinnuttene.",
+          "translatedSentence": "I like ragi mudde more, but I eat it only once a week."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee tingalalli naanu kaapige nooru roopayi kammi kharchu maadiddene.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This month I spent a hundred rupees less on coffee.",
+            "This month I spent a hundred rupees more on coffee.",
+            "This month coffee costs a hundred rupees less."
+          ],
+          "correctAnswer": "This month I spent a hundred rupees less on coffee."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Dayavittu bill nalli ottu eshtu aagide antha helthira?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ottu naanooraivattu roopayi aagide saar.",
+            "Naavu card kooda tagolluttive saar.",
+            "Oota nimage ista aaytaa saar?"
+          ],
+          "correctAnswer": "Ottu naanooraivattu roopayi aagide saar.",
+          "translatedSentence": "The total comes to four hundred and fifty rupees, sir."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Bele kammi iddare naanu eradu kilo tagotini, illa andre ondu kilo saaku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If the price is lower I will take two kilos, otherwise one kilo is enough.",
+            "If the price is lower I will take one kilo, otherwise two kilos are enough.",
+            "The price is low, so I will take two kilos today."
+          ],
+          "correctAnswer": "If the price is lower I will take two kilos, otherwise one kilo is enough."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ippattu roopayi kammi maadidre naanu eradu kilo tagotini.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aaytu, nimagoskara ippattu roopayi kammi maadtini.",
+            "Naanu tarakaari beligge naalku gantege tarutteene.",
+            "Namma angadi Cubbon Park hattira ide."
+          ],
+          "correctAnswer": "Aaytu, nimagoskara ippattu roopayi kammi maadtini.",
+          "translatedSentence": "Alright, I will reduce it by twenty rupees for you."
+        }
+      ]
+    }
+  ]
+}

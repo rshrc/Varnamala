@@ -1,0 +1,721 @@
+{
+  "course": "festivals",
+  "title": "Festivals",
+  "description": "Greetings, invitations and celebration talk.",
+  "levels": [
+    {
+      "level": 1,
+      "title": "Greetings and wishes",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi subhakankshalu!",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeku kuda subhakankshalu.",
+            "Naaku panduga teliyadu.",
+            "Nenu ippude veltunnanu."
+          ],
+          "correctAnswer": "Meeku kuda subhakankshalu.",
+          "translatedSentence": "Wishes to you too."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee roju emi panduga?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee roju Ugadi panduga.",
+            "Ee roju naaku selavu ledu.",
+            "Ee roju nenu intlone unnanu."
+          ],
+          "correctAnswer": "Ee roju Ugadi panduga.",
+          "translatedSentence": "Today is Ugadi."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Naaku ee panduga chala istam.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I like this festival very much.",
+            "I do not like this festival.",
+            "This festival is very long."
+          ],
+          "correctAnswer": "I like this festival very much."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru baagunnaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, nenu baagunnanu.",
+            "Ledu, panduga baagundi.",
+            "Nenu Hyderabad lo unnanu."
+          ],
+          "correctAnswer": "Avunu, nenu baagunnanu.",
+          "translatedSentence": "Yes, I am well."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Panduga chala baagundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The festival was really lovely.",
+            "The festival is not good.",
+            "The festival is tomorrow."
+          ],
+          "correctAnswer": "The festival was really lovely."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ammaki subhakankshalu cheppandi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda cheptanu.",
+            "Amma intlo ledu.",
+            "Nenu repu vastanu."
+          ],
+          "correctAnswer": "Tappakunda cheptanu.",
+          "translatedSentence": "I will certainly tell her."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu panduga ki veltunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am going for the festival.",
+            "I am not going for the festival.",
+            "I came here for the festival."
+          ],
+          "correctAnswer": "I am going for the festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Deepavali subhakankshalu andi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Meeku kuda andi.",
+            "Naaku deepalu levu.",
+            "Nenu intiki vachanu."
+          ],
+          "correctAnswer": "Meeku kuda andi.",
+          "translatedSentence": "The same to you."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee panduga maaku chala pedda panduga.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This festival is a very big one for us.",
+            "This festival is a small one for us.",
+            "We do not celebrate this festival."
+          ],
+          "correctAnswer": "This festival is a very big one for us."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The big festivals",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi eppudu vastundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ugadi march nelalo vastundi.",
+            "Ugadi maa ooriki vastundi.",
+            "Ugadi naaku baaga telusu."
+          ],
+          "correctAnswer": "Ugadi march nelalo vastundi.",
+          "translatedSentence": "Ugadi falls in the month of March."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Sankranti ee nelalo vastundaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, janavari lo vastundi.",
+            "Ledu, Sankranti panduga kaadu.",
+            "Sankranti maa intlo chestamu."
+          ],
+          "correctAnswer": "Avunu, janavari lo vastundi.",
+          "translatedSentence": "Yes, it comes in January."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ugadi telugu vaalla kotha samvatsaram.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ugadi is the Telugu new year.",
+            "Ugadi is the harvest festival.",
+            "Ugadi is a new festival for Telugu people."
+          ],
+          "correctAnswer": "Ugadi is the Telugu new year."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sankranti panduga muudu rojulu jarugutundi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The Sankranti festival goes on for three days.",
+            "The Sankranti festival lasts only one day.",
+            "The Sankranti festival starts in three days."
+          ],
+          "correctAnswer": "The Sankranti festival goes on for three days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Bathukamma ekkada ekkuva chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Telangana lo ekkuva chestaru.",
+            "Adi september nelalo vastundi.",
+            "Aa panduga naaku baaga nachutundi."
+          ],
+          "correctAnswer": "Telangana lo ekkuva chestaru.",
+          "translatedSentence": "It is mostly celebrated in Telangana."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Deepavali roju andaru deepalu pedataru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On Deepavali day everyone lights lamps.",
+            "On Deepavali day everyone wears new clothes.",
+            "On Deepavali day everyone stays at home."
+          ],
+          "correctAnswer": "On Deepavali day everyone lights lamps."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeku ee pandagallo edi ekkuva istam?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku Sankranti ante chala istam.",
+            "Naaku ee pandagalu teliyavu.",
+            "Nenu ee vaaram ooriki veltunnanu."
+          ],
+          "correctAnswer": "Naaku Sankranti ante chala istam.",
+          "translatedSentence": "I love Sankranti the most."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sankranti raithula panduga ani cheptaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "They say Sankranti is the farmers' festival.",
+            "They say Sankranti is the new year festival.",
+            "They say Sankranti is only for children."
+          ],
+          "correctAnswer": "They say Sankranti is the farmers' festival."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee samvatsaram Deepavali eppudu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ee samvatsaram october chivarlo vastundi.",
+            "Deepavali chala pedda panduga kada.",
+            "Nenu Deepavali ki Vijayawada lo unnanu."
+          ],
+          "correctAnswer": "Ee samvatsaram october chivarlo vastundi.",
+          "translatedSentence": "This year it falls at the end of October."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Inviting and accepting",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Panduga ki maa intiki randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Tappakunda vastanu andi.",
+            "Naaku mee illu nachindi.",
+            "Nenu ippudu intlo lenu."
+          ],
+          "correctAnswer": "Tappakunda vastanu andi.",
+          "translatedSentence": "I will definitely come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru sayantram raagalara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Kshaminchandi, naaku pani undi.",
+            "Avunu, mee illu chala baagundi.",
+            "Ledu, panduga ninna aipoyindi."
+          ],
+          "correctAnswer": "Kshaminchandi, naaku pani undi.",
+          "translatedSentence": "I am sorry, I have work."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nenu mimmalni panduga ki pilustunnanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "I am inviting you to the festival.",
+            "I am going to the festival with you.",
+            "I am not coming to the festival."
+          ],
+          "correctAnswer": "I am inviting you to the festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru kutumbam tho kalisi randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Please come along with your family.",
+            "Please come alone in the evening.",
+            "Please bring your family home tomorrow."
+          ],
+          "correctAnswer": "Please come along with your family."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Enta mandi vastunnaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Padi mandi vastunnaru.",
+            "Andaru sayantram vastaru.",
+            "Evaru raavatam ledu."
+          ],
+          "correctAnswer": "Padi mandi vastunnaru.",
+          "translatedSentence": "Ten of us are coming."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Nuvvu tappakunda raavali, marchipoku.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "You must come without fail, do not forget.",
+            "You can come later if you want to.",
+            "You do not have to come this time."
+          ],
+          "correctAnswer": "You must come without fail, do not forget."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee intiki ela raavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Charminar daggara auto ekkandi.",
+            "Maa intlo panduga chestunnamu.",
+            "Nenu mimmalni pilavaledu."
+          ],
+          "correctAnswer": "Charminar daggara auto ekkandi.",
+          "translatedSentence": "Take an auto from near Charminar."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Nenu emaina teesukoni raanaa?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Emi vaddu, meeru vaste chaalu.",
+            "Nenu kuda mee intiki vastanu.",
+            "Maa illu ikkade daggara undi."
+          ],
+          "correctAnswer": "Emi vaddu, meeru vaste chaalu.",
+          "translatedSentence": "Nothing at all, it is enough that you come."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru vasthe maaku chala santosham.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will be very happy if you come.",
+            "We were very happy that you came.",
+            "We will happily come to your house."
+          ],
+          "correctAnswer": "We will be very happy if you come."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Festival sweets and food",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Panduga ki emi vantalu chesaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bobbatlu, garelu chesamu.",
+            "Vanta gadi lo amma undi.",
+            "Naaku pulihora ante istam."
+          ],
+          "correctAnswer": "Bobbatlu, garelu chesamu.",
+          "translatedSentence": "We made bobbatlu and garelu."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee ariselu evaru chesaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa amma chesindi.",
+            "Ariselu chala thiyyaga unnayi.",
+            "Nenu rendu ariselu tinnanu."
+          ],
+          "correctAnswer": "Maa amma chesindi.",
+          "translatedSentence": "My mother made them."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Sankranti ki ariselu tappakunda chestaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "People always make ariselu for Sankranti.",
+            "People never make ariselu for Sankranti.",
+            "People make ariselu only for Ugadi."
+          ],
+          "correctAnswer": "People always make ariselu for Sankranti."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Maa intlo panduga roju pulihora chestaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "At our house they make pulihora on festival day.",
+            "At our house we eat pulihora every single day.",
+            "At our house nobody likes pulihora."
+          ],
+          "correctAnswer": "At our house they make pulihora on festival day."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Inko bobbattu teesukondi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vaddu andi, kadupu nindindi.",
+            "Avunu, bobbatlu cheyyadam kastam.",
+            "Nenu ippudu vanta chestunnanu."
+          ],
+          "correctAnswer": "Vaddu andi, kadupu nindindi.",
+          "translatedSentence": "No thank you, I am full."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee payasam chala baagundi, ela chesaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This payasam is delicious, how did you make it?",
+            "This payasam is a little too sweet for me.",
+            "This payasam was made by my elder sister."
+          ],
+          "correctAnswer": "This payasam is delicious, how did you make it?"
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ugadi pachadi enduku chestaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Jeevitam lo anni ruchulu untayi ani.",
+            "Adi chala thiyyaga untundi kada.",
+            "Nenu Ugadi pachadi tinanu."
+          ],
+          "correctAnswer": "Jeevitam lo anni ruchulu untayi ani.",
+          "translatedSentence": "Because life holds every taste."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Udayam tiffin ki emi kaavali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Naaku pesarattu kaavali.",
+            "Vantalu anni aipoyayi.",
+            "Sayantram biryani chestunnaru."
+          ],
+          "correctAnswer": "Naaku pesarattu kaavali.",
+          "translatedSentence": "I would like a pesarattu."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Panduga roju maa intlo mamsam tinaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Nobody eats meat at our house on festival day.",
+            "We eat meat at our house on festival day.",
+            "We go out to eat on festival day."
+          ],
+          "correctAnswer": "Nobody eats meat at our house on festival day."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "New clothes and gifts",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Panduga ki kotha battalu konnaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, ninna Charminar daggara konnanu.",
+            "Kotha battalu chala baagunnayi kada.",
+            "Nenu ippudu battalu vestunnanu."
+          ],
+          "correctAnswer": "Avunu, ninna Charminar daggara konnanu.",
+          "translatedSentence": "Yes, I bought them near Charminar yesterday."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee chira meeku evaru ichcharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Maa attayya panduga ki ichchindi.",
+            "Ee chira rangu chala baagundi.",
+            "Nenu chira kattukovadam ledu."
+          ],
+          "correctAnswer": "Maa attayya panduga ki ichchindi.",
+          "translatedSentence": "My aunt gave it to me for the festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Panduga ki andaru maa ooriki vastaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Everyone comes to our hometown for the festival.",
+            "Everyone leaves our hometown for the festival.",
+            "Nobody comes to our hometown for the festival."
+          ],
+          "correctAnswer": "Everyone comes to our hometown for the festival."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pillalaku kotha battalu konte vaallu chala santosham padataru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "If you buy the children new clothes they are thrilled.",
+            "The children bought new clothes and were thrilled.",
+            "The children want new clothes but they are expensive."
+          ],
+          "correctAnswer": "If you buy the children new clothes they are thrilled."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ammamma ki emi teesukoni vellali?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Aame ki oka pattu chira teesukondi.",
+            "Aame maa intiki repu vastundi.",
+            "Ammamma ki vayasu chala ekkuva."
+          ],
+          "correctAnswer": "Aame ki oka pattu chira teesukondi.",
+          "translatedSentence": "Take a silk saree for her."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Panduga roju andaram kalisi bhojanam chestamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "On festival day we all sit and eat together.",
+            "On festival day we all cook together.",
+            "On festival day we all eat outside somewhere."
+          ],
+          "correctAnswer": "On festival day we all sit and eat together."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Meeru ee panduga ki ooriki veltunnaara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Avunu, rendu rojula tarvata bayaluderutunnanu.",
+            "Maa ooru Vijayawada daggara undi.",
+            "Nenu train ekkadam ledu."
+          ],
+          "correctAnswer": "Avunu, rendu rojula tarvata bayaluderutunnanu.",
+          "translatedSentence": "Yes, I set out in two days."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Ee bahumati mee kosam teesukochanu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Deniki idi andi, chala dhanyavaadalu.",
+            "Nenu meeku emi ivvaledu kada.",
+            "Naaku bahumatulu ante bhayam."
+          ],
+          "correctAnswer": "Deniki idi andi, chala dhanyavaadalu.",
+          "translatedSentence": "You should not have, thank you so much."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Ee sari andaram kalisi fotolu teesukunnamu.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "This time we all took photos together.",
+            "This time nobody wanted to take photos.",
+            "Next time we will all take photos together."
+          ],
+          "correctAnswer": "This time we all took photos together."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "title": "Weddings and celebrations",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee thammudi pelli eppudu jarugutundi?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Vachche nela padihenava tedi jarugutundi, meeru tappakunda randi.",
+            "Pelli chala baaga jarigindi ani andaru cheppaaru.",
+            "Naaku thammudu ledu ani mundhe cheppanu kada."
+          ],
+          "correctAnswer": "Vachche nela padihenava tedi jarugutundi, meeru tappakunda randi.",
+          "translatedSentence": "It is on the fifteenth of next month, so please do come."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Pelli ki raavadaniki meeku kudurutunda?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Prayatnistanu kaani aa rojuna naaku office pani undi.",
+            "Pelli Hyderabad lo jarugutundi ani vinnanu.",
+            "Naaku pelli bhojanam ante chala istam."
+          ],
+          "correctAnswer": "Prayatnistanu kaani aa rojuna naaku office pani undi.",
+          "translatedSentence": "I will try, but I have office work that day."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Muhurtam udayam ayidu gantalaki undi, kaabatti mundu roje raavali.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The auspicious hour is at five in the morning, so you have to come the day before.",
+            "The wedding is at five in the evening, so you can come on the same day.",
+            "The auspicious hour is not fixed yet, so we will let you know later."
+          ],
+          "correctAnswer": "The auspicious hour is at five in the morning, so you have to come the day before."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Shubhalekha ichchi pilisthene pedda vaallu vastaru.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The elders will come only if you invite them with a wedding card.",
+            "The elders came and handed us the wedding card themselves.",
+            "The elders will not come to the wedding at all."
+          ],
+          "correctAnswer": "The elders will come only if you invite them with a wedding card."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Gruhapravesam ki evaru evaru vachcharu?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Bandhuvulu andaru vachcharu kaani maa mavayya raaledu.",
+            "Kotha intiki daari cheppandi, nenu ippude bayaluderutanu.",
+            "Gruhapravesam vachche nela chesukovali ani anukuntunnamu."
+          ],
+          "correctAnswer": "Bandhuvulu andaru vachcharu kaani maa mavayya raaledu.",
+          "translatedSentence": "All the relatives came, but my uncle could not."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Pelli bhojanam baagundi kaani biryani konchem kaaram ekkuva ayindi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "The wedding meal was good, but the biryani turned out a bit too spicy.",
+            "The wedding meal was poor, but the biryani was excellent.",
+            "The wedding meal was good and the biryani was not spicy at all."
+          ],
+          "correctAnswer": "The wedding meal was good, but the biryani turned out a bit too spicy."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Mee ammayi puttinaroju ela chesaru?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Intlone chinnaga chesukunnamu, endukante ee sari andaru raaleru.",
+            "Maa ammayi ki puttinaroju subhakankshalu cheppandi.",
+            "Ammayi ki ee sari kotha battalu konaledu."
+          ],
+          "correctAnswer": "Intlone chinnaga chesukunnamu, endukante ee sari andaru raaleru.",
+          "translatedSentence": "We kept it small at home, because not everyone could make it this time."
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Choose an appropriate response",
+          "sentence": "Deepavali ki Hyderabad lo unnaara leda ooriki vellara?",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "Ikkade unnanu, endukante appatiki selavulu dorakaledu.",
+            "Ooriki velli randi, akkada panduga chala baagundi.",
+            "Deepavali roju deepalu pettadam marchipokandi."
+          ],
+          "correctAnswer": "Ikkade unnanu, endukante appatiki selavulu dorakaledu.",
+          "translatedSentence": "I stayed right here, because I could not get leave in time."
+        },
+        {
+          "type": "translate",
+          "prompt": "Translate the sentence",
+          "sentence": "Meeru raakapote maaku chala badha, kaabatti ee sari tappakunda randi.",
+          "sentenceIsTargetLanguage": true,
+          "options": [
+            "We will be very upset if you do not come, so please do come this time.",
+            "We were very upset that you did not come, so we will not invite you again.",
+            "If you cannot make it this time, we can meet at the next festival."
+          ],
+          "correctAnswer": "We will be very upset if you do not come, so please do come this time."
+        }
+      ]
+    }
+  ]
+}
