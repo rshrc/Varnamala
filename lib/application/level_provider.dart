@@ -181,6 +181,17 @@ class LessonProvider with ChangeNotifier {
 
     await _gameProvider.recordLessonCompletion(wasPerfect: wasPerfect);
 
+    // Counters the achievement catalogue reads. A level is one lesson; a course
+    // is done when its last level is.
+    await _gameProvider.bumpStat('levelsCompleted');
+    final course = _currentCourse;
+    if (course != null) {
+      final totalLevels = course.levels?.length ?? 0;
+      if (totalLevels > 0 && _currentLevelIndex + 1 >= totalLevels) {
+        await _gameProvider.bumpStat('coursesCompleted');
+      }
+    }
+
     final userData = await _gameProvider.getUserGameStateOnce();
     final lessonsCompleted = (userData['lessonsCompleted'] as num? ?? 0).toInt();
     final perfectLessons = (userData['perfectLessons'] as num? ?? 0).toInt();

@@ -11,6 +11,7 @@ import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/utils.dart';
 import 'package:words625/courses/alphabets/alphabets.dart';
+import 'package:words625/application/game_provider.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/service/speech_service.dart';
 import 'package:words625/routing/routing.gr.dart';
@@ -208,7 +209,10 @@ class _CharacterTile extends StatelessWidget {
       color: Colors.white,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
-        onTap: () => getIt<SpeechService>().speak(pronunciation),
+        onTap: () {
+          getIt<SpeechService>().speak(pronunciation);
+          getIt<GameProvider>().bumpStat('lettersPracticed');
+        },
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         child: Container(
           decoration: BoxDecoration(

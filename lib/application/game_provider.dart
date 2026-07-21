@@ -37,6 +37,42 @@ class GameProvider extends ChangeNotifier {
 
   StreakCheckResult get lastStreakCheckResult => _lastStreakCheckResult;
 
+  /// Adds to a running counter on the user document.
+  ///
+  /// These are what the achievement catalogue reads — a badge whose stat is
+  /// never written can never be earned, so every counter it names is bumped
+  /// from wherever that thing actually happens.
+  Future<void> bumpStat(String field, {int by = 1}) async {
+    final userId = _auth.currentUser?.uid;
+    if (userId == null || by == 0) return;
+    try {
+      await _firestore
+          .collection('users')
+          .doc(userId)
+          .set({field: FieldValue.increment(by)}, SetOptions(merge: true));
+    } catch (error) {
+      debugPrint('Could not bump $field: $error');
+    }
+  }
+
+  /// Records a personal best, leaving it alone if the stored value is higher.
+  Future<void> recordBest(String field, int value) async {
+    final userId = _auth.currentUser?.uid;
+    if (userId == null || value <= 0) return;
+    final docRef = _firestore.collection('users').doc(userId);
+    try {
+      await _firestore.runTransaction((transaction) async {
+        final snapshot = await transaction.get(docRef);
+        final current = (snapshot.data()?[field] as num? ?? 0).toInt();
+        if (value > current) {
+          transaction.set(docRef, {field: value}, SetOptions(merge: true));
+        }
+      });
+    } catch (error) {
+      debugPrint('Could not record best $field: $error');
+    }
+  }
+
   Stream<int> getUserStreakStream() {
     final userId = _auth.currentUser?.uid;
     if (userId == null) {
@@ -223,8 +259,11 @@ class GameProvider extends ChangeNotifier {
           }
         }
 
+        var dailyGoalsHit = _readInt(data, 'dailyGoalsHit', 0);
         if (previousDailyXp < dailyGoal && dailyXpEarned >= dailyGoal) {
           newScore += XPEvent.dailyGoalComplete.base;
+          // Counted once per day, the moment the goal is crossed.
+          dailyGoalsHit += 1;
         }
 
         final updates = <String, dynamic>{
@@ -242,6 +281,7 @@ class GameProvider extends ChangeNotifier {
           'leagueXp': leagueXp + xp,
           'dailyXpEarned': dailyXpEarned,
           'dailyXpGoal': dailyGoal,
+          'dailyGoalsHit': dailyGoalsHit,
           'lastDailyReset': today.toIso8601String(),
           'gems': newGems,
           'achievements': achievements.toList(growable: false),

@@ -1,3 +1,6 @@
+// Project imports:
+import 'package:words625/core/identity.dart';
+
 class League {
   final String id;
   final String name;
@@ -39,8 +42,13 @@ class LeaderboardEntry {
   factory LeaderboardEntry.fromMap(String userId, Map<String, dynamic> map) {
     return LeaderboardEntry(
       userId: userId,
-      name: map['name'] as String? ?? 'Anonymous',
-      profileImage: map['profileImage'] as String? ?? '',
+      // Public identity only. `name` and `profileImage` are the Google
+      // account's and are deliberately not read here — see lib/core/identity.dart.
+      name: displayHandle(
+        storedHandle: map['handle'] as String?,
+        userId: userId,
+      ),
+      profileImage: map['avatarSeed'] as String? ?? userId,
       score: (map['score'] as num? ?? 0).toInt(),
       leagueXp: (map['leagueXp'] as num? ?? 0).toInt(),
       league: map['league'] as String? ?? 'bronze',

@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/views/profile/activity_feed_page.dart';
 import 'package:words625/views/theme.dart';
 
 class FriendUpdates extends StatelessWidget {
@@ -19,7 +20,8 @@ class FriendUpdates extends StatelessWidget {
       child: Material(
         color: Colors.transparent,
         child: InkWell(
-          onTap: () {},
+          onTap: () =>
+              Navigator.of(context).push(ActivityFeedPage.route()),
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),

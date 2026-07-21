@@ -6,6 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 // Project imports:
+import 'package:words625/core/identity.dart';
 import 'package:words625/views/theme.dart';
 
 class FollowButton extends StatefulWidget {
@@ -61,6 +62,11 @@ class _FollowButtonState extends State<FollowButton> {
     if (_isFollowing) {
       await userDoc.collection('following').doc(widget.targetUserId).delete();
       await targetUserDoc.collection('followers').doc(currentUserId).delete();
+      // Keeps the Friendly badge honest when someone unfollows.
+      await userDoc.set(
+        {'friendsCount': FieldValue.increment(-1)},
+        SetOptions(merge: true),
+      );
       setState(() => _isFollowing = false);
     } else {
       final currentUserSnapshot = await userDoc.get();
@@ -74,11 +80,18 @@ class _FollowButtonState extends State<FollowButton> {
       });
 
       await targetUserDoc.collection('followers').doc(currentUserId).set({
-        'name': currentUserData['name'] ?? 'Anonymous',
-        'profileImage': currentUserData['profileImage'] ?? 'default_image_url',
+        'name': displayHandle(
+          storedHandle: currentUserData['handle'] as String?,
+          userId: currentUserId,
+        ),
+        'profileImage': currentUserData['avatarSeed'] ?? '',
         'followedAt': FieldValue.serverTimestamp(),
       });
 
+      await userDoc.set(
+        {'friendsCount': FieldValue.increment(1)},
+        SetOptions(merge: true),
+      );
       setState(() => _isFollowing = true);
     }
   }

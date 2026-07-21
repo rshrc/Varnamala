@@ -161,29 +161,10 @@ class _AchievementsState extends State<Achievements> {
     );
   }
 
-  int _getProgress(Achievement achievement, Map<String, dynamic> data) {
-    switch (achievement.type) {
-      case AchievementType.scholar:
-        // Words learned
-        return (data['wordsLearned'] as num?)?.toInt() ?? 0;
-      case AchievementType.sage:
-        // XP
-        return (data['score'] as num?)?.toInt() ?? 0;
-      case AchievementType.wildfire:
-        // Streak
-        return (data['streak'] as num?)?.toInt() ?? 0;
-      case AchievementType.champion:
-        // Lessons
-        return (data['lessonsCompleted'] as num?)?.toInt() ?? 0;
-      case AchievementType.sharpshooter:
-        // Perfect lessons
-        return (data['perfectLessons'] as num?)?.toInt() ?? 0;
-      case AchievementType.streak: // Friendly map
-         return (data['friendsCount'] as num?)?.toInt() ?? 0;
-      default:
-        return 0;
-    }
-  }
+  /// Each achievement names the field it reads, so this no longer has to know
+  /// anything about individual badges — adding one is a catalogue entry.
+  int _getProgress(Achievement achievement, Map<String, dynamic> data) =>
+      achievement.progressFrom(data);
 
   Widget _sectionTitle(BuildContext context, String text, IconData icon) {
     return Padding(

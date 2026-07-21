@@ -7,7 +7,9 @@ import 'package:contained_tab_bar_view/contained_tab_bar_view.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 // Project imports:
+import 'package:words625/core/identity.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/identicon.dart';
 
 class SocialFriends extends StatelessWidget {
   const SocialFriends({Key? key}) : super(key: key);
@@ -119,12 +121,7 @@ class FriendItem extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       child: Row(
         children: [
-          CircleAvatar(
-            backgroundImage: NetworkImage(image),
-            radius: 20,
-            backgroundColor:
-                VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
-          ),
+          Identicon(seed: image.isEmpty ? name : image, size: 40),
           const SizedBox(width: 12),
           Expanded(
             child: Column(
@@ -234,9 +231,13 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
       itemBuilder: (context, index) {
         if (index < _followers.length) {
           final data = _followers[index].data() as Map<String, dynamic>;
+          final userId = _followers[index].id;
           return FriendItem(
-            image: data['profileImage'] ?? '',
-            name: data['name'] ?? 'Unknown',
+            image: data['avatarSeed'] as String? ?? userId,
+            name: displayHandle(
+              storedHandle: data['handle'] as String?,
+              userId: userId,
+            ),
             xp: 'N/A',
           );
         }
@@ -332,9 +333,13 @@ class PaginatedFollowingListState extends State<PaginatedFollowingList> {
       itemBuilder: (context, index) {
         if (index < _following.length) {
           final data = _following[index].data() as Map<String, dynamic>;
+          final userId = _following[index].id;
           return FriendItem(
-            image: data['profileImage'] ?? '',
-            name: data['name'] ?? 'Unknown',
+            image: data['avatarSeed'] as String? ?? userId,
+            name: displayHandle(
+              storedHandle: data['handle'] as String?,
+              userId: userId,
+            ),
             xp: 'N/A',
           );
         }

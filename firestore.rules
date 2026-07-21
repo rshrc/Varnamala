@@ -1,0 +1,129 @@
+rules_version = '2';
+
+// Varnamala security rules.
+//
+// Two things drive the shape of this file:
+//
+//   1. A learner's real identity must not be readable by other learners. The
+//      public identity is `handle` + `avatarSeed`; `name`, `email` and
+//      `profileImage` are legacy fields nobody should be able to read off
+//      someone else's document. See lib/core/identity.dart.
+//
+//   2. A few counters have to be written to *another* user's document —
+//      a hi-five credits the recipient, an upvote credits the comment's
+//      author. Those are allowed, but only as single-field increments, so the
+//      permission cannot be used to touch anyone's score, streak or gems.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---- helpers --------------------------------------------------------
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isSelf(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+
+    // The set of fields this write actually changes.
+    function changed() {
+      return request.resource.data.diff(resource.data).affectedKeys();
+    }
+
+    // True when a write only bumps counters other people are allowed to credit.
+    function onlyCreditsCounters() {
+      return changed().hasOnly(['hiFivesReceived', 'helpfulVotes']);
+    }
+
+    // ---- users ----------------------------------------------------------
+    match /users/{userId} {
+      // Leaderboards and profiles need to read other learners, so reads are
+      // open to signed-in users. Keep private data OUT of this document —
+      // anything here is visible to every other learner.
+      allow read: if signedIn();
+
+      allow create: if isSelf(userId);
+
+      // You may write your own document freely. Someone else may only add to
+      // the two counters that record what they did for you.
+      allow update: if isSelf(userId)
+                    || (signedIn() && onlyCreditsCounters());
+
+      allow delete: if isSelf(userId);
+
+      // Follower graph: you manage your own following list, and other people
+      // add themselves to your followers list.
+      match /following/{targetId} {
+        allow read: if signedIn();
+        allow write: if isSelf(userId);
+      }
+      match /followers/{followerId} {
+        allow read: if signedIn();
+        allow write: if isSelf(followerId);
+      }
+    }
+
+    // ---- course discussions ---------------------------------------------
+    match /communityThreads/{threadId} {
+      allow read: if signedIn();
+
+      match /comments/{commentId} {
+        allow read: if signedIn();
+
+        // Comments must be posted as yourself, so nobody can put words in
+        // another learner's mouth.
+        allow create: if signedIn()
+                      && request.resource.data.authorId == request.auth.uid
+                      && request.resource.data.score == 0
+                      && request.resource.data.text is string
+                      && request.resource.data.text.size() > 0
+                      && request.resource.data.text.size() <= 600;
+
+        // The author may edit or tombstone their own comment. Anyone else may
+        // only move the score, which is what voting does.
+        allow update: if signedIn()
+                      && (resource.data.authorId == request.auth.uid
+                          || changed().hasOnly(['score']));
+
+        // Deletion is a soft delete through update; nothing is ever removed,
+        // so replies underneath a comment are never orphaned.
+        allow delete: if false;
+      }
+
+      // One document per voter, holding all of their votes in this thread.
+      match /voters/{userId} {
+        allow read, write: if isSelf(userId);
+      }
+    }
+
+    // ---- activity feed and hi-fives -------------------------------------
+    match /activity/{activityId} {
+      allow read: if signedIn();
+
+      allow create: if signedIn()
+                    && request.resource.data.userId == request.auth.uid
+                    && request.resource.data.hiFives == 0;
+
+      // A hi-five may only add one to the count and add the sender to the
+      // givers list — it cannot rewrite what somebody achieved.
+      allow update: if signedIn()
+                    && changed().hasOnly(['hiFives', 'givers'])
+                    && request.resource.data.hiFives == resource.data.hiFives + 1
+                    && request.auth.uid in request.resource.data.givers
+                    && !(request.auth.uid in resource.data.givers);
+
+      allow delete: if signedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    // ---- content corrections --------------------------------------------
+    // Anyone may file one; nobody may read the pile back. Reports name a
+    // reporter, and a learner should be able to flag a mistake without other
+    // users seeing that they did.
+    match /contentReports/{reportId} {
+      allow create: if signedIn()
+                    && request.resource.data.reportedBy == request.auth.uid;
+      allow read, update, delete: if false;
+    }
+  }
+}

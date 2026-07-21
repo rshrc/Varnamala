@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/gems_provider.dart';
 import 'package:words625/application/hearts_provider.dart';
+import 'package:words625/application/identity_provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
@@ -87,6 +88,8 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     final gemsProvider = context.read<GemsProvider>();
 
     await gameProvider.ensureUserGameFields();
+    // Gives accounts made before handles existed one of their own.
+    await context.read<IdentityProvider>().ensureHandle();
     await gemsProvider.ensureGemsInitialized();
     await heartsProvider.ensureHeartsInitialized();
     await heartsProvider.refillHeart();

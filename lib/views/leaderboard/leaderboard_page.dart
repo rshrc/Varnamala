@@ -10,6 +10,7 @@ import 'package:words625/application/league_provider.dart';
 import 'package:words625/core/extensions.dart';
 import 'package:words625/domain/league.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/identicon.dart';
 
 class LeaderboardPage extends StatefulWidget {
   const LeaderboardPage({Key? key}) : super(key: key);
@@ -292,14 +293,11 @@ class _LeaderboardTile extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 10),
-          CircleAvatar(
-            radius: 19,
-            backgroundColor: VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
-            backgroundImage:
-                user.profileImage.isEmpty ? null : NetworkImage(user.profileImage),
-            child: user.profileImage.isEmpty
-                ? const Icon(Icons.person_rounded, color: VarnamalaTheme.peacockTeal)
-                : null,
+          // Generated from the avatar seed, so opening the leaderboard never
+          // fetches anyone's Google photo.
+          Identicon(
+            seed: user.profileImage.isEmpty ? user.userId : user.profileImage,
+            size: 38,
           ),
           const SizedBox(width: 12),
           Expanded(

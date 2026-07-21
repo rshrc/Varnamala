@@ -8,76 +8,15 @@ import 'package:injectable/injectable.dart';
 
 // Project imports:
 import 'package:words625/domain/achievement.dart';
+import 'package:words625/domain/achievement_catalogue.dart';
 
 @injectable
 class AchievementsProvider extends ChangeNotifier {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  static const List<Achievement> allAchievements = [
-    Achievement(
-      id: 'scholar',
-      type: AchievementType.scholar,
-      title: 'Scholar',
-      description: 'Learn new words',
-      icon: Icons.auto_stories_rounded,
-      color: Color(0xFF42A5F5),
-      targets: [50, 100, 250, 500, 1000],
-    ),
-    Achievement(
-        id: 'sage',
-        type: AchievementType.sage,
-        title: 'Sage',
-        description: 'Earn XP in a single day',
-        icon: Icons.psychology_rounded,
-        color: Color(0xFF66BB6A),
-        targets: [100, 250, 500, 1000, 2000]),
-    Achievement(
-      id: 'wildfire',
-      type: AchievementType.wildfire,
-      title: 'Wildfire',
-      description: 'Reach a streak of days',
-      icon: Icons.local_fire_department_rounded,
-      color: Color(0xFFFF7043),
-      targets: [3, 7, 14, 30, 75, 125, 200, 365],
-    ),
-    Achievement(
-      id: 'champion',
-      type: AchievementType.champion,
-      title: 'Champion',
-      description: 'Complete lessons',
-      icon: Icons.workspace_premium_rounded,
-      color: Color(0xFFAB47BC),
-      targets: [10, 50, 100, 250, 500],
-    ),
-    Achievement(
-      id: 'sharpshooter',
-      type: AchievementType.sharpshooter,
-      title: 'Sharpshooter',
-      description: 'Complete lessons with no mistakes',
-      icon: Icons.track_changes_rounded,
-      color: Color(0xFFEF5350),
-      targets: [1, 5, 20, 50, 100],
-    ),
-    Achievement(
-      id: 'friendly',
-      type: AchievementType.streak, // Using streak as placeholder for friends if no friends type
-      title: 'Friendly',
-      description: 'Follow friends',
-      icon: Icons.people_rounded,
-      color: Color(0xFF26C6DA),
-      targets: [1, 5, 10, 20],
-    ),
-    Achievement(
-      id: 'winner',
-      type: AchievementType.xp, // Using xp as placeholder for league
-      title: 'Winner',
-      description: 'Finish #1 in your leaderboard',
-      icon: Icons.emoji_events_rounded,
-      color: Color(0xFFFFA726),
-      targets: [1, 5, 10, 25],
-    ),
-  ];
+  /// Every badge, defined in lib/domain/achievement_catalogue.dart.
+  static const List<Achievement> allAchievements = achievementCatalogue;
 
   static final Map<String, Achievement> _achievementById = {
     for (final achievement in allAchievements) achievement.id: achievement,
@@ -128,8 +67,33 @@ class AchievementsProvider extends ChangeNotifier {
       return true;
     });
 
-    if (unlocked) notifyListeners();
+    if (unlocked) {
+      await _publishToFeed(achievement);
+      notifyListeners();
+    }
     return unlocked;
+  }
+
+  /// Puts the unlock on the public activity feed so other learners can send a
+  /// hi-five. Uses the public handle only — never the account name.
+  Future<void> _publishToFeed(Achievement achievement) async {
+    final userId = _auth.currentUser?.uid;
+    if (userId == null) return;
+    try {
+      final user = await _firestore.collection('users').doc(userId).get();
+      final data = user.data() ?? const <String, dynamic>{};
+      await _firestore.collection('activity').add({
+        'userId': userId,
+        'handle': data['handle'] as String? ?? '',
+        'avatarSeed': data['avatarSeed'] as String? ?? userId,
+        'title': 'earned ${achievement.title} — ${achievement.description}',
+        'hiFives': 0,
+        'givers': <String>[],
+        'createdAt': FieldValue.serverTimestamp(),
+      });
+    } catch (error) {
+      debugPrint('Could not publish achievement to feed: $error');
+    }
   }
 
   Future<void> checkLessonMilestones({

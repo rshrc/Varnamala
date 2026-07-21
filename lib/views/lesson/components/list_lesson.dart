@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/level_provider.dart';
 import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/di/injection.dart';
@@ -255,6 +256,8 @@ class QuestionRow extends StatelessWidget {
               key: ValueKey('gloss-$word'),
               triggerMode: TooltipTriggerMode.tap,
               enableFeedback: true,
+              onTriggered: () =>
+                  getIt<GameProvider>().bumpStat('wordsTapped'),
               // Every target-language word is tappable. A word with no gloss
               // says so rather than opening an empty box.
               message: meaning ?? 'No meaning yet',

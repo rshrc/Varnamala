@@ -6,8 +6,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 // Project imports:
 import 'package:words625/core/extensions.dart';
+import 'package:words625/core/identity.dart';
 import 'package:words625/views/profile/widgets/follow_button.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/identicon.dart';
 
 class FriendSuggestions extends StatelessWidget {
   const FriendSuggestions({Key? key}) : super(key: key);
@@ -65,8 +67,11 @@ class FriendSuggestions extends StatelessWidget {
                   final targetUserId = friends[index].id;
 
                   return _FriendCard(
-                    image: friendData['profileImage'] ?? 'default_image_url',
-                    name: friendData['name'] ?? 'Anonymous',
+                    image: friendData['avatarSeed'] ?? targetUserId,
+                    name: displayHandle(
+                      storedHandle: friendData['handle'] as String?,
+                      userId: targetUserId,
+                    ),
                     targetUserId: targetUserId,
                   );
                 },
@@ -103,12 +108,7 @@ class _FriendCard extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircleAvatar(
-            backgroundImage: NetworkImage(image),
-            radius: 24,
-            backgroundColor:
-                VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
-          ),
+          Identicon(seed: image.isEmpty ? name : image, size: 48),
           const SizedBox(height: 8),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 8),

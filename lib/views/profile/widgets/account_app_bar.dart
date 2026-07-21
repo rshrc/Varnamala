@@ -2,13 +2,13 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
+import 'package:provider/provider.dart';
 
 // Project imports:
-import 'package:words625/di/injection.dart';
-import 'package:words625/domain/auth/firebase_user.dart';
-import 'package:words625/service/locator.dart';
+import 'package:words625/application/identity_provider.dart';
+import 'package:words625/views/profile/widgets/edit_identity_sheet.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/identicon.dart';
 
 class AccountAppBar extends StatelessWidget implements PreferredSizeWidget {
   const AccountAppBar({Key? key}) : super(key: key);
@@ -22,65 +22,58 @@ class AccountAppBar extends StatelessWidget implements PreferredSizeWidget {
   }
 }
 
+/// The learner's own account card.
+///
+/// Shows the public handle and generated avatar — the same thing everyone else
+/// sees — rather than the Google name, email and photo it used to print. See
+/// `lib/core/identity.dart` for why.
 class AccountWidget extends StatelessWidget {
   const AccountWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return PreferenceBuilder<SerializableFirebaseUser?>(
-      preference: getIt<AppPrefs>().authUser,
-      builder: (BuildContext context, SerializableFirebaseUser? user) {
-        final displayName = user?.displayName ?? 'Guest';
-        final email = user?.email ?? 'No email';
-        final profileImage =
-            user?.photoUrl ?? 'https://example.com/default_avatar.png';
+    final identity = context.watch<IdentityProvider>();
+    final handle = identity.handle ?? 'Learner';
 
-        return Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-            border: Border.all(color: const Color(0xFFEEF2F1)),
-          ),
-          child: Row(
-            children: [
-              CircleAvatar(
-                radius: 28,
-                backgroundColor:
-                    VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
-                backgroundImage: NetworkImage(profileImage),
-                onBackgroundImageError: (_, __) {},
-                child: user?.photoUrl == null
-                    ? const Icon(Icons.person_rounded,
-                        size: 28, color: VarnamalaTheme.peacockTeal)
-                    : null,
-              ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      displayName,
-                      style:
-                          Theme.of(context).textTheme.titleMedium?.copyWith(
-                                fontWeight: FontWeight.w700,
-                              ),
-                    ),
-                    const SizedBox(height: 2),
-                    Text(
-                      email,
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: VarnamalaTheme.textHint,
-                          ),
-                    ),
-                  ],
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
+        border: Border.all(color: const Color(0xFFEEF2F1)),
+      ),
+      child: Row(
+        children: [
+          Identicon(seed: identity.avatarSeed ?? handle, size: 56),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  handle,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
                 ),
-              ),
-            ],
+                const SizedBox(height: 2),
+                Text(
+                  'Only this is shown to others',
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: VarnamalaTheme.textHint,
+                      ),
+                ),
+              ],
+            ),
           ),
-        );
-      },
+          IconButton(
+            tooltip: 'Edit handle and avatar',
+            icon: const Icon(Icons.edit_rounded,
+                color: VarnamalaTheme.peacockTeal),
+            onPressed: () => showEditIdentitySheet(context),
+          ),
+        ],
+      ),
     );
   }
 }

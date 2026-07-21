@@ -5,7 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/level_provider.dart';
+import 'package:words625/views/courses/components/community_sheet.dart';
 import 'package:words625/views/theme.dart';
 
 class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -46,6 +48,32 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
         },
       ),
       centerTitle: true,
+      actions: [
+        // Reporting belongs here rather than on the course: from inside a
+        // lesson the exact sentence can be attached automatically, so the
+        // learner does not have to describe which line was wrong.
+        Consumer<LessonProvider>(
+          builder: (context, lesson, _) {
+            final question = lesson.currentQuestion;
+            final course = lesson.currentCourse;
+            if (question?.sentence == null || course == null) {
+              return const SizedBox.shrink();
+            }
+            return IconButton(
+              tooltip: 'Report a mistake in this question',
+              icon: const Icon(Icons.flag_outlined,
+                  color: VarnamalaTheme.textHint, size: 22),
+              onPressed: () => showReportSheet(
+                context,
+                language: context.read<LanguageProvider>().selectedLanguage,
+                courseName: course.courseName,
+                sentence: question!.sentence,
+              ),
+            );
+          },
+        ),
+        const SizedBox(width: 4),
+      ],
     );
   }
 }

@@ -3,14 +3,17 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:auto_route/auto_route.dart';
+import 'package:provider/provider.dart';
 import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
+import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/extensions.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
+import 'package:words625/views/courses/components/community_sheet.dart';
 import 'package:words625/views/theme.dart';
 
 /// Diameter of the circular node face.
@@ -92,6 +95,16 @@ class _CourseNodeState extends State<CourseNode> {
     widget.onReturn?.call();
   }
 
+  void _openCommunity() {
+    // Open even on a locked course: that is often exactly where the questions
+    // about what is coming get asked.
+    showCommunitySheet(
+      context,
+      language: context.read<LanguageProvider>().selectedLanguage,
+      courseName: widget.course.courseName,
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final color = widget.isLocked
@@ -104,17 +117,30 @@ class _CourseNodeState extends State<CourseNode> {
       mainAxisSize: MainAxisSize.min,
       children: [
         if (widget.isCurrent) const _StartFlag(),
-        GestureDetector(
-          onTapDown: (_) => setState(() => _pressed = true),
-          onTapUp: (_) => setState(() => _pressed = false),
-          onTapCancel: () => setState(() => _pressed = false),
-          onTap: _open,
-          child: _NodeFace(
-            course: widget.course,
-            color: color,
-            pressed: _pressed,
-            locked: widget.isLocked,
-          ),
+        Stack(
+          clipBehavior: Clip.none,
+          children: [
+            GestureDetector(
+              onTapDown: (_) => setState(() => _pressed = true),
+              onTapUp: (_) => setState(() => _pressed = false),
+              onTapCancel: () => setState(() => _pressed = false),
+              onTap: _open,
+              // Long press is the shortcut; the badge below is how anyone
+              // finds out the discussion exists in the first place.
+              onLongPress: _openCommunity,
+              child: _NodeFace(
+                course: widget.course,
+                color: color,
+                pressed: _pressed,
+                locked: widget.isLocked,
+              ),
+            ),
+            Positioned(
+              left: -4,
+              top: 2,
+              child: _DiscussionBadge(onTap: _openCommunity),
+            ),
+          ],
         ),
         const SizedBox(height: 8),
         Text(
@@ -132,6 +158,48 @@ class _CourseNodeState extends State<CourseNode> {
           ),
         ),
       ],
+    );
+  }
+}
+
+/// The speech bubble clipped to the side of a node.
+///
+/// A long press alone would be invisible — nobody discovers a gesture that
+/// nothing on screen hints at. This is the visible way in, and it doubles as a
+/// sign that a discussion exists at all.
+class _DiscussionBadge extends StatelessWidget {
+  const _DiscussionBadge({required this.onTap});
+
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      button: true,
+      label: 'Open course discussion',
+      child: GestureDetector(
+        onTap: onTap,
+        child: Container(
+          width: 26,
+          height: 26,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            shape: BoxShape.circle,
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black.withValues(alpha: 0.12),
+                blurRadius: 5,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: const Icon(
+            Icons.forum_rounded,
+            size: 14,
+            color: VarnamalaTheme.peacockTeal,
+          ),
+        ),
+      ),
     );
   }
 }
