@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:auto_route/auto_route.dart';
-import 'package:flutter_tts/flutter_tts.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
@@ -13,6 +12,7 @@ import 'package:words625/core/enums.dart';
 import 'package:words625/core/utils.dart';
 import 'package:words625/courses/alphabets/alphabets.dart';
 import 'package:words625/di/injection.dart';
+import 'package:words625/service/speech_service.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
@@ -208,7 +208,7 @@ class _CharacterTile extends StatelessWidget {
       color: Colors.white,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
-        onTap: () => getIt<FlutterTts>().speak(pronunciation),
+        onTap: () => getIt<SpeechService>().speak(pronunciation),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         child: Container(
           decoration: BoxDecoration(
@@ -525,7 +525,7 @@ class _VowelAndConsonantLearningPageState
                       borderRadius:
                           BorderRadius.circular(VarnamalaTheme.radiusSmall),
                       onTap: () =>
-                          getIt<FlutterTts>().speak(currentCharacter.value),
+                          getIt<SpeechService>().speak(currentCharacter.value),
                       child: const Padding(
                         padding: EdgeInsets.all(8),
                         child: Icon(Icons.volume_up_rounded,

@@ -1,9 +1,11 @@
 // Flutter imports:
-import 'package:flutter/foundation.dart';
 
 // Package imports:
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+
+// Project imports:
+import 'package:words625/service/speech_service.dart';
 import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
@@ -98,8 +100,9 @@ Future<void> setupLocator() async {
   getIt.registerLazySingleton<AppRouter>(() => AppRouter());
   getIt.registerLazySingleton<AppPrefs>(() => AppPrefs(preferences));
 
-  if (!kIsWeb) {
-    getIt.registerLazySingleton<FlutterTts>(
-        () => FlutterTts()..setLanguage("en-US"));
-  }
+  // Registered on web too: flutter_tts supports it, and SpeechService handles
+  // the browser-specific setup that the plugin leaves to the caller.
+  getIt.registerLazySingleton<FlutterTts>(FlutterTts.new);
+  getIt.registerLazySingleton<SpeechService>(
+      () => SpeechService(getIt<FlutterTts>()));
 }

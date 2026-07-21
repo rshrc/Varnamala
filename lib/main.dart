@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-import 'package:flutter_tts/flutter_tts.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 // Project imports:
@@ -20,10 +19,6 @@ Future main() async {
   await setupLocator();
 
   // getIt<AppPrefs>().preferences.clear();
-
-  if (!kIsWeb) {
-    final result = await getIt<FlutterTts>().isLanguageAvailable("kn-IN");
-  }
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,

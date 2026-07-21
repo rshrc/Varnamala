@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:flutter_tts/flutter_tts.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
@@ -10,6 +9,7 @@ import 'package:words625/application/level_provider.dart';
 import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
+import 'package:words625/service/speech_service.dart';
 import 'package:words625/views/lesson/lesson_screen.dart';
 import 'package:words625/views/theme.dart';
 
@@ -387,7 +387,7 @@ class SpeakButton extends StatelessWidget {
       color: VarnamalaTheme.peacockTeal,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
-        onTap: () => getIt<FlutterTts>().speak(sentence),
+        onTap: () => getIt<SpeechService>().speak(sentence),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         child: Container(
           padding: const EdgeInsets.all(10),
