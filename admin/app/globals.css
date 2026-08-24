@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #172425;
+  --muted: #667473;
+  --canvas: #f5f7f4;
+  --surface: #ffffff;
+  --line: #dfe6e1;
+  --brand: #187b78;
+  --brand-dark: #105f5c;
+  --brand-soft: #e5f3ef;
+  --coral: #e46b5f;
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-soft: var(--brand-soft);
+  --color-coral: var(--coral);
+  --font-sans: "Avenir Next", Avenir, Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--canvas); }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 10% -10%, rgba(24, 123, 120, 0.08), transparent 28rem),
+    var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-sans);
+}
+
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+::selection { background: #bde2d9; color: #102f2e; }
+
+.focus-ring { @apply outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+.card { @apply rounded-xl border border-line bg-surface shadow-[0_1px_2px_rgba(15,35,34,0.04)]; }
+.label { @apply mb-1.5 block text-xs font-semibold tracking-wide text-muted uppercase; }
+.field { @apply w-full rounded-lg border border-line bg-white px-3 py-2.5 text-sm text-ink outline-none placeholder:text-slate-400 focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .soft-transition { transition: color 150ms, background-color 150ms, border-color 150ms, transform 150ms; }
+}

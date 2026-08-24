@@ -4,6 +4,10 @@ import 'dart:convert';
 // Flutter imports:
 import 'package:flutter/services.dart';
 
+// Package imports:
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
+
 // Project imports:
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/logger.dart';
@@ -23,9 +27,12 @@ import 'package:words625/domain/course/course.dart';
 /// Keeping levels in JSON means a language contributor can edit a lesson
 /// without touching Dart, and the app picks the change up on a hot restart.
 class CourseRepository {
-  CourseRepository({AssetBundle? bundle}) : _bundle = bundle ?? rootBundle;
+  CourseRepository({AssetBundle? bundle, FirebaseFirestore? firestore})
+      : _bundle = bundle ?? rootBundle,
+        _firestore = firestore;
 
   final AssetBundle _bundle;
+  FirebaseFirestore? _firestore;
 
   /// Parsed-but-unpersonalised course data, keyed by language. The learner's
   /// name is spliced in per read, so the cache survives an account switch.
@@ -90,19 +97,107 @@ class CourseRepository {
     final cached = _cache[language];
     if (cached != null) return cached;
 
+    final remote = await _remoteContent(language);
+    if (remote != null) {
+      _cache[language] = remote;
+      return remote;
+    }
+
     final dir = '$_root/${language.name}';
     final manifest =
         jsonDecode(await _bundle.loadString('$dir/manifest.json')) as Map;
+    final rawCourses = <String, Map>{};
+    for (final entry in (manifest['courses'] as List).cast<Map>()) {
+      final id = entry['id'] as String;
+      rawCourses[id] =
+          jsonDecode(await _bundle.loadString('$dir/$id.json')) as Map;
+    }
+    Map<String, dynamic>? dictionary;
+    Map<String, dynamic>? notes;
+    try {
+      dictionary =
+          (jsonDecode(await _bundle.loadString('$dir/dictionary.json')) as Map)
+              .cast<String, dynamic>();
+    } catch (error) {
+      logger.e('No usable dictionary for ${language.name}: $error');
+    }
+    try {
+      notes = (jsonDecode(await _bundle.loadString('$dir/notes.json')) as Map)
+          .cast<String, dynamic>();
+    } catch (_) {
+      // Notes are optional.
+    }
+    final content =
+        _buildContent(manifest, rawCourses, dictionary, notes, language);
+    _cache[language] = content;
+    return content;
+  }
+
+  Future<_LanguageContent?> _remoteContent(TargetLanguage language) async {
+    if (Firebase.apps.isEmpty) return null;
+    try {
+      final firestore = _firestore ??= FirebaseFirestore.instance;
+      final config =
+          await firestore.collection('courseConfig').doc(language.name).get();
+      final releaseId = config.data()?['activeReleaseId'] as String?;
+      if (releaseId == null || releaseId.isEmpty) return null;
+      final files = firestore
+          .collection('courseReleases')
+          .doc(language.name)
+          .collection('versions')
+          .doc(releaseId)
+          .collection('files');
+      final manifest = _storedJson((await files.doc('manifest').get()).data());
+      if (manifest == null) return null;
+      final rawCourses = <String, Map>{};
+      for (final entry in (manifest['courses'] as List).cast<Map>()) {
+        final id = entry['id'] as String;
+        final course = _storedJson((await files.doc(id).get()).data());
+        if (course == null) {
+          throw FormatException('Missing $id.json in release $releaseId');
+        }
+        rawCourses[id] = course;
+      }
+      final dictionary =
+          _storedJson((await files.doc('dictionary').get()).data())
+              ?.cast<String, dynamic>();
+      final notes = _storedJson((await files.doc('notes').get()).data())
+          ?.cast<String, dynamic>();
+      logger.i('Loaded ${language.name} release $releaseId from Firestore');
+      return _buildContent(manifest, rawCourses, dictionary, notes, language);
+    } catch (error) {
+      logger.w(
+          'Could not load active ${language.name} release; using bundled JSON: $error');
+      return null;
+    }
+  }
+
+  Map? _storedJson(Map<String, dynamic>? document) {
+    if (document == null) return null;
+    final encoded = document['contentJson'];
+    if (encoded is String) return jsonDecode(encoded) as Map;
+    final legacy = document['content'];
+    return legacy is Map ? legacy : null;
+  }
+
+  _LanguageContent _buildContent(
+    Map manifest,
+    Map<String, Map> rawCourses,
+    Map<String, dynamic>? rawDictionary,
+    Map<String, dynamic>? rawNotes,
+    TargetLanguage language,
+  ) {
     final courses = <String, Map<String, dynamic>>{};
 
     for (final entry in (manifest['courses'] as List).cast<Map>()) {
       final id = entry['id'] as String;
-      final levels = jsonDecode(await _bundle.loadString('$dir/$id.json'));
+      final levels = rawCourses[id];
+      if (levels == null) continue;
       courses[id] = {
         'courseName': entry['title'] ?? id,
         'image': 'assets/images/${entry['icon']}.png',
         'color': int.parse(entry['color'] as String),
-        'levels': (levels as Map)['levels'],
+        'levels': levels['levels'],
       };
     }
 
@@ -127,21 +222,16 @@ class CourseRepository {
     // missing the courses must still open — losing hints is a far better
     // outcome than losing the language.
     var dictionary = <String, String>{};
-    try {
-      dictionary = (jsonDecode(await _bundle.loadString('$dir/dictionary.json'))
-              as Map)
-          .map((word, gloss) =>
-              MapEntry(normalizeWord(word as String), gloss as String));
-    } catch (error) {
-      logger.e('No usable dictionary for ${language.name}: $error');
+    if (rawDictionary != null) {
+      dictionary = rawDictionary
+          .map((word, gloss) => MapEntry(normalizeWord(word), gloss as String));
     }
 
     // Notes are decoration on top of the path; a language without them simply
     // shows a plainer trail.
     final notes = <String, TrailNote>{};
-    try {
-      final raw = jsonDecode(await _bundle.loadString('$dir/notes.json')) as Map;
-      for (final note in (raw['notes'] as List).cast<Map>()) {
+    if (rawNotes != null) {
+      for (final note in (rawNotes['notes'] as List? ?? const []).cast<Map>()) {
         final course = courses[note['after']];
         if (course == null) continue;
         notes[course['courseName'] as String] = TrailNote(
@@ -149,17 +239,13 @@ class CourseRepository {
           mood: (note['mood'] as String?) ?? 'cute',
         );
       }
-    } catch (_) {
-      // No notes for this language yet.
     }
 
-    final content = _LanguageContent(
+    return _LanguageContent(
       tree: tree,
       dictionary: dictionary,
       notes: notes,
     );
-    _cache[language] = content;
-    return content;
   }
 
   /// Deep-copies [json], replacing the name placeholder as it goes. A copy is

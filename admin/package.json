@@ -1,0 +1,50 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "bootstrap:admin": "node --env-file-if-exists=.env.local --experimental-strip-types scripts/grant-admin.ts",
+    "seed:courses": "node --env-file-if-exists=.env.local --experimental-strip-types scripts/seed-courses.ts"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "firebase": "^12.18.0",
+    "firebase-admin": "13.7.0",
+    "lucide-react": "^1.33.0",
+    "next": "16.3.2",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-redux": "^9.3.0",
+    "server-only": "^0.0.1",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/bun": "^1.4.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.2",
+    "globals": "^17.11.0",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.67.0"
+  },
+  "packageManager": "bun@1.0.4",
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}

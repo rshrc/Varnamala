@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:url_launcher/url_launcher.dart';
+
+// Project imports:
+import 'package:words625/core/external_links.dart';
 
 class PatreonButton extends StatefulWidget {
   const PatreonButton({Key? key}) : super(key: key);
@@ -20,21 +22,7 @@ class _PatreonButtonState extends State<PatreonButton> {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-      onPressed: () async {
-        const url = 'https://www.patreon.com'; // TODO: Update with your Patreon URL
-        try {
-          final uri = Uri.parse(url);
-          // Try launching directly without checking canLaunchUrl first
-          // This avoids issues with query intent configuration on newer Android/iOS
-          await launchUrl(uri, mode: LaunchMode.externalApplication);
-        } catch (e) {
-             if (context.mounted) {
-               ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text('Could not launch Patreon: $e')),
-              );
-             }
-        }
-      },
+      onPressed: () => launchPatreon(context, source: 'home_app_bar'),
       icon: const FaIcon(
         FontAwesomeIcons.patreon,
         color: Color(0xFFFF424D), // Patreon Brand Color

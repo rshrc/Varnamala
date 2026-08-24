@@ -36,6 +36,11 @@ service cloud.firestore {
       return changed().hasOnly(['hiFivesReceived', 'helpfulVotes']);
     }
 
+    function isActiveCourseRelease(language, releaseId) {
+      return get(/databases/$(database)/documents/courseConfig/$(language))
+                 .data.activeReleaseId == releaseId;
+    }
+
     // ---- users ----------------------------------------------------------
     match /users/{userId} {
       // Leaderboards and profiles need to read other learners, so reads are
@@ -114,6 +119,40 @@ service cloud.firestore {
                     && !(request.auth.uid in resource.data.givers);
 
       allow delete: if signedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    // ---- versioned course content --------------------------------------
+    // Every language has its own active pointer. The Vercel admin server uses
+    // the Admin SDK for all draft and release writes; learners can only read
+    // the release currently activated for the selected language.
+    match /courseConfig/{language} {
+      allow read: if signedIn();
+      allow write: if false;
+    }
+
+    match /courseReleases/{language}/versions/{releaseId} {
+      allow read: if signedIn() && isActiveCourseRelease(language, releaseId);
+      allow write: if false;
+
+      match /files/{fileId} {
+        allow read: if signedIn() && isActiveCourseRelease(language, releaseId);
+        allow write: if false;
+      }
+    }
+
+    // Drafts, staff access, moderator applications, and the audit trail are
+    // server-only collections. Firebase Admin SDK access bypasses these rules.
+    match /courseDrafts/{document=**} {
+      allow read, write: if false;
+    }
+    match /staff/{document=**} {
+      allow read, write: if false;
+    }
+    match /moderatorApplications/{document=**} {
+      allow read, write: if false;
+    }
+    match /courseAuditLog/{document=**} {
+      allow read, write: if false;
     }
 
     // ---- content corrections --------------------------------------------

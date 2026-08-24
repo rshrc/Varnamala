@@ -6,6 +6,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Project imports:
+import 'package:words625/core/external_links.dart';
 import 'package:words625/views/theme.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -134,15 +135,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       width: double.infinity,
                       height: 56,
                       child: ElevatedButton(
-                        onPressed: () {
-                          // TODO: Launch Patreon URL
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            const SnackBar(
-                              content: Text('Opening Patreon page...'),
-                              backgroundColor: Color(0xFFFF424D),
-                            ),
-                          );
-                        },
+                        onPressed: () => launchPatreon(context, source: 'onboarding'),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: const Color(0xFFFF424D), // Patreon color
                           foregroundColor: Colors.white,

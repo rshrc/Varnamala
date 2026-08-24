@@ -26,7 +26,17 @@ lib/configs/build_config.dart
 .idea/
 .flutter-plugins
 .flutter-plugins-dependencies
-.env
+# Local configuration and credentials
+.env*
+*.pem
+*.key
+*.p12
+*.pfx
+**/firebase-adminsdk*.json
+**/*service-account*.json
+**/*serviceAccount*.json
+**/application_default_credentials.json
+firebase-debug.log*
 *.apk
 .fvm
 

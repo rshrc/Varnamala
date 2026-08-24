@@ -2,7 +2,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.38.6-blue?logo=flutter)
 ![Dart SDK](https://img.shields.io/badge/Dart%20SDK-3.10.7-blue?logo=dart)
-[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-F96854?logo=patreon)](https://www.patreon.com/your-patreon-link)
+[![Support on Patreon](https://img.shields.io/badge/Support-Patreon-F96854?logo=patreon)](https://www.patreon.com/16665184/join)
 [![Join our Discord](https://img.shields.io/discord/your_discord_server_id.svg?label=Join%20Community&logo=discord)](https://discord.gg/eVpmZp4Ktt)
 
 **Varnamala** is an open-source, community-driven language learning platform built with Flutter.
@@ -19,7 +19,7 @@ We are reclaiming language learning from corporate interests.
 
 This is a passion project. If you believe in open, ad-free education, consider supporting us:
 
-<a href="https://www.patreon.com">
+<a href="https://www.patreon.com/16665184/join">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Become a Patron" width="200" />
 </a>
 
@@ -65,6 +65,10 @@ We are building a modular system where **anyone** can contribute a course file t
 ---
 
 ### 💻 Installation & Contributing
+
+Read the [development guide](DEVELOPMENT.md) first. It lists the exact access
+and Firebase details contributors should request from Rishi without exposing
+production credentials.
 
 1. **Clone the repository:**
    ```bash
