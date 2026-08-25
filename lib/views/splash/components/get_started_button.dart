@@ -25,8 +25,14 @@ import 'web_wrapper.dart' as web;
 enum AuthState { loading, authenticated, unauthenticated }
 
 class GetStartedButton extends StatefulWidget {
-  final BuildContext context;
-  const GetStartedButton(this.context, {Key? key}) : super(key: key);
+  final String label;
+  final double? width;
+
+  const GetStartedButton({
+    Key? key,
+    this.label = 'CONTINUE WITH GOOGLE',
+    this.width,
+  }) : super(key: key);
 
   @override
   State<GetStartedButton> createState() => _GetStartedButtonState();
@@ -147,7 +153,7 @@ class _GetStartedButtonState extends State<GetStartedButton> {
 
     // On mobile, use the custom styled button.
     return ChicletAnimatedButton(
-      width: MediaQuery.of(context).size.width * 0.9,
+      width: widget.width ?? MediaQuery.of(context).size.width * 0.9,
       onPressed: _handleGoogleLogin,
       buttonType: ChicletButtonTypes.roundedRectangle,
       backgroundColor: primaryColor,
@@ -159,19 +165,19 @@ class _GetStartedButtonState extends State<GetStartedButton> {
                 color: Colors.white,
               ),
             )
-          : const Row(
+          : Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'GET STARTED',
-                  style: TextStyle(
+                  widget.label,
+                  style: const TextStyle(
                     color: Colors.white,
-                    fontSize: 18,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(width: 16),
-                Icon(Icons.arrow_forward, color: Colors.white, size: 18)
+                const SizedBox(width: 12),
+                const Icon(Icons.login, color: Colors.white, size: 18)
               ],
             ),
     );

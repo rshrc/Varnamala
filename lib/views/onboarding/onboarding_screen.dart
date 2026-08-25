@@ -6,7 +6,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Project imports:
-import 'package:words625/core/external_links.dart';
 import 'package:words625/views/theme.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -20,194 +19,150 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final PageController _pageController = PageController();
   int _currentPage = 0;
 
-  final List<_OnboardingPageData> _pages = [
+  static const List<_OnboardingPageData> _pages = [
     _OnboardingPageData(
-      title: "Reclaiming Language Learning",
+      eyebrow: 'MEET VARNAMALA',
+      title: 'A language app built for everyone',
       description:
-          "Remember when learning was about knowledge, not maximizing ad revenue? No hearts. No energy. No pay-to-win. Just pure, open-source education.",
-      icon: Icons.public,
+          'Varnamala is an open-source Flutter app for Android, iOS, and the web. Learn with short lessons that fit into your day.',
+      icon: Icons.auto_stories_rounded,
       color: VarnamalaTheme.peacockTeal,
     ),
     _OnboardingPageData(
-      title: "Real Communication",
+      eyebrow: 'MORE THAN FLASH CARDS',
+      title: 'Read, write, listen, and play',
       description:
-          "While others teach High Valyrian and Klingon, we focus on connecting humanity. Hindi, Kannada, Tamil, Native American languages - languages spoken by billions, ignored by corporate apps.",
-      icon: Icons.translate,
+          'Build everyday vocabulary, practise native scripts, play learning games, follow your progress, and learn alongside a community.',
+      icon: Icons.draw_rounded,
       color: VarnamalaTheme.peacockDeep,
     ),
     _OnboardingPageData(
-      title: "A Cooperative Mission",
+      eyebrow: 'WHY VARNAMALA?',
+      title: 'Languages deserve better',
       description:
-          "Choose your own path. Join a community that helps each other. This is an open-source project meant to replace corporate greed with a more learned world.",
-      icon: Icons.volunteer_activism,
-      color: VarnamalaTheme.error, // Using a warm color for heart/community
+          'We focus on Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese, and more. No pay-to-win—just open, community-driven education.',
+      icon: Icons.volunteer_activism_rounded,
+      color: VarnamalaTheme.error,
     ),
   ];
 
   @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
+  }
+
+  void _goToPage(int page) {
+    _pageController.animateToPage(
+      page,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final isLastPage = _currentPage == _pages.length - 1;
+
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: VarnamalaTheme.background,
       body: SafeArea(
         child: Column(
           children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
+              child: Row(
+                children: [
+                  IconButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    tooltip: 'Close tour',
+                    icon: const Icon(Icons.close_rounded),
+                  ),
+                  const Spacer(),
+                  Text(
+                    'Varnamala',
+                    style: GoogleFonts.nunito(
+                      color: VarnamalaTheme.peacockTeal,
+                      fontSize: 20,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  const Spacer(),
+                  SizedBox(
+                    width: 48,
+                    child: !isLastPage
+                        ? TextButton(
+                            onPressed: () => _goToPage(_pages.length - 1),
+                            child: const Text('Skip'),
+                          )
+                        : null,
+                  ),
+                ],
+              ),
+            ),
             Expanded(
               child: PageView.builder(
                 controller: _pageController,
                 itemCount: _pages.length,
-                onPageChanged: (index) {
-                  setState(() {
-                    _currentPage = index;
-                  });
-                },
-                itemBuilder: (context, index) {
-                  final data = _pages[index];
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 32.0),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Container(
-                          padding: const EdgeInsets.all(32),
-                          decoration: BoxDecoration(
-                            color: data.color.withOpacity(0.1),
-                            shape: BoxShape.circle,
-                          ),
-                          child: Icon(
-                            data.icon,
-                            size: 80,
-                            color: data.color,
-                          ),
-                        )
-                            .animate()
-                            .scale(duration: 600.ms, curve: Curves.easeOutBack),
-                        const SizedBox(height: 40),
-                        Text(
-                          data.title,
-                          textAlign: TextAlign.center,
-                          style: GoogleFonts.nunito(
-                            fontSize: 28,
-                            fontWeight: FontWeight.bold,
-                            color: VarnamalaTheme.textPrimary,
-                          ),
-                        ).animate().fadeIn(delay: 200.ms).slideY(begin: 0.2),
-                        const SizedBox(height: 16),
-                        Text(
-                          data.description,
-                          textAlign: TextAlign.center,
-                          style: GoogleFonts.nunito(
-                            fontSize: 18,
-                            color: VarnamalaTheme.textSecondary,
-                            height: 1.5,
-                          ),
-                        ).animate().fadeIn(delay: 400.ms).slideY(begin: 0.2),
-                      ],
-                    ),
-                  );
-                },
+                onPageChanged: (index) => setState(() => _currentPage = index),
+                itemBuilder: (context, index) => _TourPage(data: _pages[index]),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(32.0),
+              padding: const EdgeInsets.fromLTRB(24, 8, 24, 28),
               child: Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: List.generate(
-                      _pages.length,
-                      (index) => AnimatedContainer(
-                        duration: const Duration(milliseconds: 300),
-                        margin: const EdgeInsets.symmetric(horizontal: 4),
-                        height: 8,
-                        width: _currentPage == index ? 24 : 8,
-                        decoration: BoxDecoration(
-                          color: _currentPage == index
-                              ? VarnamalaTheme.peacockTeal
-                              : Colors.grey.shade300,
-                          borderRadius: BorderRadius.circular(4),
+                  Semantics(
+                    label: 'Tour page ${_currentPage + 1} of ${_pages.length}',
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: List.generate(
+                        _pages.length,
+                        (index) => AnimatedContainer(
+                          duration: const Duration(milliseconds: 250),
+                          margin: const EdgeInsets.symmetric(horizontal: 4),
+                          height: 8,
+                          width: _currentPage == index ? 28 : 8,
+                          decoration: BoxDecoration(
+                            color: _currentPage == index
+                                ? VarnamalaTheme.peacockTeal
+                                : Colors.grey.shade300,
+                            borderRadius: BorderRadius.circular(4),
+                          ),
                         ),
                       ),
                     ),
                   ),
-                  const SizedBox(height: 32),
-                  if (_currentPage == _pages.length - 1) ...[
-                    SizedBox(
-                      width: double.infinity,
-                      height: 56,
-                      child: ElevatedButton(
-                        onPressed: () => launchPatreon(context, source: 'onboarding'),
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFFFF424D), // Patreon color
-                          foregroundColor: Colors.white,
-                          elevation: 0,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
-                        child: const Text(
-                          "Support on Patreon",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
+                  const SizedBox(height: 24),
+                  SizedBox(
+                    width: double.infinity,
+                    height: 56,
+                    child: ElevatedButton.icon(
+                      onPressed: isLastPage
+                          ? () => Navigator.of(context).pop()
+                          : () => _goToPage(_currentPage + 1),
+                      iconAlignment: IconAlignment.end,
+                      icon: Icon(
+                        isLastPage
+                            ? Icons.login_rounded
+                            : Icons.arrow_forward_rounded,
+                      ),
+                      label: Text(
+                        isLastPage ? 'Back to sign in' : 'Next',
+                        style: const TextStyle(
+                          fontSize: 17,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ),
-                    const SizedBox(height: 16),
-                    SizedBox(
-                      width: double.infinity,
-                      height: 56,
-                      child: OutlinedButton(
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                        style: OutlinedButton.styleFrom(
-                          side: const BorderSide(
-                            color: VarnamalaTheme.peacockTeal,
-                            width: 2,
-                          ),
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
-                        child: const Text(
-                          "Start Learning",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: VarnamalaTheme.peacockTeal,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ] else
-                    SizedBox(
-                      width: double.infinity,
-                      height: 56,
-                      child: ElevatedButton(
-                        onPressed: () {
-                          _pageController.nextPage(
-                            duration: const Duration(milliseconds: 300),
-                            curve: Curves.easeInOut,
-                          );
-                        },
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: VarnamalaTheme.peacockTeal,
-                          foregroundColor: Colors.white,
-                          elevation: 0,
-                          shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                        ),
-                        child: const Text(
-                          "Next",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
+                  ),
+                  if (_currentPage > 0 && !isLastPage)
+                    TextButton(
+                      onPressed: () => _goToPage(_currentPage - 1),
+                      child: const Text('Back'),
+                    )
+                  else
+                    const SizedBox(height: 48),
                 ],
               ),
             ),
@@ -218,13 +173,85 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   }
 }
 
+class _TourPage extends StatelessWidget {
+  final _OnboardingPageData data;
+
+  const _TourPage({required this.data});
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) => SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(32, 20, 32, 20),
+        child: ConstrainedBox(
+          constraints: BoxConstraints(minHeight: constraints.maxHeight - 40),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 148,
+                height: 148,
+                decoration: BoxDecoration(
+                  color: data.color.withValues(alpha: 0.1),
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: data.color.withValues(alpha: 0.14),
+                  ),
+                ),
+                child: Icon(data.icon, size: 70, color: data.color),
+              ).animate().scale(
+                    duration: 500.ms,
+                    curve: Curves.easeOutBack,
+                  ),
+              const SizedBox(height: 36),
+              Text(
+                data.eyebrow,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.nunito(
+                  color: data.color,
+                  fontSize: 12,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 1.4,
+                ),
+              ).animate().fadeIn(delay: 100.ms),
+              const SizedBox(height: 10),
+              Text(
+                data.title,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.nunito(
+                  fontSize: 29,
+                  fontWeight: FontWeight.w800,
+                  color: VarnamalaTheme.textPrimary,
+                  height: 1.15,
+                ),
+              ).animate().fadeIn(delay: 180.ms).slideY(begin: 0.12),
+              const SizedBox(height: 16),
+              Text(
+                data.description,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.nunito(
+                  fontSize: 17,
+                  color: VarnamalaTheme.textSecondary,
+                  height: 1.5,
+                ),
+              ).animate().fadeIn(delay: 260.ms).slideY(begin: 0.12),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class _OnboardingPageData {
+  final String eyebrow;
   final String title;
   final String description;
   final IconData icon;
   final Color color;
 
-  _OnboardingPageData({
+  const _OnboardingPageData({
+    required this.eyebrow,
     required this.title,
     required this.description,
     required this.icon,

@@ -10,6 +10,7 @@ import 'components/splash_background_painter.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
+import 'package:words625/views/onboarding/onboarding_screen.dart';
 import 'components/center_display.dart';
 import 'components/get_started_button.dart';
 
@@ -38,6 +39,14 @@ class _SplashPageState extends State<SplashPage> {
     }
   }
 
+  void _openIntroduction() {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => const OnboardingScreen(),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -49,17 +58,65 @@ class _SplashPageState extends State<SplashPage> {
             painter: SplashBackgroundPainter(),
             size: Size.infinite,
           ),
-          
+
           SafeArea(
-            child: Column(
-              children: [
-                const Expanded(child: CenterDisplay()),
-                Center(
+            child: CustomScrollView(
+              slivers: [
+                SliverFillRemaining(
+                  hasScrollBody: false,
                   child: Column(
-                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      GetStartedButton(context),
-                      const SizedBox(height: 16),
+                      const CenterDisplay(),
+                      Padding(
+                        padding: const EdgeInsets.only(top: 12),
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            TextButton.icon(
+                              onPressed: _openIntroduction,
+                              style: TextButton.styleFrom(
+                                foregroundColor: VarnamalaTheme.peacockTeal,
+                                backgroundColor: VarnamalaTheme.peacockTeal
+                                    .withValues(alpha: 0.08),
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 18,
+                                  vertical: 11,
+                                ),
+                                shape: const StadiumBorder(),
+                                textStyle: const TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              icon: const Icon(
+                                Icons.auto_awesome_rounded,
+                                size: 17,
+                              ),
+                              label: const Text('What is Varnamala?'),
+                            ),
+                            const SizedBox(height: 12),
+                            GetStartedButton(
+                              label: 'SIGN IN WITH GOOGLE',
+                              width: MediaQuery.sizeOf(context).width - 48,
+                            ),
+                            const SizedBox(height: 10),
+                            const Padding(
+                              padding: EdgeInsets.symmetric(horizontal: 32),
+                              child: Text(
+                                'Sign in securely to save and sync your learning progress.',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                  color: VarnamalaTheme.textSecondary,
+                                  fontSize: 12,
+                                  height: 1.35,
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 16),
+                          ],
+                        ),
+                      ),
                     ],
                   ),
                 ),
