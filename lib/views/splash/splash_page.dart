@@ -3,13 +3,12 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:auto_route/auto_route.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:words625/views/theme.dart';
 import 'components/splash_background_painter.dart';
 
 // Project imports:
-import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
-import 'package:words625/service/locator.dart';
 import 'package:words625/views/onboarding/onboarding_screen.dart';
 import 'components/center_display.dart';
 import 'components/get_started_button.dart';
@@ -32,9 +31,10 @@ class _SplashPageState extends State<SplashPage> {
   }
 
   Future<void> _checkAuthStatus() async {
-    final user = getIt<AppPrefs>().authUser.getValue();
+    final auth = FirebaseAuth.instance;
+    final user = auth.currentUser ?? await auth.authStateChanges().first;
 
-    if (user != null) {
+    if (user != null && mounted) {
       context.router.replace(const HomeRoute());
     }
   }
