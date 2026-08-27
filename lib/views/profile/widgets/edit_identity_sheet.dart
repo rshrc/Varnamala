@@ -59,9 +59,9 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
       ),
       child: Container(
         padding: const EdgeInsets.fromLTRB(24, 16, 24, 28),
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        decoration: BoxDecoration(
+          color: context.appSurface,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -73,7 +73,7 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
                 height: 4,
                 margin: const EdgeInsets.only(bottom: 20),
                 decoration: BoxDecoration(
-                  color: VarnamalaTheme.textHint.withValues(alpha: 0.3),
+                  color: context.appBorder,
                   borderRadius: BorderRadius.circular(2),
                 ),
               ),
@@ -98,11 +98,10 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
                     icon: const Icon(Icons.casino_rounded, size: 20),
                     label: const Text('New avatar'),
                     style: OutlinedButton.styleFrom(
-                      foregroundColor: VarnamalaTheme.peacockTeal,
+                      foregroundColor: context.appInfo,
                       padding: const EdgeInsets.symmetric(vertical: 14),
                       side: BorderSide(
-                        color:
-                            VarnamalaTheme.peacockTeal.withValues(alpha: 0.4),
+                        color: context.appInfo.withValues(alpha: 0.55),
                       ),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
@@ -136,12 +135,12 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
             ChicletAnimatedButton(
               width: double.infinity,
               height: 50,
-              backgroundColor: VarnamalaTheme.peacockTeal,
+              backgroundColor: context.appAccent,
               onPressed: identity.isSaving ? null : _save,
               child: Text(
                 identity.isSaving ? 'Saving...' : 'Save',
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onPrimary,
                   fontWeight: FontWeight.w800,
                   fontSize: 16,
                 ),
@@ -163,16 +162,15 @@ class _PrivacyNote extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.06),
+        color: context.appInfo.withValues(alpha: 0.1),
         borderRadius: BorderRadius.circular(14),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Icon(Icons.shield_rounded,
-              size: 20, color: VarnamalaTheme.peacockTeal),
+          Icon(Icons.shield_rounded, size: 20, color: context.appInfo),
           const SizedBox(width: 10),
-          const Expanded(
+          Expanded(
             child: Text(
               'Only your handle and this avatar are ever shown to other '
               'learners. Your real name, your email address and your Google '
@@ -181,7 +179,7 @@ class _PrivacyNote extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12.5,
                 height: 1.45,
-                color: VarnamalaTheme.textSecondary,
+                color: context.appTextSecondary,
               ),
             ),
           ),

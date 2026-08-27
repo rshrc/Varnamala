@@ -132,7 +132,8 @@ class GameProvider extends ChangeNotifier {
     final now = DateTime.now();
     final score = _readInt(data, 'score', 0);
     final leagueXp = _readInt(data, 'leagueXp', 0);
-    final leagueXpMigrated = data['leagueXpMigratedFromScore'] as bool? ?? false;
+    final leagueXpMigrated =
+        data['leagueXpMigratedFromScore'] as bool? ?? false;
     final leagueXpSeeded = data['leagueXpSeededFromScore'] as bool? ?? false;
     final shouldSeedLeagueXp =
         score > 0 && leagueXp == 0 && (!leagueXpMigrated || !leagueXpSeeded);
@@ -149,19 +150,21 @@ class GameProvider extends ChangeNotifier {
       'leagueXpMigratedFromScore': true,
       'leagueXpSeededFromScore': shouldSeedLeagueXp || leagueXpSeeded,
       'leagueJoinedAt': data['leagueJoinedAt'] ?? FieldValue.serverTimestamp(),
-      'achievements':
-          (data['achievements'] as List<dynamic>?)?.whereType<String>().toList() ??
-              <String>[],
+      'achievements': (data['achievements'] as List<dynamic>?)
+              ?.whereType<String>()
+              .toList() ??
+          <String>[],
       'dailyXpGoal': _readInt(data, 'dailyXpGoal', defaultDailyXpGoal),
       'dailyXpEarned': _readInt(data, 'dailyXpEarned', 0),
-      'lastDailyReset':
-          data['lastDailyReset'] ?? DateTime(now.year, now.month, now.day).toIso8601String(),
+      'lastDailyReset': data['lastDailyReset'] ??
+          DateTime(now.year, now.month, now.day).toIso8601String(),
       'lessonsCompleted': _readInt(data, 'lessonsCompleted', 0),
       'perfectLessons': _readInt(data, 'perfectLessons', 0),
       'streakWasBroken': data['streakWasBroken'] as bool? ?? false,
       'streakRepairRequired': data['streakRepairRequired'] as bool? ?? false,
       'streakRepairProgress': _readInt(data, 'streakRepairProgress', 0),
-      'streakRepairTarget': _readInt(data, 'streakRepairTarget', defaultStreakRepairTarget),
+      'streakRepairTarget':
+          _readInt(data, 'streakRepairTarget', defaultStreakRepairTarget),
       'streakBeforeBreak': _readInt(data, 'streakBeforeBreak', 0),
       'doubleXpUntil': data['doubleXpUntil'],
       'followRewardClaimed': data['followRewardClaimed'] as bool? ?? false,
@@ -268,11 +271,13 @@ class GameProvider extends ChangeNotifier {
 
         final updates = <String, dynamic>{
           'score': newScore,
-          'streak': repairedThisUpdate ? repairedStreak : streakResolution.newStreak,
+          'streak':
+              repairedThisUpdate ? repairedStreak : streakResolution.newStreak,
           'lastStreakDate': today.toIso8601String(),
           'streakFreezes': streakResolution.remainingFreezes,
           'streakFreezeActive': streakResolution.freezeActive,
-          'streakWasBroken': repairedThisUpdate ? false : streakResolution.broken,
+          'streakWasBroken':
+              repairedThisUpdate ? false : streakResolution.broken,
           'streakRepairRequired': repairedThisUpdate
               ? false
               : (streakRepairRequired && streakWasBroken),
@@ -313,8 +318,8 @@ class GameProvider extends ChangeNotifier {
 
       final data = doc.data() ?? <String, dynamic>{};
       final lessonsCompleted = _readInt(data, 'lessonsCompleted', 0) + 1;
-      final perfectLessons = _readInt(data, 'perfectLessons', 0) +
-          (wasPerfect ? 1 : 0);
+      final perfectLessons =
+          _readInt(data, 'perfectLessons', 0) + (wasPerfect ? 1 : 0);
       transaction.update(docRef, {
         'lessonsCompleted': lessonsCompleted,
         'perfectLessons': perfectLessons,
@@ -469,7 +474,8 @@ class GameProvider extends ChangeNotifier {
     if (gap == 2 && (streakFreezeActive || streakFreezes > 0)) {
       return _StreakResolution(
         newStreak: oldStreak + 1,
-        remainingFreezes: streakFreezeActive ? streakFreezes : streakFreezes - 1,
+        remainingFreezes:
+            streakFreezeActive ? streakFreezes : streakFreezes - 1,
         freezeActive: false,
         broken: false,
       );

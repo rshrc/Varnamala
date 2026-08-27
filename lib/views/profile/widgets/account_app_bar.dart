@@ -38,9 +38,9 @@ class AccountWidget extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-        border: Border.all(color: const Color(0xFFEEF2F1)),
+        border: Border.all(color: context.appBorder),
       ),
       child: Row(
         children: [
@@ -60,7 +60,7 @@ class AccountWidget extends StatelessWidget {
                 Text(
                   'Only this is shown to others',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: VarnamalaTheme.textHint,
+                        color: context.appTextSecondary,
                       ),
                 ),
               ],
@@ -68,8 +68,7 @@ class AccountWidget extends StatelessWidget {
           ),
           IconButton(
             tooltip: 'Edit handle and avatar',
-            icon: const Icon(Icons.edit_rounded,
-                color: VarnamalaTheme.peacockTeal),
+            icon: Icon(Icons.edit_rounded, color: context.appInfo),
             onPressed: () => showEditIdentitySheet(context),
           ),
         ],

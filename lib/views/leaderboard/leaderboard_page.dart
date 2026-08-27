@@ -26,7 +26,8 @@ class _LeaderboardPageState extends State<LeaderboardPage>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: LeagueProvider.leagues.length, vsync: this);
+    _tabController =
+        TabController(length: LeagueProvider.leagues.length, vsync: this);
   }
 
   @override
@@ -98,12 +99,13 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<List<LeaderboardEntry>>(
-      stream: context.read<LeagueProvider>().getLeagueLeaderboard(widget.league),
+      stream:
+          context.read<LeagueProvider>().getLeagueLeaderboard(widget.league),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(
+          return Center(
             child: CircularProgressIndicator(
-              color: VarnamalaTheme.peacockTeal,
+              color: context.appAccent,
               strokeWidth: 3,
             ),
           );
@@ -118,7 +120,7 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
               style: Theme.of(context)
                   .textTheme
                   .bodyLarge
-                  ?.copyWith(color: VarnamalaTheme.textHint),
+                  ?.copyWith(color: context.appTextSecondary),
             ),
           );
         }
@@ -165,20 +167,20 @@ class _RankClimbCard extends StatelessWidget {
       margin: const EdgeInsets.only(top: 8),
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-        border: Border.all(color: VarnamalaTheme.success.withValues(alpha: 0.5)),
+        border: Border.all(color: context.appWarning.withValues(alpha: 0.65)),
         boxShadow: VarnamalaTheme.softShadow,
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.trending_up_rounded, color: VarnamalaTheme.successDark),
+          Icon(Icons.trending_up_rounded, color: context.appWarning),
           const SizedBox(width: 8),
           Text(
             'You climbed to #$rank',
             style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                  color: VarnamalaTheme.successDark,
+                  color: context.appWarning,
                   fontWeight: FontWeight.w700,
                 ),
           ),
@@ -264,14 +266,14 @@ class _LeaderboardTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 8),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         border: Border.all(
           color: isTopTen
-              ? VarnamalaTheme.success.withValues(alpha: 0.45)
+              ? context.appWarning.withValues(alpha: 0.55)
               : isBottomFive
-                  ? VarnamalaTheme.error.withValues(alpha: 0.28)
-                  : const Color(0xFFEEF2F1),
+                  ? context.appDanger.withValues(alpha: 0.45)
+                  : context.appBorder,
         ),
       ),
       child: Row(
@@ -285,10 +287,10 @@ class _LeaderboardTile extends StatelessWidget {
                 fontSize: 16,
                 fontWeight: FontWeight.w700,
                 color: isTopTen
-                    ? VarnamalaTheme.successDark
+                    ? context.appWarning
                     : isBottomFive
-                        ? VarnamalaTheme.error
-                        : VarnamalaTheme.textHint,
+                        ? context.appDanger
+                        : context.appTextSecondary,
               ),
             ),
           ),
@@ -316,10 +318,10 @@ class _LeaderboardTile extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(width: 6),
-                    const Icon(
+                    Icon(
                       Icons.shield_rounded,
                       size: 14,
-                      color: VarnamalaTheme.leagueAmethyst,
+                      color: context.appViolet,
                     ),
                   ],
                 ),
@@ -327,7 +329,7 @@ class _LeaderboardTile extends StatelessWidget {
                   Text(
                     user.languages.join(', ').toTitleCase,
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: VarnamalaTheme.peacockTeal,
+                          color: context.appInfo,
                         ),
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -337,15 +339,15 @@ class _LeaderboardTile extends StatelessWidget {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
             decoration: BoxDecoration(
-              color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.08),
+              color: context.appSuccess.withValues(alpha: 0.14),
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
             ),
             child: Text(
               '${user.effectiveLeagueXp} XP',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.w700,
-                color: VarnamalaTheme.peacockTeal,
+                color: context.appSuccess,
               ),
             ),
           ),

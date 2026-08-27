@@ -51,7 +51,10 @@ class CommunityProvider extends ChangeNotifier {
   }
 
   CollectionReference<Map<String, dynamic>> _comments(String thread) =>
-      _firestore.collection('communityThreads').doc(thread).collection('comments');
+      _firestore
+          .collection('communityThreads')
+          .doc(thread)
+          .collection('comments');
 
   /// One document holds all of this user's votes in a thread, so opening a
   /// thread costs a single read instead of one per comment.
@@ -69,8 +72,9 @@ class CommunityProvider extends ChangeNotifier {
     return _comments(thread)
         .orderBy('createdAt', descending: false)
         .snapshots()
-        .map((snapshot) =>
-            snapshot.docs.map(CommunityComment.fromDoc).toList(growable: false));
+        .map((snapshot) => snapshot.docs
+            .map(CommunityComment.fromDoc)
+            .toList(growable: false));
   }
 
   /// Loads which way this user already voted in [thread].
@@ -194,7 +198,8 @@ class CommunityProvider extends ChangeNotifier {
         'avatarSeed': comment.id,
       });
     } catch (error, stackTrace) {
-      logger.e('Could not delete comment', error: error, stackTrace: stackTrace);
+      logger.e('Could not delete comment',
+          error: error, stackTrace: stackTrace);
     }
   }
 

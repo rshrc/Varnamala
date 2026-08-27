@@ -31,6 +31,7 @@ class Words625App extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'Varnamala',
             theme: VarnamalaTheme.lightTheme,
+            darkTheme: VarnamalaTheme.darkTheme,
             themeMode: themeProvider.themeMode,
             routerConfig: router.config(navigatorObservers: () => [observer]),
           );

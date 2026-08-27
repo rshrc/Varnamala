@@ -65,7 +65,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     final isLastPage = _currentPage == _pages.length - 1;
 
     return Scaffold(
-      backgroundColor: VarnamalaTheme.background,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       body: SafeArea(
         child: Column(
           children: [
@@ -82,7 +82,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   Text(
                     'Varnamala',
                     style: GoogleFonts.nunito(
-                      color: VarnamalaTheme.peacockTeal,
+                      color: context.appAccent,
                       fontSize: 20,
                       fontWeight: FontWeight.w800,
                     ),
@@ -125,8 +125,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                           width: _currentPage == index ? 28 : 8,
                           decoration: BoxDecoration(
                             color: _currentPage == index
-                                ? VarnamalaTheme.peacockTeal
-                                : Colors.grey.shade300,
+                                ? context.appAccent
+                                : context.appBorder,
                             borderRadius: BorderRadius.circular(4),
                           ),
                         ),
@@ -180,6 +180,7 @@ class _TourPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, data.color);
     return LayoutBuilder(
       builder: (context, constraints) => SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(32, 20, 32, 20),
@@ -192,13 +193,13 @@ class _TourPage extends StatelessWidget {
                 width: 148,
                 height: 148,
                 decoration: BoxDecoration(
-                  color: data.color.withValues(alpha: 0.1),
+                  color: accent.withValues(alpha: 0.14),
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: data.color.withValues(alpha: 0.14),
+                    color: accent.withValues(alpha: 0.34),
                   ),
                 ),
-                child: Icon(data.icon, size: 70, color: data.color),
+                child: Icon(data.icon, size: 70, color: accent),
               ).animate().scale(
                     duration: 500.ms,
                     curve: Curves.easeOutBack,
@@ -208,7 +209,7 @@ class _TourPage extends StatelessWidget {
                 data.eyebrow,
                 textAlign: TextAlign.center,
                 style: GoogleFonts.nunito(
-                  color: data.color,
+                  color: accent,
                   fontSize: 12,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1.4,
@@ -221,7 +222,7 @@ class _TourPage extends StatelessWidget {
                 style: GoogleFonts.nunito(
                   fontSize: 29,
                   fontWeight: FontWeight.w800,
-                  color: VarnamalaTheme.textPrimary,
+                  color: context.appTextPrimary,
                   height: 1.15,
                 ),
               ).animate().fadeIn(delay: 180.ms).slideY(begin: 0.12),
@@ -231,7 +232,7 @@ class _TourPage extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: GoogleFonts.nunito(
                   fontSize: 17,
-                  color: VarnamalaTheme.textSecondary,
+                  color: context.appTextSecondary,
                   height: 1.5,
                 ),
               ).animate().fadeIn(delay: 260.ms).slideY(begin: 0.12),

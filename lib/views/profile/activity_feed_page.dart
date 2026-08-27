@@ -25,19 +25,19 @@ class ActivityFeedPage extends StatelessWidget {
     final activity = context.watch<ActivityProvider>();
 
     return Scaffold(
-      backgroundColor: VarnamalaTheme.scaffoldBackground,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         title: const Text('Friend updates'),
-        backgroundColor: Colors.white,
+        backgroundColor: context.appSurface,
         elevation: 0,
       ),
       body: StreamBuilder<List<ActivityItem>>(
         stream: activity.watchFeed(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(
+            return Center(
               child: CircularProgressIndicator(
-                  color: VarnamalaTheme.peacockTeal, strokeWidth: 3),
+                  color: context.appAccent, strokeWidth: 3),
             );
           }
 
@@ -70,9 +70,9 @@ class _ActivityCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-        border: Border.all(color: const Color(0xFFEEF2F1)),
+        border: Border.all(color: context.appBorder),
       ),
       child: Row(
         children: [
@@ -85,24 +85,26 @@ class _ActivityCard extends StatelessWidget {
                 Text(
                   isMine ? 'You' : item.handle,
                   style: const TextStyle(
-                      fontWeight: FontWeight.w700, fontSize: 14.5),
+                    fontWeight: FontWeight.w700,
+                    fontSize: 14.5,
+                  ),
                 ),
                 const SizedBox(height: 2),
                 Text(
                   item.title,
-                  style: const TextStyle(
+                  style: TextStyle(
                       fontSize: 13.5,
                       height: 1.35,
-                      color: VarnamalaTheme.textSecondary),
+                      color: context.appTextSecondary),
                 ),
                 if (item.hiFives > 0) ...[
                   const SizedBox(height: 4),
                   Text(
                     '${item.hiFives} hi-five${item.hiFives == 1 ? '' : 's'}',
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 11.5,
                       fontWeight: FontWeight.w700,
-                      color: VarnamalaTheme.warning,
+                      color: context.appWarning,
                     ),
                   ),
                 ],
@@ -132,8 +134,8 @@ class _HiFiveButton extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
         decoration: BoxDecoration(
           color: alreadySent
-              ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.12)
-              : VarnamalaTheme.peacockTeal,
+              ? context.appSuccess.withValues(alpha: 0.14)
+              : context.appSuccess,
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
         ),
         child: Row(
@@ -142,7 +144,9 @@ class _HiFiveButton extends StatelessWidget {
             Icon(
               Icons.front_hand_rounded,
               size: 18,
-              color: alreadySent ? VarnamalaTheme.peacockTeal : Colors.white,
+              color: alreadySent
+                  ? context.appSuccess
+                  : Theme.of(context).colorScheme.onPrimary,
             ),
             const SizedBox(width: 6),
             Text(
@@ -150,7 +154,9 @@ class _HiFiveButton extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12.5,
                 fontWeight: FontWeight.w800,
-                color: alreadySent ? VarnamalaTheme.peacockTeal : Colors.white,
+                color: alreadySent
+                    ? context.appSuccess
+                    : Theme.of(context).colorScheme.onPrimary,
               ),
             ),
           ],
@@ -170,26 +176,26 @@ class _EmptyFeed extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 44),
+        padding: const EdgeInsets.symmetric(horizontal: 44),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Icon(Icons.front_hand_rounded,
-                size: 46, color: VarnamalaTheme.textHint),
-            SizedBox(height: 14),
-            Text(
+                size: 46, color: context.appTextSecondary),
+            const SizedBox(height: 14),
+            const Text(
               'Nothing yet',
               style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
             ),
-            SizedBox(height: 6),
+            const SizedBox(height: 6),
             Text(
               'When someone earns a badge it shows up here, and you can send '
               'them a hi-five.',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: VarnamalaTheme.textHint, fontSize: 13, height: 1.45),
+                  color: context.appTextSecondary, fontSize: 13, height: 1.45),
             ),
           ],
         ),

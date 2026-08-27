@@ -33,7 +33,8 @@ class HomePage extends StatefulWidget {
   }
 }
 
-class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage>
+    with SingleTickerProviderStateMixin {
   int currentIndex = 0;
 
   /// Drives the app bar and bottom bar out of the way while the learner is
@@ -130,8 +131,8 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         final t = Curves.easeOut.transform(_chrome.value);
         return Scaffold(
           backgroundColor: currentIndex == 0
-              ? VarnamalaTheme.scaffoldBackground
-              : Colors.white,
+              ? Theme.of(context).scaffoldBackgroundColor
+              : context.appSurface,
           // Both bars collapse towards the screen edge they live on, so the
           // course path grows into the space instead of sliding under them.
           appBar: PreferredSize(
@@ -165,7 +166,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                   },
                   label: const Text("Test Onboarding"),
                   icon: const Icon(Icons.start),
-                  backgroundColor: VarnamalaTheme.peacockTeal,
+                  backgroundColor: context.appAccent,
                 )
               : null,
         );

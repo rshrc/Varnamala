@@ -23,8 +23,8 @@ class FriendSuggestions extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(16, 20, 16, 8),
           child: Row(
             children: [
-              const Icon(Icons.person_add_rounded,
-                  color: VarnamalaTheme.peacockTeal, size: 22),
+              Icon(Icons.person_add_rounded,
+                  color: context.appSuccess, size: 22),
               const SizedBox(width: 8),
               Text(
                 'Friend Suggestions',
@@ -41,9 +41,9 @@ class FriendSuggestions extends StatelessWidget {
             stream: FirebaseFirestore.instance.collection('users').snapshots(),
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
-                return const Center(
+                return Center(
                     child: CircularProgressIndicator(
-                        color: VarnamalaTheme.peacockTeal, strokeWidth: 3));
+                        color: context.appAccent, strokeWidth: 3));
               }
 
               final currentUser = FirebaseAuth.instance.currentUser;
@@ -101,9 +101,9 @@ class _FriendCard extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 4),
       width: context.width * 0.36,
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-        border: Border.all(color: const Color(0xFFEEF2F1)),
+        border: Border.all(color: context.appBorder),
       ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,

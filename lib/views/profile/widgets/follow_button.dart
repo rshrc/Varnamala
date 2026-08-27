@@ -101,9 +101,7 @@ class _FollowButtonState extends State<FollowButton> {
     return SizedBox(
       height: 32,
       child: Material(
-        color: _isFollowing
-            ? Colors.transparent
-            : VarnamalaTheme.peacockTeal,
+        color: _isFollowing ? Colors.transparent : context.appAccent,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusSmall),
         child: InkWell(
           onTap: _toggleFollow,
@@ -114,7 +112,7 @@ class _FollowButtonState extends State<FollowButton> {
                 ? BoxDecoration(
                     borderRadius:
                         BorderRadius.circular(VarnamalaTheme.radiusSmall),
-                    border: Border.all(color: VarnamalaTheme.textHint),
+                    border: Border.all(color: context.appBorder),
                   )
                 : null,
             child: Center(
@@ -122,8 +120,8 @@ class _FollowButtonState extends State<FollowButton> {
                 _isFollowing ? 'Following' : 'Follow',
                 style: TextStyle(
                   color: _isFollowing
-                      ? VarnamalaTheme.textSecondary
-                      : Colors.white,
+                      ? context.appTextSecondary
+                      : Theme.of(context).colorScheme.onPrimary,
                   fontSize: 12,
                   fontWeight: FontWeight.w600,
                 ),

@@ -1,6 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+import 'package:words625/views/theme.dart';
+
 class LoginAppBar extends StatelessWidget implements PreferredSizeWidget {
   const LoginAppBar({Key? key}) : super(key: key);
 
@@ -14,14 +16,16 @@ class LoginAppBar extends StatelessWidget implements PreferredSizeWidget {
       backgroundColor: Colors.transparent,
       title: Text(
         'Enter your details',
-        style:
-        TextStyle(color: Colors.grey.shade600, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          color: context.appTextSecondary,
+          fontWeight: FontWeight.bold,
+        ),
       ),
       centerTitle: true,
       leading: IconButton(
         icon: Icon(
           Icons.close,
-          color: Colors.grey.shade600,
+          color: context.appDanger,
         ),
         onPressed: () {
           Navigator.pop(context);
@@ -29,5 +33,4 @@ class LoginAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
     );
   }
-
 }

@@ -16,7 +16,8 @@ final Uri patreonUri = Uri.parse(_kPatreonUrl);
 /// `onboarding`. Personal data must never be passed here.
 ///
 /// Returns `true` when the URL was launched successfully.
-Future<bool> launchPatreon(BuildContext context, {required String source}) async {
+Future<bool> launchPatreon(BuildContext context,
+    {required String source}) async {
   await FirebaseAnalytics.instance.logEvent(
     name: 'support_patreon_click',
     parameters: {'source': source},

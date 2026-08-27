@@ -19,8 +19,8 @@ void main() {
   group('CourseRepository', () {
     for (final language in TargetLanguage.values) {
       test('loads every ${language.name} course', () async {
-        final courses = await CourseRepository()
-            .courses(language, firstName: 'Rishi');
+        final courses =
+            await CourseRepository().courses(language, firstName: 'Rishi');
 
         expect(courses, isNotEmpty, reason: '${language.name} has no courses');
         for (final group in courses) {
@@ -34,7 +34,8 @@ void main() {
         for (final course in flat) {
           expect(course.levels, isNotNull);
           expect(course.levels!.length, inInclusiveRange(5, 6),
-              reason: '${course.courseName} has ${course.levels!.length} levels');
+              reason:
+                  '${course.courseName} has ${course.levels!.length} levels');
           expect(course.image, startsWith('assets/images/'));
           expect(course.color, isNotNull);
 
@@ -53,8 +54,8 @@ void main() {
 
     test('splices the learner name in and leaves no placeholder behind',
         () async {
-      final courses =
-          await CourseRepository().courses(TargetLanguage.tamil, firstName: 'Asha');
+      final courses = await CourseRepository()
+          .courses(TargetLanguage.tamil, firstName: 'Asha');
       final everything = courses
           .expand((group) => group)
           .expand((course) => course.levels!)

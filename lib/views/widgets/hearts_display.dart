@@ -21,8 +21,9 @@ class HeartsDisplay extends StatelessWidget {
           return const Loader();
         }
 
-        final heartsState =
-            snapshot.data ?? const HeartsState(hearts: HeartsProvider.maxHearts, heartsRefillAt: null);
+        final heartsState = snapshot.data ??
+            const HeartsState(
+                hearts: HeartsProvider.maxHearts, heartsRefillAt: null);
         final isInfinite = heartsState.hearts >= HeartsProvider.maxHearts &&
             heartsState.heartsRefillAt == null;
 
@@ -33,25 +34,26 @@ class HeartsDisplay extends StatelessWidget {
             margin: const EdgeInsets.only(right: 12),
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
             decoration: BoxDecoration(
-              color: const Color(0xFFFFEBEE),
+              color: context.appDanger.withValues(alpha: 0.14),
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
             ),
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                const Icon(Icons.favorite_rounded, color: Color(0xFFE53935), size: 20),
+                Icon(Icons.favorite_rounded,
+                    color: context.appDanger, size: 20),
                 const SizedBox(width: 4),
                 if (isInfinite) ...[
-                  const Icon(
+                  Icon(
                     Icons.all_inclusive_rounded,
-                    color: Color(0xFFE53935),
+                    color: context.appDanger,
                     size: 16,
                   ),
                 ] else ...[
                   Text(
                     '${heartsState.hearts}',
-                    style: const TextStyle(
-                      color: Color(0xFFE53935),
+                    style: TextStyle(
+                      color: context.appDanger,
                       fontSize: 14,
                       fontWeight: FontWeight.w700,
                     ),

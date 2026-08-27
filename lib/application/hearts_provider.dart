@@ -30,7 +30,8 @@ class HeartsProvider extends ChangeNotifier {
   Stream<HeartsState> getHeartsStream() {
     final userId = _auth.currentUser?.uid;
     if (userId == null) {
-      return Stream.value(const HeartsState(hearts: maxHearts, heartsRefillAt: null));
+      return Stream.value(
+          const HeartsState(hearts: maxHearts, heartsRefillAt: null));
     }
 
     return _firestore.collection('users').doc(userId).snapshots().map((doc) {

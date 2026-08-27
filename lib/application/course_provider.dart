@@ -32,12 +32,17 @@ class CourseProvider extends ChangeNotifier {
 
     try {
       courses = await parseCourses(
-        firstName:
-            getIt<AppPrefs>().authUser.getValue()!.displayName!.split(" ").first,
+        firstName: getIt<AppPrefs>()
+            .authUser
+            .getValue()!
+            .displayName!
+            .split(" ")
+            .first,
         targetLanguage: language,
       );
     } catch (error, stackTrace) {
-      logger.e('Could not load $language', error: error, stackTrace: stackTrace);
+      logger.e('Could not load $language',
+          error: error, stackTrace: stackTrace);
       failedLanguage = language;
       courses = null;
     }

@@ -61,7 +61,7 @@ class LessonPageState extends State<LessonPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: lessonAvailability == LessonAvailability.present
           ? const LessonAppBar()
           : null,
@@ -69,9 +69,9 @@ class LessonPageState extends State<LessonPage> {
         builder: (context) {
           switch (lessonAvailability) {
             case LessonAvailability.loading:
-              return const Center(
+              return Center(
                 child: CircularProgressIndicator(
-                  color: VarnamalaTheme.peacockTeal,
+                  color: context.appAccent,
                   strokeWidth: 3,
                 ),
               );
@@ -84,15 +84,13 @@ class LessonPageState extends State<LessonPage> {
                   children: [
                     Icon(Icons.menu_book_rounded,
                         size: 64,
-                        color:
-                            VarnamalaTheme.textHint.withValues(alpha: 0.3)),
+                        color: context.appInfo.withValues(alpha: 0.65)),
                     const SizedBox(height: 16),
                     Text(
                       'No lessons available',
-                      style:
-                          Theme.of(context).textTheme.titleMedium?.copyWith(
-                                color: VarnamalaTheme.textHint,
-                              ),
+                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                            color: context.appTextSecondary,
+                          ),
                     ),
                   ],
                 ),
@@ -119,21 +117,21 @@ class CheckButton extends StatelessWidget {
           if (lessonState.answerState == AnswerState.correct ||
               lessonState.answerState == AnswerState.readyForNext) {
             title = "CONTINUE";
-            backgroundColor = VarnamalaTheme.peacockTurquoise;
+            backgroundColor = context.appSuccess;
           } else if (lessonState.answerState == AnswerState.incorrect) {
             title = "GOT IT";
-            backgroundColor = VarnamalaTheme.error;
+            backgroundColor = context.appDanger;
           } else {
             title = "CHECK";
-            backgroundColor = VarnamalaTheme.peacockTeal;
+            backgroundColor = context.appAccent;
           }
 
           final isEnabled = lessonState.selectedAnswer != null;
+          final disabledColor = Theme.of(context).disabledColor;
 
           return ChicletAnimatedButton(
             width: MediaQuery.of(context).size.width - 40,
-            backgroundColor:
-                isEnabled ? backgroundColor : const Color(0xFFEEF2F1),
+            backgroundColor: isEnabled ? backgroundColor : disabledColor,
             onPressed: isEnabled
                 ? () {
                     if (lessonState.answerState != AnswerState.readyForNext) {
@@ -155,8 +153,9 @@ class CheckButton extends StatelessWidget {
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w700,
-                color:
-                    isEnabled ? Colors.white : VarnamalaTheme.textHint,
+                color: isEnabled
+                    ? Theme.of(context).colorScheme.onPrimary
+                    : context.appTextSecondary,
                 letterSpacing: 0.5,
               ),
             ),
@@ -196,8 +195,7 @@ class LevelPlayerChoice extends StatelessWidget {
 
     return Dialog(
       shape: RoundedRectangleBorder(
-          borderRadius:
-              BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
+          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
         child: Column(
@@ -234,8 +232,8 @@ class LevelPlayerChoice extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () => Navigator.of(context).pop(),
                 child: const Text('Continue',
-                    style: TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.w700)),
+                    style:
+                        TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
               ),
             ),
             const SizedBox(height: 12),
@@ -247,7 +245,7 @@ class LevelPlayerChoice extends StatelessWidget {
               child: Text(
                 "Back to Courses",
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: VarnamalaTheme.textHint,
+                      color: context.appTextSecondary,
                       fontWeight: FontWeight.w500,
                     ),
               ),
@@ -288,8 +286,7 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
 
     return Dialog(
       shape: RoundedRectangleBorder(
-          borderRadius:
-              BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
+          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
         child: Column(
@@ -326,8 +323,8 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
               child: ElevatedButton(
                 onPressed: () => Navigator.of(context).pop(),
                 child: const Text('Practice Again',
-                    style: TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.w700)),
+                    style:
+                        TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
               ),
             ),
             const SizedBox(height: 12),
@@ -339,7 +336,7 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
               child: Text(
                 "Back to Courses",
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: VarnamalaTheme.textHint,
+                      color: context.appTextSecondary,
                       fontWeight: FontWeight.w500,
                     ),
               ),

@@ -25,8 +25,7 @@ class SocialFriends extends StatelessWidget {
             padding: const EdgeInsets.only(top: 20, bottom: 8),
             child: Row(
               children: [
-                const Icon(Icons.group_rounded,
-                    color: VarnamalaTheme.peacockTeal, size: 22),
+                Icon(Icons.group_rounded, color: context.appViolet, size: 22),
                 const SizedBox(width: 8),
                 Text(
                   'Friends',
@@ -40,33 +39,34 @@ class SocialFriends extends StatelessWidget {
           Container(
             height: 320,
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: context.appSurface,
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-              border: Border.all(color: const Color(0xFFEEF2F1)),
+              border: Border.all(color: context.appBorder),
             ),
             child: StreamBuilder<User?>(
               stream: FirebaseAuth.instance.authStateChanges(),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
-                  return const Center(
+                  return Center(
                     child: CircularProgressIndicator(
-                      color: VarnamalaTheme.peacockTeal,
+                      color: context.appAccent,
                     ),
                   );
                 }
-                
+
                 final user = snapshot.data;
-                
+
                 if (user == null) {
-                  return const Center(child: Text('Please sign in to view friends'));
+                  return const Center(
+                      child: Text('Please sign in to view friends'));
                 }
 
                 return ContainedTabBarView(
-                  tabBarProperties: const TabBarProperties(
-                    indicatorColor: VarnamalaTheme.peacockTeal,
+                  tabBarProperties: TabBarProperties(
+                    indicatorColor: context.appAccent,
                     indicatorWeight: 3,
-                    labelColor: VarnamalaTheme.peacockTeal,
-                    unselectedLabelColor: VarnamalaTheme.textHint,
+                    labelColor: context.appAccent,
+                    unselectedLabelColor: context.appTextSecondary,
                   ),
                   tabs: const [
                     _TabLabel(text: 'FOLLOWING'),
@@ -136,7 +136,7 @@ class FriendItem extends StatelessWidget {
                 Text(
                   '$xp XP',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: VarnamalaTheme.textHint,
+                        color: context.appTextSecondary,
                         fontWeight: FontWeight.w500,
                       ),
                 ),
@@ -219,7 +219,7 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
             style: Theme.of(context)
                 .textTheme
                 .bodyMedium
-                ?.copyWith(color: VarnamalaTheme.textHint)),
+                ?.copyWith(color: context.appTextSecondary)),
       );
     }
 
@@ -241,11 +241,11 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
             xp: 'N/A',
           );
         }
-        return const Center(
+        return Center(
             child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: CircularProgressIndicator(
-                    strokeWidth: 2, color: VarnamalaTheme.peacockTeal)));
+                    strokeWidth: 2, color: context.appAccent)));
       },
     );
   }
@@ -321,7 +321,7 @@ class PaginatedFollowingListState extends State<PaginatedFollowingList> {
             style: Theme.of(context)
                 .textTheme
                 .bodyMedium
-                ?.copyWith(color: VarnamalaTheme.textHint)),
+                ?.copyWith(color: context.appTextSecondary)),
       );
     }
 
@@ -343,11 +343,11 @@ class PaginatedFollowingListState extends State<PaginatedFollowingList> {
             xp: 'N/A',
           );
         }
-        return const Center(
+        return Center(
             child: Padding(
-                padding: EdgeInsets.all(16),
+                padding: const EdgeInsets.all(16),
                 child: CircularProgressIndicator(
-                    strokeWidth: 2, color: VarnamalaTheme.peacockTeal)));
+                    strokeWidth: 2, color: context.appAccent)));
       },
     );
   }

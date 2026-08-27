@@ -74,7 +74,7 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 return _CharacterTile(
                   character: entry.key,
                   pronunciation: entry.value,
-                  color: VarnamalaTheme.peacockTeal,
+                  color: context.appSuccess,
                 );
               },
               childCount: vowels.length,
@@ -104,7 +104,7 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 return _CharacterTile(
                   character: entry.key,
                   pronunciation: entry.value,
-                  color: VarnamalaTheme.leagueAmethyst,
+                  color: context.appViolet,
                 );
               },
               childCount: consonants.length,
@@ -121,7 +121,7 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 _PracticeButton(
                   label: 'Learn Vowels',
                   icon: Icons.record_voice_over_rounded,
-                  color: VarnamalaTheme.peacockTeal,
+                  color: context.appSuccess,
                   onTap: () => context.router.push(
                       VowelAndConsonantLearningRoute(
                           mode: CharacterLearningMode.vowels)),
@@ -130,7 +130,7 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 _PracticeButton(
                   label: 'Learn Consonants',
                   icon: Icons.abc_rounded,
-                  color: VarnamalaTheme.leagueAmethyst,
+                  color: context.appViolet,
                   onTap: () => context.router.push(
                       VowelAndConsonantLearningRoute(
                           mode: CharacterLearningMode.consonants)),
@@ -139,7 +139,7 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 _PracticeButton(
                   label: 'Random Practice',
                   icon: Icons.shuffle_rounded,
-                  color: VarnamalaTheme.peacockCyan,
+                  color: context.appInfo,
                   onTap: () => context.router.push(
                       VowelAndConsonantLearningRoute(
                           mode: CharacterLearningMode.random)),
@@ -171,7 +171,7 @@ class _SectionHeader extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 20, 16, 12),
       child: Row(
         children: [
-          Icon(icon, color: VarnamalaTheme.peacockTeal, size: 22),
+          Icon(icon, color: context.appInfo, size: 22),
           const SizedBox(width: 8),
           Text(
             title,
@@ -183,7 +183,7 @@ class _SectionHeader extends StatelessWidget {
           Text(
             subtitle,
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: VarnamalaTheme.textHint,
+                  color: context.appTextSecondary,
                 ),
           ),
         ],
@@ -205,8 +205,9 @@ class _CharacterTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, color);
     return Material(
-      color: Colors.white,
+      color: context.appSurface,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
         onTap: () {
@@ -217,7 +218,7 @@ class _CharacterTile extends StatelessWidget {
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-            border: Border.all(color: const Color(0xFFEEF2F1)),
+            border: Border.all(color: context.appBorder),
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -227,14 +228,14 @@ class _CharacterTile extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,
-                  color: color,
+                  color: accent,
                 ),
               ),
               const SizedBox(height: 2),
               Text(
                 pronunciation,
                 style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: VarnamalaTheme.textSecondary,
+                      color: context.appTextSecondary,
                       fontSize: 11,
                     ),
                 maxLines: 1,
@@ -263,8 +264,9 @@ class _PracticeButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, color);
     return Material(
-      color: Colors.white,
+      color: context.appSurface,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
         onTap: onTap,
@@ -274,19 +276,22 @@ class _PracticeButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 14),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-            border: Border.all(color: color.withValues(alpha: 0.3), width: 2),
+            border: Border.all(
+              color: accent.withValues(alpha: 0.45),
+              width: 2,
+            ),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(icon, color: color, size: 22),
+              Icon(icon, color: accent, size: 22),
               const SizedBox(width: 10),
               Text(
                 label,
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: color,
+                  color: accent,
                 ),
               ),
             ],
@@ -330,9 +335,8 @@ class RenderCharacterState extends State<RenderCharacter> {
         aspectRatio: 0.75,
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.white,
-            border: Border.all(
-                color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.15)),
+            color: context.appSurface,
+            border: Border.all(color: context.appBorder),
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
           ),
           child: Stack(
@@ -342,9 +346,9 @@ class RenderCharacterState extends State<RenderCharacter> {
                   opacity: 0.08,
                   child: Text(
                     widget.alphabet,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 280,
-                      color: VarnamalaTheme.peacockTeal,
+                      color: context.appAccent,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -377,7 +381,10 @@ class RenderCharacterState extends State<RenderCharacter> {
                       currentStroke = [];
                     },
                     child: CustomPaint(
-                      painter: CharacterPainter(strokes: strokes),
+                      painter: CharacterPainter(
+                        strokes: strokes,
+                        color: context.appAccent,
+                      ),
                       size: Size(constraints.maxWidth, constraints.maxHeight),
                     ),
                   );
@@ -387,7 +394,7 @@ class RenderCharacterState extends State<RenderCharacter> {
                 top: 10,
                 right: 10,
                 child: Material(
-                  color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
+                  color: context.appDanger.withValues(alpha: 0.14),
                   borderRadius:
                       BorderRadius.circular(VarnamalaTheme.radiusSmall),
                   child: InkWell(
@@ -399,11 +406,11 @@ class RenderCharacterState extends State<RenderCharacter> {
                         currentStroke = [];
                       });
                     },
-                    child: const Padding(
-                      padding: EdgeInsets.all(8),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8),
                       child: Icon(
                         Icons.delete_outline_rounded,
-                        color: VarnamalaTheme.peacockTeal,
+                        color: context.appDanger,
                         size: 22,
                       ),
                     ),
@@ -466,10 +473,10 @@ class _VowelAndConsonantLearningPageState
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: VarnamalaTheme.scaffoldBackground,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(Icons.close_rounded, color: VarnamalaTheme.textHint),
+          icon: Icon(Icons.close_rounded, color: context.appDanger),
           onPressed: () => Navigator.pop(context),
         ),
         title: Text(
@@ -492,37 +499,37 @@ class _VowelAndConsonantLearningPageState
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               margin: const EdgeInsets.symmetric(horizontal: 32),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: context.appSurface,
                 borderRadius:
                     BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                border: Border.all(color: const Color(0xFFEEF2F1)),
+                border: Border.all(color: context.appBorder),
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
                     currentCharacter.key,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 32,
                       fontWeight: FontWeight.w700,
-                      color: VarnamalaTheme.peacockTeal,
+                      color: context.appSuccess,
                     ),
                   ),
                   const SizedBox(width: 12),
-                  const Icon(Icons.arrow_forward_rounded,
-                      color: VarnamalaTheme.textHint, size: 20),
+                  Icon(Icons.arrow_forward_rounded,
+                      color: context.appInfo, size: 20),
                   const SizedBox(width: 12),
                   Text(
                     currentCharacter.value,
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.w600,
-                      color: VarnamalaTheme.textPrimary,
+                      color: context.appTextPrimary,
                     ),
                   ),
                   const SizedBox(width: 12),
                   Material(
-                    color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
+                    color: context.appInfo.withValues(alpha: 0.14),
                     borderRadius:
                         BorderRadius.circular(VarnamalaTheme.radiusSmall),
                     child: InkWell(
@@ -530,10 +537,10 @@ class _VowelAndConsonantLearningPageState
                           BorderRadius.circular(VarnamalaTheme.radiusSmall),
                       onTap: () =>
                           getIt<SpeechService>().speak(currentCharacter.value),
-                      child: const Padding(
-                        padding: EdgeInsets.all(8),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8),
                         child: Icon(Icons.volume_up_rounded,
-                            color: VarnamalaTheme.peacockTeal, size: 22),
+                            color: context.appInfo, size: 22),
                       ),
                     ),
                   ),
@@ -560,11 +567,11 @@ class _VowelAndConsonantLearningPageState
                         !shouldRebuildCharacter.value;
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: VarnamalaTheme.peacockTeal,
-                    foregroundColor: Colors.white,
+                    backgroundColor: context.appAccent,
+                    foregroundColor: Theme.of(context).colorScheme.onPrimary,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(
-                          VarnamalaTheme.radiusMedium),
+                      borderRadius:
+                          BorderRadius.circular(VarnamalaTheme.radiusMedium),
                     ),
                   ),
                   child: const Row(
@@ -601,13 +608,14 @@ class _VowelAndConsonantLearningPageState
 
 class CharacterPainter extends CustomPainter {
   final List<List<Offset>> strokes;
+  final Color color;
 
-  CharacterPainter({required this.strokes});
+  CharacterPainter({required this.strokes, required this.color});
 
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = VarnamalaTheme.peacockTeal
+      ..color = color
       ..strokeCap = StrokeCap.round
       ..strokeJoin = StrokeJoin.round
       ..strokeWidth = 6.0
@@ -639,6 +647,6 @@ class CharacterPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(CharacterPainter oldDelegate) {
-    return true;
+    return oldDelegate.strokes != strokes || oldDelegate.color != color;
   }
 }

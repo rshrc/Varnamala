@@ -1,6 +1,9 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
+import 'package:words625/views/theme.dart';
+
 class FacebookButton extends StatelessWidget {
   const FacebookButton({super.key});
 
@@ -14,7 +17,7 @@ class FacebookButton extends StatelessWidget {
         margin: const EdgeInsets.only(left: 10, right: 10, bottom: 10),
         decoration: BoxDecoration(
           borderRadius: const BorderRadius.all(Radius.circular(12)),
-          border: Border.all(width: 3, color: Colors.grey.shade400),
+          border: Border.all(width: 2, color: context.appBorder),
         ),
         child: ElevatedButton(
           onPressed: () {
@@ -25,7 +28,7 @@ class FacebookButton extends StatelessWidget {
             // );
           },
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.white,
+            backgroundColor: context.appSurface,
             elevation: 5,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -40,7 +43,7 @@ class FacebookButton extends StatelessWidget {
               Text(
                 ' FACEBOOK',
                 style: TextStyle(
-                    color: Colors.indigo.shade900,
+                    color: context.appInfo,
                     fontSize: 16,
                     fontWeight: FontWeight.bold),
               ),

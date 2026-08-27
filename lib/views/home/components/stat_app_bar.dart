@@ -60,14 +60,14 @@ class Streak extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: const Color(0xFFFFF3E0),
+        color: context.appWarning.withValues(alpha: 0.14),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.local_fire_department_rounded,
-              color: Color(0xFFFF9500), size: 20),
+          Icon(Icons.local_fire_department_rounded,
+              color: context.appWarning, size: 20),
           const SizedBox(width: 4),
           StreamBuilder<int>(
             stream: context.read<GameProvider>().getUserStreakStream(),
@@ -83,10 +83,10 @@ class Streak extends StatelessWidget {
                 end: snapshot.data?.toDouble() ?? 0,
                 duration: const Duration(milliseconds: 1000),
                 separator: ',',
-                style: const TextStyle(
+                style: TextStyle(
                   fontWeight: FontWeight.w700,
                   fontSize: 14,
-                  color: Color(0xFFFF9500),
+                  color: context.appWarning,
                 ),
               );
             },
@@ -105,13 +105,13 @@ class ScoreCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: const Color(0xFFFFF8E1),
+        color: context.appWarning.withValues(alpha: 0.14),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.stars_rounded, color: Color(0xFFFFD700), size: 20),
+          Icon(Icons.stars_rounded, color: context.appWarning, size: 20),
           const SizedBox(width: 4),
           StreamBuilder<int>(
             stream: context.read<GameProvider>().getUserScoreStream(),
@@ -127,10 +127,10 @@ class ScoreCard extends StatelessWidget {
                 end: snapshot.data?.toDouble() ?? 0,
                 duration: const Duration(milliseconds: 1000),
                 separator: ',',
-                style: const TextStyle(
+                style: TextStyle(
                   fontWeight: FontWeight.w700,
                   fontSize: 14,
-                  color: Color(0xFFE5A800),
+                  color: context.appWarning,
                 ),
               );
             },
@@ -162,7 +162,7 @@ class LanguageSelector extends StatelessWidget {
                 borderRadius: BorderRadius.circular(8),
                 border: Border.all(
                   width: 2,
-                  color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.2),
+                  color: context.appInfo.withValues(alpha: 0.55),
                 ),
               ),
               clipBehavior: Clip.antiAlias,

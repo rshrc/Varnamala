@@ -12,5 +12,4 @@ class ForgotPassword extends StatelessWidget {
           fontSize: 17, fontWeight: FontWeight.bold, color: Color(0xFF1CB0F6)),
     );
   }
-
 }

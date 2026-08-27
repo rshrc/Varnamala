@@ -37,7 +37,7 @@ class LangChoicePage extends StatelessWidget {
             Text(
               'For English speakers',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: VarnamalaTheme.textHint,
+                    color: context.appTextSecondary,
                     fontWeight: FontWeight.w500,
                   ),
             ),
@@ -85,19 +85,17 @@ class LanguageOptionTile extends StatelessWidget {
             curve: Curves.easeOut,
             decoration: BoxDecoration(
               color: isSelected
-                  ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.06)
-                  : Colors.white,
+                  ? context.appAccent.withValues(alpha: 0.14)
+                  : context.appSurface,
               borderRadius: BorderRadius.circular(18),
               border: Border.all(
-                color: isSelected
-                    ? VarnamalaTheme.peacockTeal
-                    : const Color(0xFFE5E5E5),
+                color: isSelected ? context.appAccent : context.appBorder,
                 width: isSelected ? 2.5 : 1.5,
               ),
               boxShadow: [
                 BoxShadow(
                   color: isSelected
-                      ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.18)
+                      ? context.appAccent.withValues(alpha: 0.22)
                       : Colors.black.withValues(alpha: 0.04),
                   blurRadius: isSelected ? 14 : 6,
                   offset: const Offset(0, 3),
@@ -123,8 +121,8 @@ class LanguageOptionTile extends StatelessWidget {
                     info.nativeName,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(
-                      color: VarnamalaTheme.textHint,
+                    style: TextStyle(
+                      color: context.appTextSecondary,
                       fontSize: 14,
                     ),
                   ),
@@ -134,7 +132,7 @@ class LanguageOptionTile extends StatelessWidget {
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
-                      color: VarnamalaTheme.textHint.withValues(alpha: 0.7),
+                      color: context.appTextSecondary.withValues(alpha: 0.82),
                       fontSize: 11,
                       letterSpacing: 0.2,
                     ),

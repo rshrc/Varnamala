@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/views/theme.dart';
 
 class ChooseLanguageAppbar extends StatelessWidget
     implements PreferredSizeWidget {
@@ -20,9 +21,9 @@ class ChooseLanguageAppbar extends StatelessWidget
       leading: Padding(
         padding: const EdgeInsets.only(left: 15),
         child: IconButton(
-          icon: const Icon(
+          icon: Icon(
             Icons.arrow_back,
-            color: Color(0xFFAFAFAF),
+            color: context.appInfo,
             size: 32,
           ),
           onPressed: () {

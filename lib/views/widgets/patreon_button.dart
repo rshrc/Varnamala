@@ -28,46 +28,47 @@ class _PatreonButtonState extends State<PatreonButton> {
         color: Color(0xFFFF424D), // Patreon Brand Color
         size: 20,
       )
-      .animate(
-        key: _animateKey,
-        onComplete: (controller) async {
-          // Wait for random duration between 10s and 30s
-          final delay = 10 + (DateTime.now().microsecond % 20);
-          await Future.delayed(Duration(seconds: delay));
-          if (mounted) {
-            setState(() {
-              _animateKey = UniqueKey(); // Rebuild to restart animation
-            });
-          }
-        },
-      )
-      .scale(
-        duration: 200.ms,
-        begin: const Offset(1, 1),
-        end: const Offset(1.2, 1.2),
-        curve: Curves.easeInOut,
-      )
-      .then()
-      .scale(
-        duration: 200.ms,
-        begin: const Offset(1.2, 1.2),
-        end: const Offset(1, 1),
-        curve: Curves.easeInOut,
-      )
-      .then()
-      .scale( // Double beat
-        duration: 200.ms,
-        begin: const Offset(1, 1),
-        end: const Offset(1.2, 1.2),
-        curve: Curves.easeInOut,
-      )
-      .then()
-      .scale(
-        duration: 200.ms,
-        begin: const Offset(1.2, 1.2),
-        end: const Offset(1, 1),
-        curve: Curves.easeInOut,
-      ),
+          .animate(
+            key: _animateKey,
+            onComplete: (controller) async {
+              // Wait for random duration between 10s and 30s
+              final delay = 10 + (DateTime.now().microsecond % 20);
+              await Future.delayed(Duration(seconds: delay));
+              if (mounted) {
+                setState(() {
+                  _animateKey = UniqueKey(); // Rebuild to restart animation
+                });
+              }
+            },
+          )
+          .scale(
+            duration: 200.ms,
+            begin: const Offset(1, 1),
+            end: const Offset(1.2, 1.2),
+            curve: Curves.easeInOut,
+          )
+          .then()
+          .scale(
+            duration: 200.ms,
+            begin: const Offset(1.2, 1.2),
+            end: const Offset(1, 1),
+            curve: Curves.easeInOut,
+          )
+          .then()
+          .scale(
+            // Double beat
+            duration: 200.ms,
+            begin: const Offset(1, 1),
+            end: const Offset(1.2, 1.2),
+            curve: Curves.easeInOut,
+          )
+          .then()
+          .scale(
+            duration: 200.ms,
+            begin: const Offset(1.2, 1.2),
+            end: const Offset(1, 1),
+            curve: Curves.easeInOut,
+          ),
     );
   }
 }

@@ -17,13 +17,13 @@ class GemsDisplay extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
       decoration: BoxDecoration(
-        color: const Color(0xFFFFEBEE),
+        color: context.appDanger.withValues(alpha: 0.14),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.diamond_rounded, color: Color(0xFFE53935), size: 18),
+          Icon(Icons.diamond_rounded, color: context.appDanger, size: 18),
           const SizedBox(width: 4),
           StreamBuilder<int>(
             stream: context.read<GemsProvider>().getGemsStream(),
@@ -35,8 +35,8 @@ class GemsDisplay extends StatelessWidget {
               final gems = snapshot.data ?? 0;
               return Text(
                 '$gems',
-                style: const TextStyle(
-                  color: Color(0xFFE53935),
+                style: TextStyle(
+                  color: context.appDanger,
                   fontSize: 14,
                   fontWeight: FontWeight.w700,
                 ),

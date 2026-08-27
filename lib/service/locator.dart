@@ -92,6 +92,10 @@ class PrefsConstants {
   static const String authUser = 'authUser';
   static const String branch = 'branch';
   static const String currentLanguage = 'currentLanguage';
+  static const String themeMode = 'themeMode';
+  static const String demoCount = 'demoCount';
+  static const String unlockAllLevels = 'unlockAllLevels';
+  static const String flashcardProgressPrefix = 'flashcardProgress_';
 }
 
 /// Making AppPrefs injectable

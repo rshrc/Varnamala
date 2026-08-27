@@ -29,7 +29,7 @@ class CenterDisplay extends StatelessWidget {
             style: GoogleFonts.nunito(
               fontSize: 36,
               fontWeight: FontWeight.w800,
-              color: VarnamalaTheme.peacockTeal,
+              color: Theme.of(context).colorScheme.primary,
               letterSpacing: 0.5,
             ),
           ),
@@ -43,7 +43,7 @@ class CenterDisplay extends StatelessWidget {
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: VarnamalaTheme.textSecondary,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
                   duration: const Duration(milliseconds: 1000),
                 ),
@@ -52,7 +52,7 @@ class CenterDisplay extends StatelessWidget {
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: VarnamalaTheme.textSecondary,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
                   duration: const Duration(milliseconds: 1000),
                 ),
@@ -61,25 +61,25 @@ class CenterDisplay extends StatelessWidget {
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: VarnamalaTheme.textSecondary,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
                   duration: const Duration(milliseconds: 1000),
                 ),
-                 FadeAnimatedText(
+                FadeAnimatedText(
                   'Learn Telugu • నేర్చుకోండి',
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: VarnamalaTheme.textSecondary,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
                   duration: const Duration(milliseconds: 1000),
                 ),
-                 FadeAnimatedText(
+                FadeAnimatedText(
                   'Learn Malayalam • പഠിക്കൂ',
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
-                    color: VarnamalaTheme.textSecondary,
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
                   duration: const Duration(milliseconds: 1000),
                 ),
@@ -104,7 +104,7 @@ class CenterDisplay extends StatelessWidget {
               textAlign: TextAlign.center,
               style: GoogleFonts.nunito(
                 fontSize: 16,
-                color: VarnamalaTheme.textHint,
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
                 height: 1.5,
               ),
             ),

@@ -71,7 +71,7 @@ class _MatchPageState extends State<MatchPage> {
         if (didPop) _bankScore();
       },
       child: Scaffold(
-        backgroundColor: VarnamalaTheme.scaffoldBackground,
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         body: SafeArea(
           child: _mode == null
               ? _ModePicker(onPick: _play)
@@ -118,7 +118,7 @@ class _ModePicker extends StatelessWidget {
             alignment: Alignment.centerLeft,
             child: IconButton(
               icon: const Icon(Icons.close_rounded, size: 28),
-              color: VarnamalaTheme.textHint,
+              color: context.appDanger,
               onPressed: () => Navigator.of(context).pop(),
             ),
           ),
@@ -128,14 +128,14 @@ class _ModePicker extends StatelessWidget {
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                   fontWeight: FontWeight.w800,
-                  color: VarnamalaTheme.peacockTeal,
+                  color: context.appAccent,
                 ),
           ),
           const SizedBox(height: 8),
-          const Text(
+          Text(
             'Clear a round to buy more time.\nThe clock never gets kinder.',
             textAlign: TextAlign.center,
-            style: TextStyle(color: VarnamalaTheme.textHint, height: 1.4),
+            style: TextStyle(color: context.appTextSecondary, height: 1.4),
           ),
           const SizedBox(height: 36),
           for (final mode in MatchMode.values) ...[
@@ -158,8 +158,9 @@ class _ModeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isWords = mode == MatchMode.words;
-    final colour =
-        isWords ? VarnamalaTheme.peacockTeal : VarnamalaTheme.peacockCyan;
+    final colours = Theme.of(context).colorScheme;
+    final colour = isWords ? context.appSuccess : context.appInfo;
+    final onColour = isWords ? colours.onPrimary : colours.onSecondary;
 
     return ChicletAnimatedButton(
       width: double.infinity,
@@ -172,7 +173,7 @@ class _ModeCard extends StatelessWidget {
           const SizedBox(width: 20),
           Icon(
             isWords ? Icons.translate_rounded : Icons.abc_rounded,
-            color: Colors.white,
+            color: onColour,
             size: 34,
           ),
           const SizedBox(width: 18),
@@ -182,8 +183,8 @@ class _ModeCard extends StatelessWidget {
             children: [
               Text(
                 mode.title,
-                style: const TextStyle(
-                  color: Colors.white,
+                style: TextStyle(
+                  color: onColour,
                   fontWeight: FontWeight.w800,
                   fontSize: 19,
                 ),
@@ -192,7 +193,7 @@ class _ModeCard extends StatelessWidget {
               Text(
                 mode.blurb,
                 style: TextStyle(
-                  color: Colors.white.withValues(alpha: 0.85),
+                  color: onColour.withValues(alpha: 0.82),
                   fontSize: 13,
                 ),
               ),
@@ -276,8 +277,8 @@ class _HeaderBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final low = match.isRunningLow;
-    final fraction =
-        (match.secondsRemaining / MatchProvider.startingSeconds).clamp(0.0, 1.0);
+    final fraction = (match.secondsRemaining / MatchProvider.startingSeconds)
+        .clamp(0.0, 1.0);
 
     return Padding(
       padding: const EdgeInsets.fromLTRB(16, 8, 16, 0),
@@ -287,16 +288,16 @@ class _HeaderBar extends StatelessWidget {
             children: [
               IconButton(
                 icon: const Icon(Icons.close_rounded),
-                color: VarnamalaTheme.textHint,
+                color: context.appDanger,
                 onPressed: () => Navigator.of(context).pop(),
               ),
               Expanded(
                 child: Center(
                   child: Text(
                     'Round ${match.round + 1}',
-                    style: const TextStyle(
+                    style: TextStyle(
                       fontWeight: FontWeight.w700,
-                      color: VarnamalaTheme.textSecondary,
+                      color: context.appTextSecondary,
                     ),
                   ),
                 ),
@@ -314,9 +315,9 @@ class _HeaderBar extends StatelessWidget {
               builder: (context, value, _) => LinearProgressIndicator(
                 value: value,
                 minHeight: 12,
-                backgroundColor: VarnamalaTheme.textHint.withValues(alpha: 0.18),
+                backgroundColor: context.appBorder,
                 valueColor: AlwaysStoppedAnimation<Color>(
-                  low ? VarnamalaTheme.error : VarnamalaTheme.peacockTurquoise,
+                  low ? context.appDanger : context.appSuccess,
                 ),
               ),
             ),
@@ -331,16 +332,16 @@ class _HeaderBar extends StatelessWidget {
                 '${match.secondsRemaining}s',
                 style: TextStyle(
                   fontWeight: FontWeight.w800,
-                  color: low ? VarnamalaTheme.error : VarnamalaTheme.textHint,
+                  color: low ? context.appDanger : context.appTextSecondary,
                 ),
               ),
               if (match.multiplier > 1)
                 Text(
                   '${match.multiplier}x  ·  ${match.combo} in a row',
                   key: ValueKey('combo-${match.combo}'),
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontWeight: FontWeight.w800,
-                    color: VarnamalaTheme.warning,
+                    color: context.appWarning,
                   ),
                 ).animate().scale(
                       duration: 220.ms,
@@ -370,15 +371,15 @@ class _ScorePill extends StatelessWidget {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
           decoration: BoxDecoration(
-            color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.1),
+            color: Theme.of(context).colorScheme.primaryContainer,
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
           ),
           child: Text(
             '${match.score}',
-            style: const TextStyle(
+            style: TextStyle(
               fontWeight: FontWeight.w800,
               fontSize: 17,
-              color: VarnamalaTheme.peacockTeal,
+              color: Theme.of(context).colorScheme.onPrimaryContainer,
             ),
           ),
         ),
@@ -390,13 +391,17 @@ class _ScorePill extends StatelessWidget {
               child: Text(
                 '+${match.lastMatchPoints}',
                 key: ValueKey('pop-${match.matchPulse}'),
-                style: const TextStyle(
+                style: TextStyle(
                   fontWeight: FontWeight.w800,
-                  color: VarnamalaTheme.warning,
+                  color: context.appWarning,
                 ),
               )
                   .animate()
-                  .moveY(begin: 0, end: -26, duration: 620.ms, curve: Curves.easeOut)
+                  .moveY(
+                      begin: 0,
+                      end: -26,
+                      duration: 620.ms,
+                      curve: Curves.easeOut)
                   .fadeOut(duration: 620.ms),
             ),
           ),
@@ -475,10 +480,10 @@ class _Tile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final border = isMatched
-        ? VarnamalaTheme.peacockTurquoise
+        ? context.appSuccess
         : isSelected
-            ? VarnamalaTheme.peacockTeal
-            : const Color(0xFFE3E8EA);
+            ? context.appAccent
+            : context.appBorder;
 
     Widget tile = GestureDetector(
       onTap: onTap,
@@ -494,10 +499,10 @@ class _Tile extends StatelessWidget {
           // A solid fill on a match, not a tint — the moment should be
           // unmistakable at a glance.
           color: isMatched
-              ? VarnamalaTheme.peacockTurquoise
+              ? context.appSuccess
               : isSelected
-                  ? VarnamalaTheme.peacockTeal.withValues(alpha: 0.08)
-                  : Colors.white,
+                  ? context.appAccent.withValues(alpha: 0.14)
+                  : context.appSurface,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(color: border, width: isSelected ? 2.5 : 1.6),
         ),
@@ -506,7 +511,9 @@ class _Tile extends StatelessWidget {
           style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.w700,
-            color: isMatched ? Colors.white : VarnamalaTheme.textPrimary,
+            color: isMatched
+                ? Theme.of(context).colorScheme.onPrimary
+                : context.appTextPrimary,
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -521,9 +528,11 @@ class _Tile extends StatelessWidget {
               ),
               if (isMatched) ...[
                 const SizedBox(width: 6),
-                const Icon(Icons.check_rounded, color: Colors.white, size: 20)
-                    .animate()
-                    .scale(
+                Icon(
+                  Icons.check_rounded,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                  size: 20,
+                ).animate().scale(
                       duration: 260.ms,
                       begin: const Offset(0, 0),
                       curve: Curves.easeOutBack,
@@ -579,7 +588,7 @@ class _RoundBanner extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 26, vertical: 16),
       decoration: BoxDecoration(
-        color: VarnamalaTheme.peacockTeal,
+        color: context.appSuccess,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
       ),
       child: Column(
@@ -587,22 +596,30 @@ class _RoundBanner extends StatelessWidget {
         children: [
           Text(
             'Round $round cleared',
-            style: const TextStyle(
-              color: Colors.white,
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.onPrimary,
               fontWeight: FontWeight.w800,
               fontSize: 18,
             ),
           ),
           const SizedBox(height: 2),
-          const Text(
+          Text(
             'more time on the clock',
-            style: TextStyle(color: Colors.white70, fontSize: 12),
+            style: TextStyle(
+                color: Theme.of(context)
+                    .colorScheme
+                    .onPrimary
+                    .withValues(alpha: 0.78),
+                fontSize: 12),
           ),
         ],
       ),
     )
         .animate()
-        .scale(duration: 260.ms, begin: const Offset(0.7, 0.7), curve: Curves.easeOutBack)
+        .scale(
+            duration: 260.ms,
+            begin: const Offset(0.7, 0.7),
+            curve: Curves.easeOutBack)
         .then(delay: 500.ms)
         .fadeOut(duration: 320.ms)
         .moveY(end: -20, duration: 320.ms);
@@ -632,8 +649,8 @@ class _GameOver extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Icon(Icons.emoji_events_rounded,
-                size: 76, color: VarnamalaTheme.success)
+            Icon(Icons.emoji_events_rounded,
+                    size: 76, color: context.appWarning)
                 .animate()
                 .scale(duration: 420.ms, curve: Curves.easeOutBack),
             const SizedBox(height: 12),
@@ -652,12 +669,12 @@ class _GameOver extends StatelessWidget {
             ChicletAnimatedButton(
               width: double.infinity,
               height: 52,
-              backgroundColor: VarnamalaTheme.peacockTeal,
+              backgroundColor: context.appAccent,
               onPressed: onPlayAgain,
-              child: const Text(
+              child: Text(
                 'Play again',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Theme.of(context).colorScheme.onPrimary,
                   fontWeight: FontWeight.w800,
                   fontSize: 16,
                 ),
@@ -666,8 +683,8 @@ class _GameOver extends StatelessWidget {
             const SizedBox(height: 12),
             TextButton(
               onPressed: onExit,
-              child: const Text('Done',
-                  style: TextStyle(color: VarnamalaTheme.textHint)),
+              child: Text('Done',
+                  style: TextStyle(color: context.appTextSecondary)),
             ),
           ],
         ),
@@ -689,12 +706,12 @@ class _Stat extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Text(label, style: const TextStyle(color: VarnamalaTheme.textHint)),
+          Text(label, style: TextStyle(color: context.appTextSecondary)),
           Text(value,
-              style: const TextStyle(
+              style: TextStyle(
                 fontWeight: FontWeight.w800,
                 fontSize: 17,
-                color: VarnamalaTheme.peacockTeal,
+                color: context.appAccent,
               )),
         ],
       ),
@@ -707,13 +724,13 @@ class _NotEnoughContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40),
+        padding: const EdgeInsets.symmetric(horizontal: 40),
         child: Text(
           'Open a course first so there are enough words to match.',
           textAlign: TextAlign.center,
-          style: TextStyle(color: VarnamalaTheme.textHint, height: 1.4),
+          style: TextStyle(color: context.appTextSecondary, height: 1.4),
         ),
       ),
     );

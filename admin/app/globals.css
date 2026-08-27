@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  color-scheme: light;
   --ink: #172425;
   --muted: #667473;
   --canvas: #f5f7f4;
@@ -10,6 +11,19 @@
   --brand-dark: #105f5c;
   --brand-soft: #e5f3ef;
   --coral: #e46b5f;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #e9f2f1;
+  --muted: #9badaa;
+  --canvas: #0b1415;
+  --surface: #132022;
+  --line: #2d4041;
+  --brand: #62c8c1;
+  --brand-dark: #8cddd7;
+  --brand-soft: #173b3a;
+  --coral: #f08377;
 }
 
 @theme inline {
@@ -45,7 +59,46 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .focus-ring { @apply outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
 .card { @apply rounded-xl border border-line bg-surface shadow-[0_1px_2px_rgba(15,35,34,0.04)]; }
 .label { @apply mb-1.5 block text-xs font-semibold tracking-wide text-muted uppercase; }
-.field { @apply w-full rounded-lg border border-line bg-white px-3 py-2.5 text-sm text-ink outline-none placeholder:text-slate-400 focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+.field { @apply w-full rounded-lg border border-line bg-surface px-3 py-2.5 text-sm text-ink outline-none placeholder:text-slate-400 focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2; }
+
+/* A few legacy utility surfaces predate the semantic color tokens. Keep them
+   readable until those views are touched for product work. */
+:root[data-theme="dark"] .bg-white { background-color: var(--surface); }
+:root[data-theme="dark"] .bg-slate-50,
+:root[data-theme="dark"] .bg-slate-50\/70,
+:root[data-theme="dark"] .bg-slate-50\/60,
+:root[data-theme="dark"] .bg-slate-100 { background-color: #19292b; }
+:root[data-theme="dark"] .bg-slate-200,
+:root[data-theme="dark"] .bg-slate-200\/80 { background-color: #304244; }
+:root[data-theme="dark"] .bg-ink { background-color: var(--brand); }
+:root[data-theme="dark"] .bg-emerald-50 { background-color: #12372b; }
+:root[data-theme="dark"] .bg-amber-50 { background-color: #3a2d14; }
+:root[data-theme="dark"] .bg-red-50 { background-color: #3b1d20; }
+:root[data-theme="dark"] .bg-sky-50 { background-color: #142f3b; }
+:root[data-theme="dark"] .text-slate-600,
+:root[data-theme="dark"] .text-slate-400,
+:root[data-theme="dark"] .text-slate-300 { color: var(--muted); }
+:root[data-theme="dark"] .text-emerald-700,
+:root[data-theme="dark"] .text-emerald-600 { color: #70d6a2; }
+:root[data-theme="dark"] .text-amber-800,
+:root[data-theme="dark"] .text-amber-700 { color: #f0c66f; }
+:root[data-theme="dark"] .text-red-700,
+:root[data-theme="dark"] .text-red-600 { color: #ff9a91; }
+:root[data-theme="dark"] .text-sky-700 { color: #83cdec; }
+:root[data-theme="dark"] .border-slate-300 { border-color: var(--line); }
+:root[data-theme="dark"] .hover\:bg-white:hover,
+:root[data-theme="dark"] .hover\:bg-slate-50:hover,
+:root[data-theme="dark"] .hover\:bg-slate-50\/60:hover,
+:root[data-theme="dark"] .hover\:bg-slate-100:hover {
+  background-color: var(--brand-soft);
+}
+:root[data-theme="dark"] .hover\:bg-slate-800:hover {
+  background-color: var(--brand-dark);
+  color: var(--canvas);
+}
+:root[data-theme="dark"] .focus-visible\:ring-offset-2:focus-visible {
+  --tw-ring-offset-color: var(--canvas);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .soft-transition { transition: color 150ms, background-color 150ms, border-color 150ms, transform 150ms; }

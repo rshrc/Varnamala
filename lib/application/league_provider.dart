@@ -31,11 +31,8 @@ class LeagueProvider extends ChangeNotifier {
       return Stream.value(leagues.first);
     }
 
-    return _firestore
-        .collection('users')
-        .doc(userId)
-        .snapshots()
-        .map((snapshot) => snapshot.data()?['league'] as String? ?? leagues.first);
+    return _firestore.collection('users').doc(userId).snapshots().map(
+        (snapshot) => snapshot.data()?['league'] as String? ?? leagues.first);
   }
 
   Stream<int> getUserLeagueXpStream() {
@@ -44,7 +41,11 @@ class LeagueProvider extends ChangeNotifier {
       return Stream.value(0);
     }
 
-    return _firestore.collection('users').doc(userId).snapshots().map((snapshot) {
+    return _firestore
+        .collection('users')
+        .doc(userId)
+        .snapshots()
+        .map((snapshot) {
       final value = snapshot.data()?['leagueXp'];
       if (value is int) return value;
       if (value is num) return value.toInt();
@@ -61,7 +62,8 @@ class LeagueProvider extends ChangeNotifier {
       final users = snapshot.docs
           .map((doc) => LeaderboardEntry.fromMap(doc.id, doc.data()))
           .where((entry) {
-        final userLeague = entry.league.trim().isEmpty ? leagues.first : entry.league;
+        final userLeague =
+            entry.league.trim().isEmpty ? leagues.first : entry.league;
         if (league == leagues.first) {
           // Backward-compatible default: users without explicit league appear in Bronze.
           return userLeague == leagues.first || !leagues.contains(userLeague);

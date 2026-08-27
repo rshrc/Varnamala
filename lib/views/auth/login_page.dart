@@ -62,21 +62,21 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            if(kDebugMode)
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                TextButton(
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                          builder: (context) => const OnboardingScreen()),
-                    );
-                  },
-                  child: const Text('Test Onboarding'),
-                ),
-              ],
-            ),
+            if (kDebugMode)
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  TextButton(
+                    onPressed: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                            builder: (context) => const OnboardingScreen()),
+                      );
+                    },
+                    child: const Text('Test Onboarding'),
+                  ),
+                ],
+              ),
             const Row(
               // mainAxisSize: MainAxisSize.max,
               children: [

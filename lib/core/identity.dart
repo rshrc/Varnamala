@@ -40,14 +40,42 @@ String handleFromName(String? fullName, {String seed = ''}) {
 /// Words the generated handles are built from. Deliberately warm and neutral —
 /// nothing that could read as an insult when it lands on a stranger.
 const List<String> _adjectives = [
-  'Swift', 'Calm', 'Bright', 'Keen', 'Bold', 'Quiet', 'Sunny', 'Clever',
-  'Gentle', 'Merry', 'Steady', 'Lucky', 'Kind', 'Brave', 'Warm', 'Neat',
+  'Swift',
+  'Calm',
+  'Bright',
+  'Keen',
+  'Bold',
+  'Quiet',
+  'Sunny',
+  'Clever',
+  'Gentle',
+  'Merry',
+  'Steady',
+  'Lucky',
+  'Kind',
+  'Brave',
+  'Warm',
+  'Neat',
 ];
 
 /// Things from the subcontinent a learner might actually meet in a lesson.
 const List<String> _nouns = [
-  'Mynah', 'Lotus', 'Peacock', 'Koel', 'Neem', 'Monsoon', 'Tabla', 'Sitar',
-  'Jasmine', 'Banyan', 'Mango', 'Kite', 'Parrot', 'River', 'Lantern', 'Cardamom',
+  'Mynah',
+  'Lotus',
+  'Peacock',
+  'Koel',
+  'Neem',
+  'Monsoon',
+  'Tabla',
+  'Sitar',
+  'Jasmine',
+  'Banyan',
+  'Mango',
+  'Kite',
+  'Parrot',
+  'River',
+  'Lantern',
+  'Cardamom',
 ];
 
 /// A stable, pronounceable handle for an account with no name to work from:
@@ -82,7 +110,13 @@ String handleSuffix(String seed) => (_hash(seed) % 90 + 10).toString();
 
 /// Handles a learner may not take, because they impersonate the app or staff.
 const Set<String> reservedHandles = {
-  'varnamala', 'admin', 'moderator', 'support', 'mala', 'official', 'staff',
+  'varnamala',
+  'admin',
+  'moderator',
+  'support',
+  'mala',
+  'official',
+  'staff',
 };
 
 /// Whether a handle a learner typed is acceptable.

@@ -78,7 +78,7 @@ class _CourseNodeState extends State<CourseNode> {
           SnackBar(
             duration: const Duration(seconds: 2),
             behavior: SnackBarBehavior.floating,
-            backgroundColor: VarnamalaTheme.textPrimary,
+            backgroundColor: context.appElevatedSurface,
             content: Text(
               widget.unlockedBy == null
                   ? 'Finish the course before this one to unlock it.'
@@ -108,10 +108,13 @@ class _CourseNodeState extends State<CourseNode> {
   @override
   Widget build(BuildContext context) {
     final color = widget.isLocked
-        ? const Color(0xFFD3D9DE)
+        ? Theme.of(context).colorScheme.surfaceContainerHighest
         : widget.course.color != null
-            ? Color(widget.course.color!)
-            : VarnamalaTheme.peacockCyan;
+            ? VarnamalaTheme.adaptiveAccent(
+                context,
+                Color(widget.course.color!),
+              )
+            : context.appInfo;
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -151,10 +154,10 @@ class _CourseNodeState extends State<CourseNode> {
             fontSize: 13,
             letterSpacing: 0.1,
             color: widget.isLocked
-                ? VarnamalaTheme.textHint
+                ? context.appTextSecondary
                 : widget.isCurrent
-                    ? VarnamalaTheme.textPrimary
-                    : VarnamalaTheme.textSecondary,
+                    ? context.appTextPrimary
+                    : context.appTextSecondary,
           ),
         ),
       ],
@@ -183,7 +186,7 @@ class _DiscussionBadge extends StatelessWidget {
           width: 26,
           height: 26,
           decoration: BoxDecoration(
-            color: Colors.white,
+            color: context.appSurface,
             shape: BoxShape.circle,
             boxShadow: [
               BoxShadow(
@@ -193,10 +196,10 @@ class _DiscussionBadge extends StatelessWidget {
               ),
             ],
           ),
-          child: const Icon(
+          child: Icon(
             Icons.forum_rounded,
             size: 14,
-            color: VarnamalaTheme.peacockTeal,
+            color: context.appInfo,
           ),
         ),
       ),
@@ -250,9 +253,7 @@ class _NodeFace extends StatelessWidget {
                   child: CustomPaint(
                     painter: _RingPainter(
                       percent: percent,
-                      color: complete
-                          ? VarnamalaTheme.success
-                          : VarnamalaTheme.peacockTurquoise,
+                      color: complete ? context.appWarning : context.appSuccess,
                     ),
                   ),
                 ),
@@ -295,8 +296,8 @@ class _NodeFace extends StatelessWidget {
                                     ? Icons.lock_rounded
                                     : _iconFor(course.courseName),
                                 color: locked
-                                    ? const Color(0xFFF7F9FA)
-                                    : Colors.white,
+                                    ? context.appTextSecondary
+                                    : Theme.of(context).colorScheme.onPrimary,
                                 size: locked ? 28 : 32,
                               ),
                             ),
@@ -317,14 +318,14 @@ class _NodeFace extends StatelessWidget {
                   child: Container(
                     width: 26,
                     height: 26,
-                    decoration: const BoxDecoration(
-                      color: Colors.white,
+                    decoration: BoxDecoration(
+                      color: context.appSurface,
                       shape: BoxShape.circle,
                     ),
-                    child: const Icon(
+                    child: Icon(
                       Icons.workspace_premium_rounded,
                       size: 17,
-                      color: VarnamalaTheme.success,
+                      color: context.appWarning,
                     ),
                   ),
                 ),
@@ -368,13 +369,13 @@ class _StartFlagState extends State<_StartFlag>
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
         decoration: BoxDecoration(
-          color: VarnamalaTheme.peacockTeal,
+          color: context.appAccent,
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
         ),
-        child: const Text(
+        child: Text(
           'START',
           style: TextStyle(
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.onPrimary,
             fontWeight: FontWeight.w800,
             fontSize: 11,
             letterSpacing: 1.1,

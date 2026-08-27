@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 class InputField extends StatefulWidget {
   final TextEditingController emailController;
   final TextEditingController passwordController;
-  const InputField(this.emailController, this.passwordController, {Key? key}) : super(key: key);
+  const InputField(this.emailController, this.passwordController, {Key? key})
+      : super(key: key);
 
   @override
   State<StatefulWidget> createState() {

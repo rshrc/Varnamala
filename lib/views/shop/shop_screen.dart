@@ -21,12 +21,19 @@ class ShopPage extends StatelessWidget {
       stream: context.read<GameProvider>().getUserGameStateStream(),
       builder: (context, snapshot) {
         final gameState = snapshot.data ?? const <String, dynamic>{};
-        final repairRequired = gameState['streakRepairRequired'] as bool? ?? false;
-        final repairProgress = (gameState['streakRepairProgress'] as num? ?? 0).toInt();
-        final repairTarget = (gameState['streakRepairTarget'] as num? ?? GameProvider.defaultStreakRepairTarget).toInt();
-        final followRewardClaimed = gameState['followRewardClaimed'] as bool? ?? false;
-        final validatedShareCount = (gameState['validatedShareCount'] as num? ?? 0).toInt();
-        final claimedShareCount = (gameState['claimedShareCount'] as num? ?? 0).toInt();
+        final repairRequired =
+            gameState['streakRepairRequired'] as bool? ?? false;
+        final repairProgress =
+            (gameState['streakRepairProgress'] as num? ?? 0).toInt();
+        final repairTarget = (gameState['streakRepairTarget'] as num? ??
+                GameProvider.defaultStreakRepairTarget)
+            .toInt();
+        final followRewardClaimed =
+            gameState['followRewardClaimed'] as bool? ?? false;
+        final validatedShareCount =
+            (gameState['validatedShareCount'] as num? ?? 0).toInt();
+        final claimedShareCount =
+            (gameState['claimedShareCount'] as num? ?? 0).toInt();
         final canClaimShare = validatedShareCount > claimedShareCount;
 
         return CustomScrollView(
@@ -56,26 +63,31 @@ class ShopPage extends StatelessWidget {
             ),
             SliverToBoxAdapter(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: Material(
-                  color: VarnamalaTheme.peacockTeal,
-                  borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                  color: context.appInfo,
+                  borderRadius:
+                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
                   child: InkWell(
-                    borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                    borderRadius:
+                        BorderRadius.circular(VarnamalaTheme.radiusMedium),
                     onTap: () => context.router.push(const MatchWordsRoute()),
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(vertical: 14),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 14),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.bolt_rounded, color: Colors.white, size: 22),
-                          SizedBox(width: 8),
+                          Icon(Icons.bolt_rounded,
+                              color: Theme.of(context).colorScheme.onSecondary,
+                              size: 22),
+                          const SizedBox(width: 8),
                           Text(
                             'Try Match Madness',
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.w700,
-                              color: Colors.white,
+                              color: Theme.of(context).colorScheme.onSecondary,
                             ),
                           ),
                         ],
@@ -97,12 +109,14 @@ class ShopPage extends StatelessWidget {
                 icon: Icons.person_add_alt_rounded,
                 iconColor: const Color(0xFF66BB6A),
                 label: 'Follow Reward',
-                description: 'Follow learners to claim a one-time community gem reward.',
+                description:
+                    'Follow learners to claim a one-time community gem reward.',
                 buttonLabel: followRewardClaimed ? 'CLAIMED' : 'CLAIM',
                 enabled: !followRewardClaimed,
                 onTap: followRewardClaimed
                     ? null
-                    : () => _handleCommunityClaim(context, CommunityAction.follow),
+                    : () =>
+                        _handleCommunityClaim(context, CommunityAction.follow),
               ),
             ),
             SliverToBoxAdapter(
@@ -115,7 +129,8 @@ class ShopPage extends StatelessWidget {
                 buttonLabel: canClaimShare ? 'CLAIM' : 'PENDING VALIDATION',
                 enabled: canClaimShare,
                 onTap: canClaimShare
-                    ? () => _handleCommunityClaim(context, CommunityAction.validatedShare)
+                    ? () => _handleCommunityClaim(
+                        context, CommunityAction.validatedShare)
                     : null,
               ),
             ),
@@ -173,7 +188,8 @@ class ShopPage extends StatelessWidget {
     BuildContext context,
     CommunityAction action,
   ) async {
-    final success = await context.read<GemsProvider>().claimCommunityReward(action);
+    final success =
+        await context.read<GemsProvider>().claimCommunityReward(action);
     if (!context.mounted) return;
 
     ScaffoldMessenger.of(context).showSnackBar(
@@ -183,7 +199,7 @@ class ShopPage extends StatelessWidget {
               ? 'Reward claimed. Keep learning and contributing.'
               : 'Validation pending or already claimed.',
         ),
-        backgroundColor: success ? VarnamalaTheme.peacockTeal : VarnamalaTheme.error,
+        backgroundColor: success ? context.appSuccess : context.appDanger,
       ),
     );
   }
@@ -206,7 +222,11 @@ class _SectionTitle extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 20, 16, 8),
       child: Row(
         children: [
-          Icon(icon, color: iconColor, size: 22),
+          Icon(
+            icon,
+            color: VarnamalaTheme.adaptiveAccent(context, iconColor),
+            size: 22,
+          ),
           const SizedBox(width: 8),
           Text(
             title,
@@ -242,13 +262,14 @@ class ShopItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, iconColor);
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
-        border: Border.all(color: const Color(0xFFEEF2F1)),
+        border: Border.all(color: context.appBorder),
         boxShadow: [
           BoxShadow(
             color: Colors.black.withValues(alpha: 0.03),
@@ -263,10 +284,10 @@ class ShopItem extends StatelessWidget {
             width: 56,
             height: 56,
             decoration: BoxDecoration(
-              color: iconColor.withValues(alpha: 0.1),
+              color: accent.withValues(alpha: 0.14),
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
             ),
-            child: Icon(icon, color: iconColor, size: 28),
+            child: Icon(icon, color: accent, size: 28),
           ),
           const SizedBox(width: 14),
           Expanded(
@@ -283,7 +304,7 @@ class ShopItem extends StatelessWidget {
                 Text(
                   description,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: VarnamalaTheme.textSecondary,
+                        color: context.appTextSecondary,
                         height: 1.3,
                       ),
                   maxLines: 2,
@@ -300,14 +321,18 @@ class ShopItem extends StatelessWidget {
                           onPressed: enabled ? onTap : null,
                           style: ElevatedButton.styleFrom(
                             backgroundColor: enabled
-                                ? VarnamalaTheme.peacockTeal
-                                : VarnamalaTheme.textHint,
+                                ? context.appAccent
+                                : Theme.of(context)
+                                    .colorScheme
+                                    .surfaceContainerHighest,
+                            foregroundColor: enabled
+                                ? Theme.of(context).colorScheme.onPrimary
+                                : context.appTextSecondary,
                             padding: const EdgeInsets.symmetric(horizontal: 12),
                           ),
                           child: Text(
                             buttonLabel!,
                             style: const TextStyle(
-                              color: Colors.white,
                               fontSize: 12,
                               fontWeight: FontWeight.w700,
                             ),

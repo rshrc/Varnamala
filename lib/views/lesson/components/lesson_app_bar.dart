@@ -22,9 +22,9 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Padding(
         padding: const EdgeInsets.only(left: 8),
         child: IconButton(
-          icon: const Icon(
+          icon: Icon(
             Icons.close_rounded,
-            color: VarnamalaTheme.textHint,
+            color: context.appDanger,
             size: 26,
           ),
           onPressed: () {
@@ -40,9 +40,8 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
             child: LinearProgressIndicator(
               value: lessonProvider.percent,
               minHeight: 10,
-              backgroundColor: const Color(0xFFEEF2F1),
-              valueColor: const AlwaysStoppedAnimation<Color>(
-                  VarnamalaTheme.peacockTurquoise),
+              backgroundColor: context.appBorder,
+              valueColor: AlwaysStoppedAnimation<Color>(context.appSuccess),
             ),
           );
         },
@@ -61,8 +60,8 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
             }
             return IconButton(
               tooltip: 'Report a mistake in this question',
-              icon: const Icon(Icons.flag_outlined,
-                  color: VarnamalaTheme.textHint, size: 22),
+              icon: Icon(Icons.flag_outlined,
+                  color: context.appWarning, size: 22),
               onPressed: () => showReportSheet(
                 context,
                 language: context.read<LanguageProvider>().selectedLanguage,

@@ -56,9 +56,8 @@ class _ListLessonState extends State<ListLesson> {
                   width: double.infinity,
                   decoration: BoxDecoration(
                     color: lessonProvider.answerState.isCorrect
-                        ? VarnamalaTheme.peacockTurquoise
-                            .withValues(alpha: 0.08)
-                        : VarnamalaTheme.error.withValues(alpha: 0.06),
+                        ? context.appSuccess.withValues(alpha: 0.12)
+                        : context.appDanger.withValues(alpha: 0.1),
                     borderRadius: const BorderRadius.only(
                         topLeft: Radius.circular(20),
                         topRight: Radius.circular(20)),
@@ -81,8 +80,8 @@ class _ListLessonState extends State<ListLesson> {
                                 ? Icons.check_circle_rounded
                                 : Icons.cancel_rounded,
                             color: lessonProvider.answerState.isCorrect
-                                ? VarnamalaTheme.peacockTeal
-                                : VarnamalaTheme.error,
+                                ? context.appSuccess
+                                : context.appDanger,
                             size: 28,
                           ),
                           const SizedBox(width: 10),
@@ -94,8 +93,8 @@ class _ListLessonState extends State<ListLesson> {
                               fontWeight: FontWeight.w700,
                               fontSize: 20,
                               color: lessonProvider.answerState.isCorrect
-                                  ? VarnamalaTheme.peacockTeal
-                                  : VarnamalaTheme.error,
+                                  ? context.appSuccess
+                                  : context.appDanger,
                             ),
                           ),
                         ],
@@ -107,15 +106,15 @@ class _ListLessonState extends State<ListLesson> {
                           style: Theme.of(context)
                               .textTheme
                               .bodySmall
-                              ?.copyWith(color: VarnamalaTheme.textHint),
+                              ?.copyWith(color: context.appTextSecondary),
                         ),
                         const SizedBox(height: 4),
                         Text(
                           "${lessonProvider.currentQuestion?.correctAnswer}",
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 18,
-                            color: VarnamalaTheme.error,
+                            color: context.appDanger,
                           ),
                         ),
                       ] else if (lessonProvider
@@ -123,13 +122,12 @@ class _ListLessonState extends State<ListLesson> {
                           null) ...[
                         const SizedBox(height: 12),
                         Text(
-                          lessonProvider
-                                  .currentQuestion?.translatedSentence ??
+                          lessonProvider.currentQuestion?.translatedSentence ??
                               "",
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontWeight: FontWeight.w500,
                             fontSize: 16,
-                            color: VarnamalaTheme.peacockTeal,
+                            color: context.appSuccess,
                           ),
                         ),
                       ],
@@ -141,8 +139,7 @@ class _ListLessonState extends State<ListLesson> {
             Column(
               children: [
                 Instruction(
-                    prompt:
-                        lessonProvider.currentQuestion?.prompt ?? "--"),
+                    prompt: lessonProvider.currentQuestion?.prompt ?? "--"),
                 const SizedBox(height: 12),
                 QuestionRow(question: lessonProvider.currentQuestion),
                 const SizedBox(height: 8),
@@ -162,8 +159,7 @@ class _ListLessonState extends State<ListLesson> {
                                 child: ListChoice(
                                   title: option,
                                   isSelected: selectedAnswer == option,
-                                  isCorrect:
-                                      lessonProvider.isAnswerCorrect,
+                                  isCorrect: lessonProvider.isAnswerCorrect,
                                 ),
                               );
                             }).toList() ??
@@ -256,13 +252,12 @@ class QuestionRow extends StatelessWidget {
               key: ValueKey('gloss-$word'),
               triggerMode: TooltipTriggerMode.tap,
               enableFeedback: true,
-              onTriggered: () =>
-                  getIt<GameProvider>().bumpStat('wordsTapped'),
+              onTriggered: () => getIt<GameProvider>().bumpStat('wordsTapped'),
               // Every target-language word is tappable. A word with no gloss
               // says so rather than opening an empty box.
               message: meaning ?? 'No meaning yet',
-              textStyle: const TextStyle(
-                color: Colors.white,
+              textStyle: TextStyle(
+                color: Theme.of(context).colorScheme.onPrimaryContainer,
                 fontSize: 15,
                 fontWeight: FontWeight.w600,
                 height: 1.3,
@@ -271,8 +266,8 @@ class QuestionRow extends StatelessWidget {
               margin: const EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
                 color: meaning == null
-                    ? VarnamalaTheme.textHint
-                    : VarnamalaTheme.peacockTeal,
+                    ? Theme.of(context).colorScheme.surfaceContainerHighest
+                    : Theme.of(context).colorScheme.primaryContainer,
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
@@ -288,8 +283,7 @@ class QuestionRow extends StatelessWidget {
                   decoration: TextDecoration.underline,
                   decorationStyle: TextDecorationStyle.dotted,
                   decorationThickness: 2,
-                  decorationColor:
-                      VarnamalaTheme.peacockTeal.withValues(alpha: 0.55),
+                  decorationColor: context.appAccent.withValues(alpha: 0.75),
                 ),
               ),
             ),
@@ -319,26 +313,23 @@ class ListChoice extends StatelessWidget {
 
     Color borderColor;
     Color backgroundColor;
-    Color textColor = VarnamalaTheme.textPrimary;
+    Color textColor = context.appTextPrimary;
 
     if (lessonState.answerState.isCorrect && isSelected) {
-      borderColor = VarnamalaTheme.peacockTurquoise;
-      backgroundColor =
-          VarnamalaTheme.peacockTurquoise.withValues(alpha: 0.08);
-      textColor = VarnamalaTheme.peacockTeal;
-    } else if (lessonState.answerState == AnswerState.incorrect &&
-        isSelected) {
-      borderColor = VarnamalaTheme.error;
-      backgroundColor = VarnamalaTheme.error.withValues(alpha: 0.06);
-      textColor = VarnamalaTheme.errorDark;
-    } else if (lessonState.answerState == AnswerState.selected &&
-        isSelected) {
-      borderColor = VarnamalaTheme.peacockTeal;
-      backgroundColor = VarnamalaTheme.peacockTeal.withValues(alpha: 0.05);
-      textColor = VarnamalaTheme.peacockTeal;
+      borderColor = context.appSuccess;
+      backgroundColor = context.appSuccess.withValues(alpha: 0.12);
+      textColor = context.appSuccess;
+    } else if (lessonState.answerState == AnswerState.incorrect && isSelected) {
+      borderColor = context.appDanger;
+      backgroundColor = context.appDanger.withValues(alpha: 0.1);
+      textColor = context.appDanger;
+    } else if (lessonState.answerState == AnswerState.selected && isSelected) {
+      borderColor = context.appInfo;
+      backgroundColor = context.appInfo.withValues(alpha: 0.12);
+      textColor = context.appInfo;
     } else {
-      borderColor = const Color(0xFFEEF2F1);
-      backgroundColor = Colors.white;
+      borderColor = context.appBorder;
+      backgroundColor = context.appSurface;
     }
 
     return Padding(
@@ -350,8 +341,7 @@ class ListChoice extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
         decoration: BoxDecoration(
           color: backgroundColor,
-          borderRadius:
-              BorderRadius.circular(VarnamalaTheme.radiusMedium),
+          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
           border: Border.all(
             width: isSelected ? 2.0 : 1.5,
             color: borderColor,
@@ -387,16 +377,16 @@ class SpeakButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: VarnamalaTheme.peacockTeal,
+      color: context.appInfo,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
         onTap: () => getIt<SpeechService>().speak(sentence),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         child: Container(
           padding: const EdgeInsets.all(10),
-          child: const Icon(
+          child: Icon(
             Icons.volume_up_rounded,
-            color: Colors.white,
+            color: Theme.of(context).colorScheme.onSecondary,
             size: 26,
           ),
         ),

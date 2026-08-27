@@ -48,9 +48,10 @@ class AchievementsProvider extends ChangeNotifier {
       if (!doc.exists) return false;
 
       final data = doc.data() ?? <String, dynamic>{};
-      final unlocked = (data['achievements'] as List<dynamic>? ?? const <dynamic>[])
-          .whereType<String>()
-          .toSet();
+      final unlocked =
+          (data['achievements'] as List<dynamic>? ?? const <dynamic>[])
+              .whereType<String>()
+              .toSet();
 
       if (!unlocked.add(achievementId)) {
         return false;
@@ -58,7 +59,8 @@ class AchievementsProvider extends ChangeNotifier {
 
       // TODO: Logic for gem rewards based on achievement tier
       // For now using simplified flat rate or calculating based on previous logic
-      final gems = (data['gems'] as num? ?? 0).toInt() + 50; // Placeholder 50 gems
+      final gems =
+          (data['gems'] as num? ?? 0).toInt() + 50; // Placeholder 50 gems
       transaction.update(docRef, {
         'achievements': unlocked.toList(growable: false),
         'gems': gems,
@@ -103,13 +105,14 @@ class AchievementsProvider extends ChangeNotifier {
     // Check Champion (lessons)
     final champion = _achievementById['champion'];
     if (champion != null) {
-      if (lessonsCompleted >= 10) await checkAndUnlock('champion'); // Simplified for now
+      if (lessonsCompleted >= 10)
+        await checkAndUnlock('champion'); // Simplified for now
     }
-    
+
     // Check Sharpshooter (perfect lessons)
-     final sharpshooter = _achievementById['sharpshooter'];
+    final sharpshooter = _achievementById['sharpshooter'];
     if (sharpshooter != null) {
-       if (perfectLessons >= 1) await checkAndUnlock('sharpshooter');
+      if (perfectLessons >= 1) await checkAndUnlock('sharpshooter');
     }
   }
 

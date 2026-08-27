@@ -32,7 +32,8 @@ class _AchievementsState extends State<Achievements> {
 
         final displayedAchievements =
             _expanded ? achievements : achievements.take(3).toList();
-        final remainingCount = achievements.length - displayedAchievements.length;
+        final remainingCount =
+            achievements.length - displayedAchievements.length;
 
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -44,18 +45,20 @@ class _AchievementsState extends State<Achievements> {
               const SizedBox(height: 8),
               Container(
                 decoration: BoxDecoration(
-                  color: Colors.white,
+                  color: context.appSurface,
                   borderRadius:
                       BorderRadius.circular(VarnamalaTheme.radiusLarge),
-                  border: Border.all(color: const Color(0xFFEEF2F1)),
+                  border: Border.all(color: context.appBorder),
                 ),
                 child: Column(
                   children: [
                     ...displayedAchievements.map((achievement) {
                       final progress = _getProgress(achievement, userData);
-                      final currentLevel = achievement.getCurrentLevel(progress);
-                      final nextTarget = achievement.getTargetForLevel(currentLevel);
-                      
+                      final currentLevel =
+                          achievement.getCurrentLevel(progress);
+                      final nextTarget =
+                          achievement.getTargetForLevel(currentLevel);
+
                       return Column(
                         children: [
                           _AchievementTile(
@@ -70,8 +73,7 @@ class _AchievementsState extends State<Achievements> {
                           ),
                           if (achievement != displayedAchievements.last ||
                               (!_expanded && remainingCount > 0))
-                            const Divider(
-                                height: 1, indent: 16, endIndent: 16),
+                            const Divider(height: 1, indent: 16, endIndent: 16),
                         ],
                       );
                     }),
@@ -102,19 +104,19 @@ class _AchievementsState extends State<Achievements> {
                                       .titleSmall
                                       ?.copyWith(
                                         fontWeight: FontWeight.w600,
-                                        color: VarnamalaTheme.peacockTeal,
+                                        color: context.appAccent,
                                       ),
                                 ),
                                 const Spacer(),
-                                const Icon(Icons.chevron_right_rounded,
-                                    color: VarnamalaTheme.peacockTeal, size: 22),
+                                Icon(Icons.chevron_right_rounded,
+                                    color: context.appInfo, size: 22),
                               ],
                             ),
                           ),
                         ),
                       ),
-                      if(_expanded)
-                       Material(
+                    if (_expanded)
+                      Material(
                         color: Colors.transparent,
                         child: InkWell(
                           onTap: () {
@@ -140,12 +142,12 @@ class _AchievementsState extends State<Achievements> {
                                       .titleSmall
                                       ?.copyWith(
                                         fontWeight: FontWeight.w600,
-                                        color: VarnamalaTheme.peacockTeal,
+                                        color: context.appAccent,
                                       ),
                                 ),
                                 const Spacer(),
-                                const Icon(Icons.expand_less_rounded,
-                                    color: VarnamalaTheme.peacockTeal, size: 22),
+                                Icon(Icons.expand_less_rounded,
+                                    color: context.appInfo, size: 22),
                               ],
                             ),
                           ),
@@ -171,7 +173,7 @@ class _AchievementsState extends State<Achievements> {
       padding: const EdgeInsets.only(top: 20, bottom: 8),
       child: Row(
         children: [
-          Icon(icon, color: VarnamalaTheme.peacockTeal, size: 22),
+          Icon(icon, color: context.appWarning, size: 22),
           const SizedBox(width: 8),
           Text(
             text,
@@ -208,9 +210,10 @@ class _AchievementTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, iconColor);
     bool isCompleted = level > maxLevel;
-    int displayTarget = isCompleted ? current : target; 
-    
+    int displayTarget = isCompleted ? current : target;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       child: Row(
@@ -219,21 +222,20 @@ class _AchievementTile extends StatelessWidget {
             width: 48,
             height: 48,
             decoration: BoxDecoration(
-              color: iconColor.withValues(alpha: 0.1),
-              borderRadius:
-                  BorderRadius.circular(VarnamalaTheme.radiusMedium),
+              color: accent.withValues(alpha: 0.14),
+              borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(icon, color: iconColor, size: 24),
+                Icon(icon, color: accent, size: 24),
                 if (!isCompleted)
                   Text(
                     'Lv.$level',
                     style: TextStyle(
                       fontSize: 9,
                       fontWeight: FontWeight.w700,
-                      color: iconColor,
+                      color: accent,
                     ),
                   ),
               ],
@@ -254,7 +256,7 @@ class _AchievementTile extends StatelessWidget {
                 Text(
                   description,
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: VarnamalaTheme.textSecondary,
+                        color: context.appTextSecondary,
                       ),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
@@ -264,25 +266,25 @@ class _AchievementTile extends StatelessWidget {
                   children: [
                     Expanded(
                       child: ClipRRect(
-                        borderRadius: BorderRadius.circular(
-                            VarnamalaTheme.radiusRound),
+                        borderRadius:
+                            BorderRadius.circular(VarnamalaTheme.radiusRound),
                         child: LinearProgressIndicator(
-                          value: displayTarget > 0 ? (current / displayTarget).clamp(0.0, 1.0) : 0,
+                          value: displayTarget > 0
+                              ? (current / displayTarget).clamp(0.0, 1.0)
+                              : 0,
                           minHeight: 8,
-                          backgroundColor: const Color(0xFFEEF2F1),
-                          valueColor: const AlwaysStoppedAnimation<Color>(
-                              VarnamalaTheme.success),
+                          backgroundColor: context.appBorder,
+                          valueColor: AlwaysStoppedAnimation<Color>(accent),
                         ),
                       ),
                     ),
                     const SizedBox(width: 10),
                     Text(
                       '$current/$displayTarget',
-                      style:
-                          Theme.of(context).textTheme.bodySmall?.copyWith(
-                                color: VarnamalaTheme.textHint,
-                                fontWeight: FontWeight.w600,
-                              ),
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color: context.appTextSecondary,
+                            fontWeight: FontWeight.w600,
+                          ),
                     ),
                   ],
                 ),

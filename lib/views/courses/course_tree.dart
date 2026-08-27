@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:chiclet/chiclet.dart';
 import 'package:provider/provider.dart';
+import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
 import 'package:words625/application/course_provider.dart';
@@ -15,7 +16,11 @@ import 'package:words625/core/enums.dart';
 import 'package:words625/core/language_info.dart';
 import 'package:words625/courses/course_repository.dart';
 import 'package:words625/courses/courses.dart';
+import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
+import 'package:words625/service/locator.dart';
+import 'package:words625/views/flashcards/flashcards_page.dart';
+import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/theme.dart';
 import 'components/course_node.dart';
 
@@ -26,6 +31,13 @@ const List<double> _kWander = [0.0, 0.42, 0.62, 0.42, 0.0, -0.42, -0.62, -0.42];
 
 /// Vertical gap between one node and the next, where the connector is drawn.
 const double _kGap = 34;
+
+bool pathCourseIsLocked({
+  required int courseIndex,
+  required int currentIndex,
+  required bool unlockAll,
+}) =>
+    !unlockAll && courseIndex > currentIndex;
 
 class CourseTree extends StatefulWidget {
   const CourseTree({Key? key}) : super(key: key);
@@ -47,8 +59,10 @@ class _CourseTreeState extends State<CourseTree> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
-        gradient: VarnamalaTheme.courseTreeGradient,
+      decoration: BoxDecoration(
+        gradient: Theme.of(context).brightness == Brightness.dark
+            ? VarnamalaTheme.darkCourseTreeGradient
+            : VarnamalaTheme.courseTreeGradient,
       ),
       child: Consumer<CourseProvider>(
         builder: (context, courseState, _) {
@@ -77,24 +91,176 @@ class _CourseTreeState extends State<CourseTree> {
           final currentIndex =
               firstUnfinished == -1 ? courses.length - 1 : firstUnfinished;
 
-          return ListView.builder(
-            physics: const BouncingScrollPhysics(),
-            padding: const EdgeInsets.only(top: 20, bottom: 48),
-            itemCount: courses.length,
-            itemBuilder: (context, index) => _PathStep(
-              course: courses[index],
-              dx: _kWander[index % _kWander.length],
-              previousDx: index == 0
-                  ? null
-                  : _kWander[(index - 1) % _kWander.length],
-              isCurrent: index == currentIndex,
-              isLocked: index > currentIndex,
-              unlockedBy: index == 0 ? null : courses[index - 1].courseName,
-              note: notes[courses[index].courseName],
-              onProgressChanged: () => setState(() {}),
-            ),
+          return PreferenceBuilder<bool>(
+            preference: getIt<AppPrefs>().preferences.getBool(
+                  PrefsConstants.unlockAllLevels,
+                  defaultValue: false,
+                ),
+            builder: (context, unlockAll) {
+              final headerCount = unlockAll ? 2 : 1;
+              return ListView.builder(
+                physics: const BouncingScrollPhysics(),
+                padding: const EdgeInsets.only(top: 12, bottom: 48),
+                itemCount: courses.length + headerCount,
+                itemBuilder: (context, index) {
+                  if (index == 0) {
+                    return _LearnTools(
+                      language:
+                          context.read<LanguageProvider>().selectedLanguage,
+                    );
+                  }
+                  if (unlockAll && index == 1) {
+                    return const _UnlockedPathNotice();
+                  }
+
+                  final courseIndex = index - headerCount;
+                  return _PathStep(
+                    course: courses[courseIndex],
+                    dx: _kWander[courseIndex % _kWander.length],
+                    previousDx: courseIndex == 0
+                        ? null
+                        : _kWander[(courseIndex - 1) % _kWander.length],
+                    isCurrent: courseIndex == currentIndex,
+                    isLocked: pathCourseIsLocked(
+                      courseIndex: courseIndex,
+                      currentIndex: currentIndex,
+                      unlockAll: unlockAll,
+                    ),
+                    unlockedBy: courseIndex == 0
+                        ? null
+                        : courses[courseIndex - 1].courseName,
+                    note: notes[courses[courseIndex].courseName],
+                    onProgressChanged: () => setState(() {}),
+                  );
+                },
+              );
+            },
           );
         },
+      ),
+    );
+  }
+}
+
+class _LearnTools extends StatelessWidget {
+  const _LearnTools({required this.language});
+
+  final TargetLanguage language;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+      child: Material(
+        color: context.appSurface,
+        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
+        child: Container(
+          padding: const EdgeInsets.fromLTRB(14, 12, 8, 12),
+          decoration: BoxDecoration(
+            border: Border.all(color: context.appBorder),
+            borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
+          ),
+          child: Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.all(10),
+                decoration: BoxDecoration(
+                  color: context.appViolet.withValues(alpha: 0.14),
+                  borderRadius:
+                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                ),
+                child: Icon(Icons.style_rounded, color: context.appViolet),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: InkWell(
+                  borderRadius:
+                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => FlashcardsPage(language: language),
+                    ),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 4),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          'Flashcard review',
+                          style:
+                              Theme.of(context).textTheme.titleSmall?.copyWith(
+                                    fontWeight: FontWeight.w800,
+                                  ),
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          'Spaced repetition for your vocabulary',
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              IconButton(
+                tooltip: 'Open flashcards',
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (_) => FlashcardsPage(language: language),
+                  ),
+                ),
+                icon:
+                    Icon(Icons.arrow_forward_rounded, color: context.appViolet),
+              ),
+              IconButton(
+                tooltip: 'Settings',
+                onPressed: () => Navigator.of(context).push(
+                  MaterialPageRoute(builder: (_) => const SettingsPage()),
+                ),
+                icon: Icon(Icons.settings_rounded, color: context.appWarning),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _UnlockedPathNotice extends StatelessWidget {
+  const _UnlockedPathNotice();
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 11),
+        decoration: BoxDecoration(
+          color: context.appWarning.withValues(alpha: 0.13),
+          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
+          border: Border.all(
+            color: context.appWarning.withValues(alpha: 0.45),
+          ),
+        ),
+        child: Row(
+          children: [
+            Icon(Icons.lock_open_rounded, color: context.appWarning),
+            const SizedBox(width: 10),
+            const Expanded(
+              child: Text(
+                'Free navigation is on. Completion still follows your real progress.',
+              ),
+            ),
+            TextButton(
+              onPressed: () => Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const SettingsPage()),
+              ),
+              child: const Text('MANAGE'),
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -131,7 +297,11 @@ class _PathStep extends StatelessWidget {
             height: _kGap,
             width: double.infinity,
             child: CustomPaint(
-              painter: _ConnectorPainter(from: previousDx!, to: dx),
+              painter: _ConnectorPainter(
+                from: previousDx!,
+                to: dx,
+                color: context.appAccent.withValues(alpha: 0.35),
+              ),
             ),
           ),
         Stack(
@@ -203,7 +373,7 @@ class _TrailNoteButtonState extends State<_TrailNoteButton> {
                   width: _size,
                   height: _size,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFBFDFDA),
+                    color: Theme.of(context).colorScheme.surfaceContainerHigh,
                     borderRadius: BorderRadius.circular(18),
                   ),
                 ),
@@ -216,7 +386,7 @@ class _TrailNoteButtonState extends State<_TrailNoteButton> {
                   width: _size,
                   height: _size,
                   decoration: BoxDecoration(
-                    color: const Color(0xFFEAF7F5),
+                    color: Theme.of(context).colorScheme.surfaceContainer,
                     borderRadius: BorderRadius.circular(18),
                   ),
                   child: Center(
@@ -279,7 +449,7 @@ class _TrailNoteDialog extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.fromLTRB(24, 28, 24, 20),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: context.appSurface,
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
               boxShadow: [
                 BoxShadow(
@@ -300,23 +470,23 @@ class _TrailNoteDialog extends StatelessWidget {
                 Text(
                   note.text,
                   textAlign: TextAlign.center,
-                  style: const TextStyle(
+                  style: TextStyle(
                     fontSize: 16,
                     height: 1.45,
                     fontWeight: FontWeight.w500,
-                    color: VarnamalaTheme.textPrimary,
+                    color: context.appTextPrimary,
                   ),
                 ),
                 const SizedBox(height: 22),
                 ChicletAnimatedButton(
                   width: double.infinity,
                   height: 46,
-                  backgroundColor: VarnamalaTheme.peacockTeal,
+                  backgroundColor: context.appAccent,
                   onPressed: () => Navigator.of(context).pop(),
-                  child: const Text(
+                  child: Text(
                     'Got it',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Theme.of(context).colorScheme.onPrimary,
                       fontWeight: FontWeight.w800,
                       fontSize: 15,
                       letterSpacing: 0.3,
@@ -335,10 +505,15 @@ class _TrailNoteDialog extends StatelessWidget {
 /// A dashed curve from the previous node down to this one. Dashes keep the path
 /// present without competing with the nodes for attention.
 class _ConnectorPainter extends CustomPainter {
-  const _ConnectorPainter({required this.from, required this.to});
+  const _ConnectorPainter({
+    required this.from,
+    required this.to,
+    required this.color,
+  });
 
   final double from;
   final double to;
+  final Color color;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -350,16 +525,19 @@ class _ConnectorPainter extends CustomPainter {
     final path = Path()
       ..moveTo(start.dx, start.dy)
       ..cubicTo(
-        start.dx, start.dy + size.height * 0.55,
-        end.dx, end.dy - size.height * 0.55,
-        end.dx, end.dy,
+        start.dx,
+        start.dy + size.height * 0.55,
+        end.dx,
+        end.dy - size.height * 0.55,
+        end.dx,
+        end.dy,
       );
 
     final paint = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 5
       ..strokeCap = StrokeCap.round
-      ..color = VarnamalaTheme.peacockTeal.withValues(alpha: 0.18);
+      ..color = color;
 
     for (final metric in path.computeMetrics()) {
       var distance = 0.0;
@@ -373,7 +551,7 @@ class _ConnectorPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(_ConnectorPainter old) =>
-      old.from != from || old.to != to;
+      old.from != from || old.to != to || old.color != color;
 }
 
 /// Shown when a language's content could not be read, so the learner is told
@@ -391,8 +569,8 @@ class _UnavailableNotice extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Icon(Icons.hourglass_empty_rounded,
-                size: 44, color: VarnamalaTheme.textHint),
+            Icon(Icons.hourglass_empty_rounded,
+                size: 44, color: context.appInfo),
             const SizedBox(height: 16),
             Text(
               '${languageInfo(language).englishName} is not ready yet',
@@ -406,7 +584,7 @@ class _UnavailableNotice extends StatelessWidget {
               'Its lessons are still being written. Pick another language for now.',
               textAlign: TextAlign.center,
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: VarnamalaTheme.textHint,
+                    color: context.appTextSecondary,
                   ),
             ),
           ],
@@ -430,7 +608,7 @@ class _LoadingIndicator extends StatelessWidget {
           child: CircularProgressIndicator(
             strokeWidth: 3,
             valueColor: AlwaysStoppedAnimation<Color>(
-              VarnamalaTheme.peacockTeal.withValues(alpha: 0.7),
+              context.appAccent,
             ),
           ),
         ),
@@ -438,7 +616,7 @@ class _LoadingIndicator extends StatelessWidget {
         Text(
           'Loading courses...',
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: VarnamalaTheme.textHint,
+                color: context.appTextSecondary,
                 fontWeight: FontWeight.w500,
               ),
         ),

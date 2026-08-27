@@ -17,7 +17,6 @@ import 'package:words625/core/logger.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
-import 'package:words625/views/theme.dart';
 import 'web_wrapper.dart' as web;
 
 // Conditional import for web-only renderButton
@@ -156,13 +155,13 @@ class _GetStartedButtonState extends State<GetStartedButton> {
       width: widget.width ?? MediaQuery.of(context).size.width * 0.9,
       onPressed: _handleGoogleLogin,
       buttonType: ChicletButtonTypes.roundedRectangle,
-      backgroundColor: primaryColor,
+      backgroundColor: Theme.of(context).colorScheme.primary,
       child: _authState == AuthState.loading
-          ? const SizedBox(
+          ? SizedBox(
               height: 22,
               width: 22,
               child: CircularProgressIndicator(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.onPrimary,
               ),
             )
           : Row(
@@ -170,14 +169,15 @@ class _GetStartedButtonState extends State<GetStartedButton> {
               children: [
                 Text(
                   widget.label,
-                  style: const TextStyle(
-                    color: Colors.white,
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onPrimary,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
                 ),
                 const SizedBox(width: 12),
-                const Icon(Icons.login, color: Colors.white, size: 18)
+                Icon(Icons.login,
+                    color: Theme.of(context).colorScheme.onPrimary, size: 18)
               ],
             ),
     );

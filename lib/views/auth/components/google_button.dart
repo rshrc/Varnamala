@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/views/theme.dart';
 
 class GoogleButton extends StatefulWidget {
   const GoogleButton({Key? key}) : super(key: key);
@@ -22,11 +23,11 @@ class GoogleButtonState extends State<GoogleButton> {
         margin: const EdgeInsets.only(left: 10, right: 10, bottom: 10),
         decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(12)),
-            border: Border.all(width: 3, color: Colors.grey.shade400)),
+            border: Border.all(width: 2, color: context.appBorder)),
         child: ElevatedButton(
           onPressed: googlePressed,
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.white,
+            backgroundColor: context.appSurface,
             elevation: 5,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -41,7 +42,7 @@ class GoogleButtonState extends State<GoogleButton> {
               Text(
                 ' GOOGLE',
                 style: TextStyle(
-                    color: Colors.grey.shade900,
+                    color: context.appTextPrimary,
                     fontSize: 16,
                     fontWeight: FontWeight.bold),
               ),

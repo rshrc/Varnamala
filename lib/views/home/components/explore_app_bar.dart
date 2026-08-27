@@ -1,6 +1,9 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Project imports:
+import 'package:words625/views/theme.dart';
+
 class ExploreAppBar extends StatelessWidget implements PreferredSizeWidget {
   const ExploreAppBar({Key? key}) : super(key: key);
 
@@ -11,12 +14,15 @@ class ExploreAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       toolbarHeight: 120,
-      backgroundColor: Colors.white,
+      backgroundColor: context.appSurface,
       elevation: 1.5,
       centerTitle: true,
-      title: const Text(
+      title: Text(
         'News Feed',
-        style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+        style: TextStyle(
+          color: context.appTextPrimary,
+          fontWeight: FontWeight.bold,
+        ),
       ),
     );
   }

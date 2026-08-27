@@ -109,9 +109,9 @@ class _CommunitySheetState extends State<_CommunitySheet> {
     final community = context.watch<CommunityProvider>();
 
     return Container(
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+      decoration: BoxDecoration(
+        color: context.appSurface,
+        borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
       ),
       child: Column(
         children: [
@@ -122,13 +122,14 @@ class _CommunitySheetState extends State<_CommunitySheet> {
               stream: community.watch(_thread),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
-                  return const Center(
+                  return Center(
                     child: CircularProgressIndicator(
-                        color: VarnamalaTheme.peacockTeal, strokeWidth: 3),
+                        color: context.appAccent, strokeWidth: 3),
                   );
                 }
                 final all = snapshot.data ?? const <CommunityComment>[];
-                if (all.isEmpty) return _EmptyThread(controller: widget.scrollController);
+                if (all.isEmpty)
+                  return _EmptyThread(controller: widget.scrollController);
 
                 // Top-level comments ranked by score; replies stay in the order
                 // they were written so a conversation still reads top to bottom.
@@ -136,7 +137,9 @@ class _CommunitySheetState extends State<_CommunitySheet> {
                   ..sort((a, b) => b.score.compareTo(a.score));
                 final repliesFor = <String, List<CommunityComment>>{};
                 for (final comment in all.where((c) => c.isReply)) {
-                  repliesFor.putIfAbsent(comment.parentId!, () => []).add(comment);
+                  repliesFor
+                      .putIfAbsent(comment.parentId!, () => [])
+                      .add(comment);
                 }
 
                 return ListView.builder(
@@ -181,7 +184,6 @@ class _CommunitySheetState extends State<_CommunitySheet> {
       ),
     );
   }
-
 }
 
 class _Grabber extends StatelessWidget {
@@ -198,7 +200,7 @@ class _Grabber extends StatelessWidget {
           height: 4,
           margin: const EdgeInsets.symmetric(vertical: 10),
           decoration: BoxDecoration(
-            color: VarnamalaTheme.textHint.withValues(alpha: 0.3),
+            color: context.appBorder,
             borderRadius: BorderRadius.circular(2),
           ),
         ),
@@ -216,10 +218,10 @@ class _Grabber extends StatelessWidget {
                             fontWeight: FontWeight.w800,
                           ),
                     ),
-                    const Text(
+                    Text(
                       'Ask, explain, correct each other',
                       style: TextStyle(
-                          fontSize: 12.5, color: VarnamalaTheme.textHint),
+                          fontSize: 12.5, color: context.appTextSecondary),
                     ),
                   ],
                 ),
@@ -250,12 +252,12 @@ class _CommentTile extends StatelessWidget {
     final isMine = comment.authorId == community.currentUserId;
 
     if (comment.isDeleted) {
-      return const Padding(
-        padding: EdgeInsets.symmetric(vertical: 10),
+      return Padding(
+        padding: const EdgeInsets.symmetric(vertical: 10),
         child: Text(
           'Comment deleted',
           style: TextStyle(
-            color: VarnamalaTheme.textHint,
+            color: context.appTextSecondary,
             fontStyle: FontStyle.italic,
             fontSize: 13,
           ),
@@ -289,16 +291,17 @@ class _CommentTile extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 6, vertical: 1),
                         decoration: BoxDecoration(
-                          color: VarnamalaTheme.peacockTeal
-                              .withValues(alpha: 0.12),
+                          color: Theme.of(context).colorScheme.primaryContainer,
                           borderRadius: BorderRadius.circular(6),
                         ),
-                        child: const Text(
+                        child: Text(
                           'you',
                           style: TextStyle(
                             fontSize: 10,
                             fontWeight: FontWeight.w700,
-                            color: VarnamalaTheme.peacockTeal,
+                            color: Theme.of(context)
+                                .colorScheme
+                                .onPrimaryContainer,
                           ),
                         ),
                       ),
@@ -327,10 +330,10 @@ class _CommentTile extends StatelessWidget {
                           fontWeight: FontWeight.w700,
                           fontSize: 13,
                           color: myVote == 1
-                              ? VarnamalaTheme.peacockTeal
+                              ? context.appSuccess
                               : myVote == -1
-                                  ? VarnamalaTheme.error
-                                  : VarnamalaTheme.textHint,
+                                  ? context.appDanger
+                                  : context.appTextSecondary,
                         ),
                       ),
                     ),
@@ -345,7 +348,7 @@ class _CommentTile extends StatelessWidget {
                       const SizedBox(width: 12),
                       _LinkButton(
                         label: 'Delete',
-                        colour: VarnamalaTheme.error,
+                        colour: context.appDanger,
                         onTap: () => community.deleteOwn(thread, comment),
                       ),
                     ],
@@ -379,7 +382,7 @@ class _VoteButton extends StatelessWidget {
       child: Icon(
         icon,
         size: 24,
-        color: active ? VarnamalaTheme.peacockTeal : VarnamalaTheme.textHint,
+        color: active ? context.appAccent : context.appTextSecondary,
       ),
     );
   }
@@ -389,12 +392,12 @@ class _LinkButton extends StatelessWidget {
   const _LinkButton({
     required this.label,
     required this.onTap,
-    this.colour = VarnamalaTheme.textHint,
+    this.colour,
   });
 
   final String label;
   final VoidCallback onTap;
-  final Color colour;
+  final Color? colour;
 
   @override
   Widget build(BuildContext context) {
@@ -405,7 +408,7 @@ class _LinkButton extends StatelessWidget {
         style: TextStyle(
           fontSize: 12.5,
           fontWeight: FontWeight.w700,
-          color: colour,
+          color: colour ?? context.appTextSecondary,
         ),
       ),
     );
@@ -436,8 +439,8 @@ class _Composer extends StatelessWidget {
         top: 8,
         bottom: MediaQuery.of(context).viewInsets.bottom + 10,
       ),
-      decoration: const BoxDecoration(
-        border: Border(top: BorderSide(color: Color(0xFFEEF2F1))),
+      decoration: BoxDecoration(
+        border: Border(top: BorderSide(color: context.appBorder)),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
@@ -450,14 +453,14 @@ class _Composer extends StatelessWidget {
                   Expanded(
                     child: Text(
                       'Replying to ${replyingTo!.handle}',
-                      style: const TextStyle(
-                          fontSize: 12, color: VarnamalaTheme.textHint),
+                      style: TextStyle(
+                          fontSize: 12, color: context.appTextSecondary),
                     ),
                   ),
                   GestureDetector(
                     onTap: onCancelReply,
-                    child: const Icon(Icons.close_rounded,
-                        size: 16, color: VarnamalaTheme.textHint),
+                    child: Icon(Icons.close_rounded,
+                        size: 16, color: context.appDanger),
                   ),
                 ],
               ),
@@ -492,7 +495,7 @@ class _Composer extends StatelessWidget {
                         child: CircularProgressIndicator(strokeWidth: 2),
                       )
                     : const Icon(Icons.send_rounded),
-                color: VarnamalaTheme.peacockTeal,
+                color: context.appInfo,
               ),
             ],
           ),
@@ -512,21 +515,21 @@ class _EmptyThread extends StatelessWidget {
     return ListView(
       controller: controller,
       padding: const EdgeInsets.fromLTRB(40, 60, 40, 40),
-      children: const [
-        Icon(Icons.forum_rounded, size: 46, color: VarnamalaTheme.textHint),
-        SizedBox(height: 14),
-        Text(
+      children: [
+        Icon(Icons.forum_rounded, size: 46, color: context.appInfo),
+        const SizedBox(height: 14),
+        const Text(
           'Nothing here yet',
           textAlign: TextAlign.center,
           style: TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
         ),
-        SizedBox(height: 6),
+        const SizedBox(height: 6),
         Text(
           'Ask why a sentence works the way it does, or explain it for whoever '
           'comes next.',
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: VarnamalaTheme.textHint, fontSize: 13, height: 1.45),
+              color: context.appTextSecondary, fontSize: 13, height: 1.45),
         ),
       ],
     );
@@ -610,12 +613,13 @@ class _ReportSheetState extends State<_ReportSheet> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding:
+          EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
       child: Container(
         padding: const EdgeInsets.fromLTRB(24, 20, 24, 28),
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        decoration: BoxDecoration(
+          color: context.appSurface,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
         ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -632,8 +636,8 @@ class _ReportSheetState extends State<_ReportSheet> {
             Text(
               'In ${widget.courseName}. This goes straight to whoever maintains '
               'the course — it is not posted publicly.',
-              style: const TextStyle(
-                  fontSize: 12.5, color: VarnamalaTheme.textHint, height: 1.4),
+              style: TextStyle(
+                  fontSize: 12.5, color: context.appTextSecondary, height: 1.4),
             ),
             if (widget.sentence != null) ...[
               const SizedBox(height: 12),
@@ -641,7 +645,7 @@ class _ReportSheetState extends State<_ReportSheet> {
                 width: double.infinity,
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.06),
+                  color: context.appInfo.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
@@ -657,11 +661,10 @@ class _ReportSheetState extends State<_ReportSheet> {
                 value: reason,
                 groupValue: _reason,
                 onChanged: (value) => setState(() => _reason = value!),
-                title: Text(reason.label,
-                    style: const TextStyle(fontSize: 14)),
+                title: Text(reason.label, style: const TextStyle(fontSize: 14)),
                 contentPadding: EdgeInsets.zero,
                 dense: true,
-                activeColor: VarnamalaTheme.peacockTeal,
+                activeColor: context.appAccent,
               ),
             const SizedBox(height: 8),
             TextField(
@@ -680,7 +683,8 @@ class _ReportSheetState extends State<_ReportSheet> {
             FilledButton(
               onPressed: _sending ? null : _send,
               style: FilledButton.styleFrom(
-                backgroundColor: VarnamalaTheme.peacockTeal,
+                backgroundColor: context.appAccent,
+                foregroundColor: Theme.of(context).colorScheme.onPrimary,
                 padding: const EdgeInsets.symmetric(vertical: 14),
               ),
               child: Text(_sending ? 'Sending...' : 'Send report'),

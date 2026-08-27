@@ -1,6 +1,8 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+import 'package:words625/views/theme.dart';
+
 class PolicyText extends StatelessWidget {
   const PolicyText({super.key});
 
@@ -12,7 +14,7 @@ class PolicyText extends StatelessWidget {
         style: TextStyle(
           fontSize: 14.0,
           height: 1.5,
-          color: Colors.grey.shade600,
+          color: context.appTextSecondary,
         ),
         children: const <TextSpan>[
           TextSpan(text: 'By signing in to words625, you agree to our '),

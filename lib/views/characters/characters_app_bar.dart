@@ -23,8 +23,7 @@ class CharactersAppBar extends StatelessWidget implements PreferredSizeWidget {
           return Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(Icons.translate_rounded,
-                  color: VarnamalaTheme.peacockTeal, size: 22),
+              Icon(Icons.translate_rounded, color: context.appInfo, size: 22),
               const SizedBox(width: 8),
               Text(
                 '${currentLanguage.toTitleCase} Script',

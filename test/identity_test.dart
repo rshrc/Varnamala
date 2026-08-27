@@ -54,7 +54,8 @@ void main() {
 
     test('falls back to a generated name when there is no display name', () {
       expect(handleFromName(null, seed: 'abc'), isNot('Learner'));
-      expect(handleFromName('', seed: 'abc'), handleFromName(null, seed: 'abc'));
+      expect(
+          handleFromName('', seed: 'abc'), handleFromName(null, seed: 'abc'));
     });
 
     test('displayHandle fills in for accounts with nothing stored', () {

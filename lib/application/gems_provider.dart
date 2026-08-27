@@ -81,7 +81,8 @@ class GemsProvider extends ChangeNotifier {
 
       switch (action) {
         case CommunityAction.follow:
-          final followRewardClaimed = data['followRewardClaimed'] as bool? ?? false;
+          final followRewardClaimed =
+              data['followRewardClaimed'] as bool? ?? false;
           if (followRewardClaimed) return false;
           updates['followRewardClaimed'] = true;
           break;

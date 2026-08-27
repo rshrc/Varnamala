@@ -19,10 +19,13 @@ class LogoutButton extends StatelessWidget {
 
   Future<void> _handleLogout(BuildContext context) async {
     final prefs = getIt<AppPrefs>().preferences;
-    await prefs.clear(); // Clears all saved preferences
+    // Account state is removed without discarding device-level choices such as
+    // dark mode and the local splash-demo count.
+    await prefs.remove(PrefsConstants.authUser);
 
     await FirebaseAuth.instance.signOut();
 
+    if (!context.mounted) return;
     context.router.replace(const SplashRoute());
   }
 

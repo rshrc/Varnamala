@@ -193,7 +193,8 @@ class LessonProvider with ChangeNotifier {
     }
 
     final userData = await _gameProvider.getUserGameStateOnce();
-    final lessonsCompleted = (userData['lessonsCompleted'] as num? ?? 0).toInt();
+    final lessonsCompleted =
+        (userData['lessonsCompleted'] as num? ?? 0).toInt();
     final perfectLessons = (userData['perfectLessons'] as num? ?? 0).toInt();
     await _achievementsProvider.checkLessonMilestones(
       lessonsCompleted: lessonsCompleted,

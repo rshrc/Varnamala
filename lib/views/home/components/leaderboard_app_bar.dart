@@ -18,8 +18,7 @@ class LeaderboardAppBar extends StatelessWidget implements PreferredSizeWidget {
       title: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Icon(Icons.emoji_events_rounded,
-              color: VarnamalaTheme.leagueAmethyst, size: 24),
+          Icon(Icons.emoji_events_rounded, color: context.appWarning, size: 24),
           const SizedBox(width: 8),
           Text(
             'Leaderboard',

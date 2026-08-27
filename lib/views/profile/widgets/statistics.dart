@@ -76,17 +76,18 @@ class _StatisticsState extends State<Statistics> {
                         padding: const EdgeInsets.symmetric(
                             horizontal: 12, vertical: 6),
                         decoration: BoxDecoration(
-                          color: VarnamalaTheme.peacockTeal
-                              .withValues(alpha: 0.08),
-                          borderRadius: BorderRadius.circular(
-                              VarnamalaTheme.radiusRound),
+                          color: Theme.of(context).colorScheme.primaryContainer,
+                          borderRadius:
+                              BorderRadius.circular(VarnamalaTheme.radiusRound),
                         ),
                         child: Text(
                           lang.toTitleCase,
-                          style: const TextStyle(
+                          style: TextStyle(
                             fontSize: 13,
                             fontWeight: FontWeight.w600,
-                            color: VarnamalaTheme.peacockTeal,
+                            color: Theme.of(context)
+                                .colorScheme
+                                .onPrimaryContainer,
                           ),
                         ),
                       ))
@@ -138,7 +139,7 @@ class _StatisticsState extends State<Statistics> {
       padding: const EdgeInsets.only(top: 20, bottom: 8),
       child: Row(
         children: [
-          Icon(icon, color: VarnamalaTheme.peacockTeal, size: 22),
+          Icon(icon, color: context.appInfo, size: 22),
           const SizedBox(width: 8),
           Text(
             text,
@@ -167,12 +168,13 @@ class _StatCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, iconColor);
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-        border: Border.all(color: const Color(0xFFEEF2F1)),
+        border: Border.all(color: context.appBorder),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -180,7 +182,7 @@ class _StatCard extends StatelessWidget {
         children: [
           Row(
             children: [
-              Icon(icon, color: iconColor, size: 20),
+              Icon(icon, color: accent, size: 20),
               const SizedBox(width: 8),
               Expanded(
                 child: Text(
@@ -199,7 +201,7 @@ class _StatCard extends StatelessWidget {
             child: Text(
               label,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: VarnamalaTheme.textHint,
+                    color: context.appTextSecondary,
                     fontWeight: FontWeight.w500,
                   ),
             ),

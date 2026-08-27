@@ -63,7 +63,8 @@ class IdentityProvider extends ChangeNotifier {
       avatarSeed = user.uid;
       notifyListeners();
     } catch (error, stackTrace) {
-      logger.e('Could not assign a handle', error: error, stackTrace: stackTrace);
+      logger.e('Could not assign a handle',
+          error: error, stackTrace: stackTrace);
     }
   }
 
@@ -99,7 +100,8 @@ class IdentityProvider extends ChangeNotifier {
   Future<void> shuffleAvatar() async {
     final doc = _doc;
     if (doc == null) return;
-    final seed = '${_auth.currentUser?.uid}-${DateTime.now().microsecondsSinceEpoch}';
+    final seed =
+        '${_auth.currentUser?.uid}-${DateTime.now().microsecondsSinceEpoch}';
     avatarSeed = seed;
     notifyListeners();
     try {
