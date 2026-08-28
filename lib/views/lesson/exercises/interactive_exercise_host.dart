@@ -6,6 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/core/stable_hash.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
 import 'package:words625/views/theme.dart';
 
@@ -21,10 +22,16 @@ class InteractiveExerciseHost extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => switch (exercise) {
+        final ChoiceExercise item => _ChoiceExerciseView(
+            exercise: item,
+            onChanged: onResponseChanged,
+          ),
         final WordBankExercise item => _TokenBankExerciseView(
             sourceLabel: 'TRANSLATE',
             sourceText: item.sourceText,
             tokens: item.tokens,
+            acceptedOrders: item.acceptedOrders,
+            shuffleSeed: stableHash32(item.id),
             joinWithoutSpaces: false,
             onChanged: onResponseChanged,
           ),
@@ -44,10 +51,52 @@ class InteractiveExerciseHost extends StatelessWidget {
             sourceLabel: 'CLUE',
             sourceText: item.clue,
             tokens: item.tokens,
+            acceptedOrders: item.acceptedOrders,
+            shuffleSeed: stableHash32(item.id),
             joinWithoutSpaces: true,
             onChanged: onResponseChanged,
           ),
       };
+}
+
+class _ChoiceExerciseView extends StatefulWidget {
+  const _ChoiceExerciseView({
+    required this.exercise,
+    required this.onChanged,
+  });
+
+  final ChoiceExercise exercise;
+  final ValueChanged<ExerciseResponse?> onChanged;
+
+  @override
+  State<_ChoiceExerciseView> createState() => _ChoiceExerciseViewState();
+}
+
+class _ChoiceExerciseViewState extends State<_ChoiceExerciseView> {
+  String? _selectedId;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        _SourceCard(label: 'QUESTION', text: widget.exercise.sentence),
+        const SizedBox(height: 24),
+        for (final option in widget.exercise.options)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: _ChoiceTile(
+              text: option.text,
+              selected: _selectedId == option.id,
+              onTap: () {
+                setState(() => _selectedId = option.id);
+                widget.onChanged(ChoiceExerciseResponse(option.id));
+              },
+            ),
+          ),
+      ],
+    );
+  }
 }
 
 class _TokenBankExerciseView extends StatefulWidget {
@@ -55,6 +104,8 @@ class _TokenBankExerciseView extends StatefulWidget {
     required this.sourceLabel,
     required this.sourceText,
     required this.tokens,
+    required this.acceptedOrders,
+    required this.shuffleSeed,
     required this.joinWithoutSpaces,
     required this.onChanged,
   });
@@ -62,6 +113,8 @@ class _TokenBankExerciseView extends StatefulWidget {
   final String sourceLabel;
   final String sourceText;
   final List<ExerciseToken> tokens;
+  final List<List<String>> acceptedOrders;
+  final int shuffleSeed;
   final bool joinWithoutSpaces;
   final ValueChanged<ExerciseResponse?> onChanged;
 
@@ -73,12 +126,19 @@ class _TokenBankExerciseViewState extends State<_TokenBankExerciseView> {
   late final Map<String, ExerciseToken> _tokens = {
     for (final token in widget.tokens) token.id: token,
   };
-  late final List<String> _available = widget.tokens
-      .map((token) => token.id)
-      .toList()
-    ..shuffle(math.Random(widget.sourceText.hashCode));
+  late final List<String> _available = _initialAvailable();
   final List<String> _selected = [];
   final Map<String, int> _dropVersions = {};
+
+  List<String> _initialAvailable() {
+    final ids = widget.tokens.map((token) => token.id).toList()
+      ..shuffle(math.Random(widget.shuffleSeed));
+    if (ids.length > 1 &&
+        widget.acceptedOrders.any((answer) => listEquals(answer, ids))) {
+      ids.add(ids.removeAt(0));
+    }
+    return ids;
+  }
 
   void _emit() {
     widget.onChanged(
@@ -257,7 +317,7 @@ class _SentenceOrderExerciseViewState
 
   List<String> _initialOrder() {
     final ids = widget.exercise.tokens.map((token) => token.id).toList()
-      ..shuffle(math.Random(widget.exercise.id.hashCode));
+      ..shuffle(math.Random(stableHash32(widget.exercise.id)));
     if (widget.exercise.acceptedOrders
             .any((answer) => listEquals(answer, ids)) &&
         ids.length > 1) {

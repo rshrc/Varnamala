@@ -11,7 +11,10 @@ import 'package:firebase_core/firebase_core.dart';
 // Project imports:
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/logger.dart';
+import 'package:words625/core/text_normalization.dart';
 import 'package:words625/domain/course/course.dart';
+
+export 'package:words625/core/text_normalization.dart' show normalizeWord;
 
 /// Course content lives as human-editable JSON under `assets/courses/<language>/`:
 ///
@@ -195,6 +198,8 @@ class CourseRepository {
       if (levels == null) continue;
       courses[id] = {
         'courseName': entry['title'] ?? id,
+        'courseId': id,
+        'language': language.name,
         'image': 'assets/images/${entry['icon']}.png',
         'color': int.parse(entry['color'] as String),
         'levels': levels['levels'],
@@ -291,10 +296,3 @@ class TrailNote {
 
   String get image => 'assets/images/mala/mala_$mood.png';
 }
-
-/// Strips the punctuation a word carries inside a sentence ("enna?" -> "enna")
-/// and lowercases it, so dictionary lookups match however the word was written.
-String normalizeWord(String word) => word
-    .toLowerCase()
-    .replaceAll(RegExp(r"^[^a-z0-9]+"), '')
-    .replaceAll(RegExp(r"[^a-z0-9]+$"), '');

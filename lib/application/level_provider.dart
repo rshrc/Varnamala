@@ -9,6 +9,8 @@ import 'package:words625/application/achievements_provider.dart';
 import 'package:words625/application/audio_controller.dart';
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/gems_provider.dart';
+import 'package:words625/application/lesson/course_exercise_factory.dart';
+import 'package:words625/application/lesson/interactive_course_progress.dart';
 import 'package:words625/core/logger.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
@@ -52,6 +54,8 @@ class LessonProvider with ChangeNotifier {
   double _percent = 0;
   AnswerState _answerState = AnswerState.none;
   int _mistakesInCurrentLevel = 0;
+  final InteractiveCourseProgress _interactiveProgress =
+      const InteractiveCourseProgress();
 
   // Getters for the UI to use
   Course? get currentCourse => _currentCourse;
@@ -200,6 +204,56 @@ class LessonProvider with ChangeNotifier {
       lessonsCompleted: lessonsCompleted,
       perfectLessons: perfectLessons,
     );
+  }
+
+  /// Commits one generated Discover, Build, or Recall lesson exactly once.
+  ///
+  /// Progress is advanced before remote rewards are attempted. Calling this
+  /// again for the same stage therefore cannot farm XP, gems, or achievements.
+  Future<InteractiveProgressAdvance> completeInteractiveStage({
+    required Course course,
+    required int unitIndex,
+    required LessonStageKind stage,
+    required bool wasPerfect,
+    bool isReplay = false,
+  }) async {
+    if (isReplay) return const InteractiveProgressAdvance.notCommitted();
+
+    final advance = await _interactiveProgress.advance(
+      course: course,
+      expectedUnitIndex: unitIndex,
+      expectedStage: stage,
+      stageWasPerfect: wasPerfect,
+    );
+    if (!advance.committed) return advance;
+
+    final multiplier = switch (stage) {
+      LessonStageKind.discover => 0.3,
+      LessonStageKind.build => 0.3,
+      LessonStageKind.recall => 0.4,
+    };
+    await _gameProvider.awardXP(XPEvent.lessonComplete, multiplier: multiplier);
+    await _gameProvider.recordLessonCompletion(wasPerfect: wasPerfect);
+
+    if (advance.unitCompleted) {
+      await _gemsProvider.earnGems(GemEvent.lessonComplete);
+      await _gameProvider.bumpStat('levelsCompleted');
+      if (advance.unitWasPerfect) {
+        await _gameProvider.awardXP(XPEvent.perfectLesson);
+        await _gemsProvider.earnGems(GemEvent.perfectLesson);
+      }
+    }
+    if (advance.courseCompleted) {
+      await _gameProvider.bumpStat('coursesCompleted');
+    }
+
+    final userData = await _gameProvider.getUserGameStateOnce();
+    await _achievementsProvider.checkLessonMilestones(
+      lessonsCompleted: (userData['lessonsCompleted'] as num? ?? 0).toInt(),
+      perfectLessons: (userData['perfectLessons'] as num? ?? 0).toInt(),
+    );
+    notifyListeners();
+    return advance;
   }
 
   void changeAnswerState(AnswerState answerState) {

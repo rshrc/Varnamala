@@ -89,7 +89,7 @@ class _CourseTreeState extends State<CourseTree> {
           final firstUnfinished =
               courses.indexWhere((course) => !courseIsComplete(course));
           final currentIndex =
-              firstUnfinished == -1 ? courses.length - 1 : firstUnfinished;
+              firstUnfinished == -1 ? courses.length : firstUnfinished;
 
           return PreferenceBuilder<bool>(
             preference: getIt<AppPrefs>().preferences.getBool(

@@ -10,6 +10,8 @@ part 'course.g.dart';
 class Course with _$Course {
   const factory Course({
     required String courseName,
+    String? courseId,
+    String? language,
     List<Level>? levels,
     String? image,
     int? color,

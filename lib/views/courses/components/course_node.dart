@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:math';
+
 // Flutter imports:
 import 'package:flutter/material.dart';
 
@@ -8,6 +11,8 @@ import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
 import 'package:words625/application/language_provider.dart';
+import 'package:words625/application/lesson/course_exercise_factory.dart';
+import 'package:words625/application/lesson/interactive_course_progress.dart';
 import 'package:words625/core/extensions.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
@@ -27,16 +32,12 @@ const double kNodeLip = 6;
 /// Total height a node occupies, including its label.
 const double kNodeExtent = kNodeSize + kNodeLip + 28;
 
-/// How many levels of [course] the learner has finished.
-int courseProgress(Course course) => getIt<AppPrefs>()
-    .preferences
-    .getInt(course.courseName, defaultValue: 0)
-    .getValue();
+/// How many generated Discover, Build, and Recall lessons are complete.
+int courseProgress(Course course) =>
+    const InteractiveCourseProgress().read(course).completedPlayableLessons;
 
-bool courseIsComplete(Course course) {
-  final total = course.levels?.length ?? 0;
-  return total > 0 && courseProgress(course) >= total;
-}
+bool courseIsComplete(Course course) =>
+    const InteractiveCourseProgress().read(course).isComplete;
 
 class CourseNode extends StatefulWidget {
   const CourseNode(
@@ -89,7 +90,20 @@ class _CourseNodeState extends State<CourseNode> {
       return;
     }
 
-    await context.router.push(LessonRoute(course: widget.course));
+    if (courseIsComplete(widget.course)) {
+      final selection = await _showPracticePicker(context, widget.course);
+      if (selection == null || !mounted) return;
+      await context.router.push(
+        LessonRoute(
+          course: widget.course,
+          unitIndex: selection.$1,
+          stageIndex: selection.$2,
+          isReplay: true,
+        ),
+      );
+    } else {
+      await context.router.push(LessonRoute(course: widget.course));
+    }
     if (!mounted) return;
     setState(() {});
     widget.onReturn?.call();
@@ -107,14 +121,18 @@ class _CourseNodeState extends State<CourseNode> {
 
   @override
   Widget build(BuildContext context) {
-    final color = widget.isLocked
-        ? Theme.of(context).colorScheme.surfaceContainerHighest
-        : widget.course.color != null
-            ? VarnamalaTheme.adaptiveAccent(
-                context,
-                Color(widget.course.color!),
-              )
-            : context.appInfo;
+    final complete = courseIsComplete(widget.course);
+    final progress = const InteractiveCourseProgress().read(widget.course);
+    final color = complete
+        ? const Color(0xFFFFC83D)
+        : widget.isLocked
+            ? Theme.of(context).colorScheme.surfaceContainerHighest
+            : widget.course.color != null
+                ? VarnamalaTheme.adaptiveAccent(
+                    context,
+                    Color(widget.course.color!),
+                  )
+                : context.appInfo;
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -123,19 +141,31 @@ class _CourseNodeState extends State<CourseNode> {
         Stack(
           clipBehavior: Clip.none,
           children: [
-            GestureDetector(
-              onTapDown: (_) => setState(() => _pressed = true),
-              onTapUp: (_) => setState(() => _pressed = false),
-              onTapCancel: () => setState(() => _pressed = false),
-              onTap: _open,
-              // Long press is the shortcut; the badge below is how anyone
-              // finds out the discussion exists in the first place.
-              onLongPress: _openCommunity,
-              child: _NodeFace(
-                course: widget.course,
-                color: color,
-                pressed: _pressed,
-                locked: widget.isLocked,
+            Semantics(
+              button: true,
+              label: complete
+                  ? '${widget.course.courseName}, course complete. Tap to practise any lesson.'
+                  : null,
+              child: GestureDetector(
+                onTapDown: (_) => setState(() => _pressed = true),
+                onTapUp: (_) => setState(() => _pressed = false),
+                onTapCancel: () => setState(() => _pressed = false),
+                onTap: _open,
+                // Long press is the shortcut; the badge below is how anyone
+                // finds out the discussion exists in the first place.
+                onLongPress: _openCommunity,
+                child: Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    if (complete) const _GoldenShine(),
+                    _NodeFace(
+                      course: widget.course,
+                      color: color,
+                      pressed: _pressed,
+                      locked: widget.isLocked,
+                    ),
+                  ],
+                ),
               ),
             ),
             Positioned(
@@ -158,6 +188,19 @@ class _CourseNodeState extends State<CourseNode> {
                 : widget.isCurrent
                     ? context.appTextPrimary
                     : context.appTextSecondary,
+          ),
+        ),
+        const SizedBox(height: 2),
+        Text(
+          complete
+              ? '${progress.totalPlayableLessons} lessons · practise anytime'
+              : '${progress.completedPlayableLessons + 1} of ${progress.totalPlayableLessons} lessons',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            color:
+                complete ? const Color(0xFFB27700) : context.appTextSecondary,
+            fontSize: 10,
+            fontWeight: complete ? FontWeight.w800 : FontWeight.w600,
           ),
         ),
       ],
@@ -223,13 +266,15 @@ class _NodeFace extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final totalLevels = course.levels?.length ?? 0;
+    final progress = const InteractiveCourseProgress().read(course);
+    final totalLevels = progress.totalPlayableLessons;
 
     return PreferenceBuilder<int>(
       preference: getIt<AppPrefs>()
           .preferences
           .getInt(course.courseName, defaultValue: 0),
-      builder: (context, done) {
+      builder: (context, _) {
+        final done = progress.completedPlayableLessons;
         final percent =
             totalLevels == 0 ? 0.0 : (done / totalLevels).clamp(0.0, 1.0);
         final complete = percent >= 1;
@@ -287,7 +332,18 @@ class _NodeFace extends StatelessWidget {
                             width: kNodeSize,
                             height: kNodeSize,
                             decoration: BoxDecoration(
-                              color: color,
+                              color: complete ? null : color,
+                              gradient: complete
+                                  ? const LinearGradient(
+                                      begin: Alignment.topLeft,
+                                      end: Alignment.bottomRight,
+                                      colors: [
+                                        Color(0xFFFFF0A3),
+                                        Color(0xFFFFC83D),
+                                        Color(0xFFE69B16),
+                                      ],
+                                    )
+                                  : null,
                               shape: BoxShape.circle,
                             ),
                             child: Center(
@@ -335,6 +391,211 @@ class _NodeFace extends StatelessWidget {
       },
     );
   }
+}
+
+class _GoldenShine extends StatefulWidget {
+  const _GoldenShine();
+
+  @override
+  State<_GoldenShine> createState() => _GoldenShineState();
+}
+
+class _GoldenShineState extends State<_GoldenShine>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 2400),
+  )..repeat();
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final reduceMotion = MediaQuery.disableAnimationsOf(context);
+    return IgnorePointer(
+      child: SizedBox(
+        width: kNodeSize + 28,
+        height: kNodeSize + kNodeLip + 28,
+        child: AnimatedBuilder(
+          animation: _controller,
+          builder: (context, _) => CustomPaint(
+            painter: _GoldenShinePainter(
+              phase: reduceMotion ? 0.18 : _controller.value,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _GoldenShinePainter extends CustomPainter {
+  const _GoldenShinePainter({required this.phase});
+
+  final double phase;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final center = Offset(size.width / 2, size.height / 2 - 1);
+    final glow = Paint()
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 6
+      ..color = const Color(0xFFFFD65A).withValues(alpha: 0.18);
+    canvas.drawCircle(center, kNodeSize / 2 + 8, glow);
+
+    for (var index = 0; index < 3; index++) {
+      final angle = phase * 6.2832 + index * 2.0944;
+      final point = Offset(
+        center.dx + cos(angle) * (kNodeSize / 2 + 10),
+        center.dy + sin(angle) * (kNodeSize / 2 + 10),
+      );
+      final radius = index == 0 ? 2.8 : 1.8;
+      canvas.drawCircle(
+        point,
+        radius,
+        Paint()..color = const Color(0xFFFFF4B8).withValues(alpha: 0.9),
+      );
+    }
+  }
+
+  @override
+  bool shouldRepaint(_GoldenShinePainter oldDelegate) =>
+      oldDelegate.phase != phase;
+}
+
+Future<(int, int)?> _showPracticePicker(
+  BuildContext context,
+  Course course,
+) {
+  final totalUnits = course.levels?.length ?? 0;
+  final totalLessons = totalUnits * LessonStageKind.values.length;
+  return showModalBottomSheet<(int, int)>(
+    context: context,
+    isScrollControlled: true,
+    backgroundColor: Colors.transparent,
+    builder: (context) => SafeArea(
+      child: Container(
+        constraints: BoxConstraints(
+          maxHeight: MediaQuery.sizeOf(context).height * 0.82,
+        ),
+        padding: const EdgeInsets.fromLTRB(20, 12, 20, 24),
+        decoration: BoxDecoration(
+          color: context.appSurface,
+          borderRadius: const BorderRadius.vertical(top: Radius.circular(28)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Center(
+              child: Container(
+                width: 42,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: context.appBorder,
+                  borderRadius:
+                      BorderRadius.circular(VarnamalaTheme.radiusRound),
+                ),
+              ),
+            ),
+            const SizedBox(height: 18),
+            Row(
+              children: [
+                const Icon(
+                  Icons.workspace_premium_rounded,
+                  color: Color(0xFFFFB51B),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Practise ${course.courseName}',
+                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                              fontWeight: FontWeight.w900,
+                            ),
+                      ),
+                      Text(
+                        'Replay any of the $totalLessons lessons, as often as you like.',
+                        style: TextStyle(color: context.appTextSecondary),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 18),
+            Flexible(
+              child: GridView.builder(
+                shrinkWrap: true,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 3,
+                  mainAxisSpacing: 10,
+                  crossAxisSpacing: 10,
+                  childAspectRatio: 1.12,
+                ),
+                itemCount: totalLessons,
+                itemBuilder: (context, lessonIndex) {
+                  final unitIndex =
+                      lessonIndex ~/ LessonStageKind.values.length;
+                  final stageIndex =
+                      lessonIndex % LessonStageKind.values.length;
+                  final stage = LessonStageKind.values[stageIndex];
+                  return InkWell(
+                    borderRadius:
+                        BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                    onTap: () => Navigator.of(context).pop(
+                      (unitIndex, stageIndex),
+                    ),
+                    child: Container(
+                      padding: const EdgeInsets.all(10),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFFFC83D).withValues(alpha: 0.13),
+                        borderRadius:
+                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                        border: Border.all(
+                          color:
+                              const Color(0xFFE6A51D).withValues(alpha: 0.55),
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            '${lessonIndex + 1}',
+                            style: const TextStyle(
+                              color: Color(0xFF9B6500),
+                              fontWeight: FontWeight.w900,
+                              fontSize: 20,
+                            ),
+                          ),
+                          const SizedBox(height: 3),
+                          Text(
+                            'U${unitIndex + 1} · ${stage.label}',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: context.appTextSecondary,
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    ),
+  );
 }
 
 /// The bobbing "START" flag over the course the learner should do next.

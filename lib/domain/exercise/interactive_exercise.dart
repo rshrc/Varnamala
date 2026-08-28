@@ -56,6 +56,33 @@ sealed class InteractiveExercise {
   String get correctAnswerLabel;
 }
 
+class ChoiceExercise extends InteractiveExercise {
+  const ChoiceExercise({
+    required super.id,
+    required super.prompt,
+    required super.explanation,
+    required this.sentence,
+    required this.options,
+    required this.correctOptionId,
+    this.sentenceIsTargetLanguage = true,
+    super.adaptiveRetry,
+  });
+
+  final String sentence;
+  final bool sentenceIsTargetLanguage;
+  final List<ExerciseOption> options;
+  final String correctOptionId;
+
+  @override
+  bool isCorrect(ExerciseResponse response) =>
+      response is ChoiceExerciseResponse &&
+      response.optionId == correctOptionId;
+
+  @override
+  String get correctAnswerLabel =>
+      options.firstWhere((option) => option.id == correctOptionId).text;
+}
+
 class WordBankExercise extends InteractiveExercise {
   const WordBankExercise({
     required super.id,
