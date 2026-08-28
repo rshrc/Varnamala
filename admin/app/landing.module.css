@@ -1,0 +1,67 @@
+.page {
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 15% 8%, color-mix(in srgb, var(--brand) 14%, transparent), transparent 29rem),
+    radial-gradient(circle at 88% 22%, color-mix(in srgb, var(--coral) 11%, transparent), transparent 23rem);
+}
+
+.heroWord {
+  position: absolute;
+  z-index: -1;
+  color: color-mix(in srgb, var(--brand) 7%, transparent);
+  font-size: clamp(9rem, 28vw, 24rem);
+  font-weight: 900;
+  line-height: 0.8;
+  user-select: none;
+}
+
+.pathCard {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--line) 90%, transparent);
+  border-radius: 32px;
+  background: color-mix(in srgb, var(--surface) 94%, transparent);
+  box-shadow: 0 36px 100px rgba(12, 58, 55, 0.16);
+}
+
+.pathCard::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  background: linear-gradient(145deg, color-mix(in srgb, var(--brand) 10%, transparent), transparent 52%);
+}
+
+.pathLine {
+  position: absolute;
+  left: 50%;
+  top: 23%;
+  height: 58%;
+  width: 4px;
+  transform: translateX(-50%) rotate(9deg);
+  border-radius: 999px;
+  background: repeating-linear-gradient(to bottom, color-mix(in srgb, var(--brand) 35%, transparent) 0 8px, transparent 8px 16px);
+}
+
+.goldNode {
+  box-shadow: 0 6px 0 #b9770e, 0 13px 30px rgba(218, 156, 22, 0.27);
+  animation: node-breathe 2.8s ease-in-out infinite;
+}
+
+.scriptRail {
+  animation: rail 36s linear infinite;
+}
+
+@keyframes node-breathe {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes rail {
+  to { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .goldNode, .scriptRail { animation: none; }
+}

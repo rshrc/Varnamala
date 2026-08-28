@@ -17,10 +17,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full">
         {children}
         <ThemeToggle />
+        <Script id="varnamala-theme" strategy="beforeInteractive">
+          {`try{const saved=localStorage.getItem("varnamala-theme");document.documentElement.dataset.theme=saved==="light"||saved==="dark"?saved:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch{document.documentElement.dataset.theme="light"}`}
+        </Script>
       </body>
-      <Script id="varnamala-theme" strategy="beforeInteractive">
-        {`try{const saved=localStorage.getItem("varnamala-theme");document.documentElement.dataset.theme=saved==="light"||saved==="dark"?saved:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch{document.documentElement.dataset.theme="light"}`}
-      </Script>
     </html>
   );
 }
