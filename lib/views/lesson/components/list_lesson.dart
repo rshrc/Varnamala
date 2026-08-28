@@ -11,7 +11,7 @@ import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/service/speech_service.dart';
-import 'package:words625/views/lesson/lesson_screen.dart';
+import 'package:words625/views/lesson/components/legacy_lesson_controls.dart';
 import 'package:words625/views/theme.dart';
 
 class ListLesson extends StatefulWidget {

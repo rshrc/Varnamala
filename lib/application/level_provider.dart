@@ -11,11 +11,12 @@ import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/gems_provider.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
+import 'package:words625/application/lesson/lesson_completion_service.dart';
 import 'package:words625/core/logger.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/service/locator.dart';
-import 'package:words625/views/lesson/lesson_screen.dart';
+import 'package:words625/views/lesson/components/legacy_lesson_controls.dart';
 
 enum AnswerState {
   none,
@@ -37,13 +38,20 @@ class LessonProvider with ChangeNotifier {
   final GameProvider _gameProvider;
   final GemsProvider _gemsProvider;
   final AchievementsProvider _achievementsProvider;
+  late final LessonCompletionService _completionService;
 
   LessonProvider(
     this._audioController,
     this._gameProvider,
     this._gemsProvider,
     this._achievementsProvider,
-  );
+  ) {
+    _completionService = LessonCompletionService(
+      gameProvider: _gameProvider,
+      gemsProvider: _gemsProvider,
+      achievementsProvider: _achievementsProvider,
+    );
+  }
 
   Course? _currentCourse;
   int _currentLevelIndex = 0;
@@ -54,8 +62,6 @@ class LessonProvider with ChangeNotifier {
   double _percent = 0;
   AnswerState _answerState = AnswerState.none;
   int _mistakesInCurrentLevel = 0;
-  final InteractiveCourseProgress _interactiveProgress =
-      const InteractiveCourseProgress();
 
   // Getters for the UI to use
   Course? get currentCourse => _currentCourse;
@@ -174,35 +180,11 @@ class LessonProvider with ChangeNotifier {
 
   Future<void> _onLessonCompleted() async {
     final wasPerfect = _mistakesInCurrentLevel == 0;
-
-    await _gameProvider.awardXP(XPEvent.lessonComplete);
-    await _gemsProvider.earnGems(GemEvent.lessonComplete);
-
-    if (wasPerfect) {
-      await _gameProvider.awardXP(XPEvent.perfectLesson);
-      await _gemsProvider.earnGems(GemEvent.perfectLesson);
-    }
-
-    await _gameProvider.recordLessonCompletion(wasPerfect: wasPerfect);
-
-    // Counters the achievement catalogue reads. A level is one lesson; a course
-    // is done when its last level is.
-    await _gameProvider.bumpStat('levelsCompleted');
     final course = _currentCourse;
-    if (course != null) {
-      final totalLevels = course.levels?.length ?? 0;
-      if (totalLevels > 0 && _currentLevelIndex + 1 >= totalLevels) {
-        await _gameProvider.bumpStat('coursesCompleted');
-      }
-    }
-
-    final userData = await _gameProvider.getUserGameStateOnce();
-    final lessonsCompleted =
-        (userData['lessonsCompleted'] as num? ?? 0).toInt();
-    final perfectLessons = (userData['perfectLessons'] as num? ?? 0).toInt();
-    await _achievementsProvider.checkLessonMilestones(
-      lessonsCompleted: lessonsCompleted,
-      perfectLessons: perfectLessons,
+    final totalLevels = course?.levels?.length ?? 0;
+    await _completionService.completeLegacyLesson(
+      wasPerfect: wasPerfect,
+      courseCompleted: totalLevels > 0 && _currentLevelIndex + 1 >= totalLevels,
     );
   }
 
@@ -217,40 +199,12 @@ class LessonProvider with ChangeNotifier {
     required bool wasPerfect,
     bool isReplay = false,
   }) async {
-    if (isReplay) return const InteractiveProgressAdvance.notCommitted();
-
-    final advance = await _interactiveProgress.advance(
+    final advance = await _completionService.completeInteractiveStage(
       course: course,
-      expectedUnitIndex: unitIndex,
-      expectedStage: stage,
-      stageWasPerfect: wasPerfect,
-    );
-    if (!advance.committed) return advance;
-
-    final multiplier = switch (stage) {
-      LessonStageKind.discover => 0.3,
-      LessonStageKind.build => 0.3,
-      LessonStageKind.recall => 0.4,
-    };
-    await _gameProvider.awardXP(XPEvent.lessonComplete, multiplier: multiplier);
-    await _gameProvider.recordLessonCompletion(wasPerfect: wasPerfect);
-
-    if (advance.unitCompleted) {
-      await _gemsProvider.earnGems(GemEvent.lessonComplete);
-      await _gameProvider.bumpStat('levelsCompleted');
-      if (advance.unitWasPerfect) {
-        await _gameProvider.awardXP(XPEvent.perfectLesson);
-        await _gemsProvider.earnGems(GemEvent.perfectLesson);
-      }
-    }
-    if (advance.courseCompleted) {
-      await _gameProvider.bumpStat('coursesCompleted');
-    }
-
-    final userData = await _gameProvider.getUserGameStateOnce();
-    await _achievementsProvider.checkLessonMilestones(
-      lessonsCompleted: (userData['lessonsCompleted'] as num? ?? 0).toInt(),
-      perfectLessons: (userData['perfectLessons'] as num? ?? 0).toInt(),
+      unitIndex: unitIndex,
+      stage: stage,
+      wasPerfect: wasPerfect,
+      isReplay: isReplay,
     );
     notifyListeners();
     return advance;
