@@ -1,4 +1,5 @@
 // Flutter imports:
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 // Package imports:
@@ -14,6 +15,7 @@ import 'package:words625/di/injection.dart';
 import 'package:words625/core/language_info.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
+import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/gems_display.dart';
 import 'package:words625/views/widgets/hearts_display.dart';
@@ -44,9 +46,19 @@ class StatAppBar extends StatelessWidget implements PreferredSizeWidget {
           ],
         ),
       ),
-      actions: const [
-        PatreonButton(),
-        HeartsDisplay(),
+      actions: [
+        if (kDebugMode)
+          IconButton(
+            tooltip: 'Open interactive lesson lab',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (_) => const InteractiveLessonDemoPage(),
+              ),
+            ),
+            icon: Icon(Icons.science_rounded, color: context.appViolet),
+          ),
+        const PatreonButton(),
+        const HeartsDisplay(),
       ],
     );
   }

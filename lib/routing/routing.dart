@@ -14,6 +14,10 @@ class AppRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
         AutoRoute(page: SplashRoute.page, initial: true),
+        AutoRoute(
+          page: InteractiveLessonDemoRoute.page,
+          path: '/interactive-lab',
+        ),
         AutoRoute(page: LoginRoute.page),
         AutoRoute(page: LangChoiceRoute.page, guards: [_authGuard]),
         AutoRoute(page: HomeRoute.page, guards: [_authGuard]),

@@ -1,4 +1,5 @@
 // Flutter imports:
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 // Package imports:
@@ -8,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 // Project imports:
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/demo_lesson_service.dart';
+import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/onboarding/onboarding_screen.dart';
 import 'package:words625/views/splash/demo_lesson_page.dart';
 import 'package:words625/views/theme.dart';
@@ -48,6 +50,14 @@ class _SplashPageState extends State<SplashPage> {
     Navigator.of(context).push(
       MaterialPageRoute(
         builder: (context) => const OnboardingScreen(),
+      ),
+    );
+  }
+
+  void _openInteractiveLab() {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => const InteractiveLessonDemoPage(),
       ),
     );
   }
@@ -128,6 +138,14 @@ class _SplashPageState extends State<SplashPage> {
                               label: const Text('What is Varnamala?'),
                             ),
                             const SizedBox(height: 12),
+                            if (kDebugMode) ...[
+                              FilledButton.tonalIcon(
+                                onPressed: _openInteractiveLab,
+                                icon: const Icon(Icons.science_rounded),
+                                label: const Text('OPEN INTERACTIVE LAB'),
+                              ),
+                              const SizedBox(height: 12),
+                            ],
                             OutlinedButton.icon(
                               onPressed: _loadingDemo ? null : _openDemo,
                               icon: _loadingDemo

@@ -16,6 +16,7 @@ import 'package:words625/application/language_provider.dart';
 import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
 import 'package:words625/views/courses/course_tree.dart';
+import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/home/components/components.dart';
 import 'package:words625/views/leaderboard/leaderboard_page.dart';
 import 'package:words625/views/profile/profile_screen.dart';
@@ -158,14 +159,9 @@ class _HomePageState extends State<HomePage>
           body: body,
           floatingActionButton: currentIndex == 0 && kDebugMode
               ? FloatingActionButton.extended(
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                          builder: (context) => const OnboardingScreen()),
-                    );
-                  },
-                  label: const Text("Test Onboarding"),
-                  icon: const Icon(Icons.start),
+                  onPressed: _showDebugTools,
+                  label: const Text('Debug lab'),
+                  icon: const Icon(Icons.science_rounded),
                   backgroundColor: context.appAccent,
                 )
               : null,
@@ -189,6 +185,53 @@ class _HomePageState extends State<HomePage>
     });
     // A new tab always starts with its chrome showing.
     _chrome.forward();
+  }
+
+  void _showDebugTools() {
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (sheetContext) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                leading: Icon(Icons.extension_rounded, color: context.appInfo),
+                title: const Text('Interactive lesson sample'),
+                subtitle: const Text(
+                  'Word banks, sequencing, blanks, guessing, and retries',
+                ),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () {
+                  Navigator.of(sheetContext).pop();
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const InteractiveLessonDemoPage(),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading:
+                    Icon(Icons.view_carousel_rounded, color: context.appViolet),
+                title: const Text('Onboarding sample'),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () {
+                  Navigator.of(sheetContext).pop();
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const OnboardingScreen(),
+                    ),
+                  );
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
   }
 }
 
