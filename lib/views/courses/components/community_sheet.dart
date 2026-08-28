@@ -10,6 +10,7 @@ import 'package:words625/application/identity_provider.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/domain/community/comment.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/beta_badge.dart';
 import 'package:words625/views/widgets/identicon.dart';
 
 /// Opens a course's discussion. Starts at two-thirds height and can be dragged
@@ -212,11 +213,21 @@ class _Grabber extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      courseName,
-                      style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                            fontWeight: FontWeight.w800,
+                    Row(
+                      children: [
+                        Flexible(
+                          child: Text(
+                            courseName,
+                            overflow: TextOverflow.ellipsis,
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleLarge
+                                ?.copyWith(fontWeight: FontWeight.w800),
                           ),
+                        ),
+                        const SizedBox(width: 7),
+                        const BetaBadge(compact: true),
+                      ],
                     ),
                     Text(
                       'Ask, explain, correct each other',

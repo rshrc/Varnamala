@@ -9,6 +9,7 @@ import 'package:words625/service/flashcard_service.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/service/speech_service.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/beta_badge.dart';
 
 class FlashcardsPage extends StatefulWidget {
   const FlashcardsPage({required this.language, super.key});
@@ -130,7 +131,14 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Flashcards'),
+          title: const Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text('Flashcards'),
+              SizedBox(width: 7),
+              BetaBadge(compact: true),
+            ],
+          ),
           actions: [
             IconButton(
               tooltip: 'Reset flashcard schedule',

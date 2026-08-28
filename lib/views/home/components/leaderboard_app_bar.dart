@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 // Project imports:
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/beta_badge.dart';
 
 class LeaderboardAppBar extends StatelessWidget implements PreferredSizeWidget {
   const LeaderboardAppBar({Key? key}) : super(key: key);
@@ -26,6 +27,8 @@ class LeaderboardAppBar extends StatelessWidget implements PreferredSizeWidget {
                   fontWeight: FontWeight.w700,
                 ),
           ),
+          const SizedBox(width: 7),
+          const BetaBadge(compact: true),
         ],
       ),
     );

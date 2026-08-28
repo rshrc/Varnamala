@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/match_provider.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/beta_badge.dart';
 
 /// Match Madness: an endless run where the clock is the only thing standing
 /// between you and a bigger score.
@@ -123,13 +124,20 @@ class _ModePicker extends StatelessWidget {
             ),
           ),
           const Spacer(),
-          Text(
-            'Match Madness',
-            textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  color: context.appAccent,
-                ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Match Madness',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      fontWeight: FontWeight.w800,
+                      color: context.appAccent,
+                    ),
+              ),
+              const SizedBox(width: 8),
+              const BetaBadge(),
+            ],
           ),
           const SizedBox(height: 8),
           Text(

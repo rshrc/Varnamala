@@ -1,11 +1,15 @@
 {
     "name": "Varnamala",
     "short_name": "Varnamala",
+    "id": ".",
     "start_url": ".",
+    "scope": ".",
     "display": "standalone",
-    "background_color": "#hexcode",
-    "theme_color": "#hexcode",
-    "description": "A Language Learning App - Duolingo Style",
+    "background_color": "#F5FDFB",
+    "theme_color": "#1F727E",
+    "description": "Free, open-source lessons for Indian and underrepresented languages.",
+    "categories": ["education"],
+    "lang": "en",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

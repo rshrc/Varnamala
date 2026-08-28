@@ -9,6 +9,7 @@ import 'package:words625/core/extensions.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/beta_badge.dart';
 
 class CharactersAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CharactersAppBar({super.key});
@@ -31,6 +32,8 @@ class CharactersAppBar extends StatelessWidget implements PreferredSizeWidget {
                       fontWeight: FontWeight.w700,
                     ),
               ),
+              const SizedBox(width: 7),
+              const BetaBadge(compact: true),
             ],
           );
         },
