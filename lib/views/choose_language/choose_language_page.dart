@@ -76,7 +76,8 @@ class LanguageOptionTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<LanguageProvider>(
       builder: (context, languageState, _) {
-        final isSelected = languageState.selectedLanguage == info.language;
+        final isSelected = languageState.canConfirmSelection &&
+            languageState.selectedLanguage == info.language;
 
         return GestureDetector(
           onTap: () => languageState.setLanguage(info.language),

@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:words625/application/course_provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/extensions.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
 class ContinueButton extends StatelessWidget {
@@ -21,13 +22,25 @@ class ContinueButton extends StatelessWidget {
     return Consumer2<LanguageProvider, CourseProvider>(
       builder: (context, languageState, courseState, child) {
         return ChicletAnimatedButton(
-          backgroundColor: primaryColor,
+          backgroundColor: languageState.canConfirmSelection
+              ? primaryColor
+              : context.appBorder,
           width: context.width,
-          onPressed: () {
-            languageState.cacheLanguage();
-            courseState.getCourses(languageState.selectedLanguage);
-            context.router.back();
-          },
+          onPressed: languageState.canConfirmSelection
+              ? () async {
+                  final canReturn = context.router.canPop();
+                  await languageState.cacheLanguage();
+                  await courseState.getCourses(
+                    languageState.selectedLanguage,
+                  );
+                  if (!context.mounted) return;
+                  if (canReturn) {
+                    context.router.back();
+                  } else {
+                    await context.router.replaceAll([const HomeRoute()]);
+                  }
+                }
+              : null,
           child: const Text(
             'Continue',
             style: TextStyle(

@@ -27,6 +27,10 @@ class AppPrefs {
           PrefsConstants.currentLanguage,
           defaultValue: "kannada",
         ),
+        languageSelectionComplete = preferences.getBool(
+          PrefsConstants.languageSelectionComplete,
+          defaultValue: false,
+        ),
         authUser = preferences.getCustomValue(
           PrefsConstants.authUser,
           defaultValue: null,
@@ -40,6 +44,7 @@ class AppPrefs {
   final Preference<String> fcmToken;
   final Preference<SerializableFirebaseUser?> authUser;
   final Preference<String> currentLanguage;
+  final Preference<bool> languageSelectionComplete;
 
   Future<bool> setBool(String key, {required bool value}) async {
     printBefore(value: value, key: key);
@@ -92,6 +97,7 @@ class PrefsConstants {
   static const String authUser = 'authUser';
   static const String branch = 'branch';
   static const String currentLanguage = 'currentLanguage';
+  static const String languageSelectionComplete = 'languageSelectionComplete';
   static const String themeMode = 'themeMode';
   static const String demoCount = 'demoCount';
   static const String unlockAllLevels = 'unlockAllLevels';

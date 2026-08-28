@@ -16,6 +16,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:words625/core/logger.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
+import 'package:words625/service/language_preference_service.dart';
 import 'package:words625/service/locator.dart';
 import 'web_wrapper.dart' as web;
 
@@ -103,12 +104,21 @@ class _GetStartedButtonState extends State<GetStartedButton> {
       if (firebaseUser != null) {
         await getIt<AppPrefs>().setFirebaseUser(firebaseUser);
         await _initializeUserDocument(firebaseUser);
+        final selection = await LanguagePreferenceService(getIt<AppPrefs>())
+            .restoreForUser(firebaseUser.uid);
 
         if (mounted) {
-          context.router.pushAndPopUntil(
-            const HomeRoute(),
-            predicate: (route) => false,
-          );
+          if (selection == null) {
+            context.router.pushAndPopUntil(
+              const LangChoiceRoute(),
+              predicate: (route) => false,
+            );
+          } else {
+            context.router.pushAndPopUntil(
+              const HomeRoute(),
+              predicate: (route) => false,
+            );
+          }
         }
       } else {
         logger.w('Firebase user is null after Google Sign In');

@@ -9,6 +9,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 // Project imports:
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/demo_lesson_service.dart';
+import 'package:words625/di/injection.dart';
+import 'package:words625/service/language_preference_service.dart';
+import 'package:words625/service/locator.dart';
 import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/onboarding/onboarding_screen.dart';
 import 'package:words625/views/splash/demo_lesson_page.dart';
@@ -42,7 +45,14 @@ class _SplashPageState extends State<SplashPage> {
     final user = auth.currentUser ?? await auth.authStateChanges().first;
 
     if (user != null && mounted) {
-      context.router.replace(const HomeRoute());
+      final selection = await LanguagePreferenceService(getIt<AppPrefs>())
+          .restoreForUser(user.uid);
+      if (!mounted) return;
+      if (selection == null) {
+        await context.router.replace(const LangChoiceRoute());
+      } else {
+        await context.router.replace(const HomeRoute());
+      }
     }
   }
 

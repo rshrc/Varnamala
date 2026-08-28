@@ -14,23 +14,24 @@ class ChooseLanguageAppbar extends StatelessWidget
   @override
   Widget build(BuildContext context) {
     return AppBar(
+      automaticallyImplyLeading: false,
       toolbarHeight: 80,
       shadowColor: Colors.transparent,
       backgroundColor: Colors.transparent,
       centerTitle: true,
-      leading: Padding(
-        padding: const EdgeInsets.only(left: 15),
-        child: IconButton(
-          icon: Icon(
-            Icons.arrow_back,
-            color: context.appInfo,
-            size: 32,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
-      ),
+      leading: Navigator.of(context).canPop()
+          ? Padding(
+              padding: const EdgeInsets.only(left: 15),
+              child: IconButton(
+                icon: Icon(
+                  Icons.arrow_back,
+                  color: context.appInfo,
+                  size: 32,
+                ),
+                onPressed: () => Navigator.pop(context),
+              ),
+            )
+          : null,
     );
   }
 }
