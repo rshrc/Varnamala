@@ -101,7 +101,7 @@ class WordBankExercise extends InteractiveExercise {
   @override
   bool isCorrect(ExerciseResponse response) =>
       response is OrderedExerciseResponse &&
-      _matchesAnyOrder(response.tokenIds, acceptedOrders);
+      _matchesAnyTokenOrder(response.tokenIds, acceptedOrders, tokens);
 
   @override
   String get correctAnswerLabel =>
@@ -126,7 +126,7 @@ class SentenceOrderExercise extends InteractiveExercise {
   @override
   bool isCorrect(ExerciseResponse response) =>
       response is OrderedExerciseResponse &&
-      _matchesAnyOrder(response.tokenIds, acceptedOrders);
+      _matchesAnyTokenOrder(response.tokenIds, acceptedOrders, tokens);
 
   @override
   String get correctAnswerLabel =>
@@ -211,7 +211,7 @@ class GuessWordExercise extends InteractiveExercise {
   @override
   bool isCorrect(ExerciseResponse response) =>
       response is OrderedExerciseResponse &&
-      _matchesAnyOrder(response.tokenIds, acceptedOrders);
+      _matchesAnyTokenOrder(response.tokenIds, acceptedOrders, tokens);
 
   @override
   String get correctAnswerLabel =>
@@ -224,17 +224,48 @@ String normalizeTypedAnswer(String value) => value
     .replaceFirst(RegExp(r'[.?!]+$'), '')
     .toLowerCase();
 
-bool _matchesAnyOrder(
+/// Compares the visible token values instead of their internal drag IDs.
+///
+/// Repeated letters and words must remain separate draggable objects, but a
+/// learner cannot distinguish which identical `a` or `amar` token they used.
+/// Treating those IDs as semantically different makes visibly correct answers
+/// fail validation.
+bool _matchesAnyTokenOrder(
   List<String> response,
   List<List<String>> acceptedOrders,
-) =>
-    acceptedOrders.any(
-      (answer) =>
-          answer.length == response.length &&
-          List.generate(
-                  answer.length, (index) => answer[index] == response[index])
-              .every((matches) => matches),
-    );
+  List<ExerciseToken> tokens,
+) {
+  final byId = {for (final token in tokens) token.id: token.text};
+  final responseValues = _valuesForIds(response, byId);
+  if (responseValues == null) return false;
+
+  return acceptedOrders.any((answer) {
+    final answerValues = _valuesForIds(answer, byId);
+    if (answerValues == null || answerValues.length != responseValues.length) {
+      return false;
+    }
+    for (var index = 0; index < answerValues.length; index++) {
+      if (normalizeTypedAnswer(answerValues[index]) !=
+          normalizeTypedAnswer(responseValues[index])) {
+        return false;
+      }
+    }
+    return true;
+  });
+}
+
+List<String>? _valuesForIds(
+  List<String> ids,
+  Map<String, String> valuesById,
+) {
+  final values = <String>[];
+  for (final id in ids) {
+    final value = valuesById[id];
+    if (value == null) return null;
+    values.add(value);
+  }
+  return values;
+}
 
 List<String> _tokensForOrder(
   List<ExerciseToken> tokens,

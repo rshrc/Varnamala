@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 // Project imports:
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/core/enums.dart';
+import 'package:words625/core/text_normalization.dart';
 import 'package:words625/courses/course_repository.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
@@ -57,8 +58,34 @@ void main() {
 
       expect(generated.kind, GeneratedExerciseKind.sentenceOrder);
       final exercise = generated.exercise as SentenceOrderExercise;
-      expect(exercise.correctAnswerLabel, 'Main ghar jaata hoon.');
+      expect(exercise.correctAnswerLabel, 'Main ghar jaata hoon');
       expect(exercise.translation, 'I go home.');
+      expect(exercise.tokens.last.text, 'hoon');
+    });
+
+    test('word tiles do not reveal position with boundary punctuation', () {
+      const punctuated = Question(
+        type: 'translate',
+        prompt: 'Translate the sentence',
+        sentence: 'No, this is Ravi.',
+        sentenceIsTargetLanguage: true,
+        options: ['No, this is Ravi.', 'This is Ravi.', 'No.'],
+        correctAnswer: 'No, this is Ravi.',
+      );
+      final generated = factory.generate(
+        context: context,
+        question: punctuated,
+        preferredKind: GeneratedExerciseKind.wordBank,
+      );
+      final exercise = generated.exercise as WordBankExercise;
+
+      expect(exercise.tokens.map((token) => token.text), [
+        'No',
+        'this',
+        'is',
+        'Ravi',
+      ]);
+      expect(exercise.correctAnswerLabel, 'No this is Ravi');
     });
 
     test('creates a safe fill choice only from a shared reviewed frame', () {
@@ -167,6 +194,54 @@ void main() {
               stage.exercises.map((item) => item.sourceQuestionId).toSet(),
               hasLength(stage.exercises.length),
             );
+            for (final generated in stage.exercises) {
+              final exercise = generated.exercise;
+              if (exercise case final WordBankExercise ordered) {
+                expect(
+                  ordered.isCorrect(
+                    OrderedExerciseResponse(ordered.acceptedOrders.first),
+                  ),
+                  isTrue,
+                );
+                expect(
+                  ordered.tokens.every(
+                    (token) => exerciseTokenText(token.text) == token.text,
+                  ),
+                  isTrue,
+                  reason: '${language.name} ${exercise.id} leaked punctuation',
+                );
+              } else if (exercise case final SentenceOrderExercise ordered) {
+                expect(
+                  ordered.isCorrect(
+                    OrderedExerciseResponse(ordered.acceptedOrders.first),
+                  ),
+                  isTrue,
+                );
+                expect(
+                  ordered.tokens.every(
+                    (token) => exerciseTokenText(token.text) == token.text,
+                  ),
+                  isTrue,
+                  reason: '${language.name} ${exercise.id} leaked punctuation',
+                );
+              } else if (exercise case final GuessWordExercise guess) {
+                expect(
+                  guess.isCorrect(
+                    OrderedExerciseResponse(guess.acceptedOrders.first),
+                  ),
+                  isTrue,
+                );
+              } else if (exercise case final FillBlankTextExercise text) {
+                final alternatingCase = _alternatingCase(
+                  text.acceptedAnswers.first,
+                );
+                expect(
+                  text.isCorrect(TextExerciseResponse(alternatingCase)),
+                  isTrue,
+                  reason: '${language.name} ${exercise.id} was case-sensitive',
+                );
+              }
+            }
           }
         }
       }
@@ -176,4 +251,14 @@ void main() {
     expect(questionCount, 10530);
     expect(playableLessonCount, authoredLevelCount * 3);
   });
+}
+
+String _alternatingCase(String value) {
+  var uppercase = true;
+  return value.split('').map((character) {
+    final result =
+        uppercase ? character.toUpperCase() : character.toLowerCase();
+    uppercase = !uppercase;
+    return result;
+  }).join();
 }

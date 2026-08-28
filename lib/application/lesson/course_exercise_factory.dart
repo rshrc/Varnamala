@@ -430,6 +430,7 @@ class CourseExerciseFactory {
   List<String> _wordTokens(String value) => value
       .trim()
       .split(RegExp(r'\s+'))
+      .map(exerciseTokenText)
       .where((token) => token.isNotEmpty)
       .toList(growable: false);
 

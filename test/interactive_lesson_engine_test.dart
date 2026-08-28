@@ -4,7 +4,7 @@ import 'package:words625/domain/exercise/interactive_exercise.dart';
 
 void main() {
   group('interactive exercise validation', () {
-    test('ordered exercises compare token identity and order', () {
+    test('ordered exercises compare visible values and order', () {
       const exercise = WordBankExercise(
         id: 'order',
         prompt: 'Build it',
@@ -34,6 +34,49 @@ void main() {
       );
     });
 
+    test('identical repeated letters are interchangeable', () {
+      for (final word in [
+        'amar',
+        'nanage',
+        'pustaka',
+        'masala',
+        'dhonnobad',
+      ]) {
+        final letters = word.split('');
+        final tokens = [
+          for (var index = 0; index < letters.length; index++)
+            ExerciseToken(id: 'letter-$index', text: letters[index]),
+        ];
+        final accepted = tokens.map((token) => token.id).toList();
+        final repeatedLetter = letters.firstWhere(
+          (letter) => letters.where((item) => item == letter).length > 1,
+        );
+        final repeatedPositions = [
+          for (var index = 0; index < letters.length; index++)
+            if (letters[index] == repeatedLetter) index,
+        ];
+        final visuallyIdenticalAnswer = List<String>.from(accepted);
+        final first = repeatedPositions.first;
+        final second = repeatedPositions[1];
+        visuallyIdenticalAnswer[first] = accepted[second];
+        visuallyIdenticalAnswer[second] = accepted[first];
+        final exercise = GuessWordExercise(
+          id: word,
+          prompt: 'Guess it',
+          explanation: word,
+          clue: word,
+          tokens: tokens,
+          acceptedOrders: [accepted],
+        );
+
+        expect(
+          exercise.isCorrect(OrderedExerciseResponse(visuallyIdenticalAnswer)),
+          isTrue,
+          reason: '$word must not depend on which identical tile was used',
+        );
+      }
+    });
+
     test('typed blanks normalize case, whitespace, and terminal punctuation',
         () {
       const exercise = FillBlankTextExercise(
@@ -48,6 +91,10 @@ void main() {
 
       expect(
         exercise.isCorrect(const TextExerciseResponse('  MANE.  ')),
+        isTrue,
+      );
+      expect(
+        exercise.isCorrect(const TextExerciseResponse('mAnE')),
         isTrue,
       );
       expect(
