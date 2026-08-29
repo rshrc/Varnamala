@@ -359,6 +359,7 @@ class CourseExerciseFactory {
       afterBlank: blank.after,
       clue: clue,
       acceptedAnswers: [blank.answer],
+      wordMeaning: blank.gloss,
       explanation: '${blank.answer} — ${blank.gloss}',
       adaptiveRetry: adaptiveRetry,
     );

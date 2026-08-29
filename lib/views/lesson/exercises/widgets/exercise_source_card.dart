@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
 
 class ExerciseSourceCard extends StatelessWidget {
   const ExerciseSourceCard({
     required this.label,
     required this.text,
+    this.showWordMeanings = false,
     super.key,
   });
 
   final String label;
   final String text;
+  final bool showWordMeanings;
 
   @override
   Widget build(BuildContext context) {
@@ -32,13 +35,22 @@ class ExerciseSourceCard extends StatelessWidget {
                 ),
           ),
           const SizedBox(height: 8),
-          Text(
-            text,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w800,
-                  height: 1.3,
-                ),
-          ),
+          if (showWordMeanings)
+            TappableGlossText(
+              text: text,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w800,
+                    height: 1.3,
+                  ),
+            )
+          else
+            Text(
+              text,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w800,
+                    height: 1.3,
+                  ),
+            ),
         ],
       ),
     );

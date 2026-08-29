@@ -25,7 +25,11 @@ class ChoiceExerciseViewState extends State<ChoiceExerciseView> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        ExerciseSourceCard(label: 'QUESTION', text: widget.exercise.sentence),
+        ExerciseSourceCard(
+          label: 'QUESTION',
+          text: widget.exercise.sentence,
+          showWordMeanings: widget.exercise.sentenceIsTargetLanguage,
+        ),
         const SizedBox(height: 24),
         for (final option in widget.exercise.options)
           Padding(

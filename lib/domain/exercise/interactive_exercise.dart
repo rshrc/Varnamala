@@ -171,6 +171,7 @@ class FillBlankTextExercise extends InteractiveExercise {
     required this.afterBlank,
     required this.clue,
     required this.acceptedAnswers,
+    this.wordMeaning,
     super.adaptiveRetry,
   });
 
@@ -178,6 +179,7 @@ class FillBlankTextExercise extends InteractiveExercise {
   final String afterBlank;
   final String clue;
   final List<String> acceptedAnswers;
+  final String? wordMeaning;
 
   @override
   bool isCorrect(ExerciseResponse response) =>

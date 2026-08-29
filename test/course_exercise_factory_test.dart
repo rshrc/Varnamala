@@ -116,6 +116,10 @@ void main() {
       expect(generated.usedFallback, isTrue);
       expect(generated.kind, GeneratedExerciseKind.fillBlankText);
       expect(generated.fallbackReason, 'fillBlankChoice_ineligible');
+      expect(
+        (generated.exercise as FillBlankTextExercise).wordMeaning,
+        'go',
+      );
     });
 
     test('stable IDs survive question reordering', () {

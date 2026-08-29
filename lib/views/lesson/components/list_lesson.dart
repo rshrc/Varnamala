@@ -5,13 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
-import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/level_provider.dart';
-import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/service/speech_service.dart';
 import 'package:words625/views/lesson/components/legacy_lesson_controls.dart';
+import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
 
 class ListLesson extends StatefulWidget {
@@ -216,10 +215,12 @@ class QuestionRow extends StatelessWidget {
           const SizedBox(width: 14),
           Flexible(
             child: question?.sentenceIsTargetLanguage ?? false
-                ? RichText(
-                    text: TextSpan(
-                      children: _buildTextSpans(context),
-                    ),
+                ? TappableGlossText(
+                    text: question?.sentence ?? '--',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w600,
+                          height: 1.4,
+                        ),
                   )
                 : Text(
                     question?.sentence ?? "--",
@@ -232,66 +233,6 @@ class QuestionRow extends StatelessWidget {
         ],
       ),
     );
-  }
-
-  List<TextSpan> _buildTextSpans(BuildContext context) {
-    final words = question?.sentence?.split(' ') ?? [];
-    final baseStyle = Theme.of(context).textTheme.titleMedium?.copyWith(
-          fontWeight: FontWeight.w600,
-          height: 1.4,
-        );
-
-    return words.map((word) {
-      final meaning = getWordMeaning(word);
-
-      return TextSpan(
-        children: [
-          WidgetSpan(
-            alignment: PlaceholderAlignment.middle,
-            child: Tooltip(
-              key: ValueKey('gloss-$word'),
-              triggerMode: TooltipTriggerMode.tap,
-              enableFeedback: true,
-              onTriggered: () => getIt<GameProvider>().bumpStat('wordsTapped'),
-              // Every target-language word is tappable. A word with no gloss
-              // says so rather than opening an empty box.
-              message: meaning ?? 'No meaning yet',
-              textStyle: TextStyle(
-                color: Theme.of(context).colorScheme.onPrimaryContainer,
-                fontSize: 15,
-                fontWeight: FontWeight.w600,
-                height: 1.3,
-              ),
-              padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
-              margin: const EdgeInsets.symmetric(horizontal: 16),
-              decoration: BoxDecoration(
-                color: meaning == null
-                    ? Theme.of(context).colorScheme.surfaceContainerHighest
-                    : Theme.of(context).colorScheme.primaryContainer,
-                borderRadius: BorderRadius.circular(12),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withValues(alpha: 0.18),
-                    blurRadius: 12,
-                    offset: const Offset(0, 4),
-                  ),
-                ],
-              ),
-              child: Text(
-                word,
-                style: baseStyle?.copyWith(
-                  decoration: TextDecoration.underline,
-                  decorationStyle: TextDecorationStyle.dotted,
-                  decorationThickness: 2,
-                  decorationColor: context.appAccent.withValues(alpha: 0.75),
-                ),
-              ),
-            ),
-          ),
-          const TextSpan(text: ' '),
-        ],
-      );
-    }).toList();
   }
 }
 

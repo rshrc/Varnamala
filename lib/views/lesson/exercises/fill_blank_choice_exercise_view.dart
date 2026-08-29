@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_choice_tile.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
+import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
 
 class FillBlankChoiceExerciseView extends StatefulWidget {
@@ -77,8 +78,8 @@ class FillBlankSentence extends StatelessWidget {
       runSpacing: 8,
       crossAxisAlignment: WrapCrossAlignment.center,
       children: [
-        Text(
-          before,
+        TappableGlossText(
+          text: before,
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.w700,
               ),
@@ -108,8 +109,8 @@ class FillBlankSentence extends StatelessWidget {
                 ),
           ),
         ),
-        Text(
-          after,
+        TappableGlossText(
+          text: after,
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.w700,
               ),

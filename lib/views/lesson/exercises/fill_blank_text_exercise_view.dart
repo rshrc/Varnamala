@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
+import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
 
 class FillBlankTextExerciseView extends StatefulWidget {
@@ -50,14 +51,35 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         ExerciseSourceCard(label: 'CLUE', text: widget.exercise.clue),
+        if (widget.exercise.wordMeaning case final meaning?) ...[
+          const SizedBox(height: 12),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+              decoration: BoxDecoration(
+                color: context.appInfo.withValues(alpha: 0.1),
+                borderRadius: BorderRadius.circular(VarnamalaTheme.radiusSmall),
+              ),
+              child: Text(
+                'WORD MEANING · $meaning',
+                style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                      color: context.appInfo,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: 0.35,
+                    ),
+              ),
+            ),
+          ),
+        ],
         const SizedBox(height: 24),
         Wrap(
           spacing: 8,
           runSpacing: 10,
           crossAxisAlignment: WrapCrossAlignment.center,
           children: [
-            Text(
-              widget.exercise.beforeBlank,
+            TappableGlossText(
+              text: widget.exercise.beforeBlank,
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),
@@ -107,8 +129,8 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
                 ),
               ),
             ),
-            Text(
-              widget.exercise.afterBlank,
+            TappableGlossText(
+              text: widget.exercise.afterBlank,
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),

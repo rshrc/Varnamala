@@ -11,6 +11,7 @@ import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/lesson/lesson_screen.dart';
+import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
 
 void main() {
@@ -43,7 +44,8 @@ void main() {
     expect(find.text('UNIT 1 · DISCOVER'), findsOneWidget);
     expect(find.text('BETA'), findsOneWidget);
     expect(find.text('Choose the correct answer'), findsOneWidget);
-    expect(find.text('Main ghar jaata hoon.'), findsWidgets);
+    expect(find.byType(TappableGlossText), findsOneWidget);
+    expect(find.text('Main'), findsOneWidget);
     expect(find.text('CHECK'), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
