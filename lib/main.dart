@@ -16,15 +16,17 @@ import 'package:words625/views/app.dart';
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   configureDependencies();
-  await setupLocator();
 
-  // getIt<AppPrefs>().preferences.clear();
-
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-
-  await GoogleSignIn.instance.initialize();
+  // These startup tasks do not depend on one another. Running them together
+  // avoids making web users wait for three sequential browser/network round
+  // trips before Flutter can draw its first frame.
+  await Future.wait<void>([
+    setupLocator(),
+    Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    ).then<void>((_) {}),
+    GoogleSignIn.instance.initialize(),
+  ]);
 
   if (!kIsWeb) {
     await FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);

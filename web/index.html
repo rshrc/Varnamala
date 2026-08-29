@@ -14,6 +14,12 @@
   <meta name="theme-color" content="#1F727E">
   <meta name="apple-mobile-web-app-title" content="Varnamala">
   <meta name="google-signin-client_id" content="810080914897-hi79u9dqg8vvhk0ae24krftavedq63q8.apps.googleusercontent.com">
+  <!-- Warm up the origins used during startup: Flutter/Firebase, Google
+       Identity, and the Nunito font used on the first screen. -->
+  <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://accounts.google.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="main.dart.js" as="script">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -59,12 +65,6 @@
     p { margin-top: 10px; color: #4A5568; }
   </style>
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = null;
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
   <div class="loading">
@@ -73,20 +73,8 @@
     <p>Reclaiming Language Learning...</p>
   </div>
 
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
+  <!-- Start Flutter as soon as its bootstrap is available instead of waiting
+       for every page resource to fire the window load event. -->
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
