@@ -85,11 +85,16 @@ Update any relevant documentation in the `docs/` folder and ensure that new feat
 
 ## Commit Messages
 
-- Use clear, descriptive commit messages.
-- Follow the convention: `[scope]: Description`
-  - **Examples**:
-    - `feat: Add new Kannada lessons module`
-    - `fix: Correct scoring system bug`
+Releases are generated automatically from commits merged into `main`, so use
+[Conventional Commits](https://www.conventionalcommits.org/):
+
+- `fix: correct scoring calculation` creates a patch release (`0.1.0` → `0.1.1`).
+- `feat: add a Kannada lesson` creates a minor release (`0.1.0` → `0.2.0`).
+- `feat!: replace the course format` creates a major release (`0.1.0` → `1.0.0`).
+- A `BREAKING CHANGE:` footer also creates a major release.
+- Other prefixes such as `docs:`, `test:`, and `chore:` do not create a release.
+
+Scopes are optional; for example, `fix(lessons): handle empty choices`.
 
 ## Pull Request Process
 
@@ -125,4 +130,3 @@ We’re excited to have you contribute to Words625 and help make language learni
 By following these guidelines, you’ll help us maintain the quality and reliability of Words625 for all users. Let’s make learning languages more engaging together!
 
 ---
-
