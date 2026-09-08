@@ -5,6 +5,7 @@ import 'dart:math' as math;
 import 'package:characters/characters.dart';
 
 // Project imports:
+import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/core/stable_hash.dart';
 import 'package:words625/core/text_normalization.dart';
 import 'package:words625/domain/course/course.dart';
@@ -457,6 +458,10 @@ class CourseExerciseFactory {
           gloss == null ||
           gloss.isEmpty ||
           gloss == 'your name' ||
+          // An English loanword written in romanization. Blanking "filter" out
+          // of "Idu filter kaapi" asks the learner to type an English word and
+          // teaches nothing about the language they came here for.
+          glossTeachesNothing(answer, gloss) ||
           (normalizedCounts[normalized] ?? 0) != 1) {
         continue;
       }

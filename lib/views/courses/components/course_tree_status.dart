@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/language_info.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/theme.dart';
 
 /// Shown when a language's content could not be read, so the learner is told
@@ -15,28 +16,33 @@ class CourseUnavailableNotice extends StatelessWidget {
     return Center(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 40),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.hourglass_empty_rounded,
-                size: 44, color: context.appInfo),
-            const SizedBox(height: 16),
-            Text(
-              '${languageInfo(language).englishName} is not ready yet',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
-            ),
-            const SizedBox(height: 8),
-            Text(
-              'Its lessons are still being written. Pick another language for now.',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: context.appTextSecondary,
-                  ),
-            ),
-          ],
+        // Centred prose across a whole desktop window is unreadable, so the
+        // notice keeps to a column the way the path above it does.
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: ContentWidth.path),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(Icons.hourglass_empty_rounded,
+                  size: 44, color: context.appInfo),
+              const SizedBox(height: 16),
+              Text(
+                '${languageInfo(language).englishName} is not ready yet',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      fontWeight: FontWeight.w700,
+                    ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Its lessons are still being written. Pick another language for now.',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: context.appTextSecondary,
+                    ),
+              ),
+            ],
+          ),
         ),
       ),
     );

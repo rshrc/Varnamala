@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:words625/core/enums.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/flashcards/flashcards_page.dart';
 import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/theme.dart';
@@ -75,13 +76,17 @@ class CourseLearnTools extends StatelessWidget {
                 icon:
                     Icon(Icons.arrow_forward_rounded, color: context.appViolet),
               ),
-              IconButton(
-                tooltip: 'Settings',
-                onPressed: () => Navigator.of(context).push(
-                  MaterialPageRoute(builder: (_) => const SettingsPage()),
+              // Same rule as the profile bar: the side rail already carries
+              // Settings on wide windows, so this gear only exists where
+              // there is no rail to carry it.
+              if (!context.breakpoint.hasSideNavigation)
+                IconButton(
+                  tooltip: 'Settings',
+                  onPressed: () => Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => const SettingsPage()),
+                  ),
+                  icon: Icon(Icons.settings_rounded, color: context.appWarning),
                 ),
-                icon: Icon(Icons.settings_rounded, color: context.appWarning),
-              ),
             ],
           ),
         ),

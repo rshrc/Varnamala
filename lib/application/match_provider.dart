@@ -9,6 +9,7 @@ import 'package:flutter/foundation.dart';
 import 'package:injectable/injectable.dart';
 
 // Project imports:
+import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/application/audio_controller.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/extensions.dart';
@@ -311,6 +312,8 @@ class MatchProvider extends ChangeNotifier {
         final word = entry.key;
         final gloss = entry.value.trim();
         if (!_isGoodGloss(gloss)) continue;
+        // "bus — bus" is not a pair worth matching.
+        if (glossTeachesNothing(word, gloss)) continue;
         if (!seenGlosses.add(gloss.toLowerCase())) continue;
         if (!seenWords.add(word.toLowerCase())) continue;
         pairs.add(MatchPair(gloss, word));

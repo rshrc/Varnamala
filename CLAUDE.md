@@ -163,6 +163,61 @@ const emeraldLeague = Color(0xff27AE60);
 const diamondLeague = Color(0xff3498DB);
 ```
 
+### Colour Themes
+
+Six themes, each shipping a light and a dark build. Palette and light/dark are
+**independent** axes: picking "Marigold" does not also decide day or night.
+Five are taste (Peacock, Marigold, Emerald, Amethyst, Crimson); "High contrast"
+is a functional option for low vision, glare and cheap screens.
+
+`lib/views/theme_palette.dart` holds the whole system:
+
+- `AppPalette` describes a theme as **hue relationships** (primary, secondary,
+  neutral, plus semantic hues) rather than a list of hex codes. Adding a palette
+  is a handful of numbers appended to `appPalettes`.
+- `buildAppTheme(palette, brightness)` derives every colour at fixed lightness
+  targets and returns the `ThemeData`.
+- `VarnamalaColors` is a `ThemeExtension` carrying the roles Material has no
+  slot for (`info`, `success`, `warning`, `danger`, `violet`, `shadowTint`,
+  `pathGradient`). `context.appSuccess` and friends read from it, so widgets
+  never name a palette.
+
+Rules when touching colour:
+
+- **Never** hardcode a colour in a widget. Use `context.app*` or
+  `Theme.of(context).colorScheme`. A `CustomPainter` has no context, so pass
+  colours into its constructor (see `SplashBackgroundPainter`).
+- `success` stays green and `danger` stays red in every palette, and the two are
+  kept apart in *lightness* as well as hue, so "right" and "wrong" survive both
+  a theme change and colour blindness.
+- Warm hues (roughly 25-100 degrees) stay bright and take dark text; dragged
+  dark enough for white text they just turn brown. `_isLuminousHue` handles it.
+- **Course node colours come from the theme, not the course JSON.** The
+  `"color"` field in each manifest is legacy and no longer drawn: nodes take
+  their colour from `VarnamalaColors.courseColor(pathIndex)`, which fans hues
+  around the palette's own hue. Anything that colours the course path must go
+  through the palette, or changing theme leaves the main screen unchanged.
+- Light-mode accents sit darker than the palette's headline colours: they are
+  small marks on a near-white card, and amber and green have to come a long way
+  down to clear 3:1 there. The large surfaces carry the brightness instead.
+- `test/theme_contrast_test.dart` checks **every palette in both modes** for
+  WCAG contrast. A new palette that fails it does not ship.
+
+### Responsive Layout
+
+The app is drawn as a phone-width column; wider windows get *space around* that
+column, never a stretched version of it. `lib/core/responsive.dart` owns the
+breakpoints (`Breakpoint.compact/medium/expanded/large`), the content-width caps
+(`ContentWidth.column/path/feed/grid`), and `ContentBounds`, which centres a
+screen's content and is a no-op on a phone.
+
+- Wrap any new full-screen content in `ContentBounds` rather than letting it
+  fill the window.
+- Navigation is a bottom bar up to `medium` and a `NavigationRail` from
+  `expanded` up; both read the same `homeDestinations` list.
+- Prefer `SliverGridDelegateWithMaxCrossAxisExtent` over a fixed
+  `crossAxisCount`, so grids gain columns instead of inflating tiles.
+
 ### Design Principles
 - Use rounded corners (16-24dp radius)
 - Subtle shadows instead of heavy borders
@@ -192,6 +247,21 @@ assets/courses/tamil/
 Loaded by `lib/courses/course_repository.dart`, which caches per language and
 splices the learner's first name into the `{name}` placeholder at read time.
 
+### Loanwords, names, and what can become a question
+
+Roughly 7% of every dictionary is entries that gloss to themselves — English
+loanwords (`filter -> filter (coffee)`, `bus -> bus`), proper names, months and
+place names. They **belong** in the dictionary, because a learner reading a
+sentence still wants the tap-a-word hint.
+
+They must never become questions. Asking a Kannada learner to type "filter", or
+to match "bus" with "bus", tests nothing about Kannada. `glossTeachesNothing`
+in `lib/courses/word_dictionary.dart` is the single gate for this, and both the
+exercise factory and Match Madness consult it. Anything new that generates
+questions from the dictionary must consult it too.
+
+Run `ruby tool/find_untranslated_glosses.rb` to see the share per language.
+
 ### Question types
 
 Two are implemented and rendered by `lib/views/lesson/components/list_lesson.dart`:
@@ -212,6 +282,7 @@ ruby tool/extract_vocabulary.rb tamil     # words used in lessons with no gloss 
 ruby tool/normalize_titles.rb --apply     # level titles to sentence case
 ruby tool/generate_manifests.rb           # regenerate every manifest.json (and the palette)
 ruby tool/generate_emblems.rb             # regenerate the language-picker emblems
+ruby tool/find_untranslated_glosses.rb    # entries whose gloss is just the word again
 flutter test test/course_repository_test.dart
 ```
 
@@ -249,6 +320,8 @@ flutter clean && flutter pub get && flutter pub run build_runner build --delete-
 | `lib/routing/routing.dart` | Auto Route configuration |
 | `lib/di/injection.dart` | GetIt DI setup |
 | `lib/service/locator.dart` | AppPrefs, preferences |
+| `lib/core/responsive.dart` | Breakpoints, content-width caps, `ContentBounds` |
+| `lib/views/theme_palette.dart` | The ten palettes, `VarnamalaColors`, `buildAppTheme` |
 | `lib/application/game_provider.dart` | Score/streak logic |
 | `lib/domain/course/course.dart` | Course/Level/Question models |
 | `lib/courses/course_repository.dart` | Loads course JSON from assets, caches per language |

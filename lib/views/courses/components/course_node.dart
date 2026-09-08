@@ -31,6 +31,7 @@ bool courseIsComplete(Course course) =>
 class CourseNode extends StatefulWidget {
   const CourseNode(
     this.course, {
+    this.pathIndex = 0,
     this.isCurrent = false,
     this.isLocked = false,
     this.unlockedBy,
@@ -39,6 +40,10 @@ class CourseNode extends StatefulWidget {
   }) : super(key: key);
 
   final Course course;
+
+  /// Where this course sits on the path. Decides which of the palette's course
+  /// colours it wears, so neighbouring nodes stay clearly different.
+  final int pathIndex;
 
   /// The next course to work on — the one wearing the START flag.
   final bool isCurrent;
@@ -112,16 +117,14 @@ class CourseNodeState extends State<CourseNode> {
   Widget build(BuildContext context) {
     final complete = courseIsComplete(widget.course);
     final progress = const InteractiveCourseProgress().read(widget.course);
+    // The node's colour comes from the active palette, not from the colour
+    // baked into the course JSON: the path is the main screen, and it has to
+    // change when the learner changes theme.
     final color = complete
-        ? const Color(0xFFFFC83D)
+        ? context.appWarning
         : widget.isLocked
             ? Theme.of(context).colorScheme.surfaceContainerHighest
-            : widget.course.color != null
-                ? VarnamalaTheme.adaptiveAccent(
-                    context,
-                    Color(widget.course.color!),
-                  )
-                : context.appInfo;
+            : context.appColors.courseColor(widget.pathIndex);
 
     return Column(
       mainAxisSize: MainAxisSize.min,

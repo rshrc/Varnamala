@@ -1,13 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:words625/views/theme.dart';
 
 class SplashBackgroundPainter extends CustomPainter {
+  const SplashBackgroundPainter({
+    required this.warm,
+    required this.mid,
+    required this.accent,
+  });
+
+  /// Passed in rather than read from the theme, because a painter has no
+  /// [BuildContext] - which is what kept this screen on the old fixed colours.
+  final Color warm;
+  final Color mid;
+  final Color accent;
+
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()..style = PaintingStyle.fill;
 
     // First Curve - Top Right (Warm Gold)
-    paint.color = VarnamalaTheme.success.withValues(alpha: 0.15);
+    paint.color = warm.withValues(alpha: 0.15);
     final path1 = Path();
     path1.moveTo(size.width, 0);
     path1.lineTo(size.width, size.height * 0.35);
@@ -22,7 +33,7 @@ class SplashBackgroundPainter extends CustomPainter {
     canvas.drawPath(path1, paint);
 
     // Second Curve - Middle/Bottom Layer (Coral/Orange)
-    paint.color = VarnamalaTheme.warning.withValues(alpha: 0.15);
+    paint.color = mid.withValues(alpha: 0.15);
     final path2 = Path();
     path2.moveTo(size.width, size.height);
     path2.lineTo(size.width, size.height * 0.6);
@@ -39,7 +50,7 @@ class SplashBackgroundPainter extends CustomPainter {
     canvas.drawPath(path2, paint);
 
     // Third Curve - Bottom Left Accent (Red/Coral)
-    paint.color = VarnamalaTheme.errorLight.withValues(alpha: 0.1);
+    paint.color = accent.withValues(alpha: 0.1);
     final path3 = Path();
     path3.moveTo(0, size.height);
     path3.lineTo(0, size.height * 0.75);
@@ -54,5 +65,6 @@ class SplashBackgroundPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
+  bool shouldRepaint(SplashBackgroundPainter old) =>
+      old.warm != warm || old.mid != mid || old.accent != accent;
 }

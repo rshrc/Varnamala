@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:share_plus/share_plus.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/theme.dart';
 
@@ -31,14 +32,18 @@ class ProfileAppBar extends StatelessWidget implements PreferredSizeWidget {
           tooltip: 'Share',
           onPressed: () => _shareApp(context),
         ),
-        IconButton(
-          icon:
-              Icon(Icons.settings_rounded, color: context.appWarning, size: 22),
-          tooltip: 'Settings',
-          onPressed: () => Navigator.of(context).push(
-            MaterialPageRoute(builder: (_) => const SettingsPage()),
+        // Wide windows reach Settings from the side rail, which is always on
+        // screen. Keeping this gear as well put the same door twice on the
+        // same page, so it stays only where there is no rail.
+        if (!context.breakpoint.hasSideNavigation)
+          IconButton(
+            icon: Icon(Icons.settings_rounded,
+                color: context.appWarning, size: 22),
+            tooltip: 'Settings',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const SettingsPage()),
+            ),
           ),
-        ),
       ],
     );
   }

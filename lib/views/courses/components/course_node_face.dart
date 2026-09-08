@@ -57,6 +57,8 @@ class CourseNodeFace extends StatelessWidget {
                     painter: CourseNodeProgressRingPainter(
                       percent: percent,
                       color: complete ? context.appWarning : context.appSuccess,
+                      trackColor:
+                          context.appTextSecondary.withValues(alpha: 0.16),
                     ),
                   ),
                 ),
@@ -153,11 +155,18 @@ class CourseNodeFace extends StatelessWidget {
 
 /// Progress arc drawn around the node, starting at twelve o'clock.
 class CourseNodeProgressRingPainter extends CustomPainter {
-  const CourseNodeProgressRingPainter(
-      {required this.percent, required this.color});
+  const CourseNodeProgressRingPainter({
+    required this.percent,
+    required this.color,
+    required this.trackColor,
+  });
 
   final double percent;
   final Color color;
+
+  /// The unfilled part of the ring. Passed in because a painter has no
+  /// [BuildContext] to read the palette from.
+  final Color trackColor;
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -169,7 +178,7 @@ class CourseNodeProgressRingPainter extends CustomPainter {
     final track = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 5
-      ..color = VarnamalaTheme.textHint.withValues(alpha: 0.16);
+      ..color = trackColor;
     canvas.drawCircle(center, radius, track);
 
     final arc = Paint()
@@ -182,7 +191,9 @@ class CourseNodeProgressRingPainter extends CustomPainter {
 
   @override
   bool shouldRepaint(CourseNodeProgressRingPainter old) =>
-      old.percent != percent || old.color != color;
+      old.percent != percent ||
+      old.color != color ||
+      old.trackColor != trackColor;
 }
 
 IconData courseIconFor(String courseName) {

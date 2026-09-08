@@ -26,7 +26,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       description:
           'Varnamala is an open-source Flutter app for Android, iOS, and the web. Learn with short lessons that fit into your day.',
       icon: Icons.auto_stories_rounded,
-      color: VarnamalaTheme.peacockTeal,
     ),
     _OnboardingPageData(
       eyebrow: 'MORE THAN FLASH CARDS',
@@ -34,7 +33,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       description:
           'Build everyday vocabulary, practise native scripts, play learning games, follow your progress, and learn alongside a community.',
       icon: Icons.draw_rounded,
-      color: VarnamalaTheme.peacockDeep,
     ),
     _OnboardingPageData(
       eyebrow: 'WHY VARNAMALA?',
@@ -42,7 +40,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       description:
           'We focus on Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese, and more. No pay-to-win—just open, community-driven education.',
       icon: Icons.volunteer_activism_rounded,
-      color: VarnamalaTheme.error,
     ),
   ];
 
@@ -105,7 +102,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 controller: _pageController,
                 itemCount: _pages.length,
                 onPageChanged: (index) => setState(() => _currentPage = index),
-                itemBuilder: (context, index) => _TourPage(data: _pages[index]),
+                itemBuilder: (context, index) =>
+                    _TourPage(data: _pages[index], index: index),
               ),
             ),
             Padding(
@@ -175,12 +173,18 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
 class _TourPage extends StatelessWidget {
   final _OnboardingPageData data;
+  final int index;
 
-  const _TourPage({required this.data});
+  const _TourPage({required this.data, required this.index});
 
   @override
   Widget build(BuildContext context) {
-    final accent = VarnamalaTheme.adaptiveAccent(context, data.color);
+    // Each page keeps its own accent, but taken from the active palette so
+    // the tour matches the theme the learner chose.
+    final accent = VarnamalaTheme.adaptiveAccent(
+      context,
+      [context.appAccent, context.appInfo, context.appViolet][index % 3],
+    );
     return LayoutBuilder(
       builder: (context, constraints) => SingleChildScrollView(
         padding: const EdgeInsets.fromLTRB(32, 20, 32, 20),
@@ -249,13 +253,10 @@ class _OnboardingPageData {
   final String title;
   final String description;
   final IconData icon;
-  final Color color;
-
   const _OnboardingPageData({
     required this.eyebrow,
     required this.title,
     required this.description,
     required this.icon,
-    required this.color,
   });
 }

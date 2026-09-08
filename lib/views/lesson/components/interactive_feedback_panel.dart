@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:words625/application/interactive_lesson_engine.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/theme.dart';
 
 class InteractiveFeedbackPanel extends StatelessWidget {
@@ -18,38 +19,43 @@ class InteractiveFeedbackPanel extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(20, 14, 20, 12),
       color: color.withValues(alpha: 0.11),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Icon(
-                correct ? Icons.check_circle_rounded : Icons.cancel_rounded,
-                color: color,
-              ),
-              const SizedBox(width: 8),
-              Text(
-                correct ? 'Correct!' : 'Not quite',
-                style: TextStyle(
+      // The tinted band spans the window so the verdict is unmissable, but its
+      // text lines up with the exercise column above it.
+      child: ContentBounds(
+        gutter: false,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(
+                  correct ? Icons.check_circle_rounded : Icons.cancel_rounded,
                   color: color,
-                  fontWeight: FontWeight.w900,
-                  fontSize: 18,
                 ),
+                const SizedBox(width: 8),
+                Text(
+                  correct ? 'Correct!' : 'Not quite',
+                  style: TextStyle(
+                    color: color,
+                    fontWeight: FontWeight.w900,
+                    fontSize: 18,
+                  ),
+                ),
+              ],
+            ),
+            if (!correct) ...[
+              const SizedBox(height: 7),
+              Text(
+                'Correct answer: ${engine.currentExercise.correctAnswerLabel}',
+                style: const TextStyle(fontWeight: FontWeight.w700),
               ),
             ],
-          ),
-          if (!correct) ...[
-            const SizedBox(height: 7),
-            Text(
-              'Correct answer: ${engine.currentExercise.correctAnswerLabel}',
-              style: const TextStyle(fontWeight: FontWeight.w700),
-            ),
+            if (engine.currentExercise.explanation.isNotEmpty) ...[
+              const SizedBox(height: 5),
+              Text(engine.currentExercise.explanation),
+            ],
           ],
-          if (engine.currentExercise.explanation.isNotEmpty) ...[
-            const SizedBox(height: 5),
-            Text(engine.currentExercise.explanation),
-          ],
-        ],
+        ),
       ),
     );
   }

@@ -12,6 +12,7 @@ import 'package:words625/views/theme.dart';
 class CoursePathStep extends StatelessWidget {
   const CoursePathStep({
     required this.course,
+    required this.pathIndex,
     required this.dx,
     required this.previousDx,
     required this.isCurrent,
@@ -23,6 +24,9 @@ class CoursePathStep extends StatelessWidget {
   });
 
   final Course course;
+
+  /// Position on the path, which picks the node's colour from the palette.
+  final int pathIndex;
   final double dx;
   final double? previousDx;
   final bool isCurrent;
@@ -49,18 +53,36 @@ class CoursePathStep extends StatelessWidget {
           ),
         Stack(
           alignment: Alignment.center,
+          clipBehavior: Clip.none,
           children: [
             // The note goes on whichever side the path is not using, which is
-            // exactly the space that otherwise sits empty.
+            // exactly the space that otherwise sits empty. Each one is nudged
+            // off the exact edge and off its node's centre line, so a run of
+            // them wanders alongside the path instead of forming a column.
             if (note != null)
-              Align(
-                alignment: Alignment(dx > 0 ? -1 : 1, 0),
-                child: TrailNoteButton(note: note!, pointsRight: dx > 0),
-              ),
+              Builder(builder: (context) {
+                final perch =
+                    trailNotePerch(course.courseId ?? course.courseName);
+                final side = dx > 0 ? -1.0 : 1.0;
+                return Align(
+                  alignment: Alignment(side * perch.xFactor, perch.yFactor),
+                  child: Transform.rotate(
+                    angle: perch.angle,
+                    child: Transform.scale(
+                      scale: perch.scale,
+                      child: TrailNoteButton(
+                        note: note!,
+                        pointsRight: dx > 0,
+                      ),
+                    ),
+                  ),
+                );
+              }),
             Align(
               alignment: Alignment(dx, 0),
               child: CourseNode(
                 course,
+                pathIndex: pathIndex,
                 isCurrent: isCurrent,
                 isLocked: isLocked,
                 unlockedBy: unlockedBy,

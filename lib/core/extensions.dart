@@ -14,20 +14,7 @@ import 'package:words625/core/enums.dart';
 
 // Project imports:
 
-extension BreakpointUtils on BoxConstraints {
-  bool get isTablet => maxWidth > 730;
-
-  bool get isDesktop => maxWidth > 1200;
-
-  bool get isMobile => !isTablet && !isDesktop;
-}
-
-// Use them
-extension DeviceTypeExtension on BuildContext {
-  bool get isDesktop => MediaQuery.of(this).size.width > 600.0;
-
-  bool get isMobile => MediaQuery.of(this).size.width <= 600.0;
-}
+// Window size classes live in `core/responsive.dart`.
 
 extension NullableStringExtensions<E> on String? {
   /// Returns `true` if this string is `null` or empty.
@@ -228,16 +215,6 @@ extension DateTimeExtension on DateTime {
 
   String toFormattedTime() {
     return DateFormat('hh:mm a').format(this);
-  }
-}
-
-extension RoutingHandler on BuildContext {
-  void handleRouting() {
-    if (isDesktop) {
-      maybePop();
-    } else if (isMobile) {
-      Navigator.pop(this);
-    }
   }
 }
 

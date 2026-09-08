@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/language_info.dart';
 import 'package:words625/di/injection.dart';
@@ -146,11 +147,19 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
               icon: Icon(Icons.restart_alt_rounded, color: context.appWarning),
             ),
           ],
-          bottom: const TabBar(
-            tabs: [
-              Tab(icon: Icon(Icons.style_rounded), text: 'Review'),
-              Tab(icon: Icon(Icons.search_rounded), text: 'Browse'),
-            ],
+          bottom: const PreferredSize(
+            preferredSize: Size.fromHeight(kTextTabBarHeight + 20),
+            // Two tabs spread across a desktop window sit nowhere near the
+            // content they switch, so they keep to the same column.
+            child: ContentBounds(
+              maxWidth: ContentWidth.column,
+              child: TabBar(
+                tabs: [
+                  Tab(icon: Icon(Icons.style_rounded), text: 'Review'),
+                  Tab(icon: Icon(Icons.search_rounded), text: 'Browse'),
+                ],
+              ),
+            ),
           ),
         ),
         body: _body(info),
@@ -160,18 +169,22 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
 
   Widget _body(LanguageInfo info) {
     if (_error != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(32),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Icon(Icons.cloud_off_rounded, size: 48, color: context.appDanger),
-              const SizedBox(height: 12),
-              const Text('Could not load this vocabulary deck.'),
-              const SizedBox(height: 12),
-              OutlinedButton(onPressed: _load, child: const Text('TRY AGAIN')),
-            ],
+      return ContentBounds(
+        child: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(Icons.cloud_off_rounded,
+                    size: 48, color: context.appDanger),
+                const SizedBox(height: 12),
+                const Text('Could not load this vocabulary deck.'),
+                const SizedBox(height: 12),
+                OutlinedButton(
+                    onPressed: _load, child: const Text('TRY AGAIN')),
+              ],
+            ),
           ),
         ),
       );
@@ -180,10 +193,19 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
     if (cards == null) {
       return Center(child: CircularProgressIndicator(color: context.appAccent));
     }
+    // Reviewing is a single-column activity: one card, one decision. Browsing
+    // is a list, so it gets the wider measure. Both are bounded here so every
+    // state of both tabs - overview, session, summary, caught-up - inherits it.
     return TabBarView(
       children: [
-        _reviewTab(info, cards),
-        _browseTab(info, cards),
+        ContentBounds(
+          maxWidth: ContentWidth.column,
+          child: _reviewTab(info, cards),
+        ),
+        ContentBounds(
+          maxWidth: ContentWidth.feed,
+          child: _browseTab(info, cards),
+        ),
       ],
     );
   }
@@ -426,19 +448,25 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
   }
 
   Widget _statsGrid(FlashcardStats stats) {
-    return GridView.count(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      crossAxisCount: 2,
-      crossAxisSpacing: 10,
-      mainAxisSpacing: 10,
-      childAspectRatio: 2.1,
-      children: [
-        _StatTile('New', stats.newCards, context.appInfo),
-        _StatTile('Due', stats.due, context.appDanger),
-        _StatTile('Learning', stats.learning, context.appWarning),
-        _StatTile('Mastered', stats.mastered, context.appSuccess),
-      ],
+    // Exactly four tiles, so the column count is chosen rather than derived:
+    // a max-extent delegate lands on three and orphans the fourth.
+    return LayoutBuilder(
+      builder: (context, constraints) => GridView(
+        shrinkWrap: true,
+        physics: const NeverScrollableScrollPhysics(),
+        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          crossAxisCount: constraints.maxWidth >= 440 ? 4 : 2,
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 10,
+          childAspectRatio: constraints.maxWidth >= 440 ? 1.5 : 2.1,
+        ),
+        children: [
+          _StatTile('New', stats.newCards, context.appInfo),
+          _StatTile('Due', stats.due, context.appDanger),
+          _StatTile('Learning', stats.learning, context.appWarning),
+          _StatTile('Mastered', stats.mastered, context.appSuccess),
+        ],
+      ),
     );
   }
 
@@ -598,19 +626,28 @@ class _StatTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         border: Border.all(color: color.withValues(alpha: 0.35)),
       ),
+      // Both halves give way: the count grows with the deck and the tile
+      // narrows as the grid gains columns, so neither can take its natural
+      // width and assume it fits.
       child: Row(
         children: [
-          Text(
-            '$value',
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  color: color,
-                  fontWeight: FontWeight.w800,
-                ),
+          Flexible(
+            child: Text(
+              '$value',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    color: color,
+                    fontWeight: FontWeight.w800,
+                  ),
+            ),
           ),
           const SizedBox(width: 8),
           Expanded(
             child: Text(
               label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
               style: TextStyle(color: context.appTextSecondary),
             ),
           ),

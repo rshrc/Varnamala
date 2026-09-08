@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/views/theme.dart';
@@ -13,6 +14,7 @@ Future<CoursePracticeSelection?> showCoursePracticePicker(
   final totalLessons = totalUnits * LessonStageKind.values.length;
   return showModalBottomSheet<CoursePracticeSelection>(
     context: context,
+    constraints: kSheetConstraints,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
     builder: (context) => SafeArea(

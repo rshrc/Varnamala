@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/profile/widgets/widgets.dart';
 
 class ProfilePage extends StatelessWidget {
@@ -9,20 +10,23 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(
-      physics: const BouncingScrollPhysics(),
-      slivers: [
-        SliverToBoxAdapter(
-          child: _ProfileHeader(),
-        ),
-        const SliverToBoxAdapter(child: SizedBox(height: 8)),
-        const SliverToBoxAdapter(child: FriendUpdates()),
-        const SliverToBoxAdapter(child: Statistics()),
-        const SliverToBoxAdapter(child: FriendSuggestions()),
-        const SliverToBoxAdapter(child: SocialFriends()),
-        const SliverToBoxAdapter(child: Achievements()),
-        const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
-      ],
+    return ContentBounds(
+      maxWidth: ContentWidth.feed,
+      child: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
+        slivers: [
+          SliverToBoxAdapter(
+            child: _ProfileHeader(),
+          ),
+          const SliverToBoxAdapter(child: SizedBox(height: 8)),
+          const SliverToBoxAdapter(child: FriendUpdates()),
+          const SliverToBoxAdapter(child: Statistics()),
+          const SliverToBoxAdapter(child: FriendSuggestions()),
+          const SliverToBoxAdapter(child: SocialFriends()),
+          const SliverToBoxAdapter(child: Achievements()),
+          const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
+        ],
+      ),
     );
   }
 }

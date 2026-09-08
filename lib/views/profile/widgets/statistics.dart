@@ -111,19 +111,19 @@ class _StatisticsState extends State<Statistics> {
               ),
               _StatCard(
                 icon: Icons.bolt_rounded,
-                iconColor: VarnamalaTheme.peacockTurquoise,
+                iconColor: context.appAccent,
                 value: totalXp,
                 label: 'Total XP',
               ),
               _StatCard(
                 icon: Icons.shield_rounded,
-                iconColor: VarnamalaTheme.leagueAmethyst,
+                iconColor: context.appViolet,
                 value: league,
                 label: 'Current League',
               ),
               _StatCard(
                 icon: Icons.diamond_rounded,
-                iconColor: VarnamalaTheme.error,
+                iconColor: context.appDanger,
                 value: gems,
                 label: 'Gems',
               ),

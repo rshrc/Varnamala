@@ -3,8 +3,14 @@ import 'package:words625/core/enums.dart';
 import 'package:words625/courses/alphabets/alphabets.dart';
 
 /// Every letter of the script, in teaching order.
+///
+/// The three getters below all return an **unmodifiable copy**. The letter
+/// maps are ordinary top-level `Map`s, so handing the instance itself to a
+/// caller let one screen permanently empty the alphabet for the whole session:
+/// the practice screen removed each letter as it was learned, and "Learn
+/// Vowels" worked exactly once per app launch.
 Map<String, String> getLanguageSounds(TargetLanguage language) =>
-    switch (language) {
+    Map.unmodifiable(switch (language) {
       TargetLanguage.assamese => assameseSounds,
       TargetLanguage.bengali => bengaliSounds,
       TargetLanguage.gujarati => gujaratiSounds,
@@ -18,10 +24,10 @@ Map<String, String> getLanguageSounds(TargetLanguage language) =>
       TargetLanguage.tamil => tamilSounds,
       TargetLanguage.telugu => teluguSounds,
       TargetLanguage.urdu => urduSounds,
-    };
+    });
 
 Map<String, String> getLanguageVowels(TargetLanguage language) =>
-    switch (language) {
+    Map.unmodifiable(switch (language) {
       TargetLanguage.assamese => assameseVowels,
       TargetLanguage.bengali => bengaliVowels,
       TargetLanguage.gujarati => gujaratiVowels,
@@ -35,10 +41,10 @@ Map<String, String> getLanguageVowels(TargetLanguage language) =>
       TargetLanguage.tamil => tamilVowels,
       TargetLanguage.telugu => teluguVowels,
       TargetLanguage.urdu => urduVowels,
-    };
+    });
 
 Map<String, String> getLanguageConsonants(TargetLanguage language) =>
-    switch (language) {
+    Map.unmodifiable(switch (language) {
       TargetLanguage.assamese => assameseConsonants,
       TargetLanguage.bengali => bengaliConsonants,
       TargetLanguage.gujarati => gujaratiConsonants,
@@ -52,4 +58,4 @@ Map<String, String> getLanguageConsonants(TargetLanguage language) =>
       TargetLanguage.tamil => tamilConsonants,
       TargetLanguage.telugu => teluguConsonants,
       TargetLanguage.urdu => urduConsonants,
-    };
+    });

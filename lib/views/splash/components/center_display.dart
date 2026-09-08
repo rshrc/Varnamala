@@ -88,7 +88,7 @@ class CenterDisplay extends StatelessWidget {
                   textStyle: GoogleFonts.nunito(
                     fontSize: 18,
                     fontWeight: FontWeight.w700,
-                    color: VarnamalaTheme.error, // Highlight "Free"
+                    color: context.appDanger, // Highlight "Free"
                   ),
                   duration: const Duration(milliseconds: 2500),
                 ),

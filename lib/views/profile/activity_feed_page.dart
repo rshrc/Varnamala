@@ -6,6 +6,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/application/activity_provider.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/identicon.dart';
@@ -31,26 +32,30 @@ class ActivityFeedPage extends StatelessWidget {
         backgroundColor: context.appSurface,
         elevation: 0,
       ),
-      body: StreamBuilder<List<ActivityItem>>(
-        stream: activity.watchFeed(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return Center(
-              child: CircularProgressIndicator(
-                  color: context.appAccent, strokeWidth: 3),
+      body: ContentBounds(
+        maxWidth: ContentWidth.feed,
+        child: StreamBuilder<List<ActivityItem>>(
+          stream: activity.watchFeed(),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return Center(
+                child: CircularProgressIndicator(
+                    color: context.appAccent, strokeWidth: 3),
+              );
+            }
+
+            final items = snapshot.data ?? const <ActivityItem>[];
+            if (items.isEmpty) return const _EmptyFeed();
+
+            return ListView.separated(
+              padding: const EdgeInsets.all(16),
+              itemCount: items.length,
+              separatorBuilder: (_, __) => const SizedBox(height: 10),
+              itemBuilder: (context, index) =>
+                  _ActivityCard(item: items[index]),
             );
-          }
-
-          final items = snapshot.data ?? const <ActivityItem>[];
-          if (items.isEmpty) return const _EmptyFeed();
-
-          return ListView.separated(
-            padding: const EdgeInsets.all(16),
-            itemCount: items.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 10),
-            itemBuilder: (context, index) => _ActivityCard(item: items[index]),
-          );
-        },
+          },
+        ),
       ),
     );
   }

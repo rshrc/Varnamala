@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/gems_provider.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/auth/components/logout_button.dart';
 import 'package:words625/views/theme.dart';
@@ -36,149 +37,154 @@ class ShopPage extends StatelessWidget {
             (gameState['claimedShareCount'] as num? ?? 0).toInt();
         final canClaimShare = validatedShareCount > claimedShareCount;
 
-        return CustomScrollView(
-          physics: const BouncingScrollPhysics(),
-          slivers: [
-            const SliverToBoxAdapter(child: SizedBox(height: 8)),
-            const SliverToBoxAdapter(
-              child: _SectionTitle(
-                title: 'Learn To Repair',
-                icon: Icons.local_fire_department_rounded,
-                iconColor: Color(0xFFFF9500),
+        return ContentBounds(
+          maxWidth: ContentWidth.feed,
+          child: CustomScrollView(
+            physics: const BouncingScrollPhysics(),
+            slivers: [
+              const SliverToBoxAdapter(child: SizedBox(height: 8)),
+              const SliverToBoxAdapter(
+                child: _SectionTitle(
+                  title: 'Learn To Repair',
+                  icon: Icons.local_fire_department_rounded,
+                  iconColor: Color(0xFFFF9500),
+                ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.ac_unit_rounded,
-                iconColor: const Color(0xFF42A5F5),
-                label: 'Streak Repair',
-                description: repairRequired
-                    ? 'Answer more questions and challenges to repair your streak.'
-                    : 'Your streak is healthy. Keep learning daily.',
-                buttonLabel: repairRequired
-                    ? '$repairProgress / $repairTarget'
-                    : 'ACTIVE',
-                enabled: false,
+              SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.ac_unit_rounded,
+                  iconColor: const Color(0xFF42A5F5),
+                  label: 'Streak Repair',
+                  description: repairRequired
+                      ? 'Answer more questions and challenges to repair your streak.'
+                      : 'Your streak is healthy. Keep learning daily.',
+                  buttonLabel: repairRequired
+                      ? '$repairProgress / $repairTarget'
+                      : 'ACTIVE',
+                  enabled: false,
+                ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                child: Material(
-                  color: context.appInfo,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                  child: InkWell(
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  child: Material(
+                    color: context.appInfo,
                     borderRadius:
                         BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                    onTap: () => context.router.push(const MatchWordsRoute()),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(Icons.bolt_rounded,
-                              color: Theme.of(context).colorScheme.onSecondary,
-                              size: 22),
-                          const SizedBox(width: 8),
-                          Text(
-                            'Try Match Madness',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w700,
-                              color: Theme.of(context).colorScheme.onSecondary,
+                    child: InkWell(
+                      borderRadius:
+                          BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                      onTap: () => context.router.push(const MatchWordsRoute()),
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.bolt_rounded,
+                                color:
+                                    Theme.of(context).colorScheme.onSecondary,
+                                size: 22),
+                            const SizedBox(width: 8),
+                            Text(
+                              'Try Match Madness',
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color:
+                                    Theme.of(context).colorScheme.onSecondary,
+                              ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   ),
                 ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: _SectionTitle(
-                title: 'Community Rewards',
-                icon: Icons.bolt_rounded,
-                iconColor: VarnamalaTheme.warning,
+              SliverToBoxAdapter(
+                child: _SectionTitle(
+                  title: 'Community Rewards',
+                  icon: Icons.bolt_rounded,
+                  iconColor: context.appWarning,
+                ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.person_add_alt_rounded,
-                iconColor: const Color(0xFF66BB6A),
-                label: 'Follow Reward',
-                description:
-                    'Follow learners to claim a one-time community gem reward.',
-                buttonLabel: followRewardClaimed ? 'CLAIMED' : 'CLAIM',
-                enabled: !followRewardClaimed,
-                onTap: followRewardClaimed
-                    ? null
-                    : () =>
-                        _handleCommunityClaim(context, CommunityAction.follow),
+              SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.person_add_alt_rounded,
+                  iconColor: const Color(0xFF66BB6A),
+                  label: 'Follow Reward',
+                  description:
+                      'Follow learners to claim a one-time community gem reward.',
+                  buttonLabel: followRewardClaimed ? 'CLAIMED' : 'CLAIM',
+                  enabled: !followRewardClaimed,
+                  onTap: followRewardClaimed
+                      ? null
+                      : () => _handleCommunityClaim(
+                          context, CommunityAction.follow),
+                ),
               ),
-            ),
-            SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.flash_on_rounded,
-                iconColor: const Color(0xFFAB47BC),
-                label: 'Share Reward',
-                description:
-                    'Claim only after share validation (server-validated shares).',
-                buttonLabel: canClaimShare ? 'CLAIM' : 'PENDING VALIDATION',
-                enabled: canClaimShare,
-                onTap: canClaimShare
-                    ? () => _handleCommunityClaim(
-                        context, CommunityAction.validatedShare)
-                    : null,
+              SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.flash_on_rounded,
+                  iconColor: const Color(0xFFAB47BC),
+                  label: 'Share Reward',
+                  description:
+                      'Claim only after share validation (server-validated shares).',
+                  buttonLabel: canClaimShare ? 'CLAIM' : 'PENDING VALIDATION',
+                  enabled: canClaimShare,
+                  onTap: canClaimShare
+                      ? () => _handleCommunityClaim(
+                          context, CommunityAction.validatedShare)
+                      : null,
+                ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: _SectionTitle(
-                title: 'Outfits',
-                icon: Icons.checkroom_rounded,
-                iconColor: VarnamalaTheme.leagueAmethyst,
+              SliverToBoxAdapter(
+                child: _SectionTitle(
+                  title: 'Outfits',
+                  icon: Icons.checkroom_rounded,
+                  iconColor: context.appViolet,
+                ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.workspace_premium_rounded,
-                iconColor: Color(0xFF5C6BC0),
-                label: 'Formal Attire',
-                description: "Learn in style. Mala has always been sharp.",
-                buttonLabel: 'COMING SOON',
-                enabled: false,
+              const SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.workspace_premium_rounded,
+                  iconColor: Color(0xFF5C6BC0),
+                  label: 'Formal Attire',
+                  description: "Learn in style. Mala has always been sharp.",
+                  buttonLabel: 'COMING SOON',
+                  enabled: false,
+                ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.diamond_rounded,
-                iconColor: Color(0xFFAB47BC),
-                label: 'Luxury Tracksuit',
-                description: 'Mala will love the luxury feathers.',
-                buttonLabel: 'COMING SOON',
-                enabled: false,
+              const SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.diamond_rounded,
+                  iconColor: Color(0xFFAB47BC),
+                  label: 'Luxury Tracksuit',
+                  description: 'Mala will love the luxury feathers.',
+                  buttonLabel: 'COMING SOON',
+                  enabled: false,
+                ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: ShopItem(
-                icon: Icons.auto_awesome_rounded,
-                iconColor: Color(0xFFEF5350),
-                label: 'Super Mala',
-                description: 'Turn Mala into a fearless feathered Guru.',
-                buttonLabel: 'COMING SOON',
-                enabled: false,
+              const SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.auto_awesome_rounded,
+                  iconColor: Color(0xFFEF5350),
+                  label: 'Super Mala',
+                  description: 'Turn Mala into a fearless feathered Guru.',
+                  buttonLabel: 'COMING SOON',
+                  enabled: false,
+                ),
               ),
-            ),
-            const SliverToBoxAdapter(
-              child: Padding(
-                padding: EdgeInsets.all(16.0),
-                child: LogoutButton(),
+              const SliverToBoxAdapter(
+                child: Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: LogoutButton(),
+                ),
               ),
-            ),
-            const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
-          ],
+              const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
+            ],
+          ),
         );
       },
     );

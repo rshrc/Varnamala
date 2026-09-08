@@ -1,5 +1,6 @@
 // Dart imports:
 import 'dart:async';
+import 'dart:math' as math;
 
 // Flutter imports:
 import 'package:flutter/foundation.dart';
@@ -14,6 +15,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 
 // Project imports:
 import 'package:words625/core/logger.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/language_preference_service.dart';
@@ -162,7 +164,12 @@ class _GetStartedButtonState extends State<GetStartedButton> {
 
     // On mobile, use the custom styled button.
     return ChicletAnimatedButton(
-      width: widget.width ?? MediaQuery.of(context).size.width * 0.9,
+      // Wide on a phone, but never wider than the sign-in column it sits in.
+      width: widget.width ??
+          math.min(
+            MediaQuery.sizeOf(context).width * 0.9,
+            ContentWidth.column,
+          ),
       onPressed: _handleGoogleLogin,
       buttonType: ChicletButtonTypes.roundedRectangle,
       backgroundColor: Theme.of(context).colorScheme.primary,

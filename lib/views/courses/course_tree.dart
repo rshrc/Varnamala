@@ -9,6 +9,7 @@ import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 import 'package:words625/application/course_provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/courses/courses.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/courses/components/course_node.dart';
@@ -45,11 +46,7 @@ class CourseTreeState extends State<CourseTree> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        gradient: Theme.of(context).brightness == Brightness.dark
-            ? VarnamalaTheme.darkCourseTreeGradient
-            : VarnamalaTheme.courseTreeGradient,
-      ),
+      decoration: BoxDecoration(gradient: context.appPathGradient),
       child: Consumer<CourseProvider>(
         builder: (context, courseState, _) {
           if (courseState.hasFailed) {
@@ -86,42 +83,58 @@ class CourseTreeState extends State<CourseTree> {
                 ),
             builder: (context, unlockAll) {
               final headerCount = unlockAll ? 2 : 1;
+              // The path wanders left and right of centre by a fraction of
+              // whatever width it is given, so an unbounded one flings its
+              // nodes to opposite edges of a desktop window. Holding it to a
+              // phone-width column keeps the walk readable at any size.
+              // The column is applied per item rather than around the whole
+              // list on purpose: bounding the scroll view itself puts its
+              // scrollbar at the edge of a 420px column, floating in the middle
+              // of a desktop window next to the nodes. The list stays full
+              // width so the scrollbar rides the window edge where it belongs,
+              // and only the contents are narrowed.
               return ListView.builder(
                 physics: const BouncingScrollPhysics(),
                 padding: const EdgeInsets.only(top: 12, bottom: 48),
                 itemCount: courses.length + headerCount,
-                itemBuilder: (context, index) {
-                  if (index == 0) {
-                    return CourseLearnTools(
-                      language:
-                          context.read<LanguageProvider>().selectedLanguage,
-                    );
-                  }
-                  if (unlockAll && index == 1) {
-                    return const UnlockedCoursePathNotice();
-                  }
+                itemBuilder: (context, index) => ContentBounds(
+                  maxWidth: ContentWidth.path,
+                  gutter: false,
+                  child: Builder(builder: (context) {
+                    if (index == 0) {
+                      return CourseLearnTools(
+                        language:
+                            context.read<LanguageProvider>().selectedLanguage,
+                      );
+                    }
+                    if (unlockAll && index == 1) {
+                      return const UnlockedCoursePathNotice();
+                    }
 
-                  final courseIndex = index - headerCount;
-                  return CoursePathStep(
-                    course: courses[courseIndex],
-                    dx: coursePathWander[courseIndex % coursePathWander.length],
-                    previousDx: courseIndex == 0
-                        ? null
-                        : coursePathWander[
-                            (courseIndex - 1) % coursePathWander.length],
-                    isCurrent: courseIndex == currentIndex,
-                    isLocked: pathCourseIsLocked(
-                      courseIndex: courseIndex,
-                      currentIndex: currentIndex,
-                      unlockAll: unlockAll,
-                    ),
-                    unlockedBy: courseIndex == 0
-                        ? null
-                        : courses[courseIndex - 1].courseName,
-                    note: notes[courses[courseIndex].courseName],
-                    onProgressChanged: () => setState(() {}),
-                  );
-                },
+                    final courseIndex = index - headerCount;
+                    return CoursePathStep(
+                      course: courses[courseIndex],
+                      pathIndex: courseIndex,
+                      dx: coursePathWander[
+                          courseIndex % coursePathWander.length],
+                      previousDx: courseIndex == 0
+                          ? null
+                          : coursePathWander[
+                              (courseIndex - 1) % coursePathWander.length],
+                      isCurrent: courseIndex == currentIndex,
+                      isLocked: pathCourseIsLocked(
+                        courseIndex: courseIndex,
+                        currentIndex: currentIndex,
+                        unlockAll: unlockAll,
+                      ),
+                      unlockedBy: courseIndex == 0
+                          ? null
+                          : courses[courseIndex - 1].courseName,
+                      note: notes[courses[courseIndex].courseName],
+                      onProgressChanged: () => setState(() {}),
+                    );
+                  }),
+                ),
               );
             },
           );

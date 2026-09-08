@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
+import 'package:words625/views/home/components/home_destinations.dart';
 import 'package:words625/views/theme.dart';
 
 class BottomNavigator extends StatelessWidget {
@@ -24,53 +26,36 @@ class BottomNavigator extends StatelessWidget {
           color: context.appSurface,
           boxShadow: [
             BoxShadow(
-              color: VarnamalaTheme.peacockTeal.withValues(alpha: 0.08),
+              color: context.appShadowTint.withValues(alpha: 0.08),
               blurRadius: 20,
               offset: const Offset(0, -4),
             ),
           ],
         ),
         padding: EdgeInsets.only(bottom: bottomPadding),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            _NavItem(
-              icon: Icons.school_rounded,
-              label: 'Learn',
-              color: context.appSuccess,
-              isSelected: currentIndex == 0,
-              onTap: () => onPress(0),
-            ),
-            _NavItem(
-              icon: Icons.translate_rounded,
-              label: 'Script',
-              color: context.appInfo,
-              isSelected: currentIndex == 1,
-              onTap: () => onPress(1),
-            ),
-            _NavItem(
-              icon: Icons.person_rounded,
-              label: 'Profile',
-              color: context.appViolet,
-              isSelected: currentIndex == 2,
-              onTap: () => onPress(2),
-            ),
-            _NavItem(
-              icon: Icons.emoji_events_rounded,
-              label: 'Leagues',
-              color: context.appWarning,
-              isSelected: currentIndex == 3,
-              onTap: () => onPress(3),
-            ),
-            _NavItem(
-              icon: Icons.storefront_rounded,
-              label: 'Shop',
-              color: context.appDanger,
-              isSelected: currentIndex == 4,
-              onTap: () => onPress(4),
-            ),
-          ],
+        // On a tablet in portrait the bar is far wider than the five tabs
+        // need, and spacing them across it leaves the thumb reaching. Keeping
+        // them in a phone-width group holds them together in the middle.
+        child: ContentBounds(
+          maxWidth: ContentWidth.column,
+          gutter: false,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              // Each tab takes an equal share rather than its natural width:
+              // five labels at their own size overflow a narrow phone, and
+              // overflow more readily still at large text sizes.
+              for (var index = 0; index < homeDestinations.length; index++)
+                Expanded(
+                  child: _NavItem(
+                    destination: homeDestinations[index],
+                    isSelected: currentIndex == index,
+                    onTap: () => onPress(index),
+                  ),
+                ),
+            ],
+          ),
         ),
       ),
     );
@@ -78,35 +63,29 @@ class BottomNavigator extends StatelessWidget {
 }
 
 class _NavItem extends StatelessWidget {
-  final IconData icon;
-  final String label;
+  final HomeDestination destination;
   final bool isSelected;
-  final Color color;
   final VoidCallback onTap;
 
   const _NavItem({
-    required this.icon,
-    required this.label,
+    required this.destination,
     required this.isSelected,
-    required this.color,
     required this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final restingIcon = Color.lerp(
-      color,
-      context.appTextSecondary,
-      isDark ? 0.38 : 0.55,
-    )!;
+    final color = destination.color(context);
+    final restingIcon = homeDestinationRestingColor(context, color);
 
     return GestureDetector(
       onTap: onTap,
       behavior: HitTestBehavior.opaque,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        margin: const EdgeInsets.symmetric(horizontal: 4),
+        padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 8),
         decoration: BoxDecoration(
           color: isSelected
               ? color.withValues(alpha: isDark ? 0.18 : 0.1)
@@ -117,13 +96,16 @@ class _NavItem extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(
-              icon,
+              destination.icon,
               size: 26,
               color: isSelected ? color : restingIcon,
             ),
             const SizedBox(height: 2),
             Text(
-              label,
+              destination.label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 11,
                 fontWeight: isSelected ? FontWeight.w600 : FontWeight.w500,

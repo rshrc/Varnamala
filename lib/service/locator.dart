@@ -99,6 +99,7 @@ class PrefsConstants {
   static const String currentLanguage = 'currentLanguage';
   static const String languageSelectionComplete = 'languageSelectionComplete';
   static const String themeMode = 'themeMode';
+  static const String themePalette = 'themePalette';
   static const String demoCount = 'demoCount';
   static const String unlockAllLevels = 'unlockAllLevels';
   static const String flashcardProgressPrefix = 'flashcardProgress_';

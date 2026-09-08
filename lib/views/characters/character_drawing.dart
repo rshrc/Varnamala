@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'package:words625/application/character_provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/enums.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/core/utils.dart';
 import 'package:words625/courses/alphabets/alphabets.dart';
 import 'package:words625/application/game_provider.dart';
@@ -48,108 +49,122 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(
-      physics: const BouncingScrollPhysics(),
-      slivers: [
-        // Vowels section
-        SliverToBoxAdapter(
-          child: _SectionHeader(
-            title: 'Vowels',
-            subtitle: '${vowels.length} characters',
-            icon: Icons.record_voice_over_rounded,
-          ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 12),
-          sliver: SliverGrid(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4,
-              childAspectRatio: 0.85,
-              crossAxisSpacing: 8,
-              mainAxisSpacing: 8,
-            ),
-            delegate: SliverChildBuilderDelegate(
-              (context, index) {
-                final entry = vowels.entries.elementAt(index);
-                return _CharacterTile(
-                  character: entry.key,
-                  pronunciation: entry.value,
-                  color: context.appSuccess,
-                );
-              },
-              childCount: vowels.length,
+    return ContentBounds(
+      maxWidth: ContentWidth.grid,
+      child: CustomScrollView(
+        physics: const BouncingScrollPhysics(),
+        slivers: [
+          // Vowels section
+          SliverToBoxAdapter(
+            child: _SectionHeader(
+              title: 'Vowels',
+              subtitle: '${vowels.length} characters',
+              icon: Icons.record_voice_over_rounded,
             ),
           ),
-        ),
-        // Consonants section
-        SliverToBoxAdapter(
-          child: _SectionHeader(
-            title: 'Consonants',
-            subtitle: '${consonants.length} characters',
-            icon: Icons.abc_rounded,
-          ),
-        ),
-        SliverPadding(
-          padding: const EdgeInsets.symmetric(horizontal: 12),
-          sliver: SliverGrid(
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 4,
-              childAspectRatio: 0.85,
-              crossAxisSpacing: 8,
-              mainAxisSpacing: 8,
-            ),
-            delegate: SliverChildBuilderDelegate(
-              (context, index) {
-                final entry = consonants.entries.elementAt(index);
-                return _CharacterTile(
-                  character: entry.key,
-                  pronunciation: entry.value,
-                  color: context.appViolet,
-                );
-              },
-              childCount: consonants.length,
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 12),
+            sliver: SliverGrid(
+              gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                // Four across on a phone, more as the window widens, instead of
+                // four tiles inflated to the size of playing cards.
+                maxCrossAxisExtent: 96,
+                childAspectRatio: 0.85,
+                crossAxisSpacing: 8,
+                mainAxisSpacing: 8,
+              ),
+              delegate: SliverChildBuilderDelegate(
+                (context, index) {
+                  final entry = vowels.entries.elementAt(index);
+                  return _CharacterTile(
+                    character: entry.key,
+                    pronunciation: entry.value,
+                    color: context.appSuccess,
+                  );
+                },
+                childCount: vowels.length,
+              ),
             ),
           ),
-        ),
-        // Practice buttons
-        SliverToBoxAdapter(
-          child: Padding(
-            padding: const EdgeInsets.all(16),
-            child: Column(
-              children: [
-                const SizedBox(height: 8),
-                _PracticeButton(
-                  label: 'Learn Vowels',
-                  icon: Icons.record_voice_over_rounded,
-                  color: context.appSuccess,
-                  onTap: () => context.router.push(
-                      VowelAndConsonantLearningRoute(
-                          mode: CharacterLearningMode.vowels)),
+          // Consonants section
+          SliverToBoxAdapter(
+            child: _SectionHeader(
+              title: 'Consonants',
+              subtitle: '${consonants.length} characters',
+              icon: Icons.abc_rounded,
+            ),
+          ),
+          SliverPadding(
+            padding: const EdgeInsets.symmetric(horizontal: 12),
+            sliver: SliverGrid(
+              gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                // Four across on a phone, more as the window widens, instead of
+                // four tiles inflated to the size of playing cards.
+                maxCrossAxisExtent: 96,
+                childAspectRatio: 0.85,
+                crossAxisSpacing: 8,
+                mainAxisSpacing: 8,
+              ),
+              delegate: SliverChildBuilderDelegate(
+                (context, index) {
+                  final entry = consonants.entries.elementAt(index);
+                  return _CharacterTile(
+                    character: entry.key,
+                    pronunciation: entry.value,
+                    color: context.appViolet,
+                  );
+                },
+                childCount: consonants.length,
+              ),
+            ),
+          ),
+          // Practice buttons
+          SliverToBoxAdapter(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              // The buttons stretch to fill their column, so they get a
+              // narrower one than the character grid rather than running its
+              // whole width.
+              child: ContentBounds(
+                maxWidth: ContentWidth.column,
+                gutter: false,
+                child: Column(
+                  children: [
+                    const SizedBox(height: 8),
+                    _PracticeButton(
+                      label: 'Learn Vowels',
+                      icon: Icons.record_voice_over_rounded,
+                      color: context.appSuccess,
+                      onTap: () => context.router.push(
+                          VowelAndConsonantLearningRoute(
+                              mode: CharacterLearningMode.vowels)),
+                    ),
+                    const SizedBox(height: 10),
+                    _PracticeButton(
+                      label: 'Learn Consonants',
+                      icon: Icons.abc_rounded,
+                      color: context.appViolet,
+                      onTap: () => context.router.push(
+                          VowelAndConsonantLearningRoute(
+                              mode: CharacterLearningMode.consonants)),
+                    ),
+                    const SizedBox(height: 10),
+                    _PracticeButton(
+                      label: 'Random Practice',
+                      icon: Icons.shuffle_rounded,
+                      color: context.appInfo,
+                      onTap: () => context.router.push(
+                          VowelAndConsonantLearningRoute(
+                              mode: CharacterLearningMode.random)),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 10),
-                _PracticeButton(
-                  label: 'Learn Consonants',
-                  icon: Icons.abc_rounded,
-                  color: context.appViolet,
-                  onTap: () => context.router.push(
-                      VowelAndConsonantLearningRoute(
-                          mode: CharacterLearningMode.consonants)),
-                ),
-                const SizedBox(height: 10),
-                _PracticeButton(
-                  label: 'Random Practice',
-                  icon: Icons.shuffle_rounded,
-                  color: context.appInfo,
-                  onTap: () => context.router.push(
-                      VowelAndConsonantLearningRoute(
-                          mode: CharacterLearningMode.random)),
-                ),
-              ],
+              ),
             ),
           ),
-        ),
-        const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
-      ],
+          const SliverPadding(padding: EdgeInsets.only(bottom: 24)),
+        ],
+      ),
     );
   }
 }
@@ -210,36 +225,69 @@ class _CharacterTile extends StatelessWidget {
       color: context.appSurface,
       borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
       child: InkWell(
-        onTap: () {
-          getIt<SpeechService>().speak(pronunciation);
-          getIt<GameProvider>().bumpStat('lettersPracticed');
-        },
+        // Tapping the tile opens the letter. Sound stays one tap away on the
+        // badge below, because the old behaviour - the whole tile silently
+        // being a play button - was undiscoverable.
+        onTap: () => showCharacterSheet(
+          context,
+          character: character,
+          pronunciation: pronunciation,
+          color: color,
+        ),
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
             border: Border.all(color: context.appBorder),
           ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+          child: Stack(
             children: [
-              Text(
-                character,
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.w700,
-                  color: accent,
+              Center(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      character,
+                      style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.w700,
+                        color: accent,
+                      ),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      pronunciation,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                            color: context.appTextSecondary,
+                            fontSize: 11,
+                          ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
                 ),
               ),
-              const SizedBox(height: 2),
-              Text(
-                pronunciation,
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: context.appTextSecondary,
-                      fontSize: 11,
-                    ),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+              Positioned(
+                top: 2,
+                right: 2,
+                child: IconButton(
+                  visualDensity: VisualDensity.compact,
+                  padding: EdgeInsets.zero,
+                  constraints: const BoxConstraints.tightFor(
+                    width: 26,
+                    height: 26,
+                  ),
+                  tooltip: 'Hear $character',
+                  onPressed: () {
+                    getIt<SpeechService>().speak(pronunciation);
+                    getIt<GameProvider>().bumpStat('lettersPracticed');
+                  },
+                  icon: Icon(
+                    Icons.volume_up_rounded,
+                    size: 15,
+                    color: accent.withValues(alpha: 0.75),
+                  ),
+                ),
               ),
             ],
           ),
@@ -341,15 +389,23 @@ class RenderCharacterState extends State<RenderCharacter> {
           ),
           child: Stack(
             children: [
+              // The guide glyph is sized to whatever canvas it ends up in,
+              // rather than a fixed 280px that spills out of a small one.
               Center(
-                child: Opacity(
-                  opacity: 0.08,
-                  child: Text(
-                    widget.alphabet,
-                    style: TextStyle(
-                      fontSize: 280,
-                      color: context.appAccent,
-                      fontWeight: FontWeight.bold,
+                child: FractionallySizedBox(
+                  widthFactor: 0.7,
+                  heightFactor: 0.7,
+                  child: FittedBox(
+                    fit: BoxFit.contain,
+                    child: Opacity(
+                      opacity: 0.08,
+                      child: Text(
+                        widget.alphabet,
+                        style: TextStyle(
+                          color: context.appAccent,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                     ),
                   ),
                 ),
@@ -428,7 +484,16 @@ class RenderCharacterState extends State<RenderCharacter> {
 @RoutePage()
 class VowelAndConsonantLearningPage extends StatefulWidget {
   final CharacterLearningMode mode;
-  const VowelAndConsonantLearningPage({super.key, required this.mode});
+
+  /// Letter to open on. Lets a learner start where they are curious rather
+  /// than always at the top of the alphabet.
+  final String? startAt;
+
+  const VowelAndConsonantLearningPage({
+    super.key,
+    required this.mode,
+    this.startAt,
+  });
 
   @override
   State<VowelAndConsonantLearningPage> createState() =>
@@ -454,16 +519,19 @@ class _VowelAndConsonantLearningPageState
     vowels = getLanguageVowels(targetLanguage);
     consonants = getLanguageConsonants(targetLanguage);
 
-    switch (widget.mode) {
-      case CharacterLearningMode.vowels:
-        charactersToLearn = vowels;
-        break;
-      case CharacterLearningMode.consonants:
-        charactersToLearn = consonants;
-        break;
-      case CharacterLearningMode.random:
-        charactersToLearn = shuffleMap(sounds);
-        break;
+    // A mutable copy: this screen removes each letter as it is learned, and
+    // must never do that to the shared alphabet.
+    charactersToLearn = switch (widget.mode) {
+      CharacterLearningMode.vowels => Map.of(vowels),
+      CharacterLearningMode.consonants => Map.of(consonants),
+      CharacterLearningMode.random => shuffleMap(sounds),
+    };
+    // Open on the requested letter by moving it to the front, so the rest of
+    // the set still follows it.
+    final startAt = widget.startAt;
+    if (startAt != null && charactersToLearn.containsKey(startAt)) {
+      final value = charactersToLearn.remove(startAt) as String;
+      charactersToLearn = {startAt: value, ...charactersToLearn};
     }
     currentCharacter = charactersToLearn.entries.first;
   }
@@ -487,108 +555,122 @@ class _VowelAndConsonantLearningPageState
         ),
       ),
       body: SafeArea(
-        child: Column(
-          children: [
-            const Spacer(flex: 1),
-            RenderCharacter(
-              alphabet: currentCharacter.key,
-              shouldRebuild: shouldRebuildCharacter,
-            ),
-            const SizedBox(height: 24),
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              margin: const EdgeInsets.symmetric(horizontal: 32),
-              decoration: BoxDecoration(
-                color: context.appSurface,
-                borderRadius:
-                    BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                border: Border.all(color: context.appBorder),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    currentCharacter.key,
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.w700,
-                      color: context.appSuccess,
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Icon(Icons.arrow_forward_rounded,
-                      color: context.appInfo, size: 20),
-                  const SizedBox(width: 12),
-                  Text(
-                    currentCharacter.value,
-                    style: TextStyle(
-                      fontSize: 28,
-                      fontWeight: FontWeight.w600,
-                      color: context.appTextPrimary,
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Material(
-                    color: context.appInfo.withValues(alpha: 0.14),
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusSmall),
-                    child: InkWell(
-                      borderRadius:
-                          BorderRadius.circular(VarnamalaTheme.radiusSmall),
-                      onTap: () =>
-                          getIt<SpeechService>().speak(currentCharacter.value),
-                      child: Padding(
-                        padding: const EdgeInsets.all(8),
-                        child: Icon(Icons.volume_up_rounded,
-                            color: context.appInfo, size: 22),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            const Spacer(flex: 2),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
-              child: SizedBox(
-                width: double.infinity,
-                height: 52,
-                child: ElevatedButton(
-                  onPressed: () {
-                    context.read<CharacterProvider>().clearPoints();
-                    setState(() {
-                      visitedCharacters.add(currentCharacter);
-                      charactersToLearn.remove(currentCharacter.key);
-                      if (charactersToLearn.isNotEmpty) {
-                        currentCharacter = charactersToLearn.entries.first;
-                      }
-                    });
-                    shouldRebuildCharacter.value =
-                        !shouldRebuildCharacter.value;
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: context.appAccent,
-                    foregroundColor: Theme.of(context).colorScheme.onPrimary,
-                    shape: RoundedRectangleBorder(
-                      borderRadius:
-                          BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                    ),
-                  ),
-                  child: const Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text('Next',
-                          style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.w700)),
-                      SizedBox(width: 8),
-                      Icon(Icons.arrow_forward_rounded, size: 22),
-                    ],
+        child: ContentBounds(
+          child: Column(
+            children: [
+              // The canvas keeps a 3:4 shape, so it has to be bounded by the
+              // height left over rather than deriving its height from the
+              // window's width - which on a desktop asked for a canvas taller
+              // than the screen and overflowed.
+              Expanded(
+                child: Center(
+                  child: RenderCharacter(
+                    alphabet: currentCharacter.key,
+                    shouldRebuild: shouldRebuildCharacter,
                   ),
                 ),
               ),
-            ),
-            const SizedBox(height: 24),
-          ],
+              const SizedBox(height: 24),
+              Container(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                margin: const EdgeInsets.symmetric(horizontal: 32),
+                decoration: BoxDecoration(
+                  color: context.appSurface,
+                  borderRadius:
+                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                  border: Border.all(color: context.appBorder),
+                ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      currentCharacter.key,
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.w700,
+                        color: context.appSuccess,
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Icon(Icons.arrow_forward_rounded,
+                        color: context.appInfo, size: 20),
+                    const SizedBox(width: 12),
+                    Flexible(
+                      child: Text(
+                        currentCharacter.value,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.w600,
+                          color: context.appTextPrimary,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 12),
+                    Material(
+                      color: context.appInfo.withValues(alpha: 0.14),
+                      borderRadius:
+                          BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                      child: InkWell(
+                        borderRadius:
+                            BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                        onTap: () => getIt<SpeechService>()
+                            .speak(currentCharacter.value),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8),
+                          child: Icon(Icons.volume_up_rounded,
+                              color: context.appInfo, size: 22),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 24),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24),
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 52,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      context.read<CharacterProvider>().clearPoints();
+                      setState(() {
+                        visitedCharacters.add(currentCharacter);
+                        charactersToLearn.remove(currentCharacter.key);
+                        if (charactersToLearn.isNotEmpty) {
+                          currentCharacter = charactersToLearn.entries.first;
+                        }
+                      });
+                      shouldRebuildCharacter.value =
+                          !shouldRebuildCharacter.value;
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: context.appAccent,
+                      foregroundColor: Theme.of(context).colorScheme.onPrimary,
+                      shape: RoundedRectangleBorder(
+                        borderRadius:
+                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                      ),
+                    ),
+                    child: const Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Next',
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w700)),
+                        SizedBox(width: 8),
+                        Icon(Icons.arrow_forward_rounded, size: 22),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(height: 24),
+            ],
+          ),
         ),
       ),
     );
@@ -648,5 +730,123 @@ class CharacterPainter extends CustomPainter {
   @override
   bool shouldRepaint(CharacterPainter oldDelegate) {
     return oldDelegate.strokes != strokes || oldDelegate.color != color;
+  }
+}
+
+/// Opens one letter: big enough to actually see, with the two things a learner
+/// wants next - hear it, and write it.
+///
+/// This is the answer to "the grid only lets you look". Every letter becomes a
+/// way into practice, so a learner can start from the one that puzzles them
+/// rather than restarting the whole alphabet.
+Future<void> showCharacterSheet(
+  BuildContext context, {
+  required String character,
+  required String pronunciation,
+  required Color color,
+}) {
+  return showModalBottomSheet<void>(
+    context: context,
+    constraints: kSheetConstraints,
+    showDragHandle: true,
+    builder: (sheetContext) => _CharacterSheet(
+      character: character,
+      pronunciation: pronunciation,
+      color: color,
+    ),
+  );
+}
+
+class _CharacterSheet extends StatelessWidget {
+  const _CharacterSheet({
+    required this.character,
+    required this.pronunciation,
+    required this.color,
+  });
+
+  final String character;
+  final String pronunciation;
+  final Color color;
+
+  @override
+  Widget build(BuildContext context) {
+    final accent = VarnamalaTheme.adaptiveAccent(context, color);
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+              width: 130,
+              height: 130,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: accent.withValues(alpha: 0.12),
+                shape: BoxShape.circle,
+              ),
+              child: FittedBox(
+                fit: BoxFit.scaleDown,
+                child: Padding(
+                  padding: const EdgeInsets.all(24),
+                  child: Text(
+                    character,
+                    style: TextStyle(
+                      fontSize: 72,
+                      fontWeight: FontWeight.w700,
+                      color: accent,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(height: 14),
+            Text(
+              pronunciation,
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
+            ),
+            const SizedBox(height: 20),
+            Row(
+              children: [
+                Expanded(
+                  child: OutlinedButton.icon(
+                    onPressed: () {
+                      getIt<SpeechService>().speak(pronunciation);
+                      getIt<GameProvider>().bumpStat('lettersPracticed');
+                    },
+                    icon: const Icon(Icons.volume_up_rounded),
+                    label: const Text('HEAR IT'),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: FilledButton.icon(
+                    onPressed: () {
+                      // Captured before the pop, because `context` belongs to
+                      // the sheet's own route and is defunct once it closes.
+                      final navigator = Navigator.of(context);
+                      navigator.pop();
+                      navigator.push(
+                        MaterialPageRoute(
+                          builder: (_) => VowelAndConsonantLearningPage(
+                            mode: CharacterLearningMode.random,
+                            startAt: character,
+                          ),
+                        ),
+                      );
+                    },
+                    icon: const Icon(Icons.draw_rounded),
+                    label: const Text('WRITE IT'),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }

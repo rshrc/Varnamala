@@ -53,34 +53,67 @@ class LeagueProvider extends ChangeNotifier {
     });
   }
 
+  /// How many users are pulled down before ranking. The window has to be
+  /// ordered (see [getLeagueLeaderboard]) for this to mean "the top N".
+  static const int _candidatePoolSize = 300;
+
+  /// How many places each league's board shows.
+  static const int boardSize = 30;
+
   Stream<List<LeaderboardEntry>> getLeagueLeaderboard(String league) {
     return _firestore
         .collection('users')
-        .limit(500)
+        // Ordering is not a nicety here. Without it Firestore returns
+        // documents by ID, so the pool was an arbitrary slice of accounts
+        // keyed on random UIDs and an active learner could sit outside it
+        // forever, no matter how much XP they earned. Ordering by score makes
+        // the pool the top scorers, which is the only slice worth ranking.
+        //
+        // `score` rather than `leagueXp` because every account has had a
+        // `score` since sign-up, and Firestore drops documents that lack the
+        // field being ordered on - which would hide exactly the older accounts
+        // that have not opened the app since `leagueXp` was introduced.
+        .orderBy('score', descending: true)
+        .limit(_candidatePoolSize)
         .snapshots()
-        .map((snapshot) {
-      final users = snapshot.docs
-          .map((doc) => LeaderboardEntry.fromMap(doc.id, doc.data()))
-          .where((entry) {
-        final userLeague =
-            entry.league.trim().isEmpty ? leagues.first : entry.league;
-        if (league == leagues.first) {
-          // Backward-compatible default: users without explicit league appear in Bronze.
-          return userLeague == leagues.first || !leagues.contains(userLeague);
-        }
-        return userLeague == league;
-      }).toList();
+        .map((snapshot) => rankForLeague(
+              snapshot.docs
+                  .map((doc) => LeaderboardEntry.fromMap(doc.id, doc.data()))
+                  .toList(),
+              league,
+            ));
+  }
 
-      users.sort((a, b) {
-        final byLeagueXp = b.effectiveLeagueXp.compareTo(a.effectiveLeagueXp);
-        if (byLeagueXp != 0) return byLeagueXp;
-        return b.score.compareTo(a.score);
-      });
-
-      if (users.length > 30) {
-        return users.sublist(0, 30);
+  /// Picks and orders every entry belonging to [league].
+  ///
+  /// Returns the whole ranked league rather than just the visible places, so
+  /// a learner sitting below the cut can still be shown their own standing.
+  /// Pure, so the ranking rules can be tested without Firestore.
+  static List<LeaderboardEntry> rankForLeague(
+    List<LeaderboardEntry> entries,
+    String league,
+  ) {
+    final users = entries.where((entry) {
+      final userLeague =
+          entry.league.trim().isEmpty ? leagues.first : entry.league;
+      if (league == leagues.first) {
+        // Backward-compatible default: users without an explicit league, or
+        // with one we no longer recognise, appear in Bronze.
+        return userLeague == leagues.first || !leagues.contains(userLeague);
       }
-      return users;
+      return userLeague == league;
+    }).toList();
+
+    users.sort((a, b) {
+      final byLeagueXp = b.effectiveLeagueXp.compareTo(a.effectiveLeagueXp);
+      if (byLeagueXp != 0) return byLeagueXp;
+      final byScore = b.score.compareTo(a.score);
+      if (byScore != 0) return byScore;
+      // A stable tie-break, so equal learners do not swap places on every
+      // snapshot the stream delivers.
+      return a.userId.compareTo(b.userId);
     });
+
+    return users;
   }
 }

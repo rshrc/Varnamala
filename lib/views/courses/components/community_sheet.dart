@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/application/community_provider.dart';
 import 'package:words625/application/identity_provider.dart';
 import 'package:words625/core/enums.dart';
@@ -23,6 +24,7 @@ Future<void> showCommunitySheet(
 }) {
   return showModalBottomSheet<void>(
     context: context,
+    constraints: kSheetConstraints,
     isScrollControlled: true,
     useSafeArea: true,
     backgroundColor: Colors.transparent,
@@ -560,6 +562,7 @@ Future<void> showReportSheet(
 }) {
   return showModalBottomSheet<void>(
     context: context,
+    constraints: kSheetConstraints,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
     builder: (_) => _ReportSheet(

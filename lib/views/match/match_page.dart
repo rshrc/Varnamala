@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/match_provider.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/beta_badge.dart';
 
@@ -110,48 +111,53 @@ class _ModePicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(24),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Align(
-            alignment: Alignment.centerLeft,
-            child: IconButton(
-              icon: const Icon(Icons.close_rounded, size: 28),
-              color: context.appDanger,
-              onPressed: () => Navigator.of(context).pop(),
-            ),
-          ),
-          const Spacer(),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                'Match Madness',
-                textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      fontWeight: FontWeight.w800,
-                      color: context.appAccent,
-                    ),
+    // The cards stretch to fill their column, so without a bound they become
+    // metre-wide slabs on a desktop window.
+    return ContentBounds(
+      maxWidth: ContentWidth.column,
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Align(
+              alignment: Alignment.centerLeft,
+              child: IconButton(
+                icon: const Icon(Icons.close_rounded, size: 28),
+                color: context.appDanger,
+                onPressed: () => Navigator.of(context).pop(),
               ),
-              const SizedBox(width: 8),
-              const BetaBadge(),
+            ),
+            const Spacer(),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Match Madness',
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                        color: context.appAccent,
+                      ),
+                ),
+                const SizedBox(width: 8),
+                const BetaBadge(),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Clear a round to buy more time.\nThe clock never gets kinder.',
+              textAlign: TextAlign.center,
+              style: TextStyle(color: context.appTextSecondary, height: 1.4),
+            ),
+            const SizedBox(height: 36),
+            for (final mode in MatchMode.values) ...[
+              _ModeCard(mode: mode, onTap: () => onPick(mode)),
+              const SizedBox(height: 16),
             ],
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'Clear a round to buy more time.\nThe clock never gets kinder.',
-            textAlign: TextAlign.center,
-            style: TextStyle(color: context.appTextSecondary, height: 1.4),
-          ),
-          const SizedBox(height: 36),
-          for (final mode in MatchMode.values) ...[
-            _ModeCard(mode: mode, onTap: () => onPick(mode)),
-            const SizedBox(height: 16),
+            const Spacer(flex: 2),
           ],
-          const Spacer(flex: 2),
-        ],
+        ),
       ),
     );
   }
@@ -224,55 +230,60 @@ class _Board extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Column(
-          children: [
-            _HeaderBar(match: match),
-            const SizedBox(height: 8),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 14),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Expanded(
-                      child: _Column(
-                        items: match.prompts,
-                        selected: match.selectedPrompt,
-                        matched: match.matchedPrompts,
-                        onTap: match.selectPrompt,
-                        missPulse: match.missPulse,
+    // Two columns of tiles read as pairs only while they are close enough to
+    // scan together; full window width pulls them apart.
+    return ContentBounds(
+      maxWidth: ContentWidth.feed,
+      child: Stack(
+        children: [
+          Column(
+            children: [
+              _HeaderBar(match: match),
+              const SizedBox(height: 8),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 14),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(
+                        child: _Column(
+                          items: match.prompts,
+                          selected: match.selectedPrompt,
+                          matched: match.matchedPrompts,
+                          onTap: match.selectPrompt,
+                          missPulse: match.missPulse,
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: _Column(
-                        items: match.answers,
-                        selected: match.selectedAnswer,
-                        matched: match.matchedAnswers,
-                        onTap: match.selectAnswer,
-                        missPulse: match.missPulse,
+                      const SizedBox(width: 12),
+                      Expanded(
+                        child: _Column(
+                          items: match.answers,
+                          selected: match.selectedAnswer,
+                          matched: match.matchedAnswers,
+                          onTap: match.selectAnswer,
+                          missPulse: match.missPulse,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+          // A round clear is the reward moment — say so loudly.
+          if (match.roundPulse > 0)
+            IgnorePointer(
+              child: Center(
+                child: _RoundBanner(
+                  key: ValueKey('round-${match.roundPulse}'),
+                  round: match.round,
+                  seconds: match.secondsRemaining,
                 ),
               ),
             ),
-          ],
-        ),
-        // A round clear is the reward moment — say so loudly.
-        if (match.roundPulse > 0)
-          IgnorePointer(
-            child: Center(
-              child: _RoundBanner(
-                key: ValueKey('round-${match.roundPulse}'),
-                round: match.round,
-                seconds: match.secondsRemaining,
-              ),
-            ),
-          ),
-      ],
+        ],
+      ),
     );
   }
 }
@@ -331,7 +342,7 @@ class _HeaderBar extends StatelessWidget {
             ),
           )
               .animate(target: low ? 1 : 0)
-              .shimmer(duration: 900.ms, color: VarnamalaTheme.errorLight),
+              .shimmer(duration: 900.ms, color: context.appDanger),
           const SizedBox(height: 6),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -651,50 +662,53 @@ class _GameOver extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 28),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.emoji_events_rounded,
-                    size: 76, color: context.appWarning)
-                .animate()
-                .scale(duration: 420.ms, curve: Curves.easeOutBack),
-            const SizedBox(height: 12),
-            Text(
-              "Time's up",
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+    return ContentBounds(
+      maxWidth: ContentWidth.column,
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 28),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Icon(Icons.emoji_events_rounded,
+                      size: 76, color: context.appWarning)
+                  .animate()
+                  .scale(duration: 420.ms, curve: Curves.easeOutBack),
+              const SizedBox(height: 12),
+              Text(
+                "Time's up",
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.w800,
+                    ),
+              ),
+              const SizedBox(height: 20),
+              _Stat(label: 'Score', value: '${match.score}'),
+              _Stat(label: 'Rounds cleared', value: '${match.round}'),
+              _Stat(label: 'Pairs matched', value: '${match.totalMatches}'),
+              _Stat(label: 'Best streak', value: '${match.bestCombo}'),
+              const SizedBox(height: 28),
+              ChicletAnimatedButton(
+                width: double.infinity,
+                height: 52,
+                backgroundColor: context.appAccent,
+                onPressed: onPlayAgain,
+                child: Text(
+                  'Play again',
+                  style: TextStyle(
+                    color: Theme.of(context).colorScheme.onPrimary,
                     fontWeight: FontWeight.w800,
+                    fontSize: 16,
                   ),
-            ),
-            const SizedBox(height: 20),
-            _Stat(label: 'Score', value: '${match.score}'),
-            _Stat(label: 'Rounds cleared', value: '${match.round}'),
-            _Stat(label: 'Pairs matched', value: '${match.totalMatches}'),
-            _Stat(label: 'Best streak', value: '${match.bestCombo}'),
-            const SizedBox(height: 28),
-            ChicletAnimatedButton(
-              width: double.infinity,
-              height: 52,
-              backgroundColor: context.appAccent,
-              onPressed: onPlayAgain,
-              child: Text(
-                'Play again',
-                style: TextStyle(
-                  color: Theme.of(context).colorScheme.onPrimary,
-                  fontWeight: FontWeight.w800,
-                  fontSize: 16,
                 ),
               ),
-            ),
-            const SizedBox(height: 12),
-            TextButton(
-              onPressed: onExit,
-              child: Text('Done',
-                  style: TextStyle(color: context.appTextSecondary)),
-            ),
-          ],
+              const SizedBox(height: 12),
+              TextButton(
+                onPressed: onExit,
+                child: Text('Done',
+                    style: TextStyle(color: context.appTextSecondary)),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -732,13 +746,16 @@ class _NotEnoughContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 40),
-        child: Text(
-          'Open a course first so there are enough words to match.',
-          textAlign: TextAlign.center,
-          style: TextStyle(color: context.appTextSecondary, height: 1.4),
+    return ContentBounds(
+      maxWidth: ContentWidth.column,
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 40),
+          child: Text(
+            'Open a course first so there are enough words to match.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: context.appTextSecondary, height: 1.4),
+          ),
         ),
       ),
     );

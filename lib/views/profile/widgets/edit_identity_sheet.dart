@@ -6,6 +6,7 @@ import 'package:chiclet/chiclet.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/core/responsive.dart';
 import 'package:words625/application/identity_provider.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/identicon.dart';
@@ -13,6 +14,7 @@ import 'package:words625/views/widgets/identicon.dart';
 Future<void> showEditIdentitySheet(BuildContext context) {
   return showModalBottomSheet<void>(
     context: context,
+    constraints: kSheetConstraints,
     isScrollControlled: true,
     backgroundColor: Colors.transparent,
     builder: (_) => const _EditIdentitySheet(),

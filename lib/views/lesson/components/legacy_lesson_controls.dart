@@ -75,22 +75,22 @@ class LevelPlayerChoice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const styles = [
+    final styles = [
       _CelebrationStyle(
         icon: Icons.celebration_rounded,
-        accent: VarnamalaTheme.peacockTurquoise,
+        accent: context.appAccent,
         title: 'Level Complete!',
         subtitle: 'Brilliant focus. You cleared this level.',
       ),
       _CelebrationStyle(
         icon: Icons.flash_on_rounded,
-        accent: VarnamalaTheme.warning,
+        accent: context.appWarning,
         title: 'That Was Fast!',
         subtitle: 'You are climbing fast. Keep the streak alive.',
       ),
       _CelebrationStyle(
         icon: Icons.auto_awesome_rounded,
-        accent: VarnamalaTheme.leagueAmethyst,
+        accent: context.appViolet,
         title: 'Excellent Work!',
         subtitle: 'Every lesson gets you closer to mastery.',
       ),
@@ -166,22 +166,22 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const styles = [
+    final styles = [
       _CelebrationStyle(
         icon: Icons.emoji_events_rounded,
-        accent: VarnamalaTheme.successDark,
+        accent: context.appSuccess,
         title: 'Course Complete!',
         subtitle: "You've mastered all the lessons.",
       ),
       _CelebrationStyle(
         icon: Icons.workspace_premium_rounded,
-        accent: VarnamalaTheme.leagueRuby,
+        accent: context.appDanger,
         title: 'Legendary Finish!',
         subtitle: 'That was a strong finish. Keep practicing.',
       ),
       _CelebrationStyle(
         icon: Icons.star_rounded,
-        accent: VarnamalaTheme.peacockTeal,
+        accent: context.appAccent,
         title: 'Mastery Unlocked!',
         subtitle: 'You completed the course with style.',
       ),

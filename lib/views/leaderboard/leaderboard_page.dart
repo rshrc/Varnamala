@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/league_provider.dart';
 import 'package:words625/core/extensions.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/domain/league.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/identicon.dart';
@@ -38,19 +39,22 @@ class _LeaderboardPageState extends State<LeaderboardPage>
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        const SizedBox(height: 12),
-        _LeagueHeader(controller: _tabController),
-        Expanded(
-          child: TabBarView(
-            controller: _tabController,
-            children: LeagueProvider.leagues
-                .map((league) => _LeagueLeaderboardList(league: league))
-                .toList(growable: false),
+    return ContentBounds(
+      maxWidth: ContentWidth.feed,
+      child: Column(
+        children: [
+          const SizedBox(height: 12),
+          _LeagueHeader(controller: _tabController),
+          Expanded(
+            child: TabBarView(
+              controller: _tabController,
+              children: LeagueProvider.leagues
+                  .map((league) => _LeagueLeaderboardList(league: league))
+                  .toList(growable: false),
+            ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
@@ -125,15 +129,42 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
           );
         }
 
+        final uid = FirebaseAuth.instance.currentUser?.uid;
+        final myIndex = users.indexWhere((user) => user.userId == uid);
+        final visible = users.take(LeagueProvider.boardSize).toList();
+        // A learner below the cut still gets their own row, pinned under the
+        // board, so the leaderboard always answers "where am I".
+        final showPinnedSelf = myIndex >= visible.length;
+
         return Stack(
           children: [
             ListView.builder(
               physics: const BouncingScrollPhysics(),
               padding: const EdgeInsets.fromLTRB(16, 6, 16, 24),
-              itemCount: users.length,
+              itemCount: visible.length + 1 + (showPinnedSelf ? 1 : 0),
               itemBuilder: (context, index) {
-                final user = users[index];
-                return _LeaderboardTile(rank: index + 1, user: user);
+                if (index == 0) {
+                  return _YourHandleNote(
+                    handle: myIndex == -1 ? null : users[myIndex].name,
+                  );
+                }
+                final position = index - 1;
+                if (position < visible.length) {
+                  final user = visible[position];
+                  return _LeaderboardTile(
+                    rank: position + 1,
+                    user: user,
+                    isMe: user.userId == uid,
+                  );
+                }
+                return Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: _LeaderboardTile(
+                    rank: myIndex + 1,
+                    user: users[myIndex],
+                    isMe: true,
+                  ),
+                );
               },
             ),
             Align(
@@ -170,7 +201,13 @@ class _RankClimbCard extends StatelessWidget {
         color: context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusLarge),
         border: Border.all(color: context.appWarning.withValues(alpha: 0.65)),
-        boxShadow: VarnamalaTheme.softShadow,
+        boxShadow: [
+          BoxShadow(
+            color: context.appShadowTint.withValues(alpha: 0.08),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -209,7 +246,7 @@ class _LeagueHeader extends StatelessWidget {
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
         boxShadow: [
           BoxShadow(
-            color: VarnamalaTheme.leagueAmethyst.withValues(alpha: 0.25),
+            color: context.appViolet.withValues(alpha: 0.25),
             blurRadius: 12,
             offset: const Offset(0, 4),
           ),
@@ -254,8 +291,13 @@ class _LeagueHeader extends StatelessWidget {
 class _LeaderboardTile extends StatelessWidget {
   final int rank;
   final LeaderboardEntry user;
+  final bool isMe;
 
-  const _LeaderboardTile({required this.rank, required this.user});
+  const _LeaderboardTile({
+    required this.rank,
+    required this.user,
+    this.isMe = false,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -266,14 +308,19 @@ class _LeaderboardTile extends StatelessWidget {
       margin: const EdgeInsets.only(bottom: 8),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: context.appSurface,
+        color: isMe
+            ? context.appAccent.withValues(alpha: 0.10)
+            : context.appSurface,
         borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
         border: Border.all(
-          color: isTopTen
-              ? context.appWarning.withValues(alpha: 0.55)
-              : isBottomFive
-                  ? context.appDanger.withValues(alpha: 0.45)
-                  : context.appBorder,
+          width: isMe ? 2 : 1,
+          color: isMe
+              ? context.appAccent
+              : isTopTen
+                  ? context.appWarning.withValues(alpha: 0.55)
+                  : isBottomFive
+                      ? context.appDanger.withValues(alpha: 0.45)
+                      : context.appBorder,
         ),
       ),
       child: Row(
@@ -317,6 +364,30 @@ class _LeaderboardTile extends StatelessWidget {
                         overflow: TextOverflow.ellipsis,
                       ),
                     ),
+                    if (isMe) ...[
+                      const SizedBox(width: 6),
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 6,
+                          vertical: 1,
+                        ),
+                        decoration: BoxDecoration(
+                          color: context.appAccent,
+                          borderRadius: BorderRadius.circular(
+                            VarnamalaTheme.radiusRound,
+                          ),
+                        ),
+                        child: Text(
+                          'YOU',
+                          style: TextStyle(
+                            fontSize: 9,
+                            fontWeight: FontWeight.w900,
+                            letterSpacing: 0.6,
+                            color: Theme.of(context).colorScheme.onPrimary,
+                          ),
+                        ),
+                      ),
+                    ],
                     const SizedBox(width: 6),
                     Icon(
                       Icons.shield_rounded,
@@ -349,6 +420,66 @@ class _LeaderboardTile extends StatelessWidget {
                 fontWeight: FontWeight.w700,
                 color: context.appSuccess,
               ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Explains why nobody on this board is called what their friends call them.
+///
+/// Varnamala shows a derived handle rather than a real name (see
+/// `lib/core/identity.dart`), which is right for privacy but leaves learners
+/// hunting for a friend who is listed under a name they have never seen. The
+/// fix is not to expose names: it is to tell each learner their own handle, so
+/// they can say "look for me as Chetan".
+class _YourHandleNote extends StatelessWidget {
+  const _YourHandleNote({required this.handle});
+
+  final String? handle;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(bottom: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(
+        color: context.appInfo.withValues(alpha: 0.10),
+        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
+        border: Border.all(color: context.appInfo.withValues(alpha: 0.35)),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.badge_outlined, size: 18, color: context.appInfo),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text.rich(
+              TextSpan(
+                children: [
+                  const TextSpan(
+                    text: 'Everyone here is shown by handle, not by name. ',
+                  ),
+                  if (handle == null)
+                    const TextSpan(text: 'Finish a lesson to join the board.')
+                  else ...[
+                    const TextSpan(text: 'You appear as '),
+                    TextSpan(
+                      text: handle,
+                      style: TextStyle(
+                        fontWeight: FontWeight.w900,
+                        color: context.appInfo,
+                      ),
+                    ),
+                    const TextSpan(text: ' — share that to find each other.'),
+                  ],
+                ],
+              ),
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: context.appTextSecondary,
+                    height: 1.35,
+                  ),
             ),
           ),
         ],

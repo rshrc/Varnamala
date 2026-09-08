@@ -20,17 +20,40 @@ class ThemeProvider extends ChangeNotifier {
       (mode) => mode.name == storedMode,
       orElse: () => ThemeMode.system,
     );
+    _palette = paletteById(
+      getIt<AppPrefs>()
+          .preferences
+          .getString(PrefsConstants.themePalette,
+              defaultValue: appPalettes.first.id)
+          .getValue(),
+    );
   }
 
   ThemeMode _themeMode = ThemeMode.system;
+  AppPalette _palette = appPalettes.first;
 
   ThemeMode get themeMode => _themeMode;
 
+  /// The colour scheme the learner picked. Independent of [themeMode]: every
+  /// palette ships a light and a dark build, so choosing "Marigold" does not
+  /// also decide whether it is day or night.
+  AppPalette get palette => _palette;
+
+  ThemeData get lightTheme => buildAppTheme(_palette, Brightness.light);
+
+  ThemeData get darkTheme => buildAppTheme(_palette, Brightness.dark);
+
   bool get isDarkMode => _themeMode == ThemeMode.dark;
 
-  ThemeData get currentTheme => _themeMode == ThemeMode.dark
-      ? VarnamalaTheme.darkTheme
-      : VarnamalaTheme.lightTheme;
+  ThemeData get currentTheme =>
+      _themeMode == ThemeMode.dark ? darkTheme : lightTheme;
+
+  void setPalette(AppPalette palette) {
+    if (_palette.id == palette.id) return;
+    _palette = palette;
+    getIt<AppPrefs>().setString(PrefsConstants.themePalette, palette.id);
+    notifyListeners();
+  }
 
   void toggleTheme() {
     setThemeMode(

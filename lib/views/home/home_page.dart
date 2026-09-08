@@ -13,11 +13,15 @@ import 'package:words625/application/gems_provider.dart';
 import 'package:words625/application/hearts_provider.dart';
 import 'package:words625/application/identity_provider.dart';
 import 'package:words625/application/language_provider.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
 import 'package:words625/views/courses/course_tree.dart';
 import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
+import 'package:words625/views/flashcards/flashcards_page.dart';
+import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/home/components/components.dart';
+import 'package:words625/views/home/components/side_navigator.dart';
 import 'package:words625/views/leaderboard/leaderboard_page.dart';
 import 'package:words625/views/profile/profile_screen.dart';
 import 'package:words625/views/shop/shop_screen.dart';
@@ -100,9 +104,9 @@ class _HomePageState extends State<HomePage>
     if (!mounted) return;
     if (streakResult == StreakCheckResult.broken) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Your streak was broken. Start again today.'),
-          backgroundColor: VarnamalaTheme.error,
+        SnackBar(
+          content: const Text('Your streak was broken. Start again today.'),
+          backgroundColor: context.appDanger,
         ),
       );
     } else if (streakResult == StreakCheckResult.freezeConsumed) {
@@ -125,6 +129,9 @@ class _HomePageState extends State<HomePage>
   @override
   Widget build(BuildContext context) {
     final bar = appBars[currentIndex];
+    // Wide windows put navigation down the side, where it is near the pointer
+    // and does not stretch across space it has no use for.
+    final useSideNavigation = context.breakpoint.hasSideNavigation;
 
     return AnimatedBuilder(
       animation: _chrome,
@@ -146,17 +153,33 @@ class _HomePageState extends State<HomePage>
               ),
             ),
           ),
-          bottomNavigationBar: ClipRect(
-            child: Align(
-              alignment: Alignment.topCenter,
-              heightFactor: t,
-              child: BottomNavigator(
-                currentIndex: currentIndex,
-                onPress: onBottomNavigatorTapped,
-              ),
-            ),
-          ),
-          body: body,
+          // The rail stays put while the learner scrolls; only the bottom bar
+          // is worth hiding, because on a phone it costs real reading height.
+          bottomNavigationBar: useSideNavigation
+              ? null
+              : ClipRect(
+                  child: Align(
+                    alignment: Alignment.topCenter,
+                    heightFactor: t,
+                    child: BottomNavigator(
+                      currentIndex: currentIndex,
+                      onPress: onBottomNavigatorTapped,
+                    ),
+                  ),
+                ),
+          body: useSideNavigation
+              ? Row(
+                  children: [
+                    SideNavigator(
+                      currentIndex: currentIndex,
+                      onPress: onBottomNavigatorTapped,
+                      onOpenFlashcards: _openFlashcards,
+                      onOpenSettings: _openSettings,
+                    ),
+                    Expanded(child: body!),
+                  ],
+                )
+              : body,
           floatingActionButton: currentIndex == 0 && kDebugMode
               ? FloatingActionButton.extended(
                   onPressed: _showDebugTools,
@@ -187,9 +210,26 @@ class _HomePageState extends State<HomePage>
     _chrome.forward();
   }
 
+  void _openFlashcards() {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (_) => FlashcardsPage(
+          language: context.read<LanguageProvider>().selectedLanguage,
+        ),
+      ),
+    );
+  }
+
+  void _openSettings() {
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => const SettingsPage()),
+    );
+  }
+
   void _showDebugTools() {
     showModalBottomSheet<void>(
       context: context,
+      constraints: kSheetConstraints,
       showDragHandle: true,
       builder: (sheetContext) => SafeArea(
         child: Padding(

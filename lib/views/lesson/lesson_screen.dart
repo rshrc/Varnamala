@@ -12,6 +12,7 @@ import 'package:words625/application/level_provider.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
 import 'package:words625/core/enums.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/courses/courses.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/views/courses/components/community_sheet.dart';
@@ -232,51 +233,56 @@ class LessonPageState extends State<LessonPage> {
           onPressed: () => Navigator.of(context).pop(),
           icon: Icon(Icons.close_rounded, color: context.appDanger),
         ),
-        title: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  'UNIT ${_unitIndex + 1} · ${_stageKind.label.toUpperCase()}',
-                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+        // The unit label and progress bar line up with the exercise column
+        // below them rather than running the width of the window.
+        title: ContentBounds(
+          gutter: false,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'UNIT ${_unitIndex + 1} · ${_stageKind.label.toUpperCase()}',
+                    style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: 0.7,
+                        ),
+                  ),
+                  const SizedBox(width: 7),
+                  Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: context.appViolet.withValues(alpha: 0.14),
+                      borderRadius:
+                          BorderRadius.circular(VarnamalaTheme.radiusRound),
+                    ),
+                    child: Text(
+                      _isReplay ? 'PRACTICE' : 'BETA',
+                      style: TextStyle(
+                        color: context.appViolet,
+                        fontSize: 9,
                         fontWeight: FontWeight.w900,
                         letterSpacing: 0.7,
                       ),
-                ),
-                const SizedBox(width: 7),
-                Container(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
-                  decoration: BoxDecoration(
-                    color: context.appViolet.withValues(alpha: 0.14),
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusRound),
-                  ),
-                  child: Text(
-                    _isReplay ? 'PRACTICE' : 'BETA',
-                    style: TextStyle(
-                      color: context.appViolet,
-                      fontSize: 9,
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: 0.7,
                     ),
                   ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 6),
-            ClipRRect(
-              borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
-              child: LinearProgressIndicator(
-                value: engine.progress,
-                minHeight: 8,
-                backgroundColor: context.appBorder,
-                valueColor: AlwaysStoppedAnimation<Color>(context.appSuccess),
+                ],
               ),
-            ),
-          ],
+              const SizedBox(height: 6),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
+                child: LinearProgressIndicator(
+                  value: engine.progress,
+                  minHeight: 8,
+                  backgroundColor: context.appBorder,
+                  valueColor: AlwaysStoppedAnimation<Color>(context.appSuccess),
+                ),
+              ),
+            ],
+          ),
         ),
         actions: [
           IconButton(
@@ -302,77 +308,85 @@ class LessonPageState extends State<LessonPage> {
               child: SingleChildScrollView(
                 physics: const BouncingScrollPhysics(),
                 padding: const EdgeInsets.fromLTRB(20, 18, 20, 24),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    if (engine.currentStep.isAdaptiveRetry) ...[
-                      const MistakeReviewNotice(),
-                      const SizedBox(height: 14),
-                    ],
-                    Row(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        if (generated.sourceSentence.isNotEmpty) ...[
-                          SpeakButton(sentence: generated.sourceSentence),
-                          const SizedBox(width: 12),
+                // A prompt stretched across a desktop window is a prompt
+                // nobody can read in one glance, so the exercise keeps to a
+                // single column no matter how much room there is.
+                child: ContentBounds(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      if (engine.currentStep.isAdaptiveRetry) ...[
+                        const MistakeReviewNotice(),
+                        const SizedBox(height: 14),
+                      ],
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          if (generated.sourceSentence.isNotEmpty) ...[
+                            SpeakButton(sentence: generated.sourceSentence),
+                            const SizedBox(width: 12),
+                          ],
+                          Expanded(
+                            child: Text(
+                              engine.currentExercise.prompt,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headlineSmall
+                                  ?.copyWith(
+                                    fontWeight: FontWeight.w800,
+                                    height: 1.25,
+                                  ),
+                            ),
+                          ),
                         ],
-                        Expanded(
-                          child: Text(
-                            engine.currentExercise.prompt,
-                            style: Theme.of(context)
-                                .textTheme
-                                .headlineSmall
-                                ?.copyWith(
-                                  fontWeight: FontWeight.w800,
-                                  height: 1.25,
-                                ),
+                      ),
+                      const SizedBox(height: 18),
+                      IgnorePointer(
+                        ignoring: isFeedback,
+                        child: AnimatedOpacity(
+                          duration: const Duration(milliseconds: 140),
+                          opacity: isFeedback ? 0.72 : 1,
+                          child: InteractiveExerciseHost(
+                            key: ValueKey(engine.currentExercise.id),
+                            exercise: engine.currentExercise,
+                            onResponseChanged: engine.setResponse,
                           ),
                         ),
-                      ],
-                    ),
-                    const SizedBox(height: 18),
-                    IgnorePointer(
-                      ignoring: isFeedback,
-                      child: AnimatedOpacity(
-                        duration: const Duration(milliseconds: 140),
-                        opacity: isFeedback ? 0.72 : 1,
-                        child: InteractiveExerciseHost(
-                          key: ValueKey(engine.currentExercise.id),
-                          exercise: engine.currentExercise,
-                          onResponseChanged: engine.setResponse,
-                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
             if (isFeedback) InteractiveFeedbackPanel(engine: engine),
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 10, 20, 16),
-              child: SizedBox(
-                width: double.infinity,
-                height: 52,
-                child: ElevatedButton(
-                  onPressed: _finishing || (!isFeedback && !engine.canSubmit)
-                      ? null
-                      : () => _handleInteractiveAction(engine),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: isFeedback
-                        ? engine.lastAttempt!.correct
-                            ? context.appSuccess
-                            : context.appDanger
-                        : context.appAccent,
-                  ),
-                  child: Text(
-                    _finishing
-                        ? 'SAVING…'
-                        : isFeedback
-                            ? 'CONTINUE'
-                            : 'CHECK',
-                    style: const TextStyle(
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: 0.6,
+              child: ContentBounds(
+                gutter: false,
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 52,
+                  child: ElevatedButton(
+                    onPressed: _finishing || (!isFeedback && !engine.canSubmit)
+                        ? null
+                        : () => _handleInteractiveAction(engine),
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: isFeedback
+                          ? engine.lastAttempt!.correct
+                              ? context.appSuccess
+                              : context.appDanger
+                          : context.appAccent,
+                    ),
+                    child: Text(
+                      _finishing
+                          ? 'SAVING…'
+                          : isFeedback
+                              ? 'CONTINUE'
+                              : 'CHECK',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 0.6,
+                      ),
                     ),
                   ),
                 ),

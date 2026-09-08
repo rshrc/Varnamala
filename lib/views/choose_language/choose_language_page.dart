@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/language_info.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/views/choose_language/components/app_bar.dart';
 import 'package:words625/views/choose_language/components/continue_button.dart';
 import 'package:words625/views/theme.dart';
@@ -21,46 +22,51 @@ class LangChoicePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const ChooseLanguageAppbar(),
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            const SizedBox(height: 4),
-            Text(
-              'What do you want to learn?',
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                  ),
-            ),
-            const SizedBox(height: 4),
-            Text(
-              'For English speakers',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: context.appTextSecondary,
-                    fontWeight: FontWeight.w500,
-                  ),
-            ),
-            const SizedBox(height: 16),
-            Expanded(
-              child: GridView.builder(
-                physics: const BouncingScrollPhysics(),
-                padding: const EdgeInsets.only(bottom: 8),
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2,
-                  crossAxisSpacing: 12,
-                  mainAxisSpacing: 12,
-                  childAspectRatio: 0.95,
-                ),
-                itemCount: supportedLanguages.length,
-                itemBuilder: (context, index) =>
-                    LanguageOptionTile(supportedLanguages[index]),
+      body: ContentBounds(
+        maxWidth: ContentWidth.grid,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const SizedBox(height: 4),
+              Text(
+                'What do you want to learn?',
+                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
               ),
-            ),
-            const SizedBox(height: 12),
-            ContinueButton(context),
-            const SizedBox(height: 8),
-          ],
+              const SizedBox(height: 4),
+              Text(
+                'For English speakers',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: context.appTextSecondary,
+                      fontWeight: FontWeight.w500,
+                    ),
+              ),
+              const SizedBox(height: 16),
+              Expanded(
+                child: GridView.builder(
+                  physics: const BouncingScrollPhysics(),
+                  padding: const EdgeInsets.only(bottom: 8),
+                  // Two columns on a phone, more as the window grows, rather
+                  // than two tiles blown up to fill an iPad.
+                  gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                    maxCrossAxisExtent: 210,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                    childAspectRatio: 0.95,
+                  ),
+                  itemCount: supportedLanguages.length,
+                  itemBuilder: (context, index) =>
+                      LanguageOptionTile(supportedLanguages[index]),
+                ),
+              ),
+              const SizedBox(height: 12),
+              ContinueButton(context),
+              const SizedBox(height: 8),
+            ],
+          ),
         ),
       ),
     );
