@@ -217,6 +217,34 @@ screen's content and is a no-op on a phone.
   `expanded` up; both read the same `homeDestinations` list.
 - Prefer `SliverGridDelegateWithMaxCrossAxisExtent` over a fixed
   `crossAxisCount`, so grids gain columns instead of inflating tiles.
+- Snackbars are floating, and `SnackBarWidthCap` (wired in under
+  `MaterialApp.builder`) caps them at the reading column on anything wider than
+  a phone — otherwise four words stretch across a desktop. Don't set `width` or
+  `behavior` at a call site; the cap is global so new call sites inherit it.
+
+### Answer feedback
+
+Checking an answer has to *land*. Three channels fire together, and all three
+matter — a learner who has one of them switched off (silent phone, colour
+blindness, no haptics) still gets the verdict:
+
+- **Sound and haptics.** `lib/views/lesson/lesson_screen.dart` calls
+  `AudioController` and `HapticFeedback` the moment `submit()` returns. This
+  was wired only into the legacy renderer and Match Madness for a long time,
+  so the lessons everyone actually plays checked answers in silence.
+- **The answer itself.** Exercise views take an `ExerciseEvaluation?`
+  (`lib/views/lesson/exercises/exercise_evaluation.dart`) — null while
+  answering, set once checked — and paint the verdict onto the thing the
+  learner touched: the chosen tile goes green or red, and on a miss the right
+  answer lights up too. **Any new exercise view must accept it.** Fading the
+  whole exercise out is not feedback; it reads as "disabled".
+- **The band.** `InteractiveFeedbackPanel` grows in under an `AnimatedSize` so
+  the footer does not jump under a thumb, carries Mala, and rotates its wording
+  off a hash of the exercise id rather than a `Random`, so it does not reshuffle
+  between rebuilds of the same frame.
+
+The CHECK/CONTINUE button is a `ChicletAnimatedButton`, not a flat one. The
+press is part of the feel.
 
 ### Design Principles
 - Use rounded corners (16-24dp radius)
@@ -326,6 +354,7 @@ flutter clean && flutter pub get && flutter pub run build_runner build --delete-
 | `lib/domain/course/course.dart` | Course/Level/Question models |
 | `lib/courses/course_repository.dart` | Loads course JSON from assets, caches per language |
 | `lib/courses/word_dictionary.dart` | Word-tap gloss lookup |
+| `lib/views/lesson/exercises/exercise_evaluation.dart` | The verdict an exercise view paints onto its own answer |
 | `assets/courses/<language>/` | Lesson content (see `docs/course-authoring.md`) |
 
 ---

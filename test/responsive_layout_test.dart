@@ -209,4 +209,61 @@ void main() {
       lessThanOrEqualTo(210),
     );
   });
+
+  group('snackbars', () {
+    Future<double> snackBarWidth(WidgetTester tester, Size window) async {
+      tester.view.physicalSize = window;
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.reset);
+
+      await tester.pumpWidget(
+        MaterialApp(
+          theme: VarnamalaTheme.lightTheme,
+          // Exactly how Words625App wires it, so the test covers the real
+          // question: does a Theme injected under MaterialApp.builder reach a
+          // SnackBar that a Scaffold renders further down?
+          builder: (context, child) => SnackBarWidthCap(child: child!),
+          home: Scaffold(
+            body: Builder(
+              builder: (context) => TextButton(
+                onPressed: () => ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Saved.')),
+                ),
+                child: const Text('go'),
+              ),
+            ),
+          ),
+        ),
+      );
+
+      await tester.tap(find.text('go'));
+      await tester.pumpAndSettle();
+      // The SnackBar's own box always spans the window; the sized box that
+      // actually bounds the pill sits inside it, around the Material.
+      return tester
+          .getSize(
+            find
+                .descendant(
+                  of: find.byType(SnackBar),
+                  matching: find.byType(Material),
+                )
+                .first,
+          )
+          .width;
+    }
+
+    testWidgets('a desktop window does not turn a message into a banner',
+        (tester) async {
+      expect(await snackBarWidth(tester, const Size(1440, 900)),
+          ContentWidth.column);
+    });
+
+    testWidgets('a phone keeps the snackbar on the edges it should use',
+        (tester) async {
+      // Full width less the floating inset, not the desktop cap.
+      final width = await snackBarWidth(tester, const Size(390, 844));
+      expect(width, lessThan(390));
+      expect(width, isNot(ContentWidth.column));
+    });
+  });
 }

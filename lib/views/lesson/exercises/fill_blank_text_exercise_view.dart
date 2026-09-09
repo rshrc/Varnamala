@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
 import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 import 'package:words625/views/theme.dart';
@@ -10,11 +11,13 @@ class FillBlankTextExerciseView extends StatefulWidget {
   const FillBlankTextExerciseView({
     required this.exercise,
     required this.onChanged,
+    this.evaluation,
     super.key,
   });
 
   final FillBlankTextExercise exercise;
   final ValueChanged<ExerciseResponse?> onChanged;
+  final ExerciseEvaluation? evaluation;
 
   @override
   State<FillBlankTextExerciseView> createState() =>
@@ -47,6 +50,10 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
 
   @override
   Widget build(BuildContext context) {
+    // What the learner typed turns green or red in place, so their own words
+    // carry the verdict rather than a label somewhere else on the screen.
+    final mark = widget.evaluation?.verdict ?? AnswerMark.none;
+    final marked = mark.color(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -92,8 +99,9 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(
-                    color: hasFocus ? context.appInfo : context.appBorder,
-                    width: hasFocus ? 2.25 : 1.75,
+                    color: marked ??
+                        (hasFocus ? context.appInfo : context.appBorder),
+                    width: marked != null || hasFocus ? 2.25 : 1.75,
                   ),
                 ),
               ),
@@ -104,7 +112,7 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
                 autocorrect: false,
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: context.appInfo,
+                      color: marked ?? context.appInfo,
                       fontWeight: FontWeight.w800,
                     ),
                 decoration: InputDecoration(

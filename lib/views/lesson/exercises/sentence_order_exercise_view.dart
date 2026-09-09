@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:words625/core/stable_hash.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_token.dart';
 import 'package:words625/views/theme.dart';
@@ -12,11 +13,13 @@ class SentenceOrderExerciseView extends StatefulWidget {
   const SentenceOrderExerciseView({
     required this.exercise,
     required this.onChanged,
+    this.evaluation,
     super.key,
   });
 
   final SentenceOrderExercise exercise;
   final ValueChanged<ExerciseResponse?> onChanged;
+  final ExerciseEvaluation? evaluation;
 
   @override
   State<SentenceOrderExerciseView> createState() =>
@@ -94,6 +97,8 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
 
   @override
   Widget build(BuildContext context) {
+    final mark = widget.evaluation?.verdict ?? AnswerMark.none;
+    final marked = mark.color(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -111,9 +116,13 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
           constraints: const BoxConstraints(minHeight: 112),
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
-            color: context.appElevatedSurface,
+            color:
+                marked?.withValues(alpha: 0.14) ?? context.appElevatedSurface,
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-            border: Border.all(color: context.appBorder, width: 1.5),
+            border: Border.all(
+              color: marked ?? context.appBorder,
+              width: marked == null ? 1.5 : 2,
+            ),
           ),
           child: Wrap(
             spacing: 8,

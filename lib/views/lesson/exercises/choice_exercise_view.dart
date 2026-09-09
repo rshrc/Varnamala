@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_choice_tile.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
 
@@ -7,11 +8,13 @@ class ChoiceExerciseView extends StatefulWidget {
   const ChoiceExerciseView({
     required this.exercise,
     required this.onChanged,
+    this.evaluation,
     super.key,
   });
 
   final ChoiceExercise exercise;
   final ValueChanged<ExerciseResponse?> onChanged;
+  final ExerciseEvaluation? evaluation;
 
   @override
   State<ChoiceExerciseView> createState() => ChoiceExerciseViewState();
@@ -37,6 +40,11 @@ class ChoiceExerciseViewState extends State<ChoiceExerciseView> {
             child: ExerciseChoiceTile(
               text: option.text,
               selected: selectedId == option.id,
+              mark: widget.evaluation?.markForOption(
+                    option.id,
+                    widget.exercise.correctOptionId,
+                  ) ??
+                  AnswerMark.none,
               onTap: () {
                 setState(() => selectedId = option.id);
                 widget.onChanged(ChoiceExerciseResponse(option.id));

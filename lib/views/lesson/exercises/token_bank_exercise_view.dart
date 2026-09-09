@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_token.dart';
 import 'package:words625/views/theme.dart';
@@ -16,6 +17,7 @@ class TokenBankExerciseView extends StatefulWidget {
     required this.shuffleSeed,
     required this.joinWithoutSpaces,
     required this.onChanged,
+    this.evaluation,
     super.key,
   });
 
@@ -26,6 +28,7 @@ class TokenBankExerciseView extends StatefulWidget {
   final int shuffleSeed;
   final bool joinWithoutSpaces;
   final ValueChanged<ExerciseResponse?> onChanged;
+  final ExerciseEvaluation? evaluation;
 
   @override
   State<TokenBankExerciseView> createState() => TokenBankExerciseViewState();
@@ -85,6 +88,10 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
 
   @override
   Widget build(BuildContext context) {
+    // The sentence the learner built is the answer, so the tray around it is
+    // what turns green or red.
+    final mark = widget.evaluation?.verdict ?? AnswerMark.none;
+    final marked = mark.color(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -106,13 +113,15 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
             constraints: const BoxConstraints(minHeight: 92),
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: candidates.isEmpty
-                  ? context.appElevatedSurface
-                  : context.appInfo.withValues(alpha: 0.12),
+              color: marked?.withValues(alpha: 0.14) ??
+                  (candidates.isEmpty
+                      ? context.appElevatedSurface
+                      : context.appInfo.withValues(alpha: 0.12)),
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
               border: Border.all(
-                color: candidates.isEmpty ? context.appBorder : context.appInfo,
-                width: candidates.isEmpty ? 1.5 : 2,
+                color: marked ??
+                    (candidates.isEmpty ? context.appBorder : context.appInfo),
+                width: marked != null || candidates.isNotEmpty ? 2 : 1.5,
               ),
             ),
             child: selectedTokenIds.isEmpty

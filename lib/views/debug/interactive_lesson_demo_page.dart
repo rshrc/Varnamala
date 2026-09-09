@@ -7,6 +7,7 @@ import 'package:auto_route/auto_route.dart';
 // Project imports:
 import 'package:words625/application/interactive_lesson_engine.dart';
 import 'package:words625/views/debug/interactive_lesson_samples.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/interactive_exercise_host.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/beta_badge.dart';
@@ -133,15 +134,19 @@ class _LessonBody extends StatelessWidget {
                   const SizedBox(height: 18),
                   IgnorePointer(
                     ignoring: showingFeedback,
-                    child: AnimatedOpacity(
-                      opacity: showingFeedback ? 0.62 : 1,
-                      duration: const Duration(milliseconds: 150),
-                      child: KeyedSubtree(
-                        key: ValueKey(exercise.id),
-                        child: InteractiveExerciseHost(
-                          exercise: exercise,
-                          onResponseChanged: engine.setResponse,
-                        ),
+                    // The lab is only useful if it feels like the real lesson,
+                    // so it marks the answer the same way rather than fading.
+                    child: KeyedSubtree(
+                      key: ValueKey(exercise.id),
+                      child: InteractiveExerciseHost(
+                        exercise: exercise,
+                        onResponseChanged: engine.setResponse,
+                        evaluation: engine.lastAttempt == null
+                            ? null
+                            : ExerciseEvaluation(
+                                correct: engine.lastAttempt!.correct,
+                                response: engine.lastAttempt!.response,
+                              ),
                       ),
                     ),
                   ),

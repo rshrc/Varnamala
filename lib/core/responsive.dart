@@ -119,3 +119,35 @@ class ContentBounds extends StatelessWidget {
     );
   }
 }
+
+/// Keeps a snackbar the size of a message on a window the size of a desktop.
+///
+/// A floating snackbar with no width set spans the whole window less its
+/// margin, so on a wide screen four words stretch into a banner across two feet
+/// of glass. `SnackBarThemeData.width` fixes that, but a theme is built once
+/// and never sees the window - so the cap has to be layered on here, under
+/// `MaterialApp.builder`, which sits above every `Scaffold` that renders one
+/// and below the `MediaQuery` that can measure the window.
+///
+/// Doing it here rather than at each call site also means a snackbar shown from
+/// somewhere we have not thought of yet is bounded too.
+class SnackBarWidthCap extends StatelessWidget {
+  const SnackBarWidthCap({required this.child, super.key});
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    // A phone is already narrower than the cap, and a width there would only
+    // pull the snackbar in from the edges it should be using.
+    if (context.breakpoint == Breakpoint.compact) return child;
+
+    final theme = Theme.of(context);
+    return Theme(
+      data: theme.copyWith(
+        snackBarTheme: theme.snackBarTheme.copyWith(width: ContentWidth.column),
+      ),
+      child: child,
+    );
+  }
+}

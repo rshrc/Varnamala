@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/providers.dart';
 import 'package:words625/application/theme_provider.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.dart';
 
@@ -32,6 +33,7 @@ class Words625App extends StatelessWidget {
             theme: themeProvider.lightTheme,
             darkTheme: themeProvider.darkTheme,
             themeMode: themeProvider.themeMode,
+            builder: (context, child) => SnackBarWidthCap(child: child!),
             routerConfig: router.config(navigatorObservers: () => [observer]),
           );
         },

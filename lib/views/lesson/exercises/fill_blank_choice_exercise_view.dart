@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_choice_tile.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
 import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
@@ -9,11 +10,13 @@ class FillBlankChoiceExerciseView extends StatefulWidget {
   const FillBlankChoiceExerciseView({
     required this.exercise,
     required this.onChanged,
+    this.evaluation,
     super.key,
   });
 
   final FillBlankChoiceExercise exercise;
   final ValueChanged<ExerciseResponse?> onChanged;
+  final ExerciseEvaluation? evaluation;
 
   @override
   State<FillBlankChoiceExerciseView> createState() =>
@@ -40,6 +43,7 @@ class FillBlankChoiceExerciseViewState
           before: widget.exercise.beforeBlank,
           after: widget.exercise.afterBlank,
           answer: answer,
+          mark: widget.evaluation?.verdict ?? AnswerMark.none,
         ),
         const SizedBox(height: 24),
         for (final option in widget.exercise.options)
@@ -48,6 +52,11 @@ class FillBlankChoiceExerciseViewState
             child: ExerciseChoiceTile(
               text: option.text,
               selected: selectedId == option.id,
+              mark: widget.evaluation?.markForOption(
+                    option.id,
+                    widget.exercise.correctOptionId,
+                  ) ??
+                  AnswerMark.none,
               onTap: () {
                 setState(() => selectedId = option.id);
                 widget.onChanged(ChoiceExerciseResponse(option.id));
@@ -64,15 +73,21 @@ class FillBlankSentence extends StatelessWidget {
     required this.before,
     required this.after,
     required this.answer,
+    this.mark = AnswerMark.none,
     super.key,
   });
 
   final String before;
   final String after;
   final String? answer;
+  final AnswerMark mark;
 
   @override
   Widget build(BuildContext context) {
+    // Unfilled blank, filled blank, and checked blank are three states, so the
+    // colour is resolved once rather than re-derived at every use.
+    final filled =
+        mark.color(context) ?? (answer == null ? null : context.appInfo);
     return Wrap(
       spacing: 8,
       runSpacing: 8,
@@ -89,12 +104,12 @@ class FillBlankSentence extends StatelessWidget {
           constraints: const BoxConstraints(minWidth: 92, minHeight: 42),
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
           decoration: BoxDecoration(
-            color: answer == null
+            color: filled == null
                 ? context.appElevatedSurface
-                : context.appInfo.withValues(alpha: 0.12),
+                : filled.withValues(alpha: mark.isMarked ? 0.20 : 0.12),
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusSmall),
             border: Border.all(
-              color: answer == null ? context.appBorder : context.appInfo,
+              color: filled ?? context.appBorder,
               width: 2,
             ),
           ),
@@ -102,9 +117,7 @@ class FillBlankSentence extends StatelessWidget {
             answer ?? '________',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  color: answer == null
-                      ? context.appTextSecondary
-                      : context.appInfo,
+                  color: filled ?? context.appTextSecondary,
                   fontWeight: FontWeight.w800,
                 ),
           ),

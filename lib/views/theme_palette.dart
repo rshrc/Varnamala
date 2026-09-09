@@ -151,7 +151,7 @@ class AppPalette {
 ///
 /// Amber, saffron and gold have their character at high lightness; dragged
 /// down far enough for white text to sit on them they simply become brown.
-/// Those hues stay bright and take dark text instead (see [_onColor]).
+/// Those hues stay bright and take dark text instead (see [onColorFor]).
 bool _isLuminousHue(double hue) {
   final h = hue % 360;
   return h >= 25 && h <= 100;
@@ -167,7 +167,13 @@ Color _tone(double hue, double saturation, double lightness) =>
 /// Picking by measured contrast rather than a lightness threshold matters for
 /// mid-tone fills like gold or violet, where a guess lands on the wrong side
 /// and quietly ships unreadable text.
-Color _onColor(Color background) {
+///
+/// Public because any widget that chooses its own fill - a button that turns
+/// green or red, say - has to choose its own label colour too. Reaching for
+/// `colorScheme.onPrimary` there is the exact mistake this exists to prevent:
+/// that is the colour that reads on *primary*, and it goes unreadable the
+/// moment the fill is anything else.
+Color onColorFor(Color background) {
   const dark = Color(0xFF0B0E12);
   final backgroundLuminance = background.computeLuminance();
   final onWhite = 1.05 / (backgroundLuminance + 0.05);
@@ -360,19 +366,19 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
   final colorScheme = ColorScheme(
     brightness: brightness,
     primary: primary,
-    onPrimary: _onColor(primary),
+    onPrimary: onColorFor(primary),
     primaryContainer: primaryContainer,
     onPrimaryContainer: onContainer,
     secondary: secondary,
-    onSecondary: _onColor(secondary),
+    onSecondary: onColorFor(secondary),
     secondaryContainer: secondaryContainer,
     onSecondaryContainer: onContainer,
     tertiary: tertiary,
-    onTertiary: _onColor(tertiary),
+    onTertiary: onColorFor(tertiary),
     tertiaryContainer: tertiaryContainer,
     onTertiaryContainer: onContainer,
     error: danger,
-    onError: _onColor(danger),
+    onError: onColorFor(danger),
     errorContainer: dangerContainer,
     onErrorContainer: onContainer,
     surface: surface,
@@ -465,7 +471,7 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: primary,
-        foregroundColor: _onColor(primary),
+        foregroundColor: onColorFor(primary),
         elevation: 0,
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
         shape: RoundedRectangleBorder(
@@ -517,7 +523,7 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
     ),
     floatingActionButtonTheme: FloatingActionButtonThemeData(
       backgroundColor: primary,
-      foregroundColor: _onColor(primary),
+      foregroundColor: onColorFor(primary),
       elevation: 4,
     ),
     dividerTheme: DividerThemeData(color: outlineVariant, thickness: 1),
@@ -556,6 +562,16 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       backgroundColor: elevated,
       contentTextStyle:
           TextStyle(inherit: false, color: onSurface, fontSize: 14),
+      actionTextColor: primary,
+      // Floating so it reads as a message that arrived, not as a strip welded
+      // to the bottom of the window. The width cap that keeps it from becoming
+      // a banner on a desktop is applied in `Words625App`, which is the first
+      // place that can see how wide the window actually is.
+      behavior: SnackBarBehavior.floating,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(AppRadius.medium),
+      ),
+      elevation: 6,
     ),
     dialogTheme: DialogThemeData(
       backgroundColor: surface,

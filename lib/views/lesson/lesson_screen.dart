@@ -1,11 +1,14 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 // Package imports:
 import 'package:auto_route/annotations.dart';
+import 'package:chiclet/chiclet.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/application/audio_controller.dart';
 import 'package:words625/application/interactive_lesson_engine.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/level_provider.dart';
@@ -14,6 +17,7 @@ import 'package:words625/application/lesson/interactive_course_progress.dart';
 import 'package:words625/core/enums.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/courses/courses.dart';
+import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/views/courses/components/community_sheet.dart';
 import 'package:words625/views/lesson/components/lesson_app_bar.dart';
@@ -21,6 +25,7 @@ import 'package:words625/views/lesson/components/interactive_completion_view.dar
 import 'package:words625/views/lesson/components/interactive_feedback_panel.dart';
 import 'package:words625/views/lesson/components/list_lesson.dart';
 import 'package:words625/views/lesson/components/mistake_review_notice.dart';
+import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/interactive_exercise_host.dart';
 import 'package:words625/views/theme.dart';
 
@@ -225,6 +230,12 @@ class LessonPageState extends State<LessonPage> {
 
     final generated = _currentGenerated(engine, stage);
     final isFeedback = engine.phase == InteractiveLessonPhase.feedback;
+    final buttonEnabled = !_finishing && (isFeedback || engine.canSubmit);
+    final buttonColor = isFeedback
+        ? engine.lastAttempt!.correct
+            ? context.appSuccess
+            : context.appDanger
+        : context.appAccent;
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
@@ -341,16 +352,23 @@ class LessonPageState extends State<LessonPage> {
                         ],
                       ),
                       const SizedBox(height: 18),
+                      // Answering is locked once checked, but the exercise
+                      // stays at full strength: the tile the learner tapped is
+                      // where the verdict has to land, so fading the whole
+                      // thing out - which only ever read as "disabled" - would
+                      // hide the one thing worth looking at.
                       IgnorePointer(
                         ignoring: isFeedback,
-                        child: AnimatedOpacity(
-                          duration: const Duration(milliseconds: 140),
-                          opacity: isFeedback ? 0.72 : 1,
-                          child: InteractiveExerciseHost(
-                            key: ValueKey(engine.currentExercise.id),
-                            exercise: engine.currentExercise,
-                            onResponseChanged: engine.setResponse,
-                          ),
+                        child: InteractiveExerciseHost(
+                          key: ValueKey(engine.currentExercise.id),
+                          exercise: engine.currentExercise,
+                          onResponseChanged: engine.setResponse,
+                          evaluation: engine.lastAttempt == null
+                              ? null
+                              : ExerciseEvaluation(
+                                  correct: engine.lastAttempt!.correct,
+                                  response: engine.lastAttempt!.response,
+                                ),
                         ),
                       ),
                     ],
@@ -358,35 +376,45 @@ class LessonPageState extends State<LessonPage> {
                 ),
               ),
             ),
-            if (isFeedback) InteractiveFeedbackPanel(engine: engine),
+            // Sliding the band in rather than inserting it keeps the footer
+            // from jumping under the learner's thumb the instant they check.
+            AnimatedSize(
+              duration: const Duration(milliseconds: 190),
+              curve: Curves.easeOutCubic,
+              alignment: Alignment.topCenter,
+              child: isFeedback
+                  ? InteractiveFeedbackPanel(engine: engine)
+                  : const SizedBox(width: double.infinity),
+            ),
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 10, 20, 16),
               child: ContentBounds(
                 gutter: false,
-                child: SizedBox(
+                // A flat button was a regression from the legacy renderer,
+                // whose chiclet press is a large part of why checking an
+                // answer felt like anything at all.
+                child: ChicletAnimatedButton(
                   width: double.infinity,
                   height: 52,
-                  child: ElevatedButton(
-                    onPressed: _finishing || (!isFeedback && !engine.canSubmit)
-                        ? null
-                        : () => _handleInteractiveAction(engine),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: isFeedback
-                          ? engine.lastAttempt!.correct
-                              ? context.appSuccess
-                              : context.appDanger
-                          : context.appAccent,
-                    ),
-                    child: Text(
-                      _finishing
-                          ? 'SAVING…'
-                          : isFeedback
-                              ? 'CONTINUE'
-                              : 'CHECK',
-                      style: const TextStyle(
-                        fontWeight: FontWeight.w900,
-                        letterSpacing: 0.6,
-                      ),
+                  backgroundColor: buttonEnabled
+                      ? buttonColor
+                      : Theme.of(context).disabledColor,
+                  onPressed: buttonEnabled
+                      ? () => _handleInteractiveAction(engine)
+                      : null,
+                  child: Text(
+                    _finishing
+                        ? 'SAVING…'
+                        : isFeedback
+                            ? 'CONTINUE'
+                            : 'CHECK',
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w900,
+                      letterSpacing: 0.6,
+                      color: buttonEnabled
+                          ? onColorFor(buttonColor)
+                          : context.appTextSecondary,
                     ),
                   ),
                 ),
@@ -410,11 +438,28 @@ class LessonPageState extends State<LessonPage> {
     );
   }
 
+  /// The half of feedback that is not on the screen.
+  ///
+  /// [AudioController] and its eight sounds already existed, but were only ever
+  /// wired into the legacy renderer and Match Madness - so the lessons every
+  /// learner actually plays checked answers in total silence, which is most of
+  /// why they felt flat next to Duolingo.
+  void _cueVerdict({required bool correct}) {
+    if (correct) {
+      HapticFeedback.lightImpact();
+      getIt<AudioController>().playRandomLevelUpSound();
+    } else {
+      HapticFeedback.heavyImpact();
+      getIt<AudioController>().playRandomErrorSound();
+    }
+  }
+
   Future<void> _handleInteractiveAction(
     InteractiveLessonEngine engine,
   ) async {
     if (engine.phase == InteractiveLessonPhase.answering) {
-      engine.submit();
+      final correct = engine.submit();
+      _cueVerdict(correct: correct);
       return;
     }
     if (engine.phase != InteractiveLessonPhase.feedback) return;

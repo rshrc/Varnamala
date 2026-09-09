@@ -72,8 +72,6 @@ class CourseNodeState extends State<CourseNode> {
         ..showSnackBar(
           SnackBar(
             duration: const Duration(seconds: 2),
-            behavior: SnackBarBehavior.floating,
-            backgroundColor: context.appElevatedSurface,
             content: Text(
               widget.unlockedBy == null
                   ? 'Finish the course before this one to unlock it.'
