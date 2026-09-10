@@ -89,6 +89,25 @@ class LeaderboardEntry {
     return home == null || home == language ? effectiveLeagueXp : 0;
   }
 
+  /// A copy with this language's league XP replaced.
+  ///
+  /// Used to reconstruct where a learner stood *before* the lesson they have
+  /// just finished, so the board can show them overtaking people rather than
+  /// simply appearing above them.
+  LeaderboardEntry withLeagueXp(String language, int xp) => LeaderboardEntry(
+        userId: userId,
+        name: name,
+        profileImage: profileImage,
+        score: score,
+        leagueXp: leagueXp,
+        league: league,
+        languages: languages,
+        preferredLanguage: preferredLanguage,
+        leagueByLanguage: leagueByLanguage,
+        leagueXpByLanguage: {...leagueXpByLanguage, language: xp},
+        excludedFromLeagues: excludedFromLeagues,
+      );
+
   factory LeaderboardEntry.fromMap(String userId, Map<String, dynamic> map) {
     return LeaderboardEntry(
       userId: userId,

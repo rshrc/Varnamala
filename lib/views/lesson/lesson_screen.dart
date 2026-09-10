@@ -12,6 +12,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:words625/application/audio_controller.dart';
+import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/interactive_lesson_engine.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/level_provider.dart';
@@ -78,6 +79,9 @@ class LessonPageState extends State<LessonPage> {
   bool _isReplay = false;
   bool _finishing = false;
   InteractiveProgressAdvance? _completion;
+
+  /// What this stage was worth, for the league panel on the summary.
+  int _xpEarned = 0;
 
   @override
   void initState() {
@@ -294,6 +298,8 @@ class LessonPageState extends State<LessonPage> {
         stage: _stageKind,
         isReplay: _isReplay,
         completion: _completion,
+        language: _language,
+        xpEarned: _xpEarned,
       );
     }
 
@@ -545,6 +551,7 @@ class LessonPageState extends State<LessonPage> {
       return;
     }
     setState(() => _finishing = true);
+    final game = context.read<GameProvider>()..resetRecentXp();
     final completion =
         await context.read<LessonProvider>().completeInteractiveStage(
               course: widget.course,
@@ -555,6 +562,7 @@ class LessonPageState extends State<LessonPage> {
     if (!mounted) return;
     setState(() {
       _completion = completion;
+      _xpEarned = game.recentXp;
       _finishing = false;
     });
   }

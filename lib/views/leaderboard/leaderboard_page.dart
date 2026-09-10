@@ -12,8 +12,8 @@ import 'package:words625/core/enums.dart';
 import 'package:words625/core/extensions.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/domain/league.dart';
+import 'package:words625/views/leaderboard/components/league_board.dart';
 import 'package:words625/views/theme.dart';
-import 'package:words625/views/widgets/identicon.dart';
 
 class LeaderboardPage extends StatefulWidget {
   const LeaderboardPage({Key? key}) : super(key: key);
@@ -153,34 +153,31 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
 
         return Stack(
           children: [
-            ListView.builder(
+            ListView(
               physics: const BouncingScrollPhysics(),
               padding: const EdgeInsets.fromLTRB(16, 6, 16, 24),
-              itemCount: visible.length + 1 + (showPinnedSelf ? 1 : 0),
-              itemBuilder: (context, index) {
-                if (index == 0) {
-                  return _YourHandleNote(
-                    handle: myIndex == -1 ? null : users[myIndex].name,
-                  );
-                }
-                final position = index - 1;
-                if (position < visible.length) {
-                  final user = visible[position];
-                  return _LeaderboardTile(
-                    rank: position + 1,
-                    user: user,
-                    isMe: user.userId == uid,
-                  );
-                }
-                return Padding(
-                  padding: const EdgeInsets.only(top: 8),
-                  child: _LeaderboardTile(
-                    rank: myIndex + 1,
-                    user: users[myIndex],
-                    isMe: true,
+              children: [
+                _YourHandleNote(
+                  handle: myIndex == -1 ? null : users[myIndex].name,
+                ),
+                // The board lays itself out so a change of standing is a
+                // move, not a redraw.
+                LeagueBoard(
+                  users: visible,
+                  language: widget.language,
+                  myUserId: uid,
+                ),
+                if (showPinnedSelf)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: LeagueRow(
+                      rank: myIndex + 1,
+                      user: users[myIndex],
+                      language: widget.language,
+                      isMe: true,
+                    ),
                   ),
-                );
-              },
+              ],
             ),
             Align(
               alignment: Alignment.topCenter,
@@ -309,153 +306,6 @@ class _LeagueHeader extends StatelessWidget {
   }
 }
 
-class _LeaderboardTile extends StatelessWidget {
-  final int rank;
-  final LeaderboardEntry user;
-  final bool isMe;
-
-  const _LeaderboardTile({
-    required this.rank,
-    required this.user,
-    this.isMe = false,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    final isTopTen = rank <= 10;
-    final isBottomFive = rank > 25;
-
-    return Container(
-      margin: const EdgeInsets.only(bottom: 8),
-      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-      decoration: BoxDecoration(
-        color: isMe
-            ? context.appAccent.withValues(alpha: 0.10)
-            : context.appSurface,
-        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-        border: Border.all(
-          width: isMe ? 2 : 1,
-          color: isMe
-              ? context.appAccent
-              : isTopTen
-                  ? context.appWarning.withValues(alpha: 0.55)
-                  : isBottomFive
-                      ? context.appDanger.withValues(alpha: 0.45)
-                      : context.appBorder,
-        ),
-      ),
-      child: Row(
-        children: [
-          SizedBox(
-            width: 34,
-            child: Text(
-              '$rank',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
-                color: isTopTen
-                    ? context.appWarning
-                    : isBottomFive
-                        ? context.appDanger
-                        : context.appTextSecondary,
-              ),
-            ),
-          ),
-          const SizedBox(width: 10),
-          // Generated from the avatar seed, so opening the leaderboard never
-          // fetches anyone's Google photo.
-          Identicon(
-            seed: user.profileImage.isEmpty ? user.userId : user.profileImage,
-            size: 38,
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Flexible(
-                      child: Text(
-                        user.name,
-                        style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                              fontWeight: FontWeight.w600,
-                            ),
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    if (isMe) ...[
-                      const SizedBox(width: 6),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 6,
-                          vertical: 1,
-                        ),
-                        decoration: BoxDecoration(
-                          color: context.appAccent,
-                          borderRadius: BorderRadius.circular(
-                            VarnamalaTheme.radiusRound,
-                          ),
-                        ),
-                        child: Text(
-                          'YOU',
-                          style: TextStyle(
-                            fontSize: 9,
-                            fontWeight: FontWeight.w900,
-                            letterSpacing: 0.6,
-                            color: Theme.of(context).colorScheme.onPrimary,
-                          ),
-                        ),
-                      ),
-                    ],
-                    const SizedBox(width: 6),
-                    Icon(
-                      Icons.shield_rounded,
-                      size: 14,
-                      color: context.appViolet,
-                    ),
-                  ],
-                ),
-                if (user.languages.isNotEmpty)
-                  Text(
-                    user.languages.join(', ').toTitleCase,
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: context.appInfo,
-                        ),
-                    overflow: TextOverflow.ellipsis,
-                  ),
-              ],
-            ),
-          ),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-            decoration: BoxDecoration(
-              color: context.appSuccess.withValues(alpha: 0.14),
-              borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
-            ),
-            child: Text(
-              '${user.effectiveLeagueXp} XP',
-              style: TextStyle(
-                fontSize: 13,
-                fontWeight: FontWeight.w700,
-                color: context.appSuccess,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-/// Explains why nobody on this board is called what their friends call them.
-///
-/// Varnamala shows a derived handle rather than a real name (see
-/// `lib/core/identity.dart`), which is right for privacy but leaves learners
-/// hunting for a friend who is listed under a name they have never seen. The
-/// fix is not to expose names: it is to tell each learner their own handle, so
-/// they can say "look for me as Chetan".
 class _YourHandleNote extends StatelessWidget {
   const _YourHandleNote({required this.handle});
 

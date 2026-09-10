@@ -32,12 +32,18 @@ class CourseProvider extends ChangeNotifier {
 
     try {
       courses = await parseCourses(
+        // Every ! here was a crash waiting for an account with no display
+        // name - a Google profile with the name hidden, or an email sign-up.
+        // The name is only spliced into a greeting, so a fallback costs
+        // nothing and not having one costs the whole screen.
         firstName: getIt<AppPrefs>()
-            .authUser
-            .getValue()!
-            .displayName!
-            .split(" ")
-            .first,
+                .authUser
+                .getValue()
+                ?.displayName
+                ?.trim()
+                .split(" ")
+                .firstOrNull ??
+            'friend',
         targetLanguage: language,
       );
     } catch (error, stackTrace) {

@@ -18,6 +18,7 @@ import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
 import 'package:words625/views/courses/course_tree.dart';
 import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
+import 'package:words625/views/debug/league_demo_page.dart';
 import 'package:words625/views/flashcards/flashcards_page.dart';
 import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/home/components/components.dart';
@@ -255,6 +256,23 @@ class _HomePageState extends State<HomePage>
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (_) => const InteractiveLessonDemoPage(),
+                    ),
+                  );
+                },
+              ),
+              ListTile(
+                leading:
+                    Icon(Icons.emoji_events_rounded, color: context.appWarning),
+                title: const Text('League lab'),
+                subtitle: const Text(
+                  'Invented learners, so the climb can be demonstrated',
+                ),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () {
+                  Navigator.of(sheetContext).pop();
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const LeagueDemoPage(),
                     ),
                   );
                 },

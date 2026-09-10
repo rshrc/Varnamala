@@ -22,6 +22,15 @@ class AppRouter extends RootStackRouter {
           page: InteractiveLessonDemoRoute.page,
           path: '/interactive-lab',
         ),
+        // Unguarded, like the lesson lab. Both exist to be shown to somebody,
+        // which is hard to do from behind a sign-in wall - and the league is
+        // the one screen a maintainer cannot demonstrate on their own account,
+        // because maintainers are excluded from the standings.
+        AutoRoute(
+          page: LeagueDemoRoute.page,
+          path: '/league-lab',
+        ),
+        AutoRoute(page: ShowcaseRoute.page, path: '/showcase'),
         AutoRoute(page: LoginRoute.page),
         AutoRoute(page: LangChoiceRoute.page, guards: [_authGuard]),
         AutoRoute(

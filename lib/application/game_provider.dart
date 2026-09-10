@@ -41,6 +41,17 @@ class GameProvider extends ChangeNotifier {
 
   StreakCheckResult get lastStreakCheckResult => _lastStreakCheckResult;
 
+  int _recentXp = 0;
+
+  /// XP awarded since [resetRecentXp], so the screen that follows a lesson can
+  /// say what the lesson was worth.
+  ///
+  /// A lesson awards more than once - completion, then a perfect bonus - so a
+  /// single "last award" would under-report it.
+  int get recentXp => _recentXp;
+
+  void resetRecentXp() => _recentXp = 0;
+
   /// Adds to a running counter on the user document.
   ///
   /// These are what the achievement catalogue reads — a badge whose stat is
@@ -302,6 +313,7 @@ class GameProvider extends ChangeNotifier {
     if (xp <= 0) return 0;
 
     await incrementScore(xp, notify: false, language: language);
+    _recentXp += xp;
 
     if (notify) notifyListeners();
     return xp;

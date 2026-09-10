@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
+import 'package:words625/core/enums.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/domain/course/course.dart';
+import 'package:words625/views/leaderboard/components/league_climb_panel.dart';
 import 'package:words625/views/theme.dart';
 
 class InteractiveCompletionView extends StatelessWidget {
@@ -11,6 +13,8 @@ class InteractiveCompletionView extends StatelessWidget {
     required this.stage,
     required this.isReplay,
     required this.completion,
+    this.language,
+    this.xpEarned = 0,
     super.key,
   });
 
@@ -18,6 +22,13 @@ class InteractiveCompletionView extends StatelessWidget {
   final LessonStageKind stage;
   final bool isReplay;
   final InteractiveProgressAdvance? completion;
+
+  /// The course's language, for the league panel.
+  final TargetLanguage? language;
+
+  /// What this stage was worth. The panel needs it to reconstruct where the
+  /// learner stood before it landed.
+  final int xpEarned;
 
   @override
   Widget build(BuildContext context) {
@@ -93,6 +104,15 @@ class InteractiveCompletionView extends StatelessWidget {
                               color: context.appTextSecondary,
                             ),
                       ),
+                      // The climb is the reward. Showing the standings the
+                      // moment the XP lands is the whole point of a league.
+                      if (language case final language? when !isReplay) ...[
+                        const SizedBox(height: 30),
+                        LeagueClimbPanel(
+                          language: language,
+                          xpJustEarned: xpEarned,
+                        ),
+                      ],
                       const SizedBox(height: 30),
                       SizedBox(
                         width: double.infinity,
