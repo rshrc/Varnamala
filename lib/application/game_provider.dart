@@ -6,6 +6,10 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:injectable/injectable.dart';
 
+// Project imports:
+import 'package:words625/di/injection.dart';
+import 'package:words625/service/locator.dart';
+
 enum XPEvent {
   lessonComplete(base: 10),
   perfectLesson(base: 15),
@@ -149,7 +153,11 @@ class GameProvider extends ChangeNotifier {
       'leagueXp': initialLeagueXp,
       'leagueXpMigratedFromScore': true,
       'leagueXpSeededFromScore': shouldSeedLeagueXp || leagueXpSeeded,
-      ...languageLeagueMigration(data, initialLeagueXp: initialLeagueXp),
+      ...languageLeagueMigration(
+        data,
+        initialLeagueXp: initialLeagueXp,
+        localLanguage: _localLanguage(),
+      ),
       'leagueJoinedAt': data['leagueJoinedAt'] ?? FieldValue.serverTimestamp(),
       'achievements': (data['achievements'] as List<dynamic>?)
               ?.whereType<String>()
@@ -174,6 +182,23 @@ class GameProvider extends ChangeNotifier {
     };
 
     await docRef.set(defaults, SetOptions(merge: true));
+  }
+
+  /// The language selected on this device, if any.
+  String? _localLanguage() {
+    try {
+      final value = getIt<AppPrefs>()
+          .preferences
+          .getString(
+            PrefsConstants.currentLanguage,
+            defaultValue: '',
+          )
+          .getValue();
+      return value.isEmpty ? null : value;
+    } catch (_) {
+      // Preferences are not registered in every test harness.
+      return null;
+    }
   }
 
   /// The per-language XP bump for a write of [xp], or null when the language
@@ -226,6 +251,7 @@ class GameProvider extends ChangeNotifier {
   static Map<String, dynamic> languageLeagueMigration(
     Map<String, dynamic> data, {
     required int initialLeagueXp,
+    String? localLanguage,
   }) {
     final languages = (data['languages'] as List<dynamic>? ?? const [])
         .whereType<String>()
@@ -235,6 +261,12 @@ class GameProvider extends ChangeNotifier {
     final known = <String>{
       ...languages,
       if (preferred != null && preferred.isNotEmpty) preferred,
+      // The device's own choice. Most accounts predate `preferredLanguage`
+      // and never wrote `languages` either, so the server has no idea what
+      // they are learning - but the phone in their hand does. Without this
+      // they match no language-scoped leaderboard and simply vanish from the
+      // rankings they used to appear on.
+      if (localLanguage != null && localLanguage.isNotEmpty) localLanguage,
     };
 
     final updates = <String, dynamic>{};

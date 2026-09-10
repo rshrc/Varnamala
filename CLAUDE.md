@@ -247,9 +247,47 @@ grind outranked the people actually learning Tamil.
   everywhere would put a Hindi learner's total on the Tamil board. It also
   backfills `languages` from `preferredLanguage`, because an account with an
   empty array would vanish from every board.
+- **Maintainers are kept off the boards.** `excludedFromLeagues` on the user
+  document, set with `bun run admin/scripts/exclude-from-leagues.ts <email>`
+  (`--list` to see who, `--include` to undo). A flag rather than a list of
+  addresses in the app, because the web bundle is public and hardcoding staff
+  emails there would publish them.
 - XP writes carry their language: `awardXP(..., language: course.language)`.
   Anything new that awards XP must pass one, or it falls back to the learner's
   stored `preferredLanguage`.
+
+### Speech: why the accent is wrong, and what fixes it
+
+`SpeechService` picks a voice **per language, per utterance**, and every
+`SpeakButton` offers normal and slow playback. It used to pick one Indian
+English voice once for the whole app, so Kannada, Tamil and Hindi were read by
+the same English reader.
+
+That is only half the problem, and the remaining half is content, not code:
+
+**Lesson text is romanized.** `akki`, `neeru`, `vanakkam` are Latin letters. An
+English voice applies English vowels to them, which is the accent you hear. A
+native voice does not automatically fix it - a `kn-IN` engine handed Latin text
+will usually read it as English too, or refuse.
+
+Genuinely fixing pronunciation needs the **native script** to reach the engine.
+Three ways, in increasing order of cost:
+
+1. **Author it.** Add a `script` field beside `word` in `words.json` - 60 words
+   x 13 languages. Cheap, exact, and needs a native-speaker pass. It would also
+   let the course *show* the real script, which learners want.
+2. **Transliterate at runtime.** Brahmic scripts are code-point aligned
+   (Devanagari U+0900, Bengali U+0980, Kannada U+0C80 ...), so one
+   romanization-to-Devanagari mapping plus an offset covers eight of the nine
+   script families. Tamil has a smaller consonant inventory and Urdu is
+   Perso-Arabic, so both need their own path.
+3. **Bundle recordings.** Perfect, and the only option that fixes prosody, but
+   it is 780 audio files before a single sentence is covered.
+
+Whichever lands, keep the fallback: `SpeechService.hasNativeVoice` reports
+whether the device can actually read the language, because Kannada and Odia
+voices are common on Android and rare in desktop browsers. Native script sent
+to a device with no matching voice is worse than romanization, not better.
 
 ### Answer feedback sounds
 

@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:words625/application/level_provider.dart';
+import 'package:words625/core/enums.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/service/speech_service.dart';
@@ -140,7 +141,10 @@ class _ListLessonState extends State<ListLesson> {
                 Instruction(
                     prompt: lessonProvider.currentQuestion?.prompt ?? "--"),
                 const SizedBox(height: 12),
-                QuestionRow(question: lessonProvider.currentQuestion),
+                QuestionRow(
+                  question: lessonProvider.currentQuestion,
+                  language: targetLanguageNamed(widget.course.language),
+                ),
                 const SizedBox(height: 8),
                 Expanded(
                   child: SingleChildScrollView(
@@ -202,7 +206,11 @@ class Instruction extends StatelessWidget {
 
 class QuestionRow extends StatelessWidget {
   final Question? question;
-  const QuestionRow({super.key, required this.question});
+
+  /// So the sentence is read by a voice that speaks it.
+  final TargetLanguage? language;
+
+  const QuestionRow({super.key, required this.question, this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -211,7 +219,10 @@ class QuestionRow extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SpeakButton(sentence: question?.sentence ?? "--"),
+          SpeakButton(
+            sentence: question?.sentence ?? "--",
+            language: language,
+          ),
           const SizedBox(width: 14),
           Flexible(
             child: question?.sentenceIsTargetLanguage ?? false
@@ -312,23 +323,100 @@ class ListChoice extends StatelessWidget {
 }
 
 class SpeakButton extends StatelessWidget {
+  const SpeakButton({
+    super.key,
+    required this.sentence,
+    this.language,
+    this.showSlow = true,
+  });
+
   final String sentence;
-  const SpeakButton({super.key, required this.sentence});
+
+  /// The language this text is in. Without it the reader falls back to an
+  /// English voice, which is what made every course sound English.
+  final TargetLanguage? language;
+
+  /// The slow reader sits beside the normal one rather than hiding behind a
+  /// long press: a learner who cannot catch a word needs to *see* that hearing
+  /// it again slowly is an option.
+  final bool showSlow;
+
+  void _speak(SpeechPace pace) =>
+      getIt<SpeechService>().speak(sentence, language: language, pace: pace);
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      color: context.appInfo,
-      borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-      child: InkWell(
-        onTap: () => getIt<SpeechService>().speak(sentence),
-        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-        child: Container(
-          padding: const EdgeInsets.all(10),
-          child: Icon(
-            Icons.volume_up_rounded,
-            color: context.appOn(context.appInfo),
-            size: 26,
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        _SpeakerButton(
+          icon: Icons.volume_up_rounded,
+          size: 26,
+          tooltip: 'Listen',
+          background: context.appInfo,
+          onTap: () => _speak(SpeechPace.normal),
+        ),
+        if (showSlow) ...[
+          const SizedBox(width: 8),
+          _SpeakerButton(
+            // A tortoise is the convention for "same thing, slower", and it
+            // survives having no room for a label.
+            icon: Icons.slow_motion_video_rounded,
+            size: 20,
+            tooltip: 'Listen slowly',
+            background: context.appInfo.withValues(alpha: 0.16),
+            foreground: context.appInfo,
+            onTap: () => _speak(SpeechPace.slow),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+class _SpeakerButton extends StatelessWidget {
+  const _SpeakerButton({
+    required this.icon,
+    required this.size,
+    required this.tooltip,
+    required this.background,
+    required this.onTap,
+    this.foreground,
+  });
+
+  final IconData icon;
+  final double size;
+  final String tooltip;
+  final Color background;
+  final Color? foreground;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final radius = BorderRadius.circular(VarnamalaTheme.radiusMedium);
+    return Tooltip(
+      message: tooltip,
+      child: Material(
+        color: background,
+        borderRadius: radius,
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: radius,
+          child: Semantics(
+            button: true,
+            label: tooltip,
+            child: Container(
+              // Never below the 44x44 floor, whichever glyph is inside.
+              constraints: const BoxConstraints(minWidth: 44, minHeight: 44),
+              alignment: Alignment.center,
+              padding: const EdgeInsets.all(8),
+              child: Icon(
+                icon,
+                // Derived from this button's own fill.
+                color: foreground ?? context.appOn(background),
+                size: size,
+              ),
+            ),
           ),
         ),
       ),

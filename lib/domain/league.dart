@@ -33,6 +33,14 @@ class LeaderboardEntry {
   /// League-cycle XP per language, likewise.
   final Map<String, int> leagueXpByLanguage;
 
+  /// Keeps this account off the boards entirely.
+  ///
+  /// For the people building the app. A maintainer testing a lesson two
+  /// hundred times is not a learner other learners should be measured
+  /// against, and their score sitting at the top of every board makes the
+  /// league meaningless for everyone else.
+  final bool excludedFromLeagues;
+
   const LeaderboardEntry({
     required this.userId,
     required this.name,
@@ -44,6 +52,7 @@ class LeaderboardEntry {
     this.preferredLanguage,
     this.leagueByLanguage = const {},
     this.leagueXpByLanguage = const {},
+    this.excludedFromLeagues = false,
   });
 
   int get effectiveLeagueXp {
@@ -99,6 +108,7 @@ class LeaderboardEntry {
       preferredLanguage: map['preferredLanguage'] as String?,
       leagueByLanguage: _stringMap(map['leagueByLanguage']),
       leagueXpByLanguage: _intMap(map['leagueXpByLanguage']),
+      excludedFromLeagues: map['excludedFromLeagues'] as bool? ?? false,
     );
   }
 }

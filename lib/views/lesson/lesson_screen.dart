@@ -72,6 +72,9 @@ class LessonPageState extends State<LessonPage> {
   GeneratedLessonStage? _generatedStage;
   late int _unitIndex;
   late LessonStageKind _stageKind;
+
+  /// The course's language, so its sentences are read in their own voice.
+  TargetLanguage? _language;
   bool _isReplay = false;
   bool _finishing = false;
   InteractiveProgressAdvance? _completion;
@@ -109,6 +112,7 @@ class LessonPageState extends State<LessonPage> {
       (item) => item.name == widget.course.language,
       orElse: () => TargetLanguage.kannada,
     );
+    _language = language;
     final level = levels[_unitIndex];
     final exerciseContext = CourseExerciseContext(
       language: language,
@@ -399,7 +403,10 @@ class LessonPageState extends State<LessonPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           if (generated.sourceSentence.isNotEmpty) ...[
-                            SpeakButton(sentence: generated.sourceSentence),
+                            SpeakButton(
+                              sentence: generated.sourceSentence,
+                              language: _language,
+                            ),
                             const SizedBox(width: 12),
                           ],
                           Expanded(

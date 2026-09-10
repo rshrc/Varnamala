@@ -102,6 +102,30 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('the word prompt and both speaker buttons fit a 320px phone',
+      (tester) async {
+    tester.view
+      ..physicalSize = const Size(320, 640)
+      ..devicePixelRatio = 1;
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(
+      host(
+        PictureChoiceExerciseView(
+          exercise: pictureOptions(),
+          onChanged: (_) {},
+        ),
+        brightness: Brightness.light,
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    // Listen and Listen slowly, beside a word, on the narrowest phone.
+    expect(find.byIcon(Icons.volume_up_rounded), findsOneWidget);
+    expect(find.byIcon(Icons.slow_motion_video_rounded), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('a missed picture shows both the wrong pick and the right one',
       (tester) async {
     final exercise = pictureOptions();

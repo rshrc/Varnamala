@@ -162,6 +162,7 @@ class VocabularyExerciseFactory {
           ),
         ),
       _ => _pictureChoice(
+          context: context,
           word: word,
           label: label,
           pool: pool,
@@ -201,6 +202,7 @@ class VocabularyExerciseFactory {
     required String sourceId,
   }) =>
       _pictureChoice(
+        context: context,
         word: word,
         label: _label(word, concepts),
         pool: pool,
@@ -211,6 +213,7 @@ class VocabularyExerciseFactory {
       );
 
   PictureChoiceExercise _pictureChoice({
+    required CourseExerciseContext context,
     required VocabularyWord word,
     required String label,
     required List<VocabularyWord> pool,
@@ -249,6 +252,7 @@ class VocabularyExerciseFactory {
           : null,
       promptWord:
           kind == VocabularyExerciseKind.wordToPicture ? word.word : null,
+      promptLanguage: context.language.name,
       promptLabel: kind == VocabularyExerciseKind.pictureToWord ? label : null,
       optionsArePictures: optionsArePictures,
       options: options,

@@ -105,6 +105,9 @@ class LeagueProvider extends ChangeNotifier {
     String language,
   ) {
     final users = entries.where((entry) {
+      // Maintainers do not compete against the people they are building for.
+      if (entry.excludedFromLeagues) return false;
+
       // Belt and braces: the query already filters by language, but this is
       // also called on locally assembled lists.
       if (entry.languages.isNotEmpty && !entry.languages.contains(language)) {

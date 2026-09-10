@@ -250,6 +250,7 @@ class PictureChoiceExercise extends InteractiveExercise {
     required this.correctOptionId,
     this.promptArt,
     this.promptWord,
+    this.promptLanguage,
     this.promptLabel,
     this.optionsArePictures = false,
     super.adaptiveRetry,
@@ -261,6 +262,10 @@ class PictureChoiceExercise extends InteractiveExercise {
   /// The target-language word, shown and spoken. Null when the learner is
   /// meant to work from the audio alone.
   final String? promptWord;
+
+  /// Which language [promptWord] is, so it can be read in its own voice
+  /// rather than by an English one.
+  final String? promptLanguage;
 
   /// The English label for [promptArt].
   final String? promptLabel;

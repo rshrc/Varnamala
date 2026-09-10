@@ -15,6 +15,7 @@ LeaderboardEntry entry(
   String? preferredLanguage,
   Map<String, String> leagueByLanguage = const {},
   Map<String, int> leagueXpByLanguage = const {},
+  bool excludedFromLeagues = false,
 }) =>
     LeaderboardEntry(
       userId: id,
@@ -27,6 +28,7 @@ LeaderboardEntry entry(
       preferredLanguage: preferredLanguage,
       leagueByLanguage: leagueByLanguage,
       leagueXpByLanguage: leagueXpByLanguage,
+      excludedFromLeagues: excludedFromLeagues,
     );
 
 void main() {
@@ -92,6 +94,48 @@ void main() {
       ], 'gold', 'tamil');
 
       expect(ranked.map((e) => e.userId), ['gold-in-tamil']);
+    });
+  });
+
+  group('maintainers are kept off the boards', () {
+    test('an excluded account is not ranked, however much XP it has', () {
+      final ranked = LeagueProvider.rankForLeague([
+        entry('maintainer',
+            languages: ['tamil'],
+            score: 99999,
+            leagueXpByLanguage: {'tamil': 99999},
+            excludedFromLeagues: true),
+        entry('learner',
+            languages: ['tamil'], leagueXpByLanguage: {'tamil': 10}),
+      ], 'bronze', 'tamil');
+
+      expect(ranked.map((e) => e.userId), ['learner']);
+    });
+
+    test('exclusion holds in every league and language', () {
+      final maintainer = entry('maintainer',
+          languages: ['tamil', 'hindi'],
+          league: 'diamond',
+          leagueXpByLanguage: {'tamil': 500, 'hindi': 500},
+          excludedFromLeagues: true);
+
+      for (final league in LeagueProvider.leagues) {
+        for (final language in ['tamil', 'hindi']) {
+          expect(
+            LeagueProvider.rankForLeague([maintainer], league, language),
+            isEmpty,
+            reason: 'still showing in $league / $language',
+          );
+        }
+      }
+    });
+
+    test('the flag defaults to off, so nobody is excluded by accident', () {
+      expect(entry('learner').excludedFromLeagues, isFalse);
+      expect(
+        LeaderboardEntry.fromMap('learner', const {}).excludedFromLeagues,
+        isFalse,
+      );
     });
   });
 
@@ -196,6 +240,37 @@ void main() {
           'leagueLanguageMigrated': true,
         },
         initialLeagueXp: 999,
+      );
+
+      expect(updates['languages'], containsAll(['tamil', 'telugu']));
+    });
+
+    test('an account the server knows nothing about is rescued by the device',
+        () {
+      // 830 of 1047 live accounts have neither `languages` nor
+      // `preferredLanguage` - they predate both fields. The board query filters
+      // on `languages`, so without this they match nothing and disappear from
+      // the rankings they used to be on.
+      final updates = GameProvider.languageLeagueMigration(
+        {'league': 'gold', 'leagueXp': 400},
+        initialLeagueXp: 400,
+        localLanguage: 'kannada',
+      );
+
+      expect(updates['languages'], ['kannada']);
+      expect(updates['leagueByLanguage'], {'kannada': 'gold'});
+      expect(updates['leagueXpByLanguage'], {'kannada': 400});
+    });
+
+    test('the device choice is added to a language already on the server', () {
+      final updates = GameProvider.languageLeagueMigration(
+        {
+          'league': 'bronze',
+          'languages': ['tamil'],
+          'leagueLanguageMigrated': true,
+        },
+        initialLeagueXp: 0,
+        localLanguage: 'telugu',
       );
 
       expect(updates['languages'], containsAll(['tamil', 'telugu']));

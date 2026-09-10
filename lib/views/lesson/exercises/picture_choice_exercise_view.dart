@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 // Project imports:
+import 'package:words625/core/enums.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
 import 'package:words625/views/lesson/components/list_lesson.dart';
 import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
@@ -118,7 +119,10 @@ class _Prompt extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 12),
-              SpeakButton(sentence: word),
+              SpeakButton(
+                sentence: word,
+                language: targetLanguageNamed(exercise.promptLanguage),
+              ),
             ],
           )
         else if (exercise.promptLabel case final label?)
