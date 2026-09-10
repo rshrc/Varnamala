@@ -29,6 +29,10 @@ module GenerateManifests
 
   # id, title, icon (assets/images/<icon>.png), hue
   COURSES = [
+    # First words comes before Basics on purpose: learners were being asked to
+    # assemble sentences out of vocabulary nobody had taught them. It teaches
+    # sixty everyday words against pictures, and no sentences at all.
+    ['words',         'First words',     'book2',     120],
     ['basics',        'Basics',          'egg',       174],
     ['greetings',     'Greetings',       'hand',       45],
     ['introductions', 'Introductions',   'pen',       285],
@@ -47,7 +51,10 @@ module GenerateManifests
   ].freeze
 
   # Row sizes for the winding course map: singles, pairs and triples alternating.
-  TREE_SHAPE = [1, 1, 2, 3, 1, 2, 3, 1, 1].freeze
+  # The first two rows are single on purpose - First words and Basics are the
+  # two courses open from the first launch, and they read as a start rather
+  # than as a choice when they are stacked.
+  TREE_SHAPE = [1, 1, 1, 2, 3, 1, 2, 3, 1, 1].freeze
 
   # language => [native name, romanization convention]
   LANGUAGES = {

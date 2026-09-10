@@ -63,8 +63,13 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/images/mala/
+    # One picture per concept taught by the First words course, shared by every
+    # language: an apple is an apple in all thirteen.
+    - assets/images/vocab/
     - assets/screens/
     - assets/emblems/
+    # The concepts those pictures illustrate, and their English labels.
+    - assets/courses/concepts.json
     # Course content, one directory of hand-editable JSON per language.
     - assets/courses/assamese/
     - assets/courses/gujarati/

@@ -327,7 +327,7 @@ class SpeakButton extends StatelessWidget {
           padding: const EdgeInsets.all(10),
           child: Icon(
             Icons.volume_up_rounded,
-            color: Theme.of(context).colorScheme.onSecondary,
+            color: context.appOn(context.appInfo),
             size: 26,
           ),
         ),

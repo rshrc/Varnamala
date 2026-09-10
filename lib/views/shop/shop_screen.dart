@@ -8,9 +8,11 @@ import 'package:provider/provider.dart';
 // Project imports:
 import 'package:words625/application/game_provider.dart';
 import 'package:words625/application/gems_provider.dart';
+import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/auth/components/logout_button.dart';
+import 'package:words625/views/flashcards/flashcards_page.dart';
 import 'package:words625/views/theme.dart';
 
 class ShopPage extends StatelessWidget {
@@ -18,6 +20,11 @@ class ShopPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Flashcards used to sit at the top of the course path, above the first
+    // node, which put a side tool in front of the main thing the screen is
+    // for. It belongs with the other practice tools.
+    final language = context.watch<LanguageProvider>().selectedLanguage;
+
     return StreamBuilder<Map<String, dynamic>>(
       stream: context.read<GameProvider>().getUserGameStateStream(),
       builder: (context, snapshot) {
@@ -43,6 +50,28 @@ class ShopPage extends StatelessWidget {
             physics: const BouncingScrollPhysics(),
             slivers: [
               const SliverToBoxAdapter(child: SizedBox(height: 8)),
+              SliverToBoxAdapter(
+                child: _SectionTitle(
+                  title: 'Practice',
+                  icon: Icons.style_rounded,
+                  iconColor: context.appViolet,
+                ),
+              ),
+              SliverToBoxAdapter(
+                child: ShopItem(
+                  icon: Icons.style_rounded,
+                  iconColor: context.appViolet,
+                  label: 'Flashcard review',
+                  description:
+                      'Spaced repetition for the words you have met so far.',
+                  buttonLabel: 'REVIEW',
+                  onTap: () => Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => FlashcardsPage(language: language),
+                    ),
+                  ),
+                ),
+              ),
               const SliverToBoxAdapter(
                 child: _SectionTitle(
                   title: 'Learn To Repair',
@@ -82,8 +111,7 @@ class ShopPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Icon(Icons.bolt_rounded,
-                                color:
-                                    Theme.of(context).colorScheme.onSecondary,
+                                color: context.appOn(context.appInfo),
                                 size: 22),
                             const SizedBox(width: 8),
                             Text(
@@ -91,8 +119,7 @@ class ShopPage extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.w700,
-                                color:
-                                    Theme.of(context).colorScheme.onSecondary,
+                                color: context.appOn(context.appInfo),
                               ),
                             ),
                           ],
@@ -198,14 +225,16 @@ class ShopPage extends StatelessWidget {
         await context.read<GemsProvider>().claimCommunityReward(action);
     if (!context.mounted) return;
 
+    final background = success ? context.appSuccess : context.appDanger;
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(
           success
               ? 'Reward claimed. Keep learning and contributing.'
               : 'Validation pending or already claimed.',
+          style: TextStyle(color: context.appOn(background)),
         ),
-        backgroundColor: success ? context.appSuccess : context.appDanger,
+        backgroundColor: background,
       ),
     );
   }

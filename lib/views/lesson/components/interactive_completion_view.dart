@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
+import 'package:words625/core/responsive.dart';
 import 'package:words625/domain/course/course.dart';
 import 'package:words625/views/theme.dart';
 
@@ -36,62 +37,78 @@ class InteractiveCompletionView extends StatelessWidget {
 
     return Scaffold(
       body: SafeArea(
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(28),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  width: 100,
-                  height: 100,
-                  decoration: BoxDecoration(
-                    color: context.appWarning.withValues(alpha: 0.16),
-                    shape: BoxShape.circle,
-                    border: Border.all(color: context.appWarning, width: 3),
-                    boxShadow: [
-                      BoxShadow(
-                        color: context.appWarning.withValues(alpha: 0.3),
-                        blurRadius: 28,
-                        spreadRadius: 3,
+        // Bounded and scrollable. Unbounded, the CONTINUE button ran the full
+        // width of a desktop window, and on a short window - a phone in
+        // landscape, or large text - the medal and the button could not both
+        // fit and the column overflowed.
+        child: ContentBounds(
+          child: LayoutBuilder(
+            builder: (context, constraints) => SingleChildScrollView(
+              child: ConstrainedBox(
+                constraints: BoxConstraints(minHeight: constraints.maxHeight),
+                child: Padding(
+                  padding: const EdgeInsets.all(28),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Container(
+                        width: 100,
+                        height: 100,
+                        decoration: BoxDecoration(
+                          color: context.appWarning.withValues(alpha: 0.16),
+                          shape: BoxShape.circle,
+                          border:
+                              Border.all(color: context.appWarning, width: 3),
+                          boxShadow: [
+                            BoxShadow(
+                              color: context.appWarning.withValues(alpha: 0.3),
+                              blurRadius: 28,
+                              spreadRadius: 3,
+                            ),
+                          ],
+                        ),
+                        child: Icon(
+                          Icons.workspace_premium_rounded,
+                          color: context.appWarning,
+                          size: 52,
+                        ),
+                      ),
+                      const SizedBox(height: 24),
+                      Text(
+                        title,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(context)
+                            .textTheme
+                            .headlineMedium
+                            ?.copyWith(
+                              fontWeight: FontWeight.w900,
+                            ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        subtitle,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                              color: context.appTextSecondary,
+                            ),
+                      ),
+                      const SizedBox(height: 30),
+                      SizedBox(
+                        width: double.infinity,
+                        height: 52,
+                        child: ElevatedButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          child: const Text(
+                            'CONTINUE ON PATH',
+                            style: TextStyle(fontWeight: FontWeight.w900),
+                          ),
+                        ),
                       ),
                     ],
                   ),
-                  child: Icon(
-                    Icons.workspace_premium_rounded,
-                    color: context.appWarning,
-                    size: 52,
-                  ),
                 ),
-                const SizedBox(height: 24),
-                Text(
-                  title,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                        fontWeight: FontWeight.w900,
-                      ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  subtitle,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                        color: context.appTextSecondary,
-                      ),
-                ),
-                const SizedBox(height: 30),
-                SizedBox(
-                  width: double.infinity,
-                  height: 52,
-                  child: ElevatedButton(
-                    onPressed: () => Navigator.of(context).pop(),
-                    child: const Text(
-                      'CONTINUE ON PATH',
-                      style: TextStyle(fontWeight: FontWeight.w900),
-                    ),
-                  ),
-                ),
-              ],
+              ),
             ),
           ),
         ),

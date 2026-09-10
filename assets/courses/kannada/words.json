@@ -1,0 +1,98 @@
+{
+  "course": "words",
+  "title": "First words",
+  "description": "The sixty everyday words the rest of the course is built from.",
+  "schema": 2,
+  "levels": [
+    {
+      "level": 1,
+      "title": "At the table",
+      "words": [
+        { "concept": "water", "word": "neeru" },
+        { "concept": "milk", "word": "haalu" },
+        { "concept": "tea", "word": "chahaa" },
+        { "concept": "bread", "word": "rotti", "gloss": "flatbread" },
+        { "concept": "rice", "word": "akki" },
+        { "concept": "egg", "word": "motte" },
+        { "concept": "apple", "word": "sebu" },
+        { "concept": "banana", "word": "baalehannu" },
+        { "concept": "mango", "word": "maavinahannu" },
+        { "concept": "vegetable", "word": "tarakaari" },
+        { "concept": "fish", "word": "meenu" },
+        { "concept": "food", "word": "oota", "gloss": "a meal" }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The people around you",
+      "words": [
+        { "concept": "mother", "word": "amma" },
+        { "concept": "father", "word": "appa" },
+        { "concept": "brother", "word": "anna", "gloss": "elder brother" },
+        { "concept": "sister", "word": "akka", "gloss": "elder sister" },
+        { "concept": "baby", "word": "magu", "gloss": "child" },
+        { "concept": "family", "word": "kutumba" },
+        { "concept": "friend", "word": "snehita" },
+        { "concept": "grandmother", "word": "ajji" },
+        { "concept": "grandfather", "word": "ajja" },
+        { "concept": "doctor", "word": "vaidya" },
+        { "concept": "teacher", "word": "shikshaka" },
+        { "concept": "person", "word": "vyakti" }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Around the house",
+      "words": [
+        { "concept": "house", "word": "mane" },
+        { "concept": "door", "word": "baagilu" },
+        { "concept": "window", "word": "kitaki" },
+        { "concept": "bed", "word": "hasige" },
+        { "concept": "chair", "word": "kurchi" },
+        { "concept": "book", "word": "pustaka" },
+        { "concept": "key", "word": "beega", "gloss": "key, lock" },
+        { "concept": "money", "word": "hana" },
+        { "concept": "phone", "word": "dooravaani" },
+        { "concept": "clothes", "word": "batte" },
+        { "concept": "lamp", "word": "deepa" },
+        { "concept": "clock", "word": "gadiyaara" }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Head to foot, and hello",
+      "words": [
+        { "concept": "hand", "word": "kai" },
+        { "concept": "eye", "word": "kannu" },
+        { "concept": "ear", "word": "kivi" },
+        { "concept": "nose", "word": "moogu" },
+        { "concept": "mouth", "word": "bayi" },
+        { "concept": "foot", "word": "kaalu", "gloss": "foot, leg" },
+        { "concept": "hair", "word": "koodalu" },
+        { "concept": "heart", "word": "hrudaya" },
+        { "concept": "yes", "word": "houdu" },
+        { "concept": "no", "word": "illa" },
+        { "concept": "hello", "word": "namaskara" },
+        { "concept": "thanks", "word": "dhanyavaada" }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Out in the world",
+      "words": [
+        { "concept": "sun", "word": "soorya" },
+        { "concept": "moon", "word": "chandra" },
+        { "concept": "star", "word": "nakshatra" },
+        { "concept": "tree", "word": "mara" },
+        { "concept": "flower", "word": "hoovu" },
+        { "concept": "rain", "word": "male" },
+        { "concept": "dog", "word": "naayi" },
+        { "concept": "cat", "word": "bekku" },
+        { "concept": "bird", "word": "hakki" },
+        { "concept": "cow", "word": "hasu" },
+        { "concept": "car", "word": "kaaru" },
+        { "concept": "road", "word": "raste" }
+      ]
+    }
+  ]
+}

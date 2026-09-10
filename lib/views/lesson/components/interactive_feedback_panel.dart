@@ -44,10 +44,14 @@ class InteractiveFeedbackPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final correct = engine.lastAttempt!.correct;
+    // A forgiven typo is still a win: the verdict stays green and the panel
+    // just shows the learner how the word is written.
+    final correction = engine.lastAttempt!.spellingCorrection;
     final color = correct ? context.appSuccess : context.appDanger;
     final words = correct ? _praise : _consolation;
-    final headline =
-        words[stableHash32(engine.currentExercise.id) % words.length];
+    final headline = correction != null
+        ? 'Almost!'
+        : words[stableHash32(engine.currentExercise.id) % words.length];
 
     final tint = color.withValues(alpha: 0.18);
 
@@ -72,6 +76,7 @@ class InteractiveFeedbackPanel extends StatelessWidget {
               correct: correct,
               color: color,
               headline: headline,
+              correction: correction,
               engine: engine,
             ),
           ),
@@ -93,6 +98,7 @@ class InteractiveFeedbackPanel extends StatelessWidget {
         correct: correct,
         color: color,
         headline: headline,
+        correction: correction,
         engine: engine,
       ),
     );
@@ -106,12 +112,16 @@ class _Verdict extends StatelessWidget {
     required this.correct,
     required this.color,
     required this.headline,
+    required this.correction,
     required this.engine,
   });
 
   final bool correct;
   final Color color;
   final String headline;
+
+  /// The authored spelling, when a typed answer was forgiven a slip.
+  final String? correction;
   final InteractiveLessonEngine engine;
 
   @override
@@ -153,6 +163,21 @@ class _Verdict extends StatelessWidget {
                   ),
                 ],
               ),
+              if (correction != null) ...[
+                const SizedBox(height: 7),
+                Text.rich(
+                  TextSpan(
+                    children: [
+                      const TextSpan(text: 'It is spelled '),
+                      TextSpan(
+                        text: correction,
+                        style: TextStyle(color: context.appSuccess),
+                      ),
+                    ],
+                  ),
+                  style: const TextStyle(fontWeight: FontWeight.w800),
+                ),
+              ],
               if (!correct) ...[
                 const SizedBox(height: 7),
                 Text.rich(

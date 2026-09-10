@@ -10,23 +10,19 @@ import 'package:words625/views/theme.dart';
 
 class TokenBankExerciseView extends StatefulWidget {
   const TokenBankExerciseView({
-    required this.sourceLabel,
     required this.sourceText,
     required this.tokens,
     required this.acceptedOrders,
     required this.shuffleSeed,
-    required this.joinWithoutSpaces,
     required this.onChanged,
     this.evaluation,
     super.key,
   });
 
-  final String sourceLabel;
   final String sourceText;
   final List<ExerciseToken> tokens;
   final List<List<String>> acceptedOrders;
   final int shuffleSeed;
-  final bool joinWithoutSpaces;
   final ValueChanged<ExerciseResponse?> onChanged;
   final ExerciseEvaluation? evaluation;
 
@@ -95,10 +91,10 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        ExerciseSourceCard(label: widget.sourceLabel, text: widget.sourceText),
+        ExerciseSourceCard(label: 'TRANSLATE', text: widget.sourceText),
         const SizedBox(height: 22),
         Text(
-          widget.joinWithoutSpaces ? 'Build the word' : 'Build your answer',
+          'Build your answer',
           style: Theme.of(context).textTheme.labelLarge?.copyWith(
                 color: context.appTextSecondary,
                 fontWeight: FontWeight.w800,
@@ -132,7 +128,7 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
                     ),
                   )
                 : Wrap(
-                    spacing: widget.joinWithoutSpaces ? 3 : 8,
+                    spacing: 8,
                     runSpacing: 8,
                     children: [
                       for (final id in selectedTokenIds)

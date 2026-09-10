@@ -1,0 +1,287 @@
+{
+  "course": "words",
+  "title": "First words",
+  "description": "The sixty everyday words the rest of the course is built from.",
+  "schema": 2,
+  "levels": [
+    {
+      "level": 1,
+      "title": "At the table",
+      "words": [
+        {
+          "concept": "water",
+          "word": "thanneer"
+        },
+        {
+          "concept": "milk",
+          "word": "paal"
+        },
+        {
+          "concept": "tea",
+          "word": "theneer"
+        },
+        {
+          "concept": "bread",
+          "word": "rotti",
+          "gloss": "flatbread"
+        },
+        {
+          "concept": "rice",
+          "word": "arisi",
+          "gloss": "rice (uncooked)"
+        },
+        {
+          "concept": "egg",
+          "word": "muttai"
+        },
+        {
+          "concept": "apple",
+          "word": "aappil"
+        },
+        {
+          "concept": "banana",
+          "word": "vaazhaipazham"
+        },
+        {
+          "concept": "mango",
+          "word": "maambazham"
+        },
+        {
+          "concept": "vegetable",
+          "word": "kaaikari"
+        },
+        {
+          "concept": "fish",
+          "word": "meen"
+        },
+        {
+          "concept": "food",
+          "word": "saapaadu",
+          "gloss": "a meal"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The people around you",
+      "words": [
+        {
+          "concept": "mother",
+          "word": "amma"
+        },
+        {
+          "concept": "father",
+          "word": "appa"
+        },
+        {
+          "concept": "brother",
+          "word": "annan",
+          "gloss": "elder brother"
+        },
+        {
+          "concept": "sister",
+          "word": "akkaa",
+          "gloss": "elder sister"
+        },
+        {
+          "concept": "baby",
+          "word": "kuzhandhai",
+          "gloss": "child"
+        },
+        {
+          "concept": "family",
+          "word": "kudumbam"
+        },
+        {
+          "concept": "friend",
+          "word": "nanban"
+        },
+        {
+          "concept": "grandmother",
+          "word": "paatti"
+        },
+        {
+          "concept": "grandfather",
+          "word": "thaatha"
+        },
+        {
+          "concept": "doctor",
+          "word": "maruthuvar"
+        },
+        {
+          "concept": "teacher",
+          "word": "aasiriyar"
+        },
+        {
+          "concept": "person",
+          "word": "nabar"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Around the house",
+      "words": [
+        {
+          "concept": "house",
+          "word": "veedu"
+        },
+        {
+          "concept": "door",
+          "word": "kadhavu"
+        },
+        {
+          "concept": "window",
+          "word": "jannal"
+        },
+        {
+          "concept": "bed",
+          "word": "kattil"
+        },
+        {
+          "concept": "chair",
+          "word": "naarkaali"
+        },
+        {
+          "concept": "book",
+          "word": "puthagam"
+        },
+        {
+          "concept": "key",
+          "word": "saavi"
+        },
+        {
+          "concept": "money",
+          "word": "panam"
+        },
+        {
+          "concept": "phone",
+          "word": "tholaipesi",
+          "gloss": "telephone"
+        },
+        {
+          "concept": "clothes",
+          "word": "udai"
+        },
+        {
+          "concept": "lamp",
+          "word": "vilakku",
+          "gloss": "lamp, oil lamp"
+        },
+        {
+          "concept": "clock",
+          "word": "kadigaaram"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Head to foot, and hello",
+      "words": [
+        {
+          "concept": "hand",
+          "word": "kai"
+        },
+        {
+          "concept": "eye",
+          "word": "kann"
+        },
+        {
+          "concept": "ear",
+          "word": "kaadhu"
+        },
+        {
+          "concept": "nose",
+          "word": "mookku"
+        },
+        {
+          "concept": "mouth",
+          "word": "vaai"
+        },
+        {
+          "concept": "foot",
+          "word": "kaal",
+          "gloss": "foot, leg"
+        },
+        {
+          "concept": "hair",
+          "word": "mudi"
+        },
+        {
+          "concept": "heart",
+          "word": "idhayam"
+        },
+        {
+          "concept": "yes",
+          "word": "aamaam"
+        },
+        {
+          "concept": "no",
+          "word": "illai"
+        },
+        {
+          "concept": "hello",
+          "word": "vanakkam"
+        },
+        {
+          "concept": "thanks",
+          "word": "nandri"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Out in the world",
+      "words": [
+        {
+          "concept": "sun",
+          "word": "sooriyan"
+        },
+        {
+          "concept": "moon",
+          "word": "nilaa"
+        },
+        {
+          "concept": "star",
+          "word": "natchathiram"
+        },
+        {
+          "concept": "tree",
+          "word": "maram"
+        },
+        {
+          "concept": "flower",
+          "word": "poo"
+        },
+        {
+          "concept": "rain",
+          "word": "mazhai"
+        },
+        {
+          "concept": "dog",
+          "word": "naai"
+        },
+        {
+          "concept": "cat",
+          "word": "poonai"
+        },
+        {
+          "concept": "bird",
+          "word": "paravai"
+        },
+        {
+          "concept": "cow",
+          "word": "pasu"
+        },
+        {
+          "concept": "car",
+          "word": "kaar"
+        },
+        {
+          "concept": "road",
+          "word": "saalai"
+        }
+      ]
+    }
+  ]
+}

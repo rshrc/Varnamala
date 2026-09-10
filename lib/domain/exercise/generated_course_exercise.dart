@@ -23,7 +23,6 @@ enum GeneratedExerciseKind {
   sentenceOrder,
   fillBlankChoice,
   fillBlankText,
-  guessWord,
 }
 
 class CourseExerciseContext {

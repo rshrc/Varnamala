@@ -1,0 +1,287 @@
+{
+  "course": "words",
+  "title": "First words",
+  "description": "The sixty everyday words the rest of the course is built from.",
+  "schema": 2,
+  "levels": [
+    {
+      "level": 1,
+      "title": "At the table",
+      "words": [
+        {
+          "concept": "water",
+          "word": "vellam"
+        },
+        {
+          "concept": "milk",
+          "word": "paal"
+        },
+        {
+          "concept": "tea",
+          "word": "chaaya"
+        },
+        {
+          "concept": "bread",
+          "word": "rotti",
+          "gloss": "flatbread"
+        },
+        {
+          "concept": "rice",
+          "word": "ari",
+          "gloss": "rice (uncooked)"
+        },
+        {
+          "concept": "egg",
+          "word": "mutta"
+        },
+        {
+          "concept": "apple",
+          "word": "aappil"
+        },
+        {
+          "concept": "banana",
+          "word": "pazham"
+        },
+        {
+          "concept": "mango",
+          "word": "maanga"
+        },
+        {
+          "concept": "vegetable",
+          "word": "pachakkari"
+        },
+        {
+          "concept": "fish",
+          "word": "meen"
+        },
+        {
+          "concept": "food",
+          "word": "bhakshanam"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The people around you",
+      "words": [
+        {
+          "concept": "mother",
+          "word": "amma"
+        },
+        {
+          "concept": "father",
+          "word": "achan"
+        },
+        {
+          "concept": "brother",
+          "word": "chettan",
+          "gloss": "elder brother"
+        },
+        {
+          "concept": "sister",
+          "word": "chechi",
+          "gloss": "elder sister"
+        },
+        {
+          "concept": "baby",
+          "word": "kunju",
+          "gloss": "child"
+        },
+        {
+          "concept": "family",
+          "word": "kudumbam"
+        },
+        {
+          "concept": "friend",
+          "word": "koottukaaran"
+        },
+        {
+          "concept": "grandmother",
+          "word": "ammoomma"
+        },
+        {
+          "concept": "grandfather",
+          "word": "appooppan"
+        },
+        {
+          "concept": "doctor",
+          "word": "vaidyan"
+        },
+        {
+          "concept": "teacher",
+          "word": "adhyaapakan"
+        },
+        {
+          "concept": "person",
+          "word": "vyakthi"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Around the house",
+      "words": [
+        {
+          "concept": "house",
+          "word": "veedu"
+        },
+        {
+          "concept": "door",
+          "word": "vaathil"
+        },
+        {
+          "concept": "window",
+          "word": "janaala"
+        },
+        {
+          "concept": "bed",
+          "word": "kattil"
+        },
+        {
+          "concept": "chair",
+          "word": "kasera"
+        },
+        {
+          "concept": "book",
+          "word": "pusthakam"
+        },
+        {
+          "concept": "key",
+          "word": "thaakkol"
+        },
+        {
+          "concept": "money",
+          "word": "panam"
+        },
+        {
+          "concept": "phone",
+          "word": "doorabhaashini",
+          "gloss": "telephone"
+        },
+        {
+          "concept": "clothes",
+          "word": "vasthram"
+        },
+        {
+          "concept": "lamp",
+          "word": "vilakku",
+          "gloss": "lamp, oil lamp"
+        },
+        {
+          "concept": "clock",
+          "word": "ghadikaaram"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Head to foot, and hello",
+      "words": [
+        {
+          "concept": "hand",
+          "word": "kai"
+        },
+        {
+          "concept": "eye",
+          "word": "kannu"
+        },
+        {
+          "concept": "ear",
+          "word": "chevi"
+        },
+        {
+          "concept": "nose",
+          "word": "mookku"
+        },
+        {
+          "concept": "mouth",
+          "word": "vaaya"
+        },
+        {
+          "concept": "foot",
+          "word": "kaal",
+          "gloss": "foot, leg"
+        },
+        {
+          "concept": "hair",
+          "word": "mudi"
+        },
+        {
+          "concept": "heart",
+          "word": "hrudayam"
+        },
+        {
+          "concept": "yes",
+          "word": "athe"
+        },
+        {
+          "concept": "no",
+          "word": "alla"
+        },
+        {
+          "concept": "hello",
+          "word": "namaskaaram"
+        },
+        {
+          "concept": "thanks",
+          "word": "nandi"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Out in the world",
+      "words": [
+        {
+          "concept": "sun",
+          "word": "sooryan"
+        },
+        {
+          "concept": "moon",
+          "word": "chandran"
+        },
+        {
+          "concept": "star",
+          "word": "nakshathram"
+        },
+        {
+          "concept": "tree",
+          "word": "maram"
+        },
+        {
+          "concept": "flower",
+          "word": "poovu"
+        },
+        {
+          "concept": "rain",
+          "word": "mazha"
+        },
+        {
+          "concept": "dog",
+          "word": "patti"
+        },
+        {
+          "concept": "cat",
+          "word": "poocha"
+        },
+        {
+          "concept": "bird",
+          "word": "pakshi"
+        },
+        {
+          "concept": "cow",
+          "word": "pashu"
+        },
+        {
+          "concept": "car",
+          "word": "kaar"
+        },
+        {
+          "concept": "road",
+          "word": "vazhi",
+          "gloss": "road, path"
+        }
+      ]
+    }
+  ]
+}

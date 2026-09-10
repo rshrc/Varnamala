@@ -105,34 +105,20 @@ List<InteractiveExercise> buildInteractiveLessonSamples() => [
           explanation: 'Ishta means “like”; beda means “do not want”.',
         ),
       ),
-      const GuessWordExercise(
-        id: 'sample-guess-word',
-        prompt: 'Guess the Kannada word',
-        clue: 'house',
-        tokens: [
-          ExerciseToken(id: 'gw-1', text: 'm'),
-          ExerciseToken(id: 'gw-2', text: 'a'),
-          ExerciseToken(id: 'gw-3', text: 'n'),
-          ExerciseToken(id: 'gw-4', text: 'e'),
-          ExerciseToken(id: 'gw-d1', text: 'i'),
-        ],
-        acceptedOrders: [
-          ['gw-1', 'gw-2', 'gw-3', 'gw-4'],
-        ],
-        explanation: 'Mane means “house”.',
-        adaptiveRetry: FillBlankChoiceExercise(
-          id: 'sample-guess-word-retry',
-          prompt: 'Recognise the word in a sentence',
-          beforeBlank: 'Idu nanna',
-          afterBlank: '.',
-          clue: 'This is my house.',
-          options: [
-            ExerciseOption(id: 'gwr-a', text: 'mane'),
-            ExerciseOption(id: 'gwr-b', text: 'kaapi'),
-            ExerciseOption(id: 'gwr-c', text: 'hesaru'),
-          ],
-          correctOptionId: 'gwr-a',
-          explanation: 'Mane is the word for “house”.',
-        ),
+      const FillBlankTextExercise(
+        id: 'sample-fill-blank-text-fuzzy',
+        prompt: 'Type the missing word',
+        beforeBlank: 'Naanu',
+        afterBlank: '.',
+        clue: 'I am well.',
+        acceptedAnswers: ['chennagiddene'],
+        wordMeaning: 'I am well',
+        // Try chenagidene: an equally valid romanization, accepted in silence.
+        // Then try chennagiddane: a slip, accepted with the spelling shown.
+        dictionary: {
+          'chennagiddene': 'I am well',
+          'naanu': 'I',
+        },
+        explanation: 'Chennagiddene means "I am well".',
       ),
     ];

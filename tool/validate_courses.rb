@@ -20,6 +20,20 @@ module ValidateCourses
   LEVELS = (5..6).freeze
   QUESTIONS = (8..10).freeze
   OPTION_COUNT = 3
+
+  # Schema 2 is the word course: bare vocabulary against pictures, no
+  # sentences. It comes first on the path, because learners were being asked to
+  # build sentences out of words nobody had taught them.
+  WORD_SCHEMA = 2
+  WORD_LEVELS = 5
+  WORDS_PER_LEVEL = 12
+  WORD_KEYS = %w[concept word gloss].freeze
+  REQUIRED_WORD_KEYS = %w[concept word].freeze
+
+  # Courses still being rolled out language by language. Missing is a warning
+  # for these; anything else missing is a broken build. Empty this list once
+  # every language has one.
+  PILOT_COURSES = %w[words].freeze
   NAME_TOKEN = '{name}'
   NAME_ALLOWED_IN = %w[basics introductions].freeze
 
@@ -99,6 +113,8 @@ module ValidateCourses
     end
     report.error(where, 'missing description') if data['description'].to_s.strip.empty?
 
+    return check_word_course(data, where, report) if data['schema'] == WORD_SCHEMA
+
     levels = data['levels'] || []
     report.error(where, "#{levels.size} levels, expected #{LEVELS.min}-#{LEVELS.max}") unless LEVELS.cover?(levels.size)
 
@@ -131,6 +147,90 @@ module ValidateCourses
     end
 
     [levels.size, levels.sum { |level| (level['questions'] || []).size }]
+  end
+
+  # The shared, language-independent concepts every word course teaches. The
+  # English label and the picture live here so an apple is an apple in all
+  # thirteen languages; only the target-language word changes.
+  def concepts
+    @concepts ||= Courses.read_json(Courses::COURSES_DIR / 'concepts.json')['concepts']
+                         .to_h { |concept| [concept['id'], concept] }
+  end
+
+  # Schema 2: five levels of twelve words, together covering every concept
+  # exactly once, each with a picture on disk.
+  def check_word_course(data, where, report)
+    levels = data['levels'] || []
+    unless levels.size == WORD_LEVELS
+      report.error(where, "#{levels.size} levels, expected #{WORD_LEVELS}")
+    end
+
+    seen = Hash.new(0)
+    levels.each_with_index do |level, index|
+      level_where = "#{where} L#{level['level'] || '?'}"
+      if level['level'] != index + 1
+        report.error(level_where,
+                     "levels must be numbered 1..n, found #{level['level'].inspect} " \
+                     "at position #{index + 1}")
+      end
+      report.error(level_where, 'missing title') if level['title'].to_s.strip.empty?
+
+      if level.key?('questions')
+        report.error(level_where, 'a word level cannot also carry questions')
+      end
+
+      words = level['words'] || []
+      unless words.size == WORDS_PER_LEVEL
+        report.error(level_where, "#{words.size} words, expected #{WORDS_PER_LEVEL}")
+      end
+
+      words.each_with_index do |word, position|
+        check_word(word, "#{level_where} W#{position + 1}", report)
+        seen[word['concept']] += 1
+      end
+    end
+
+    seen.each do |concept, count|
+      report.error(where, "concept #{concept.inspect} taught #{count}x") if count > 1
+    end
+    missing = concepts.keys - seen.keys
+    unless missing.empty?
+      report.error(where,
+                   "#{missing.size} concepts never taught: #{missing.first(6).join(', ')}")
+    end
+
+    # A word course has no questions; the caller only totals them.
+    [levels.size, 0]
+  end
+
+  def check_word(word, where, report)
+    extra = word.keys - WORD_KEYS
+    missing = REQUIRED_WORD_KEYS - word.keys
+    report.error(where, "unknown keys: #{extra.join(', ')}") unless extra.empty?
+    report.error(where, "missing keys: #{missing.join(', ')}") unless missing.empty?
+    return unless missing.empty?
+
+    concept = word['concept']
+    unless concepts.key?(concept)
+      report.error(where, "concept #{concept.inspect} is not in concepts.json")
+      return
+    end
+
+    art = Courses::IMAGES_DIR / 'vocab' / "#{concept}.svg"
+    unless art.exist?
+      report.error(where, "no picture for #{concept.inspect}; run tool/fetch_vocab_art.rb")
+    end
+
+    target = word['word'].to_s
+    report.error(where, 'empty word') if target.strip.empty?
+    if target != target.strip
+      report.error(where, "word #{target.inspect} has surrounding whitespace")
+    end
+    # A word course teaches one word, so a space means two of them.
+    report.error(where, "word #{target.inspect} contains a space") if target.include?(' ')
+    if word.key?('gloss') && word['gloss'].to_s.strip.empty?
+      report.error(where, 'gloss is present but empty; omit it to use the concept label')
+    end
   end
 
   def check_non_ascii(path, report, where = nil)
@@ -177,7 +277,14 @@ module ValidateCourses
     listed.each do |cid|
       path = directory / "#{cid}.json"
       unless path.exist?
-        report.error(language, "#{cid}.json is missing")
+        # The word course is rolling out one language at a time, on purpose:
+        # the shape was proven on the pilot before the other twelve were
+        # written. A language that has not got there yet is not a broken build.
+        if PILOT_COURSES.include?(cid)
+          report.warn(language, "#{cid}.json not written yet")
+        else
+          report.error(language, "#{cid}.json is missing")
+        end
         next
       end
       course_levels, course_questions = check_course(path, cid, report, vocabulary)

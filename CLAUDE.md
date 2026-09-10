@@ -65,11 +65,13 @@ users/
 - [x] Translation exercises  
 - [x] XP scoring system
 - [x] Basic streak tracking
-- [x] Leaderboard (top 30 users)
+- [x] Leaderboard (top 30, per language)
 - [x] Character/alphabet practice
-- [x] Shop UI (streak freeze, power-ups, outfits)
-- [x] Multi-language support (13 languages x 15 courses x 6 levels x 9 questions)
+- [x] Practice tab (flashcards, Match Madness, streak repair, outfits)
+- [x] Multi-language support (13 languages x 16 courses)
 - [x] Tap-a-word dictionary hints inside lesson sentences
+- [x] First words: a 60-word picture course before the sentences, all 13 languages
+- [x] Typed answers judged on the word, not its spelling
 
 ### 🔴 Features Needed (Firebase-Based)
 
@@ -222,6 +224,50 @@ screen's content and is a no-op on a phone.
   a phone — otherwise four words stretch across a desktop. Don't set `width` or
   `behavior` at a call site; the cap is global so new call sites inherit it.
 
+### Leagues are per language
+
+A league is a board of people learning **the same language**. Before that, one
+global board ranked everybody on XP earned in any language, so a Hindi learner's
+grind outranked the people actually learning Tamil.
+
+- `users/{uid}` carries `leagueByLanguage` and `leagueXpByLanguage` maps
+  alongside the original account-wide `league` and `leagueXp`, which stay as the
+  fallback and the migration source.
+- `LeaderboardEntry.leagueFor` / `.leagueXpFor` read the map and fall back to
+  the account-wide values, so an account that has not opened the app since the
+  split still shows its real tier rather than looking demoted to Bronze.
+- The board query filters `where('languages', arrayContains: language)`
+  **server-side**. Filtering a global top-300 slice afterwards would leave a
+  small language's board nearly empty while excluding its active learners.
+  That needs the composite index in `firestore.indexes.json` - deploy it with
+  `firebase deploy --only firestore:indexes` or the leaderboard throws.
+- `GameProvider.languageLeagueMigration` runs once per account on launch. It
+  carries the **tier to every language** the learner already has, and the
+  **XP to exactly one** - the language they were studying. Crediting XP
+  everywhere would put a Hindi learner's total on the Tamil board. It also
+  backfills `languages` from `preferredLanguage`, because an account with an
+  empty array would vanish from every board.
+- XP writes carry their language: `awardXP(..., language: course.language)`.
+  Anything new that awards XP must pass one, or it falls back to the learner's
+  stored `preferredLanguage`.
+
+### Answer feedback sounds
+
+The strike lands instantly and the ring is gone inside half a second - a miss
+in under 300ms, a hit in about 500 - against originals that ran one to three
+and a half seconds and varied by seven LUFS, so a verdict was still playing
+while the learner answered the next exercise.
+
+Correct **rises and is bright** (~1400Hz), wrong **falls and is dark**
+(~170Hz). The contour carries the verdict, not the timbre, so it survives a
+cheap phone speaker. The miss also peaks 3dB lower: a mistake sends you back
+for practice, it does not tell you off.
+
+They are synthesised, not sampled - `ruby tool/generate_sounds.rb` (needs
+ffmpeg). What keeps them from sounding like a beep is written up at the top of
+that file: inharmonic partials, per-partial decay rates, a noise transient for
+the mallet, and a short tail.
+
 ### Answer feedback
 
 Checking an answer has to *land*. Three channels fire together, and all three
@@ -261,14 +307,58 @@ JSON — one directory per language, one file per course, plus a manifest and a
 dictionary. Editing a lesson never means touching Dart.
 
 ```
-assets/courses/tamil/
-  manifest.json      course order, tree layout, icon + colour per course
-  dictionary.json    romanized word -> English gloss (tap-a-word hints)
-  notes.json         Mala's roadside asides, one per course
-  basics.json        5-6 levels, 8-10 questions each
-  greetings.json
-  ...                15 courses per language
+assets/courses/
+  concepts.json      the 60 shared word-course ideas: English label + picture
+  tamil/
+    manifest.json    course order, tree layout, icon + colour per course
+    dictionary.json  romanized word -> English gloss (tap-a-word hints)
+    notes.json       Mala's roadside asides, one per course
+    words.json       "schema": 2 - 5 levels, 12 words each, no sentences
+    basics.json      5-6 levels, 8-10 questions each
+    greetings.json
+    ...              16 courses per language
 ```
+
+**Two schemas.** `words.json` is the First words course: bare vocabulary
+against pictures, marked `"schema": 2`. The other fifteen teach sentences and
+carry no `schema` field. They are built by different factories
+(`VocabularyExerciseFactory` and `CourseExerciseFactory`) and validated by
+different branches of `tool/validate_courses.rb`.
+
+**First words comes first, and is unlocked alongside Basics.** Learners were
+being asked to assemble sentences out of vocabulary nobody had taught them.
+`kFreeCourseCount` in `lib/views/courses/course_tree.dart` opens both from the
+first launch.
+
+**Firestore is the live source; bundled JSON is the fallback.** All 13
+languages are on an active release (`courseConfig/<language>.activeReleaseId`),
+so `_remoteContent` wins and **editing this repo does not reach users until the
+release is republished**:
+
+```bash
+cd admin
+bun run scripts/show-releases.ts                 # what every language serves
+bun run scripts/publish-release.ts --dry-run     # print, write nothing
+bun run scripts/publish-release.ts               # publish + activate all 13
+bun run scripts/publish-release.ts tamil         # one language
+```
+
+A course in the manifest with no file yet is skipped by the publisher and
+dropped by the app, which is how First words rolls out one language at a time.
+Both loaders tolerate a missing course file; neither tolerates a release with
+no courses at all, which falls back to bundled JSON.
+
+**Deploying the web build.** `index.html` and `flutter_service_worker.js` are
+served `no-cache` (`firebase.json`). Without that, `index.html` inherits
+Firebase's default `max-age=3600` and returning browsers boot the previous app
+shell for an hour after a deploy - new content against old code, which locks
+courses that should be open.
+
+**Inserting a course ahead of existing progress.** `pathUnlockedThrough` reads
+the watermark off the *last completed* course, never the first unfinished one.
+Reading it the other way means a new course at the head of the path re-locks
+every course a learner has already finished — and because a node checks its
+lock before its completion, their finished nodes stop opening at all.
 
 **Full schema, content rules and examples: [`docs/course-authoring.md`](docs/course-authoring.md).**
 
@@ -292,14 +382,46 @@ Run `ruby tool/find_untranslated_glosses.rb` to see the share per language.
 
 ### Question types
 
-Two are implemented and rendered by `lib/views/lesson/components/list_lesson.dart`:
+Course JSON authors two, and the factories turn them into varied interactions
+at load time rather than the JSON naming each one:
 
 | type | learner sees | learner picks |
 |---|---|---|
 | `multiple_choice` | a target-language prompt | the target-language reply that fits |
 | `translate` | a target-language sentence | its English meaning |
 
-Not yet implemented: fill-in-the-blank, word matching, listening, speaking.
+`CourseExerciseFactory` derives choice, word bank, sentence order, fill-blank
+choice and fill-blank text from those. `VocabularyExerciseFactory` derives
+picture-to-word, word-to-picture, listen-to-picture and type-the-word from
+`words.json`.
+
+**No character arranging.** Dragging graphemes into a word was generated with
+exactly the answer's letters and no decoys, so it was a jigsaw rather than
+recall. It was removed; arranging *words* into a sentence does the real job.
+
+Not yet implemented: word matching, speaking.
+
+### Typed answers are judged on the word, not the spelling
+
+Romanized Indian languages have no single correct spelling — *dhanyavaad*,
+*danyavad* and *dhanyavad* are one word written by three people — so an exact
+match tests typing rather than language. `lib/core/answer_similarity.dart` is
+the single gate, in two layers:
+
+1. `romanizationKey` folds the spellings that stand for one sound (aspirates,
+   doubled letters, vowel length, `v`/`w`, Tamil's `zh`). Equal keys mean the
+   same answer, and the learner is told nothing — they did not misspell it.
+2. Anything left is measured: bigram cosine **and** a length-scaled edit
+   budget, both of which must pass. A key under five characters gets no
+   budget at all, because in a short word one substitution is usually a
+   different word.
+
+The dictionary argument is the safety gate and matters more than the
+thresholds: a typed word the language actually teaches, with a meaning of its
+own, is never accepted as a misspelling of another. *mane* (house) must not
+swallow *mana* (mind). Anything that judges typed input must go through
+`judgeTypedAnswer`, and `test/answer_similarity_test.dart` is where minimal
+pairs go — over-accepting is worse than being strict.
 
 ### Tooling
 
@@ -311,8 +433,13 @@ ruby tool/normalize_titles.rb --apply     # level titles to sentence case
 ruby tool/generate_manifests.rb           # regenerate every manifest.json (and the palette)
 ruby tool/generate_emblems.rb             # regenerate the language-picker emblems
 ruby tool/find_untranslated_glosses.rb    # entries whose gloss is just the word again
+ruby tool/fetch_vocab_art.rb              # download the 60 First words pictures
 flutter test test/course_repository_test.dart
 ```
+
+`PILOT_COURSES` in `tool/validate_courses.rb` lists courses still rolling out
+language by language — a missing one warns instead of failing the build. Empty
+it once every language has a `words.json`.
 
 ---
 
@@ -354,6 +481,11 @@ flutter clean && flutter pub get && flutter pub run build_runner build --delete-
 | `lib/domain/course/course.dart` | Course/Level/Question models |
 | `lib/courses/course_repository.dart` | Loads course JSON from assets, caches per language |
 | `lib/courses/word_dictionary.dart` | Word-tap gloss lookup |
+| `lib/courses/concept_catalogue.dart` | The 60 shared word-course concepts and their pictures |
+| `lib/core/answer_similarity.dart` | Judges a typed answer on the word, not its spelling |
+| `lib/application/lesson/course_exercise_factory.dart` | Sentence courses -> interactions |
+| `lib/application/lesson/vocabulary_exercise_factory.dart` | `words.json` -> picture interactions |
+| `lib/views/courses/course_tree.dart` | The path, and which courses are unlocked |
 | `lib/views/lesson/exercises/exercise_evaluation.dart` | The verdict an exercise view paints onto its own answer |
 | `assets/courses/<language>/` | Lesson content (see `docs/course-authoring.md`) |
 

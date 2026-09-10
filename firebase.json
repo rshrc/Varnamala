@@ -28,6 +28,34 @@
             "value": "max-age=0,s-maxage=604800"
           }
         ]
+      },
+      {
+        "source": "/flutter_service_worker.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "// note": "The app shell must never be cached: index.html carries the Flutter service-worker version stamp, so a stale copy boots the previous build against new content. Both entries are needed - Hosting matches the request path, and the root arrives as '/' not '/index.html'.",
+        "source": "/",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/index.html",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
       }
     ]
   },

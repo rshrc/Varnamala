@@ -90,7 +90,7 @@ void main() {
       );
 
       final learn = tester.getTopLeft(find.text('Learn')).dx;
-      final shop = tester.getTopRight(find.text('Shop')).dx;
+      final shop = tester.getTopRight(find.text('Practice')).dx;
       expect(shop - learn, lessThan(ContentWidth.column));
     });
 
@@ -107,7 +107,13 @@ void main() {
         ),
       );
 
-      for (final label in ['Learn', 'Script', 'Profile', 'Leagues', 'Shop']) {
+      for (final label in [
+        'Learn',
+        'Script',
+        'Profile',
+        'Leagues',
+        'Practice'
+      ]) {
         expect(find.text(label), findsOneWidget);
       }
       expect(

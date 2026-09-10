@@ -93,17 +93,7 @@ class CourseNodeFace extends StatelessWidget {
                             height: courseNodeSize,
                             decoration: BoxDecoration(
                               color: complete ? null : color,
-                              gradient: complete
-                                  ? const LinearGradient(
-                                      begin: Alignment.topLeft,
-                                      end: Alignment.bottomRight,
-                                      colors: [
-                                        Color(0xFFFFF0A3),
-                                        Color(0xFFFFC83D),
-                                        Color(0xFFE69B16),
-                                      ],
-                                    )
-                                  : null,
+                              gradient: complete ? _goldenNode : null,
                               shape: BoxShape.circle,
                             ),
                             child: Center(
@@ -111,9 +101,16 @@ class CourseNodeFace extends StatelessWidget {
                                 locked
                                     ? Icons.lock_rounded
                                     : courseIconFor(course.courseName),
+                                // Derived from whatever the node is actually
+                                // filled with. The node's colour fans around
+                                // the palette's hue and a finished one turns
+                                // gold, so `colorScheme.onPrimary` is a
+                                // foreground for a different colour entirely.
                                 color: locked
                                     ? context.appTextSecondary
-                                    : Theme.of(context).colorScheme.onPrimary,
+                                    : context.appOn(
+                                        complete ? _goldenNodeMid : color,
+                                      ),
                                 size: locked ? 28 : 32,
                               ),
                             ),
@@ -196,8 +193,19 @@ class CourseNodeProgressRingPainter extends CustomPainter {
       old.trackColor != trackColor;
 }
 
+/// The wash on a finished node, and the tone its glyph has to read against.
+const LinearGradient _goldenNode = LinearGradient(
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+  colors: [Color(0xFFFFF0A3), Color(0xFFFFC83D), Color(0xFFE69B16)],
+);
+const Color _goldenNodeMid = Color(0xFFFFC83D);
+
 IconData courseIconFor(String courseName) {
   final name = courseName.toLowerCase();
+  // Before the basic check: "First words" contains neither, but a future
+  // "Basic words" would match both and the word course should win.
+  if (name.contains('word')) return Icons.abc_rounded;
   if (name.contains('basic')) return Icons.egg_alt_rounded;
   if (name.contains('greet')) return Icons.waving_hand_rounded;
   if (name.contains('introduc')) return Icons.person_add_alt_1_rounded;

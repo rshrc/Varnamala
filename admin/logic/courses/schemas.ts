@@ -38,6 +38,37 @@ export const courseFileSchema = z.object({
   levels: z.array(levelSchema),
 });
 
+/**
+ * Schema 2: the First words course, which teaches bare vocabulary against
+ * pictures and has no sentences to hold questions.
+ *
+ * Deliberately a separate schema rather than a union with courseFileSchema:
+ * the editor is typed against CourseFile and reads levels[].questions, so
+ * widening that type would break it. Word courses are authored in the repo
+ * for now and only need to be validated on the way into a release.
+ */
+export const vocabularyWordSchema = z.object({
+  concept: z.string().regex(/^[a-z][a-z0-9-]*$/),
+  word: sentence,
+  gloss: sentence.optional(),
+});
+
+export const wordLevelSchema = z.object({
+  level: z.number().int().positive(),
+  title: sentence,
+  words: z.array(vocabularyWordSchema),
+});
+
+export const wordCourseFileSchema = z.object({
+  course: z.string().regex(/^[a-z][a-z0-9-]*$/),
+  title: sentence,
+  description: sentence,
+  schema: z.literal(2),
+  levels: z.array(wordLevelSchema),
+});
+
+export type WordCourseFile = z.infer<typeof wordCourseFileSchema>;
+
 export const manifestCourseSchema = z.object({
   id: z.string().regex(/^[a-z][a-z0-9-]*$/),
   title: sentence,

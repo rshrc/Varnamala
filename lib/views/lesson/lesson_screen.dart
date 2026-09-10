@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:async';
+
 // Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -14,8 +17,11 @@ import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/level_provider.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
+import 'package:words625/application/lesson/vocabulary_exercise_factory.dart';
 import 'package:words625/core/enums.dart';
+import 'package:words625/core/logger.dart';
 import 'package:words625/core/responsive.dart';
+import 'package:words625/courses/concept_catalogue.dart';
 import 'package:words625/courses/courses.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/domain/course/course.dart';
@@ -104,21 +110,80 @@ class LessonPageState extends State<LessonPage> {
       orElse: () => TargetLanguage.kannada,
     );
     final level = levels[_unitIndex];
-    const factory = CourseExerciseFactory();
-    _generatedStage = factory.buildStage(
-      context: CourseExerciseContext(
-        language: language,
-        courseId: widget.course.courseId ?? widget.course.courseName,
-        levelNumber: level.level ?? _unitIndex + 1,
-        dictionary: courseRepository.cachedDictionary(language) ??
-            courseRepository.activeDictionary ??
-            const {},
-      ),
-      questions: level.questions ?? const [],
-      stage: _stageKind,
+    final exerciseContext = CourseExerciseContext(
+      language: language,
+      courseId: widget.course.courseId ?? widget.course.courseName,
+      levelNumber: level.level ?? _unitIndex + 1,
+      dictionary: courseRepository.cachedDictionary(language) ??
+          courseRepository.activeDictionary ??
+          const {},
     );
+
+    // A word level has no sentences to take apart, so it is built from
+    // pictures instead. See [VocabularyExerciseFactory].
+    if (level.isVocabulary) {
+      final concepts = conceptCatalogue.cached;
+      if (concepts == null) {
+        // First word lesson of the session: wait for the catalogue, which the
+        // loading state in _buildInteractive already covers.
+        unawaited(
+          _prepareVocabularyStage(
+              exerciseContext: exerciseContext, level: level),
+        );
+        return;
+      }
+      _adoptStage(
+        const VocabularyExerciseFactory().buildStage(
+          context: exerciseContext,
+          words: level.words ?? const [],
+          concepts: concepts,
+          stage: _stageKind,
+        ),
+      );
+      return;
+    }
+
+    _adoptStage(
+      const CourseExerciseFactory().buildStage(
+        context: exerciseContext,
+        questions: level.questions ?? const [],
+        stage: _stageKind,
+      ),
+    );
+  }
+
+  Future<void> _prepareVocabularyStage({
+    required CourseExerciseContext exerciseContext,
+    required Level level,
+  }) async {
+    try {
+      final concepts = await conceptCatalogue.load();
+      if (!mounted) return;
+      setState(
+        () => _adoptStage(
+          const VocabularyExerciseFactory().buildStage(
+            context: exerciseContext,
+            words: level.words ?? const [],
+            concepts: concepts,
+            stage: _stageKind,
+          ),
+        ),
+      );
+    } catch (error, stackTrace) {
+      logger.e(
+        'Could not build a word lesson for ${exerciseContext.courseId}',
+        error: error,
+        stackTrace: stackTrace,
+      );
+      if (!mounted) return;
+      setState(() => lessonAvailability = LessonAvailability.absent);
+    }
+  }
+
+  void _adoptStage(GeneratedLessonStage stage) {
+    _generatedStage = stage;
     _interactiveEngine = InteractiveLessonEngine(
-      exercises: _generatedStage!.exercises
+      exercises: stage.exercises
           .map((generated) => generated.exercise)
           .toList(growable: false),
     )..addListener(_onInteractiveChanged);
@@ -368,6 +433,8 @@ class LessonPageState extends State<LessonPage> {
                               : ExerciseEvaluation(
                                   correct: engine.lastAttempt!.correct,
                                   response: engine.lastAttempt!.response,
+                                  spellingCorrection:
+                                      engine.lastAttempt!.spellingCorrection,
                                 ),
                         ),
                       ),

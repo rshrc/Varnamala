@@ -65,6 +65,10 @@ class LessonCompletionService {
     await gameProvider.awardXP(
       XPEvent.lessonComplete,
       multiplier: multiplier,
+      // League standings are per language, so the XP has to say which one it
+      // belongs to. The course knows; the provider would otherwise have to
+      // guess from the learner's stored preference.
+      language: course.language,
     );
     await gameProvider.recordLessonCompletion(wasPerfect: wasPerfect);
 
@@ -72,7 +76,10 @@ class LessonCompletionService {
       await gemsProvider.earnGems(GemEvent.lessonComplete);
       await gameProvider.bumpStat('levelsCompleted');
       if (advance.unitWasPerfect) {
-        await gameProvider.awardXP(XPEvent.perfectLesson);
+        await gameProvider.awardXP(
+          XPEvent.perfectLesson,
+          language: course.language,
+        );
         await gemsProvider.earnGems(GemEvent.perfectLesson);
       }
     }

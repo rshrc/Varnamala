@@ -99,6 +99,46 @@ void main() {
     }
   }
 
+  // A widget that picks its own fill has to pick its own foreground. The
+  // regression this guards: SpeakButton filled with `appInfo` and labelled
+  // with `colorScheme.onSecondary`, which measured 2.87:1 on Emerald and
+  // Crimson light - a black icon on a dark blue button.
+  //
+  // Asserting it here rather than at each call site means `context.appOn` is
+  // always a safe answer, whatever palette is added next.
+  test('appOn is readable on every semantic fill in every palette', () {
+    for (final palette in appPalettes) {
+      for (final brightness in Brightness.values) {
+        final theme = buildAppTheme(palette, brightness);
+        final extras = theme.extension<VarnamalaColors>()!;
+        final label = '${palette.name} (${brightness.name})';
+
+        // These carry labels, so they answer to the body-text minimum.
+        <String, Color>{
+          'info': extras.info,
+          'success': extras.success,
+          'warning': extras.warning,
+          'danger': extras.danger,
+          'violet': extras.violet,
+          'primary': theme.colorScheme.primary,
+          'secondary': theme.colorScheme.secondary,
+        }.forEach((role, fill) {
+          _expectReadable(onColorFor(fill), fill, where: '$label appOn($role)');
+        });
+
+        // A course node carries one 32px glyph and nothing else. WCAG asks
+        // 3:1 of a graphical object rather than the 4.5:1 it asks of body
+        // text, and holding the nodes to the stricter figure would flatten
+        // the palette they exist to show off.
+        for (var index = 0; index < extras.coursePalette.length; index++) {
+          final fill = extras.courseColor(index);
+          _expectReadable(onColorFor(fill), fill,
+              minimum: 3, where: '$label appOn(course $index)');
+        }
+      }
+    }
+  });
+
   test('palette ids are unique and stable', () {
     final ids = appPalettes.map((palette) => palette.id).toList();
     expect(ids.toSet().length, ids.length);

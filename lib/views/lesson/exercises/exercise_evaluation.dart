@@ -25,10 +25,20 @@ enum AnswerMark {
 /// which reads as "disabled", not as "you got that one wrong". Duolingo's
 /// verdict lands on the thing you actually tapped, and so should ours.
 class ExerciseEvaluation {
-  const ExerciseEvaluation({required this.correct, required this.response});
+  const ExerciseEvaluation({
+    required this.correct,
+    required this.response,
+    this.spellingCorrection,
+  });
 
   final bool correct;
   final ExerciseResponse response;
+
+  /// The authored spelling, when a typed answer was accepted despite a slip.
+  ///
+  /// The verdict stays [AnswerMark.correct] - the learner knew the word. This
+  /// only lets a view show them how it is written.
+  final String? spellingCorrection;
 
   /// The option the learner chose, for exercises that are a list of choices.
   String? get chosenOptionId => switch (response) {

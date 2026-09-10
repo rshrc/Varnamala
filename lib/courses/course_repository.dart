@@ -112,8 +112,15 @@ class CourseRepository {
     final rawCourses = <String, Map>{};
     for (final entry in (manifest['courses'] as List).cast<Map>()) {
       final id = entry['id'] as String;
-      rawCourses[id] =
-          jsonDecode(await _bundle.loadString('$dir/$id.json')) as Map;
+      try {
+        rawCourses[id] =
+            jsonDecode(await _bundle.loadString('$dir/$id.json')) as Map;
+      } catch (error) {
+        // One course that has not been written for this language yet must not
+        // take the other fourteen down with it. _buildContent drops the node
+        // from the tree, so the path is simply shorter until the file lands.
+        logger.e('${language.name}/$id.json could not be read: $error');
+      }
     }
     Map<String, dynamic>? dictionary;
     Map<String, dynamic>? notes;
@@ -157,9 +164,19 @@ class CourseRepository {
         final id = entry['id'] as String;
         final course = _storedJson((await files.doc(id).get()).data());
         if (course == null) {
-          throw FormatException('Missing $id.json in release $releaseId');
+          // One course the release does not carry - a course not yet written
+          // for this language - must not take the other fifteen down with it.
+          // _buildContent drops the node, so the path is simply shorter.
+          logger.w('$id.json is not in ${language.name} release $releaseId');
+          continue;
         }
         rawCourses[id] = course;
+      }
+      if (rawCourses.isEmpty) {
+        // A release that carries no course at all is broken rather than
+        // incomplete, and bundled JSON is a better answer than an empty path.
+        logger.e('${language.name} release $releaseId has no readable course');
+        return null;
       }
       final dictionary =
           _storedJson((await files.doc('dictionary').get()).data())

@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:words625/domain/exercise/interactive_exercise.dart';
 import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/widgets/exercise_source_card.dart';
@@ -57,6 +58,23 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
+        // In a word course the picture is the whole prompt, so it goes above
+        // the clue rather than being tucked in beside it.
+        if (widget.exercise.clueArt case final art?) ...[
+          SizedBox(
+            height: 132,
+            child: Semantics(
+              image: true,
+              label: widget.exercise.clue,
+              child: SvgPicture.asset(
+                art,
+                excludeFromSemantics: true,
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+          const SizedBox(height: 16),
+        ],
         ExerciseSourceCard(label: 'CLUE', text: widget.exercise.clue),
         if (widget.exercise.wordMeaning case final meaning?) ...[
           const SizedBox(height: 12),
@@ -69,7 +87,7 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
                 borderRadius: BorderRadius.circular(VarnamalaTheme.radiusSmall),
               ),
               child: Text(
-                'WORD MEANING · $meaning',
+                'HINT · $meaning',
                 style: Theme.of(context).textTheme.labelMedium?.copyWith(
                       color: context.appInfo,
                       fontWeight: FontWeight.w800,
@@ -145,6 +163,21 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
             ),
           ],
         ),
+        // A forgiven slip is marked correct, so the only thing left to do is
+        // show the learner the spelling beside what they actually typed.
+        if (widget.evaluation?.spellingCorrection case final spelling?) ...[
+          const SizedBox(height: 10),
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              'Spelled $spelling',
+              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: context.appSuccess,
+                    fontWeight: FontWeight.w800,
+                  ),
+            ),
+          ),
+        ],
       ],
     );
   }

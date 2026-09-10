@@ -105,7 +105,13 @@ class _HomePageState extends State<HomePage>
     if (streakResult == StreakCheckResult.broken) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Text('Your streak was broken. Start again today.'),
+          content: Text(
+            'Your streak was broken. Start again today.',
+            // The SnackBar theme's text colour is derived for the default
+            // surface; overriding the fill without the foreground leaves the
+            // message unreadable on it.
+            style: TextStyle(color: context.appOn(context.appDanger)),
+          ),
           backgroundColor: context.appDanger,
         ),
       );

@@ -170,6 +170,9 @@ void main() {
       final groups = await repository.courses(language, firstName: 'Rishi');
       final dictionary = repository.cachedDictionary(language)!;
       for (final course in groups.expand((group) => group)) {
+        // First words is built by VocabularyExerciseFactory from pictures, not
+        // by this one from sentences. It has its own test.
+        if (course.levels!.first.isVocabulary) continue;
         courseCount += 1;
         for (final level in course.levels!) {
           authoredLevelCount += 1;
@@ -228,21 +231,19 @@ void main() {
                   isTrue,
                   reason: '${language.name} ${exercise.id} leaked punctuation',
                 );
-              } else if (exercise case final GuessWordExercise guess) {
-                expect(
-                  guess.isCorrect(
-                    OrderedExerciseResponse(guess.acceptedOrders.first),
-                  ),
-                  isTrue,
-                );
               } else if (exercise case final FillBlankTextExercise text) {
-                final alternatingCase = _alternatingCase(
-                  text.acceptedAnswers.first,
-                );
+                final answer = text.acceptedAnswers.first;
                 expect(
-                  text.isCorrect(TextExerciseResponse(alternatingCase)),
+                  text.isCorrect(
+                      TextExerciseResponse(_alternatingCase(answer))),
                   isTrue,
                   reason: '${language.name} ${exercise.id} was case-sensitive',
+                );
+                expect(
+                  text.spellingCorrection(TextExerciseResponse(answer)),
+                  isNull,
+                  reason: '${language.name} ${exercise.id} corrected the '
+                      'spelling of its own authored answer',
                 );
               }
             }

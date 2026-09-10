@@ -1,9 +1,6 @@
 // Dart imports:
 import 'dart:math' as math;
 
-// Package imports:
-import 'package:characters/characters.dart';
-
 // Project imports:
 import 'package:words625/courses/word_dictionary.dart';
 import 'package:words625/core/stable_hash.dart';
@@ -35,16 +32,24 @@ class CourseExerciseFactory {
       GeneratedExerciseKind.wordBank,
       GeneratedExerciseKind.sentenceOrder,
       GeneratedExerciseKind.fillBlankText,
-      GeneratedExerciseKind.guessWord,
+      GeneratedExerciseKind.wordBank,
       GeneratedExerciseKind.choice,
     ],
+    // Two thirds of recall is productive work - typing the word or building
+    // the sentence - which is only fair because a typed answer is judged on
+    // the word rather than its spelling. See [judgeTypedAnswer].
+    //
+    // The two lighter slots are not padding. Every kind here falls back to the
+    // next when a question cannot support it, so a pattern built from three
+    // kinds can collapse into two on a course whose answers are short. Naming
+    // five keeps the stage varied even when several of them decline.
     LessonStageKind.recall: [
       GeneratedExerciseKind.fillBlankText,
-      GeneratedExerciseKind.guessWord,
-      GeneratedExerciseKind.sentenceOrder,
-      GeneratedExerciseKind.fillBlankText,
       GeneratedExerciseKind.wordBank,
-      GeneratedExerciseKind.guessWord,
+      GeneratedExerciseKind.fillBlankChoice,
+      GeneratedExerciseKind.sentenceOrder,
+      GeneratedExerciseKind.choice,
+      GeneratedExerciseKind.fillBlankText,
     ],
   };
 
@@ -168,12 +173,6 @@ class CourseExerciseFactory {
             GeneratedExerciseKind.sentenceOrder,
             GeneratedExerciseKind.choice,
           ],
-        GeneratedExerciseKind.guessWord => const [
-            GeneratedExerciseKind.guessWord,
-            GeneratedExerciseKind.fillBlankText,
-            GeneratedExerciseKind.wordBank,
-            GeneratedExerciseKind.choice,
-          ],
       };
 
   InteractiveExercise? _build({
@@ -226,12 +225,6 @@ class CourseExerciseFactory {
           id: id,
           adaptiveRetry: retry,
         ),
-      GeneratedExerciseKind.guessWord => _guessWord(
-          target: target,
-          dictionary: context.dictionary,
-          id: id,
-          adaptiveRetry: retry,
-        ),
     };
   }
 
@@ -247,7 +240,6 @@ class CourseExerciseFactory {
       GeneratedExerciseKind.sentenceOrder => GeneratedExerciseKind.wordBank,
       GeneratedExerciseKind.fillBlankChoice => GeneratedExerciseKind.wordBank,
       GeneratedExerciseKind.fillBlankText => GeneratedExerciseKind.wordBank,
-      GeneratedExerciseKind.guessWord => GeneratedExerciseKind.wordBank,
     };
 
     return _build(
@@ -361,6 +353,8 @@ class CourseExerciseFactory {
       clue: clue,
       acceptedAnswers: [blank.answer],
       wordMeaning: blank.gloss,
+      // Lets the matcher refuse a near miss that is really a different word.
+      dictionary: dictionary,
       explanation: '${blank.answer} — ${blank.gloss}',
       adaptiveRetry: adaptiveRetry,
     );
@@ -392,31 +386,6 @@ class CourseExerciseFactory {
       correctOptionId: '$id:o${contrast.correctIndex}',
       explanation: '${contrast.answers[contrast.correctIndex]} completes the '
           'reviewed answer.',
-      adaptiveRetry: adaptiveRetry,
-    );
-  }
-
-  GuessWordExercise? _guessWord({
-    required String target,
-    required Map<String, String> dictionary,
-    required String id,
-    required InteractiveExercise? adaptiveRetry,
-  }) {
-    final candidate = _blankCandidate(target, dictionary);
-    if (candidate == null) return null;
-    final graphemes = candidate.answer.characters.toList(growable: false);
-    if (graphemes.length < 2 || graphemes.length > 12) return null;
-    final tokens = [
-      for (var index = 0; index < graphemes.length; index++)
-        ExerciseToken(id: '$id:t$index', text: graphemes[index]),
-    ];
-    return GuessWordExercise(
-      id: id,
-      prompt: 'Guess the word',
-      clue: candidate.gloss,
-      tokens: tokens,
-      acceptedOrders: [tokens.map((token) => token.id).toList()],
-      explanation: '${candidate.answer} — ${candidate.gloss}',
       adaptiveRetry: adaptiveRetry,
     );
   }

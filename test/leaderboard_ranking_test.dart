@@ -8,6 +8,7 @@ LeaderboardEntry _entry(
   int score = 0,
   int leagueXp = 0,
   String league = 'bronze',
+  List<String> languages = const ['tamil'],
 }) =>
     LeaderboardEntry(
       userId: id,
@@ -16,7 +17,7 @@ LeaderboardEntry _entry(
       score: score,
       leagueXp: leagueXp,
       league: league,
-      languages: const [],
+      languages: languages,
     );
 
 void main() {
@@ -28,7 +29,7 @@ void main() {
       _entry('zzz-late-joiner', score: 2000, leagueXp: 2000),
       _entry('aaa-early-signup', score: 10, leagueXp: 10),
       _entry('bbb-early-signup', score: 500, leagueXp: 500),
-    ], 'bronze');
+    ], 'bronze', 'tamil');
 
     expect(ranked.map((e) => e.userId).toList(),
         ['zzz-late-joiner', 'bbb-early-signup', 'aaa-early-signup']);
@@ -38,7 +39,7 @@ void main() {
     final ranked = LeagueProvider.rankForLeague([
       _entry('new', score: 300, leagueXp: 300),
       _entry('legacy', score: 900), // never opened the app since leagueXp
-    ], 'bronze');
+    ], 'bronze', 'tamil');
 
     expect(ranked.first.userId, 'legacy');
   });
@@ -49,7 +50,7 @@ void main() {
       _entry('unknown', score: 6, league: 'obsidian'),
       _entry('explicit', score: 7, league: 'bronze'),
       _entry('elsewhere', score: 8, league: 'gold'),
-    ], 'bronze');
+    ], 'bronze', 'tamil');
 
     expect(
         ranked.map((e) => e.userId).toList(), ['explicit', 'unknown', 'blank']);
@@ -60,7 +61,7 @@ void main() {
       _entry('a', score: 5, league: 'gold'),
       _entry('b', score: 9, league: 'bronze'),
       _entry('c', score: 7, league: 'gold'),
-    ], 'gold');
+    ], 'gold', 'tamil');
 
     expect(ranked.map((e) => e.userId).toList(), ['c', 'a']);
   });
@@ -70,7 +71,7 @@ void main() {
     // below the cut still needs to be shown where they actually stand.
     final ranked = LeagueProvider.rankForLeague([
       for (var i = 0; i < 40; i++) _entry('user-$i', score: 100),
-    ], 'bronze');
+    ], 'bronze', 'tamil');
 
     expect(ranked.length, 40);
     expect(LeagueProvider.boardSize, lessThan(ranked.length));
@@ -99,7 +100,7 @@ void main() {
         LeagueProvider.rankForLeague([
           entry,
           _entry('someone', score: 10),
-        ], 'bronze')
+        ], 'bronze', 'tamil')
             .first
             .userId,
         'uid-chetana',

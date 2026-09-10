@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:math' as math;
+
 // Flutter imports:
 import 'package:flutter/material.dart';
 
@@ -19,12 +22,30 @@ import 'package:words625/views/courses/components/course_tree_status.dart';
 import 'package:words625/views/courses/components/course_tree_tools.dart';
 import 'package:words625/views/theme.dart';
 
+/// Courses open from the very first launch: First words, and the Basics
+/// sentences it feeds. Learning a word list and then never using it is not
+/// learning a language, so the two arrive together.
+const int kFreeCourseCount = 2;
+
+/// The furthest course the path is open to, given which courses are finished.
+///
+/// Driven by the *last* completed course rather than the first unfinished one,
+/// and that distinction is load-bearing. Taking the first unfinished course
+/// means inserting a course anywhere ahead of a learner's progress drops the
+/// watermark to that course and re-locks everything they have already
+/// finished - including making their completed nodes untappable, since
+/// [CoursePathStep] checks the lock before it checks completion.
+int pathUnlockedThrough(List<bool> completed) => math.max(
+      completed.lastIndexOf(true) + 1,
+      kFreeCourseCount - 1,
+    );
+
 bool pathCourseIsLocked({
   required int courseIndex,
-  required int currentIndex,
+  required int unlockedThrough,
   required bool unlockAll,
 }) =>
-    !unlockAll && courseIndex > currentIndex;
+    !unlockAll && courseIndex > unlockedThrough;
 
 class CourseTree extends StatefulWidget {
   const CourseTree({Key? key}) : super(key: key);
@@ -65,16 +86,25 @@ class CourseTreeState extends State<CourseTree> {
           final courses = [for (final group in groups) ...group];
           if (courses.isEmpty) return const SizedBox.shrink();
 
-          // The next course to do: the first one not yet finished. Everything
-          // after it stays locked, so the path is something you open up rather
-          // than a menu you pick from.
           final notes = courseRepository
               .notes(context.read<LanguageProvider>().selectedLanguage);
 
-          final firstUnfinished =
-              courses.indexWhere((course) => !courseIsComplete(course));
-          final currentIndex =
-              firstUnfinished == -1 ? courses.length : firstUnfinished;
+          // Read once per course: courseIsComplete goes to preferences, and
+          // both the watermark and the current node need the same answer.
+          final completed = [
+            for (final course in courses) courseIsComplete(course),
+          ];
+
+          // How far the path is open, so it is something you unlock rather
+          // than a menu you pick from.
+          final unlockedThrough = pathUnlockedThrough(completed);
+
+          // The "you are here" node: the first course not yet finished, never
+          // beyond what is actually open.
+          final firstUnfinished = completed.indexOf(false);
+          final currentIndex = firstUnfinished == -1
+              ? courses.length
+              : math.min(firstUnfinished, unlockedThrough);
 
           return PreferenceBuilder<bool>(
             preference: getIt<AppPrefs>().preferences.getBool(
@@ -82,7 +112,10 @@ class CourseTreeState extends State<CourseTree> {
                   defaultValue: false,
                 ),
             builder: (context, unlockAll) {
-              final headerCount = unlockAll ? 2 : 1;
+              // Only the free-navigation notice sits above the path now.
+              // Flashcards moved to the Practice tab: a side tool above the
+              // first node pushed the course itself below the fold.
+              final headerCount = unlockAll ? 1 : 0;
               // The path wanders left and right of centre by a fraction of
               // whatever width it is given, so an unbounded one flings its
               // nodes to opposite edges of a desktop window. Holding it to a
@@ -101,13 +134,7 @@ class CourseTreeState extends State<CourseTree> {
                   maxWidth: ContentWidth.path,
                   gutter: false,
                   child: Builder(builder: (context) {
-                    if (index == 0) {
-                      return CourseLearnTools(
-                        language:
-                            context.read<LanguageProvider>().selectedLanguage,
-                      );
-                    }
-                    if (unlockAll && index == 1) {
+                    if (unlockAll && index == 0) {
                       return const UnlockedCoursePathNotice();
                     }
 
@@ -124,10 +151,10 @@ class CourseTreeState extends State<CourseTree> {
                       isCurrent: courseIndex == currentIndex,
                       isLocked: pathCourseIsLocked(
                         courseIndex: courseIndex,
-                        currentIndex: currentIndex,
+                        unlockedThrough: unlockedThrough,
                         unlockAll: unlockAll,
                       ),
-                      unlockedBy: courseIndex == 0
+                      unlockedBy: courseIndex < kFreeCourseCount
                           ? null
                           : courses[courseIndex - 1].courseName,
                       note: notes[courses[courseIndex].courseName],

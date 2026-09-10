@@ -4,6 +4,9 @@
   "romanization": "Romanized spoken Sanskrit",
   "tree": [
     [
+      "words"
+    ],
+    [
       "basics"
     ],
     [
@@ -38,6 +41,12 @@
     ]
   ],
   "courses": [
+    {
+      "id": "words",
+      "title": "First words",
+      "icon": "book2",
+      "color": "0xff1E9F1E"
+    },
     {
       "id": "basics",
       "title": "Basics",

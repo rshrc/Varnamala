@@ -25,32 +25,32 @@ class LeagueProvider extends ChangeNotifier {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
-  Stream<String> getUserLeagueStream() {
+  Stream<String> getUserLeagueStream(String language) {
     final userId = _auth.currentUser?.uid;
     if (userId == null) {
       return Stream.value(leagues.first);
     }
 
     return _firestore.collection('users').doc(userId).snapshots().map(
-        (snapshot) => snapshot.data()?['league'] as String? ?? leagues.first);
+          (snapshot) => LeaderboardEntry.fromMap(
+            userId,
+            snapshot.data() ?? const <String, dynamic>{},
+          ).leagueFor(language),
+        );
   }
 
-  Stream<int> getUserLeagueXpStream() {
+  Stream<int> getUserLeagueXpStream(String language) {
     final userId = _auth.currentUser?.uid;
     if (userId == null) {
       return Stream.value(0);
     }
 
-    return _firestore
-        .collection('users')
-        .doc(userId)
-        .snapshots()
-        .map((snapshot) {
-      final value = snapshot.data()?['leagueXp'];
-      if (value is int) return value;
-      if (value is num) return value.toInt();
-      return 0;
-    });
+    return _firestore.collection('users').doc(userId).snapshots().map(
+          (snapshot) => LeaderboardEntry.fromMap(
+            userId,
+            snapshot.data() ?? const <String, dynamic>{},
+          ).leagueXpFor(language),
+        );
   }
 
   /// How many users are pulled down before ranking. The window has to be
@@ -60,9 +60,18 @@ class LeagueProvider extends ChangeNotifier {
   /// How many places each league's board shows.
   static const int boardSize = 30;
 
-  Stream<List<LeaderboardEntry>> getLeagueLeaderboard(String league) {
+  Stream<List<LeaderboardEntry>> getLeagueLeaderboard(
+    String league,
+    String language,
+  ) {
     return _firestore
         .collection('users')
+        // Filtered in the query rather than after it. A learner competes with
+        // people learning the same language, and Tamil has far fewer learners
+        // than Hindi - so taking a global top-300 slice and then keeping the
+        // Tamil ones would leave that board nearly empty while excluding
+        // active Tamil learners who sit outside the global top 300.
+        .where('languages', arrayContains: language)
         // Ordering is not a nicety here. Without it Firestore returns
         // documents by ID, so the pool was an arbitrary slice of accounts
         // keyed on random UIDs and an active learner could sit outside it
@@ -81,10 +90,11 @@ class LeagueProvider extends ChangeNotifier {
                   .map((doc) => LeaderboardEntry.fromMap(doc.id, doc.data()))
                   .toList(),
               league,
+              language,
             ));
   }
 
-  /// Picks and orders every entry belonging to [league].
+  /// Picks and orders every entry in [league] who is learning [language].
   ///
   /// Returns the whole ranked league rather than just the visible places, so
   /// a learner sitting below the cut can still be shown their own standing.
@@ -92,20 +102,29 @@ class LeagueProvider extends ChangeNotifier {
   static List<LeaderboardEntry> rankForLeague(
     List<LeaderboardEntry> entries,
     String league,
+    String language,
   ) {
     final users = entries.where((entry) {
-      final userLeague =
-          entry.league.trim().isEmpty ? leagues.first : entry.league;
+      // Belt and braces: the query already filters by language, but this is
+      // also called on locally assembled lists.
+      if (entry.languages.isNotEmpty && !entry.languages.contains(language)) {
+        return false;
+      }
+
+      final userLeague = entry.leagueFor(language).trim();
       if (league == leagues.first) {
         // Backward-compatible default: users without an explicit league, or
         // with one we no longer recognise, appear in Bronze.
-        return userLeague == leagues.first || !leagues.contains(userLeague);
+        return userLeague.isEmpty ||
+            userLeague == leagues.first ||
+            !leagues.contains(userLeague);
       }
       return userLeague == league;
     }).toList();
 
     users.sort((a, b) {
-      final byLeagueXp = b.effectiveLeagueXp.compareTo(a.effectiveLeagueXp);
+      final byLeagueXp =
+          b.leagueXpFor(language).compareTo(a.leagueXpFor(language));
       if (byLeagueXp != 0) return byLeagueXp;
       final byScore = b.score.compareTo(a.score);
       if (byScore != 0) return byScore;

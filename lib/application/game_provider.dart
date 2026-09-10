@@ -149,6 +149,7 @@ class GameProvider extends ChangeNotifier {
       'leagueXp': initialLeagueXp,
       'leagueXpMigratedFromScore': true,
       'leagueXpSeededFromScore': shouldSeedLeagueXp || leagueXpSeeded,
+      ...languageLeagueMigration(data, initialLeagueXp: initialLeagueXp),
       'leagueJoinedAt': data['leagueJoinedAt'] ?? FieldValue.serverTimestamp(),
       'achievements': (data['achievements'] as List<dynamic>?)
               ?.whereType<String>()
@@ -175,21 +176,115 @@ class GameProvider extends ChangeNotifier {
     await docRef.set(defaults, SetOptions(merge: true));
   }
 
+  /// The per-language XP bump for a write of [xp], or null when the language
+  /// cannot be determined and only the account-wide total can be updated.
+  ///
+  /// Uses a dotted field path so it adds one key to the map rather than
+  /// replacing the learner's other languages.
+  static Map<String, dynamic>? _languageLeagueXpUpdate(
+    Map<String, dynamic> data,
+    int xp,
+    String? language,
+  ) {
+    final target = language?.isNotEmpty ?? false
+        ? language
+        : data['preferredLanguage'] as String?;
+    if (target == null || target.isEmpty) return null;
+
+    final current = _readInt(
+      (data['leagueXpByLanguage'] as Map<String, dynamic>?) ?? const {},
+      target,
+      0,
+    );
+    return {
+      'leagueXpByLanguage.$target': current + xp,
+      // A language the learner earns XP in is a language they are learning,
+      // whatever the array says.
+      'languages': FieldValue.arrayUnion([target]),
+    };
+  }
+
+  /// The fields that move an account from one account-wide league standing to
+  /// one standing per language.
+  ///
+  /// Runs once, on the first launch after the split, and is deliberately
+  /// conservative about what it claims:
+  ///
+  /// - **Tier carries to every language the learner already has.** They earned
+  ///   it once; showing them a demotion to Bronze the moment they switch
+  ///   language would be a loss they did not incur.
+  /// - **XP carries to exactly one language** - the one they were studying.
+  ///   It was earned before the app recorded which language it belonged to, so
+  ///   crediting it everywhere would put a Hindi learner's XP on the Tamil
+  ///   board and outrank people who actually earned it there.
+  ///
+  /// Also backfills `languages` from `preferredLanguage`. The leaderboard
+  /// query filters on `languages`, and an account with an empty array would
+  /// vanish from every board.
+  ///
+  /// Static and pure so the rules can be tested without Firestore.
+  static Map<String, dynamic> languageLeagueMigration(
+    Map<String, dynamic> data, {
+    required int initialLeagueXp,
+  }) {
+    final languages = (data['languages'] as List<dynamic>? ?? const [])
+        .whereType<String>()
+        .toList();
+    final preferred = data['preferredLanguage'] as String?;
+
+    final known = <String>{
+      ...languages,
+      if (preferred != null && preferred.isNotEmpty) preferred,
+    };
+
+    final updates = <String, dynamic>{};
+    if (known.length != languages.length) {
+      updates['languages'] = known.toList(growable: false);
+    }
+
+    if (data['leagueLanguageMigrated'] as bool? ?? false) return updates;
+
+    final tier = data['league'] as String? ?? bronzeLeague;
+    final home = preferred?.isNotEmpty ?? false
+        ? preferred
+        : (known.length == 1 ? known.single : null);
+
+    updates['leagueByLanguage'] = <String, dynamic>{
+      for (final language in known) language: tier,
+    };
+    updates['leagueXpByLanguage'] = <String, dynamic>{
+      for (final language in known)
+        language: language == home ? initialLeagueXp : 0,
+    };
+    updates['leagueLanguageMigrated'] = true;
+    return updates;
+  }
+
   Future<int> awardXP(
     XPEvent event, {
     double multiplier = 1.0,
     bool notify = true,
+    String? language,
   }) async {
     final xp = (event.base * multiplier).round();
     if (xp <= 0) return 0;
 
-    await incrementScore(xp, notify: false);
+    await incrementScore(xp, notify: false, language: language);
 
     if (notify) notifyListeners();
     return xp;
   }
 
-  Future<void> incrementScore(int xp, {bool notify = true}) async {
+  /// Adds [xp] to the learner's totals.
+  ///
+  /// [language] is the language the XP was earned in. Callers that know it -
+  /// a lesson knows its own course - should pass it; otherwise the learner's
+  /// stored `preferredLanguage` is used, which is what they are studying.
+  Future<void> incrementScore(
+    int xp, {
+    bool notify = true,
+    String? language,
+  }) async {
     if (xp <= 0) return;
 
     final userId = _auth.currentUser?.uid;
@@ -285,6 +380,10 @@ class GameProvider extends ChangeNotifier {
           'streakRepairTarget': streakRepairTarget,
           'leagueXp': leagueXp + xp,
           'dailyXpEarned': dailyXpEarned,
+          // Written alongside the account-wide total, not instead of it: the
+          // account-wide value stays the fallback for any client that has not
+          // been updated yet.
+          ...?_languageLeagueXpUpdate(data, xp, language),
           'dailyXpGoal': dailyGoal,
           'dailyGoalsHit': dailyGoalsHit,
           'lastDailyReset': today.toIso8601String(),
@@ -419,7 +518,7 @@ class GameProvider extends ChangeNotifier {
         first.day == second.day;
   }
 
-  int _readInt(Map<String, dynamic>? data, String key, int fallback) {
+  static int _readInt(Map<String, dynamic>? data, String key, int fallback) {
     final value = data?[key];
     if (value is int) return value;
     if (value is num) return value.toInt();

@@ -5,6 +5,7 @@ import 'package:words625/views/lesson/exercises/choice_exercise_view.dart';
 import 'package:words625/views/lesson/exercises/exercise_evaluation.dart';
 import 'package:words625/views/lesson/exercises/fill_blank_choice_exercise_view.dart';
 import 'package:words625/views/lesson/exercises/fill_blank_text_exercise_view.dart';
+import 'package:words625/views/lesson/exercises/picture_choice_exercise_view.dart';
 import 'package:words625/views/lesson/exercises/sentence_order_exercise_view.dart';
 import 'package:words625/views/lesson/exercises/token_bank_exercise_view.dart';
 
@@ -30,12 +31,10 @@ class InteractiveExerciseHost extends StatelessWidget {
             evaluation: evaluation,
           ),
         final WordBankExercise item => TokenBankExerciseView(
-            sourceLabel: 'TRANSLATE',
             sourceText: item.sourceText,
             tokens: item.tokens,
             acceptedOrders: item.acceptedOrders,
             shuffleSeed: stableHash32(item.id),
-            joinWithoutSpaces: false,
             onChanged: onResponseChanged,
             evaluation: evaluation,
           ),
@@ -54,13 +53,8 @@ class InteractiveExerciseHost extends StatelessWidget {
             onChanged: onResponseChanged,
             evaluation: evaluation,
           ),
-        final GuessWordExercise item => TokenBankExerciseView(
-            sourceLabel: 'CLUE',
-            sourceText: item.clue,
-            tokens: item.tokens,
-            acceptedOrders: item.acceptedOrders,
-            shuffleSeed: stableHash32(item.id),
-            joinWithoutSpaces: true,
+        final PictureChoiceExercise item => PictureChoiceExerciseView(
+            exercise: item,
             onChanged: onResponseChanged,
             evaluation: evaluation,
           ),

@@ -15,12 +15,17 @@ class InteractiveLessonAttempt {
     required this.response,
     required this.correct,
     required this.isAdaptiveRetry,
+    this.spellingCorrection,
   });
 
   final String exerciseId;
   final ExerciseResponse response;
   final bool correct;
   final bool isAdaptiveRetry;
+
+  /// The authored spelling, when a typed answer was accepted despite not
+  /// matching it. Always null on a wrong answer.
+  final String? spellingCorrection;
 }
 
 class InteractiveLessonStep {
@@ -96,6 +101,8 @@ class InteractiveLessonEngine extends ChangeNotifier {
       response: response,
       correct: correct,
       isAdaptiveRetry: step.isAdaptiveRetry,
+      spellingCorrection:
+          correct ? step.exercise.spellingCorrection(response) : null,
     );
     _attempts.add(attempt);
     _lastAttempt = attempt;

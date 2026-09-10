@@ -146,12 +146,20 @@ class SettingsPage extends StatelessWidget {
         builder: (dialogContext) => AlertDialog(
           icon: Icon(Icons.warning_amber_rounded, color: context.appWarning),
           title: const Text('Unlock every level?'),
-          content: const Text(
-            'Locking is there to make sure learning is enforced and gradual, '
-            'and to help maintain discipline.\n\n'
-            'Unlocking lets you jump around, but it does not mark anything '
-            'complete or award XP and gems. You can lock the path again at '
-            'any time and it will return to your real progress.',
+          // Constrained and scrollable: AlertDialog imposes no height limit of
+          // its own, so on a short window - or at 200% text scale - this
+          // paragraph simply overflowed off the bottom.
+          content: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: ContentWidth.column),
+            child: const SingleChildScrollView(
+              child: Text(
+                'Locking is there to make sure learning is enforced and '
+                'gradual, and to help maintain discipline.\n\n'
+                'Unlocking lets you jump around, but it does not mark anything '
+                'complete or award XP and gems. You can lock the path again at '
+                'any time and it will return to your real progress.',
+              ),
+            ),
           ),
           actions: [
             TextButton(

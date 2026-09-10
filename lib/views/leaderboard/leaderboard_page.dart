@@ -6,7 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
+import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/league_provider.dart';
+import 'package:words625/core/enums.dart';
 import 'package:words625/core/extensions.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/domain/league.dart';
@@ -39,17 +41,24 @@ class _LeaderboardPageState extends State<LeaderboardPage>
 
   @override
   Widget build(BuildContext context) {
+    // A league is per language: a Tamil learner competes with Tamil learners.
+    // Watched rather than read once, so switching language rebuilds the board.
+    final language = context.watch<LanguageProvider>().selectedLanguage;
+
     return ContentBounds(
       maxWidth: ContentWidth.feed,
       child: Column(
         children: [
           const SizedBox(height: 12),
-          _LeagueHeader(controller: _tabController),
+          _LeagueHeader(controller: _tabController, language: language),
           Expanded(
             child: TabBarView(
               controller: _tabController,
               children: LeagueProvider.leagues
-                  .map((league) => _LeagueLeaderboardList(league: league))
+                  .map((league) => _LeagueLeaderboardList(
+                        league: league,
+                        language: language,
+                      ))
                   .toList(growable: false),
             ),
           ),
@@ -61,8 +70,12 @@ class _LeaderboardPageState extends State<LeaderboardPage>
 
 class _LeagueLeaderboardList extends StatefulWidget {
   final String league;
+  final TargetLanguage language;
 
-  const _LeagueLeaderboardList({required this.league});
+  const _LeagueLeaderboardList({
+    required this.league,
+    required this.language,
+  });
 
   @override
   State<_LeagueLeaderboardList> createState() => _LeagueLeaderboardListState();
@@ -103,8 +116,10 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<List<LeaderboardEntry>>(
-      stream:
-          context.read<LeagueProvider>().getLeagueLeaderboard(widget.league),
+      stream: context.read<LeagueProvider>().getLeagueLeaderboard(
+            widget.league,
+            widget.language.name,
+          ),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Center(
@@ -229,8 +244,9 @@ class _RankClimbCard extends StatelessWidget {
 
 class _LeagueHeader extends StatelessWidget {
   final TabController controller;
+  final TargetLanguage language;
 
-  const _LeagueHeader({required this.controller});
+  const _LeagueHeader({required this.controller, required this.language});
 
   @override
   Widget build(BuildContext context) {
@@ -254,17 +270,22 @@ class _LeagueHeader extends StatelessWidget {
       ),
       child: Column(
         children: [
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.shield_rounded, color: Colors.white, size: 24),
-              SizedBox(width: 8),
-              Text(
-                'Weekly League XP',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 17,
-                  fontWeight: FontWeight.w700,
+              const Icon(Icons.shield_rounded, color: Colors.white, size: 24),
+              const SizedBox(width: 8),
+              // Naming the language matters: without it the board looks like
+              // it lost everyone the moment it stopped being one global list.
+              Flexible(
+                child: Text(
+                  '${language.name.toTitleCase} League XP',
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 17,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
               ),
             ],

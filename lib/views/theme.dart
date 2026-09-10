@@ -232,4 +232,13 @@ extension VarnamalaThemeContext on BuildContext {
   Color get appViolet => appColors.violet;
   Color get appShadowTint => appColors.shadowTint;
   LinearGradient get appPathGradient => appColors.pathGradient;
+
+  /// The colour to draw *on top of* [background].
+  ///
+  /// Any widget that picks its own fill has to pick its own foreground too.
+  /// Reaching for `colorScheme.onSecondary` because the fill happens to look
+  /// blue is the mistake this exists to prevent: that colour is derived to
+  /// read on *secondary*, and on `appInfo` it measures 2.87:1 in the Emerald
+  /// and Crimson light themes - below the readable minimum. See [onColorFor].
+  Color appOn(Color background) => onColorFor(background);
 }

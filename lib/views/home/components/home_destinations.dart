@@ -43,9 +43,12 @@ const List<HomeDestination> homeDestinations = [
     label: 'Leagues',
     color: _warning,
   ),
+  // Not "Shop": the tab leads with Flashcards and Match Madness, and a
+  // storefront label on a page whose first two cards are practice tools reads
+  // like a mislabelled door.
   HomeDestination(
-    icon: Icons.storefront_rounded,
-    label: 'Shop',
+    icon: Icons.fitness_center_rounded,
+    label: 'Practice',
     color: _danger,
   ),
 ];

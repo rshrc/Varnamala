@@ -29,15 +29,30 @@ void main() {
         }
 
         final flat = courses.expand((group) => group).toList();
-        expect(flat.length, 15);
+        // Fifteen sentence courses, plus First words wherever it has been
+        // written. It is rolling out one language at a time, and a language
+        // without it drops the node rather than failing to load at all.
+        expect(flat.length, inInclusiveRange(15, 16));
 
         for (final course in flat) {
           expect(course.levels, isNotNull);
+          expect(course.image, startsWith('assets/images/'));
+          expect(course.color, isNotNull);
+
+          if (course.courseId == 'words') {
+            expect(course.levels!.length, 5);
+            for (final level in course.levels!) {
+              expect(level.isVocabulary, isTrue);
+              expect(level.words, hasLength(12));
+              expect(level.questions, isNull,
+                  reason: 'a word level teaches words, not sentences');
+            }
+            continue;
+          }
+
           expect(course.levels!.length, inInclusiveRange(5, 6),
               reason:
                   '${course.courseName} has ${course.levels!.length} levels');
-          expect(course.image, startsWith('assets/images/'));
-          expect(course.color, isNotNull);
 
           for (final level in course.levels!) {
             expect(level.questions!.length, inInclusiveRange(8, 10));
@@ -59,7 +74,8 @@ void main() {
       final everything = courses
           .expand((group) => group)
           .expand((course) => course.levels!)
-          .expand((level) => level.questions!)
+          // Word levels hold no sentences to splice a name into.
+          .expand((level) => level.questions ?? [])
           .expand((q) => [q.sentence, q.correctAnswer, ...?q.options])
           .join(' ');
 
@@ -74,7 +90,12 @@ void main() {
       for (final language in TargetLanguage.values) {
         final repository = CourseRepository();
         final courses = await repository.courses(language, firstName: 'Rishi');
-        final question = courses.first.first.levels!.first.questions!.first;
+        // Not courses.first: the path now opens on First words, which teaches
+        // vocabulary against pictures and has no sentence to gloss.
+        final sentenceCourse = courses
+            .expand((group) => group)
+            .firstWhere((course) => course.levels!.first.questions != null);
+        final question = sentenceCourse.levels!.first.questions!.first;
 
         for (final word in question.sentence!.split(' ')) {
           expect(

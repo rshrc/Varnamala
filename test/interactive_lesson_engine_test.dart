@@ -34,7 +34,7 @@ void main() {
       );
     });
 
-    test('identical repeated letters are interchangeable', () {
+    test('identical repeated tokens are interchangeable', () {
       for (final word in [
         'amar',
         'nanage',
@@ -60,11 +60,11 @@ void main() {
         final second = repeatedPositions[1];
         visuallyIdenticalAnswer[first] = accepted[second];
         visuallyIdenticalAnswer[second] = accepted[first];
-        final exercise = GuessWordExercise(
+        final exercise = WordBankExercise(
           id: word,
-          prompt: 'Guess it',
+          prompt: 'Build it',
           explanation: word,
-          clue: word,
+          sourceText: word,
           tokens: tokens,
           acceptedOrders: [accepted],
         );

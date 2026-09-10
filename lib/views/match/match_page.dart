@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:words625/application/game_provider.dart';
+import 'package:words625/application/language_provider.dart';
 import 'package:words625/application/match_provider.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/views/theme.dart';
@@ -31,11 +32,17 @@ class _MatchPageState extends State<MatchPage> {
   GameProvider? _game;
   MatchProvider? _match;
 
+  /// Match Madness is played in one language, and its XP belongs to that
+  /// language's league. Captured here for the same reason as the providers:
+  /// the score is banked while the route is already leaving.
+  String? _language;
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
     _game = context.read<GameProvider>();
     _match = context.read<MatchProvider>();
+    _language = context.read<LanguageProvider>().selectedLanguage.name;
   }
 
   /// XP earned in Match Madness counts like any other lesson: it goes through
@@ -50,7 +57,7 @@ class _MatchPageState extends State<MatchPage> {
     _scoreBanked = true;
     final game = _game;
     if (game == null) return;
-    await game.incrementScore(match.score);
+    await game.incrementScore(match.score, language: _language);
     // Feeds the Match Madness badges.
     await game.bumpStat('matchGamesPlayed');
     await game.bumpStat('matchRoundsCleared', by: match.round);
@@ -172,9 +179,9 @@ class _ModeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isWords = mode == MatchMode.words;
-    final colours = Theme.of(context).colorScheme;
     final colour = isWords ? context.appSuccess : context.appInfo;
-    final onColour = isWords ? colours.onPrimary : colours.onSecondary;
+    // Derived from the fill, not borrowed from another role.
+    final onColour = context.appOn(colour);
 
     return ChicletAnimatedButton(
       width: double.infinity,

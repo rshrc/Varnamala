@@ -1,0 +1,286 @@
+{
+  "course": "words",
+  "title": "First words",
+  "description": "The sixty everyday words the rest of the course is built from.",
+  "schema": 2,
+  "levels": [
+    {
+      "level": 1,
+      "title": "At the table",
+      "words": [
+        {
+          "concept": "water",
+          "word": "jol"
+        },
+        {
+          "concept": "milk",
+          "word": "dudh"
+        },
+        {
+          "concept": "tea",
+          "word": "cha"
+        },
+        {
+          "concept": "bread",
+          "word": "ruti",
+          "gloss": "flatbread"
+        },
+        {
+          "concept": "rice",
+          "word": "chaal",
+          "gloss": "rice (uncooked)"
+        },
+        {
+          "concept": "egg",
+          "word": "dim"
+        },
+        {
+          "concept": "apple",
+          "word": "apel"
+        },
+        {
+          "concept": "banana",
+          "word": "kola"
+        },
+        {
+          "concept": "mango",
+          "word": "aam"
+        },
+        {
+          "concept": "vegetable",
+          "word": "shobji"
+        },
+        {
+          "concept": "fish",
+          "word": "maachh"
+        },
+        {
+          "concept": "food",
+          "word": "khabar"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "The people around you",
+      "words": [
+        {
+          "concept": "mother",
+          "word": "maa"
+        },
+        {
+          "concept": "father",
+          "word": "baba"
+        },
+        {
+          "concept": "brother",
+          "word": "dada",
+          "gloss": "elder brother"
+        },
+        {
+          "concept": "sister",
+          "word": "didi",
+          "gloss": "elder sister"
+        },
+        {
+          "concept": "baby",
+          "word": "shishu",
+          "gloss": "child"
+        },
+        {
+          "concept": "family",
+          "word": "poribar"
+        },
+        {
+          "concept": "friend",
+          "word": "bondhu"
+        },
+        {
+          "concept": "grandmother",
+          "word": "thakuma"
+        },
+        {
+          "concept": "grandfather",
+          "word": "dadu"
+        },
+        {
+          "concept": "doctor",
+          "word": "chikitshok"
+        },
+        {
+          "concept": "teacher",
+          "word": "shikkhok"
+        },
+        {
+          "concept": "person",
+          "word": "byakti"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Around the house",
+      "words": [
+        {
+          "concept": "house",
+          "word": "bari"
+        },
+        {
+          "concept": "door",
+          "word": "darja"
+        },
+        {
+          "concept": "window",
+          "word": "janala"
+        },
+        {
+          "concept": "bed",
+          "word": "bichana"
+        },
+        {
+          "concept": "chair",
+          "word": "kedara"
+        },
+        {
+          "concept": "book",
+          "word": "boi"
+        },
+        {
+          "concept": "key",
+          "word": "chabi"
+        },
+        {
+          "concept": "money",
+          "word": "taka"
+        },
+        {
+          "concept": "phone",
+          "word": "durbhash",
+          "gloss": "telephone"
+        },
+        {
+          "concept": "clothes",
+          "word": "kapor"
+        },
+        {
+          "concept": "lamp",
+          "word": "prodip",
+          "gloss": "lamp, oil lamp"
+        },
+        {
+          "concept": "clock",
+          "word": "ghori"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Head to foot, and hello",
+      "words": [
+        {
+          "concept": "hand",
+          "word": "haat"
+        },
+        {
+          "concept": "eye",
+          "word": "chokh"
+        },
+        {
+          "concept": "ear",
+          "word": "kaan"
+        },
+        {
+          "concept": "nose",
+          "word": "naak"
+        },
+        {
+          "concept": "mouth",
+          "word": "mukh"
+        },
+        {
+          "concept": "foot",
+          "word": "paa",
+          "gloss": "foot, leg"
+        },
+        {
+          "concept": "hair",
+          "word": "chul"
+        },
+        {
+          "concept": "heart",
+          "word": "hridoy"
+        },
+        {
+          "concept": "yes",
+          "word": "haan"
+        },
+        {
+          "concept": "no",
+          "word": "na"
+        },
+        {
+          "concept": "hello",
+          "word": "nomoshkar"
+        },
+        {
+          "concept": "thanks",
+          "word": "dhonnobad"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Out in the world",
+      "words": [
+        {
+          "concept": "sun",
+          "word": "shurjo"
+        },
+        {
+          "concept": "moon",
+          "word": "chaand"
+        },
+        {
+          "concept": "star",
+          "word": "tara"
+        },
+        {
+          "concept": "tree",
+          "word": "gachh"
+        },
+        {
+          "concept": "flower",
+          "word": "phul"
+        },
+        {
+          "concept": "rain",
+          "word": "brishti"
+        },
+        {
+          "concept": "dog",
+          "word": "kukur"
+        },
+        {
+          "concept": "cat",
+          "word": "biral"
+        },
+        {
+          "concept": "bird",
+          "word": "pakhi"
+        },
+        {
+          "concept": "cow",
+          "word": "goru"
+        },
+        {
+          "concept": "car",
+          "word": "gari"
+        },
+        {
+          "concept": "road",
+          "word": "rasta"
+        }
+      ]
+    }
+  ]
+}
