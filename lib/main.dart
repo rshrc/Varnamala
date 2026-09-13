@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 // Project imports:
@@ -41,5 +42,7 @@ Future main() async {
     };
   }
 
-  runApp(const Words625App());
+  // ProviderScope hosts the Riverpod side of the app while `provider` is
+  // strangled out incrementally; see lib/application/theme_notifier.dart.
+  runApp(const ProviderScope(child: Words625App()));
 }

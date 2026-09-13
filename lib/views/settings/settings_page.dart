@@ -2,23 +2,41 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:provider/provider.dart';
 import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
 
 // Project imports:
+import 'package:words625/application/theme_notifier.dart';
 import 'package:words625/application/theme_provider.dart';
+import 'package:words625/core/migration_flags.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/auth/components/logout_button.dart';
 import 'package:words625/views/theme.dart';
 
-class SettingsPage extends StatelessWidget {
+class SettingsPage extends ConsumerWidget {
   const SettingsPage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    final theme = context.watch<ThemeProvider>();
+  Widget build(BuildContext context, WidgetRef ref) {
+    final ThemeMode currentThemeMode;
+    final void Function(ThemeMode) setThemeMode;
+    final AppPalette currentPalette;
+    final void Function(AppPalette) setPalette;
+    if (MigrationFlags.useRiverpodTheme) {
+      currentThemeMode = ref.watch(themeModeProvider);
+      setThemeMode = ref.read(themeModeProvider.notifier).setThemeMode;
+      currentPalette = ref.watch(paletteProvider);
+      setPalette = ref.read(paletteProvider.notifier).setPalette;
+    } else {
+      final theme = context.watch<ThemeProvider>();
+      currentThemeMode = theme.themeMode;
+      setThemeMode = theme.setThemeMode;
+      currentPalette = theme.palette;
+      setPalette = theme.setPalette;
+    }
     final demoCount = getIt<AppPrefs>()
         .preferences
         .getInt(PrefsConstants.demoCount, defaultValue: 0)
@@ -53,9 +71,9 @@ class SettingsPage extends StatelessWidget {
                     label: const Text('Dark'),
                   ),
                 ],
-                selected: {theme.themeMode},
+                selected: {currentThemeMode},
                 onSelectionChanged: (selection) {
-                  theme.setThemeMode(selection.first);
+                  setThemeMode(selection.first);
                 },
                 showSelectedIcon: false,
               ),
@@ -64,8 +82,8 @@ class SettingsPage extends StatelessWidget {
             _SettingsCard(
               title: 'Colour theme',
               child: _PalettePicker(
-                selected: theme.palette,
-                onSelected: theme.setPalette,
+                selected: currentPalette,
+                onSelected: setPalette,
               ),
             ),
             const SizedBox(height: 14),
