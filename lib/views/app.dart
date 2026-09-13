@@ -18,8 +18,8 @@ import 'package:words625/views/theme.dart';
 
 final router = getIt<AppRouter>();
 
-class Words625App extends StatelessWidget {
-  const Words625App({Key? key}) : super(key: key);
+class VarnamalaApp extends StatelessWidget {
+  const VarnamalaApp({Key? key}) : super(key: key);
 
   static FirebaseAnalytics analytics = FirebaseAnalytics.instance;
   static FirebaseAnalyticsObserver observer =

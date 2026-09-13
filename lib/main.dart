@@ -44,5 +44,5 @@ Future main() async {
 
   // ProviderScope hosts the Riverpod side of the app while `provider` is
   // strangled out incrementally; see lib/application/theme_notifier.dart.
-  runApp(const ProviderScope(child: Words625App()));
+  runApp(const ProviderScope(child: VarnamalaApp()));
 }

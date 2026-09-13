@@ -565,7 +565,7 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       actionTextColor: primary,
       // Floating so it reads as a message that arrived, not as a strip welded
       // to the bottom of the window. The width cap that keeps it from becoming
-      // a banner on a desktop is applied in `Words625App`, which is the first
+      // a banner on a desktop is applied in `Words625App` (now `VarnamalaApp`), which is the first
       // place that can see how wide the window actually is.
       behavior: SnackBarBehavior.floating,
       shape: RoundedRectangleBorder(
