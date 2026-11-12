@@ -6,18 +6,23 @@
  * `/league-lab` are routed without one precisely so this can work - and so
  * anyone can be shown the app without an account.
  *
- *   flutter build web
+ *   flutter build web --wasm
  *   (cd build/web && python3 -m http.server 5050)
- *   node tool/screenshots/capture.mjs
+ *   node tool/screenshots/capture.mjs              # everything
+ *   node tool/screenshots/capture.mjs languages    # per-language shots only
+ *
+ * The per-language shots (feature-lesson-<lang>, feature-firstwords-<lang>,
+ * feature-script-<lang>) are what community-publisher attaches to a post in a
+ * one-language community: a Telugu subreddit should see Telugu.
  *
  * Port 5050, not 5000: macOS AirPlay Receiver holds 5000 and answers 403.
  * Needs `npm i playwright && npx playwright install chromium`.
  */
 import { chromium } from 'playwright';
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, readFileSync } from 'node:fs';
 
 const BASE = process.env.BASE ?? 'http://localhost:5050';
-const OUT = process.env.OUT ?? 'screenshots';
+const OUT = process.env.OUT ?? 'screenshots/feature';
 
 /**
  * Tap targets, in logical pixels.
@@ -44,7 +49,10 @@ const ENTRY = {
 const BOOT_MS = 6000;
 
 mkdirSync(OUT, { recursive: true });
-const browser = await chromium.launch();
+const MODE = process.argv[2] ?? 'all';
+// The installed Chrome avoids a second browser download; set CHANNEL= to use
+// Playwright's own build instead.
+const browser = await chromium.launch({ channel: process.env.CHANNEL ?? 'chrome' });
 
 async function shoot(name, language, entry, { wait = 7000, dark = false, then } = {}) {
   const context = await browser.newContext({
@@ -64,6 +72,10 @@ async function shoot(name, language, entry, { wait = 7000, dark = false, then } 
   await page.mouse.click(210, ENTRY[entry]);
   await page.waitForTimeout(wait);
   if (then) await then(page);
+  // The pointer rests where it last tapped, and a hovered option is shaded:
+  // it reads as a chosen answer. Park it in a corner first.
+  await page.mouse.move(2, 2);
+  await page.waitForTimeout(400);
 
   await page.screenshot({ path: `${OUT}/${name}.png` });
   console.log(`${name.padEnd(34)} ${errors.length ? `JS ERROR: ${errors[0]}` : 'ok'}`);
@@ -82,14 +94,61 @@ const tap = (...points) => async (page) => {
   }
 };
 
+// The open-source pitch is that a course is a plain file. Show the real one,
+// rendered like an editor, rather than describing it.
+async function shootCourseFile(name = 'feature-course-json', path = 'assets/courses/tamil/basics.json') {
+  const lines = readFileSync(path, 'utf8').split('\n').slice(0, 44);
+  const escape = (text) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+  const paint = (line) => escape(line)
+    .replace(/("[^"]*")(\s*:)/g, '<b class="k">$1</b>$2')
+    .replace(/:\s*("[^"]*")/g, ': <b class="s">$1</b>')
+    .replace(/^(\s*)("[^"]*")(,?)$/g, '$1<b class="s">$2</b>$3')
+    .replace(/\b(true|false|\d+)\b(?![^<]*<\/b>)/g, '<b class="n">$1</b>');
+  const html = `<!doctype html><meta charset="utf-8"><style>
+    body{margin:0;background:#f5f8f7;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;color:#12302c}
+    .tab{padding:14px 18px;border-bottom:1px solid #dbe6e4;background:#fff;font:600 13px system-ui,sans-serif;color:#4f6763}
+    .tab b{color:#10847a}
+    pre{margin:0;padding:14px 0;counter-reset:l}
+    span{display:block;position:relative;padding-right:18px;white-space:pre-wrap;word-break:break-word}
+    span::before{counter-increment:l;content:counter(l);position:absolute;left:0;width:36px;text-indent:0;text-align:right;color:#a6b6b3}
+    b{font-weight:500}.k{color:#0b625b}.s{color:#9a4d00}.n{color:#6b3fa0}
+  </style><div class="tab"><b>assets/courses/tamil/</b>basics.json</div><pre>${lines.map((line) => {
+    // Wrapped lines hang under their own indentation, as in an editor.
+    const indent = line.length - line.trimStart().length;
+    return `<span style="padding-left:calc(52px + ${indent + 4}ch);text-indent:-4ch">${paint(line.trimStart())}</span>`;
+  }).join('')}</pre>`;
+  const context = await browser.newContext({ viewport: { width: 420, height: 860 }, deviceScaleFactor: 2 });
+  const page = await context.newPage();
+  await page.setContent(html);
+  await page.screenshot({ path: `${OUT}/${name}.png` });
+  console.log(`${name.padEnd(34)} ok`);
+  await context.close();
+}
+if (MODE === 'course-file') {
+  await shootCourseFile();
+  await browser.close();
+  process.exit(0);
+}
+await shootCourseFile();
+
+// One lesson, one First words question and the alphabet, for every language.
+// The alphabet grid draws a spinner until its letters are ready, so it gets a
+// longer wait than the lessons.
+for (const language of Object.keys(LANGUAGE)) {
+  await shoot(`feature-lesson-${language}`, language, 'sentence');
+  await shoot(`feature-firstwords-${language}`, language, 'firstWords');
+  await shoot(`feature-script-${language}`, language, 'script', { wait: 14000 });
+}
+if (MODE === 'languages') {
+  await browser.close();
+  process.exit(0);
+}
+
 await shoot('feature-path', 'kannada', 'path');
-await shoot('feature-lesson-tamil', 'tamil', 'sentence');
-await shoot('feature-lesson-bengali', 'bengali', 'sentence');
 
 // One question, both verdicts. The point of the pair is that a miss marks the
 // tile you touched *and* lights up the answer - a screenshot of only the happy
 // path would not show that.
-await shoot('feature-firstwords-hindi', 'hindi', 'firstWords');
 await shoot('feature-answer-correct', 'hindi', 'firstWords', {
   then: tap(PAANI, [...CHECK, 2600]),
 });

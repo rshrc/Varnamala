@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test:community-publisher": "node --test community-publisher/tests/*.test.mjs && node community-publisher/scripts/validate.mjs"
+  },
   "dependencies": {
     "firebase-admin": "^12.7.0"
   }

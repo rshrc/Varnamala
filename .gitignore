@@ -1,5 +1,6 @@
 # See https://www.dartlang.org/guides/libraries/private-files
-
+tools/
+community-publisher/
 # Files and directories created by pub
 .dart_tool/
 .packages
@@ -69,3 +70,6 @@ ios/Runner/GoogleService-Info.plist
 lib/firebase_options.dart
 node_modules/
 serviceAccountKey.json
+
+# Locally generated README and community feature captures
+screenshots/feature/
