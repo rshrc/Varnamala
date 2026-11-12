@@ -1,5 +1,11 @@
 # Varnamala - Next Version Enhancements 🚀
 
+> **Implementation reference:** The build-ready schema, interaction rules,
+> progression model, migration sequence, and acceptance criteria now live in
+> [`docs/interactive-lessons-spec.md`](docs/interactive-lessons-spec.md). This
+> file remains the broader feature backlog; the interactive lesson spec is
+> authoritative for lesson-engine work.
+
 This document outlines the planned features, new question types, mini-games, and architectural changes for the next major version of Varnamala to make it a more engaging, all-rounder language learning application.
 
 ## 1. Diverse Question Types (Polymorphic Lessons)

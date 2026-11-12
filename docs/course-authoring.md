@@ -37,8 +37,24 @@ and [`tool/validate_courses.rb`](../tool/validate_courses.rb).
 matching entry in `courses`, and vice versa.
 
 Colours are **computed**, not chosen — `tool/generate_manifests.rb` solves each
-course's lightness so all fifteen sit at the same relative luminance. Regenerate
+course's lightness so all sixteen sit at the same relative luminance. Regenerate
 rather than hand-editing them, or one node will start shouting over the others.
+
+## Two course schemas
+
+There are sixteen courses. The first, `words`, is a **word course**
+(`"schema": 2`); the other fifteen are sentence courses and carry no `schema`
+field. They are authored differently and are read by different code
+(`VocabularyExerciseFactory` and `CourseExerciseFactory` respectively).
+
+| | `words.json` | the other fifteen |
+|---|---|---|
+| shape | 5 levels x 12 `words` | 5-6 levels x 8-10 `questions` |
+| teaches | one word against a picture | sentences |
+| learner does | picks a word or a picture, or types the word | picks, orders, builds, types |
+
+`words` is unlocked alongside `basics` from the first launch — see
+`kFreeCourseCount` in `lib/views/courses/course_tree.dart`.
 
 ## notes.json
 
@@ -57,6 +73,61 @@ the map, shown when the learner taps Mala:
 `mood` picks the mascot pose (`cute`, `excited`, `wave`, `asking`). Keep notes
 under 24 words and make them *teach* — generic encouragement is worse than an
 empty space.
+
+## `words.json` — the First words course
+
+Sixty everyday words against pictures, and no sentences at all. It exists
+because learners were being asked to assemble sentences out of vocabulary
+nobody had taught them.
+
+```jsonc
+{
+  "course": "words",
+  "title": "First words",
+  "description": "The sixty everyday words the rest of the course is built from.",
+  "schema": 2,
+  "levels": [
+    {
+      "level": 1,
+      "title": "At the table",
+      "words": [
+        { "concept": "water", "word": "neeru" },
+        { "concept": "bread", "word": "rotti", "gloss": "flatbread" }
+      ]
+    }
+  ]
+}
+```
+
+- **`concept`** names an entry in `assets/courses/concepts.json` — a shared,
+  language-independent idea carrying the English label and the picture. An
+  apple is an apple in all thirteen languages, so those are authored once.
+- **`word`** is the romanized target-language word. One word: a space is an
+  error.
+- **`gloss`** is optional, and narrows the concept's English label where the
+  language demands it (`brother` → `elder brother`, `bread` → `flatbread`).
+
+Exactly **5 levels of 12 words**, together covering all sixty concepts exactly
+once. The validator enforces this, and enforces that every concept has a
+picture in `assets/images/vocab/`.
+
+### Pictures
+
+`tool/fetch_vocab_art.rb` downloads one flat SVG per concept from a pinned
+Twemoji release (CC-BY 4.0). Its table maps concept id to codepoint, and
+records in a comment why any concept uses a substitute glyph — a stethoscope
+for `doctor`, a carrot for `vegetable`. Adding a concept means adding a
+codepoint there and re-running it.
+
+### Choosing the words
+
+- Pick the word a person would actually say, not the most formal one.
+- Avoid English loanwords. If the everyday word for *bread* is "bread", pick
+  the nearest real word (`rotti`) and gloss it, or the exercise tests nothing.
+- Keep the sixty distinct: two words in one level that fold to the same
+  romanization (see `romanizationKey`) will confuse the typed exercises.
+- Every word should reappear later in a sentence course. This is the
+  foundation, not a separate vocabulary list.
 
 ## `<course>.json`
 
