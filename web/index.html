@@ -14,12 +14,12 @@
   <meta name="theme-color" content="#1F727E">
   <meta name="apple-mobile-web-app-title" content="Varnamala">
   <meta name="google-signin-client_id" content="810080914897-hi79u9dqg8vvhk0ae24krftavedq63q8.apps.googleusercontent.com">
-  <!-- Warm up the origins used during startup: Flutter/Firebase, Google
-       Identity, and the Nunito font used on the first screen. -->
+  <!-- Warm up Google Identity and the font origin used during startup. Flutter's
+       generated loader selects and fetches either Wasm or the JavaScript
+       fallback, so do not preload one compilation target here. -->
   <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://accounts.google.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="main.dart.js" as="script">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -76,5 +76,12 @@
   <!-- Start Flutter as soon as its bootstrap is available instead of waiting
        for every page resource to fire the window load event. -->
   <script src="flutter_bootstrap.js" async></script>
+  <!-- The loader sits under Flutter's canvas, so without this it shows through
+       every screen that has no background of its own. -->
+  <script>
+    window.addEventListener('flutter-first-frame', () => {
+      document.querySelector('.loading')?.remove();
+    }, { once: true });
+  </script>
 </body>
 </html>

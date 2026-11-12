@@ -45,8 +45,13 @@
           {
             "key": "Cache-Control",
             "value": "no-cache, no-store, must-revalidate"
+          },
+          {
+            "key": "Cross-Origin-Opener-Policy",
+            "value": "same-origin-allow-popups"
           }
-        ]
+        ],
+        "// coop": "same-origin-allow-popups, never same-origin: Google Sign-In returns through a popup, and same-origin cuts the popup off from the page (blank gsi/transform window). No COEP for the same reason - it blocks the Google button iframe. Without cross-origin isolation the Wasm build still runs, single-threaded."
       },
       {
         "source": "/index.html",
@@ -54,6 +59,10 @@
           {
             "key": "Cache-Control",
             "value": "no-cache, no-store, must-revalidate"
+          },
+          {
+            "key": "Cross-Origin-Opener-Policy",
+            "value": "same-origin-allow-popups"
           }
         ]
       }
