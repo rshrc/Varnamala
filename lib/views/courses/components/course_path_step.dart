@@ -60,24 +60,27 @@ class CoursePathStep extends StatelessWidget {
             // off the exact edge and off its node's centre line, so a run of
             // them wanders alongside the path instead of forming a column.
             if (note != null)
-              Builder(builder: (context) {
-                final perch =
-                    trailNotePerch(course.courseId ?? course.courseName);
-                final side = dx > 0 ? -1.0 : 1.0;
-                return Align(
-                  alignment: Alignment(side * perch.xFactor, perch.yFactor),
-                  child: Transform.rotate(
-                    angle: perch.angle,
-                    child: Transform.scale(
-                      scale: perch.scale,
-                      child: TrailNoteButton(
-                        note: note!,
-                        pointsRight: dx > 0,
+              Builder(
+                builder: (context) {
+                  final perch = trailNotePerch(
+                    course.courseId ?? course.courseName,
+                  );
+                  final side = dx > 0 ? -1.0 : 1.0;
+                  return Align(
+                    alignment: Alignment(side * perch.xFactor, perch.yFactor),
+                    child: Transform.rotate(
+                      angle: perch.angle,
+                      child: Transform.scale(
+                        scale: perch.scale,
+                        child: TrailNoteButton(
+                          note: note!,
+                          pointsRight: dx > 0,
+                        ),
                       ),
                     ),
-                  ),
-                );
-              }),
+                  );
+                },
+              ),
             Align(
               alignment: Alignment(dx, 0),
               child: CourseNode(
@@ -133,14 +136,19 @@ class CoursePathConnectorPainter extends CustomPainter {
       ..strokeCap = StrokeCap.round
       ..color = color;
 
+    // Every dash goes into one path and one draw call. Drawing each dash on
+    // its own put dozens of draw calls per connector into every frame that
+    // repainted the path.
+    final dashes = Path();
     for (final metric in path.computeMetrics()) {
       var distance = 0.0;
       while (distance < metric.length) {
         final next = math.min(distance + 7, metric.length);
-        canvas.drawPath(metric.extractPath(distance, next), paint);
+        dashes.addPath(metric.extractPath(distance, next), Offset.zero);
         distance = next + 7;
       }
     }
+    canvas.drawPath(dashes, paint);
   }
 
   @override
