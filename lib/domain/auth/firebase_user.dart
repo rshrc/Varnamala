@@ -1,18 +1,18 @@
 // Package imports:
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-class SerializableFirebaseUser {
-  final String? uid;
-  final String? email;
-  final String? displayName;
-  final String? photoUrl;
+part 'firebase_user.freezed.dart';
+part 'firebase_user.g.dart';
 
-  SerializableFirebaseUser({
-    required this.uid,
-    required this.email,
-    required this.displayName,
-    required this.photoUrl,
-  });
+@freezed
+abstract class SerializableFirebaseUser with _$SerializableFirebaseUser {
+  const factory SerializableFirebaseUser({
+    required String? uid,
+    required String? email,
+    required String? displayName,
+    required String? photoUrl,
+  }) = _SerializableFirebaseUser;
 
   // Factory method to create a SerializableFirebaseUser from a Firebase User
   factory SerializableFirebaseUser.fromFirebaseUser(User user) {
@@ -24,23 +24,6 @@ class SerializableFirebaseUser {
     );
   }
 
-  // Convert SerializableFirebaseUser to JSON
-  Map<String, dynamic> toJson() {
-    return {
-      'uid': uid,
-      'email': email,
-      'displayName': displayName,
-      'photoUrl': photoUrl,
-    };
-  }
-
-  // Convert JSON back to SerializableFirebaseUser
-  factory SerializableFirebaseUser.fromJson(Map<String, dynamic> json) {
-    return SerializableFirebaseUser(
-      uid: json['uid'] as String?,
-      email: json['email'] as String?,
-      displayName: json['displayName'] as String?,
-      photoUrl: json['photoUrl'] as String?,
-    );
-  }
+  factory SerializableFirebaseUser.fromJson(Map<String, dynamic> json) =>
+      _$SerializableFirebaseUserFromJson(json);
 }
