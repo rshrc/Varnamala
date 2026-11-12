@@ -1,5 +1,6 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 
 // Package imports:
 import 'package:chiclet/chiclet.dart';
@@ -48,7 +49,7 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
       setState(() => _error = problem);
       return;
     }
-    Navigator.of(context).pop();
+    await context.router.maybePop();
   }
 
   @override
@@ -82,9 +83,8 @@ class _EditIdentitySheetState extends State<_EditIdentitySheet> {
             ),
             Text(
               'How others see you',
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w800,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: 20),
             Row(

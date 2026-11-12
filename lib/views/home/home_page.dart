@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show ScrollDirection;
 
 // Package imports:
-import 'package:auto_route/annotations.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
@@ -14,20 +14,16 @@ import 'package:words625/application/hearts_provider.dart';
 import 'package:words625/application/identity_provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/responsive.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
 import 'package:words625/views/courses/course_tree.dart';
-import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
-import 'package:words625/views/debug/league_demo_page.dart';
-import 'package:words625/views/flashcards/flashcards_page.dart';
-import 'package:words625/views/settings/settings_page.dart';
 import 'package:words625/views/home/components/components.dart';
 import 'package:words625/views/home/components/side_navigator.dart';
 import 'package:words625/views/leaderboard/leaderboard_page.dart';
 import 'package:words625/views/profile/profile_screen.dart';
 import 'package:words625/views/shop/shop_screen.dart';
 import 'package:words625/views/theme.dart';
-import 'package:words625/views/onboarding/onboarding_screen.dart';
 
 @RoutePage()
 class HomePage extends StatefulWidget {
@@ -118,9 +114,7 @@ class _HomePageState extends State<HomePage>
       );
     } else if (streakResult == StreakCheckResult.freezeConsumed) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Streak Freeze protected your streak.'),
-        ),
+        const SnackBar(content: Text('Streak Freeze protected your streak.')),
       );
     }
   }
@@ -218,19 +212,15 @@ class _HomePageState extends State<HomePage>
   }
 
   void _openFlashcards() {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => FlashcardsPage(
-          language: context.read<LanguageProvider>().selectedLanguage,
-        ),
+    context.router.push(
+      FlashcardsRoute(
+        language: context.read<LanguageProvider>().selectedLanguage,
       ),
     );
   }
 
   void _openSettings() {
-    Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => const SettingsPage()),
-    );
+    context.router.push(const SettingsRoute());
   }
 
   void _showDebugTools() {
@@ -251,44 +241,44 @@ class _HomePageState extends State<HomePage>
                   'Word banks, sequencing, blanks, guessing, and retries',
                 ),
                 trailing: const Icon(Icons.chevron_right_rounded),
-                onTap: () {
-                  Navigator.of(sheetContext).pop();
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => const InteractiveLessonDemoPage(),
-                    ),
-                  );
+                onTap: () async {
+                  await context.router.maybePop();
+                  if (mounted) {
+                    await context.router.push(
+                      const InteractiveLessonDemoRoute(),
+                    );
+                  }
                 },
               ),
               ListTile(
-                leading:
-                    Icon(Icons.emoji_events_rounded, color: context.appWarning),
+                leading: Icon(
+                  Icons.emoji_events_rounded,
+                  color: context.appWarning,
+                ),
                 title: const Text('League lab'),
                 subtitle: const Text(
                   'Invented learners, so the climb can be demonstrated',
                 ),
                 trailing: const Icon(Icons.chevron_right_rounded),
-                onTap: () {
-                  Navigator.of(sheetContext).pop();
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => const LeagueDemoPage(),
-                    ),
-                  );
+                onTap: () async {
+                  await context.router.maybePop();
+                  if (mounted) {
+                    await context.router.push(const LeagueDemoRoute());
+                  }
                 },
               ),
               ListTile(
-                leading:
-                    Icon(Icons.view_carousel_rounded, color: context.appViolet),
+                leading: Icon(
+                  Icons.view_carousel_rounded,
+                  color: context.appViolet,
+                ),
                 title: const Text('Onboarding sample'),
                 trailing: const Icon(Icons.chevron_right_rounded),
-                onTap: () {
-                  Navigator.of(sheetContext).pop();
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => const OnboardingScreen(),
-                    ),
-                  );
+                onTap: () async {
+                  await context.router.maybePop();
+                  if (mounted) {
+                    await context.router.push(const OnboardingRoute());
+                  }
                 },
               ),
             ],

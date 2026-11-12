@@ -1,11 +1,15 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Package imports:
+import 'package:auto_route/auto_route.dart';
+
 // Project imports:
 import 'package:words625/core/responsive.dart';
 import 'package:words625/service/demo_lesson_service.dart';
 import 'package:words625/views/theme.dart';
 
+@RoutePage()
 class DemoLessonPage extends StatefulWidget {
   const DemoLessonPage({
     required this.initialQuestion,
@@ -77,36 +81,42 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                   children: [
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 12, vertical: 7),
+                        horizontal: 12,
+                        vertical: 7,
+                      ),
                       decoration: BoxDecoration(
                         color: colors.primaryContainer,
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusRound),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusRound,
+                        ),
                       ),
                       child: Text(
                         '${_question.language} · ${_question.nativeLanguage}',
-                        style:
-                            Theme.of(context).textTheme.labelMedium?.copyWith(
-                                  color: colors.onPrimaryContainer,
-                                  fontWeight: FontWeight.w700,
-                                ),
+                        style: Theme.of(context).textTheme.labelMedium
+                            ?.copyWith(
+                              color: colors.onPrimaryContainer,
+                              fontWeight: FontWeight.w700,
+                            ),
                       ),
                     ),
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 10, vertical: 7),
+                        horizontal: 10,
+                        vertical: 7,
+                      ),
                       decoration: BoxDecoration(
                         color: colors.tertiaryContainer,
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusRound),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusRound,
+                        ),
                       ),
                       child: Text(
                         'Basics · Level ${_question.level}',
-                        style:
-                            Theme.of(context).textTheme.labelMedium?.copyWith(
-                                  color: colors.onTertiaryContainer,
-                                  fontWeight: FontWeight.w700,
-                                ),
+                        style: Theme.of(context).textTheme.labelMedium
+                            ?.copyWith(
+                              color: colors.onTertiaryContainer,
+                              fontWeight: FontWeight.w700,
+                            ),
                       ),
                     ),
                   ],
@@ -121,15 +131,15 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                   padding: const EdgeInsets.all(18),
                   decoration: BoxDecoration(
                     color: colors.surfaceContainer,
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusLarge),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusLarge,
+                    ),
                     border: Border.all(color: colors.outlineVariant),
                   ),
                   child: Text(
                     _question.sentence,
-                    style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                          height: 1.35,
-                        ),
+                    style: Theme.of(context).textTheme.titleLarge
+                        ?.copyWith(height: 1.35),
                   ),
                 ),
                 const SizedBox(height: 18),
@@ -146,31 +156,33 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                       final borderColor = correct
                           ? context.appSuccess
                           : incorrect
-                              ? colors.error
-                              : selected
-                                  ? colors.primary
-                                  : colors.outlineVariant;
+                          ? colors.error
+                          : selected
+                          ? colors.primary
+                          : colors.outlineVariant;
                       final fillColor = correct
                           ? context.appSuccess.withValues(alpha: 0.14)
                           : incorrect
-                              ? colors.error.withValues(alpha: 0.1)
-                              : selected
-                                  ? colors.primary.withValues(alpha: 0.1)
-                                  : colors.surface;
+                          ? colors.error.withValues(alpha: 0.1)
+                          : selected
+                          ? colors.primary.withValues(alpha: 0.1)
+                          : colors.surface;
 
                       return InkWell(
                         onTap: _checked
                             ? null
                             : () => setState(() => _selectedAnswer = option),
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusMedium,
+                        ),
                         child: AnimatedContainer(
                           duration: const Duration(milliseconds: 160),
                           padding: const EdgeInsets.all(16),
                           decoration: BoxDecoration(
                             color: fillColor,
                             borderRadius: BorderRadius.circular(
-                                VarnamalaTheme.radiusMedium),
+                              VarnamalaTheme.radiusMedium,
+                            ),
                             border: Border.all(color: borderColor, width: 1.5),
                           ),
                           child: Row(
@@ -178,20 +190,22 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                               Expanded(
                                 child: Text(
                                   option,
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .bodyLarge
+                                  style: Theme.of(context).textTheme.bodyLarge
                                       ?.copyWith(fontWeight: FontWeight.w600),
                                 ),
                               ),
                               if (correct)
-                                Icon(Icons.check_circle_rounded,
-                                    color: context.appSuccess)
+                                Icon(
+                                  Icons.check_circle_rounded,
+                                  color: context.appSuccess,
+                                )
                               else if (incorrect)
                                 Icon(Icons.cancel_rounded, color: colors.error)
                               else if (selected)
-                                Icon(Icons.radio_button_checked_rounded,
-                                    color: colors.primary),
+                                Icon(
+                                  Icons.radio_button_checked_rounded,
+                                  color: colors.primary,
+                                ),
                             ],
                           ),
                         ),
@@ -204,9 +218,9 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                   Text(
                     _isCorrect ? 'Correct!' : 'The correct answer is:',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          color: _isCorrect ? context.appSuccess : colors.error,
-                          fontWeight: FontWeight.w700,
-                        ),
+                      color: _isCorrect ? context.appSuccess : colors.error,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                   if (!_isCorrect)
                     Padding(
@@ -227,23 +241,27 @@ class _DemoLessonPageState extends State<DemoLessonPage> {
                   onPressed: _loading || (!_checked && _selectedAnswer == null)
                       ? null
                       : _checked
-                          ? _nextDemo
-                          : () => setState(() => _checked = true),
+                      ? _nextDemo
+                      : () => setState(() => _checked = true),
                   child: _loading
                       ? const SizedBox.square(
                           dimension: 20,
                           child: CircularProgressIndicator(strokeWidth: 2),
                         )
                       : Text(
-                          _checked ? 'TRY ANOTHER LANGUAGE' : 'CHECK ANSWER'),
+                          _checked ? 'TRY ANOTHER LANGUAGE' : 'CHECK ANSWER',
+                        ),
                 ),
                 const SizedBox(height: 10),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Icon(Icons.shield_outlined,
-                        size: 16, color: context.appInfo),
+                    Icon(
+                      Icons.shield_outlined,
+                      size: 16,
+                      color: context.appInfo,
+                    ),
                     const SizedBox(width: 7),
                     Flexible(
                       child: Text(

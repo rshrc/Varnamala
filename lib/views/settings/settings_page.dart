@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:provider/provider.dart';
 import 'package:streaming_shared_preferences/streaming_shared_preferences.dart';
@@ -16,6 +17,7 @@ import 'package:words625/service/locator.dart';
 import 'package:words625/views/auth/components/logout_button.dart';
 import 'package:words625/views/theme.dart';
 
+@RoutePage()
 class SettingsPage extends ConsumerWidget {
   const SettingsPage({super.key});
 
@@ -37,8 +39,7 @@ class SettingsPage extends ConsumerWidget {
       currentPalette = theme.palette;
       setPalette = theme.setPalette;
     }
-    final demoCount = getIt<AppPrefs>()
-        .preferences
+    final demoCount = getIt<AppPrefs>().preferences
         .getInt(PrefsConstants.demoCount, defaultValue: 0)
         .getValue();
 
@@ -54,20 +55,26 @@ class SettingsPage extends ConsumerWidget {
                 segments: [
                   ButtonSegment(
                     value: ThemeMode.system,
-                    icon: Icon(Icons.brightness_auto_rounded,
-                        color: context.appInfo),
+                    icon: Icon(
+                      Icons.brightness_auto_rounded,
+                      color: context.appInfo,
+                    ),
                     label: const Text('System'),
                   ),
                   ButtonSegment(
                     value: ThemeMode.light,
-                    icon: Icon(Icons.light_mode_rounded,
-                        color: context.appWarning),
+                    icon: Icon(
+                      Icons.light_mode_rounded,
+                      color: context.appWarning,
+                    ),
                     label: const Text('Light'),
                   ),
                   ButtonSegment(
                     value: ThemeMode.dark,
-                    icon:
-                        Icon(Icons.dark_mode_rounded, color: context.appViolet),
+                    icon: Icon(
+                      Icons.dark_mode_rounded,
+                      color: context.appViolet,
+                    ),
                     label: const Text('Dark'),
                   ),
                 ],
@@ -91,9 +98,9 @@ class SettingsPage extends ConsumerWidget {
               title: 'Learning path',
               child: PreferenceBuilder<bool>(
                 preference: getIt<AppPrefs>().preferences.getBool(
-                      PrefsConstants.unlockAllLevels,
-                      defaultValue: false,
-                    ),
+                  PrefsConstants.unlockAllLevels,
+                  defaultValue: false,
+                ),
                 builder: (context, unlocked) => SwitchListTile.adaptive(
                   contentPadding: EdgeInsets.zero,
                   secondary: Icon(
@@ -181,11 +188,11 @@ class SettingsPage extends ConsumerWidget {
           ),
           actions: [
             TextButton(
-              onPressed: () => Navigator.of(dialogContext).pop(false),
+              onPressed: () => dialogContext.router.pop(false),
               child: const Text('KEEP LOCKED'),
             ),
             FilledButton(
-              onPressed: () => Navigator.of(dialogContext).pop(true),
+              onPressed: () => dialogContext.router.pop(true),
               child: const Text('UNLOCK ALL'),
             ),
           ],
@@ -228,9 +235,8 @@ class _SettingsCard extends StatelessWidget {
         children: [
           Text(
             title,
-            style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleMedium
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
           const SizedBox(height: 14),
           child,
@@ -257,9 +263,8 @@ class _PalettePicker extends StatelessWidget {
         Text(
           'Every theme has a light and a dark version, so this and the setting '
           'above are independent.',
-          style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: context.appTextSecondary,
-              ),
+          style: Theme.of(context).textTheme.bodySmall
+              ?.copyWith(color: context.appTextSecondary),
         ),
         const SizedBox(height: 14),
         Wrap(
@@ -279,9 +284,9 @@ class _PalettePicker extends StatelessWidget {
         Text(
           selected.description,
           style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: context.appTextSecondary,
-                fontStyle: FontStyle.italic,
-              ),
+            color: context.appTextSecondary,
+            fontStyle: FontStyle.italic,
+          ),
         ),
       ],
     );
@@ -324,8 +329,9 @@ class _PaletteSwatch extends StatelessWidget {
                 height: 56,
                 decoration: BoxDecoration(
                   color: scheme.surface,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusLarge),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusLarge,
+                  ),
                   border: Border.all(
                     color: isSelected ? context.appAccent : context.appBorder,
                     width: isSelected ? 2.5 : 1.2,
@@ -362,8 +368,9 @@ class _PaletteSwatch extends StatelessWidget {
                   fontSize: 11,
                   height: 1.2,
                   fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
-                  color:
-                      isSelected ? context.appAccent : context.appTextSecondary,
+                  color: isSelected
+                      ? context.appAccent
+                      : context.appTextSecondary,
                 ),
               ),
             ],

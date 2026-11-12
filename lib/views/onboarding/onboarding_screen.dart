@@ -2,12 +2,14 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 // Project imports:
 import 'package:words625/views/theme.dart';
 
+@RoutePage(name: 'OnboardingRoute')
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
 
@@ -23,22 +25,19 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     _OnboardingPageData(
       eyebrow: 'MEET VARNAMALA',
       title: 'A language app built for everyone',
-      description:
-          'Varnamala is an open-source Flutter app for Android, iOS, and the web. Learn with short lessons that fit into your day.',
+      description: 'Varnamala is an open-source Flutter app for Android, iOS, and the web. Learn with short lessons that fit into your day.',
       icon: Icons.auto_stories_rounded,
     ),
     _OnboardingPageData(
       eyebrow: 'MORE THAN FLASH CARDS',
       title: 'Read, write, listen, and play',
-      description:
-          'Build everyday vocabulary, practise native scripts, play learning games, follow your progress, and learn alongside a community.',
+      description: 'Build everyday vocabulary, practise native scripts, play learning games, follow your progress, and learn alongside a community.',
       icon: Icons.draw_rounded,
     ),
     _OnboardingPageData(
       eyebrow: 'WHY VARNAMALA?',
       title: 'Languages deserve better',
-      description:
-          'We focus on Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese, and more. No pay-to-win—just open, community-driven education.',
+      description: 'We focus on Tamil, Kannada, Telugu, Malayalam, Hindi, Bengali, Odia, Nepali, Assamese, and more. No pay-to-win—just open, community-driven education.',
       icon: Icons.volunteer_activism_rounded,
     ),
   ];
@@ -71,7 +70,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               child: Row(
                 children: [
                   IconButton(
-                    onPressed: () => Navigator.of(context).pop(),
+                    onPressed: () => context.router.maybePop(),
                     tooltip: 'Close tour',
                     icon: const Icon(Icons.close_rounded),
                   ),
@@ -137,7 +136,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     height: 56,
                     child: ElevatedButton.icon(
                       onPressed: isLastPage
-                          ? () => Navigator.of(context).pop()
+                          ? () => context.router.maybePop()
                           : () => _goToPage(_currentPage + 1),
                       iconAlignment: IconAlignment.end,
                       icon: Icon(
@@ -199,15 +198,10 @@ class _TourPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: accent.withValues(alpha: 0.14),
                   shape: BoxShape.circle,
-                  border: Border.all(
-                    color: accent.withValues(alpha: 0.34),
-                  ),
+                  border: Border.all(color: accent.withValues(alpha: 0.34)),
                 ),
                 child: Icon(data.icon, size: 70, color: accent),
-              ).animate().scale(
-                    duration: 500.ms,
-                    curve: Curves.easeOutBack,
-                  ),
+              ).animate().scale(duration: 500.ms, curve: Curves.easeOutBack),
               const SizedBox(height: 36),
               Text(
                 data.eyebrow,

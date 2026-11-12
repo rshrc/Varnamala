@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:chiclet/chiclet.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
@@ -90,12 +91,13 @@ class _MatchPageState extends State<MatchPage> {
                     if (match.isGameOver) {
                       // Bank as soon as the clock stops, so the total on the
                       // results screen is already safely stored.
-                      WidgetsBinding.instance
-                          .addPostFrameCallback((_) => _bankScore());
+                      WidgetsBinding.instance.addPostFrameCallback(
+                        (_) => _bankScore(),
+                      );
                       return _GameOver(
                         match: match,
                         onPlayAgain: () => _play(match.mode),
-                        onExit: () => Navigator.of(context).pop(),
+                        onExit: () => context.router.maybePop(),
                       );
                     }
                     return _Board(match: match);
@@ -132,7 +134,7 @@ class _ModePicker extends StatelessWidget {
               child: IconButton(
                 icon: const Icon(Icons.close_rounded, size: 28),
                 color: context.appDanger,
-                onPressed: () => Navigator.of(context).pop(),
+                onPressed: () => context.router.maybePop(),
               ),
             ),
             const Spacer(),
@@ -143,9 +145,9 @@ class _ModePicker extends StatelessWidget {
                   'Match Madness',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                        fontWeight: FontWeight.w800,
-                        color: context.appAccent,
-                      ),
+                    fontWeight: FontWeight.w800,
+                    color: context.appAccent,
+                  ),
                 ),
                 const SizedBox(width: 8),
                 const BetaBadge(),
@@ -315,7 +317,7 @@ class _HeaderBar extends StatelessWidget {
               IconButton(
                 icon: const Icon(Icons.close_rounded),
                 color: context.appDanger,
-                onPressed: () => Navigator.of(context).pop(),
+                onPressed: () => context.router.maybePop(),
               ),
               Expanded(
                 child: Center(
@@ -334,20 +336,20 @@ class _HeaderBar extends StatelessWidget {
           const SizedBox(height: 10),
           // Timer bar: it drains, and turns to alarm colours near the end.
           ClipRRect(
-            borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
-            child: TweenAnimationBuilder<double>(
-              tween: Tween(begin: fraction, end: fraction),
-              duration: const Duration(milliseconds: 400),
-              builder: (context, value, _) => LinearProgressIndicator(
-                value: value,
-                minHeight: 12,
-                backgroundColor: context.appBorder,
-                valueColor: AlwaysStoppedAnimation<Color>(
-                  low ? context.appDanger : context.appSuccess,
+                borderRadius: BorderRadius.circular(VarnamalaTheme.radiusRound),
+                child: TweenAnimationBuilder<double>(
+                  tween: Tween(begin: fraction, end: fraction),
+                  duration: const Duration(milliseconds: 400),
+                  builder: (context, value, _) => LinearProgressIndicator(
+                    value: value,
+                    minHeight: 12,
+                    backgroundColor: context.appBorder,
+                    valueColor: AlwaysStoppedAnimation<Color>(
+                      low ? context.appDanger : context.appSuccess,
+                    ),
+                  ),
                 ),
-              ),
-            ),
-          )
+              )
               .animate(target: low ? 1 : 0)
               .shimmer(duration: 900.ms, color: context.appDanger),
           const SizedBox(height: 6),
@@ -370,11 +372,11 @@ class _HeaderBar extends StatelessWidget {
                     color: context.appWarning,
                   ),
                 ).animate().scale(
-                      duration: 220.ms,
-                      begin: const Offset(1.25, 1.25),
-                      end: const Offset(1, 1),
-                      curve: Curves.easeOut,
-                    ),
+                  duration: 220.ms,
+                  begin: const Offset(1.25, 1.25),
+                  end: const Offset(1, 1),
+                  curve: Curves.easeOut,
+                ),
             ],
           ),
         ],
@@ -414,21 +416,23 @@ class _ScorePill extends StatelessWidget {
           Positioned(
             top: -6,
             child: IgnorePointer(
-              child: Text(
-                '+${match.lastMatchPoints}',
-                key: ValueKey('pop-${match.matchPulse}'),
-                style: TextStyle(
-                  fontWeight: FontWeight.w800,
-                  color: context.appWarning,
-                ),
-              )
-                  .animate()
-                  .moveY(
-                      begin: 0,
-                      end: -26,
-                      duration: 620.ms,
-                      curve: Curves.easeOut)
-                  .fadeOut(duration: 620.ms),
+              child:
+                  Text(
+                        '+${match.lastMatchPoints}',
+                        key: ValueKey('pop-${match.matchPulse}'),
+                        style: TextStyle(
+                          fontWeight: FontWeight.w800,
+                          color: context.appWarning,
+                        ),
+                      )
+                      .animate()
+                      .moveY(
+                        begin: 0,
+                        end: -26,
+                        duration: 620.ms,
+                        curve: Curves.easeOut,
+                      )
+                      .fadeOut(duration: 620.ms),
             ),
           ),
       ],
@@ -508,8 +512,8 @@ class _Tile extends StatelessWidget {
     final border = isMatched
         ? context.appSuccess
         : isSelected
-            ? context.appAccent
-            : context.appBorder;
+        ? context.appAccent
+        : context.appBorder;
 
     Widget tile = GestureDetector(
       onTap: onTap,
@@ -527,8 +531,8 @@ class _Tile extends StatelessWidget {
           color: isMatched
               ? context.appSuccess
               : isSelected
-                  ? context.appAccent.withValues(alpha: 0.14)
-                  : context.appSurface,
+              ? context.appAccent.withValues(alpha: 0.14)
+              : context.appSurface,
           borderRadius: BorderRadius.circular(16),
           border: Border.all(color: border, width: isSelected ? 2.5 : 1.6),
         ),
@@ -559,10 +563,10 @@ class _Tile extends StatelessWidget {
                   color: Theme.of(context).colorScheme.onPrimary,
                   size: 20,
                 ).animate().scale(
-                      duration: 260.ms,
-                      begin: const Offset(0, 0),
-                      curve: Curves.easeOutBack,
-                    ),
+                  duration: 260.ms,
+                  begin: const Offset(0, 0),
+                  curve: Curves.easeOutBack,
+                ),
               ],
             ],
           ),
@@ -590,21 +594,16 @@ class _Tile extends StatelessWidget {
           );
     } else if (isSelected) {
       // Only the tiles you actually picked shake on a wrong pair.
-      tile = tile.animate(key: ValueKey('miss-$missPulse')).shakeX(
-            duration: 320.ms,
-            amount: 5,
-          );
+      tile = tile
+          .animate(key: ValueKey('miss-$missPulse'))
+          .shakeX(duration: 320.ms, amount: 5);
     }
     return tile;
   }
 }
 
 class _RoundBanner extends StatelessWidget {
-  const _RoundBanner({
-    super.key,
-    required this.round,
-    required this.seconds,
-  });
+  const _RoundBanner({super.key, required this.round, required this.seconds});
 
   final int round;
   final int seconds;
@@ -612,40 +611,40 @@ class _RoundBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 26, vertical: 16),
-      decoration: BoxDecoration(
-        color: context.appSuccess,
-        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
-      ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            'Round $round cleared',
-            style: TextStyle(
-              color: Theme.of(context).colorScheme.onPrimary,
-              fontWeight: FontWeight.w800,
-              fontSize: 18,
-            ),
+          padding: const EdgeInsets.symmetric(horizontal: 26, vertical: 16),
+          decoration: BoxDecoration(
+            color: context.appSuccess,
+            borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
           ),
-          const SizedBox(height: 2),
-          Text(
-            'more time on the clock',
-            style: TextStyle(
-                color: Theme.of(context)
-                    .colorScheme
-                    .onPrimary
-                    .withValues(alpha: 0.78),
-                fontSize: 12),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Round $round cleared',
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onPrimary,
+                  fontWeight: FontWeight.w800,
+                  fontSize: 18,
+                ),
+              ),
+              const SizedBox(height: 2),
+              Text(
+                'more time on the clock',
+                style: TextStyle(
+                  color: Theme.of(context).colorScheme.onPrimary
+                      .withValues(alpha: 0.78),
+                  fontSize: 12,
+                ),
+              ),
+            ],
           ),
-        ],
-      ),
-    )
+        )
         .animate()
         .scale(
-            duration: 260.ms,
-            begin: const Offset(0.7, 0.7),
-            curve: Curves.easeOutBack)
+          duration: 260.ms,
+          begin: const Offset(0.7, 0.7),
+          curve: Curves.easeOutBack,
+        )
         .then(delay: 500.ms)
         .fadeOut(duration: 320.ms)
         .moveY(end: -20, duration: 320.ms);
@@ -677,16 +676,16 @@ class _GameOver extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Icon(Icons.emoji_events_rounded,
-                      size: 76, color: context.appWarning)
-                  .animate()
-                  .scale(duration: 420.ms, curve: Curves.easeOutBack),
+              Icon(
+                Icons.emoji_events_rounded,
+                size: 76,
+                color: context.appWarning,
+              ).animate().scale(duration: 420.ms, curve: Curves.easeOutBack),
               const SizedBox(height: 12),
               Text(
                 "Time's up",
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.w800,
-                    ),
+                style: Theme.of(context).textTheme.headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.w800),
               ),
               const SizedBox(height: 20),
               _Stat(label: 'Score', value: '${match.score}'),
@@ -711,8 +710,10 @@ class _GameOver extends StatelessWidget {
               const SizedBox(height: 12),
               TextButton(
                 onPressed: onExit,
-                child: Text('Done',
-                    style: TextStyle(color: context.appTextSecondary)),
+                child: Text(
+                  'Done',
+                  style: TextStyle(color: context.appTextSecondary),
+                ),
               ),
             ],
           ),
@@ -736,12 +737,14 @@ class _Stat extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(label, style: TextStyle(color: context.appTextSecondary)),
-          Text(value,
-              style: TextStyle(
-                fontWeight: FontWeight.w800,
-                fontSize: 17,
-                color: context.appAccent,
-              )),
+          Text(
+            value,
+            style: TextStyle(
+              fontWeight: FontWeight.w800,
+              fontSize: 17,
+              color: context.appAccent,
+            ),
+          ),
         ],
       ),
     );

@@ -77,8 +77,9 @@ class _LessonBody extends StatelessWidget {
                   children: [
                     Expanded(
                       child: ClipRRect(
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusRound),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusRound,
+                        ),
                         child: LinearProgressIndicator(
                           value: engine.progress,
                           minHeight: 9,
@@ -96,16 +97,19 @@ class _LessonBody extends StatelessWidget {
                 const SizedBox(height: 10),
                 Row(
                   children: [
-                    Icon(Icons.science_rounded,
-                        size: 16, color: context.appViolet),
+                    Icon(
+                      Icons.science_rounded,
+                      size: 16,
+                      color: context.appViolet,
+                    ),
                     const SizedBox(width: 6),
                     Expanded(
                       child: Text(
                         'Debug sample · progress is not saved',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: context.appTextSecondary,
-                              fontWeight: FontWeight.w700,
-                            ),
+                          color: context.appTextSecondary,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
                     ),
                   ],
@@ -126,10 +130,8 @@ class _LessonBody extends StatelessWidget {
                   ],
                   Text(
                     exercise.prompt,
-                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                          fontWeight: FontWeight.w800,
-                          height: 1.25,
-                        ),
+                    style: Theme.of(context).textTheme.headlineSmall
+                        ?.copyWith(fontWeight: FontWeight.w800, height: 1.25),
                   ),
                   const SizedBox(height: 18),
                   IgnorePointer(
@@ -168,17 +170,14 @@ class _MistakeReviewNotice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Semantics(
-      label:
-          'Mistake review. This exercise revisits something you missed earlier.',
+      label: 'Mistake review. This exercise revisits something you missed earlier.',
       excludeSemantics: true,
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 11),
         decoration: BoxDecoration(
           color: context.appViolet.withValues(alpha: 0.1),
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-          border: Border.all(
-            color: context.appViolet.withValues(alpha: 0.42),
-          ),
+          border: Border.all(color: context.appViolet.withValues(alpha: 0.42)),
         ),
         child: Row(
           children: [
@@ -203,18 +202,18 @@ class _MistakeReviewNotice extends StatelessWidget {
                   Text(
                     'MISTAKE REVIEW',
                     style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                          color: context.appViolet,
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 0.7,
-                        ),
+                      color: context.appViolet,
+                      fontWeight: FontWeight.w900,
+                      letterSpacing: 0.7,
+                    ),
                   ),
                   const SizedBox(height: 2),
                   Text(
                     'This revisits something you missed earlier.',
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: context.appTextSecondary,
-                          height: 1.3,
-                        ),
+                      color: context.appTextSecondary,
+                      height: 1.3,
+                    ),
                   ),
                 ],
               ),
@@ -251,10 +250,8 @@ class _FeedbackPanel extends StatelessWidget {
               const SizedBox(width: 8),
               Text(
                 correct ? 'Correct' : 'Not quite',
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: color,
-                      fontWeight: FontWeight.w900,
-                    ),
+                style: Theme.of(context).textTheme.titleMedium
+                    ?.copyWith(color: color, fontWeight: FontWeight.w900),
               ),
             ],
           ),
@@ -302,15 +299,15 @@ class _LessonAction extends StatelessWidget {
             onPressed: feedback
                 ? engine.continueLesson
                 : engine.canSubmit
-                    ? engine.submit
-                    : null,
+                ? engine.submit
+                : null,
             style: ElevatedButton.styleFrom(
               backgroundColor:
                   feedback && !(engine.lastAttempt?.correct ?? false)
-                      ? context.appDanger
-                      : feedback
-                          ? context.appSuccess
-                          : context.appAccent,
+                  ? context.appDanger
+                  : feedback
+                  ? context.appSuccess
+                  : context.appAccent,
             ),
             child: Text(
               feedback ? 'CONTINUE' : 'CHECK',
@@ -348,15 +345,17 @@ class _LessonSummary extends StatelessWidget {
                   color: context.appSuccess.withValues(alpha: 0.13),
                   shape: BoxShape.circle,
                 ),
-                child: Icon(Icons.science_rounded,
-                    size: 52, color: context.appSuccess),
+                child: Icon(
+                  Icons.science_rounded,
+                  size: 52,
+                  color: context.appSuccess,
+                ),
               ),
               const SizedBox(height: 20),
               Text(
                 'Sample complete',
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.w900,
-                    ),
+                style: Theme.of(context).textTheme.headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.w900),
               ),
               const SizedBox(height: 8),
               Text(
@@ -390,7 +389,7 @@ class _LessonSummary extends StatelessWidget {
               ),
               const SizedBox(height: 8),
               TextButton(
-                onPressed: () => Navigator.of(context).pop(),
+                onPressed: () => context.router.maybePop(),
                 child: const Text('BACK TO APP'),
               ),
             ],

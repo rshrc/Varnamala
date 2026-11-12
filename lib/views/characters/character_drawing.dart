@@ -18,11 +18,7 @@ import 'package:words625/service/speech_service.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
-enum CharacterLearningMode {
-  vowels,
-  consonants,
-  random,
-}
+enum CharacterLearningMode { vowels, consonants, random }
 
 class CharacterPracticeScreen extends StatefulWidget {
   const CharacterPracticeScreen({super.key});
@@ -73,17 +69,14 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 crossAxisSpacing: 8,
                 mainAxisSpacing: 8,
               ),
-              delegate: SliverChildBuilderDelegate(
-                (context, index) {
-                  final entry = vowels.entries.elementAt(index);
-                  return _CharacterTile(
-                    character: entry.key,
-                    pronunciation: entry.value,
-                    color: context.appSuccess,
-                  );
-                },
-                childCount: vowels.length,
-              ),
+              delegate: SliverChildBuilderDelegate((context, index) {
+                final entry = vowels.entries.elementAt(index);
+                return _CharacterTile(
+                  character: entry.key,
+                  pronunciation: entry.value,
+                  color: context.appSuccess,
+                );
+              }, childCount: vowels.length),
             ),
           ),
           // Consonants section
@@ -105,17 +98,14 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                 crossAxisSpacing: 8,
                 mainAxisSpacing: 8,
               ),
-              delegate: SliverChildBuilderDelegate(
-                (context, index) {
-                  final entry = consonants.entries.elementAt(index);
-                  return _CharacterTile(
-                    character: entry.key,
-                    pronunciation: entry.value,
-                    color: context.appViolet,
-                  );
-                },
-                childCount: consonants.length,
-              ),
+              delegate: SliverChildBuilderDelegate((context, index) {
+                final entry = consonants.entries.elementAt(index);
+                return _CharacterTile(
+                  character: entry.key,
+                  pronunciation: entry.value,
+                  color: context.appViolet,
+                );
+              }, childCount: consonants.length),
             ),
           ),
           // Practice buttons
@@ -136,8 +126,10 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                       icon: Icons.record_voice_over_rounded,
                       color: context.appSuccess,
                       onTap: () => context.router.push(
-                          VowelAndConsonantLearningRoute(
-                              mode: CharacterLearningMode.vowels)),
+                        VowelAndConsonantLearningRoute(
+                          mode: CharacterLearningMode.vowels,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 10),
                     _PracticeButton(
@@ -145,8 +137,10 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                       icon: Icons.abc_rounded,
                       color: context.appViolet,
                       onTap: () => context.router.push(
-                          VowelAndConsonantLearningRoute(
-                              mode: CharacterLearningMode.consonants)),
+                        VowelAndConsonantLearningRoute(
+                          mode: CharacterLearningMode.consonants,
+                        ),
+                      ),
                     ),
                     const SizedBox(height: 10),
                     _PracticeButton(
@@ -154,8 +148,10 @@ class _CharacterPracticeScreenState extends State<CharacterPracticeScreen> {
                       icon: Icons.shuffle_rounded,
                       color: context.appInfo,
                       onTap: () => context.router.push(
-                          VowelAndConsonantLearningRoute(
-                              mode: CharacterLearningMode.random)),
+                        VowelAndConsonantLearningRoute(
+                          mode: CharacterLearningMode.random,
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -190,16 +186,14 @@ class _SectionHeader extends StatelessWidget {
           const SizedBox(width: 8),
           Text(
             title,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
           const SizedBox(width: 8),
           Text(
             subtitle,
-            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                  color: context.appTextSecondary,
-                ),
+            style: Theme.of(context).textTheme.bodySmall
+                ?.copyWith(color: context.appTextSecondary),
           ),
         ],
       ),
@@ -258,9 +252,9 @@ class _CharacterTile extends StatelessWidget {
                     Text(
                       pronunciation,
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: context.appTextSecondary,
-                            fontSize: 11,
-                          ),
+                        color: context.appTextSecondary,
+                        fontSize: 11,
+                      ),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
@@ -324,10 +318,7 @@ class _PracticeButton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 14),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-            border: Border.all(
-              color: accent.withValues(alpha: 0.45),
-              width: 2,
-            ),
+            border: Border.all(color: accent.withValues(alpha: 0.45), width: 2),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -354,8 +345,11 @@ class RenderCharacter extends StatefulWidget {
   final String alphabet;
   final ValueNotifier<bool> shouldRebuild;
 
-  const RenderCharacter(
-      {super.key, required this.alphabet, required this.shouldRebuild});
+  const RenderCharacter({
+    super.key,
+    required this.alphabet,
+    required this.shouldRebuild,
+  });
 
   @override
   RenderCharacterState createState() => RenderCharacterState();
@@ -451,11 +445,13 @@ class RenderCharacterState extends State<RenderCharacter> {
                 right: 10,
                 child: Material(
                   color: context.appDanger.withValues(alpha: 0.14),
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusSmall,
+                  ),
                   child: InkWell(
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusSmall,
+                    ),
                     onTap: () {
                       setState(() {
                         strokes.clear();
@@ -545,13 +541,12 @@ class _VowelAndConsonantLearningPageState
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(Icons.close_rounded, color: context.appDanger),
-          onPressed: () => Navigator.pop(context),
+          onPressed: () => context.router.maybePop(),
         ),
         title: Text(
           _getModeTitle(),
-          style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                fontWeight: FontWeight.w600,
-              ),
+          style: Theme.of(context).textTheme.titleMedium
+              ?.copyWith(fontWeight: FontWeight.w600),
         ),
       ),
       body: SafeArea(
@@ -572,13 +567,16 @@ class _VowelAndConsonantLearningPageState
               ),
               const SizedBox(height: 24),
               Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 24,
+                  vertical: 12,
+                ),
                 margin: const EdgeInsets.symmetric(horizontal: 32),
                 decoration: BoxDecoration(
                   color: context.appSurface,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusMedium,
+                  ),
                   border: Border.all(color: context.appBorder),
                 ),
                 child: Row(
@@ -593,8 +591,11 @@ class _VowelAndConsonantLearningPageState
                       ),
                     ),
                     const SizedBox(width: 12),
-                    Icon(Icons.arrow_forward_rounded,
-                        color: context.appInfo, size: 20),
+                    Icon(
+                      Icons.arrow_forward_rounded,
+                      color: context.appInfo,
+                      size: 20,
+                    ),
                     const SizedBox(width: 12),
                     Flexible(
                       child: Text(
@@ -611,17 +612,23 @@ class _VowelAndConsonantLearningPageState
                     const SizedBox(width: 12),
                     Material(
                       color: context.appInfo.withValues(alpha: 0.14),
-                      borderRadius:
-                          BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                      borderRadius: BorderRadius.circular(
+                        VarnamalaTheme.radiusSmall,
+                      ),
                       child: InkWell(
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusSmall),
-                        onTap: () => getIt<SpeechService>()
-                            .speak(currentCharacter.value),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusSmall,
+                        ),
+                        onTap: () => getIt<SpeechService>().speak(
+                          currentCharacter.value,
+                        ),
                         child: Padding(
                           padding: const EdgeInsets.all(8),
-                          child: Icon(Icons.volume_up_rounded,
-                              color: context.appInfo, size: 22),
+                          child: Icon(
+                            Icons.volume_up_rounded,
+                            color: context.appInfo,
+                            size: 22,
+                          ),
                         ),
                       ),
                     ),
@@ -651,16 +658,21 @@ class _VowelAndConsonantLearningPageState
                       backgroundColor: context.appAccent,
                       foregroundColor: Theme.of(context).colorScheme.onPrimary,
                       shape: RoundedRectangleBorder(
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusMedium,
+                        ),
                       ),
                     ),
                     child: const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text('Next',
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.w700)),
+                        Text(
+                          'Next',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
                         SizedBox(width: 8),
                         Icon(Icons.arrow_forward_rounded, size: 22),
                       ],
@@ -715,10 +727,7 @@ class CharacterPainter extends CustomPainter {
         for (var i = 1; i < stroke.length - 1; i++) {
           final p0 = stroke[i];
           final p1 = stroke[i + 1];
-          final midPoint = Offset(
-            (p0.dx + p1.dx) / 2,
-            (p0.dy + p1.dy) / 2,
-          );
+          final midPoint = Offset((p0.dx + p1.dx) / 2, (p0.dy + p1.dy) / 2);
           path.quadraticBezierTo(p0.dx, p0.dy, midPoint.dx, midPoint.dy);
         }
       }
@@ -804,9 +813,8 @@ class _CharacterSheet extends StatelessWidget {
             Text(
               pronunciation,
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+              style: Theme.of(context).textTheme.headlineSmall
+                  ?.copyWith(fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 20),
             Row(
@@ -824,17 +832,13 @@ class _CharacterSheet extends StatelessWidget {
                 const SizedBox(width: 12),
                 Expanded(
                   child: FilledButton.icon(
-                    onPressed: () {
-                      // Captured before the pop, because `context` belongs to
-                      // the sheet's own route and is defunct once it closes.
-                      final navigator = Navigator.of(context);
-                      navigator.pop();
-                      navigator.push(
-                        MaterialPageRoute(
-                          builder: (_) => VowelAndConsonantLearningPage(
-                            mode: CharacterLearningMode.random,
-                            startAt: character,
-                          ),
+                    onPressed: () async {
+                      final router = context.router;
+                      await router.maybePop();
+                      await router.push(
+                        VowelAndConsonantLearningRoute(
+                          mode: CharacterLearningMode.random,
+                          startAt: character,
                         ),
                       );
                     },

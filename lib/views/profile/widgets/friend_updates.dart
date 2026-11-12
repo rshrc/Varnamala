@@ -1,8 +1,10 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+import 'package:auto_route/auto_route.dart';
+
 // Project imports:
-import 'package:words625/views/profile/activity_feed_page.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
 class FriendUpdates extends StatelessWidget {
@@ -20,7 +22,7 @@ class FriendUpdates extends StatelessWidget {
       child: Material(
         color: Colors.transparent,
         child: InkWell(
-          onTap: () => Navigator.of(context).push(ActivityFeedPage.route()),
+          onTap: () => context.router.push(const ActivityFeedRoute()),
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
@@ -31,22 +33,28 @@ class FriendUpdates extends StatelessWidget {
                   height: 40,
                   decoration: BoxDecoration(
                     color: context.appWarning.withValues(alpha: 0.14),
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusSmall,
+                    ),
                   ),
-                  child: Icon(Icons.celebration_rounded,
-                      color: context.appWarning, size: 22),
+                  child: Icon(
+                    Icons.celebration_rounded,
+                    color: context.appWarning,
+                    size: 22,
+                  ),
                 ),
                 const SizedBox(width: 14),
                 Text(
                   'Friend updates',
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
+                  style: Theme.of(context).textTheme.titleSmall
+                      ?.copyWith(fontWeight: FontWeight.w600),
                 ),
                 const Spacer(),
-                Icon(Icons.chevron_right_rounded,
-                    size: 22, color: context.appTextSecondary),
+                Icon(
+                  Icons.chevron_right_rounded,
+                  size: 22,
+                  color: context.appTextSecondary,
+                ),
               ],
             ),
           ),

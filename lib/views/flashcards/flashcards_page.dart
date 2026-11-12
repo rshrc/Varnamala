@@ -1,6 +1,9 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+// Package imports:
+import 'package:auto_route/auto_route.dart';
+
 // Project imports:
 import 'package:words625/core/responsive.dart';
 import 'package:words625/core/enums.dart';
@@ -12,6 +15,7 @@ import 'package:words625/service/speech_service.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/beta_badge.dart';
 
+@RoutePage()
 class FlashcardsPage extends StatefulWidget {
   const FlashcardsPage({required this.language, super.key});
 
@@ -110,11 +114,11 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
+            onPressed: () => dialogContext.router.pop(false),
             child: const Text('CANCEL'),
           ),
           FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
+            onPressed: () => dialogContext.router.pop(true),
             child: const Text('RESET'),
           ),
         ],
@@ -176,13 +180,18 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(Icons.cloud_off_rounded,
-                    size: 48, color: context.appDanger),
+                Icon(
+                  Icons.cloud_off_rounded,
+                  size: 48,
+                  color: context.appDanger,
+                ),
                 const SizedBox(height: 12),
                 const Text('Could not load this vocabulary deck.'),
                 const SizedBox(height: 12),
                 OutlinedButton(
-                    onPressed: _load, child: const Text('TRY AGAIN')),
+                  onPressed: _load,
+                  child: const Text('TRY AGAIN'),
+                ),
               ],
             ),
           ),
@@ -257,8 +266,9 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
                 color: _revealed
                     ? Theme.of(context).colorScheme.primaryContainer
                     : context.appSurface,
-                borderRadius:
-                    BorderRadius.circular(VarnamalaTheme.radiusXLarge),
+                borderRadius: BorderRadius.circular(
+                  VarnamalaTheme.radiusXLarge,
+                ),
                 border: Border.all(
                   color: _revealed ? context.appAccent : context.appBorder,
                   width: 2,
@@ -277,24 +287,24 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
                   Text(
                     _reverse ? 'ENGLISH' : info.englishName.toUpperCase(),
                     style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                          color: _revealed
-                              ? Theme.of(context).colorScheme.onPrimaryContainer
-                              : context.appTextSecondary,
-                          letterSpacing: 1.2,
-                          fontWeight: FontWeight.w800,
-                        ),
+                      color: _revealed
+                          ? Theme.of(context).colorScheme.onPrimaryContainer
+                          : context.appTextSecondary,
+                      letterSpacing: 1.2,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
                   const SizedBox(height: 16),
                   Text(
                     front,
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                          color: _revealed
-                              ? Theme.of(context).colorScheme.onPrimaryContainer
-                              : context.appTextPrimary,
-                          fontWeight: FontWeight.w800,
-                          height: 1.25,
-                        ),
+                      color: _revealed
+                          ? Theme.of(context).colorScheme.onPrimaryContainer
+                          : context.appTextPrimary,
+                      fontWeight: FontWeight.w800,
+                      height: 1.25,
+                    ),
                   ),
                   const SizedBox(height: 14),
                   IconButton.filledTonal(
@@ -314,9 +324,7 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
                               Text(
                                 back,
                                 textAlign: TextAlign.center,
-                                style: Theme.of(context)
-                                    .textTheme
-                                    .headlineSmall
+                                style: Theme.of(context).textTheme.headlineSmall
                                     ?.copyWith(
                                       color: Theme.of(context)
                                           .colorScheme
@@ -364,24 +372,26 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(Icons.auto_awesome_rounded,
-                  color: Theme.of(context).colorScheme.onPrimaryContainer),
+              Icon(
+                Icons.auto_awesome_rounded,
+                color: Theme.of(context).colorScheme.onPrimaryContainer,
+              ),
               const SizedBox(height: 12),
               Text(
                 '${info.englishName} · ${info.nativeName}',
                 style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      fontWeight: FontWeight.w800,
-                    ),
+                  color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
               const SizedBox(height: 6),
               Text(
                 'Spaced repetition brings difficult words back sooner and '
                 'lets familiar words rest longer.',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                      height: 1.4,
-                    ),
+                  color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  height: 1.4,
+                ),
               ),
             ],
           ),
@@ -533,7 +543,8 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
       icon: Icons.celebration_rounded,
       color: context.appWarning,
       title: 'Session complete',
-      message: '$_reviewed cards reviewed · '
+      message:
+          '$_reviewed cards reviewed · '
           '${_ratings[FlashcardRating.again]} again · '
           '${_ratings[FlashcardRating.good]} good · '
           '${_ratings[FlashcardRating.easy]} easy',
@@ -547,10 +558,12 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
     final filtered = needle.isEmpty
         ? cards
         : cards
-            .where((card) =>
-                card.term.toLowerCase().contains(needle) ||
-                card.meaning.toLowerCase().contains(needle))
-            .toList();
+              .where(
+                (card) =>
+                    card.term.toLowerCase().contains(needle) ||
+                    card.meaning.toLowerCase().contains(needle),
+              )
+              .toList();
     return Column(
       children: [
         Padding(
@@ -583,8 +596,9 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
                     return Container(
                       decoration: BoxDecoration(
                         color: context.appSurface,
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusMedium,
+                        ),
                         border: Border.all(color: context.appBorder),
                       ),
                       child: ListTile(
@@ -597,8 +611,10 @@ class _FlashcardsPageState extends State<FlashcardsPage> {
                           tooltip: 'Hear ${card.term}',
                           onPressed: () =>
                               getIt<SpeechService>().speak(card.term),
-                          icon: Icon(Icons.volume_up_rounded,
-                              color: context.appInfo),
+                          icon: Icon(
+                            Icons.volume_up_rounded,
+                            color: context.appInfo,
+                          ),
                         ),
                       ),
                     );
@@ -636,10 +652,8 @@ class _StatTile extends StatelessWidget {
               '$value',
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    color: color,
-                    fontWeight: FontWeight.w800,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(color: color, fontWeight: FontWeight.w800),
             ),
           ),
           const SizedBox(width: 8),
@@ -684,9 +698,10 @@ class _RatingButton extends StatelessWidget {
         ),
         child: Column(
           children: [
-            Text(label,
-                style:
-                    const TextStyle(fontSize: 12, fontWeight: FontWeight.w800)),
+            Text(
+              label,
+              style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800),
+            ),
             const SizedBox(height: 2),
             Text(interval, style: const TextStyle(fontSize: 10)),
           ],
@@ -725,9 +740,7 @@ class _CenteredMessage extends StatelessWidget {
             const SizedBox(height: 18),
             Text(
               title,
-              style: Theme.of(context)
-                  .textTheme
-                  .headlineSmall
+              style: Theme.of(context).textTheme.headlineSmall
                   ?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: 8),

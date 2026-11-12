@@ -15,7 +15,6 @@ import 'package:words625/di/injection.dart';
 import 'package:words625/core/language_info.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
-import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/theme.dart';
 import 'package:words625/views/widgets/gems_display.dart';
 import 'package:words625/views/widgets/hearts_display.dart';
@@ -50,11 +49,8 @@ class StatAppBar extends StatelessWidget implements PreferredSizeWidget {
         if (kDebugMode)
           IconButton(
             tooltip: 'Open interactive lesson lab',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (_) => const InteractiveLessonDemoPage(),
-              ),
-            ),
+            onPressed: () =>
+                context.router.push(const InteractiveLessonDemoRoute()),
             icon: Icon(Icons.science_rounded, color: context.appViolet),
           ),
         const PatreonButton(),
@@ -78,8 +74,11 @@ class Streak extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Icon(Icons.local_fire_department_rounded,
-              color: context.appWarning, size: 20),
+          Icon(
+            Icons.local_fire_department_rounded,
+            color: context.appWarning,
+            size: 20,
+          ),
           const SizedBox(width: 4),
           StreamBuilder<int>(
             stream: context.read<GameProvider>().getUserStreakStream(),

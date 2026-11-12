@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/domain/course/course.dart';
@@ -37,8 +38,9 @@ Future<CoursePracticeSelection?> showCoursePracticePicker(
                 height: 4,
                 decoration: BoxDecoration(
                   color: context.appBorder,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusRound),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusRound,
+                  ),
                 ),
               ),
             ),
@@ -56,9 +58,8 @@ Future<CoursePracticeSelection?> showCoursePracticePicker(
                     children: [
                       Text(
                         'Practise ${course.courseName}',
-                        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                              fontWeight: FontWeight.w900,
-                            ),
+                        style: Theme.of(context).textTheme.titleLarge
+                            ?.copyWith(fontWeight: FontWeight.w900),
                       ),
                       Text(
                         'Replay any of the $totalLessons lessons, as often as you like.',
@@ -87,20 +88,23 @@ Future<CoursePracticeSelection?> showCoursePracticePicker(
                       lessonIndex % LessonStageKind.values.length;
                   final stage = LessonStageKind.values[stageIndex];
                   return InkWell(
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusMedium),
-                    onTap: () => Navigator.of(context).pop(
-                      (unitIndex: unitIndex, stageIndex: stageIndex),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusMedium,
                     ),
+                    onTap: () => context.router.pop((
+                      unitIndex: unitIndex,
+                      stageIndex: stageIndex,
+                    )),
                     child: Container(
                       padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
                         color: const Color(0xFFFFC83D).withValues(alpha: 0.13),
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusMedium,
+                        ),
                         border: Border.all(
-                          color:
-                              const Color(0xFFE6A51D).withValues(alpha: 0.55),
+                          color: const Color(0xFFE6A51D)
+                              .withValues(alpha: 0.55),
                         ),
                       ),
                       child: Column(

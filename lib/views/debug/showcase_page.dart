@@ -12,6 +12,8 @@ import 'package:words625/core/extensions.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/courses/courses.dart';
 import 'package:words625/di/injection.dart';
+import 'package:words625/domain/course/course.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/locator.dart';
 import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/courses/course_tree.dart';
@@ -46,8 +48,10 @@ class _ShowcasePageState extends State<ShowcasePage> {
   /// [LanguageProvider], so both have to agree before anything is opened.
   Future<void> _use(TargetLanguage language) async {
     setState(() => _language = language);
-    await getIt<AppPrefs>()
-        .setString(PrefsConstants.currentLanguage, language.name);
+    await getIt<AppPrefs>().setString(
+      PrefsConstants.currentLanguage,
+      language.name,
+    );
     if (!mounted) return;
     context.read<LanguageProvider>().setLanguage(language);
   }
@@ -56,23 +60,19 @@ class _ShowcasePageState extends State<ShowcasePage> {
     if (_busy) return;
     setState(() => _busy = true);
     try {
-      final groups = await courseRepository.courses(_language,
-          firstName: 'Rishi');
+      final groups = await courseRepository.courses(
+        _language,
+        firstName: 'Rishi',
+      );
       final course = groups
           .expand((group) => group)
           .firstWhere((course) => course.courseId == courseId);
       if (!mounted) return;
-      await Navigator.of(context).push(
-        MaterialPageRoute(builder: (_) => LessonPage(course: course)),
-      );
+      await context.router.push(ShowcaseLessonRoute(course: course));
     } finally {
       if (mounted) setState(() => _busy = false);
     }
   }
-
-  Future<void> _push(Widget page) => Navigator.of(context).push(
-        MaterialPageRoute(builder: (_) => page),
-      );
 
   @override
   Widget build(BuildContext context) {
@@ -96,10 +96,10 @@ class _ShowcasePageState extends State<ShowcasePage> {
               Text(
                 'LANGUAGE',
                 style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                      color: context.appTextSecondary,
-                      fontWeight: FontWeight.w800,
-                      letterSpacing: 0.6,
-                    ),
+                  color: context.appTextSecondary,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 0.6,
+                ),
               ),
               const SizedBox(height: 10),
               Wrap(
@@ -120,9 +120,8 @@ class _ShowcasePageState extends State<ShowcasePage> {
                 colour: context.appSuccess,
                 title: 'The path',
                 subtitle: 'Sixteen courses, First words first',
-                onTap: () => _push(
-                  const Scaffold(body: SafeArea(child: CourseTree())),
-                ),
+                onTap: () =>
+                    context.router.push(const ShowcaseCourseTreeRoute()),
               ),
               _Entry(
                 icon: Icons.abc_rounded,
@@ -143,21 +142,23 @@ class _ShowcasePageState extends State<ShowcasePage> {
                 colour: context.appAccent,
                 title: 'Script writing',
                 subtitle: 'Trace the letters of the alphabet',
-                onTap: () => _push(const CharacterPracticeScreen()),
+                onTap: () =>
+                    context.router.push(const ShowcaseCharacterPracticeRoute()),
               ),
               _Entry(
                 icon: Icons.bolt_rounded,
                 colour: context.appWarning,
                 title: 'Match Madness',
                 subtitle: 'Pair words against the clock',
-                onTap: () => _push(const MatchPage()),
+                onTap: () => context.router.push(const ShowcaseMatchRoute()),
               ),
               _Entry(
                 icon: Icons.style_rounded,
                 colour: context.appViolet,
                 title: 'Flashcard review',
                 subtitle: 'Spaced repetition over your vocabulary',
-                onTap: () => _push(FlashcardsPage(language: _language)),
+                onTap: () =>
+                    context.router.push(FlashcardsRoute(language: _language)),
               ),
               if (_busy) ...[
                 const SizedBox(height: 20),
@@ -171,6 +172,42 @@ class _ShowcasePageState extends State<ShowcasePage> {
       ),
     );
   }
+}
+
+@RoutePage()
+class ShowcaseLessonPage extends StatelessWidget {
+  const ShowcaseLessonPage({required this.course, super.key});
+
+  final Course course;
+
+  @override
+  Widget build(BuildContext context) => LessonPage(course: course);
+}
+
+@RoutePage()
+class ShowcaseCourseTreePage extends StatelessWidget {
+  const ShowcaseCourseTreePage({super.key});
+
+  @override
+  Widget build(BuildContext context) =>
+      const Scaffold(body: SafeArea(child: CourseTree()));
+}
+
+@RoutePage()
+class ShowcaseCharacterPracticePage extends StatelessWidget {
+  const ShowcaseCharacterPracticePage({super.key});
+
+  @override
+  Widget build(BuildContext context) =>
+      const Scaffold(body: SafeArea(child: CharacterPracticeScreen()));
+}
+
+@RoutePage()
+class ShowcaseMatchPage extends StatelessWidget {
+  const ShowcaseMatchPage({super.key});
+
+  @override
+  Widget build(BuildContext context) => const MatchPage();
 }
 
 class _Entry extends StatelessWidget {
@@ -210,8 +247,9 @@ class _Entry extends StatelessWidget {
                   padding: const EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: colour.withValues(alpha: 0.14),
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusMedium,
+                    ),
                   ),
                   child: Icon(icon, color: colour),
                 ),
@@ -222,9 +260,7 @@ class _Entry extends StatelessWidget {
                     children: [
                       Text(
                         title,
-                        style: Theme.of(context)
-                            .textTheme
-                            .titleSmall
+                        style: Theme.of(context).textTheme.titleSmall
                             ?.copyWith(fontWeight: FontWeight.w800),
                       ),
                       const SizedBox(height: 2),
@@ -235,8 +271,10 @@ class _Entry extends StatelessWidget {
                     ],
                   ),
                 ),
-                Icon(Icons.chevron_right_rounded,
-                    color: context.appTextSecondary),
+                Icon(
+                  Icons.chevron_right_rounded,
+                  color: context.appTextSecondary,
+                ),
               ],
             ),
           ),

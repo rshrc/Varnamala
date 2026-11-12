@@ -1,5 +1,6 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 
 // Package imports:
 import 'package:provider/provider.dart';
@@ -59,8 +60,10 @@ class _CommunitySheet extends StatefulWidget {
 
 class _CommunitySheetState extends State<_CommunitySheet> {
   final TextEditingController _composer = TextEditingController();
-  late final String _thread =
-      CommunityProvider.threadId(widget.language, widget.courseName);
+  late final String _thread = CommunityProvider.threadId(
+    widget.language,
+    widget.courseName,
+  );
 
   CommunityComment? _replyingTo;
   bool _posting = false;
@@ -127,7 +130,9 @@ class _CommunitySheetState extends State<_CommunitySheet> {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return Center(
                     child: CircularProgressIndicator(
-                        color: context.appAccent, strokeWidth: 3),
+                      color: context.appAccent,
+                      strokeWidth: 3,
+                    ),
                   );
                 }
                 final all = snapshot.data ?? const <CommunityComment>[];
@@ -221,9 +226,7 @@ class _Grabber extends StatelessWidget {
                           child: Text(
                             courseName,
                             overflow: TextOverflow.ellipsis,
-                            style: Theme.of(context)
-                                .textTheme
-                                .titleLarge
+                            style: Theme.of(context).textTheme.titleLarge
                                 ?.copyWith(fontWeight: FontWeight.w800),
                           ),
                         ),
@@ -234,7 +237,9 @@ class _Grabber extends StatelessWidget {
                     Text(
                       'Ask, explain, correct each other',
                       style: TextStyle(
-                          fontSize: 12.5, color: context.appTextSecondary),
+                        fontSize: 12.5,
+                        color: context.appTextSecondary,
+                      ),
                     ),
                   ],
                 ),
@@ -302,7 +307,9 @@ class _CommentTile extends StatelessWidget {
                       const SizedBox(width: 6),
                       Container(
                         padding: const EdgeInsets.symmetric(
-                            horizontal: 6, vertical: 1),
+                          horizontal: 6,
+                          vertical: 1,
+                        ),
                         decoration: BoxDecoration(
                           color: Theme.of(context).colorScheme.primaryContainer,
                           borderRadius: BorderRadius.circular(6),
@@ -345,8 +352,8 @@ class _CommentTile extends StatelessWidget {
                           color: myVote == 1
                               ? context.appSuccess
                               : myVote == -1
-                                  ? context.appDanger
-                                  : context.appTextSecondary,
+                              ? context.appDanger
+                              : context.appTextSecondary,
                         ),
                       ),
                     ),
@@ -402,11 +409,7 @@ class _VoteButton extends StatelessWidget {
 }
 
 class _LinkButton extends StatelessWidget {
-  const _LinkButton({
-    required this.label,
-    required this.onTap,
-    this.colour,
-  });
+  const _LinkButton({required this.label, required this.onTap, this.colour});
 
   final String label;
   final VoidCallback onTap;
@@ -467,13 +470,18 @@ class _Composer extends StatelessWidget {
                     child: Text(
                       'Replying to ${replyingTo!.handle}',
                       style: TextStyle(
-                          fontSize: 12, color: context.appTextSecondary),
+                        fontSize: 12,
+                        color: context.appTextSecondary,
+                      ),
                     ),
                   ),
                   GestureDetector(
                     onTap: onCancelReply,
-                    child: Icon(Icons.close_rounded,
-                        size: 16, color: context.appDanger),
+                    child: Icon(
+                      Icons.close_rounded,
+                      size: 16,
+                      color: context.appDanger,
+                    ),
                   ),
                 ],
               ),
@@ -492,7 +500,9 @@ class _Composer extends StatelessWidget {
                     counterText: '',
                     isDense: true,
                     contentPadding: const EdgeInsets.symmetric(
-                        horizontal: 14, vertical: 12),
+                      horizontal: 14,
+                      vertical: 12,
+                    ),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(22),
                     ),
@@ -542,7 +552,10 @@ class _EmptyThread extends StatelessWidget {
           'comes next.',
           textAlign: TextAlign.center,
           style: TextStyle(
-              color: context.appTextSecondary, fontSize: 13, height: 1.45),
+            color: context.appTextSecondary,
+            fontSize: 13,
+            height: 1.45,
+          ),
         ),
       ],
     );
@@ -607,28 +620,27 @@ class _ReportSheetState extends State<_ReportSheet> {
   Future<void> _send() async {
     setState(() => _sending = true);
     final problem = await context.read<CommunityProvider>().reportContent(
-          language: widget.language,
-          courseName: widget.courseName,
-          reason: _reason,
-          detail: _detail.text,
-          commentId: widget.commentId,
-          sentence: widget.sentence,
-        );
+      language: widget.language,
+      courseName: widget.courseName,
+      reason: _reason,
+      detail: _detail.text,
+      commentId: widget.commentId,
+      sentence: widget.sentence,
+    );
     if (!mounted) return;
     setState(() => _sending = false);
-    Navigator.of(context).pop();
+    await context.router.maybePop();
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(problem ?? 'Thanks — someone will take a look.'),
-      ),
+      SnackBar(content: Text(problem ?? 'Thanks — someone will take a look.')),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding:
-          EdgeInsets.only(bottom: MediaQuery.of(context).viewInsets.bottom),
+      padding: EdgeInsets.only(
+        bottom: MediaQuery.of(context).viewInsets.bottom,
+      ),
       child: Container(
         padding: const EdgeInsets.fromLTRB(24, 20, 24, 28),
         decoration: BoxDecoration(
@@ -641,9 +653,7 @@ class _ReportSheetState extends State<_ReportSheet> {
           children: [
             Text(
               'Report a mistake',
-              style: Theme.of(context)
-                  .textTheme
-                  .titleLarge
+              style: Theme.of(context).textTheme.titleLarge
                   ?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: 4),
@@ -651,7 +661,10 @@ class _ReportSheetState extends State<_ReportSheet> {
               'In ${widget.courseName}. This goes straight to whoever maintains '
               'the course — it is not posted publicly.',
               style: TextStyle(
-                  fontSize: 12.5, color: context.appTextSecondary, height: 1.4),
+                fontSize: 12.5,
+                color: context.appTextSecondary,
+                height: 1.4,
+              ),
             ),
             if (widget.sentence != null) ...[
               const SizedBox(height: 12),
@@ -665,7 +678,10 @@ class _ReportSheetState extends State<_ReportSheet> {
                 child: Text(
                   widget.sentence!,
                   style: const TextStyle(
-                      fontSize: 14, fontWeight: FontWeight.w600, height: 1.35),
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    height: 1.35,
+                  ),
                 ),
               ),
             ],

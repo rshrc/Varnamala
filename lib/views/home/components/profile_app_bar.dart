@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:share_plus/share_plus.dart';
 
 // Project imports:
 import 'package:words625/core/responsive.dart';
-import 'package:words625/views/settings/settings_page.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
 class ProfileAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -22,9 +23,8 @@ class ProfileAppBar extends StatelessWidget implements PreferredSizeWidget {
       centerTitle: true,
       title: Text(
         'Profile',
-        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.w700,
-            ),
+        style: Theme.of(context).textTheme.titleLarge
+            ?.copyWith(fontWeight: FontWeight.w700),
       ),
       actions: <Widget>[
         IconButton(
@@ -37,19 +37,21 @@ class ProfileAppBar extends StatelessWidget implements PreferredSizeWidget {
         // same page, so it stays only where there is no rail.
         if (!context.breakpoint.hasSideNavigation)
           IconButton(
-            icon: Icon(Icons.settings_rounded,
-                color: context.appWarning, size: 22),
-            tooltip: 'Settings',
-            onPressed: () => Navigator.of(context).push(
-              MaterialPageRoute(builder: (_) => const SettingsPage()),
+            icon: Icon(
+              Icons.settings_rounded,
+              color: context.appWarning,
+              size: 22,
             ),
+            tooltip: 'Settings',
+            onPressed: () => context.router.push(const SettingsRoute()),
           ),
       ],
     );
   }
 
   Future<void> _shareApp(BuildContext context) async {
-    const text = 'Learn Indian languages for free with Varnamala — no hearts, '
+    const text =
+        'Learn Indian languages for free with Varnamala — no hearts, '
         'no energy limits. https://github.com/rshrc/Varnamala';
     final box = context.findRenderObject() as RenderBox?;
 
@@ -58,8 +60,9 @@ class ProfileAppBar extends StatelessWidget implements PreferredSizeWidget {
         ShareParams(
           subject: 'Learn with Varnamala',
           text: text,
-          sharePositionOrigin:
-              box == null ? null : box.localToGlobal(Offset.zero) & box.size,
+          sharePositionOrigin: box == null
+              ? null
+              : box.localToGlobal(Offset.zero) & box.size,
         ),
       );
     } catch (_) {

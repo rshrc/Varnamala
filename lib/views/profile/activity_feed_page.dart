@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 
@@ -14,12 +15,9 @@ import 'package:words625/views/widgets/identicon.dart';
 /// What other learners have just pulled off, and a hi-five button.
 ///
 /// There is nothing else to press. See [ActivityProvider] for why.
+@RoutePage()
 class ActivityFeedPage extends StatelessWidget {
   const ActivityFeedPage({Key? key}) : super(key: key);
-
-  static Route<void> route() => MaterialPageRoute<void>(
-        builder: (_) => const ActivityFeedPage(),
-      );
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +38,9 @@ class ActivityFeedPage extends StatelessWidget {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return Center(
                 child: CircularProgressIndicator(
-                    color: context.appAccent, strokeWidth: 3),
+                  color: context.appAccent,
+                  strokeWidth: 3,
+                ),
               );
             }
 
@@ -98,9 +98,10 @@ class _ActivityCard extends StatelessWidget {
                 Text(
                   item.title,
                   style: TextStyle(
-                      fontSize: 13.5,
-                      height: 1.35,
-                      color: context.appTextSecondary),
+                    fontSize: 13.5,
+                    height: 1.35,
+                    color: context.appTextSecondary,
+                  ),
                 ),
                 if (item.hiFives > 0) ...[
                   const SizedBox(height: 4),
@@ -187,8 +188,11 @@ class _EmptyFeed extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.front_hand_rounded,
-                size: 46, color: context.appTextSecondary),
+            Icon(
+              Icons.front_hand_rounded,
+              size: 46,
+              color: context.appTextSecondary,
+            ),
             const SizedBox(height: 14),
             const Text(
               'Nothing yet',
@@ -200,7 +204,10 @@ class _EmptyFeed extends StatelessWidget {
               'them a hi-five.',
               textAlign: TextAlign.center,
               style: TextStyle(
-                  color: context.appTextSecondary, fontSize: 13, height: 1.45),
+                color: context.appTextSecondary,
+                fontSize: 13,
+                height: 1.45,
+              ),
             ),
           ],
         ),

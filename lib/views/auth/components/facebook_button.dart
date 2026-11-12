@@ -1,7 +1,10 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 
+import 'package:auto_route/auto_route.dart';
+
 // Project imports:
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
 class FacebookButton extends StatelessWidget {
@@ -20,32 +23,25 @@ class FacebookButton extends StatelessWidget {
           border: Border.all(width: 2, color: context.appBorder),
         ),
         child: ElevatedButton(
-          onPressed: () {
-            Navigator.pushNamed(context, '/login');
-            // Navigator.push(
-            //   context,
-            //   MaterialPageRoute(builder: (context) => const LoginScreen()),
-            // );
-          },
+          onPressed: () => context.router.replace(const LoginRoute()),
           style: ElevatedButton.styleFrom(
             backgroundColor: context.appSurface,
             elevation: 5,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                'assets/icons/facebook-icon.png',
-                height: 25,
-              ),
+              Image.asset('assets/icons/facebook-icon.png', height: 25),
               Text(
                 ' FACEBOOK',
                 style: TextStyle(
-                    color: context.appInfo,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold),
+                  color: context.appInfo,
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),

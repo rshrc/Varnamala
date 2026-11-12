@@ -3,11 +3,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:auto_route/annotations.dart';
+import 'package:auto_route/auto_route.dart';
 
 // Project imports:
 import 'package:words625/views/auth/components/components.dart';
-import 'package:words625/views/onboarding/onboarding_screen.dart';
+import 'package:words625/routing/routing.gr.dart';
 
 @RoutePage()
 class LoginPage extends StatefulWidget {
@@ -67,22 +67,15 @@ class _LoginPageState extends State<LoginPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   TextButton(
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                            builder: (context) => const OnboardingScreen()),
-                      );
-                    },
+                    onPressed: () =>
+                        context.router.push(const OnboardingRoute()),
                     child: const Text('Test Onboarding'),
                   ),
                 ],
               ),
             const Row(
               // mainAxisSize: MainAxisSize.max,
-              children: [
-                FacebookButton(),
-                GoogleButton(),
-              ],
+              children: [FacebookButton(), GoogleButton()],
             ),
             const PolicyText(),
           ],

@@ -2,6 +2,7 @@ import 'dart:math';
 
 import 'package:chiclet/chiclet.dart';
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:provider/provider.dart';
 import 'package:words625/application/level_provider.dart';
 import 'package:words625/views/theme.dart';
@@ -42,8 +43,9 @@ class CheckButton extends StatelessWidget {
                       final checkAnswer = lessonState.checkAnswer();
                       if (checkAnswer) {
                         if (lessonState.answerState == AnswerState.correct) {
-                          lessonState
-                              .changeAnswerState(AnswerState.readyForNext);
+                          lessonState.changeAnswerState(
+                            AnswerState.readyForNext,
+                          );
                         }
                       }
                     } else if (lessonState.answerState ==
@@ -99,7 +101,8 @@ class LevelPlayerChoice extends StatelessWidget {
 
     return Dialog(
       shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
+        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
+      ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
         child: Column(
@@ -111,47 +114,40 @@ class LevelPlayerChoice extends StatelessWidget {
                 color: style.accent.withValues(alpha: 0.12),
                 shape: BoxShape.circle,
               ),
-              child: Icon(
-                style.icon,
-                color: style.accent,
-                size: 40,
-              ),
+              child: Icon(style.icon, color: style.accent, size: 40),
             ),
             const SizedBox(height: 20),
             Text(
               style.title,
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+              style: Theme.of(context).textTheme.headlineSmall
+                  ?.copyWith(fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 8),
-            Text(
-              style.subtitle,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
+            Text(style.subtitle, style: Theme.of(context).textTheme.bodyMedium),
             const SizedBox(height: 28),
             SizedBox(
               width: double.infinity,
               height: 48,
               child: ElevatedButton(
-                onPressed: () => Navigator.of(context).pop(),
-                child: const Text('Continue',
-                    style:
-                        TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+                onPressed: () => context.router.maybePop(),
+                child: const Text(
+                  'Continue',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                ),
               ),
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).pop();
+              onPressed: () async {
+                await context.router.maybePop();
+                await context.router.maybePop();
               },
               child: Text(
                 "Back to Courses",
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: context.appTextSecondary,
-                      fontWeight: FontWeight.w500,
-                    ),
+                  color: context.appTextSecondary,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
             ),
           ],
@@ -190,7 +186,8 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
 
     return Dialog(
       shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge)),
+        borderRadius: BorderRadius.circular(VarnamalaTheme.radiusXLarge),
+      ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 32),
         child: Column(
@@ -202,47 +199,40 @@ class CourseCompletionPlayerChoice extends StatelessWidget {
                 color: style.accent.withValues(alpha: 0.14),
                 shape: BoxShape.circle,
               ),
-              child: Icon(
-                style.icon,
-                color: style.accent,
-                size: 40,
-              ),
+              child: Icon(style.icon, color: style.accent, size: 40),
             ),
             const SizedBox(height: 20),
             Text(
               style.title,
-              style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+              style: Theme.of(context).textTheme.headlineSmall
+                  ?.copyWith(fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 8),
-            Text(
-              style.subtitle,
-              style: Theme.of(context).textTheme.bodyMedium,
-            ),
+            Text(style.subtitle, style: Theme.of(context).textTheme.bodyMedium),
             const SizedBox(height: 28),
             SizedBox(
               width: double.infinity,
               height: 48,
               child: ElevatedButton(
-                onPressed: () => Navigator.of(context).pop(),
-                child: const Text('Practice Again',
-                    style:
-                        TextStyle(fontSize: 16, fontWeight: FontWeight.w700)),
+                onPressed: () => context.router.maybePop(),
+                child: const Text(
+                  'Practice Again',
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+                ),
               ),
             ),
             const SizedBox(height: 12),
             TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                Navigator.of(context).pop();
+              onPressed: () async {
+                await context.router.maybePop();
+                await context.router.maybePop();
               },
               child: Text(
                 "Back to Courses",
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: context.appTextSecondary,
-                      fontWeight: FontWeight.w500,
-                    ),
+                  color: context.appTextSecondary,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
             ),
           ],

@@ -5,7 +5,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 // Package imports:
-import 'package:auto_route/auto_route.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 
@@ -37,24 +36,6 @@ extension ContextExtentions on BuildContext {
   double get height => MediaQuery.of(this).size.height;
 
   double get width => MediaQuery.of(this).size.width;
-
-  // TODO: Need to be removed/replaced when AutoRoute is introduced
-  Future<dynamic> push(
-    Widget screen, {
-    RouteSettings? settings,
-    bool maintainState = true,
-    bool fullscreenDialog = false,
-  }) async =>
-      await Navigator.of(this).push(MaterialPageRoute(
-        builder: (_) => screen,
-        settings: settings,
-        maintainState: maintainState,
-        fullscreenDialog: fullscreenDialog,
-      ));
-
-  Future<dynamic> route(PageRouteInfo route) async {
-    AutoRouter.of(this).push(route);
-  }
 }
 
 extension TextThemeExtensions on BuildContext {
@@ -74,9 +55,11 @@ Random _rnd = Random();
 
 extension RandomString on int {
   String get getRandomString => String.fromCharCodes(
-        Iterable.generate(
-            this, (_) => _chars.codeUnitAt(_rnd.nextInt(_chars.length))),
-      );
+    Iterable.generate(
+      this,
+      (_) => _chars.codeUnitAt(_rnd.nextInt(_chars.length)),
+    ),
+  );
 }
 
 extension DateTimeFormat on DateTime {

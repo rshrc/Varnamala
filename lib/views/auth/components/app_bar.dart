@@ -1,5 +1,6 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 
 import 'package:words625/views/theme.dart';
 
@@ -23,13 +24,8 @@ class LoginAppBar extends StatelessWidget implements PreferredSizeWidget {
       ),
       centerTitle: true,
       leading: IconButton(
-        icon: Icon(
-          Icons.close,
-          color: context.appDanger,
-        ),
-        onPressed: () {
-          Navigator.pop(context);
-        },
+        icon: Icon(Icons.close, color: context.appDanger),
+        onPressed: () => context.router.maybePop(),
       ),
     );
   }

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:words625/application/lesson/course_exercise_factory.dart';
 import 'package:words625/application/lesson/interactive_course_progress.dart';
 import 'package:words625/core/enums.dart';
@@ -36,15 +37,15 @@ class InteractiveCompletionView extends StatelessWidget {
     final title = isReplay
         ? 'Practice complete!'
         : courseComplete
-            ? 'Course complete!'
-            : '${stage.label} complete!';
+        ? 'Course complete!'
+        : '${stage.label} complete!';
     final subtitle = isReplay
         ? 'Replay this course whenever you want.'
         : courseComplete
-            ? '${course.courseName} is now golden.'
-            : stage == LessonStageKind.recall
-                ? 'The next unit is ready.'
-                : '${LessonStageKind.values[stage.index + 1].label} is ready.';
+        ? '${course.courseName} is now golden.'
+        : stage == LessonStageKind.recall
+        ? 'The next unit is ready.'
+        : '${LessonStageKind.values[stage.index + 1].label} is ready.';
 
     return Scaffold(
       body: SafeArea(
@@ -69,8 +70,10 @@ class InteractiveCompletionView extends StatelessWidget {
                         decoration: BoxDecoration(
                           color: context.appWarning.withValues(alpha: 0.16),
                           shape: BoxShape.circle,
-                          border:
-                              Border.all(color: context.appWarning, width: 3),
+                          border: Border.all(
+                            color: context.appWarning,
+                            width: 3,
+                          ),
                           boxShadow: [
                             BoxShadow(
                               color: context.appWarning.withValues(alpha: 0.3),
@@ -89,20 +92,15 @@ class InteractiveCompletionView extends StatelessWidget {
                       Text(
                         title,
                         textAlign: TextAlign.center,
-                        style: Theme.of(context)
-                            .textTheme
-                            .headlineMedium
-                            ?.copyWith(
-                              fontWeight: FontWeight.w900,
-                            ),
+                        style: Theme.of(context).textTheme.headlineMedium
+                            ?.copyWith(fontWeight: FontWeight.w900),
                       ),
                       const SizedBox(height: 10),
                       Text(
                         subtitle,
                         textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                              color: context.appTextSecondary,
-                            ),
+                        style: Theme.of(context).textTheme.bodyLarge
+                            ?.copyWith(color: context.appTextSecondary),
                       ),
                       // The climb is the reward. Showing the standings the
                       // moment the XP lands is the whole point of a league.
@@ -118,7 +116,7 @@ class InteractiveCompletionView extends StatelessWidget {
                         width: double.infinity,
                         height: 52,
                         child: ElevatedButton(
-                          onPressed: () => Navigator.of(context).pop(),
+                          onPressed: () => context.router.maybePop(),
                           child: const Text(
                             'CONTINUE ON PATH',
                             style: TextStyle(fontWeight: FontWeight.w900),

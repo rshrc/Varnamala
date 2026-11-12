@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 // Package imports:
-import 'package:auto_route/annotations.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:chiclet/chiclet.dart';
 import 'package:provider/provider.dart';
 
@@ -105,12 +105,15 @@ class LessonPageState extends State<LessonPage> {
     _unitIndex = (widget.unitIndex ?? progress.currentUnitIndex)
         .clamp(0, levels.length - 1)
         .toInt();
-    final requestedStage = widget.stageIndex ??
+    final requestedStage =
+        widget.stageIndex ??
         (_isReplay && widget.stageIndex == null
             ? LessonStageKind.recall.index
             : progress.stageIndex);
-    _stageKind = LessonStageKind.values[
-        requestedStage.clamp(0, LessonStageKind.values.length - 1).toInt()];
+    _stageKind =
+        LessonStageKind.values[requestedStage
+            .clamp(0, LessonStageKind.values.length - 1)
+            .toInt()];
 
     final language = TargetLanguage.values.firstWhere(
       (item) => item.name == widget.course.language,
@@ -122,7 +125,8 @@ class LessonPageState extends State<LessonPage> {
       language: language,
       courseId: widget.course.courseId ?? widget.course.courseName,
       levelNumber: level.level ?? _unitIndex + 1,
-      dictionary: courseRepository.cachedDictionary(language) ??
+      dictionary:
+          courseRepository.cachedDictionary(language) ??
           courseRepository.activeDictionary ??
           const {},
     );
@@ -136,7 +140,9 @@ class LessonPageState extends State<LessonPage> {
         // loading state in _buildInteractive already covers.
         unawaited(
           _prepareVocabularyStage(
-              exerciseContext: exerciseContext, level: level),
+            exerciseContext: exerciseContext,
+            level: level,
+          ),
         );
         return;
       }
@@ -217,7 +223,10 @@ class LessonPageState extends State<LessonPage> {
     }
 
     final List<ListLesson> generatedLessons = widget
-        .course.levels!.first.questions!
+        .course
+        .levels!
+        .first
+        .questions!
         .map((question) => ListLesson(question, course: widget.course))
         .toList();
 
@@ -256,15 +265,16 @@ class LessonPageState extends State<LessonPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(Icons.menu_book_rounded,
-                        size: 64,
-                        color: context.appInfo.withValues(alpha: 0.65)),
+                    Icon(
+                      Icons.menu_book_rounded,
+                      size: 64,
+                      color: context.appInfo.withValues(alpha: 0.65),
+                    ),
                     const SizedBox(height: 16),
                     Text(
                       'No lessons available',
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            color: context.appTextSecondary,
-                          ),
+                      style: Theme.of(context).textTheme.titleMedium
+                          ?.copyWith(color: context.appTextSecondary),
                     ),
                   ],
                 ),
@@ -308,15 +318,15 @@ class LessonPageState extends State<LessonPage> {
     final buttonEnabled = !_finishing && (isFeedback || engine.canSubmit);
     final buttonColor = isFeedback
         ? engine.lastAttempt!.correct
-            ? context.appSuccess
-            : context.appDanger
+              ? context.appSuccess
+              : context.appDanger
         : context.appAccent;
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         leading: IconButton(
           tooltip: 'Leave lesson',
-          onPressed: () => Navigator.of(context).pop(),
+          onPressed: () => context.router.maybePop(),
           icon: Icon(Icons.close_rounded, color: context.appDanger),
         ),
         // The unit label and progress bar line up with the exercise column
@@ -332,18 +342,21 @@ class LessonPageState extends State<LessonPage> {
                   Text(
                     'UNIT ${_unitIndex + 1} · ${_stageKind.label.toUpperCase()}',
                     style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                          fontWeight: FontWeight.w900,
-                          letterSpacing: 0.7,
-                        ),
+                      fontWeight: FontWeight.w900,
+                      letterSpacing: 0.7,
+                    ),
                   ),
                   const SizedBox(width: 7),
                   Container(
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 6,
+                      vertical: 2,
+                    ),
                     decoration: BoxDecoration(
                       color: context.appViolet.withValues(alpha: 0.14),
-                      borderRadius:
-                          BorderRadius.circular(VarnamalaTheme.radiusRound),
+                      borderRadius: BorderRadius.circular(
+                        VarnamalaTheme.radiusRound,
+                      ),
                     ),
                     child: Text(
                       _isReplay ? 'PRACTICE' : 'BETA',
@@ -376,12 +389,11 @@ class LessonPageState extends State<LessonPage> {
             onPressed: generated.sourceSentence.isEmpty
                 ? null
                 : () => showReportSheet(
-                      context,
-                      language:
-                          context.read<LanguageProvider>().selectedLanguage,
-                      courseName: widget.course.courseName,
-                      sentence: generated.sourceSentence,
-                    ),
+                    context,
+                    language: context.read<LanguageProvider>().selectedLanguage,
+                    courseName: widget.course.courseName,
+                    sentence: generated.sourceSentence,
+                  ),
             icon: Icon(Icons.flag_outlined, color: context.appWarning),
           ),
         ],
@@ -418,9 +430,7 @@ class LessonPageState extends State<LessonPage> {
                           Expanded(
                             child: Text(
                               engine.currentExercise.prompt,
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .headlineSmall
+                              style: Theme.of(context).textTheme.headlineSmall
                                   ?.copyWith(
                                     fontWeight: FontWeight.w800,
                                     height: 1.25,
@@ -486,8 +496,8 @@ class LessonPageState extends State<LessonPage> {
                     _finishing
                         ? 'SAVING…'
                         : isFeedback
-                            ? 'CONTINUE'
-                            : 'CHECK',
+                        ? 'CONTINUE'
+                        : 'CHECK',
                     style: TextStyle(
                       fontSize: 17,
                       fontWeight: FontWeight.w900,
@@ -534,9 +544,7 @@ class LessonPageState extends State<LessonPage> {
     }
   }
 
-  Future<void> _handleInteractiveAction(
-    InteractiveLessonEngine engine,
-  ) async {
+  Future<void> _handleInteractiveAction(InteractiveLessonEngine engine) async {
     if (engine.phase == InteractiveLessonPhase.answering) {
       final correct = engine.submit();
       _cueVerdict(correct: correct);
@@ -552,13 +560,14 @@ class LessonPageState extends State<LessonPage> {
     }
     setState(() => _finishing = true);
     final game = context.read<GameProvider>()..resetRecentXp();
-    final completion =
-        await context.read<LessonProvider>().completeInteractiveStage(
-              course: widget.course,
-              unitIndex: _unitIndex,
-              stage: _stageKind,
-              wasPerfect: engine.mistakes == 0,
-            );
+    final completion = await context
+        .read<LessonProvider>()
+        .completeInteractiveStage(
+          course: widget.course,
+          unitIndex: _unitIndex,
+          stage: _stageKind,
+          wasPerfect: engine.mistakes == 0,
+        );
     if (!mounted) return;
     setState(() {
       _completion = completion;

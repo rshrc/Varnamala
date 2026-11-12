@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Package imports:
+import 'package:auto_route/auto_route.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
@@ -22,14 +23,10 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
       leading: Padding(
         padding: const EdgeInsets.only(left: 8),
         child: IconButton(
-          icon: Icon(
-            Icons.close_rounded,
-            color: context.appDanger,
-            size: 26,
-          ),
+          icon: Icon(Icons.close_rounded, color: context.appDanger, size: 26),
           onPressed: () {
             context.read<LessonProvider>().reset();
-            Navigator.pop(context);
+            context.router.maybePop();
           },
         ),
       ),
@@ -60,8 +57,11 @@ class LessonAppBar extends StatelessWidget implements PreferredSizeWidget {
             }
             return IconButton(
               tooltip: 'Report a mistake in this question',
-              icon: Icon(Icons.flag_outlined,
-                  color: context.appWarning, size: 22),
+              icon: Icon(
+                Icons.flag_outlined,
+                color: context.appWarning,
+                size: 22,
+              ),
               onPressed: () => showReportSheet(
                 context,
                 language: context.read<LanguageProvider>().selectedLanguage,

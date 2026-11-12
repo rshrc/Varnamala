@@ -12,7 +12,6 @@ import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/responsive.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/auth/components/logout_button.dart';
-import 'package:words625/views/flashcards/flashcards_page.dart';
 import 'package:words625/views/theme.dart';
 
 class ShopPage extends StatelessWidget {
@@ -31,17 +30,18 @@ class ShopPage extends StatelessWidget {
         final gameState = snapshot.data ?? const <String, dynamic>{};
         final repairRequired =
             gameState['streakRepairRequired'] as bool? ?? false;
-        final repairProgress =
-            (gameState['streakRepairProgress'] as num? ?? 0).toInt();
-        final repairTarget = (gameState['streakRepairTarget'] as num? ??
-                GameProvider.defaultStreakRepairTarget)
+        final repairProgress = (gameState['streakRepairProgress'] as num? ?? 0)
             .toInt();
+        final repairTarget =
+            (gameState['streakRepairTarget'] as num? ??
+                    GameProvider.defaultStreakRepairTarget)
+                .toInt();
         final followRewardClaimed =
             gameState['followRewardClaimed'] as bool? ?? false;
         final validatedShareCount =
             (gameState['validatedShareCount'] as num? ?? 0).toInt();
-        final claimedShareCount =
-            (gameState['claimedShareCount'] as num? ?? 0).toInt();
+        final claimedShareCount = (gameState['claimedShareCount'] as num? ?? 0)
+            .toInt();
         final canClaimShare = validatedShareCount > claimedShareCount;
 
         return ContentBounds(
@@ -65,11 +65,8 @@ class ShopPage extends StatelessWidget {
                   description:
                       'Spaced repetition for the words you have met so far.',
                   buttonLabel: 'REVIEW',
-                  onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (_) => FlashcardsPage(language: language),
-                    ),
-                  ),
+                  onTap: () =>
+                      context.router.push(FlashcardsRoute(language: language)),
                 ),
               ),
               const SliverToBoxAdapter(
@@ -95,24 +92,30 @@ class ShopPage extends StatelessWidget {
               ),
               SliverToBoxAdapter(
                 child: Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 16,
+                    vertical: 8,
+                  ),
                   child: Material(
                     color: context.appInfo,
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusMedium,
+                    ),
                     child: InkWell(
-                      borderRadius:
-                          BorderRadius.circular(VarnamalaTheme.radiusMedium),
+                      borderRadius: BorderRadius.circular(
+                        VarnamalaTheme.radiusMedium,
+                      ),
                       onTap: () => context.router.push(const MatchWordsRoute()),
                       child: Padding(
                         padding: const EdgeInsets.symmetric(vertical: 14),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.bolt_rounded,
-                                color: context.appOn(context.appInfo),
-                                size: 22),
+                            Icon(
+                              Icons.bolt_rounded,
+                              color: context.appOn(context.appInfo),
+                              size: 22,
+                            ),
                             const SizedBox(width: 8),
                             Text(
                               'Try Match Madness',
@@ -141,14 +144,15 @@ class ShopPage extends StatelessWidget {
                   icon: Icons.person_add_alt_rounded,
                   iconColor: const Color(0xFF66BB6A),
                   label: 'Follow Reward',
-                  description:
-                      'Follow learners to claim a one-time community gem reward.',
+                  description: 'Follow learners to claim a one-time community gem reward.',
                   buttonLabel: followRewardClaimed ? 'CLAIMED' : 'CLAIM',
                   enabled: !followRewardClaimed,
                   onTap: followRewardClaimed
                       ? null
                       : () => _handleCommunityClaim(
-                          context, CommunityAction.follow),
+                          context,
+                          CommunityAction.follow,
+                        ),
                 ),
               ),
               SliverToBoxAdapter(
@@ -156,13 +160,14 @@ class ShopPage extends StatelessWidget {
                   icon: Icons.flash_on_rounded,
                   iconColor: const Color(0xFFAB47BC),
                   label: 'Share Reward',
-                  description:
-                      'Claim only after share validation (server-validated shares).',
+                  description: 'Claim only after share validation (server-validated shares).',
                   buttonLabel: canClaimShare ? 'CLAIM' : 'PENDING VALIDATION',
                   enabled: canClaimShare,
                   onTap: canClaimShare
                       ? () => _handleCommunityClaim(
-                          context, CommunityAction.validatedShare)
+                          context,
+                          CommunityAction.validatedShare,
+                        )
                       : null,
                 ),
               ),
@@ -221,8 +226,9 @@ class ShopPage extends StatelessWidget {
     BuildContext context,
     CommunityAction action,
   ) async {
-    final success =
-        await context.read<GemsProvider>().claimCommunityReward(action);
+    final success = await context.read<GemsProvider>().claimCommunityReward(
+      action,
+    );
     if (!context.mounted) return;
 
     final background = success ? context.appSuccess : context.appDanger;
@@ -265,9 +271,8 @@ class _SectionTitle extends StatelessWidget {
           const SizedBox(width: 8),
           Text(
             title,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
         ],
       ),
@@ -331,17 +336,14 @@ class ShopItem extends StatelessWidget {
               children: [
                 Text(
                   label,
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                  style: Theme.of(context).textTheme.titleSmall
+                      ?.copyWith(fontWeight: FontWeight.w700),
                 ),
                 const SizedBox(height: 4),
                 Text(
                   description,
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: context.appTextSecondary,
-                        height: 1.3,
-                      ),
+                  style: Theme.of(context).textTheme.bodySmall
+                      ?.copyWith(color: context.appTextSecondary, height: 1.3),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -358,8 +360,8 @@ class ShopItem extends StatelessWidget {
                             backgroundColor: enabled
                                 ? context.appAccent
                                 : Theme.of(context)
-                                    .colorScheme
-                                    .surfaceContainerHighest,
+                                      .colorScheme
+                                      .surfaceContainerHighest,
                             foregroundColor: enabled
                                 ? Theme.of(context).colorScheme.onPrimary
                                 : context.appTextSecondary,

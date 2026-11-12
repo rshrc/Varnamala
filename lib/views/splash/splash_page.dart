@@ -13,10 +13,8 @@ import 'package:words625/service/demo_lesson_service.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/service/language_preference_service.dart';
 import 'package:words625/service/locator.dart';
-import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
-import 'package:words625/views/onboarding/onboarding_screen.dart';
-import 'package:words625/views/splash/demo_lesson_page.dart';
 import 'package:words625/views/theme.dart';
+
 import 'components/center_display.dart';
 import 'components/get_started_button.dart';
 import 'components/splash_background_painter.dart';
@@ -58,19 +56,11 @@ class _SplashPageState extends State<SplashPage> {
   }
 
   void _openIntroduction() {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (context) => const OnboardingScreen(),
-      ),
-    );
+    context.router.push(const OnboardingRoute());
   }
 
   void _openInteractiveLab() {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => const InteractiveLessonDemoPage(),
-      ),
-    );
+    context.router.push(const InteractiveLessonDemoRoute());
   }
 
   Future<void> _openDemo() async {
@@ -80,13 +70,8 @@ class _SplashPageState extends State<SplashPage> {
       final question = await _demoService.loadRandomQuestion();
       await _demoService.recordStart();
       if (!mounted) return;
-      await Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) => DemoLessonPage(
-            initialQuestion: question,
-            service: _demoService,
-          ),
-        ),
+      await context.router.push(
+        DemoLessonRoute(initialQuestion: question, service: _demoService),
       );
       if (mounted) setState(() {});
     } catch (_) {
@@ -135,8 +120,9 @@ class _SplashPageState extends State<SplashPage> {
                                 onPressed: _openIntroduction,
                                 style: TextButton.styleFrom(
                                   foregroundColor: context.appViolet,
-                                  backgroundColor:
-                                      context.appViolet.withValues(alpha: 0.14),
+                                  backgroundColor: context.appViolet.withValues(
+                                    alpha: 0.14,
+                                  ),
                                   padding: const EdgeInsets.symmetric(
                                     horizontal: 18,
                                     vertical: 11,
@@ -188,14 +174,13 @@ class _SplashPageState extends State<SplashPage> {
                               ),
                               const SizedBox(height: 10),
                               Padding(
-                                padding:
-                                    const EdgeInsets.symmetric(horizontal: 32),
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 32,
+                                ),
                                 child: Text(
                                   'Sign in securely to save and sync your learning progress.',
                                   textAlign: TextAlign.center,
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .bodySmall
+                                  style: Theme.of(context).textTheme.bodySmall
                                       ?.copyWith(fontSize: 12, height: 1.35),
                                 ),
                               ),

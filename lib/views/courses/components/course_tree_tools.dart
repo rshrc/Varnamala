@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:words625/views/settings/settings_page.dart';
+import 'package:auto_route/auto_route.dart';
+import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/views/theme.dart';
 
 class UnlockedCoursePathNotice extends StatelessWidget {
@@ -14,9 +15,7 @@ class UnlockedCoursePathNotice extends StatelessWidget {
         decoration: BoxDecoration(
           color: context.appWarning.withValues(alpha: 0.13),
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-          border: Border.all(
-            color: context.appWarning.withValues(alpha: 0.45),
-          ),
+          border: Border.all(color: context.appWarning.withValues(alpha: 0.45)),
         ),
         child: Row(
           children: [
@@ -28,9 +27,7 @@ class UnlockedCoursePathNotice extends StatelessWidget {
               ),
             ),
             TextButton(
-              onPressed: () => Navigator.of(context).push(
-                MaterialPageRoute(builder: (_) => const SettingsPage()),
-              ),
+              onPressed: () => context.router.push(const SettingsRoute()),
               child: const Text('MANAGE'),
             ),
           ],

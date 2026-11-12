@@ -17,39 +17,36 @@ class AppRouter extends RootStackRouter {
   RouteType get defaultRouteType => const RouteType.cupertino();
   @override
   List<AutoRoute> get routes => [
-        AutoRoute(page: SplashRoute.page, initial: true),
-        AutoRoute(
-          page: InteractiveLessonDemoRoute.page,
-          path: '/interactive-lab',
-        ),
-        // Unguarded, like the lesson lab. Both exist to be shown to somebody,
-        // which is hard to do from behind a sign-in wall - and the league is
-        // the one screen a maintainer cannot demonstrate on their own account,
-        // because maintainers are excluded from the standings.
-        AutoRoute(
-          page: LeagueDemoRoute.page,
-          path: '/league-lab',
-        ),
-        AutoRoute(page: ShowcaseRoute.page, path: '/showcase'),
-        AutoRoute(page: LoginRoute.page),
-        AutoRoute(page: LangChoiceRoute.page, guards: [_authGuard]),
-        AutoRoute(
-          page: HomeRoute.page,
-          guards: [_authGuard, _languageGuard],
-        ),
-        AutoRoute(
-          page: LessonRoute.page,
-          guards: [_authGuard, _languageGuard],
-        ),
-        AutoRoute(
-          page: VowelAndConsonantLearningRoute.page,
-          guards: [_authGuard, _languageGuard],
-        ),
-        AutoRoute(
-          page: MatchWordsRoute.page,
-          guards: [_authGuard, _languageGuard],
-        ),
-      ];
+    AutoRoute(page: SplashRoute.page, initial: true),
+    AutoRoute(page: InteractiveLessonDemoRoute.page, path: '/interactive-lab'),
+    // Unguarded, like the lesson lab. Both exist to be shown to somebody,
+    // which is hard to do from behind a sign-in wall - and the league is
+    // the one screen a maintainer cannot demonstrate on their own account,
+    // because maintainers are excluded from the standings.
+    AutoRoute(page: LeagueDemoRoute.page, path: '/league-lab'),
+    AutoRoute(page: ShowcaseRoute.page, path: '/showcase'),
+    AutoRoute(page: OnboardingRoute.page, path: '/onboarding'),
+    AutoRoute(page: DemoLessonRoute.page),
+    AutoRoute(page: FlashcardsRoute.page),
+    AutoRoute(page: ShowcaseLessonRoute.page),
+    AutoRoute(page: ShowcaseCourseTreeRoute.page),
+    AutoRoute(page: ShowcaseCharacterPracticeRoute.page),
+    AutoRoute(page: ShowcaseMatchRoute.page),
+    AutoRoute(page: LoginRoute.page),
+    AutoRoute(page: LangChoiceRoute.page, guards: [_authGuard]),
+    AutoRoute(page: HomeRoute.page, guards: [_authGuard, _languageGuard]),
+    AutoRoute(page: LessonRoute.page, guards: [_authGuard, _languageGuard]),
+    AutoRoute(
+      page: VowelAndConsonantLearningRoute.page,
+      guards: [_authGuard, _languageGuard],
+    ),
+    AutoRoute(page: MatchWordsRoute.page, guards: [_authGuard, _languageGuard]),
+    AutoRoute(page: SettingsRoute.page, guards: [_authGuard, _languageGuard]),
+    AutoRoute(
+      page: ActivityFeedRoute.page,
+      guards: [_authGuard, _languageGuard],
+    ),
+  ];
 }
 
 class _LanguageSelectionGuard extends AutoRouteGuard {

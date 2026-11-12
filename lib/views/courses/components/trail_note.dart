@@ -1,5 +1,6 @@
 import 'package:chiclet/chiclet.dart';
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:words625/core/stable_hash.dart';
 import 'package:words625/courses/course_repository.dart';
 import 'package:words625/views/theme.dart';
@@ -145,8 +146,10 @@ void showTrailNote(BuildContext context, TrailNote note, bool pointsRight) {
     pageBuilder: (context, _, __) =>
         TrailNoteDialog(note: note, pointsRight: pointsRight),
     transitionBuilder: (context, animation, _, child) {
-      final curved =
-          CurvedAnimation(parent: animation, curve: Curves.easeOutBack);
+      final curved = CurvedAnimation(
+        parent: animation,
+        curve: Curves.easeOutBack,
+      );
       return FadeTransition(
         opacity: animation,
         child: ScaleTransition(
@@ -185,8 +188,9 @@ class TrailNoteDialog extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(24, 28, 24, 20),
                 decoration: BoxDecoration(
                   color: context.appSurface,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusXLarge),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusXLarge,
+                  ),
                   boxShadow: [
                     BoxShadow(
                       color: Colors.black.withValues(alpha: 0.22),
@@ -218,7 +222,7 @@ class TrailNoteDialog extends StatelessWidget {
                       width: double.infinity,
                       height: 46,
                       backgroundColor: context.appAccent,
-                      onPressed: () => Navigator.of(context).pop(),
+                      onPressed: () => context.router.maybePop(),
                       child: Text(
                         'Got it',
                         style: TextStyle(
