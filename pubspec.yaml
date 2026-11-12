@@ -2,12 +2,13 @@ name: words625
 version: 0.1.0+1
 publish_to: none
 environment:
-  sdk: ">=3.2.3 <4.0.0"
+  sdk: ">=3.14.0 <4.0.0"
+  flutter: ">=3.50.0"
 description: Varnamala - A Duolingo Alternative for Learning Indian Languages
 dependencies:
   animated_text_kit: ^4.2.2
   audioplayers: any
-  auto_route: 9.2.2
+  auto_route: ^11.2.0
   characters: any
   chiclet: any
   cloud_firestore: any
@@ -26,14 +27,16 @@ dependencies:
   flutter_riverpod: any
   flutter_svg: any
   flutter_tts: any
-  font_awesome_flutter: any
-  freezed: any
+  font_awesome_flutter: ^11.0.0
+  freezed_annotation: ^3.1.0
   get_it: any
   google_fonts: ^6.2.0
   google_sign_in: any
-  injectable: any
-  json_annotation: any
-  json_serializable: any
+  google_sign_in_web: ^1.1.3
+  http: ^1.6.0
+  injectable: ^3.0.0
+  intl: ^0.20.3
+  json_annotation: ^4.12.0
   logger: any
   percent_indicator: ^4.0.0
   provider: any
@@ -43,20 +46,22 @@ dependencies:
   streaming_shared_preferences: any
   url_launcher: ^6.3.2
 dev_dependencies:
-  auto_route_generator: any
-  build_runner: any
-  flutter_animate: any
-  flutter_gen: 5.8.0
-  flutter_gen_runner: 5.8.0
+  auto_route_generator: ^10.6.0
+  # flutter_gen_runner 5.15 still uses package:build 4.x.
+  build_runner: 2.16.1
+  flutter_gen: ^5.15.0
+  flutter_gen_runner: ^5.15.0
   flutter_launcher_icons: any
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
+  # auto_route_generator 10.6 currently requires analyzer <14.
+  freezed: 4.0.1
   import_sorter: any
-  injectable_generator: any
+  injectable_generator: ^3.1.3
+  json_serializable: ^6.15.2
   pubspec_dependency_sorter: any
   shared_preferences: any
-  string_extension: any
 flutter:
   uses-material-design: true
   assets:

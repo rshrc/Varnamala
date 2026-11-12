@@ -1,10 +1,10 @@
 # Running the app in Debug mode
 
-This guide will walk you through running the Flutter app in **debug mode** using either **Android Studio** or **VSCode**. The setup also involves using **build_runner** and is tested with **Flutter version 3.22**.
+This guide will walk you through running the Flutter app in **debug mode** using either **Android Studio** or **VSCode**. The setup also involves using **build_runner** and is tested with **Flutter version 3.50** and **Dart 3.14**.
 
 ## Prerequisites
 
-- **Flutter 3.22**: Make sure Flutter is installed and is updated to version 3.22.
+- **Flutter 3.50**: Make sure Flutter is installed and is updated to version 3.50. Dart 3.14 is bundled with it.
 - **Dart SDK**: Comes bundled with Flutter, so no separate installation needed.
 - **Build Runner**: To generate necessary files, you need to use `build_runner`.
 - **Device/Emulator**: Android or iOS emulator, or a physical device connected via USB.
@@ -29,11 +29,6 @@ This guide will walk you through running the Flutter app in **debug mode** using
 ### Step 4: Run the App in Debug Mode
 
 - **Terminal**: You can use the terminal inside Android Studio to run `flutter pub run build_runner build` to generate necessary files.
-- If you encounter conflicting outputs, you can run the command with the **--delete-conflicting-outputs** flag:
-  ```bash
-  flutter pub run build_runner build --delete-conflicting-outputs
-  ```
-  This flag helps resolve conflicts by deleting old generated files before generating new ones.
 - **Run App**: Click on the green **Play** button in the toolbar or press **Shift + F9** to run the app in **Debug Mode**.
 - Alternatively, you can use the terminal to run:
   ```bash
@@ -75,10 +70,6 @@ This guide will walk you through running the Flutter app in **debug mode** using
 ### Step 4: Run the App in Debug Mode
 
 - **Run Build Runner**: First, run `flutter pub run build_runner build` in the terminal to generate files as needed.
-- If you encounter conflicts, use the following command:
-  ```bash
-  flutter pub run build_runner build --delete-conflicting-outputs
-  ```
 - **Start Debugging**: Press **F5** or click on **Run** > **Start Debugging** to run the app in debug mode.
 - You can also use the **Run and Debug** tab from the sidebar to start debugging with more options.
 
@@ -130,10 +121,6 @@ This guide will walk you through running the Flutter app in **debug mode** using
 - **Run Build Runner**:
   ```bash
   flutter pub run build_runner build
-  ```
-- **Run Build Runner with Conflict Resolution**:
-  ```bash
-  flutter pub run build_runner build --delete-conflicting-outputs
   ```
 - **Watch for Changes**:
   ```bash
