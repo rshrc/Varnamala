@@ -23,15 +23,21 @@ class CourseProvider extends ChangeNotifier {
 
   bool get hasFailed => failedLanguage != null;
 
+  /// The language most recently asked for. Loads now run behind navigation, so
+  /// a quick switch from one language to another can leave the first load
+  /// finishing last; its result must not land on top of the second.
+  TargetLanguage? _requested;
+
   Future<void> getCourses(TargetLanguage language) async {
     logger.w('Getting courses for $language');
+    _requested = language;
     // Clear first: whatever happens next, the old language must not linger.
     courses = null;
     failedLanguage = null;
     notifyListeners();
 
     try {
-      courses = await parseCourses(
+      final loaded = await parseCourses(
         // Every ! here was a crash waiting for an account with no display
         // name - a Google profile with the name hidden, or an email sign-up.
         // The name is only spliced into a greeting, so a fallback costs
@@ -46,7 +52,10 @@ class CourseProvider extends ChangeNotifier {
             'friend',
         targetLanguage: language,
       );
+      if (_requested != language) return;
+      courses = loaded;
     } catch (error, stackTrace) {
+      if (_requested != language) return;
       logger.e('Could not load $language',
           error: error, stackTrace: stackTrace);
       failedLanguage = language;

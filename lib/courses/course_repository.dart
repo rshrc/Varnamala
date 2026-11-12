@@ -96,10 +96,29 @@ class CourseRepository {
   Map<String, TrailNote> notes(TargetLanguage language) =>
       _cache[language]?.notes ?? const {};
 
-  Future<_LanguageContent> _content(TargetLanguage language) async {
-    final cached = _cache[language];
-    if (cached != null) return cached;
+  /// Starts loading [language] without waiting for it, so it is warm by the
+  /// time it is needed - the language picker calls this on a tap, well before
+  /// the learner reaches Continue.
+  void prefetch(TargetLanguage language) {
+    _content(language).ignore();
+  }
 
+  /// Loads in flight, so a prefetch and the real request share one fetch
+  /// instead of racing two.
+  final Map<TargetLanguage, Future<_LanguageContent>> _loading = {};
+
+  Future<_LanguageContent> _content(TargetLanguage language) {
+    final cached = _cache[language];
+    if (cached != null) return Future.value(cached);
+    // A block body on purpose: `=> _loading.remove(language)` would hand back
+    // the removed future, and whenComplete waits on whatever its callback
+    // returns - so the load would wait on itself forever.
+    return _loading[language] ??= _load(language).whenComplete(() {
+      _loading.remove(language);
+    });
+  }
+
+  Future<_LanguageContent> _load(TargetLanguage language) async {
     final remote = await _remoteContent(language);
     if (remote != null) {
       _cache[language] = remote;
@@ -151,18 +170,24 @@ class CourseRepository {
           await firestore.collection('courseConfig').doc(language.name).get();
       final releaseId = config.data()?['activeReleaseId'] as String?;
       if (releaseId == null || releaseId.isEmpty) return null;
-      final files = firestore
+      // The whole release in one query. Reading the manifest, then each course
+      // in turn, then the dictionary and notes was some twenty round trips
+      // back to back - seconds on a phone, spent on every launch and every
+      // language switch with nothing on screen but a spinner.
+      final files = await firestore
           .collection('courseReleases')
           .doc(language.name)
           .collection('versions')
           .doc(releaseId)
-          .collection('files');
-      final manifest = _storedJson((await files.doc('manifest').get()).data());
+          .collection('files')
+          .get();
+      final byId = {for (final doc in files.docs) doc.id: doc.data()};
+      final manifest = _storedJson(byId['manifest']);
       if (manifest == null) return null;
       final rawCourses = <String, Map>{};
       for (final entry in (manifest['courses'] as List).cast<Map>()) {
         final id = entry['id'] as String;
-        final course = _storedJson((await files.doc(id).get()).data());
+        final course = _storedJson(byId[id]);
         if (course == null) {
           // One course the release does not carry - a course not yet written
           // for this language - must not take the other fifteen down with it.
@@ -179,10 +204,8 @@ class CourseRepository {
         return null;
       }
       final dictionary =
-          _storedJson((await files.doc('dictionary').get()).data())
-              ?.cast<String, dynamic>();
-      final notes = _storedJson((await files.doc('notes').get()).data())
-          ?.cast<String, dynamic>();
+          _storedJson(byId['dictionary'])?.cast<String, dynamic>();
+      final notes = _storedJson(byId['notes'])?.cast<String, dynamic>();
       logger.i('Loaded ${language.name} release $releaseId from Firestore');
       return _buildContent(manifest, rawCourses, dictionary, notes, language);
     } catch (error) {

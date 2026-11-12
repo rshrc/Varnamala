@@ -10,6 +10,7 @@ import 'package:provider/provider.dart';
 import 'package:words625/application/language_provider.dart';
 import 'package:words625/core/language_info.dart';
 import 'package:words625/core/responsive.dart';
+import 'package:words625/courses/courses.dart';
 import 'package:words625/views/choose_language/components/app_bar.dart';
 import 'package:words625/views/choose_language/components/continue_button.dart';
 import 'package:words625/views/theme.dart';
@@ -32,17 +33,16 @@ class LangChoicePage extends StatelessWidget {
               const SizedBox(height: 4),
               Text(
                 'What do you want to learn?',
-                style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
+                style: Theme.of(context).textTheme.headlineSmall
+                    ?.copyWith(fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 4),
               Text(
                 'For English speakers',
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: context.appTextSecondary,
-                      fontWeight: FontWeight.w500,
-                    ),
+                  color: context.appTextSecondary,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
               const SizedBox(height: 16),
               Expanded(
@@ -80,13 +80,23 @@ class LanguageOptionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<LanguageProvider>(
-      builder: (context, languageState, _) {
-        final isSelected = languageState.canConfirmSelection &&
-            languageState.selectedLanguage == info.language;
+    // Only whether *this* tile is the chosen one: a tap then rebuilds the tile
+    // losing the selection and the tile gaining it, not all thirteen.
+    final isSelected = context.select<LanguageProvider, bool>(
+      (languageState) =>
+          languageState.canConfirmSelection &&
+          languageState.selectedLanguage == info.language,
+    );
 
+    return Builder(
+      builder: (context) {
         return GestureDetector(
-          onTap: () => languageState.setLanguage(info.language),
+          onTap: () {
+            context.read<LanguageProvider>().setLanguage(info.language);
+            // Start the download now, so it is usually finished by the time
+            // the learner reaches Continue.
+            courseRepository.prefetch(info.language);
+          },
           child: AnimatedContainer(
             duration: const Duration(milliseconds: 160),
             curve: Curves.easeOut,

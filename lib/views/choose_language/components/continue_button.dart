@@ -1,3 +1,6 @@
+// Dart imports:
+import 'dart:async';
+
 // Flutter imports:
 import 'package:flutter/material.dart';
 
@@ -29,9 +32,13 @@ class ContinueButton extends StatelessWidget {
           onPressed: languageState.canConfirmSelection
               ? () async {
                   final canReturn = context.router.canPop();
+                  // Local preferences only; the account sync runs on its own.
                   await languageState.cacheLanguage();
-                  await courseState.getCourses(
-                    languageState.selectedLanguage,
+                  // Loaded behind the transition, not before it. Waiting here
+                  // left the button dead for the whole download, and the path
+                  // has its own loader for the moment it takes.
+                  unawaited(
+                    courseState.getCourses(languageState.selectedLanguage),
                   );
                   if (!context.mounted) return;
                   if (canReturn) {
