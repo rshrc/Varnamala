@@ -61,17 +61,16 @@ class VarnamalaColors extends ThemeExtension<VarnamalaColors> {
     Color? shadowTint,
     LinearGradient? pathGradient,
     List<Color>? coursePalette,
-  }) =>
-      VarnamalaColors(
-        info: info ?? this.info,
-        success: success ?? this.success,
-        warning: warning ?? this.warning,
-        danger: danger ?? this.danger,
-        violet: violet ?? this.violet,
-        shadowTint: shadowTint ?? this.shadowTint,
-        pathGradient: pathGradient ?? this.pathGradient,
-        coursePalette: coursePalette ?? this.coursePalette,
-      );
+  }) => VarnamalaColors(
+    info: info ?? this.info,
+    success: success ?? this.success,
+    warning: warning ?? this.warning,
+    danger: danger ?? this.danger,
+    violet: violet ?? this.violet,
+    shadowTint: shadowTint ?? this.shadowTint,
+    pathGradient: pathGradient ?? this.pathGradient,
+    coursePalette: coursePalette ?? this.coursePalette,
+  );
 
   @override
   VarnamalaColors lerp(VarnamalaColors? other, double t) {
@@ -86,8 +85,11 @@ class VarnamalaColors extends ThemeExtension<VarnamalaColors> {
       pathGradient: LinearGradient.lerp(pathGradient, other.pathGradient, t)!,
       coursePalette: [
         for (var i = 0; i < coursePalette.length; i++)
-          Color.lerp(coursePalette[i],
-              other.coursePalette[i % other.coursePalette.length], t)!,
+          Color.lerp(
+            coursePalette[i],
+            other.coursePalette[i % other.coursePalette.length],
+            t,
+          )!,
       ],
     );
   }
@@ -159,8 +161,11 @@ bool _isLuminousHue(double hue) {
 
 Color _tone(double hue, double saturation, double lightness) =>
     HSLColor.fromAHSL(
-            1, hue % 360, saturation.clamp(0.0, 1.0), lightness.clamp(0.0, 1.0))
-        .toColor();
+      1,
+      hue % 360,
+      saturation.clamp(0.0, 1.0),
+      lightness.clamp(0.0, 1.0),
+    ).toColor();
 
 /// Near-black or white, whichever actually contrasts more with [background].
 ///
@@ -258,9 +263,9 @@ const List<AppPalette> appPalettes = [
 ];
 
 AppPalette paletteById(String id) => appPalettes.firstWhere(
-      (palette) => palette.id == id,
-      orElse: () => appPalettes.first,
-    );
+  (palette) => palette.id == id,
+  orElse: () => appPalettes.first,
+);
 
 /// Border radii, shared by every palette.
 abstract final class AppRadius {
@@ -272,22 +277,22 @@ abstract final class AppRadius {
 }
 
 TextTheme _textTheme(Color primary, Color secondary, Color hint) => TextTheme(
-      displayLarge: TextStyle(color: primary, fontWeight: FontWeight.bold),
-      displayMedium: TextStyle(color: primary, fontWeight: FontWeight.bold),
-      displaySmall: TextStyle(color: primary, fontWeight: FontWeight.bold),
-      headlineLarge: TextStyle(color: primary, fontWeight: FontWeight.w700),
-      headlineMedium: TextStyle(color: primary, fontWeight: FontWeight.w700),
-      headlineSmall: TextStyle(color: primary, fontWeight: FontWeight.w600),
-      titleLarge: TextStyle(color: primary, fontWeight: FontWeight.w600),
-      titleMedium: TextStyle(color: primary, fontWeight: FontWeight.w500),
-      titleSmall: TextStyle(color: primary, fontWeight: FontWeight.w500),
-      bodyLarge: TextStyle(color: primary),
-      bodyMedium: TextStyle(color: secondary),
-      bodySmall: TextStyle(color: hint),
-      labelLarge: TextStyle(color: primary, fontWeight: FontWeight.w600),
-      labelMedium: TextStyle(color: secondary),
-      labelSmall: TextStyle(color: hint),
-    );
+  displayLarge: TextStyle(color: primary, fontWeight: FontWeight.bold),
+  displayMedium: TextStyle(color: primary, fontWeight: FontWeight.bold),
+  displaySmall: TextStyle(color: primary, fontWeight: FontWeight.bold),
+  headlineLarge: TextStyle(color: primary, fontWeight: FontWeight.w700),
+  headlineMedium: TextStyle(color: primary, fontWeight: FontWeight.w700),
+  headlineSmall: TextStyle(color: primary, fontWeight: FontWeight.w600),
+  titleLarge: TextStyle(color: primary, fontWeight: FontWeight.w600),
+  titleMedium: TextStyle(color: primary, fontWeight: FontWeight.w500),
+  titleSmall: TextStyle(color: primary, fontWeight: FontWeight.w500),
+  bodyLarge: TextStyle(color: primary),
+  bodyMedium: TextStyle(color: secondary),
+  bodySmall: TextStyle(color: hint),
+  labelLarge: TextStyle(color: primary, fontWeight: FontWeight.w600),
+  labelMedium: TextStyle(color: secondary),
+  labelSmall: TextStyle(color: hint),
+);
 
 /// Builds the full theme for one palette in one brightness.
 ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
@@ -307,12 +312,18 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
 
   final Color primary = isDark
       ? _tone(palette.primaryHue, 0.82 * c, 0.66)
-      : _tone(palette.primaryHue, 0.85 * c,
-          _isLuminousHue(palette.primaryHue) ? 0.52 : 0.335);
+      : _tone(
+          palette.primaryHue,
+          0.85 * c,
+          _isLuminousHue(palette.primaryHue) ? 0.52 : 0.335,
+        );
   final Color secondary = isDark
       ? _tone(palette.secondaryHue, 0.78 * c, 0.68)
-      : _tone(palette.secondaryHue, 0.80 * c,
-          _isLuminousHue(palette.secondaryHue) ? 0.52 : 0.345);
+      : _tone(
+          palette.secondaryHue,
+          0.80 * c,
+          _isLuminousHue(palette.secondaryHue) ? 0.52 : 0.345,
+        );
   final Color tertiary = accent(palette.violetHue);
 
   final Color primaryContainer = isDark
@@ -325,22 +336,50 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       ? _tone(palette.violetHue, 0.52 * c, 0.24)
       : _tone(palette.violetHue, 0.70 * c, 0.89);
 
+  // Fixed roles deliberately do not change with brightness. Components that
+  // use them (for example a branded badge shared by light and dark cards)
+  // should not change identity when the app switches mode.
+  Color fixed(double hue) => _tone(hue, 0.70 * c, 0.88);
+  Color fixedDim(double hue) => _tone(hue, 0.72 * c, 0.74);
+  Color onFixed(double hue) => _tone(hue, 0.58 * c, 0.11);
+  Color onFixedVariant(double hue) => _tone(hue, 0.52 * c, 0.25);
+
   final Color danger = accent(palette.dangerHue);
   final Color dangerContainer = isDark
       ? _tone(palette.dangerHue, 0.42, 0.24)
       : _tone(palette.dangerHue, 0.48, 0.92);
 
-  // Surfaces carry a trace of the primary hue, which is what stops a palette
-  // from looking like colour dropped onto grey.
+  // Material 3 needs an actual surface ladder. Previously nearly every role
+  // fell back to `surface`, while container/highest were the exact same
+  // colour. Cards, sheets, menus and disabled controls consequently collapsed
+  // into one slab. Keep every rung neutral-tinted but visibly distinct.
   final Color surface = isDark
-      ? _tone(palette.neutralHue, 0.34 * nc, 0.115)
-      : _tone(palette.neutralHue, 0.55 * nc, 0.99);
+      ? _tone(palette.neutralHue, 0.30 * nc, 0.10)
+      : _tone(palette.neutralHue, 0.34 * nc, 0.985);
   final Color scaffold = isDark
       ? _tone(palette.neutralHue, 0.38 * nc, 0.07)
       : _tone(palette.neutralHue, 0.72 * nc, 0.965);
-  final Color elevated = isDark
-      ? _tone(palette.neutralHue, 0.30 * nc, 0.165)
-      : _tone(palette.neutralHue, 0.50 * nc, 0.95);
+  final Color surfaceDim = isDark
+      ? _tone(palette.neutralHue, 0.34 * nc, 0.065)
+      : _tone(palette.neutralHue, 0.24 * nc, hc ? 0.82 : 0.87);
+  final Color surfaceBright = isDark
+      ? _tone(palette.neutralHue, 0.22 * nc, hc ? 0.30 : 0.24)
+      : _tone(palette.neutralHue, 0.24 * nc, 0.995);
+  final Color surfaceContainerLowest = isDark
+      ? _tone(palette.neutralHue, 0.36 * nc, 0.045)
+      : _tone(palette.neutralHue, 0.18 * nc, 1.0);
+  final Color surfaceContainerLow = isDark
+      ? _tone(palette.neutralHue, 0.31 * nc, 0.12)
+      : _tone(palette.neutralHue, 0.32 * nc, 0.972);
+  final Color surfaceContainer = isDark
+      ? _tone(palette.neutralHue, 0.29 * nc, 0.145)
+      : _tone(palette.neutralHue, 0.34 * nc, 0.952);
+  final Color surfaceContainerHigh = isDark
+      ? _tone(palette.neutralHue, 0.27 * nc, 0.18)
+      : _tone(palette.neutralHue, 0.32 * nc, 0.93);
+  final Color surfaceContainerHighest = isDark
+      ? _tone(palette.neutralHue, 0.25 * nc, hc ? 0.27 : 0.22)
+      : _tone(palette.neutralHue, 0.30 * nc, hc ? 0.86 : 0.90);
 
   final Color onSurface = isDark
       ? _tone(palette.neutralHue, 0.10 * nc, hc ? 0.99 : 0.95)
@@ -359,35 +398,64 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       ? _tone(palette.neutralHue, 0.12 * nc, hc ? 0.62 : 0.44)
       : _tone(palette.neutralHue, 0.16 * nc, hc ? 0.44 : 0.62);
 
-  final Color onContainer = isDark
-      ? _tone(palette.neutralHue, 0.12, 0.92)
-      : _tone(palette.neutralHue, 0.45, 0.16);
+  final Color inverseSurface = isDark
+      ? _tone(palette.neutralHue, 0.12 * nc, 0.91)
+      : _tone(palette.neutralHue, 0.28 * nc, 0.20);
+  final Color onInverseSurface = isDark
+      ? _tone(palette.neutralHue, 0.28 * nc, 0.18)
+      : _tone(palette.neutralHue, 0.10 * nc, 0.96);
+  final Color inversePrimary = isDark
+      ? _tone(palette.primaryHue, 0.76 * c, 0.34)
+      : _tone(palette.primaryHue, 0.72 * c, 0.76);
 
   final colorScheme = ColorScheme(
     brightness: brightness,
     primary: primary,
     onPrimary: onColorFor(primary),
     primaryContainer: primaryContainer,
-    onPrimaryContainer: onContainer,
+    onPrimaryContainer: onColorFor(primaryContainer),
+    primaryFixed: fixed(palette.primaryHue),
+    primaryFixedDim: fixedDim(palette.primaryHue),
+    onPrimaryFixed: onFixed(palette.primaryHue),
+    onPrimaryFixedVariant: onFixedVariant(palette.primaryHue),
     secondary: secondary,
     onSecondary: onColorFor(secondary),
     secondaryContainer: secondaryContainer,
-    onSecondaryContainer: onContainer,
+    onSecondaryContainer: onColorFor(secondaryContainer),
+    secondaryFixed: fixed(palette.secondaryHue),
+    secondaryFixedDim: fixedDim(palette.secondaryHue),
+    onSecondaryFixed: onFixed(palette.secondaryHue),
+    onSecondaryFixedVariant: onFixedVariant(palette.secondaryHue),
     tertiary: tertiary,
     onTertiary: onColorFor(tertiary),
     tertiaryContainer: tertiaryContainer,
-    onTertiaryContainer: onContainer,
+    onTertiaryContainer: onColorFor(tertiaryContainer),
+    tertiaryFixed: fixed(palette.violetHue),
+    tertiaryFixedDim: fixedDim(palette.violetHue),
+    onTertiaryFixed: onFixed(palette.violetHue),
+    onTertiaryFixedVariant: onFixedVariant(palette.violetHue),
     error: danger,
     onError: onColorFor(danger),
     errorContainer: dangerContainer,
-    onErrorContainer: onContainer,
+    onErrorContainer: onColorFor(dangerContainer),
     surface: surface,
     onSurface: onSurface,
-    surfaceContainer: elevated,
-    surfaceContainerHighest: elevated,
+    surfaceDim: surfaceDim,
+    surfaceBright: surfaceBright,
+    surfaceContainerLowest: surfaceContainerLowest,
+    surfaceContainerLow: surfaceContainerLow,
+    surfaceContainer: surfaceContainer,
+    surfaceContainerHigh: surfaceContainerHigh,
+    surfaceContainerHighest: surfaceContainerHighest,
     onSurfaceVariant: onSurfaceVariant,
     outline: outline,
     outlineVariant: outlineVariant,
+    shadow: const Color(0xFF000000),
+    scrim: const Color(0xFF000000),
+    inverseSurface: inverseSurface,
+    onInverseSurface: onInverseSurface,
+    inversePrimary: inversePrimary,
+    surfaceTint: primary,
   );
 
   // Course nodes fan out around the palette's own hue. The golden-angle step
@@ -498,7 +566,7 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
     ),
     inputDecorationTheme: InputDecorationTheme(
       filled: true,
-      fillColor: elevated,
+      fillColor: surfaceContainerHigh,
       contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(AppRadius.medium),
@@ -537,7 +605,8 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
             states.contains(WidgetState.dragged),
       ),
       thickness: WidgetStateProperty.resolveWith(
-        (states) => states.contains(WidgetState.hovered) ||
+        (states) =>
+            states.contains(WidgetState.hovered) ||
                 states.contains(WidgetState.dragged)
             ? 9
             : 5,
@@ -559,10 +628,13 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       trackBorderColor: const WidgetStatePropertyAll(Colors.transparent),
     ),
     snackBarTheme: SnackBarThemeData(
-      backgroundColor: elevated,
-      contentTextStyle:
-          TextStyle(inherit: false, color: onSurface, fontSize: 14),
-      actionTextColor: primary,
+      backgroundColor: inverseSurface,
+      contentTextStyle: TextStyle(
+        inherit: false,
+        color: onInverseSurface,
+        fontSize: 14,
+      ),
+      actionTextColor: inversePrimary,
       // Floating so it reads as a message that arrived, not as a strip welded
       // to the bottom of the window. The width cap that keeps it from becoming
       // a banner on a desktop is applied in `Words625App` (now `VarnamalaApp`), which is the first
@@ -583,7 +655,7 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
     ),
     tooltipTheme: TooltipThemeData(
       decoration: BoxDecoration(
-        color: elevated,
+        color: surfaceContainerHigh,
         borderRadius: BorderRadius.circular(AppRadius.small),
         border: Border.all(color: outlineVariant),
       ),
@@ -596,11 +668,14 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       waitDuration: const Duration(milliseconds: 650),
     ),
     chipTheme: ChipThemeData(
-      backgroundColor: elevated,
+      backgroundColor: surfaceContainer,
       selectedColor: primaryContainer,
       labelStyle: TextStyle(inherit: false, color: onSurface, fontSize: 14),
-      secondaryLabelStyle:
-          TextStyle(inherit: false, color: onContainer, fontSize: 14),
+      secondaryLabelStyle: TextStyle(
+        inherit: false,
+        color: onColorFor(primaryContainer),
+        fontSize: 14,
+      ),
       side: BorderSide(color: outlineVariant),
       iconTheme: IconThemeData(color: extras.info),
     ),
@@ -608,8 +683,11 @@ ThemeData buildAppTheme(AppPalette palette, Brightness brightness) {
       iconColor: extras.info,
       textColor: onSurface,
       titleTextStyle: TextStyle(inherit: false, color: onSurface, fontSize: 16),
-      subtitleTextStyle:
-          TextStyle(inherit: false, color: onSurfaceVariant, fontSize: 14),
+      subtitleTextStyle: TextStyle(
+        inherit: false,
+        color: onSurfaceVariant,
+        fontSize: 14,
+      ),
     ),
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: primary,

@@ -58,6 +58,62 @@ void main() {
           _expectReadable(scheme.onError, scheme.error, where: label);
           _expectReadable(scheme.onErrorContainer, scheme.errorContainer,
               where: label);
+          _expectReadable(scheme.onPrimaryFixed, scheme.primaryFixed,
+              where: label);
+          _expectReadable(
+              scheme.onPrimaryFixedVariant, scheme.primaryFixedDim,
+              where: label);
+          _expectReadable(scheme.onSecondaryFixed, scheme.secondaryFixed,
+              where: label);
+          _expectReadable(
+              scheme.onSecondaryFixedVariant, scheme.secondaryFixedDim,
+              where: label);
+          _expectReadable(scheme.onTertiaryFixed, scheme.tertiaryFixed,
+              where: label);
+          _expectReadable(
+              scheme.onTertiaryFixedVariant, scheme.tertiaryFixedDim,
+              where: label);
+          _expectReadable(scheme.onInverseSurface, scheme.inverseSurface,
+              where: label);
+          for (final surface in [
+            scheme.surfaceDim,
+            scheme.surface,
+            scheme.surfaceBright,
+            scheme.surfaceContainerLowest,
+            scheme.surfaceContainerLow,
+            scheme.surfaceContainer,
+            scheme.surfaceContainerHigh,
+            scheme.surfaceContainerHighest,
+          ]) {
+            _expectReadable(scheme.onSurface, surface, where: label);
+          }
+        });
+
+        test('surface roles form a real elevation ladder', () {
+          final ladder = [
+            scheme.surfaceContainerLowest,
+            scheme.surfaceContainerLow,
+            scheme.surfaceContainer,
+            scheme.surfaceContainerHigh,
+            scheme.surfaceContainerHighest,
+          ];
+          expect(ladder.toSet(), hasLength(ladder.length), reason: label);
+
+          final luminance = ladder.map((color) => color.computeLuminance());
+          final ordered = brightness == Brightness.dark
+              ? luminance.toList()
+              : luminance.toList().reversed.toList();
+          for (var index = 1; index < ordered.length; index++) {
+            expect(
+              ordered[index],
+              greaterThan(ordered[index - 1]),
+              reason: '$label: surface ladder is out of order',
+            );
+          }
+
+          expect(scheme.surfaceDim, isNot(scheme.surfaceBright),
+              reason: label);
+          expect(scheme.surfaceTint, scheme.primary, reason: label);
         });
 
         test('semantic accents stand out from cards', () {
