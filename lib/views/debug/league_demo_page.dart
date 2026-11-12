@@ -124,11 +124,7 @@ class _LeagueDemoPageState extends State<LeagueDemoPage> {
                 ],
               ),
               const SizedBox(height: 18),
-              LeagueBoard(
-                users: _board,
-                language: _language,
-                myUserId: _me,
-              ),
+              LeagueBoard(users: _board, language: _language, myUserId: _me),
               const SizedBox(height: 20),
               Row(
                 children: [
@@ -140,10 +136,7 @@ class _LeagueDemoPageState extends State<LeagueDemoPage> {
                     ),
                   ),
                   const SizedBox(width: 10),
-                  OutlinedButton(
-                    onPressed: _reset,
-                    child: const Text('Reset'),
-                  ),
+                  OutlinedButton(onPressed: _reset, child: const Text('Reset')),
                 ],
               ),
             ],

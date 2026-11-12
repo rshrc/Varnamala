@@ -82,17 +82,18 @@ class _LeagueBoardState extends State<LeagueBoard> {
   }
 
   Map<String, int> _ranksOf(List<LeaderboardEntry> users) => {
-        for (var index = 0; index < users.length; index++)
-          users[index].userId: index,
-      };
+    for (var index = 0; index < users.length; index++)
+      users[index].userId: index,
+  };
 
   @override
   Widget build(BuildContext context) {
     // A learner who has asked the system for less motion gets the standings,
     // not the show.
     final stillness = MediaQuery.disableAnimationsOf(context);
-    final duration =
-        stillness ? Duration.zero : const Duration(milliseconds: 620);
+    final duration = stillness
+        ? Duration.zero
+        : const Duration(milliseconds: 620);
 
     return SizedBox(
       height: widget.users.length * kLeagueRowHeight,
@@ -137,20 +138,20 @@ class PodiumColors {
   const PodiumColors._();
 
   static Color? forRank(BuildContext context, int rank) => switch (rank) {
-        1 => context.appWarning,
-        // Silver has no hue of its own; the palette's own neutral is the
-        // honest version of it.
-        2 => context.appTextSecondary,
-        // Bronze is gold dragged towards red.
-        3 => Color.lerp(context.appWarning, context.appDanger, 0.45),
-        _ => null,
-      };
+    1 => context.appWarning,
+    // Silver has no hue of its own; the palette's own neutral is the
+    // honest version of it.
+    2 => context.appTextSecondary,
+    // Bronze is gold dragged towards red.
+    3 => Color.lerp(context.appWarning, context.appDanger, 0.45),
+    _ => null,
+  };
 
   static IconData? iconForRank(int rank) => switch (rank) {
-        1 => Icons.workspace_premium_rounded,
-        2 || 3 => Icons.military_tech_rounded,
-        _ => null,
-      };
+    1 => Icons.workspace_premium_rounded,
+    2 || 3 => Icons.military_tech_rounded,
+    _ => null,
+  };
 }
 
 /// One learner's place on the board.
@@ -191,8 +192,8 @@ class LeagueRow extends StatelessWidget {
           color: isMe
               ? context.appAccent.withValues(alpha: 0.10)
               : podium != null
-                  ? podium.withValues(alpha: 0.07)
-                  : context.appSurface,
+              ? podium.withValues(alpha: 0.07)
+              : context.appSurface,
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
           border: Border.all(
             width: isMe || podium != null ? 2 : 1,
@@ -236,10 +237,8 @@ class LeagueRow extends StatelessWidget {
                       Flexible(
                         child: Text(
                           user.name,
-                          style:
-                              Theme.of(context).textTheme.titleSmall?.copyWith(
-                                    fontWeight: FontWeight.w600,
-                                  ),
+                          style: Theme.of(context).textTheme.titleSmall
+                              ?.copyWith(fontWeight: FontWeight.w600),
                           overflow: TextOverflow.ellipsis,
                         ),
                       ),
@@ -256,9 +255,8 @@ class LeagueRow extends StatelessWidget {
                   if (user.languages.isNotEmpty)
                     Text(
                       user.languages.join(', ').toTitleCase,
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: context.appInfo,
-                          ),
+                      style: Theme.of(context).textTheme.bodySmall
+                          ?.copyWith(color: context.appInfo),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                     ),
@@ -348,13 +346,17 @@ class _PulseState extends State<_Pulse> with SingleTickerProviderStateMixin {
   late final Animation<double> _scale = TweenSequence<double>([
     for (var beat = 0; beat < _beats; beat++) ...[
       TweenSequenceItem(
-        tween: Tween(begin: 1.0, end: 1.16)
-            .chain(CurveTween(curve: Curves.easeOut)),
+        tween: Tween(
+          begin: 1.0,
+          end: 1.16,
+        ).chain(CurveTween(curve: Curves.easeOut)),
         weight: 1,
       ),
       TweenSequenceItem(
-        tween: Tween(begin: 1.16, end: 1.0)
-            .chain(CurveTween(curve: Curves.easeIn)),
+        tween: Tween(
+          begin: 1.16,
+          end: 1.0,
+        ).chain(CurveTween(curve: Curves.easeIn)),
         weight: 1,
       ),
     ],
@@ -382,15 +384,9 @@ class _PopIn extends StatelessWidget {
     return TweenAnimationBuilder<double>(
       tween: Tween(begin: 0, end: 1),
       duration: const Duration(milliseconds: 420),
-      curve: Interval(
-        delay.inMilliseconds / 600,
-        1,
-        curve: Curves.easeOutBack,
-      ),
-      builder: (context, value, child) => Transform.scale(
-        scale: value.clamp(0.0, 1.4),
-        child: child,
-      ),
+      curve: Interval(delay.inMilliseconds / 600, 1, curve: Curves.easeOutBack),
+      builder: (context, value, child) =>
+          Transform.scale(scale: value.clamp(0.0, 1.4), child: child),
       child: child,
     );
   }

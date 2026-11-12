@@ -29,9 +29,8 @@ class SocialFriends extends StatelessWidget {
                 const SizedBox(width: 8),
                 Text(
                   'Friends',
-                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                  style: Theme.of(context).textTheme.titleLarge
+                      ?.copyWith(fontWeight: FontWeight.w700),
                 ),
               ],
             ),
@@ -48,9 +47,7 @@ class SocialFriends extends StatelessWidget {
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return Center(
-                    child: CircularProgressIndicator(
-                      color: context.appAccent,
-                    ),
+                    child: CircularProgressIndicator(color: context.appAccent),
                   );
                 }
 
@@ -58,7 +55,8 @@ class SocialFriends extends StatelessWidget {
 
                 if (user == null) {
                   return const Center(
-                      child: Text('Please sign in to view friends'));
+                    child: Text('Please sign in to view friends'),
+                  );
                 }
 
                 return ContainedTabBarView(
@@ -129,16 +127,15 @@ class FriendItem extends StatelessWidget {
               children: [
                 Text(
                   name,
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w600,
-                      ),
+                  style: Theme.of(context).textTheme.titleSmall
+                      ?.copyWith(fontWeight: FontWeight.w600),
                 ),
                 Text(
                   '$xp XP',
                   style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: context.appTextSecondary,
-                        fontWeight: FontWeight.w500,
-                      ),
+                    color: context.appTextSecondary,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ],
             ),
@@ -152,7 +149,7 @@ class FriendItem extends StatelessWidget {
 class PaginatedFollowersList extends StatefulWidget {
   final String userId;
   const PaginatedFollowersList({Key? key, required this.userId})
-      : super(key: key);
+    : super(key: key);
 
   @override
   PaginatedFollowersListState createState() => PaginatedFollowersListState();
@@ -215,11 +212,11 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
   Widget build(BuildContext context) {
     if (_followers.isEmpty && !_isLoadingMore) {
       return Center(
-        child: Text('No followers yet',
-            style: Theme.of(context)
-                .textTheme
-                .bodyMedium
-                ?.copyWith(color: context.appTextSecondary)),
+        child: Text(
+          'No followers yet',
+          style: Theme.of(context).textTheme.bodyMedium
+              ?.copyWith(color: context.appTextSecondary),
+        ),
       );
     }
 
@@ -242,10 +239,14 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
           );
         }
         return Center(
-            child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: CircularProgressIndicator(
-                    strokeWidth: 2, color: context.appAccent)));
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              color: context.appAccent,
+            ),
+          ),
+        );
       },
     );
   }
@@ -254,7 +255,7 @@ class PaginatedFollowersListState extends State<PaginatedFollowersList> {
 class PaginatedFollowingList extends StatefulWidget {
   final String userId;
   const PaginatedFollowingList({Key? key, required this.userId})
-      : super(key: key);
+    : super(key: key);
 
   @override
   PaginatedFollowingListState createState() => PaginatedFollowingListState();
@@ -317,11 +318,11 @@ class PaginatedFollowingListState extends State<PaginatedFollowingList> {
   Widget build(BuildContext context) {
     if (_following.isEmpty && !_isLoadingMore) {
       return Center(
-        child: Text('Not following anyone yet',
-            style: Theme.of(context)
-                .textTheme
-                .bodyMedium
-                ?.copyWith(color: context.appTextSecondary)),
+        child: Text(
+          'Not following anyone yet',
+          style: Theme.of(context).textTheme.bodyMedium
+              ?.copyWith(color: context.appTextSecondary),
+        ),
       );
     }
 
@@ -344,10 +345,14 @@ class PaginatedFollowingListState extends State<PaginatedFollowingList> {
           );
         }
         return Center(
-            child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: CircularProgressIndicator(
-                    strokeWidth: 2, color: context.appAccent)));
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: CircularProgressIndicator(
+              strokeWidth: 2,
+              color: context.appAccent,
+            ),
+          ),
+        );
       },
     );
   }

@@ -15,9 +15,7 @@ class ProfilePage extends StatelessWidget {
       child: CustomScrollView(
         physics: const BouncingScrollPhysics(),
         slivers: [
-          SliverToBoxAdapter(
-            child: _ProfileHeader(),
-          ),
+          SliverToBoxAdapter(child: _ProfileHeader()),
           const SliverToBoxAdapter(child: SizedBox(height: 8)),
           const SliverToBoxAdapter(child: FriendUpdates()),
           const SliverToBoxAdapter(child: Statistics()),

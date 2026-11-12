@@ -32,8 +32,8 @@ class FillBlankChoiceExerciseViewState
     final answer = selectedId == null
         ? null
         : widget.exercise.options
-            .firstWhere((option) => option.id == selectedId)
-            .text;
+              .firstWhere((option) => option.id == selectedId)
+              .text;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -52,7 +52,8 @@ class FillBlankChoiceExerciseViewState
             child: ExerciseChoiceTile(
               text: option.text,
               selected: selectedId == option.id,
-              mark: widget.evaluation?.markForOption(
+              mark:
+                  widget.evaluation?.markForOption(
                     option.id,
                     widget.exercise.correctOptionId,
                   ) ??
@@ -95,9 +96,8 @@ class FillBlankSentence extends StatelessWidget {
       children: [
         TappableGlossText(
           text: before,
-          style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                fontWeight: FontWeight.w700,
-              ),
+          style: Theme.of(context).textTheme.titleLarge
+              ?.copyWith(fontWeight: FontWeight.w700),
         ),
         AnimatedContainer(
           duration: const Duration(milliseconds: 150),
@@ -108,25 +108,21 @@ class FillBlankSentence extends StatelessWidget {
                 ? context.appElevatedSurface
                 : filled.withValues(alpha: mark.isMarked ? 0.20 : 0.12),
             borderRadius: BorderRadius.circular(VarnamalaTheme.radiusSmall),
-            border: Border.all(
-              color: filled ?? context.appBorder,
-              width: 2,
-            ),
+            border: Border.all(color: filled ?? context.appBorder, width: 2),
           ),
           child: Text(
             answer ?? '________',
             textAlign: TextAlign.center,
             style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                  color: filled ?? context.appTextSecondary,
-                  fontWeight: FontWeight.w800,
-                ),
+              color: filled ?? context.appTextSecondary,
+              fontWeight: FontWeight.w800,
+            ),
           ),
         ),
         TappableGlossText(
           text: after,
-          style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                fontWeight: FontWeight.w700,
-              ),
+          style: Theme.of(context).textTheme.titleLarge
+              ?.copyWith(fontWeight: FontWeight.w700),
         ),
       ],
     );

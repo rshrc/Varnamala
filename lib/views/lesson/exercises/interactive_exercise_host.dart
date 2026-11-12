@@ -25,38 +25,41 @@ class InteractiveExerciseHost extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => switch (exercise) {
-        final ChoiceExercise item => ChoiceExerciseView(
-            exercise: item,
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-        final WordBankExercise item => TokenBankExerciseView(
-            sourceText: item.sourceText,
-            tokens: item.tokens,
-            acceptedOrders: item.acceptedOrders,
-            shuffleSeed: stableHash32(item.id),
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-        final SentenceOrderExercise item => SentenceOrderExerciseView(
-            exercise: item,
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-        final FillBlankChoiceExercise item => FillBlankChoiceExerciseView(
-            exercise: item,
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-        final FillBlankTextExercise item => FillBlankTextExerciseView(
-            exercise: item,
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-        final PictureChoiceExercise item => PictureChoiceExerciseView(
-            exercise: item,
-            onChanged: onResponseChanged,
-            evaluation: evaluation,
-          ),
-      };
+    final ChoiceExercise item => ChoiceExerciseView(
+      exercise: item,
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    final WordBankExercise item => TokenBankExerciseView(
+      sourceText: item.sourceText,
+      tokens: item.tokens,
+      acceptedOrders: item.acceptedOrders,
+      shuffleSeed: stableHash32(item.id),
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    final SentenceOrderExercise item => SentenceOrderExerciseView(
+      exercise: item,
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    final FillBlankChoiceExercise item => FillBlankChoiceExerciseView(
+      exercise: item,
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    final FillBlankTextExercise item => FillBlankTextExerciseView(
+      exercise: item,
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    final PictureChoiceExercise item => PictureChoiceExerciseView(
+      exercise: item,
+      onChanged: onResponseChanged,
+      evaluation: evaluation,
+    ),
+    _ => throw UnsupportedError(
+      'No exercise view registered for ${exercise.runtimeType}',
+    ),
+  };
 }

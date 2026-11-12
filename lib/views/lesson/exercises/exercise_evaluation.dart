@@ -42,9 +42,9 @@ class ExerciseEvaluation {
 
   /// The option the learner chose, for exercises that are a list of choices.
   String? get chosenOptionId => switch (response) {
-        final ChoiceExerciseResponse item => item.optionId,
-        _ => null,
-      };
+    final ChoiceExerciseResponse item => item.optionId,
+    _ => null,
+  };
 
   /// Marks one option of a multiple choice.
   ///
@@ -66,26 +66,26 @@ extension AnswerMarkPainting on AnswerMark {
 
   /// Null while unmarked, so callers can fall back to their resting colour.
   Color? color(BuildContext context) => switch (this) {
-        AnswerMark.none => null,
-        AnswerMark.correct || AnswerMark.revealed => context.appSuccess,
-        AnswerMark.wrong => context.appDanger,
-      };
+    AnswerMark.none => null,
+    AnswerMark.correct || AnswerMark.revealed => context.appSuccess,
+    AnswerMark.wrong => context.appDanger,
+  };
 
   IconData? get icon => switch (this) {
-        AnswerMark.none => null,
-        AnswerMark.correct => Icons.check_circle_rounded,
-        // Hollow rather than solid, and never an arrow: an arrow on a green
-        // tile reads as "go here", and a solid tick would claim the learner
-        // got this one.
-        AnswerMark.revealed => Icons.check_circle_outline_rounded,
-        AnswerMark.wrong => Icons.cancel_rounded,
-      };
+    AnswerMark.none => null,
+    AnswerMark.correct => Icons.check_circle_rounded,
+    // Hollow rather than solid, and never an arrow: an arrow on a green
+    // tile reads as "go here", and a solid tick would claim the learner
+    // got this one.
+    AnswerMark.revealed => Icons.check_circle_outline_rounded,
+    AnswerMark.wrong => Icons.cancel_rounded,
+  };
 
   /// Screen-reader wording, since colour alone is not feedback for everyone.
   String? get semanticLabel => switch (this) {
-        AnswerMark.none => null,
-        AnswerMark.correct => 'Correct',
-        AnswerMark.revealed => 'The correct answer',
-        AnswerMark.wrong => 'Wrong',
-      };
+    AnswerMark.none => null,
+    AnswerMark.correct => 'Correct',
+    AnswerMark.revealed => 'The correct answer',
+    AnswerMark.wrong => 'Wrong',
+  };
 }

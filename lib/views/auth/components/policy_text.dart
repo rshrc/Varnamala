@@ -19,11 +19,14 @@ class PolicyText extends StatelessWidget {
         children: const <TextSpan>[
           TextSpan(text: 'By signing in to words625, you agree to our '),
           TextSpan(
-              text: 'Terms', style: TextStyle(fontWeight: FontWeight.bold)),
+            text: 'Terms',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
           TextSpan(text: ' and '),
           TextSpan(
-              text: '\nPrivacy Policy',
-              style: TextStyle(fontWeight: FontWeight.bold)),
+            text: '\nPrivacy Policy',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
         ],
       ),
     );

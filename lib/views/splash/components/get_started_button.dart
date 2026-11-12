@@ -20,6 +20,7 @@ import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.gr.dart';
 import 'package:words625/service/language_preference_service.dart';
 import 'package:words625/service/locator.dart';
+
 import 'web_wrapper.dart' as web;
 
 // Conditional import for web-only renderButton
@@ -49,9 +50,9 @@ class _GetStartedButtonState extends State<GetStartedButton> {
     super.initState();
     // Listen to authentication events (works for both web and mobile).
     // On web, Google's renderButton triggers events on this stream.
-    _authSubscription = GoogleSignIn.instance.authenticationEvents
-        .listen(_handleAuthenticationEvent)
-      ..onError(_handleAuthenticationError);
+    _authSubscription = GoogleSignIn.instance.authenticationEvents.listen(
+      _handleAuthenticationEvent,
+    )..onError(_handleAuthenticationError);
   }
 
   @override
@@ -99,8 +100,8 @@ class _GetStartedButtonState extends State<GetStartedButton> {
         idToken: googleAuth.idToken,
       );
 
-      UserCredential userCredential =
-          await FirebaseAuth.instance.signInWithCredential(credential);
+      UserCredential userCredential = await FirebaseAuth.instance
+          .signInWithCredential(credential);
       User? firebaseUser = userCredential.user;
 
       if (firebaseUser != null) {
@@ -165,11 +166,9 @@ class _GetStartedButtonState extends State<GetStartedButton> {
     // On mobile, use the custom styled button.
     return ChicletAnimatedButton(
       // Wide on a phone, but never wider than the sign-in column it sits in.
-      width: widget.width ??
-          math.min(
-            MediaQuery.sizeOf(context).width * 0.9,
-            ContentWidth.column,
-          ),
+      width:
+          widget.width ??
+          math.min(MediaQuery.sizeOf(context).width * 0.9, ContentWidth.column),
       onPressed: _handleGoogleLogin,
       buttonType: ChicletButtonTypes.roundedRectangle,
       backgroundColor: Theme.of(context).colorScheme.primary,
@@ -193,16 +192,20 @@ class _GetStartedButtonState extends State<GetStartedButton> {
                   ),
                 ),
                 const SizedBox(width: 12),
-                Icon(Icons.login,
-                    color: Theme.of(context).colorScheme.onPrimary, size: 18)
+                Icon(
+                  Icons.login,
+                  color: Theme.of(context).colorScheme.onPrimary,
+                  size: 18,
+                ),
               ],
             ),
     );
   }
 
   Future<void> _initializeUserDocument(User firebaseUser) async {
-    final userDoc =
-        FirebaseFirestore.instance.collection('users').doc(firebaseUser.uid);
+    final userDoc = FirebaseFirestore.instance
+        .collection('users')
+        .doc(firebaseUser.uid);
 
     try {
       final docSnapshot = await userDoc.get();
@@ -210,8 +213,7 @@ class _GetStartedButtonState extends State<GetStartedButton> {
       if (!docSnapshot.exists) {
         await userDoc.set({
           'name': firebaseUser.displayName ?? 'Anonymous',
-          'profileImage': firebaseUser.photoURL ??
-              'default_image_url', // You can replace 'default_image_url' with any placeholder
+          'profileImage': firebaseUser.photoURL ?? 'default_image_url', // You can replace 'default_image_url' with any placeholder
           'streak': 0,
           'score': 0,
           'gems': 0,
@@ -240,10 +242,12 @@ class _GetStartedButtonState extends State<GetStartedButton> {
           'updatedAt': FieldValue.serverTimestamp(),
         });
         logger.i(
-            "User document created with initial values for userId: ${firebaseUser.uid}");
+          "User document created with initial values for userId: ${firebaseUser.uid}",
+        );
       } else {
-        logger
-            .i("User document already exists for userId: ${firebaseUser.uid}");
+        logger.i(
+          "User document already exists for userId: ${firebaseUser.uid}",
+        );
       }
     } catch (e) {
       logger.e("Error initializing user document: $e");

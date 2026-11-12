@@ -176,8 +176,9 @@ class _SecondaryRailItem extends StatelessWidget {
                     children: [
                       SizedBox(
                         width: _railIconColumnWidth,
-                        child:
-                            Center(child: Icon(icon, size: 22, color: color)),
+                        child: Center(
+                          child: Icon(icon, size: 22, color: color),
+                        ),
                       ),
                       Expanded(
                         child: Text(

@@ -54,19 +54,20 @@ class _FollowButtonState extends State<FollowButton> {
     final currentUserId = FirebaseAuth.instance.currentUser?.uid;
     if (currentUserId == null) return;
 
-    final userDoc =
-        FirebaseFirestore.instance.collection('users').doc(currentUserId);
-    final targetUserDoc =
-        FirebaseFirestore.instance.collection('users').doc(widget.targetUserId);
+    final userDoc = FirebaseFirestore.instance
+        .collection('users')
+        .doc(currentUserId);
+    final targetUserDoc = FirebaseFirestore.instance
+        .collection('users')
+        .doc(widget.targetUserId);
 
     if (_isFollowing) {
       await userDoc.collection('following').doc(widget.targetUserId).delete();
       await targetUserDoc.collection('followers').doc(currentUserId).delete();
       // Keeps the Friendly badge honest when someone unfollows.
-      await userDoc.set(
-        {'friendsCount': FieldValue.increment(-1)},
-        SetOptions(merge: true),
-      );
+      await userDoc.set({
+        'friendsCount': FieldValue.increment(-1),
+      }, SetOptions(merge: true));
       setState(() => _isFollowing = false);
     } else {
       final currentUserSnapshot = await userDoc.get();
@@ -88,10 +89,9 @@ class _FollowButtonState extends State<FollowButton> {
         'followedAt': FieldValue.serverTimestamp(),
       });
 
-      await userDoc.set(
-        {'friendsCount': FieldValue.increment(1)},
-        SetOptions(merge: true),
-      );
+      await userDoc.set({
+        'friendsCount': FieldValue.increment(1),
+      }, SetOptions(merge: true));
       setState(() => _isFollowing = true);
     }
   }
@@ -110,8 +110,9 @@ class _FollowButtonState extends State<FollowButton> {
             padding: const EdgeInsets.symmetric(horizontal: 16),
             decoration: _isFollowing
                 ? BoxDecoration(
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusSmall,
+                    ),
                     border: Border.all(color: context.appBorder),
                   )
                 : null,

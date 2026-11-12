@@ -21,10 +21,14 @@ class HeartsDisplay extends StatelessWidget {
           return const Loader();
         }
 
-        final heartsState = snapshot.data ??
+        final heartsState =
+            snapshot.data ??
             const HeartsState(
-                hearts: HeartsProvider.maxHearts, heartsRefillAt: null);
-        final isInfinite = heartsState.hearts >= HeartsProvider.maxHearts &&
+              hearts: HeartsProvider.maxHearts,
+              heartsRefillAt: null,
+            );
+        final isInfinite =
+            heartsState.hearts >= HeartsProvider.maxHearts &&
             heartsState.heartsRefillAt == null;
 
         return Tooltip(
@@ -40,8 +44,11 @@ class HeartsDisplay extends StatelessWidget {
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(Icons.favorite_rounded,
-                    color: context.appDanger, size: 20),
+                Icon(
+                  Icons.favorite_rounded,
+                  color: context.appDanger,
+                  size: 20,
+                ),
                 const SizedBox(width: 4),
                 if (isInfinite) ...[
                   Icon(

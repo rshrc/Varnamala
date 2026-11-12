@@ -52,16 +52,14 @@ class AccountWidget extends StatelessWidget {
               children: [
                 Text(
                   handle,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                  style: Theme.of(context).textTheme.titleMedium
+                      ?.copyWith(fontWeight: FontWeight.w700),
                 ),
                 const SizedBox(height: 2),
                 Text(
                   'Only this is shown to others',
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: context.appTextSecondary,
-                      ),
+                  style: Theme.of(context).textTheme.bodySmall
+                      ?.copyWith(color: context.appTextSecondary),
                 ),
               ],
             ),

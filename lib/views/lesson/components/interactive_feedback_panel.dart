@@ -34,10 +34,7 @@ const List<String> _consolation = [
 ];
 
 class InteractiveFeedbackPanel extends StatelessWidget {
-  const InteractiveFeedbackPanel({
-    required this.engine,
-    super.key,
-  });
+  const InteractiveFeedbackPanel({required this.engine, super.key});
 
   final InteractiveLessonEngine engine;
 

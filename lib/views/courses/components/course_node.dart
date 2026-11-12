@@ -121,8 +121,8 @@ class CourseNodeState extends State<CourseNode> {
     final color = complete
         ? context.appWarning
         : widget.isLocked
-            ? Theme.of(context).colorScheme.surfaceContainerHighest
-            : context.appColors.courseColor(widget.pathIndex);
+        ? Theme.of(context).colorScheme.surfaceContainerHighest
+        : context.appColors.courseColor(widget.pathIndex);
 
     return Column(
       mainAxisSize: MainAxisSize.min,
@@ -176,8 +176,8 @@ class CourseNodeState extends State<CourseNode> {
             color: widget.isLocked
                 ? context.appTextSecondary
                 : widget.isCurrent
-                    ? context.appTextPrimary
-                    : context.appTextSecondary,
+                ? context.appTextPrimary
+                : context.appTextSecondary,
           ),
         ),
         const SizedBox(height: 2),
@@ -187,8 +187,9 @@ class CourseNodeState extends State<CourseNode> {
               : '${progress.completedPlayableLessons + 1} of ${progress.totalPlayableLessons} lessons',
           textAlign: TextAlign.center,
           style: TextStyle(
-            color:
-                complete ? const Color(0xFFB27700) : context.appTextSecondary,
+            color: complete
+                ? const Color(0xFFB27700)
+                : context.appTextSecondary,
             fontSize: 10,
             fontWeight: complete ? FontWeight.w800 : FontWeight.w600,
           ),

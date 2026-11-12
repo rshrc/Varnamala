@@ -5,7 +5,7 @@ class InputField extends StatefulWidget {
   final TextEditingController emailController;
   final TextEditingController passwordController;
   const InputField(this.emailController, this.passwordController, {Key? key})
-      : super(key: key);
+    : super(key: key);
 
   @override
   State<StatefulWidget> createState() {
@@ -20,12 +20,7 @@ class InputFieldState extends State<InputField> {
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.all(10),
-      child: Column(
-        children: [
-          accountField(),
-          passwordField(),
-        ],
-      ),
+      child: Column(children: [accountField(), passwordField()]),
     );
   }
 

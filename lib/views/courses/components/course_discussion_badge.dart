@@ -32,11 +32,7 @@ class CourseDiscussionBadge extends StatelessWidget {
               ),
             ],
           ),
-          child: Icon(
-            Icons.forum_rounded,
-            size: 14,
-            color: context.appInfo,
-          ),
+          child: Icon(Icons.forum_rounded, size: 14, color: context.appInfo),
         ),
       ),
     );

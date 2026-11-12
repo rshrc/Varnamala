@@ -23,14 +23,16 @@ class FriendSuggestions extends StatelessWidget {
           padding: const EdgeInsets.fromLTRB(16, 20, 16, 8),
           child: Row(
             children: [
-              Icon(Icons.person_add_rounded,
-                  color: context.appSuccess, size: 22),
+              Icon(
+                Icons.person_add_rounded,
+                color: context.appSuccess,
+                size: 22,
+              ),
               const SizedBox(width: 8),
               Text(
                 'Friend Suggestions',
-                style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                      fontWeight: FontWeight.w700,
-                    ),
+                style: Theme.of(context).textTheme.titleLarge
+                    ?.copyWith(fontWeight: FontWeight.w700),
               ),
             ],
           ),
@@ -42,16 +44,21 @@ class FriendSuggestions extends StatelessWidget {
             builder: (context, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return Center(
-                    child: CircularProgressIndicator(
-                        color: context.appAccent, strokeWidth: 3));
+                  child: CircularProgressIndicator(
+                    color: context.appAccent,
+                    strokeWidth: 3,
+                  ),
+                );
               }
 
               final currentUser = FirebaseAuth.instance.currentUser;
 
               if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
                 return Center(
-                  child: Text('No suggestions yet',
-                      style: Theme.of(context).textTheme.bodyMedium),
+                  child: Text(
+                    'No suggestions yet',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
                 );
               }
               final friends = snapshot.data!.docs;
@@ -114,9 +121,8 @@ class _FriendCard extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 8),
             child: Text(
               name,
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                    fontWeight: FontWeight.w600,
-                  ),
+              style: Theme.of(context).textTheme.titleSmall
+                  ?.copyWith(fontWeight: FontWeight.w600),
               textAlign: TextAlign.center,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
@@ -144,9 +150,8 @@ class BigTitle extends StatelessWidget {
       padding: const EdgeInsets.fromLTRB(16, 20, 16, 8),
       child: Text(
         text,
-        style: Theme.of(context).textTheme.titleLarge?.copyWith(
-              fontWeight: FontWeight.w700,
-            ),
+        style: Theme.of(context).textTheme.titleLarge
+            ?.copyWith(fontWeight: FontWeight.w700),
       ),
     );
   }

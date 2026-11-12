@@ -8,7 +8,7 @@ class LoginButton extends StatefulWidget {
   final TextEditingController passwordController;
 
   const LoginButton(this.emailController, this.passwordController, {Key? key})
-      : super(key: key);
+    : super(key: key);
 
   @override
   State<StatefulWidget> createState() {

@@ -40,7 +40,8 @@ class ChoiceExerciseViewState extends State<ChoiceExerciseView> {
             child: ExerciseChoiceTile(
               text: option.text,
               selected: selectedId == option.id,
-              mark: widget.evaluation?.markForOption(
+              mark:
+                  widget.evaluation?.markForOption(
                     option.id,
                     widget.exercise.correctOptionId,
                   ) ??

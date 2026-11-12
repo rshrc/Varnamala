@@ -23,23 +23,24 @@ class CourseUnavailableNotice extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.hourglass_empty_rounded,
-                  size: 44, color: context.appInfo),
+              Icon(
+                Icons.hourglass_empty_rounded,
+                size: 44,
+                color: context.appInfo,
+              ),
               const SizedBox(height: 16),
               Text(
                 '${languageInfo(language).englishName} is not ready yet',
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      fontWeight: FontWeight.w700,
-                    ),
+                style: Theme.of(context).textTheme.titleMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
               ),
               const SizedBox(height: 8),
               Text(
                 'Its lessons are still being written. Pick another language for now.',
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: context.appTextSecondary,
-                    ),
+                style: Theme.of(context).textTheme.bodyMedium
+                    ?.copyWith(color: context.appTextSecondary),
               ),
             ],
           ),
@@ -62,18 +63,16 @@ class CourseLoadingIndicator extends StatelessWidget {
           height: 40,
           child: CircularProgressIndicator(
             strokeWidth: 3,
-            valueColor: AlwaysStoppedAnimation<Color>(
-              context.appAccent,
-            ),
+            valueColor: AlwaysStoppedAnimation<Color>(context.appAccent),
           ),
         ),
         const SizedBox(height: 16),
         Text(
           'Loading courses...',
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: context.appTextSecondary,
-                fontWeight: FontWeight.w500,
-              ),
+            color: context.appTextSecondary,
+            fontWeight: FontWeight.w500,
+          ),
         ),
       ],
     );

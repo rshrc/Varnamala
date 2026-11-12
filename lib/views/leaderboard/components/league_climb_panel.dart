@@ -78,8 +78,10 @@ class _LeagueClimbPanelState extends State<LeagueClimbPanel> {
     if (users.length <= widget.visiblePlaces) return users;
     final index = users.indexWhere((entry) => entry.userId == uid);
     if (index < 0) return users.take(widget.visiblePlaces).toList();
-    final start = (index - (widget.visiblePlaces - 2))
-        .clamp(0, users.length - widget.visiblePlaces);
+    final start = (index - (widget.visiblePlaces - 2)).clamp(
+      0,
+      users.length - widget.visiblePlaces,
+    );
     return users.sublist(start, start + widget.visiblePlaces);
   }
 
@@ -88,9 +90,9 @@ class _LeagueClimbPanelState extends State<LeagueClimbPanel> {
     final uid = FirebaseAuth.instance.currentUser?.uid;
 
     return StreamBuilder<String>(
-      stream: context
-          .read<LeagueProvider>()
-          .getUserLeagueStream(widget.language.name),
+      stream: context.read<LeagueProvider>().getUserLeagueStream(
+        widget.language.name,
+      ),
       builder: (context, leagueSnapshot) {
         final league = leagueSnapshot.data;
         if (league == null) return const SizedBox.shrink();
@@ -101,16 +103,18 @@ class _LeagueClimbPanelState extends State<LeagueClimbPanel> {
 
   Widget _board(BuildContext context, String league, String? uid) {
     return StreamBuilder<List<LeaderboardEntry>>(
-      stream: context
-          .read<LeagueProvider>()
-          .getLeagueLeaderboard(league, widget.language.name),
+      stream: context.read<LeagueProvider>().getLeagueLeaderboard(
+        league,
+        widget.language.name,
+      ),
       builder: (context, snapshot) {
         final users = snapshot.data ?? const <LeaderboardEntry>[];
         if (users.isEmpty) return const SizedBox.shrink();
 
         final finalOrder = users;
-        final order =
-            _showFinal ? finalOrder : _before(finalOrder, league, uid);
+        final order = _showFinal
+            ? finalOrder
+            : _before(finalOrder, league, uid);
         final rows = _window(order, uid);
         final myRank = finalOrder.indexWhere((entry) => entry.userId == uid);
 
@@ -119,25 +123,28 @@ class _LeagueClimbPanelState extends State<LeagueClimbPanel> {
           children: [
             Row(
               children: [
-                Icon(Icons.emoji_events_rounded,
-                    color: context.appWarning, size: 20),
+                Icon(
+                  Icons.emoji_events_rounded,
+                  color: context.appWarning,
+                  size: 20,
+                ),
                 const SizedBox(width: 8),
                 Text(
                   '${widget.language.name.toUpperCase()} LEAGUE',
                   style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        color: context.appTextSecondary,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: 0.6,
-                      ),
+                    color: context.appTextSecondary,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 0.6,
+                  ),
                 ),
                 const Spacer(),
                 if (myRank >= 0)
                   Text(
                     '#${myRank + 1}',
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          color: context.appWarning,
-                          fontWeight: FontWeight.w900,
-                        ),
+                      color: context.appWarning,
+                      fontWeight: FontWeight.w900,
+                    ),
                   ),
               ],
             ),

@@ -30,8 +30,9 @@ class _AchievementsState extends State<Achievements> {
       builder: (context, snapshot) {
         final userData = snapshot.data ?? {};
 
-        final displayedAchievements =
-            _expanded ? achievements : achievements.take(3).toList();
+        final displayedAchievements = _expanded
+            ? achievements
+            : achievements.take(3).toList();
         final remainingCount =
             achievements.length - displayedAchievements.length;
 
@@ -41,23 +42,29 @@ class _AchievementsState extends State<Achievements> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _sectionTitle(
-                  context, 'Achievements', Icons.military_tech_rounded),
+                context,
+                'Achievements',
+                Icons.military_tech_rounded,
+              ),
               const SizedBox(height: 8),
               Container(
                 decoration: BoxDecoration(
                   color: context.appSurface,
-                  borderRadius:
-                      BorderRadius.circular(VarnamalaTheme.radiusLarge),
+                  borderRadius: BorderRadius.circular(
+                    VarnamalaTheme.radiusLarge,
+                  ),
                   border: Border.all(color: context.appBorder),
                 ),
                 child: Column(
                   children: [
                     ...displayedAchievements.map((achievement) {
                       final progress = _getProgress(achievement, userData);
-                      final currentLevel =
-                          achievement.getCurrentLevel(progress);
-                      final nextTarget =
-                          achievement.getTargetForLevel(currentLevel);
+                      final currentLevel = achievement.getCurrentLevel(
+                        progress,
+                      );
+                      final nextTarget = achievement.getTargetForLevel(
+                        currentLevel,
+                      );
 
                       return Column(
                         children: [
@@ -87,29 +94,34 @@ class _AchievementsState extends State<Achievements> {
                             });
                           },
                           borderRadius: const BorderRadius.only(
-                            bottomLeft:
-                                Radius.circular(VarnamalaTheme.radiusLarge),
-                            bottomRight:
-                                Radius.circular(VarnamalaTheme.radiusLarge),
+                            bottomLeft: Radius.circular(
+                              VarnamalaTheme.radiusLarge,
+                            ),
+                            bottomRight: Radius.circular(
+                              VarnamalaTheme.radiusLarge,
+                            ),
                           ),
                           child: Padding(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 16, vertical: 14),
+                              horizontal: 16,
+                              vertical: 14,
+                            ),
                             child: Row(
                               children: [
                                 Text(
                                   'View $remainingCount more',
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .titleSmall
+                                  style: Theme.of(context).textTheme.titleSmall
                                       ?.copyWith(
                                         fontWeight: FontWeight.w600,
                                         color: context.appAccent,
                                       ),
                                 ),
                                 const Spacer(),
-                                Icon(Icons.chevron_right_rounded,
-                                    color: context.appInfo, size: 22),
+                                Icon(
+                                  Icons.chevron_right_rounded,
+                                  color: context.appInfo,
+                                  size: 22,
+                                ),
                               ],
                             ),
                           ),
@@ -125,29 +137,34 @@ class _AchievementsState extends State<Achievements> {
                             });
                           },
                           borderRadius: const BorderRadius.only(
-                            bottomLeft:
-                                Radius.circular(VarnamalaTheme.radiusLarge),
-                            bottomRight:
-                                Radius.circular(VarnamalaTheme.radiusLarge),
+                            bottomLeft: Radius.circular(
+                              VarnamalaTheme.radiusLarge,
+                            ),
+                            bottomRight: Radius.circular(
+                              VarnamalaTheme.radiusLarge,
+                            ),
                           ),
                           child: Padding(
                             padding: const EdgeInsets.symmetric(
-                                horizontal: 16, vertical: 14),
+                              horizontal: 16,
+                              vertical: 14,
+                            ),
                             child: Row(
                               children: [
                                 Text(
                                   'Show less',
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .titleSmall
+                                  style: Theme.of(context).textTheme.titleSmall
                                       ?.copyWith(
                                         fontWeight: FontWeight.w600,
                                         color: context.appAccent,
                                       ),
                                 ),
                                 const Spacer(),
-                                Icon(Icons.expand_less_rounded,
-                                    color: context.appInfo, size: 22),
+                                Icon(
+                                  Icons.expand_less_rounded,
+                                  color: context.appInfo,
+                                  size: 22,
+                                ),
                               ],
                             ),
                           ),
@@ -177,9 +194,8 @@ class _AchievementsState extends State<Achievements> {
           const SizedBox(width: 8),
           Text(
             text,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
         ],
       ),
@@ -248,16 +264,14 @@ class _AchievementTile extends StatelessWidget {
               children: [
                 Text(
                   label,
-                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                  style: Theme.of(context).textTheme.titleSmall
+                      ?.copyWith(fontWeight: FontWeight.w700),
                 ),
                 const SizedBox(height: 2),
                 Text(
                   description,
-                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                        color: context.appTextSecondary,
-                      ),
+                  style: Theme.of(context).textTheme.bodySmall
+                      ?.copyWith(color: context.appTextSecondary),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -266,8 +280,9 @@ class _AchievementTile extends StatelessWidget {
                   children: [
                     Expanded(
                       child: ClipRRect(
-                        borderRadius:
-                            BorderRadius.circular(VarnamalaTheme.radiusRound),
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusRound,
+                        ),
                         child: LinearProgressIndicator(
                           value: displayTarget > 0
                               ? (current / displayTarget).clamp(0.0, 1.0)
@@ -282,9 +297,9 @@ class _AchievementTile extends StatelessWidget {
                     Text(
                       '$current/$displayTarget',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: context.appTextSecondary,
-                            fontWeight: FontWeight.w600,
-                          ),
+                        color: context.appTextSecondary,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ],
                 ),

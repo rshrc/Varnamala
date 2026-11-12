@@ -23,21 +23,9 @@ class HomeDestination {
 }
 
 const List<HomeDestination> homeDestinations = [
-  HomeDestination(
-    icon: Icons.school_rounded,
-    label: 'Learn',
-    color: _success,
-  ),
-  HomeDestination(
-    icon: Icons.translate_rounded,
-    label: 'Script',
-    color: _info,
-  ),
-  HomeDestination(
-    icon: Icons.person_rounded,
-    label: 'Profile',
-    color: _violet,
-  ),
+  HomeDestination(icon: Icons.school_rounded, label: 'Learn', color: _success),
+  HomeDestination(icon: Icons.translate_rounded, label: 'Script', color: _info),
+  HomeDestination(icon: Icons.person_rounded, label: 'Profile', color: _violet),
   HomeDestination(
     icon: Icons.emoji_events_rounded,
     label: 'Leagues',

@@ -49,8 +49,9 @@ class ExercisePictureTile extends StatelessWidget {
       button: true,
       selected: selected,
       image: true,
-      label:
-          mark.semanticLabel == null ? label : '$label. ${mark.semanticLabel}',
+      label: mark.semanticLabel == null
+          ? label
+          : '$label. ${mark.semanticLabel}',
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 160),
         curve: Curves.easeOut,
@@ -96,9 +97,9 @@ class ExercisePictureTile extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                            color: accent ?? context.appTextSecondary,
-                            fontWeight: FontWeight.w700,
-                          ),
+                        color: accent ?? context.appTextSecondary,
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
                   ],
                   if (mark.icon case final icon?) ...[

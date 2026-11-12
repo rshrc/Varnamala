@@ -52,8 +52,9 @@ class DraggableExerciseTokenState extends State<DraggableExerciseToken> {
       ),
       childWhenDragging: Opacity(opacity: 0.16, child: chip),
       child: MouseRegion(
-        cursor:
-            dragging ? SystemMouseCursors.grabbing : SystemMouseCursors.grab,
+        cursor: dragging
+            ? SystemMouseCursors.grabbing
+            : SystemMouseCursors.grab,
         child: AnimatedScale(
           scale: dragging ? 0.97 : 1,
           duration: const Duration(milliseconds: 90),
@@ -85,10 +86,7 @@ class SettledExerciseToken extends StatelessWidget {
         final settled = value.clamp(0.0, 1.0);
         return Opacity(
           opacity: 0.72 + (0.28 * settled),
-          child: Transform.scale(
-            scale: 0.94 + (0.06 * settled),
-            child: child,
-          ),
+          child: Transform.scale(scale: 0.94 + (0.06 * settled), child: child),
         );
       },
       child: child,
@@ -149,9 +147,8 @@ class ExerciseTokenChip extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 10),
               child: Text(
                 text,
-                style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                      fontWeight: FontWeight.w800,
-                    ),
+                style: Theme.of(context).textTheme.titleSmall
+                    ?.copyWith(fontWeight: FontWeight.w800),
               ),
             ),
           ),

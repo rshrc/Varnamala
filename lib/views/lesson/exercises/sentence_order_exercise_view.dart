@@ -37,8 +37,9 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
   List<String> initialOrder() {
     final ids = widget.exercise.tokens.map((token) => token.id).toList()
       ..shuffle(math.Random(stableHash32(widget.exercise.id)));
-    if (widget.exercise.acceptedOrders
-            .any((answer) => listEquals(answer, ids)) &&
+    if (widget.exercise.acceptedOrders.any(
+          (answer) => listEquals(answer, ids),
+        ) &&
         ids.length > 1) {
       ids.add(ids.removeAt(0));
     }
@@ -102,10 +103,7 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        ExerciseSourceCard(
-          label: 'MEANING',
-          text: widget.exercise.translation,
-        ),
+        ExerciseSourceCard(label: 'MEANING', text: widget.exercise.translation),
         const SizedBox(height: 24),
         Text(
           'Drag a word into position. Tap two words to swap them.',
@@ -138,9 +136,7 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
                   builder: (context, hovering, _) => AnimatedPadding(
                     duration: const Duration(milliseconds: 120),
                     curve: Curves.easeOutCubic,
-                    padding: EdgeInsets.only(
-                      left: hovering.isEmpty ? 0 : 12,
-                    ),
+                    padding: EdgeInsets.only(left: hovering.isEmpty ? 0 : 12),
                     child: SettledExerciseToken(
                       key: ValueKey(
                         'order-${orderedTokenIds[index]}-'
@@ -149,7 +145,8 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
                       animate: (dropVersions[orderedTokenIds[index]] ?? 0) > 0,
                       child: DraggableExerciseToken(
                         token: tokensById[orderedTokenIds[index]]!,
-                        selected: tapSelection == orderedTokenIds[index] ||
+                        selected:
+                            tapSelection == orderedTokenIds[index] ||
                             hovering.isNotEmpty,
                         onTap: () => handleTap(orderedTokenIds[index]),
                         semanticHint:
@@ -171,8 +168,9 @@ class SentenceOrderExerciseViewState extends State<SentenceOrderExerciseView> {
                     color: hovering.isEmpty
                         ? Colors.transparent
                         : context.appInfo.withValues(alpha: 0.1),
-                    borderRadius:
-                        BorderRadius.circular(VarnamalaTheme.radiusSmall),
+                    borderRadius: BorderRadius.circular(
+                      VarnamalaTheme.radiusSmall,
+                    ),
                     border: hovering.isEmpty
                         ? null
                         : Border.all(color: context.appInfo, width: 1.5),

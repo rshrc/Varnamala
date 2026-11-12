@@ -28,20 +28,23 @@ class CourseNodeFace extends StatelessWidget {
     final totalLevels = progress.totalPlayableLessons;
 
     return PreferenceBuilder<int>(
-      preference: getIt<AppPrefs>()
-          .preferences
-          .getInt(course.courseName, defaultValue: 0),
+      preference: getIt<AppPrefs>().preferences.getInt(
+        course.courseName,
+        defaultValue: 0,
+      ),
       builder: (context, _) {
         final done = progress.completedPlayableLessons;
-        final percent =
-            totalLevels == 0 ? 0.0 : (done / totalLevels).clamp(0.0, 1.0);
+        final percent = totalLevels == 0
+            ? 0.0
+            : (done / totalLevels).clamp(0.0, 1.0);
         final complete = percent >= 1;
 
         // A flat, hand-mixed darker shade for the lip. Deliberately not a
         // gradient — one solid step down reads as depth, a ramp reads as gloss.
         final lipColor = HSLColor.fromColor(color)
             .withLightness(
-                (HSLColor.fromColor(color).lightness - 0.16).clamp(0.0, 1.0))
+              (HSLColor.fromColor(color).lightness - 0.16).clamp(0.0, 1.0),
+            )
             .toColor();
 
         return SizedBox(
@@ -57,8 +60,9 @@ class CourseNodeFace extends StatelessWidget {
                     painter: CourseNodeProgressRingPainter(
                       percent: percent,
                       color: complete ? context.appWarning : context.appSuccess,
-                      trackColor:
-                          context.appTextSecondary.withValues(alpha: 0.16),
+                      trackColor: context.appTextSecondary.withValues(
+                        alpha: 0.16,
+                      ),
                     ),
                   ),
                 ),
@@ -167,8 +171,10 @@ class CourseNodeProgressRingPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final center =
-        Offset(size.width / 2, 8 + (courseNodeSize + courseNodeLip) / 2);
+    final center = Offset(
+      size.width / 2,
+      8 + (courseNodeSize + courseNodeLip) / 2,
+    );
     const radius = courseNodeSize / 2 + 6;
     final rect = Rect.fromCircle(center: center, radius: radius);
 

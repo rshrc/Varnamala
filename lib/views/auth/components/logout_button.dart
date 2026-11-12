@@ -37,10 +37,7 @@ class LogoutButton extends StatelessWidget {
       onPressed: () => _handleLogout(context),
       child: const Text(
         'Logout',
-        style: TextStyle(
-          fontSize: 18,
-          color: Colors.redAccent,
-        ),
+        style: TextStyle(fontSize: 18, color: Colors.redAccent),
       ),
     );
   }

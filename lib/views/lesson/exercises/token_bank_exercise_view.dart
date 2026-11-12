@@ -60,8 +60,9 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
     setState(() {
       availableTokenIds.remove(id);
       selectedTokenIds.remove(id);
-      final beforeIndex =
-          beforeId == null ? -1 : selectedTokenIds.indexOf(beforeId);
+      final beforeIndex = beforeId == null
+          ? -1
+          : selectedTokenIds.indexOf(beforeId);
       if (beforeIndex == -1) {
         selectedTokenIds.add(id);
       } else {
@@ -96,9 +97,9 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
         Text(
           'Build your answer',
           style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                color: context.appTextSecondary,
-                fontWeight: FontWeight.w800,
-              ),
+            color: context.appTextSecondary,
+            fontWeight: FontWeight.w800,
+          ),
         ),
         const SizedBox(height: 8),
         DragTarget<String>(
@@ -109,13 +110,15 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
             constraints: const BoxConstraints(minHeight: 92),
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: marked?.withValues(alpha: 0.14) ??
+              color:
+                  marked?.withValues(alpha: 0.14) ??
                   (candidates.isEmpty
                       ? context.appElevatedSurface
                       : context.appInfo.withValues(alpha: 0.12)),
               borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
               border: Border.all(
-                color: marked ??
+                color:
+                    marked ??
                     (candidates.isEmpty ? context.appBorder : context.appInfo),
                 width: marked != null || candidates.isNotEmpty ? 2 : 1.5,
               ),
@@ -166,10 +169,10 @@ class TokenBankExerciseViewState extends State<TokenBankExerciseView> {
         Text(
           'WORD BANK',
           style: Theme.of(context).textTheme.labelLarge?.copyWith(
-                color: context.appTextSecondary,
-                fontWeight: FontWeight.w800,
-                letterSpacing: 0.8,
-              ),
+            color: context.appTextSecondary,
+            fontWeight: FontWeight.w800,
+            letterSpacing: 0.8,
+          ),
         ),
         const SizedBox(height: 8),
         DragTarget<String>(

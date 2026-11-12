@@ -52,8 +52,10 @@ class TappableGlossText extends StatelessWidget {
                   fontWeight: FontWeight.w600,
                   height: 1.3,
                 ),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 14,
+                  vertical: 10,
+                ),
                 margin: const EdgeInsets.symmetric(horizontal: 16),
                 decoration: BoxDecoration(
                   color: lookup(words[index]) == null

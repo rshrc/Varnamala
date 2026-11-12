@@ -29,27 +29,23 @@ class ExerciseSourceCard extends StatelessWidget {
           Text(
             label,
             style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                  color: context.appInfo,
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 1,
-                ),
+              color: context.appInfo,
+              fontWeight: FontWeight.w900,
+              letterSpacing: 1,
+            ),
           ),
           const SizedBox(height: 8),
           if (showWordMeanings)
             TappableGlossText(
               text: text,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w800,
-                    height: 1.3,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w800, height: 1.3),
             )
           else
             Text(
               text,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w800,
-                    height: 1.3,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w800, height: 1.3),
             ),
         ],
       ),

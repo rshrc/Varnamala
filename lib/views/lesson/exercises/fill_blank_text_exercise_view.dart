@@ -89,10 +89,10 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
               child: Text(
                 'HINT · $meaning',
                 style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                      color: context.appInfo,
-                      fontWeight: FontWeight.w800,
-                      letterSpacing: 0.35,
-                    ),
+                  color: context.appInfo,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: 0.35,
+                ),
               ),
             ),
           ),
@@ -105,9 +105,8 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
           children: [
             TappableGlossText(
               text: widget.exercise.beforeBlank,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w700),
             ),
             AnimatedContainer(
               duration: const Duration(milliseconds: 140),
@@ -117,7 +116,8 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
               decoration: BoxDecoration(
                 border: Border(
                   bottom: BorderSide(
-                    color: marked ??
+                    color:
+                        marked ??
                         (hasFocus ? context.appInfo : context.appBorder),
                     width: marked != null || hasFocus ? 2.25 : 1.75,
                   ),
@@ -130,9 +130,9 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
                 autocorrect: false,
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                      color: marked ?? context.appInfo,
-                      fontWeight: FontWeight.w800,
-                    ),
+                  color: marked ?? context.appInfo,
+                  fontWeight: FontWeight.w800,
+                ),
                 decoration: InputDecoration(
                   isCollapsed: true,
                   contentPadding: EdgeInsets.zero,
@@ -157,9 +157,8 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
             ),
             TappableGlossText(
               text: widget.exercise.afterBlank,
-              style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.w700,
-                  ),
+              style: Theme.of(context).textTheme.titleLarge
+                  ?.copyWith(fontWeight: FontWeight.w700),
             ),
           ],
         ),
@@ -172,9 +171,9 @@ class FillBlankTextExerciseViewState extends State<FillBlankTextExerciseView> {
             child: Text(
               'Spelled $spelling',
               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: context.appSuccess,
-                    fontWeight: FontWeight.w800,
-                  ),
+                color: context.appSuccess,
+                fontWeight: FontWeight.w800,
+              ),
             ),
           ),
         ],

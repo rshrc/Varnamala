@@ -9,7 +9,10 @@ class ForgotPassword extends StatelessWidget {
     return const Text(
       'FORGOT PASSWORD',
       style: TextStyle(
-          fontSize: 17, fontWeight: FontWeight.bold, color: Color(0xFF1CB0F6)),
+        fontSize: 17,
+        fontWeight: FontWeight.bold,
+        color: Color(0xFF1CB0F6),
+      ),
     );
   }
 }

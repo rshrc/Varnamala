@@ -11,11 +11,7 @@ import 'package:words625/core/identity.dart';
 /// Google's photo CDN — which would leak both their account and their IP to a
 /// third party every time someone opened the leaderboard.
 class Identicon extends StatelessWidget {
-  const Identicon({
-    super.key,
-    required this.seed,
-    this.size = 44,
-  });
+  const Identicon({super.key, required this.seed, this.size = 44});
 
   /// Anything stable and per-user — the handle, or the user id.
   final String seed;

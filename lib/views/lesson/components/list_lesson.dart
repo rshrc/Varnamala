@@ -19,7 +19,7 @@ class ListLesson extends StatefulWidget {
   final Question question;
 
   const ListLesson(this.question, {Key? key, required this.course})
-      : super(key: key);
+    : super(key: key);
 
   @override
   State<ListLesson> createState() => _ListLessonState();
@@ -59,8 +59,9 @@ class _ListLessonState extends State<ListLesson> {
                         ? context.appSuccess.withValues(alpha: 0.12)
                         : context.appDanger.withValues(alpha: 0.1),
                     borderRadius: const BorderRadius.only(
-                        topLeft: Radius.circular(20),
-                        topRight: Radius.circular(20)),
+                      topLeft: Radius.circular(20),
+                      topRight: Radius.circular(20),
+                    ),
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black.withValues(alpha: 0.06),
@@ -103,9 +104,7 @@ class _ListLessonState extends State<ListLesson> {
                         const SizedBox(height: 12),
                         Text(
                           "Correct answer:",
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodySmall
+                          style: Theme.of(context).textTheme.bodySmall
                               ?.copyWith(color: context.appTextSecondary),
                         ),
                         const SizedBox(height: 4),
@@ -118,7 +117,8 @@ class _ListLessonState extends State<ListLesson> {
                           ),
                         ),
                       ] else if (lessonProvider
-                              .currentQuestion?.translatedSentence !=
+                              .currentQuestion
+                              ?.translatedSentence !=
                           null) ...[
                         const SizedBox(height: 12),
                         Text(
@@ -139,7 +139,8 @@ class _ListLessonState extends State<ListLesson> {
             Column(
               children: [
                 Instruction(
-                    prompt: lessonProvider.currentQuestion?.prompt ?? "--"),
+                  prompt: lessonProvider.currentQuestion?.prompt ?? "--",
+                ),
                 const SizedBox(height: 12),
                 QuestionRow(
                   question: lessonProvider.currentQuestion,
@@ -151,8 +152,9 @@ class _ListLessonState extends State<ListLesson> {
                     physics: const BouncingScrollPhysics(),
                     child: Column(
                       children: [
-                        ...lessonProvider.currentQuestion?.options
-                                ?.map((option) {
+                        ...lessonProvider.currentQuestion?.options?.map((
+                              option,
+                            ) {
                               final selectedAnswer =
                                   lessonProvider.selectedAnswer;
                               return GestureDetector(
@@ -194,10 +196,10 @@ class Instruction extends StatelessWidget {
         child: Text(
           prompt,
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                fontWeight: FontWeight.w700,
-                letterSpacing: -0.3,
-                height: 1.3,
-              ),
+            fontWeight: FontWeight.w700,
+            letterSpacing: -0.3,
+            height: 1.3,
+          ),
         ),
       ),
     );
@@ -219,26 +221,19 @@ class QuestionRow extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          SpeakButton(
-            sentence: question?.sentence ?? "--",
-            language: language,
-          ),
+          SpeakButton(sentence: question?.sentence ?? "--", language: language),
           const SizedBox(width: 14),
           Flexible(
             child: question?.sentenceIsTargetLanguage ?? false
                 ? TappableGlossText(
                     text: question?.sentence ?? '--',
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.w600,
-                          height: 1.4,
-                        ),
+                    style: Theme.of(context).textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w600, height: 1.4),
                   )
                 : Text(
                     question?.sentence ?? "--",
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          fontWeight: FontWeight.w600,
-                          height: 1.4,
-                        ),
+                    style: Theme.of(context).textTheme.titleMedium
+                        ?.copyWith(fontWeight: FontWeight.w600, height: 1.4),
                   ),
           ),
         ],
@@ -294,10 +289,7 @@ class ListChoice extends StatelessWidget {
         decoration: BoxDecoration(
           color: backgroundColor,
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-          border: Border.all(
-            width: isSelected ? 2.0 : 1.5,
-            color: borderColor,
-          ),
+          border: Border.all(width: isSelected ? 2.0 : 1.5, color: borderColor),
           boxShadow: isSelected
               ? [
                   BoxShadow(

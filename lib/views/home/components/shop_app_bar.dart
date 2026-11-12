@@ -20,19 +20,15 @@ class ShopAppBar extends StatelessWidget implements PreferredSizeWidget {
         children: [
           Text(
             'Practice',
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
           const SizedBox(width: 7),
           const BetaBadge(compact: true),
         ],
       ),
       actions: const [
-        Padding(
-          padding: EdgeInsets.only(right: 12),
-          child: GemsDisplay(),
-        ),
+        Padding(padding: EdgeInsets.only(right: 12), child: GemsDisplay()),
       ],
     );
   }

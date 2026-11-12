@@ -7,17 +7,14 @@ class MistakeReviewNotice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Semantics(
-      label:
-          'Mistake review. This exercise revisits something you missed earlier.',
+      label: 'Mistake review. This exercise revisits something you missed earlier.',
       excludeSemantics: true,
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
         decoration: BoxDecoration(
           color: context.appWarning.withValues(alpha: 0.12),
           borderRadius: BorderRadius.circular(VarnamalaTheme.radiusMedium),
-          border: Border.all(
-            color: context.appWarning.withValues(alpha: 0.48),
-          ),
+          border: Border.all(color: context.appWarning.withValues(alpha: 0.48)),
         ),
         child: Row(
           children: [

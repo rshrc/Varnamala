@@ -72,25 +72,30 @@ class _StatisticsState extends State<Statistics> {
               spacing: 8,
               runSpacing: 6,
               children: languages
-                  .map((lang) => Container(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 12, vertical: 6),
-                        decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.primaryContainer,
-                          borderRadius:
-                              BorderRadius.circular(VarnamalaTheme.radiusRound),
+                  .map(
+                    (lang) => Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 6,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.primaryContainer,
+                        borderRadius: BorderRadius.circular(
+                          VarnamalaTheme.radiusRound,
                         ),
-                        child: Text(
-                          lang.toTitleCase,
-                          style: TextStyle(
-                            fontSize: 13,
-                            fontWeight: FontWeight.w600,
-                            color: Theme.of(context)
-                                .colorScheme
-                                .onPrimaryContainer,
-                          ),
+                      ),
+                      child: Text(
+                        lang.toTitleCase,
+                        style: TextStyle(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w600,
+                          color: Theme.of(context)
+                              .colorScheme
+                              .onPrimaryContainer,
                         ),
-                      ))
+                      ),
+                    ),
+                  )
                   .toList(),
             ),
           ],
@@ -143,9 +148,8 @@ class _StatisticsState extends State<Statistics> {
           const SizedBox(width: 8),
           Text(
             text,
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
         ],
       ),
@@ -187,9 +191,8 @@ class _StatCard extends StatelessWidget {
               Expanded(
                 child: Text(
                   value,
-                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                        fontWeight: FontWeight.w700,
-                      ),
+                  style: Theme.of(context).textTheme.titleMedium
+                      ?.copyWith(fontWeight: FontWeight.w700),
                   overflow: TextOverflow.ellipsis,
                 ),
               ),
@@ -201,9 +204,9 @@ class _StatCard extends StatelessWidget {
             child: Text(
               label,
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: context.appTextSecondary,
-                    fontWeight: FontWeight.w500,
-                  ),
+                color: context.appTextSecondary,
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ),
         ],

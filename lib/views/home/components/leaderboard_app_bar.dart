@@ -23,9 +23,8 @@ class LeaderboardAppBar extends StatelessWidget implements PreferredSizeWidget {
           const SizedBox(width: 8),
           Text(
             'Leaderboard',
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(context).textTheme.titleLarge
+                ?.copyWith(fontWeight: FontWeight.w700),
           ),
           const SizedBox(width: 7),
           const BetaBadge(compact: true),

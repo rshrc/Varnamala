@@ -60,9 +60,9 @@ class ExerciseChoiceTile extends StatelessWidget {
                     child: Text(
                       text,
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            color: accent ?? context.appTextPrimary,
-                            fontWeight: FontWeight.w700,
-                          ),
+                        color: accent ?? context.appTextPrimary,
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
                   ),
                   if (mark.icon case final icon?) ...[

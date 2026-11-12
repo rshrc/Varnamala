@@ -29,8 +29,10 @@ class _LeaderboardPageState extends State<LeaderboardPage>
   @override
   void initState() {
     super.initState();
-    _tabController =
-        TabController(length: LeagueProvider.leagues.length, vsync: this);
+    _tabController = TabController(
+      length: LeagueProvider.leagues.length,
+      vsync: this,
+    );
   }
 
   @override
@@ -55,10 +57,12 @@ class _LeaderboardPageState extends State<LeaderboardPage>
             child: TabBarView(
               controller: _tabController,
               children: LeagueProvider.leagues
-                  .map((league) => _LeagueLeaderboardList(
-                        league: league,
-                        language: language,
-                      ))
+                  .map(
+                    (league) => _LeagueLeaderboardList(
+                      league: league,
+                      language: language,
+                    ),
+                  )
                   .toList(growable: false),
             ),
           ),
@@ -72,10 +76,7 @@ class _LeagueLeaderboardList extends StatefulWidget {
   final String league;
   final TargetLanguage language;
 
-  const _LeagueLeaderboardList({
-    required this.league,
-    required this.language,
-  });
+  const _LeagueLeaderboardList({required this.league, required this.language});
 
   @override
   State<_LeagueLeaderboardList> createState() => _LeagueLeaderboardListState();
@@ -117,9 +118,9 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
   Widget build(BuildContext context) {
     return StreamBuilder<List<LeaderboardEntry>>(
       stream: context.read<LeagueProvider>().getLeagueLeaderboard(
-            widget.league,
-            widget.language.name,
-          ),
+        widget.league,
+        widget.language.name,
+      ),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return Center(
@@ -136,9 +137,7 @@ class _LeagueLeaderboardListState extends State<_LeagueLeaderboardList> {
           return Center(
             child: Text(
               'No users in ${widget.league.toTitleCase} yet',
-              style: Theme.of(context)
-                  .textTheme
-                  .bodyLarge
+              style: Theme.of(context).textTheme.bodyLarge
                   ?.copyWith(color: context.appTextSecondary),
             ),
           );
@@ -229,9 +228,9 @@ class _RankClimbCard extends StatelessWidget {
           Text(
             'You climbed to #$rank',
             style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                  color: context.appWarning,
-                  fontWeight: FontWeight.w700,
-                ),
+              color: context.appWarning,
+              fontWeight: FontWeight.w700,
+            ),
           ),
         ],
       ),
@@ -347,10 +346,8 @@ class _YourHandleNote extends StatelessWidget {
                   ],
                 ],
               ),
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: context.appTextSecondary,
-                    height: 1.35,
-                  ),
+              style: Theme.of(context).textTheme.bodySmall
+                  ?.copyWith(color: context.appTextSecondary, height: 1.35),
             ),
           ),
         ],

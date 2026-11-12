@@ -18,7 +18,7 @@ class _MalaWelcomesState extends State<MalaWelcomes> {
   final List<String> images = [
     Assets.images.mala.malaExcited.path,
     Assets.images.mala.malaWave.path,
-    Assets.images.mala.malaLusty.path
+    Assets.images.mala.malaLusty.path,
   ];
   int _currentIndex = 0;
   Timer? _timer;

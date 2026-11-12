@@ -89,22 +89,14 @@ class VarnamalaTheme {
   static const LinearGradient courseTreeGradient = LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
-    colors: [
-      Color(0xFFF0FFFC),
-      Color(0xFFE8F8F5),
-      Color(0xFFE0F5F1),
-    ],
+    colors: [Color(0xFFF0FFFC), Color(0xFFE8F8F5), Color(0xFFE0F5F1)],
     stops: [0.0, 0.5, 1.0],
   );
 
   static const LinearGradient darkCourseTreeGradient = LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
-    colors: [
-      Color(0xFF0E1C1E),
-      Color(0xFF102225),
-      Color(0xFF13282A),
-    ],
+    colors: [Color(0xFF0E1C1E), Color(0xFF102225), Color(0xFF13282A)],
     stops: [0.0, 0.5, 1.0],
   );
 
@@ -121,45 +113,41 @@ class VarnamalaTheme {
   );
 
   static const RadialGradient nodeGlowGradient = RadialGradient(
-    colors: [
-      Color(0x4046D1BF),
-      Color(0x2046D1BF),
-      Color(0x0046D1BF),
-    ],
+    colors: [Color(0x4046D1BF), Color(0x2046D1BF), Color(0x0046D1BF)],
   );
 
   // SHADOWS
   static List<BoxShadow> get softShadow => [
-        BoxShadow(
-          color: peacockTeal.withValues(alpha: 0.08),
-          blurRadius: 10,
-          offset: const Offset(0, 4),
-        ),
-      ];
+    BoxShadow(
+      color: peacockTeal.withValues(alpha: 0.08),
+      blurRadius: 10,
+      offset: const Offset(0, 4),
+    ),
+  ];
 
   static List<BoxShadow> get cardShadow => [
-        BoxShadow(
-          color: peacockTeal.withValues(alpha: 0.1),
-          blurRadius: 15,
-          offset: const Offset(0, 5),
-        ),
-      ];
+    BoxShadow(
+      color: peacockTeal.withValues(alpha: 0.1),
+      blurRadius: 15,
+      offset: const Offset(0, 5),
+    ),
+  ];
 
   static List<BoxShadow> get glowShadow => [
-        BoxShadow(
-          color: peacockMint.withValues(alpha: 0.3),
-          blurRadius: 20,
-          spreadRadius: 2,
-        ),
-      ];
+    BoxShadow(
+      color: peacockMint.withValues(alpha: 0.3),
+      blurRadius: 20,
+      spreadRadius: 2,
+    ),
+  ];
 
   static List<BoxShadow> get buttonShadow => [
-        BoxShadow(
-          color: peacockTeal.withValues(alpha: 0.3),
-          blurRadius: 8,
-          offset: const Offset(0, 4),
-        ),
-      ];
+    BoxShadow(
+      color: peacockTeal.withValues(alpha: 0.3),
+      blurRadius: 8,
+      offset: const Offset(0, 4),
+    ),
+  ];
 
   // BORDER RADIUS
   static const double radiusSmall = 8.0;
@@ -202,11 +190,7 @@ const VarnamalaColors _fallbackColors = VarnamalaColors(
   danger: Color(0xFFE74C3C),
   violet: Color(0xFF9B59B6),
   shadowTint: Color(0xFF1F727E),
-  coursePalette: [
-    Color(0xFF1D998D),
-    Color(0xFF4E8ADD),
-    Color(0xFFC060E1),
-  ],
+  coursePalette: [Color(0xFF1D998D), Color(0xFF4E8ADD), Color(0xFFC060E1)],
   pathGradient: LinearGradient(
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,

@@ -22,29 +22,29 @@ class GoogleButtonState extends State<GoogleButton> {
         height: 50,
         margin: const EdgeInsets.only(left: 10, right: 10, bottom: 10),
         decoration: BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(12)),
-            border: Border.all(width: 2, color: context.appBorder)),
+          borderRadius: const BorderRadius.all(Radius.circular(12)),
+          border: Border.all(width: 2, color: context.appBorder),
+        ),
         child: ElevatedButton(
           onPressed: googlePressed,
           style: ElevatedButton.styleFrom(
             backgroundColor: context.appSurface,
             elevation: 5,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(12),
+            ),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                'assets/icons/google-icon.png',
-                height: 20,
-              ),
+              Image.asset('assets/icons/google-icon.png', height: 20),
               Text(
                 ' GOOGLE',
                 style: TextStyle(
-                    color: context.appTextPrimary,
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold),
+                  color: context.appTextPrimary,
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),

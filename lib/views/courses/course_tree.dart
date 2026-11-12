@@ -35,17 +35,14 @@ const int kFreeCourseCount = 2;
 /// watermark to that course and re-locks everything they have already
 /// finished - including making their completed nodes untappable, since
 /// [CoursePathStep] checks the lock before it checks completion.
-int pathUnlockedThrough(List<bool> completed) => math.max(
-      completed.lastIndexOf(true) + 1,
-      kFreeCourseCount - 1,
-    );
+int pathUnlockedThrough(List<bool> completed) =>
+    math.max(completed.lastIndexOf(true) + 1, kFreeCourseCount - 1);
 
 bool pathCourseIsLocked({
   required int courseIndex,
   required int unlockedThrough,
   required bool unlockAll,
-}) =>
-    !unlockAll && courseIndex > unlockedThrough;
+}) => !unlockAll && courseIndex > unlockedThrough;
 
 class CourseTree extends StatefulWidget {
   const CourseTree({Key? key}) : super(key: key);
@@ -86,8 +83,9 @@ class CourseTreeState extends State<CourseTree> {
           final courses = [for (final group in groups) ...group];
           if (courses.isEmpty) return const SizedBox.shrink();
 
-          final notes = courseRepository
-              .notes(context.read<LanguageProvider>().selectedLanguage);
+          final notes = courseRepository.notes(
+            context.read<LanguageProvider>().selectedLanguage,
+          );
 
           // Read once per course: courseIsComplete goes to preferences, and
           // both the watermark and the current node need the same answer.
@@ -108,9 +106,9 @@ class CourseTreeState extends State<CourseTree> {
 
           return PreferenceBuilder<bool>(
             preference: getIt<AppPrefs>().preferences.getBool(
-                  PrefsConstants.unlockAllLevels,
-                  defaultValue: false,
-                ),
+              PrefsConstants.unlockAllLevels,
+              defaultValue: false,
+            ),
             builder: (context, unlockAll) {
               // Only the free-navigation notice sits above the path now.
               // Flashcards moved to the Practice tab: a side tool above the
@@ -133,34 +131,37 @@ class CourseTreeState extends State<CourseTree> {
                 itemBuilder: (context, index) => ContentBounds(
                   maxWidth: ContentWidth.path,
                   gutter: false,
-                  child: Builder(builder: (context) {
-                    if (unlockAll && index == 0) {
-                      return const UnlockedCoursePathNotice();
-                    }
+                  child: Builder(
+                    builder: (context) {
+                      if (unlockAll && index == 0) {
+                        return const UnlockedCoursePathNotice();
+                      }
 
-                    final courseIndex = index - headerCount;
-                    return CoursePathStep(
-                      course: courses[courseIndex],
-                      pathIndex: courseIndex,
-                      dx: coursePathWander[
-                          courseIndex % coursePathWander.length],
-                      previousDx: courseIndex == 0
-                          ? null
-                          : coursePathWander[
-                              (courseIndex - 1) % coursePathWander.length],
-                      isCurrent: courseIndex == currentIndex,
-                      isLocked: pathCourseIsLocked(
-                        courseIndex: courseIndex,
-                        unlockedThrough: unlockedThrough,
-                        unlockAll: unlockAll,
-                      ),
-                      unlockedBy: courseIndex < kFreeCourseCount
-                          ? null
-                          : courses[courseIndex - 1].courseName,
-                      note: notes[courses[courseIndex].courseName],
-                      onProgressChanged: () => setState(() {}),
-                    );
-                  }),
+                      final courseIndex = index - headerCount;
+                      return CoursePathStep(
+                        course: courses[courseIndex],
+                        pathIndex: courseIndex,
+                        dx:
+                            coursePathWander[courseIndex %
+                                coursePathWander.length],
+                        previousDx: courseIndex == 0
+                            ? null
+                            : coursePathWander[(courseIndex - 1) %
+                                  coursePathWander.length],
+                        isCurrent: courseIndex == currentIndex,
+                        isLocked: pathCourseIsLocked(
+                          courseIndex: courseIndex,
+                          unlockedThrough: unlockedThrough,
+                          unlockAll: unlockAll,
+                        ),
+                        unlockedBy: courseIndex < kFreeCourseCount
+                            ? null
+                            : courses[courseIndex - 1].courseName,
+                        note: notes[courses[courseIndex].courseName],
+                        onProgressChanged: () => setState(() {}),
+                      );
+                    },
+                  ),
                 ),
               );
             },
