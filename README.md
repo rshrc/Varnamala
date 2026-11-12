@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-3.38.6-blue?logo=flutter">
-  <img alt="Dart" src="https://img.shields.io/badge/Dart-3.10.7-blue?logo=dart">
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-3.50.0-blue?logo=flutter">
+  <img alt="Dart" src="https://img.shields.io/badge/Dart-3.14.0-blue?logo=dart">
   <img alt="Licence" src="https://img.shields.io/badge/licence-GPL--3.0-green">
   <img alt="Languages" src="https://img.shields.io/badge/languages-13-E8A317">
   <img alt="Questions" src="https://img.shields.io/badge/questions-10%2C530-9B59B6">
@@ -20,9 +20,9 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/feature-path.png" width="240" alt="The course path, First words first">
-  <img src="screenshots/feature-answer-wrong.png" width="240" alt="A wrong answer marked, with the right one lit up">
-  <img src="screenshots/feature-league-climb.png" width="240" alt="Overtaking two people on the league board">
+  <img src="screenshots/feature/feature-path.png" width="240" alt="The course path, First words first">
+  <img src="screenshots/feature/feature-answer-wrong.png" width="240" alt="A wrong answer marked, with the right one lit up">
+  <img src="screenshots/feature/feature-league-climb.png" width="240" alt="Overtaking two people on the league board">
 </p>
 
 ---
@@ -85,9 +85,9 @@ vocabulary nobody had taught them, so *First words* now opens every path.
 
 <table>
 <tr>
-<td width="33%"><img src="screenshots/feature-firstwords-hindi.png" alt="A picture of water, the meaning, and four Hindi words"></td>
-<td width="33%"><img src="screenshots/feature-answer-correct.png" alt="The chosen tile turns green"></td>
-<td width="33%"><img src="screenshots/feature-answer-wrong.png" alt="The wrong pick is marked and the answer lights up"></td>
+<td width="33%"><img src="screenshots/feature/feature-firstwords-hindi.png" alt="A picture of water, the meaning, and four Hindi words"></td>
+<td width="33%"><img src="screenshots/feature/feature-answer-correct.png" alt="The chosen tile turns green"></td>
+<td width="33%"><img src="screenshots/feature/feature-answer-wrong.png" alt="The wrong pick is marked and the answer lights up"></td>
 </tr>
 <tr>
 <td>A picture, its meaning, and the word read aloud — normally, or slowly.</td>
@@ -104,9 +104,9 @@ the same content is met from several angles rather than drilled once.
 
 <table>
 <tr>
-<td width="33%"><img src="screenshots/feature-word-bank.png" alt="Build the sentence from a word bank"></td>
-<td width="33%"><img src="screenshots/feature-lesson-tamil.png" alt="A Tamil lesson"></td>
-<td width="33%"><img src="screenshots/feature-lesson-bengali.png" alt="A Bengali lesson"></td>
+<td width="33%"><img src="screenshots/feature/feature-word-bank.png" alt="Build the sentence from a word bank"></td>
+<td width="33%"><img src="screenshots/feature/feature-lesson-tamil.png" alt="A Tamil lesson"></td>
+<td width="33%"><img src="screenshots/feature/feature-lesson-bengali.png" alt="A Bengali lesson"></td>
 </tr>
 <tr>
 <td>Drag or tap words into place — never one without the other.</td>
@@ -123,9 +123,9 @@ tracing canvas.
 
 <table>
 <tr>
-<td width="33%"><img src="screenshots/feature-script.png" alt="The Kannada alphabet with audio on every letter"></td>
-<td width="33%"><img src="screenshots/feature-script-letter.png" alt="A single letter, with hear it and write it"></td>
-<td width="33%"><img src="screenshots/feature-script-drawing.png" alt="Tracing a letter over its guide"></td>
+<td width="33%"><img src="screenshots/feature/feature-script.png" alt="The Kannada alphabet with audio on every letter"></td>
+<td width="33%"><img src="screenshots/feature/feature-script-letter.png" alt="A single letter, with hear it and write it"></td>
+<td width="33%"><img src="screenshots/feature/feature-script-drawing.png" alt="Tracing a letter over its guide"></td>
 </tr>
 <tr>
 <td>Every letter, each with its sound.</td>
@@ -138,9 +138,9 @@ tracing canvas.
 
 <table>
 <tr>
-<td width="33%"><img src="screenshots/feature-flashcard-front.png" alt="A Malayalam flashcard, front"></td>
-<td width="33%"><img src="screenshots/feature-flashcard-answer.png" alt="The card turned over"></td>
-<td width="33%"><img src="screenshots/feature-match-telugu.png" alt="Match Madness in Telugu"></td>
+<td width="33%"><img src="screenshots/feature/feature-flashcard-front.png" alt="A Malayalam flashcard, front"></td>
+<td width="33%"><img src="screenshots/feature/feature-flashcard-answer.png" alt="The card turned over"></td>
+<td width="33%"><img src="screenshots/feature/feature-match-telugu.png" alt="Match Madness in Telugu"></td>
 </tr>
 <tr>
 <td>Cards sorted into new, due, learning and mastered — in either direction.</td>
@@ -156,8 +156,8 @@ for nothing in another, so nobody outranks you on a board they do not study.
 
 <table>
 <tr>
-<td width="50%"><img src="screenshots/feature-league-climb.png" alt="Rows sliding as the learner overtakes two people"></td>
-<td width="50%"><img src="screenshots/feature-league-podium.png" alt="Third place, with a bronze medal"></td>
+<td width="50%"><img src="screenshots/feature/feature-league-climb.png" alt="Rows sliding as the learner overtakes two people"></td>
+<td width="50%"><img src="screenshots/feature/feature-league-podium.png" alt="Third place, with a bronze medal"></td>
 </tr>
 <tr>
 <td>Finish a lesson and you <i>watch</i> yourself overtake people — the rows genuinely move, caught here mid-slide.</td>
@@ -192,9 +192,19 @@ full schema, the content rules, and worked examples.
 git clone https://github.com/rshrc/Varnamala
 cd Varnamala
 flutter pub get
-flutter pub run build_runner build --delete-conflicting-outputs
+flutter pub run build_runner build
 flutter run
 ```
+
+For a production web bundle, build both WebAssembly and its automatic
+JavaScript fallback:
+
+```bash
+flutter build web --wasm --release
+```
+
+Modern compatible browsers select `main.dart.wasm`; Flutter's generated loader
+serves `main.dart.js` to browsers without the required WebAssembly features.
 
 You will need your own `google-services.json` (Android) and
 `GoogleService-Info.plist` (iOS) for the Firebase features — see
