@@ -28,6 +28,14 @@
   <title>Varnamala | Reclaiming Language Learning</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Preserve old shared/bookmarked hash routes after moving to clean paths.
+       replaceState avoids a network round trip before Flutter starts. -->
+  <script>
+    if (window.location.hash.startsWith('#/')) {
+      window.history.replaceState(null, '', window.location.hash.slice(1));
+    }
+  </script>
+
   <style>
     body {
       background-color: #F5FDFB; /* Scaffold background */

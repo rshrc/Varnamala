@@ -39,8 +39,8 @@
         ]
       },
       {
-        "// note": "The app shell must never be cached: index.html carries the Flutter service-worker version stamp, so a stale copy boots the previous build against new content. Both entries are needed - Hosting matches the request path, and the root arrives as '/' not '/index.html'.",
-        "source": "/",
+        "// note": "The app shell must never be cached: index.html carries the Flutter service-worker version stamp, so a stale copy boots the previous build against new content. Firebase matches headers before rewrites, so this regular expression covers every extensionless AutoRoute path as well as '/'.",
+        "regex": "^/[^.]*$",
         "headers": [
           {
             "key": "Cache-Control",
@@ -65,6 +65,12 @@
             "value": "same-origin-allow-popups"
           }
         ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   },

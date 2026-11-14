@@ -9,6 +9,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 // Project imports:
+import 'package:words625/core/app_url_strategy.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/firebase_options.dart';
 import 'package:words625/service/locator.dart';
@@ -16,6 +17,7 @@ import 'package:words625/views/app.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  configureAppUrlStrategy();
   configureDependencies();
 
   // These startup tasks do not depend on one another. Running them together
