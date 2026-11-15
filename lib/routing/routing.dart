@@ -25,6 +25,9 @@ class AppRouter extends RootStackRouter {
     // because maintainers are excluded from the standings.
     AutoRoute(page: LeagueDemoRoute.page, path: '/league-lab'),
     AutoRoute(page: ShowcaseRoute.page, path: '/showcase'),
+    // Katha, Slice 1: one story panel, unguarded so it can be shown around
+    // before there is a shelf to reach it from. `?lang=hi` switches telling.
+    AutoRoute(page: KathaReaderRoute.page, path: '/katha-lab'),
     AutoRoute(page: OnboardingRoute.page, path: '/onboarding'),
     AutoRoute(page: DemoLessonRoute.page),
     AutoRoute(page: FlashcardsRoute.page),
