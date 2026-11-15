@@ -19,6 +19,8 @@ import 'package:words625/views/characters/character_drawing.dart';
 import 'package:words625/views/characters/characters_app_bar.dart';
 import 'package:words625/views/courses/course_tree.dart';
 import 'package:words625/views/home/components/components.dart';
+import 'package:words625/views/katha/shelf/katha_shelf.dart';
+import 'package:words625/views/katha/shelf/katha_shelf_app_bar.dart';
 import 'package:words625/views/home/components/side_navigator.dart';
 import 'package:words625/views/leaderboard/leaderboard_page.dart';
 import 'package:words625/views/profile/profile_screen.dart';
@@ -70,6 +72,7 @@ class _HomePageState extends State<HomePage>
 
   final screens = [
     const CourseTree(),
+    const KathaShelf(),
     const CharacterPracticeScreen(),
     const ProfilePage(),
     const LeaderboardPage(),
@@ -121,6 +124,7 @@ class _HomePageState extends State<HomePage>
 
   final List<PreferredSizeWidget> appBars = [
     const StatAppBar(),
+    const KathaShelfAppBar(),
     const CharactersAppBar(),
     const ProfileAppBar(),
     const LeaderboardAppBar(),
@@ -278,6 +282,21 @@ class _HomePageState extends State<HomePage>
                   await context.router.maybePop();
                   if (mounted) {
                     await context.router.push(const OnboardingRoute());
+                  }
+                },
+              ),
+              ListTile(
+                leading: Icon(
+                  Icons.auto_stories_rounded,
+                  color: context.appInfo,
+                ),
+                title: const Text('Katha: one panel'),
+                subtitle: const Text('The auto haggle, read in Kannada'),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () async {
+                  await context.router.maybePop();
+                  if (mounted) {
+                    await context.router.push(KathaReaderRoute());
                   }
                 },
               ),

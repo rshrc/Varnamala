@@ -24,6 +24,13 @@ class HomeDestination {
 
 const List<HomeDestination> homeDestinations = [
   HomeDestination(icon: Icons.school_rounded, label: 'Learn', color: _success),
+  // Katha: picture stories, read and heard. Second, because after the
+  // lessons it is the reason to come back.
+  HomeDestination(
+    icon: Icons.auto_stories_rounded,
+    label: 'Stories',
+    color: _accent,
+  ),
   HomeDestination(icon: Icons.translate_rounded, label: 'Script', color: _info),
   HomeDestination(icon: Icons.person_rounded, label: 'Profile', color: _violet),
   HomeDestination(
@@ -42,6 +49,8 @@ const List<HomeDestination> homeDestinations = [
 ];
 
 Color _success(BuildContext context) => context.appSuccess;
+
+Color _accent(BuildContext context) => context.appAccent;
 
 Color _info(BuildContext context) => context.appInfo;
 
