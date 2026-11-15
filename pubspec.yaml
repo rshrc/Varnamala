@@ -20,6 +20,7 @@ dependencies:
   firebase_auth: any
   firebase_core: any
   firebase_crashlytics: any
+  flame: ^1.38.2
   flutter:
     sdk: flutter
   flutter_animate: any
@@ -54,6 +55,7 @@ dev_dependencies:
   flutter_gen: ^5.15.0
   flutter_gen_runner: ^5.15.0
   flutter_launcher_icons: any
+  flame_test: any
   flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
