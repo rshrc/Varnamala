@@ -6,12 +6,18 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <!-- viewport-fit=cover lets the app draw under the notch and the home
+       indicator. Flutter keeps the rest of its viewport settings, carries this
+       one over, and reports the safe area to SafeArea and AppBar. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Reclaiming language learning. No hearts, no energy, just pure open-source education for Indian and underrepresented languages.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="theme-color" content="#1F727E">
+  <!-- From the home screen: the app runs under the status bar rather than
+       below a black strip. -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#F5FDFB">
   <meta name="apple-mobile-web-app-title" content="Varnamala">
   <meta name="google-signin-client_id" content="810080914897-hi79u9dqg8vvhk0ae24krftavedq63q8.apps.googleusercontent.com">
   <!-- Warm up Google Identity and the font origin used during startup. Flutter's
@@ -37,8 +43,12 @@
   </script>
 
   <style>
+    /* The colour before the app starts. Once it has, BrowserChromeSync repaints
+       html, body and theme-color in the theme's app-bar colour. */
+    html, body {
+      background-color: #F5FDFB;
+    }
     body {
-      background-color: #F5FDFB; /* Scaffold background */
       display: flex;
       align-items: center;
       justify-content: center;

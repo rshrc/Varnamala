@@ -15,6 +15,7 @@ import 'package:words625/core/responsive.dart';
 import 'package:words625/di/injection.dart';
 import 'package:words625/routing/routing.dart';
 import 'package:words625/views/theme.dart';
+import 'package:words625/views/widgets/browser_chrome_sync.dart';
 
 final router = getIt<AppRouter>();
 
@@ -53,7 +54,8 @@ class _RiverpodThemedApp extends ConsumerWidget {
       theme: buildAppTheme(palette, Brightness.light),
       darkTheme: buildAppTheme(palette, Brightness.dark),
       themeMode: themeMode,
-      builder: (context, child) => SnackBarWidthCap(child: child!),
+      builder: (context, child) =>
+          BrowserChromeSync(child: SnackBarWidthCap(child: child!)),
       routerConfig: router.config(navigatorObservers: () => [observer]),
     );
   }
@@ -75,7 +77,8 @@ class _LegacyThemedApp extends StatelessWidget {
           theme: themeProvider.lightTheme,
           darkTheme: themeProvider.darkTheme,
           themeMode: themeProvider.themeMode,
-          builder: (context, child) => SnackBarWidthCap(child: child!),
+          builder: (context, child) =>
+              BrowserChromeSync(child: SnackBarWidthCap(child: child!)),
           routerConfig: router.config(navigatorObservers: () => [observer]),
         );
       },
