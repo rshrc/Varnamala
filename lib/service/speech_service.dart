@@ -17,6 +17,49 @@ enum SpeechPace {
   slow,
 }
 
+/// How a line is delivered: the nearest a device voice gets to acting.
+///
+/// Multipliers on the normal voice, so 1 everywhere is plain speech. A raised
+/// pitch and a quicker rate read as surprise; lower and slower as weariness.
+class SpeechTone {
+  const SpeechTone({this.pitch = 1, this.rate = 1, this.volume = 1});
+
+  static const plain = SpeechTone();
+
+  final double pitch;
+  final double rate;
+  final double volume;
+
+  @override
+  bool operator ==(Object other) =>
+      other is SpeechTone &&
+      other.pitch == pitch &&
+      other.rate == rate &&
+      other.volume == volume;
+
+  @override
+  int get hashCode => Object.hash(pitch, rate, volume);
+}
+
+/// Who is speaking, for picking and shaping a voice: a story character
+/// rather than the lesson reader.
+///
+/// [variant] spreads characters across the device's voices when it has more
+/// than one for the language, so two people do not share a voice.
+class SpeechCasting {
+  const SpeechCasting({
+    required this.male,
+    this.variant = 0,
+    this.pitch = 1,
+    this.rate = 1,
+  });
+
+  final bool male;
+  final int variant;
+  final double pitch;
+  final double rate;
+}
+
 /// Reads lesson text aloud in the language it belongs to.
 ///
 /// Wraps [FlutterTts] because speaking on the web needs two things the plugin
@@ -37,23 +80,33 @@ class SpeechService {
   /// The voice already resolved for a locale, so the list is searched once.
   final Map<String, Map<String, String>?> _resolved = {};
 
-  /// What the engine is currently set to, so an unchanged language does not
-  /// pay for a voice switch on every tap.
-  String? _appliedLocale;
+  /// What the engine is currently set to, so an unchanged voice does not pay
+  /// for a switch on every tap.
+  String? _appliedVoice;
   SpeechPace? _appliedPace;
+  SpeechTone? _appliedTone;
 
   Future<void> speak(
     String text, {
     TargetLanguage? language,
     SpeechPace pace = SpeechPace.normal,
+    SpeechTone tone = SpeechTone.plain,
+    SpeechCasting? casting,
+    bool waitUntilSpoken = false,
   }) async {
     if (text.trim().isEmpty) return;
     try {
-      final voice = await _voiceFor(language);
+      final voice = casting == null
+          ? await _voiceFor(language)
+          : await _castVoice(language, casting);
+      if (casting != null) tone = _shape(tone, voice, casting);
       // Browsers keep an utterance queued after an error or a backgrounded tab,
       // and the plugin refuses to speak while it believes one is playing.
       await _tts.stop();
-      await _apply(voice, pace);
+      await _apply(voice, pace, tone);
+      // When asked, the future completes as the voice falls silent, so a
+      // caller can leave a pause before the next sentence.
+      await _tts.awaitSpeakCompletion(waitUntilSpoken);
       await _tts.speak(text);
     } catch (error, stackTrace) {
       // A silent button is bad; a crashed lesson is worse.
@@ -108,6 +161,76 @@ class SpeechService {
     return chosen;
   }
 
+/// A voice for [casting]: one of the right gender when the device has it,
+  /// otherwise any native voice, spread across characters by
+  /// [SpeechCasting.variant] so different people get different voices where
+  /// there is more than one to go round.
+  Future<Map<String, String>?> _castVoice(
+    TargetLanguage? language,
+    SpeechCasting casting,
+  ) async {
+    final key = '${language?.name}|${casting.male}|${casting.variant}';
+    if (_resolved.containsKey(key)) return _resolved[key];
+    final voices = await (_voiceList ??= _loadVoices());
+    var native = <Map<String, String>>[];
+    for (final locale in language?.speechLocaleFallbacks ?? const <String>[]) {
+      native = [for (final v in voices) if (_matches(v, locale)) v];
+      if (native.isNotEmpty) break;
+    }
+    final wanted = casting.male ? 'male' : 'female';
+    final gendered = [for (final v in native) if (_genderOf(v) == wanted) v];
+    final pool = gendered.isNotEmpty ? gendered : native;
+    final chosen = pool.isEmpty
+        ? await _voiceFor(language)
+        : pool[casting.variant % pool.length];
+    _resolved[key] = chosen;
+    return chosen;
+  }
+
+  /// [tone] adjusted for who is speaking.
+  ///
+  /// Most phones and desktops ship one voice per Indian language, and it is
+  /// usually a woman's - Soumya for Kannada, Lekha for Hindi. A man given that
+  /// voice unchanged sounds like a woman, so when no male voice exists his
+  /// lines are pitched well down. A voice whose gender the device does not
+  /// report is treated as female, since that is what it nearly always is.
+  SpeechTone _shape(
+    SpeechTone tone,
+    Map<String, String>? voice,
+    SpeechCasting casting,
+  ) {
+    final gender = voice == null ? null : _genderOf(voice);
+    var pitch = tone.pitch * casting.pitch;
+    if (casting.male && gender != 'male') pitch *= 0.64;
+    if (!casting.male && gender == 'male') pitch *= 1.3;
+    return SpeechTone(
+      // Engines accept roughly half to double; outside that some refuse.
+      pitch: pitch.clamp(0.5, 2.0),
+      rate: tone.rate * casting.rate,
+      volume: tone.volume,
+    );
+  }
+
+  /// `male`, `female`, or null when the device does not say. iOS reports it;
+  /// the web does not, so a few well-known system voices are named here.
+  static String? _genderOf(Map<String, String> voice) {
+    final reported = voice['gender']?.toLowerCase();
+    if (reported == 'male' || reported == 'female') return reported;
+    final name = (voice['name'] ?? '').toLowerCase();
+    if (name.contains('female')) return 'female';
+    if (name.contains('male')) return 'male';
+    for (final known in _maleVoices) {
+      if (name.contains(known)) return 'male';
+    }
+    for (final known in _femaleVoices) {
+      if (name.contains(known)) return 'female';
+    }
+    return null;
+  }
+
+  static const _femaleVoices = ['soumya', 'lekha', 'veena', 'kanya', 'tara', 'kiyara'];
+  static const _maleVoices = ['rishi', 'aman', 'neel'];
+
   bool _matches(Map<String, String> voice, String locale) =>
       (voice['locale'] ?? '')
           .toLowerCase()
@@ -124,21 +247,28 @@ class SpeechService {
     return null;
   }
 
-  Future<void> _apply(Map<String, String>? voice, SpeechPace pace) async {
+  Future<void> _apply(
+    Map<String, String>? voice,
+    SpeechPace pace,
+    SpeechTone tone,
+  ) async {
     final locale = voice?['locale'];
-    if (locale != null && locale != _appliedLocale) {
-      await _tts.setVoice(voice!);
+    final id = voice == null ? null : '${voice['name']}|$locale';
+    if (locale != null && id != _appliedVoice) {
+      await _tts.setVoice({'name': voice!['name']!, 'locale': locale});
       await _tts.setLanguage(locale);
-      _appliedLocale = locale;
+      _appliedVoice = id;
     }
-    if (pace != _appliedPace) {
+    if (pace != _appliedPace || tone != _appliedTone) {
       // The web and native engines read these numbers on different scales.
       const normal = kIsWeb ? 0.9 : 0.45;
       await _tts.setSpeechRate(
-        pace == SpeechPace.slow ? normal * 0.55 : normal,
+        (pace == SpeechPace.slow ? normal * 0.55 : normal) * tone.rate,
       );
-      await _tts.setPitch(1);
+      await _tts.setPitch(tone.pitch);
+      await _tts.setVolume(tone.volume);
       _appliedPace = pace;
+      _appliedTone = tone;
     }
   }
 
@@ -161,6 +291,7 @@ class SpeechService {
     return raw.whereType<Map>().map((voice) {
       return {
         'name': '${voice['name']}',
+        if (voice['gender'] != null) 'gender': '${voice['gender']}',
         'locale': '${voice['locale'] ?? voice['lang']}',
       };
     }).toList();
