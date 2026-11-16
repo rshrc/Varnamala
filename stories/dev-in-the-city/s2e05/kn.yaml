@@ -1,0 +1,286 @@
+# s2e05 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ರಾಜ್ಯೋತ್ಸವ | raajyootsava | Rajyotsava
+tease: ಕಿಟ್ಟು. | kiTTu. | Kittu.
+
+b01:
+  say: ನವೆಂಬರ್ ಒಂದು. ಕನ್ನಡ ರಾಜ್ಯೋತ್ಸವ. ಎಲ್ಲಾ ಕಡೆ ಕೆಂಪು, ಹಳದಿ.
+  en: November the first. Kannada Rajyotsava. Red and yellow everywhere.
+  words: |
+    navembar      "November" loan
+    ondu          "the first"
+    kannaDa       "Kannada" name
+    raajyootsava  "Rajyotsava (the day the state was formed)" name
+    ellaa         "every"
+    kaDe          "where"
+    kempu         "red"
+    haLadi        "yellow"
+
+b02:
+  say: ರಾಜು, ಇಲ್ಲಿ ಎಲ್ಲರೂ ಕನ್ನಡ, ಕನ್ನಡ ಅಂತಾರೆ. ಯಾಕೆ?
+  en: Raju, here everyone says 'Kannada, Kannada'. Why?
+  words: |
+    raaju              "Raju" name
+    illi               "here"
+    ellaruu  < ellaru  "everyone"
+    kannaDa            "Kannada" name
+    kannaDa            "Kannada" name
+    antaare  < annu    "say"
+    yaake              "why?"
+
+b03:
+  say: ಕೆಲವೊಮ್ಮೆ ಅನ್ಸುತ್ತೆ... ನಾವು ಬೇಡ ಅಂತ.
+  en: Sometimes it feels... like we're not wanted.
+  words: |
+    kelavomme           "sometimes"
+    ansutte    < anisu  "it feels"
+    naavu               "we (are)"
+    beeDa               "not wanted"
+    anta                "(that)"
+
+b04:
+  say: ಇಲ್ಲ ಮೇಡಂ. ಅದು ನಿಮ್ಮ ವಿರುದ್ಧ ಅಲ್ಲ.
+  en: No, madam. It isn't against you.
+  words: |
+    illa:NEG  "no"
+    meeDam    "madam" loan
+    adu       "it (is)"
+    nimma     "you"
+    viruddha  "against"
+    alla      "not"
+
+b05:
+  say: ನಿಮ್ಮ ಭಾಷೆ, ನಿಮಗೆ ಏನು?
+  en: Your language... what is it to you?
+  words: |
+    nimma                "your"
+    bhaaShe              "language"
+    nimage:DIR  < niivu  "to you"
+    eenu                 "what (is it)?"
+
+b06:
+  say: ಅಮ್ಮ ಯೋಚನೆ ಮಾಡ್ತಾರೆ.
+  en: Amma thinks about it.
+  words: |
+    amma                "Amma (Dev's mum)"
+    yoochane            "thought"
+    maaDtaare  < maaDu  "does (thinks)"
+
+b07:
+  say: ನನ್ನ ಅಮ್ಮನ ಧ್ವನಿ.
+  en: My mother's voice.
+  words: |
+    nanna                        "my"
+    ammana  amma·na:GEN  < amma  "mother's"
+    dhvani                       "voice"
+
+b08:
+  say: ನಮಗೂ ಅಷ್ಟೇ, ಮೇಡಂ. ಅಷ್ಟೇ.
+  en: For us too, madam. That's all it is.
+  words: |
+    namaguu:DIR  < naavu  "for us too"
+    aShTee                "that's all"
+    meeDam                "madam" loan
+    aShTee                "that's all"
+
+b09:
+  say: ಅಮ್ಮ ಮತ್ತೆ ಊರು ನೋಡ್ತಾರೆ. ಬೇರೆ ತರ.
+  en: Amma looks at the city again. Differently.
+  words: |
+    amma                                     "Amma"
+    matte                                    "again"
+    uuru                                     "the city"
+    nooDtaare  nooD·taare:PRES.3PL  < nooDu  "looks at"
+    beere                                    "different"
+    tara                                     "way"
+
+b10:
+  say: ಸಂಜೆ. ಬೀದಿ ಹಬ್ಬ. ಹಾಡು, ಸಿಹಿ, ಒಂದು ಚಿಕ್ಕ ಸ್ಟೇಜ್.
+  en: Evening. Songs, sweets, a little stage.
+  words: |
+    sanje   "evening"
+    biidi   "street"
+    habba   "celebration"
+    haaDu   "songs"
+    sihi    "sweets"
+    ondu    "a"
+    chikka  "little"
+    sTeej   "stage" loan
+
+b11:
+  say: "ಯಾರೋ ಕೂಗ್ತಾರೆ: 'ಶಾರದಮ್ಮ! ಒಂದು ಹಾಡು!'"
+  en: "Someone calls out: 'Sharada-amma! A song!'"
+  words: |
+    yaaroo                "someone"
+    kuugtaare    < kuugu  "calls out"
+    shaaradamma           "Sharada-amma!" name
+    ondu                  "a"
+    haaDu                 "song!"
+
+b12:
+  say: ನಾನಾ? ಇಲ್ಲ ಇಲ್ಲ...
+  en: Me? No, no...
+  words: |
+    naanaa:Q  < naanu  "me?"
+    illa:NEG           "no"
+    illa:NEG           "no..."
+
+b13:
+  say: ಹೋಗಿ. ಅವರಿಗೋಸ್ಕರ.
+  en: Go. Sing it for him.
+  words: |
+    hoogi:IMP.HON  < hoogu  "go"
+    avarigooskara  < avaru  "for him (your husband)"
+
+b14:
+  say: ಶಾರದಾ ಸ್ಟೇಜ್ ಹತ್ತುತ್ತಾರೆ.
+  en: Sharada climbs onto the stage.
+  words: |
+    shaaradaa             "Sharada" name
+    sTeej                 "the stage" loan
+    hattuttaare  < hattu  "climbs"
+
+b15:
+  say: ನನ್ನ ಕೆರೆ, ನನ್ನ ಮನೆ, ನನ್ನ ಭಾಷೆ...
+  en: My lake, my home, my language...
+  words: |
+    nanna    "my"
+    kere     "lake"
+    nanna    "my"
+    mane     "home"
+    nanna    "my"
+    bhaaShe  "language..."
+
+b16:
+  say: ಇದನ್ನ ನಮ್ಮ ಯಜಮಾನರು ಹಾಡ್ತಿದ್ರು. ದಿನಾ ಬೆಳಿಗ್ಗೆ. ಕೆರೆ ಹತ್ರ.
+  en: My husband used to sing this. Every morning. By the lake.
+  words: |
+    idanna:ACC      < idu    "this"
+    namma                    "our (my)"
+    yajamaanaru              "husband"
+    haaDtidru:PAST  < haaDu  "used to sing"
+    dinaa                    "every day"
+    beLigge                  "morning"
+    kere                     "the lake"
+    hatra                    "by"
+
+b17:
+  say: ಯಾರೂ ಮಾತಾಡಲ್ಲ. ಆಮೇಲೆ, ಎಲ್ಲರೂ ಚಪ್ಪಾಳೆ.
+  en: Nobody speaks. Then everyone claps.
+  words: |
+    yaaruu                       "nobody"
+    maataaDalla:NEG  < maataaDu  "speaks"
+    aameele                      "then"
+    ellaruu          < ellaru    "everyone"
+    chappaaLe                    "applause"
+
+b18:
+  say: ಆಂಟಿ! ಈಗ ನಿಮ್ಮ ಸರದಿ!
+  en: Aunty! Now it's your turn!
+  words: |
+    aanTi   "aunty!" loan
+    iiga    "now"
+    nimma   "your"
+    saradi  "turn!"
+
+b19:
+  say: ನಾನಾ? ನನಗೆ ನನ್ನ ಭಾಷೆ ಹಾಡು ಮಾತ್ರ ಗೊತ್ತು!
+  en: Me? I only know songs in my own language!
+  words: |
+    naanaa:Q    < naanu  "me?"
+    nanage:DIR  < naanu  "to me"
+    nanna                "my"
+    bhaaShe              "language"
+    haaDu                "songs"
+    maatra               "only"
+    gottu                "(are) known!"
+
+b20:
+  say: ಅದನ್ನೇ ಹಾಡಿ. ಹಾಡು ಹಾಡೇ.
+  en: Then sing that one. A song is a song.
+  words: |
+    adannee:ACC    < adu    "that very one"
+    haaDi:IMP.HON  < haaDu  "sing"
+    haaDu                   "a song"
+    haaDee         < haaDu  "is a song"
+
+b21:
+  say: ಅಮ್ಮ ಸ್ಟೇಜ್ ಹತ್ತುತ್ತಾರೆ. ಬಾಲ್ಯದ ಒಂದು ಹಾಡು ಹಾಡ್ತಾರೆ.
+  en: Amma climbs up. She sings a song from her childhood.
+  words: |
+    amma                    "Amma (Dev's mum)"
+    sTeej                   "the stage" loan
+    hattuttaare   < hattu   "climbs"
+    baalyada:GEN  < baalya  "childhood's"
+    ondu                    "a"
+    haaDu                   "song"
+    haaDtaare     < haaDu   "sings"
+
+b22:
+  say: ಯಾರಿಗೂ ಪದ ಅರ್ಥ ಆಗಲ್ಲ.
+  en: Nobody understands the words.
+  words: |
+    yaariguu:DIR  < yaaru  "to nobody"
+    pada                   "the words"
+    artha                  "meaning"
+    aagalla:NEG   < aagu   "don't come through"
+
+b23:
+  say: ಎಲ್ಲರಿಗೂ ಹಾಡು ಅರ್ಥ ಆಗುತ್ತೆ.
+  en: Everybody understands the song.
+  words: |
+    ellarigu:DIR  < ellaru  "to everyone"
+    haaDu                   "the song"
+    artha                   "meaning"
+    aagutte       < aagu    "comes through"
+
+b24:
+  say: ನಮ್ಮ ಅಮ್ಮ ಕೂಡ ಹೀಗೇ ಹಾಡ್ತಿದ್ರು.
+  en: My mother used to sing just like that.
+  words: |
+    namma                    "my (our)"
+    amma                     "mother"
+    kuuDa                    "too"
+    hiigee                   "just like this"
+    haaDtidru:PAST  < haaDu  "used to sing"
+
+b25:
+  say: ರಾತ್ರಿ ತುಂಬಾ ಹೊತ್ತು. ದೇವ್ ಕೆರೆ ಪಕ್ಕ ನಡೆದು ಬರ್ತಾನೆ.
+  en: Late at night. Dev walks home past the lake.
+  words: |
+    raatri            "night"
+    tumbaa            "very"
+    hottu             "late (time)"
+    dev               "Dev" name
+    kere              "the lake"
+    pakka             "past (beside)"
+    naDedu    < naDe  "walking"
+    bartaane  < baru  "comes"
+
+b26:
+  say: ಮೆಟ್ಟಿಲ ಮೇಲೆ ಯಾರೋ ಒಬ್ಬರೇ ಕೂತಿದ್ದಾರೆ.
+  en: Someone is sitting alone on the steps.
+  words: |
+    meTTila:GEN       < meTTilu  "the steps'"
+    meele                        "on"
+    yaaroo                       "someone"
+    obbaree           < obbaru   "alone"
+    kuutiddaare:PROG  < kuuru    "is sitting"
+
+b27:
+  say: ಟೈ. ಕನ್ನಡಕ. ಕೈಯಲ್ಲಿ ಫೋನ್, ಆಫ್.
+  en: A tie. Glasses. A phone in his hand, switched off.
+  words: |
+    Tai                              "a tie" loan
+    kannaDaka                        "glasses"
+    kaiyalli   kai·yalli:LOC  < kai  "in (his) hand"
+    phoon                            "a phone" loan
+    aaph                             "switched off" loan
+
+b28:
+  say: ಸಾರ್...?
+  en: Sir...?
+  words: |
+    saar  "sir...?" loan

@@ -1,0 +1,79 @@
+# s2e05: Rajyotsava. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: street_auto
+  cast:
+    raju: in_auto_turned @ 0.6
+    amma: in_auto_back @ 0.76
+  props:
+    poster: dev_poster
+  beats:
+    b01: narrator
+    b02: { who: amma, mood: wary, icons: [speech, question], tags: [hesitantly] }
+    b03: { who: amma, mood: wary, icons: [person, "no"], tags: [softly], start: [amma.sigh] }
+    b04: { who: raju, mood: happy, icons: [heart, "no"], tags: [gently], start: [raju.smile] }
+    b05: { who: raju, mood: curious, icons: [speech, question], tags: [gently] }
+    b06: { who: narrator, tags: [softly] }
+    b07: { who: amma, mood: wary, icons: [person, heart], tags: [softly] }
+    b08: { who: raju, mood: happy, icons: [heart, ok], tags: [warmly], start: [raju.nod] }
+    b09: { who: narrator, tags: [softly], start: [amma.smile] }
+
+p2:
+  set: ward_meeting
+  cast:
+    dev:      standing @ 0.12
+    amma:     standing @ 0.28
+    landlady: arms_crossed @ 0.44
+  props:
+    crowd: crowd
+  beats:
+    b10: narrator
+    b11: narrator
+    b12: { who: landlady, mood: sheepish, icons: ["no", mic], start: [landlady.sheepish] }
+    b13: { who: amma, mood: happy, icons: [heart, mic], tags: [gently], start: [amma.nod] }
+
+p3:
+  set: ward_meeting
+  cast:
+    dev:      standing @ 0.12
+    amma:     standing @ 0.28
+    kid:      standing @ 0.42
+    landlady: on_stage @ 0.7
+  props:
+    mic:   mic
+    crowd: crowd
+  beats:
+    b14: { who: narrator, start: [mic.squeal] }
+    b15: { who: landlady, mood: happy, icons: [water, house, heart], tags: [sings softly] }
+    b16: { who: landlady, mood: wary, icons: [person, water, heart], tags: [softly] }
+    b17: { who: narrator, tags: [softly], start: [crowd.clap] }
+    b18: { who: kid, mood: calling, icons: [mic, person], start: [kid.wave] }
+    b19: { who: amma, mood: shocked, icons: [speech, "no"], start: [amma.shock] }
+    b20: { who: landlady, mood: happy, icons: [mic, heart, ok], tags: [warmly], start: [landlady.smile] }
+
+p4:
+  set: ward_meeting
+  cast:
+    dev:      standing @ 0.12
+    landlady: arms_crossed @ 0.3
+    amma:     on_stage @ 0.7
+  props:
+    mic:   mic
+    crowd: crowd
+  beats:
+    b21: { who: narrator, start: [mic.squeal] }
+    b22: { who: narrator, tags: [softly] }
+    b23: { who: narrator, tags: [warmly], start: [crowd.clap] }
+    b24: { who: landlady, mood: happy, icons: [heart, person], tags: [softly], start: [landlady.sigh] }
+
+p5:
+  set: lake_night
+  cast:
+    dev:  standing @ 0.2
+    boss: sitting @ 0.58
+  beats:
+    b25: { who: narrator, start: [foam.drift] }
+    b26: { who: narrator, tags: [softly] }
+    b27: { who: narrator, tags: [softly], start: [boss.sigh] }
+    b28: { who: dev, mood: shocked, icons: [person, question], tags: [whispers], start: [dev.shock], cliffhanger: true }

@@ -1,0 +1,328 @@
+# s2e05 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: संगीत की शाम | sangiit kii shaam | The Music Evening
+tease: बबलू। | bablu. | Bablu.
+
+b01:
+  say: रविवार। मोहल्ले में संगीत की शाम। हर तरफ़ झंडियाँ।
+  en: Sunday. A music evening in the neighbourhood. Bunting everywhere.
+  words: |
+    ravivaar                "Sunday"
+    mohalle     < mohallaa  "the neighbourhood"
+    me~:LOC                 "in"
+    sangiit                 "music"
+    kii:GEN                 "(of)"
+    shaam                   "evening"
+    har                     "every"
+    taraf                   "direction (everywhere)"
+    jhanDiyaa~  < jhanDii   "bunting (little flags)"
+
+b02:
+  say: राजू, यहाँ सब हिंदी, हिंदी करते हैं। क्यों?
+  en: Raju, here everyone goes on about Hindi. Why?
+  words: |
+    raajuu            "Raju" name
+    yahaa~            "here"
+    sab               "everyone"
+    hindii            "Hindi" name
+    hindii            "Hindi" name
+    karte   < karnaa  "go on about (do)"
+    hai~    < honaa   "(are)"
+    kyo~              "why?"
+
+b03:
+  say: कभी-कभी लगता है... हम चाहिए नहीं।
+  en: Sometimes it feels... like we're not wanted.
+  words: |
+    kabhii-kabhii            "sometimes"
+    lagtaa         < lagnaa  "it feels"
+    hai            < honaa   "(is)"
+    ham                      "we (are)"
+    chaahie                  "wanted"
+    nahii~:NEG               "not"
+
+b04:
+  say: नहीं मैडम। ये आपके ख़िलाफ़ नहीं है।
+  en: No, madam. It isn't against you.
+  words: |
+    nahii~:NEG           "no"
+    maiDam               "madam" loan
+    ye                   "it"
+    aapke       < aap    "you"
+    khilaaf              "against"
+    nahii~:NEG           "not"
+    hai         < honaa  "(is)"
+
+b05:
+  say: आपकी भाषा, आपके लिए क्या है?
+  en: Your language... what is it to you?
+  words: |
+    aapkii    < aapkaa  "your"
+    bhaashaa            "language"
+    aapke     < aap     "you"
+    lie                 "for"
+    kyaa                "what"
+    hai       < honaa   "is it?"
+
+b06:
+  say: माँ सोचती हैं।
+  en: Amma thinks about it.
+  words: |
+    maa~                "Ma (Dev's mum)"
+    sochtii  < sochnaa  "thinks"
+    hai~     < honaa    "(are)"
+
+b07:
+  say: मेरी माँ की आवाज़।
+  en: My mother's voice.
+  words: |
+    merii    < meraa  "my"
+    maa~              "mother"
+    kii:GEN           "'s"
+    aavaaz            "voice"
+
+b08:
+  say: हमारे लिए भी, मैडम। बस इतना ही।
+  en: For us too, madam. That's all it is.
+  words: |
+    hamaare  < hamaaraa  "us"
+    lie                  "for"
+    bhii                 "too"
+    maiDam               "madam" loan
+    bas                  "just"
+    itnaa                "that much"
+    hii                  "(only)"
+
+b09:
+  say: माँ फिर से शहर को देखती हैं। अलग तरह से।
+  en: Amma looks at the city again. Differently.
+  words: |
+    maa~                "Ma"
+    phir                "again"
+    se                  "(again)"
+    shahar              "the city"
+    ko:ACC              "(at)"
+    dekhtii  < dekhnaa  "looks"
+    hai~     < honaa    "(are)"
+    alag                "different"
+    tarah               "way"
+    se                  "(in a)"
+
+b10:
+  say: शाम। गाने, मिठाई, एक छोटा सा स्टेज।
+  en: Evening. Songs, sweets, a little stage.
+  words: |
+    shaam               "evening"
+    gaane     < gaanaa  "songs"
+    miThaaii            "sweets"
+    ek                  "a"
+    chhoTaa             "little"
+    saa                 "-ish"
+    sTej                "stage" loan
+
+b11:
+  say: "कोई पुकारता है: 'कमला जी! एक गाना!'"
+  en: "Someone calls out: 'Kamla-ji! A song!'"
+  words: |
+    koii                    "someone"
+    pukaartaa  < pukaarnaa  "calls out"
+    hai        < honaa      "(is)"
+    kamlaa                  "Kamla" name
+    jii                     "-ji!"
+    ek                      "a"
+    gaanaa                  "song!"
+
+b12:
+  say: मैं? नहीं नहीं...
+  en: Me? No, no...
+  words: |
+    mai~        "me?"
+    nahii~:NEG  "no"
+    nahii~:NEG  "no..."
+
+b13:
+  say: जाइए। उनके लिए।
+  en: Go. Sing it for him.
+  words: |
+    jaaie:IMP.HON  < jaanaa  "go"
+    unke           < vo      "him (your husband)"
+    lie                      "for"
+
+b14:
+  say: कमला जी स्टेज पर चढ़ती हैं।
+  en: Kamla-ji climbs onto the stage.
+  words: |
+    kamlaa                "Kamla" name
+    jii                   "-ji"
+    sTej                  "the stage" loan
+    par:LOC               "onto"
+    chaDhtii  < chaDhnaa  "climbs"
+    hai~      < honaa     "(are)"
+
+b15:
+  say: मेरी झील, मेरा घर, मेरी भाषा...
+  en: My lake, my home, my language...
+  words: |
+    merii     < meraa  "my"
+    jhiil              "lake"
+    meraa              "my"
+    ghar               "home"
+    merii     < meraa  "my"
+    bhaashaa           "language..."
+
+b16:
+  say: ये मेरे पति गाते थे। रोज़ सुबह। झील के पास।
+  en: My husband used to sing this. Every morning. By the lake.
+  words: |
+    ye                  "this"
+    mere      < meraa   "my"
+    pati                "husband"
+    gaate     < gaanaa  "sang"
+    the:PAST  < honaa   "used to"
+    roz                 "every day"
+    subah               "morning"
+    jhiil               "the lake"
+    ke:GEN              "(of)"
+    paas                "by"
+
+b17:
+  say: कोई कुछ नहीं बोलता। फिर, सब ताली बजाते हैं।
+  en: Nobody speaks. Then everyone claps.
+  words: |
+    koii                    "anyone"
+    kuchh                   "anything"
+    nahii~:NEG              "no"
+    boltaa      < bolnaa    "says"
+    phir                    "then"
+    sab                     "everyone"
+    taalii                  "clap"
+    bajaate     < bajaanaa  "(do)"
+    hai~        < honaa     "(are)"
+
+b18:
+  say: आंटी! अब आपकी बारी!
+  en: Aunty! Now it's your turn!
+  words: |
+    aanTii            "aunty!" loan
+    ab                "now"
+    aapkii  < aapkaa  "your"
+    baarii            "turn!"
+
+b19:
+  say: मैं? मुझे तो बस अपनी भाषा के गाने आते हैं!
+  en: Me? I only know songs in my own language!
+  words: |
+    mai~                "me?"
+    mujhe               "to me"
+    to                  "(as for me)"
+    bas                 "only"
+    apnii     < apnaa   "my own"
+    bhaashaa            "language"
+    ke:GEN              "(of)"
+    gaane     < gaanaa  "songs"
+    aate      < aanaa   "come (are known)"
+    hai~      < honaa   "(are)"
+
+b20:
+  say: वही गाइए। गाना तो गाना है।
+  en: Then sing that one. A song is a song.
+  words: |
+    vahii                    "that one"
+    gaaie:IMP.HON  < gaanaa  "sing"
+    gaanaa                   "a song"
+    to                       "(after all)"
+    gaanaa                   "a song"
+    hai            < honaa   "is"
+
+b21:
+  say: माँ स्टेज पर चढ़ती हैं। बचपन का एक गाना गाती हैं।
+  en: Amma climbs up. She sings a song from her childhood.
+  words: |
+    maa~                  "Ma (Dev's mum)"
+    sTej                  "the stage" loan
+    par:LOC               "onto"
+    chaDhtii  < chaDhnaa  "climbs"
+    hai~      < honaa     "(are)"
+    bachpan               "childhood"
+    kaa:GEN               "(from)"
+    ek                    "a"
+    gaanaa                "song"
+    gaatii    < gaanaa    "sings"
+    hai~      < honaa     "(are)"
+
+b22:
+  say: किसी को शब्द समझ नहीं आते।
+  en: Nobody understands the words.
+  words: |
+    kisii       < koii   "anyone"
+    ko:DIR               "to"
+    shabd                "the words"
+    samajh               "understanding"
+    nahii~:NEG           "not"
+    aate        < aanaa  "come"
+
+b23:
+  say: गाना सबको समझ आता है।
+  en: Everybody understands the song.
+  words: |
+    gaanaa           "the song"
+    sabko   < sab    "to everyone"
+    samajh           "understanding"
+    aataa   < aanaa  "comes"
+    hai     < honaa  "(is)"
+
+b24:
+  say: मेरी माँ भी ऐसे ही गाती थीं।
+  en: My mother used to sing just like that.
+  words: |
+    merii       < meraa   "my"
+    maa~                  "mother"
+    bhii                  "too"
+    aise                  "like this"
+    hii                   "just"
+    gaatii      < gaanaa  "sang"
+    thii~:PAST  < honaa   "used to"
+
+b25:
+  say: देर रात। देव झील के पास से गुज़रता है।
+  en: Late at night. Dev walks home past the lake.
+  words: |
+    der                   "late"
+    raat                  "night"
+    dev                   "Dev" name
+    jhiil                 "the lake"
+    ke:GEN                "(of)"
+    paas                  "by"
+    se                    "(past)"
+    guzartaa  < guzarnaa  "walks past"
+    hai       < honaa     "(is)"
+
+b26:
+  say: सीढ़ियों पर कोई अकेला बैठा है।
+  en: Someone is sitting alone on the steps.
+  words: |
+    siiDhiyo~  < siiDhii   "the steps"
+    par:LOC                "on"
+    koii                   "someone"
+    akelaa                 "alone"
+    baiThaa    < baiThnaa  "sitting"
+    hai        < honaa     "(is)"
+
+b27:
+  say: टाई। चश्मा। हाथ में फ़ोन, बंद।
+  en: A tie. Glasses. A phone in his hand, switched off.
+  words: |
+    Taaii     "a tie" loan
+    chashmaa  "glasses"
+    haath     "hand"
+    me~:LOC   "in"
+    fon       "a phone" loan
+    band      "switched off"
+
+b28:
+  say: सर...?
+  en: Sir...?
+  words: |
+    sar  "sir...?" loan
