@@ -1,0 +1,277 @@
+# s1e06 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಮಳೆಗಾಲ | maLegaala | Monsoon
+tease: ಮಗ ಬರ್ತಾನೆ! | maga bartaane! | The son is coming!
+
+b01:
+  say: ದೇವ್ ಒಬ್ಬನೇ. ಮಳೆ, ಮಳೆ, ಮಳೆ.
+  en: Dev is all alone. Rain, rain, rain.
+  words: |
+    dev      "Dev" name
+    obbanee  "alone"
+    maLe     "rain"
+    maLe     "rain"
+    maLe     "rain"
+
+b02:
+  say: ಒಂದು ಆಟೋ ನಿಲ್ಲುತ್ತೆ.
+  en: An auto stops.
+  words: |
+    ondu               "an"
+    aaToo              "auto" loan
+    nillutte  < nillu  "stops"
+
+b03:
+  say: ಸಾರ್! ಬನ್ನಿ! ಬೇಗ!
+  en: Sir! Come! Quick!
+  words: |
+    saar                           "sir!" loan
+    banni  bann·i:IMP.HON  < baru  "come!"
+    beega                          "quick!"
+
+b04:
+  say: ರಾಜು! ನೀವು!
+  en: Raju! It's you!
+  words: |
+    raaju      "Raju!" name
+    niivu:HON  "you!"
+
+b05:
+  say: ಎಷ್ಟು ಆಗುತ್ತೆ?
+  en: How much will it be?
+  words: |
+    eShTu                          "how much"
+    aagutte  aag·utte:FUT  < aagu  "will it be?"
+
+b06:
+  say: ಮಳೆಯಲ್ಲಿ? ಫ್ರೀ!
+  en: In the rain? Free!
+  words: |
+    maLeyalli  maLe·yalli:LOC  < maLe  "in the rain?"
+    phrii                              "free!" loan
+
+b07:
+  say: ಆಟೋ ನಿಧಾನವಾಗಿ ಹೋಗುತ್ತೆ.
+  en: The auto goes slowly.
+  words: |
+    aaToo                   "the auto" loan
+    nidhaanavaagi           "slowly"
+    hoogutte       < hoogu  "goes"
+
+b08:
+  say: ರಾಜು, ನೀವು ಎಲ್ಲಿಯವರು?
+  en: Raju, where are you from?
+  words: |
+    raaju               "Raju" name
+    niivu:HON           "you"
+    elliyavaru  < elli  "from where?"
+
+b09:
+  say: ನಾನು? ಹಳ್ಳಿಯಿಂದ ಬಂದೆ.
+  en: Me? I came from a village.
+  words: |
+    naanu                                 "me?"
+    haLLiyinda  haLLi·yinda:ABL  < haLLi  "from a village"
+    bande:PAST                   < baru   "I came"
+
+b10:
+  say: ಇಪ್ಪತ್ತು ವರ್ಷ ಹಿಂದೆ. ಒಂದೇ ಬ್ಯಾಗ್.
+  en: Twenty years ago. Just one bag.
+  words: |
+    ippattu  "twenty" @raju.fingers
+    varsha   "years"
+    hinde    "ago"
+    ondee    "just one"
+    byaag    "bag" loan
+
+b11:
+  say: ನಿಮ್ಮ ಹಾಗೆ.
+  en: Like you.
+  words: |
+    nimma:GEN  "your"
+    haage      "like (you)"
+
+b12:
+  say: ಆಗ ಕನ್ನಡ ಬರ್ತಿತ್ತಾ?
+  en: Did you know Kannada then?
+  words: |
+    aaga                                   "then"
+    kannaDa                                "Kannada" name
+    bartittaa  bar·titt:PAST·aa:Q  < baru  "did you know? (did it come?)"
+
+b13:
+  say: ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ!
+  en: A little, a little!
+  words: |
+    swalpa  "a little"
+    swalpa  "a little!"
+
+b14:
+  say: ಇಬ್ರೂ ನಗ್ತಾರೆ.
+  en: They both laugh.
+  words: |
+    ibruu                                 "both"
+    nagtaare  nag·taare:PRES.3PL  < nagu  "laugh"
+
+b15:
+  say: ಪೋಸ್ಟರ್‌ನಲ್ಲಿ ನೇತಾ ನಗ್ತಾನೆ.
+  en: On the poster, the neta smiles.
+  words: |
+    poosTarnalli  poosTar·nalli:LOC   < poosTar  "on the poster"
+    neetaa                                       "the neta (politician)"
+    nagtaane      nag·taane:PRES.3SG  < nagu     "smiles"
+
+b16:
+  say: "ಪ್ರತಿ ವರ್ಷ: ಮಳೆ, ನೀರು, ಪೋಸ್ಟರ್!"
+  en: "Every year: rain, water, posters!"
+  words: |
+    prati    "every"
+    varSha   "year"
+    maLe     "rain"
+    niiru    "water"
+    poosTar  "poster!" loan
+
+b17:
+  say: ಅಯ್ಯೋ! ಪೂರ್ತಿ ನೆನೆದಿದ್ದೀರ!
+  en: Ayyo! You're soaked through!
+  words: |
+    ayyoo                      "oh no!"
+    puurti                     "completely"
+    nenediddiira:PERF  < nene  "you're soaked!"
+
+b18:
+  say: ಬನ್ನಿ. ಊಟ ಮಾಡಿ.
+  en: Come in. Have some dinner.
+  words: |
+    banni  bann·i:IMP.HON  < baru   "come (in)"
+    uuTa                            "meal, dinner"
+    maaDi  maaD·i:IMP.HON  < maaDu  "do! (have it, please)"
+
+b19:
+  say: ಥ್ಯಾಂಕ್ಸ್, ಮೇಡಂ!
+  en: Thanks, madam!
+  words: |
+    thyaanks  "thanks" loan
+    meeDam    "madam!" loan
+
+b20:
+  say: ಬಿಸಿ ಅನ್ನ, ಸಾಂಬಾರ್.
+  en: Hot rice. Sambar.
+  words: |
+    bisi      "hot"
+    anna      "rice"
+    saambaar  "sambar (lentil stew)"
+
+b21:
+  say: ತಿನ್ನಿ! ತಿನ್ನಿ!
+  en: Eat! Eat!
+  words: |
+    tinni  tinn·i:IMP.HON  < tinnu  "eat! (please)"
+    tinni  tinn·i:IMP.HON  < tinnu  "eat!"
+
+b22:
+  say: ತುಂಬಾ ರುಚಿ, ಮೇಡಂ!
+  en: So tasty, madam!
+  words: |
+    tumbaa  "very"
+    ruchi   "tasty"
+    meeDam  "madam!" loan
+
+b23:
+  say: ಇನ್ನೂ ಸ್ವಲ್ಪ?
+  en: A little more?
+  words: |
+    innuu   "more"
+    swalpa  "a little?"
+
+b24:
+  say: ಹೂಂ... ಸರಿ.
+  en: Umm... okay.
+  words: |
+    huum  "umm..."
+    sari  "okay."
+
+b25:
+  say: ಇದ್ದಕ್ಕಿದ್ದಂತೆ... ಕರೆಂಟ್ ಹೋಯ್ತು!
+  en: Suddenly... the power goes!
+  words: |
+    iddakkiddante                         "suddenly..."
+    karenT                                "the power (current)" @room.cut loan
+    hooytu         hooy·tu:PAST  < hoogu  "went!"
+
+b26:
+  say: ಮತ್ತೆ! ಪ್ರತಿ ಮಳೆಗೆ ಕರೆಂಟ್ ಹೋಗುತ್ತೆ.
+  en: Again! Every time it rains, the power goes.
+  words: |
+    matte                           "again!"
+    prati                           "every"
+    maLege    maLe·ge:DIR  < maLe   "rain (at)"
+    karenT                          "the power" loan
+    hoogutte               < hoogu  "goes"
+
+b27:
+  say: ಹೊರಗೆ, ನೇತಾ ಪೋಸ್ಟರ್‌ಗೆ ಮಾತ್ರ ಲೈಟ್.
+  en: Outside, only the neta's poster has light.
+  words: |
+    horage                                "outside"
+    neetaa                                "the neta's"
+    poosTarge  poosTar·ge:DIR  < poosTar  "for the poster"
+    maatra                                "only"
+    laiT                                  "light" loan
+
+b28:
+  say: ಇನ್ನೂ ಸ್ವಲ್ಪ?
+  en: A little more?
+  words: |
+    innuu   "more"
+    swalpa  "a little?"
+
+b29:
+  say: ಸಾಕು! ಸಾಕು!
+  en: Enough! Enough!
+  words: |
+    saaku  "enough!"
+    saaku  "enough!"
+
+b30:
+  say: ಓಹೋ! 'ಸಾಕು'! ಯಾರು ಹೇಳ್ಕೊಟ್ರು?
+  en: Oho! 'Saaku'! Who taught you that?
+  words: |
+    ohoo                         "oho!"
+    saaku                        "'enough'!"
+    yaaru                        "who"
+    heeLkoTru:PAST  < heeLikoDu  "taught (you)?"
+
+b31:
+  say: ಪ್ರಿಯಾ. ಆಫೀಸಲ್ಲಿ.
+  en: Priya. At the office.
+  words: |
+    priyaa                                 "Priya" name
+    aafiisalli  aafiis·alli:LOC  < aafiis  "at the office" loan
+
+b32:
+  say: ಹಾಂ, ಮತ್ತೆ... ನಾಳೆ ನನ್ನ ಮಗ ಬರ್ತಾನೆ.
+  en: Oh, and... my son's coming tomorrow.
+  words: |
+    haam                                   "oh"
+    matte                                  "and..."
+    naaLe                                  "tomorrow"
+    nanna:GEN                              "my"
+    maga                                   "son"
+    bartaane   bar·taane:PRES.3SG  < baru  "is coming"
+
+b33:
+  say: ಅವನ ರೂಮ್...
+  en: His room...
+  words: |
+    avana:GEN  < avanu  "his"
+    ruum                "room..." loan
+
+b34:
+  say: ನಿಮ್ಮ ರೂಮ್.
+  en: ...is your room.
+  words: |
+    nimma:GEN  "(is) your"
+    ruum       "room." loan

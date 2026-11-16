@@ -1,0 +1,306 @@
+# s1e06 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: बरसात | barsaat | Monsoon
+tease: बेटा आ रहा है! | beTaa aa rahaa hai! | The son is coming!
+
+b01:
+  say: देव अकेला है। बारिश, बारिश, बारिश।
+  en: Dev is all alone. Rain, rain, rain.
+  words: |
+    dev               "Dev" name
+    akelaa            "alone"
+    hai      < honaa  "is"
+    baarish           "rain"
+    baarish           "rain"
+    baarish           "rain"
+
+b02:
+  say: एक ऑटो रुकता है।
+  en: An auto stops.
+  words: |
+    ek                "an"
+    oTo               "auto" loan
+    ruktaa  < ruknaa  "stops"
+    hai     < honaa   "(is)"
+
+b03:
+  say: साब! आइए! जल्दी!
+  en: Sir! Come! Quick!
+  words: |
+    saab                   < saahab  "sir!"
+    aaie    aa·ie:IMP.HON  < aanaa   "come!"
+    jaldii                           "quick!"
+
+b04:
+  say: राजू! आप!
+  en: Raju! It's you!
+  words: |
+    raajuu   "Raju!" name
+    aap:HON  "you!"
+
+b05:
+  say: कितना लगेगा?
+  en: How much will it be?
+  words: |
+    kitnaa                 "how much"
+    lagegaa:FUT  < lagnaa  "will it cost?"
+
+b06:
+  say: बारिश में? फ़्री!
+  en: In the rain? Free!
+  words: |
+    baarish  "rain"
+    me~:LOC  "in?"
+    frii     "free!" loan
+
+b07:
+  say: ऑटो धीरे धीरे चलता है।
+  en: The auto goes slowly.
+  words: |
+    oTo                 "the auto" loan
+    dhiire              "slowly"
+    dhiire              "slowly"
+    chaltaa  < chalnaa  "goes"
+    hai      < honaa    "(is)"
+
+b08:
+  say: राजू, आप कहाँ से हो?
+  en: Raju, where are you from?
+  words: |
+    raajuu            "Raju" name
+    aap:HON           "you"
+    kahaa~            "where"
+    se:ABL            "from"
+    ho       < honaa  "are?"
+
+b09:
+  say: मैं? गाँव से आया।
+  en: Me? I came from a village.
+  words: |
+    mai~                 "me?"
+    gaa~v                "a village"
+    se:ABL               "from"
+    aayaa:PAST  < aanaa  "came"
+
+b10:
+  say: बीस साल पहले। बस एक बैग।
+  en: Twenty years ago. Just one bag.
+  words: |
+    biis   "twenty" @raju.fingers
+    saal   "years"
+    pahle  "ago"
+    bas    "just"
+    ek     "one"
+    baig   "bag" loan
+
+b11:
+  say: आपकी तरह।
+  en: Like you.
+  words: |
+    aapkii:GEN  "your"
+    tarah       "like (you)"
+
+b12:
+  say: तब हिंदी आती थी?
+  en: Did you know Hindi then?
+  words: |
+    tab                 "then"
+    hindii              "Hindi" name
+    aatii      < aanaa  "came (to you)"
+    thii:PAST  < honaa  "did it?"
+
+b13:
+  say: थोड़ी थोड़ी!
+  en: A little, a little!
+  words: |
+    thoDii  "a little"
+    thoDii  "a little!"
+
+b14:
+  say: दोनों हँसते हैं।
+  en: They both laugh.
+  words: |
+    dono~              "both"
+    ha~ste  < ha~snaa  "laugh"
+    hai~    < honaa    "(are)"
+
+b15:
+  say: पोस्टर पर नेता मुस्कुराता है।
+  en: On the poster, the neta smiles.
+  words: |
+    posTar                      "poster" loan
+    par:LOC                     "on"
+    netaa                       "the neta (politician)"
+    muskuraataa  < muskuraanaa  "smiles"
+    hai          < honaa        "(is)"
+
+b16:
+  say: "हर साल: बारिश, पानी, पोस्टर!"
+  en: "Every year: rain, water, posters!"
+  words: |
+    har      "every"
+    saal     "year"
+    baarish  "rain"
+    paanii   "water"
+    posTar   "poster!" loan
+
+b17:
+  say: अरे राम! पूरे भीग गए!
+  en: Good heavens! You're soaked through!
+  words: |
+    are                   "oh"
+    raam                  "my god!" name
+    puure                 "completely"
+    bhiig     < bhiignaa  "soaked"
+    gae:PAST  < jaanaa    "(you got)!"
+
+b18:
+  say: आइए। खाना खा लो।
+  en: Come in. Have some dinner.
+  words: |
+    aaie     aa·ie:IMP.HON  < aanaa    "come (in)"
+    khaanaa                            "dinner"
+    khaa                    < khaanaa  "eat"
+    lo:IMP                  < lenaa    "(take)!"
+
+b19:
+  say: थैंक यू, आंटी!
+  en: Thank you, aunty!
+  words: |
+    thaink  "thank" loan
+    yuu     "you" loan
+    aanTii  "auntie!" loan
+
+b20:
+  say: गरम चावल, दाल।
+  en: Hot rice. Dal.
+  words: |
+    garam    "hot"
+    chaaval  "rice"
+    daal     "dal (lentils)"
+
+b21:
+  say: खाओ! खाओ!
+  en: Eat! Eat!
+  words: |
+    khaao:IMP  < khaanaa  "eat!"
+    khaao:IMP  < khaanaa  "eat!"
+
+b22:
+  say: बहुत स्वादिष्ट, आंटी!
+  en: So tasty, aunty!
+  words: |
+    bahut      "very"
+    svaadishT  "tasty"
+    aa~Tii     "aunty!" loan
+
+b23:
+  say: थोड़ा और?
+  en: A little more?
+  words: |
+    thoDaa  "a little"
+    aur     "more?"
+
+b24:
+  say: हम्म... ठीक है।
+  en: Umm... okay.
+  words: |
+    hmm             "umm..."
+    Thiik           "okay"
+    hai    < honaa  "(is)"
+
+b25:
+  say: अचानक... बिजली चली गई!
+  en: Suddenly... the power goes!
+  words: |
+    achaanak              "suddenly..."
+    bijlii                "the power (electricity)" @room.cut
+    chalii     < chalnaa  "went"
+    gaii:PERF  < jaanaa   "(gone)!"
+
+b26:
+  say: फिर से! हर बारिश में बिजली जाती है।
+  en: Again! Every time it rains, the power goes.
+  words: |
+    phir               "again"
+    se                 "(from)!"
+    har                "every"
+    baarish            "rain"
+    me~:LOC            "in"
+    bijlii             "the power"
+    jaatii   < jaanaa  "goes"
+    hai      < honaa   "(is)"
+
+b27:
+  say: बाहर, सिर्फ़ नेता के पोस्टर पर लाइट।
+  en: Outside, only the neta's poster has light.
+  words: |
+    baahar   "outside"
+    sirf     "only"
+    netaa    "the neta"
+    ke:GEN   "'s"
+    posTar   "poster" loan
+    par:LOC  "on"
+    laaiT    "light" loan
+
+b28:
+  say: थोड़ा और?
+  en: A little more?
+  words: |
+    thoDaa  "a little"
+    aur     "more?"
+
+b29:
+  say: बस! बस!
+  en: Enough! Enough!
+  words: |
+    bas  "enough!"
+    bas  "enough!"
+
+b30:
+  say: अरे वाह! 'बस'! किसने सिखाया?
+  en: Oh wow! 'Bas'! Who taught you that?
+  words: |
+    are                          "oh"
+    vaah                         "wow!"
+    bas                          "'enough'!"
+    kisne           < kaun       "who"
+    sikhaayaa:PAST  < sikhaanaa  "taught (you)?"
+
+b31:
+  say: प्रिया। ऑफ़िस में।
+  en: Priya. At the office.
+  words: |
+    priyaa   "Priya" name
+    ofis     "office" loan
+    me~:LOC  "at (in)"
+
+b32:
+  say: हाँ, और... कल मेरा बेटा आ रहा है।
+  en: Oh, and... my son's coming tomorrow.
+  words: |
+    haa~                  "oh"
+    aur                   "and..."
+    kal                   "tomorrow"
+    meraa:GEN             "my"
+    beTaa                 "son"
+    aa          < aanaa   "coming"
+    rahaa:PROG  < rahnaa  "(-ing)"
+    hai         < honaa   "is"
+
+b33:
+  say: उसका कमरा...
+  en: His room...
+  words: |
+    uskaa:GEN  "his"
+    kamraa     "room..."
+
+b34:
+  say: आपका कमरा है।
+  en: ...is your room.
+  words: |
+    aapkaa:GEN           "your"
+    kamraa               "room"
+    hai         < honaa  "is."

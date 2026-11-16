@@ -1,0 +1,67 @@
+# s1e06: Monsoon. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: flood
+  cast:
+    dev:  standing @ 0.28
+    raju: in_auto @ 0.65
+  beats:
+    b01: { who: narrator, tags: [softly], start: [dev.shrug] }
+    b02: narrator
+    b03: { who: raju, mood: calling, icons: [auto, go], start: [raju.wave] }
+    b04: { who: dev, mood: happy, icons: [heart], tags: [relieved], start: [dev.smile] }
+    b05: { who: dev, mood: wary, icons: [rupee, question] }
+    b06: { who: raju, mood: amused, icons: [rupee, "no"], tags: [laughs, warmly], start: [raju.laugh] }
+
+p2:
+  set: flood
+  cast:
+    raju: in_auto_turned @ 0.65
+    dev:  in_auto_back @ 0.8
+  beats:
+    b07: narrator
+    b08: { who: dev, mood: curious, icons: [pin, question] }
+    b09: { who: raju, mood: weary, icons: [house, pin], tags: [thoughtfully], start: [raju.sigh] }
+    b10: { who: raju, mood: weary, icons: [calendar, briefcase], digits: "20", tags: [softly] }
+    b11: { who: raju, mood: breezy, icons: [person, heart], tags: [warmly], start: [raju.smile] }
+    b12: { who: dev, mood: curious, icons: [speech, question] }
+    b13: { who: raju, mood: amused, icons: [pinch], tags: [laughs], start: [raju.laugh] }
+    b14: { who: narrator, tags: [warmly], start: [dev.laugh] }
+    b15: { who: narrator, tags: [deadpan] }
+    b16: { who: raju, mood: weary, icons: [calendar, rain, person], tags: [sarcastic], start: [raju.shrug] }
+
+p3:
+  set: pg_door_rain
+  cast:
+    dev:      standing @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b17: { who: landlady, mood: shocked, icons: [rain, question], tags: [gasps], start: [landlady.shock] }
+    b18: { who: landlady, mood: happy, icons: [house, plate], tags: [warmly], start: [landlady.smile] }
+    b19: { who: dev, mood: happy, icons: [heart], tags: [grateful], start: [dev.smile] }
+
+p4:
+  set: home_dining
+  cast:
+    dev:      floor_meal @ 0.35
+    landlady: serving @ 0.64
+  props:
+    power:  power_cut
+    candle: candle
+  beats:
+    b20: { who: narrator, tags: [warmly], start: [dev.eat] }
+    b21: { who: landlady, mood: happy, icons: [plate, ok], tags: [cheerfully], start: [landlady.serve] }
+    b22: { who: dev, mood: happy, icons: [plate, heart], tags: [grateful], start: [dev.eat] }
+    b23: { who: landlady, mood: sly, icons: [plate, question], tags: [sweetly], start: [landlady.serve] }
+    b24: { who: dev, mood: sheepish, icons: [pinch], tags: [hesitant], start: [dev.eat] }
+    b25: { who: narrator, tags: [ominously], start: [room.cut] }
+    b26: { who: landlady, mood: weary, icons: [rain, bolt, "no"], tags: [sighs], start: [candle.light, landlady.sighnod] }
+    b27: { who: narrator, tags: [deadpan] }
+    b28: { who: landlady, mood: sly, icons: [plate, question], tags: [sweetly], start: [landlady.serve] }
+    b29: { who: dev, mood: happy, icons: ["no", ok], tags: [laughs], start: [dev.smile] }
+    b30: { who: landlady, mood: amused, icons: [speech, question], tags: [laughs], start: [landlady.laugh] }
+    b31: { who: dev, mood: proud, icons: [person, briefcase], tags: [proudly], start: [dev.proud] }
+    b32: { who: landlady, mood: sly, icons: [person, house], tags: [casually], start: [landlady.smug] }
+    b33: { who: landlady, mood: stern, icons: [house, person], tags: [slowly], start: [landlady.look] }
+    b34: { who: landlady, mood: stern, icons: [house, "no"], tags: [sweetly], end: [dev.shock], cliffhanger: true }

@@ -1,0 +1,16 @@
+# s1e06: Monsoon
+# Format: stories/README.md
+
+level: A1
+next: s1e07
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b29
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  raju.wave:      raju wave 450
+  raju.laugh:     raju laugh 600
+  raju.sigh:      raju sigh_nod 500
+  raju.smile:     raju smile 1200
+  dev.laugh:      dev laugh 600
+  landlady.smile: landlady smile 1200
