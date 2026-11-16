@@ -1,0 +1,67 @@
+# s2e02: The Lake. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: lake_dawn
+  cast:
+    amma:     standing @ 0.2
+    landlady: arms_crossed @ 0.46
+  beats:
+    b01: { who: narrator, start: [landlady.shock] }
+    b02: { who: landlady, mood: shocked, icons: [person, question], tags: [softly] }
+    b03: { who: amma, mood: sheepish, icons: [zzz, "no"], start: [amma.sheepish] }
+    b04: { who: narrator, tags: [softly] }
+    b05: { who: amma, mood: curious, icons: [person, heart, question], tags: [gently] }
+    b06: { who: landlady, mood: wary, icons: [calendar, person], digits: "40", tags: [softly], start: [landlady.nod] }
+    b07: { who: landlady, mood: happy, icons: [water, fish, heart], tags: [wistfully], start: [landlady.smile] }
+    b08: { who: landlady, mood: happy, icons: [water, person, heart], tags: [wistfully] }
+    b09: { who: amma, mood: curious, icons: [water, question], tags: [softly] }
+    b10: { who: landlady, mood: weary, icons: [water, "no"], tags: [sadly], start: [landlady.sigh] }
+    b11: { who: amma, mood: wary, icons: [person, water], tags: [softly] }
+    b12: { who: amma, mood: weary, icons: [water, "no"], tags: [softly], start: [amma.sigh] }
+    b13: { who: narrator, tags: [softly] }
+    b14: { who: landlady, mood: happy, icons: [tea, house, heart], tags: [warmly], start: [landlady.smile] }
+
+p2:
+  set: kitchen
+  cast:
+    amma:     standing @ 0.46
+    landlady: cooking @ 0.78
+  props:
+    stove:  stove_flame
+    cooker: cooker
+  beats:
+    b15: narrator
+    b16: { who: landlady, mood: curious, icons: [tea, question], start: [landlady.serve] }
+    b17: { who: amma, mood: happy, icons: [tea, ok], digits: "2" }
+    b18: { who: landlady, mood: amused, icons: [person, heart], start: [landlady.laugh] }
+    b19: { who: narrator, tags: [warmly], start: [amma.laugh, cooker.whistle] }
+    b20: { who: amma, mood: curious, icons: [speech, tea] }
+    b21: { who: landlady, mood: happy, icons: [speech, heart, ok], start: [landlady.laugh] }
+    b22: { who: narrator, tags: [warmly] }
+
+p3:
+  set: terrace
+  cast:
+    dev:  standing @ 0.36
+    amma: standing @ 0.62
+  beats:
+    b23: { who: dev, mood: shocked, icons: [house, question], start: [dev.shock] }
+    b24: { who: amma, mood: proud, icons: [speech, ok], start: [amma.proud] }
+    b25: { who: dev, mood: amused, icons: [calendar, "no"], digits: "6", start: [dev.laugh] }
+    b26: { who: amma, mood: sly, icons: [question, person], tags: [gently] }
+    b27: { who: narrator, tags: [amused], start: [dev.sheepish] }
+
+p4:
+  set: terrace_night
+  cast:
+    dev:      standing @ 0.14
+    amma:     standing @ 0.32
+    landlady: arms_crossed @ 0.5
+  props:
+    fire: lake_fire
+  beats:
+    b28: { who: narrator, tags: [softly] }
+    b29: narrator
+    b30: { who: dev, mood: shocked, icons: [flame, question], start: [dev.shock] }
+    b31: { who: landlady, mood: calling, icons: [flame, water, "no"], start: [landlady.shock, amma.shock], cliffhanger: true }

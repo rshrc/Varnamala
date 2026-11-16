@@ -1,0 +1,343 @@
+# s2e02 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: झील | jhiil | The Lake
+tease: नाम। | naam. | A name.
+
+b01:
+  say: उसी सुबह। आंटी मुड़ती हैं।
+  en: The same morning. The landlady turns around.
+  words: |
+    usii    < vahii   "that same"
+    subah             "morning"
+    aanTii            "aunty (the landlady)" loan
+    muDtii  < muDnaa  "turns around"
+    hai~    < honaa   "(are)"
+
+b02:
+  say: आप... मेरे पीछे आईं?
+  en: You... followed me?
+  words: |
+    aap                  "you"
+    mere        < meraa  "me"
+    piichhe              "behind"
+    aaii~:PAST  < aanaa  "came?"
+
+b03:
+  say: माफ़ कीजिए। नींद नहीं आई।
+  en: I'm sorry. I couldn't sleep.
+  words: |
+    maaf                      "forgiven"
+    kiijie:IMP.HON  < karnaa  "(please) do"
+    nii~d           < nii~d   "sleep"
+    nahii~:NEG                "didn't"
+    aaii:PAST       < aanaa   "come"
+
+b04:
+  say: दोनों साथ-साथ खड़ी हैं। झाग बहता जाता है।
+  en: They stand side by side. The foam drifts past.
+  words: |
+    dono~                  "both"
+    saath-saath            "side by side"
+    khaDii       < khaDaa  "standing"
+    hai~         < honaa   "(are)"
+    jhaag                  "the foam" @foam.drift
+    bahtaa       < bahnaa  "drifting"
+    jaataa       < jaanaa  "(goes)"
+    hai          < honaa   "(is)"
+
+b05:
+  say: आपके पति?
+  en: Your husband?
+  words: |
+    aapke  < aapkaa  "your"
+    pati             "husband?"
+
+b06:
+  say: हाँ। चालीस साल, रोज़ सुबह यहाँ टहलते थे।
+  en: Yes. Forty years, every morning, he walked here.
+  words: |
+    haa~                  "yes"
+    chaaliis              "forty"
+    saal                  "years"
+    roz                   "every day"
+    subah                 "morning"
+    yahaa~                "here"
+    Tahalte   < Tahalnaa  "walked"
+    the:PAST  < honaa     "used to"
+
+b07:
+  say: जब हमारी शादी हुई, पानी साफ़ था। मछलियाँ दिखती थीं।
+  en: When we married, the water was clear. You could see the fish.
+  words: |
+    jab                      "when"
+    hamaarii     < hamaaraa  "our"
+    shaadii                  "wedding"
+    huii:PAST    < honaa     "happened"
+    paanii                   "the water"
+    saaf                     "clear (clean)"
+    thaa:PAST    < honaa     "was"
+    machhliyaa~  < machhlii  "fish"
+    dikhtii      < dikhnaa   "were seen"
+    thii~:PAST   < honaa     "(could be)"
+
+b08:
+  say: बच्चे यहाँ तैरते थे। मेरा छोटा भाई भी।
+  en: Children swam here. My little brother too.
+  words: |
+    bachche   < bachchaa  "children"
+    yahaa~                "here"
+    tairte    < tairnaa   "swam"
+    the:PAST  < honaa     "used to"
+    meraa                 "my"
+    chhoTaa               "little (younger)"
+    bhaaii                "brother"
+    bhii                  "too"
+
+b09:
+  say: और अब?
+  en: And now?
+  words: |
+    aur  "and"
+    ab   "now?"
+
+b10:
+  say: "अब: झाग। प्लास्टिक। और कोई देखता नहीं।"
+  en: "Now: foam. Plastic. And nobody even looks."
+  words: |
+    ab                     "now"
+    jhaag                  "foam"
+    plaasTik               "plastic" loan
+    aur                    "and"
+    koii                   "nobody (anyone)"
+    dekhtaa     < dekhnaa  "looks"
+    nahii~:NEG             "not"
+
+b11:
+  say: देव के पापा भी रोज़ टहलते थे। गंगा के घाट पर।
+  en: Dev's father also walked every morning. On the Ganga ghats.
+  words: |
+    dev                   "Dev" name
+    ke:GEN                "'s"
+    paapaa                "father (papa)"
+    bhii                  "too"
+    roz                   "every day"
+    Tahalte   < Tahalnaa  "walked"
+    the:PAST  < honaa     "used to"
+    gangaa                "the Ganga" name
+    ke:GEN                "(of)"
+    ghaaT                 "ghats (river steps)"
+    par:LOC               "on"
+
+b12:
+  say: अब वो नदी भी गंदी है।
+  en: Now that river is dirty too.
+  words: |
+    ab                "now"
+    vo                "that"
+    nadii             "river"
+    bhii              "too"
+    gandii  < gandaa  "dirty"
+    hai     < honaa   "(is)"
+
+b13:
+  say: दो शहर। दो औरतें। एक ही कहानी।
+  en: Two cities. Two women. One story.
+  words: |
+    do                  "two"
+    shahar              "cities"
+    do                  "two"
+    aurte~:PL  < aurat  "women"
+    ek                  "one"
+    hii                 "and the same"
+    kahaanii            "story"
+
+b14:
+  say: आइए। चाय पीजिए। मेरी रसोई में।
+  en: Come. Have some tea. In my kitchen.
+  words: |
+    aaie:IMP.HON    < aanaa   "come"
+    chaay                     "tea"
+    piijie:IMP.HON  < piinaa  "drink (please)"
+    merii           < meraa   "my"
+    rasoii                    "kitchen"
+    me~:LOC                   "in"
+
+b15:
+  say: आंटी की रसोई। यहाँ कोई नहीं आता। देव भी नहीं।
+  en: The landlady's kitchen. Nobody comes in here. Not even Dev.
+  words: |
+    aanTii               "aunty's (the landlady's)" loan
+    kii:GEN              "'s"
+    rasoii               "kitchen"
+    yahaa~               "here"
+    koii                 "anyone"
+    nahii~:NEG           "no"
+    aataa       < aanaa  "comes"
+    dev                  "Dev" name
+    bhii                 "even"
+    nahii~:NEG           "not"
+
+b16:
+  say: चीनी?
+  en: Sugar?
+  words: |
+    chiinii  "sugar?"
+
+b17:
+  say: दो चम्मच।
+  en: Two spoons.
+  words: |
+    do        "two"
+    chammach  "spoons"
+
+b18:
+  say: दो? बिलकुल मेरे पति जैसे।
+  en: Two? Just like my husband.
+  words: |
+    do                "two?"
+    bilkul            "exactly"
+    mere    < meraa   "my"
+    pati              "husband"
+    jaise   < jaisaa  "like"
+
+b19:
+  say: दोनों हँसती हैं। पहली बार।
+  en: They both laugh. For the first time.
+  words: |
+    dono~               "both"
+    ha~stii  < ha~snaa  "laugh"
+    hai~     < honaa    "(are)"
+    pahlii   < pahlaa   "first"
+    baar                "time"
+
+b20:
+  say: चीनी... हमारी भाषा में भी 'चिनि'!
+  en: Chini... in our language, 'chini' too!
+  words: |
+    chiinii               "chini (sugar)..."
+    hamaarii  < hamaaraa  "our"
+    bhaashaa              "language"
+    me~:LOC               "in"
+    bhii                  "too"
+    chini                 "'chini' (sugar, in Bengali)!"
+
+b21:
+  say: चीनी, चिनि! एक ही शब्द!
+  en: Chini, chini! It's the same word!
+  words: |
+    chiinii  "chini"
+    chini    "chini!"
+    ek       "one"
+    hii      "and the same"
+    shabd    "word!"
+
+b22:
+  say: रसोई में शब्द आते-जाते हैं। एक-एक करके।
+  en: In the kitchen, words go back and forth. One by one.
+  words: |
+    rasoii                "kitchen"
+    me~:LOC               "in"
+    shabd                 "words"
+    aate-jaate            "come and go"
+    hai~        < honaa   "(are)"
+    ek-ek                 "one by one"
+    karke       < karnaa  "(doing it)"
+
+b23:
+  say: माँ! तुम उनकी रसोई में?!
+  en: Ma! You were in her kitchen?!
+  words: |
+    maa~              "Ma!"
+    tum               "you (were)"
+    unkii    < unkaa  "her"
+    rasoii            "kitchen"
+    me~:LOC           "in?!"
+
+b24:
+  say: और एक शब्द सीखा। रसोई!
+  en: And I learned a word. Rasoi!
+  words: |
+    aur                       "and"
+    ek                        "a"
+    shabd                     "word"
+    siikhaa:PAST  < siikhnaa  "(I) learned"
+    rasoii                    "rasoi (kitchen)!"
+
+b25:
+  say: छह महीने। मैं तो कभी अंदर गया ही नहीं।
+  en: Six months, and I've never even been inside.
+  words: |
+    chhah                   "six"
+    mahiine     < mahiinaa  "months"
+    mai~                    "I"
+    to                      "(as for me)"
+    kabhii                  "ever"
+    andar                   "inside"
+    gayaa:PAST  < jaanaa    "went"
+    hii                     "at all"
+    nahii~:NEG              "not"
+
+b26:
+  say: तुमने उनसे कभी कुछ पूछा ही नहीं। है ना?
+  en: You've never asked her anything. Have you?
+  words: |
+    tumne          < tum        "you"
+    unse           < vo         "her (of her)"
+    kabhii                      "ever"
+    kuchh                       "anything"
+    puuchhaa:PAST  < puuchhnaa  "asked"
+    hii                         "at all"
+    nahii~:NEG                  "not"
+    hai            < honaa      "is it"
+    naa:Q                       "not so?"
+
+b27:
+  say: देव मुँह खोलता है। फिर बंद करता है।
+  en: Dev opens his mouth. Then closes it again.
+  words: |
+    dev                 "Dev" name
+    mu~h     < mu~h     "mouth"
+    kholtaa  < kholnaa  "opens"
+    hai      < honaa    "(is)"
+    phir                "then"
+    band                "shut"
+    kartaa   < karnaa   "does"
+    hai      < honaa    "(is)"
+
+b28:
+  say: रात। सायरन।
+  en: Night. Sirens.
+  words: |
+    raat     "night"
+    saayran  "sirens" loan
+
+b29:
+  say: इमारतों के पार, नारंगी रोशनी।
+  en: Beyond the towers, an orange glow.
+  words: |
+    imaarato~  < imaarat  "the buildings"
+    ke:GEN                "(of)"
+    paar                  "beyond"
+    naarangii             "orange"
+    roshnii               "light (a glow)" @fire.ignite
+
+b30:
+  say: वो... आग है?
+  en: Is that... a fire?
+  words: |
+    vo            "that"
+    aag           "fire"
+    hai  < honaa  "is?"
+
+b31:
+  say: झील! हमारी झील जल रही है!
+  en: The lake! Our lake is on fire!
+  words: |
+    jhiil                   "the lake!"
+    hamaarii    < hamaaraa  "our"
+    jhiil                   "lake"
+    jal         < jalnaa    "burn"
+    rahii:PROG  < rahnaa    "(is)"
+    hai         < honaa     "is!"

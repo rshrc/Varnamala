@@ -1,0 +1,299 @@
+# s2e02 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಕೆರೆ | kere | The Lake
+tease: ಹೆಸರು. | hesaru. | A name.
+
+b01:
+  say: ಅದೇ ಬೆಳಿಗ್ಗೆ. ಓನರ್ ಅಮ್ಮ ತಿರುಗ್ತಾರೆ.
+  en: The same morning. The landlady turns around.
+  words: |
+    adee                  "the same"
+    beLigge               "morning"
+    oonar                 "owner (the landlady)" loan
+    amma                  "(madam)"
+    tirugtaare  < tirugu  "turns around"
+
+b02:
+  say: ನೀವು... ನನ್ನ ಹಿಂದೆ ಬಂದ್ರಾ?
+  en: You... followed me?
+  words: |
+    niivu              "you"
+    nanna              "my"
+    hinde              "behind"
+    bandraa:Q  < baru  "came?"
+
+b03:
+  say: ಕ್ಷಮಿಸಿ. ನಿದ್ದೆ ಬರಲಿಲ್ಲ.
+  en: I'm sorry. I couldn't sleep.
+  words: |
+    kShamisi:IMP.HON  < kShamisu  "sorry (forgive me)"
+    nidde                         "sleep"
+    baralilla:NEG     < baru      "didn't come"
+
+b04:
+  say: ಇಬ್ಬರೂ ಪಕ್ಕ ಪಕ್ಕ ನಿಲ್ತಾರೆ. ನೊರೆ ತೇಲ್ತಾ ಹೋಗುತ್ತೆ.
+  en: They stand side by side. The foam drifts past.
+  words: |
+    ibbaruu   < ibbaru  "both"
+    pakka               "side"
+    pakka               "by side"
+    niltaare  < nillu   "stand"
+    nore                "the foam" @foam.drift
+    teeltaa   < teelu   "floating"
+    hoogutte  < hoogu   "goes (past)"
+
+b05:
+  say: ನಿಮ್ಮ ಯಜಮಾನರು?
+  en: Your husband?
+  words: |
+    nimma        "your"
+    yajamaanaru  "husband (respectful)?"
+
+b06:
+  say: ಹೌದು. ನಲವತ್ತು ವರ್ಷ, ದಿನಾ ಬೆಳಿಗ್ಗೆ ಇಲ್ಲಿ ನಡೀತಿದ್ರು.
+  en: Yes. Forty years, every morning, he walked here.
+  words: |
+    haudu                    "yes"
+    nalavattu                "forty"
+    varSha                   "years"
+    dinaa                    "every day"
+    beLigge                  "morning"
+    illi                     "here"
+    naDiitidru:PAST  < naDe  "used to walk"
+
+b07:
+  say: ನಮ್ಮ ಮದುವೆ ಆದಾಗ, ನೀರು ಶುದ್ಧ. ಮೀನು ಕಾಣ್ತಿತ್ತು.
+  en: When we married, the water was clear. You could see the fish.
+  words: |
+    namma                    "our"
+    maduve                   "wedding"
+    aadaaga         < aagu   "when (it) happened"
+    niiru                    "the water (was)"
+    shuddha                  "clear (pure)"
+    miinu                    "fish"
+    kaaNtittu:PAST  < kaaNu  "could be seen"
+
+b08:
+  say: ಮಕ್ಕಳು ಇಲ್ಲಿ ಈಜ್ತಿದ್ರು. ನನ್ನ ತಮ್ಮ ಕೂಡ.
+  en: Children swam here. My little brother too.
+  words: |
+    makkaLu                "children"
+    illi                   "here"
+    iijtidru:PAST  < iiju  "used to swim"
+    nanna                  "my"
+    tamma                  "little brother"
+    kuuDa                  "too"
+
+b09:
+  say: ಈಗ?
+  en: And now?
+  words: |
+    iiga  "and now?"
+
+b10:
+  say: "ಈಗ: ನೊರೆ. ಪ್ಲಾಸ್ಟಿಕ್. ಯಾರೂ ನೋಡಲ್ಲ."
+  en: "Now: foam. Plastic. And nobody even looks."
+  words: |
+    iiga                   "now"
+    nore                   "foam"
+    plaasTik               "plastic" loan
+    yaaruu                 "nobody"
+    nooDalla:NEG  < nooDu  "looks"
+
+b11:
+  say: ದೇವ್ ಅಪ್ಪ ಕೂಡ ದಿನಾ ನಡೀತಿದ್ರು. ಯಮುನಾ ಪಕ್ಕ.
+  en: Dev's father also walked every morning. Beside the Yamuna.
+  words: |
+    dev                      "Dev" name
+    appa                     "father"
+    kuuDa                    "too"
+    dinaa                    "every day"
+    naDiitidru:PAST  < naDe  "used to walk"
+    yamunaa                  "the Yamuna (Delhi's river)" name
+    pakka                    "beside"
+
+b12:
+  say: ಈಗ ಆ ನದಿನೂ ಕೊಳಕು.
+  en: Now that river is dirty too.
+  words: |
+    iiga             "now"
+    aa               "that"
+    nadinuu  < nadi  "river too"
+    koLaku           "is dirty"
+
+b13:
+  say: ಎರಡು ಊರು. ಇಬ್ಬರು ಹೆಂಗಸರು. ಒಂದೇ ಕಥೆ.
+  en: Two cities. Two women. One story.
+  words: |
+    eraDu                                "two"
+    uuru                                 "cities"
+    ibbaru                               "two (people)"
+    hengasaru  hengas·aru:PL  < hengasu  "women"
+    ondee                     < ondu     "one and the same"
+    kathe                                "story"
+
+b14:
+  say: ಬನ್ನಿ. ಟೀ ಕುಡೀರಿ. ನನ್ನ ಅಡುಗೆಮನೆಯಲ್ಲಿ.
+  en: Come. Have some tea. In my kitchen.
+  words: |
+    banni:IMP.HON                         < baru       "come"
+    Tii                                                "tea" loan
+    kuDiiri:IMP.HON                       < kuDi       "drink (please)"
+    nanna                                              "my"
+    aDugemaneyalli   aDugemane·yalli:LOC  < aDugemane  "kitchen (in)"
+
+b15:
+  say: ಓನರ್ ಅಮ್ಮನ ಅಡುಗೆಮನೆ. ಇಲ್ಲಿ ಯಾರೂ ಬರಲ್ಲ. ದೇವ್ ಕೂಡ.
+  en: The landlady's kitchen. Nobody comes in here. Not even Dev.
+  words: |
+    oonar                             "owner (the landlady)" loan
+    ammana       amma·na:GEN  < amma  "(madam's)"
+    aDugemane                         "kitchen"
+    illi                              "here"
+    yaaruu                            "nobody"
+    baralla:NEG               < baru  "comes"
+    dev                               "Dev" name
+    kuuDa                             "not even"
+
+b16:
+  say: ಸಕ್ಕರೆ?
+  en: Sugar?
+  words: |
+    sakkare  "sugar?"
+
+b17:
+  say: ಎರಡು ಚಮಚ.
+  en: Two spoons.
+  words: |
+    eraDu     "two"
+    chamacha  "spoons"
+
+b18:
+  say: ಎರಡಾ? ನಮ್ಮ ಯಜಮಾನರ ತರ.
+  en: Two? Just like my husband.
+  words: |
+    eraDaa:Q         < eraDu        "two?"
+    namma                           "our (my)"
+    yajamaanara:GEN  < yajamaanaru  "husband's"
+    tara                            "like"
+
+b19:
+  say: ಇಬ್ಬರೂ ನಗ್ತಾರೆ. ಮೊದಲ ಸಲ.
+  en: They both laugh. For the first time.
+  words: |
+    ibbaruu                       < ibbaru  "both"
+    nagtaare  nag·taare:PRES.3PL  < nagu    "laugh"
+    modala                                  "first"
+    sala                                    "time"
+
+b20:
+  say: ಸಕ್ಕರೆ... ನಮ್ಮ ಭಾಷೆಯಲ್ಲಿ 'ಶಕ್ಕರ್'!
+  en: Sakkare... in our language, 'shakkar'!
+  words: |
+    sakkare                                     "sakkare (sugar)..."
+    namma                                       "our"
+    bhaaSheyalli  bhaaShe·yalli:LOC  < bhaaShe  "in (the) language"
+    shakkar                                     "'shakkar' (sugar, in Hindi)!" loan
+
+b21:
+  say: ಸಕ್ಕರೆ, ಶಕ್ಕರ್! ಹತ್ರ ಹತ್ರ ಒಂದೇ!
+  en: Sakkare, shakkar! Almost the same!
+  words: |
+    sakkare          "sakkare"
+    shakkar          "shakkar!" loan
+    hatra            "nearly"
+    hatra            "nearly"
+    ondee    < ondu  "the same!"
+
+b22:
+  say: ಅಡುಗೆಮನೆಯಲ್ಲಿ ಪದಗಳು ಓಡಾಡ್ತವೆ. ಒಂದೊಂದಾಗಿ.
+  en: In the kitchen, words go back and forth. One by one.
+  words: |
+    aDugemaneyalli  aDugemane·yalli:LOC  < aDugemane  "in (the) kitchen"
+    padagaLu        pada·gaLu:PL         < pada       "words"
+    ooDaaDtave                           < ooDaaDu    "go back and forth"
+    ondondaagi                                        "one by one"
+
+b23:
+  say: ಅಮ್ಮಾ! ನೀನು ಅವರ ಅಡುಗೆಮನೆಯಲ್ಲಿ?!
+  en: Amma! You were in her kitchen?!
+  words: |
+    ammaa                                < amma       "Amma!"
+    niinu                                             "you (were)"
+    avara:GEN                            < avaru      "her"
+    aDugemaneyalli  aDugemane·yalli:LOC  < aDugemane  "kitchen (in)?!"
+
+b24:
+  say: ಮತ್ತೆ ಒಂದು ಪದ ಕಲಿತೆ. ಸಕ್ಕರೆ!
+  en: And I learned a word. Sakkare!
+  words: |
+    matte                "and"
+    ondu                 "a"
+    pada                 "word"
+    kalite:PAST  < kali  "I learned"
+    sakkare              "sakkare (sugar)!"
+
+b25:
+  say: ಆರು ತಿಂಗಳು. ನಾನು ಒಳಗೆ ಹೋಗೇ ಇಲ್ಲ.
+  en: Six months, and I've never even been inside.
+  words: |
+    aaru               "six"
+    tingaLu            "months"
+    naanu              "I"
+    oLage              "inside"
+    hoogee    < hoogu  "gone at all"
+    illa:NEG           "have not"
+
+b26:
+  say: ನೀನು ಅವರನ್ನ ಏನೂ ಕೇಳಿಲ್ಲ. ಅಲ್ವಾ?
+  en: You've never asked her anything. Have you?
+  words: |
+    niinu                  "you"
+    avaranna:ACC  < avaru  "her"
+    eenuu                  "anything"
+    keeLilla:NEG  < keeLu  "haven't asked"
+    alvaa:Q       < alla   "have you?"
+
+b27:
+  say: ದೇವ್ ಬಾಯಿ ತೆಗೀತಾನೆ. ಮತ್ತೆ ಮುಚ್ತಾನೆ.
+  en: Dev opens his mouth. Then closes it again.
+  words: |
+    dev                    "Dev" name
+    baayi                  "mouth"
+    tegiitaane  < tege     "opens"
+    matte                  "then"
+    muchtaane   < muchchu  "closes"
+
+b28:
+  say: ರಾತ್ರಿ. ಸೈರನ್.
+  en: Night. Sirens.
+  words: |
+    raatri  "night"
+    sairan  "sirens" loan
+
+b29:
+  say: ಕಟ್ಟಡಗಳ ಆಚೆ, ಕಿತ್ತಳೆ ಬೆಳಕು.
+  en: Beyond the towers, an orange glow.
+  words: |
+    kaTTaDagaLa  kaTTaDa·gaLa:GEN  < kaTTaDa  "the buildings'"
+    aache                                     "beyond"
+    kittaLe                                   "orange"
+    beLaku                                    "light (a glow)" @fire.ignite
+
+b30:
+  say: ಅದು... ಬೆಂಕಿನಾ?
+  en: Is that... a fire?
+  words: |
+    adu                  "that"
+    benkinaa:Q  < benki  "a fire?"
+
+b31:
+  say: ಕೆರೆ! ನಮ್ಮ ಕೆರೆ ಉರೀತಿದೆ!
+  en: The lake! Our lake is on fire!
+  words: |
+    kere                  "the lake!"
+    namma                 "our"
+    kere                  "lake"
+    uriitide:PROG  < uri  "is burning!"
