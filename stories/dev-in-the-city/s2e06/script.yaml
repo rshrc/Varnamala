@@ -1,0 +1,66 @@
+# s2e06: Kittu. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: lake_night
+  cast:
+    dev:  standing @ 0.22
+    boss: sitting @ 0.58
+  beats:
+    b01: { who: boss, mood: weary, icons: [person, ok], tags: [tiredly] }
+    b02: { who: narrator, tags: [softly], start: [foam.drift] }
+    b03: { who: boss, mood: wary, icons: [water, person], tags: [softly] }
+    b04: { who: boss, mood: happy, icons: [person, heart], digits: "6", tags: [wistfully] }
+    b05: { who: boss, mood: amused, icons: [water, speech], tags: [warmly], start: [boss.laugh] }
+    b06: { who: dev, mood: amused, icons: [speech, ok], tags: [softly], start: [dev.smile] }
+    b07: { who: boss, mood: amused, icons: [ok, heart], start: [boss.laugh] }
+    b08: { who: boss, mood: weary, icons: [briefcase, phone, clock], tags: [softly], start: [boss.sigh] }
+    b09: { who: boss, mood: weary, icons: [water, "no"], tags: [softly] }
+    b10: { who: boss, mood: weary, icons: [mic, person, "no"], tags: [softly] }
+    b11: { who: dev, mood: happy, icons: [calendar, water, ok], tags: [gently] }
+    b12: { who: boss, mood: sly, icons: [calendar, "no"], tags: [dryly] }
+    b13: { who: dev, mood: sly, icons: [person, heart], tags: [gently], start: [dev.smile] }
+    b14: { who: narrator, tags: [softly], start: [boss.laugh] }
+
+p2:
+  set: office
+  cast:
+    dev:   standing @ 0.2
+    boss:  standing @ 0.52
+    priya: standing @ 0.84
+  beats:
+    b15: narrator
+    b16: { who: boss, mood: proud, icons: [person, calendar], start: [boss.point] }
+    b17: { who: priya, mood: shocked, icons: [calendar, question], start: [priya.shock] }
+    b18: { who: boss, mood: firm, icons: [water, ok] }
+    b19: { who: boss, mood: sheepish, icons: [person, water, heart], start: [boss.sheepish] }
+    b20: { who: priya, mood: curious, icons: [person, question], tags: [whispers] }
+    b21: { who: dev, mood: happy, icons: [heart, ok], tags: [softly], start: [dev.smile] }
+
+p3:
+  set: lake_dawn
+  cast:
+    dev:      standing @ 0.1
+    priya:    standing @ 0.26
+    boss:     standing @ 0.48
+    landlady: arms_crossed @ 0.7
+  props:
+    sacks: cleanup
+  beats:
+    b22: { who: narrator, start: [foam.drift] }
+    b23: { who: narrator, tags: [amused] }
+    b24: { who: landlady, mood: shocked, icons: [person, question], start: [landlady.shock] }
+    b25: { who: boss, mood: sheepish, icons: [water, heart], tags: [softly], start: [boss.sheepish] }
+    b26: { who: narrator, tags: [warmly], start: [landlady.laugh] }
+    b27: { who: landlady, mood: firm, icons: [water, ok, heart], tags: [warmly], start: [landlady.serve] }
+
+p4:
+  set: terrace
+  cast:
+    dev:  standing @ 0.36
+    amma: standing_phone @ 0.62
+  beats:
+    b28: { who: narrator, start: [crane.swing] }
+    b29: { who: amma, mood: wary, icons: [phone, calendar], tags: [softly], start: [amma.sigh] }
+    b30: { who: dev, mood: shocked, icons: [question], start: [dev.shock] }
+    b31: { who: amma, mood: wary, icons: [calendar, house], digits: "2", tags: [softly], cliffhanger: true }

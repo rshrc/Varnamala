@@ -1,0 +1,330 @@
+# s2e06 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: बबलू | bablu | Bablu
+tease: पानी। | paanii. | The water.
+
+b01:
+  say: देव। बैठो।
+  en: Dev. Sit.
+  words: |
+    dev                     "Dev" name
+    baiTho:IMP  < baiThnaa  "sit down"
+
+b02:
+  say: देव बैठता है। ख़ामोशी।
+  en: Dev sits. Silence.
+  words: |
+    dev                     "Dev" name
+    baiThtaa    < baiThnaa  "sits"
+    hai         < honaa     "(is)"
+    khaamoshii              "silence"
+
+b03:
+  say: पता है? मैंने यहीं तैरना सीखा।
+  en: You know? I learned to swim right here.
+  words: |
+    pataa                     "known"
+    hai           < honaa     "is it? (you know?)"
+    mai~ne        < mai~      "I"
+    yahii~        < yahaa     "right here"
+    tairnaa                   "to swim"
+    siikhaa:PAST  < siikhnaa  "learned"
+
+b04:
+  say: दीदी ने मेरा हाथ पकड़ा था। मैं छह साल का था।
+  en: Didi held my hand. I was six.
+  words: |
+    diidii                 "Didi (big sister)"
+    ne                     "(she)"
+    meraa                  "my"
+    haath                  "hand"
+    pakaDaa    < pakaDnaa  "held"
+    thaa:PAST  < honaa     "(had)"
+    mai~                   "I"
+    chhah                  "six"
+    saal                   "years"
+    kaa:GEN                "(old)"
+    thaa:PAST  < honaa     "was"
+
+b05:
+  say: "वो चिल्लाती थी: 'बबलू, पैर चलाओ!'"
+  en: "She'd shout: 'Bablu, kick your legs!'"
+  words: |
+    vo                         "she"
+    chillaatii   < chillaanaa  "shouted"
+    thii:PAST    < honaa       "(used to)"
+    bablu                      "Bablu" name
+    pair                       "legs"
+    chalaao:IMP  < chalaanaa   "kick (move)!"
+
+b06:
+  say: अब भी वैसे ही चिल्लाती हैं।
+  en: She still shouts like that.
+  words: |
+    ab                        "now"
+    bhii                      "even"
+    vaise                     "like that"
+    hii                       "just"
+    chillaatii  < chillaanaa  "she shouts"
+    hai~        < honaa       "(are)"
+
+b07:
+  say: हाँ। अब भी।
+  en: Yes. Still.
+  words: |
+    haa~  "yes"
+    ab    "now"
+    bhii  "still"
+
+b08:
+  say: फिर बड़ा हो गया। ऑफ़िस, फ़ोन, सुबह पाँच बजे मैसेज।
+  en: Then I grew up. Office, phone, messages at five in the morning.
+  words: |
+    phir                  "then"
+    baDaa                 "grown up (big)"
+    ho          < honaa   "became"
+    gayaa:PERF  < jaanaa  "(I)"
+    ofis                  "office" loan
+    fon                   "phone" loan
+    subah                 "morning"
+    paa~ch      < paa~ch  "five"
+    baje                  "o'clock"
+    maisej                "messages" loan
+
+b09:
+  say: ये झील भूल गया।
+  en: I forgot this lake.
+  words: |
+    ye                      "this"
+    jhiil                   "lake"
+    bhuul       < bhuulnaa  "forget"
+    gayaa:PERF  < jaanaa    "(I) went"
+
+b10:
+  say: आज दीदी ने स्टेज पर गाया। मैं ऑफ़िस में था।
+  en: Today Didi sang on a stage. I was at the office.
+  words: |
+    aaj                    "today"
+    diidii                 "Didi"
+    ne                     "(she)"
+    sTej                   "stage" loan
+    par:LOC                "on"
+    gaayaa:PAST  < gaanaa  "sang"
+    mai~                   "I"
+    ofis                   "the office" loan
+    me~:LOC                "at (in)"
+    thaa:PAST    < honaa   "was"
+
+b11:
+  say: रविवार को हम झील साफ़ करते हैं। आइए।
+  en: On Sunday, we're cleaning the lake. Come.
+  words: |
+    ravivaar                "Sunday"
+    ko                      "on"
+    ham                     "we"
+    jhiil                   "the lake"
+    saaf                    "clean"
+    karte         < karnaa  "do"
+    hai~          < honaa   "(are)"
+    aaie:IMP.HON  < aanaa   "come"
+
+b12:
+  say: रविवार? मैं रविवार को नहीं आता।
+  en: Sunday? I don't come in on Sundays.
+  words: |
+    ravivaar             "Sunday?"
+    mai~                 "I"
+    ravivaar             "Sunday"
+    ko                   "on"
+    nahii~:NEG           "don't"
+    aataa       < aanaa  "come (in)"
+
+b13:
+  say: तो बबलू बनकर आइए। बॉस बनकर नहीं।
+  en: Then come as Bablu. Not as the boss.
+  words: |
+    to                      "then"
+    bablu                   "Bablu" name
+    bankar        < bannaa  "as (becoming)"
+    aaie:IMP.HON  < aanaa   "come"
+    bos                     "the boss" loan
+    bankar        < bannaa  "as"
+    nahii~:NEG              "not"
+
+b14:
+  say: बॉस हँसते हैं। धीरे से।
+  en: The boss laughs. Softly.
+  words: |
+    bos                "the boss" loan
+    ha~ste  < ha~snaa  "laughs"
+    hai~    < honaa    "(are)"
+    dhiire             "softly"
+    se                 "(ly)"
+
+b15:
+  say: सोमवार। ऑफ़िस।
+  en: Monday. The office.
+  words: |
+    somvaar  "Monday"
+    ofis     "the office" loan
+
+b16:
+  say: "टीम! इस रविवार: आउटिंग।"
+  en: "Team! This Sunday: an outing."
+  words: |
+    Tiim      "team!" loan
+    is        "this"
+    ravivaar  "Sunday"
+    aauTing   "an outing" loan
+
+b17:
+  say: रविवार?!
+  en: Sunday?!
+  words: |
+    ravivaar  "Sunday?!"
+
+b18:
+  say: एक झील पर। बोरों के साथ।
+  en: To a lake. With sacks.
+  words: |
+    ek                "a"
+    jhiil             "lake"
+    par:LOC           "to (at)"
+    boro~    < boraa  "sacks"
+    ke:GEN            "(with)"
+    saath             "with"
+
+b19:
+  say: टीम वर्क। ड्रीम वर्क। ...झील वर्क।
+  en: Team work. Dream work. ...Lake work.
+  words: |
+    Tiim   "team" loan
+    vark   "work" loan
+    Driim  "dream" loan
+    vark   "work" loan
+    jhiil  "lake"
+    vark   "work" loan
+
+b20:
+  say: देव, तुमने उनके साथ क्या किया?
+  en: Dev, what did you do to him?
+  words: |
+    dev                   "Dev" name
+    tumne       < tum     "you"
+    unke        < vo      "him"
+    saath                 "with"
+    kyaa                  "what"
+    kiyaa:PAST  < karnaa  "did?"
+
+b21:
+  say: कुछ नहीं। उन्हें कुछ याद आ गया।
+  en: Nothing. He remembered something.
+  words: |
+    kuchh                 "nothing"
+    nahii~:NEG            "at all"
+    unhe~       < vo      "to him"
+    kuchh                 "something"
+    yaad                  "memory"
+    aa          < aanaa   "came"
+    gayaa:PERF  < jaanaa  "(back)"
+
+b22:
+  say: रविवार। चालीस लोग।
+  en: Sunday. Forty people.
+  words: |
+    ravivaar  "Sunday"
+    chaaliis  "forty"
+    log       "people"
+
+b23:
+  say: आंटी अपने भाई को देखती हैं। हाथ में बोरा। टाई जेब में।
+  en: The landlady sees her little brother. A sack in his hand. His tie in his pocket.
+  words: |
+    aanTii              "aunty (the landlady)" loan
+    apne     < apnaa    "her own"
+    bhaaii              "brother"
+    ko:ACC              "(at)"
+    dekhtii  < dekhnaa  "sees"
+    hai~     < honaa    "(are)"
+    haath               "hand"
+    me~:LOC             "in"
+    boraa               "a sack"
+    Taaii               "tie" loan
+    jeb                 "pocket"
+    me~:LOC             "in"
+
+b24:
+  say: बबलू?! यहाँ?
+  en: Bablu?! Here?
+  words: |
+    bablu   "Bablu?!" name
+    yahaa~  "here?"
+
+b25:
+  say: दीदी... पैर चलाने आया हूँ।
+  en: Didi... I've come to kick my legs.
+  words: |
+    diidii                 "Didi"
+    pair                   "legs"
+    chalaane  < chalaanaa  "to kick"
+    aayaa     < aanaa      "come"
+    huu~      < honaa      "(I've)"
+
+b26:
+  say: आंटी हँसती हैं। फिर, थोड़ा रोती हैं।
+  en: The landlady laughs. Then she cries a little.
+  words: |
+    aanTii              "aunty (the landlady)" loan
+    ha~stii  < ha~snaa  "laughs"
+    hai~     < honaa    "(are)"
+    phir                "then"
+    thoDaa              "a little"
+    rotii    < ronaa    "cries"
+    hai~     < honaa    "(are)"
+
+b27:
+  say: दस्ताने पहन। सीढ़ियों से शुरू कर।
+  en: Gloves on. Start at the steps.
+  words: |
+    dastaane   < dastaanaa  "gloves"
+    pahan:IMP  < pahannaa   "put on"
+    siiDhiyo~  < siiDhii    "the steps"
+    se:ABL                  "from"
+    shuruu                  "start"
+    kar:IMP    < karnaa     "(do)"
+
+b28:
+  say: शाम। छत।
+  en: Evening. The terrace.
+  words: |
+    shaam  "evening"
+    chhat  "the roof"
+
+b29:
+  say: देव... मेरा टिकट आ गया।
+  en: Dev... my ticket has come.
+  words: |
+    dev                   "Dev" name
+    meraa                 "my"
+    TikaT                 "ticket" loan
+    aa          < aanaa   "come"
+    gayaa:PERF  < jaanaa  "(has)"
+
+b30:
+  say: टिकट?
+  en: Your ticket?
+  words: |
+    TikaT  "ticket?" loan
+
+b31:
+  say: दो हफ़्ते। फिर मैं घर जाऊँगी।
+  en: Two weeks. Then I go home.
+  words: |
+    do                       "two"
+    hafte          < haftaa  "weeks"
+    phir                     "then"
+    mai~                     "I"
+    ghar                     "home"
+    jaauu~gii:FUT  < jaanaa  "will go"

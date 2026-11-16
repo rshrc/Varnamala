@@ -1,0 +1,12 @@
+# s2e06: Kittu
+# Format: stories/README.md
+
+level: A2
+next: s2e07
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b13
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  dev.smile:  dev smile 1400
+  boss.point: boss point 1200

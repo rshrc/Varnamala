@@ -1,0 +1,293 @@
+# s2e06 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಕಿಟ್ಟು | kiTTu | Kittu
+tease: ನೀರು. | niiru. | The water.
+
+b01:
+  say: ದೇವ್. ಕೂತ್ಕೋ.
+  en: Dev. Sit.
+  words: |
+    dev                   "Dev" name
+    kuutkoo:IMP  < kuuru  "sit down"
+
+b02:
+  say: ದೇವ್ ಕೂರ್ತಾನೆ. ಮೌನ.
+  en: Dev sits. Silence.
+  words: |
+    dev                 "Dev" name
+    kuurtaane  < kuuru  "sits"
+    mauna               "silence"
+
+b03:
+  say: ಗೊತ್ತಾ? ನಾನು ಇಲ್ಲೇ ಈಜು ಕಲಿತೆ.
+  en: You know? I learned to swim right here.
+  words: |
+    gottaa:Q     < gottu  "you know?"
+    naanu                 "I"
+    illee        < illi   "right here"
+    iiju                  "swimming"
+    kalite:PAST  < kali   "learned"
+
+b04:
+  say: ಅಕ್ಕ ನನ್ನ ಕೈ ಹಿಡ್ಕೊಂಡಿದ್ಲು. ನನಗೆ ಆರು ವರ್ಷ.
+  en: Akka held my hand. I was six.
+  words: |
+    akka                       "Akka (big sister)"
+    nanna                      "my"
+    kai                        "hand"
+    hiDkonDidlu:PAST  < hiDi   "held"
+    nanage:DIR        < naanu  "to me (I was)"
+    aaru                       "six"
+    varSha                     "years (old)"
+
+b05:
+  say: "ಅವಳು ಕೂಗ್ತಿದ್ಲು: 'ಕಿಟ್ಟು, ಕಾಲು ಆಡಿಸು!'"
+  en: "She'd shout: 'Kittu, kick your legs!'"
+  words: |
+    avaLu                     "she"
+    kuugtidlu:PAST  < kuugu   "was shouting"
+    kiTTu                     "Kittu" name
+    kaalu                     "legs"
+    aaDisu:IMP      < aaDisu  "kick (move)!"
+
+b06:
+  say: ಈಗಲೂ ಹಾಗೇ ಕೂಗ್ತಾರೆ.
+  en: She still shouts like that.
+  words: |
+    iigaluu    < iiga   "even now"
+    haagee              "like that"
+    kuugtaare  < kuugu  "she shouts"
+
+b07:
+  say: ಹೌದು. ಈಗಲೂ.
+  en: Yes. Still.
+  words: |
+    haudu            "yes"
+    iigaluu  < iiga  "even now"
+
+b08:
+  say: ಆಮೇಲೆ ದೊಡ್ಡವನಾದೆ. ಆಫೀಸ್, ಫೋನ್, ಬೆಳಿಗ್ಗೆ ಐದಕ್ಕೆ ಮೆಸೇಜ್.
+  en: Then I grew up. Office, phone, messages at five in the morning.
+  words: |
+    aameele                     "then"
+    doDDavanaade:PAST  < doDDa  "I grew up"
+    aafiis                      "office" loan
+    phoon                       "phone" loan
+    beLigge                     "morning"
+    aidakke:DIR        < aidu   "at five"
+    meseej                      "messages" loan
+
+b09:
+  say: ಈ ಕೆರೆ ಮರೆತುಬಿಟ್ಟೆ.
+  en: I forgot this lake.
+  words: |
+    ii                        "this"
+    kere                      "lake"
+    maretubiTTe:PAST  < mare  "I forgot (completely)"
+
+b10:
+  say: ಇವತ್ತು ಅಕ್ಕ ಸ್ಟೇಜ್ ಮೇಲೆ ಹಾಡಿದ್ಲು. ನಾನು ಆಫೀಸಲ್ಲಿದ್ದೆ.
+  en: Today Akka sang on a stage. I was at the office.
+  words: |
+    ivattu                        "today"
+    akka                          "Akka"
+    sTeej                         "stage" loan
+    meele                         "on"
+    haaDidlu:PAST       < haaDu   "sang"
+    naanu                         "I"
+    aafiisallidde:PAST  < aafiis  "was at the office" loan
+
+b11:
+  say: ಭಾನುವಾರ ನಾವು ಕೆರೆ ಕ್ಲೀನ್ ಮಾಡ್ತೀವಿ. ಬನ್ನಿ.
+  en: On Sunday, we're cleaning the lake. Come.
+  words: |
+    bhaanuvaara                                  "Sunday"
+    naavu                                        "we"
+    kere                                         "the lake"
+    kliin                                        "clean" loan
+    maaDtiivi      maaD·tiivi:PRES.1PL  < maaDu  "will (do)"
+    banni:IMP.HON                       < baru   "come"
+
+b12:
+  say: ಭಾನುವಾರ? ನಾನು ಭಾನುವಾರ ಬರಲ್ಲ.
+  en: Sunday? I don't come in on Sundays.
+  words: |
+    bhaanuvaara          "Sunday?"
+    naanu                "I"
+    bhaanuvaara          "on Sundays"
+    baralla:NEG  < baru  "don't come (in)"
+
+b13:
+  say: ಹಾಗಾದ್ರೆ ಕಿಟ್ಟು ಆಗಿ ಬನ್ನಿ. ಬಾಸ್ ಆಗಿ ಅಲ್ಲ.
+  en: Then come as Kittu. Not as the boss.
+  words: |
+    haagaadre              "then"
+    kiTTu                  "Kittu" name
+    aagi           < aagu  "as"
+    banni:IMP.HON  < baru  "come"
+    baas                   "the boss" loan
+    aagi           < aagu  "as"
+    alla                   "not"
+
+b14:
+  say: ಬಾಸ್ ನಗ್ತಾರೆ. ಮೆಲ್ಲಗೆ.
+  en: The boss laughs. Softly.
+  words: |
+    baas                                  "the boss" loan
+    nagtaare  nag·taare:PRES.3PL  < nagu  "laughs"
+    mellage                               "softly"
+
+b15:
+  say: ಸೋಮವಾರ. ಆಫೀಸ್.
+  en: Monday. The office.
+  words: |
+    soomavaara  "Monday"
+    aafiis      "the office" loan
+
+b16:
+  say: "ಟೀಮ್! ಈ ಭಾನುವಾರ: ಔಟಿಂಗ್."
+  en: "Team! This Sunday: an outing."
+  words: |
+    Tiim         "team!" loan
+    ii           "this"
+    bhaanuvaara  "Sunday"
+    auTing       "an outing" loan
+
+b17:
+  say: ಭಾನುವಾರ?!
+  en: Sunday?!
+  words: |
+    bhaanuvaara  "Sunday?!"
+
+b18:
+  say: ಒಂದು ಕೆರೆಗೆ. ಚೀಲಗಳ ಜೊತೆ.
+  en: To a lake. With sacks.
+  words: |
+    ondu                     "a"
+    kerege:DIR     < kere    "to a lake"
+    chiilagaLa:PL  < chiila  "sacks"
+    jote                     "with"
+
+b19:
+  say: ಟೀಮ್ ವರ್ಕ್. ಡ್ರೀಮ್ ವರ್ಕ್. ...ಕೆರೆ ವರ್ಕ್.
+  en: Team work. Dream work. ...Lake work.
+  words: |
+    Tiim   "team" loan
+    vark   "work" loan
+    Driim  "dream" loan
+    vark   "work" loan
+    kere   "lake"
+    vark   "work" loan
+
+b20:
+  say: ದೇವ್, ನೀನು ಅವರಿಗೆ ಏನು ಮಾಡಿದೆ?
+  en: Dev, what did you do to him?
+  words: |
+    dev                    "Dev" name
+    niinu                  "you"
+    avarige:DIR   < avaru  "to him"
+    eenu                   "what"
+    maaDide:PAST  < maaDu  "did"
+
+b21:
+  say: ಏನೂ ಇಲ್ಲ. ಅವರಿಗೆ ಏನೋ ನೆನಪಾಯ್ತು.
+  en: Nothing. He remembered something.
+  words: |
+    eenuu                      "nothing"
+    illa:NEG                   "at all"
+    avarige:DIR      < avaru   "to him"
+    eenoo                      "something"
+    nenapaaytu:PAST  < nenapu  "came back to mind (was remembered)"
+
+b22:
+  say: ಭಾನುವಾರ. ನಲವತ್ತು ಜನ.
+  en: Sunday. Forty people.
+  words: |
+    bhaanuvaara  "Sunday"
+    nalavattu    "forty"
+    jana         "people"
+
+b23:
+  say: ಓನರ್ ಅಮ್ಮ ತಮ್ಮನನ್ನ ನೋಡ್ತಾರೆ. ಕೈಯಲ್ಲಿ ಚೀಲ. ಟೈ ಜೇಬಲ್ಲಿ.
+  en: The landlady sees her little brother. A sack in his hand. His tie in his pocket.
+  words: |
+    oonar                                         "owner (the landlady)" loan
+    amma                                          "(madam)"
+    tammananna:ACC                       < tamma  "her little brother"
+    nooDtaare       nooD·taare:PRES.3PL  < nooDu  "sees"
+    kaiyalli        kai·yalli:LOC        < kai    "in (his) hand"
+    chiila                                        "a sack"
+    Tai                                           "tie" loan
+    jeeballi:LOC                         < jeebu  "in (his) pocket"
+
+b24:
+  say: ಕಿಟ್ಟು?! ಇಲ್ಲಿ?
+  en: Kittu?! Here?
+  words: |
+    kiTTu  "Kittu?!" name
+    illi   "here?"
+
+b25:
+  say: ಅಕ್ಕ... ಕಾಲು ಆಡಿಸೋಕೆ ಬಂದೆ.
+  en: Akka... I've come to kick my legs.
+  words: |
+    akka                  "Akka"
+    kaalu                 "legs"
+    aaDisooke   < aaDisu  "to kick"
+    bande:PAST  < baru    "I've come"
+
+b26:
+  say: ಓನರ್ ಅಮ್ಮ ನಗ್ತಾರೆ. ಆಮೇಲೆ, ಸ್ವಲ್ಪ ಅಳ್ತಾರೆ.
+  en: The landlady laughs. Then she cries a little.
+  words: |
+    oonar                                 "owner (the landlady)" loan
+    amma                                  "(madam)"
+    nagtaare  nag·taare:PRES.3PL  < nagu  "laughs"
+    aameele                               "then"
+    swalpa                                "a little"
+    aLtaare                       < aLu   "cries"
+
+b27:
+  say: ಗ್ಲೌಸ್ ಹಾಕ್ಕೋ. ಮೆಟ್ಟಿಲಿಂದ ಶುರು ಮಾಡು.
+  en: Gloves on. Start at the steps.
+  words: |
+    glaus                      "gloves" loan
+    haakkoo:IMP     < haaku    "put on"
+    meTTilinda:ABL  < meTTilu  "from the steps"
+    shuru                      "start"
+    maaDu:IMP                  "(do)"
+
+b28:
+  say: ಸಂಜೆ. ಟೆರೇಸ್.
+  en: Evening. The terrace.
+  words: |
+    sanje   "evening"
+    Terees  "the terrace" loan
+
+b29:
+  say: ದೇವ್... ನನ್ನ ಟಿಕೆಟ್ ಬಂತು.
+  en: Dev... my ticket has come.
+  words: |
+    dev                 "Dev" name
+    nanna               "my"
+    TikeT               "ticket" loan
+    bantu:PAST  < baru  "has come"
+
+b30:
+  say: ಟಿಕೆಟ್?
+  en: Your ticket?
+  words: |
+    TikeT  "ticket?" loan
+
+b31:
+  say: ಎರಡು ವಾರ. ಆಮೇಲೆ ನಾನು ಮನೆಗೆ ಹೋಗ್ತೀನಿ.
+  en: Two weeks. Then I go home.
+  words: |
+    eraDu                                     "two"
+    vaara                                     "weeks"
+    aameele                                   "then"
+    naanu                                     "I"
+    manege:DIR                       < mane   "home (to)"
+    hoogtiini   hoog·tiini:PRES.1SG  < hoogu  "will go"
