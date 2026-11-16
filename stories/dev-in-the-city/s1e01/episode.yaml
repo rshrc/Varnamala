@@ -1,0 +1,18 @@
+# s1e01: Arrival
+# Format: stories/README.md
+
+level: A1
+next: s1e02
+preview: { panel: p1, ms: 6000, camera: [[0, 0.2, 1.15], [6000, 0.5, 1.0]] }
+memento: { id: m.auto_receipt, asset: memento.auto_receipt, replays_beat: b12 }
+steal: b06
+gist: { type: order, cards: [{ id: g1, panel: p1, frame: dev.arrive }, { id: g2, panel: p2, frame: raju.shrug }, { id: g3, panel: p4, frame: dev.bag_drop }], answer: [g1, g2, g3] }
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  dev.wave:       dev wave 450
+  raju.laugh:     raju laugh 600
+  landlady.smile: landlady smile 1200
+  raju.nod:       raju nod 350
+  raju.shrug:     raju shrug 450
+  raju.wave:      raju wave 450

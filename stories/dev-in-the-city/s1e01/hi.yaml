@@ -1,0 +1,320 @@
+# s1e01 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: आगमन | aagaman | Arrival
+strings:
+  s1e01.tease: दस महीने का एडवांस?! | das mahiine kaa eDvaans?! | Ten months' advance?!
+  sign.bus_stand: बस अड्डा | bas aDDaa | Bus stand
+
+b01:
+  say: देव शहर में आया है।
+  en: Dev has come to the city.
+  chunks: [1, 2, 2]
+  words: |
+    dev                            "Dev" name
+    shahar                         "city"
+    me~:LOC               < me~    "in"
+    aayaa    aa·yaa:PAST  < aanaa  "came" @dev.arrive
+    hai                   < honaa  "is/has"
+
+b02:
+  say: उसके हाथ में एक बड़ा बैग है।
+  en: He has one big bag in his hand.
+  words: |
+    uske     us·ke:GEN  < vah    "his"
+    haath                        "hand"
+    me~:LOC             < me~    "in"
+    ek                           "a/one"
+    baDaa               < baDaa  "big"
+    baig                         "bag" @dev.bag_lift loan
+    hai                 < honaa  "is"
+
+b03:
+  say: बहुत लोग। बहुत शोर।
+  en: So many people. So much noise.
+  words: |
+    bahut  "many/a lot"
+    log    "people" @crowd.bustle
+    bahut  "a lot of"
+    shor   "noise"
+
+b04:
+  say: भैया! गांधीनगर चलोगे?
+  en: Bhaiya! Will you go to Gandhinagar?
+  words: |
+    bhaiyaa                                 "brother! (to a driver)"
+    gaandhiinagar                           "Gandhi Nagar" name
+    chaloge        chal·oge:FUT  < chalnaa  "will you go?"
+
+b05:
+  say: चलेंगे। बैठिए।
+  en: Let's go. Have a seat.
+  words: |
+    chale~ge  chal·e~ge:FUT     < chalnaa   "we'll go" @raju.nod
+    baiThie   baiTh·ie:IMP.HON  < baiThnaa  "sit (please)"
+
+b06:
+  say: कितना लगेगा?
+  en: How much will it be?
+  words: |
+    kitnaa                           "how much"
+    lagegaa  lag·egaa:FUT  < lagnaa  "will it cost"
+
+b07:
+  say: डेढ़ सौ रुपये।
+  en: A hundred and fifty rupees.
+  words: |
+    DeDh                < DeDh     "one and a half" @raju.fingers
+    sau                            "hundred"
+    rupaye  rupay·e:PL  < rupayaa  "rupees"
+
+b08:
+  say: डेढ़ सौ?! मीटर लगाओ!
+  en: A hundred and fifty?! Put the meter on!
+  words: |
+    DeDh                 < DeDh      "one and a half"
+    sau                              "hundred?!"
+    miiTar               < miiTar    "meter" @meter.tap loan
+    lagaao  lagaa·o:IMP  < lagaanaa  "put (it) on"
+
+b09:
+  say: मीटर ख़राब है, साब।
+  en: The meter's broken, sir.
+  chunks: [3, 1]
+  words: |
+    miiTar   < miiTar  "meter" @meter.broken loan
+    kharaab            "broken" @raju.shrug
+    hai      < honaa   "is"
+    saab     < saahab  "sir"
+
+b10:
+  say: सौ रुपये दूँगा।
+  en: I'll give a hundred rupees.
+  chunks: [2, 1]
+  words: |
+    sau                               "a hundred" @dev.fingers
+    rupaye   rupay·e:PL    < rupayaa  "rupees"
+    duu~gaa  duu~·gaa:FUT  < denaa    "I'll give"
+
+b11:
+  say: सौ? साब, शहर में नए हो?
+  en: A hundred? Sir, are you new in town?
+  chunks: [1, 1, 4]
+  words: |
+    sau                "a hundred?"
+    saab     < saahab  "sir"
+    shahar             "city"
+    me~:LOC  < me~     "in"
+    nae      < nayaa   "new"
+    ho       < honaa   "are (you)?"
+
+b12:
+  say: एक सौ बीस। लास्ट।
+  en: A hundred and twenty. Final.
+  words: |
+    ek              "one"
+    sau             "hundred"
+    biis            "twenty" @raju.fingers
+    laasT  < laasT  "last (final offer)" loan
+
+b13:
+  say: ठीक है। चलो।
+  en: Okay. Let's go.
+  words: |
+    Thiik              < Thiik    "fine"
+    hai                < honaa    "is"
+    chalo  chal·o:IMP  < chalnaa  "let's go"
+
+b14:
+  say: आइए साब!
+  en: Come on in, sir!
+  words: |
+    aaie  aa·ie:IMP.HON  < aanaa   "come (please)" @raju.wave
+    saab                 < saahab  "sir"
+
+b15:
+  say: कहाँ से आए हो, साब?
+  en: Where are you from, sir?
+  chunks: [4, 1]
+  words: |
+    kahaa~             < kahaa~  "where"
+    se:ABL                       "from"
+    aae     aa·e:PAST  < aanaa   "came"
+    ho                 < honaa   "(you) have"
+    saab               < saahab  "sir"
+
+b16:
+  say: कोलकाता से।
+  en: From Kolkata.
+  words: |
+    kolkaataa  "Kolkata" name
+    se:ABL     "from"
+
+b17:
+  say: हिंदी आती है?
+  en: Do you know Hindi?
+  words: |
+    hindii                            "Hindi" name
+    aatii   aa·tii:PRES.3SG  < aanaa  "comes (to you)"
+    hai                      < honaa  "is? (do you know it?)"
+
+b18:
+  say: थोड़ी थोड़ी।
+  en: A little, a little.
+  words: |
+    thoDii  < thoDaa  "a little"
+    thoDii  < thoDaa  "a little" @dev.sheepish
+
+b19:
+  say: बढ़िया! थोड़ी थोड़ी काफ़ी है।
+  en: Super! A little is enough.
+  chunks: [1, 4]
+  words: |
+    baDhiyaa  < baDhiyaa  "great!"
+    thoDii    < thoDaa    "a little"
+    thoDii    < thoDaa    "a little"
+    kaafii                "enough"
+    hai       < honaa     "is"
+
+b20:
+  say: ऐ, गाय! हट!
+  en: Hey, cow! Out of the way!
+  words: |
+    ai                 "hey"
+    gaay               "cow" @cow.chew
+    haT:IMP  < haTnaa  "move!"
+
+b21:
+  say: गाय नहीं सुनती।
+  en: The cow doesn't listen.
+  words: |
+    gaay                                    "the cow"
+    nahii~:NEG                    < nahii~  "not"
+    suntii      sun·tii:PRES.3SG  < sunnaa  "listens" @cow.chew
+
+b22:
+  say: इस शहर का ट्रैफ़िक!
+  en: This city's traffic!
+  chunks: [4]
+  words: |
+    is       < yah      "this"
+    shahar              "city"
+    kaa:GEN             "of"
+    Traifik  < Traifik  "traffic" loan
+
+b23:
+  say: नमस्ते। कमरा ख़ाली है?
+  en: Hello. Is there a room free?
+  words: |
+    namaste           "hello (respectfully)"
+    kamraa            "room"
+    khaalii           "empty, free"
+    hai      < honaa  "is it?"
+
+b24:
+  say: है। आप कौन?
+  en: There is. Who are you?
+  words: |
+    hai      < honaa  "it is"
+    aap:HON           "you (polite)"
+    kaun              "who?" @landlady.look
+
+b25:
+  say: मैं देव। नई नौकरी।
+  en: I'm Dev. New job.
+  words: |
+    mai~     < mai~   "I"
+    dev               "Dev" name
+    naii     < nayaa  "new"
+    naukrii           "job"
+
+b26:
+  say: शादी हुई है?
+  en: Are you married?
+  words: |
+    shaadii                       "marriage"
+    huii     hu·ii:PAST  < honaa  "happened"
+    hai                  < honaa  "has (it)?"
+
+b27:
+  say: नहीं।
+  en: No.
+  words: |
+    nahii~:NEG  "no"
+
+b28:
+  say: अच्छा... बैचलर।
+  en: I see... a bachelor.
+  words: |
+    achchhaa   "I see..."
+    baichalar  "bachelor" loan
+
+b29:
+  say: सिगरेट? दारू?
+  en: Cigarettes? Booze?
+  words: |
+    sigreT  "cigarettes?" loan
+    daaruu  "booze?"
+
+b30:
+  say: नहीं, नहीं!
+  en: No, no!
+  words: |
+    nahii~:NEG  "no" @dev.head_shake
+    nahii~:NEG  "no"
+
+b31:
+  say: गर्लफ्रेंड?
+  en: Girlfriend?
+  words: |
+    garlfrenD  "girlfriend?" loan
+
+b32:
+  say: नहीं...
+  en: No...
+  words: |
+    nahii~:NEG  "no..." @dev.sheepish
+
+b33:
+  say: अच्छा है।
+  en: That's good.
+  words: |
+    achchhaa           "good"
+    hai       < honaa  "is"
+
+b34:
+  say: महीने का दस हज़ार।
+  en: Ten thousand a month.
+  words: |
+    mahiine  mahiin·e  < mahiinaa  "month"
+    kaa:GEN                        "of, per"
+    das                            "ten" @landlady.fingers
+    hazaar                         "thousand"
+
+b35:
+  say: ठीक है, चलेगा।
+  en: Okay, that'll do.
+  chunks: [2, 1]
+  words: |
+    Thiik                    < Thiik    "fine"
+    hai                      < honaa    "is"
+    chalegaa  chal·egaa:FUT  < chalnaa  "that works"
+
+b36:
+  say: वो मुस्कुराती है।
+  en: She smiles.
+  words: |
+    vo                                                 "she"
+    muskuraatii  muskuraa·tii:PRES.3SG  < muskuraanaa  "smiles"
+    hai                                 < honaa        "(is)"
+
+b37:
+  say: दस महीने का एडवांस चाहिए।
+  en: I'll need ten months' advance.
+  words: |
+    das                               "ten" @landlady.ten
+    mahiine  mahiin·e:PL  < mahiinaa  "months"
+    kaa:GEN                           "of"
+    eDvaans               < eDvaans   "advance (deposit)" loan
+    chaahie               < chaahiye  "is needed"

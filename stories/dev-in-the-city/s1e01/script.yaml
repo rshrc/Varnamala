@@ -1,0 +1,79 @@
+# s1e01: Arrival. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: bus_stand
+  layers: [bg.bus_stand.far, bg.bus_stand.mid, fg.crowd]
+  cast:
+    dev: standing_bag @ 0.45
+  signboards: [{ id: sign.bus_stand, x: 0.7, y: 0.15 }]
+  beats:
+    b01: { who: narrator, start: [dev.arrive] }
+    b02: narrator
+    b03: { who: narrator, start: [crowd.bustle] }
+
+p2:
+  set: street_auto
+  ambient: traffic
+  layers: [bg.street.far, bg.street.mid]
+  cast:
+    dev:  standing_bag @ 0.3
+    raju: in_auto @ 0.65
+  props:
+    meter: auto_meter on raju.auto
+  beats:
+    b04: { who: dev, mood: calling, icons: [auto, question], tags: [shouting, hopeful], start: [dev.wave] }
+    b05: { who: raju, mood: breezy, icons: [ok] }
+    b06: { who: dev, mood: wary, icons: [rupee, question] }
+    b07: { who: raju, mood: sly, icons: [rupee], digits: "150", tags: [casually] }
+    b08: { who: dev, mood: shocked, icons: [rupee, question, meter], digits: "150", tags: [shocked, outraged], start: [dev.shock] }
+    b09: { who: raju, mood: sly, icons: [meter_broken], tags: [innocently] }
+    b10: { who: dev, mood: firm, icons: [rupee], digits: "100" }
+    b11: { who: raju, mood: amused, icons: [rupee, question], digits: "100", tags: [laughs, amused], start: [raju.laugh] }
+    b12: { who: raju, mood: firm, icons: [rupee], digits: "120", tags: [firmly, short pause] }
+    b13: { who: dev, mood: weary, icons: [ok], tags: [sighs], start: [dev.sigh_nod] }
+    b14: { who: raju, mood: breezy, icons: [auto] }
+
+p3:
+  set: signal
+  ambient: traffic
+  layers: [bg.signal.far, bg.signal.mid]
+  cast:
+    raju: in_auto_turned @ 0.65
+    dev:  in_auto_back @ 0.8
+    cow:  standing @ 0.32
+  props:
+    signal: traffic_signal
+  beats:
+    b15: { who: raju, mood: curious, icons: [pin, question] }
+    b16: { who: dev, mood: breezy, icons: [pin] }
+    b17: { who: raju, mood: curious, icons: [speech, question] }
+    b18: { who: dev, mood: sheepish, icons: [pinch], tags: [embarrassed], start: [dev.sheepish] }
+    b19: { who: raju, mood: amused, icons: [ok], tags: [laughs], start: [raju.laugh] }
+    b20: { who: raju, mood: annoyed, icons: [cow, go], tags: [shouting], start: [raju.shoo] }
+    b21: { who: narrator, start: [cow.look] }
+    b22: { who: raju, mood: weary, icons: [traffic], tags: [sighs], start: [signal.green], end: [cow.leave] }
+
+p4:
+  set: pg_door
+  ambient: quiet_lane
+  layers: [bg.pg_door.far, bg.pg_door.mid]
+  cast:
+    dev:      standing_bag @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b23: { who: dev, mood: wary, icons: [house, question], start: [dev.nod] }
+    b24: { who: landlady, mood: stern, icons: [person, question], start: [landlady.look] }
+    b25: { who: dev, mood: breezy, icons: [person, briefcase] }
+    b26: { who: landlady, mood: stern, icons: [ring, question] }
+    b27: { who: dev, mood: breezy, icons: ["no"] }
+    b28: { who: landlady, mood: sly, icons: [person, question], tags: [suspicious], start: [landlady.look] }
+    b29: { who: landlady, mood: stern, icons: [cigarette, bottle, question] }
+    b30: { who: dev, mood: shocked, icons: ["no"] }
+    b31: { who: landlady, mood: sly, icons: [heart, question], tags: [whispers] }
+    b32: { who: dev, mood: sheepish, icons: ["no"], tags: [sadly] }
+    b33: { who: landlady, mood: stern, icons: [ok], tags: [pleased], start: [landlady.smug] }
+    b34: { who: landlady, mood: stern, icons: [rupee, calendar], digits: "10,000" }
+    b35: { who: dev, mood: breezy, icons: [ok], tags: [relieved], start: [dev.nod] }
+    b36: { who: narrator, tags: [ominously], start: [landlady.smile] }
+    b37: { who: landlady, mood: stern, icons: [calendar, rupee], digits: "10", tags: [sweetly], end: [dev.bag_drop], cliffhanger: true }

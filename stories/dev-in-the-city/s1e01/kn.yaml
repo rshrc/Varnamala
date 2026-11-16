@@ -1,0 +1,299 @@
+# s1e01 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಆಗಮನ | aagamana | Arrival
+strings:
+  s1e01.tease: ಹತ್ತು ತಿಂಗಳು ಅಡ್ವಾನ್ಸ್?! | hattu tingaLu aDvaans?! | Ten months' advance?!
+  sign.bus_stand: ಬಸ್ ನಿಲ್ದಾಣ | bas nildaaNa | Bus stand
+
+b01:
+  say: ದೇವ್ ನಗರಕ್ಕೆ ಬಂದಿದ್ದಾನೆ.
+  en: Dev has come to the city.
+  chunks: [1, 2]
+  words: |
+    dev                                              "Dev" name
+    nagarakke    nagara·kke:DIR            < nagara  "to the city"
+    bandiddaane  band·idd:PERF·aane:3SG.M  < baru    "has come" @dev.arrive
+
+b02:
+  say: ಅವನ ಕೈಯಲ್ಲಿ ಒಂದು ದೊಡ್ಡ ಬ್ಯಾಗ್ ಇದೆ.
+  en: He has one big bag in his hand.
+  chunks: [2, 3, 1]
+  words: |
+    avana     avan·a:GEN     < avanu  "his"
+    kaiyalli  kai·yalli:LOC  < kai    "in (his) hand"
+    ondu                              "a/one"
+    doDDa                    < doDDa  "big"
+    byaag                             "bag" @dev.bag_lift loan
+    ide                      < iru    "is (there)"
+
+b03:
+  say: ತುಂಬಾ ಜನ. ತುಂಬಾ ಗದ್ದಲ.
+  en: So many people. So much noise.
+  words: |
+    tumbaa   "a lot of"
+    jana     "people" @crowd.bustle
+    tumbaa   "a lot of"
+    gaddala  "noise/commotion"
+
+b04:
+  say: ಆಟೋ! ಗಾಂಧಿನಗರಕ್ಕೆ ಬರ್ತೀರಾ?
+  en: Auto! Will you go to Gandhi Nagar?
+  words: |
+    aaToo                                       < aaToo          "auto!" loan
+    gaandhinagarakke  gaandhinagara·kke:DIR     < gaandhinagara  "to Gandhi Nagar" name
+    bartiiraa         bar·tiir:PRES.2.HON·aa:Q  < baru           "will you come?"
+
+b05:
+  say: ಬರ್ತೀನಿ. ಕೂತ್ಕೊಳ್ಳಿ.
+  en: I'll go. Have a seat.
+  words: |
+    bartiini   bar·tiini:PRES.1SG   < baru   "I'll come" @raju.nod
+    kuutkoLLi  kuut·koLL·i:IMP.HON  < kuuru  "sit down (please)"
+
+b06:
+  say: ಎಷ್ಟು ಆಗುತ್ತೆ?
+  en: How much will it be?
+  words: |
+    eShTu                  < eShTu  "how much"
+    aagutte  aag·utte:FUT  < aagu   "will it be"
+
+b07:
+  say: ನೂರೈವತ್ತು ರೂಪಾಯಿ.
+  en: A hundred and fifty rupees.
+  words: |
+    nuuraivattu  "one hundred fifty" @raju.fingers
+    ruupaayi     "rupees"
+
+b08:
+  say: ನೂರೈವತ್ತಾ?! ಮೀಟರ್ ಹಾಕಿ!
+  en: A hundred and fifty?! Put the meter on!
+  words: |
+    nuuraivattaa  nuuraivatt·aa:Q  < nuuraivattu  "a hundred and fifty?!"
+    miiTar                         < miiTar       "meter" @meter.tap loan
+    haaki         haak·i:IMP.HON   < haaku        "put (on), please"
+
+b09:
+  say: ಮೀಟರ್ ಕೆಲಸ ಮಾಡ್ತಿಲ್ಲ, ಸಾರ್.
+  en: The meter isn't working, sir.
+  chunks: [3, 1]
+  words: |
+    miiTar                           < miiTar  "meter" @meter.broken loan
+    kelasa                                     "work"
+    maaDtilla  maaD·ti:PROG·lla:NEG  < maaDu   "isn't doing" @raju.shrug
+    saar                                       "sir" loan
+
+b10:
+  say: ನೂರು ರೂಪಾಯಿ ಕೊಡ್ತೀನಿ.
+  en: I'll give a hundred rupees.
+  chunks: [2, 1]
+  words: |
+    nuuru                                 "a hundred" @dev.fingers
+    ruupaayi                              "rupees"
+    koDtiini  koD·tiini:PRES.1SG  < koDu  "I'll give"
+
+b11:
+  say: ನೂರಾ? ಸಾರ್, ಊರಿಗೆ ಹೊಸಬ್ರಾ?
+  en: A hundred? Sir, are you new in town?
+  chunks: [1, 1, 2]
+  words: |
+    nuuraa    nuur·aa:Q    < nuuru   "a hundred?"
+    saar                             "sir" loan
+    uurige    uur·ige:DIR  < uuru    "to (this) town"
+    hosabraa  hosabr·aa:Q  < hosaba  "new here?"
+
+b12:
+  say: ನೂರ ಇಪ್ಪತ್ತು. ಲಾಸ್ಟ್.
+  en: A hundred and twenty. Final.
+  words: |
+    nuura    < nuuru  "hundred and"
+    ippattu           "twenty" @raju.fingers
+    laasT    < laasT  "last (final offer)" loan
+
+b13:
+  say: ಸರಿ. ಹೋಗೋಣ.
+  en: Okay. Let's go.
+  words: |
+    sari                          "okay"
+    hoogooNa  hoog·ooNa  < hoogu  "let's go"
+
+b14:
+  say: ಬನ್ನಿ ಸಾರ್!
+  en: Come on in, sir!
+  words: |
+    banni  bann·i:IMP.HON  < baru  "come (please)" @raju.wave
+    saar                           "sir" loan
+
+b15:
+  say: ಎಲ್ಲಿಂದ ಬಂದ್ರಿ, ಸಾರ್?
+  en: Where are you from, sir?
+  chunks: [2, 1]
+  words: |
+    ellinda  ell·inda:ABL      < elli  "from where"
+    bandri   band:PAST·ri:HON  < baru  "did you come"
+    saar                               "sir" loan
+
+b16:
+  say: ದೆಹಲಿಯಿಂದ.
+  en: From Delhi.
+  words: |
+    dehaliyinda  dehali·yinda:ABL  < dehali  "from Delhi" name
+
+b17:
+  say: ಕನ್ನಡ ಬರುತ್ತಾ?
+  en: Do you know Kannada?
+  words: |
+    kannaDa                          < kannaDa  "Kannada" name
+    baruttaa  bar·utt:PRES.3SG·aa:Q  < baru     "do you know? (does it come to you?)"
+
+b18:
+  say: ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ.
+  en: A little, a little.
+  words: |
+    swalpa  "a little"
+    swalpa  "a little" @dev.sheepish
+
+b19:
+  say: ಸೂಪರ್! ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಸಾಕು.
+  en: Super! A little is enough.
+  words: |
+    suupar  "super!" loan
+    swalpa  "a little"
+    swalpa  "a little"
+    saaku   "is enough"
+
+b20:
+  say: ಏ, ಹಸು! ಆಚೆ ಹೋಗು!
+  en: Hey, cow! Out of the way!
+  words: |
+    ee         "hey"
+    hasu       "cow" @cow.chew
+    aache      "out of the way"
+    hoogu:IMP  "go!"
+
+b21:
+  say: ಹಸು ಕೇಳಲ್ಲ.
+  en: The cow doesn't listen.
+  words: |
+    hasu                              "the cow"
+    keeLalla  keeL·alla:NEG  < keeLu  "doesn't listen" @cow.chew
+
+b22:
+  say: ಈ ಊರಿನ ಟ್ರಾಫಿಕ್!
+  en: This city's traffic!
+  words: |
+    ii                                 "this"
+    uurina    uur·ina:GEN  < uuru      "town's"
+    Traaphik               < Traaphik  "traffic" loan
+
+b23:
+  say: ನಮಸ್ಕಾರ. ರೂಮ್ ಖಾಲಿ ಇದೆಯಾ?
+  en: Hello. Is there a room free?
+  words: |
+    namaskaara                    "hello (respectfully)"
+    ruum                          "room" loan
+    khaali                        "empty, free"
+    ideyaa      ide·yaa:Q  < iru  "is it?"
+
+b24:
+  say: ಇದೆ. ನೀವು ಯಾರು?
+  en: There is. Who are you?
+  words: |
+    ide        < iru  "it is"
+    niivu:HON         "you (polite)"
+    yaaru             "who" @landlady.look
+
+b25:
+  say: ನಾನು ದೇವ್. ಹೊಸ ಕೆಲಸ.
+  en: I'm Dev. New job.
+  words: |
+    naanu   "I"
+    dev     "Dev" name
+    hosa    "new"
+    kelasa  "job, work"
+
+b26:
+  say: ಮದುವೆ ಆಗಿದೆಯಾ?
+  en: Are you married?
+  words: |
+    maduve                                 "marriage"
+    aagideyaa  aag·ide:PERF·yaa:Q  < aagu  "has it happened?"
+
+b27:
+  say: ಇಲ್ಲ.
+  en: No.
+  words: |
+    illa:NEG  "no"
+
+b28:
+  say: ಓಹೋ... ಬ್ಯಾಚುಲರ್.
+  en: Oho... a bachelor.
+  words: |
+    ohoo        "oho... I see"
+    byaachular  "bachelor" loan
+
+b29:
+  say: ಸಿಗರೇಟ್? ಡ್ರಿಂಕ್ಸ್?
+  en: Cigarettes? Drinks?
+  words: |
+    sigareeT  "cigarettes?" loan
+    Drinks    "drinks?" loan
+
+b30:
+  say: ಇಲ್ಲ, ಇಲ್ಲ!
+  en: No, no!
+  words: |
+    illa:NEG  "no" @dev.head_shake
+    illa:NEG  "no"
+
+b31:
+  say: ಗರ್ಲ್‌ಫ್ರೆಂಡ್?
+  en: Girlfriend?
+  words: |
+    garlphrenD  "girlfriend?" loan
+
+b32:
+  say: ಇಲ್ಲ...
+  en: No...
+  words: |
+    illa:NEG  "no..." @dev.sheepish
+
+b33:
+  say: ಒಳ್ಳೇದು.
+  en: Good.
+  words: |
+    oLLeedu  "good"
+
+b34:
+  say: ತಿಂಗಳಿಗೆ ಹತ್ತು ಸಾವಿರ.
+  en: Ten thousand a month.
+  chunks: [1, 2]
+  words: |
+    tingaLige  tingaL·ige:DIR  < tingaLu  "per month"
+    hattu                                 "ten" @landlady.fingers
+    saavira                               "thousand"
+
+b35:
+  say: ಸರಿ, ಪರವಾಗಿಲ್ಲ.
+  en: Okay, no problem.
+  chunks: [1, 1]
+  words: |
+    sari                                          "okay"
+    paravaagilla  paravaagi·lla:NEG  < paravaagi  "no problem"
+
+b36:
+  say: ಅವಳು ನಗ್ತಾಳೆ.
+  en: She smiles.
+  words: |
+    avaLu                                 "she"
+    nagtaaLe  nag·taaLe:PRES.3SG  < nagu  "smiles"
+
+b37:
+  say: ಹತ್ತು ತಿಂಗಳು ಅಡ್ವಾನ್ಸ್ ಬೇಕು.
+  en: I'll need ten months' advance.
+  words: |
+    hattu               "ten" @landlady.ten
+    tingaLu  < tingaLu  "months"
+    aDvaans  < aDvaans  "advance (deposit)" loan
+    beeku               "is needed"
