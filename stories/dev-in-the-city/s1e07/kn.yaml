@@ -1,0 +1,541 @@
+# s1e07 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಗ್ಯಾಸ್ ಖಾಲಿ | gyaas khaali | Out of Gas
+tease: ಬಾಸ್... ಮನೆಯಲ್ಲಿ?! | baas... maneyalli?! | The boss... at home?!
+
+b01:
+  say: ಮರುದಿನ ಬೆಳಿಗ್ಗೆ. ದೇವ್ ಮತ್ತೆ ಬ್ಯಾಗ್ ಹಿಡ್ಕೊಂಡಿದ್ದಾನೆ.
+  en: The next morning. Dev is holding his bag again.
+  words: |
+    marudina                                      "the next day"
+    beLigge                                       "morning"
+    dev                                           "Dev" name
+    matte                                         "again"
+    byaag                                         "bag" loan
+    hiDkonDiddaane  hiDkonD·iddaane:PERF  < hiDi  "is holding"
+
+b02:
+  say: "ನಿಮ್ಮ ಹೊಸ ರೂಮ್: ಟೆರೇಸ್!"
+  en: "Your new room: the terrace!"
+  words: |
+    nimma   "your"
+    hosa    "new"
+    ruum    "room" loan
+    Terees  "the terrace" loan
+
+b03:
+  say: ಟೆರೇಸ್?!
+  en: The terrace?!
+  words: |
+    Terees  "the terrace?!" loan
+
+b04:
+  say: ಫ್ರೆಶ್ ಗಾಳಿ! ದೊಡ್ಡ ವ್ಯೂ! ಅದೇ ಬಾಡಿಗೆ.
+  en: Fresh air! A big view! Same rent.
+  words: |
+    phresh   "fresh" loan
+    gaaLi    "air"
+    doDDa    "big"
+    vyuu     "view" loan
+    adee     "the same"
+    baaDige  "rent"
+
+b05:
+  say: ಟೆರೇಸ್. ನೀರಿನ ಟ್ಯಾಂಕ್, ಬಟ್ಟೆ, ಮತ್ತು ದೇವ್.
+  en: The terrace. A water tank, the washing, and Dev.
+  words: |
+    Terees                          "the terrace" loan
+    niirina  niir·ina:GEN  < niiru  "water's"
+    Tyaank                          "tank" loan
+    baTTe                           "clothes (the washing)"
+    mattu                           "and"
+    dev                             "Dev" name
+
+b06:
+  say: ನೋಡಿ! ಇಡೀ ಊರು ಕಾಣುತ್ತೆ!
+  en: Look! You can see the whole city!
+  words: |
+    nooDi:IMP.HON  < nooDu  "look!"
+    iDii                    "the whole"
+    uuru                    "town (city)"
+    kaaNutte       < kaaNu  "can be seen"
+
+b07:
+  say: ಅದೇನು? ಅಲ್ಲಿ?
+  en: What's that? Over there?
+  words: |
+    adeenu  < adu  "what's that?"
+    alli           "over there"
+
+b08:
+  say: ಮೆಟ್ರೋ. ಬೇಗ ಬರುತ್ತೆ.
+  en: The metro. Coming soon.
+  words: |
+    meTroo           "the metro" @crane.swing loan
+    beega            "soon"
+    barutte  < baru  "will come"
+
+b09:
+  say: ಯಾವಾಗಿಂದ?
+  en: Since when?
+  words: |
+    yaavaaginda  yaavaag·inda:ABL  < yaavaaga  "since when?"
+
+b10:
+  say: ಹನ್ನೆರಡು ವರ್ಷದಿಂದ. ಯಾವಾಗ್ಲೂ 'ಬೇಗ'.
+  en: Twelve years now. Always 'soon'.
+  words: |
+    hanneraDu                                "twelve"
+    varShadinda  varSha·dinda:ABL  < varSha  "for ... years"
+    yaavaagluu                               "always"
+    beega                                    "'soon'"
+
+b11:
+  say: "ಆಗ, ಕೆಳಗಿಂದ: ಪೊಂ ಪೊಂ!"
+  en: "Just then, from down below: honk, honk!"
+  words: |
+    aaga                                 "then"
+    keLaginda  keLag·inda:ABL  < keLage  "from below"
+    pom                                  "honk"
+    pom                                  "honk!"
+
+b12:
+  say: ಬಂದ! ನನ್ನ ಪುಟ್ಟ ಬಂದ!
+  en: He's here! My Putta is here!
+  words: |
+    banda  band·a:PAST  < baru  "he's come!"
+    nanna                       "my"
+    puTTa                       "Putta (little one: her pet name for her son)"
+    banda  band·a:PAST  < baru  "has come!"
+
+b13:
+  say: ಅವರ 'ಪುಟ್ಟ'. ಆರು ಅಡಿ ಎತ್ತರ. ಗಡ್ಡ.
+  en: Her 'little one'. Six feet tall. With a beard.
+  words: |
+    avara:GEN  < avaru  "her"
+    puTTa               "'little one'"
+    aaru                "six"
+    aDi                 "feet"
+    ettara              "tall"
+    gaDDa               "a beard"
+
+b14:
+  say: ಹಾಯ್ ಮಾ! ಚಿಲ್, ಚಿಲ್!
+  en: Hi, Ma! Chill, chill!
+  words: |
+    haay  "hi" loan
+    maa   "Ma (mum)"
+    chil  "chill (relax)" loan
+    chil  "chill!" loan
+
+b15:
+  say: ಎಷ್ಟು ಸಣ್ಣ ಆಗಿದ್ದೀಯ! ಅಲ್ಲಿ ಊಟ ಇಲ್ವಾ?
+  en: You've got so thin! Don't they feed you there?
+  words: |
+    eShTu               "how (so)"
+    saNNa               "thin"
+    aagiddiiya  < aagu  "you've become"
+    alli                "there"
+    uuTa                "food (meals)"
+    ilvaa:Q     < illa  "isn't there?"
+
+b16:
+  say: ಸಾರ್, ಮುನ್ನೂರು.
+  en: Sir, three hundred.
+  words: |
+    saar      "sir" loan
+    munnuuru  "three hundred" @raju.fingers
+
+b17:
+  say: ಓಕೆ ಬ್ರೋ. ಡನ್.
+  en: Okay, bro. Done.
+  words: |
+    ooke  "okay" loan
+    broo  "bro" loan
+    Dan   "done" loan
+
+b18:
+  say: ಚೌಕಾಸಿ ಇಲ್ವಾ? ಸೂಪರ್ ಗಿರಾಕಿ!
+  en: No haggling? What a customer!
+  words: |
+    chaukaasi          "haggling"
+    ilvaa:Q    < illa  "none?"
+    suupar             "super" loan
+    giraaki            "customer"
+
+b19:
+  say: "ಮಧ್ಯಾಹ್ನ. ಮಗನ ಫೇವರಿಟ್: ಬಿಸಿಬೇಳೆಬಾತ್."
+  en: "Lunchtime. Her son's favourite: bisi bele bath."
+  words: |
+    madhyaahna             "afternoon (lunchtime)"
+    magana:GEN     < maga  "the son's"
+    feevariT               "favourite" loan
+    bisibeeLebaat          "bisi bele bath (hot lentil rice)"
+
+b20:
+  say: ಪುಟ್ಟ, ಹಸಿವಾಗಿದ್ಯಾ?
+  en: Putta, are you hungry?
+  words: |
+    puTTa                      "Putta (little one)"
+    hasivaagidyaa:Q  < hasivu  "are you hungry?"
+
+b21:
+  say: ಮಾ, ಒಂದು ನಿಮಿಷ. ಕಾಲ್ ನಡೀತಿದೆ.
+  en: Ma, one minute. I'm on a call.
+  words: |
+    maa                     "Ma"
+    ondu                    "one"
+    nimiSha                 "minute"
+    kaal                    "a call" loan
+    naDiitide:PROG  < naDe  "is going on"
+
+b22:
+  say: ಯೆಸ್ ಬ್ರೋ. ಲೆಟ್ಸ್ ಸರ್ಕಲ್ ಬ್ಯಾಕ್.
+  en: Yes, bro. Let's circle back.
+  words: |
+    yes     "yes" loan
+    broo    "bro" loan
+    leTs    "let's" loan
+    sarkal  "circle" loan
+    byaak   "back" loan
+
+b23:
+  say: ನೋಡಿ? ಬರೀ ಇಂಗ್ಲೀಷ್. 'ಬ್ರೋ, ಬ್ರೋ, ಬ್ರೋ'.
+  en: See? Only English. 'Bro, bro, bro.'
+  words: |
+    nooDi:IMP.HON  < nooDu  "see?"
+    barii                   "only"
+    ingliish                "English" loan
+    broo                    "bro" loan
+    broo                    "bro" loan
+    broo                    "bro" loan
+
+b24:
+  say: ಮೇಡಂ, ಘಮ ಘಮ ಅಂತಿದೆ!
+  en: Madam, it smells wonderful!
+  words: |
+    meeDam          "madam" loan
+    ghama           "(a lovely smell)"
+    ghama           "(a lovely smell)"
+    antide  < annu  "it goes (it smells)"
+
+b25:
+  say: "ನೋಡು! ದೇವ್ ಕನ್ನಡ ಮಾತಾಡ್ತಾನೆ! ನನ್ನ ಮಗ: 'ಬ್ರೋ'!"
+  en: "Look! Dev speaks Kannada! My own son: 'bro'!"
+  words: |
+    nooDu:IMP                                         "look! (to her son)"
+    dev                                               "Dev" name
+    kannaDa                                           "Kannada" name
+    maataaDtaane  maataaD·taane:PRES.3SG  < maataaDu  "speaks"
+    nanna                                             "my"
+    maga                                              "son"
+    broo                                              "bro" loan
+
+b26:
+  say: "ಆಗ: ಫುಸ್. ಬೆಂಕಿ ಆರಿಹೋಯ್ತು."
+  en: "Then: pfff. The flame goes out."
+  words: |
+    aaga                             "then"
+    phus                             "pfff"
+    benki                            "the fire (flame)" @stove.out
+    aarihooytu:PAST  < "aari hoogu"  "went out"
+
+b27:
+  say: ಅಯ್ಯೋ! ಗ್ಯಾಸ್ ಖಾಲಿ!
+  en: Ayyo! The gas has run out!
+  words: |
+    ayyoo   "ayyo! (oh no!)"
+    gyaas   "gas" loan
+    khaali  "empty (run out)"
+
+b28:
+  say: ಮಾ, ಚಿಲ್. ಆಪಲ್ಲಿ ಆರ್ಡರ್ ಮಾಡು.
+  en: Ma, chill. Order it on an app.
+  words: |
+    maa                             "Ma"
+    chil                            "chill" loan
+    aapalli    aap·alli:LOC  < aap  "on an app" loan
+    aarDar                          "order" loan
+    maaDu:IMP                       "(do) it"
+
+b29:
+  say: ಆಪ್, ಆಪ್! ಗ್ಯಾಸ್ ಹತ್ತು ನಿಮಿಷದಲ್ಲಿ ಬರಲ್ಲ!
+  en: App, app! Gas doesn't come in ten minutes!
+  words: |
+    aap                                         "app" loan
+    aap                                         "app!" loan
+    gyaas                                       "gas" loan
+    hattu                                       "ten"
+    nimiShadalli  nimiSha·dalli:LOC  < nimiSha  "in ... minutes"
+    baralla:NEG                      < baru     "doesn't come"
+
+b30:
+  say: ದೇವ್ ಗ್ಯಾಸ್ ಏಜೆನ್ಸಿಗೆ ಫೋನ್ ಮಾಡ್ತಾನೆ.
+  en: Dev phones the gas agency.
+  words: |
+    dev                                        "Dev" name
+    gyaas                                      "gas" loan
+    eejensige  eejensi·ge:DIR       < eejensi  "to the agency" loan
+    phoon                                      "phone" loan
+    maaDtaane  maaD·taane:PRES.3SG  < maaDu    "makes (a call)"
+
+b31:
+  say: ನಮಸ್ಕಾರ. ಕನ್ನಡಕ್ಕಾಗಿ, ಒಂದು ಒತ್ತಿ.
+  en: Namaskara. For Kannada, press one.
+  words: |
+    namaskaara                                    "hello"
+    kannaDakkaagi  kannaDa·kkaagi:DIR  < kannaDa  "for Kannada"
+    ondu                                          "one"
+    otti:IMP.HON                       < ottu     "press"
+
+b32:
+  say: ಒಂದು!
+  en: One!
+  words: |
+    ondu  "one!"
+
+b33:
+  say: ನಿಮ್ಮ ಸಿಲಿಂಡರ್ ಏಳು ದಿನಗಳಲ್ಲಿ ಬರುತ್ತದೆ. ಧನ್ಯವಾದ.
+  en: Your cylinder will arrive in seven days. Thank you.
+  words: |
+    nimma                                      "your"
+    siliNDar                                   "cylinder" loan
+    eeLu                                       "seven"
+    dinagaLalli  dina·gaL:PL·alli:LOC  < dina  "in ... days"
+    baruttade                          < baru  "will come (formal)"
+    dhanyavaada                                "thank you"
+
+b34:
+  say: ಏಳು ದಿನ?!
+  en: Seven days?!
+  words: |
+    eeLu  "seven"
+    dina  "days?!"
+
+b35:
+  say: ಬೆಂಗಳೂರಿಗೆ ಸ್ವಾಗತ.
+  en: Welcome to Bengaluru.
+  words: |
+    bengaLuurige  < bengaLuuru  "to Bengaluru" name
+    svaagata                    "welcome"
+
+b36:
+  say: ಅಣ್ಣಾ! ಸಿಲಿಂಡರ್ ಇದ್ಯಾ? ಪ್ಲೀಸ್!
+  en: Anna! Do you have a cylinder? Please!
+  words: |
+    aNNaa     < aNNa  "Anna! (big brother)"
+    siliNDar          "cylinder" loan
+    idyaa:Q   < iru   "is there?"
+    pliis             "please" loan
+
+b37:
+  say: ನಿಮಗಾ? ಒಂದು ಎಕ್ಸ್ಟ್ರಾ ಇದೆ.
+  en: For you? I've got a spare one.
+  words: |
+    nimagaa:Q  < niivu  "for you?"
+    ondu                "one"
+    ekstraa             "extra (spare)" @chaiwala.smile loan
+    ide        < iru    "there is"
+
+b38:
+  say: ಆದ್ರೆ ತುಂಬಾ ಭಾರ!
+  en: But it's very heavy!
+  words: |
+    aadre   "but"
+    tumbaa  "very"
+    bhaara  "heavy"
+
+b39:
+  say: ಸಾರ್! ಆಟೋದಲ್ಲಿ ಇಡಿ! ಫ್ರೀ!
+  en: Sir! Put it in the auto! Free ride!
+  words: |
+    saar                                   "sir" loan
+    aaToodalli   aaToo·dalli:LOC  < aaToo  "in the auto" loan
+    iDi:IMP.HON                   < iDu    "put it"
+    phrii                                  "free!" loan
+
+b40:
+  say: ರಾಜು, ದೇವ್, ಮತ್ತು ಒಂದು ಕೆಂಪು ಸಿಲಿಂಡರ್. ವಿಐಪಿ ತರ.
+  en: Raju, Dev, and one red cylinder. Riding like a VIP.
+  words: |
+    raaju     "Raju" name
+    dev       "Dev" name
+    mattu     "and"
+    ondu      "a"
+    kempu     "red"
+    siliNDar  "cylinder" loan
+    viaipi    "VIP" loan
+    tara      "like"
+
+b41:
+  say: ಗುಂಡಿ! ಢಡಕ್!
+  en: A pothole! THUD!
+  words: |
+    gunDi   "a pothole!" @road.bump
+    DhaDak  "thud!"
+
+b42:
+  say: ಈ ರೋಡ್ ಹೊಸದು ಅಲ್ವಾ?
+  en: Isn't this road new?
+  words: |
+    ii               "this"
+    rooD             "road" loan
+    hosadu           "new"
+    alvaa:Q  < alla  "isn't it?"
+
+b43:
+  say: ಹೌದು! ಹೋದ ತಿಂಗಳು ಮಾಡಿದ್ದು!
+  en: Yes! They built it last month!
+  words: |
+    haudu                   "yes"
+    hooda          < hoogu  "last (gone)"
+    tingaLu                 "month"
+    maaDiddu:PAST  < maaDu  "(they) made (it)"
+
+b44:
+  say: ದೇವ್ ಸಿಲಿಂಡರ್ ತರ್ತಾನೆ. ಹೀರೋ ತರ.
+  en: Dev carries in the cylinder. Like a hero.
+  words: |
+    dev                                   "Dev" name
+    siliNDar                              "cylinder" loan
+    tartaane  tar·taane:PRES.3SG  < taru  "brings"
+    hiiroo                                "hero" loan
+    tara                                  "like"
+
+b45:
+  say: ನನ್ನ ಹೀರೋ! ದೇವ್ ನನ್ನ ಹೀರೋ!
+  en: My hero! Dev is my hero!
+  words: |
+    nanna   "my"
+    hiiroo  "hero!" loan
+    dev     "Dev" name
+    nanna   "my"
+    hiiroo  "hero!" loan
+
+b46:
+  say: "ಬೆಂಕಿ ಬಂತು. ಕುಕ್ಕರ್ ಸೀಟಿ: ಒಂದು, ಎರಡು, ಮೂರು!"
+  en: "The flame is back. The cooker whistles: one, two, three!"
+  words: |
+    benki               "the flame" @stove.light
+    bantu:PAST  < baru  "is back (came)"
+    kukkar              "cooker" @cooker.whistle loan
+    siiTi               "whistle"
+    ondu                "one"
+    eraDu               "two"
+    muuru               "three!"
+
+b47:
+  say: ಬ್ರೋ... ಥ್ಯಾಂಕ್ಸ್ ಬ್ರೋ.
+  en: Bro... thanks, bro.
+  words: |
+    broo      "bro" loan
+    thyaanks  "thanks" loan
+    broo      "bro" loan
+
+b48:
+  say: ಪರವಾಗಿಲ್ಲ, ಬ್ರೋ.
+  en: No problem, bro.
+  words: |
+    paravaagilla  paravaagi·lla:NEG  "no problem"
+    broo                             "bro" loan
+
+b49:
+  say: ಅಯ್ಯೋ! ಈಗ ದೇವ್ ಕೂಡ!
+  en: Ayyo! Now Dev too!
+  words: |
+    ayyoo  "ayyo! (oh no!)"
+    iiga   "now"
+    dev    "Dev" name
+    kuuDa  "too!"
+
+b50:
+  say: ರಾತ್ರಿ. ಎಲ್ಲರೂ ಊಟ ಮಾಡ್ತಿದ್ದಾರೆ. ಎಲ್ಲರೂ ಖುಷಿ.
+  en: Night. Everyone is eating dinner. Everyone is happy.
+  words: |
+    raatri                       "night"
+    ellaruu            < ellaru  "everyone"
+    uuTa                         "dinner"
+    maaDtiddaare:PROG  < maaDu   "are having (doing)"
+    ellaruu            < ellaru  "everyone"
+    khuShi                       "happy"
+
+b51:
+  say: ಬ್ರೋ, ನಿನ್ನ ಆಫೀಸ್ ಎಲ್ಲಿ?
+  en: Bro, where's your office?
+  words: |
+    broo    "bro" loan
+    ninna   "your (to a friend)"
+    aafiis  "office" loan
+    elli    "where?"
+
+b52:
+  say: ಎಂಜಿ ರೋಡ್. ನನ್ನ ಬಾಸ್ ಶೆಟ್ಟಿ ಸಾರ್.
+  en: MG Road. My boss is Shetty Saar.
+  words: |
+    enji    "MG" name
+    rooD    "Road" loan
+    nanna   "my"
+    baas    "boss" loan
+    sheTTi  "Shetty" name
+    saar    "sir" loan
+
+b53:
+  say: ಮಗ ಮತ್ತು ಅಮ್ಮ ಒಬ್ಬರನ್ನೊಬ್ಬರು ನೋಡ್ತಾರೆ.
+  en: The son and his mother look at each other.
+  words: |
+    maga                                          "the son"
+    mattu                                         "and"
+    amma                                          "his mother (Amma)"
+    obbarannobbaru                                "each other"
+    nooDtaare       nooD·taare:PRES.3PL  < nooDu  "look at"
+
+b54:
+  say: ಶೆಟ್ಟಿ... ಕನ್ನಡಕ? ಟೈ? ಬೆಳಿಗ್ಗೆ ಐದಕ್ಕೆ ಮೆಸೇಜ್?
+  en: Shetty... glasses? A tie? Messages at five in the morning?
+  words: |
+    sheTTi               "Shetty" name
+    kannaDaka            "glasses?"
+    Tai                  "a tie?" loan
+    beLigge              "morning"
+    aidakke:DIR  < aidu  "at five"
+    meseej               "messages?" loan
+
+b55:
+  say: ಹೌದು! ನಿಮಗೆ ಹೇಗೆ ಗೊತ್ತು?!
+  en: Yes! How do you know?!
+  words: |
+    haudu                "yes"
+    nimage:DIR  < niivu  "to you"
+    heege                "how"
+    gottu                "known?!"
+
+b56:
+  say: ಡಿಂಗ್ ಡಾಂಗ್! ಬಾಗಿಲಲ್ಲಿ ಯಾರೋ.
+  en: Ding dong! Someone's at the door.
+  words: |
+    Ding                                    "ding"
+    Daang                                   "dong!"
+    baagilalli  baagil·alli:LOC  < baagilu  "at the door"
+    yaaroo                                  "someone"
+
+b57:
+  say: ಅಕ್ಕಾ! ಊಟಕ್ಕೆ ಬಂದೆ!
+  en: Akka (big sister)! I've come for dinner!
+  words: |
+    akkaa                     < akka  "Akka! (big sister)"
+    uuTakke     uuTa·kke:DIR  < uuTa  "for dinner"
+    bande:PAST                < baru  "I've come"
+
+b58:
+  say: ದೇವ್?!
+  en: Dev?!
+  words: |
+    dev  "Dev?!" name
+
+b59:
+  say: ಸಾರ್?!
+  en: Sir?!
+  words: |
+    saar  "sir?!" loan

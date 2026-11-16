@@ -1,0 +1,595 @@
+# s1e07 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: गैस ख़त्म | gais khatm | Out of Gas
+tease: बॉस... घर पर?! | bos... ghar par?! | The boss... at home?!
+
+b01:
+  say: अगली सुबह। देव फिर से बैग उठाए खड़ा है।
+  en: The next morning. Dev is holding his bag again.
+  words: |
+    aglii   < aglaa     "the next"
+    subah               "morning"
+    dev                 "Dev" name
+    phir                "again"
+    se                  "(again)"
+    baig                "bag" loan
+    uThaae  < uThaanaa  "holding up"
+    khaDaa              "standing"
+    hai     < honaa     "(is)"
+
+b02:
+  say: "आपका नया कमरा: छत!"
+  en: "Your new room: the terrace!"
+  words: |
+    aapkaa  "your"
+    nayaa   "new"
+    kamraa  "room"
+    chhat   "the roof (terrace)"
+
+b03:
+  say: छत?!
+  en: The terrace?!
+  words: |
+    chhat  "the roof?!"
+
+b04:
+  say: ताज़ी हवा! बड़ा व्यू! वही किराया।
+  en: Fresh air! A big view! Same rent.
+  words: |
+    taazii    < taazaa  "fresh"
+    havaa               "air"
+    baDaa               "big"
+    vyuu                "view" loan
+    vahii               "the same"
+    kiraayaa            "rent"
+
+b05:
+  say: छत। पानी की टंकी, कपड़े, और देव।
+  en: The terrace. A water tank, the washing, and Dev.
+  words: |
+    chhat              "the roof"
+    paanii             "water"
+    kii:GEN            "of"
+    Tankii             "tank"
+    kapDe    < kapDaa  "clothes (the washing)"
+    aur                "and"
+    dev                "Dev" name
+
+b06:
+  say: देखो! पूरा शहर दिखता है!
+  en: Look! You can see the whole city!
+  words: |
+    dekho:IMP  < dekhnaa  "look!"
+    puuraa                "the whole"
+    shahar                "city"
+    dikhtaa    < dikhnaa  "can be seen"
+    hai        < honaa    "(is)"
+
+b07:
+  say: वो क्या है? वहाँ?
+  en: What's that? Over there?
+  words: |
+    vo               "that"
+    kyaa             "what"
+    hai     < honaa  "(is)"
+    vahaa~           "over there"
+
+b08:
+  say: मेट्रो। जल्दी आएगी।
+  en: The metro. Coming soon.
+  words: |
+    meTro                "the metro" @crane.swing loan
+    jaldii               "soon"
+    aaegii:FUT  < aanaa  "will come"
+
+b09:
+  say: कब से?
+  en: Since when?
+  words: |
+    kab     "when"
+    se:ABL  "since"
+
+b10:
+  say: बारह साल से। हमेशा 'जल्दी'।
+  en: Twelve years now. Always 'soon'.
+  words: |
+    baarah    "twelve"
+    saal      "years"
+    se:ABL    "for (since)"
+    hameshaa  "always"
+    jaldii    "'soon'"
+
+b11:
+  say: "तभी, नीचे से: पों पों!"
+  en: "Just then, from down below: honk, honk!"
+  words: |
+    tabhii  "just then"
+    niiche  "below"
+    se:ABL  "from"
+    po~     "honk"
+    po~     "honk!"
+
+b12:
+  say: आ गया! मेरा मुन्ना आ गया!
+  en: He's here! My Munna is here!
+  words: |
+    aa          < aanaa   "come"
+    gayaa:PERF  < jaanaa  "(he's)"
+    meraa                 "my"
+    munnaa                "Munna (little one: her pet name for her son)"
+    aa          < aanaa   "come"
+    gayaa:PERF  < jaanaa  "(has)!"
+
+b13:
+  say: उनका 'मुन्ना'। छह फ़ुट लंबा। दाढ़ी।
+  en: Her 'little one'. Six feet tall. With a beard.
+  words: |
+    unkaa    "her"
+    munnaa   "'little one'"
+    chhah    "six"
+    fuT      "feet" loan
+    lambaa   "tall"
+    daaDhii  "a beard"
+
+b14:
+  say: हाय माँ! चिल, चिल!
+  en: Hi, Ma! Chill, chill!
+  words: |
+    haay  "hi" loan
+    maa~  "Ma (mum)"
+    chil  "chill (relax)" loan
+    chil  "chill!" loan
+
+b15:
+  say: कितना दुबला हो गया! वहाँ खाना नहीं मिलता?
+  en: You've got so thin! Don't they feed you there?
+  words: |
+    kitnaa                "how (so)"
+    dublaa                "thin"
+    ho          < honaa   "become"
+    gayaa:PERF  < jaanaa  "(you've)"
+    vahaa~                "there"
+    khaanaa               "food"
+    nahii~:NEG            "not"
+    miltaa      < milnaa  "do you get"
+
+b16:
+  say: साब, तीन सौ।
+  en: Sir, three hundred.
+  words: |
+    saab  "sir"
+    tiin  "three" @raju.fingers
+    sau   "hundred"
+
+b17:
+  say: ओके ब्रो। डन।
+  en: Okay, bro. Done.
+  words: |
+    oke  "okay" loan
+    bro  "bro" loan
+    Dan  "done" loan
+
+b18:
+  say: मोलभाव नहीं? बढ़िया ग्राहक!
+  en: No haggling? What a customer!
+  words: |
+    molbhaav    "haggling"
+    nahii~:NEG  "none?"
+    baDhiyaa    "great"
+    graahak     "customer"
+
+b19:
+  say: "दोपहर। बेटे का फ़ेवरेट: छोले।"
+  en: "Lunchtime. Her son's favourite: chhole."
+  words: |
+    dopahar           "afternoon (lunchtime)"
+    beTe     < beTaa  "the son"
+    kaa:GEN           "'s"
+    fevareT           "favourite" loan
+    chhole            "chhole (spiced chickpeas)"
+
+b20:
+  say: मुन्ना, भूख लगी है?
+  en: Munna, are you hungry?
+  words: |
+    munnaa            "Munna (little one)"
+    bhuukh            "hunger"
+    lagii   < lagnaa  "(felt)"
+    hai     < honaa   "(is)?"
+
+b21:
+  say: माँ, एक मिनट। कॉल पर हूँ।
+  en: Ma, one minute. I'm on a call.
+  words: |
+    maa~              "Ma"
+    ek                "one"
+    minaT             "minute" loan
+    kol               "a call" loan
+    par:LOC           "on"
+    huu~     < honaa  "I am"
+
+b22:
+  say: यस ब्रो। लेट्स सर्कल बैक।
+  en: Yes, bro. Let's circle back.
+  words: |
+    yas     "yes" loan
+    bro     "bro" loan
+    leTs    "let's" loan
+    sarkal  "circle" loan
+    baik    "back" loan
+
+b23:
+  say: देखा? सिर्फ़ इंग्लिश। 'ब्रो, ब्रो, ब्रो'।
+  en: See? Only English. 'Bro, bro, bro.'
+  words: |
+    dekhaa:PAST  < dekhnaa  "see? (did you see)"
+    sirf                    "only"
+    inglish                 "English" loan
+    bro                     "bro" loan
+    bro                     "bro" loan
+    bro                     "bro" loan
+
+b24:
+  say: आंटी, क्या ख़ुशबू है!
+  en: Aunty, what a lovely smell!
+  words: |
+    aanTii             "aunty" loan
+    kyaa               "what a"
+    khushbuu           "smell (fragrance)"
+    hai       < honaa  "(is)"
+
+b25:
+  say: "देखो! देव हिंदी बोलता है! मेरा बेटा: 'ब्रो'!"
+  en: "Look! Dev speaks Hindi! My own son: 'bro'!"
+  words: |
+    dekho:IMP  < dekhnaa  "look!"
+    dev                   "Dev" name
+    hindii                "Hindi" name
+    boltaa     < bolnaa   "speaks"
+    hai        < honaa    "(is)"
+    meraa                 "my"
+    beTaa                 "son"
+    bro                   "bro" loan
+
+b26:
+  say: "तभी: फुस्स। आग बुझ गई।"
+  en: "Then: pfff. The flame goes out."
+  words: |
+    tabhii                "just then"
+    phuss                 "pfff"
+    aag                   "the fire (flame)" @stove.out
+    bujh       < bujhnaa  "out (put out)"
+    gaii:PERF  < jaanaa   "(went)"
+
+b27:
+  say: हाय राम! गैस ख़त्म!
+  en: Oh God! The gas has run out!
+  words: |
+    haay   "oh"
+    raam   "God! (oh no)"
+    gais   "gas" loan
+    khatm  "finished"
+
+b28:
+  say: माँ, चिल। ऐप पर ऑर्डर करो।
+  en: Ma, chill. Order it on an app.
+  words: |
+    maa~                "Ma"
+    chil                "chill" loan
+    aip                 "app" loan
+    par:LOC             "on"
+    ordar               "order" loan
+    karo:IMP  < karnaa  "(do) it"
+
+b29:
+  say: ऐप, ऐप! गैस दस मिनट में नहीं आती!
+  en: App, app! Gas doesn't come in ten minutes!
+  words: |
+    aip                  "app" loan
+    aip                  "app!" loan
+    gais                 "gas" loan
+    das                  "ten"
+    minaT                "minutes" loan
+    me~:LOC              "in"
+    nahii~:NEG           "doesn't"
+    aatii       < aanaa  "come"
+
+b30:
+  say: देव गैस एजेंसी को फ़ोन करता है।
+  en: Dev phones the gas agency.
+  words: |
+    dev                "Dev" name
+    gais               "gas" loan
+    ejensii            "agency" loan
+    ko:DIR             "to"
+    fon                "phone" loan
+    kartaa   < karnaa  "makes (a call)"
+    hai      < honaa   "(is)"
+
+b31:
+  say: नमस्ते। हिंदी के लिए, एक दबाइए।
+  en: Namaste. For Hindi, press one.
+  words: |
+    namaste                      "hello"
+    hindii                       "Hindi" name
+    ke:GEN                       "(for)"
+    lie                          "for"
+    ek                           "one"
+    dabaaie:IMP.HON  < dabaanaa  "press"
+
+b32:
+  say: एक!
+  en: One!
+  words: |
+    ek  "one!"
+
+b33:
+  say: आपका सिलेंडर सात दिन में आएगा। धन्यवाद।
+  en: Your cylinder will arrive in seven days. Thank you.
+  words: |
+    aapkaa               "your"
+    silenDar             "cylinder" loan
+    saat                 "seven"
+    din                  "days"
+    me~:LOC              "in"
+    aaegaa:FUT  < aanaa  "will come"
+    dhanyavaad           "thank you"
+
+b34:
+  say: सात दिन?!
+  en: Seven days?!
+  words: |
+    saat  "seven"
+    din   "days?!"
+
+b35:
+  say: शहर में स्वागत है।
+  en: Welcome to the city.
+  words: |
+    shahar            "city"
+    me~:LOC           "in, to"
+    svaagat           "welcome"
+    hai      < honaa  "(is)"
+
+b36:
+  say: भैया! सिलेंडर है? प्लीज़!
+  en: Bhaiya! Do you have a cylinder? Please!
+  words: |
+    bhaiyaa            "bhaiya! (brother)"
+    silenDar           "cylinder" loan
+    hai       < honaa  "is there?"
+    pliiz              "please" loan
+
+b37:
+  say: आपके लिए? एक एक्स्ट्रा है।
+  en: For you? I've got a spare one.
+  words: |
+    aapke    < aap    "you"
+    lie               "for?"
+    ek                "one"
+    eksTraa           "extra (spare)" @chaiwala.smile loan
+    hai      < honaa  "(is)"
+
+b38:
+  say: पर बहुत भारी है!
+  en: But it's very heavy!
+  words: |
+    par               "but"
+    bahut             "very"
+    bhaarii           "heavy"
+    hai      < honaa  "(is)"
+
+b39:
+  say: साब! ऑटो में रखो! फ़्री!
+  en: Sir! Put it in the auto! Free ride!
+  words: |
+    saab                  "sir"
+    oTo                   "auto" loan
+    me~:LOC               "in"
+    rakho:IMP  < rakhnaa  "put it"
+    frii                  "free!" loan
+
+b40:
+  say: राजू, देव, और एक लाल सिलेंडर। वीआईपी जैसा।
+  en: Raju, Dev, and one red cylinder. Riding like a VIP.
+  words: |
+    raajuu     "Raju" name
+    dev        "Dev" name
+    aur        "and"
+    ek         "a"
+    laal       "red"
+    silenDar   "cylinder" loan
+    viiaaipii  "VIP" loan
+    jaisaa     "like"
+
+b41:
+  say: गड्ढा! धड़ाक!
+  en: A pothole! THUD!
+  words: |
+    gaDDhaa  "a pothole!" @road.bump
+    dhaDaak  "thud!"
+
+b42:
+  say: ये सड़क नई है ना?
+  en: Isn't this road new?
+  words: |
+    ye              "this"
+    saDak           "road"
+    naii   < nayaa  "new"
+    hai    < honaa  "(is)"
+    naa:Q           "isn't it?"
+
+b43:
+  say: हाँ! पिछले महीने बनी!
+  en: Yes! They built it last month!
+  words: |
+    haa~                    "yes"
+    pichhle     < pichhlaa  "last"
+    mahiine     < mahiinaa  "month"
+    banii:PAST  < bannaa    "(it was) built"
+
+b44:
+  say: देव सिलेंडर लाता है। हीरो की तरह।
+  en: Dev carries in the cylinder. Like a hero.
+  words: |
+    dev                 "Dev" name
+    silenDar            "cylinder" loan
+    laataa    < laanaa  "brings"
+    hai       < honaa   "(is)"
+    hiiro               "hero" loan
+    kii:GEN             "(of)"
+    tarah               "like"
+
+b45:
+  say: मेरा हीरो! देव मेरा हीरो!
+  en: My hero! Dev is my hero!
+  words: |
+    meraa  "my"
+    hiiro  "hero!" loan
+    dev    "Dev" name
+    meraa  "my"
+    hiiro  "hero!" loan
+
+b46:
+  say: "आग वापस आई। कुकर की सीटी: एक, दो, तीन!"
+  en: "The flame is back. The cooker whistles: one, two, three!"
+  words: |
+    aag                 "the flame" @stove.light
+    vaapas              "back"
+    aaii:PAST  < aanaa  "came"
+    kukar               "cooker" @cooker.whistle loan
+    kii:GEN             "'s"
+    siiTii              "whistle"
+    ek                  "one"
+    do                  "two"
+    tiin                "three!"
+
+b47:
+  say: ब्रो... थैंक्स ब्रो।
+  en: Bro... thanks, bro.
+  words: |
+    bro      "bro" loan
+    thainks  "thanks" loan
+    bro      "bro" loan
+
+b48:
+  say: कोई बात नहीं, ब्रो।
+  en: No problem, bro.
+  words: |
+    koii        "any"
+    baat        "matter"
+    nahii~:NEG  "no"
+    bro         "bro" loan
+
+b49:
+  say: हे भगवान! अब देव भी!
+  en: Oh God! Now Dev too!
+  words: |
+    he        "oh"
+    bhagvaan  "God!"
+    ab        "now"
+    dev       "Dev" name
+    bhii      "too!"
+
+b50:
+  say: रात। सब खाना खा रहे हैं। सब ख़ुश।
+  en: Night. Everyone is eating dinner. Everyone is happy.
+  words: |
+    raat                  "night"
+    sab                   "everyone"
+    khaanaa               "dinner (food)"
+    khaa       < khaanaa  "eating"
+    rahe:PROG  < rahnaa   "(are)"
+    hai~       < honaa    "(are)"
+    sab                   "everyone"
+    khush                 "happy"
+
+b51:
+  say: ब्रो, तुम्हारा ऑफ़िस कहाँ है?
+  en: Bro, where's your office?
+  words: |
+    bro                 "bro" loan
+    tumhaaraa           "your (to a friend)"
+    ofis                "office" loan
+    kahaa~              "where"
+    hai        < honaa  "is?"
+
+b52:
+  say: पास में। मेरे बॉस शर्मा सर हैं।
+  en: Close by. My boss is Sharma Sir.
+  words: |
+    paas              "near"
+    me~:LOC           "(by)"
+    mere     < meraa  "my"
+    bos               "boss" loan
+    sharmaa           "Sharma" name
+    sar               "sir" loan
+    hai~     < honaa  "is (respectful)"
+
+b53:
+  say: बेटा और माँ एक-दूसरे को देखते हैं।
+  en: The son and his mother look at each other.
+  words: |
+    beTaa                 "the son"
+    aur                   "and"
+    maa~                  "his mother"
+    ek-duusre             "each other"
+    ko:ACC                "(at)"
+    dekhte     < dekhnaa  "look"
+    hai~       < honaa    "(are)"
+
+b54:
+  say: शर्मा... चश्मा? टाई? सुबह पाँच बजे मैसेज?
+  en: Sharma... glasses? A tie? Messages at five in the morning?
+  words: |
+    sharmaa             "Sharma" name
+    chashmaa            "glasses?"
+    Taaii               "a tie?" loan
+    subah               "morning"
+    paa~ch    < paa~ch  "five"
+    baje                "o'clock"
+    maisej              "messages?" loan
+
+b55:
+  say: हाँ! आपको कैसे पता?!
+  en: Yes! How do you know?!
+  words: |
+    haa~          "yes"
+    aapko  < aap  "you"
+    kaise         "how"
+    pataa         "know?!"
+
+b56:
+  say: डिंग डॉन्ग! दरवाज़े पर कोई है।
+  en: Ding dong! Someone's at the door.
+  words: |
+    Ding                   "ding"
+    Dong                   "dong!"
+    darvaaze  < darvaazaa  "the door"
+    par:LOC                "at"
+    koii                   "someone"
+    hai       < honaa      "(is)"
+
+b57:
+  say: दीदी! खाने पे आ गया!
+  en: Didi (big sister)! I've come for dinner!
+  words: |
+    diidii                 "Didi! (big sister)"
+    khaane      < khaanaa  "dinner"
+    pe:LOC                 "for (on)"
+    aa          < aanaa    "come"
+    gayaa:PERF  < jaanaa   "(I've)"
+
+b58:
+  say: देव?!
+  en: Dev?!
+  words: |
+    dev  "Dev?!" name
+
+b59:
+  say: सर?!
+  en: Sir?!
+  words: |
+    sar  "sir?!" loan

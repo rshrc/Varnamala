@@ -1,0 +1,153 @@
+# s1e07: Out of Gas. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: pg_door
+  cast:
+    dev:      standing_bag @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b01: { who: narrator, tags: [softly], start: [dev.sigh] }
+    b02: { who: landlady, mood: firm, icons: [house, sun] }
+    b03: { who: dev, mood: shocked, icons: [sun, question], start: [dev.shock] }
+    b04: { who: landlady, mood: proud, icons: [sun, rupee, ok], start: [landlady.proud] }
+
+p2:
+  set: terrace
+  cast:
+    dev:      standing_bag @ 0.36
+    landlady: arms_crossed @ 0.66
+  beats:
+    b05: { who: narrator, tags: [deadpan], start: [crane.swing] }
+    b06: { who: landlady, mood: proud, icons: [sun, house, ok], start: [landlady.proud] }
+    b07: { who: dev, mood: curious, icons: [question, pin] }
+    b08: { who: landlady, mood: proud, icons: [traffic, clock, ok] }
+    b09: { who: dev, mood: curious, icons: [clock, question] }
+    b10: { who: landlady, mood: weary, icons: [calendar, clock], digits: "12", start: [landlady.sigh] }
+    b11: narrator
+    b12: { who: landlady, mood: calling, icons: [heart, person], start: [landlady.wave] }
+
+p3:
+  set: pg_door
+  cast:
+    raju:     in_auto @ 0.3
+    son:      standing_suitcase @ 0.62
+    landlady: arms_crossed @ 0.84
+  beats:
+    b13: { who: narrator, tags: [amused] }
+    b14: { who: son, mood: breezy, icons: [heart, ok], start: [son.wave] }
+    b15: { who: landlady, mood: shocked, icons: [plate, "no"], start: [landlady.shock] }
+    b16: { who: raju, mood: breezy, icons: [rupee], digits: "300" }
+    b17: { who: son, mood: breezy, icons: [phone, ok], start: [son.nod] }
+    b18: { who: raju, mood: amused, icons: [rupee, heart, ok], start: [raju.laugh] }
+
+p4:
+  set: kitchen
+  cast:
+    son:      standing_phone @ 0.18
+    dev:      standing @ 0.46
+    landlady: cooking @ 0.78
+  props:
+    stove:  stove_flame
+    cooker: cooker
+  beats:
+    b19: { who: narrator, start: [landlady.serve] }
+    b20: { who: landlady, mood: happy, icons: [plate, question, heart] }
+    b21: { who: son, mood: breezy, icons: [phone, clock] }
+    b22: { who: son, mood: firm, icons: [phone, speech], tags: [casually] }
+    b23: { who: landlady, mood: weary, icons: [speech, "no"], start: [landlady.sigh] }
+    b24: { who: dev, mood: happy, icons: [plate, heart], start: [dev.smile] }
+    b25: { who: landlady, mood: amused, icons: [heart, speech], start: [landlady.laugh] }
+    b26: narrator
+    b27: { who: landlady, mood: shocked, icons: [flame, "no"], start: [landlady.shock] }
+    b28: { who: son, mood: breezy, icons: [phone, ok] }
+    b29: { who: landlady, mood: annoyed, icons: [cylinder, clock, "no"], digits: "10" }
+
+p5:
+  set: kitchen
+  cast:
+    son:      standing @ 0.18
+    dev:      standing_phone @ 0.46
+    landlady: cooking @ 0.78
+  props:
+    stove:  stove_out
+    cooker: cooker
+  beats:
+    b30: narrator
+    b31: { who: ivr, icons: [phone], tags: [calmly] }
+    b32: { who: dev, mood: proud, icons: [phone, ok], digits: "1", start: [dev.proud] }
+    b33: { who: ivr, icons: [cylinder, calendar], digits: "7", tags: [calmly] }
+    b34: { who: dev, mood: shocked, icons: [calendar, "no"], digits: "7", start: [dev.shock] }
+    b35: { who: dev, mood: weary, icons: [house, ok], tags: [deadpan], start: [landlady.laugh] }
+
+p6:
+  set: chai_stall
+  cast:
+    dev:      standing @ 0.2
+    chaiwala: behind_counter @ 0.55
+    raju:     standing @ 0.86
+  props:
+    spare: spare_cylinder
+  beats:
+    b36: { who: dev, mood: calling, icons: [cylinder, question] }
+    b37: { who: chaiwala, mood: amused, icons: [cylinder, ok], start: [chaiwala.smile] }
+    b38: { who: chaiwala, mood: amused, icons: [cylinder, "no"], start: [chaiwala.laugh] }
+    b39: { who: raju, mood: calling, icons: [auto, go, ok], start: [raju.wave] }
+
+p7:
+  set: street_auto
+  cast:
+    raju: in_auto_turned @ 0.6
+    dev:  in_auto_back @ 0.76
+  props:
+    cylinder: cylinder_passenger
+    pothole:  pothole
+  beats:
+    b40: { who: narrator, tags: [amused] }
+    b41: narrator
+    b42: { who: dev, mood: shocked, icons: [traffic, question] }
+    b43: { who: raju, mood: amused, icons: [calendar, ok], start: [raju.laugh] }
+
+p8:
+  set: kitchen
+  cast:
+    son:      standing @ 0.18
+    dev:      standing_cylinder @ 0.46
+    landlady: cooking @ 0.78
+  props:
+    stove:  stove_out
+    cooker: cooker
+  beats:
+    b44: { who: narrator, start: [dev.proud] }
+    b45: { who: landlady, mood: happy, icons: [heart, cylinder, ok], start: [landlady.happy] }
+    b46: narrator
+    b47: { who: son, mood: sheepish, icons: [heart, ok], start: [son.sheepish] }
+    b48: { who: dev, mood: sly, icons: [ok, heart], start: [dev.smile] }
+    b49: { who: landlady, mood: weary, icons: [speech, "no"], start: [landlady.sigh] }
+
+p9:
+  set: home_dining
+  cast:
+    dev:      floor_meal @ 0.22
+    son:      floor_meal @ 0.48
+    landlady: serving @ 0.82
+  beats:
+    b50: { who: narrator, start: [dev.eat] }
+    b51: { who: son, mood: curious, icons: [briefcase, question] }
+    b52: { who: dev, mood: happy, icons: [briefcase, person] }
+    b53: { who: narrator, tags: [slowly], start: [landlady.look] }
+    b54: { who: landlady, mood: sly, icons: [phone, clock, question], digits: "5" }
+    b55: { who: dev, mood: shocked, icons: [question], start: [dev.shock] }
+    b56: narrator
+
+p10:
+  set: home_dining
+  cast:
+    dev:      floor_meal @ 0.2
+    son:      floor_meal @ 0.44
+    landlady: arms_crossed @ 0.66
+    boss:     standing @ 0.88
+  beats:
+    b57: { who: boss, mood: calling, icons: [heart, plate], start: [boss.enter] }
+    b58: { who: boss, mood: shocked, icons: [person, question], start: [boss.shock] }
+    b59: { who: dev, mood: shocked, icons: [person, question], start: [dev.shock], cliffhanger: true }
