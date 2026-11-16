@@ -1,0 +1,559 @@
+# s1e10 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: मेरा शहर | meraa shahar | My City
+tease: माँ आ रही हैं! | maa~ aa rahii hai~! | Ma is coming!
+
+b01:
+  say: अगली सुबह। माँ का मैसेज।
+  en: The next morning. A message from Ma.
+  words: |
+    aglii    < aglaa  "the next"
+    subah             "morning"
+    maa~              "Ma (his mum)"
+    kaa:GEN           "'s"
+    maisej            "message" loan
+
+b02:
+  say: "'कोलकाता की नौकरी! घर आ जा! सबको बता दिया!'"
+  en: "'A job in Kolkata! Come home! I've told everyone!'"
+  words: |
+    kolkaataa               "Kolkata" name
+    kii:GEN                 "(of)"
+    naukrii                 "job!"
+    ghar                    "home"
+    aa          < aanaa     "come"
+    jaa:IMP     < jaanaa    "(on)!"
+    sabko       < sab       "everyone"
+    bataa       < bataanaa  "told"
+    diyaa:PERF  < denaa     "(I've)"
+
+b03:
+  say: देव शहर को देखता है। क्रेन। मेट्रो। टंकी।
+  en: Dev looks at the city. The cranes. The metro. The water tank.
+  words: |
+    dev                 "Dev" name
+    shahar              "the city"
+    ko:ACC              "(at)"
+    dekhtaa  < dekhnaa  "looks"
+    hai      < honaa    "(is)"
+    kren                "the cranes" @crane.swing loan
+    meTro               "the metro" loan
+    Tankii              "the tank"
+
+b04:
+  say: तभी, सड़क पर लाउडस्पीकर।
+  en: "Just then: a loudspeaker in the street."
+  words: |
+    tabhii        "just then"
+    saDak         "the street"
+    par:LOC       "on"
+    laauDspiikar  "a loudspeaker" loan
+
+b05:
+  say: मोहल्ला मीटिंग! आज छह बजे! नेता जी आ रहे हैं!
+  en: Neighbourhood meeting! Today at six! Neta-ji is coming!
+  words: |
+    mohallaa             "neighbourhood" @speaker.announce
+    miiTing              "meeting!" loan
+    aaj                  "today"
+    chhah                "six"
+    baje                 "o'clock!"
+    netaa                "the neta (politician)"
+    jii                  "-ji (respect)"
+    aa         < aanaa   "come"
+    rahe:PROG  < rahnaa  "(is)"
+    hai~       < honaa   "(is)!"
+
+b06:
+  say: राजू! मीटिंग? किस बारे में?
+  en: Raju! A meeting? What about?
+  words: |
+    raajuu   "Raju!" name
+    miiTing  "a meeting?" loan
+    kis      "which (what)"
+    baare    "about"
+    me~      "(in)?"
+
+b07:
+  say: "नाली। हर साल: एक मीटिंग।"
+  en: "The drains. Every year: one meeting."
+  words: |
+    naalii   "the drains"
+    har      "every"
+    saal     "year"
+    ek       "one"
+    miiTing  "meeting" loan
+
+b08:
+  say: चुनाव आ रहे हैं, साब। नेता जी को हम याद आते हैं।
+  en: Elections are coming, sir. Suddenly, the neta remembers us.
+  words: |
+    chunaav              "elections"
+    aa         < aanaa   "come"
+    rahe:PROG  < rahnaa  "(are)"
+    hai~       < honaa   "(are)"
+    saab                 "sir"
+    netaa                "the neta (politician)"
+    jii                  "-ji (respect)"
+    ko                   "(to)"
+    ham                  "we"
+    yaad                 "memory"
+    aate       < aanaa   "come (to mind)"
+    hai~       < honaa   "(are)"
+
+b09:
+  say: पोस्टर पर नेता मुस्कुराते हैं। हमेशा की तरह।
+  en: On the poster, the neta smiles. As always.
+  words: |
+    posTar                     "the poster" loan
+    par:LOC                    "on"
+    netaa                      "the neta (politician)"
+    muskuraate  < muskuraanaa  "smile"
+    hai~        < honaa        "(are)"
+    hameshaa                   "always"
+    kii:GEN                    "(of)"
+    tarah                      "like"
+
+b10:
+  say: छह बजे। टेंट। कुर्सियाँ। स्टेज।
+  en: Six o'clock. A tent. Chairs. A stage.
+  words: |
+    chhah                "six"
+    baje                 "o'clock"
+    TenT                 "a tent" loan
+    kursiyaa~  < kursii  "chairs"
+    sTej                 "a stage" loan
+
+b11:
+  say: सब आए हैं। आंटी, राजू, चिंटू।
+  en: Everyone's here. Aunty, Raju, Chintu.
+  words: |
+    sab                "everyone"
+    aae:PERF  < aanaa  "have come"
+    hai~      < honaa  "(are)"
+    aanTii             "Aunty" loan
+    raajuu             "Raju" name
+    chinTuu            "Chintu" name
+
+b12:
+  say: नेता जी आते हैं। मालाएँ। हाथ जोड़े। मुस्कान।
+  en: The neta arrives. Garlands. Folded hands. A smile.
+  words: |
+    netaa               "the neta (politician)"
+    jii                 "-ji (respect)"
+    aate      < aanaa   "arrives (comes)"
+    hai~      < honaa   "(are)"
+    maalaae~  < maalaa  "garlands"
+    haath               "hands"
+    joDe      < joDnaa  "folded (joined)"
+    muskaan             "a smile"
+
+b13:
+  say: वो कुछ नहीं बोलते। बस मुस्कुराते हैं। पोस्टर की तरह।
+  en: He says nothing. He just smiles. Like the poster.
+  words: |
+    vo                         "he"
+    kuchh                      "anything"
+    nahii~:NEG                 "no"
+    bolte       < bolnaa       "says"
+    bas                        "just"
+    muskuraate  < muskuraanaa  "smiles"
+    hai~        < honaa        "(are)"
+    posTar                     "the poster" loan
+    kii:GEN                    "(of)"
+    tarah                      "like"
+
+b14:
+  say: "नेता जी! हमारी गली: हर साल नदी!"
+  en: Neta-ji! Every year, our street turns into a river!
+  words: |
+    netaa                 "the neta (politician)"
+    jii                   "-ji (respect)"
+    hamaarii  < hamaaraa  "our"
+    galii                 "street (lane)"
+    har                   "every"
+    saal                  "year"
+    nadii                 "a river!"
+
+b15:
+  say: गड्ढे! नई सड़क, और अभी से गड्ढे!
+  en: Potholes! A new road, and potholes already!
+  words: |
+    gaDDhe  < gaDDhaa  "potholes!"
+    naii    < nayaa    "new"
+    saDak              "road"
+    aur                "and"
+    abhii              "now"
+    se                 "(already)"
+    gaDDhe  < gaDDhaa  "potholes!"
+
+b16:
+  say: बिजली नहीं! कार्टून नहीं!
+  en: No power! No cartoons!
+  words: |
+    bijlii      "power"
+    nahii~:NEG  "none!"
+    kaarTuun    "cartoons" loan
+    nahii~:NEG  "none!"
+
+b17:
+  say: नेता जी मुस्कुराते हैं। कुछ नहीं बोलते।
+  en: The neta smiles. And says nothing.
+  words: |
+    netaa                      "the neta (politician)"
+    jii                        "-ji (respect)"
+    muskuraate  < muskuraanaa  "smiles"
+    hai~        < honaa        "(are)"
+    kuchh                      "anything"
+    nahii~:NEG                 "no"
+    bolte       < bolnaa       "says"
+
+b18:
+  say: अंकल! आप कुछ बोलो!
+  en: Uncle! You say something!
+  words: |
+    ankal               "uncle!" loan
+    aap                 "you"
+    kuchh               "something"
+    bolo:IMP  < bolnaa  "say!"
+
+b19:
+  say: मैं?! मेरी हिंदी... थोड़ी थोड़ी!
+  en: Me?! My Hindi... just a little!
+  words: |
+    mai~              "me?!"
+    merii   < meraa   "my"
+    hindii            "Hindi" name
+    thoDii  < thoDaa  "a little"
+    thoDii  < thoDaa  "a little!"
+
+b20:
+  say: साब। थोड़ी थोड़ी काफ़ी है।
+  en: Sir. A little is enough.
+  words: |
+    saab              "sir"
+    thoDii  < thoDaa  "a little"
+    thoDii  < thoDaa  "a little"
+    kaafii            "enough"
+    hai     < honaa   "is"
+
+b21:
+  say: "देव स्टेज पर चढ़ता है। माइक: चीं!"
+  en: "Dev climbs onto the stage. The mic squeals: eeee!"
+  words: |
+    dev                   "Dev" name
+    sTej                  "the stage" loan
+    par:LOC               "onto"
+    chaDhtaa  < chaDhnaa  "climbs"
+    hai       < honaa     "(is)"
+    maaik                 "the mic" @mic.squeal loan
+    chii~     < chii~     "eeee!"
+
+b22:
+  say: नमस्ते। मेरा नाम देव है।
+  en: Namaste. My name is Dev.
+  words: |
+    namaste           "hello (namaste)"
+    meraa             "my"
+    naam              "name"
+    dev               "Dev" name
+    hai      < honaa  "(is)"
+
+b23:
+  say: मैं कोलकाता से आया। बस एक बैग के साथ।
+  en: I came from Kolkata. With just one bag.
+  words: |
+    mai~                 "I"
+    kolkaataa            "Kolkata" name
+    se:ABL               "from"
+    aayaa:PAST  < aanaa  "came"
+    bas                  "just"
+    ek                   "one"
+    baig                 "bag" loan
+    ke:GEN               "(with)"
+    saath                "with"
+
+b24:
+  say: यहाँ एक कमरा मिला। बहुत छोटा।
+  en: Here, I found a room. A very small one.
+  words: |
+    yahaa~                "here"
+    ek                    "a"
+    kamraa                "room"
+    milaa:PAST  < milnaa  "I found (got)"
+    bahut                 "very"
+    chhoTaa               "small"
+
+b25:
+  say: क्यूट!
+  en: It's cute!
+  words: |
+    kyuuT  "cute!" loan
+
+b26:
+  say: यहाँ चाय मिली। और दोस्त मिले।
+  en: Here, I found tea. And friends.
+  words: |
+    yahaa~                "here"
+    chaay                 "tea"
+    milii:PAST  < milnaa  "I found"
+    aur                   "and"
+    dost                  "friends"
+    mile:PAST   < milnaa  "I found"
+
+b27:
+  say: "पानी: दो हज़ार। बिजली: कभी-कभी।"
+  en: "Water: two thousand rupees. Power: sometimes."
+  words: |
+    paanii         "water"
+    do             "two"
+    hazaar         "thousand"
+    bijlii         "power"
+    kabhii-kabhii  "sometimes"
+
+b28:
+  say: "सड़क: नई। गड्ढे: वो भी नए।"
+  en: "The roads: new. The potholes: also new."
+  words: |
+    saDak              "the roads"
+    naii    < nayaa    "new"
+    gaDDhe  < gaDDhaa  "the potholes"
+    vo                 "those"
+    bhii               "too"
+    nae     < nayaa    "new"
+
+b29:
+  say: सब हँसते हैं। नेता जी भी।
+  en: Everyone laughs. Even the neta.
+  words: |
+    sab                "everyone"
+    ha~ste  < ha~snaa  "laugh" @crowd.laugh
+    hai~    < honaa    "(are)"
+    netaa              "the neta (politician)"
+    jii                "-ji (respect)"
+    bhii               "even (too)"
+
+b30:
+  say: पर अब ये मेरा शहर है। प्लीज़, नाली ठीक करो।
+  en: But this is my city now. So please, fix the drain.
+  words: |
+    par                 "but"
+    ab                  "now"
+    ye                  "this"
+    meraa               "my"
+    shahar              "city"
+    hai       < honaa   "(is)"
+    pliiz               "please" loan
+    naalii              "the drain"
+    Thiik               "fixed (right)"
+    karo:IMP  < karnaa  "make"
+
+b31:
+  say: सन्नाटा। फिर... तालियाँ। ज़ोरदार तालियाँ।
+  en: Silence. Then... applause. Loud applause.
+  words: |
+    sannaaTaa            "silence"
+    phir                 "then"
+    taaliyaa~  < taalii  "applause" @crowd.clap
+    zordaar              "loud"
+    taaliyaa~  < taalii  "applause"
+
+b32:
+  say: सुपर, अंकल!
+  en: Super, uncle!
+  words: |
+    supar  "super" loan
+    ankal  "uncle!" loan
+
+b33:
+  say: नेता जी देव का हाथ पकड़ते हैं। क्लिक! फ़ोटो।
+  en: The neta grabs Dev's hand. Click! A photo.
+  words: |
+    netaa                "the neta (politician)"
+    jii                  "-ji (respect)"
+    dev                  "Dev" name
+    kaa:GEN              "'s"
+    haath                "hand"
+    pakaDte  < pakaDnaa  "grab (hold)"
+    hai~     < honaa     "(are)"
+    klik                 "click!" @camera.flash loan
+    foTo                 "a photo" loan
+
+b34:
+  say: सोमवार। बॉस का केबिन।
+  en: Monday. The boss's office.
+  words: |
+    somvaar  "Monday"
+    bos      "the boss" loan
+    kaa:GEN  "'s"
+    kebin    "cabin (office)" loan
+
+b35:
+  say: तो? कोलकाता?
+  en: So? Kolkata?
+  words: |
+    to         "so?"
+    kolkaataa  "Kolkata?" name
+
+b36:
+  say: नहीं सर। मैं यहीं रहूँगा।
+  en: No, sir. I'm staying right here.
+  words: |
+    nahii~:NEG               "no"
+    sar                      "sir" loan
+    mai~                     "I"
+    yahii~         < yahaa   "right here"
+    rahuu~gaa:FUT  < rahnaa  "will stay"
+
+b37:
+  say: यस!
+  en: Yes!
+  words: |
+    yas  "yes!" loan
+
+b38:
+  say: सब प्रिया को देखते हैं। प्रिया ऊपर देखती है।
+  en: Everyone looks at Priya. Priya looks at the ceiling.
+  words: |
+    sab                 "everyone"
+    priyaa              "Priya" name
+    ko:ACC              "(at)"
+    dekhte   < dekhnaa  "look"
+    hai~     < honaa    "(are)"
+    priyaa              "Priya" name
+    uupar               "up"
+    dekhtii  < dekhnaa  "looks"
+    hai      < honaa    "(is)"
+
+b39:
+  say: अच्छा है। वरना दीदी मुझे छोड़ती नहीं।
+  en: Good. Otherwise, Didi would never let me live.
+  words: |
+    achchhaa                "good"
+    hai         < honaa     "(is)"
+    varnaa                  "otherwise"
+    diidii                  "Didi (big sister)"
+    mujhe                   "me"
+    chhoDtii    < chhoDnaa  "would spare"
+    nahii~:NEG              "wouldn't"
+
+b40:
+  say: अगली सुबह। सड़क पर नया पोस्टर।
+  en: The next morning. A new poster in the street.
+  words: |
+    aglii    < aglaa  "the next"
+    subah             "morning"
+    saDak             "the street"
+    par:LOC           "on"
+    nayaa             "a new"
+    posTar            "poster" @poster.reveal loan
+
+b41:
+  say: नेता जी। और बगल में... देव!
+  en: The neta. And next to him... Dev!
+  words: |
+    netaa    "the neta (politician)"
+    jii      "-ji (respect)"
+    aur      "and"
+    bagal    "beside"
+    me~:LOC  "(in)"
+    dev      "Dev!" name
+
+b42:
+  say: मैं?! पोस्टर पर?!
+  en: Me?! On a poster?!
+  words: |
+    mai~     "me?!"
+    posTar   "poster" loan
+    par:LOC  "on?!"
+
+b43:
+  say: साब! अब आप पक्के शहर वाले हो!
+  en: Sir! Now you're a proper city man!
+  words: |
+    saab              "sir"
+    ab                "now"
+    aap               "you"
+    pakke   < pakkaa  "proper (real)"
+    shahar            "city"
+    vaale   < vaalaa  "man (one of)"
+    ho      < honaa   "are!"
+
+b44:
+  say: और नाली? अगले साल!
+  en: And the drain? Next year!
+  words: |
+    aur              "and"
+    naalii           "the drain?"
+    agle    < aglaa  "next"
+    saal             "year!"
+
+b45:
+  say: शाम। छत। देव माँ को मैसेज करता है।
+  en: Evening. The terrace. Dev texts his mum.
+  words: |
+    shaam             "evening"
+    chhat             "the roof"
+    dev               "Dev" name
+    maa~              "Ma (his mum)"
+    ko:DIR            "to"
+    maisej            "message" loan
+    kartaa  < karnaa  "sends (does)"
+    hai     < honaa   "(is)"
+
+b46:
+  say: माँ, मैं यहीं रहूँगा। अब ये मेरा शहर है।
+  en: Ma, I'm staying. This is my city now.
+  words: |
+    maa~                     "Ma"
+    mai~                     "I"
+    yahii~         < yahaa   "right here"
+    rahuu~gaa:FUT  < rahnaa  "will stay"
+    ab                       "now"
+    ye                       "this"
+    meraa                    "my"
+    shahar                   "city"
+    hai            < honaa   "(is)"
+
+b47:
+  say: टिंग! माँ का जवाब।
+  en: Ting! Ma replies.
+  words: |
+    Ting     "ting!"
+    maa~     "Ma"
+    kaa:GEN  "'s"
+    javaab   "reply"
+
+b48:
+  say: "'ठीक है। तो मैं ही वहाँ आ रही हूँ।'"
+  en: "'Fine. Then I'm coming there.'"
+  words: |
+    Thiik                 "fine (okay)"
+    hai         < honaa   "(is)"
+    to                    "then"
+    mai~                  "I"
+    hii                   "myself"
+    vahaa~                "there"
+    aa          < aanaa   "come"
+    rahii:PROG  < rahnaa  "(am)"
+    huu~        < honaa   "am"
+
+b49:
+  say: "'कल। अचार के साथ।'"
+  en: "'Tomorrow. With pickles.'"
+  words: |
+    kal     "tomorrow"
+    achaar  "pickles"
+    ke:GEN  "(with)"
+    saath   "with"
+
+b50:
+  say: माँ आ रही हैं?!
+  en: Ma's coming?!
+  words: |
+    maa~                  "Ma"
+    aa          < aanaa   "come"
+    rahii:PROG  < rahnaa  "(is)"
+    hai~        < honaa   "(is)?!"

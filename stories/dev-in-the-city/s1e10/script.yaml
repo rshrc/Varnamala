@@ -1,0 +1,115 @@
+# s1e10: My City. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: terrace
+  cast:
+    dev: standing_phone @ 0.42
+  beats:
+    b01: { who: narrator, start: [crane.swing] }
+    b02: { who: dev, mood: amused, icons: [phone, house, heart], tags: [excitedly] }
+    b03: { who: narrator, tags: [softly] }
+    b04: narrator
+
+p2:
+  set: street_auto
+  cast:
+    dev:  standing @ 0.26
+    raju: in_auto @ 0.66
+  props:
+    speaker: loudspeaker
+  beats:
+    b05: { who: raju, mood: calling, icons: [speech, calendar, clock], digits: "6" }
+    b06: { who: dev, mood: curious, icons: [speech, question] }
+    b07: { who: raju, mood: amused, icons: [water, rain, calendar], start: [raju.shrug] }
+    b08: { who: raju, mood: sly, icons: [person, ok], start: [raju.laugh] }
+    b09: { who: narrator, tags: [amused] }
+
+p3:
+  set: ward_meeting
+  cast:
+    landlady: arms_crossed @ 0.08
+    raju:     standing @ 0.2
+    kid:      standing @ 0.31
+    dev:      standing @ 0.42
+    neta:     on_stage @ 0.82
+  props:
+    crowd: crowd
+  beats:
+    b10: narrator
+    b11: narrator
+    b12: { who: narrator, start: [neta.namaste] }
+    b13: { who: narrator, tags: [amused] }
+    b14: { who: landlady, mood: stern, icons: [rain, water, house], start: [landlady.stern] }
+    b15: { who: raju, mood: annoyed, icons: [traffic, "no"] }
+    b16: { who: kid, mood: calling, icons: [bolt, "no"], start: [kid.wave] }
+    b17: { who: narrator, tags: [deadpan], start: [neta.namaste] }
+    b18: { who: kid, mood: calling, icons: [person, speech] }
+    b19: { who: dev, mood: shocked, icons: [speech, question], start: [dev.shock] }
+    b20: { who: raju, mood: happy, icons: [ok, heart], tags: [warmly], start: [raju.smile] }
+
+p4:
+  set: ward_meeting
+  cast:
+    landlady: arms_crossed @ 0.08
+    kid:      standing @ 0.24
+    dev:      on_stage @ 0.66
+    neta:     on_stage @ 0.89
+  props:
+    mic:   mic
+    crowd: crowd
+    flash: flash
+  beats:
+    b21: narrator
+    b22: { who: dev, mood: wary, icons: [mic, person], tags: [nervously] }
+    b23: { who: dev, mood: wary, icons: [suitcase, house] }
+    b24: { who: dev, mood: happy, icons: [house, "no"] }
+    b25: { who: landlady, mood: calling, icons: [heart, house], start: [landlady.laugh], end: [crowd.laugh] }
+    b26: { who: dev, mood: amused, icons: [tea, person, heart], start: [dev.smile] }
+    b27: { who: dev, mood: amused, icons: [water, rupee, bolt], digits: "2000", end: [crowd.laugh] }
+    b28: { who: dev, mood: sly, icons: [traffic, ok] }
+    b29: { who: narrator, start: [neta.laugh] }
+    b30: { who: dev, mood: firm, icons: [house, heart, ok] }
+    b31: { who: narrator, tags: [softly] }
+    b32: { who: kid, mood: happy, icons: [ok, heart], start: [kid.cheer] }
+    b33: { who: narrator, start: [neta.namaste] }
+
+p5:
+  set: office
+  cast:
+    dev:   standing @ 0.3
+    boss:  standing @ 0.62
+    priya: standing @ 0.88
+  beats:
+    b34: narrator
+    b35: { who: boss, mood: curious, icons: [plane, question], start: [boss.stern] }
+    b36: { who: dev, mood: firm, icons: [house, heart, ok], start: [dev.nod] }
+    b37: { who: priya, mood: happy, icons: [heart, ok], start: [priya.cheer] }
+    b38: { who: narrator, tags: [amused], start: [priya.sheepish] }
+    b39: { who: boss, mood: amused, icons: [heart, ok], start: [boss.laugh] }
+
+p6:
+  set: street_auto
+  cast:
+    dev:  standing @ 0.26
+    raju: standing @ 0.74
+  props:
+    poster: new_poster
+  beats:
+    b40: narrator
+    b41: { who: narrator, start: [poster.reveal] }
+    b42: { who: dev, mood: shocked, icons: [poster, question], start: [dev.shock] }
+    b43: { who: raju, mood: amused, icons: [poster, ok, heart], start: [raju.laugh] }
+    b44: { who: raju, mood: sly, icons: [water, calendar], start: [raju.shrug] }
+
+p7:
+  set: terrace_night
+  cast:
+    dev: standing_phone @ 0.45
+  beats:
+    b45: { who: narrator, tags: [softly] }
+    b46: { who: dev, mood: happy, icons: [phone, house, heart], tags: [warmly], start: [dev.smile] }
+    b47: narrator
+    b48: { who: dev, mood: curious, icons: [phone, ok] }
+    b49: { who: dev, mood: shocked, icons: [phone, calendar] }
+    b50: { who: dev, mood: shocked, icons: [person, question], start: [dev.shock], cliffhanger: true }

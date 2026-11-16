@@ -1,0 +1,491 @@
+# s1e10 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ನನ್ನ ಊರು | nanna uuru | My City
+tease: ಅಮ್ಮ ಬರ್ತಾರೆ! | amma bartaare! | Amma is coming!
+
+b01:
+  say: ಮರುದಿನ ಬೆಳಿಗ್ಗೆ. ಅಮ್ಮನ ಮೆಸೇಜ್.
+  en: The next morning. A message from Amma.
+  words: |
+    marudina                       "the next day"
+    beLigge                        "morning"
+    ammana    amma·na:GEN  < amma  "Amma's (his mum's)"
+    meseej                         "message" loan
+
+b02:
+  say: "'ದೆಹಲಿ ಕೆಲಸ! ಮನೆಗೆ ಬಾ! ಎಲ್ಲರಿಗೂ ಹೇಳಿದ್ದೀನಿ!'"
+  en: "'A Delhi job! Come home! I've told everyone!'"
+  words: |
+    dehali                      "Delhi" name
+    kelasa                      "job!"
+    manege:DIR        < mane    "home (to)"
+    baa:IMP           < baru    "come!"
+    ellarigu:DIR      < ellaru  "everyone (to)"
+    heeLiddiini:PERF  < heeLu   "I've told"
+
+b03:
+  say: ದೇವ್ ಊರನ್ನ ನೋಡ್ತಾನೆ. ಕ್ರೇನ್. ಮೆಟ್ರೋ. ಟ್ಯಾಂಕ್.
+  en: Dev looks at the city. The cranes. The metro. The water tank.
+  words: |
+    dev                                        "Dev" name
+    uuranna:ACC                       < uuru   "the city"
+    nooDtaane    nooD·taane:PRES.3SG  < nooDu  "looks at"
+    kreen                                      "the cranes" @crane.swing loan
+    meTroo                                     "the metro" loan
+    Tyaank                                     "the tank" loan
+
+b04:
+  say: ಆಗ, ರಸ್ತೆಯಲ್ಲಿ ಮೈಕ್.
+  en: "Just then: a loudspeaker in the street."
+  words: |
+    aaga                                  "then"
+    rasteyalli  raste·yalli:LOC  < raste  "in the street"
+    maik                                  "a loudspeaker (mic)" loan
+
+b05:
+  say: ವಾರ್ಡ್ ಮೀಟಿಂಗ್! ಇವತ್ತು ಆರು ಗಂಟೆಗೆ! ನೇತಾ ಬರ್ತಾರೆ!
+  en: Ward meeting! Today, six o'clock! The neta is coming!
+  words: |
+    vaarD                                     "ward" @speaker.announce loan
+    miiTing                                   "meeting!" loan
+    ivattu                                    "today"
+    aaru                                      "six"
+    gaNTege:DIR                      < gaNTe  "o'clock (at)!"
+    neetaa                                    "the neta (politician)"
+    bartaare     bar·taare:PRES.3PL  < baru   "is coming!"
+
+b06:
+  say: ರಾಜು! ಮೀಟಿಂಗ್? ಯಾವುದರ ಬಗ್ಗೆ?
+  en: Raju! A meeting? What about?
+  words: |
+    raaju                     "Raju!" name
+    miiTing                   "a meeting?" loan
+    yaavudara:GEN  < yaavudu  "which thing's"
+    bagge                     "about?"
+
+b07:
+  say: "ಚರಂಡಿ. ಪ್ರತಿ ವರ್ಷ: ಒಂದು ಮೀಟಿಂಗ್."
+  en: "The drains. Every year: one meeting."
+  words: |
+    charanDi  "the drains"
+    prati     "every"
+    varSha    "year"
+    ondu      "one"
+    miiTing   "meeting" loan
+
+b08:
+  say: ಎಲೆಕ್ಷನ್ ಬರ್ತಿದೆ ಸಾರ್. ನೇತಾಗೆ ನಾವು ನೆನಪಾಗ್ತೀವಿ.
+  en: Elections are coming, sir. Suddenly, the neta remembers us.
+  words: |
+    elekShan                 "the election" loan
+    bartide:PROG   < baru    "is coming"
+    saar                     "sir" loan
+    neetaage:DIR   < neetaa  "to the neta"
+    naavu                    "we"
+    nenapaagtiivi  < nenapu  "come to mind (are remembered)"
+
+b09:
+  say: ಪೋಸ್ಟರ್ ಮೇಲೆ ನೇತಾ ನಗ್ತಾರೆ. ಯಾವಾಗ್ಲೂ ತರ.
+  en: On the poster, the neta smiles. As always.
+  words: |
+    poosTar                                 "the poster" loan
+    meele                                   "on"
+    neetaa                                  "the neta (politician)"
+    nagtaare    nag·taare:PRES.3PL  < nagu  "smiles"
+    yaavaagluu                              "always"
+    tara                                    "like"
+
+b10:
+  say: ಆರು ಗಂಟೆ. ಟೆಂಟ್. ಕುರ್ಚಿ. ಸ್ಟೇಜ್.
+  en: Six o'clock. A tent. Chairs. A stage.
+  words: |
+    aaru    "six"
+    gaNTe   "o'clock"
+    TenT    "a tent" loan
+    kurchi  "chairs"
+    sTeej   "a stage" loan
+
+b11:
+  say: ಎಲ್ಲರೂ ಬಂದಿದ್ದಾರೆ. ಓನರ್ ಅಮ್ಮ, ರಾಜು, ಚಿನ್ನು.
+  en: Everyone's here. The landlady, Raju, Chinnu.
+  words: |
+    ellaruu           < ellaru  "everyone"
+    bandiddaare:PERF  < baru    "have come"
+    oonar                       "owner (landlady)" loan
+    amma                        "madam (amma)"
+    raaju                       "Raju" name
+    chinnu                      "Chinnu" name
+
+b12:
+  say: ನೇತಾ ಬರ್ತಾರೆ. ಹಾರ. ಕೈ ಮುಗಿದು. ನಗು.
+  en: The neta arrives. Garlands. Folded hands. A smile.
+  words: |
+    neetaa                                "the neta (politician)"
+    bartaare  bar·taare:PRES.3PL  < baru  "arrives (comes)"
+    haara                                 "garlands"
+    kai                                   "hands"
+    mugidu                        < mugi  "folded"
+    nagu                                  "a smile"
+
+b13:
+  say: ಅವರು ಏನೂ ಹೇಳಲ್ಲ. ಬರೀ ನಗ್ತಾರೆ. ಪೋಸ್ಟರ್ ತರ.
+  en: He says nothing. He just smiles. Like the poster.
+  words: |
+    avaru                                      "he (respectful)"
+    eenuu                                      "anything"
+    heeLalla:NEG                      < heeLu  "doesn't say"
+    barii                                      "only (just)"
+    nagtaare      nag·taare:PRES.3PL  < nagu   "smiles"
+    poosTar                                    "the poster" loan
+    tara                                       "like"
+
+b14:
+  say: "ನೇತಾಜಿ! ನಮ್ಮ ರಸ್ತೆ: ಪ್ರತಿ ವರ್ಷ ನದಿ!"
+  en: Neta-ji! Every year, our street turns into a river!
+  words: |
+    neetaaji  "Neta-ji!"
+    namma     "our"
+    raste     "street"
+    prati     "every"
+    varSha    "year"
+    nadi      "a river!"
+
+b15:
+  say: ಗುಂಡಿ! ಹೊಸ ರೋಡ್, ಆಗ್ಲೇ ಗುಂಡಿ!
+  en: Potholes! A new road, and potholes already!
+  words: |
+    gunDi   "potholes!"
+    hosa    "new"
+    rooD    "road" loan
+    aaglee  "already"
+    gunDi   "potholes!"
+
+b16:
+  say: ಕರೆಂಟ್ ಇಲ್ಲ! ಕಾರ್ಟೂನ್ ಇಲ್ಲ!
+  en: No power! No cartoons!
+  words: |
+    karenT    "power (current)" loan
+    illa:NEG  "none!"
+    kaarTuun  "cartoons" loan
+    illa:NEG  "none!"
+
+b17:
+  say: ನೇತಾ ನಗ್ತಾರೆ. ಏನೂ ಹೇಳಲ್ಲ.
+  en: The neta smiles. And says nothing.
+  words: |
+    neetaa                                     "the neta (politician)"
+    nagtaare      nag·taare:PRES.3PL  < nagu   "smiles"
+    eenuu                                      "anything"
+    heeLalla:NEG                      < heeLu  "doesn't say"
+
+b18:
+  say: ಅಂಕಲ್! ನೀವು ಏನಾದ್ರೂ ಹೇಳಿ!
+  en: Uncle! You say something!
+  words: |
+    ankal                   "uncle!" loan
+    niivu                   "you"
+    eenaadruu               "something"
+    heeLi:IMP.HON  < heeLu  "say!"
+
+b19:
+  say: ನಾನಾ?! ನನ್ನ ಕನ್ನಡ... ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ!
+  en: Me?! My Kannada... just a little!
+  words: |
+    naanaa:Q  < naanu  "me?!"
+    nanna              "my"
+    kannaDa            "Kannada" name
+    swalpa             "a little"
+    swalpa             "a little!"
+
+b20:
+  say: ಸಾರ್. ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ ಸಾಕು.
+  en: Sir. A little is enough.
+  words: |
+    saar    "sir" loan
+    swalpa  "a little"
+    swalpa  "a little"
+    saaku   "is enough"
+
+b21:
+  say: "ದೇವ್ ಸ್ಟೇಜ್ ಹತ್ತುತ್ತಾನೆ. ಮೈಕ್: ಕೀಂ!"
+  en: "Dev climbs onto the stage. The mic squeals: eeee!"
+  words: |
+    dev                   "Dev" name
+    sTeej                 "the stage" loan
+    hattuttaane  < hattu  "climbs"
+    maik                  "the mic" @mic.squeal loan
+    kiim                  "eeee!"
+
+b22:
+  say: ನಮಸ್ಕಾರ. ನನ್ನ ಹೆಸರು ದೇವ್.
+  en: Namaskara. My name is Dev.
+  words: |
+    namaskaara  "hello (namaskara)"
+    nanna       "my"
+    hesaru      "name"
+    dev         "Dev" name
+
+b23:
+  say: ನಾನು ದೆಹಲಿಯಿಂದ ಬಂದೆ. ಒಂದೇ ಬ್ಯಾಗ್ ಜೊತೆ.
+  en: I came from Delhi. With just one bag.
+  words: |
+    naanu                                    "I"
+    dehaliyinda  dehali·yinda:ABL  < dehali  "from Delhi" name
+    bande:PAST                     < baru    "came"
+    ondee                          < ondu    "just one"
+    byaag                                    "bag" loan
+    jote                                     "with"
+
+b24:
+  say: ಇಲ್ಲಿ ಒಂದು ರೂಮ್ ಸಿಕ್ತು. ತುಂಬಾ ಚಿಕ್ಕದು.
+  en: Here, I found a room. A very small one.
+  words: |
+    illi                 "here"
+    ondu                 "a"
+    ruum                 "room" loan
+    siktu:PAST  < sikku  "I found (got)"
+    tumbaa               "very"
+    chikkadu             "small"
+
+b25:
+  say: ಕ್ಯೂಟ್!
+  en: It's cute!
+  words: |
+    kyuuT  "cute!" loan
+
+b26:
+  say: ಇಲ್ಲಿ ಟೀ ಸಿಕ್ತು. ಫ್ರೆಂಡ್ಸ್ ಸಿಕ್ಕಿದ್ರು.
+  en: Here, I found tea. And friends.
+  words: |
+    illi                    "here"
+    Tii                     "tea" loan
+    siktu:PAST     < sikku  "I found"
+    phrenDs                 "friends" loan
+    sikkidru:PAST  < sikku  "I found"
+
+b27:
+  say: "ನೀರು: ಎರಡು ಸಾವಿರ. ಕರೆಂಟ್: ಕೆಲವೊಮ್ಮೆ."
+  en: "Water: two thousand rupees. Power: sometimes."
+  words: |
+    niiru      "water"
+    eraDu      "two"
+    saavira    "thousand"
+    karenT     "power (current)" loan
+    kelavomme  "sometimes"
+
+b28:
+  say: "ರೋಡ್: ಹೊಸದು. ಗುಂಡಿ: ಅದೂ ಹೊಸದು."
+  en: "The roads: new. The potholes: also new."
+  words: |
+    rooD           "the roads" loan
+    hosadu         "new"
+    gunDi          "the potholes"
+    aduu    < adu  "those too"
+    hosadu         "new"
+
+b29:
+  say: ಎಲ್ಲರೂ ನಗ್ತಾರೆ. ನೇತಾ ಕೂಡ.
+  en: Everyone laughs. Even the neta.
+  words: |
+    ellaruu                       < ellaru  "everyone"
+    nagtaare  nag·taare:PRES.3PL  < nagu    "laugh" @crowd.laugh
+    neetaa                                  "the neta (politician)"
+    kuuDa                                   "even (too)"
+
+b30:
+  say: ಆದ್ರೆ ಇದು ಈಗ ನನ್ನ ಊರು. ದಯವಿಟ್ಟು, ಚರಂಡಿ ಸರಿ ಮಾಡಿ.
+  en: But this is my city now. So please, fix the drain.
+  words: |
+    aadre                   "but"
+    idu                     "this"
+    iiga                    "now"
+    nanna                   "my"
+    uuru                    "city (home town)"
+    dayaviTTu               "please"
+    charanDi                "the drain"
+    sari                    "right (fixed)"
+    maaDi:IMP.HON  < maaDu  "make"
+
+b31:
+  say: ಮೌನ. ಆಮೇಲೆ... ಚಪ್ಪಾಳೆ. ಜೋರು ಚಪ್ಪಾಳೆ.
+  en: Silence. Then... applause. Loud applause.
+  words: |
+    mauna      "silence"
+    aameele    "then"
+    chappaaLe  "applause" @crowd.clap
+    jooru      "loud"
+    chappaaLe  "applause"
+
+b32:
+  say: ಸೂಪರ್ ಅಂಕಲ್!
+  en: Super, uncle!
+  words: |
+    suupar  "super" loan
+    ankal   "uncle!" loan
+
+b33:
+  say: ನೇತಾ ದೇವ್ ಕೈ ಹಿಡೀತಾರೆ. ಕ್ಲಿಕ್! ಫೋಟೋ.
+  en: The neta grabs Dev's hand. Click! A photo.
+  words: |
+    neetaa              "the neta (politician)"
+    dev                 "Dev" name
+    kai                 "hand"
+    hiDiitaare  < hiDi  "grabs (holds)"
+    klik                "click!" @camera.flash loan
+    phooToo             "a photo" loan
+
+b34:
+  say: ಸೋಮವಾರ. ಬಾಸ್ ಕ್ಯಾಬಿನ್.
+  en: Monday. The boss's office.
+  words: |
+    soomavaara  "Monday"
+    baas        "the boss's" loan
+    kyaabin     "cabin (office)" loan
+
+b35:
+  say: ಹಾಗಾದ್ರೆ? ದೆಹಲಿ?
+  en: So? Delhi?
+  words: |
+    haagaadre  "so (then)?"
+    dehali     "Delhi?" name
+
+b36:
+  say: ಇಲ್ಲ ಸಾರ್. ನಾನು ಇಲ್ಲೇ ಇರ್ತೀನಿ.
+  en: No, sir. I'm staying right here.
+  words: |
+    illa:NEG                             "no"
+    saar                                 "sir" loan
+    naanu                                "I"
+    illee                        < illi  "right here"
+    irtiini   ir·tiini:PRES.1SG  < iru   "will stay (I'm staying)"
+
+b37:
+  say: ಯೆಸ್!
+  en: Yes!
+  words: |
+    yes  "yes!" loan
+
+b38:
+  say: ಎಲ್ಲರೂ ಪ್ರಿಯಾನ ನೋಡ್ತಾರೆ. ಪ್ರಿಯಾ ಮೇಲೆ ನೋಡ್ತಾಳೆ.
+  en: Everyone looks at Priya. Priya looks at the ceiling.
+  words: |
+    ellaruu                            < ellaru  "everyone"
+    priyaana:ACC                       < priyaa  "at Priya" name
+    nooDtaare     nooD·taare:PRES.3PL  < nooDu   "look"
+    priyaa                                       "Priya" name
+    meele                                        "up"
+    nooDtaaLe     nooD·taaLe:PRES.3SG  < nooDu   "looks"
+
+b39:
+  say: ಒಳ್ಳೇದು. ಇಲ್ಲಾಂದ್ರೆ ಅಕ್ಕ ನನ್ನ ಬಿಡಲ್ಲ.
+  en: Good. Otherwise, Akka would never let me live.
+  words: |
+    oLLeedu              "good"
+    illaandre            "otherwise"
+    akka                 "Akka (big sister)"
+    nanna:ACC            "me"
+    biDalla:NEG  < biDu  "won't spare"
+
+b40:
+  say: ಮರುದಿನ ಬೆಳಿಗ್ಗೆ. ರಸ್ತೆಯಲ್ಲಿ ಹೊಸ ಪೋಸ್ಟರ್.
+  en: The next morning. A new poster in the street.
+  words: |
+    marudina                              "the next day"
+    beLigge                               "morning"
+    rasteyalli  raste·yalli:LOC  < raste  "in the street"
+    hosa                                  "a new"
+    poosTar                               "poster" @poster.reveal loan
+
+b41:
+  say: ನೇತಾ. ಪಕ್ಕದಲ್ಲಿ... ದೇವ್!
+  en: The neta. And next to him... Dev!
+  words: |
+    neetaa                                "the neta (politician)"
+    pakkadalli  pakka·dalli:LOC  < pakka  "beside (him)"
+    dev                                   "Dev!" name
+
+b42:
+  say: ನಾನಾ?! ಪೋಸ್ಟರ್ ಮೇಲೆ?!
+  en: Me?! On a poster?!
+  words: |
+    naanaa:Q  < naanu  "me?!"
+    poosTar            "poster" loan
+    meele              "on?!"
+
+b43:
+  say: ಸಾರ್! ಈಗ ನೀವು ಪಕ್ಕಾ ಬೆಂಗಳೂರಿನವರು!
+  en: Sir! Now you're a proper Bengalurean!
+  words: |
+    saar                            "sir" loan
+    iiga                            "now"
+    niivu                           "you (are)"
+    pakkaa                          "a proper (real)"
+    bengaLuurinavaru  < bengaLuuru  "Bengalurean (from Bengaluru)!" name
+
+b44:
+  say: ಮತ್ತೆ ಚರಂಡಿ? ಮುಂದಿನ ವರ್ಷ!
+  en: And the drain? Next year!
+  words: |
+    matte     "and"
+    charanDi  "the drain?"
+    mundina   "next"
+    varSha    "year!"
+
+b45:
+  say: ಸಂಜೆ. ಟೆರೇಸ್. ದೇವ್ ಅಮ್ಮನಿಗೆ ಮೆಸೇಜ್ ಮಾಡ್ತಾನೆ.
+  en: Evening. The terrace. Dev texts Amma.
+  words: |
+    sanje                                    "evening"
+    Terees                                   "the terrace" loan
+    dev                                      "Dev" name
+    ammanige   amman·ige:DIR        < amma   "to Amma (his mum)"
+    meseej                                   "message" loan
+    maaDtaane  maaD·taane:PRES.3SG  < maaDu  "sends (does)"
+
+b46:
+  say: ಅಮ್ಮಾ, ನಾನು ಇಲ್ಲೇ ಇರ್ತೀನಿ. ಇದು ಈಗ ನನ್ನ ಊರು.
+  en: Amma, I'm staying. This is my city now.
+  words: |
+    ammaa                       < amma  "Amma!"
+    naanu                               "I"
+    illee                       < illi  "right here"
+    irtiini  ir·tiini:PRES.1SG  < iru   "I'm staying"
+    idu                                 "this"
+    iiga                                "now"
+    nanna                               "my"
+    uuru                                "city (home town)"
+
+b47:
+  say: ಟಿಂಗ್! ಅಮ್ಮನ ರಿಪ್ಲೈ.
+  en: Ting! Amma replies.
+  words: |
+    Ting                         "ting!"
+    ammana  amma·na:GEN  < amma  "Amma's"
+    riplai                       "reply" loan
+
+b48:
+  say: "'ಸರಿ. ಹಾಗಾದ್ರೆ ನಾನೇ ಅಲ್ಲಿಗೆ ಬರ್ತೀನಿ.'"
+  en: "'Fine. Then I'm coming there.'"
+  words: |
+    sari                                     "okay"
+    haagaadre                                "then"
+    naanee                          < naanu  "I myself"
+    allige:DIR                      < alli   "there (to)"
+    bartiini    bar·tiini:PRES.1SG  < baru   "I'm coming"
+
+b49:
+  say: "'ನಾಳೆ. ಉಪ್ಪಿನಕಾಯಿ ಜೊತೆ.'"
+  en: "'Tomorrow. With pickles.'"
+  words: |
+    naaLe        "tomorrow"
+    uppinakaayi  "pickles"
+    jote         "with"
+
+b50:
+  say: ಅಮ್ಮ ಬರ್ತಾರಾ?!
+  en: Amma's coming?!
+  words: |
+    amma                 "Amma (Mum)"
+    bartaaraa:Q  < baru  "is coming?!"
