@@ -1,0 +1,101 @@
+# s1e09: Festival. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: terrace_festival
+  cast:
+    dev: standing_bag @ 0.42
+  props:
+    fireworks: fireworks
+  beats:
+    b01: { who: narrator, tags: [softly], start: [fireworks.show] }
+    b02: { who: narrator, tags: [softly], start: [dev.sigh] }
+    b03: { who: dev, mood: weary, icons: [briefcase, "no"], tags: [sadly] }
+    b04: narrator
+
+p2:
+  set: terrace_festival
+  cast:
+    dev: standing_bag @ 0.32
+    son: standing_sweets @ 0.68
+  props:
+    fireworks: fireworks
+  beats:
+    b05: { who: son, mood: breezy, icons: [suitcase, question], start: [son.wave] }
+    b06: { who: dev, mood: weary, icons: [person, briefcase] }
+    b07: { who: son, mood: wary, icons: [suitcase, plane], tags: [softly], start: [son.sigh] }
+    b08: { who: dev, mood: shocked, icons: [house, question], start: [dev.shock] }
+    b09: { who: son, mood: wary, icons: [person, "no"], tags: [softly] }
+    b10: { who: son, mood: wary, icons: [speech, ok], tags: [softly] }
+    b11: { who: son, mood: happy, icons: [heart, speech], tags: [warmly], start: [son.smile] }
+    b12: { who: narrator, start: [dev.smile] }
+    b13: { who: son, mood: happy, icons: [house, heart] }
+
+p3:
+  set: pg_door_festival
+  cast:
+    kid:      sparkler @ 0.14
+    dev:      standing @ 0.42
+    landlady: arms_crossed @ 0.68
+  props:
+    diya:      diya
+    sparkler:  sparkler
+    fireworks: fireworks
+  beats:
+    b14: narrator
+    b15: { who: landlady, mood: happy, icons: [diya, heart], tags: [warmly], start: [landlady.smile] }
+    b16: { who: narrator, tags: [softly] }
+    b17: { who: kid, mood: calling, icons: [firework, heart] }
+    b18: { who: dev, mood: amused, icons: [person, question], start: [dev.laugh] }
+    b19: { who: kid, mood: sly, icons: ["no", ok], start: [kid.smug] }
+
+p4:
+  set: pg_door_festival
+  cast:
+    kid:      standing @ 0.1
+    dev:      standing @ 0.3
+    landlady: arms_crossed @ 0.56
+    raju:     standing @ 0.84
+  props:
+    fireworks: fireworks
+  beats:
+    b20: { who: narrator, start: [raju.wave] }
+    b21: { who: raju, mood: happy, icons: [tea, heart] }
+    b22: { who: landlady, mood: amused, icons: [sweets, heart], start: [landlady.laugh] }
+    b23: { who: narrator, tags: [warmly], start: [kid.cheer] }
+    b24: { who: dev, mood: happy, icons: [suitcase, person, heart], tags: [softly], start: [dev.smile] }
+
+p5:
+  set: pg_door_festival
+  cast:
+    dev:      standing @ 0.3
+    landlady: arms_crossed @ 0.56
+    boss:     standing @ 0.9
+  props:
+    fireworks: fireworks
+  beats:
+    b25: { who: narrator, start: [boss.enter] }
+    b26: { who: dev, mood: wary, icons: [suitcase, person], start: [dev.sheepish] }
+    b27: { who: boss, mood: amused, icons: [plane, ok], start: [boss.laugh] }
+    b28: { who: dev, mood: shocked, icons: [plane, question], start: [dev.shock] }
+    b29: { who: boss, mood: proud, icons: [plane, briefcase, ok], start: [boss.proud] }
+    b30: { who: boss, mood: sheepish, icons: [heart, ok], start: [boss.sheepish] }
+    b31: { who: landlady, mood: shocked, icons: [plane, question, person], start: [landlady.shock] }
+    b32: { who: narrator, tags: [softly], start: [fireworks.burst] }
+
+p6:
+  set: terrace_festival
+  cast:
+    dev:   standing @ 0.34
+    priya: standing @ 0.66
+  props:
+    fireworks: fireworks
+  beats:
+    b33: { who: narrator, start: [fireworks.burst] }
+    b34: { who: priya, mood: happy, icons: [plate, heart], start: [priya.smile] }
+    b35: { who: priya, mood: wary, icons: [plane, question], tags: [softly] }
+    b36: { who: dev, mood: wary, icons: [house, person, briefcase] }
+    b37: narrator
+    b38: { who: priya, mood: wary, icons: [plane, question, heart], tags: [softly] }
+    b39: narrator
+    b40: { who: dev, mood: wary, icons: [heart, question], tags: [softly], cliffhanger: true }

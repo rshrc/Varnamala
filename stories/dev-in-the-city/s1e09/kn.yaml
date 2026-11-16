@@ -1,0 +1,379 @@
+# s1e09 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಹಬ್ಬ | habba | Festival
+tease: ದೇವ್ ಹೋಗ್ತಾನಾ? | dev hoogtaanaa? | Is Dev leaving?
+
+b01:
+  say: ರಾತ್ರಿ. ದೀಪಾವಳಿ. ಇಡೀ ಊರು ಹೊಳೀತಿದೆ.
+  en: Night. Deepavali. The whole city is shining.
+  words: |
+    raatri                  "night"
+    diipaavaLi              "Deepavali (the festival of lights)" name
+    iDii                    "the whole"
+    uuru                    "city (town)"
+    hoLiitide:PROG  < hoLe  "is shining"
+
+b02:
+  say: ಮತ್ತೆ ದೇವ್? ದೇವ್ ತನ್ನ ಒಂದು ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡ್ತಿದ್ದಾನೆ.
+  en: And Dev? Dev is packing his one bag.
+  words: |
+    matte                       "and"
+    dev                         "Dev" name
+    dev                         "Dev" name
+    tanna                       "his (own)"
+    ondu                        "one"
+    byaag                       "bag" loan
+    pyaak                       "pack" loan
+    maaDtiddaane:PROG  < maaDu  "is doing"
+
+b03:
+  say: ಕೆಲಸ ಹೋಯ್ತು. ದೀಪಾವಳಿ ದಿನ.
+  en: Job gone. On Deepavali.
+  words: |
+    kelasa                "job (work)"
+    hooytu:PAST  < hoogu  "gone"
+    diipaavaLi            "Deepavali" name
+    dina                  "day"
+
+b04:
+  say: ಮೆಟ್ಟಿಲಲ್ಲಿ ಹೆಜ್ಜೆ ಸದ್ದು.
+  en: Footsteps on the stairs.
+  words: |
+    meTTilalli:LOC  < meTTilu  "on the stairs"
+    hejje                      "footsteps"
+    saddu                      "sound"
+
+b05:
+  say: ಬ್ರೋ! ಬ್ಯಾಗ್ ಯಾಕೆ?
+  en: Bro! Why the bag?
+  words: |
+    broo   "bro" loan
+    byaag  "bag" loan
+    yaake  "why?"
+
+b06:
+  say: ನಿನ್ನ ಮಾವ. 'ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡು.'
+  en: Your uncle. 'Pack your bag.'
+  words: |
+    ninna      "your"
+    maava      "uncle (mother's brother)"
+    byaag      "bag" loan
+    pyaak      "pack" loan
+    maaDu:IMP  "(do) it"
+
+b07:
+  say: ಬ್ರೋ. ಮೂರು ವರ್ಷದ ಹಿಂದೆ, ನಾನೂ ಒಂದು ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡಿದ್ದೆ. ದೆಹಲಿಗೆ.
+  en: Bro. Three years ago, I packed one bag too. For Delhi.
+  words: |
+    broo                                    "bro" loan
+    muuru                                   "three"
+    varShada:GEN                  < varSha  "years'"
+    hinde                                   "ago"
+    naanuu                        < naanu   "I too"
+    ondu                                    "one"
+    byaag                                   "bag" loan
+    pyaak                                   "pack" loan
+    maaDidde:PERF                 < maaDu   "had done"
+    dehalige       dehali·ge:DIR  < dehali  "for Delhi" name
+
+b08:
+  say: ದೆಹಲಿ? ನನ್ನ ದೆಹಲಿ?
+  en: Delhi? My Delhi?
+  words: |
+    dehali  "Delhi?" name
+    nanna   "my"
+    dehali  "Delhi?" name
+
+b09:
+  say: ಹೌದು. ಅಲ್ಲಿ ನಾನೇ ಹೊಸಬ.
+  en: Yes. Over there, I'm the new guy.
+  words: |
+    haudu            "yes"
+    alli             "there"
+    naanee  < naanu  "I'm the one"
+    hosaba           "new guy (newcomer)"
+
+b10:
+  say: "ಅದಕ್ಕೆ: ಇಂಗ್ಲೀಷ್. 'ಬ್ರೋ'. ಸುಲಭ."
+  en: "That's why: English. 'Bro.' It's easy."
+  words: |
+    adakke:DIR  < adu  "that's why"
+    ingliish           "English" loan
+    broo               "bro" loan
+    sulabha            "easy"
+
+b11:
+  say: ಆದ್ರೆ ನೀನು? ಕನ್ನಡ ಕಲಿತೆ. ರೆಸ್ಪೆಕ್ಟ್ ಬ್ರೋ.
+  en: But you? You learned Kannada. Respect, bro.
+  words: |
+    aadre                "but"
+    niinu                "you? (to a friend)"
+    kannaDa              "Kannada" name
+    kalite:PAST  < kali  "(you) learned"
+    respekT              "respect" loan
+    broo                 "bro" loan
+
+b12:
+  say: ಮಗ ಒಂದು ಡಬ್ಬ ಕೊಡ್ತಾನೆ. ಹೋಳಿಗೆ! ಅಮ್ಮ ಮಾಡಿದ್ದು.
+  en: The son holds out a box. Holige! His mum made them.
+  words: |
+    maga                    "the son"
+    ondu                    "a"
+    Dabba                   "box"
+    koDtaane       < koDu   "gives"
+    hooLige                 "holige (sweet stuffed flatbread)!"
+    amma                    "Ma (his mum)"
+    maaDiddu:PAST  < maaDu  "made (them)"
+
+b13:
+  say: "ಅಮ್ಮ ಹೇಳಿದ್ರು: ಇವತ್ತು ಬ್ಯಾಗ್ ಬೇಡ. ಕೆಳಗೆ ಬಾ."
+  en: "Ma says: no bag tonight. Come downstairs."
+  words: |
+    amma                    "Ma"
+    heeLidru:PAST  < heeLu  "said"
+    ivattu                  "today (tonight)"
+    byaag                   "bag" loan
+    beeDa                   "no (not)"
+    keLage                  "downstairs"
+    baa:IMP        < baru   "come"
+
+b14:
+  say: "ಕೆಳಗೆ: ದೀಪ, ರಂಗೋಲಿ, ಲೈಟ್ಸ್."
+  en: "Downstairs: lamps, rangoli, and lights."
+  words: |
+    keLage    "downstairs"
+    diipa     "lamps"
+    rangooli  "rangoli (floor art)"
+    laiTs     "lights" @lights.blink loan
+
+b15:
+  say: ದೇವ್! ಒಂದು ದೀಪ ಹಚ್ಚು. ಏನಾದ್ರೂ ಕೇಳ್ಕೊ.
+  en: Dev! Light a lamp. Make a wish.
+  words: |
+    dev                   "Dev" name
+    ondu                  "a"
+    diipa                 "lamp"
+    hachchu:IMP           "light (it)"
+    eenaadruu             "something"
+    keeLko:IMP   < keeLu  "ask for (wish)"
+
+b16:
+  say: ದೇವ್ ದೀಪ ಹಚ್ತಾನೆ.
+  en: Dev lights a lamp.
+  words: |
+    dev                   "Dev" name
+    diipa                 "a lamp" @diya.light
+    hachtaane  < hachchu  "lights"
+
+b17:
+  say: ಅಂಕಲ್! ನೋಡಿ! ಸುರ್ಸುರ್ ಬತ್ತಿ!
+  en: Uncle! Look! A sparkler!
+  words: |
+    ankal                   "uncle!" loan
+    nooDi:IMP.HON  < nooDu  "look!"
+    sursur                  "fizz-fizz"
+    batti                   "wick (a sparkler!)" @sparkler.light
+
+b18:
+  say: ಮತ್ತೆ ಅಂಕಲ್?!
+  en: "'Uncle' again?!"
+  words: |
+    matte  "again"
+    ankal  "uncle?!" loan
+
+b19:
+  say: ರೂಲ್ಸ್ ರೂಲ್ಸ್!
+  en: Rules is rules!
+  words: |
+    ruuls  "rules" loan
+    ruuls  "are rules!" loan
+
+b20:
+  say: ಒಂದು ಆಟೋ ನಿಲ್ಲುತ್ತೆ. ರಾಜು!
+  en: An auto stops. It's Raju!
+  words: |
+    ondu               "an"
+    aaToo              "auto" loan
+    nillutte  < nillu  "stops"
+    raaju              "Raju!" name
+
+b21:
+  say: ಹ್ಯಾಪಿ ದೀಪಾವಳಿ ಸಾರ್! ಚಾಯ್ ಅಣ್ಣ ಟೀ ಕಳಿಸಿದ್ದಾರೆ!
+  en: Happy Deepavali, sir! Chai Anna sent tea!
+  words: |
+    hyaapi                       "happy" loan
+    diipaavaLi                   "Deepavali" name
+    saar                         "sir" loan
+    chaay                        "Chai" name
+    aNNa                         "Anna" name
+    Tii                          "tea" loan
+    kaLisiddaare:PERF  < kaLisu  "has sent"
+
+b22:
+  say: ರಾಜು! ಕೂತ್ಕೊ ಕೂತ್ಕೊ. ಹೋಳಿಗೆ ತಗೋ.
+  en: Raju! Sit, sit. Have some holige.
+  words: |
+    raaju                "Raju!" name
+    kuutko:IMP  < kuuru  "sit"
+    kuutko:IMP  < kuuru  "sit"
+    hooLige              "holige"
+    tagoo:IMP   < tago   "take"
+
+b23:
+  say: ಬಾಗಿಲ ಹತ್ರ ಎಲ್ಲರೂ. ಒಟ್ಟಿಗೆ.
+  en: Everyone at the door. All together.
+  words: |
+    baagila:GEN  < baagilu  "the door's"
+    hatra                   "near (at)"
+    ellaruu      < ellaru   "everyone"
+    oTTige                  "together"
+
+b24:
+  say: ಒಂದು ಬ್ಯಾಗ್. ಈಗ, ಇಷ್ಟು ಜನ.
+  en: One bag. And now, so many people.
+  words: |
+    ondu   "one"
+    byaag  "bag" loan
+    iiga   "now"
+    iShTu  "so many"
+    jana   "people"
+
+b25:
+  say: ಆಮೇಲೆ... ಬಾಸ್.
+  en: And then... the boss.
+  words: |
+    aameele  "and then"
+    baas     "the boss" loan
+
+b26:
+  say: ಸಾರ್... ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡಿದೆ.
+  en: Sir... I've packed my bag.
+  words: |
+    saar                   "sir" loan
+    byaag                  "bag" loan
+    pyaak                  "pack" loan
+    maaDide:PAST  < maaDu  "I've done"
+
+b27:
+  say: ಒಳ್ಳೇದು! ದೆಹಲಿಗೆ!
+  en: Good! For Delhi!
+  words: |
+    oLLeedu                            "good!"
+    dehalige  dehali·ge:DIR  < dehali  "for Delhi!" name
+
+b28:
+  say: ದೆಹಲಿ?!
+  en: Delhi?!
+  words: |
+    dehali  "Delhi?!" name
+
+b29:
+  say: ಕ್ಲೈಂಟ್ ನಿನ್ನನ್ನೇ ಕೇಳಿದ್ದಾರೆ. ದೆಹಲಿ ಆಫೀಸ್. ಪ್ರಮೋಷನ್!
+  en: The client asked for you. The Delhi office. A promotion!
+  words: |
+    klainT                     "the client" loan
+    ninnannee:ACC     < niinu  "you, and only you"
+    keeLiddaare:PERF  < keeLu  "has asked for"
+    dehali                     "Delhi" name
+    aafiis                     "office" loan
+    pramooShan                 "promotion!" loan
+
+b30:
+  say: ಮತ್ತೆ... ನೀನು 'ಕಿಟ್ಟು' ಅನ್ನಲಿಲ್ಲ. ಥ್ಯಾಂಕ್ಸ್.
+  en: And... you never said 'Kittu'. Thank you.
+  words: |
+    matte                  "and"
+    niinu                  "you"
+    kiTTu                  "'Kittu'" name
+    annalilla:NEG  < annu  "didn't say"
+    thyaanks               "thanks" loan
+
+b31:
+  say: ದೆಹಲಿ? ದೇವ್ ಹೋಗ್ತಾನಾ?
+  en: Delhi? Dev is leaving?
+  words: |
+    dehali                 "Delhi?" name
+    dev                    "Dev" name
+    hoogtaanaa:Q  < hoogu  "is leaving?"
+
+b32:
+  say: ಯಾರೂ ಮಾತಾಡಲ್ಲ. ಪಟಾಕಿ ಮಾತ್ರ.
+  en: Nobody says a word. Only the firecrackers.
+  words: |
+    yaaruu                       "nobody"
+    maataaDalla:NEG  < maataaDu  "speaks"
+    paTaaki                      "firecrackers"
+    maatra                       "only"
+
+b33:
+  say: ಆಮೇಲೆ, ಟೆರೇಸ್ ಮೇಲೆ. ಪ್ರಿಯಾ ಬಂದಿದ್ದಾಳೆ.
+  en: Later, up on the terrace. Priya has come.
+  words: |
+    aameele                   "later"
+    Terees                    "the terrace" loan
+    meele                     "up on"
+    priyaa                    "Priya" name
+    bandiddaaLe:PERF  < baru  "has come"
+
+b34:
+  say: ಹ್ಯಾಪಿ ದೀಪಾವಳಿ ದೇವ್. ಚಿತ್ರಾನ್ನ. ಅಮ್ಮ ಕಳಿಸಿದ್ರು.
+  en: Happy Deepavali, Dev. Lemon rice. My mum sent it.
+  words: |
+    hyaapi                    "happy" loan
+    diipaavaLi                "Deepavali" name
+    dev                       "Dev" name
+    chitraanna                "lemon rice"
+    amma                      "my mum"
+    kaLisidru:PAST  < kaLisu  "sent (it)"
+
+b35:
+  say: ಕೇಳಿದೆ. ದೆಹಲಿ.
+  en: I heard. Delhi.
+  words: |
+    keeLide:PAST  < keeLu  "I heard"
+    dehali                 "Delhi" name
+
+b36:
+  say: ಹೌದು. ಮನೆ. ಅಮ್ಮ. ದೊಡ್ಡ ಕೆಲಸ.
+  en: Yes. Home. My mum. A big job.
+  words: |
+    haudu   "yes"
+    mane    "home"
+    amma    "Amma (my mum)"
+    doDDa   "big"
+    kelasa  "job (work)"
+
+b37:
+  say: ಒಂದು ರಾಕೆಟ್ ಮೇಲೆ ಹೋಗುತ್ತೆ. ವೂಶ್...
+  en: A rocket goes up. Whoosh...
+  words: |
+    ondu               "a"
+    raakeT             "rocket" @fireworks.rocket loan
+    meele              "up"
+    hoogutte  < hoogu  "goes"
+    vuush              "whoosh" loan
+
+b38:
+  say: ದೇವ್... ನೀನು ಹೋಗ್ತೀಯಾ?
+  en: Dev... are you going?
+  words: |
+    dev                    "Dev" name
+    niinu                  "you"
+    hoogtiiyaa:Q  < hoogu  "will you go?"
+
+b39:
+  say: ಢಂ! ಆಕಾಶ ಬಂಗಾರ.
+  en: BOOM! The sky turns gold.
+  words: |
+    Dham      "boom!" @fireworks.finale
+    aakaasha  "the sky"
+    bangaara  "gold"
+
+b40:
+  say: ಪ್ರಿಯಾ, ನಾನು...
+  en: Priya, I...
+  words: |
+    priyaa  "Priya" name
+    naanu   "I..."

@@ -1,0 +1,423 @@
+# s1e09 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: त्योहार | tyohaar | Festival
+tease: देव जाएगा? | dev jaaegaa? | Is Dev leaving?
+
+b01:
+  say: रात। दिवाली। पूरा शहर चमक रहा है।
+  en: Night. Diwali. The whole city is sparkling.
+  words: |
+    raat                     "night"
+    diivaalii                "Diwali (the festival of lights)" name
+    puuraa                   "the whole"
+    shahar                   "city"
+    chamak      < chamaknaa  "sparkle"
+    rahaa:PROG  < rahnaa     "(is)"
+    hai         < honaa      "(is)"
+
+b02:
+  say: और देव? देव अपना एक बैग पैक कर रहा है।
+  en: And Dev? Dev is packing his one bag.
+  words: |
+    aur                   "and"
+    dev                   "Dev" name
+    dev                   "Dev" name
+    apnaa                 "his (own)"
+    ek                    "one"
+    baig                  "bag" loan
+    paik                  "pack" loan
+    kar         < karnaa  "do"
+    rahaa:PROG  < rahnaa  "(is)"
+    hai         < honaa   "(is)"
+
+b03:
+  say: नौकरी गई। दिवाली के दिन।
+  en: Job gone. On Diwali.
+  words: |
+    naukrii              "job"
+    gaii:PAST  < jaanaa  "gone"
+    diivaalii            "Diwali" name
+    ke:GEN               "(of)"
+    din                  "day"
+
+b04:
+  say: सीढ़ियों पर क़दमों की आवाज़।
+  en: Footsteps on the stairs.
+  words: |
+    siiDhiyo~  < siiDhii  "stairs"
+    par:LOC               "on"
+    qadmo~     < qadam    "footsteps"
+    kii:GEN               "of"
+    aavaaz                "sound"
+
+b05:
+  say: ब्रो! बैग क्यों?
+  en: Bro! Why the bag?
+  words: |
+    bro   "bro" loan
+    baig  "bag" loan
+    kyo~  "why?"
+
+b06:
+  say: तुम्हारे मामा। 'बैग पैक करो।'
+  en: Your uncle. 'Pack your bag.'
+  words: |
+    tumhaare  < tumhaaraa  "your"
+    maamaa                 "uncle (mother's brother)"
+    baig                   "bag" loan
+    paik                   "pack" loan
+    karo:IMP  < karnaa     "(do) it"
+
+b07:
+  say: ब्रो। तीन साल पहले, मैंने भी एक बैग पैक किया था। कोलकाता के लिए।
+  en: Bro. Three years ago, I packed one bag too. For Kolkata.
+  words: |
+    bro                  "bro" loan
+    tiin                 "three"
+    saal                 "years"
+    pahle                "ago"
+    mai~ne     < mai~    "I"
+    bhii                 "too"
+    ek                   "one"
+    baig                 "bag" loan
+    paik                 "pack" loan
+    kiyaa      < karnaa  "did"
+    thaa:PAST  < honaa   "(had)"
+    kolkaataa            "Kolkata" name
+    ke:GEN               "(for)"
+    lie                  "for"
+
+b08:
+  say: कोलकाता? मेरा कोलकाता?
+  en: Kolkata? My Kolkata?
+  words: |
+    kolkaataa  "Kolkata?" name
+    meraa      "my"
+    kolkaataa  "Kolkata?" name
+
+b09:
+  say: हाँ। वहाँ मैं नया लड़का हूँ।
+  en: Yes. Over there, I'm the new guy.
+  words: |
+    haa~             "yes"
+    vahaa~           "there"
+    mai~             "I"
+    nayaa            "new"
+    laDkaa           "boy (guy)"
+    huu~    < honaa  "am"
+
+b10:
+  say: "इसलिए: इंग्लिश। 'ब्रो'। आसान है।"
+  en: "That's why: English. 'Bro.' It's easy."
+  words: |
+    islie             "that's why"
+    inglish           "English" loan
+    bro               "bro" loan
+    aasaan            "easy"
+    hai      < honaa  "(is)"
+
+b11:
+  say: पर तुम? तुमने हिंदी सीखी। रिस्पेक्ट, ब्रो।
+  en: But you? You learned Hindi. Respect, bro.
+  words: |
+    par                       "but"
+    tum                       "you? (to a friend)"
+    tumne         < tum       "you"
+    hindii                    "Hindi" name
+    siikhii:PAST  < siikhnaa  "learned"
+    rispekT                   "respect" loan
+    bro                       "bro" loan
+
+b12:
+  say: बेटा एक डिब्बा देता है। लड्डू! माँ ने बनाए।
+  en: The son holds out a box. Laddoos! His mum made them.
+  words: |
+    beTaa                    "the son"
+    ek                       "a"
+    Dibbaa                   "box"
+    detaa        < denaa     "gives"
+    hai          < honaa     "(is)"
+    laDDuu                   "laddoos (sweets)!"
+    maa~                     "Ma (his mum)"
+    ne                       "(she)"
+    banaae:PAST  < banaanaa  "made (them)"
+
+b13:
+  say: "माँ ने कहा: आज बैग नहीं। नीचे आओ।"
+  en: "Ma says: no bag tonight. Come downstairs."
+  words: |
+    maa~                  "Ma"
+    ne                    "(she)"
+    kahaa:PAST  < kahnaa  "said"
+    aaj                   "today (tonight)"
+    baig                  "bag" loan
+    nahii~:NEG            "no (not)"
+    niiche                "downstairs"
+    aao:IMP     < aanaa   "come"
+
+b14:
+  say: "नीचे: दीये, रंगोली, लाइट्स।"
+  en: "Downstairs: lamps, rangoli, and lights."
+  words: |
+    niiche              "downstairs"
+    diiye     < diiyaa  "lamps"
+    rangolii            "rangoli (floor art)"
+    laaiTs              "lights" @lights.blink loan
+
+b15:
+  say: देव! एक दीया जलाओ। कुछ माँगो।
+  en: Dev! Light a lamp. Make a wish.
+  words: |
+    dev                     "Dev" name
+    ek                      "a"
+    diiyaa                  "lamp"
+    jalaao:IMP  < jalaanaa  "light (it)"
+    kuchh                   "something"
+    maa~go:IMP  < maa~gnaa  "ask for (wish)"
+
+b16:
+  say: देव दीया जलाता है।
+  en: Dev lights a lamp.
+  words: |
+    dev                   "Dev" name
+    diiyaa                "a lamp" @diya.light
+    jalaataa  < jalaanaa  "lights"
+    hai       < honaa     "(is)"
+
+b17:
+  say: अंकल! देखो! फुलझड़ी!
+  en: Uncle! Look! A sparkler!
+  words: |
+    ankal                  "uncle!" loan
+    dekho:IMP   < dekhnaa  "look!"
+    phuljhaDii             "a sparkler!" @sparkler.light
+
+b18:
+  say: फिर से अंकल?!
+  en: "'Uncle' again?!"
+  words: |
+    phir   "again"
+    se     "(again)"
+    ankal  "uncle?!" loan
+
+b19:
+  say: रूल्स इज़ रूल्स!
+  en: Rules is rules!
+  words: |
+    ruuls  "rules" loan
+    iz     "is" loan
+    ruuls  "rules!" loan
+
+b20:
+  say: एक ऑटो रुकता है। राजू!
+  en: An auto stops. It's Raju!
+  words: |
+    ek                "an"
+    oTo               "auto" loan
+    ruktaa  < ruknaa  "stops"
+    hai     < honaa   "(is)"
+    raajuu            "Raju!" name
+
+b21:
+  say: हैप्पी दिवाली साब! भैया ने चाय भेजी है!
+  en: Happy Diwali, sir! Bhaiya sent tea!
+  words: |
+    haippii               "happy" loan
+    diivaalii             "Diwali" name
+    saab                  "sir"
+    bhaiyaa               "(Chai) Bhaiya"
+    ne                    "(he)"
+    chaay                 "tea"
+    bhejii     < bhejnaa  "sent"
+    hai        < honaa    "has"
+
+b22:
+  say: राजू! बैठो बैठो। लड्डू लो।
+  en: Raju! Sit, sit. Have a laddoo.
+  words: |
+    raajuu                  "Raju!" name
+    baiTho:IMP  < baiThnaa  "sit"
+    baiTho:IMP  < baiThnaa  "sit"
+    laDDuu                  "a laddoo"
+    lo:IMP      < lenaa     "take"
+
+b23:
+  say: दरवाज़े पर सब। एक साथ।
+  en: Everyone at the door. All together.
+  words: |
+    darvaaze  < darvaazaa  "the door"
+    par:LOC                "at"
+    sab                    "everyone"
+    ek                     "one"
+    saath                  "together (with)"
+
+b24:
+  say: एक बैग। और अब, इतने सारे लोग।
+  en: One bag. And now, so many people.
+  words: |
+    ek               "one"
+    baig             "bag" loan
+    aur              "and"
+    ab               "now"
+    itne   < itnaa   "so"
+    saare  < saaraa  "many (all)"
+    log              "people"
+
+b25:
+  say: और फिर... बॉस।
+  en: And then... the boss.
+  words: |
+    aur   "and"
+    phir  "then"
+    bos   "the boss" loan
+
+b26:
+  say: सर... मैंने बैग पैक कर लिया।
+  en: Sir... I've packed my bag.
+  words: |
+    sar                   "sir" loan
+    mai~ne      < mai~    "I"
+    baig                  "bag" loan
+    paik                  "pack" loan
+    kar         < karnaa  "do"
+    liyaa:PERF  < lenaa   "(have)"
+
+b27:
+  say: बढ़िया! कोलकाता के लिए!
+  en: Great! For Kolkata!
+  words: |
+    baDhiyaa   "great!"
+    kolkaataa  "Kolkata" name
+    ke:GEN     "(for)"
+    lie        "for!"
+
+b28:
+  say: कोलकाता?!
+  en: Kolkata?!
+  words: |
+    kolkaataa  "Kolkata?!" name
+
+b29:
+  say: क्लाइंट को तुम ही चाहिए। कोलकाता ऑफ़िस। प्रमोशन!
+  en: The client wants you, only you. The Kolkata office. A promotion!
+  words: |
+    klaainT    "the client" loan
+    ko         "(to)"
+    tum        "you"
+    hii        "only"
+    chaahie    "wants (needs)"
+    kolkaataa  "Kolkata" name
+    ofis       "office" loan
+    pramoshan  "promotion!" loan
+
+b30:
+  say: और... तुमने 'बबलू' नहीं कहा। थैंक्स।
+  en: And... you never said 'Bablu'. Thank you.
+  words: |
+    aur                   "and"
+    tumne       < tum     "you"
+    bablu                 "'Bablu'" name
+    nahii~:NEG            "didn't"
+    kahaa       < kahnaa  "say"
+    thainks               "thanks" loan
+
+b31:
+  say: कोलकाता? देव जा रहा है?
+  en: Kolkata? Dev is leaving?
+  words: |
+    kolkaataa             "Kolkata?" name
+    dev                   "Dev" name
+    jaa         < jaanaa  "go"
+    rahaa:PROG  < rahnaa  "(is)"
+    hai         < honaa   "is?"
+
+b32:
+  say: कोई कुछ नहीं बोलता। बस पटाखे।
+  en: Nobody says a word. Only the firecrackers.
+  words: |
+    koii                     "anyone"
+    kuchh                    "anything"
+    nahii~:NEG               "no"
+    boltaa      < bolnaa     "says"
+    bas                      "only"
+    paTaakhe    < paTaakhaa  "firecrackers"
+
+b33:
+  say: बाद में, छत पर। प्रिया आई है।
+  en: Later, up on the terrace. Priya has come.
+  words: |
+    baad                "later"
+    me~                 "(in)"
+    chhat               "the roof"
+    par:LOC             "on"
+    priyaa              "Priya" name
+    aaii:PERF  < aanaa  "has come"
+    hai        < honaa  "(is)"
+
+b34:
+  say: हैप्पी दिवाली, देव। राजमा चावल। मम्मी ने भेजे।
+  en: Happy Diwali, Dev. Rajma chawal. My mum sent it.
+  words: |
+    haippii                "happy" loan
+    diivaalii              "Diwali" name
+    dev                    "Dev" name
+    raajmaa                "rajma (kidney beans)"
+    chaaval                "rice"
+    mammii                 "mum"
+    ne                     "(she)"
+    bheje:PAST  < bhejnaa  "sent (them)"
+
+b35:
+  say: सुना। कोलकाता।
+  en: I heard. Kolkata.
+  words: |
+    sunaa:PAST  < sunnaa  "(I) heard"
+    kolkaataa             "Kolkata" name
+
+b36:
+  say: हाँ। घर। माँ। बड़ी नौकरी।
+  en: Yes. Home. My mum. A big job.
+  words: |
+    haa~              "yes"
+    ghar              "home"
+    maa~              "Ma (my mum)"
+    baDii    < baDaa  "big"
+    naukrii           "job"
+
+b37:
+  say: एक रॉकेट ऊपर जाता है। सूँ...
+  en: A rocket goes up. Whoosh...
+  words: |
+    ek                "a"
+    roket             "rocket" @fireworks.rocket loan
+    uupar             "up"
+    jaataa  < jaanaa  "goes"
+    hai     < honaa   "(is)"
+    suu~    < suu~    "whoosh"
+
+b38:
+  say: देव... तुम जा रहे हो?
+  en: Dev... are you going?
+  words: |
+    dev                  "Dev" name
+    tum                  "you"
+    jaa        < jaanaa  "go"
+    rahe:PROG  < rahnaa  "(are)"
+    ho         < honaa   "(are)?"
+
+b39:
+  say: धड़ाम! आसमान सुनहरा।
+  en: BOOM! The sky turns gold.
+  words: |
+    dhaDaam   "boom!" @fireworks.finale
+    aasmaan   "the sky"
+    sunharaa  "golden"
+
+b40:
+  say: प्रिया, मैं...
+  en: Priya, I...
+  words: |
+    priyaa  "Priya" name
+    mai~    "I..."
