@@ -1,0 +1,14 @@
+# s2e09: The Hearing
+# Format: stories/README.md
+
+level: A2
+next: s2e10
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b13
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  landlady.sigh:  landlady sigh_nod 1200
+  boss.sheepish:  boss sheepish 800
+  crowd.laugh:    crowd laugh 1500
+  landlady.smile: landlady smile 1600

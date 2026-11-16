@@ -1,0 +1,90 @@
+# s2e09: The Hearing. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: hall
+  cast:
+    dev:      standing @ 0.1
+    amma:     standing @ 0.24
+    landlady: arms_crossed @ 0.4
+  props:
+    crowd: crowd
+  beats:
+    b01: narrator
+    b02: { who: narrator, tags: [amused] }
+    b03: narrator
+    b04: narrator
+
+p2:
+  set: hall
+  cast:
+    dev:      standing @ 0.1
+    daughter: standing @ 0.26
+    raju:     standing @ 0.62
+  props:
+    crowd: crowd
+  beats:
+    b05: { who: raju, mood: firm, icons: [water, fish, heart], tags: [firmly] }
+    b06: { who: raju, mood: wary, icons: [person, water, "no"], tags: [softly], start: [raju.sigh] }
+
+p3:
+  set: hall
+  cast:
+    dev:      standing @ 0.1
+    raju:     standing @ 0.28
+    daughter: standing @ 0.62
+  props:
+    crowd: crowd
+  beats:
+    b07: { who: daughter, mood: firm, icons: [chart, water], tags: [firmly], start: [daughter.point] }
+    b08: { who: daughter, mood: firm, icons: [house, "no"], start: [daughter.nod] }
+    b09: { who: narrator, tags: [amused] }
+
+p4:
+  set: hall
+  cast:
+    dev:      standing @ 0.1
+    amma:     standing @ 0.26
+    landlady: arms_crossed @ 0.62
+  props:
+    crowd: crowd
+  beats:
+    b10: { who: narrator, tags: [softly] }
+    b11: { who: landlady, mood: firm, icons: [house, person], tags: [quietly], start: [landlady.sigh] }
+    b12: { who: landlady, mood: wary, icons: [rupee, water, "no"], tags: [quietly] }
+    b13: { who: landlady, mood: firm, icons: [person, water, "no"], tags: [firmly] }
+    b14: { who: narrator, tags: [softly] }
+
+p5:
+  set: hall
+  cast:
+    boss:     standing @ 0.12
+    landlady: arms_crossed @ 0.4
+    son:      standing_suitcase @ 0.62
+  props:
+    crowd: crowd
+  beats:
+    b15: narrator
+    b16: { who: landlady, mood: shocked, icons: [person, heart], tags: [softly], start: [landlady.shock] }
+    b17: { who: son, mood: wary, icons: [speech, mic], tags: [nervously], start: [son.sheepish] }
+    b18: { who: son, mood: wary, icons: [water, person, heart], tags: [softly] }
+    b19: { who: son, mood: firm, icons: [water, heart, house], tags: [with emotion] }
+    b20: { who: son, mood: firm, icons: [water, "no"], tags: [firmly], start: [son.nod] }
+    b21: { who: narrator, tags: [warmly], start: [boss.sheepish, crowd.laugh] }
+
+p6:
+  set: hall
+  cast:
+    dev:      standing @ 0.1
+    amma:     standing @ 0.24
+    landlady: arms_crossed @ 0.4
+    son:      standing @ 0.62
+  props:
+    crowd: crowd
+  beats:
+    b22: narrator
+    b23: narrator
+    b24: { who: dev, mood: happy, icons: [ok, heart], start: [dev.cheer, crowd.clap] }
+    b25: narrator
+    b26: { who: amma, mood: firm, icons: [heart, ok], tags: [warmly], start: [amma.nod] }
+    b27: { who: landlady, mood: happy, icons: [heart, water, ok], tags: [softly], start: [landlady.smile], cliffhanger: true }

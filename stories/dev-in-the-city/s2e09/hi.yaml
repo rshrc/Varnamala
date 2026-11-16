@@ -1,0 +1,337 @@
+# s2e09 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: सुनवाई | sunvaaii | The Hearing
+tease: फिर मिलेंगे। | phir mile~ge. | We'll meet again.
+
+b01:
+  say: शनिवार। वार्ड ऑफ़िस का हॉल।
+  en: Saturday. The ward office hall.
+  words: |
+    shanivaar  "Saturday"
+    vaarD      "ward" loan
+    ofis       "office" loan
+    kaa:GEN    "'s"
+    hol        "hall" loan
+
+b02:
+  say: कुर्सियाँ। फ़ाइलें। एक पंखा जो चलता नहीं।
+  en: Chairs. Files. A fan that doesn't turn.
+  words: |
+    kursiyaa~   < kursii   "chairs"
+    faaile~     < faail    "files" loan
+    ek                     "a"
+    pankhaa                "fan"
+    jo                     "that"
+    chaltaa     < chalnaa  "runs"
+    nahii~:NEG             "doesn't"
+
+b03:
+  say: एक तरफ़, बिल्डर के वकील। दूसरी तरफ़, गली वाले।
+  en: On one side, the builder's lawyers. On the other, the street.
+  words: |
+    ek                  "one"
+    taraf               "side"
+    bilDar              "the builder" loan
+    ke:GEN              "'s"
+    vakiil              "lawyers"
+    duusrii  < duusraa  "the other"
+    taraf               "side"
+    galii               "the street"
+    vaale    < vaalaa   "(its people)"
+
+b04:
+  say: "अफ़सर कहते हैं: 'हर एक को तीन मिनट।'"
+  en: "The officer says: 'Three minutes each.'"
+  words: |
+    afsar             "the officer"
+    kahte   < kahnaa  "says"
+    hai~    < honaa   "(are)"
+    har               "each"
+    ek                "one"
+    ko:DIR            "to"
+    tiin              "three"
+    minaT             "minutes" loan
+
+b05:
+  say: साहब। बीस साल पहले, इस झील ने मुझे खिलाया।
+  en: Sir. Twenty years ago, this lake fed me.
+  words: |
+    saahab                       "sir"
+    biis                         "twenty"
+    saal                         "years"
+    pahle                        "ago"
+    is                           "this"
+    jhiil                        "lake"
+    ne                           "(it)"
+    mujhe                        "me"
+    khilaayaa:PAST  < khilaanaa  "fed"
+
+b06:
+  say: आज मेरी बेटी इसका पानी टेस्ट करती है। ये बीमार है।
+  en: Today, my daughter tests its water. It is sick.
+  words: |
+    aaj                "today"
+    merii    < meraa   "my"
+    beTii              "daughter"
+    iskaa    < ye      "its"
+    paanii             "water"
+    TesT               "test" loan
+    kartii   < karnaa  "does"
+    hai      < honaa   "(is)"
+    ye                 "it"
+    biimaar            "sick"
+    hai      < honaa   "(is)"
+
+b07:
+  say: ये आँकड़े हैं। गंदा पानी एक ही पाइप से आ रहा है।
+  en: These are the numbers. The sewage comes from one single pipe.
+  words: |
+    ye                      "these"
+    aa~kaDe     < aa~kaDaa  "figures (the numbers)"
+    hai~        < honaa     "are"
+    gandaa                  "dirty"
+    paanii                  "water"
+    ek                      "one"
+    hii                     "single"
+    paaip                   "pipe" loan
+    se:ABL                  "from"
+    aa          < aanaa     "come"
+    rahaa:PROG  < rahnaa    "(is)"
+    hai         < honaa     "(is)"
+
+b08:
+  say: लेक व्यू अपार्टमेंट्स।
+  en: Lake View Apartments.
+  words: |
+    lek          "Lake" loan
+    vyuu         "View" loan
+    apaarTmenTs  "Apartments" loan
+
+b09:
+  say: वकील अपनी फ़ाइलें देखते हैं। बहुत ध्यान से।
+  en: The lawyers look at their files. Very, very carefully.
+  words: |
+    vakiil              "the lawyers"
+    apnii    < apnaa    "their own"
+    faaile~  < faail    "files" loan
+    dekhte   < dekhnaa  "look at"
+    hai~     < honaa    "(are)"
+    bahut               "very"
+    dhyaan              "attention"
+    se                  "with"
+
+b10:
+  say: फिर, कमला जी खड़ी होती हैं।
+  en: Then, Kamla-ji stands up.
+  words: |
+    phir              "then"
+    kamlaa            "Kamla" name
+    jii               "-ji"
+    khaDii  < khaDaa  "standing"
+    hotii   < honaa   "(up)"
+    hai~    < honaa   "(are)"
+
+b11:
+  say: साहब। वो ज़मीन हमारी थी। मेरे पति ने बेची थी।
+  en: Sir. That land was ours. My husband sold it.
+  words: |
+    saahab                 "sir"
+    vo                     "that"
+    zamiin                 "land"
+    hamaarii   < hamaaraa  "ours"
+    thii:PAST  < honaa     "was"
+    mere       < meraa     "my"
+    pati                   "husband"
+    ne                     "(he)"
+    bechii     < bechnaa   "sold"
+    thii:PAST  < honaa     "(had)"
+
+b12:
+  say: ग़लती हमारी थी। पैसे चाहिए थे। क़ीमत झील ने चुकाई।
+  en: The mistake was ours. We needed money. The lake paid the price.
+  words: |
+    galtii                      "the mistake"
+    hamaarii       < hamaaraa   "ours"
+    thii:PAST      < honaa      "was"
+    paise          < paisaa     "money"
+    chaahie                     "needed"
+    the:PAST       < honaa      "were"
+    qiimat                      "the price"
+    jhiil                       "the lake"
+    ne                          "(it)"
+    chukaaii:PAST  < chukaanaa  "paid"
+
+b13:
+  say: हमारी ग़लती कोई और न दोहराए।
+  en: Let no one else make our mistake.
+  words: |
+    hamaarii  < hamaaraa   "our"
+    galtii                 "mistake"
+    koii                   "anyone"
+    aur                    "else"
+    na:NEG                 "not"
+    dohraae   < dohraanaa  "should repeat"
+
+b14:
+  say: हॉल में सन्नाटा।
+  en: The whole hall is silent.
+  words: |
+    hol        "the hall" loan
+    me~:LOC    "in"
+    sannaaTaa  "dead silence"
+
+b15:
+  say: पीछे, दरवाज़ा खुलता है। विकी। सूटकेस के साथ।
+  en: At the back, the door opens. Vicky. With his suitcase.
+  words: |
+    piichhe               "at the back"
+    darvaazaa             "the door"
+    khultaa    < khulnaa  "opens"
+    hai        < honaa    "(is)"
+    vikii                 "Vicky" name
+    suuTkes               "suitcase" loan
+    ke:GEN                "(with)"
+    saath                 "with"
+
+b16:
+  say: मुन्ना...?
+  en: Munna...?
+  words: |
+    munnaa  "Munna...? (little one)"
+
+b17:
+  say: नमस्ते। मेरी हिंदी... थोड़ी पुरानी है।
+  en: Namaste. My Hindi is... a little rusty.
+  words: |
+    namaste               "namaste (hello)"
+    merii     < meraa     "my"
+    hindii                "Hindi" name
+    thoDii    < thoDaa    "a little"
+    puraanii  < puraanaa  "old (rusty)"
+    hai       < honaa     "(is)"
+
+b18:
+  say: मेरे पापा मुझे रोज़ सुबह उस झील पर ले जाते थे।
+  en: My father took me to that lake every morning.
+  words: |
+    mere      < meraa   "my"
+    paapaa              "father (papa)"
+    mujhe               "me"
+    roz                 "every day"
+    subah               "morning"
+    us                  "that"
+    jhiil               "lake"
+    par:LOC             "to"
+    le        < lenaa   "take"
+    jaate     < jaanaa  "(go)"
+    the:PAST  < honaa   "used to"
+
+b19:
+  say: मैंने ये शहर छोड़ा। पर वो झील... मेरी माँ की है। मेरी भी।
+  en: I left this city. But that lake... it's my mother's. And mine too.
+  words: |
+    mai~ne        < mai~      "I"
+    ye                        "this"
+    shahar                    "city"
+    chhoDaa:PAST  < chhoDnaa  "left"
+    par                       "but"
+    vo                        "that"
+    jhiil                     "lake"
+    merii         < meraa     "my"
+    maa~                      "mother"
+    kii:GEN                   "'s"
+    hai           < honaa     "(is)"
+    merii         < meraa     "mine"
+    bhii                      "too"
+
+b20:
+  say: प्लीज़। उसे मत भरिए।
+  en: Please. Don't fill it in.
+  words: |
+    pliiz                      "please" loan
+    use             < vo       "it"
+    mat:NEG                    "don't"
+    bharie:IMP.HON  < bharnaa  "fill in"
+
+b21:
+  say: माँ रो रही हैं। बबलू भी। कहता है पंखे की धूल है। पंखा चलता ही नहीं।
+  en: His mother is crying. So is Bablu. He says it's dust from the fan. The fan doesn't even turn.
+  words: |
+    maa~                   "his mother"
+    ro          < ronaa    "cry"
+    rahii:PROG  < rahnaa   "(is)"
+    hai~        < honaa    "(are)"
+    bablu                  "Bablu" name
+    bhii                   "too"
+    kahtaa      < kahnaa   "says"
+    hai         < honaa    "(is)"
+    pankhe      < pankhaa  "the fan's"
+    kii:GEN                "(of)"
+    dhuul                  "dust"
+    hai         < honaa    "(is)"
+    pankhaa                "the fan"
+    chaltaa     < chalnaa  "runs"
+    hii                    "at all"
+    nahii~:NEG             "doesn't"
+
+b22:
+  say: अफ़सर कुछ लिखते हैं। बहुत देर तक।
+  en: The officer writes something. For a long time.
+  words: |
+    afsar              "the officer"
+    kuchh              "something"
+    likhte  < likhnaa  "writes"
+    hai~    < honaa    "(are)"
+    bahut              "a long"
+    der                "time"
+    tak                "for"
+
+b23:
+  say: "फिर कहते हैं: 'झील भरने का काम रोका जाता है।'"
+  en: "Then he speaks: 'The filling in of the lake is stopped.'"
+  words: |
+    phir                "then"
+    kahte    < kahnaa   "he says"
+    hai~     < honaa    "(are)"
+    jhiil               "the lake"
+    bharne   < bharnaa  "filling in"
+    kaa:GEN             "(of)"
+    kaam                "the work"
+    rokaa    < roknaa   "stopped"
+    jaataa   < jaanaa   "is (formal)"
+    hai      < honaa    "(is)"
+
+b24:
+  say: यस!
+  en: Yes!
+  words: |
+    yas  "yes!" loan
+
+b25:
+  say: "'पर झील साफ़ करना... आपका काम है।'"
+  en: "'But cleaning the lake... that's your job.'"
+  words: |
+    par              "but"
+    jhiil            "the lake"
+    saaf             "clean"
+    karnaa           "making"
+    aapkaa           "your"
+    kaam             "job"
+    hai     < honaa  "(is)"
+
+b26:
+  say: तो हमारा काम।
+  en: Then it's our job.
+  words: |
+    to        "then"
+    hamaaraa  "our"
+    kaam      "job (it is)"
+
+b27:
+  say: हमारा काम।
+  en: Our job.
+  words: |
+    hamaaraa  "our"
+    kaam      "job"

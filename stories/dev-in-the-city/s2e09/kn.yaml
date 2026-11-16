@@ -1,0 +1,289 @@
+# s2e09 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ವಿಚಾರಣೆ | vichaaraNe | The Hearing
+tease: ಹೋಗಿ ಬನ್ನಿ. | hoogi banni. | Go, and come back.
+
+b01:
+  say: ಶನಿವಾರ. ವಾರ್ಡ್ ಆಫೀಸ್ ಹಾಲ್.
+  en: Saturday. The ward office hall.
+  words: |
+    shanivaara  "Saturday"
+    vaarD       "ward" loan
+    aafiis      "office" loan
+    haal        "hall" loan
+
+b02:
+  say: ಕುರ್ಚಿಗಳು. ಫೈಲುಗಳು. ತಿರುಗದ ಒಂದು ಫ್ಯಾನ್.
+  en: Chairs. Files. A fan that doesn't turn.
+  words: |
+    kurchigaLu:PL  < kurchi  "chairs"
+    phailugaLu:PL  < phailu  "files" loan
+    tirugada:NEG   < tirugu  "that doesn't turn"
+    ondu                     "a"
+    phyaan                   "fan" loan
+
+b03:
+  say: ಒಂದು ಕಡೆ, ಬಿಲ್ಡರ್ ವಕೀಲರು. ಇನ್ನೊಂದು ಕಡೆ, ಬೀದಿಯವರು.
+  en: On one side, the builder's lawyers. On the other, the street.
+  words: |
+    ondu                     "one"
+    kaDe                     "side"
+    bilDar                   "the builder's" loan
+    vakiilaru:PL  < vakiila  "lawyers"
+    innondu                  "the other"
+    kaDe                     "side"
+    biidiyavaru   < biidi    "the street (its people)"
+
+b04:
+  say: "ಅಧಿಕಾರಿ ಹೇಳ್ತಾರೆ: 'ಒಬ್ಬೊಬ್ಬರಿಗೆ ಮೂರು ನಿಮಿಷ.'"
+  en: "The officer says: 'Three minutes each.'"
+  words: |
+    adhikaari                  "the officer"
+    heeLtaare        < heeLu   "says"
+    obbobbarige:DIR  < obbaru  "for each person"
+    muuru                      "three"
+    nimiSha                    "minutes"
+
+b05:
+  say: ಸಾರ್. ಇಪ್ಪತ್ತು ವರ್ಷದ ಹಿಂದೆ, ಈ ಕೆರೆ ನನಗೆ ಊಟ ಹಾಕ್ತು.
+  en: Sir. Twenty years ago, this lake fed me.
+  words: |
+    saar                    "sir" loan
+    ippattu                 "twenty"
+    varShada:GEN  < varSha  "years'"
+    hinde                   "ago"
+    ii                      "this"
+    kere                    "lake"
+    nanage:DIR    < naanu   "me"
+    uuTa                    "food"
+    haaktu:PAST   < haaku   "gave (fed)"
+
+b06:
+  say: ಇವತ್ತು ನನ್ನ ಮಗಳು ಅದರ ನೀರು ಟೆಸ್ಟ್ ಮಾಡ್ತಾಳೆ. ಅದಕ್ಕೆ ಹುಷಾರಿಲ್ಲ.
+  en: Today, my daughter tests its water. It is sick.
+  words: |
+    ivattu                "today"
+    nanna                 "my"
+    magaLu                "daughter"
+    adara:GEN    < adu    "its"
+    niiru                 "water"
+    TesT                  "test" loan
+    maaDtaaLe    < maaDu  "does"
+    adakke:DIR   < adu    "to it"
+    huShaarilla           "it isn't well (it is sick)"
+
+b07:
+  say: ಇವು ಸಂಖ್ಯೆಗಳು. ಚರಂಡಿ ನೀರು ಒಂದೇ ಪೈಪಿಂದ ಬರ್ತಿದೆ.
+  en: These are the numbers. The sewage comes from one single pipe.
+  words: |
+    ivu                        "these (are)"
+    sankhyegaLu:PL  < sankhye  "the numbers"
+    charanDi                   "sewage"
+    niiru                      "water"
+    ondee           < ondu     "one single"
+    paipinda:ABL    < paip     "from a pipe" loan
+    bartide:PROG    < baru     "is coming"
+
+b08:
+  say: ಲೇಕ್ ವ್ಯೂ ಅಪಾರ್ಟ್ಮೆಂಟ್ಸ್.
+  en: Lake View Apartments.
+  words: |
+    leek         "Lake" loan
+    vyuu         "View" loan
+    apaarTmenTs  "Apartments" loan
+
+b09:
+  say: ವಕೀಲರು ತಮ್ಮ ಫೈಲುಗಳನ್ನ ನೋಡ್ತಾರೆ. ತುಂಬಾ ಗಮನದಿಂದ.
+  en: The lawyers look at their files. Very, very carefully.
+  words: |
+    vakiilaru:PL                            < vakiila  "the lawyers"
+    tamma                                              "their own"
+    phailugaLanna:ACC                       < phailu   "files" loan
+    nooDtaare          nooD·taare:PRES.3PL  < nooDu    "look at"
+    tumbaa                                             "very"
+    gamanadinda:ABL                         < gamana   "carefully"
+
+b10:
+  say: ಆಮೇಲೆ, ಶಾರದಾ ಎದ್ದು ನಿಲ್ತಾರೆ.
+  en: Then, Sharada stands up.
+  words: |
+    aameele             "then"
+    shaaradaa           "Sharada" name
+    eddu       < eeLu   "getting up"
+    niltaare   < nillu  "stands"
+
+b11:
+  say: ಸಾರ್. ಆ ಜಾಗ ನಮ್ಮದಾಗಿತ್ತು. ನಮ್ಮ ಯಜಮಾನರು ಮಾರಿದ್ರು.
+  en: Sir. That land was ours. My husband sold it.
+  words: |
+    saar                         "sir" loan
+    aa                           "that"
+    jaaga                        "land"
+    nammadaagittu:PAST  < naavu  "was ours"
+    namma                        "my (our)"
+    yajamaanaru                  "husband"
+    maaridru:PAST       < maaru  "sold (it)"
+
+b12:
+  say: ನಮ್ಮದು ತಪ್ಪು. ದುಡ್ಡು ಬೇಕಿತ್ತು. ಕೆರೆ ಬೆಲೆ ಕೊಡ್ತು.
+  en: The mistake was ours. We needed money. The lake paid the price.
+  words: |
+    nammadu        < naavu  "ours (was)"
+    tappu                   "the mistake"
+    duDDu                   "money"
+    beekittu:PAST  < beeku  "was needed"
+    kere                    "the lake"
+    bele                    "the price"
+    koDtu:PAST     < koDu   "paid (gave)"
+
+b13:
+  say: ನಮ್ಮ ತಪ್ಪನ್ನ ಬೇರೆ ಯಾರೂ ಮಾಡಬಾರದು.
+  en: Let no one else make our mistake.
+  words: |
+    namma                      "our"
+    tappanna:ACC      < tappu  "mistake"
+    beere                      "else"
+    yaaruu                     "nobody"
+    maaDabaaradu:NEG  < maaDu  "should make"
+
+b14:
+  say: ಹಾಲ್ ಪೂರ್ತಿ ಮೌನ.
+  en: The whole hall is silent.
+  words: |
+    haal    "the hall" loan
+    puurti  "completely"
+    mauna   "silent"
+
+b15:
+  say: ಹಿಂದೆ, ಬಾಗಿಲು ತೆರೆಯುತ್ತೆ. ಕಿರಣ್. ಸೂಟ್ಕೇಸ್ ಜೊತೆ.
+  en: At the back, the door opens. Kiran. With his suitcase.
+  words: |
+    hinde              "at the back"
+    baagilu            "the door"
+    tereyutte  < tere  "opens"
+    kiraN              "Kiran" name
+    suuTkees           "suitcase" loan
+    jote               "with"
+
+b16:
+  say: ಪುಟ್ಟ...?
+  en: Putta...?
+  words: |
+    puTTa  "Putta...? (little one)"
+
+b17:
+  say: ನಮಸ್ಕಾರ. ನನ್ನ ಕನ್ನಡ... ಸ್ವಲ್ಪ ಹಳೇದು.
+  en: Namaskara. My Kannada is... a little rusty.
+  words: |
+    namaskaara  "namaskara (hello)"
+    nanna       "my"
+    kannaDa     "Kannada" name
+    swalpa      "a little"
+    haLeedu     "old (rusty)"
+
+b18:
+  say: ನನ್ನ ಅಪ್ಪ ನನ್ನನ್ನ ದಿನಾ ಬೆಳಿಗ್ಗೆ ಆ ಕೆರೆಗೆ ಕರ್ಕೊಂಡು ಹೋಗ್ತಿದ್ರು.
+  en: My father took me to that lake every morning.
+  words: |
+    nanna                    "my"
+    appa                     "father"
+    nannanna:ACC    < naanu  "me"
+    dinaa                    "every day"
+    beLigge                  "morning"
+    aa                       "that"
+    kerege:DIR      < kere   "to the lake"
+    karkonDu        < kare   "taking"
+    hoogtidru:PAST  < hoogu  "used to go"
+
+b19:
+  say: ನಾನು ಈ ಊರು ಬಿಟ್ಟೆ. ಆದ್ರೆ ಆ ಕೆರೆ... ನನ್ನ ಅಮ್ಮಂದು. ನನ್ನದು ಕೂಡ.
+  en: I left this city. But that lake... it's my mother's. And mine too.
+  words: |
+    naanu               "I"
+    ii                  "this"
+    uuru                "city"
+    biTTe:PAST  < biDu  "left"
+    aadre               "but"
+    aa                  "that"
+    kere                "lake"
+    nanna               "my"
+    ammandu     < amma  "mother's"
+    nannadu             "mine"
+    kuuDa               "too"
+
+b20:
+  say: ದಯವಿಟ್ಟು. ಅದನ್ನ ಮುಚ್ಚಬೇಡಿ.
+  en: Please. Don't fill it in.
+  words: |
+    dayaviTTu                    "please"
+    adanna:ACC        < adu      "it"
+    muchchabeeDi:NEG  < muchchu  "don't fill (it) in"
+
+b21:
+  say: ಅಮ್ಮ ಅಳ್ತಿದ್ದಾರೆ. ಕಿಟ್ಟು ಕೂಡ. ಫ್ಯಾನ್ ಧೂಳು ಅಂತಾನೆ. ಫ್ಯಾನ್ ತಿರುಗ್ತಾನೇ ಇಲ್ಲ.
+  en: His mother is crying. So is Kittu. He says it's dust from the fan. The fan doesn't even turn.
+  words: |
+    amma                       "his mother"
+    aLtiddaare:PROG  < aLu     "is crying"
+    kiTTu                      "Kittu" name
+    kuuDa                      "too"
+    phyaan                     "the fan" loan
+    dhuuLu                     "dust"
+    antaane          < annu    "he says"
+    phyaan                     "the fan" loan
+    tirugtaanee      < tirugu  "turning at all"
+    illa:NEG                   "is not"
+
+b22:
+  say: ಅಧಿಕಾರಿ ಏನೋ ಬರೀತಾರೆ. ತುಂಬಾ ಹೊತ್ತು.
+  en: The officer writes something. For a long time.
+  words: |
+    adhikaari           "the officer"
+    eenoo               "something"
+    bariitaare  < bare  "writes"
+    tumbaa              "a long"
+    hottu               "time"
+
+b23:
+  say: "ಆಮೇಲೆ ಹೇಳ್ತಾರೆ: 'ಕೆರೆ ಮುಚ್ಚೋದು ನಿಲ್ಲಿಸಲಾಗಿದೆ.'"
+  en: "Then he speaks: 'The filling in of the lake is stopped.'"
+  words: |
+    aameele                         "then"
+    heeLtaare            < heeLu    "he says"
+    kere                            "the lake"
+    muchchoodu           < muchchu  "filling in"
+    nillisalaagide:PERF  < nillisu  "has been stopped (formal)"
+
+b24:
+  say: ಯೆಸ್!
+  en: Yes!
+  words: |
+    yes  "yes!" loan
+
+b25:
+  say: "'ಆದ್ರೆ ಕೆರೆ ಕ್ಲೀನ್ ಮಾಡೋದು... ನಿಮ್ಮ ಕೆಲಸ.'"
+  en: "'But cleaning the lake... that's your job.'"
+  words: |
+    aadre              "but"
+    kere               "the lake"
+    kliin              "clean" loan
+    maaDoodu  < maaDu  "making"
+    nimma              "your"
+    kelasa             "job"
+
+b26:
+  say: ಹಾಗಾದ್ರೆ ನಮ್ಮ ಕೆಲಸ.
+  en: Then it's our job.
+  words: |
+    haagaadre  "then"
+    namma      "our"
+    kelasa     "job (it is)"
+
+b27:
+  say: ನಮ್ಮ ಕೆಲಸ.
+  en: Our job.
+  words: |
+    namma   "our"
+    kelasa  "job"
