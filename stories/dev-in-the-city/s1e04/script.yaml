@@ -1,0 +1,65 @@
+# s1e04: First Day. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: office
+  cast:
+    dev:   standing @ 0.22
+    priya: standing @ 0.5
+    boss:  standing @ 0.84
+  beats:
+    b01: { who: priya, mood: happy, icons: [person, question], tags: [cheerfully], start: [priya.wave] }
+    b02: { who: dev, mood: breezy, icons: [ok, person, question] }
+    b03: { who: priya, mood: breezy, icons: [person, briefcase] }
+    b04: { who: dev, mood: sheepish, icons: [speech, pinch], start: [dev.sheepish] }
+    b05: { who: priya, mood: amused, icons: [ok, speech], tags: [laughs, warmly], start: [priya.smile] }
+    b06: { who: narrator, start: [boss.enter] }
+
+p2:
+  set: office
+  cast:
+    dev:   standing @ 0.24
+    boss:  standing @ 0.55
+    priya: standing @ 0.84
+  beats:
+    b07: { who: boss, mood: happy, icons: [tea, question], tags: [excited], start: [boss.laugh] }
+    b08: { who: dev, mood: shocked, icons: [rupee, person], start: [dev.shock] }
+    b09: { who: boss, mood: proud, icons: [tea, heart], start: [boss.proud] }
+    b10: { who: boss, mood: proud, icons: [phone], tags: [clears throat], start: [boss.phone] }
+    b11: { who: boss, mood: proud, icons: [person, person, ok], tags: [dramatically] }
+    b12: { who: narrator, tags: [deadpan], start: [priya.eyeroll] }
+    b13: { who: boss, mood: happy, icons: [phone, sun], start: [boss.proud] }
+    b14: { who: priya, mood: sly, icons: [clock], digits: "5:00", tags: [sarcastic] }
+    b15: { who: dev, mood: shocked, icons: [clock, question], digits: "5:00", start: [dev.shock] }
+
+p3:
+  set: office
+  cast:
+    dev:   standing @ 0.32
+    priya: standing @ 0.68
+  props:
+    table: lunch_table
+  beats:
+    b16: { who: narrator, tags: [cheerfully], start: [priya.proud] }
+    b17: { who: priya, mood: happy, icons: [tiffin, heart], tags: [proudly], start: [priya.proud] }
+    b18: { who: dev, mood: happy, icons: [tiffin, heart], tags: [excited], start: [dev.eat] }
+    b19: { who: priya, mood: sly, icons: [tiffin, question] }
+    b20: { who: dev, mood: happy, icons: [ok], tags: [happy], start: [dev.nod] }
+    b21: { who: priya, mood: sly, icons: [tiffin, question], tags: [mischievously] }
+    b22: { who: dev, mood: sheepish, icons: [pinch], tags: [hesitant], start: [dev.eat] }
+    b23: { who: priya, mood: amused, icons: [speech, ok], tags: [laughs], start: [priya.laugh] }
+    b24: { who: dev, mood: happy, icons: ["no", ok], tags: [laughs], start: [dev.smile] }
+
+p4:
+  set: office
+  cast:
+    dev:   standing @ 0.24
+    boss:  standing @ 0.55
+    priya: standing @ 0.84
+  beats:
+    b25: { who: boss, mood: stern, icons: [pinch], tags: [casually], start: [boss.stern] }
+    b26: { who: boss, mood: stern, icons: [briefcase, calendar] }
+    b27: { who: dev, mood: wary, icons: [calendar, question], tags: [nervously] }
+    b28: { who: boss, mood: happy, icons: [sun, moon, briefcase], tags: [cheerfully], start: [boss.laugh] }
+    b29: { who: narrator, start: [dev.shock] }
+    b30: { who: priya, mood: weary, icons: [calendar, "no"], tags: [sighs], start: [priya.sigh], cliffhanger: true }

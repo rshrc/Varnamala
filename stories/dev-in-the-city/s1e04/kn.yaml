@@ -1,0 +1,249 @@
+# s1e04 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಮೊದಲ ದಿನ | modala dina | First Day
+tease: ವೀಕೆಂಡ್ ಕೆಲಸ! | viikenD kelasa! | Work at the weekend!
+
+b01:
+  say: ಹಾಯ್! ನೀವು ದೇವ್, ಅಲ್ವಾ?
+  en: Hi! You're Dev, right?
+  words: |
+    haay       "hi!" loan
+    niivu:HON  "you"
+    dev        "Dev" name
+    alvaa:Q    "right?"
+
+b02:
+  say: ಹೌದು. ನೀವು?
+  en: Yes. And you?
+  words: |
+    haudu      "yes"
+    niivu:HON  "you?"
+
+b03:
+  say: ನಾನು ಪ್ರಿಯಾ. ನಿಮ್ಮ ಟೀಮ್.
+  en: I'm Priya. Your team.
+  words: |
+    naanu      "I'm"
+    priyaa     "Priya" name
+    nimma:GEN  "your"
+    Tiim       "team" loan
+
+b04:
+  say: ನನ್ನ ಕನ್ನಡ... ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ.
+  en: My Kannada... a little, a little.
+  words: |
+    nanna:GEN  "my"
+    kannaDa    "Kannada..." name
+    swalpa     "a little"
+    swalpa     "a little"
+
+b05:
+  say: ಪರವಾಗಿಲ್ಲ! ನಾನು ಹೇಳ್ಕೊಡ್ತೀನಿ.
+  en: No problem! I'll teach you.
+  words: |
+    paravaagilla  paravaagi·lla:NEG                    "no problem!"
+    naanu                                              "I"
+    heeLkoDtiini  heeLkoD·tiini:PRES.1SG  < heeLikoDu  "will teach (you)"
+
+b06:
+  say: ಬಾಸ್ ಬರ್ತಾರೆ.
+  en: The boss arrives.
+  words: |
+    baas                             "the boss" loan
+    bartaare  bar·taare:HON  < baru  "comes"
+
+b07:
+  say: ಓ! ದೇವ್! ಟೀ ಚೆನ್ನಾಗಿತ್ತಾ?
+  en: Oh! Dev! Was the tea good?
+  words: |
+    oo                                                  "oh!"
+    dev                                                 "Dev!" name
+    Tii                                                 "tea" loan
+    chennaagittaa  chennaag·itt:PAST·aa:Q  < chennaagi  "was it good?"
+
+b08:
+  say: ನೀವು! ಟೀ ನೀವೇ ಕೊಟ್ರಿ!
+  en: You! You paid for the tea!
+  words: |
+    niivu:HON                           "you!"
+    Tii                                 "tea" loan
+    niivee                              "you yourself"
+    koTri      koT:PAST·ri:HON  < koDu  "paid!"
+
+b09:
+  say: ನಾನು ಚಾಯ್ ಅಣ್ಣನ ಹಳೇ ಗಿರಾಕಿ.
+  en: I'm an old customer of Chai Anna's.
+  words: |
+    naanu                         "I'm"
+    chaay                         "chai" loan
+    aNNana   aNNan·a:GEN  < aNNa  "Anna's"
+    haLee                         "old"
+    giraaki                       "customer"
+
+b10:
+  say: ಕೇಳಿ! ಇವತ್ತಿನ ಮೆಸೇಜ್.
+  en: Listen! Today's message.
+  words: |
+    keeLi     keeL·i:IMP.HON  < keeLu   "listen!"
+    ivattina  ivatt·ina:GEN   < ivattu  "today's"
+    meseej                              "message" loan
+
+b11:
+  say: ಟೀಮ್ ವರ್ಕ್ ಮಾಡಿದ್ರೆ, ಡ್ರೀಮ್ ವರ್ಕ್ ಆಗುತ್ತೆ!
+  en: If you do team work, dream work happens!
+  words: |
+    Tiim                             "team" loan
+    vark                             "work" loan
+    maaDidre                < maaDu  "if you do"
+    Driim                            "dream" loan
+    vark                             "work" loan
+    aagutte   aag·utte:FUT  < aagu   "happens!"
+
+b12:
+  say: ಪ್ರಿಯಾ ಕಣ್ಣು ತಿರುಗಿಸ್ತಾಳೆ.
+  en: Priya rolls her eyes.
+  words: |
+    priyaa                                            "Priya" name
+    kaNNu                                             "eyes"
+    tirugistaaLe  tirugis·taaLe:PRES.3SG  < tirugisu  "rolls"
+
+b13:
+  say: ಎಲ್ಲರಿಗೂ ಗುಡ್ ಮಾರ್ನಿಂಗ್ ಮೆಸೇಜ್ ಕಳಿಸ್ತೀನಿ.
+  en: I send everyone a good morning message.
+  words: |
+    ellarigu    ellar·igu:DIR         < ellaru  "to everyone"
+    guD                                         "good" loan
+    maarning                                    "morning" loan
+    meseej                                      "message" loan
+    kaListiini  kaLis·tiini:PRES.1SG  < kaLisu  "I send"
+
+b14:
+  say: ದಿನಾ. ಬೆಳಿಗ್ಗೆ ಐದಕ್ಕೆ.
+  en: Every day. At five in the morning.
+  words: |
+    dinaa                          "every day"
+    beLigge                        "in the morning"
+    aidakke  aid·akke:DIR  < aidu  "at five" @priya.fingers
+
+b15:
+  say: ಐದಕ್ಕೆ?!
+  en: At five?!
+  words: |
+    aidakke  aid·akke:DIR  < aidu  "at five?!"
+
+b16:
+  say: ಒಂದು ಗಂಟೆ. ಊಟದ ಸಮಯ.
+  en: One o'clock. Lunchtime.
+  words: |
+    ondu                         "one"
+    ghanTe                       "o'clock"
+    uuTada  uuTa·da:GEN  < uuTa  "lunch's"
+    samaya                       "time"
+
+b17:
+  say: ಅಮ್ಮನ ಚಿತ್ರಾನ್ನ. ತಿನ್ನಿ!
+  en: My mum's lemon rice. Have some!
+  words: |
+    ammana      amma·na:GEN     < amma   "Mum's"
+    chitraanna                           "lemon rice"
+    tinni       tinn·i:IMP.HON  < tinnu  "eat! (please)"
+
+b18:
+  say: ವಾವ್! ತುಂಬಾ ರುಚಿ!
+  en: Wow! So tasty!
+  words: |
+    vaav    "wow!" loan
+    tumbaa  "very"
+    ruchi   "tasty!"
+
+b19:
+  say: ಇನ್ನೂ ಸ್ವಲ್ಪ?
+  en: A little more?
+  words: |
+    innuu   "more"
+    swalpa  "a little?"
+
+b20:
+  say: ಹೂಂ!
+  en: Mm-hm!
+  words: |
+    huum  "mm-hm!"
+
+b21:
+  say: ಇನ್ನೂ ಸ್ವಲ್ಪ?
+  en: A little more?
+  words: |
+    innuu   "more"
+    swalpa  "a little?"
+
+b22:
+  say: ಹೂಂ... ಸರಿ.
+  en: Umm... okay.
+  words: |
+    huum  "umm..."
+    sari  "okay."
+
+b23:
+  say: ಸಾಕಾದ್ರೆ, ಸಾಕು ಅನ್ನಿ!
+  en: If it's enough, say 'saaku'!
+  words: |
+    saakaadre  saakaad·re     < saaku  "if it's enough"
+    saaku                              "enough"
+    anni       ann·i:IMP.HON  < annu   "say! (please)"
+
+b24:
+  say: ಸಾಕು! ಸಾಕು!
+  en: Enough! Enough!
+  words: |
+    saaku  "enough!"
+    saaku  "enough!"
+
+b25:
+  say: ಒಂದು ಸಣ್ಣ ವಿಷಯ.
+  en: One small thing.
+  words: |
+    ondu     "one"
+    saNNa    "small"
+    vishaya  "thing, matter"
+
+b26:
+  say: ಪ್ರಾಜೆಕ್ಟ್ ಸೋಮವಾರ ಬೇಕು.
+  en: The project's needed on Monday.
+  words: |
+    praajekT    "the project" loan
+    soomavaara  "Monday"
+    beeku       "is needed"
+
+b27:
+  say: ಈ ಸೋಮವಾರ?
+  en: This Monday?
+  words: |
+    ii          "this"
+    soomavaara  "Monday?"
+
+b28:
+  say: ಹೌದು! ಅಂದ್ರೆ... ಶನಿವಾರ, ಭಾನುವಾರ... ಕೆಲಸ!
+  en: Yes! That means... Saturday, Sunday... work!
+  words: |
+    haudu        "yes!"
+    andre        "meaning..."
+    shanivaara   "Saturday"
+    bhaanuvaara  "Sunday..."
+    kelasa       "work!"
+
+b29:
+  say: ದೇವ್ ಪ್ರಿಯಾನ ನೋಡ್ತಾನೆ.
+  en: Dev looks at Priya.
+  words: |
+    dev                                       "Dev" name
+    priyaana   priyaa·na:ACC        < priyaa  "at Priya"
+    nooDtaane  nooD·taane:PRES.3SG  < nooDu   "looks"
+
+b30:
+  say: ವೀಕೆಂಡ್... ಗಾನ್.
+  en: Weekend... gone.
+  words: |
+    viikenD  "weekend..." loan
+    gaan     "gone." loan

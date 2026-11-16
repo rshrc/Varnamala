@@ -1,0 +1,274 @@
+# s1e04 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: पहला दिन | pahlaa din | First Day
+tease: वीकेंड पर काम! | viikenD par kaam! | Work at the weekend!
+
+b01:
+  say: हाय! आप देव हो ना?
+  en: Hi! You're Dev, right?
+  words: |
+    haay              "hi!" loan
+    aap:HON           "you"
+    dev               "Dev" name
+    ho       < honaa  "are"
+    naa:Q             "right?"
+
+b02:
+  say: हाँ। और आप?
+  en: Yes. And you?
+  words: |
+    haa~     "yes"
+    aur      "and"
+    aap:HON  "you?"
+
+b03:
+  say: मैं प्रिया। आपकी टीम।
+  en: I'm Priya. Your team.
+  words: |
+    mai~        "I'm"
+    priyaa      "Priya" name
+    aapkii:GEN  "your"
+    Tiim        "team" loan
+
+b04:
+  say: मेरी हिंदी... थोड़ी थोड़ी।
+  en: My Hindi... a little, a little.
+  words: |
+    merii:GEN  "my"
+    hindii     "Hindi..." name
+    thoDii     "a little"
+    thoDii     "a little"
+
+b05:
+  say: कोई बात नहीं! मैं सिखाऊँगी।
+  en: No problem! I'll teach you.
+  words: |
+    koii                           "any"
+    baat                           "matter"
+    nahii~:NEG                     "no!"
+    mai~                           "I"
+    sikhaauu~gii:FUT  < sikhaanaa  "will teach (you)"
+
+b06:
+  say: बॉस आते हैं।
+  en: The boss arrives.
+  words: |
+    bos                "the boss" loan
+    aate      < aanaa  "comes"
+    hai~:HON  < honaa  "(is)"
+
+b07:
+  say: अरे! देव! चाय अच्छी थी?
+  en: Oh! Dev! Was the tea good?
+  words: |
+    are                 "oh!"
+    dev                 "Dev!" name
+    chaay               "tea"
+    achchhii            "good"
+    thii:PAST  < honaa  "was it?"
+
+b08:
+  say: आप! चाय आपने दी!
+  en: You! You paid for the tea!
+  words: |
+    aap:HON            "you!"
+    chaay              "tea"
+    aapne              "you"
+    dii:PAST  < denaa  "paid for!"
+
+b09:
+  say: मैं चायवाले भैया का पुराना ग्राहक हूँ।
+  en: I'm an old customer of the chai bhaiya's.
+  words: |
+    mai~                 "I"
+    chaayvaale           "the chai seller"
+    bhaiyaa              "brother"
+    kaa:GEN              "'s"
+    puraanaa             "old"
+    graahak              "customer"
+    huu~        < honaa  "am"
+
+b10:
+  say: सुनिए! आज का मैसेज।
+  en: Listen! Today's message.
+  words: |
+    suniye   sun·iye:IMP.HON  < sunnaa  "listen!"
+    aaj                                 "today"
+    kaa:GEN                             "'s"
+    maisej                              "message" loan
+
+b11:
+  say: टीम वर्क करो, तो ड्रीम वर्क होगा!
+  en: If you do team work, dream work happens!
+  words: |
+    Tiim                 "team" loan
+    vark                 "work" loan
+    karo:IMP   < karnaa  "do"
+    to                   "then"
+    Driim                "dream" loan
+    vark                 "work" loan
+    hogaa:FUT  < honaa   "will happen!"
+
+b12:
+  say: प्रिया आँखें घुमाती है।
+  en: Priya rolls her eyes.
+  words: |
+    priyaa                  "Priya" name
+    aa~khe~    < aa~kh      "eyes"
+    ghumaatii  < ghumaanaa  "rolls"
+    hai        < honaa      "(is)"
+
+b13:
+  say: मैं सबको गुड मॉर्निंग मैसेज भेजता हूँ।
+  en: I send everyone a good morning message.
+  words: |
+    mai~                  "I"
+    sabko:DIR             "to everyone"
+    guD                   "good" loan
+    morning               "morning" loan
+    maisej                "message" loan
+    bhejtaa    < bhejnaa  "send"
+    huu~       < honaa    "(I do)"
+
+b14:
+  say: रोज़। सुबह पाँच बजे।
+  en: Every day. At five in the morning.
+  words: |
+    roz     "every day"
+    subah   "morning"
+    paa~ch  "five" @priya.fingers
+    baje    "o'clock"
+
+b15:
+  say: पाँच बजे?!
+  en: At five?!
+  words: |
+    paa~ch  "five"
+    baje    "o'clock?!"
+
+b16:
+  say: एक बजे। लंच का टाइम।
+  en: One o'clock. Lunchtime.
+  words: |
+    ek                 "one"
+    baje     < bajnaa  "o'clock"
+    lanch              "lunch" loan
+    kaa:GEN            "'s"
+    Taaim              "time" loan
+
+b17:
+  say: मम्मी के राजमा चावल। खाओ!
+  en: My mum's rajma chawal. Have some!
+  words: |
+    mammii                "mum"
+    ke:GEN                "'s"
+    raajmaa               "rajma (kidney beans)"
+    chaaval               "rice"
+    khaao:IMP  < khaanaa  "eat!"
+
+b18:
+  say: वाह! बहुत स्वादिष्ट!
+  en: Wow! So tasty!
+  words: |
+    vaah       "wow!"
+    bahut      "very"
+    svaadishT  "tasty!"
+
+b19:
+  say: थोड़ा और?
+  en: A little more?
+  words: |
+    thoDaa  "a little"
+    aur     "more?"
+
+b20:
+  say: हाँ!
+  en: Mm-hm!
+  words: |
+    haa~  "yes!"
+
+b21:
+  say: थोड़ा और?
+  en: A little more?
+  words: |
+    thoDaa  "a little"
+    aur     "more?"
+
+b22:
+  say: हम्म... ठीक है।
+  en: Umm... okay.
+  words: |
+    hmm             "umm..."
+    Thiik           "okay"
+    hai    < honaa  "(is)"
+
+b23:
+  say: बस हो, तो बस बोलो!
+  en: If it's enough, say 'bas'!
+  words: |
+    bas                 "enough"
+    ho        < honaa   "(it) is"
+    to                  "then"
+    bas                 "enough"
+    bolo:IMP  < bolnaa  "say!"
+
+b24:
+  say: बस! बस!
+  en: Enough! Enough!
+  words: |
+    bas  "enough!"
+    bas  "enough!"
+
+b25:
+  say: एक छोटी सी बात।
+  en: One small thing.
+  words: |
+    ek       "one"
+    chhoTii  "small"
+    sii      "(little)"
+    baat     "thing"
+
+b26:
+  say: प्रोजेक्ट सोमवार को चाहिए।
+  en: The project's needed on Monday.
+  words: |
+    projekT   "the project" loan
+    somvaar   "Monday"
+    ko:DIR    "on"
+    chaahiye  "is needed"
+
+b27:
+  say: इस सोमवार?
+  en: This Monday?
+  words: |
+    is       "this"
+    somvaar  "Monday?"
+
+b28:
+  say: हाँ! मतलब... शनिवार, रविवार... काम!
+  en: Yes! That means... Saturday, Sunday... work!
+  words: |
+    haa~       "yes!"
+    matlab     "meaning..."
+    shanivaar  "Saturday"
+    ravivaar   "Sunday..."
+    kaam       "work!"
+
+b29:
+  say: देव प्रिया को देखता है।
+  en: Dev looks at Priya.
+  words: |
+    dev                 "Dev" name
+    priyaa              "Priya" name
+    ko:ACC              "at"
+    dekhtaa  < dekhnaa  "looks"
+    hai      < honaa    "(is)"
+
+b30:
+  say: वीकेंड... गया।
+  en: Weekend... gone.
+  words: |
+    viikenD               "weekend..." loan
+    gayaa:PAST  < jaanaa  "gone."
