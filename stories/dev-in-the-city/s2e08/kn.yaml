@@ -1,0 +1,277 @@
+# s2e08 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಕಡಲೆಕಾಯಿ ಪರಿಷೆ | kaDalekaayi parishe | The Groundnut Fair
+tease: ವಿಚಾರಣೆ. | vichaaraNe. | The hearing.
+
+b01:
+  say: ನವೆಂಬರ್ ಕೊನೆ. ಬಸವನಗುಡಿಯಲ್ಲಿ ಕಡಲೆಕಾಯಿ ಪರಿಷೆ.
+  en: Late November. The groundnut fair in Basavanagudi.
+  words: |
+    navembar                               "November" loan
+    kone                                   "end (late)"
+    basavanaguDiyalli:LOC  < basavanaguDi  "in Basavanagudi" name
+    kaDalekaayi                            "groundnut"
+    parishe                                "fair"
+
+b02:
+  say: ಕಡಲೆಕಾಯಿ. ಕಡಲೆಕಾಯಿಯ ಬೆಟ್ಟಗಳು.
+  en: Groundnuts. Mountains of groundnuts.
+  words: |
+    kaDalekaayi                       "groundnuts"
+    kaDalekaayiya:GEN  < kaDalekaayi  "of groundnuts"
+    beTTagaLu:PL       < beTTa        "mountains"
+
+b03:
+  say: ಪ್ರತಿ ವರ್ಷ ರೈತರು ಮೊದಲ ಕಡಲೆಕಾಯಿ ಇಲ್ಲಿಗೆ ತರ್ತಾರೆ.
+  en: Every year, the farmers bring their first groundnuts here.
+  words: |
+    prati                 "every"
+    varSha                "year"
+    raitaru:PL   < raita  "farmers"
+    modala                "first"
+    kaDalekaayi           "groundnuts"
+    illige:DIR   < illi   "here (to)"
+    tartaare     < taru   "bring"
+
+b04:
+  say: ಬಸವಣ್ಣನಿಗೆ. ಒಂದು ಧನ್ಯವಾದ.
+  en: For Basavanna, the sacred bull. A thank-you.
+  words: |
+    basavaNNanige:DIR  < basavaNNa  "to Basavanna (the sacred bull)" name
+    ondu                            "a"
+    dhanyavaada                     "thank-you"
+
+b05:
+  say: ಧನ್ಯವಾದ... ಬೆಳೆಗೆ?
+  en: A thank-you... for the harvest?
+  words: |
+    dhanyavaada          "a thank-you..."
+    beLege:DIR   < beLe  "for the harvest?"
+
+b06:
+  say: ಹೌದು. ಮೊದಲು ಮಣ್ಣಿಗೆ ಧನ್ಯವಾದ.
+  en: Yes. First, you say thank you to the soil.
+  words: |
+    haudu                 "yes"
+    modalu                "first"
+    maNNige:DIR  < maNNu  "to the soil"
+    dhanyavaada           "thank you"
+
+b07:
+  say: ನಮ್ಮ ಹಳ್ಳಿಯಲ್ಲೂ ಹಾಗೇ ಮಾಡ್ತಿದ್ವಿ.
+  en: In our village, we did that too.
+  words: |
+    namma                     "our"
+    haLLiyalluu:LOC  < haLLi  "in the village too"
+    haagee                    "just like that"
+    maaDtidvi:PAST   < maaDu  "we used to do"
+
+b08:
+  say: ನಾನು ತಗೋತೀನಿ. ಊರಲ್ಲಿ ಪ್ರತಿ ನೆರೆಯವರಿಗೂ!
+  en: I'm buying some. For every neighbour back home!
+  words: |
+    naanu                                          "I"
+    tagootiini                       < tago        "I'll buy (take)"
+    uuralli            uur·alli:LOC  < uuru        "back home"
+    prati                                          "every"
+    nereyavariguu:DIR                < nereyavaru  "neighbour (for)!"
+
+b09:
+  say: ಪ್ರತಿ ನೆರೆಯವರಿಗಾ? ಲಾರಿ ಬೇಕು!
+  en: Every neighbour? You'll need a lorry!
+  words: |
+    prati                          "every"
+    nereyavarigaa:Q  < nereyavaru  "neighbour?"
+    laari                          "a lorry" loan
+    beeku                          "is needed!"
+
+b10:
+  say: ಆಗ, ಕಿಟ್ಟು. ಮೂರು ಕಾಗದದ ಕೋನ್ ಕಡಲೆಕಾಯಿ ಜೊತೆ.
+  en: Then, Kittu. With three paper cones of groundnuts.
+  words: |
+    aaga                      "then"
+    kiTTu                     "Kittu" name
+    muuru                     "three"
+    kaagadada:GEN  < kaagada  "paper"
+    koon                      "cones" loan
+    kaDalekaayi               "of groundnuts"
+    jote                      "with"
+
+b11:
+  say: ಅಕ್ಕ. ಅಪ್ಪನ ಜೊತೆ ಪ್ರತಿ ವರ್ಷ ಬರ್ತಿದ್ದೆ.
+  en: Akka. I used to come with Appa, every year.
+  words: |
+    akka                                "Akka"
+    appana         appa·na:GEN  < appa  "Appa's (Dad's)"
+    jote                                "with"
+    prati                               "every"
+    varSha                              "year"
+    bartidde:PAST               < baru  "I used to come"
+
+b12:
+  say: ಗೊತ್ತು. ಅಪ್ಪ ನಿನಗೆ ಎರಡು ಕೋನ್ ಕೊಡಿಸ್ತಿದ್ರು. ನೀನು ಮೂರಕ್ಕೆ ಅಳ್ತಿದ್ದೆ.
+  en: I know. Appa bought you two cones. You cried for three.
+  words: |
+    gottu                      "I know"
+    appa                       "Appa"
+    ninage:DIR       < niinu   "for you"
+    eraDu                      "two"
+    koon                       "cones" loan
+    koDistidru:PAST  < koDisu  "used to buy"
+    niinu                      "you"
+    muurakke:DIR     < muuru   "for three"
+    aLtidde:PAST     < aLu     "used to cry"
+
+b13:
+  say: ಇವತ್ತು, ಮೂರು ತಗೊಂಡೆ.
+  en: Today, I bought three.
+  words: |
+    ivattu                "today"
+    muuru                 "three"
+    tagonDe:PAST  < tago  "I bought (took)"
+
+b14:
+  say: ಅಕ್ಕ-ತಮ್ಮ ನಗ್ತಾರೆ. ಅಮ್ಮ ನೋಡ್ತಾರೆ. ದೂರದಲ್ಲಿರೋ ತಮ್ಮ ನೆನಪಾಗ್ತಾನೆ.
+  en: Sister and brother laugh. Amma watches, and thinks of her own brother, far away.
+  words: |
+    akka-tamma                                    "sister and brother"
+    nagtaare       nag·taare:PRES.3PL   < nagu    "laugh"
+    amma                                          "Amma"
+    nooDtaare      nooD·taare:PRES.3PL  < nooDu   "watches"
+    duuradalliroo                       < duura   "far away"
+    tamma                                         "(her own) brother"
+    nenapaagtaane                       < nenapu  "comes to mind"
+
+b15:
+  say: ರಾತ್ರಿ. ಮೊದಲ ಸಲ, ಶಾರದಾ ಟೆರೇಸ್ ಹತ್ತುತ್ತಾರೆ.
+  en: Night. For the first time, Sharada climbs up to the terrace.
+  words: |
+    raatri                "night"
+    modala                "first"
+    sala                  "time"
+    shaaradaa             "Sharada" name
+    Terees                "the terrace" loan
+    hattuttaare  < hattu  "climbs up to"
+
+b16:
+  say: ಸುನೀತಾ. ಆ ಜಾಗದ ಬಗ್ಗೆ...
+  en: Sunita. About the land...
+  words: |
+    suniitaa              "Sunita" name
+    aa                    "that"
+    jaagada:GEN  < jaaga  "land"
+    bagge                 "about..."
+
+b17:
+  say: ದುಡ್ಡು ಬೇಕಿತ್ತು. ಕಿಟ್ಟು ಕಾಲೇಜು. ಅದಕ್ಕೆ ಮಾರಿದ್ರು.
+  en: We needed money. Kittu's college. So he sold it.
+  words: |
+    duDDu                   "money"
+    beekittu:PAST  < beeku  "was needed"
+    kiTTu                   "Kittu" name
+    kaaleeju                "'s college" loan
+    adakke:DIR     < adu    "that's why"
+    maaridru:PAST  < maaru  "he sold (it)"
+
+b18:
+  say: ಅವತ್ತಿಂದ, ಅವರು ದಿನಾ ಬೆಳಿಗ್ಗೆ ಕೆರೆ ಹತ್ರ ನಡೀತಿದ್ರು. ದಿನಾ.
+  en: From that day, he walked by the lake every morning. Every single morning.
+  words: |
+    avattinda:ABL    < avattu  "from that day"
+    avaru                      "he"
+    dinaa                      "every day"
+    beLigge                    "morning"
+    kere                       "the lake"
+    hatra                      "by"
+    naDiitidru:PAST  < naDe    "used to walk"
+    dinaa                      "every day"
+
+b19:
+  say: ಅವರು ಕೆರೆಗೆ ಸಾರಿ ಕೇಳ್ತಿದ್ರು ಅನ್ಸುತ್ತೆ.
+  en: I think he was saying sorry to it.
+  words: |
+    avaru                    "he"
+    kerege:DIR      < kere   "to the lake"
+    saari                    "sorry" loan
+    keeLtidru:PAST  < keeLu  "was saying (asking)"
+    ansutte         < anisu  "I think (it seems)"
+
+b20:
+  say: ಅಮ್ಮ ಅವರ ಕೈ ಹಿಡೀತಾರೆ.
+  en: Amma takes her hand.
+  words: |
+    amma                 "Amma"
+    avara:GEN   < avaru  "her"
+    kai                  "hand"
+    hiDiitaare  < hiDi   "takes (holds)"
+
+b21:
+  say: ಹಾಗಾದ್ರೆ, ಅವರು ಶುರು ಮಾಡಿದ್ದನ್ನ ನಾವು ಮುಗಿಸೋಣ. ಒಟ್ಟಿಗೆ.
+  en: Then we'll finish what he started. Together.
+  words: |
+    haagaadre                  "then"
+    avaru                      "he"
+    shuru                      "started"
+    maaDiddanna:ACC  < maaDu   "what (he) did"
+    naavu                      "we"
+    mugisooNa        < mugisu  "let's finish"
+    oTTige                     "together"
+
+b22:
+  say: ಒಟ್ಟಿಗೆ?
+  en: Together?
+  words: |
+    oTTige  "together?"
+
+b23:
+  say: ನನಗೆ ಇನ್ನೂ ಒಂದು ವಾರ ಇದೆ. ಉಪಯೋಗಿಸೋಣ.
+  en: I still have one week. Let's use it.
+  words: |
+    nanage:DIR     < naanu       "to me (I have)"
+    innuu                        "still"
+    ondu                         "one"
+    vaara                        "week"
+    ide            < iru         "there is"
+    upayoogisooNa  < upayoogisu  "let's use it"
+
+b24:
+  say: ದೇವ್ ಫೋನ್ ರಿಂಗ್ ಆಗುತ್ತೆ. ದೆಹಲಿಯಿಂದ ಕಿರಣ್.
+  en: Dev's phone rings. Kiran, calling from Delhi.
+  words: |
+    dev                                      "Dev" name
+    phoon                                    "phone" loan
+    ring                                     "ring" loan
+    aagutte                        < aagu    "goes"
+    dehaliyinda  dehali·yinda:ABL  < dehali  "from Delhi" name
+    kiraN                                    "Kiran (her son)" name
+
+b25:
+  say: ಬ್ರೋ! ಅಮ್ಮ ಕೆರೆ ಬಗ್ಗೆ ಮೆಸೇಜ್ ಮಾಡಿದ್ರು. ವಿಚಾರಣೆ ಶನಿವಾರನಾ?
+  en: Bro! Ma texted me about the lake. Is the hearing on Saturday?
+  words: |
+    broo                           "bro" loan
+    amma                           "Ma"
+    kere                           "the lake"
+    bagge                          "about"
+    meseej                         "a message" loan
+    maaDidru:PAST    < maaDu       "sent (did)"
+    vichaaraNe                     "the hearing"
+    shanivaaranaa:Q  < shanivaara  "on Saturday?"
+
+b26:
+  say: ಹೌದು. ಶನಿವಾರ.
+  en: Yes. Saturday.
+  words: |
+    haudu       "yes"
+    shanivaara  "Saturday"
+
+b27:
+  say: ಹಾಗಾದ್ರೆ ನಾನು ಬರ್ತೀನಿ. ಅಮ್ಮನಿಗೋಸ್ಕರ.
+  en: Then I'm coming. For Ma.
+  words: |
+    haagaadre                                   "then"
+    naanu                                       "I"
+    bartiini        bar·tiini:PRES.1SG  < baru  "I'm coming"
+    ammanigooskara                      < amma  "for Ma"

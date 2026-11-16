@@ -1,0 +1,348 @@
+# s2e08 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: मेला | melaa | The Fair
+tease: सुनवाई। | sunvaaii. | The hearing.
+
+b01:
+  say: नवंबर का आख़िर। मंदिर के पास पुराना मेला।
+  en: Late November. The old fair by the temple.
+  words: |
+    navambar  "November" loan
+    kaa:GEN   "(of)"
+    aakhir    "end (late)"
+    mandir    "the temple"
+    ke:GEN    "(of)"
+    paas      "by"
+    puraanaa  "the old"
+    melaa     "fair"
+
+b02:
+  say: मूँगफली। मूँगफली के पहाड़।
+  en: Groundnuts. Mountains of groundnuts.
+  words: |
+    muu~gphalii  "groundnuts"
+    muu~gphalii  "groundnut"
+    ke:GEN       "of"
+    pahaaD       "mountains"
+
+b03:
+  say: हर साल किसान अपनी पहली मूँगफली यहाँ लाते हैं।
+  en: Every year, the farmers bring their first groundnuts here.
+  words: |
+    har                    "every"
+    saal                   "year"
+    kisaan                 "farmers"
+    apnii        < apnaa   "their own"
+    pahlii       < pahlaa  "first"
+    muu~gphalii            "groundnuts"
+    yahaa~                 "here"
+    laate        < laanaa  "bring"
+    hai~         < honaa   "(are)"
+
+b04:
+  say: भगवान को। एक धन्यवाद।
+  en: For God. A thank-you.
+  words: |
+    bhagvaan    "God"
+    ko:DIR      "to"
+    ek          "a"
+    dhanyavaad  "thank-you"
+
+b05:
+  say: धन्यवाद... फ़सल के लिए?
+  en: A thank-you... for the harvest?
+  words: |
+    dhanyavaad  "a thank-you..."
+    fasal       "the harvest"
+    ke:GEN      "(for)"
+    lie         "for?"
+
+b06:
+  say: हाँ। पहले मिट्टी को धन्यवाद।
+  en: Yes. First, you say thank you to the soil.
+  words: |
+    haa~        "yes"
+    pahle       "first"
+    miTTii      "the soil"
+    ko:DIR      "to"
+    dhanyavaad  "thank you"
+
+b07:
+  say: हमारे गाँव में भी ऐसा ही करते थे।
+  en: In our village, we did that too.
+  words: |
+    hamaare   < hamaaraa  "our"
+    gaa~v     < gaa~v     "village"
+    me~:LOC               "in"
+    bhii                  "too"
+    aisaa                 "like that"
+    hii                   "just"
+    karte     < karnaa    "did"
+    the:PAST  < honaa     "used to"
+
+b08:
+  say: मैं ले जाऊँगी। घर पर हर पड़ोसी के लिए!
+  en: I'm buying some. For every neighbour back home!
+  words: |
+    mai~                     "I"
+    le             < lenaa   "take"
+    jaauu~gii:FUT  < jaanaa  "I'll (take away)"
+    ghar                     "home"
+    par:LOC                  "at"
+    har                      "every"
+    paDosii                  "neighbour"
+    ke:GEN                   "(for)"
+    lie                      "for!"
+
+b09:
+  say: हर पड़ोसी के लिए? ट्रक चाहिए!
+  en: Every neighbour? You'll need a lorry!
+  words: |
+    har      "every"
+    paDosii  "neighbour"
+    ke:GEN   "(for)"
+    lie      "for?"
+    Trak     "a truck" loan
+    chaahie  "is needed!"
+
+b10:
+  say: तभी, बबलू। तीन काग़ज़ के ठोंगे मूँगफली लिए।
+  en: Just then, Bablu. With three paper cones of groundnuts.
+  words: |
+    tabhii                  "just then"
+    bablu                   "Bablu" name
+    tiin                    "three"
+    kaagaz                  "paper"
+    ke:GEN                  "(of)"
+    Tho~ge       < Tho~gaa  "cones"
+    muu~gphalii             "of groundnuts"
+    lie          < lenaa    "holding"
+
+b11:
+  say: दीदी। पापा के साथ हर साल आता था।
+  en: Didi. I used to come with Papa, every year.
+  words: |
+    diidii              "Didi"
+    paapaa              "Papa (Dad)"
+    ke:GEN              "(with)"
+    saath               "with"
+    har                 "every"
+    saal                "year"
+    aataa      < aanaa  "came"
+    thaa:PAST  < honaa  "used to"
+
+b12:
+  say: पता है। पापा तुझे दो ठोंगे दिलाते थे। तू तीन के लिए रोता था।
+  en: I know. Papa bought you two cones. You cried for three.
+  words: |
+    pataa                  "known"
+    hai        < honaa     "I know"
+    paapaa                 "Papa"
+    tujhe      < tuu       "you"
+    do                     "two"
+    Tho~ge     < Tho~gaa   "cones"
+    dilaate    < dilaanaa  "bought (for)"
+    the:PAST   < honaa     "used to"
+    tuu                    "you"
+    tiin                   "three"
+    ke:GEN                 "(for)"
+    lie                    "for"
+    rotaa      < ronaa     "cried"
+    thaa:PAST  < honaa     "used to"
+
+b13:
+  say: आज, तीन ले लिए।
+  en: Today, I bought three.
+  words: |
+    aaj                "today"
+    tiin               "three"
+    le        < lenaa  "take"
+    lie:PERF  < lenaa  "(I've) bought"
+
+b14:
+  say: बहन-भाई हँसते हैं। माँ देखती हैं। उन्हें दूर बैठा अपना भाई याद आता है।
+  en: Sister and brother laugh. Amma watches, and thinks of her own brother, far away.
+  words: |
+    bahan-bhaaii              "sister and brother"
+    ha~ste        < ha~snaa   "laugh"
+    hai~          < honaa     "(are)"
+    maa~                      "Ma"
+    dekhtii       < dekhnaa   "watches"
+    hai~          < honaa     "(are)"
+    unhe~         < vo        "to her"
+    duur                      "far away"
+    baiThaa       < baiThnaa  "living (sitting)"
+    apnaa                     "her own"
+    bhaaii                    "brother"
+    yaad                      "memory"
+    aataa         < aanaa     "comes"
+    hai           < honaa     "(is)"
+
+b15:
+  say: रात। पहली बार, कमला जी छत पर आती हैं।
+  en: Night. For the first time, Kamla-ji climbs up to the terrace.
+  words: |
+    raat               "night"
+    pahlii   < pahlaa  "first"
+    baar               "time"
+    kamlaa             "Kamla" name
+    jii                "-ji"
+    chhat              "the roof"
+    par:LOC            "up to"
+    aatii    < aanaa   "comes"
+    hai~     < honaa   "(are)"
+
+b16:
+  say: शम्पा। उस ज़मीन के बारे में...
+  en: Shampa. About the land...
+  words: |
+    shampaa  "Shampa" name
+    us       "that"
+    zamiin   "land"
+    ke:GEN   "(of)"
+    baare    "about"
+    me~      "(in)..."
+
+b17:
+  say: पैसे चाहिए थे। बबलू का कॉलेज। इसलिए बेची।
+  en: We needed money. Bablu's college. So we sold it.
+  words: |
+    paise        < paisaa   "money"
+    chaahie                 "needed"
+    the:PAST     < honaa    "were"
+    bablu                   "Bablu" name
+    kaa:GEN                 "'s"
+    kolej                   "college" loan
+    islie                   "that's why"
+    bechii:PAST  < bechnaa  "(we) sold (it)"
+
+b18:
+  say: उस दिन से, वो रोज़ सुबह झील के पास टहलते थे। रोज़।
+  en: From that day, he walked by the lake every morning. Every single morning.
+  words: |
+    us                    "that"
+    din                   "day"
+    se:ABL                "from"
+    vo                    "he"
+    roz                   "every day"
+    subah                 "morning"
+    jhiil                 "the lake"
+    ke:GEN                "(of)"
+    paas                  "by"
+    Tahalte   < Tahalnaa  "walked"
+    the:PAST  < honaa     "used to"
+    roz                   "every day"
+
+b19:
+  say: मुझे लगता है, वो झील से माफ़ी माँग रहे थे।
+  en: I think he was saying sorry to it.
+  words: |
+    mujhe                  "to me"
+    lagtaa     < lagnaa    "it seems"
+    hai        < honaa     "(is)"
+    vo                     "he"
+    jhiil                  "the lake"
+    se:ABL                 "of (from)"
+    maafii                 "forgiveness"
+    maa~g      < maa~gnaa  "ask"
+    rahe:PROG  < rahnaa    "(was)"
+    the:PAST   < honaa     "(was)"
+
+b20:
+  say: माँ उनका हाथ पकड़ती हैं।
+  en: Amma takes her hand.
+  words: |
+    maa~                  "Ma"
+    unkaa                 "her"
+    haath                 "hand"
+    pakaDtii  < pakaDnaa  "takes (holds)"
+    hai~      < honaa     "(are)"
+
+b21:
+  say: तो जो उन्होंने शुरू किया, हम पूरा करेंगे। साथ मिलकर।
+  en: Then we'll finish what he started. Together.
+  words: |
+    to                     "then"
+    jo                     "what"
+    unho~ne      < vo      "he"
+    shuruu                 "started"
+    kiyaa:PAST   < karnaa  "did"
+    ham                    "we"
+    puuraa                 "complete"
+    kare~ge:FUT  < karnaa  "will"
+    saath                  "together"
+    milkar       < milnaa  "(joining)"
+
+b22:
+  say: साथ मिलकर?
+  en: Together?
+  words: |
+    saath             "together"
+    milkar  < milnaa  "(joining)?"
+
+b23:
+  say: मेरे पास अभी एक हफ़्ता है। चलिए इस्तेमाल करें।
+  en: I still have one week. Let's use it.
+  words: |
+    mere            < meraa    "me"
+    paas                       "(with)"
+    abhii                      "still"
+    ek                         "one"
+    haftaa                     "week"
+    hai             < honaa    "(is)"
+    chalie:IMP.HON  < chalnaa  "let's"
+    istemaal                   "use"
+    kare~           < karnaa   "(it)"
+
+b24:
+  say: देव का फ़ोन बजता है। कोलकाता से विकी।
+  en: Dev's phone rings. Vicky, calling from Kolkata.
+  words: |
+    dev                  "Dev" name
+    kaa:GEN              "'s"
+    fon                  "phone" loan
+    bajtaa     < bajnaa  "rings"
+    hai        < honaa   "(is)"
+    kolkaataa            "Kolkata" name
+    se:ABL               "from"
+    vikii                "Vicky (her son)" name
+
+b25:
+  say: ब्रो! माँ ने झील के बारे में मैसेज किया। सुनवाई शनिवार को है?
+  en: Bro! Ma texted me about the lake. Is the hearing on Saturday?
+  words: |
+    bro                   "bro" loan
+    maa~                  "Ma"
+    ne                    "(she)"
+    jhiil                 "the lake"
+    ke:GEN                "(of)"
+    baare                 "about"
+    me~                   "(in)"
+    maisej                "a message" loan
+    kiyaa:PAST  < karnaa  "sent (did)"
+    sunvaaii              "the hearing"
+    shanivaar             "Saturday"
+    ko                    "on"
+    hai         < honaa   "is it?"
+
+b26:
+  say: हाँ। शनिवार।
+  en: Yes. Saturday.
+  words: |
+    haa~       "yes"
+    shanivaar  "Saturday"
+
+b27:
+  say: तो मैं आ रहा हूँ। माँ के लिए।
+  en: Then I'm coming. For Ma.
+  words: |
+    to                    "then"
+    mai~                  "I"
+    aa          < aanaa   "come"
+    rahaa:PROG  < rahnaa  "(am)"
+    huu~        < honaa   "am"
+    maa~                  "Ma"
+    ke:GEN                "(for)"
+    lie                   "for"

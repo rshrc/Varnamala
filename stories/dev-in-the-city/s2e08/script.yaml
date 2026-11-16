@@ -1,0 +1,62 @@
+# s2e08: The Groundnut Fair. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: fair
+  cast:
+    landlady: arms_crossed @ 0.62
+    amma:     standing @ 0.4
+  props:
+    crowd: crowd
+  beats:
+    b01: { who: narrator, start: [crowd.laugh] }
+    b02: narrator
+    b03: { who: landlady, mood: proud, icons: [calendar, heart], start: [landlady.proud] }
+    b04: { who: landlady, mood: happy, icons: [heart, ok] }
+    b05: { who: amma, mood: curious, icons: [heart, question] }
+    b06: { who: landlady, mood: happy, icons: [heart, sun], tags: [warmly], start: [landlady.nod] }
+    b07: { who: amma, mood: happy, icons: [house, heart], tags: [warmly], start: [amma.smile] }
+    b08: { who: amma, mood: happy, icons: [sweets, house, heart], start: [amma.laugh] }
+    b09: { who: landlady, mood: amused, icons: [auto, question], start: [landlady.laugh] }
+
+p2:
+  set: fair
+  cast:
+    amma:     standing @ 0.2
+    boss:     standing @ 0.42
+    landlady: arms_crossed @ 0.66
+  props:
+    crowd: crowd
+  beats:
+    b10: { who: narrator, tags: [amused] }
+    b11: { who: boss, mood: sheepish, icons: [person, calendar, heart], tags: [softly], start: [boss.sheepish] }
+    b12: { who: landlady, mood: amused, icons: [person, heart], tags: [warmly], start: [landlady.laugh] }
+    b13: { who: boss, mood: amused, icons: [ok, heart], start: [boss.laugh] }
+    b14: { who: narrator, tags: [warmly], start: [amma.smile] }
+
+p3:
+  set: terrace_night
+  cast:
+    amma:     standing @ 0.38
+    landlady: arms_crossed @ 0.62
+  beats:
+    b15: { who: narrator, tags: [softly], start: [crane.swing] }
+    b16: { who: landlady, mood: wary, icons: [house, person], tags: [quietly] }
+    b17: { who: landlady, mood: wary, icons: [rupee, person], tags: [quietly] }
+    b18: { who: landlady, mood: wary, icons: [water, calendar], tags: [softly] }
+    b19: { who: landlady, mood: wary, icons: [water, heart], tags: [tearfully] }
+    b20: { who: narrator, tags: [softly], start: [amma.offer] }
+    b21: { who: amma, mood: firm, icons: [heart, water, ok], tags: [warmly] }
+    b22: { who: landlady, mood: wary, icons: [heart, question], tags: [softly] }
+    b23: { who: amma, mood: firm, icons: [calendar, ok], digits: "7", start: [amma.nod] }
+
+p4:
+  set: terrace_night
+  cast:
+    dev:  standing_phone @ 0.4
+    amma: standing @ 0.62
+  beats:
+    b24: narrator
+    b25: { who: son, mood: curious, icons: [phone, calendar, question] }
+    b26: { who: dev, mood: happy, icons: [calendar, ok], start: [dev.smile] }
+    b27: { who: son, mood: firm, icons: [plane, heart], tags: [firmly], cliffhanger: true }
