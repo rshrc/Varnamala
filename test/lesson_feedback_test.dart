@@ -33,10 +33,7 @@ const ChoiceExercise _exercise = ChoiceExercise(
 Color borderColorOf(WidgetTester tester, String text) {
   final container = tester.widget<AnimatedContainer>(
     find
-        .ancestor(
-          of: find.text(text),
-          matching: find.byType(AnimatedContainer),
-        )
+        .ancestor(of: find.text(text), matching: find.byType(AnimatedContainer))
         .first,
   );
   return ((container.decoration! as BoxDecoration).border! as Border).top.color;
@@ -106,8 +103,9 @@ void main() {
   });
 
   group('choice feedback', () {
-    testWidgets('tiles stay neutral until the answer is checked',
-        (tester) async {
+    testWidgets('tiles stay neutral until the answer is checked', (
+      tester,
+    ) async {
       final context = await pumpChoices(tester);
 
       for (final text in ['namaskara', 'dhanyavada', 'shubodaya']) {
@@ -119,8 +117,9 @@ void main() {
       }
     });
 
-    testWidgets('a wrong pick turns red while the answer turns green',
-        (tester) async {
+    testWidgets('a wrong pick turns red while the answer turns green', (
+      tester,
+    ) async {
       final context = await pumpChoices(
         tester,
         evaluation: const ExerciseEvaluation(
@@ -185,8 +184,7 @@ void main() {
           .width;
     }
 
-    testWidgets(
-        'runs edge to edge on a phone, where that is barely wider '
+    testWidgets('runs edge to edge on a phone, where that is barely wider '
         'than the text', (tester) async {
       expect(await panelWidth(tester, const Size(390, 800)), 390);
     });
@@ -194,7 +192,9 @@ void main() {
     testWidgets('stops being a metre of colour on a desktop', (tester) async {
       // Same width as the CONTINUE button under it, not the whole window.
       expect(
-          await panelWidth(tester, const Size(1600, 900)), ContentWidth.column);
+        await panelWidth(tester, const Size(1600, 900)),
+        ContentWidth.column,
+      );
     });
   });
 }

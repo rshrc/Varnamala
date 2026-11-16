@@ -5,14 +5,13 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('web app uses clean path URLs with a Hosting SPA fallback', () {
-    final webStrategy = File(
-      'lib/core/app_url_strategy_web.dart',
-    ).readAsStringSync();
+    final webStrategy = File('lib/core/app_url_strategy_web.dart')
+        .readAsStringSync();
     expect(webStrategy, contains('usePathUrlStrategy()'));
 
-    final firebaseConfig =
-        jsonDecode(File('firebase.json').readAsStringSync())
-            as Map<String, dynamic>;
+    final firebaseConfig = jsonDecode(
+      File('firebase.json').readAsStringSync(),
+    ) as Map<String, dynamic>;
     final hosting = firebaseConfig['hosting'] as Map<String, dynamic>;
     final rewrites = hosting['rewrites'] as List<dynamic>;
 

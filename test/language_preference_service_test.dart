@@ -51,10 +51,7 @@ void main() {
   });
 
   test('invalid stored language is not accepted', () async {
-    await appPrefs.setString(
-      PrefsConstants.currentLanguage,
-      'klingon',
-    );
+    await appPrefs.setString(PrefsConstants.currentLanguage, 'klingon');
     await appPrefs.setBool(
       PrefsConstants.languageSelectionComplete,
       value: true,

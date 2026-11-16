@@ -10,8 +10,9 @@ import 'package:words625/views/choose_language/choose_language_page.dart';
 import 'package:words625/views/theme.dart';
 
 void main() {
-  testWidgets('first-time learner must explicitly choose a language',
-      (tester) async {
+  testWidgets('first-time learner must explicitly choose a language', (
+    tester,
+  ) async {
     SharedPreferences.setMockInitialValues({});
     debugResetStreamingSharedPreferencesInstance();
     final preferences = await StreamingSharedPreferences.instance;

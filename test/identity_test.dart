@@ -46,8 +46,11 @@ void main() {
       final names = [
         for (var i = 0; i < 40; i++) generatedHandle('user-id-$i'),
       ];
-      expect(names.toSet().length, greaterThan(30),
-          reason: 'generated handles should rarely collide');
+      expect(
+        names.toSet().length,
+        greaterThan(30),
+        reason: 'generated handles should rarely collide',
+      );
       expect(names, everyElement(isNot('Learner')));
       expect(generatedHandle('user-id-1'), generatedHandle('user-id-1'));
     });
@@ -55,18 +58,26 @@ void main() {
     test('falls back to a generated name when there is no display name', () {
       expect(handleFromName(null, seed: 'abc'), isNot('Learner'));
       expect(
-          handleFromName('', seed: 'abc'), handleFromName(null, seed: 'abc'));
+        handleFromName('', seed: 'abc'),
+        handleFromName(null, seed: 'abc'),
+      );
     });
 
     test('displayHandle fills in for accounts with nothing stored', () {
       expect(displayHandle(storedHandle: 'Riban', userId: 'u1'), 'Riban');
-      expect(displayHandle(storedHandle: null, userId: 'u1'),
-          generatedHandle('u1'));
+      expect(
+        displayHandle(storedHandle: null, userId: 'u1'),
+        generatedHandle('u1'),
+      );
       // Legacy rows literally containing "Learner" should not stay that way.
-      expect(displayHandle(storedHandle: 'Learner', userId: 'u1'),
-          generatedHandle('u1'));
-      expect(displayHandle(storedHandle: null, userId: 'u1'),
-          isNot(displayHandle(storedHandle: null, userId: 'u2')));
+      expect(
+        displayHandle(storedHandle: 'Learner', userId: 'u1'),
+        generatedHandle('u1'),
+      );
+      expect(
+        displayHandle(storedHandle: null, userId: 'u1'),
+        isNot(displayHandle(storedHandle: null, userId: 'u2')),
+      );
     });
   });
 

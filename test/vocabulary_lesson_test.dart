@@ -53,8 +53,9 @@ void main() {
     await tester.pumpAndSettle();
   }
 
-  testWidgets('a word course opens on a picture, not a sentence',
-      (tester) async {
+  testWidgets('a word course opens on a picture, not a sentence', (
+    tester,
+  ) async {
     await openLesson(tester);
 
     expect(find.text('UNIT 1 · DISCOVER'), findsOneWidget);
@@ -114,8 +115,9 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('an equally valid romanization is accepted in silence',
-      (tester) async {
+  testWidgets('an equally valid romanization is accepted in silence', (
+    tester,
+  ) async {
     // namaskaara: the same word, the same sound, a longer a. Romanized Indic
     // has no single correct spelling, so this is not a mistake to point out.
     await answerRecall(tester, 'namaskaara');

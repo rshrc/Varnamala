@@ -4,8 +4,9 @@ import 'package:words625/views/debug/interactive_lesson_demo_page.dart';
 import 'package:words625/views/theme.dart';
 
 void main() {
-  testWidgets('debug lesson supports tap-built word bank submission',
-      (tester) async {
+  testWidgets('debug lesson supports tap-built word bank submission', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: VarnamalaTheme.darkTheme,
@@ -34,8 +35,9 @@ void main() {
     expect(find.text('Correct'), findsOneWidget);
   });
 
-  testWidgets('word-bank tokens can be dragged into the answer area',
-      (tester) async {
+  testWidgets('word-bank tokens can be dragged into the answer area', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       const MaterialApp(home: InteractiveLessonDemoPage()),
     );
@@ -61,8 +63,9 @@ void main() {
     expect(find.text('Correct'), findsOneWidget);
   });
 
-  testWidgets('sentence token attaches to the pointer during direct drag',
-      (tester) async {
+  testWidgets('sentence token attaches to the pointer during direct drag', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       const MaterialApp(home: InteractiveLessonDemoPage()),
     );
@@ -87,8 +90,9 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('typed blank is inline without a Material field label',
-      (tester) async {
+  testWidgets('typed blank is inline without a Material field label', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: VarnamalaTheme.darkTheme,
@@ -126,8 +130,9 @@ void main() {
     expect(check.onPressed, isNotNull);
   });
 
-  testWidgets('adaptive retry is visibly identified as a previous mistake',
-      (tester) async {
+  testWidgets('adaptive retry is visibly identified as a previous mistake', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       const MaterialApp(home: InteractiveLessonDemoPage()),
     );

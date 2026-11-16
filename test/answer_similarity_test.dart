@@ -22,11 +22,8 @@ const Map<String, String> _dictionary = {
   'dhanyavaadagalu': 'thank you',
 };
 
-TypedAnswerVerdict judge(String typed, String answer) => judgeTypedAnswer(
-      typed: typed,
-      accepted: [answer],
-      dictionary: _dictionary,
-    );
+TypedAnswerVerdict judge(String typed, String answer) =>
+    judgeTypedAnswer(typed: typed, accepted: [answer], dictionary: _dictionary);
 
 void main() {
   group('romanizationKey', () {

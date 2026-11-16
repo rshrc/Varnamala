@@ -19,13 +19,18 @@ void main() {
   group('CourseRepository', () {
     for (final language in TargetLanguage.values) {
       test('loads every ${language.name} course', () async {
-        final courses =
-            await CourseRepository().courses(language, firstName: 'Rishi');
+        final courses = await CourseRepository().courses(
+          language,
+          firstName: 'Rishi',
+        );
 
         expect(courses, isNotEmpty, reason: '${language.name} has no courses');
         for (final group in courses) {
-          expect(group.length, inInclusiveRange(1, 3),
-              reason: 'a tree row of ${group.length} renders nothing');
+          expect(
+            group.length,
+            inInclusiveRange(1, 3),
+            reason: 'a tree row of ${group.length} renders nothing',
+          );
         }
 
         final flat = courses.expand((group) => group).toList();
@@ -44,44 +49,57 @@ void main() {
             for (final level in course.levels!) {
               expect(level.isVocabulary, isTrue);
               expect(level.words, hasLength(12));
-              expect(level.questions, isNull,
-                  reason: 'a word level teaches words, not sentences');
+              expect(
+                level.questions,
+                isNull,
+                reason: 'a word level teaches words, not sentences',
+              );
             }
             continue;
           }
 
-          expect(course.levels!.length, inInclusiveRange(5, 6),
-              reason:
-                  '${course.courseName} has ${course.levels!.length} levels');
+          expect(
+            course.levels!.length,
+            inInclusiveRange(5, 6),
+            reason: '${course.courseName} has ${course.levels!.length} levels',
+          );
 
           for (final level in course.levels!) {
             expect(level.questions!.length, inInclusiveRange(8, 10));
             for (final question in level.questions!) {
               expect(question.options, hasLength(3));
-              expect(question.options, contains(question.correctAnswer),
-                  reason: '${course.courseName} L${level.level}: '
-                      'correctAnswer is not among the options');
+              expect(
+                question.options,
+                contains(question.correctAnswer),
+                reason:
+                    '${course.courseName} L${level.level}: '
+                    'correctAnswer is not among the options',
+              );
             }
           }
         }
       });
     }
 
-    test('splices the learner name in and leaves no placeholder behind',
-        () async {
-      final courses = await CourseRepository()
-          .courses(TargetLanguage.tamil, firstName: 'Asha');
-      final everything = courses
-          .expand((group) => group)
-          .expand((course) => course.levels!)
-          // Word levels hold no sentences to splice a name into.
-          .expand((level) => level.questions ?? [])
-          .expand((q) => [q.sentence, q.correctAnswer, ...?q.options])
-          .join(' ');
+    test(
+      'splices the learner name in and leaves no placeholder behind',
+      () async {
+        final courses = await CourseRepository().courses(
+          TargetLanguage.tamil,
+          firstName: 'Asha',
+        );
+        final everything = courses
+            .expand((group) => group)
+            .expand((course) => course.levels!)
+            // Word levels hold no sentences to splice a name into.
+            .expand((level) => level.questions ?? [])
+            .expand((q) => [q.sentence, q.correctAnswer, ...?q.options])
+            .join(' ');
 
-      expect(everything, isNot(contains('{name}')));
-      expect(everything, contains('Asha'));
-    });
+        expect(everything, isNot(contains('{name}')));
+        expect(everything, contains('Asha'));
+      },
+    );
 
     test('glosses every word of a real lesson sentence', () async {
       // The tap-a-word hint silently disappears if the dictionary is looked up
@@ -101,7 +119,8 @@ void main() {
           expect(
             repository.activeDictionary?[normalizeWord(word)],
             isNotNull,
-            reason: '${language.name}: "$word" in "${question.sentence}" '
+            reason:
+                '${language.name}: "$word" in "${question.sentence}" '
                 'has no gloss, so it would render without an underline',
           );
         }
@@ -115,14 +134,16 @@ void main() {
       expect(repository.cachedDictionary(TargetLanguage.kannada), isNotEmpty);
     });
 
-    test('missing assets fail loudly rather than rendering an empty tree',
-        () async {
-      final repository = CourseRepository(bundle: _EmptyBundle());
-      expect(
-        () => repository.courses(TargetLanguage.tamil, firstName: 'Rishi'),
-        throwsA(isA<FlutterError>()),
-      );
-    });
+    test(
+      'missing assets fail loudly rather than rendering an empty tree',
+      () async {
+        final repository = CourseRepository(bundle: _EmptyBundle());
+        expect(
+          () => repository.courses(TargetLanguage.tamil, firstName: 'Rishi'),
+          throwsA(isA<FlutterError>()),
+        );
+      },
+    );
   });
 
   group('normalizeWord', () {

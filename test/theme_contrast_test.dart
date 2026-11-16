@@ -23,7 +23,8 @@ void _expectReadable(
   expect(
     _contrastRatio(foreground, background),
     greaterThanOrEqualTo(minimum),
-    reason: '$where: ${foreground.toARGB32().toRadixString(16)} on '
+    reason:
+        '$where: ${foreground.toARGB32().toRadixString(16)} on '
         '${background.toARGB32().toRadixString(16)} is below $minimum:1',
   );
 }
@@ -41,40 +42,75 @@ void main() {
       group(label, () {
         test('text and component roles are readable', () {
           _expectReadable(scheme.onSurface, scheme.surface, where: label);
-          _expectReadable(scheme.onSurfaceVariant, scheme.surface,
-              where: label);
-          _expectReadable(scheme.onSurface, theme.scaffoldBackgroundColor,
-              where: label);
+          _expectReadable(
+            scheme.onSurfaceVariant,
+            scheme.surface,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onSurface,
+            theme.scaffoldBackgroundColor,
+            where: label,
+          );
           _expectReadable(scheme.onPrimary, scheme.primary, where: label);
-          _expectReadable(scheme.onPrimaryContainer, scheme.primaryContainer,
-              where: label);
+          _expectReadable(
+            scheme.onPrimaryContainer,
+            scheme.primaryContainer,
+            where: label,
+          );
           _expectReadable(scheme.onSecondary, scheme.secondary, where: label);
           _expectReadable(
-              scheme.onSecondaryContainer, scheme.secondaryContainer,
-              where: label);
+            scheme.onSecondaryContainer,
+            scheme.secondaryContainer,
+            where: label,
+          );
           _expectReadable(scheme.onTertiary, scheme.tertiary, where: label);
-          _expectReadable(scheme.onTertiaryContainer, scheme.tertiaryContainer,
-              where: label);
+          _expectReadable(
+            scheme.onTertiaryContainer,
+            scheme.tertiaryContainer,
+            where: label,
+          );
           _expectReadable(scheme.onError, scheme.error, where: label);
-          _expectReadable(scheme.onErrorContainer, scheme.errorContainer,
-              where: label);
-          _expectReadable(scheme.onPrimaryFixed, scheme.primaryFixed,
-              where: label);
           _expectReadable(
-              scheme.onPrimaryFixedVariant, scheme.primaryFixedDim,
-              where: label);
-          _expectReadable(scheme.onSecondaryFixed, scheme.secondaryFixed,
-              where: label);
+            scheme.onErrorContainer,
+            scheme.errorContainer,
+            where: label,
+          );
           _expectReadable(
-              scheme.onSecondaryFixedVariant, scheme.secondaryFixedDim,
-              where: label);
-          _expectReadable(scheme.onTertiaryFixed, scheme.tertiaryFixed,
-              where: label);
+            scheme.onPrimaryFixed,
+            scheme.primaryFixed,
+            where: label,
+          );
           _expectReadable(
-              scheme.onTertiaryFixedVariant, scheme.tertiaryFixedDim,
-              where: label);
-          _expectReadable(scheme.onInverseSurface, scheme.inverseSurface,
-              where: label);
+            scheme.onPrimaryFixedVariant,
+            scheme.primaryFixedDim,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onSecondaryFixed,
+            scheme.secondaryFixed,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onSecondaryFixedVariant,
+            scheme.secondaryFixedDim,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onTertiaryFixed,
+            scheme.tertiaryFixed,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onTertiaryFixedVariant,
+            scheme.tertiaryFixedDim,
+            where: label,
+          );
+          _expectReadable(
+            scheme.onInverseSurface,
+            scheme.inverseSurface,
+            where: label,
+          );
           for (final surface in [
             scheme.surfaceDim,
             scheme.surface,
@@ -111,8 +147,7 @@ void main() {
             );
           }
 
-          expect(scheme.surfaceDim, isNot(scheme.surfaceBright),
-              reason: label);
+          expect(scheme.surfaceDim, isNot(scheme.surfaceBright), reason: label);
           expect(scheme.surfaceTint, scheme.primary, reason: label);
         });
 
@@ -125,25 +160,37 @@ void main() {
             extras.violet,
           ]) {
             _expectReadable(accent, scheme.surface, minimum: 3, where: label);
-            _expectReadable(accent, theme.scaffoldBackgroundColor,
-                minimum: 3, where: label);
+            _expectReadable(
+              accent,
+              theme.scaffoldBackgroundColor,
+              minimum: 3,
+              where: label,
+            );
           }
         });
 
         test('borders separate from the surfaces they divide', () {
-          _expectReadable(scheme.outlineVariant, scheme.surface,
-              minimum: 1.2, where: label);
+          _expectReadable(
+            scheme.outlineVariant,
+            scheme.surface,
+            minimum: 1.2,
+            where: label,
+          );
         });
 
         test('right and wrong never rely on hue alone', () {
           // Around 1 in 12 men cannot separate red from green by hue. The two
           // feedback colours must therefore also differ in lightness, so the
           // verdict survives colour blindness and a bad screen.
-          final gap = (extras.success.computeLuminance() -
-                  extras.danger.computeLuminance())
-              .abs();
-          expect(gap, greaterThan(0.06),
-              reason: '$label: success and danger are too close in lightness');
+          final gap =
+              (extras.success.computeLuminance() -
+                      extras.danger.computeLuminance())
+                  .abs();
+          expect(
+            gap,
+            greaterThan(0.06),
+            reason: '$label: success and danger are too close in lightness',
+          );
           // And they must stay in their own hue families, so a change of
           // palette never turns "correct" red.
           final success = HSLColor.fromColor(extras.success).hue;
@@ -188,8 +235,12 @@ void main() {
         // the palette they exist to show off.
         for (var index = 0; index < extras.coursePalette.length; index++) {
           final fill = extras.courseColor(index);
-          _expectReadable(onColorFor(fill), fill,
-              minimum: 3, where: '$label appOn(course $index)');
+          _expectReadable(
+            onColorFor(fill),
+            fill,
+            minimum: 3,
+            where: '$label appOn(course $index)',
+          );
         }
       }
     }

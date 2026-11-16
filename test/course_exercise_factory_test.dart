@@ -17,12 +17,7 @@ void main() {
     language: TargetLanguage.hindi,
     courseId: 'basics',
     levelNumber: 1,
-    dictionary: {
-      'main': 'I',
-      'ghar': 'house',
-      'jaata': 'go',
-      'hoon': 'am',
-    },
+    dictionary: {'main': 'I', 'ghar': 'house', 'jaata': 'go', 'hoon': 'am'},
   );
 
   const translationQuestion = Question(
@@ -99,10 +94,11 @@ void main() {
       final exercise = generated.exercise as FillBlankChoiceExercise;
       expect(exercise.beforeBlank, 'Main');
       expect(exercise.afterBlank, 'jaata hoon.');
-      expect(
-        exercise.options.map((option) => option.text).toSet(),
-        {'ghar', 'school', 'bazaar'},
-      );
+      expect(exercise.options.map((option) => option.text).toSet(), {
+        'ghar',
+        'school',
+        'bazaar',
+      });
       expect(exercise.correctAnswerLabel, 'ghar');
     });
 
@@ -116,10 +112,7 @@ void main() {
       expect(generated.usedFallback, isTrue);
       expect(generated.kind, GeneratedExerciseKind.fillBlankText);
       expect(generated.fallbackReason, 'fillBlankChoice_ineligible');
-      expect(
-        (generated.exercise as FillBlankTextExercise).wordMeaning,
-        'go',
-      );
+      expect((generated.exercise as FillBlankTextExercise).wordMeaning, 'go');
     });
 
     test('stable IDs survive question reordering', () {
@@ -193,7 +186,8 @@ void main() {
             expect(
               stage.exercises.map((item) => item.kind).toSet().length,
               greaterThanOrEqualTo(3),
-              reason: '${language.name} ${course.courseName} '
+              reason:
+                  '${language.name} ${course.courseName} '
                   'unit ${level.level} ${stage.kind.label} collapsed to '
                   'fewer than three interaction types',
             );
@@ -235,14 +229,16 @@ void main() {
                 final answer = text.acceptedAnswers.first;
                 expect(
                   text.isCorrect(
-                      TextExerciseResponse(_alternatingCase(answer))),
+                    TextExerciseResponse(_alternatingCase(answer)),
+                  ),
                   isTrue,
                   reason: '${language.name} ${exercise.id} was case-sensitive',
                 );
                 expect(
                   text.spellingCorrection(TextExerciseResponse(answer)),
                   isNull,
-                  reason: '${language.name} ${exercise.id} corrected the '
+                  reason:
+                      '${language.name} ${exercise.id} corrected the '
                       'spelling of its own authored answer',
                 );
               }
@@ -261,8 +257,9 @@ void main() {
 String _alternatingCase(String value) {
   var uppercase = true;
   return value.split('').map((character) {
-    final result =
-        uppercase ? character.toUpperCase() : character.toLowerCase();
+    final result = uppercase
+        ? character.toUpperCase()
+        : character.toLowerCase();
     uppercase = !uppercase;
     return result;
   }).join();

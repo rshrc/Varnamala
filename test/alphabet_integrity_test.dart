@@ -18,19 +18,27 @@ void main() {
         reason: '${language.name} vowels are mutable by callers',
       );
 
-      expect(getLanguageVowels(language).length, before,
-          reason: '${language.name} vowels changed underneath us');
+      expect(
+        getLanguageVowels(language).length,
+        before,
+        reason: '${language.name} vowels changed underneath us',
+      );
     }
   });
 
   test('every script exposes vowels, consonants and a full sound list', () {
     for (final language in TargetLanguage.values) {
       expect(getLanguageSounds(language), isNotEmpty, reason: language.name);
-      expect(getLanguageConsonants(language), isNotEmpty,
-          reason: language.name);
+      expect(
+        getLanguageConsonants(language),
+        isNotEmpty,
+        reason: language.name,
+      );
       expect(() => getLanguageSounds(language).clear(), throwsUnsupportedError);
-      expect(() => getLanguageConsonants(language).clear(),
-          throwsUnsupportedError);
+      expect(
+        () => getLanguageConsonants(language).clear(),
+        throwsUnsupportedError,
+      );
     }
   });
 

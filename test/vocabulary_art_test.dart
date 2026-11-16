@@ -27,32 +27,33 @@ void main() {
   });
 
   Widget host(Widget child, {required Brightness brightness}) => MaterialApp(
-        theme: brightness == Brightness.light
-            ? VarnamalaTheme.lightTheme
-            : VarnamalaTheme.darkTheme,
-        home: Scaffold(body: SingleChildScrollView(child: child)),
-      );
+    theme: brightness == Brightness.light
+        ? VarnamalaTheme.lightTheme
+        : VarnamalaTheme.darkTheme,
+    home: Scaffold(body: SingleChildScrollView(child: child)),
+  );
 
   PictureChoiceExercise pictureOptions() => PictureChoiceExercise(
-        id: 'art-check',
-        prompt: 'Which picture is this?',
-        explanation: 'neeru - water',
-        promptWord: 'neeru',
-        optionsArePictures: true,
-        correctOptionId: 'o0',
-        options: [
-          for (final id in ['water', 'milk', 'apple', 'house'])
-            ExerciseOption(
-              id: 'o${['water', 'milk', 'apple', 'house'].indexOf(id)}',
-              text: concepts[id]!.label,
-              art: concepts[id]!.art,
-            ),
-        ],
-      );
+    id: 'art-check',
+    prompt: 'Which picture is this?',
+    explanation: 'neeru - water',
+    promptWord: 'neeru',
+    optionsArePictures: true,
+    correctOptionId: 'o0',
+    options: [
+      for (final id in ['water', 'milk', 'apple', 'house'])
+        ExerciseOption(
+          id: 'o${['water', 'milk', 'apple', 'house'].indexOf(id)}',
+          text: concepts[id]!.label,
+          art: concepts[id]!.art,
+        ),
+    ],
+  );
 
   for (final brightness in Brightness.values) {
-    testWidgets('picture options decode and paint in ${brightness.name} mode',
-        (tester) async {
+    testWidgets('picture options decode and paint in ${brightness.name} mode', (
+      tester,
+    ) async {
       await tester.pumpWidget(
         host(
           PictureChoiceExerciseView(
@@ -81,8 +82,9 @@ void main() {
     });
   }
 
-  testWidgets('the picture grid does not overflow a 320px phone',
-      (tester) async {
+  testWidgets('the picture grid does not overflow a 320px phone', (
+    tester,
+  ) async {
     tester.view
       ..physicalSize = const Size(320, 640)
       ..devicePixelRatio = 1;
@@ -102,8 +104,9 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('the word prompt and both speaker buttons fit a 320px phone',
-      (tester) async {
+  testWidgets('the word prompt and both speaker buttons fit a 320px phone', (
+    tester,
+  ) async {
     tester.view
       ..physicalSize = const Size(320, 640)
       ..devicePixelRatio = 1;
@@ -126,8 +129,9 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('a missed picture shows both the wrong pick and the right one',
-      (tester) async {
+  testWidgets('a missed picture shows both the wrong pick and the right one', (
+    tester,
+  ) async {
     final exercise = pictureOptions();
     await tester.pumpWidget(
       host(

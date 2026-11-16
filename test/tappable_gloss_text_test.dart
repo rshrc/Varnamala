@@ -3,8 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:words625/views/lesson/exercises/widgets/tappable_gloss_text.dart';
 
 void main() {
-  testWidgets('tapping a target word shows its dictionary meaning',
-      (tester) async {
+  testWidgets('tapping a target word shows its dictionary meaning', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         home: Scaffold(

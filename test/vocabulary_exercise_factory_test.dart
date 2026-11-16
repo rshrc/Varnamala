@@ -14,11 +14,11 @@ import 'package:words625/domain/exercise/interactive_exercise.dart';
 const factory = VocabularyExerciseFactory();
 
 CourseExerciseContext contextFor(int levelNumber) => CourseExerciseContext(
-      language: TargetLanguage.kannada,
-      courseId: 'words',
-      levelNumber: levelNumber,
-      dictionary: const {},
-    );
+  language: TargetLanguage.kannada,
+  courseId: 'words',
+  levelNumber: levelNumber,
+  dictionary: const {},
+);
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -34,8 +34,11 @@ void main() {
       // rootBundle throws rather than returning null for a missing asset, so
       // reaching the next line is the assertion.
       final data = await rootBundle.load(concept.art);
-      expect(data.lengthInBytes, greaterThan(0),
-          reason: '${concept.id} has an empty picture');
+      expect(
+        data.lengthInBytes,
+        greaterThan(0),
+        reason: '${concept.id} has an empty picture',
+      );
     }
   });
 
@@ -43,8 +46,10 @@ void main() {
     var wordCourses = 0;
 
     for (final language in TargetLanguage.values) {
-      final groups =
-          await CourseRepository().courses(language, firstName: 'Rishi');
+      final groups = await CourseRepository().courses(
+        language,
+        firstName: 'Rishi',
+      );
       final courses = groups
           .expand((group) => group)
           .where((course) => course.levels!.first.isVocabulary);
@@ -124,13 +129,18 @@ void main() {
       }
     }
 
-    expect(wordCourses, greaterThan(0),
-        reason: 'no language has a word course yet');
+    expect(
+      wordCourses,
+      greaterThan(0),
+      reason: 'no language has a word course yet',
+    );
   });
 
   test('a wrong pick is always another word from the same level', () async {
-    final groups = await CourseRepository()
-        .courses(TargetLanguage.kannada, firstName: 'Rishi');
+    final groups = await CourseRepository().courses(
+      TargetLanguage.kannada,
+      firstName: 'Rishi',
+    );
     final course = groups
         .expand((group) => group)
         .firstWhere((course) => course.levels!.first.isVocabulary);
@@ -166,8 +176,10 @@ void main() {
   });
 
   test('the same word always builds the same exercise', () async {
-    final groups = await CourseRepository()
-        .courses(TargetLanguage.kannada, firstName: 'Rishi');
+    final groups = await CourseRepository().courses(
+      TargetLanguage.kannada,
+      firstName: 'Rishi',
+    );
     final course = groups
         .expand((group) => group)
         .firstWhere((course) => course.levels!.first.isVocabulary);
@@ -183,8 +195,9 @@ void main() {
         .exercises
         .expand(
           (generated) => switch (generated.exercise) {
-            final PictureChoiceExercise choice =>
-              choice.options.map((option) => option.text),
+            final PictureChoiceExercise choice => choice.options.map(
+              (option) => option.text,
+            ),
             _ => const <String>[],
           },
         )

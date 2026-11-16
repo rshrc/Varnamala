@@ -31,8 +31,9 @@ void main() {
     }
   });
 
-  testWidgets('a real course opens as a Discover interactive lesson',
-      (tester) async {
+  testWidgets('a real course opens as a Discover interactive lesson', (
+    tester,
+  ) async {
     await tester.pumpWidget(
       MaterialApp(
         theme: VarnamalaTheme.lightTheme,
@@ -77,7 +78,7 @@ const _course = Course(
           options: [
             'This is my house.',
             'That is my house.',
-            'This is my room.'
+            'This is my room.',
           ],
           correctAnswer: 'This is my house.',
         ),
@@ -105,7 +106,7 @@ const _course = Course(
           options: [
             'The weather is nice today.',
             'It rained today.',
-            'Today is cold.'
+            'Today is cold.',
           ],
           correctAnswer: 'The weather is nice today.',
         ),
@@ -117,7 +118,7 @@ const _course = Course(
           options: [
             'We are going to the market.',
             'We left the market.',
-            'They are at home.'
+            'They are at home.',
           ],
           correctAnswer: 'We are going to the market.',
         ),
@@ -129,7 +130,7 @@ const _course = Course(
           options: [
             'My name is Rishi.',
             'His name is Rishi.',
-            'Rishi is home.'
+            'Rishi is home.',
           ],
           correctAnswer: 'My name is Rishi.',
         ),
@@ -141,7 +142,7 @@ const _course = Course(
           options: [
             'Please close the door.',
             'Open the window.',
-            'The door is open.'
+            'The door is open.',
           ],
           correctAnswer: 'Please close the door.',
         ),

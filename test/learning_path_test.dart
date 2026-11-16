@@ -5,41 +5,27 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:words625/views/courses/course_tree.dart';
 
 void main() {
-  test('unlock override opens future courses without changing current progress',
-      () {
-    expect(
-      pathCourseIsLocked(
-        courseIndex: 8,
-        unlockedThrough: 2,
-        unlockAll: true,
-      ),
-      isFalse,
-    );
-  });
+  test(
+    'unlock override opens future courses without changing current progress',
+    () {
+      expect(
+        pathCourseIsLocked(courseIndex: 8, unlockedThrough: 2, unlockAll: true),
+        isFalse,
+      );
+    },
+  );
 
   test('turning override off restores locks from the current progress', () {
     expect(
-      pathCourseIsLocked(
-        courseIndex: 1,
-        unlockedThrough: 2,
-        unlockAll: false,
-      ),
+      pathCourseIsLocked(courseIndex: 1, unlockedThrough: 2, unlockAll: false),
       isFalse,
     );
     expect(
-      pathCourseIsLocked(
-        courseIndex: 3,
-        unlockedThrough: 2,
-        unlockAll: false,
-      ),
+      pathCourseIsLocked(courseIndex: 3, unlockedThrough: 2, unlockAll: false),
       isTrue,
     );
     expect(
-      pathCourseIsLocked(
-        courseIndex: 2,
-        unlockedThrough: 2,
-        unlockAll: false,
-      ),
+      pathCourseIsLocked(courseIndex: 2, unlockedThrough: 2, unlockAll: false),
       isFalse,
       reason: 'the course you are on is the one you are meant to play',
     );
@@ -113,5 +99,6 @@ void main() {
 
 List<bool> unfinished(int count) => List.filled(count, false);
 
-List<bool> completedThrough(int lastIndex, {required int of}) =>
-    [for (var index = 0; index < of; index++) index <= lastIndex];
+List<bool> completedThrough(int lastIndex, {required int of}) => [
+  for (var index = 0; index < of; index++) index <= lastIndex,
+];

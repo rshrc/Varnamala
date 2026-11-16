@@ -19,16 +19,15 @@ import 'package:words625/views/theme.dart';
 
 /// Puts [child] on screen at an exact window size, so each expectation is
 /// about one specific breakpoint rather than the test harness default.
-Future<void> pumpAtSize(
-  WidgetTester tester,
-  Size size,
-  Widget child,
-) async {
+Future<void> pumpAtSize(WidgetTester tester, Size size, Widget child) async {
   tester.view.physicalSize = size;
   tester.view.devicePixelRatio = 1.0;
   addTearDown(tester.view.reset);
   await tester.pumpWidget(
-    MaterialApp(theme: VarnamalaTheme.lightTheme, home: Scaffold(body: child)),
+    MaterialApp(
+      theme: VarnamalaTheme.lightTheme,
+      home: Scaffold(body: child),
+    ),
   );
   await tester.pump();
 }
@@ -64,8 +63,9 @@ void main() {
       expect(tester.getSize(find.byKey(const Key('content'))).width, 390);
     });
 
-    testWidgets('caps and centres the column on a desktop window',
-        (tester) async {
+    testWidgets('caps and centres the column on a desktop window', (
+      tester,
+    ) async {
       await pumpAtSize(
         tester,
         const Size(1600, 900),
@@ -81,8 +81,9 @@ void main() {
   });
 
   group('home navigation', () {
-    testWidgets('bottom bar keeps its tabs together on a tablet',
-        (tester) async {
+    testWidgets('bottom bar keeps its tabs together on a tablet', (
+      tester,
+    ) async {
       await pumpAtSize(
         tester,
         const Size(1024, 768),
@@ -94,8 +95,9 @@ void main() {
       expect(shop - learn, lessThan(ContentWidth.column));
     });
 
-    testWidgets('side rail shows every destination and labels them when wide',
-        (tester) async {
+    testWidgets('side rail shows every destination and labels them when wide', (
+      tester,
+    ) async {
       await pumpAtSize(
         tester,
         const Size(1600, 900),
@@ -112,21 +114,23 @@ void main() {
         'Script',
         'Profile',
         'Leagues',
-        'Practice'
+        'Practice',
       ]) {
         expect(find.text(label), findsOneWidget);
       }
       expect(
-          tester.widget<NavigationRail>(find.byType(NavigationRail)).extended,
-          isTrue);
+        tester.widget<NavigationRail>(find.byType(NavigationRail)).extended,
+        isTrue,
+      );
       // The rail has vertical room a bottom bar does not, so it also reaches
       // the two places that otherwise hide behind the course path.
       expect(find.text('Flashcards'), findsOneWidget);
       expect(find.text('Settings'), findsOneWidget);
     });
 
-    testWidgets('every rail icon sits on the same vertical line',
-        (tester) async {
+    testWidgets('every rail icon sits on the same vertical line', (
+      tester,
+    ) async {
       // Laid out the way the home shell does it, so the rail takes its own
       // width instead of being stretched across the window.
       await pumpAtSize(
@@ -170,51 +174,52 @@ void main() {
   });
 
   testWidgets(
-      'language picker reflows from two columns to more as the window grows',
-      (tester) async {
-    SharedPreferences.setMockInitialValues({});
-    debugResetStreamingSharedPreferencesInstance();
-    final preferences = await StreamingSharedPreferences.instance;
+    'language picker reflows from two columns to more as the window grows',
+    (tester) async {
+      SharedPreferences.setMockInitialValues({});
+      debugResetStreamingSharedPreferencesInstance();
+      final preferences = await StreamingSharedPreferences.instance;
 
-    tester.view.physicalSize = const Size(390, 844);
-    tester.view.devicePixelRatio = 1.0;
-    addTearDown(tester.view.reset);
-    await tester.pumpWidget(
-      MultiProvider(
-        providers: [
-          ChangeNotifierProvider(
-            create: (_) => LanguageProvider(AppPrefs(preferences)),
+      tester.view.physicalSize = const Size(390, 844);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.reset);
+      await tester.pumpWidget(
+        MultiProvider(
+          providers: [
+            ChangeNotifierProvider(
+              create: (_) => LanguageProvider(AppPrefs(preferences)),
+            ),
+            ChangeNotifierProvider(create: (_) => CourseProvider()),
+          ],
+          child: MaterialApp(
+            theme: VarnamalaTheme.lightTheme,
+            home: const LangChoicePage(),
           ),
-          ChangeNotifierProvider(create: (_) => CourseProvider()),
-        ],
-        child: MaterialApp(
-          theme: VarnamalaTheme.lightTheme,
-          home: const LangChoicePage(),
         ),
-      ),
-    );
-    await tester.pump();
+      );
+      await tester.pump();
 
-    // On a phone the third tile has wrapped onto a second row.
-    expect(
-      tester.getTopLeft(find.text('Gujarati')).dy,
-      greaterThan(tester.getTopLeft(find.text('Assamese')).dy),
-    );
+      // On a phone the third tile has wrapped onto a second row.
+      expect(
+        tester.getTopLeft(find.text('Gujarati')).dy,
+        greaterThan(tester.getTopLeft(find.text('Assamese')).dy),
+      );
 
-    // Widening the window - rotating an iPad, or resizing on desktop - adds
-    // columns rather than blowing the same two tiles up to fill the space.
-    tester.view.physicalSize = const Size(1400, 900);
-    await tester.pumpAndSettle();
+      // Widening the window - rotating an iPad, or resizing on desktop - adds
+      // columns rather than blowing the same two tiles up to fill the space.
+      tester.view.physicalSize = const Size(1400, 900);
+      await tester.pumpAndSettle();
 
-    expect(
-      tester.getTopLeft(find.text('Gujarati')).dy,
-      tester.getTopLeft(find.text('Assamese')).dy,
-    );
-    expect(
-      tester.getSize(find.byType(LanguageOptionTile).first).width,
-      lessThanOrEqualTo(210),
-    );
-  });
+      expect(
+        tester.getTopLeft(find.text('Gujarati')).dy,
+        tester.getTopLeft(find.text('Assamese')).dy,
+      );
+      expect(
+        tester.getSize(find.byType(LanguageOptionTile).first).width,
+        lessThanOrEqualTo(210),
+      );
+    },
+  );
 
   group('snackbars', () {
     Future<double> snackBarWidth(WidgetTester tester, Size window) async {
@@ -232,9 +237,9 @@ void main() {
           home: Scaffold(
             body: Builder(
               builder: (context) => TextButton(
-                onPressed: () => ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Saved.')),
-                ),
+                onPressed: () =>
+                    ScaffoldMessenger.of(context)
+                        .showSnackBar(const SnackBar(content: Text('Saved.'))),
                 child: const Text('go'),
               ),
             ),
@@ -258,14 +263,18 @@ void main() {
           .width;
     }
 
-    testWidgets('a desktop window does not turn a message into a banner',
-        (tester) async {
-      expect(await snackBarWidth(tester, const Size(1440, 900)),
-          ContentWidth.column);
+    testWidgets('a desktop window does not turn a message into a banner', (
+      tester,
+    ) async {
+      expect(
+        await snackBarWidth(tester, const Size(1440, 900)),
+        ContentWidth.column,
+      );
     });
 
-    testWidgets('a phone keeps the snackbar on the edges it should use',
-        (tester) async {
+    testWidgets('a phone keeps the snackbar on the edges it should use', (
+      tester,
+    ) async {
       // Full width less the floating inset, not the desktop cap.
       final width = await snackBarWidth(tester, const Size(390, 844));
       expect(width, lessThan(390));

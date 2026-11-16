@@ -3,12 +3,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:words625/views/theme.dart';
 
 void main() {
-  testWidgets('light, dark, and system theme transitions do not throw',
-      (tester) async {
+  testWidgets('light, dark, and system theme transitions do not throw', (
+    tester,
+  ) async {
     tester.platformDispatcher.platformBrightnessTestValue = Brightness.dark;
-    addTearDown(
-      tester.platformDispatcher.clearPlatformBrightnessTestValue,
-    );
+    addTearDown(tester.platformDispatcher.clearPlatformBrightnessTestValue);
 
     final mode = ValueNotifier(ThemeMode.light);
     addTearDown(mode.dispose);
@@ -89,10 +88,7 @@ class _ThemeComponents extends StatelessWidget {
         currentIndex: 0,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home_rounded), label: 'A'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person_rounded),
-            label: 'B',
-          ),
+          BottomNavigationBarItem(icon: Icon(Icons.person_rounded), label: 'B'),
         ],
       ),
     );

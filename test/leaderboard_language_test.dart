@@ -16,82 +16,112 @@ LeaderboardEntry entry(
   Map<String, String> leagueByLanguage = const {},
   Map<String, int> leagueXpByLanguage = const {},
   bool excludedFromLeagues = false,
-}) =>
-    LeaderboardEntry(
-      userId: id,
-      name: id,
-      profileImage: id,
-      score: score,
-      leagueXp: leagueXp,
-      league: league,
-      languages: languages,
-      preferredLanguage: preferredLanguage,
-      leagueByLanguage: leagueByLanguage,
-      leagueXpByLanguage: leagueXpByLanguage,
-      excludedFromLeagues: excludedFromLeagues,
-    );
+}) => LeaderboardEntry(
+  userId: id,
+  name: id,
+  profileImage: id,
+  score: score,
+  leagueXp: leagueXp,
+  league: league,
+  languages: languages,
+  preferredLanguage: preferredLanguage,
+  leagueByLanguage: leagueByLanguage,
+  leagueXpByLanguage: leagueXpByLanguage,
+  excludedFromLeagues: excludedFromLeagues,
+);
 
 void main() {
   group('a league is per language', () {
     test('only learners of that language are ranked', () {
-      final ranked = LeagueProvider.rankForLeague([
-        entry('tamil-learner',
-            languages: ['tamil'], leagueXpByLanguage: {'tamil': 100}),
-        entry('hindi-learner',
-            languages: ['hindi'], leagueXpByLanguage: {'hindi': 900}),
-        entry('both',
+      final ranked = LeagueProvider.rankForLeague(
+        [
+          entry(
+            'tamil-learner',
+            languages: ['tamil'],
+            leagueXpByLanguage: {'tamil': 100},
+          ),
+          entry(
+            'hindi-learner',
+            languages: ['hindi'],
+            leagueXpByLanguage: {'hindi': 900},
+          ),
+          entry(
+            'both',
             languages: ['tamil', 'hindi'],
-            leagueXpByLanguage: {'tamil': 50, 'hindi': 800}),
-      ], 'bronze', 'tamil');
-
-      expect(
-        ranked.map((e) => e.userId).toList(),
-        ['tamil-learner', 'both'],
-        reason: 'a Hindi-only learner has no place on the Tamil board',
+            leagueXpByLanguage: {'tamil': 50, 'hindi': 800},
+          ),
+        ],
+        'bronze',
+        'tamil',
       );
+
+      expect(ranked.map((e) => e.userId).toList(), [
+        'tamil-learner',
+        'both',
+      ], reason: 'a Hindi-only learner has no place on the Tamil board');
     });
 
     test('XP earned in another language does not rank you here', () {
       // The complaint: one board, one XP pool, so somebody grinding Hindi
       // outranked the people actually learning Tamil.
-      final ranked = LeagueProvider.rankForLeague([
-        entry('tamil-grinder',
+      final ranked = LeagueProvider.rankForLeague(
+        [
+          entry(
+            'tamil-grinder',
             languages: ['tamil', 'hindi'],
-            leagueXpByLanguage: {'tamil': 400, 'hindi': 0}),
-        entry('hindi-grinder',
+            leagueXpByLanguage: {'tamil': 400, 'hindi': 0},
+          ),
+          entry(
+            'hindi-grinder',
             languages: ['tamil', 'hindi'],
-            leagueXpByLanguage: {'tamil': 10, 'hindi': 5000}),
-      ], 'bronze', 'tamil');
+            leagueXpByLanguage: {'tamil': 10, 'hindi': 5000},
+          ),
+        ],
+        'bronze',
+        'tamil',
+      );
 
       expect(ranked.first.userId, 'tamil-grinder');
     });
 
     test('the same learner holds a different rank in each language', () {
       final people = [
-        entry('a',
-            languages: ['tamil', 'hindi'],
-            leagueXpByLanguage: {'tamil': 10, 'hindi': 900}),
-        entry('b',
-            languages: ['tamil', 'hindi'],
-            leagueXpByLanguage: {'tamil': 900, 'hindi': 10}),
+        entry(
+          'a',
+          languages: ['tamil', 'hindi'],
+          leagueXpByLanguage: {'tamil': 10, 'hindi': 900},
+        ),
+        entry(
+          'b',
+          languages: ['tamil', 'hindi'],
+          leagueXpByLanguage: {'tamil': 900, 'hindi': 10},
+        ),
       ];
 
       expect(
-          LeagueProvider.rankForLeague(people, 'bronze', 'tamil').first.userId,
-          'b');
+        LeagueProvider.rankForLeague(people, 'bronze', 'tamil').first.userId,
+        'b',
+      );
       expect(
-          LeagueProvider.rankForLeague(people, 'bronze', 'hindi').first.userId,
-          'a');
+        LeagueProvider.rankForLeague(people, 'bronze', 'hindi').first.userId,
+        'a',
+      );
     });
 
     test('tiers are read per language', () {
-      final ranked = LeagueProvider.rankForLeague([
-        entry('gold-in-tamil',
+      final ranked = LeagueProvider.rankForLeague(
+        [
+          entry(
+            'gold-in-tamil',
             languages: ['tamil'],
             league: 'bronze',
             leagueByLanguage: {'tamil': 'gold'},
-            leagueXpByLanguage: {'tamil': 5}),
-      ], 'gold', 'tamil');
+            leagueXpByLanguage: {'tamil': 5},
+          ),
+        ],
+        'gold',
+        'tamil',
+      );
 
       expect(ranked.map((e) => e.userId), ['gold-in-tamil']);
     });
@@ -99,25 +129,36 @@ void main() {
 
   group('maintainers are kept off the boards', () {
     test('an excluded account is not ranked, however much XP it has', () {
-      final ranked = LeagueProvider.rankForLeague([
-        entry('maintainer',
+      final ranked = LeagueProvider.rankForLeague(
+        [
+          entry(
+            'maintainer',
             languages: ['tamil'],
             score: 99999,
             leagueXpByLanguage: {'tamil': 99999},
-            excludedFromLeagues: true),
-        entry('learner',
-            languages: ['tamil'], leagueXpByLanguage: {'tamil': 10}),
-      ], 'bronze', 'tamil');
+            excludedFromLeagues: true,
+          ),
+          entry(
+            'learner',
+            languages: ['tamil'],
+            leagueXpByLanguage: {'tamil': 10},
+          ),
+        ],
+        'bronze',
+        'tamil',
+      );
 
       expect(ranked.map((e) => e.userId), ['learner']);
     });
 
     test('exclusion holds in every league and language', () {
-      final maintainer = entry('maintainer',
-          languages: ['tamil', 'hindi'],
-          league: 'diamond',
-          leagueXpByLanguage: {'tamil': 500, 'hindi': 500},
-          excludedFromLeagues: true);
+      final maintainer = entry(
+        'maintainer',
+        languages: ['tamil', 'hindi'],
+        league: 'diamond',
+        leagueXpByLanguage: {'tamil': 500, 'hindi': 500},
+        excludedFromLeagues: true,
+      );
 
       for (final league in LeagueProvider.leagues) {
         for (final language in ['tamil', 'hindi']) {
@@ -143,18 +184,24 @@ void main() {
     test('an account with no per-language data keeps its tier everywhere', () {
       // They have not opened the app since the split. Showing them Bronze
       // would read as a demotion they never earned.
-      final legacy = entry('legacy',
-          league: 'emerald', leagueXp: 700, languages: ['tamil']);
+      final legacy = entry(
+        'legacy',
+        league: 'emerald',
+        leagueXp: 700,
+        languages: ['tamil'],
+      );
 
       expect(legacy.leagueFor('tamil'), 'emerald');
       expect(legacy.leagueFor('hindi'), 'emerald');
     });
 
     test('legacy XP is claimed by the language they were studying', () {
-      final legacy = entry('legacy',
-          leagueXp: 700,
-          languages: ['tamil', 'hindi'],
-          preferredLanguage: 'tamil');
+      final legacy = entry(
+        'legacy',
+        leagueXp: 700,
+        languages: ['tamil', 'hindi'],
+        preferredLanguage: 'tamil',
+      );
 
       expect(legacy.leagueXpFor('tamil'), 700);
       expect(
@@ -164,11 +211,13 @@ void main() {
       );
     });
 
-    test('a single-language account needs no preferredLanguage to keep its XP',
-        () {
-      final legacy = entry('legacy', leagueXp: 700, languages: ['odia']);
-      expect(legacy.leagueXpFor('odia'), 700);
-    });
+    test(
+      'a single-language account needs no preferredLanguage to keep its XP',
+      () {
+        final legacy = entry('legacy', leagueXp: 700, languages: ['odia']);
+        expect(legacy.leagueXpFor('odia'), 700);
+      },
+    );
 
     test('an account predating leagueXp still ranks on its score', () {
       final legacy = entry('legacy', score: 900, languages: ['tamil']);
@@ -176,12 +225,14 @@ void main() {
     });
 
     test('once migrated, the legacy total stops being counted again', () {
-      final migrated = entry('migrated',
-          leagueXp: 700,
-          score: 900,
-          languages: ['tamil', 'hindi'],
-          preferredLanguage: 'tamil',
-          leagueXpByLanguage: {'tamil': 700, 'hindi': 0});
+      final migrated = entry(
+        'migrated',
+        leagueXp: 700,
+        score: 900,
+        languages: ['tamil', 'hindi'],
+        preferredLanguage: 'tamil',
+        leagueXpByLanguage: {'tamil': 700, 'hindi': 0},
+      );
 
       expect(migrated.leagueXpFor('tamil'), 700);
       expect(migrated.leagueXpFor('hindi'), 0);
@@ -190,14 +241,11 @@ void main() {
 
   group('the migration written on first launch', () {
     test('carries the tier to every language and the XP to one', () {
-      final updates = GameProvider.languageLeagueMigration(
-        {
-          'league': 'ruby',
-          'languages': ['tamil', 'hindi'],
-          'preferredLanguage': 'hindi',
-        },
-        initialLeagueXp: 450,
-      );
+      final updates = GameProvider.languageLeagueMigration({
+        'league': 'ruby',
+        'languages': ['tamil', 'hindi'],
+        'preferredLanguage': 'hindi',
+      }, initialLeagueXp: 450);
 
       expect(updates['leagueByLanguage'], {'tamil': 'ruby', 'hindi': 'ruby'});
       expect(updates['leagueXpByLanguage'], {'tamil': 0, 'hindi': 450});
@@ -207,46 +255,39 @@ void main() {
     test('backfills languages from preferredLanguage', () {
       // The board query filters on `languages`; an empty array would drop the
       // account off every leaderboard it belongs on.
-      final updates = GameProvider.languageLeagueMigration(
-        {'preferredLanguage': 'odia', 'league': 'bronze'},
-        initialLeagueXp: 20,
-      );
+      final updates = GameProvider.languageLeagueMigration({
+        'preferredLanguage': 'odia',
+        'league': 'bronze',
+      }, initialLeagueXp: 20);
 
       expect(updates['languages'], ['odia']);
       expect(updates['leagueXpByLanguage'], {'odia': 20});
     });
 
     test('runs once and then leaves the standings alone', () {
-      final updates = GameProvider.languageLeagueMigration(
-        {
-          'league': 'gold',
-          'languages': ['tamil'],
-          'preferredLanguage': 'tamil',
-          'leagueLanguageMigrated': true,
-        },
-        initialLeagueXp: 999,
-      );
+      final updates = GameProvider.languageLeagueMigration({
+        'league': 'gold',
+        'languages': ['tamil'],
+        'preferredLanguage': 'tamil',
+        'leagueLanguageMigrated': true,
+      }, initialLeagueXp: 999);
 
       expect(updates.containsKey('leagueXpByLanguage'), isFalse);
       expect(updates.containsKey('leagueByLanguage'), isFalse);
     });
 
     test('a language added later is still backfilled after migration', () {
-      final updates = GameProvider.languageLeagueMigration(
-        {
-          'league': 'gold',
-          'languages': ['tamil'],
-          'preferredLanguage': 'telugu',
-          'leagueLanguageMigrated': true,
-        },
-        initialLeagueXp: 999,
-      );
+      final updates = GameProvider.languageLeagueMigration({
+        'league': 'gold',
+        'languages': ['tamil'],
+        'preferredLanguage': 'telugu',
+        'leagueLanguageMigrated': true,
+      }, initialLeagueXp: 999);
 
       expect(updates['languages'], containsAll(['tamil', 'telugu']));
     });
 
-    test('an account the server knows nothing about is rescued by the device',
-        () {
+    test('an account the server knows nothing about is rescued by the device', () {
       // 830 of 1047 live accounts have neither `languages` nor
       // `preferredLanguage` - they predate both fields. The board query filters
       // on `languages`, so without this they match nothing and disappear from
@@ -277,10 +318,9 @@ void main() {
     });
 
     test('an account with no language at all is left intact', () {
-      final updates = GameProvider.languageLeagueMigration(
-        {'league': 'bronze'},
-        initialLeagueXp: 30,
-      );
+      final updates = GameProvider.languageLeagueMigration({
+        'league': 'bronze',
+      }, initialLeagueXp: 30);
 
       expect(updates['leagueByLanguage'], isEmpty);
       expect(updates['leagueXpByLanguage'], isEmpty);

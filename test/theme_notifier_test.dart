@@ -71,8 +71,7 @@ void main() {
 
     expect(container.read(themeModeProvider), ThemeMode.dark);
     expect(
-      getIt<AppPrefs>()
-          .preferences
+      getIt<AppPrefs>().preferences
           .getString(PrefsConstants.themeMode, defaultValue: '')
           .getValue(),
       'dark',
@@ -160,7 +159,10 @@ void main() {
   });
 
   test('an unrecognised stored palette falls back to the first', () async {
-    await getIt<AppPrefs>().setString(PrefsConstants.themePalette, 'does-not-exist');
+    await getIt<AppPrefs>().setString(
+      PrefsConstants.themePalette,
+      'does-not-exist',
+    );
 
     final container = ProviderContainer();
     addTearDown(container.dispose);
@@ -177,8 +179,7 @@ void main() {
 
     expect(container.read(paletteProvider).id, 'marigold');
     expect(
-      getIt<AppPrefs>()
-          .preferences
+      getIt<AppPrefs>().preferences
           .getString(PrefsConstants.themePalette, defaultValue: '')
           .getValue(),
       'marigold',

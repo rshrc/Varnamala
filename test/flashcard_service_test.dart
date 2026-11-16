@@ -51,11 +51,7 @@ void main() {
 
   test('hard never reduces the interval below one day', () {
     final next = scheduleFlashcardReview(
-      current: FlashcardProgress(
-        dueAt: now,
-        intervalDays: 1,
-        repetitions: 1,
-      ),
+      current: FlashcardProgress(dueAt: now, intervalDays: 1, repetitions: 1),
       rating: FlashcardRating.hard,
       now: now,
     );

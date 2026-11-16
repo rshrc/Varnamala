@@ -20,14 +20,8 @@ void main() {
         ],
       );
 
-      expect(
-        exercise.isCorrect(OrderedExerciseResponse(['a', 'b'])),
-        isTrue,
-      );
-      expect(
-        exercise.isCorrect(OrderedExerciseResponse(['b', 'a'])),
-        isFalse,
-      );
+      expect(exercise.isCorrect(OrderedExerciseResponse(['a', 'b'])), isTrue);
+      expect(exercise.isCorrect(OrderedExerciseResponse(['b', 'a'])), isFalse);
       expect(
         exercise.isCorrect(OrderedExerciseResponse(['a', 'b', 'x'])),
         isFalse,
@@ -35,13 +29,7 @@ void main() {
     });
 
     test('identical repeated tokens are interchangeable', () {
-      for (final word in [
-        'amar',
-        'nanage',
-        'pustaka',
-        'masala',
-        'dhonnobad',
-      ]) {
+      for (final word in ['amar', 'nanage', 'pustaka', 'masala', 'dhonnobad']) {
         final letters = word.split('');
         final tokens = [
           for (var index = 0; index < letters.length; index++)
@@ -77,31 +65,30 @@ void main() {
       }
     });
 
-    test('typed blanks normalize case, whitespace, and terminal punctuation',
-        () {
-      const exercise = FillBlankTextExercise(
-        id: 'text',
-        prompt: 'Type it',
-        explanation: 'Explanation',
-        beforeBlank: 'Nanna',
-        afterBlank: '.',
-        clue: 'My house',
-        acceptedAnswers: ['Mane'],
-      );
+    test(
+      'typed blanks normalize case, whitespace, and terminal punctuation',
+      () {
+        const exercise = FillBlankTextExercise(
+          id: 'text',
+          prompt: 'Type it',
+          explanation: 'Explanation',
+          beforeBlank: 'Nanna',
+          afterBlank: '.',
+          clue: 'My house',
+          acceptedAnswers: ['Mane'],
+        );
 
-      expect(
-        exercise.isCorrect(const TextExerciseResponse('  MANE.  ')),
-        isTrue,
-      );
-      expect(
-        exercise.isCorrect(const TextExerciseResponse('mAnE')),
-        isTrue,
-      );
-      expect(
-        exercise.isCorrect(const TextExerciseResponse('manege')),
-        isFalse,
-      );
-    });
+        expect(
+          exercise.isCorrect(const TextExerciseResponse('  MANE.  ')),
+          isTrue,
+        );
+        expect(exercise.isCorrect(const TextExerciseResponse('mAnE')), isTrue);
+        expect(
+          exercise.isCorrect(const TextExerciseResponse('manege')),
+          isFalse,
+        );
+      },
+    );
   });
 
   test('a mistake inserts its alternate retry after two other exercises', () {
@@ -173,18 +160,18 @@ void main() {
 }
 
 FillBlankChoiceExercise _choice(String id) => FillBlankChoiceExercise(
-      id: id,
-      prompt: id,
-      explanation: 'Explanation',
-      beforeBlank: 'before',
-      afterBlank: 'after',
-      clue: 'clue',
-      options: const [
-        ExerciseOption(id: 'right', text: 'right'),
-        ExerciseOption(id: 'wrong', text: 'wrong'),
-      ],
-      correctOptionId: 'right',
-    );
+  id: id,
+  prompt: id,
+  explanation: 'Explanation',
+  beforeBlank: 'before',
+  afterBlank: 'after',
+  clue: 'clue',
+  options: const [
+    ExerciseOption(id: 'right', text: 'right'),
+    ExerciseOption(id: 'wrong', text: 'wrong'),
+  ],
+  correctOptionId: 'right',
+);
 
 void _answerChoiceCorrectly(InteractiveLessonEngine engine) {
   engine.setResponse(const ChoiceExerciseResponse('right'));

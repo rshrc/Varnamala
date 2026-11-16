@@ -20,8 +20,10 @@ void main() {
     concepts = await ConceptCatalogue().load();
     wordCourses = {};
     for (final language in TargetLanguage.values) {
-      final groups =
-          await CourseRepository().courses(language, firstName: 'Rishi');
+      final groups = await CourseRepository().courses(
+        language,
+        firstName: 'Rishi',
+      );
       final course = groups
           .expand((group) => group)
           .where((course) => course.levels!.first.isVocabulary)
@@ -119,8 +121,9 @@ void main() {
         for (final word in level.words!) {
           final label = concepts[word.concept]!.label;
           if (romanizationKey(word.word) == romanizationKey(label)) {
-            untranslated
-                .add('${entry.key.name}: ${word.concept} = ${word.word}');
+            untranslated.add(
+              '${entry.key.name}: ${word.concept} = ${word.word}',
+            );
           }
         }
       }
