@@ -1,0 +1,465 @@
+# s2e01 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಅಮ್ಮ | amma | Amma
+tease: ಕೆರೆ. | kere. | The lake.
+
+b01:
+  say: ಒಂದು ವಾರ ಆದ್ಮೇಲೆ. ರೈಲ್ವೆ ಸ್ಟೇಷನ್ ಹೊರಗೆ.
+  en: A week later. Outside the railway station.
+  words: |
+    ondu              "one"
+    vaara             "week"
+    aadmeele  < aagu  "after (later)"
+    railve            "railway" loan
+    sTeeShan          "station" loan
+    horage            "outside"
+
+b02:
+  say: ದೇವ್ ಕಾಯ್ತಿದ್ದಾನೆ. ಆರು ತಿಂಗಳಿಂದ ಅಮ್ಮನನ್ನ ನೋಡಿಲ್ಲ.
+  en: Dev waits. He hasn't seen his mother in six months.
+  words: |
+    dev                                            "Dev" name
+    kaaytiddaane:PROG                   < kaayu    "is waiting"
+    aaru                                           "six"
+    tingaLinda         tingaL·inda:ABL  < tingaLu  "for ... months"
+    ammananna:ACC                       < amma     "his mother (Amma)"
+    nooDilla:NEG                        < nooDu    "hasn't seen"
+
+b03:
+  say: ದೇವ್! ಮಗನೇ!
+  en: Dev! My boy!
+  words: |
+    dev              "Dev!" name
+    maganee  < maga  "my son!"
+
+b04:
+  say: ಅಮ್ಮಾ!
+  en: Amma!
+  words: |
+    ammaa  < amma  "Amma! (Mum!)"
+
+b05:
+  say: ಸಣ್ಣ ಆಗಿದ್ದೀಯ. ಆದ್ರೆ... ಖುಷಿಯಾಗಿ ಕಾಣ್ತೀಯ.
+  en: You've got thin. But... you look happy.
+  words: |
+    saNNa                  "thin"
+    aagiddiiya   < aagu    "you've become"
+    aadre                  "but"
+    khuShiyaagi  < khuShi  "happy"
+    kaaNtiiya    < kaaNu   "(you) look"
+
+b06:
+  say: ನಮಸ್ಕಾರ ಮೇಡಂ! ನಮ್ಮ ಊರಿಗೆ ಸ್ವಾಗತ!
+  en: Hello, madam! Welcome to our city!
+  words: |
+    namaskaara                       "namaskara (hello)"
+    meeDam                           "madam" loan
+    namma                            "our"
+    uurige      uur·ige:DIR  < uuru  "to (the) city"
+    svaagata                         "welcome!"
+
+b07:
+  say: ದೇವ್... ಇವರಿಗೆ ನಮ್ಮ ಭಾಷೆ ಅರ್ಥ ಆಗುತ್ತಾ?
+  en: Dev... does he understand our language?
+  words: |
+    dev                   "Dev" name
+    ivarige:DIR  < ivaru  "to him (polite)"
+    namma                 "our"
+    bhaaShe               "language"
+    artha                 "meaning"
+    aaguttaa:Q   < aagu   "does (it) get through?"
+
+b08:
+  say: ಸ್ವಲ್ಪ ಸ್ವಲ್ಪ, ಮೇಡಂ! ನಿಮ್ಮ ಮಗನ ತರ.
+  en: A little, a little, madam! Like your son.
+  words: |
+    swalpa              "a little"
+    swalpa              "a little"
+    meeDam              "madam" loan
+    nimma               "your"
+    magana:GEN  < maga  "son's"
+    tara                "like"
+
+b09:
+  say: ಬನ್ನಿ ಮೇಡಂ. ನಿಮಗೆ ಫ್ರೀ!
+  en: Come, madam. For you, it's free!
+  words: |
+    banni:IMP.HON  < baru   "come (in)"
+    meeDam                  "madam" loan
+    nimage:DIR     < niivu  "for you"
+    phrii                   "free!" loan
+
+b10:
+  say: ಇಲ್ಲ ಇಲ್ಲ. ನಾನು ಕೊಡ್ತೀನಿ.
+  en: No, no. I'll pay.
+  words: |
+    illa:NEG                              "no"
+    illa:NEG                              "no"
+    naanu                                 "I"
+    koDtiini  koD·tiini:PRES.1SG  < koDu  "will pay (give)"
+
+b11:
+  say: ಹಾಗಾದ್ರೆ... ಒಂದಿನ, ನಿಮ್ಮ ಕೈ ಟೀ.
+  en: Then... someday, a cup of tea made by your hands.
+  words: |
+    haagaadre  "then"
+    ondina     "one day"
+    nimma      "your"
+    kai        "hands'"
+    Tii        "tea" loan
+
+b12:
+  say: ಆಯ್ತು!
+  en: It's a promise!
+  words: |
+    aaytu  < aagu  "done! (it is settled)"
+
+b13:
+  say: ಅಮ್ಮ ಆಟೋದಿಂದ ಊರು ನೋಡ್ತಾರೆ. ಎಲ್ಲಾ ಹೊಸದು.
+  en: Amma watches the city go by. Everything is new.
+  words: |
+    amma                                      "Amma (Dev's mum)"
+    aaToodinda  aaToo·dinda:ABL      < aaToo  "from the auto" loan
+    uuru                                      "the city"
+    nooDtaare   nooD·taare:PRES.3PL  < nooDu  "watches"
+    ellaa                                     "everything"
+    hosadu                                    "new"
+
+b14:
+  say: ಎಷ್ಟು ಜನ! ಎಲ್ಲಾ ಎಲ್ಲಿಂದ ಬಂದವರು?
+  en: So many people! Where have they all come from?
+  words: |
+    eShTu                            "so many"
+    jana                             "people!"
+    ellaa                            "all"
+    ellinda    ell·inda:ABL  < elli  "from where"
+    bandavaru                < baru  "(they have) come?"
+
+b15:
+  say: ಎಲ್ಲಾ ಕಡೆಯಿಂದ, ಮೇಡಂ. ನನ್ನ ತರ. ನಿಮ್ಮ ಮಗನ ತರ.
+  en: From everywhere, madam. Like me. Like your son.
+  words: |
+    ellaa                               "every"
+    kaDeyinda   kaDe·yinda:ABL  < kaDe  "from (every) side"
+    meeDam                              "madam" loan
+    nanna                               "my"
+    tara                                "like (me)"
+    nimma                               "your"
+    magana:GEN                  < maga  "son's"
+    tara                                "like"
+
+b16:
+  say: ಮತ್ತೆ ಇಲ್ಲಿನವರು?
+  en: And the people who are from here?
+  words: |
+    matte               "and"
+    illinavaru  < illi  "the people from here?"
+
+b17:
+  say: ಅವರು ಜಾಗ ಕೊಡ್ತಾರೆ. ನಿಧಾನವಾಗಿ.
+  en: They make room. Slowly.
+  words: |
+    avaru                                      "they"
+    jaaga                                      "room (space)"
+    koDtaare       koD·taare:PRES.3PL  < koDu  "give"
+    nidhaanavaagi                              "slowly"
+
+b18:
+  say: ಆಮೇಲೆ, ಒಂದು ಪೋಸ್ಟರ್ ಮೇಲೆ... ದೇವ್.
+  en: Then, on a poster... Dev.
+  words: |
+    aameele  "then"
+    ondu     "a"
+    poosTar  "poster" loan
+    meele    "on"
+    dev      "Dev" @amma.shock name
+
+b19:
+  say: ನನ್ನ ಮಗ?! ನೇತಾ ಪಕ್ಕದಲ್ಲಿ?!
+  en: My son?! Next to a neta?!
+  words: |
+    nanna                                 "my"
+    maga                                  "son?!"
+    neetaa                                "the neta (politician)"
+    pakkadalli  pakka·dalli:LOC  < pakka  "beside?!"
+
+b20:
+  say: ಹೆದರಬೇಡಿ ಮೇಡಂ. ಭಾಷಣ ಮಾಡಿದ್ರು, ಅಷ್ಟೇ.
+  en: Don't worry, madam. He only gave a speech.
+  words: |
+    hedarabeeDi:NEG  < hedaru  "don't worry (don't fear)"
+    meeDam                     "madam" loan
+    bhaaShaNa                  "a speech"
+    maaDidru:PAST    < maaDu   "(he) gave (did)"
+    aShTee                     "that's all"
+
+b21:
+  say: ಓನರ್ ಮನೆ ಬಾಗಿಲು. ಇಬ್ಬರು ಹೆಂಗಸರು. ಎರಡು ಭಾಷೆ.
+  en: The landlady's door. Two women. Two languages.
+  words: |
+    oonar                                "owner (the landlady)" loan
+    mane                                 "house"
+    baagilu                              "door"
+    ibbaru                               "two (people)"
+    hengasaru  hengas·aru:PL  < hengasu  "women"
+    eraDu                                "two"
+    bhaaShe                              "languages"
+
+b22:
+  say: ಮೇಡಂ, ಇವರು ನನ್ನ ಅಮ್ಮ.
+  en: Madam, this is my mother.
+  words: |
+    meeDam  "madam" loan
+    ivaru   "this is (polite)"
+    nanna   "my"
+    amma    "mother"
+
+b23:
+  say: ನಮಸ್ಕಾರ. ಒಳಗೆ ಬನ್ನಿ.
+  en: Namaskara. Please, come in.
+  words: |
+    namaskaara             "namaskara (hello)"
+    oLage                  "inside"
+    banni:IMP.HON  < baru  "come (please)"
+
+b24:
+  say: ನಮಸ್ತೆ... ನಮಸ್ಕಾರ.
+  en: Namaste... namaskara.
+  words: |
+    namaste     "namaste (her own greeting)"
+    namaskaara  "namaskara (the city's greeting, tried out)"
+
+b25:
+  say: ಒಬ್ಬರ ಭಾಷೆ ಇನ್ನೊಬ್ಬರಿಗೆ ಬರಲ್ಲ. ಇಬ್ಬರೂ ನಗ್ತಾರೆ. ಸ್ವಲ್ಪ.
+  en: Neither knows the other's language. They both smile. A little.
+  words: |
+    obbara:GEN                           < obbaru     "one's"
+    bhaaShe                                           "language"
+    innobbarige:DIR                      < innobbaru  "to the other"
+    baralla:NEG                          < baru       "doesn't come (isn't known)"
+    ibbaruu                              < ibbaru     "both"
+    nagtaare         nag·taare:PRES.3PL  < nagu       "smile"
+    swalpa                                            "a little"
+
+b26:
+  say: ನಿಮಗೆ. ಮಾವಿನಕಾಯಿ ಉಪ್ಪಿನಕಾಯಿ. ನಾನೇ ಮಾಡಿದ್ದು.
+  en: For you. Mango pickle. I made it myself.
+  words: |
+    nimage:DIR     < niivu  "for you"
+    maavinakaayi            "raw mango"
+    uppinakaayi             "pickle"
+    naanee         < naanu  "I myself"
+    maaDiddu:PAST  < maaDu  "made (it)"
+
+b27:
+  say: ...ಬೆಳ್ಳುಳ್ಳಿ ಇದ್ಯಾ?
+  en: ...Is there garlic in it?
+  words: |
+    beLLuLLi         "garlic"
+    idyaa:Q   < iru  "is there?"
+
+b28:
+  say: ಹೌದು... ಯಾಕೆ?
+  en: Yes... why?
+  words: |
+    haudu  "yes"
+    yaake  "why?"
+
+b29:
+  say: ನಮ್ಮ ಮನೆಯಲ್ಲಿ ಬೆಳ್ಳುಳ್ಳಿ ಇಲ್ಲ.
+  en: In our house, we don't eat garlic.
+  words: |
+    namma                              "our"
+    maneyalli  mane·yalli:LOC  < mane  "in (the) house"
+    beLLuLLi                           "garlic"
+    illa:NEG                           "none"
+
+b30:
+  say: ಅಮ್ಮನ ನಗು ನಿಲ್ಲುತ್ತೆ. ದೇವ್ ಕೆಳಗೆ ನೋಡ್ತಾನೆ.
+  en: Amma's smile stops. Dev looks at the floor.
+  words: |
+    ammana     amma·na:GEN          < amma   "Amma's"
+    nagu                                     "smile"
+    nillutte                        < nillu  "stops"
+    dev                                      "Dev" name
+    keLage                                   "down"
+    nooDtaane  nooD·taane:PRES.3SG  < nooDu  "looks"
+
+b31:
+  say: ...ಆದ್ರೆ ಟೆರೇಸ್ ಬೇರೆ. ದೇವನಿಗೆ ಇಟ್ಕೊಳ್ಳಿ.
+  en: ...But the terrace is different. Keep it there, for Dev.
+  words: |
+    aadre                   "but"
+    Terees                  "the terrace" loan
+    beere                   "is different (separate)"
+    devanige:DIR     < dev  "for Dev" name
+    iTkoLLi:IMP.HON  < iDu  "keep (it)"
+
+b32:
+  say: ಒಂದು ಚಿಕ್ಕ ಬಾಗಿಲು. ಸ್ವಲ್ಪ ತೆರೆಯುತ್ತೆ.
+  en: A small door, opening a little.
+  words: |
+    ondu               "a"
+    chikka             "small"
+    baagilu            "door"
+    swalpa             "a little"
+    tereyutte  < tere  "opens"
+
+b33:
+  say: ರಾತ್ರಿ. ಟೆರೇಸ್. ಅಮ್ಮನಿಗೆ ನಿದ್ದೆ ಬರ್ತಿಲ್ಲ.
+  en: Night. The terrace. Amma can't sleep.
+  words: |
+    raatri                               "night"
+    Terees                               "the terrace" loan
+    ammanige      amman·ige:DIR  < amma  "to Amma"
+    nidde                                "sleep"
+    bartilla:NEG                 < baru  "isn't coming"
+
+b34:
+  say: ದೇವ್... ಅವರಿಗೆ ನಾನು ಇಷ್ಟ ಇಲ್ಲ.
+  en: Dev... she doesn't like me.
+  words: |
+    dev                   "Dev" name
+    avarige:DIR  < avaru  "to her"
+    naanu                 "I (am)"
+    iShTa                 "liked"
+    illa:NEG              "not"
+
+b35:
+  say: ಅವರು ಎಲ್ಲರ ಜೊತೆ ಹಾಗೇ, ಅಮ್ಮ. ನನ್ನ ಜೊತೆ ಕೂಡ. ಮೊದಲು.
+  en: She's like that with everyone, Amma. With me too. At first.
+  words: |
+    avaru                 "she (is)"
+    ellara:GEN  < ellaru  "everyone's"
+    jote                  "with"
+    haagee                "like that"
+    amma                  "Amma"
+    nanna                 "my"
+    jote                  "with"
+    kuuDa                 "too"
+    modalu                "at first"
+
+b36:
+  say: ಅವರು ಒಬ್ಬರೇ ಇರೋದು. ಮಗ ದೆಹಲಿಯಲ್ಲಿ. ಗಂಡ... ಇಲ್ಲ.
+  en: She lives alone. Her son's in Delhi. Her husband... is gone.
+  words: |
+    avaru                                    "she"
+    obbaree                        < obbaru  "alone"
+    iroodu                         < iru     "lives (stays)"
+    maga                                     "(her) son (is)"
+    dehaliyalli  dehali·yalli:LOC  < dehali  "in Delhi" name
+    ganDa                                    "(her) husband"
+    illa:NEG                                 "is no more"
+
+b37:
+  say: ಒಬ್ಬರೇ? ಆ ದೊಡ್ಡ ಮನೆಯಲ್ಲಿ?
+  en: Alone? In that big house?
+  words: |
+    obbaree                    < obbaru  "alone?"
+    aa                                   "that"
+    doDDa                                "big"
+    maneyalli  mane·yalli:LOC  < mane    "in (the) house?"
+
+b38:
+  say: ಅಮ್ಮ ಕೆಳಗೆ ನೋಡ್ತಾರೆ. ಕತ್ತಲೆ ಮನೆಯಲ್ಲಿ, ಒಂದೇ ಲೈಟ್.
+  en: Amma looks down at the dark house. A single light is on.
+  words: |
+    amma                                     "Amma (Dev's mum)"
+    keLage                                   "down"
+    nooDtaare  nooD·taare:PRES.3PL  < nooDu  "looks"
+    kattale                                  "dark"
+    maneyalli  mane·yalli:LOC       < mane   "in (the) house"
+    ondee                           < ondu   "just one"
+    laiT                                     "light" loan
+
+b39:
+  say: ಬೆಳಿಗ್ಗೆ ಐದು ಗಂಟೆ. ಓನರ್ ಅಮ್ಮ ಹೊರಗೆ ಹೋಗ್ತಾರೆ. ಕೈಯಲ್ಲಿ ಹೂವು.
+  en: Five in the morning. The landlady goes out. Flowers in her hand.
+  words: |
+    beLigge                            "morning"
+    aidu                               "five"
+    gaNTe                              "o'clock"
+    oonar                              "owner (the landlady)" loan
+    amma                               "(madam)"
+    horage                             "out"
+    hoogtaare                 < hoogu  "goes"
+    kaiyalli   kai·yalli:LOC  < kai    "in (her) hand"
+    huuvu                              "flowers"
+
+b40:
+  say: ಅಮ್ಮ ಸದ್ದಿಲ್ಲದೆ ಹಿಂದೆ ಹೋಗ್ತಾರೆ.
+  en: Amma quietly follows her.
+  words: |
+    amma                 "Amma (Dev's mum)"
+    saddillade           "quietly (without a sound)"
+    hinde                "behind"
+    hoogtaare   < hoogu  "goes"
+
+b41:
+  say: ಒಂದು ಕೆರೆ. ಬಿಳಿ ನೊರೆ. ಕೆಟ್ಟ ವಾಸನೆ.
+  en: A lake. White foam. A bad smell.
+  words: |
+    ondu     "a"
+    kere     "lake"
+    biLi     "white"
+    nore     "foam" @foam.drift
+    keTTa    "bad"
+    vaasane  "smell"
+
+b42:
+  say: ಓನರ್ ಅಮ್ಮ ನೀರಿಗೆ ಹೂವು ಹಾಕ್ತಾರೆ.
+  en: The landlady lays the flowers on the water.
+  words: |
+    oonar                             "owner (the landlady)" loan
+    amma                              "(madam)"
+    niirige    niir·ige:DIR  < niiru  "onto the water"
+    huuvu                             "flowers" @flowers.float
+    haaktaare                < haaku  "lays (puts)"
+
+b43:
+  say: ರೀ... ನೋಡಿ. ಇನ್ನೂ ಯಾರೂ ಕ್ಲೀನ್ ಮಾಡಿಲ್ಲ.
+  en: Dear... look. Still nobody has cleaned it.
+  words: |
+    rii                     "dear... (how a wife calls her husband)"
+    nooDi:IMP.HON  < nooDu  "look"
+    innuu                   "still"
+    yaaruu                  "nobody"
+    kliin                   "clean" loan
+    maaDilla:NEG   < maaDu  "hasn't done"
+
+b44:
+  say: ನಲವತ್ತು ವರ್ಷ... ನೀವು ದಿನಾ ಇಲ್ಲಿ ಬರ್ತಿದ್ರಿ.
+  en: Forty years... you came here every single morning.
+  words: |
+    nalavattu              "forty"
+    varSha                 "years"
+    niivu                  "you"
+    dinaa                  "every day"
+    illi                   "here"
+    bartidri:PAST  < baru  "used to come"
+
+b45:
+  say: ಅಮ್ಮನಿಗೆ ಪದ ಅರ್ಥ ಆಗಲ್ಲ. ಆದ್ರೆ ಆ ಧ್ವನಿ ಗೊತ್ತು.
+  en: Amma doesn't understand the words. But she knows that voice.
+  words: |
+    ammanige     amman·ige:DIR  < amma  "to Amma"
+    pada                                "the words"
+    artha                               "meaning"
+    aagalla:NEG                 < aagu  "don't come through"
+    aadre                               "but"
+    aa                                  "that"
+    dhvani                              "voice"
+    gottu                               "(she) knows"
+
+b46:
+  say: ಅವರೂ ದೇವ್ ಅಪ್ಪನ ಜೊತೆ ಹೀಗೇ ಮಾತಾಡ್ತಾರೆ.
+  en: She talks to Dev's father just like this.
+  words: |
+    avaruu                                < avaru     "she too"
+    dev                                               "Dev" name
+    appana        appa·na:GEN             < appa      "father's"
+    jote                                              "with"
+    hiigee                                            "just like this"
+    maataaDtaare  maataaD·taare:PRES.3PL  < maataaDu  "talks"

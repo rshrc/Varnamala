@@ -1,0 +1,547 @@
+# s2e01 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: माँ | maa~ | Ma
+tease: झील। | jhiil. | The lake.
+
+b01:
+  say: एक हफ़्ते बाद। रेलवे स्टेशन के बाहर।
+  en: A week later. Outside the railway station.
+  words: |
+    ek                 "one"
+    hafte    < haftaa  "week"
+    baad               "later (after)"
+    relve              "railway" loan
+    sTeshan            "station" loan
+    ke:GEN             "(of)"
+    baahar             "outside"
+
+b02:
+  say: देव इंतज़ार कर रहा है। छह महीने से माँ को नहीं देखा।
+  en: Dev waits. He hasn't seen his mother in six months.
+  words: |
+    dev                      "Dev" name
+    intazaar                 "wait"
+    kar          < karnaa    "do"
+    rahaa:PROG   < rahnaa    "(is)"
+    hai          < honaa     "(is)"
+    chhah                    "six"
+    mahiine      < mahiinaa  "months"
+    se:ABL                   "for (since)"
+    maa~                     "his mother"
+    ko:ACC                   "(to)"
+    nahii~:NEG               "not"
+    dekhaa:PAST  < dekhnaa   "seen"
+
+b03:
+  say: देव! बेटा!
+  en: Dev! My boy!
+  words: |
+    dev    "Dev!" name
+    beTaa  "son!"
+
+b04:
+  say: माँ!
+  en: Ma!
+  words: |
+    maa~  "Ma! (Mum!)"
+
+b05:
+  say: दुबला हो गया। पर... ख़ुश दिखता है।
+  en: You've got thin. But... you look happy.
+  words: |
+    dublaa                 "thin"
+    ho          < honaa    "become"
+    gayaa:PERF  < jaanaa   "(you've)"
+    par                    "but"
+    khush                  "happy"
+    dikhtaa     < dikhnaa  "(you) look"
+    hai         < honaa    "(is)"
+
+b06:
+  say: नमस्ते मैडम! हमारे शहर में स्वागत है!
+  en: Hello, madam! Welcome to our city!
+  words: |
+    namaste              "namaste (hello)"
+    maiDam               "madam" loan
+    hamaare  < hamaaraa  "our"
+    shahar               "city"
+    me~:LOC              "to (in)"
+    svaagat              "welcome"
+    hai      < honaa     "(is)"
+
+b07:
+  say: देव... इन्हें हमारी भाषा समझ आती है?
+  en: Dev... does he understand our language?
+  words: |
+    dev                   "Dev" name
+    inhe~     < ye        "him (polite)"
+    hamaarii  < hamaaraa  "our"
+    bhaashaa              "language"
+    samajh                "understanding"
+    aatii     < aanaa     "comes"
+    hai       < honaa     "(is)?"
+
+b08:
+  say: थोड़ी थोड़ी, मैडम! आपके बेटे की तरह।
+  en: A little, a little, madam! Like your son.
+  words: |
+    thoDii   < thoDaa  "a little"
+    thoDii   < thoDaa  "a little"
+    maiDam             "madam" loan
+    aapke    < aapkaa  "your"
+    beTe     < beTaa   "son"
+    kii:GEN            "(of)"
+    tarah              "like"
+
+b09:
+  say: बैठिए मैडम। आपके लिए फ़्री!
+  en: Come, madam. For you, it's free!
+  words: |
+    baiThie:IMP.HON  < baiThnaa  "have a seat"
+    maiDam                       "madam" loan
+    aapke            < aap       "you"
+    lie                          "for"
+    frii                         "free!" loan
+
+b10:
+  say: नहीं नहीं। मैं दूँगी।
+  en: No, no. I'll pay.
+  words: |
+    nahii~:NEG            "no"
+    nahii~:NEG            "no"
+    mai~                  "I"
+    duu~gii:FUT  < denaa  "will pay (give)"
+
+b11:
+  say: तो फिर... किसी दिन, आपके हाथ की चाय।
+  en: Then... someday, a cup of tea made by your hands.
+  words: |
+    to                 "so"
+    phir               "then"
+    kisii    < koii    "some"
+    din                "day"
+    aapke    < aapkaa  "your"
+    haath              "hands"
+    kii:GEN            "(of)"
+    chaay              "tea"
+
+b12:
+  say: पक्का!
+  en: It's a promise!
+  words: |
+    pakkaa  "promise! (done)"
+
+b13:
+  say: माँ ऑटो से शहर देखती हैं। सब कुछ नया।
+  en: Amma watches the city go by. Everything is new.
+  words: |
+    maa~                "Ma (Dev's mum)"
+    oTo                 "the auto" loan
+    se:ABL              "from"
+    shahar              "the city"
+    dekhtii  < dekhnaa  "watches"
+    hai~     < honaa    "(are)"
+    sab                 "every"
+    kuchh               "thing"
+    nayaa               "new"
+
+b14:
+  say: कितने लोग! सब कहाँ से आए हैं?
+  en: So many people! Where have they all come from?
+  words: |
+    kitne     < kitnaa  "so many"
+    log                 "people!"
+    sab                 "all"
+    kahaa~              "where"
+    se:ABL              "from"
+    aae:PERF  < aanaa   "come"
+    hai~      < honaa   "have?"
+
+b15:
+  say: हर जगह से, मैडम। मेरी तरह। आपके बेटे की तरह।
+  en: From everywhere, madam. Like me. Like your son.
+  words: |
+    har                "every"
+    jagah              "place"
+    se:ABL             "from"
+    maiDam             "madam" loan
+    merii    < meraa   "my (like me)"
+    tarah              "like"
+    aapke    < aapkaa  "your"
+    beTe     < beTaa   "son"
+    kii:GEN            "(of)"
+    tarah              "like"
+
+b16:
+  say: और यहाँ के लोग?
+  en: And the people who are from here?
+  words: |
+    aur     "and"
+    yahaa~  "here"
+    ke:GEN  "(of)"
+    log     "people?"
+
+b17:
+  say: वो जगह देते हैं। धीरे-धीरे।
+  en: They make room. Slowly.
+  words: |
+    vo                      "they"
+    jagah                   "room (space)"
+    dete           < denaa  "give"
+    hai~           < honaa  "(are)"
+    dhiire-dhiire           "slowly"
+
+b18:
+  say: फिर, एक पोस्टर पर... देव।
+  en: Then, on a poster... Dev.
+  words: |
+    phir     "then"
+    ek       "a"
+    posTar   "poster" loan
+    par:LOC  "on"
+    dev      "Dev" @amma.shock name
+
+b19:
+  say: मेरा बेटा?! नेता के बगल में?!
+  en: My son?! Next to a neta?!
+  words: |
+    meraa    "my"
+    beTaa    "son?!"
+    netaa    "the neta (politician)"
+    ke:GEN   "(of)"
+    bagal    "beside"
+    me~:LOC  "(in)?!"
+
+b20:
+  say: डरिए मत मैडम। बस भाषण दिया था।
+  en: Don't worry, madam. He only gave a speech.
+  words: |
+    Darie:IMP.HON  < Darnaa  "fear"
+    mat:NEG                  "don't"
+    maiDam                   "madam" loan
+    bas                      "only"
+    bhaashaN                 "a speech"
+    diyaa          < denaa   "gave"
+    thaa:PAST      < honaa   "(he)"
+
+b21:
+  say: मकान मालकिन का दरवाज़ा। दो औरतें। दो भाषाएँ।
+  en: The landlady's door. Two women. Two languages.
+  words: |
+    makaan                     "house"
+    maalkin                    "owner (landlady)"
+    kaa:GEN                    "'s"
+    darvaazaa                  "door"
+    do                         "two"
+    aurte~:PL      < aurat     "women"
+    do                         "two"
+    bhaashaae~:PL  < bhaashaa  "languages"
+
+b22:
+  say: आंटी, ये मेरी माँ हैं।
+  en: Aunty, this is my mother.
+  words: |
+    aanTii           "aunty" loan
+    ye               "this"
+    merii   < meraa  "my"
+    maa~             "mother"
+    hai~    < honaa  "is (polite)"
+
+b23:
+  say: नमस्ते। अंदर आइए।
+  en: Namaste. Please, come in.
+  words: |
+    namaste                "namaste (hello)"
+    andar                  "inside"
+    aaie:IMP.HON  < aanaa  "come (please)"
+
+b24:
+  say: नमोश्कार... नमस्ते।
+  en: Nomoshkar... namaste.
+  words: |
+    nomoshkaar  "nomoshkar (her own Bengali greeting)"
+    namaste     "namaste (the city's greeting, tried out)"
+
+b25:
+  say: एक की भाषा दूसरी को नहीं आती। दोनों मुस्कुराती हैं। थोड़ा सा।
+  en: Neither knows the other's language. They both smile. A little.
+  words: |
+    ek                          "one"
+    kii:GEN                     "'s"
+    bhaashaa                    "language"
+    duusrii      < duusraa      "the other"
+    ko:DIR                      "to"
+    nahii~:NEG                  "not"
+    aatii        < aanaa        "come (is known)"
+    dono~                       "both"
+    muskuraatii  < muskuraanaa  "smile"
+    hai~         < honaa        "(are)"
+    thoDaa                      "a little"
+    saa                         "-ish"
+
+b26:
+  say: आपके लिए। आम का अचार। मैंने ख़ुद बनाया।
+  en: For you. Mango pickle. I made it myself.
+  words: |
+    aapke          < aap       "you"
+    lie                        "for"
+    aam                        "mango"
+    kaa:GEN                    "(of)"
+    achaar                     "pickle"
+    mai~ne         < mai~      "I"
+    khud                       "myself"
+    banaayaa:PAST  < banaanaa  "made (it)"
+
+b27:
+  say: ...लहसुन है?
+  en: ...Is there garlic in it?
+  words: |
+    lahsun           "garlic"
+    hai     < honaa  "is there?"
+
+b28:
+  say: हाँ... क्यों?
+  en: Yes... why?
+  words: |
+    haa~  "yes"
+    kyo~  "why?"
+
+b29:
+  say: हमारे घर में लहसुन नहीं चलता।
+  en: In our house, we don't eat garlic.
+  words: |
+    hamaare     < hamaaraa  "our"
+    ghar                    "house"
+    me~:LOC                 "in"
+    lahsun                  "garlic"
+    nahii~:NEG              "not"
+    chaltaa     < chalnaa   "goes (is allowed)"
+
+b30:
+  say: माँ की मुस्कान रुक जाती है। देव नीचे देखता है।
+  en: Amma's smile stops. Dev looks at the floor.
+  words: |
+    maa~                "Ma's"
+    kii:GEN             "'s"
+    muskaan             "smile"
+    ruk      < ruknaa   "stop"
+    jaatii   < jaanaa   "(goes)"
+    hai      < honaa    "(is)"
+    dev                 "Dev" name
+    niiche              "down"
+    dekhtaa  < dekhnaa  "looks"
+    hai      < honaa    "(is)"
+
+b31:
+  say: ...पर छत अलग है। देव के लिए रख लीजिए।
+  en: ...But the terrace is different. Keep it there, for Dev.
+  words: |
+    par                        "but"
+    chhat                      "the roof (terrace)"
+    alag                       "separate"
+    hai             < honaa    "(is)"
+    dev                        "Dev" name
+    ke:GEN                     "(for)"
+    lie                        "for"
+    rakh            < rakhnaa  "keep"
+    liijie:IMP.HON  < lenaa    "(please)"
+
+b32:
+  say: एक छोटा दरवाज़ा। थोड़ा सा खुलता है।
+  en: A small door, opening a little.
+  words: |
+    ek                    "a"
+    chhoTaa               "small"
+    darvaazaa             "door"
+    thoDaa                "a little"
+    saa                   "-ish"
+    khultaa    < khulnaa  "opens"
+    hai        < honaa    "(is)"
+
+b33:
+  say: रात। छत। माँ को नींद नहीं आ रही।
+  en: Night. The terrace. Amma can't sleep.
+  words: |
+    raat                  "night"
+    chhat                 "the roof"
+    maa~                  "Ma"
+    ko:DIR                "to"
+    nii~d       < nii~d   "sleep"
+    nahii~:NEG            "not"
+    aa          < aanaa   "come"
+    rahii:PROG  < rahnaa  "(is)"
+
+b34:
+  say: देव... उन्हें मैं पसंद नहीं।
+  en: Dev... she doesn't like me.
+  words: |
+    dev               "Dev" name
+    unhe~       < vo  "(to) her"
+    mai~              "I"
+    pasand            "liked"
+    nahii~:NEG        "not"
+
+b35:
+  say: वो सबके साथ ऐसी ही हैं, माँ। मेरे साथ भी। पहले।
+  en: She's like that with everyone, Ma. With me too. At first.
+  words: |
+    vo              "she"
+    sabke  < sab    "everyone"
+    saath           "with"
+    aisii  < aisaa  "like this"
+    hii             "just"
+    hai~   < honaa  "is"
+    maa~            "Ma"
+    mere   < meraa  "me"
+    saath           "with"
+    bhii            "too"
+    pahle           "at first"
+
+b36:
+  say: वो अकेली रहती हैं। बेटा कोलकाता में। पति... अब नहीं रहे।
+  en: She lives alone. Her son's in Kolkata. Her husband... is gone.
+  words: |
+    vo                    "she"
+    akelii      < akelaa  "alone"
+    rahtii      < rahnaa  "lives"
+    hai~        < honaa   "(are)"
+    beTaa                 "(her) son"
+    kolkaataa             "Kolkata" name
+    me~:LOC               "in"
+    pati                  "(her) husband"
+    ab                    "now"
+    nahii~:NEG            "no (longer)"
+    rahe        < rahnaa  "is with us"
+
+b37:
+  say: अकेली? उस बड़े घर में?
+  en: Alone? In that big house?
+  words: |
+    akelii   < akelaa  "alone?"
+    us                 "that"
+    baDe     < baDaa   "big"
+    ghar               "house"
+    me~:LOC            "in?"
+
+b38:
+  say: माँ नीचे देखती हैं। अँधेरे घर में, बस एक लाइट।
+  en: Amma looks down at the dark house. A single light is on.
+  words: |
+    maa~                 "Ma (Dev's mum)"
+    niiche               "down"
+    dekhtii  < dekhnaa   "looks"
+    hai~     < honaa     "(are)"
+    a~dhere  < a~dheraa  "dark"
+    ghar                 "house"
+    me~:LOC              "in"
+    bas                  "just"
+    ek                   "one"
+    laaiT                "light" loan
+
+b39:
+  say: सुबह पाँच बजे। आंटी बाहर जाती हैं। हाथ में फूल।
+  en: Five in the morning. The landlady goes out. Flowers in her hand.
+  words: |
+    subah              "morning"
+    paa~ch   < paa~ch  "five"
+    baje               "o'clock"
+    aanTii             "aunty (the landlady)" loan
+    baahar             "out"
+    jaatii   < jaanaa  "goes"
+    hai~     < honaa   "(are)"
+    haath              "hand"
+    me~:LOC            "in"
+    phuul              "flowers"
+
+b40:
+  say: माँ चुपचाप पीछे-पीछे जाती हैं।
+  en: Amma quietly follows her.
+  words: |
+    maa~                       "Ma (Dev's mum)"
+    chupchaap                  "quietly"
+    piichhe-piichhe            "behind"
+    jaatii           < jaanaa  "goes"
+    hai~             < honaa   "(are)"
+
+b41:
+  say: एक झील। सफ़ेद झाग। बुरी बदबू।
+  en: A lake. White foam. A bad smell.
+  words: |
+    ek               "a"
+    jhiil            "lake"
+    safed            "white"
+    jhaag            "foam" @foam.drift
+    burii   < buraa  "bad"
+    badbuu           "stink"
+
+b42:
+  say: आंटी पानी में फूल डालती हैं।
+  en: The landlady lays the flowers on the water.
+  words: |
+    aanTii              "aunty (the landlady)" loan
+    paanii              "water"
+    me~:LOC             "on (in)"
+    phuul               "flowers" @flowers.float
+    Daaltii  < Daalnaa  "lays (puts)"
+    hai~     < honaa    "(are)"
+
+b43:
+  say: सुनिए जी... देखिए। अब भी किसी ने साफ़ नहीं किया।
+  en: Dear... look. Still nobody has cleaned it.
+  words: |
+    sunie:IMP.HON   < sunnaa   "listen"
+    jii                        "dear... (how a wife calls her husband)"
+    dekhie:IMP.HON  < dekhnaa  "look"
+    ab                         "now"
+    bhii                       "still"
+    kisii           < koii     "anyone"
+    ne                         "(by)"
+    saaf                       "clean"
+    nahii~:NEG                 "not"
+    kiyaa:PAST      < karnaa   "done"
+
+b44:
+  say: चालीस साल... आप रोज़ यहाँ आते थे।
+  en: Forty years... you came here every single morning.
+  words: |
+    chaaliis           "forty"
+    saal               "years"
+    aap                "you"
+    roz                "every day"
+    yahaa~             "here"
+    aate      < aanaa  "came"
+    the:PAST  < honaa  "used to"
+
+b45:
+  say: माँ को शब्द समझ नहीं आते। पर वो आवाज़ पहचानती हैं।
+  en: Amma doesn't understand the words. But she knows that voice.
+  words: |
+    maa~                        "Ma"
+    ko:DIR                      "to"
+    shabd                       "the words"
+    samajh                      "understanding"
+    nahii~:NEG                  "not"
+    aate         < aanaa        "come"
+    par                         "but"
+    vo                          "that"
+    aavaaz                      "voice"
+    pahchaantii  < pahchaannaa  "recognises"
+    hai~         < honaa        "(are)"
+
+b46:
+  say: वो भी देव के पापा से ऐसे ही बात करती हैं।
+  en: She talks to Dev's father just like this.
+  words: |
+    vo                "she"
+    bhii              "too"
+    dev               "Dev" name
+    ke:GEN            "'s"
+    paapaa            "father (papa)"
+    se                "with"
+    aise              "like this"
+    hii               "just"
+    baat              "talk"
+    kartii  < karnaa  "does"
+    hai~    < honaa   "(are)"

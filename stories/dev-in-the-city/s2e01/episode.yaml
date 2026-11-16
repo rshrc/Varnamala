@@ -1,0 +1,14 @@
+# s2e01: Amma
+# Format: stories/README.md
+
+level: A2
+next: s2e02
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b23
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  dev.sigh:   dev sigh_nod 800
+  amma.wave:  amma wave 500
+  raju.smile: raju smile 1200
+  amma.laugh: amma laugh 700
