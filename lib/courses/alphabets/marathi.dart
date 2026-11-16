@@ -11,7 +11,7 @@ Map<String, String> marathiVowels = {
   'ए': 'e',
   'ऐ': 'ai',
   'ओ': 'o',
-  'औ': 'au'
+  'औ': 'au',
 };
 
 Map<String, String> marathiConsonants = {
@@ -50,12 +50,12 @@ Map<String, String> marathiConsonants = {
   'ह': 'ha',
   'ळ': 'lla',
   'क्ष': 'ksha',
-  'ज्ञ': 'dnya'
+  'ज्ञ': 'dnya',
 };
 
 Map<String, String> marathiSounds = {
   ...marathiVowels,
   ...marathiConsonants,
   'ं': 'n (anusvara)',
-  'ः': 'h (visarga)'
+  'ः': 'h (visarga)',
 };

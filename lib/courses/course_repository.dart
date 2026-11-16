@@ -31,8 +31,8 @@ export 'package:words625/core/text_normalization.dart' show normalizeWord;
 /// without touching Dart, and the app picks the change up on a hot restart.
 class CourseRepository {
   CourseRepository({AssetBundle? bundle, FirebaseFirestore? firestore})
-      : _bundle = bundle ?? rootBundle,
-        _firestore = firestore;
+    : _bundle = bundle ?? rootBundle,
+      _firestore = firestore;
 
   final AssetBundle _bundle;
   FirebaseFirestore? _firestore;
@@ -71,9 +71,11 @@ class CourseRepository {
     }
 
     return content.tree
-        .map((group) => group
-            .map((json) => Course.fromJson(_personalise(json, firstName)))
-            .toList())
+        .map(
+          (group) => group
+              .map((json) => Course.fromJson(_personalise(json, firstName)))
+              .toList(),
+        )
         .toList();
   }
 
@@ -156,8 +158,13 @@ class CourseRepository {
     } catch (_) {
       // Notes are optional.
     }
-    final content =
-        _buildContent(manifest, rawCourses, dictionary, notes, language);
+    final content = _buildContent(
+      manifest,
+      rawCourses,
+      dictionary,
+      notes,
+      language,
+    );
     _cache[language] = content;
     return content;
   }
@@ -166,8 +173,10 @@ class CourseRepository {
     if (Firebase.apps.isEmpty) return null;
     try {
       final firestore = _firestore ??= FirebaseFirestore.instance;
-      final config =
-          await firestore.collection('courseConfig').doc(language.name).get();
+      final config = await firestore
+          .collection('courseConfig')
+          .doc(language.name)
+          .get();
       final releaseId = config.data()?['activeReleaseId'] as String?;
       if (releaseId == null || releaseId.isEmpty) return null;
       // The whole release in one query. Reading the manifest, then each course
@@ -203,14 +212,16 @@ class CourseRepository {
         logger.e('${language.name} release $releaseId has no readable course');
         return null;
       }
-      final dictionary =
-          _storedJson(byId['dictionary'])?.cast<String, dynamic>();
+      final dictionary = _storedJson(
+        byId['dictionary'],
+      )?.cast<String, dynamic>();
       final notes = _storedJson(byId['notes'])?.cast<String, dynamic>();
       logger.i('Loaded ${language.name} release $releaseId from Firestore');
       return _buildContent(manifest, rawCourses, dictionary, notes, language);
     } catch (error) {
       logger.w(
-          'Could not load active ${language.name} release; using bundled JSON: $error');
+        'Could not load active ${language.name} release; using bundled JSON: $error',
+      );
       return null;
     }
   }
@@ -254,8 +265,10 @@ class CourseRepository {
       for (final id in row.cast<String>()) {
         final course = courses[id];
         if (course == null) {
-          logger.e('Course "$id" is in ${language.name}/manifest.json tree '
-              'but has no entry in its courses list');
+          logger.e(
+            'Course "$id" is in ${language.name}/manifest.json tree '
+            'but has no entry in its courses list',
+          );
           continue;
         }
         group.add(course);
@@ -268,8 +281,9 @@ class CourseRepository {
     // outcome than losing the language.
     var dictionary = <String, String>{};
     if (rawDictionary != null) {
-      dictionary = rawDictionary
-          .map((word, gloss) => MapEntry(normalizeWord(word), gloss as String));
+      dictionary = rawDictionary.map(
+        (word, gloss) => MapEntry(normalizeWord(word), gloss as String),
+      );
     }
 
     // Notes are decoration on top of the path; a language without them simply
@@ -286,11 +300,7 @@ class CourseRepository {
       }
     }
 
-    return _LanguageContent(
-      tree: tree,
-      dictionary: dictionary,
-      notes: notes,
-    );
+    return _LanguageContent(tree: tree, dictionary: dictionary, notes: notes);
   }
 
   /// Deep-copies [json], replacing the name placeholder as it goes. A copy is

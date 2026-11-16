@@ -47,7 +47,7 @@ Map<String, String> malayalamSounds = {
   'ഹ': 'ha',
   'ള': 'la',
   'ക്ഷ': 'ksha',
-  'ജ്ഞ': 'jna'
+  'ജ്ഞ': 'jna',
 };
 
 Map<String, String> malayalamVowels = {

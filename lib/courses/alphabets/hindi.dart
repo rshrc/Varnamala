@@ -45,7 +45,7 @@ Map<String, String> hindiSounds = {
   'ह': 'ha',
   'क्ष': 'ksha',
   'त्र': 'tra',
-  'ज्ञ': 'gya'
+  'ज्ञ': 'gya',
 };
 
 Map<String, String> hindiVowels = {
@@ -61,7 +61,7 @@ Map<String, String> hindiVowels = {
   'ओ': 'o',
   'औ': 'au',
   'अं': 'am',
-  'अः': 'ah'
+  'अः': 'ah',
 };
 
 Map<String, String> hindiConsonants = {
@@ -100,5 +100,5 @@ Map<String, String> hindiConsonants = {
   'ह': 'ha',
   'क्ष': 'ksha',
   'त्र': 'tra',
-  'ज्ञ': 'gya'
+  'ज्ञ': 'gya',
 };

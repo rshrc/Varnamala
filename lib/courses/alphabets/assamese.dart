@@ -12,7 +12,7 @@ Map<String, String> assameseVowels = {
   'এ': 'e',
   'ঐ': 'oi',
   'ও': 'ou',
-  'ঔ': 'ou'
+  'ঔ': 'ou',
 };
 
 Map<String, String> assameseConsonants = {
@@ -52,7 +52,7 @@ Map<String, String> assameseConsonants = {
   'ক্ষ': 'khya',
   'ড়': 'ra',
   'ঢ়': 'rha',
-  'য়': 'ya'
+  'য়': 'ya',
 };
 
 Map<String, String> assameseSounds = {
@@ -61,5 +61,5 @@ Map<String, String> assameseSounds = {
   'ৎ': 't',
   'ং': 'ng',
   'ঃ': 'h',
-  'ঁ': 'n'
+  'ঁ': 'n',
 };

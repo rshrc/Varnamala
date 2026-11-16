@@ -47,7 +47,7 @@ Map<String, String> kannadaSounds = {
   'ಹ': 'ha',
   'ಳ': 'la',
   'ಕ್ಷ': 'ksha',
-  'ಜ್ಞ': 'jna'
+  'ಜ್ಞ': 'jna',
 };
 
 Map<String, String> kannadaVowels = {

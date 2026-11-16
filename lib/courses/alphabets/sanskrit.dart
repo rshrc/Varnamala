@@ -14,7 +14,7 @@ Map<String, String> sanskritVowels = {
   'ए': 'e',
   'ऐ': 'ai',
   'ओ': 'o',
-  'औ': 'au'
+  'औ': 'au',
 };
 
 Map<String, String> sanskritConsonants = {
@@ -50,12 +50,12 @@ Map<String, String> sanskritConsonants = {
   'श': 'sha',
   'ष': 'shha',
   'स': 'sa',
-  'ह': 'ha'
+  'ह': 'ha',
 };
 
 Map<String, String> sanskritSounds = {
   ...sanskritVowels,
   ...sanskritConsonants,
   'ं': 'm (anusvara)',
-  'ः': 'h (visarga)'
+  'ः': 'h (visarga)',
 };

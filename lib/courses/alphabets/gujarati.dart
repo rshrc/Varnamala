@@ -11,7 +11,7 @@ Map<String, String> gujaratiVowels = {
   'એ': 'e',
   'ઐ': 'ai',
   'ઓ': 'o',
-  'ઔ': 'au'
+  'ઔ': 'au',
 };
 
 Map<String, String> gujaratiConsonants = {
@@ -50,12 +50,12 @@ Map<String, String> gujaratiConsonants = {
   'હ': 'ha',
   'ળ': 'lla',
   'ક્ષ': 'ksha',
-  'જ્ઞ': 'gya'
+  'જ્ઞ': 'gya',
 };
 
 Map<String, String> gujaratiSounds = {
   ...gujaratiVowels,
   ...gujaratiConsonants,
   'ં': 'n (anusvara)',
-  'ઃ': 'h (visarga)'
+  'ઃ': 'h (visarga)',
 };

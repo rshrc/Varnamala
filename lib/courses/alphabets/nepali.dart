@@ -48,7 +48,7 @@ Map<String, String> nepaliSounds = {
   'ह': 'ha',
   'क्ष': 'ksha',
   'त्र': 'tra',
-  'ज्ञ': 'gya'
+  'ज्ञ': 'gya',
 };
 
 Map<String, String> nepaliVowels = {
@@ -64,7 +64,7 @@ Map<String, String> nepaliVowels = {
   'ओ': 'o',
   'औ': 'au',
   'अं': 'am',
-  'अः': 'ah'
+  'अः': 'ah',
 };
 
 Map<String, String> nepaliConsonants = {
@@ -103,5 +103,5 @@ Map<String, String> nepaliConsonants = {
   'ह': 'ha',
   'क्ष': 'ksha',
   'त्र': 'tra',
-  'ज्ञ': 'gya'
+  'ज्ञ': 'gya',
 };

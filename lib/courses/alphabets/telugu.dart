@@ -47,7 +47,7 @@ Map<String, String> teluguSounds = {
   'హ': 'ha',
   'ళ': 'la',
   'క్ష': 'ksha',
-  'జ్ఞ': 'jna'
+  'జ్ఞ': 'jna',
 };
 
 Map<String, String> teluguVowels = {

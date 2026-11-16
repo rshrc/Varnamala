@@ -48,7 +48,7 @@ Map<String, String> bengaliSounds = {
   'ৎ': 't',
   'ং': 'ng',
   'ঃ': 'h',
-  'ঁ': 'n'
+  'ঁ': 'n',
 };
 
 Map<String, String> bengaliVowels = {
@@ -62,7 +62,7 @@ Map<String, String> bengaliVowels = {
   'এ': 'e',
   'ঐ': 'oi',
   'ও': 'o',
-  'ঔ': 'ou'
+  'ঔ': 'ou',
 };
 
 Map<String, String> bengaliConsonants = {
@@ -100,5 +100,5 @@ Map<String, String> bengaliConsonants = {
   'হ': 'ha',
   'ড়': 'ra',
   'ঢ়': 'rha',
-  'য়': 'ya'
+  'য়': 'ya',
 };

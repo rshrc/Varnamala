@@ -44,7 +44,7 @@ Map<String, String> odiaSounds = {
   'ଷ': 'sha',
   'ସ': 'sa',
   'ହ': 'ha',
-  'କ୍ଷ': 'ksha'
+  'କ୍ଷ': 'ksha',
 };
 
 Map<String, String> odiaVowels = {
@@ -58,7 +58,7 @@ Map<String, String> odiaVowels = {
   'ଏ': 'e',
   'ଐ': 'ai',
   'ଓ': 'o',
-  'ଔ': 'au'
+  'ଔ': 'au',
 };
 
 Map<String, String> odiaConsonants = {
@@ -95,5 +95,5 @@ Map<String, String> odiaConsonants = {
   'ଶ': 'sha',
   'ଷ': 'sha',
   'ସ': 'sa',
-  'ହ': 'ha'
+  'ହ': 'ha',
 };

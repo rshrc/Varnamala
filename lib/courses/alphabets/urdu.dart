@@ -7,7 +7,7 @@ Map<String, String> urduVowels = {
   'آ': 'aa',
   'و': 'o / u / v',
   'ی': 'i / ee / y',
-  'ے': 'e / ai'
+  'ے': 'e / ai',
 };
 
 Map<String, String> urduConsonants = {
@@ -45,10 +45,7 @@ Map<String, String> urduConsonants = {
   'ں': 'noon ghunna',
   'ہ': 'he',
   'ھ': 'do chashmi he',
-  'ء': 'hamza'
+  'ء': 'hamza',
 };
 
-Map<String, String> urduSounds = {
-  ...urduVowels,
-  ...urduConsonants,
-};
+Map<String, String> urduSounds = {...urduVowels, ...urduConsonants};
