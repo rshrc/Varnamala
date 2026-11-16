@@ -80,3 +80,6 @@ screenshots/feature/
 # was recorded is in stories/<series>/recordings/; `ruby tool/katha_cdn.rb pull`
 # downloads the MP3s
 /assets/katha/*/audio/
+# Demo media is served from Cloudflare Pages (tool/media_cdn.rb); only the list is in git
+/media/*
+!/media/index.yaml

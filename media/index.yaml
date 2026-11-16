@@ -1,0 +1,10 @@
+# Videos and images served from https://varnamala-media.pages.dev/
+# The files sit next to this list but are not in git; the list is.
+#
+#   ruby tool/media_cdn.rb push     # upload (only what changed)
+#   ruby tool/media_cdn.rb pull     # download what this checkout lacks
+#
+# A push replaces the whole site, so every file listed must be here.
+
+files:
+  katha-auto-kannada.mp4: Katha s1e01, Dev haggles with Raju the auto driver. Kannada, with the recorded voices.
