@@ -1,0 +1,102 @@
+# s1e08: The Fight. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: home_dining
+  cast:
+    dev:      floor_meal @ 0.2
+    son:      floor_meal @ 0.44
+    landlady: arms_crossed @ 0.66
+    boss:     standing @ 0.88
+  beats:
+    b01: { who: landlady, mood: smug, icons: [person, heart], start: [landlady.smug] }
+    b02: { who: dev, mood: shocked, icons: [person, question], start: [dev.shock] }
+    b03: { who: landlady, mood: sly, icons: [person, heart] }
+    b04: { who: dev, mood: shocked, icons: [question], start: [dev.giggle] }
+    b05: { who: boss, mood: sheepish, icons: ["no", person], start: [boss.sheepish] }
+    b06: { who: landlady, mood: stern, icons: [water, "no"], start: [landlady.stern] }
+    b07: { who: narrator, tags: [amused], start: [boss.sigh, son.laugh] }
+
+p2:
+  set: home_dining
+  cast:
+    dev:      floor_meal @ 0.22
+    boss:     floor_meal @ 0.5
+    landlady: serving @ 0.82
+  beats:
+    b08: { who: landlady, mood: happy, icons: [plate, heart], start: [landlady.serve] }
+    b09: { who: boss, mood: sheepish, icons: [plate, "no"], start: [boss.sheepish] }
+    b10: { who: narrator, tags: [amused], start: [dev.giggle] }
+    b11: { who: dev, mood: curious, icons: [tea, question] }
+    b12: { who: boss, mood: sly, icons: [phone, person], start: [boss.smug] }
+    b13: { who: landlady, mood: sly, icons: [drumstick, ok], start: [landlady.laugh] }
+    b14: { who: narrator, tags: [amused], start: [dev.sheepish] }
+
+p3:
+  set: pg_door_night
+  cast:
+    dev:  standing @ 0.33
+    boss: standing @ 0.68
+  beats:
+    b15: { who: boss, mood: firm, icons: [clock, briefcase], digits: "10", start: [boss.stern] }
+    b16: { who: dev, mood: proud, icons: [laptop, ok], start: [dev.proud] }
+    b17: { who: boss, mood: sly, icons: [person, ok], start: [boss.smug] }
+    b18: { who: boss, mood: stern, icons: ["no", person], start: [boss.stern] }
+    b19: { who: dev, mood: sly, icons: [ok, person], start: [dev.giggle], end: [boss.stern] }
+
+p4:
+  set: meeting_room
+  cast:
+    dev:   standing @ 0.14
+    boss:  standing @ 0.5
+    priya: standing @ 0.84
+  props:
+    screen: screen
+    table:  meeting_table
+  beats:
+    b20: narrator
+    b21: { who: boss, mood: proud, icons: [laptop, chart], start: [boss.point] }
+    b22: { who: boss, mood: proud, icons: [calendar, briefcase], start: [boss.proud] }
+    b23: { who: priya, mood: sly, icons: [calendar, "no"], tags: [whispers], start: [priya.eyeroll] }
+    b24: { who: narrator, start: [dev.fume] }
+    b25: { who: boss, mood: proud, icons: [laptop, go], start: [boss.point] }
+    b26: narrator
+    b27: { who: boss, mood: shocked, icons: ["no", question], start: [boss.shock] }
+    b28: narrator
+
+p5:
+  set: meeting_room
+  cast:
+    dev:   standing @ 0.14
+    boss:  standing @ 0.5
+    priya: standing @ 0.84
+  props:
+    screen: screen
+    table:  meeting_table
+  beats:
+    b29: { who: dev, mood: firm, icons: [laptop, clock] }
+    b30: { who: narrator, start: [dev.type] }
+    b31: narrator
+    b32: { who: narrator, start: [priya.smile] }
+    b33: narrator
+    b34: { who: boss, mood: proud, icons: [person, chart], start: [boss.proud], end: [priya.eyeroll] }
+
+p6:
+  set: office
+  cast:
+    dev:   standing @ 0.3
+    boss:  standing @ 0.62
+    priya: standing @ 0.88
+  beats:
+    b35: narrator
+    b36: { who: boss, mood: stern, icons: [laptop, "no", person], start: [boss.point] }
+    b37: { who: dev, mood: firm, icons: [clock, phone], digits: "5" }
+    b38: { who: boss, mood: annoyed, icons: [person, briefcase], start: [boss.fume] }
+    b39: { who: dev, mood: firm, icons: ["no", ok] }
+    b40: { who: narrator, tags: [whispers], start: [priya.shock] }
+    b41: { who: dev, mood: firm, icons: [calendar, person] }
+    b42: { who: dev, mood: firm, icons: [speech, laptop] }
+    b43: { who: priya, mood: amused, icons: [heart, speech], tags: [whispers], start: [priya.smile] }
+    b44: narrator
+    b45: { who: narrator, tags: [slowly] }
+    b46: { who: boss, mood: stern, icons: [house, briefcase], tags: [coldly], start: [boss.stern], cliffhanger: true }

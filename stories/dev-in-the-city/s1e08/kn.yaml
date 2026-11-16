@@ -1,0 +1,416 @@
+# s1e08 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಜಗಳ | jagaLa | The Fight
+tease: ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡು. | byaag pyaak maaDu. | Pack your bag.
+
+b01:
+  say: ದೇವ್, ಇವನು ನನ್ನ ತಮ್ಮ.
+  en: Dev, this is my little brother.
+  words: |
+    dev    "Dev" name
+    ivanu  "this (he)"
+    nanna  "my"
+    tamma  "little brother"
+
+b02:
+  say: ನಿಮ್ಮ ತಮ್ಮ?!
+  en: Your brother?!
+  words: |
+    nimma  "your"
+    tamma  "little brother?!"
+
+b03:
+  say: ಹೌದು. ಕಿಟ್ಟು.
+  en: Yes. Kittu.
+  words: |
+    haudu  "yes"
+    kiTTu  "Kittu (his pet name)" name
+
+b04:
+  say: ಕಿಟ್ಟು?!
+  en: Kittu?!
+  words: |
+    kiTTu  "Kittu?!" name
+
+b05:
+  say: ಅಕ್ಕಾ! ಕಿಟ್ಟು ಬೇಡ! ಸ್ಟಾಫ್ ಮುಂದೆ ಬೇಡ!
+  en: Akka! Not 'Kittu'! Not in front of my staff!
+  words: |
+    akkaa   < akka  "Akka!"
+    kiTTu           "Kittu" name
+    beeDa           "don't!"
+    sTaaph          "staff" loan
+    munde           "in front of"
+    beeDa           "don't!"
+
+b06:
+  say: ಕಿಟ್ಟು, ಕೈ ತೊಳ್ಕೊ. ಕೂತ್ಕೊ.
+  en: Kittu, wash your hands. Sit.
+  words: |
+    kiTTu                "Kittu" name
+    kai                  "hands"
+    toLko:IMP   < toLe   "wash"
+    kuutko:IMP  < kuuru  "sit down"
+
+b07:
+  say: ಬಾಸ್ ಕೈ ತೊಳ್ಕೊಂಡು ಕೂರ್ತಾರೆ.
+  en: The boss washes his hands. And sits down.
+  words: |
+    baas                                     "the boss" loan
+    kai                                      "hands"
+    toLkonDu                        < toLe   "washes, and"
+    kuurtaare  kuur·taare:PRES.3PL  < kuuru  "sits"
+
+b08:
+  say: ತಿನ್ನು! ಇನ್ನು ಸ್ವಲ್ಪ?
+  en: Eat! A little more?
+  words: |
+    tinnu:IMP  "eat!"
+    innu       "more"
+    swalpa     "a little?"
+
+b09:
+  say: ಸಾಕು ಅಕ್ಕಾ! ಸಾಕು!
+  en: Enough, Akka! Enough!
+  words: |
+    saaku          "enough"
+    akkaa  < akka  "Akka"
+    saaku          "enough!"
+
+b10:
+  say: ದೇವ್ ನಗು ತಡ್ಕೊಳ್ತಾನೆ.
+  en: Dev tries very hard not to laugh.
+  words: |
+    dev                                         "Dev" name
+    nagu                                        "laughter"
+    taDkoLtaane  taDkoL·taane:PRES.3SG  < taDe  "holds back"
+
+b11:
+  say: ಸಾರ್... ಮೊದಲ ದಿನ, ಆ ಟೀ. ನಿಮಗೆ ಹೇಗೆ ಗೊತ್ತಾಯ್ತು?
+  en: Sir... that tea, on my first day. How did you know?
+  words: |
+    saar                     "sir" loan
+    modala                   "first"
+    dina                     "day"
+    aa                       "that"
+    Tii                      "tea" loan
+    nimage:DIR      < niivu  "to you"
+    heege                    "how"
+    gottaaytu:PAST  < gottu  "did you know?"
+
+b12:
+  say: ಅಕ್ಕ ಹೇಳಿದ್ಲು. ಎಲ್ಲಾ.
+  en: Akka told me. Everything.
+  words: |
+    akka                    "Akka (big sister)"
+    heeLidlu:PAST  < heeLu  "told (me)"
+    ellaa                   "everything"
+
+b13:
+  say: ಎಲ್ಲಾ. 'ಚಿಕನ್, ಕೆಲವೊಮ್ಮೆ.'
+  en: Everything. 'Chicken, sometimes.'
+  words: |
+    ellaa      "everything"
+    chikan     "chicken" loan
+    kelavomme  "sometimes"
+
+b14:
+  say: ದೇವ್ ಮಾಯ ಆಗಬೇಕು ಅಂದ್ಕೊಳ್ತಾನೆ.
+  en: Dev wishes he could vanish.
+  words: |
+    dev                  "Dev" name
+    maaya                "vanished"
+    aagabeeku    < aagu  "wants to become"
+    andkoLtaane  < annu  "thinks (to himself)"
+
+b15:
+  say: ದೇವ್. ನಾಳೆ, ಹತ್ತು ಗಂಟೆಗೆ. ದೊಡ್ಡ ಕ್ಲೈಂಟ್.
+  en: Dev. Tomorrow, ten o'clock. The big client.
+  words: |
+    dev                   "Dev" name
+    naaLe                 "tomorrow"
+    hattu                 "ten"
+    gaNTege:DIR  < gaNTe  "o'clock (at)"
+    doDDa                 "big"
+    klainT                "client" loan
+
+b16:
+  say: ಪ್ರಾಜೆಕ್ಟ್ ರೆಡಿ ಸಾರ್. ನಾನು, ಪ್ರಿಯಾ ಮುಗಿಸಿದ್ವಿ.
+  en: The project's ready, sir. Priya and I finished it.
+  words: |
+    praajekT                  "project" loan
+    reDi                      "ready" loan
+    saar                      "sir" loan
+    naanu                     "I"
+    priyaa                    "Priya" name
+    mugisidvi:PAST  < mugisu  "(we) finished"
+
+b17:
+  say: ಸೂಪರ್. ನಾನು ಪ್ರೆಸೆಂಟ್ ಮಾಡ್ತೀನಿ.
+  en: Super. I'll present it.
+  words: |
+    suupar                                   "super" loan
+    naanu                                    "I"
+    presenT                                  "present" loan
+    maaDtiini  maaD·tiini:PRES.1SG  < maaDu  "will do"
+
+b18:
+  say: ಮತ್ತೆ ದೇವ್... ಆಫೀಸಲ್ಲಿ 'ಕಿಟ್ಟು' ಇಲ್ಲ.
+  en: And Dev... at the office, there's no 'Kittu'.
+  words: |
+    matte                                  "and"
+    dev                                    "Dev" name
+    aafiisalli  aafiis·alli:LOC  < aafiis  "at the office" loan
+    kiTTu                                  "'Kittu'" name
+    illa:NEG                               "there is no"
+
+b19:
+  say: ಓಕೆ, ಕಿಟ್ಟು... ಸಾರ್!
+  en: Okay, Kittu... sir!
+  words: |
+    ooke   "okay" loan
+    kiTTu  "Kittu..." name
+    saar   "sir!" loan
+
+b20:
+  say: ಬೆಳಿಗ್ಗೆ. ಮೀಟಿಂಗ್ ರೂಮ್. ಕ್ಲೈಂಟ್ ಸ್ಕ್ರೀನ್ ಮೇಲೆ.
+  en: Morning. The meeting room. The client is on the screen.
+  words: |
+    beLigge  "morning"
+    miiTing  "meeting" loan
+    ruum     "room" loan
+    klainT   "the client" loan
+    skriin   "screen" @screen.call loan
+    meele    "on"
+
+b21:
+  say: ನಮ್ಮ ಹೊಸ ಆಪ್! ನಾನೇ ಮಾಡಿದ್ದು!
+  en: Our new app! I built it myself!
+  words: |
+    namma                   "our"
+    hosa                    "new"
+    aap                     "app!" @screen.chart loan
+    naanee         < naanu  "I myself"
+    maaDiddu:PAST  < maaDu  "made (it)"
+
+b22:
+  say: ವೀಕೆಂಡ್ ಎಲ್ಲಾ ಕೆಲಸ ಮಾಡಿದೆ! ಶನಿವಾರ, ಭಾನುವಾರ!
+  en: I worked all weekend! Saturday, Sunday!
+  words: |
+    viikenD                "weekend" loan
+    ellaa                  "all"
+    kelasa                 "work"
+    maaDide:PAST  < maaDu  "I did"
+    shanivaara             "Saturday"
+    bhaanuvaara            "Sunday!"
+
+b23:
+  say: ಶನಿವಾರ ಬರೋದೇ ಇಲ್ಲ.
+  en: He doesn't even come in on Saturdays.
+  words: |
+    shanivaara          "on Saturday"
+    baroodee    < baru  "coming at all"
+    illa:NEG            "doesn't"
+
+b24:
+  say: ದೇವ್ ಕಿವಿ ಬಿಸಿ ಆಗುತ್ತೆ.
+  en: Dev's ears go hot.
+  words: |
+    dev              "Dev" name
+    kivi             "ears"
+    bisi             "hot"
+    aagutte  < aagu  "go (become)"
+
+b25:
+  say: ಈಗ ಡೆಮೋ! ಕ್ಲಿಕ್!
+  en: And now, the demo! Click!
+  words: |
+    iiga   "now"
+    Demoo  "the demo!" loan
+    klik   "click!" loan
+
+b26:
+  say: ಸ್ಕ್ರೀನ್ ಕೆಂಪು. ಎರರ್!
+  en: The screen turns red. Error!
+  words: |
+    skriin  "the screen" loan
+    kempu   "red" @screen.crash
+    erar    "error!" loan
+
+b27:
+  say: ಅಯ್ಯೋ! ಇದೇನಿದು?!
+  en: Ayyo! What is this?!
+  words: |
+    ayyoo            "ayyo! (oh no!)"
+    ideenidu  < idu  "what is this?!"
+
+b28:
+  say: ಕ್ಲೈಂಟ್ ವಾಚ್ ನೋಡ್ತಾರೆ.
+  en: The client looks at his watch.
+  words: |
+    klainT                                   "the client" loan
+    vaach                                    "watch" @screen.watch loan
+    nooDtaare  nooD·taare:PRES.3PL  < nooDu  "looks at"
+
+b29:
+  say: ಒಂದು ನಿಮಿಷ. ಪ್ಲೀಸ್.
+  en: One minute. Please.
+  words: |
+    ondu     "one"
+    nimiSha  "minute"
+    pliis    "please" loan
+
+b30:
+  say: ದೇವ್ ಟೈಪ್ ಮಾಡ್ತಾನೆ. ಬೇಗ. ತುಂಬಾ ಬೇಗ.
+  en: Dev types. Fast. Very fast.
+  words: |
+    dev                                      "Dev" name
+    Taip                                     "type" loan
+    maaDtaane  maaD·taane:PRES.3SG  < maaDu  "does"
+    beega                                    "fast"
+    tumbaa                                   "very"
+    beega                                    "fast"
+
+b31:
+  say: ಹಸಿರು. ಕೆಲಸ ಮಾಡ್ತಿದೆ!
+  en: Green. It works!
+  words: |
+    hasiru                  "green" @screen.fix
+    kelasa                  "work"
+    maaDtide:PROG  < maaDu  "is doing (it works)"
+
+b32:
+  say: ಕ್ಲೈಂಟ್ ಚಪ್ಪಾಳೆ ತಟ್ತಾರೆ.
+  en: The client claps.
+  words: |
+    klainT              "the client" loan
+    chappaaLe           "applause (claps)" @screen.clap
+    taTTaare   < taTTu  "strikes (claps)"
+
+b33:
+  say: "ಕ್ಲೈಂಟ್ ಕೇಳ್ತಾರೆ: 'ಇದನ್ನ ಯಾರು ಮಾಡಿದ್ದು?'"
+  en: "The client asks: 'Who built this?'"
+  words: |
+    klainT                  "the client" loan
+    keeLtaare      < keeLu  "asks"
+    idanna:ACC     < idu    "this"
+    yaaru                   "who"
+    maaDiddu:PAST  < maaDu  "made?"
+
+b34:
+  say: ನಾನು! ಟೀಮ್ ವರ್ಕ್!
+  en: Me! Team work!
+  words: |
+    naanu  "me!"
+    Tiim   "team" loan
+    vark   "work!" loan
+
+b35:
+  say: ಮೀಟಿಂಗ್ ಆದ್ಮೇಲೆ.
+  en: After the meeting.
+  words: |
+    miiTing           "the meeting" loan
+    aadmeele  < aagu  "after (it is over)"
+
+b36:
+  say: ದೇವ್! ಆ ಎರರ್! ನಿನ್ನ ತಪ್ಪು!
+  en: Dev! That error! Your mistake!
+  words: |
+    dev    "Dev" name
+    aa     "that"
+    erar   "error!" loan
+    ninna  "your"
+    tappu  "mistake!"
+
+b37:
+  say: ನನ್ನ ತಪ್ಪಾ? ನೀವು ಕೋಡ್ ಬದಲಾಯಿಸಿದ್ರಿ. ಬೆಳಿಗ್ಗೆ ಐದಕ್ಕೆ!
+  en: My mistake? You changed the code. At five in the morning!
+  words: |
+    nanna                               "my"
+    tappaa:Q             < tappu        "mistake?"
+    niivu                               "you"
+    kooD                                "the code" loan
+    badalaayisidri:PAST  < badalaayisu  "changed"
+    beLigge                             "morning"
+    aidakke:DIR          < aidu         "at five!"
+
+b38:
+  say: ನಾನು ಬಾಸ್!
+  en: I am the boss!
+  words: |
+    naanu  "I (am)"
+    baas   "the boss!" loan
+
+b39:
+  say: ಸಾಕು! ಸಾಕು ಸಾರ್!
+  en: Enough! Enough, sir!
+  words: |
+    saaku  "enough!"
+    saaku  "enough"
+    saar   "sir!" loan
+
+b40:
+  say: ಆಫೀಸ್ ಪೂರ್ತಿ ಸೈಲೆಂಟ್.
+  en: The whole office goes silent.
+  words: |
+    aafiis   "the office" loan
+    puurti   "completely"
+    sailenT  "silent" loan
+
+b41:
+  say: ಶನಿವಾರ ನಾವು ಕೆಲಸ ಮಾಡಿದ್ವಿ. ಭಾನುವಾರ ನಾವು. ನೀವು? ಇಲ್ಲ.
+  en: On Saturday, we worked. On Sunday, us. You? No.
+  words: |
+    shanivaara              "Saturday"
+    naavu                   "we"
+    kelasa                  "work"
+    maaDidvi:PAST  < maaDu  "(we) did"
+    bhaanuvaara             "Sunday"
+    naavu                   "we"
+    niivu                   "you?"
+    illa:NEG                "no"
+
+b42:
+  say: ಐಡಿಯಾ ಪ್ರಿಯಾದು. ಕೋಡ್ ನಂದು.
+  en: The idea is Priya's. The code is mine.
+  words: |
+    aiDiyaa             "the idea" loan
+    priyaadu  < priyaa  "Priya's" name
+    kooD                "the code" loan
+    nandu               "mine"
+
+b43:
+  say: ವಾವ್. ಅದೂ ಕನ್ನಡದಲ್ಲಿ!
+  en: Wow. And in Kannada, too!
+  words: |
+    vaav                                        "wow" loan
+    aduu                             < adu      "and that too"
+    kannaDadalli  kannaDa·dalli:LOC  < kannaDa  "in Kannada!"
+
+b44:
+  say: ಬಾಸ್ ಕಿವಿಯಿಂದ ಹೊಗೆ ಬರುತ್ತೆ.
+  en: Steam comes out of the boss's ears.
+  words: |
+    baas                               "the boss's" loan
+    kiviyinda  kivi·yinda:ABL  < kivi  "from (his) ears"
+    hoge                               "smoke (steam)" @boss.fume
+    barutte                    < baru  "comes"
+
+b45:
+  say: ಎಲ್ಲರೂ ಕಾಯ್ತಿದ್ದಾರೆ.
+  en: Everyone waits.
+  words: |
+    ellaruu            < ellaru  "everyone"
+    kaaytiddaare:PROG  < kaayu   "are waiting"
+
+b46:
+  say: ಮನೆಗೆ ಹೋಗು. ಬ್ಯಾಗ್ ಪ್ಯಾಕ್ ಮಾಡು.
+  en: Go home. Pack your bag.
+  words: |
+    manege:DIR  < mane  "home (to)"
+    hoogu:IMP           "go"
+    byaag               "bag" loan
+    pyaak               "pack" loan
+    maaDu:IMP           "(do) it"

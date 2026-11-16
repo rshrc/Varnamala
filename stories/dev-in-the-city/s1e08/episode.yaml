@@ -1,0 +1,11 @@
+# s1e08: The Fight
+# Format: stories/README.md
+
+level: A2
+next: s1e09
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b29
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  boss.sigh: boss sigh_nod 700
