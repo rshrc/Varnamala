@@ -77,6 +77,20 @@ you build it.
 
 ## A look around
 
+### Stories you can hear
+
+*Dev in the City* is an illustrated story series. Dev has just moved to
+Bengaluru and is meeting the city one conversation at a time, told in Kannada
+and Hindi by a cast of recorded voices. Each word lights up as it is spoken,
+and any word can be tapped for its meaning.
+
+Here, on his first day, Dev haggles with Raju the auto driver:
+
+<!-- To play this inline on GitHub, drag media/katha-auto-kannada.mp4 into
+     GitHub's README editor and put the github.com/user-attachments/... URL it
+     gives on its own line in place of the link below. -->
+**[▶ Watch: Dev and the auto driver, in Kannada (54 s, with sound)](https://varnamala-media.pages.dev/katha-auto-kannada.mp4)**
+
 ### Words before sentences
 
 Sixty everyday words, taught with pictures and audio, before you are asked to
