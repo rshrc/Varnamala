@@ -1,0 +1,273 @@
+# s2e10 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಹೋಗಿ ಬನ್ನಿ | hoogi banni | Go, and Come Back
+tease: ದಸರಾ. | dasaraa. | Dasara.
+
+b01:
+  say: ಅಮ್ಮನ ಕೊನೆಯ ಭಾನುವಾರ. ಎಲ್ಲರೂ ಕೆರೆ ಹತ್ರ.
+  en: Amma's last Sunday. Everyone is at the lake.
+  words: |
+    ammana       amma·na:GEN  < amma    "Amma's"
+    koneya                    < kone    "last"
+    bhaanuvaara                         "Sunday"
+    ellaruu                   < ellaru  "everyone"
+    kere                                "the lake"
+    hatra                               "by (at)"
+
+b02:
+  say: ರಾಜು, ಲಕ್ಷ್ಮಿ, ಚಿನ್ನು, ಪ್ರಿಯಾ, ಕಿಟ್ಟು ಮತ್ತು ಅವನ ಆಫೀಸ್. ಬೇಲಿ ಮೇಲೆ, ನೇತಾ ಪೋಸ್ಟರ್ ಕೂಡ ನಗ್ತಿದೆ.
+  en: Raju, Lakshmi, Chinnu, Priya, Kittu and his whole office. On the fence, even the neta's poster is smiling.
+  words: |
+    raaju                  "Raju" name
+    lakShmi                "Lakshmi" name
+    chinnu                 "Chinnu" name
+    priyaa                 "Priya" name
+    kiTTu                  "Kittu" name
+    mattu                  "and"
+    avana:GEN     < avanu  "his"
+    aafiis                 "office" loan
+    beeli                  "the fence"
+    meele                  "on"
+    neetaa                 "the neta (politician)"
+    poosTar                "poster" loan
+    kuuDa                  "even"
+    nagtide:PROG  < nagu   "is smiling"
+
+b03:
+  say: ಆಂಟಿ! ನೋಡಿ! ನೊರೆ ಕಮ್ಮಿ ಆಗಿದೆ!
+  en: Aunty! Look! There's less foam!
+  words: |
+    aanTi                   "aunty!" loan
+    nooDi:IMP.HON  < nooDu  "look!"
+    nore                    "the foam"
+    kammi                   "less"
+    aagide:PERF    < aagu   "has become!"
+
+b04:
+  say: ಪೈಪ್ ಮುಚ್ಚಿದೆ. ನೀರು ನಿಧಾನವಾಗಿ ಸರಿ ಆಗ್ತಿದೆ.
+  en: The pipe is closed. The water is slowly getting better.
+  words: |
+    paip                       "the pipe" loan
+    muchchide:PERF  < muchchu  "is closed"
+    niiru                      "the water"
+    nidhaanavaagi              "slowly"
+    sari                       "right (well)"
+    aagtide:PROG    < aagu     "is getting"
+
+b05:
+  say: ಮರುದಿನ ಬೆಳಿಗ್ಗೆ. ಬಾಗಿಲ ಹತ್ರ ಅಮ್ಮನ ಸೂಟ್ಕೇಸ್.
+  en: The next morning. Amma's suitcase by the door.
+  words: |
+    marudina                             "the next day"
+    beLigge                              "morning"
+    baagila:GEN               < baagilu  "the door's"
+    hatra                                "by"
+    ammana       amma·na:GEN  < amma     "Amma's"
+    suuTkees                             "suitcase" loan
+
+b06:
+  say: ಇದು ಬಿಸಿಬೇಳೆಬಾತ್ ಪುಡಿ. ನಮ್ಮ ಅಮ್ಮನ ರೆಸಿಪಿ.
+  en: This is bisi bele bath powder. My mother's recipe.
+  words: |
+    idu                                 "this (is)"
+    bisibeeLebaat                       "bisi bele bath"
+    puDi                                "powder (spice mix)"
+    namma                               "my (our)"
+    ammana         amma·na:GEN  < amma  "mother's"
+    resipi                              "recipe" loan
+
+b07:
+  say: ಇದು ಮಾವಿನಕಾಯಿ ಉಪ್ಪಿನಕಾಯಿ. ಬೆಳ್ಳುಳ್ಳಿ ಇಲ್ದೆ.
+  en: And this is mango pickle. Without garlic.
+  words: |
+    idu                   "this (is)"
+    maavinakaayi          "raw mango"
+    uppinakaayi           "pickle"
+    beLLuLLi              "garlic"
+    ilde          < illa  "without"
+
+b08:
+  say: ಇಬ್ಬರೂ ನಗ್ತಾರೆ. ತುಂಬಾ ಜೋರಾಗಿ.
+  en: They both laugh. Out loud.
+  words: |
+    ibbaruu                       < ibbaru  "both"
+    nagtaare  nag·taare:PRES.3PL  < nagu    "laugh"
+    tumbaa                                  "very"
+    jooraagi                                "loudly"
+
+b09:
+  say: ರಾಜು ಅಮ್ಮನನ್ನ ಸ್ಟೇಷನ್ಗೆ ಕರ್ಕೊಂಡು ಹೋಗ್ತಾನೆ.
+  en: Raju drives Amma to the station.
+  words: |
+    raaju                       "Raju" name
+    ammananna:ACC   < amma      "Amma"
+    sTeeShange:DIR  < sTeeShan  "to the station" loan
+    karkonDu        < kare      "taking"
+    hoogtaane       < hoogu     "goes"
+
+b10:
+  say: ಮೇಡಂ. ನನಗೆ ಟೀ ಪ್ರಾಮಿಸ್ ಮಾಡಿದ್ರಿ.
+  en: Madam. You promised me tea.
+  words: |
+    meeDam                  "madam" loan
+    nanage:DIR     < naanu  "to me"
+    Tii                     "tea" loan
+    praamis                 "promise" loan
+    maaDidri:PAST  < maaDu  "(you) made"
+
+b11:
+  say: ನನ್ನ ಕೈಯಿಂದ. ಪ್ರಾಮಿಸ್ ತರ.
+  en: From my own hands. As promised.
+  words: |
+    nanna                           "my"
+    kaiyinda  kai·yinda:ABL  < kai  "from (my) hands"
+    praamis                         "promised" loan
+    tara                            "as"
+
+b12:
+  say: ಈಗ ನೀವೂ ಇಲ್ಲಿಯವರೇ, ಮೇಡಂ.
+  en: Now you're from here too, madam.
+  words: |
+    iiga                  "now"
+    niivuu       < niivu  "you too"
+    illiyavaree  < illi   "are from here"
+    meeDam                "madam" loan
+
+b13:
+  say: ಸ್ಟೇಷನ್. ರೈಲು ಕಾಯ್ತಿದೆ.
+  en: The station. The train is waiting.
+  words: |
+    sTeeShan                "the station" loan
+    railu                   "the train"
+    kaaytide:PROG  < kaayu  "is waiting"
+
+b14:
+  say: ಸುನೀತಾ... ಫಿರ್ ಮಿಲೇಂಗೆ.
+  en: Sunita... 'phir milenge'. We'll meet again. In Amma's language.
+  words: |
+    suniitaa  "Sunita..." name
+    phir      "phir (again, in Hindi: Amma's language)" loan
+    mileenge  "milenge (we'll meet, in Hindi)" loan
+
+b15:
+  say: ಶಾರದಾ... ಹೋಗಿ ಬರ್ತೀನಿ.
+  en: Sharada... 'hoogi bartiini'. I'll go, and come back. The way people here say goodbye.
+  words: |
+    shaaradaa                               "Sharada..." name
+    hoogi                          < hoogu  "having gone"
+    bartiini   bar·tiini:PRES.1SG  < baru   "I'll come back"
+
+b16:
+  say: ಒಬ್ಬರು ಇನ್ನೊಬ್ಬರ ಭಾಷೆಯಲ್ಲಿ.
+  en: Each of them, in the other's language.
+  words: |
+    obbaru                                         "each one"
+    innobbara:GEN                     < innobbaru  "the other's"
+    bhaaSheyalli   bhaaShe·yalli:LOC  < bhaaShe    "in (the) language"
+
+b17:
+  say: ಮುಂದಿನ ವರ್ಷ, ದಸರಾಗೆ ಬನ್ನಿ.
+  en: Next year, come for Dasara.
+  words: |
+    mundina                   "next"
+    varSha                    "year"
+    dasaraage:DIR  < dasaraa  "for Dasara (the autumn festival)" name
+    banni:IMP.HON  < baru     "come"
+
+b18:
+  say: ಬರ್ತೀನಿ. ಈ ಸಲ, ದೊಡ್ಡ ಸೂಟ್ಕೇಸ್. ಕಡಲೆಕಾಯಿಗೆ.
+  en: I'll come. And this time, with a bigger suitcase. For the groundnuts.
+  words: |
+    bartiini           bar·tiini:PRES.1SG  < baru         "I'll come"
+    ii                                                    "this"
+    sala                                                  "time"
+    doDDa                                                 "a bigger"
+    suuTkees                                              "suitcase" loan
+    kaDalekaayige:DIR                      < kaDalekaayi  "for groundnuts"
+
+b19:
+  say: ರೈಲು ಹೊರಡುತ್ತೆ. ಎರಡು ಕೈ, ಕೈ ಬೀಸ್ತಿವೆ.
+  en: The train pulls out. Two hands, waving.
+  words: |
+    railu                    "the train"
+    horaDutte      < horaDu  "leaves"
+    eraDu                    "two"
+    kai                      "hands"
+    kai                      "hands"
+    biistive:PROG  < biisu   "are waving"
+
+b20:
+  say: ಆ ರಾತ್ರಿ, ಮಳೆ. ಯಾರೂ ಕಾಯದ ಮಳೆ.
+  en: That night, rain. Rain nobody was waiting for.
+  words: |
+    aa                    "that"
+    raatri                "night"
+    maLe                  "rain"
+    yaaruu                "nobody"
+    kaayada:NEG  < kaayu  "waited for"
+    maLe                  "rain"
+
+b21:
+  say: ಬೆಳಿಗ್ಗೆ, ಕೆರೆ ಸ್ವಲ್ಪ ತುಂಬಿದೆ.
+  en: In the morning, the lake is a little fuller.
+  words: |
+    beLigge                "morning"
+    kere                   "the lake"
+    swalpa                 "a little"
+    tumbide:PERF  < tumbu  "has filled"
+
+b22:
+  say: ನೀರಿನ ಮೇಲೆ... ಹಕ್ಕಿಗಳು. ಎಷ್ಟೋ ವರ್ಷದ ಮೇಲೆ, ಮೊದಲ ಸಲ.
+  en: On the water... birds. The first in so many years.
+  words: |
+    niirina       niir·ina:GEN  < niiru   "the water's"
+    meele                                 "on"
+    hakkigaLu:PL                < hakki   "birds" @birds.arrive
+    eShToo                                "so many"
+    varShada:GEN                < varSha  "years'"
+    meele                                 "after"
+    modala                                "first"
+    sala                                  "time"
+
+b23:
+  say: ರೀ... ನೋಡಿ. ಅವು ವಾಪಸ್ ಬಂದಿವೆ.
+  en: Dear... look. They've come back.
+  words: |
+    rii                     "dear... (how a wife calls her husband)"
+    nooDi:IMP.HON  < nooDu  "look"
+    avu                     "they"
+    vaapas                  "back"
+    bandive:PERF   < baru   "have come"
+
+b24:
+  say: ಟಿಂಗ್! ಅಮ್ಮನ ಮೆಸೇಜ್.
+  en: Ting! A message from Amma.
+  words: |
+    Ting                         "ting!"
+    ammana  amma·na:GEN  < amma  "Amma's"
+    meseej                       "message" loan
+
+b25:
+  say: "'ಮನೆ ತಲುಪಿದೆ. ನೆರೆಯವರು ಎಲ್ಲಾ ಕಡಲೆಕಾಯಿ ಮುಗಿಸಿದ್ರು.'"
+  en: "'Reached home. The neighbours have finished all the groundnuts.'"
+  words: |
+    mane                      "home"
+    talupide:PAST   < talupu  "reached"
+    nereyavaru                "the neighbours"
+    ellaa                     "all"
+    kaDalekaayi               "the groundnuts"
+    mugisidru:PAST  < mugisu  "finished"
+
+b26:
+  say: "'ಶಾರದಾಗೆ ಹೇಳು: ಮುಂದಿನ ವರ್ಷ, ದಸರಾ. ನಾನು ಬರ್ತೀನಿ.'"
+  en: "'Tell Sharada: next year, Dasara. I'm coming.'"
+  words: |
+    shaaradaage:DIR                      < shaaradaa  "to Sharada" name
+    heeLu:IMP                                         "tell"
+    mundina                                           "next"
+    varSha                                            "year"
+    dasaraa                                           "Dasara" name
+    naanu                                             "I"
+    bartiini         bar·tiini:PRES.1SG  < baru       "I'm coming"

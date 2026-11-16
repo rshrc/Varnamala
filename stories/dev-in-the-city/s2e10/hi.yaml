@@ -1,0 +1,323 @@
+# s2e10 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: फिर मिलेंगे | phir mile~ge | We'll Meet Again
+tease: होली। | holii. | Holi.
+
+b01:
+  say: माँ का आख़िरी रविवार। सब झील पर।
+  en: Amma's last Sunday. Everyone is at the lake.
+  words: |
+    maa~      "Ma's"
+    kaa:GEN   "'s"
+    aakhirii  "last"
+    ravivaar  "Sunday"
+    sab       "everyone"
+    jhiil     "the lake"
+    par:LOC   "at"
+
+b02:
+  say: राजू, पूजा, चिंटू, प्रिया, बबलू और उसका ऑफ़िस। बाड़ पर, नेता जी का पोस्टर भी मुस्कुरा रहा है।
+  en: Raju, Pooja, Chintu, Priya, Bablu and his whole office. On the fence, even the neta's poster is smiling.
+  words: |
+    raajuu                     "Raju" name
+    puujaa                     "Pooja" name
+    chinTuu                    "Chintu" name
+    priyaa                     "Priya" name
+    bablu                      "Bablu" name
+    aur                        "and"
+    uskaa       < vo           "his"
+    ofis                       "office" loan
+    baaD                       "the fence"
+    par:LOC                    "on"
+    netaa                      "the neta (politician)"
+    jii                        "-ji (respect)"
+    kaa:GEN                    "'s"
+    posTar                     "poster" loan
+    bhii                       "even"
+    muskuraa    < muskuraanaa  "smile"
+    rahaa:PROG  < rahnaa       "(is)"
+    hai         < honaa        "(is)"
+
+b03:
+  say: आंटी! देखो! झाग कम हो गया!
+  en: Aunty! Look! There's less foam!
+  words: |
+    aanTii                 "aunty!" loan
+    dekho:IMP   < dekhnaa  "look!"
+    jhaag                  "the foam"
+    kam                    "less"
+    ho          < honaa    "become"
+    gayaa:PERF  < jaanaa   "(has)!"
+
+b04:
+  say: पाइप बंद है। पानी धीरे-धीरे ठीक हो रहा है।
+  en: The pipe is closed. The water is slowly getting better.
+  words: |
+    paaip                    "the pipe" loan
+    band                     "closed"
+    hai            < honaa   "(is)"
+    paanii                   "the water"
+    dhiire-dhiire            "slowly"
+    Thiik                    "well (right)"
+    ho             < honaa   "getting"
+    rahaa:PROG     < rahnaa  "(is)"
+    hai            < honaa   "(is)"
+
+b05:
+  say: अगली सुबह। दरवाज़े पर माँ का सूटकेस।
+  en: The next morning. Amma's suitcase by the door.
+  words: |
+    aglii     < aglaa      "the next"
+    subah                  "morning"
+    darvaaze  < darvaazaa  "the door"
+    par:LOC                "at"
+    maa~                   "Ma's"
+    kaa:GEN                "'s"
+    suuTkes                "suitcase" loan
+
+b06:
+  say: ये कढ़ी का मसाला। मेरी माँ की रेसिपी।
+  en: This is spice mix for kadhi. My mother's recipe.
+  words: |
+    ye                 "this (is)"
+    kaDhii             "kadhi"
+    kaa:GEN            "'s"
+    masaalaa           "spice mix"
+    merii     < meraa  "my"
+    maa~               "mother"
+    kii:GEN            "'s"
+    resipii            "recipe" loan
+
+b07:
+  say: ये आम का अचार। लहसुन के बिना।
+  en: And this is mango pickle. Without garlic.
+  words: |
+    ye       "this (is)"
+    aam      "mango"
+    kaa:GEN  "(of)"
+    achaar   "pickle"
+    lahsun   "garlic"
+    ke:GEN   "(of)"
+    binaa    "without"
+
+b08:
+  say: दोनों हँसती हैं। ज़ोर से।
+  en: They both laugh. Out loud.
+  words: |
+    dono~               "both"
+    ha~stii  < ha~snaa  "laugh"
+    hai~     < honaa    "(are)"
+    zor                 "loud"
+    se                  "(ly)"
+
+b09:
+  say: राजू माँ को स्टेशन ले जाता है।
+  en: Raju drives Amma to the station.
+  words: |
+    raajuu             "Raju" name
+    maa~               "Ma"
+    ko:ACC             "(her)"
+    sTeshan            "the station" loan
+    le       < lenaa   "take"
+    jaataa   < jaanaa  "(goes)"
+    hai      < honaa   "(is)"
+
+b10:
+  say: मैडम। आपने मुझसे चाय का वादा किया था।
+  en: Madam. You promised me tea.
+  words: |
+    maiDam                "madam" loan
+    aapne       < aap     "you"
+    mujhse      < mai~    "to me"
+    chaay                 "tea"
+    kaa:GEN               "(of)"
+    vaadaa                "promise"
+    kiyaa:PAST  < karnaa  "made"
+    thaa:PAST   < honaa   "(had)"
+
+b11:
+  say: मेरे हाथ की। वादे के मुताबिक़।
+  en: From my own hands. As promised.
+  words: |
+    mere      < meraa   "my"
+    haath               "hands"
+    kii:GEN             "(made by)"
+    vaade     < vaadaa  "the promise"
+    ke:GEN              "(of)"
+    mutaabiq            "as per"
+
+b12:
+  say: अब आप भी यहीं की हैं, मैडम।
+  en: Now you're from here too, madam.
+  words: |
+    ab                "now"
+    aap               "you"
+    bhii              "too"
+    yahii~   < yahaa  "from right here"
+    kii:GEN           "(of)"
+    hai~     < honaa  "are"
+    maiDam            "madam" loan
+
+b13:
+  say: स्टेशन। ट्रेन इंतज़ार कर रही है।
+  en: The station. The train is waiting.
+  words: |
+    sTeshan               "the station" loan
+    Tren                  "the train" loan
+    intazaar              "wait"
+    kar         < karnaa  "do"
+    rahii:PROG  < rahnaa  "(is)"
+    hai         < honaa   "(is)"
+
+b14:
+  say: शम्पा... आबार देखा होबे।
+  en: Shampa... 'abar dekha hobe'. We'll meet again. In Amma's language.
+  words: |
+    shampaa  "Shampa..." name
+    aabaar   "abar (again, in Bengali: Amma's language)" loan
+    dekhaa   "dekha (meeting, in Bengali)" loan
+    hobe     "hobe (will be: we'll meet, in Bengali)" loan
+
+b15:
+  say: कमला... चलती हूँ, फिर आऊँगी।
+  en: Kamla... 'chalti hoon, phir aaungi'. I'm going, and I'll come again.
+  words: |
+    kamlaa                   "Kamla..." name
+    chaltii       < chalnaa  "go (am going)"
+    huu~          < honaa    "I am"
+    phir                     "again"
+    aauu~gii:FUT  < aanaa    "I'll come"
+
+b16:
+  say: दोनों, एक-दूसरे की भाषा में।
+  en: Each of them, in the other's language.
+  words: |
+    dono~      "both"
+    ek-duusre  "each other's"
+    kii:GEN    "(of)"
+    bhaashaa   "language"
+    me~:LOC    "in"
+
+b17:
+  say: अगले साल, होली पर आना।
+  en: Next year, come for Holi.
+  words: |
+    agle       < aglaa  "next"
+    saal                "year"
+    holii               "Holi (the spring festival)" name
+    par:LOC             "for (at)"
+    aanaa:IMP           "come"
+
+b18:
+  say: आऊँगी। इस बार, बड़ा सूटकेस। मूँगफली के लिए।
+  en: I'll come. And this time, with a bigger suitcase. For the groundnuts.
+  words: |
+    aauu~gii:FUT  < aanaa  "I'll come"
+    is                     "this"
+    baar                   "time"
+    baDaa                  "a bigger"
+    suuTkes                "suitcase" loan
+    muu~gphalii            "groundnuts"
+    ke:GEN                 "(for)"
+    lie                    "for"
+
+b19:
+  say: ट्रेन चल पड़ती है। दो हाथ हिलते हैं।
+  en: The train pulls out. Two hands, waving.
+  words: |
+    Tren               "the train" loan
+    chal    < chalnaa  "move"
+    paDtii  < paDnaa   "(sets off)"
+    hai     < honaa    "(is)"
+    do                 "two"
+    haath              "hands"
+    hilte   < hilnaa   "wave"
+    hai~    < honaa    "(are)"
+
+b20:
+  say: उस रात, बारिश। बिन बुलाई बारिश।
+  en: That night, rain. Rain nobody was waiting for.
+  words: |
+    us                   "that"
+    raat                 "night"
+    baarish              "rain"
+    bin                  "without"
+    bulaaii  < bulaanaa  "being called"
+    baarish              "rain"
+
+b21:
+  say: सुबह, झील थोड़ी भर गई है।
+  en: In the morning, the lake is a little fuller.
+  words: |
+    subah                 "morning"
+    jhiil                 "the lake"
+    thoDii     < thoDaa   "a little"
+    bhar       < bharnaa  "fill"
+    gaii:PERF  < jaanaa   "(has)"
+    hai        < honaa    "(is)"
+
+b22:
+  say: पानी पर... पंछी। कितने सालों बाद, पहली बार।
+  en: On the water... birds. The first in so many years.
+  words: |
+    paanii              "the water"
+    par:LOC             "on"
+    panchhii            "birds" @birds.arrive
+    kitne     < kitnaa  "so many"
+    saalo~    < saal    "years"
+    baad                "after"
+    pahlii    < pahlaa  "first"
+    baar                "time"
+
+b23:
+  say: सुनिए जी... देखिए। वो लौट आए हैं।
+  en: Dear... look. They've come back.
+  words: |
+    sunie:IMP.HON   < sunnaa   "listen"
+    jii                        "dear... (how a wife calls her husband)"
+    dekhie:IMP.HON  < dekhnaa  "look"
+    vo                         "they"
+    lauT            < lauTnaa  "return"
+    aae:PERF        < aanaa    "come"
+    hai~            < honaa    "have"
+
+b24:
+  say: टिंग! माँ का मैसेज।
+  en: Ting! A message from Amma.
+  words: |
+    Ting     "ting!"
+    maa~     "Ma's"
+    kaa:GEN  "'s"
+    maisej   "message" loan
+
+b25:
+  say: "'घर पहुँच गई। पड़ोसियों ने सारी मूँगफली ख़त्म कर दी।'"
+  en: "'Reached home. The neighbours have finished all the groundnuts.'"
+  words: |
+    ghar                       "home"
+    pahu~ch      < pahu~chnaa  "reach"
+    gaii:PERF    < jaanaa      "(I have)"
+    paDosiyo~    < paDosii     "the neighbours"
+    ne                         "(they)"
+    saarii       < saaraa      "all"
+    muu~gphalii                "the groundnuts"
+    khatm                      "finished"
+    kar          < karnaa      "make"
+    dii:PERF     < denaa       "(did)"
+
+b26:
+  say: "'कमला से कहना: अगले साल, होली। मैं आ रही हूँ।'"
+  en: "'Tell Kamla: next year, Holi. I'm coming.'"
+  words: |
+    kamlaa                "Kamla" name
+    se:ABL                "to"
+    kahnaa:IMP            "tell"
+    agle        < aglaa   "next"
+    saal                  "year"
+    holii                 "Holi" name
+    mai~                  "I"
+    aa          < aanaa   "come"
+    rahii:PROG  < rahnaa  "(am)"
+    huu~        < honaa   "am"

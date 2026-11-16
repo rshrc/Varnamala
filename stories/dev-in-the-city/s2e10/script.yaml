@@ -1,0 +1,75 @@
+# s2e10: Go, and Come Back. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: lake_dawn
+  cast:
+    kid:      standing @ 0.1
+    daughter: standing @ 0.26
+    amma:     standing @ 0.44
+    landlady: arms_crossed @ 0.66
+  props:
+    sacks: cleanup
+  beats:
+    b01: { who: narrator, tags: [warmly], start: [foam.drift] }
+    b02: { who: narrator, tags: [amused] }
+    b03: { who: kid, mood: calling, icons: [water, ok], start: [kid.cheer] }
+    b04: { who: daughter, mood: happy, icons: [water, chart, ok], start: [daughter.nod] }
+
+p2:
+  set: pg_door
+  cast:
+    dev:      standing @ 0.12
+    amma:     standing_jar @ 0.36
+    landlady: arms_crossed @ 0.68
+  beats:
+    b05: narrator
+    b06: { who: landlady, mood: happy, icons: [sweets, heart], tags: [warmly], start: [landlady.offer] }
+    b07: { who: amma, mood: happy, icons: [heart, ok], tags: [warmly], start: [amma.offer] }
+    b08: { who: narrator, tags: [warmly], start: [landlady.laugh, amma.laugh] }
+
+p3:
+  set: street_auto
+  cast:
+    raju: in_auto_turned @ 0.6
+    amma: in_auto_back @ 0.76
+  props:
+    poster: dev_poster
+  beats:
+    b09: narrator
+    b10: { who: raju, mood: sly, icons: [tea, question], tags: [playfully], start: [raju.smile] }
+    b11: { who: amma, mood: happy, icons: [tea, heart], tags: [warmly], start: [amma.offer] }
+    b12: { who: raju, mood: happy, icons: [house, heart, ok], tags: [warmly], start: [raju.laugh] }
+
+p4:
+  set: street_auto
+  cast:
+    dev:      standing @ 0.14
+    amma:     standing_suitcase @ 0.36
+    landlady: arms_crossed @ 0.62
+  props:
+    poster: dev_poster
+  beats:
+    b13: { who: narrator, tags: [softly] }
+    b14: { who: landlady, mood: happy, icons: [heart, speech], tags: [softly], start: [landlady.smile] }
+    b15: { who: amma, mood: happy, icons: [heart, speech], tags: [warmly], start: [amma.smile] }
+    b16: { who: narrator, tags: [softly] }
+    b17: { who: landlady, mood: happy, icons: [calendar, heart], tags: [warmly] }
+    b18: { who: amma, mood: amused, icons: [ok, heart], tags: [playfully], start: [amma.laugh] }
+    b19: { who: narrator, tags: [softly], start: [amma.wave, landlady.wave] }
+
+p5:
+  set: lake_dawn
+  cast:
+    dev:      standing_phone @ 0.2
+    landlady: arms_crossed @ 0.46
+  props:
+    birds: birds
+  beats:
+    b20: { who: narrator, tags: [softly] }
+    b21: { who: narrator, start: [foam.drift] }
+    b22: narrator
+    b23: { who: landlady, mood: happy, icons: [heart, water], tags: [tenderly], start: [landlady.sigh, birds.arrive] }
+    b24: { who: narrator, start: [dev.smile] }
+    b25: { who: dev, mood: amused, icons: [phone, house, sweets], tags: [reading], start: [dev.laugh] }
+    b26: { who: dev, mood: happy, icons: [phone, calendar, heart], tags: [warmly], cliffhanger: true }

@@ -1,0 +1,16 @@
+# s2e10: Go, and Come Back
+# Format: stories/README.md
+
+level: A2
+next: s3e01
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b15
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  amma.laugh:     amma laugh 900
+  raju.laugh:     raju laugh 800
+  landlady.smile: landlady smile 1600
+  landlady.sigh:  landlady sigh_nod 1200
+  dev.smile:      dev smile 1400
+  dev.laugh:      dev laugh 800
