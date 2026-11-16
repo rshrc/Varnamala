@@ -1,0 +1,286 @@
+# s2e04 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಭಾನುವಾರ | bhaanuvaara | Sunday
+tease: ರಾಜ್ಯೋತ್ಸವ. | raajyootsava. | Rajyotsava.
+
+b01:
+  say: ಸೋಮವಾರ. ಆಫೀಸ್.
+  en: Monday. The office.
+  words: |
+    soomavaara  "Monday"
+    aafiis      "the office" loan
+
+b02:
+  say: ಪ್ರಿಯಾ, ನಮ್ಮ ಮನೆ ಹತ್ರದ ಕೆರೆ... ಮುಚ್ಚುತ್ತಾರಂತೆ.
+  en: Priya, the lake near our house... they're going to fill it in.
+  words: |
+    priyaa                       "Priya" name
+    namma                        "our"
+    mane                         "house"
+    hatrada           < hatra    "near (the)"
+    kere                         "lake"
+    muchchuttaarante  < muchchu  "they're going to fill it in, apparently"
+
+b03:
+  say: ಮತ್ತೆ? ನಾನು ಒಂದು ಕೆರೆ ಗುಂಪಲ್ಲಿದ್ದೀನಿ. ಹೋದ ವರ್ಷ ಒಂದು ಕೆರೆ ಉಳಿಸಿದ್ವಿ.
+  en: Again? I'm in a lake group. Last year, we saved a lake.
+  words: |
+    matte                                                   "again?"
+    naanu                                                   "I"
+    ondu                                                    "a"
+    kere                                                    "lake"
+    gumpalliddiini  gump·alli:LOC·ddiini:PRES.1SG  < gumpu  "am in a group"
+    hooda                                          < hoogu  "last"
+    varSha                                                  "year"
+    ondu                                                    "a"
+    kere                                                    "lake"
+    uLisidvi:PAST                                  < uLisu  "we saved"
+
+b04:
+  say: "ಗುಟ್ಟು: ಜನ. ಭಾನುವಾರ ಬರ್ತೀಯಾ?"
+  en: The secret is people. Will you come on Sunday?
+  words: |
+    guTTu                "the secret"
+    jana                 "people"
+    bhaanuvaara          "Sunday"
+    bartiiyaa:Q  < baru  "will you come?"
+
+b05:
+  say: ಭಾನುವಾರ. ಖಂಡಿತ.
+  en: Sunday. Definitely.
+  words: |
+    bhaanuvaara  "Sunday"
+    khanDita     "definitely"
+
+b06:
+  say: ಭಾನುವಾರ, ಬೆಳಿಗ್ಗೆ ಏಳು. ಗ್ಲೌಸ್. ಚೀಲ.
+  en: Sunday, seven in the morning. Gloves. Sacks.
+  words: |
+    bhaanuvaara  "Sunday"
+    beLigge      "morning"
+    eeLu         "seven"
+    glaus        "gloves" loan
+    chiila       "sacks"
+
+b07:
+  say: ಪ್ರಿಯಾ, ದೇವ್, ರಾಜು, ಚಿನ್ನು. ಮತ್ತೆ... ಹನ್ನೆರಡು ಜನ.
+  en: Priya, Dev, Raju, Chinnu. And... twelve more people.
+  words: |
+    priyaa     "Priya" name
+    dev        "Dev" name
+    raaju      "Raju" name
+    chinnu     "Chinnu" name
+    matte      "and"
+    hanneraDu  "twelve"
+    jana       "people"
+
+b08:
+  say: ಅಂಕಲ್! ಚಪ್ಪಲಿ! ಟೈರ್! ಟಿವಿ!
+  en: Uncle! A sandal! A tyre! A TV!
+  words: |
+    ankal     "uncle!" loan
+    chappali  "a sandal!"
+    Tair      "a tyre!" loan
+    Tivi      "a TV!" loan
+
+b09:
+  say: ಸಾರ್, ನಾನು ಈ ಊರಿಗೆ ಬಂದಾಗ, ಈ ಕೆರೆ ಪಕ್ಕ ಮಲಗಿದ್ದೆ.
+  en: Sir, when I came to this city, I slept beside this lake.
+  words: |
+    saar                                   "sir" loan
+    naanu                                  "I"
+    ii                                     "this"
+    uurige          uur·ige:DIR  < uuru    "to (the) city"
+    bandaaga                     < baru    "when (I) came"
+    ii                                     "this"
+    kere                                   "lake"
+    pakka                                  "beside"
+    malagidde:PAST               < malagu  "I slept"
+
+b10:
+  say: ಬೆಳಿಗ್ಗೆ ಇಲ್ಲಿ ಮೀನು ಹಿಡಿದೆ. ನನ್ನ ಮೊದಲ ಊಟ.
+  en: In the morning, I caught a fish here. My first meal in the city.
+  words: |
+    beLigge              "morning"
+    illi                 "here"
+    miinu                "fish"
+    hiDide:PAST  < hiDi  "I caught"
+    nanna                "my"
+    modala               "first"
+    uuTa                 "meal"
+
+b11:
+  say: ಇಲ್ಲಾ?
+  en: Here?
+  words: |
+    illaa:Q  < illi  "here?"
+
+b12:
+  say: ಇಲ್ಲೇ. ಈ ಕೆರೆ ನನಗೆ ಊಟ ಹಾಕ್ತು. ಈಗ ನಾವು ಇದನ್ನ ನೋಡ್ಕೋಬೇಕು.
+  en: Right here. This lake fed me. Now we have to look after it.
+  words: |
+    illee         < illi   "right here"
+    ii                     "this"
+    kere                   "lake"
+    nanage:DIR    < naanu  "me"
+    uuTa                   "food"
+    haaktu:PAST   < haaku  "fed (gave)"
+    iiga                   "now"
+    naavu                  "we"
+    idanna:ACC    < idu    "it"
+    nooDkoobeeku  < nooDu  "must look after"
+
+b13:
+  say: ಹತ್ತು ಗಂಟೆ. ಇಬ್ಬರು ಹೆಂಗಸರು. ಎರಡು ದೊಡ್ಡ ಪಾತ್ರೆ.
+  en: Ten o'clock. Two women. Two big vessels.
+  words: |
+    hattu                                "ten"
+    gaNTe                                "o'clock"
+    ibbaru                               "two (people)"
+    hengasaru  hengas·aru:PL  < hengasu  "women"
+    eraDu                                "two"
+    doDDa                                "big"
+    paatre                               "vessels"
+
+b14:
+  say: ಬಿಸಿಬೇಳೆಬಾತ್! ಮತ್ತೆ ರಾಜ್ಮಾ!
+  en: Bisi bele bath! And rajma!
+  words: |
+    bisibeeLebaat  "bisi bele bath!"
+    matte          "and"
+    raajmaa        "rajma!"
+
+b15:
+  say: ಎರಡರಲ್ಲೂ ಬೆಳ್ಳುಳ್ಳಿ ಇಲ್ಲ!
+  en: No garlic in either!
+  words: |
+    eraDarallu  < eraDu  "in either"
+    beLLuLLi             "garlic"
+    illa:NEG             "no!"
+
+b16:
+  say: ಆಂಟಿ, ಯಾವುದು ಯಾರು ಮಾಡಿದ್ದು?
+  en: Aunty, who made which one?
+  words: |
+    aanTi                   "aunty" loan
+    yaavudu                 "which one"
+    yaaru                   "who"
+    maaDiddu:PAST  < maaDu  "made?"
+
+b17:
+  say: "ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ: ಎರಡೂ!"
+  en: "Both of them, together: 'Both!'"
+  words: |
+    ibbaruu  < ibbaru  "both of them"
+    oTTige             "together"
+    eraDuu   < eraDu   "both!"
+
+b18:
+  say: ಎಲ್ಲರೂ ಮೆಟ್ಟಿಲ ಮೇಲೆ ಊಟ ಮಾಡ್ತಾರೆ. ಅಪರಿಚಿತರು. ಈಗ ಅಲ್ಲ.
+  en: Everyone eats on the steps. Strangers. Not any more.
+  words: |
+    ellaruu       < ellaru   "everyone"
+    meTTila:GEN   < meTTilu  "the steps'"
+    meele                    "on"
+    uuTa                     "a meal"
+    maaDtaare     < maaDu    "have (do)"
+    aparichitaru             "strangers"
+    iiga                     "now"
+    alla                     "not"
+
+b19:
+  say: ನೀನು ಪ್ರಿಯಾ? ಚಿತ್ರಾನ್ನದ ಪ್ರಿಯಾ?
+  en: You're Priya? The lemon rice Priya?
+  words: |
+    niinu                           "you (are)"
+    priyaa                          "Priya?" name
+    chitraannada:GEN  < chitraanna  "of the lemon rice"
+    priyaa                          "Priya?" name
+
+b20:
+  say: ...ಹೌದು.
+  en: ...Yes.
+  words: |
+    haudu  "yes"
+
+b21:
+  say: ದೇವ್ ಕೆರೆ ನೋಡ್ತಾನೆ. ತುಂಬಾ ಗಮನದಿಂದ.
+  en: Dev looks at the lake. Very, very carefully.
+  words: |
+    dev                                             "Dev" name
+    kere                                            "the lake"
+    nooDtaane        nooD·taane:PRES.3SG  < nooDu   "looks at"
+    tumbaa                                          "very"
+    gamanadinda:ABL                       < gamana  "carefully (with attention)"
+
+b22:
+  say: ಮುಂದಿನ ಭಾನುವಾರ. ಜೋರು ಮಳೆ.
+  en: The next Sunday. Heavy rain.
+  words: |
+    mundina      "the next"
+    bhaanuvaara  "Sunday"
+    jooru        "heavy"
+    maLe         "rain"
+
+b23:
+  say: ಮೆಟ್ಟಿಲು ಖಾಲಿ. ದೇವ್ ಮಾತ್ರ. ಮತ್ತೆ ಶಾರದಾ.
+  en: The steps are empty. Only Dev. And Sharada.
+  words: |
+    meTTilu    "the steps"
+    khaali     "empty"
+    dev        "Dev" name
+    maatra     "only"
+    matte      "and"
+    shaaradaa  "Sharada" name
+
+b24:
+  say: ಹನ್ನೆರಡು ಜನ. ಆಮೇಲೆ ಯಾರೂ ಇಲ್ಲ.
+  en: Twelve people. Then nobody.
+  words: |
+    hanneraDu  "twelve"
+    jana       "people"
+    aameele    "then"
+    yaaruu     "nobody"
+    illa:NEG   "there is"
+
+b25:
+  say: ಹಾಗಾದ್ರೆ ನಾವು ಬರ್ತೀವಿ. ಪ್ರತಿ ಭಾನುವಾರ.
+  en: Then we'll come. Every Sunday.
+  words: |
+    haagaadre                                "then"
+    naavu                                    "we"
+    bartiivi     bar·tiivi:PRES.1PL  < baru  "will come"
+    prati                                    "every"
+    bhaanuvaara                              "Sunday"
+
+b26:
+  say: ನೀನು ಇಲ್ಲಿಯವನಲ್ಲ. ಯಾಕೆ?
+  en: You're not from here. So why?
+  words: |
+    niinu                      "you (are)"
+    illiyavanalla:NEG  < illi  "not from here"
+    yaake                      "why?"
+
+b27:
+  say: ಯಾಕಂದ್ರೆ ಈಗ ನಾನು ಇಲ್ಲೇ ಇರೋದು.
+  en: Because I live here now.
+  words: |
+    yaakandre          "because"
+    iiga               "now"
+    naanu              "I"
+    illee      < illi  "right here"
+    iroodu     < iru   "live"
+
+b28:
+  say: ಮಳೆಯಲ್ಲಿ, ಶಾರದಾ ನಗ್ತಾರೆ. ಮೊದಲ ಸಲ, ದೇವ್ ಜೊತೆ.
+  en: In the rain, Sharada smiles. For the first time, at Dev.
+  words: |
+    maLeyalli  maLe·yalli:LOC      < maLe  "in the rain"
+    shaaradaa                              "Sharada" name
+    nagtaare   nag·taare:PRES.3PL  < nagu  "smiles"
+    modala                                 "first"
+    sala                                   "time"
+    dev                                    "Dev" name
+    jote                                   "with"

@@ -1,0 +1,69 @@
+# s2e04: Sunday. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: office
+  cast:
+    dev:   standing @ 0.3
+    priya: standing @ 0.68
+  beats:
+    b01: narrator
+    b02: { who: dev, mood: wary, icons: [water, house, "no"] }
+    b03: { who: priya, mood: firm, icons: [water, ok], start: [priya.proud] }
+    b04: { who: priya, mood: happy, icons: [calendar, person, heart], start: [priya.smile] }
+    b05: { who: dev, mood: happy, icons: [calendar, ok], start: [dev.nod] }
+
+p2:
+  set: lake_dawn
+  cast:
+    kid:   standing @ 0.1
+    raju:  standing @ 0.26
+    dev:   standing @ 0.44
+    priya: standing @ 0.62
+  props:
+    sacks: cleanup
+  beats:
+    b06: { who: narrator, start: [foam.drift] }
+    b07: narrator
+    b08: { who: kid, mood: calling, icons: ["no", question], start: [kid.wave] }
+    b09: { who: raju, mood: wary, icons: [water, person], tags: [softly], start: [raju.sigh] }
+    b10: { who: raju, mood: happy, icons: [fish, plate, heart], tags: [softly] }
+    b11: { who: dev, mood: shocked, icons: [water, question], tags: [softly] }
+    b12: { who: raju, mood: happy, icons: [water, heart, ok], tags: [warmly], start: [raju.smile] }
+
+p3:
+  set: lake_dawn
+  cast:
+    dev:      standing @ 0.1
+    priya:    standing @ 0.26
+    amma:     standing @ 0.38
+    landlady: arms_crossed @ 0.74
+  props:
+    sacks:   cleanup
+    vessels: vessels
+  beats:
+    b13: narrator
+    b14: { who: amma, mood: proud, icons: [plate, heart], start: [amma.proud] }
+    b15: { who: landlady, mood: amused, icons: [ok, "no"], start: [landlady.laugh] }
+    b16: { who: priya, mood: curious, icons: [plate, question] }
+    b17: { who: narrator, tags: [warmly], start: [amma.laugh, landlady.smile] }
+    b18: { who: narrator, tags: [warmly] }
+    b19: { who: amma, mood: sly, icons: [person, plate, question], tags: [gently] }
+    b20: { who: priya, mood: sheepish, icons: [heart], start: [priya.sheepish] }
+    b21: { who: narrator, tags: [amused], start: [dev.sheepish] }
+
+p4:
+  set: lake_dawn
+  cast:
+    dev:      standing @ 0.38
+    landlady: arms_crossed @ 0.62
+  props:
+    rain: rain
+  beats:
+    b22: narrator
+    b23: { who: narrator, tags: [softly] }
+    b24: { who: landlady, mood: weary, icons: [person, "no"], tags: [tiredly], start: [landlady.sigh] }
+    b25: { who: dev, mood: firm, icons: [calendar, ok] }
+    b26: { who: landlady, mood: curious, icons: [person, question], tags: [softly], start: [landlady.look] }
+    b27: { who: dev, mood: happy, icons: [house, heart], tags: [warmly], start: [dev.smile] }
+    b28: { who: narrator, tags: [softly], start: [landlady.smile], cliffhanger: true }

@@ -1,0 +1,14 @@
+# s2e04: Sunday
+# Format: stories/README.md
+
+level: A2
+next: s2e05
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b13
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  priya.smile:  priya smile 1400
+  dev.nod:      dev nod 400
+  dev.sheepish: dev sheepish 700
+  dev.smile:    dev smile 1400

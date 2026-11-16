@@ -1,0 +1,318 @@
+# s2e04 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: रविवार | ravivaar | Sunday
+tease: मेला। | melaa. | The fair.
+
+b01:
+  say: सोमवार। ऑफ़िस।
+  en: Monday. The office.
+  words: |
+    somvaar  "Monday"
+    ofis     "the office" loan
+
+b02:
+  say: प्रिया, मेरे घर के पास की झील... भरने वाले हैं।
+  en: Priya, the lake near our house... they're going to fill it in.
+  words: |
+    priyaa              "Priya" name
+    mere     < meraa    "my"
+    ghar                "house"
+    ke:GEN              "(of)"
+    paas                "near"
+    kii:GEN             "(of)"
+    jhiil               "lake"
+    bharne   < bharnaa  "fill in"
+    vaale    < vaalaa   "going to"
+    hai~     < honaa    "they are"
+
+b03:
+  say: फिर से? मैं एक झील वाले ग्रुप में हूँ। पिछले साल एक झील बचाई।
+  en: Again? I'm in a lake group. Last year, we saved a lake.
+  words: |
+    phir                        "again"
+    se                          "?"
+    mai~                        "I"
+    ek                          "a"
+    jhiil                       "lake"
+    vaale          < vaalaa     "(the) people"
+    grup                        "group" loan
+    me~:LOC                     "in"
+    huu~           < honaa      "am"
+    pichhle        < pichhlaa   "last"
+    saal                        "year"
+    ek                          "a"
+    jhiil                       "lake"
+    bachaaii:PAST  < bachaanaa  "(we) saved"
+
+b04:
+  say: "राज़: लोग। रविवार को आओगे?"
+  en: The secret is people. Will you come on Sunday?
+  words: |
+    raaz                "the secret"
+    log                 "people"
+    ravivaar            "Sunday"
+    ko                  "on"
+    aaoge:FUT  < aanaa  "will you come?"
+
+b05:
+  say: रविवार। पक्का।
+  en: Sunday. Definitely.
+  words: |
+    ravivaar  "Sunday"
+    pakkaa    "definitely"
+
+b06:
+  say: रविवार, सुबह सात बजे। दस्ताने। बोरे।
+  en: Sunday, seven in the morning. Gloves. Sacks.
+  words: |
+    ravivaar               "Sunday"
+    subah                  "morning"
+    saat                   "seven"
+    baje                   "o'clock"
+    dastaane  < dastaanaa  "gloves"
+    bore      < boraa      "sacks"
+
+b07:
+  say: प्रिया, देव, राजू, चिंटू। और... बारह लोग।
+  en: Priya, Dev, Raju, Chinnu. And... twelve more people.
+  words: |
+    priyaa   "Priya" name
+    dev      "Dev" name
+    raajuu   "Raju" name
+    chinTuu  "Chintu" name
+    aur      "and"
+    baarah   "twelve"
+    log      "people"
+
+b08:
+  say: अंकल! चप्पल! टायर! टीवी!
+  en: Uncle! A sandal! A tyre! A TV!
+  words: |
+    ankal    "uncle!" loan
+    chappal  "a sandal!"
+    Taayar   "a tyre!" loan
+    Tiivii   "a TV!" loan
+
+b09:
+  say: साब, जब मैं इस शहर आया, इसी झील के किनारे सोया था।
+  en: Sir, when I came to this city, I slept beside this lake.
+  words: |
+    saab                    "sir"
+    jab                     "when"
+    mai~                    "I"
+    is                      "this"
+    shahar                  "city"
+    aayaa:PAST  < aanaa     "came"
+    isii        < ye        "this very"
+    jhiil                   "lake"
+    ke:GEN                  "(of)"
+    kinaare     < kinaaraa  "shore (by)"
+    soyaa       < sonaa     "slept"
+    thaa:PAST   < honaa     "(had)"
+
+b10:
+  say: सुबह यहाँ मछली पकड़ी। मेरा पहला खाना।
+  en: In the morning, I caught a fish here. My first meal in the city.
+  words: |
+    subah                     "morning"
+    yahaa~                    "here"
+    machhlii                  "fish"
+    pakaDii:PAST  < pakaDnaa  "(I) caught"
+    meraa                     "my"
+    pahlaa                    "first"
+    khaanaa                   "meal"
+
+b11:
+  say: यहाँ?
+  en: Here?
+  words: |
+    yahaa~  "here?"
+
+b12:
+  say: यहीं। इस झील ने मुझे खिलाया। अब हमें इसे संभालना है।
+  en: Right here. This lake fed me. Now we have to look after it.
+  words: |
+    yahii~          < yahaa      "right here"
+    is                           "this"
+    jhiil                        "lake"
+    ne                           "(it)"
+    mujhe                        "me"
+    khilaayaa:PAST  < khilaanaa  "fed"
+    ab                           "now"
+    hame~           < ham        "we (have to)"
+    ise             < ye         "it"
+    sambhaalnaa                  "look after"
+    hai             < honaa      "must"
+
+b13:
+  say: दस बजे। दो औरतें। दो बड़े बर्तन।
+  en: Ten o'clock. Two women. Two big vessels.
+  words: |
+    das                 "ten"
+    baje                "o'clock"
+    do                  "two"
+    aurte~:PL  < aurat  "women"
+    do                  "two"
+    baDe       < baDaa  "big"
+    bartan              "vessels"
+
+b14:
+  say: कढ़ी! और आलू पोस्तो!
+  en: Kadhi! And aloo posto!
+  words: |
+    kaDhii  "kadhi!"
+    aur     "and"
+    aaluu   "aloo"
+    posto   "posto!"
+
+b15:
+  say: दोनों में लहसुन नहीं!
+  en: No garlic in either!
+  words: |
+    dono~       "either (both)"
+    me~:LOC     "in"
+    lahsun      "garlic"
+    nahii~:NEG  "no!"
+
+b16:
+  say: आंटी, कौन सा किसने बनाया?
+  en: Aunty, who made which one?
+  words: |
+    aanTii                     "aunty" loan
+    kaun                       "which"
+    saa                        "one"
+    kisne          < kaun      "who"
+    banaayaa:PAST  < banaanaa  "made?"
+
+b17:
+  say: "दोनों एक साथ: दोनों!"
+  en: "Both of them, together: 'Both!'"
+  words: |
+    dono~  "both of them"
+    ek     "one"
+    saath  "together"
+    dono~  "both!"
+
+b18:
+  say: सब सीढ़ियों पर खाते हैं। अजनबी। अब नहीं।
+  en: Everyone eats on the steps. Strangers. Not any more.
+  words: |
+    sab                    "everyone"
+    siiDhiyo~   < siiDhii  "the steps"
+    par:LOC                "on"
+    khaate      < khaanaa  "eat"
+    hai~        < honaa    "(are)"
+    ajnabii                "strangers"
+    ab                     "now"
+    nahii~:NEG             "no longer"
+
+b19:
+  say: तुम प्रिया हो? राजमा चावल वाली?
+  en: You're Priya? The rajma chawal Priya?
+  words: |
+    tum                "you"
+    priyaa             "Priya" name
+    ho       < honaa   "are?"
+    raajmaa            "rajma"
+    chaaval            "chawal"
+    vaalii   < vaalaa  "(the one with the)"
+
+b20:
+  say: ...जी।
+  en: ...Yes.
+  words: |
+    jii  "yes (polite)"
+
+b21:
+  say: देव झील को देखता है। बहुत ध्यान से।
+  en: Dev looks at the lake. Very, very carefully.
+  words: |
+    dev                 "Dev" name
+    jhiil               "the lake"
+    ko:ACC              "(at)"
+    dekhtaa  < dekhnaa  "looks"
+    hai      < honaa    "(is)"
+    bahut               "very"
+    dhyaan              "attention"
+    se                  "with"
+
+b22:
+  say: अगला रविवार। तेज़ बारिश।
+  en: The next Sunday. Heavy rain.
+  words: |
+    aglaa     "the next"
+    ravivaar  "Sunday"
+    tez       "heavy"
+    baarish   "rain"
+
+b23:
+  say: सीढ़ियाँ ख़ाली। बस देव। और कमला जी।
+  en: The steps are empty. Only Dev. And Kamla-ji.
+  words: |
+    siiDhiyaa~  < siiDhii  "the steps"
+    khaalii                "empty"
+    bas                    "only"
+    dev                    "Dev" name
+    aur                    "and"
+    kamlaa                 "Kamla" name
+    jii                    "-ji (respect)"
+
+b24:
+  say: बारह लोग। फिर कोई नहीं।
+  en: Twelve people. Then nobody.
+  words: |
+    baarah      "twelve"
+    log         "people"
+    phir        "then"
+    koii        "anyone"
+    nahii~:NEG  "no"
+
+b25:
+  say: तो हम आएँगे। हर रविवार।
+  en: Then we'll come. Every Sunday.
+  words: |
+    to                   "then"
+    ham                  "we"
+    aae~ge:FUT  < aanaa  "will come"
+    har                  "every"
+    ravivaar             "Sunday"
+
+b26:
+  say: तुम यहाँ के नहीं हो। क्यों?
+  en: You're not from here. So why?
+  words: |
+    tum                  "you"
+    yahaa~               "here"
+    ke:GEN               "(from)"
+    nahii~:NEG           "not"
+    ho          < honaa  "are"
+    kyo~                 "why?"
+
+b27:
+  say: क्योंकि अब मैं यहीं रहता हूँ।
+  en: Because I live here now.
+  words: |
+    kyo~ki            "because"
+    ab                "now"
+    mai~              "I"
+    yahii~  < yahaa   "right here"
+    rahtaa  < rahnaa  "live"
+    huu~    < honaa   "(do)"
+
+b28:
+  say: बारिश में, कमला जी मुस्कुराती हैं। पहली बार, देव के साथ।
+  en: In the rain, Kamla-ji smiles. For the first time, at Dev.
+  words: |
+    baarish                     "the rain"
+    me~:LOC                     "in"
+    kamlaa                      "Kamla" name
+    jii                         "-ji (respect)"
+    muskuraatii  < muskuraanaa  "smiles"
+    hai~         < honaa        "(are)"
+    pahlii       < pahlaa       "first"
+    baar                        "time"
+    dev                         "Dev" name
+    ke:GEN                      "(with)"
+    saath                       "with"
