@@ -94,6 +94,48 @@ flutter:
     - assets/courses/tamil/
     - assets/courses/telugu/
     - assets/courses/urdu/
+    # Katha stories, compiled from stories/ by `ruby tool/katha_build.rb`
+    # (not in git: run it before flutter). Recordings stream from Cloudflare.
+    - assets/katha/dev-in-the-city/s1e01/
+    - assets/katha/dev-in-the-city/s1e01/tellings/
+    - assets/katha/dev-in-the-city/s1e02/
+    - assets/katha/dev-in-the-city/s1e02/tellings/
+    - assets/katha/dev-in-the-city/s1e03/
+    - assets/katha/dev-in-the-city/s1e03/tellings/
+    - assets/katha/dev-in-the-city/s1e04/
+    - assets/katha/dev-in-the-city/s1e04/tellings/
+    - assets/katha/dev-in-the-city/s1e05/
+    - assets/katha/dev-in-the-city/s1e05/tellings/
+    - assets/katha/dev-in-the-city/s1e06/
+    - assets/katha/dev-in-the-city/s1e06/tellings/
+    - assets/katha/dev-in-the-city/s1e07/
+    - assets/katha/dev-in-the-city/s1e07/tellings/
+    - assets/katha/dev-in-the-city/s1e08/
+    - assets/katha/dev-in-the-city/s1e08/tellings/
+    - assets/katha/dev-in-the-city/s1e09/
+    - assets/katha/dev-in-the-city/s1e09/tellings/
+    - assets/katha/dev-in-the-city/s1e10/
+    - assets/katha/dev-in-the-city/s1e10/tellings/
+    - assets/katha/dev-in-the-city/s2e01/
+    - assets/katha/dev-in-the-city/s2e01/tellings/
+    - assets/katha/dev-in-the-city/s2e02/
+    - assets/katha/dev-in-the-city/s2e02/tellings/
+    - assets/katha/dev-in-the-city/s2e03/
+    - assets/katha/dev-in-the-city/s2e03/tellings/
+    - assets/katha/dev-in-the-city/s2e04/
+    - assets/katha/dev-in-the-city/s2e04/tellings/
+    - assets/katha/dev-in-the-city/s2e05/
+    - assets/katha/dev-in-the-city/s2e05/tellings/
+    - assets/katha/dev-in-the-city/s2e06/
+    - assets/katha/dev-in-the-city/s2e06/tellings/
+    - assets/katha/dev-in-the-city/s2e07/
+    - assets/katha/dev-in-the-city/s2e07/tellings/
+    - assets/katha/dev-in-the-city/s2e08/
+    - assets/katha/dev-in-the-city/s2e08/tellings/
+    - assets/katha/dev-in-the-city/s2e09/
+    - assets/katha/dev-in-the-city/s2e09/tellings/
+    - assets/katha/dev-in-the-city/s2e10/
+    - assets/katha/dev-in-the-city/s2e10/tellings/
 flutter_launcher_icons:
   android: launcher_icon
   ios: true
