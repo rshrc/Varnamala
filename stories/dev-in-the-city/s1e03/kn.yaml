@@ -1,0 +1,351 @@
+# s1e03 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಮೊದಲ ಬೆಳಿಗ್ಗೆ | modala beLigge | First Morning
+tease: ಬಾಸ್ ಯಾರು? | baas yaaru? | Who is the boss?
+
+b01:
+  say: ಹಿಂದಿನ ರಾತ್ರಿ...
+  en: The night before...
+  words: |
+    hindina  "the previous"
+    raatri   "night..."
+
+b02:
+  say: ಮಾಂಸ ತಿನ್ತೀರಾ?
+  en: Do you eat meat?
+  words: |
+    maamsa                                        "meat"
+    tintiiraa  tin·tiir:PRES.2.HON·aa:Q  < tinnu  "do you eat?"
+
+b03:
+  say: ಹೂಂ... ಚಿಕನ್... ಕೆಲವೊಮ್ಮೆ?
+  en: Umm... chicken... sometimes?
+  words: |
+    huum       "umm..."
+    chikan     "chicken..." loan
+    kelavomme  "sometimes?"
+
+b04:
+  say: ಚಿಕನ್?!
+  en: Chicken?!
+  words: |
+    chikan  "chicken?!" loan
+
+b05:
+  say: ಅವಳು ಕಣ್ಣು ಮುಚ್ತಾಳೆ.
+  en: She closes her eyes.
+  words: |
+    avaLu                                      "she"
+    kaNNu                                      "eyes"
+    muchtaaLe  much·taaLe:PRES.3SG  < muchchu  "closes"
+
+b06:
+  say: ನನ್ನ ಮಗನೂ ತಿಂತಾನೆ.
+  en: My son eats it too.
+  words: |
+    nanna:GEN                               "my"
+    maganuu    magan·uu            < maga   "son too"
+    tintaane   tin·taane:PRES.3SG  < tinnu  "eats"
+
+b07:
+  say: ಆದ್ರೆ ಹೊರಗೆ ಮಾತ್ರ!
+  en: But outside only!
+  words: |
+    aadre   "but"
+    horage  "outside"
+    maatra  "only!"
+
+b08:
+  say: ಸರಿ! ಹೊರಗೆ ಮಾತ್ರ!
+  en: Okay! Outside only!
+  words: |
+    sari    "okay!"
+    horage  "outside"
+    maatra  "only!"
+
+b09:
+  say: ದೇವ್ ಅಮ್ಮನಿಗೆ ಫೋನ್ ಮಾಡ್ತಾನೆ.
+  en: Dev phones his mum.
+  words: |
+    dev                                      "Dev" name
+    ammanige   amman·ige:DIR        < amma   "to Amma (his mum)"
+    phoon                                    "phone" loan
+    maaDtaane  maaD·taane:PRES.3SG  < maaDu  "does (makes a call)"
+
+b10:
+  say: ಅಮ್ಮಾ! ರೂಮ್ ಸಿಕ್ತು! ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ!
+  en: Mum! I found a room! It's really nice!
+  words: |
+    ammaa                     < amma       "Amma! (Mum!)"
+    ruum                                   "room" loan
+    siktu        sik·tu:PAST  < sikku      "got (found)"
+    tumbaa                                 "very"
+    chennaagide               < chennaagi  "is nice!"
+
+b11:
+  say: ಫ್ಯಾನ್ ಕಿರ್ರ್ ಕಿರ್ರ್ ಅನ್ನುತ್ತೆ.
+  en: The fan goes creak, creak.
+  words: |
+    phyaan           "fan" @fan.creak loan
+    kirr             "creak"
+    kirr             "creak"
+    annutte  < annu  "goes (says)"
+
+b12:
+  say: ಊಟ? ಹೌದು, ಹೌದು, ಆಯ್ತು!
+  en: Dinner? Yes, yes, I've eaten!
+  words: |
+    uuTa                        "dinner (a meal)?"
+    haudu                       "yes"
+    haudu                       "yes"
+    aaytu  aay·tu:PAST  < aagu  "done! (I've eaten)"
+
+b13:
+  say: ಹೊಟ್ಟೆ ಗುರ್ರ್ ಅನ್ನುತ್ತೆ.
+  en: His stomach goes grrr.
+  words: |
+    hoTTe            "stomach"
+    gurr             "grrr (a growl)"
+    annutte  < annu  "goes (says)"
+
+b14:
+  say: "ರಾತ್ರಿ ಊಟ: ಬಿಸ್ಕತ್."
+  en: "Dinner: biscuits."
+  words: |
+    raatri  "night"
+    uuTa    "meal"
+    biskat  "biscuits" loan
+
+b15:
+  say: ನಾಳೆ ನಿಜವಾದ ಊಟ.
+  en: Tomorrow, real food.
+  words: |
+    naaLe              "tomorrow"
+    nijavaada  < nija  "real"
+    uuTa               "food (a meal)"
+
+b16:
+  say: ಆಮೇಲೆ... ಗುಂಯ್ ಗುಂಯ್...
+  en: Then... bzzz, bzzz...
+  words: |
+    aamele  "then..."
+    gu~y    "bzzz (a mosquito)" @mosquito.buzz
+    gu~y    "bzzz"
+
+b17:
+  say: ಸೊಳ್ಳೆ!
+  en: A mosquito!
+  words: |
+    soLLe  "mosquito!"
+
+b18:
+  say: ಮಿಸ್ ಆಯ್ತು.
+  en: Missed.
+  words: |
+    mis                         "missed" loan
+    aaytu  aay·tu:PAST  < aagu  "(it happened)"
+
+b19:
+  say: ಹನ್ನೊಂದು ಗಂಟೆ. ದೇವ್ ಮಲಗ್ತಾನೆ.
+  en: Eleven o'clock. Dev falls asleep.
+  words: |
+    hannondu                                    "eleven"
+    ghanTe                                      "o'clock"
+    dev                                         "Dev" name
+    malagtaane  malag·taane:PRES.3SG  < malagu  "sleeps"
+
+b20:
+  say: ಸೊಳ್ಳೆ ಮಲಗಲ್ಲ.
+  en: The mosquito doesn't.
+  words: |
+    soLLe                                "the mosquito" @mosquito.buzz
+    malagalla  malag·alla:NEG  < malagu  "doesn't sleep"
+
+b21:
+  say: ಬೆಳಿಗ್ಗೆ ಏಳು ಗಂಟೆ ಐದು ನಿಮಿಷ.
+  en: Morning. Seven o'clock and five minutes.
+  words: |
+    beLigge  "morning"
+    eeLu     "seven"
+    ghanTe   "o'clock"
+    aidu     "five"
+    nimisha  "minutes"
+
+b22:
+  say: ಅಯ್ಯೋ! ಲೇಟ್!
+  en: Oh no! Late!
+  words: |
+    ayyoo  "oh no!"
+    leeT   "late!" loan
+
+b23:
+  say: ನೀರು ಬರ್ತಿಲ್ಲ.
+  en: The water isn't coming.
+  words: |
+    niiru                                  "water"
+    bartilla  bar·ti:PROG·lla:NEG  < baru  "isn't coming"
+
+b24:
+  say: ನೀರು ಬೆಳಿಗ್ಗೆ ಮಾತ್ರ...
+  en: Water in the morning only...
+  words: |
+    niiru    "water"
+    beLigge  "in the morning"
+    maatra   "only..."
+
+b25:
+  say: ಸ್ನಾನ ಇಲ್ಲ. ಸರಿ.
+  en: No bath. Fine.
+  words: |
+    snaana    "bath"
+    illa:NEG  "no"
+    sari      "fine."
+
+b26:
+  say: ದೇವ್ ಸೆಂಟ್ ಹಾಕ್ತಾನೆ.
+  en: Dev puts on perfume.
+  words: |
+    dev                                      "Dev" name
+    senT                                     "scent, perfume" loan
+    haaktaane  haak·taane:PRES.3SG  < haaku  "puts on"
+
+b27:
+  say: ಹೊರಗೆ ಟ್ಯಾಂಕರ್. ಬಕೆಟ್ ಲೈನ್.
+  en: "Outside: a water tanker. And a line of buckets."
+  words: |
+    horage    "outside"
+    Tyaankar  "a (water) tanker" loan
+    bakeT     "bucket" loan
+    lain      "line" loan
+
+b28:
+  say: ಟ್ಯಾಂಕರ್ ನೀರು? ಎಷ್ಟು?
+  en: Tanker water? How much?
+  words: |
+    Tyaankar  "tanker" loan
+    niiru     "water?"
+    eShTu     "how much?"
+
+b29:
+  say: ಎರಡು ಸಾವಿರ.
+  en: Two thousand.
+  words: |
+    eraDu    "two"
+    saavira  "thousand"
+
+b30:
+  say: ಎರಡು ಸಾವಿರ?! ನೀರಿಗೆ?!
+  en: Two thousand?! For water?!
+  words: |
+    eraDu                           "two"
+    saavira                         "thousand?!"
+    niirige  niir·ige:DIR  < niiru  "for water?!"
+
+b31:
+  say: ಬೆಂಗಳೂರಿಗೆ ಸ್ವಾಗತ.
+  en: Welcome to Bengaluru.
+  words: |
+    bengaLuurige  < bengaLuuru  "to Bengaluru" name
+    svaagata                    "welcome"
+
+b32:
+  say: ಬನ್ನಿ! ಸ್ಟ್ರಾಂಗ್ ಟೀ, ಅಲ್ವಾ?
+  en: Come in! Strong tea, right?
+  words: |
+    banni    bann·i:IMP.HON  < baru  "come!"
+    sTraang                          "strong" loan
+    Tii                              "tea" loan
+    alvaa:Q                          "right?"
+
+b33:
+  say: ಹೌದು! ನೆನಪಿದೆ!
+  en: Yes! You remember!
+  words: |
+    haudu                          "yes!"
+    nenapide  nenap·ide  < nenapu  "you remember!"
+
+b34:
+  say: ಎಲ್ಲರದೂ ನೆನಪಿರುತ್ತೆ.
+  en: I remember everyone.
+  words: |
+    ellaradu     ellar·adu:GEN  < ellaru  "everyone's"
+    nenapirutte                 < nenapu  "stays in my memory"
+
+b35:
+  say: ಇಡ್ಲಿ ಇದೆಯಾ?
+  en: Is there idli?
+  words: |
+    iDli                      "idli (steamed rice cakes)"
+    ideyaa  ide·yaa:Q  < iru  "is there?"
+
+b36:
+  say: ಇದೆ. ಎರಡು ಇಡ್ಲಿ, ಒಂದು ವಡೆ.
+  en: There is. Two idlis, one vada.
+  words: |
+    ide    < iru  "there is"
+    eraDu         "two" @chaiwala.fingers
+    iDli          "idli"
+    ondu          "one"
+    vaDe          "vada (lentil doughnut)"
+
+b37:
+  say: ದೇವ್ ತಿಂತಾನೆ. ತುಂಬಾ ರುಚಿ.
+  en: Dev eats. Very tasty.
+  words: |
+    dev                                    "Dev" name
+    tintaane  tin·taane:PRES.3SG  < tinnu  "eats"
+    tumbaa                                 "very"
+    ruchi                                  "tasty"
+
+b38:
+  say: ಆಮೇಲೆ, ಹಸಿರು ಚಟ್ನಿ.
+  en: Then, the green chutney.
+  words: |
+    aamele  "then"
+    hasiru  "green"
+    chaTni  "chutney"
+
+b39:
+  say: ಖಾರ! ನೀರು! ನೀರು!
+  en: Spicy! Water! Water!
+  words: |
+    khaara  "spicy!"
+    niiru   "water!"
+    niiru   "water!"
+
+b40:
+  say: ಮೊದಲ ಸಲ? ನಿಧಾನ, ನಿಧಾನ.
+  en: First time? Slowly, slowly.
+  words: |
+    modala    "first"
+    sala      "time?"
+    nidhaana  "slowly"
+    nidhaana  "slowly"
+
+b41:
+  say: ಎಷ್ಟಾಯ್ತು?
+  en: How much was it?
+  words: |
+    eShTaaytu  < eShTu  "how much did it come to?"
+
+b42:
+  say: ಆಗ್ಲೇ ಕೊಟ್ಟಿದ್ದಾರೆ.
+  en: Someone's already paid.
+  words: |
+    aaglee                                       "already"
+    koTTiddaare  koTT:PAST·iddaare:PERF  < koDu  "someone has paid"
+
+b43:
+  say: ಯಾರು?!
+  en: Who?!
+  words: |
+    yaaru  "who?!"
+
+b44:
+  say: ನಿಮ್ಮ ಬಾಸ್.
+  en: Your boss.
+  words: |
+    nimma:GEN  "your"
+    baas       "boss" loan

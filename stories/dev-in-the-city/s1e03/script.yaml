@@ -1,0 +1,112 @@
+# s1e03: First Morning. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: pg_door_night
+  cast:
+    dev:      standing @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b01: { who: narrator, tags: [softly], start: [landlady.look] }
+    b02: { who: landlady, mood: stern, icons: [drumstick, question], tags: [whispers] }
+    b03: { who: dev, mood: sheepish, icons: [drumstick, pinch], tags: [nervously], start: [dev.sheepish] }
+    b04: { who: landlady, mood: shocked, icons: [drumstick, question], tags: [gasps], start: [landlady.shock] }
+    b05: { who: narrator, tags: [deadpan], start: [landlady.sigh] }
+    b06: { who: landlady, mood: sly, icons: [person, drumstick, ok], tags: [sighs], start: [landlady.smug] }
+    b07: { who: landlady, mood: stern, icons: [house, drumstick, "no"] }
+    b08: { who: dev, mood: happy, icons: [ok], tags: [relieved], start: [dev.nod] }
+
+p2:
+  set: pg_room_night
+  cast:
+    dev: on_bed_phone @ 0.55
+  props:
+    fan: ceiling_fan
+  beats:
+    b09: { who: narrator, tags: [softly], start: [dev.happy] }
+    b10: { who: dev, mood: happy, icons: [phone, house, ok], tags: [cheerfully] }
+    b11: { who: narrator, tags: [deadpan], start: [fan.creak] }
+    b12: { who: dev, mood: sheepish, icons: [plate, question, ok], tags: [nervously] }
+    b13: { who: narrator, tags: [amused], start: [dev.belly] }
+
+p3:
+  set: pg_room_night
+  cast:
+    dev: on_bed_biscuits @ 0.55
+  props:
+    fan:      ceiling_fan
+    mosquito: mosquito
+  beats:
+    b14: { who: narrator, tags: [deadpan], start: [dev.eat] }
+    b15: { who: dev, mood: weary, icons: [biscuit, "no"], tags: [sighs] }
+    b16: { who: narrator, tags: [whispers], start: [mosquito.buzz] }
+    b17: { who: dev, mood: annoyed, icons: [mosquito, "no"], tags: [annoyed], start: [dev.slap] }
+    b18: { who: narrator, tags: [deadpan] }
+
+p4:
+  set: pg_room_night
+  cast:
+    dev: asleep @ 0.45
+  props:
+    fan:      ceiling_fan
+    mosquito: mosquito
+    zs:       sleep_zs
+  beats:
+    b19: { who: narrator, tags: [softly], start: [zs.drift] }
+    b20: { who: narrator, tags: [deadpan], start: [mosquito.buzz, dev.toss] }
+
+p5:
+  set: pg_room
+  cast:
+    dev: standing @ 0.4
+  props:
+    fan:   ceiling_fan
+    clock: alarm_clock
+  beats:
+    b21: { who: narrator, start: [clock.ring] }
+    b22: { who: dev, mood: shocked, icons: [clock], digits: "7:05", tags: [panicked], start: [dev.shock] }
+    b23: { who: narrator, tags: [deadpan], start: [dev.facepalm] }
+    b24: { who: dev, mood: weary, icons: [water, sun], tags: [groans] }
+    b25: { who: dev, mood: weary, icons: [water, "no"], tags: [sighs], start: [dev.sigh_nod] }
+    b26: { who: narrator, tags: [amused], start: [dev.sheepish] }
+
+p6:
+  set: pg_door
+  cast:
+    dev:      standing @ 0.22
+    landlady: arms_crossed @ 0.5
+  props:
+    tanker: water_tanker
+  beats:
+    b27: { who: narrator, tags: [curious], start: [dev.happy] }
+    b28: { who: dev, mood: curious, icons: [water, rupee, question] }
+    b29: { who: landlady, mood: breezy, icons: [rupee], digits: "2000", tags: [casually] }
+    b30: { who: dev, mood: shocked, icons: [rupee, water, question], tags: [shocked, outraged], start: [dev.shock] }
+    b31: { who: landlady, mood: sly, icons: [house, heart], tags: [sighs], start: [landlady.shrug] }
+
+p7:
+  set: chai_stall
+  cast:
+    dev:      standing @ 0.2
+    chaiwala: behind_counter @ 0.55
+  beats:
+    b32: { who: chaiwala, mood: happy, icons: [tea, question], tags: [cheerfully], start: [chaiwala.nod] }
+    b33: { who: dev, mood: happy, icons: [heart], tags: [surprised], start: [dev.smile] }
+    b34: { who: chaiwala, mood: proud, icons: [person, heart], start: [chaiwala.smile] }
+    b35: { who: dev, mood: curious, icons: [plate, question] }
+    b36: { who: chaiwala, mood: breezy, icons: [plate], digits: "2" }
+
+p8:
+  set: chai_stall
+  cast:
+    dev:      standing_plate @ 0.2
+    chaiwala: behind_counter @ 0.55
+  beats:
+    b37: { who: narrator, tags: [warmly], start: [dev.eat] }
+    b38: { who: narrator, tags: [ominously], start: [dev.eat] }
+    b39: { who: dev, mood: shocked, icons: [chili, water], tags: [panicked], start: [dev.spicy] }
+    b40: { who: chaiwala, mood: amused, icons: [chili, person], tags: [laughs, warmly], start: [chaiwala.laugh] }
+    b41: { who: dev, mood: curious, icons: [rupee, question] }
+    b42: { who: chaiwala, mood: sly, icons: [rupee, ok], start: [chaiwala.smug] }
+    b43: { who: dev, mood: shocked, icons: [person, question], start: [dev.shock] }
+    b44: { who: chaiwala, mood: sly, icons: [briefcase, person], tags: [whispers], start: [chaiwala.smug], end: [dev.shock], cliffhanger: true }

@@ -1,0 +1,12 @@
+# s1e03: First Morning
+# Format: stories/README.md
+
+level: A1
+next: s1e04
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b30
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  landlady.sigh: landlady sigh_nod 500
+  dev.eat:       dev eat 2600

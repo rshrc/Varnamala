@@ -1,0 +1,393 @@
+# s1e03 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: पहली सुबह | pahlii subah | First Morning
+tease: बॉस कौन? | bos kaun? | Who is the boss?
+
+b01:
+  say: पिछली रात...
+  en: The night before...
+  words: |
+    pichhlii  "the previous"
+    raat      "night..."
+
+b02:
+  say: मांस खाते हो?
+  en: Do you eat meat?
+  words: |
+    maa~s              "meat"
+    khaate  < khaanaa  "eat"
+    ho      < honaa    "do you?"
+
+b03:
+  say: हम्म... चिकन... कभी-कभी?
+  en: Umm... chicken... sometimes?
+  words: |
+    hmm            "umm..."
+    chikan         "chicken..." loan
+    kabhii-kabhii  "sometimes?"
+
+b04:
+  say: चिकन?!
+  en: Chicken?!
+  words: |
+    chikan  "chicken?!" loan
+
+b05:
+  say: वो आँखें बंद करती है।
+  en: She closes her eyes.
+  words: |
+    vo                 "she"
+    aa~khe~  < aa~kh   "eyes"
+    band               "shut"
+    kartii   < karnaa  "makes"
+    hai      < honaa   "(is)"
+
+b06:
+  say: मेरा बेटा भी खाता है।
+  en: My son eats it too.
+  words: |
+    meraa:GEN             "my"
+    beTaa                 "son"
+    bhii                  "too"
+    khaataa    < khaanaa  "eats"
+    hai        < honaa    "(is)"
+
+b07:
+  say: पर सिर्फ़ बाहर!
+  en: But outside only!
+  words: |
+    par     "but"
+    sirf    "only"
+    baahar  "outside!"
+
+b08:
+  say: ठीक है! सिर्फ़ बाहर!
+  en: Okay! Outside only!
+  words: |
+    Thiik            "fine"
+    hai     < honaa  "is!"
+    sirf             "only"
+    baahar           "outside!"
+
+b09:
+  say: देव मम्मी को फ़ोन करता है।
+  en: Dev phones his mum.
+  words: |
+    dev               "Dev" name
+    mammii            "mum"
+    ko:DIR            "to"
+    fon               "phone" loan
+    kartaa  < karnaa  "does (makes)"
+    hai     < honaa   "(is)"
+
+b10:
+  say: मम्मी! कमरा मिल गया! बहुत अच्छा है!
+  en: Mum! I found a room! It's really nice!
+  words: |
+    mammii                "mum!"
+    kamraa                "room"
+    mil         < milnaa  "found"
+    gayaa:PERF  < jaanaa  "(went: got)"
+    bahut                 "very"
+    achchhaa              "nice"
+    hai         < honaa   "is!"
+
+b11:
+  say: पंखा चर्र चर्र करता है।
+  en: The fan goes creak, creak.
+  words: |
+    pankhaa            "fan" @fan.creak
+    charr              "creak"
+    charr              "creak"
+    kartaa   < karnaa  "goes (does)"
+    hai      < honaa   "(is)"
+
+b12:
+  say: खाना? हाँ, हाँ, खा लिया!
+  en: Dinner? Yes, yes, I've eaten!
+  words: |
+    khaanaa                "dinner (food)?"
+    haa~                   "yes"
+    haa~                   "yes"
+    khaa        < khaanaa  "eaten"
+    liyaa:PERF  < lenaa    "(taken: done)!"
+
+b13:
+  say: पेट गुड़गुड़ करता है।
+  en: His stomach rumbles.
+  words: |
+    peT               "stomach"
+    guDguD            "rumble"
+    kartaa  < karnaa  "does"
+    hai     < honaa   "(is)"
+
+b14:
+  say: "रात का खाना: बिस्किट।"
+  en: "Dinner: biscuits."
+  words: |
+    raat     "night"
+    kaa:GEN  "'s"
+    khaanaa  "meal"
+    biskiT   "biscuits" loan
+
+b15:
+  say: कल असली खाना।
+  en: Tomorrow, real food.
+  words: |
+    kal      "tomorrow"
+    aslii    "real"
+    khaanaa  "food"
+
+b16:
+  say: फिर... भिन भिन...
+  en: Then... bzzz, bzzz...
+  words: |
+    phir  "then..."
+    bhin  "bzzz (a mosquito)" @mosquito.buzz
+    bhin  "bzzz"
+
+b17:
+  say: मच्छर!
+  en: A mosquito!
+  words: |
+    machchhar  "mosquito!"
+
+b18:
+  say: निकल गया।
+  en: It got away.
+  words: |
+    nikal       < nikalnaa  "got away"
+    gayaa:PERF  < jaanaa    "(went)"
+
+b19:
+  say: ग्यारह बजे। देव सो जाता है।
+  en: Eleven o'clock. Dev falls asleep.
+  words: |
+    gyaarah            "eleven"
+    baje     < bajnaa  "o'clock"
+    dev                "Dev" name
+    so       < sonaa   "sleep"
+    jaataa   < jaanaa  "(goes: falls)"
+    hai      < honaa   "(is)"
+
+b20:
+  say: मच्छर नहीं सोता।
+  en: The mosquito doesn't.
+  words: |
+    machchhar            "the mosquito" @mosquito.buzz
+    nahii~:NEG           "not"
+    sotaa       < sonaa  "sleep(s)"
+
+b21:
+  say: सुबह के सात बजकर पाँच मिनट।
+  en: Five past seven in the morning.
+  words: |
+    subah             "morning"
+    ke:GEN            "of"
+    saat              "seven"
+    bajkar  < bajnaa  "o'clock and"
+    paa~ch            "five"
+    minaT             "minutes"
+
+b22:
+  say: अरे बाप रे! लेट!
+  en: Oh my god! Late!
+  words: |
+    are   "oh"
+    baap  "(father)"
+    re    "no!"
+    leT   "late!" loan
+
+b23:
+  say: पानी नहीं आ रहा।
+  en: The water isn't coming.
+  words: |
+    paanii                "water"
+    nahii~:NEG            "not"
+    aa          < aanaa   "coming"
+    rahaa:PROG  < rahnaa  "(-ing)"
+
+b24:
+  say: पानी सिर्फ़ सुबह...
+  en: Water in the morning only...
+  words: |
+    paanii  "water"
+    sirf    "only"
+    subah   "in the morning..."
+
+b25:
+  say: नहाना नहीं। ठीक है।
+  en: No bath. Fine.
+  words: |
+    nahaanaa             "bath"
+    nahii~:NEG           "no"
+    Thiik                "fine"
+    hai         < honaa  "is"
+
+b26:
+  say: देव परफ़्यूम लगाता है।
+  en: Dev puts on perfume.
+  words: |
+    dev                   "Dev" name
+    parfyuum              "perfume" loan
+    lagaataa  < lagaanaa  "puts on"
+    hai       < honaa     "(is)"
+
+b27:
+  say: बाहर टैंकर। बाल्टियों की लाइन।
+  en: "Outside: a water tanker. And a line of buckets."
+  words: |
+    baahar                "outside"
+    Tainkar               "a (water) tanker" loan
+    baalTiyo~  < baalTii  "buckets'"
+    kii:GEN               "of"
+    laain                 "line" loan
+
+b28:
+  say: टैंकर का पानी? कितने का?
+  en: Tanker water? How much?
+  words: |
+    Tainkar  "tanker" loan
+    kaa:GEN  "'s"
+    paanii   "water?"
+    kitne    "how much"
+    kaa:GEN  "(of)?"
+
+b29:
+  say: दो हज़ार।
+  en: Two thousand.
+  words: |
+    do      "two"
+    hazaar  "thousand"
+
+b30:
+  say: दो हज़ार?! पानी के लिए?!
+  en: Two thousand?! For water?!
+  words: |
+    do      "two"
+    hazaar  "thousand?!"
+    paanii  "water"
+    ke:GEN  "(of)"
+    lie     "for?!"
+
+b31:
+  say: शहर में स्वागत है।
+  en: Welcome to the city.
+  words: |
+    shahar            "city"
+    me~:LOC           "in, to"
+    svaagat           "welcome"
+    hai      < honaa  "(is)"
+
+b32:
+  say: आइए! कड़क चाय, है ना?
+  en: Come in! Strong tea, right?
+  words: |
+    aaie   aa·ie:IMP.HON  < aanaa  "come!"
+    kaDak                          "strong"
+    chaay                          "tea"
+    hai                   < honaa  "is (it)"
+    naa:Q                          "right?"
+
+b33:
+  say: हाँ! याद है!
+  en: Yes! You remember!
+  words: |
+    haa~           "yes!"
+    yaad           "memory, remember"
+    hai   < honaa  "(you) have!"
+
+b34:
+  say: मुझे सबका याद रहता है।
+  en: I remember everyone.
+  words: |
+    mujhe                 "to me"
+    sabkaa:GEN            "everyone's"
+    yaad                  "memory"
+    rahtaa      < rahnaa  "stays"
+    hai         < honaa   "(is)"
+
+b35:
+  say: पोहा है?
+  en: Is there poha?
+  words: |
+    pohaa           "poha (flattened rice)"
+    hai    < honaa  "is there?"
+
+b36:
+  say: है। एक प्लेट पोहा, एक समोसा।
+  en: There is. A plate of poha, one samosa.
+  words: |
+    hai      < honaa  "there is"
+    ek                "one" @chaiwala.fingers
+    pleT              "plate" loan
+    pohaa             "poha"
+    ek                "one"
+    samosaa           "samosa"
+
+b37:
+  say: देव खाता है। बहुत स्वादिष्ट।
+  en: Dev eats. Very tasty.
+  words: |
+    dev                   "Dev" name
+    khaataa    < khaanaa  "eats"
+    hai        < honaa    "(is)"
+    bahut                 "very"
+    svaadishT             "tasty"
+
+b38:
+  say: फिर, हरी चटनी।
+  en: Then, the green chutney.
+  words: |
+    phir     "then"
+    harii    "green"
+    chaTnii  "chutney"
+
+b39:
+  say: तीखा! पानी! पानी!
+  en: Spicy! Water! Water!
+  words: |
+    tiikhaa  "spicy!"
+    paanii   "water!"
+    paanii   "water!"
+
+b40:
+  say: पहली बार? धीरे, धीरे।
+  en: First time? Slowly, slowly.
+  words: |
+    pahlii  "first"
+    baar    "time?"
+    dhiire  "slowly"
+    dhiire  "slowly"
+
+b41:
+  say: कितना हुआ?
+  en: How much was it?
+  words: |
+    kitnaa           "how much"
+    huaa    < honaa  "did it come to?"
+
+b42:
+  say: पहले ही दे दिया।
+  en: Someone's already paid.
+  words: |
+    pahle                "before, already"
+    hii                  "(already)"
+    de          < denaa  "give"
+    diyaa:PAST  < denaa  "gave, paid"
+
+b43:
+  say: किसने?!
+  en: Who?!
+  words: |
+    kisne  "who did?!"
+
+b44:
+  say: आपके बॉस ने।
+  en: Your boss.
+  words: |
+    aapke:GEN  "your"
+    bos        "boss" loan
+    ne         "(did)"
