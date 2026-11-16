@@ -1,0 +1,72 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Ships Varnamala's web app.
+#
+#   ./deploy                 stories -> audio -> web build -> Firebase Hosting
+#   ./deploy --no-audio      skip the Cloudflare audio push
+#   ./deploy --audio-only    just compile the stories and push their audio
+#   ./deploy --dry-run       print the steps, run nothing
+#
+# Steps:
+#   1. Compile Katha stories (stories/ -> assets/katha/), which the build bundles.
+#   2. Push Katha recordings to Cloudflare Pages. Wrangler uploads only what
+#      changed, so with nothing new recorded this takes seconds. Needs
+#      CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID, from the environment
+#      or ~/.katha/cloudflare.env; without them the step is skipped.
+#   3. Build the web app (Wasm, release).
+#   4. Deploy it to Firebase Hosting.
+
+require 'optparse'
+
+ROOT = __dir__
+CLOUDFLARE_ENV = File.expand_path('~/.katha/cloudflare.env')
+
+options = { audio: true, app: true, dry: false }
+OptionParser.new do |o|
+  o.banner = 'usage: ./deploy [--no-audio | --audio-only] [--dry-run]'
+  o.on('--no-audio', 'skip the Cloudflare audio push') { options[:audio] = false }
+  o.on('--audio-only', 'compile stories and push audio; no app build') { options[:app] = false }
+  o.on('--dry-run', 'print the steps without running them') { options[:dry] = true }
+end.parse!
+
+def step(title, env = {}, *command, dry:)
+  puts "\n\e[1m==> #{title}\e[0m"
+  puts "    #{command.join(' ')}"
+  return if dry
+
+  system(env, *command, chdir: ROOT) or abort "\n\e[31mdeploy stopped: #{title} failed\e[0m"
+end
+
+# KEY=value lines, as `set -a; . file` would read them.
+def cloudflare_credentials
+  wanted = %w[CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID]
+  return {} if wanted.all? { |key| ENV.fetch(key, '') != '' }
+  return nil unless File.exist?(CLOUDFLARE_ENV)
+
+  File.readlines(CLOUDFLARE_ENV, chomp: true).filter_map do |line|
+    key, value = line.sub(/\Aexport\s+/, '').split('=', 2)
+    [key.strip, value.strip.delete_prefix('"').delete_suffix('"')] if wanted.include?(key&.strip) && value
+  end.to_h
+end
+
+dry = options[:dry]
+step('Compile Katha stories', {}, 'ruby', 'tool/katha_build.rb', dry: dry)
+
+if options[:audio]
+  credentials = cloudflare_credentials
+  if credentials
+    step('Push Katha audio to Cloudflare', credentials, 'ruby', 'tool/katha_cdn.rb', 'push',
+         '--message', "deploy #{Time.now.strftime('%Y-%m-%d %H:%M')}", dry: dry)
+  else
+    puts "\n==> Push Katha audio: skipped (no CLOUDFLARE_API_TOKEN, and no #{CLOUDFLARE_ENV})"
+  end
+end
+
+if options[:app]
+  step('Build the web app', {}, 'flutter', 'build', 'web', '--wasm', '--release', dry: dry)
+  step('Deploy to Firebase Hosting', { 'FIREBASE_HOSTING_UPLOAD_CONCURRENCY' => '10' },
+       'firebase', 'deploy', '--only', 'hosting', dry: dry)
+end
+
+puts "\n\e[32mdone\e[0m" unless dry
