@@ -76,3 +76,7 @@ screenshots/feature/
 
 # Katha: the app's JSON is compiled from stories/ by tool/katha_build.rb
 /assets/katha/*/s[0-9]*e[0-9]*/
+# Katha recordings are served from Cloudflare Pages (tool/katha_cdn.rb). What
+# was recorded is in stories/<series>/recordings/; `ruby tool/katha_cdn.rb pull`
+# downloads the MP3s
+/assets/katha/*/audio/
