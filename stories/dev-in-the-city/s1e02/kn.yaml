@@ -1,0 +1,302 @@
+# s1e02 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಅಡ್ವಾನ್ಸ್ | aDvaans | Advance
+tease: ಯಾರು ಕೊಟ್ರು? | yaaru koTru? | Who paid?
+
+b01:
+  say: ಹತ್ತು ತಿಂಗಳಾ?!
+  en: Ten months?!
+  words: |
+    hattu                             "ten"
+    tingaLaa  tingaL·aa:Q  < tingaLu  "months?!"
+
+b02:
+  say: ಹೌದು. ಹತ್ತು.
+  en: Yes. Ten.
+  words: |
+    haudu  "yes"
+    hattu  "ten" @landlady.ten
+
+b03:
+  say: ಎರಡು ತಿಂಗಳು.
+  en: Two months.
+  words: |
+    eraDu    "two" @dev.fingers
+    tingaLu  "months"
+
+b04:
+  say: ಎರಡಾ? ಒಂಬತ್ತು.
+  en: Two? Nine.
+  words: |
+    eraDaa   eraD·aa:Q  < eraDu  "two?"
+    ombattu                      "nine" @landlady.fingers
+
+b05:
+  say: ಮೂರು.
+  en: Three.
+  words: |
+    muuru  "three" @dev.fingers
+
+b06:
+  say: ಎಂಟು.
+  en: Eight.
+  words: |
+    enTu  "eight" @landlady.fingers
+
+b07:
+  say: ನಾಲ್ಕು!
+  en: Four!
+  words: |
+    naalku  "four!" @dev.fingers
+
+b08:
+  say: ಆರು. ಆದ್ರೆ ಮೀನು ಮಾಡಬಾರದು.
+  en: Six. But no cooking fish.
+  words: |
+    aaru                                      "six" @landlady.fingers
+    aadre                                     "but"
+    miinu                                     "fish"
+    maaDabaaradu  maaD·abaaradu:NEG  < maaDu  "must not cook"
+
+b09:
+  say: ಸರಿ... ಆರು.
+  en: Okay... six.
+  words: |
+    sari  "okay..."
+    aaru  "six"
+
+b10:
+  say: ಬನ್ನಿ, ರೂಮ್ ತೋರಿಸ್ತೀನಿ.
+  en: Come, I'll show you the room.
+  words: |
+    banni        bann·i:IMP.HON         < baru     "come"
+    ruum                                           "room" loan
+    tooristiini  tooris·tiini:PRES.1SG  < toorisu  "I'll show"
+
+b11:
+  say: ಇದೇ ರೂಮ್.
+  en: This is the room.
+  words: |
+    idee  "this is the one"
+    ruum  "room" loan
+
+b12:
+  say: ತುಂಬಾ ಚಿಕ್ಕದು...
+  en: It's very small...
+  words: |
+    tumbaa    "very"
+    chikkadu  "small..."
+
+b13:
+  say: ಚಿಕ್ಕದಲ್ಲ. ಕ್ಯೂಟ್.
+  en: It's not small. It's cute.
+  words: |
+    chikkadalla  chikkad·alla:NEG  < chikkadu  "not small"
+    kyuuT                                      "cute" loan
+
+b14:
+  say: ಫ್ಯಾನ್ ಕೆಲಸ ಮಾಡುತ್ತಾ?
+  en: Does the fan work?
+  words: |
+    phyaan                             "fan" @fan.glance loan
+    kelasa                             "work"
+    maaDuttaa  maaD·utt·aa:Q  < maaDu  "does it do?"
+
+b15:
+  say: ಮಾಡುತ್ತೆ!
+  en: It does!
+  words: |
+    maaDutte  < maaDu  "it does!" @fan.spin
+
+b16:
+  say: ಫ್ಯಾನ್ ತುಂಬಾ ನಿಧಾನ.
+  en: The fan is very slow.
+  words: |
+    phyaan    "the fan" loan
+    tumbaa    "very"
+    nidhaana  "slow"
+
+b17:
+  say: ನೀರು ಬೆಳಿಗ್ಗೆ ಮಾತ್ರ.
+  en: Water in the morning only.
+  words: |
+    niiru    "water"
+    beLigge  "in the morning"
+    maatra   "only"
+
+b18:
+  say: ರಾತ್ರಿ ಒಂಬತ್ತರ ಮೇಲೆ ಗೆಸ್ಟ್ ಇಲ್ಲ.
+  en: No guests after nine at night.
+  words: |
+    raatri                                "night"
+    ombattara  ombatt·ara:GEN  < ombattu  "nine o'clock's" @landlady.fingers
+    meele                                 "after"
+    gesT                                  "guests" loan
+    illa:NEG                              "no"
+
+b19:
+  say: ಸರಿ, ಮೇಡಂ.
+  en: Okay, madam.
+  words: |
+    sari    "okay"
+    meeDam  "madam" loan
+
+b20:
+  say: ವೈಫೈ ಇದೆಯಾ?
+  en: Is there Wi-Fi?
+  words: |
+    vaiphai                    "Wi-Fi" loan
+    ideyaa   ide·yaa:Q  < iru  "is there?"
+
+b21:
+  say: ಇದೆ! ಸ್ಪೀಡ್ ಸೂಪರ್.
+  en: There is! The speed is super.
+  words: |
+    ide     < iru  "there is!"
+    spiiD          "speed" loan
+    suupar         "super" loan
+
+b22:
+  say: ಪಾಸ್ವರ್ಡ್?
+  en: The password?
+  words: |
+    paasvarD  "password?" loan
+
+b23:
+  say: ಪಾಸ್ವರ್ಡ್... ಪಾಸ್ವರ್ಡ್...
+  en: The password... the password...
+  words: |
+    paasvarD  "password..." loan
+    paasvarD  "password..." loan
+
+b24:
+  say: ಹೌದು, ಪಾಸ್ವರ್ಡ್ ಏನು?
+  en: Yes, what's the password?
+  words: |
+    haudu     "yes"
+    paasvarD  "password" loan
+    eenu      "what?"
+
+b25:
+  say: ಅದೇ! ಪಾಸ್ವರ್ಡ್ ಅಂದ್ರೆ ಪಾಸ್ವರ್ಡ್!
+  en: That's it! The password is 'password'!
+  words: |
+    adee      "that's it!"
+    paasvarD  "password" loan
+    andre     "means, is"
+    paasvarD  "'password'!" loan
+
+b26:
+  say: ದೇವ್ ತಲೆ ಮೇಲೆ ಕೈ ಇಡ್ತಾನೆ.
+  en: Dev puts his hand on his head.
+  words: |
+    dev                                "Dev" name
+    tale                               "head"
+    meele                              "on"
+    kai                                "hand"
+    iDtaane  iD·taane:PRES.3SG  < iDu  "puts"
+
+b27:
+  say: ಹೊಸಬ್ರಾ? ಒಂದು ಟೀ?
+  en: New here? A tea?
+  words: |
+    hosabraa  hosabr·aa:Q  < hosaba  "new here?"
+    ondu                             "one"
+    Tii                              "tea?" loan
+
+b28:
+  say: ಹೌದು. ಸ್ಟ್ರಾಂಗ್ ಟೀ, ಪ್ಲೀಸ್.
+  en: Yes. Strong tea, please.
+  words: |
+    haudu    "yes"
+    sTraang  "strong" loan
+    Tii      "tea" loan
+    pliis    "please" loan
+
+b29:
+  say: ಅರೇ! ಸಾರ್! ರೂಮ್ ಸಿಕ್ತಾ?
+  en: Hey! Sir! Did you find a room?
+  words: |
+    aree                            "hey!"
+    saar                            "sir!" loan
+    ruum                            "room" loan
+    siktaa  sikt:PAST·aa:Q  < sigu  "did you get?"
+
+b30:
+  say: ಸಿಕ್ತು. ಆರು ತಿಂಗಳು ಅಡ್ವಾನ್ಸ್.
+  en: Found one. Six months' advance.
+  words: |
+    siktu    ·siktu:PAST  < sigu  "got it"
+    aaru                          "six"
+    tingaLu                       "months"
+    aDvaans                       "advance" loan
+
+b31:
+  say: ಆರಾ? ಹಿಂದಿನವರು ಹನ್ನೆರಡು ಕೊಟ್ರು!
+  en: Six? The last guy paid twelve!
+  words: |
+    aaraa        aar·aa:Q         < aaru  "six?"
+    hindinavaru                           "the one before you"
+    hanneraDu                             "twelve" @raju.fingers
+    koTru        koT:PAST·ru:HON  < koDu  "paid, gave"
+
+b32:
+  say: ಟೀ ರೆಡಿ!
+  en: Tea's ready!
+  words: |
+    Tii   "tea" @chaiwala.pour loan
+    reDi  "ready!" loan
+
+b33:
+  say: ಅವರ ಟೀ ನನ್ನ ಲೆಕ್ಕ.
+  en: His tea is on me.
+  words: |
+    avara      av·ara:GEN  < avaru  "his"
+    Tii                             "tea" loan
+    nanna:GEN                       "my"
+    lekka                           "account, tab"
+
+b34:
+  say: ಥ್ಯಾಂಕ್ಸ್, ರಾಜು!
+  en: Thanks, Raju!
+  words: |
+    thyaanks  "thanks" loan
+    raaju     "Raju!" name
+
+b35:
+  say: ದೇವ್! ಒಂದು ಪ್ರಶ್ನೆ.
+  en: Dev! One question.
+  words: |
+    dev      "Dev!" name
+    ondu     "one"
+    prashne  "question"
+
+b36:
+  say: ಹೇಳಿ, ಮೇಡಂ.
+  en: Go ahead, madam.
+  words: |
+    heeLi   heeL·i:IMP.HON  < heeLu  "tell me"
+    meeDam                           "madam" loan
+
+b37:
+  say: ನೀವು...
+  en: You...
+  words: |
+    niivu:HON  "you..."
+
+b38:
+  say: ಅವಳು ಹತ್ತಿರ ಬರ್ತಾಳೆ.
+  en: She comes closer.
+  words: |
+    avaLu                                 "she"
+    hattira                               "near, closer"
+    bartaaLe  bar·taaLe:PRES.3SG  < baru  "comes"
+
+b39:
+  say: ಮಾಂಸ ತಿನ್ತೀರಾ?
+  en: Do you eat meat?
+  words: |
+    maamsa                                        "meat"
+    tintiiraa  tin·tiir:PRES.2.HON·aa:Q  < tinnu  "do you eat?"

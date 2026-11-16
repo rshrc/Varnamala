@@ -1,0 +1,323 @@
+# s1e02 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: एडवांस | eDvaans | Advance
+tease: किसने दिया? | kisne diyaa? | Who paid?
+
+b01:
+  say: दस महीने?!
+  en: Ten months?!
+  words: |
+    das                  "ten"
+    mahiine  < mahiinaa  "months?!"
+
+b02:
+  say: हाँ। दस।
+  en: Yes. Ten.
+  words: |
+    haa~  "yes"
+    das   "ten" @landlady.ten
+
+b03:
+  say: दो महीने।
+  en: Two months.
+  words: |
+    do                   "two" @dev.fingers
+    mahiine  < mahiinaa  "months"
+
+b04:
+  say: दो? नौ।
+  en: Two? Nine.
+  words: |
+    do   "two?"
+    nau  "nine" @landlady.fingers
+
+b05:
+  say: तीन।
+  en: Three.
+  words: |
+    tiin  "three" @dev.fingers
+
+b06:
+  say: आठ।
+  en: Eight.
+  words: |
+    aaTh  "eight" @landlady.fingers
+
+b07:
+  say: चार!
+  en: Four!
+  words: |
+    chaar  "four!" @dev.fingers
+
+b08:
+  say: छह। पर मछली नहीं बनाना।
+  en: Six. But no cooking fish.
+  words: |
+    chhah       "six" @landlady.fingers
+    par         "but"
+    machhlii    "fish"
+    nahii~:NEG  "not"
+    banaanaa    "to cook"
+
+b09:
+  say: ठीक है... छह।
+  en: Okay... six.
+  words: |
+    Thiik           "fine"
+    hai    < honaa  "is..."
+    chhah           "six"
+
+b10:
+  say: आइए, कमरा दिखाती हूँ।
+  en: Come, I'll show you the room.
+  words: |
+    aaie       aa·ie:IMP.HON  < aanaa      "come"
+    kamraa                                 "room"
+    dikhaatii                 < dikhaanaa  "show"
+    huu~                      < honaa      "I (will)"
+
+b11:
+  say: यही कमरा है।
+  en: This is the room.
+  words: |
+    yahii            "this is the one"
+    kamraa           "room"
+    hai     < honaa  "is"
+
+b12:
+  say: बहुत छोटा है...
+  en: It's very small...
+  words: |
+    bahut             "very"
+    chhoTaa           "small"
+    hai      < honaa  "it is..."
+
+b13:
+  say: छोटा नहीं। क्यूट।
+  en: It's not small. It's cute.
+  words: |
+    chhoTaa     "small"
+    nahii~:NEG  "not"
+    kyuuT       "cute" loan
+
+b14:
+  say: पंखा चलता है?
+  en: Does the fan work?
+  words: |
+    pankhaa             "fan" @fan.glance
+    chaltaa  < chalnaa  "runs"
+    hai      < honaa    "does it?"
+
+b15:
+  say: चलता है!
+  en: It does!
+  words: |
+    chaltaa  < chalnaa  "it runs" @fan.spin
+    hai      < honaa    "(it does)!"
+
+b16:
+  say: पंखा बहुत धीरे चलता है।
+  en: The fan is very slow.
+  words: |
+    pankhaa             "the fan"
+    bahut               "very"
+    dhiire              "slowly"
+    chaltaa  < chalnaa  "runs"
+    hai      < honaa    "(is)"
+
+b17:
+  say: पानी सिर्फ़ सुबह।
+  en: Water in the morning only.
+  words: |
+    paanii  "water"
+    sirf    "only"
+    subah   "in the morning"
+
+b18:
+  say: रात नौ के बाद मेहमान नहीं।
+  en: No guests after nine at night.
+  words: |
+    raat        "night"
+    nau         "nine" @landlady.fingers
+    ke:GEN      "of"
+    baad        "after"
+    mehmaan     "guests"
+    nahii~:NEG  "no"
+
+b19:
+  say: ठीक है, आंटी।
+  en: Okay, aunty.
+  words: |
+    Thiik            "fine"
+    hai     < honaa  "is"
+    aanTii           "auntie" loan
+
+b20:
+  say: वाईफ़ाई है?
+  en: Is there Wi-Fi?
+  words: |
+    vaaiifaaii           "Wi-Fi" loan
+    hai         < honaa  "is there?"
+
+b21:
+  say: है! स्पीड सुपर है।
+  en: There is! The speed is super.
+  words: |
+    hai    < honaa  "there is!"
+    spiiD           "speed" loan
+    supar           "super" loan
+    hai    < honaa  "is"
+
+b22:
+  say: पासवर्ड?
+  en: The password?
+  words: |
+    paasvarD  "password?" loan
+
+b23:
+  say: पासवर्ड... पासवर्ड...
+  en: The password... the password...
+  words: |
+    paasvarD  "password..." loan
+    paasvarD  "password..." loan
+
+b24:
+  say: हाँ, पासवर्ड क्या है?
+  en: Yes, what's the password?
+  words: |
+    haa~               "yes"
+    paasvarD           "password" loan
+    kyaa               "what"
+    hai       < honaa  "is?"
+
+b25:
+  say: वही तो! पासवर्ड है पासवर्ड!
+  en: That's what I'm saying! The password is 'password'!
+  words: |
+    vahii              "that's it"
+    to                 "(you see)!"
+    paasvarD           "password" loan
+    hai       < honaa  "is"
+    paasvarD           "'password'!" loan
+
+b26:
+  say: देव माथा पकड़ लेता है।
+  en: Dev holds his head.
+  words: |
+    dev                  "Dev" name
+    maathaa              "forehead"
+    pakaD    < pakaDnaa  "holds"
+    letaa    < lenaa     "(takes)"
+    hai      < honaa     "(is)"
+
+b27:
+  say: नए हो? एक चाय?
+  en: New here? A tea?
+  words: |
+    nae    < nayaa  "new"
+    ho     < honaa  "are you?"
+    ek              "one"
+    chaay           "tea?"
+
+b28:
+  say: हाँ। कड़क चाय, प्लीज़।
+  en: Yes. Strong tea, please.
+  words: |
+    haa~   "yes"
+    kaDak  "strong"
+    chaay  "tea"
+    pliiz  "please" loan
+
+b29:
+  say: अरे! साब! कमरा मिला?
+  en: Hey! Sir! Did you find a room?
+  words: |
+    are                            "hey!"
+    saab                 < saahab  "sir!"
+    kamraa                         "room"
+    milaa   mil·aa:PAST  < milnaa  "did you get?"
+
+b30:
+  say: मिला। छह महीने का एडवांस।
+  en: Found one. Six months' advance.
+  words: |
+    milaa    mil·aa:PAST  < milnaa    "got it"
+    chhah                             "six"
+    mahiine               < mahiinaa  "months"
+    kaa:GEN                           "of"
+    eDvaans                           "advance" loan
+
+b31:
+  say: छह? पिछले वाले ने बारह दिए!
+  en: Six? The last guy paid twelve!
+  words: |
+    chhah                        "six?"
+    pichhle                      "previous"
+    vaale                        "one (tenant)"
+    ne                           "(did)"
+    baarah                       "twelve" @raju.fingers
+    die      di·e:PAST  < denaa  "paid, gave"
+
+b32:
+  say: चाय तैयार!
+  en: Tea's ready!
+  words: |
+    chaay    "tea" @chaiwala.pour
+    taiyaar  "ready!"
+
+b33:
+  say: इनकी चाय मेरी तरफ़ से।
+  en: His tea is on me.
+  words: |
+    inkii:GEN  "his"
+    chaay      "tea"
+    merii:GEN  "my"
+    taraf      "side"
+    se:ABL     "from"
+
+b34:
+  say: शुक्रिया, राजू!
+  en: Thanks, Raju!
+  words: |
+    shukriyaa  "thanks"
+    raajuu     "Raju!" name
+
+b35:
+  say: देव! एक सवाल।
+  en: Dev! One question.
+  words: |
+    dev     "Dev!" name
+    ek      "one"
+    savaal  "question"
+
+b36:
+  say: बोलिए, आंटी।
+  en: Go ahead, aunty.
+  words: |
+    boliye  bol·iye:IMP.HON  < bolnaa  "tell me"
+    aanTii                             "auntie" loan
+
+b37:
+  say: आप...
+  en: You...
+  words: |
+    aap:HON  "you..."
+
+b38:
+  say: वो पास आती है।
+  en: She comes closer.
+  words: |
+    vo              "she"
+    paas            "near, closer"
+    aatii  < aanaa  "comes"
+    hai    < honaa  "(is)"
+
+b39:
+  say: मांस खाते हो?
+  en: Do you eat meat?
+  words: |
+    maa~s              "meat"
+    khaate  < khaanaa  "eat"
+    ho      < honaa    "do you?"

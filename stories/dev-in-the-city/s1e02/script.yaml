@@ -1,0 +1,85 @@
+# s1e02: Advance. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: pg_door
+  ambient: quiet_lane
+  cast:
+    dev:      standing_bag @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b01: { who: dev, mood: shocked, icons: [calendar, question], digits: "10", tags: [shocked], start: [dev.shock] }
+    b02: { who: landlady, mood: stern, icons: [calendar], digits: "10" }
+    b03: { who: dev, mood: firm, icons: [calendar], digits: "2" }
+    b04: { who: landlady, mood: amused, icons: [calendar], digits: "9", tags: [chuckles, firmly], start: [landlady.laugh] }
+    b05: { who: dev, mood: firm, icons: [calendar], digits: "3" }
+    b06: { who: landlady, mood: stern, icons: [calendar], digits: "8" }
+    b07: { who: dev, mood: annoyed, icons: [calendar], digits: "4", tags: [frustrated] }
+    b08: { who: landlady, mood: sly, icons: [calendar, fish, "no"], digits: "6", tags: [firmly, mischievously], start: [landlady.smug] }
+    b09: { who: dev, mood: weary, icons: [ok], tags: [sighs], start: [dev.sigh_nod] }
+    b10: { who: landlady, mood: happy, icons: [house], start: [landlady.wave] }
+
+p2:
+  set: pg_room
+  ambient: room
+  cast:
+    dev:      standing_bag @ 0.3
+    landlady: arms_crossed @ 0.64
+  props:
+    fan: ceiling_fan
+  beats:
+    b11: { who: landlady, mood: proud, icons: [house, heart], start: [landlady.proud] }
+    b12: { who: dev, mood: wary, icons: [house, pinch], tags: [disappointed] }
+    b13: { who: landlady, mood: stern, icons: [heart], tags: [offended, sweetly] }
+    b14: { who: dev, mood: curious, icons: [fan, question] }
+    b15: { who: landlady, mood: proud, icons: [fan, ok] }
+    b16: { who: narrator, tags: [deadpan], start: [dev.shrug] }
+    b17: { who: landlady, mood: stern, icons: [water, sun] }
+    b18: { who: landlady, mood: stern, icons: [moon, person, "no"], digits: "9" }
+    b19: { who: dev, mood: weary, icons: [ok], tags: [sighs], start: [dev.sigh_nod] }
+
+p3:
+  set: pg_room
+  ambient: room
+  cast:
+    dev:      standing_bag @ 0.3
+    landlady: arms_crossed @ 0.64
+  props:
+    fan: ceiling_fan
+  beats:
+    b20: { who: dev, mood: curious, icons: [wifi, question] }
+    b21: { who: landlady, mood: proud, icons: [wifi, ok], tags: [excited], start: [landlady.proud] }
+    b22: { who: dev, mood: curious, icons: [key, question] }
+    b23: { who: landlady, mood: wary, icons: [key, question], tags: [thinking], start: [landlady.think] }
+    b24: { who: dev, mood: curious, icons: [key, question] }
+    b25: { who: landlady, mood: annoyed, icons: [key, ok], tags: [exasperated] }
+    b26: { who: narrator, tags: [deadpan], start: [dev.facepalm] }
+
+p4:
+  set: chai_stall
+  cast:
+    dev:      standing @ 0.2
+    chaiwala: behind_counter @ 0.55
+    raju:     standing @ 0.86
+  beats:
+    b27: { who: chaiwala, mood: breezy, icons: [tea, question] }
+    b28: { who: dev, mood: weary, icons: [tea, ok] }
+    b29: { who: raju, mood: calling, icons: [house, question], tags: [excited], start: [raju.wave] }
+    b30: { who: dev, mood: weary, icons: [calendar], digits: "6" }
+    b31: { who: raju, mood: amused, icons: [calendar], digits: "12", tags: [laughs], start: [raju.laugh] }
+    b32: { who: chaiwala, mood: happy, icons: [tea, ok] }
+    b33: { who: raju, mood: breezy, icons: [rupee, ok], tags: [warmly], start: [raju.smile] }
+    b34: { who: dev, mood: happy, icons: [heart], tags: [grateful], start: [dev.smile] }
+
+p5:
+  set: pg_door_night
+  ambient: night
+  cast:
+    dev:      standing_tea @ 0.33
+    landlady: arms_crossed @ 0.68
+  beats:
+    b35: { who: landlady, mood: stern, icons: [question], tags: [shouting, serious] }
+    b36: { who: dev, mood: wary, icons: [ok], tags: [nervously] }
+    b37: { who: landlady, mood: stern, icons: [person], tags: [suspicious], start: [landlady.look] }
+    b38: { who: narrator, tags: [whispers], start: [landlady.approach] }
+    b39: { who: landlady, mood: stern, icons: [drumstick, question], tags: [whispers], end: [dev.shock], cliffhanger: true }
