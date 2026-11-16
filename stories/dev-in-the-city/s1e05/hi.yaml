@@ -1,0 +1,262 @@
+# s1e05 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: वीकेंड | viikenD | Weekend
+tease: नदी! | nadii! | A river!
+
+b01:
+  say: शुक्रवार की रात। देव सो रहा है।
+  en: Friday night. Dev is asleep.
+  words: |
+    shukravaar            "Friday"
+    kii:GEN               "'s"
+    raat                  "night"
+    dev                   "Dev" name
+    so          < sonaa   "sleep"
+    rahaa:PROG  < rahnaa  "(-ing)"
+    hai         < honaa   "(is)"
+
+b02:
+  say: शनिवार, सुबह पाँच बजे...
+  en: Saturday, five in the morning...
+  words: |
+    shanivaar            "Saturday"
+    subah                "morning"
+    paa~ch               "five"
+    baje       < bajnaa  "o'clock..."
+
+b03:
+  say: "फ़ोन: ट्रिन ट्रिन!"
+  en: "The phone: ring ring!"
+  words: |
+    fon   "phone" loan
+    Trin  "ring"
+    Trin  "ring!"
+
+b04:
+  say: कौन... पाँच बजे?
+  en: Who... at five?
+  words: |
+    kaun              "who..."
+    paa~ch            "five"
+    baje    < bajnaa  "o'clock?"
+
+b05:
+  say: बॉस का मैसेज।
+  en: A message from the boss.
+  words: |
+    bos      "boss" loan
+    kaa:GEN  "'s"
+    maisej   "message" loan
+
+b06:
+  say: गुड मॉर्निंग! टीम वर्क! ड्रीम वर्क!
+  en: Good morning! Team work! Dream work!
+  words: |
+    guD      "good" loan
+    morning  "morning!" loan
+    Tiim     "team" loan
+    vark     "work!" loan
+    Driim    "dream" loan
+    vark     "work!" loan
+
+b07:
+  say: नींद... गई।
+  en: Sleep... gone.
+  words: |
+    nii~d            "sleep..."
+    gaii   < jaanaa  "gone."
+
+b08:
+  say: शनिवार। ऑफ़िस ख़ाली।
+  en: Saturday. The office is empty.
+  words: |
+    shanivaar  "Saturday"
+    ofis       "the office" loan
+    khaalii    "empty"
+
+b09:
+  say: बॉस कहाँ हैं?
+  en: Where's the boss?
+  words: |
+    bos                "boss" loan
+    kahaa~             "where"
+    hai~:HON  < honaa  "is?"
+
+b10:
+  say: बॉस शनिवार नहीं आते!
+  en: The boss doesn't come in on Saturdays!
+  words: |
+    bos                  "the boss" loan
+    shanivaar            "on Saturday"
+    nahii~:NEG           "doesn't"
+    aate        < aanaa  "come!"
+
+b11:
+  say: क्या?!
+  en: What?!
+  words: |
+    kyaa  "what?!"
+
+b12:
+  say: काम ख़त्म। कल क्रिकेट?
+  en: Work's done. Cricket tomorrow?
+  words: |
+    kaam    "work"
+    khatam  "finished"
+    kal     "tomorrow"
+    krikeT  "cricket?" loan
+
+b13:
+  say: क्रिकेट! हाँ!
+  en: Cricket! Yes!
+  words: |
+    krikeT  "cricket!" loan
+    haa~    "yes!"
+
+b14:
+  say: रविवार। गली क्रिकेट।
+  en: Sunday. Street cricket.
+  words: |
+    ravivaar  "Sunday"
+    galii     "lane, street"
+    krikeT    "cricket" loan
+
+b15:
+  say: अंकल, रेडी?
+  en: Uncle, ready?
+  words: |
+    ankal  "uncle" loan
+    reDii  "ready?" loan
+
+b16:
+  say: अंकल?!
+  en: Uncle?!
+  words: |
+    ankal  "uncle?!" loan
+
+b17:
+  say: हाहा! चिंटू सुपर बॉलर है।
+  en: Haha! Chintu's a super bowler.
+  words: |
+    haahaa            "haha!"
+    chinTuu           "Chintu" name
+    supar             "super" loan
+    bolar             "bowler" loan
+    hai      < honaa  "is"
+
+b18:
+  say: मैं तैयार हूँ। डालो!
+  en: I'm ready. Bowl!
+  words: |
+    mai~                  "I"
+    taiyaar               "ready"
+    huu~       < honaa    "am"
+    Daalo:IMP  < Daalnaa  "bowl! (throw)"
+
+b19:
+  say: चिंटू दौड़कर आता है... बॉल डालता है!
+  en: Chintu runs in... and bowls!
+  words: |
+    chinTuu             "Chintu" name
+    dauDkar  < dauDnaa  "running"
+    aataa    < aanaa    "comes"
+    hai      < honaa    "(is)..."
+    bol                 "ball" loan
+    Daaltaa  < Daalnaa  "bowls (puts)"
+    hai      < honaa    "(is)"
+
+b20:
+  say: आउट! पहली बॉल!
+  en: Out! First ball!
+  words: |
+    aauT    "out!" loan
+    pahlii  "first"
+    bol     "ball!" loan
+
+b21:
+  say: एक और चांस?
+  en: One more chance?
+  words: |
+    ek      "one"
+    aur     "more"
+    chaans  "chance?" loan
+
+b22:
+  say: नहीं। रूल्स इज़ रूल्स।
+  en: No. Rules is rules.
+  words: |
+    nahii~:NEG  "no"
+    ruuls       "rules" loan
+    iz          "is" loan
+    ruuls       "rules" loan
+
+b23:
+  say: सॉरी, अंकल!
+  en: Sorry, uncle!
+  words: |
+    sorii  "sorry" loan
+    ankal  "uncle!" loan
+
+b24:
+  say: "मैच के बाद: गरम भुट्टा।"
+  en: "After the match: hot roasted corn."
+  words: |
+    maich    "match" loan
+    ke:GEN   "(of)"
+    baad     "after"
+    garam    "hot"
+    bhuTTaa  "corn (roasted)"
+
+b25:
+  say: गरम गरम भुट्टा! मज़ा आ गया!
+  en: Piping hot corn! This is great!
+  words: |
+    garam                 "hot"
+    garam                 "hot"
+    bhuTTaa               "corn!"
+    mazaa                 "fun"
+    aa          < aanaa   "came"
+    gayaa:PERF  < jaanaa  "(went: has)!"
+
+b26:
+  say: आसमान काला हो जाता है।
+  en: The sky goes dark.
+  words: |
+    aasmaan            "the sky"
+    kaalaa             "black"
+    ho       < honaa   "becomes"
+    jaataa   < jaanaa  "(goes)"
+    hai      < honaa   "(is)"
+
+b27:
+  say: अरे... बारिश!
+  en: Oh no... rain!
+  words: |
+    are      "oh no..."
+    baarish  "rain!" @rain.start
+
+b28:
+  say: बारिश! बारिश!
+  en: Rain! Rain!
+  words: |
+    baarish  "rain!"
+    baarish  "rain!"
+
+b29:
+  say: दस मिनट बाद।
+  en: Ten minutes later.
+  words: |
+    das    "ten"
+    minaT  "minutes"
+    baad   "later"
+
+b30:
+  say: सड़क... नदी बन गई!
+  en: The road... has become a river!
+  words: |
+    saDak                "the road..."
+    nadii                "river"
+    ban        < bannaa  "become"
+    gaii:PAST  < jaanaa  "has!"

@@ -1,0 +1,242 @@
+# s1e05 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ವೀಕೆಂಡ್ | viikenD | Weekend
+tease: ನದಿ! | nadi! | A river!
+
+b01:
+  say: ಶುಕ್ರವಾರ ರಾತ್ರಿ. ದೇವ್ ಮಲಗಿದ್ದಾನೆ.
+  en: Friday night. Dev is asleep.
+  words: |
+    shukravaara                                 "Friday"
+    raatri                                      "night"
+    dev                                         "Dev" name
+    malagiddaane  malag·iddaane:PERF  < malagu  "is asleep"
+
+b02:
+  say: ಶನಿವಾರ ಬೆಳಿಗ್ಗೆ ಐದು ಗಂಟೆ...
+  en: Saturday, five in the morning...
+  words: |
+    shanivaara  "Saturday"
+    beLigge     "morning"
+    aidu        "five"
+    ghanTe      "o'clock..."
+
+b03:
+  say: "ಫೋನ್: ಟ್ರಿಣ್ ಟ್ರಿಣ್!"
+  en: "The phone: ring ring!"
+  words: |
+    phoon  "phone" loan
+    TriN   "ring"
+    TriN   "ring!"
+
+b04:
+  say: ಯಾರು... ಐದಕ್ಕೆ?
+  en: Who... at five?
+  words: |
+    yaaru                          "who..."
+    aidakke  aid·akke:DIR  < aidu  "at five?"
+
+b05:
+  say: ಬಾಸ್ ಮೆಸೇಜ್.
+  en: A message from the boss.
+  words: |
+    baas    "boss" loan
+    meseej  "message" loan
+
+b06:
+  say: ಗುಡ್ ಮಾರ್ನಿಂಗ್! ಟೀಮ್ ವರ್ಕ್! ಡ್ರೀಮ್ ವರ್ಕ್!
+  en: Good morning! Team work! Dream work!
+  words: |
+    guD       "good" loan
+    maarning  "morning!" loan
+    Tiim      "team" loan
+    vark      "work!" loan
+    Driim     "dream" loan
+    vark      "work!" loan
+
+b07:
+  say: ನಿದ್ದೆ... ಗಾನ್.
+  en: Sleep... gone.
+  words: |
+    nidde  "sleep..."
+    gaan   "gone." loan
+
+b08:
+  say: ಶನಿವಾರ. ಆಫೀಸ್ ಖಾಲಿ.
+  en: Saturday. The office is empty.
+  words: |
+    shanivaara  "Saturday"
+    aaphiis     "the office" loan
+    khaali      "empty"
+
+b09:
+  say: ಬಾಸ್ ಎಲ್ಲಿ?
+  en: Where's the boss?
+  words: |
+    baas  "boss" loan
+    elli  "where?"
+
+b10:
+  say: ಬಾಸ್ ಶನಿವಾರ ಬರಲ್ಲ!
+  en: The boss doesn't come in on Saturdays!
+  words: |
+    baas                              "the boss" loan
+    shanivaara                        "on Saturday"
+    baralla     bar·alla:NEG  < baru  "doesn't come!"
+
+b11:
+  say: ಏನು?!
+  en: What?!
+  words: |
+    eenu  "what?!"
+
+b12:
+  say: ಕೆಲಸ ಮುಗೀತು. ನಾಳೆ ಕ್ರಿಕೆಟ್?
+  en: Work's done. Cricket tomorrow?
+  words: |
+    kelasa                "work"
+    mugiitu:PAST  < mugi  "is done"
+    naaLe                 "tomorrow"
+    krikeT                "cricket?" loan
+
+b13:
+  say: ಕ್ರಿಕೆಟ್! ಹೌದು!
+  en: Cricket! Yes!
+  words: |
+    krikeT  "cricket!" loan
+    haudu   "yes!"
+
+b14:
+  say: ಭಾನುವಾರ. ಗಲ್ಲಿ ಕ್ರಿಕೆಟ್.
+  en: Sunday. Street cricket.
+  words: |
+    bhaanuvaara  "Sunday"
+    galli        "lane, street"
+    krikeT       "cricket" loan
+
+b15:
+  say: ಅಂಕಲ್, ರೆಡಿನಾ?
+  en: Uncle, ready?
+  words: |
+    ankal                        "uncle" loan
+    reDinaa  reDi·naa:Q  < reDi  "ready?" loan
+
+b16:
+  say: ಅಂಕಲ್?!
+  en: Uncle?!
+  words: |
+    ankal  "uncle?!" loan
+
+b17:
+  say: ಹಹ! ಚಿನ್ನು ಸೂಪರ್ ಬೌಲರ್.
+  en: Haha! Chinnu's a super bowler.
+  words: |
+    haha    "haha!"
+    chinnu  "Chinnu" name
+    suupar  "super" loan
+    baular  "bowler" loan
+
+b18:
+  say: ನಾನು ರೆಡಿ. ಹಾಕು!
+  en: I'm ready. Bowl!
+  words: |
+    naanu      "I (am)"
+    reDi       "ready" loan
+    haaku:IMP  "bowl! (throw)"
+
+b19:
+  say: ಚಿನ್ನು ಓಡಿ ಬರ್ತಾನೆ... ಬೌಲ್ ಮಾಡ್ತಾನೆ!
+  en: Chinnu runs in... and bowls!
+  words: |
+    chinnu                                   "Chinnu" name
+    ooDi                            < ooDu   "running"
+    bartaane   bar·taane:PRES.3SG   < baru   "comes..."
+    baul                                     "bowl" loan
+    maaDtaane  maaD·taane:PRES.3SG  < maaDu  "does!"
+
+b20:
+  say: ಔಟ್! ಮೊದಲ ಬಾಲ್!
+  en: Out! First ball!
+  words: |
+    auT     "out!" loan
+    modala  "first"
+    baal    "ball!" loan
+
+b21:
+  say: ಇನ್ನೊಂದು ಚಾನ್ಸ್?
+  en: One more chance?
+  words: |
+    innondu  "one more"
+    chaans   "chance?" loan
+
+b22:
+  say: ಇಲ್ಲ. ರೂಲ್ಸ್ ರೂಲ್ಸ್.
+  en: No. Rules is rules.
+  words: |
+    illa:NEG  "no"
+    ruuls     "rules" loan
+    ruuls     "(are) rules" loan
+
+b23:
+  say: ಸಾರಿ, ಅಂಕಲ್!
+  en: Sorry, uncle!
+  words: |
+    saari  "sorry" loan
+    ankal  "uncle!" loan
+
+b24:
+  say: "ಮ್ಯಾಚ್ ಆದ್ಮೇಲೆ: ಬಿಸಿ ಜೋಳ."
+  en: "After the match: hot roasted corn."
+  words: |
+    myaach           "match" loan
+    aadmele  < aagu  "after (it is done)"
+    bisi             "hot"
+    jooLa            "corn (roasted)"
+
+b25:
+  say: ಬಿಸಿ ಬಿಸಿ ಜೋಳ! ಸೂಪರ್!
+  en: Piping hot corn! Super!
+  words: |
+    bisi    "hot"
+    bisi    "hot"
+    jooLa   "corn!"
+    suupar  "super!" loan
+
+b26:
+  say: ಆಕಾಶ ಕಪ್ಪಾಗುತ್ತೆ.
+  en: The sky goes dark.
+  words: |
+    aakaasha              "the sky"
+    kappaagutte  < kappu  "goes dark"
+
+b27:
+  say: ಅಯ್ಯೋ... ಮಳೆ!
+  en: Oh no... rain!
+  words: |
+    ayyoo  "oh no..."
+    maLe   "rain!" @rain.start
+
+b28:
+  say: ಮಳೆ! ಮಳೆ!
+  en: Rain! Rain!
+  words: |
+    maLe  "rain!"
+    maLe  "rain!"
+
+b29:
+  say: ಹತ್ತು ನಿಮಿಷ ಆಯ್ತು.
+  en: Ten minutes later.
+  words: |
+    hattu               "ten"
+    nimisha             "minutes"
+    aaytu:PAST  < aagu  "pass"
+
+b30:
+  say: ರಸ್ತೆ... ನದಿ ಆಗಿದೆ!
+  en: The road... has become a river!
+  words: |
+    raste                "the road..."
+    nadi                 "river"
+    aagide:PERF  < aagu  "has become!"

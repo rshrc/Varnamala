@@ -1,0 +1,79 @@
+# s1e05: Weekend. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: pg_room_night
+  cast:
+    dev: asleep @ 0.45
+  props:
+    fan: ceiling_fan
+    zs:  sleep_zs
+  beats:
+    b01: { who: narrator, tags: [softly], start: [zs.drift] }
+    b02: { who: narrator, tags: [softly], start: [zs.drift] }
+    b03: { who: narrator, tags: [excited], start: [dev.wake] }
+
+p2:
+  set: pg_room_night
+  cast:
+    dev: on_bed_phone @ 0.55
+  props:
+    fan: ceiling_fan
+  beats:
+    b04: { who: dev, mood: weary, icons: [phone, clock, question], digits: "5:00", tags: [groans] }
+    b05: { who: narrator, tags: [deadpan] }
+    b06: { who: dev, mood: weary, icons: [phone, sun], tags: [sarcastic] }
+    b07: { who: dev, mood: weary, icons: [zzz, "no"], tags: [sighs], start: [dev.sigh] }
+
+p3:
+  set: office
+  cast:
+    dev:   standing @ 0.3
+    priya: standing @ 0.66
+  beats:
+    b08: narrator
+    b09: { who: dev, mood: weary, icons: [briefcase, question] }
+    b10: { who: priya, mood: amused, icons: [calendar, "no"], tags: [laughs], start: [priya.laugh] }
+    b11: { who: dev, mood: shocked, icons: [question], tags: [outraged], start: [dev.shock] }
+    b12: { who: priya, mood: breezy, icons: [cricket, question], start: [priya.wave] }
+    b13: { who: dev, mood: happy, icons: [cricket, heart], tags: [excited], start: [dev.smile] }
+
+p4:
+  set: cricket_lane
+  cast:
+    kid:   bowling @ 0.18
+    dev:   batting @ 0.6
+    priya: standing @ 0.88
+  props:
+    ball:   ball
+    wicket: wicket
+  beats:
+    b14: { who: narrator, tags: [cheerfully] }
+    b15: { who: kid, mood: sly, icons: [cricket, question], start: [kid.smug] }
+    b16: { who: dev, mood: shocked, icons: [person, question], tags: [offended], start: [dev.shock] }
+    b17: { who: priya, mood: amused, icons: [cricket, ok], tags: [laughs], start: [priya.laugh] }
+    b18: { who: dev, mood: proud, icons: [cricket, ok], tags: [confidently], start: [dev.proud] }
+    b19: { who: narrator, tags: [excited], start: [cricket.delivery] }
+    b20: { who: kid, mood: happy, icons: [cricket, "no"], tags: [shouting, excited], start: [kid.cheer] }
+    b21: { who: dev, mood: sheepish, icons: [cricket, question], tags: [pleading], start: [dev.sheepish] }
+    b22: { who: kid, mood: stern, icons: ["no"], tags: [seriously], start: [kid.look] }
+    b23: { who: priya, mood: amused, icons: [person, ok], tags: [laughs], start: [priya.laugh] }
+
+p5:
+  set: cricket_lane
+  cast:
+    kid:   bowling @ 0.34
+    dev:   standing_corn @ 0.56
+    priya: standing @ 0.8
+  props:
+    cart:  corn_cart
+    rain:  rain_coming
+    flood: flood_rising
+  beats:
+    b24: { who: narrator, tags: [warmly], start: [dev.eat] }
+    b25: { who: dev, mood: happy, icons: [corn, heart], tags: [happy], start: [dev.eat] }
+    b26: { who: narrator, tags: [ominously], start: [sky.darken] }
+    b27: { who: priya, mood: wary, icons: [rain], tags: [worried] }
+    b28: { who: kid, mood: happy, icons: [rain, heart], tags: [excited], start: [kid.wave] }
+    b29: { who: narrator, start: [flood.rise] }
+    b30: { who: dev, mood: shocked, icons: [water, question], start: [dev.shock], cliffhanger: true }
