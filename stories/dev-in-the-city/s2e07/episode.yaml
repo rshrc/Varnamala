@@ -1,0 +1,13 @@
+# s2e07: The Water
+# Format: stories/README.md
+
+level: A2
+next: s2e08
+preview: { panel: p1, ms: 5000, camera: [[0, 0.5, 1.1], [5000, 0.5, 1.0]] }
+memento: b22
+
+# Cues timed differently from series.yaml in this episode.
+cues:
+  raju.laugh:     raju laugh 800
+  daughter.point: daughter point 1200
+  landlady.sigh:  landlady sigh_nod 1200

@@ -1,0 +1,66 @@
+# s2e07: The Water. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: lake_dawn
+  cast:
+    raju:     standing @ 0.12
+    daughter: standing @ 0.3
+    kid:      standing @ 0.46
+    dev:      standing @ 0.64
+  props:
+    bottle: test_bottle
+  beats:
+    b01: { who: narrator, start: [foam.drift] }
+    b02: { who: raju, mood: proud, icons: [person, heart], start: [raju.proud] }
+    b03: { who: daughter, mood: sheepish, icons: [water, ok], start: [daughter.sheepish] }
+    b04: { who: raju, mood: amused, icons: [ok, heart], start: [raju.laugh] }
+    b05: { who: daughter, mood: firm, icons: [water, question], start: [daughter.nod] }
+    b06: { who: kid, mood: calling, icons: [ok, question], start: [kid.wave] }
+    b07: narrator
+    b08: narrator
+    b09: { who: daughter, mood: firm, icons: [water, "no"] }
+    b10: { who: dev, mood: curious, icons: [water, question] }
+    b11: { who: daughter, mood: firm, icons: [water, go], start: [daughter.point] }
+
+p2:
+  set: lake_dawn
+  cast:
+    kid:      standing @ 0.1
+    daughter: standing @ 0.26
+    dev:      standing @ 0.44
+  props:
+    pipe: outfall
+  beats:
+    b12: { who: narrator, start: [pipe.pour] }
+    b13: { who: kid, mood: calling, icons: [water, question], start: [kid.wave] }
+    b14: narrator
+    b15: { who: daughter, mood: firm, icons: [water, "no"] }
+    b16: { who: dev, mood: curious, icons: [house, question] }
+    b17: narrator
+    b18: { who: dev, mood: weary, icons: [house, water], tags: [dryly], start: [dev.sigh] }
+
+p3:
+  set: street_auto
+  cast:
+    raju:     in_auto_turned @ 0.6
+    daughter: in_auto_back @ 0.76
+  props:
+    poster: dev_poster
+  beats:
+    b19: { who: narrator, tags: [softly] }
+    b20: { who: raju, mood: wary, icons: [speech, person], tags: [softly], start: [raju.sigh] }
+    b21: { who: raju, mood: happy, icons: [water, heart], tags: [warmly], start: [raju.smile] }
+    b22: { who: daughter, mood: happy, icons: [auto, heart], tags: [warmly], start: [daughter.smile] }
+    b23: { who: narrator, tags: [softly] }
+
+p4:
+  set: pg_door_night
+  cast:
+    dev:      standing @ 0.36
+    landlady: arms_crossed @ 0.68
+  beats:
+    b24: narrator
+    b25: { who: landlady, mood: shocked, icons: [house, question], tags: [softly], start: [landlady.shock] }
+    b26: { who: narrator, tags: [softly], start: [landlady.sigh] }
+    b27: { who: landlady, mood: wary, icons: [house, person, calendar], digits: "20", tags: [quietly], cliffhanger: true }

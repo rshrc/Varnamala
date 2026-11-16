@@ -1,0 +1,267 @@
+# s2e07 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ನೀರು | niiru | The Water
+tease: ಪರಿಷೆ. | parishe. | The fair.
+
+b01:
+  say: ಭಾನುವಾರ. ರಾಜು ಜೊತೆ ಯಾರೋ ಬಂದಿದ್ದಾರೆ.
+  en: Sunday. Someone has come with Raju.
+  words: |
+    bhaanuvaara               "Sunday"
+    raaju                     "Raju" name
+    jote                      "with"
+    yaaroo                    "someone"
+    bandiddaare:PERF  < baru  "has come"
+
+b02:
+  say: ಸಾರ್! ನನ್ನ ಮಗಳು, ಲಕ್ಷ್ಮಿ. ಇಂಜಿನಿಯರಿಂಗ್, ಎರಡನೇ ವರ್ಷ!
+  en: Sir! My daughter, Lakshmi. Engineering, second year!
+  words: |
+    saar          "sir" loan
+    nanna         "my"
+    magaLu        "daughter"
+    lakShmi       "Lakshmi" name
+    injiniyaring  "engineering" loan
+    eraDanee      "second"
+    varSha        "year!"
+
+b03:
+  say: ಎನ್ವಿರಾನ್ಮೆಂಟಲ್ ಇಂಜಿನಿಯರಿಂಗ್, ಅಪ್ಪ.
+  en: Environmental engineering, Appa.
+  words: |
+    envaironmenTal  "environmental" loan
+    injiniyaring    "engineering" loan
+    appa            "Appa (Dad)"
+
+b04:
+  say: ಹೌದು ಹೌದು. ಅದೇ.
+  en: Yes, yes. That one.
+  words: |
+    haudu  "yes"
+    haudu  "yes"
+    adee   "that one"
+
+b05:
+  say: ನಾನು ಕಿಟ್ ತಂದಿದ್ದೀನಿ. ನೀರು ಟೆಸ್ಟ್ ಮಾಡೋಣ.
+  en: I've brought a kit. Let's test the water.
+  words: |
+    naanu                      "I"
+    kiT                        "a kit" loan
+    tandiddiini:PERF  < taru   "have brought"
+    niiru                      "the water"
+    TesT                       "test" loan
+    maaDooNa          < maaDu  "let's do"
+
+b06:
+  say: ನಾನು ಸಹಾಯ ಮಾಡ್ಲಾ? ಮಾಡ್ಲಾ?
+  en: Can I help? Can I?
+  words: |
+    naanu               "I"
+    sahaaya             "help"
+    maaDlaa:Q  < maaDu  "shall (I) do?"
+    maaDlaa:Q  < maaDu  "shall I?"
+
+b07:
+  say: ಚಿನ್ನು ಬಾಟಲ್ ಹಿಡೀತಾನೆ. ಲಕ್ಷ್ಮಿ ಔಷಧಿ ಹಾಕ್ತಾಳೆ.
+  en: Chinnu holds the bottle. Lakshmi drops in the reagent.
+  words: |
+    chinnu               "Chinnu" name
+    baaTal               "the bottle" loan
+    hiDiitaane  < hiDi   "holds"
+    lakShmi              "Lakshmi" name
+    aushadhi             "the reagent (medicine)" @bottle.test
+    haaktaaLe   < haaku  "drops in"
+
+b08:
+  say: ನೀರು ಕಪ್ಪು-ಕಂದು ಆಗುತ್ತೆ.
+  en: The water turns dark brown.
+  words: |
+    niiru                "the water"
+    kappu-kandu          "dark brown"
+    aagutte      < aagu  "turns (becomes)"
+
+b09:
+  say: ಚರಂಡಿ ನೀರು. ತುಂಬಾ.
+  en: Sewage. A lot of it.
+  words: |
+    charanDi  "sewage (drain)"
+    niiru     "water"
+    tumbaa    "a lot"
+
+b10:
+  say: ಎಲ್ಲಿಂದ?
+  en: From where?
+  words: |
+    ellinda  ell·inda:ABL  < elli  "from where?"
+
+b11:
+  say: ನೀರಿನ ಹಿಂದೆ ಹೋಗೋಣ.
+  en: Let's follow the water.
+  words: |
+    niirina   niir·ina:GEN  < niiru  "the water's"
+    hinde                            "behind (after)"
+    hoogooNa                < hoogu  "let's go"
+
+b12:
+  say: ಅವರು ದಡದಲ್ಲಿ ನಡೀತಾರೆ. ಹತ್ತು ನಿಮಿಷ.
+  en: They walk along the bank. Ten minutes.
+  words: |
+    avaru                  "they"
+    daDadalli:LOC  < daDa  "along the bank"
+    naDiitaare     < naDe  "walk"
+    hattu                  "ten"
+    nimiSha                "minutes"
+
+b13:
+  say: ಅಲ್ಲಿ! ಒಂದು ದೊಡ್ಡ ಪೈಪ್!
+  en: There! A big pipe!
+  words: |
+    alli   "there!"
+    ondu   "a"
+    doDDa  "big"
+    paip   "pipe!" loan
+
+b14:
+  say: ಪೈಪಿಂದ ಕಪ್ಪು ನೀರು ಕೆರೆಗೆ ಬೀಳ್ತಿದೆ.
+  en: Black water pouring from the pipe into the lake.
+  words: |
+    paipinda:ABL   < paip   "from the pipe" loan
+    kappu                   "black"
+    niiru                   "water"
+    kerege:DIR     < kere   "into the lake"
+    biiLtide:PROG  < biiLu  "is falling"
+
+b15:
+  say: ಇದೇ. ಇಲ್ಲಿಂದಲೇ ಬರ್ತಿದೆ.
+  en: This is it. It's coming from right here.
+  words: |
+    idee            < idu   "this is it"
+    illindalee:ABL  < illi  "from right here"
+    bartide:PROG    < baru  "it's coming"
+
+b16:
+  say: ಯಾರ ಪೈಪ್ ಇದು?
+  en: Whose pipe is this?
+  words: |
+    yaara:GEN  < yaaru  "whose"
+    paip                "pipe" loan
+    idu                 "is this?"
+
+b17:
+  say: "ಗೋಡೆ ಮೇಲೆ ಒಂದು ಬೋರ್ಡ್: 'ಲೇಕ್ ವ್ಯೂ ಅಪಾರ್ಟ್ಮೆಂಟ್ಸ್.'"
+  en: "On the wall, a board: 'Lake View Apartments.'"
+  words: |
+    gooDe        "the wall"
+    meele        "on"
+    ondu         "a"
+    boorD        "board" loan
+    leek         "Lake" loan
+    vyuu         "View" loan
+    apaarTmenTs  "Apartments" loan
+
+b18:
+  say: "'ಲೇಕ್ ವ್ಯೂ.' ಹೌದು, ನೋಡ್ತಿದ್ದಾರೆ."
+  en: "'Lake View.' Well, they're certainly viewing it."
+  words: |
+    leek                        "Lake" loan
+    vyuu                        "View" loan
+    haudu                       "yes"
+    nooDtiddaare:PROG  < nooDu  "they're looking (at it)"
+
+b19:
+  say: ಸಂಜೆ. ರಾಜು ಮಗಳನ್ನ ಮನೆಗೆ ಕರ್ಕೊಂಡು ಹೋಗ್ತಾನೆ.
+  en: Evening. Raju drives his daughter home.
+  words: |
+    sanje                    "evening"
+    raaju                    "Raju" name
+    magaLanna:ACC  < magaLu  "his daughter"
+    manege:DIR     < mane    "home (to)"
+    karkonDu       < kare    "taking"
+    hoogtaane      < hoogu   "goes"
+
+b20:
+  say: ಲಕ್ಷ್ಮಿ... ನಾನು ಇಲ್ಲಿಗೆ ಬಂದಾಗ, ನನಗೆ ಇಂಗ್ಲೀಷ್ ಓದೋಕೆ ಬರ್ತಿರಲಿಲ್ಲ.
+  en: Lakshmi... when I came here, I couldn't read English.
+  words: |
+    lakShmi                    "Lakshmi..." name
+    naanu                      "I"
+    illige:DIR        < illi   "here (to)"
+    bandaaga          < baru   "when (I) came"
+    nanage:DIR        < naanu  "to me"
+    ingliish                   "English" loan
+    oodooke           < oodu   "to read"
+    bartiralilla:NEG  < baru   "didn't come (I couldn't)"
+
+b21:
+  say: ಇವತ್ತು, ನೀನು ನೀರನ್ನ ಓದಿದೆ.
+  en: Today, you read the water.
+  words: |
+    ivattu                 "today"
+    niinu                  "you"
+    niiranna:ACC  < niiru  "the water"
+    oodide:PAST   < oodu   "read"
+
+b22:
+  say: ಅಪ್ಪ, ನೀನೇ ನನಗೆ ಈ ಊರು ಓದೋದು ಕಲಿಸಿದ್ದು.
+  en: Appa, you were the one who taught me to read this city.
+  words: |
+    appa                      "Appa (Dad)"
+    niinee          < niinu   "you were the one"
+    nanage:DIR      < naanu   "me"
+    ii                        "this"
+    uuru                      "city"
+    oodoodu         < oodu    "to read"
+    kalisiddu:PAST  < kalisu  "who taught"
+
+b23:
+  say: ರಾಜು ಏನೂ ಹೇಳಲ್ಲ. ನಿಧಾನವಾಗಿ ಆಟೋ ಓಡಿಸ್ತಾನೆ.
+  en: Raju doesn't say a word. He just drives, slowly.
+  words: |
+    raaju                    "Raju" name
+    eenuu                    "anything"
+    heeLalla:NEG   < heeLu   "doesn't say"
+    nidhaanavaagi            "slowly"
+    aaToo                    "the auto" loan
+    ooDistaane     < ooDisu  "drives"
+
+b24:
+  say: ರಾತ್ರಿ. ದೇವ್ ಶಾರದಾ ಅವರಿಗೆ ಎಲ್ಲಾ ಹೇಳ್ತಾನೆ.
+  en: Night. Dev tells Sharada everything.
+  words: |
+    raatri                "night"
+    dev                   "Dev" name
+    shaaradaa             "Sharada" name
+    avarige:DIR  < avaru  "(to her)"
+    ellaa                 "everything"
+    heeLtaane    < heeLu  "tells"
+
+b25:
+  say: ಲೇಕ್ ವ್ಯೂ...?
+  en: Lake View...?
+  words: |
+    leek  "Lake" loan
+    vyuu  "View...?" loan
+
+b26:
+  say: ಅವರು ತುಂಬಾ ಸುಮ್ಮನಾಗ್ತಾರೆ.
+  en: She goes very quiet.
+  words: |
+    avaru                         "she"
+    tumbaa                        "very"
+    summanaagtaare  < summanaagu  "goes quiet"
+
+b27:
+  say: ಆ ಜಾಗ... ನಮ್ಮದು. ನಮ್ಮ ಯಜಮಾನರು ಮಾರಿದ್ರು. ಇಪ್ಪತ್ತು ವರ್ಷದ ಹಿಂದೆ.
+  en: That land... was ours. My husband sold it. Twenty years ago.
+  words: |
+    aa                       "that"
+    jaaga                    "land (place)"
+    nammadu        < naavu   "was ours"
+    namma                    "my (our)"
+    yajamaanaru              "husband"
+    maaridru:PAST  < maaru   "sold (it)"
+    ippattu                  "twenty"
+    varShada:GEN   < varSha  "years'"
+    hinde                    "ago"

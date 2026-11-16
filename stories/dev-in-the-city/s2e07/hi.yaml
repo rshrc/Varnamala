@@ -1,0 +1,313 @@
+# s2e07 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: पानी | paanii | The Water
+tease: मेला। | melaa. | The fair.
+
+b01:
+  say: रविवार। राजू के साथ कोई आया है।
+  en: Sunday. Someone has come with Raju.
+  words: |
+    ravivaar             "Sunday"
+    raajuu               "Raju" name
+    ke:GEN               "(with)"
+    saath                "with"
+    koii                 "someone"
+    aayaa:PERF  < aanaa  "come"
+    hai         < honaa  "has"
+
+b02:
+  say: साब! मेरी बेटी, पूजा। इंजीनियरिंग, दूसरा साल!
+  en: Sir! My daughter, Pooja. Engineering, second year!
+  words: |
+    saab                    "sir"
+    merii          < meraa  "my"
+    beTii                   "daughter"
+    puujaa                  "Pooja" name
+    injiiniyaring           "engineering" loan
+    duusraa                 "second"
+    saal                    "year!"
+
+b03:
+  say: एनवायरनमेंटल इंजीनियरिंग, पापा।
+  en: Environmental engineering, Papa.
+  words: |
+    envaayaranmenTal  "environmental" loan
+    injiiniyaring     "engineering" loan
+    paapaa            "Papa (Dad)"
+
+b04:
+  say: हाँ हाँ। वही।
+  en: Yes, yes. That one.
+  words: |
+    haa~   "yes"
+    haa~   "yes"
+    vahii  "that one"
+
+b05:
+  say: मैं किट लाई हूँ। पानी टेस्ट करते हैं।
+  en: I've brought a kit. Let's test the water.
+  words: |
+    mai~              "I"
+    kiT               "a kit" loan
+    laaii   < laanaa  "brought"
+    huu~    < honaa   "(have)"
+    paanii            "the water"
+    TesT              "test" loan
+    karte   < karnaa  "(let's) do"
+    hai~    < honaa   "(are)"
+
+b06:
+  say: मैं मदद करूँ? करूँ?
+  en: Can I help? Can I?
+  words: |
+    mai~              "I"
+    madad             "help"
+    karuu~  < karnaa  "shall (I) do?"
+    karuu~  < karnaa  "shall I?"
+
+b07:
+  say: चिंटू बोतल पकड़ता है। पूजा दवा डालती है।
+  en: Chintu holds the bottle. Pooja drops in the reagent.
+  words: |
+    chinTuu               "Chintu" name
+    botal                 "the bottle"
+    pakaDtaa  < pakaDnaa  "holds"
+    hai       < honaa     "(is)"
+    puujaa                "Pooja" name
+    davaa                 "the reagent (medicine)" @bottle.test
+    Daaltii   < Daalnaa   "drops in"
+    hai       < honaa     "(is)"
+
+b08:
+  say: पानी गहरा भूरा हो जाता है।
+  en: The water turns dark brown.
+  words: |
+    paanii             "the water"
+    gahraa             "dark"
+    bhuuraa            "brown"
+    ho       < honaa   "become"
+    jaataa   < jaanaa  "(goes)"
+    hai      < honaa   "(is)"
+
+b09:
+  say: गंदा नाले का पानी। बहुत सारा।
+  en: Sewage. A lot of it.
+  words: |
+    gandaa             "dirty"
+    naale    < naalaa  "the sewer's"
+    kaa:GEN            "(of)"
+    paanii             "water"
+    bahut              "a lot"
+    saaraa             "(of it)"
+
+b10:
+  say: कहाँ से?
+  en: From where?
+  words: |
+    kahaa~  "where"
+    se:ABL  "from?"
+
+b11:
+  say: पानी के पीछे चलते हैं।
+  en: Let's follow the water.
+  words: |
+    paanii              "the water"
+    ke:GEN              "(of)"
+    piichhe             "behind (after)"
+    chalte   < chalnaa  "(let's) go"
+    hai~     < honaa    "(are)"
+
+b12:
+  say: वो किनारे-किनारे चलते हैं। दस मिनट।
+  en: They walk along the bank. Ten minutes.
+  words: |
+    vo                          "they"
+    kinaare-kinaare             "along the bank"
+    chalte           < chalnaa  "walk"
+    hai~             < honaa    "(are)"
+    das                         "ten"
+    minaT                       "minutes" loan
+
+b13:
+  say: वहाँ! एक बड़ा पाइप!
+  en: There! A big pipe!
+  words: |
+    vahaa~  "there!"
+    ek      "a"
+    baDaa   "big"
+    paaip   "pipe!" loan
+
+b14:
+  say: पाइप से काला पानी झील में गिर रहा है।
+  en: Black water pouring from the pipe into the lake.
+  words: |
+    paaip                 "the pipe" loan
+    se:ABL                "from"
+    kaalaa                "black"
+    paanii                "water"
+    jhiil                 "the lake"
+    me~:LOC               "into"
+    gir         < girnaa  "fall"
+    rahaa:PROG  < rahnaa  "(is)"
+    hai         < honaa   "(is)"
+
+b15:
+  say: यही है। यहीं से आ रहा है।
+  en: This is it. It's coming from right here.
+  words: |
+    yahii                 "this"
+    hai         < honaa   "is it"
+    yahii~      < yahaa   "right here"
+    se:ABL                "from"
+    aa          < aanaa   "come"
+    rahaa:PROG  < rahnaa  "(is)"
+    hai         < honaa   "(is)"
+
+b16:
+  say: ये किसका पाइप है?
+  en: Whose pipe is this?
+  words: |
+    ye               "this"
+    kiskaa  < kaun   "whose"
+    paaip            "pipe" loan
+    hai     < honaa  "is?"
+
+b17:
+  say: "दीवार पर एक बोर्ड: 'लेक व्यू अपार्टमेंट्स।'"
+  en: "On the wall, a board: 'Lake View Apartments.'"
+  words: |
+    diivaar      "the wall"
+    par:LOC      "on"
+    ek           "a"
+    borD         "board" loan
+    lek          "Lake" loan
+    vyuu         "View" loan
+    apaarTmenTs  "Apartments" loan
+
+b18:
+  say: "'लेक व्यू।' हाँ, देख तो रहे हैं।"
+  en: "'Lake View.' Well, they're certainly viewing it."
+  words: |
+    lek                   "Lake" loan
+    vyuu                  "View" loan
+    haa~                  "yes"
+    dekh       < dekhnaa  "look"
+    to                    "(well)"
+    rahe:PROG  < rahnaa   "(they are)"
+    hai~       < honaa    "(are)"
+
+b19:
+  say: शाम। राजू बेटी को घर ले जाता है।
+  en: Evening. Raju drives his daughter home.
+  words: |
+    shaam             "evening"
+    raajuu            "Raju" name
+    beTii             "daughter"
+    ko:ACC            "(his)"
+    ghar              "home"
+    le      < lenaa   "take"
+    jaataa  < jaanaa  "(goes)"
+    hai     < honaa   "(is)"
+
+b20:
+  say: पूजा... जब मैं यहाँ आया, मुझे इंग्लिश पढ़नी नहीं आती थी।
+  en: Pooja... when I came here, I couldn't read English.
+  words: |
+    puujaa                 "Pooja..." name
+    jab                    "when"
+    mai~                   "I"
+    yahaa~                 "here"
+    aayaa:PAST  < aanaa    "came"
+    mujhe                  "to me"
+    inglish                "English" loan
+    paDhnii     < paDhnaa  "to read"
+    nahii~:NEG             "not"
+    aatii       < aanaa    "come (could)"
+    thii:PAST   < honaa    "(did)"
+
+b21:
+  say: आज, तुमने पानी को पढ़ लिया।
+  en: Today, you read the water.
+  words: |
+    aaj                    "today"
+    tumne       < tum      "you"
+    paanii                 "the water"
+    ko:ACC                 "(the)"
+    paDh        < paDhnaa  "read"
+    liyaa:PERF  < lenaa    "(did)"
+
+b22:
+  say: पापा, ये शहर पढ़ना तो आपने ही सिखाया।
+  en: Papa, you were the one who taught me to read this city.
+  words: |
+    paapaa                       "Papa (Dad)"
+    ye                           "this"
+    shahar                       "city"
+    paDhnaa                      "to read"
+    to                           "(after all)"
+    aapne           < aap        "you"
+    hii                          "(were the one)"
+    sikhaayaa:PAST  < sikhaanaa  "taught (me)"
+
+b23:
+  say: राजू कुछ नहीं कहता। धीरे-धीरे ऑटो चलाता है।
+  en: Raju doesn't say a word. He just drives, slowly.
+  words: |
+    raajuu                      "Raju" name
+    kuchh                       "anything"
+    nahii~:NEG                  "not"
+    kahtaa         < kahnaa     "says"
+    dhiire-dhiire               "slowly"
+    oTo                         "the auto" loan
+    chalaataa      < chalaanaa  "drives"
+    hai            < honaa      "(is)"
+
+b24:
+  say: रात। देव कमला जी को सब बताता है।
+  en: Night. Dev tells Kamla-ji everything.
+  words: |
+    raat                  "night"
+    dev                   "Dev" name
+    kamlaa                "Kamla" name
+    jii                   "-ji"
+    ko:DIR                "to"
+    sab                   "everything"
+    bataataa  < bataanaa  "tells"
+    hai       < honaa     "(is)"
+
+b25:
+  say: लेक व्यू...?
+  en: Lake View...?
+  words: |
+    lek   "Lake" loan
+    vyuu  "View...?" loan
+
+b26:
+  say: वो बहुत चुप हो जाती हैं।
+  en: She goes very quiet.
+  words: |
+    vo                "she"
+    bahut             "very"
+    chup              "quiet"
+    ho      < honaa   "become"
+    jaatii  < jaanaa  "(goes)"
+    hai~    < honaa   "(are)"
+
+b27:
+  say: वो ज़मीन... हमारी थी। मेरे पति ने बेची थी। बीस साल पहले।
+  en: That land... was ours. My husband sold it. Twenty years ago.
+  words: |
+    vo                     "that"
+    zamiin                 "land"
+    hamaarii   < hamaaraa  "ours"
+    thii:PAST  < honaa     "was"
+    mere       < meraa     "my"
+    pati                   "husband"
+    ne                     "(he)"
+    bechii     < bechnaa   "sold"
+    thii:PAST  < honaa     "(had)"
+    biis                   "twenty"
+    saal                   "years"
+    pahle                  "ago"
