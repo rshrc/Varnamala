@@ -1,0 +1,56 @@
+# How Dev in the City sounds: read by tool/render_katha_audio.rb, never by the app.
+# A line is spoken with its beat's `tags` if it has them (script.yaml), else with
+# the tag for its mood below; narration with neither is read plainly.
+# Changing any of this changes every affected recording's fingerprint, and
+# the next recorder run re-records them.
+
+model: eleven_v3
+output_format: mp3_44100_64
+settings: { stability: 0.5, similarity_boost: 0.75 }
+word_voice: narrator     # who says a tapped word on its own
+
+# mood -> the ElevenLabs v3 tag in front of the line
+delivery_tags:
+  calling:  shouting
+  breezy:   casually
+  wary:     hesitant
+  curious:  curious
+  sheepish: embarrassed
+  annoyed:  annoyed
+  proud:    proudly
+  happy:    happy
+  firm:     firmly
+  sly:      mischievously
+  shocked:  shocked
+  amused:   amused
+  weary:    tired
+  stern:    stern
+
+# ElevenLabs voice ids, with the voice's name
+voices:
+  kn:
+    narrator: 1yebI4wPatIbQgkzinlP   # Aisiri
+    dev:      skuB5EKxDUgzOfSsFjqK   # Kumaran
+    raju:     75K9CAd9ZbhCXsP4nMDk   # Bharadwaj
+    landlady: z5dCxveFRvWeqsaKgMqe   # Krishna Priya M
+    chaiwala: U6U14MBlqTrQyJihoem2   # Mani
+    priya:    rtcmOPBIMycbYDKGYA35   # Vallabhi S
+    boss:     dpt1m3zwZwMGSVaWVR5I   # Sushant R
+    kid:      MYdTqLsWF6IueSvcrO97   # Sangamitra
+    son:      LHMvGhXWZPfzCiDpiEc1   # Ishvak
+    ivr:      wfWsQvhfrjjDqNkSrkBN   # Kampana (the gas booking line)
+    amma:     7B4TkucyQHy3r9hvAnhg   # Sharadhi
+    daughter: BR93uV16h7Ff1tjw4CiG   # Kriti L
+  hi:
+    narrator: 1qEiC6qsybMkmnNdVMbK   # Monika Sogam
+    dev:      7b9mYhmnp0y2qSH1FnBL   # Bunty
+    raju:     zT03pEAEi0VHKciJODfn   # Raju
+    landlady: XcWoPxj7pwnIgM3dQnWv   # Kanika
+    chaiwala: m5qndnI7u4OAdXhH0Mr5   # Krishna
+    priya:    8baRIHZEGj62eS9YHzC6   # Neha P
+    boss:     d0grukerEzs069eKIauC   # Ranga
+    kid:      Sm1seazb4gs7RSlUVw7c   # Anika
+    son:      oHxj8sUpVpscBK7Mmroq   # Raunak M
+    ivr:      LWFgMHXb8m0uANBUpzlq   # Saavi (the gas booking line)
+    amma:     6V9kz8WiEZCuxIP4zw8F   # Vidya
+    daughter: 9w21nMuk8CWXIME31V1S   # Simran

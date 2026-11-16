@@ -1,0 +1,186 @@
+# Dev in the City: who is in it, and the cues every episode draws on.
+# Format: stories/README.md
+#
+# A cue is "target move milliseconds", and can set off more cues after it:
+#   meter.tap: meter tap 400 -> meter.broken 300, raju.laugh 800
+# An episode that needs a cue timed differently redefines it in its own
+# episode.yaml.
+
+cast:
+  dev:      { gender: male, pitch: 1.0, rate: 1.0 }
+  raju:     { gender: male, pitch: 0.84, rate: 0.94 }
+  landlady: { gender: female, pitch: 0.92, rate: 0.9 }
+  chaiwala: { gender: male, pitch: 0.92, rate: 1.06 }
+  priya:    { gender: female, pitch: 1.1, rate: 1.05 }
+  boss:     { gender: male, pitch: 0.9, rate: 0.98 }
+  kid:      { gender: female, pitch: 1.3, rate: 1.1 }
+  son:      { gender: male, pitch: 0.96, rate: 1.08 }
+  ivr:      { gender: female, pitch: 1.05, rate: 1.12 }
+  amma:     { gender: female, pitch: 0.96, rate: 1.0 }
+  daughter: { gender: female, pitch: 1.14, rate: 1.06 }
+
+cues:
+  amma.laugh:        amma laugh 800
+  amma.nod:          amma nod 400
+  amma.offer:        amma serve 1000
+  amma.proud:        amma smug 900
+  amma.sheepish:     amma sheepish 600
+  amma.shock:        amma eyes_wide 300
+  amma.sigh:         amma sigh_nod 900
+  amma.smile:        amma smile 1400
+  amma.wave:         amma wave 600
+  ball.bowled:       ball bowled 700
+  birds.arrive:      birds arrive 4500
+  boss.enter:        boss approach 900
+  boss.fume:         boss fume 2600
+  boss.laugh:        boss laugh 900
+  boss.phone:        boss think 1400
+  boss.point:        boss point 1400
+  boss.proud:        boss smile 1200
+  boss.sheepish:     boss sheepish 700
+  boss.shock:        boss eyes_wide 300
+  boss.sigh:         boss sigh_nod 900
+  boss.smug:         boss smug 900
+  boss.stern:        boss look_over_glasses 900
+  bottle.test:       bottle test 2500
+  camera.flash:      flash flash 500
+  candle.light:      candle light 2000
+  chaiwala.fingers:  chaiwala hold_up_fingers 400
+  chaiwala.laugh:    chaiwala laugh 900
+  chaiwala.nod:      chaiwala nod 350
+  chaiwala.pour:     chaiwala pour 1400
+  chaiwala.smile:    chaiwala smile 1200
+  chaiwala.smug:     chaiwala smug 900
+  clock.ring:        clock ring 1200
+  cooker.again:      cooker whistle 1000 -> cooker.last 1300
+  cooker.last:       cooker whistle 1000
+  cooker.whistle:    cooker whistle 1000
+  cow.chew:          cow chew 900
+  cow.leave:         cow walk_off 2400
+  cow.look:          cow look 900
+  crane.swing:       crane swing 4000
+  cricket.delivery:  kid bowl 600 -> ball.bowled 830, dev.swing 1000, wicket.fall 1360, dev.shock 1560
+  crowd.bustle:      fg.crowd bustle 800
+  crowd.clap:        crowd clap 3200
+  crowd.laugh:       crowd laugh 1800
+  daughter.nod:      daughter nod 400
+  daughter.point:    daughter point 1400
+  daughter.sheepish: daughter sheepish 600
+  daughter.smile:    daughter smile 1400
+  dev.arrive:        dev look_around 600
+  dev.bag_drop:      dev bag_drop 500 sfx.thud
+  dev.bag_lift:      dev bag_heft 400
+  dev.belly:         dev belly 1600
+  dev.cheer:         dev cheer 900
+  dev.eat:           dev eat 2400
+  dev.facepalm:      dev facepalm 900
+  dev.fingers:       dev hold_up_fingers 400
+  dev.fume:          dev fume 2200
+  dev.giggle:        dev giggle 1800
+  dev.happy:         dev smile 1200
+  dev.head_shake:    dev head_shake 500
+  dev.laugh:         dev laugh 700
+  dev.nod:           dev nod 350
+  dev.proud:         dev smug 900
+  dev.sheepish:      dev sheepish 600
+  dev.shock:         dev eyes_wide 300
+  dev.shrug:         dev shrug 450
+  dev.sigh:          dev sigh_nod 900
+  dev.sigh_nod:      dev sigh_nod 500
+  dev.slap:          dev slap 400 -> mosquito.dodge 220
+  dev.smile:         dev smile 1200
+  dev.spicy:         dev spicy 2800
+  dev.swing:         dev swing 400
+  dev.toss:          dev toss 800
+  dev.type:          dev type 3000
+  dev.wake:          dev wake 300
+  dev.wave:          dev wave 500
+  diya.light:        diya light 1600
+  fan.creak:         fan spin 2400
+  fan.glance:        fan tap_glow 400
+  fan.spin:          fan spin 3200
+  fire.ignite:       fire ignite 6000
+  fireworks.burst:   fireworks burst 1600
+  fireworks.finale:  fireworks show 4000
+  fireworks.rocket:  fireworks rocket 2600
+  fireworks.show:    fireworks show 4000
+  flood.rise:        flood rise 2400
+  flowers.float:     marigolds float 3000
+  foam.drift:        foam drift 6000
+  kid.cheer:         kid cheer 900
+  kid.look:          kid look_over_glasses 900
+  kid.smug:          kid smug 900
+  kid.wave:          kid wave 500
+  landlady.approach: landlady approach 900
+  landlady.fingers:  landlady hold_up_fingers 400
+  landlady.happy:    landlady cheer 900
+  landlady.laugh:    landlady laugh 900
+  landlady.look:     landlady look_over_glasses 900
+  landlady.nod:      landlady nod 400
+  landlady.offer:    landlady serve 1000
+  landlady.proud:    landlady smile 1200
+  landlady.serve:    landlady serve 1000
+  landlady.sheepish: landlady sheepish 700
+  landlady.shock:    landlady eyes_wide 300
+  landlady.shrug:    landlady shrug 700
+  landlady.sigh:     landlady sigh_nod 900
+  landlady.sighnod:  landlady sigh_nod 700
+  landlady.smile:    landlady smile 1400
+  landlady.smug:     landlady smug 900
+  landlady.stern:    landlady look_over_glasses 900
+  landlady.ten:      landlady hold_up_ten 500
+  landlady.think:    landlady think 1600
+  landlady.wave:     landlady wave 600
+  lights.blink:      lights blink 4000
+  meter.broken:      meter show_broken 400
+  meter.tap:         meter tap_glow 400
+  mic.squeal:        mic squeal 1200
+  mosquito.buzz:     mosquito buzz 3200
+  mosquito.dodge:    mosquito dodge 2200
+  neta.laugh:        neta laugh 900
+  neta.namaste:      neta namaste 1600
+  notice.flutter:    notice flutter 2500
+  pipe.pour:         pipe pour 6000
+  poster.reveal:     poster reveal 1000
+  priya.cheer:       priya cheer 900
+  priya.eyeroll:     priya shrug 700
+  priya.fingers:     priya hold_up_fingers 400
+  priya.laugh:       priya laugh 600
+  priya.proud:       priya smug 900
+  priya.sheepish:    priya sheepish 700
+  priya.shock:       priya eyes_wide 300
+  priya.sigh:        priya sigh_nod 500
+  priya.smile:       priya smile 1200
+  priya.wave:        priya wave 450
+  rain.start:        rain start 1200
+  raju.fingers:      raju hold_up_fingers 400
+  raju.laugh:        raju laugh 700
+  raju.nod:          raju nod 400
+  raju.proud:        raju smug 900
+  raju.shoo:         raju wave 450
+  raju.shrug:        raju shrug 700
+  raju.sigh:         raju sigh_nod 900
+  raju.smile:        raju smile 1400
+  raju.wave:         raju wave 500
+  road.bump:         pothole bump 500 -> dev.shock 250
+  room.cut:          power cut 900
+  screen.call:       screen call 900
+  screen.chart:      screen chart 1200
+  screen.clap:       screen clap 2400
+  screen.crash:      screen crash 1400
+  screen.fix:        screen fix 1200
+  screen.watch:      screen watch 2000
+  signal.green:      signal go_green 400
+  sky.darken:        rain darken 1200
+  son.laugh:         son laugh 700
+  son.nod:           son nod 400
+  son.sheepish:      son sheepish 700
+  son.sigh:          son sigh_nod 900
+  son.smile:         son smile 1200
+  son.wave:          son wave 500
+  sparkler.light:    sparkler light 4000
+  speaker.announce:  speaker announce 3000
+  stove.light:       stove light 1000
+  stove.out:         stove out 600
+  wicket.fall:       wicket fall 500
+  zs.drift:          zs drift 4000
