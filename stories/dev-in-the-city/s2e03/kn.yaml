@@ -1,0 +1,312 @@
+# s2e03 in Kannada. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: ಹೆಸರು | hesaru | Name
+tease: ಭಾನುವಾರ. | bhaanuvaara. | Sunday.
+
+b01:
+  say: ಬೆಳಿಗ್ಗೆ. ಬೆಂಕಿ ಆರಿದೆ. ನೀರಿನ ಮೇಲೆ ಕಪ್ಪು ಬೂದಿ.
+  en: Morning. The fire is out. Black ash on the water.
+  words: |
+    beLigge                             "morning"
+    benki                               "the fire"
+    aaride:PERF                < aari   "is out"
+    niirina      niir·ina:GEN  < niiru  "the water's"
+    meele                               "on"
+    kappu                               "black"
+    buudi                               "ash"
+
+b02:
+  say: ಫೈರ್ ಎಂಜಿನ್ ಹೋಯ್ತು. ಟಿವಿ ವ್ಯಾನ್ ಹೋಯ್ತು.
+  en: The fire engines have gone. The TV vans have gone.
+  words: |
+    phair                 "fire" loan
+    enjin                 "engines" loan
+    hooytu:PAST  < hoogu  "have gone"
+    Tivi                  "TV" loan
+    vyaan                 "vans" loan
+    hooytu:PAST  < hoogu  "have gone"
+
+b03:
+  say: ಪ್ರತಿ ವರ್ಷ, ಒಂದು ದಿನ ನ್ಯೂಸ್. ಆಮೇಲೆ ಎಲ್ಲರೂ ಮರೀತಾರೆ.
+  en: Every year, it's news for one day. Then everyone forgets.
+  words: |
+    prati                 "every"
+    varSha                "year"
+    ondu                  "one"
+    dina                  "day"
+    nyuus                 "news" loan
+    aameele               "then"
+    ellaruu     < ellaru  "everyone"
+    mariitaare  < mare    "forget"
+
+b04:
+  say: ಮೇಡಂ... ಸಾರಿ.
+  en: Madam... I'm sorry.
+  words: |
+    meeDam  "madam" loan
+    saari   "sorry" loan
+
+b05:
+  say: ಅಮ್ಮ ಏನೂ ಹೇಳಲ್ಲ. ಒಂದು ಫ್ಲಾಸ್ಕ್ ತೆಗೀತಾರೆ.
+  en: Amma doesn't say anything. She takes out a flask.
+  words: |
+    amma                   "Amma (Dev's mum)"
+    eenuu                  "anything"
+    heeLalla:NEG  < heeLu  "doesn't say"
+    ondu                   "a"
+    phlaask                "flask" loan
+    tegiitaare    < tege   "takes out"
+
+b06:
+  say: ಟೀ. ನನ್ನ ಕೈಯಿಂದ.
+  en: Tea. Made by my own hands.
+  words: |
+    Tii                             "tea" loan
+    nanna                           "my"
+    kaiyinda  kai·yinda:ABL  < kai  "from (my) hands"
+
+b07:
+  say: ಎರಡು ಚಮಚ ಸಕ್ಕರೆ?
+  en: Two spoons of sugar?
+  words: |
+    eraDu     "two"
+    chamacha  "spoons"
+    sakkare   "sugar?"
+
+b08:
+  say: ಮೂರು. ಇವತ್ತು ಕೆಟ್ಟ ದಿನ.
+  en: Three. Today's a bad day.
+  words: |
+    muuru   "three"
+    ivattu  "today (is)"
+    keTTa   "bad"
+    dina    "day"
+
+b09:
+  say: ಸಂಜೆ. ಇಬ್ಬರೂ ಬಾಗಿಲ ಹತ್ರ ಕೂತಿದ್ದಾರೆ.
+  en: Evening. The two of them, sitting at the door.
+  words: |
+    sanje                        "evening"
+    ibbaruu           < ibbaru   "the two of them"
+    baagila:GEN       < baagilu  "the door's"
+    hatra                        "by (near)"
+    kuutiddaare:PROG  < kuuru    "are sitting"
+
+b10:
+  say: ಒಂದು ಪ್ರಶ್ನೆ ಕೇಳ್ಲಾ?
+  en: May I ask you something?
+  words: |
+    ondu                "a"
+    prashne             "question"
+    keeLlaa:Q  < keeLu  "shall I ask?"
+
+b11:
+  say: ಕೇಳಿ.
+  en: Ask.
+  words: |
+    keeLi:IMP.HON  < keeLu  "ask"
+
+b12:
+  say: ನಿಮ್ಮ ಹೆಸರೇನು?
+  en: What is your name?
+  words: |
+    nimma                "your"
+    hesareenu  < hesaru  "name, what is it?"
+
+b13:
+  say: ಓನರ್ ಅಮ್ಮ ಸುಮ್ಮನಾಗ್ತಾರೆ.
+  en: The landlady goes quiet.
+  words: |
+    oonar                         "owner (the landlady)" loan
+    amma                          "(madam)"
+    summanaagtaare  < summanaagu  "goes quiet"
+
+b14:
+  say: ಮೂವತ್ತು ವರ್ಷ ಈ ಮನೆಯಲ್ಲಿ. ಎಲ್ಲರೂ 'ಓನರ್ ಅಮ್ಮ' ಅಂತಾರೆ.
+  en: Thirty years in this house. Everyone calls me 'Owner Amma'.
+  words: |
+    muuvattu                             "thirty"
+    varSha                               "years"
+    ii                                   "this"
+    maneyalli  mane·yalli:LOC  < mane    "in (the) house"
+    ellaruu                    < ellaru  "everyone"
+    oonar                                "owner (the landlady)" loan
+    amma                                 "amma ('Owner Amma')"
+    antaare                    < annu    "call (say)"
+
+b15:
+  say: ಬಾಡಿಗೆಯವರು, ಹಾಲಿನವನು, ಅಕ್ಕಪಕ್ಕದವರು. ಯಾರೂ ಹೆಸರು ಕೇಳಲ್ಲ.
+  en: Tenants, the milkman, the neighbours. Nobody asks my name.
+  words: |
+    baaDigeyavaru    < baaDige  "tenants"
+    haalinavanu      < haalu    "the milkman"
+    akkapakkadavaru             "the neighbours"
+    yaaruu                      "nobody"
+    hesaru                      "name"
+    keeLalla:NEG     < keeLu    "asks"
+
+b16:
+  say: ಶಾರದಾ. ನನ್ನ ಹೆಸರು ಶಾರದಾ.
+  en: Sharada. My name is Sharada.
+  words: |
+    shaaradaa  "Sharada" name
+    nanna      "my"
+    hesaru     "name (is)"
+    shaaradaa  "Sharada" name
+
+b17:
+  say: ಶಾರದಾ. ಎಷ್ಟು ಚೆಂದದ ಹೆಸರು.
+  en: Sharada. What a lovely name.
+  words: |
+    shaaradaa            "Sharada" name
+    eShTu                "what a"
+    chendada   < chenda  "lovely"
+    hesaru               "name"
+
+b18:
+  say: ನನ್ನ ಹೆಸರು ಸುನೀತಾ.
+  en: My name is Sunita.
+  words: |
+    nanna     "my"
+    hesaru    "name (is)"
+    suniitaa  "Sunita" name
+
+b19:
+  say: ಸುನೀತಾ.
+  en: Sunita.
+  words: |
+    suniitaa  "Sunita." name
+
+b20:
+  say: ಎರಡು ಹೆಸರು. ತುಂಬಾ ದಿನದ ಮೇಲೆ, ಜೋರಾಗಿ.
+  en: Two names. Said out loud, for the first time in a long while.
+  words: |
+    eraDu               "two"
+    hesaru              "names"
+    tumbaa              "very"
+    dinada:GEN  < dina  "days'"
+    meele               "after (a long time)"
+    jooraagi            "out loud"
+
+b21:
+  say: ಮರುದಿನ. ಶಾರದಾ ಅವರ ಅಡುಗೆಮನೆಯಲ್ಲಿ.
+  en: The next day. In Sharada's kitchen.
+  words: |
+    marudina                                          "the next day"
+    shaaradaa                                         "Sharada" name
+    avara:GEN                            < avaru      "('s)"
+    aDugemaneyalli  aDugemane·yalli:LOC  < aDugemane  "kitchen (in)"
+
+b22:
+  say: ಇವತ್ತು ಬಿಸಿಬೇಳೆಬಾತ್ ಹೇಳ್ಕೊಡ್ತೀನಿ.
+  en: Today I'll teach you bisi bele bath.
+  words: |
+    ivattu                                              "today"
+    bisibeeLebaat                                       "bisi bele bath (hot lentil rice)"
+    heeLkoDtiini   heeLkoD·tiini:PRES.1SG  < heeLikoDu  "I'll teach (you)"
+
+b23:
+  say: ಮತ್ತೆ ನಾನು ನಿಮಗೆ ರಾಜ್ಮಾ ಹೇಳ್ಕೊಡ್ತೀನಿ.
+  en: And I'll teach you rajma.
+  words: |
+    matte                                              "and"
+    naanu                                              "I"
+    nimage:DIR                            < niivu      "to you"
+    raajmaa                                            "rajma (kidney beans)"
+    heeLkoDtiini  heeLkoD·tiini:PRES.1SG  < heeLikoDu  "will teach"
+
+b24:
+  say: ...ಬೆಳ್ಳುಳ್ಳಿ ಇಲ್ದೆ?
+  en: ...Without garlic?
+  words: |
+    beLLuLLi          "garlic"
+    ilde      < illa  "without?"
+
+b25:
+  say: ಬೆಳ್ಳುಳ್ಳಿ ಇಲ್ದೆ.
+  en: Without garlic.
+  words: |
+    beLLuLLi          "garlic"
+    ilde      < illa  "without"
+
+b26:
+  say: ಎರಡು ಭಾಷೆ. ಒಂದು ಒಲೆ.
+  en: Two languages. One stove.
+  words: |
+    eraDu    "two"
+    bhaaShe  "languages"
+    ondu     "one"
+    ole      "stove"
+
+b27:
+  say: ಇದಕ್ಕೆ ಏನಂತಾರೆ?
+  en: What do you call this?
+  words: |
+    idakke:DIR  < idu   "this (for)"
+    eenantaare  < annu  "what do (you) call?"
+
+b28:
+  say: ಕರಿಬೇವು.
+  en: Karibevu. Curry leaves.
+  words: |
+    karibeevu  "karibevu (curry leaves)"
+
+b29:
+  say: ಕರಿ... ಬೇವು?
+  en: Kari... bevu?
+  words: |
+    kari   "kari..."
+    beevu  "bevu?"
+
+b30:
+  say: ಸರಿ! ಸೂಪರ್!
+  en: Right! Well done!
+  words: |
+    sari    "right!"
+    suupar  "super!" loan
+
+b31:
+  say: ಮರುದಿನ ಬೆಳಿಗ್ಗೆ. ದೇವ್, ರಾಜು ಕೆರೆ ಹತ್ರ.
+  en: The next morning. Dev and Raju, by the lake.
+  words: |
+    marudina  "the next day"
+    beLigge   "morning"
+    dev       "Dev" name
+    raaju     "Raju" name
+    kere      "the lake"
+    hatra     "by (near)"
+
+b32:
+  say: ಬೇಲಿ ಮೇಲೆ ಒಂದು ಹೊಸ ಬೋರ್ಡ್. ಒಂದು ನೋಟೀಸ್.
+  en: A new board on the fence. A notice.
+  words: |
+    beeli    "the fence"
+    meele    "on"
+    ondu     "a"
+    hosa     "new"
+    boorD    "board" loan
+    ondu     "a"
+    nooTiis  "notice" @notice.flutter loan
+
+b33:
+  say: "'ಕೆರೆಯ ಒಂದು ಭಾಗ ಮುಚ್ಚಲಾಗುವುದು.'"
+  en: "'Part of the lake will be filled in.'"
+  words: |
+    kereya:GEN            < kere     "the lake's"
+    ondu                             "one"
+    bhaaga                           "part"
+    muchchalaaguvudu:FUT  < muchchu  "will be filled in (formal)"
+
+b34:
+  say: ಯಾಕೆ?
+  en: Why?
+  words: |
+    yaake  "why?"
+
+b35:
+  say: "'ಅಪಾರ್ಟ್ಮೆಂಟ್ಗಾಗಿ.'"
+  en: "'For apartments.'"
+  words: |
+    apaarTmenTgaagi  apaarTmenT·gaagi:DIR  < apaarTmenT  "for apartments." loan

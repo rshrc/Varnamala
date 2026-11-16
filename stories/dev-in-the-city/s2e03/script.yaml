@@ -1,0 +1,74 @@
+# s2e03: Name. Who is where, and what happens, beat by beat.
+# Format: stories/README.md
+
+p1:
+  set: lake_dawn
+  cast:
+    dev:      standing @ 0.12
+    amma:     standing @ 0.28
+    landlady: arms_crossed @ 0.5
+  props:
+    ash: ash
+  beats:
+    b01: { who: narrator, tags: [softly], start: [foam.drift] }
+    b02: { who: narrator, tags: [softly] }
+    b03: { who: landlady, mood: weary, icons: [calendar, "no"], tags: [tiredly], start: [landlady.sigh] }
+    b04: { who: dev, mood: wary, icons: [heart, "no"], tags: [softly], start: [dev.sigh] }
+    b05: { who: narrator, start: [amma.offer] }
+    b06: { who: amma, mood: happy, icons: [tea, heart], tags: [warmly], start: [amma.smile] }
+    b07: { who: landlady, mood: curious, icons: [tea, question], tags: [softly], start: [landlady.smile] }
+    b08: { who: amma, mood: amused, icons: [tea, heart], digits: "3", tags: [gently], start: [amma.laugh] }
+
+p2:
+  set: pg_door_night
+  cast:
+    amma:     standing @ 0.4
+    landlady: arms_crossed @ 0.68
+  beats:
+    b09: narrator
+    b10: { who: amma, mood: curious, icons: [question, person], tags: [gently] }
+    b11: { who: landlady, mood: happy, icons: [ok], start: [landlady.nod] }
+    b12: { who: amma, mood: curious, icons: [person, question], tags: [gently] }
+    b13: { who: narrator, tags: [softly], start: [landlady.look] }
+    b14: { who: landlady, mood: wary, icons: [house, calendar], digits: "30", tags: [softly] }
+    b15: { who: landlady, mood: wary, icons: [person, "no"], tags: [softly] }
+    b16: { who: landlady, mood: happy, icons: [person, heart], tags: [softly], start: [landlady.smile] }
+    b17: { who: amma, mood: happy, icons: [person, heart], tags: [warmly], start: [amma.smile] }
+    b18: { who: amma, mood: happy, icons: [person, ok], tags: [warmly] }
+    b19: { who: landlady, mood: happy, icons: [person, heart], tags: [softly], start: [landlady.nod] }
+    b20: { who: narrator, tags: [softly] }
+
+p3:
+  set: kitchen
+  cast:
+    amma:     standing @ 0.46
+    landlady: cooking @ 0.78
+  props:
+    stove:  stove_flame
+    cooker: cooker
+  beats:
+    b21: narrator
+    b22: { who: landlady, mood: proud, icons: [plate, heart], start: [landlady.serve] }
+    b23: { who: amma, mood: proud, icons: [plate, ok] }
+    b24: { who: landlady, mood: sly, icons: [question], start: [landlady.look] }
+    b25: { who: amma, mood: amused, icons: [ok, heart], start: [amma.laugh] }
+    b26: { who: narrator, tags: [warmly], start: [cooker.whistle] }
+    b27: { who: amma, mood: curious, icons: [question] }
+    b28: { who: landlady, mood: proud, icons: [speech, ok] }
+    b29: { who: amma, mood: wary, icons: [speech, question], tags: [carefully] }
+    b30: { who: landlady, mood: happy, icons: [ok, heart], start: [landlady.laugh] }
+
+p4:
+  set: lake_dawn
+  cast:
+    dev:  standing @ 0.42
+    raju: standing @ 0.14
+  props:
+    ash:    ash
+    notice: notice
+  beats:
+    b31: narrator
+    b32: narrator
+    b33: { who: dev, mood: curious, icons: [poster, question], tags: [reading slowly] }
+    b34: { who: raju, mood: shocked, icons: [water, question], start: [raju.shrug] }
+    b35: { who: dev, mood: shocked, icons: [house, "no"], start: [dev.shock], cliffhanger: true }

@@ -1,0 +1,350 @@
+# s2e03 in Hindi. Each word of a line, one per row:
+#   roman[:FN]  [part·part:FN]  [< lemma]  "gloss"  [@cue] [loan] [name] [=native]
+# Format: stories/README.md
+
+title: नाम | naam | Name
+tease: रविवार। | ravivaar. | Sunday.
+
+b01:
+  say: सुबह। आग बुझ गई है। पानी पर काली राख।
+  en: Morning. The fire is out. Black ash on the water.
+  words: |
+    subah                 "morning"
+    aag                   "the fire"
+    bujh       < bujhnaa  "out"
+    gaii:PERF  < jaanaa   "(has gone)"
+    hai        < honaa    "(is)"
+    paanii                "the water"
+    par:LOC               "on"
+    kaalii     < kaalaa   "black"
+    raakh                 "ash"
+
+b02:
+  say: दमकल चली गई। टीवी वाले चले गए।
+  en: The fire engines have gone. The TV vans have gone.
+  words: |
+    damkal                "the fire engines"
+    chalii     < chalnaa  "gone"
+    gaii:PERF  < jaanaa   "(have)"
+    Tiivii                "TV" loan
+    vaale      < vaalaa   "people"
+    chale      < chalnaa  "gone"
+    gae:PERF   < jaanaa   "(have)"
+
+b03:
+  say: हर साल, एक दिन की ख़बर। फिर सब भूल जाते हैं।
+  en: Every year, it's news for one day. Then everyone forgets.
+  words: |
+    har                  "every"
+    saal                 "year"
+    ek                   "one"
+    din                  "day"
+    kii:GEN              "'s"
+    khabar               "news"
+    phir                 "then"
+    sab                  "everyone"
+    bhuul    < bhuulnaa  "forget"
+    jaate    < jaanaa    "(go)"
+    hai~     < honaa     "(are)"
+
+b04:
+  say: आंटी... सॉरी।
+  en: Aunty... I'm sorry.
+  words: |
+    aanTii  "aunty" loan
+    sorii   "sorry" loan
+
+b05:
+  say: माँ कुछ नहीं कहतीं। एक थर्मस निकालती हैं।
+  en: Amma doesn't say anything. She takes out a flask.
+  words: |
+    maa~                     "Ma (Dev's mum)"
+    kuchh                    "anything"
+    nahii~:NEG               "not"
+    kahtii~     < kahnaa     "say"
+    ek                       "a"
+    tharmas                  "flask (thermos)" loan
+    nikaaltii   < nikaalnaa  "takes out"
+    hai~        < honaa      "(are)"
+
+b06:
+  say: चाय। मेरे हाथ की।
+  en: Tea. Made by my own hands.
+  words: |
+    chaay             "tea"
+    mere     < meraa  "my"
+    haath             "hands"
+    kii:GEN           "(made by)"
+
+b07:
+  say: दो चम्मच चीनी?
+  en: Two spoons of sugar?
+  words: |
+    do        "two"
+    chammach  "spoons"
+    chiinii   "sugar?"
+
+b08:
+  say: तीन। आज बुरा दिन है।
+  en: Three. Today's a bad day.
+  words: |
+    tiin            "three"
+    aaj             "today"
+    buraa           "bad"
+    din             "day"
+    hai    < honaa  "(is)"
+
+b09:
+  say: शाम। दोनों दरवाज़े पर बैठी हैं।
+  en: Evening. The two of them, sitting at the door.
+  words: |
+    shaam                  "evening"
+    dono~                  "the two of them"
+    darvaaze  < darvaazaa  "the door"
+    par:LOC                "at"
+    baiThii   < baiThnaa   "sitting"
+    hai~      < honaa      "(are)"
+
+b10:
+  say: एक बात पूछूँ?
+  en: May I ask you something?
+  words: |
+    ek                      "one"
+    baat                    "thing"
+    puuchhuu~  < puuchhnaa  "may I ask?"
+
+b11:
+  say: पूछिए।
+  en: Ask.
+  words: |
+    puuchhie:IMP.HON  < puuchhnaa  "ask"
+
+b12:
+  say: आपका नाम क्या है?
+  en: What is your name?
+  words: |
+    aapkaa           "your"
+    naam             "name"
+    kyaa             "what"
+    hai     < honaa  "is?"
+
+b13:
+  say: आंटी चुप हो जाती हैं।
+  en: The landlady goes quiet.
+  words: |
+    aanTii            "aunty (the landlady)" loan
+    chup              "quiet"
+    ho      < honaa   "become"
+    jaatii  < jaanaa  "(goes)"
+    hai~    < honaa   "(are)"
+
+b14:
+  say: तीस साल इस घर में। सब 'आंटी' बोलते हैं।
+  en: Thirty years in this house. Everyone calls me 'Aunty'.
+  words: |
+    tiis               "thirty"
+    saal               "years"
+    is                 "this"
+    ghar               "house"
+    me~:LOC            "in"
+    sab                "everyone"
+    aanTii             "'aunty'" loan
+    bolte    < bolnaa  "call (say)"
+    hai~     < honaa   "(are)"
+
+b15:
+  say: किराएदार, दूधवाला, पड़ोसी। कोई नाम नहीं पूछता।
+  en: Tenants, the milkman, the neighbours. Nobody asks my name.
+  words: |
+    kiraaedaar                "tenants"
+    duudhvaalaa               "the milkman"
+    paDosii                   "the neighbours"
+    koii                      "anyone"
+    naam                      "name"
+    nahii~:NEG                "no"
+    puuchhtaa    < puuchhnaa  "asks"
+
+b16:
+  say: कमला। मेरा नाम कमला है।
+  en: Kamla. My name is Kamla.
+  words: |
+    kamlaa           "Kamla" name
+    meraa            "my"
+    naam             "name"
+    kamlaa           "Kamla" name
+    hai     < honaa  "(is)"
+
+b17:
+  say: कमला। कितना सुंदर नाम है।
+  en: Kamla. What a lovely name.
+  words: |
+    kamlaa           "Kamla" name
+    kitnaa           "how"
+    sundar           "lovely (beautiful)"
+    naam             "name"
+    hai     < honaa  "(is)"
+
+b18:
+  say: मेरा नाम शम्पा है।
+  en: My name is Shampa.
+  words: |
+    meraa             "my"
+    naam              "name"
+    shampaa           "Shampa" name
+    hai      < honaa  "(is)"
+
+b19:
+  say: शम्पा।
+  en: Shampa.
+  words: |
+    shampaa  "Shampa." name
+
+b20:
+  say: दो नाम। बहुत दिनों बाद, ज़ोर से।
+  en: Two names. Said out loud, for the first time in a long while.
+  words: |
+    do            "two"
+    naam          "names"
+    bahut         "many"
+    dino~  < din  "days"
+    baad          "after"
+    zor           "loud"
+    se            "(ly)"
+
+b21:
+  say: अगले दिन। कमला जी की रसोई में।
+  en: The next day. In Kamla-ji's kitchen.
+  words: |
+    agle     < aglaa  "the next"
+    din               "day"
+    kamlaa            "Kamla" name
+    jii               "-ji (respect)"
+    kii:GEN           "'s"
+    rasoii            "kitchen"
+    me~:LOC           "in"
+
+b22:
+  say: आज कढ़ी पकौड़ा सिखाती हूँ।
+  en: Today I'll teach you kadhi pakoda.
+  words: |
+    aaj                     "today"
+    kaDhii                  "kadhi (yoghurt curry)"
+    pakauDaa                "pakoda (fritters)"
+    sikhaatii  < sikhaanaa  "teach"
+    huu~       < honaa      "(I'll)"
+
+b23:
+  say: और मैं आपको आलू पोस्तो सिखाऊँगी।
+  en: And I'll teach you aloo posto.
+  words: |
+    aur                            "and"
+    mai~                           "I"
+    aapko             < aap        "you"
+    aaluu                          "potatoes"
+    posto                          "posto (in poppy seed, Bengali)"
+    sikhaauu~gii:FUT  < sikhaanaa  "will teach"
+
+b24:
+  say: ...लहसुन के बिना?
+  en: ...Without garlic?
+  words: |
+    lahsun  "garlic"
+    ke:GEN  "(of)"
+    binaa   "without?"
+
+b25:
+  say: लहसुन के बिना।
+  en: Without garlic.
+  words: |
+    lahsun  "garlic"
+    ke:GEN  "(of)"
+    binaa   "without"
+
+b26:
+  say: दो भाषाएँ। एक चूल्हा।
+  en: Two languages. One stove.
+  words: |
+    do                         "two"
+    bhaashaae~:PL  < bhaashaa  "languages"
+    ek                         "one"
+    chuulhaa                   "stove"
+
+b27:
+  say: इसे क्या कहते हैं?
+  en: What do you call this?
+  words: |
+    ise    < ye      "this"
+    kyaa             "what"
+    kahte  < kahnaa  "call (say)"
+    hai~   < honaa   "do (you)?"
+
+b28:
+  say: कढ़ी पत्ता।
+  en: Kadhi patta. Curry leaves.
+  words: |
+    kaDhii  "kadhi"
+    pattaa  "leaf (curry leaves)"
+
+b29:
+  say: कढ़ी... पत्ता?
+  en: Kadhi... patta?
+  words: |
+    kaDhii  "kadhi..."
+    pattaa  "patta?"
+
+b30:
+  say: सही! शाबाश!
+  en: Right! Well done!
+  words: |
+    sahii      "right!"
+    shaabaash  "well done!"
+
+b31:
+  say: अगली सुबह। देव और राजू झील के पास।
+  en: The next morning. Dev and Raju, by the lake.
+  words: |
+    aglii   < aglaa  "the next"
+    subah            "morning"
+    dev              "Dev" name
+    aur              "and"
+    raajuu           "Raju" name
+    jhiil            "the lake"
+    ke:GEN           "(of)"
+    paas             "by (near)"
+
+b32:
+  say: बाड़ पर एक नया बोर्ड। एक नोटिस।
+  en: A new board on the fence. A notice.
+  words: |
+    baaD     "the fence"
+    par:LOC  "on"
+    ek       "a"
+    nayaa    "new"
+    borD     "board" loan
+    ek       "a"
+    noTis    "notice" @notice.flutter loan
+
+b33:
+  say: "'झील का एक हिस्सा भरा जाएगा।'"
+  en: "'Part of the lake will be filled in.'"
+  words: |
+    jhiil                   "the lake"
+    kaa:GEN                 "'s"
+    ek                      "one"
+    hissaa                  "part"
+    bharaa       < bharnaa  "filled"
+    jaaegaa:FUT  < jaanaa   "will be"
+
+b34:
+  say: क्यों?
+  en: Why?
+  words: |
+    kyo~  "why?"
+
+b35:
+  say: "'अपार्टमेंट के लिए।'"
+  en: "'For apartments.'"
+  words: |
+    apaarTmenT  "apartments" loan
+    ke:GEN      "(for)"
+    lie         "for."
